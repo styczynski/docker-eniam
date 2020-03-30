@@ -1,0 +1,178 @@
+@PHRASE_NAMES
+  infp np prepnp adjp ip cp ncp advp padvp
+  adja prepadjp compar measure num aglt aux-fut
+  aux-past aux-imp qub interj hyphen int
+  rparen rparen2 rquot rquot2 rquot3 inclusion
+  day-interval day-lex day-month-interval date-interval
+  month-lex month-interval year-interval roman roman-interval
+  hour-minute-interval hour-interval obj-id match-result
+  url email day-month day year date hour hour-minute
+  się nie by s <root> <conll_root> or or2 <colon> <speaker> <speaker-end> <squery> <sentence> <paragraph>
+  <subst> <depr> <ppron12> <ppron3> <siebie> <prep> <num> <numcomp> <intnum>
+  <realnum> <intnum-interval> <realnum-interval> <symbol> <ordnum>
+  <date> <date-interval> <hour-minute> <hour> <hour-minute-interval>
+  <hour-interval> <year> <year-interval> <day> <day-interval> <day-month>
+  <day-month-interval> <month-interval> <roman> <roman-interval> <roman-ordnum>
+  <match-result> <url> <email> <phone-number> <postal-code> <obj-id> <list-item> <fixed> <adj> <apron> <adjc> <adjp> <adja>
+  <adv> <ger> <pact> <ppas> <fin> <bedzie> <praet> <winien> <impt>
+  <imps> <pred> <aglt> <inf> <pcon> <pant> <qub> <comp> <compar> <conj> <interj>
+  <sinterj> <burk> <interp> <part> <unk> <building-number> do w na MIASTO ORGANIZACJA location time
+  CERTYFIKAT KIERUNEK_STUDIÓW link
+
+@WEIGHTS
+
+@LEXICON
+
+pos=year-interval:              year-interval;
+pos=year:                       year;
+lemma=w,pos=prep,case=loc:      time/(year-interval+year);
+lemma=w,pos=prep,case=loc:      location/np*MIASTO*T*case*T;
+pos=prep:                       QUANT[cat=0] prepnp*cat*lemma*case/np*cat*T*case*T;
+pos=subst:                      np*cat*number*case*gender;
+lemma=następnie,pos=adv:       link;
+lemma=uczęszczać,pos=praet,person=ter,mood=indicative,tense=past:     ip{|time,|prepnp*ORGANIZACJA*do*gen,|location};
+lemma=uzyskać,pos=praet,person=ter,mood=indicative,tense=past:     ip{|time,|np*CERTYFIKAT*T*acc*T};
+lemma=studiować,pos=praet,person=ter,mood=indicative,tense=past:     ip{|(1+link),|np*KIERUNEK_STUDIÓW*T*acc*T,|prepnp*ORGANIZACJA*na*loc};
+
+lemma=</sentence>,pos=interp:     BRACKET s\?(ip+cp*int*T+np*sg*voc*T*T+interj);
+lemma=<sentence>,pos=interp:      BRACKET <root>/s;
+
+
+pos=subst:  <subst>;
+pos=year:  <year>;
+pos=year-interval:  <year-interval>;
+pos=prep:  <prep>;
+pos=depr:  <depr>;
+pos=ppron12:  <ppron12>;
+pos=ppron3:  <ppron3>;
+pos=siebie:  <siebie>;
+pos=num:  <num>;
+pos=numcomp:  <numcomp>;
+pos=intnum:  <intnum>;
+pos=realnum:  <realnum>;
+pos=intnum-interval:  <intnum-interval>;
+pos=realnum-interval:  <realnum-interval>;
+pos=symbol:  <symbol>;
+pos=ordnum:  <ordnum>;
+pos=date:  <date>;
+pos=date-interval:  <date-interval>;
+pos=hour-minute:  <hour-minute>;
+pos=hour:  <hour>;
+pos=hour-minute-interval:  <hour-minute-interval>;
+pos=hour-interval:  <hour-interval>;
+pos=day:  <day>;
+pos=day-interval:  <day-interval>;
+pos=day-month:  <day-month>;
+pos=day-month-interval:  <day-month-interval>;
+pos=month-interval:  <month-interval>;
+pos=roman:  <roman>;
+pos=roman-interval:  <roman-interval>;
+pos=roman-ordnum:  <roman-ordnum>;
+pos=match-result:  <match-result>;
+pos=building-number:  <building-number>;
+pos=url:  <url>;
+pos=email:  <email>;
+pos=phone-number:  <phone-number>;
+pos=postal-code:  <postal-code>;
+pos=list-item:  <list-item>;
+pos=obj-id:  <obj-id>;
+pos=fixed:  <fixed>;
+pos=apron:  <apron>;
+pos=adj:  <adj>;
+pos=adjc:  <adjc>;
+pos=adjp:  <adjp>;
+pos=adja:  <adja>;
+pos=adv:  <adv>;
+pos=ger:  <ger>;
+pos=pact:  <pact>;
+pos=ppas:  <ppas>;
+pos=fin:  <fin>;
+pos=bedzie:  <bedzie>;
+pos=praet:  <praet>;
+pos=winien:  <winien>;
+pos=impt:  <impt>;
+pos=imps:  <imps>;
+pos=pred:  <pred>;
+pos=aglt:  <aglt>;
+pos=inf:  <inf>;
+pos=pcon:  <pcon>;
+pos=pant:  <pant>;
+pos=qub:  <qub>;
+pos=comp:  <comp>;
+pos=conj:  <conj>;
+pos=interj:  <interj>;
+pos=sinterj:  <sinterj>;
+pos=burk:  <burk>;
+pos=interp:  <interp>;
+pos=part:  <part>;
+pos=compar:  <compar>;
+pos=unk:  <unk>;
+pos=subst:  <subst>;
+pos=year:  <year>;
+pos=year-interval:  <year-interval>;
+pos=prep:  <prep>;
+pos=depr:  <depr>;
+pos=ppron12:  <ppron12>;
+pos=ppron3:  <ppron3>;
+pos=siebie:  <siebie>;
+pos=num:  <num>;
+pos=numcomp:  <numcomp>;
+pos=intnum:  <intnum>;
+pos=realnum:  <realnum>;
+pos=intnum-interval:  <intnum-interval>;
+pos=realnum-interval:  <realnum-interval>;
+pos=symbol:  <symbol>;
+pos=ordnum:  <ordnum>;
+pos=date:  <date>;
+pos=date-interval:  <date-interval>;
+pos=hour-minute:  <hour-minute>;
+pos=hour:  <hour>;
+pos=hour-minute-interval:  <hour-minute-interval>;
+pos=hour-interval:  <hour-interval>;
+pos=day:  <day>;
+pos=day-interval:  <day-interval>;
+pos=day-month:  <day-month>;
+pos=day-month-interval:  <day-month-interval>;
+pos=month-interval:  <month-interval>;
+pos=roman:  <roman>;
+pos=roman-interval:  <roman-interval>;
+pos=roman-ordnum:  <roman-ordnum>;
+pos=match-result:  <match-result>;
+pos=building-number:  <building-number>;
+pos=url:  <url>;
+pos=email:  <email>;
+pos=phone-number:  <phone-number>;
+pos=postal-code:  <postal-code>;
+pos=list-item:  <list-item>;
+pos=obj-id:  <obj-id>;
+pos=fixed:  <fixed>;
+pos=apron:  <apron>;
+pos=adj:  <adj>;
+pos=adjc:  <adjc>;
+pos=adjp:  <adjp>;
+pos=adja:  <adja>;
+pos=adv:  <adv>;
+pos=ger:  <ger>;
+pos=pact:  <pact>;
+pos=ppas:  <ppas>;
+pos=fin:  <fin>;
+pos=bedzie:  <bedzie>;
+pos=praet:  <praet>;
+pos=winien:  <winien>;
+pos=impt:  <impt>;
+pos=imps:  <imps>;
+pos=pred:  <pred>;
+pos=aglt:  <aglt>;
+pos=inf:  <inf>;
+pos=pcon:  <pcon>;
+pos=pant:  <pant>;
+pos=qub:  <qub>;
+pos=comp:  <comp>;
+pos=conj:  <conj>;
+pos=interj:  <interj>;
+pos=sinterj:  <sinterj>;
+pos=burk:  <burk>;
+pos=interp:  <interp>;
+pos=part:  <part>;
+pos=compar:  <compar>;
+pos=unk:  <unk>;

@@ -1,0 +1,34 @@
+@PARAM_NAMES
+
+  jak czy za do po o w na z u dla przeciwko celu żeby że bo jaki który to ile  aby
+
+@SELPREF_NAMES
+
+ZDARZENIE OSOBA KIERUNEK_STUDIÓW CERTYFIKAT CZAS UTWÓR
+META STAN OKRES TYTUŁ PRACA AUTOR NUMER
+
+@ROLE_NAMES
+
+@LEXICON
+
+lemma=urodzić,pos2=verb,node=concept|sit:	ZDARZENIE: ;
+lemma=syn,pos2=noun,node=concept|sit:	OSOBA: ;
+lemma=uczęszczać,pos2=verb,node=concept|sit:	ZDARZENIE: ;
+lemma=studiować,pos2=verb,node=concept|sit:	ZDARZENIE: ;
+lemma=architektura,pos2=noun,node=concept|sit:	KIERUNEK_STUDIÓW: ;
+lemma=dyplom,pos2=noun,node=concept|sit:	CERTYFIKAT: ;
+lemma=uzyskać,pos2=verb,node=concept|sit:	ZDARZENIE: ;
+lemma=okres,pos2=noun,node=concept|sit:	CZAS: ;
+lemma=zacząć,pos2=verb,node=concept|sit:	STAN: ;
+lemma=pisać,pos2=verb,node=concept|sit:	ZDARZENIE: ;
+lemma=opowiadanie,pos2=noun,node=concept|sit:	UTWÓR: ;
+lemma=opublikować,pos2=verb,node=concept|sit:	ZDARZENIE: ;
+lemma=okres,pos2=noun,node=concept|sit:	OKRES: ;
+lemma=tytuł,pos2=noun,node=concept|sit:	TYTUŁ: ;
+lemma=praca,pos2=noun,node=concept|sit:	PRACA: ;
+lemma=rozpocząć,pos2=verb,node=concept|sit:	ZDARZENIE: ;
+lemma=dramaturg,pos2=noun,node=concept|sit:	AUTOR: ;
+lemma=utwór,pos2=noun,node=concept|sit:	UTWÓR: ;
+lemma=numer,pos2=noun,node=concept|sit:	NUMER: ;
+lemma=następnie,pos2=adv,node=concept|sit:	META: ;
+

@@ -1,0 +1,35 @@
+rok	ROK
+miesiąc	MIESIĄC
+dzień	DZIEŃ
+dzień tygodnia	DZIEŃ_TYGODNIA
+godzina	GODZINA
+miasto stołeczne, na prawach powiatu	MIASTO
+gmina miejska, miasto stołeczne	MIASTO
+miasto	MIASTO
+wieś	MIASTO
+przysiółek	MIASTO
+osada leśna	MIASTO
+osada	MIASTO
+kolonia	MIASTO
+dzielnica	DZIELNICA
+część miejscowości	DZIELNICA
+część miasta	DZIELNICA
+aleje	ULICA
+aleja	ULICA
+ulica	ULICA
+most	ULICA
+plac	ULICA
+rondo	ULICA
+wiadukt	ULICA
+szosa	ULICA
+trakt	ULICA
+trasa	ULICA
+building-number	NUMER_BLOKU
+geograficzna	
+obj-id	
+data	DZIEŃ
+nazwisko	NAZWISKO
+imię	IMIĘ
+
+
+

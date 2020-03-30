@@ -1,0 +1,27 @@
+I. Uruchamianie subsyntax:
+export ENIAM_RESOURCE_PATH=resources/
+./subsyntax --strong-disamb -h >text.html
+
+II. Uruchamianie parsera w wersji sieciowej:
+export ENIAM_RESOURCE_PATH=resources/
+./subsyntax -m -p 1234 --strong-disamb &
+Poczekaj aż pojawi się „Ready!”
+./domparser --port 1234 --host localhost --no-sem --no-def-cat --output results/
+Poczekaj aż pojawi się „Ready!”
+
+Wpisz zdanie, np: „W 1984-89 uczęszczał do VII Liceum Ogólnokształcącego im. K. K. Baczyńskiego w Szczecinie.” lub „Następnie studiował architekturę na Politechnice Szczecińskiej, dyplom uzyskał w 1994.”.
+Wciśnij dwukrotnie enter.
+
+Otwórz w przeglądarce plik results/parsed_text.html żeby zobaczyć efekt.
+
+III. Uruchamianie parsera w wersji sieciowej bez dezambiguacji leksykalnej:export ENIAM_RESOURCE_PATH=resources/
+./subsyntax -m -p 1234 &
+Poczekaj aż pojawi się „Ready!”
+./domparser --port 1234 --host localhost --no-sem --no-def-cat --output results/
+Poczekaj aż pojawi się „Ready!”
+
+Wpisz zdanie, np: „W 1984-89 uczęszczał do VII Liceum Ogólnokształcącego im. K. K. Baczyńskiego w Szczecinie.” lub „Następnie studiował architekturę na Politechnice Szczecińskiej, dyplom uzyskał w 1994.”.
+Wciśnij dwukrotnie enter.
+
+Otwórz w przeglądarce plik results/parsed_text.html żeby zobaczyć efekt.
+
