@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: eniam
+Version: 0.1
+Summary: Cross-platform python wrapper around ENIAM ()
+Home-page: http://styczynski.in
+Author: styczynski
+Author-email: piotr@styczynski.in
+License: MIT
+Description: README.txt
+Platform: UNKNOWN
