@@ -8,7 +8,7 @@ with open(path.join(this_directory, 'README.md')) as f:
 
 setup(
     name='eniam',
-    version='0.9',
+    version='0.12',
     license='MIT',
     author='styczynski',
     author_email='piotr@styczynski.in',

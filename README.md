@@ -20,7 +20,14 @@ To run ENIAM docker please use the following commands:
 You can install Python wrapper to get a nice wrapper around the docker container (this requires Python +3 and Docker installed):
 ```bash
     $ pip install eniam
-    $ eniam.py sub --help
-    $ eniam.py lex --help
-    $ eniam.py dom --help
+    $ eniam-cli sub --help
+    $ eniam-cli lex --help
+    $ eniam-cli dom --help
 ```
+
+**Note:** Before installing you may wish to add python /bin/ directory to the PATH variable.
+On MacOS for Python 3.7 that would be:
+```bash
+    $ export PATH="$PATH:/usr/local/Cellar/python/3.7.5/Frameworks/Python.framework/Versions/3.7/bin"
+```
+See [setting up Python PATH](https://www.tutorialspoint.com/python/python_environment.htm)
