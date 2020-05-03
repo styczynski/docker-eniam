@@ -1,0 +1,32 @@
+Podziały do zrobienia w semantyce:
+# I podział:
+Czy metatekstowe i/lub wewnątrztekstowe?
+Czy to jest kwantyfikator?
+Albo nieciekawy, ekstensjonalny -- wtedy zaznacz, że trzeba jej nadać rolę tematyczną.
+
++ Zajrzyj do opisu swoich zadań - tam są grupy do opisania.
++ Zaglądaj do listy słów Wojtka C:\Users\Jakub\Documents\ZIL\ENIAM\pre\preSemantics.ml
+
+# II podział:
+Liczbeniki: podział ze względu na dokładność.
+
+# III podział:
+okazjonalność
+deiktyczność
+komparacyjność
+porządek
+koreferencyjność
+
+# Co dzielę:
+
+1. num|prep|qub|interj|burk|comp|conj
+po zebraniu sprawdź, czy liczba nowych linii = semlex + semlex2
+Zadanie: Podziel je na kategorie wg. I podziału. Rzeczy skomplikowańsze zostawiaj do obejrzenia ponownie.
+
+2. adv nieodprzymiotnikowe C:\Users\Jakub\Documents\ZIL\ENIAM\morphology\data\adv_nieodprzymiotnikowe.tab
+Zadanie: Wybierz ciekawe.
+
+3. Pierwsze 5000 słów z listy rankingowej lematów NKJP 1M C:\Users\Jakub\Documents\ZIL\ENIAM\resources\NKJP1M\NKJP1M-lemma-freq.tab
+Zadanie: Wybierz ciekawe.
+
+4. Jak wystarczy czasu, to wybrane jako ciekawe podziel też na kategorie.

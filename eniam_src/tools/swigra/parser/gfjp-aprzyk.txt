@@ -1,0 +1,2182 @@
+%% Przykłady towarzyszące regułom gramatycznym w aneksie do GFJP
+%% zapisane w formacie projektu AMOS:
+%% "Analizator morfologiczno-syntaktyczny dla obszernego podzbioru
+%% języka polskiego" 
+%% KBN 8 S503 032 07, 1994-1996.
+%% Na podstawie instrukcji Janusza S. Bienia plik przygotowała Marta
+%% Nazarczuk-Błońska (?)
+%%
+%%
+%% Copyright (C) 1992 Marek Świdziński
+%%
+%% This program is free software; you can redistribute it and/or modify
+%% it under the terms of the GNU General Public License version 3 as
+%% published by the Free Software Foundation.
+%%
+%% This program is distributed in the hope that it will be useful,
+%% but WITHOUT ANY WARRANTY; without even the implied warranty of
+%% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%% GNU General Public License for more details.
+%%
+%% You should have received a copy of the GNU General Public License
+%% along with this program; if not, write to the Free Software
+%% Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, 
+%% MA 02110-1301, USA 
+%%
+
+%% Plik GFJP_A
+
+% 334
+
+[W1; GFJP A5-1; 1]
+Ja zostałem.
+
+[W1; GFJP A5-1; 2]
+Nie tylko ja zostałem, ale także on pójdzie...
+
+[W1; GFJP A5-1; 3]
+Ja zostałem, ale on pójdzie!
+
+[W1; GFJP A5-1; 4]
+Czy on pójdzie?
+
+% 335
+
+[R2; GFJP A5-2.2; 5]
+Ja zostałem, | a | kto pójdzie?
+
+[R2; GFJP A5-2.2; 6]
+Ona przyszła, <ja zaś zostałem, | ale | kto pójdzie>?
+
+[R2; GFJP A5-2.2; 7]
+Dopóki ona nie przyszła, dopóty <ja nie zostałem, | a | kto pójdzie>?
+
+[*R2; GFJP A5-2.2; 8]
+Czy ja zostałem, | a | kto pójdzie?
+
+[R3; GFJP A5-2.2; 9]
+Ja zostałem, | kto natomiast pójdzie?
+
+[R3; GFJP A5-2.2; 10]
+Ona przyszła, <ja więc zostałem, | kto zaś idzie>?
+
+[R3; GFJP A5-2.2; 11]
+Kiedy ona przyszła, wtedy <ja zostałem, | kto zaś idzie>?
+
+[*R3; GFJP A5-2.2; 12]
+Kto został, | on natomiast pójdzie?
+
+% 336
+
+[R4; GFJP A5-2.3; 13]
+Nie tylko | ja zostałem, | ale także | on pójdzie.
+
+[R4; GFJP A5-2.3; 14]
+Sądzę, że <zarówno | ja zostałem, | jak też | on poszedłby>.
+
+[R4; GFJP A5-2.3; 15]
+Mamy czas, <nie tylko bowiem | ja zostałem, | ale także | on pójdzie>.
+
+[R4; GFJP A5-2.3; 16]
+<Nie tylko | ja nie zostałem, | ale także | on nie pójdzie> 
+ani  ona  nie przyjdzie.
+
+[*R4; GFJP A5-2.3; 17]
+<Nie tylko | ja nie zostałem, | ale także | 
+on pójdzie> ani ona nie przyjdzie.
+
+[R5; GFJP A5-2.3; 18]
+Ja zostałem, | ale | on pójdzie.
+
+[R5; GFJP A5-2.3; 19]
+Ponieważ <ja zostałem, | natomiast | on pójdzie>, mamy czas.
+
+[R5; GFJP A5-2.3; 20]
+Mamy czas, <ja bowiem zostałem, | ale | on pójdzie>.
+
+[R6; GFJP A5-2.3; 21]
+Ja zostałem, | on zaś pójdzie.
+
+[R6; GFJP A5-2.3; 22]
+Czy <ja zostałem, | on zaś poszedłby>, wątpiono.
+
+[R6; GFJP A5-2.3; 23]
+Ona przyszła, <ja zaś zostałem, | on natomiast pójdzie>.
+
+[*R6; GFJP A5-2.3; 24]
+Ja zostałem, | zaś on pójdzie.
+
+% 337
+
+[R7; GFJP A5-2.4.1; 25]
+Chcę, żeby <nie tylko | on został, | ale także | ona poszła>.
+
+[*R7; GFJP A5-2.4.1; 26]
+Chcę, żeby <nie tylko | zostać, | ale także | ona poszła>.
+
+[*R7; GFJP A5-2.4.1; 27]
+Chcę, żeby <nie tylko | on został, | ale także  | wy poszłyście>.
+
+[*R7; GFJP A5-2.4.1; 28]
+Chcę, żeby <nie tylkoście | zostali, | ale także | ona poszła>.
+
+[R8; GFJP A5-2.4.1; 29]
+Czyżby+<m ja został, | a | on poszedł>?
+
+[*R8; GFJP A5-2.4.1; 30]
+Czyżby+<ś nie został, | a | on nie poszedł>  ani ona nie przyszła?
+
+[*R8; GFJP A5-2.4.1; 31]
+Czyżby+<m ja został, | a | ty poszedłeś>?
+
+[R9; GFJP A5-2.4.1; 32]
+Twierdzili, jakoby+<m ja został, | on zaś poszedł>.
+
+% 338
+
+[R10; GFJP A5-2.4.2; 33]
+Póki <zarówno | ja nie zostałem, | jak i on szedł>, póty ona nie przyszła.
+
+[*R10; GFJP A5-2.4.2; 34]
+Dopóki <zarówno | ja nie zostałem, | jak i on będzie iść>,
+dopóty ona nie przyszła.
+
+[*R10; GFJP A5-2.4.2; 35]
+Dopóki <zarówno | ja nie zostałem, | jak i on szedłby>, 
+dopóty ona nie przyszła.
+
+[R11; GFJP A5-2.4.2; 36]
+Póty <ja zostawałem, | ale | on nie szedł>, póki ona nie przychodziła.
+
+[*R11; GFJP A5-2.4.2; 37]
+Póty <ja zostałem, | ale | on nie szedł>, póki ona nie przychodziła.
+
+[R12; GFJP A5-2.4.2; 38]
+Zanim <ja zostanę, | on zaś pójdzie>, ona przyjdzie.
+
+[*R12; GFJP A5-2.4.2; 39]
+Zanim <ja zostanę, | on zaś poszedł>, ona przyjdzie.
+
+% 339
+
+[R13; GFJP A5-2.4.3; 40]
+Kiedy <tak | ja zostanę, | jak i | on poszedłby>, ona przyjdzie.
+
+[*R13; GFJP A5-2.4.3; 41]
+Kiedy <tak | ja zostanę, | jak i | on poszedł>, ona przyjdzie.
+
+[R14; GFJP A5-2.4.3; 42]
+Wtedy <ja zostałem, | a | on poszedł>, gdy ona przyszła.
+
+[*R14; GFJP A5-2.4.3; 43]
+Wtedy <ja zostanę, | a | on poszedł>, gdy ona przyszła.
+
+[R15; GFJP A5-2.4.3; 44]
+Ponieważ wtedy <ja zostanę, | on zaś pójdzie>, gdy ona przyjdzie, mamy czas.
+
+[*R15; GFJP A5-2.4.3; 45]
+Ponieważ wtedy <ja zostanę, | on zaś poszedł>, gdy ona przyjdzie, mamy czas.
+
+% 340
+
+[S1; GFJP A5-3.1; 46]
+Ja zostanę, on przyjdzie.
+
+[*S1; GFJP A5-3.1; 47]
+Lub ja zostanę, lub on przyjdzie.
+
+[S2; GFJP A5-3.2; 48]
+Czy ja zostanę | i kto pójdzie, i kiedy ona przyjdzie?
+
+[S2; GFJP A5-3.2; 49]
+Mamy  czas,  <ja  bowiem  zostanę | i  on  pójdzie,  i  kiedy   ona przyjdzie>?
+
+[*S2; GFJP A5-3.2; 50]
+Mamy czas, <ja bowiem zostanę | i ty pójdź, i kiedy ona przyjdzie>?
+
+[S3; GFJP A5-3.2; 51]
+Ja zostałem, on pójdzie | albo | kiedy ona przyjdzie?
+
+[S3; GFJP A5-3.2; 52]
+Choćbyśmy  mieli czas, to <czy ja zostanę, on pójdzie | albo | kiedy ona przyjdzie>?
+
+[S3; GFJP A5-3.2; 53]
+Mamy czas, <czy więc ja zostanę | i | kiedy on pójdzie>?
+
+[*S3; GFJP A5-3.2; 54]
+Ja zostałem kto pójdzie | albo | kiedy ona przyjdzie?
+
+% 341
+
+[S4; GFJP A5-3.3; 55]
+Ja zostałem | i on pójdzie, i ona przyjdzie.
+
+[S4; GFJP A5-3.3; 56]
+Jeśli <ja zostałem | bądź on pójdzie, bądź ona przyjdzie>, mamy czas.
+
+[S4; GFJP A5-3.3; 57]
+Mamy czas, <ja przeto zostałem | i on pójdzie, i ona przyjdzie>.
+
+[S4; GFJP A5-3.3; 58]
+Ja nie zostałem | ani on nie pójdzie, ani ona nie przyjdzie.
+
+[*S4; GFJP A5-3.3; 59]
+Ja zostałem, | on pójdzie, i ona przyjdzie.
+
+[*S4; GFJP A5-3.3; 60]
+Ja nie zostałem | ani on pójdzie, ani ona nie przyjdzie.
+
+[S5; GFJP A5-3.3; 61]
+Ja zostałem, on pójdzie | i | ona przyjdzie.
+
+[S5; GFJP A5-3.3; 62]
+Ponieważ <ja zostałem, on pójdzie | lub | ona przyjdzie>, mamy czas.
+
+[S5; GFJP A5-3.3; 63]
+Mamy czas, <ja natomiast zostałem | i | on pójdzie>.
+
+[S5; GFJP A5-3.3; 64]
+Ja nie zostałem | ani | on nie pójdzie.
+
+% 342
+
+[S6; GFJP A5-3.4.1; 65]
+Oni chcieli, by+<m został | i on poszedł, i ona przyszła>.
+
+[*S6; GFJP A5-3.4.1; 66]
+Oni chcieli, by <zostać | i on poszedł, i ona przyszła>.
+
+[*S6; GFJP A5-3.4.1; 67]
+Oni chcieli, by+<m został | i ty poszłaś, i ona przyszła>.
+
+[*S6; GFJP A5-3.4.1; 68]
+Oni chcieli, by <zostałem | i on poszedł, i ona przyszła>.
+
+[S7; GFJP A5-3.4.1; 69]
+Czyżby <one zostały, on poszedł | lub też | ona przyszła>?
+
+[S7; GFJP A5-3.4.1; 70]
+Czyżby ani <one nie zostały  | bądź | on nie poszedł>, ani ona nie przyszła?
+
+[*S7; GFJP A5-3.4.1; 71]
+Czyżby ani <one zostały | bądź | on nie poszedł>, ani ona nie przyszła?
+
+[S8; GFJP A5-3.4.2; 72]
+Póki <ja nie zostanę | i on będzie iść, i ona nie przyjdzie>, póty będziemy mieć czas.
+
+[*S8; GFJP A5-3.4.2; 73]
+Póki <ja nie zostanę | i on poszedł, i ona nie przyjdzie>, póty będziemy mieć czas.
+
+[S9; GFJP A5-3.4.2; 74]
+Nim <ja zostanę, on pójdzie | lub też | ona przyjdzie>, będziemy mieć czas.
+
+[S9; GFJP A5-3.4.2; 75]
+Nim ani <ja nie zostanę | oraz | on nie pójdzie>, ani ona nie przyjdzie, będziemy mieć czas.
+
+[*S9; GFJP A5-3.4.2; 76]
+Nim <ja zostanę, on poszedłby | lub też | ona przyjdzie>, będziemy mieć czas.
+
+% 343
+
+[S10; GFJP A5-3.4.3; 77]
+Gdy <ja zostanę | bądź on pójdzie,  bądź  ona  przyjdzie>,  wówczas będziemy mieć czas.
+
+[*S10; GFJP A5-3.4.3; 78]
+Gdy  <ja  zostanę  |  bądź on poszedł, bądź ona przyjdzie>, wówczas będziemy mieć czas.
+
+[S11; GFJP A5-3.4.3; 79]
+Gdybyśmy mieli czas, to  <ja  zostanę,  on  pójdzie | i  nawet | ona przyjdzie>.
+
+[*S11; GFJP A5-3.4.3; 80]
+Gdybyśmy  mieli  czas,  to <ja zostałem, on pójdzie | i nawet | ona przyjdzie>.
+
+% 344
+
+[J2; GFJP A5-4.2; 81]
+Czy ja zostanę, | czy on pójdzie?
+
+[J2; GFJP A5-4.2; 82]
+Ja zostałem, | kto pójdzie?
+
+[J2; GFJP A5-4.2; 83]
+Dopóki mieliśmy czas, dopóty <ja nie zostałem, | kto pójdzie>?
+
+[J2; GFJP A5-4.2; 84]
+Mamy czas, <ja więc zostałem, | kto pójdzie>?
+
+[*J2; GFJP A5-4.2; 85]
+Dopóki mieliśmy czas, <dopóty ja zostałem, | kto pójdzi>e?
+
+[J3; GFJP A5-4.2; 86]
+Czy ja zostanę, | czy on pójdzie, czy ona przyjdzie?
+
+[J3; GFJP A5-4.2; 87]
+Ja zostałem, kto pójdzie, | czy ona przyjdzie?
+
+[J3; GFJP A5-4.2; 88]
+Gdyby mieć czas, to <ja zostanę, kto pójdzie, | czy ona przyjdzie>?
+
+[J3; GFJP A5-4.2; 89]
+Mamy czas,  <czy  bowiem  ja  zostanę, | czy  on  pójdzie,  czy  ona przyjdzie>?
+
+% 345
+
+[J4; GFJP A5-4.3; 90]
+I | ja zostałem, | i | on pójdzie.
+
+[J4; GFJP A5-4.3; 91]
+Ja zostanę <lub | on pójdzie, | lub | ona przyjdzie>.
+
+[J4; GFJP A5-4.3; 92]
+Wiem, że <ani | ja nie zostanę, | ani | on nie pójdzie>.
+
+[J4; GFJP A5-4.3; 93]
+Mamy czas, <i | zatem ja zostałem, | i | on pójdzie>.
+
+[*J4; GFJP A5-4.3; 94]
+Wiem, że <ani | ja nie zostanę, | ani | on pójdzie>.
+
+[J5; GFJP A5-4.3; 95]
+I | ja zostałem, | i on pójdzie, i ona przyjdzie.
+
+[J5; GFJP A5-4.3; 96]
+Mamy  czas,  ponieważ <bądź | ja zostanę, | bądź on pójdzie, bądź ona przyjdzie>.
+
+[J5; GFJP A5-4.3; 97]
+Ni | ja nie zostanę, | ni on nie pójdzie, ni ona nie przyjdzie.
+
+% 346
+
+[J6; GFJP A5-4.3; 98]
+Ja zostałem, | on pójdzie.
+
+[J6; GFJP A5-4.3; 99]
+Nie wiadomo, <czy ja zostanę, | czy on pójdzie>.
+
+[J6; GFJP A5-4.3; 100]
+Mamy czas, <ja przeto zostałem, | on pójdzie>.
+
+[J6; GFJP A5-4.3; 101]
+Ani <ja nie zostałem, | on nie pójdzie>, ani ona nie przyjdzie.
+
+[*J6; GFJP A5-4.3; 102]
+Ani <ja nie zostałem, | on pójdzie>, ani ona nie przyjdzie.
+
+[J7; GFJP A5-4.3; 103]
+<Ja zostałem, | on pójdzie, ona przyjdzie>, albo nie mamy czasu.
+
+[J7; GFJP A5-4.3; 104]
+Mamy czas, <ja zaś zostałem, | on pójdzie, ona przyjdzie>.
+
+% 347
+
+[J8; GFJP A5-4.4.1; 105]
+Wydaje się, jakby <albo | oni zostali, | albo | on poszedł>.
+
+[J8; GFJP A5-4.4.1; 106]
+Wydaje się, jakby <ani | oni nie zostali, | ani | on nie poszedł>.
+
+[*J8; GFJP A5-4.4.1; 107]
+Wydaje się, jakby <i | zostano, | i | on poszedł>.
+
+[*J8; GFJP A5-4.4.1; 108]
+Wydaje się, jakby <i | oni zostali, | i | wy poszliście>.
+
+[J9; GFJP A5-4.4.1; 109]
+Wydaje się, jakby <albo | oni zostali,  | albo on poszedł, albo ona przyszła> i nie mieli czasu.
+
+[J9; GFJP A5-4.4.1; 110]
+Wydaje się, jakbyśmy nie mieli czasu <i | oni zostali, | i on poszedł, i ona przyszła>.
+
+[J10; GFJP A5-4.4.1; 111]
+Aby+<ś ty został, | on poszedł>, nie radzono.
+
+[J10; GFJP A5-4.4.1; 112]
+Aby+<ś ty nie został, | on nie poszedł ani ona nie przyszła>, nie radzono.
+
+[*J10; GFJP A5-4.4.1; 113]
+Aby+<ś ty został, | my poszłyśmy>, nie radzono.
+
+[J11; GFJP A5-4.4.1; 114]
+Aby+<ś ty został, | on poszedł, ona przyszła>, nie radzono.
+
+% 348
+
+[J12; GFJP A5-4.4.2; 115]
+Zanim <i | ja zostanę, | i | on pójdzie>, będziemy mieć czas.
+
+[*J12; GFJP A5-4.4.2; 116]
+Zanim <i | ja zostanę, | i | on poszedł>, będziemy mieć czas.
+
+[J13; GFJP A5-4.4.2; 117]
+Zanim <bądź | ja zostanę, | bądź on pójdzie, bądź ona przyjdzie>, będziemy mieć czas.
+
+[J13; GFJP A5-4.4.2; 118]
+Zanim dziecko będzie spać <i | ja zostanę, | i on pójdzie, i ona przyjdzie>, będziemy mieć czas.
+
+[J14; GFJP A5-4.4.2; 119]
+Póty <ja zostawałem, | on nie szedł>, póki ona nie przychodziła.
+
+[J14; GFJP A5-4.4.2; 120]
+Póty <ja nie zostawałem, | on nie szedł> ani nie było czasu, póki ona nie przychodziła.
+
+[*J14; GFJP A5-4.4.2; 121]
+Póty <ja zostawałem, | on nie pójdzie>, póki ona nie przychodziła.
+
+[*J14; GFJP A5-4.4.2; 122]
+Póty <ja nie zostawałem, | on szedł> ani nie było czasu, póki ona nie przychodziła.
+
+[J15; GFJP A5-4.4.2; 123]
+Póty <ja zostawałem, | on nie szedł, nie było czasu>, póki ona nie przychodziła.
+
+% 349
+
+[J16; GFJP A5-4.4.3; 124]
+Aż <i | ja zostałem, | i | on poszedł>, był czas.
+
+[*J16; GFJP A5-4.4.3; 125]
+Aż <i | ja zostałem, | i | on pójdzie>, był czas.
+
+[J17; GFJP A5-4.4.3; 126]
+Mieliśmy czas, aż <ani | ja nie zostałem, | ani on  nie  poszedł,  ani ona nie przyszła>.
+
+[*J17; GFJP A5-4.4.3; 127]
+Mieliśmy  czas,  <aż | ani ja nie zostałem, | ani on poszedł, ani ona nie przyszła>.
+
+[J18; GFJP A5-4.4.3; 128]
+Gdybyśmy mieli czas, to <ja zostanę, | on pójdzie> lub ona przyjdzie.
+
+[J19; GFJP A5-4.4.3; 129]
+Gdybyśmy mieli czas, to <ja nie zostanę, | on nie pójdzie, ona nie przyjdzie> ani dziecko nie uśnie. 
+
+% 350
+
+[P2; GFJP A5-5.2.1; 130]
+Choćbym ja został, | to | czy on pójdzie?
+
+[P2; GFJP A5-5.2.1; 131]
+Mamy czas, <chociażbym natomiast ja został, | to | czy on by poszedł>?
+
+[P2; GFJP A5-5.2.1; 132]
+Gdyby zostać, | to | on by poszedł.
+
+[*P2; GFJP A5-5.2.1; 133]
+Gdyby zostać, | to | on poszedł.
+
+% 351
+
+[P3; GFJP A5-5.2.1; 134]
+Póki ja nie zostanę, | póty | kto będzie iść?
+
+[P3; GFJP A5-5.2.1; 135]
+Wiadomo, że <gdy zostawano, | wówczas | on szedł>.
+
+[*P3; GFJP A5-5.2.1; 136]
+Wiadomo, że <gdy zostawano, | wówczas | on będzie iść>?
+
+[P4; GFJP A5-5.2.1; 137]
+Mimo że ja zostanę, | to jednak | on poszedł.
+
+[P4; GFJP A5-5.2.1; 138]
+Mamy czas, <jeśli więc ja zostałem, | to | ty pójdź[!]>!
+
+[P5; GFJP A5-5.2.2; 139]
+Żeby <choćbym ja został, | to | on poszedł>, chcielibyśmy.
+
+[P5; GFJP A5-5.2.2; 140]
+Czyżby, <chociaż ja zostanę, | to | on poszedł>?
+
+[*P5; GFJP A5-5.2.2; 141]
+Żeby, <choćbym ja został, | toście | poszli>, chcielibyśmy.
+
+[P6; GFJP A5-5.2.2; 142]
+Twierdzono, jakoby <dopóki ja nie zostanę, | dopóty | on nie poszedł>.
+
+% 352
+
+[P7; GFJP A5-5.3.1; 143]
+<Dopóty | ja zostawałem | , dopóki on nie szedł>, i było dobrze.
+
+[P7; GFJP A5-5.3.1; 144]
+Mieliśmy czas, <dopóty bowiem | ja zostawałem | , dopóki on nie szedł>.
+
+[P7; GFJP A5-5.3.1; 145]
+Ponieważ <wtedy | zostaniemy | , kiedy on pójdzie>, mamy czas.
+
+[*P7; GFJP A5-5.3.1; 146]
+Ponieważ <wtedy | zostaliśmy | , kiedy on pójdzie>, mamy czas.
+
+[P8; GFJP A5-5.3.2; 147]
+Mielibyśmy czas, gdyby <dopóty | on zostawał | , dopóki ja nie pójdę>, i byłoby dobrze.
+
+[*P8; GFJP A5-5.3.2; 148]
+Mielibyśmy czas, gdyby <dopótyście | zostawały | , póki ja nie pójdę>, i byłoby dobrze.
+
+% 353
+
+[P9; GFJP A5-5.4.1; 149]
+Ja zostanę, | bo | kto poszedł?
+
+[P9; GFJP A5-5.4.1; 150]
+Mamy czas, <ja zaś zostanę, | bo | kto poszedł>?
+
+[*P9; GFJP A5-5.4.2; 151]
+Czy ja zostanę, | bo | kto poszedł?
+
+[P10; GFJP A5-5.4.1; 152]
+Mamy czas, ale <ja nie zostałem, | więc | czy on pójdzie>?
+
+[*P10; GFJP A5-5.4.1; 153]
+Mamy czas, <ale czemu nie zostałem, | więc | czy on pójdzie>?
+
+[P11; GFJP A5-5.4.2; 154]
+Czy ja zostanę, | bo | on poszedł?
+
+[P11; GFJP A5-5.4.2; 155]
+Ja zostałbym, | bo | on pójdzie.
+
+[P11; GFJP A5-5.4.2; 156]
+Nie mamy czasu, <ja więc zostałbym, | bo | on pójdzie>.
+
+[P11; GFJP A5-5.4.2; 157]
+Czyżby+<ście zostali, | gdyż | on pójdzie>?
+
+[P11; GFJP A5-5.4.2; 158]
+Nie wiadomo, <kto został, | bo | on poszedł>.
+
+[P11; GFJP A5-5.4.2; 159]
+Dziewczyna, <która została, | bo | on poszedł>, ma czas.
+
+[P12; GFJP A5-5.4.2; 160]
+Ja zostałem, | zatem | on pójdzie.
+
+[P12; GFJP A5-5.4.2; 161]
+<Że ja zostanę, | więc | on poszedł>, nie było wiadomo.
+
+[*P12; GFJP A5-5.4.2; 162]
+Ja kiedy zostanę, | więc | on poszedł?
+
+[*P12; GFJP A5-5.4.2; 163]
+Aby+<m ja został, | przeto | on poszedł>, chcieliby oni.
+
+% 354
+
+[*P12; GFJP A5-5.4.2; 164]
+O to, <gdzie ja zostanę, | więc | on pójdzie>, im nie chodzi.
+
+[*P12; GFJP A5-5.4.2; 165]
+Dziewczyna, <która została, | przeto | on pójdzie>, ma czas.
+
+[P13; GFJP A5-5.5.1; 166]
+Ja zostanę, | czy bowiem on poszedł?
+
+[P13; GFJP A5-5.5.1; 167]
+Nie mamy czasu, <ja natomiast zostanę, | czy bowiem on idzie>?
+
+[*P13; GFJP A5-5.5.1; 168]
+Ja gdzie zostanę, | czy bowiem on idzie?
+
+[P14; GFJP A5-5.5.1; 169]
+Mamy czas, ale <ja zostałem, | dokąd zatem on pójdzie>?
+
+[*P14; GFJP A5-5.5.1; 170]
+Mamy czas, ale <czemu ja nie zostałem, | dokąd zatem on pójdzie>?
+
+%355
+
+[P15; GFJP A5-5.5.2; 171]
+Ja zostanę po co, | on bowiem poszedł?
+
+[P15; GFJP A5-5.5.2; 172]
+Ja zostałbym, | on bowiem pójdzie.
+
+[P15; GFJP A5-5.5.2; 173]
+Mamy czas, <ja zaś zostałbym, | on bowiem pójdzie>.
+
+[P15; GFJP A5-5.5.2; 174]
+Czyżby+<ście zostali, | on bowiem pójdzie>?
+
+[P16; GFJP A5-5.5.2; 175]
+Ja zostałem, | on zatem pójdzie.
+
+[P16; GFJP A5-5.5.2; 176]
+Że <ja zostanę, | on więc poszedł>, nie było wiadomo.
+
+[*P16; GFJP A5-5.5.2; 177]
+Ja kiedy zostanę, | on więc poszedł?
+
+[*P16; GFJP A5-5.5.2; 178]
+Aby+<m ja został, | on przeto poszedł>, chcieliby oni.
+
+[*P16; GFJP A5-5.5.2; 179]
+Dziewczyna, <która została, | on przeto pójdzie>, ma czas.
+
+% 356
+
+[E1; GFJP A5-6.1.1; 180]
+Kiedy | dał | on | jej | kwiatek?
+
+[E1; GFJP A5-6.1.1; 181]
+Gdzie | idziecie _ _ _?
+
+[E1; GFJP A5-6.1.1; 182]
+Kiedy | kwiatek | on | dał | jej?
+
+[E1; GFJP A5-6.1.1; 183]
+W domu | został | kto?
+
+[E1; GFJP A5-6.1.1; 184]
+Gdzie | kto | został?
+
+[E1; GFJP A5-6.1.1; 185]
+Mamy czas, <w domu zaś | został | kto>?
+
+% 357
+
+[E2; GFJP A5-6.1.1; 186]
+Kogo | pocałowała | dziewczyna _[!] ?
+
+[E2; GFJP A5-6.1.1; 187]
+Chłopca | kto | pocałował?
+
+[E2; GFJP A5-6.1.1; 188]
+Chłopca czemu | pocałowała | dziewczyna?
+
+[E3; GFJP A5-6.1.1; 189]
+Zapomnieli | oni | zaprosić go dlaczego _?
+
+[E4; GFJP A5-6.1.2; 190]
+Wczoraj | powiedziała | mu | ona | , kto przyjdzie.
+
+[E4; GFJP A5-6.1.2; 191]
+Wtedy akurat | przyszedł _ on _.
+
+[E4; GFJP A5-6.1.2; 192]
+Mamy czas, ponieważ <wczoraj | padało>.
+
+[E4; GFJP A5-6.1.2; 193]
+Dopóki <jutro będzie padać>, dopóty będziemy mieć czas.
+
+[E5; GFJP A5-6.1.2; 194]
+Chłopiec | twierdzi | , że nie mamy czasu _.
+
+[E5; GFJP A5-6.1.2; 195]
+Że nie mamy czasu, chłopiec twierdzi.
+
+[E5; GFJP A5-6.1.2; 196]
+Ja zostałem, <że natomiast nie ma czasu, twierdzi chłopiec>.
+
+% 358
+
+[E6; GFJP A5-6.1.2; 197]
+Dał | im | pieniądze | ojciec.
+
+[E6; GFJP A5-6.1.2; 198]
+Dałeś pieniądze.
+
+[*E6; GFJP A5-6.1.2; 199]
+Chcieli, aby <dałeś im pieniądze>.
+
+[E7; GFJP A5-6.1.3.1; 200]
+Radzono nam, aby+<śmy | kupili | mu dziś | rower>.
+
+[E7; GFJP A5-6.1.3.1; 201]
+Radzono nam, aby+<śmy zostali tam>.
+
+[E7; GFJP A5-6.1.3.1; 202]
+Mamy czas, by+<śmy przeto tam zostali>, radzono nam.
+
+[E7; GFJP A5-6.1.3.1; 203]
+Mamy czas, <aby przeto tam zostać>, radzono nam.
+
+% 359
+
+[E8; GFJP A5-6.1.3.2; 204]
+Nie wiadomo, <kiedy | przyjdą _ _ oni>.
+
+[E8; GFJP A5-6.1.3.2; 205]
+Nie wiadomo, <gdzie kto został>.
+
+[E8; GFJP A5-6.1.3.2; 206]
+Mamy czas, <gdzie bowiem on został>, nie wiadomo.
+
+[*E8; GFJP A5-6.1.3.2; 207]
+Nie wiadomo, <w domu został kto>.
+
+[E9; GFJP A5-6.1.3.2; 208]
+<Którego chłopca | pocałowała | ona tam _>, nie wiadomo.
+
+[E9; GFJP A5-6.1.3.2; 209]
+<Którego chłopca kto pocałował>, nie wiadomo.
+
+[*E9; GFJP A5-6.1.3.2; 210]
+<Chłopca czemu pocałowała dziewczyna>, nie wiadomo.
+
+[E10; GFJP A5-6.1.3.2; 211]
+Pytaliśmy, <kogo zaprosić oni zapomnieli _ _ _>.
+
+[E11; GFJP A5-6.1.3.3; 212]
+Dom, <w którym | zostały | one _ _>, należy do ojca.
+
+[*E11; GFJP A5-6.1.3.3; 213]
+Dom, <w którym kto został>, należy do ojca.
+
+[E12; GFJP A5-6.1.3.3; 214]
+Mówiono  o  chłopcu,  <którego  dziewczyna | dostała |  od   rodziny | zaproszenie>.
+
+[E12; GFJP A5-6.1.3.3; 215]
+Tym, <kogo ona woli>, wyręczał się ojciec.
+
+[*E12; GFJP A5-6.1.3.3; 216]
+Tym, <ona kogo woli>, wyręczał się ojciec.
+
+% 360
+
+[E13; GFJP A5-6.1.3.3; 217]
+Mamy czas, <o czym mówić zaczęto _ _ _>.
+
+[E14; GFJP A5-6.1.2.1; 218]
+Czyżby | nie tylko on poszedł, ale i ona przyszła?
+
+[E14; GFJP A5-6.1.2.1; 219]
+Czyżby+ś poszedł?
+
+[*E14; GFJP A5-6.1.2.1; 220]
+Czyżby nie tylko on poszedł, ale i ona przyjdzie?
+
+[*E14; GFJP A5-6.1.2.1; 221]
+Czyżby poszedłeś?
+
+[E15; GFJP A5-6.1.2.1; 222]
+Ja zostanę, ty zaś pójdziesz?
+
+[E15; GFJP A5-6.1.2.1; 223]
+I ja zostanę, i on pójdzie?[!]
+
+[E15; GFJP A5-6.1.2.1; 224]
+On pójdzie?
+
+[E15; GFJP A5-6.1.2.1; 225]
+Ja zostanę, zatem <on pójdzie>?
+
+[*E15; GFJP A5-6.1.2.1; 226]
+Ja zostanę, <ty zaś pójdź>?
+
+[E16; GFJP A5-; 227]
+Kiedy | ty tam zostałeś, a on poszedł?
+
+% 361
+
+[E16; GFJP A5-6.1.2.2; 228]
+Nie wiadomo, <dlaczego i ty zostałeś, i on poszedł>.
+
+[E16; GFJP A5-6.1.2.2; 229]
+Ten, <z którym ty tam zostałeś, on natomiast poszedł>, nie ma czasu.
+
+[*E16; GFJP A5-6.1.2.2; 230]
+Kiedy ty tam zostań, a on poszedł?
+
+[*E16; GFJP A5-6.1.2.2; 231]
+Nie wiadomo, <dlaczego i ty tam zostałeś, i kto poszedł>?
+
+[E17; GFJP A5-6.1.2.2; 232]
+Czy | tak on pójdzie, jak i ona przyjdzie?
+
+[E17; GFJP A5-6.1.2.2; 233]
+Póki ja nie zostanę, póty <czy on tam nie pójdzie, ona zaś nie wróci do niego>?
+
+[E18; GFJP A5-6.1.2.2; 234]
+Wczoraj | zarówno ja zostałem, jak i on poszedł!
+
+[E18; GFJP A5-6.1.2.2; 235]
+Nie mieliśmy czasu, aż <wczoraj i ja zostałem, i on poszedł>.
+
+[E18; GFJP A5-6.1.2.2; 236]
+Mamy czas, <wczoraj bowiem, chociaż ja zostałem, to jednak on poszedł>.
+
+% 362
+
+[FI2; GFJP A5-7.1.2; 237]
+Ona <przyszła | kiedy>? 
+
+[FI2; GFJP A5-7.1.2; 238]
+Nie wiadomo, <kto przyszedł kiedy>.
+
+[FI2; GFJP A5-7.1.2; 239]
+Nie wiadomo, <kto przyszedł wczoraj>. 
+
+[FI3; GFJP A5-7.1.2; 240]
+Ona <przyszła | wczoraj>. 
+
+[FI3; GFJP A5-7.1.2; 241]
+Ponieważ ona <przyszła wczoraj>, mamy czas.
+
+[FI3; GFJP A5-7.1.2; 242]
+Znam dziewczynę, <która przyszła wczoraj>.
+
+[*FI3; GFJP A5-7.1.2; 243]
+Ona <przyszła gdzie>.
+
+[*FI3; GFJP A5-7.1.2; 244]
+Znam dziewczynę, która <przyszła gdzie>. 
+
+% 363
+
+[FI4; GFJP A5-7.2; 245]
+Ja <zostałem>. 
+
+[FI4; GFJP A5-7.2; 246]
+Dlaczego tam <zostano>?
+
+[FI4; GFJP A5-7.2; 247]
+Gdyby <zostać>, to mielibyśmy czas.
+
+[*FI4; GFJP A5-7.2; 248]
+Ja <zostawszy>. 
+
+% 364
+
+[WY2; GFJP A5-8.1.2; 249]
+<Kwiaty | kiedy> on dał dziewczynie?
+
+[WY2; GFJP A5-8.1.2; 250]
+<Co wczoraj> on dał dziewczynie?
+
+[WY2; GFJP A5-8.1.2; 251]
+<Co kiedy> on dał dziewczynie?
+
+[WY3; GFJP A5-8.1.2; 252]
+Nie wiadomo, <co | wczoraj> on dał dziewczynie.
+
+[WY3; GFJP A5-8.1.2; 253]
+Nie wiadomo, <co kiedy> on dał dziewczynie.
+
+[*WY3; GFJP A5-8.1.2; 254]
+Nie wiadomo, <kwiaty | kiedy> on dał dziewczynie.
+
+[WY4; GFJP A5-8.1.2; 255]
+On dał <kwiaty wczoraj> dziewczynie.
+
+% 365
+
+[WY4; GFJP A5-8.1.2; 256]
+Nie ma kwiatów, <które wczoraj> on dał dziewczynie.
+
+[*WY4; GFJP A5-8.1.2; 257]
+On dał <co kiedy> dziewczynie.
+
+[*WY4; GFJP A5-8.1.2; 258]
+Nie ma kwiatów, <które kiedy> on dał dziewczynie.
+
+[WY6; GFJP A5-8.2.1; 259]
+One chcą <czytać>.
+
+[WY6; GFJP A5-8.2.1; 260]
+One chcą <czytać dzieciom książki>.
+
+[WY7; GFJP A5-8.2.2; 261]
+<O te dziewczyny> nie pytać!
+
+% 366
+
+[WY8; GFJP A5-8.2.3; 262]
+<Ona> czytała książkę.
+
+[*WY8; GFJP A5-8.2.3; 263]
+<Ona> czytaliście książkę.
+
+[WY9; GFJP A5-8.2.3; 264]
+Ona nie czytała <książki>.
+
+[*WY9; GFJP A5-8.2.3; 265]
+Ona nie czytała <książkę>.
+
+[WY10; GFJP A5-8.2.3; 266]
+Ona czytała <książkę>.
+
+[WY11; GFJP A5-8.2.3; 267]
+Chciano dać <dziewczynie> kwiaty.
+
+[*WY11; GFJP A5-8.2.3; 268]
+Chciano dać <dziewczyno> kwiaty.
+
+[WY12; GFJP A5-8.2.4; 269]
+One były <niewinne>.
+
+[*WY12; GFJP A5-8.2.4; 270]
+One były <niewinny>.
+
+[WY13; GFJP A5-8.2.4; 271]
+Ona nie udaje <niewinnej>.
+
+[*WY13; GFJP A5-8.2.4; 272]
+Ona nie udaje <niewinną>.
+
+[WY14; GFJP A5-8.2.4; 273]
+Czy ona udaje <niewinną>?
+
+[WY15; GFJP A5-8.2.4; 274]
+Warto być <niewinnym>.
+
+% 367
+
+[WY16; GFJP A5-8.2.5; 275]
+Jest <dobrze>.
+
+[WY17; GFJP A5-8.2.6; 276]
+<Tego, że przyjechała>, nie pamiętano.
+
+[*WY17; GFJP A5-8.2.6; 277]
+<To, że przyjechała>, nie pamiętano.
+
+[WY18; GFJP A5-8.2.6; 278]
+<To, że przyjechała>, pamiętano.
+
+[WY19; GFJP A5-8.2.6; 279]
+Czekajcie<, aż on przyjdzie>, na ulicy.
+
+[WY19; GFJP A5-8.2.6; 280]
+Nie czekajcie<, aż on przyjdzie>, na ulicy.
+
+[WY19; GFJP A5-8.2.6; 281]
+Wątpiono<, czy on przyjdzie>.
+
+[WY19; GFJP A5-8.2.6; 282]
+Utrzymywała ona<, jakoby on przyszedł>.
+
+[WY19; GFJP A5-8.2.6; 283]
+<O to, kiedy on przyjdzie>, jej nie pytano.
+
+[WY19; GFJP A5-8.2.6; 284]
+Wiem<, że on przyjdzie>.
+
+[WY19; GFJP A5-8.2.6; 285]
+<Żeby on przyszedł>, nie chcemy!
+
+% 368
+
+[LU2; GFJP A5-9.1.2; 286]
+Ona <tam | kiedy> pójdzie?
+
+[LU2; GFJP A5-9.1.2; 287]
+Martwimy się, <jutro bowiem gdzie> ona pójdzie?
+
+[LU2; GFJP A5-9.1.2; 288]
+Ona <kiedy gdzie> pójdzie?
+
+[LU3; GFJP A5-9.1.2; 289]
+Nie wiadomo, <gdzie | jutro> ona pójdzie.
+
+[LU3; GFJP A5-9.1.2; 290]
+Nie wiadomo, <gdzie kiedy> ona pójdzie.
+
+[*LU3; GFJP A5-9.1.2; 291]
+Nie wiadomo, <tam kiedy> ona pójdzie.
+
+[LU4; GFJP A5-9.1.2; 292]
+<W szkole | kiedyś> ja zostałem.
+
+[LU4; GFJP A5-9.1.2; 293]
+To jest szkoła, <w której kiedyś> ja zostałem.
+
+[*LU4; GFJP A5-9.1.2; 294]
+<W szkole kiedy> ja zostałem.
+
+[*LU4; GFJP A5-9.1.2; 295]
+To jest szkoła, <w której dlaczego> ja zostałem.
+
+% 369
+
+[LU5; GFJP A5-9.2.1; 296]
+Oni poszli, <w lesie zaś> ja zostałem.
+
+[LU5; GFJP A5-9.2.1; 297]
+Oni <za chwilę> wrócą!
+
+[LU5; GFJP A5-9.2.1; 298]
+Pytał, <o której godzinie> przyjdziesz.
+
+[LU6; GFJP A5-9.2.1.2; 299]
+Czytano książkę <godzinę>.
+
+[LU6; GFJP A5-9.2.1.2; 300]
+Było spokojnie, <ulicami natomiast> szli żołnierze.
+
+[LU7; GFJP A5-9.2.1.3; 301]
+Jest <tutaj> dobrze.
+
+[LU7; GFJP A5-9.2.1.3; 302]
+Jest tutaj <dobrze>.
+
+[LU7; GFJP A5-9.2.1.3; 303]
+<Kiedy> przyjdziesz?
+
+% 370
+
+[LU8; GFJP A5-9.2.2.1; 304]
+Choćby+<m> przyszedł, nie zostawaj!
+
+[LU8; GFJP A5-9.2.2.1; 305]
+Martwimy się, czyżby+<ście bowiem> nie przyszli?
+
+[LU8; GFJP A5-9.2.2.1; 306]
+Nie chcieli, <żeby _> przyjść.
+
+[LU9; GFJP A5-9.2.2.2; 307]
+Zostałem<, czytając książkę,> do trzeciej.
+
+[LU9; GFJP 9.2.2.2; 308]
+Mam czas<, czytając zatem książkę,> zostaję.
+
+[LU9; GFJP 9.2.2.2; 309]
+Zostanę<, czytając książkę>.
+
+[*LU9; GFJP 9.2.2.2; 310]
+Zostanę <czytając książkę>.
+
+[LU10; GFJP 9.2.2.2; 311]
+Ona<, przeczytawszy książkę,> przyszła.
+
+[LU10; GFJP 9.2.2.2; 312]
+Ona<, przeczytawszy książkę,> przychodzi.
+
+[LU10; GFJP 9.2.2.2; 313]
+Ona<, przeczytawszy książkę,> przyjdzie.
+
+[*LU10; GFJP 9.2.2.2; 314]
+Ona <przeczytawszy książkę> przyszła.
+
+[LU11; GFJP 9.2.2.2; 315]
+<_ Przeczytawszy[!] książkę,> będziemy mieć czas.
+
+[LU11; GFJP 9.2.2.2; 316]
+Nie martwimy się, <przeczytawszy zaś książkę,> mamy czas.
+
+% 371
+
+[LU12; GFJP 9.2.2.3; 317]
+Przyszłaś<, dziewczyno,> do nas!
+
+[*LU12; GFJP 9.2.2.3; 318]
+Przyszłaś <dziewczyno> do nas!
+
+[*LU12; GFJP 9.2.2.3; 319]
+Przyszedłeś<, dziewczyno,> do nas!
+
+[*LU12; GFJP 9.2.2.3; 320]
+Mamy czas<, dziewczyno więc,> przyjdź do nas!
+
+[*LU12; GFJP 9.2.2.3; 321]
+Przyszłaś<, dziewczyno którego chłopca,> do nas!
+
+[LU13; GFJP 9.2.2.3; 322]
+Przyszliśmy<, dziewczyno,> do nich.
+
+[LU13; GFJP 9.2.2.3; 323]
+Przyszedł<, dziewczyno>.
+
+[*LU13; GFJP 9.2.2.3; 324]
+Przyszliśmy<, dziewczyno z jakimi warkoczami,> do nich.
+
+% 372
+
+[LU15; GFJP 9.2.3; 325]
+<Dopóki mieliśmy czas,> ona przychodziła.
+
+[*LU15; GFJP 9.2.3; 326]
+<Dopóki mieliśmy czas,> ona przyszła.
+
+[*LU15; GFJP 9.2.3; 327]
+<Dopóki mieliśmy czas,> ona będzie przychodzić.
+
+[*LU15; GFJP 9.2.3; 328]
+<Dopóki mieliśmy co,> ona nie przychodziła?
+
+[LU16; GFJP 9.2.3; 329]
+On<, póki będziemy czytać książkę,> nie pójdzie.
+
+[LU16; GFJP 9.2.3; 330]
+On<, póki będziemy czytać książkę,> nie będzie iść.
+
+[*LU16; GFJP 9.2.3; 331]
+On<, póki będziemy czytać książkę,> nie poszedł.
+
+[LU17; GFJP 9.2.3; 332]
+<Gdyby ona przyszła,> będziemy mieć czas.
+
+[LU17; GFJP 9.2.3; 333]
+Martwię się, <gdyby bowiem ona przyszła,> mielibyśmy czas.
+
+[LU17; GFJP 9.2.3; 334]
+<Gdyby ona przyszła,> mamy czas.
+
+[*LU17; GFJP 9.2.3; 335]
+<Gdyby ona przyszła,> mieliśmy czas.
+
+[LU18; GFJP 9.2.3; 336]
+On<, nim ona przyjdzie,> pójdzie.
+
+[*LU18; GFJP 9.2.3; 337]
+On<, nim ona przyszła,> pójdzie.
+
+[LU19; GFJP 9.2.3; 338]
+Czytano książkę<, ponieważ ja zostałem _>.
+
+[LU19; GFJP 9.2.3; 339]
+Czytano książkę<, ponieważ ja zostaję>.
+
+[LU19; GFJP 9.2.3; 340]
+Czytano książkę<, ponieważ ja zostanę>.
+
+[LU19; GFJP 9.2.3; 341]
+Czytano książkę<, ponieważ ja zostałbym>.
+
+[LU19; GFJP 9.2.3; 342]
+Czytano<, co one widziały,> książkę.
+
+% 374
+
+[WE2; GFJP A5-10.1.2; 343]
+Matka <dała | komu> pieniądze?
+
+[WE2; GFJP A5-10.1.2; 344]
+Chcecie <dać której dziewczynie> pieniądze?
+
+[WE3; GFJP A5-10.1.2; 345]
+<Od kogo | pożyczyli tam> oni samochód?
+
+[WE3; GFJP A5-10.1.2; 346]
+Ona wyjechała, <od czyich zatem rodziców pożyczyć> samochód chcecie?
+
+[WE4; GFJP A5-10.1.2; 347]
+Matka <dała | komu wczoraj | pieniądze>?
+
+[WE4; GFJP A5-10.1.2; 348]
+Chcecie <dać której dziewczynie pieniądze>?
+
+[WE5; GFJP A5-10.1.2; 349]
+<Od kogo  | pożyczyli | oni> samochód?
+
+[WE5; GFJP A5-10.1.2; 350]
+<Od czyich rodziców pożyczyć samochód> chcecie?
+
+[WE6; GFJP A5-10.1.2; 351]
+Dała | komu | ojca pieniądze | matka?
+
+[WE7; GFJP A5-10.1.2; 352]
+Od kogo | pożyczyli | oni | samochód?
+
+% 375
+
+[WE8; GFJP A5-10.1.3; 353]
+Matka <dała | temu, który prosił,> pieniądze.
+
+[WE8; GFJP A5-10.1.3; 354]
+Chcecie <dać tej dziewczynie jutro> pieniądze.
+
+[WE9; GFJP A5-10.1.3; 355]
+Ponieważ <od niego właśnie | pożyczyli> oni samochód, wytoczy im proces.
+
+[WE9; GFJP A5-10.1.3; 356]
+<Od twoich rodziców pożyczyć> samochód chcecie.
+
+[WE10; GFJP A5-10.1.3; 357]
+Matka <dała | mu na to | pieniądze>.
+
+[WE10; GFJP A5-10.1.3; 358]
+Stracisz, <dając dziewczynie> pieniądze!
+
+[WE11; GFJP A5-10.1.3; 359]
+Nie jest źle, <od niego bowiem | pożyczyli | oni> samochód.
+
+[WE11; GFJP A5-10.1.3; 360]
+<Od twoich rodziców pożyczyć samochód> chcecie.
+
+[WE12; GFJP A5-10.1.3; 361]
+Dała | mu dziś | matka | duże pieniądze.
+
+[WE13; GFJP A5-10.1.3; 362]
+Od niego akurat | pożyczyli | oni | samochód.
+
+% 376
+
+[WE14; GFJP A5-10.1.4.1; 363]
+<Od kogo wtedy | pożyczyli> oni samochód, nie wiadomo.
+
+[WE14; GFJP A5-10.1.4.1; 364]
+Czy wiadomo, <od czyich rodziców pożyczyć> samochód chcecie?
+
+[WE15; GFJP A5-10.1.4.1; 365]
+Nie jest źle, <od kogo natomiast | pożyczyli wtedy | oni> samochód, nie wiadomo.
+
+[WE15; GFJP A5-10.1.4.1; 366]
+Wiadomo, <od czyich rodziców pożyczyć samochód> chcecie!
+
+[WE16; GFJP A5-10.1.4.1; 367]
+<Od kogo | pożyczyli oni | samochód>, nie wiadomo.
+
+% 377
+
+[WE17; GFJP A5-10.1.4.2; 368]
+Temu, <od kogo wtedy | pożyczyli> oni samochód, wytoczono proces.
+
+[WE17; GFJP A5-10.1.4.2; 369]
+Ci, <od których rodziców pożyczyć> samochód chcecie, nie zgodzą się.
+
+[WE18; GFJP A5-10.1.4.2; 370]
+To jest to, <co zwykle | od nas | pożyczali> oni.
+
+[WE18; GFJP A5-10.1.4.2; 371]
+To jest to, <co pożyczyć od rodziców> chcecie.
+
+[WE19; GFJP A5-10.1.4.2; 372]
+Chłopca, <od którego rodziców | pożyczyli | oni wczoraj | samochód>, nie znam.
+
+% 378
+
+[WE20; GFJP A5-10.2; 373]
+ Kto <nie | przyjdzie | kiedy>?
+
+[WE20; GFJP A5-10.2; 374]
+Wiadomo, dlaczego nikt <nie przyjdzie>.
+
+[WE20; GFJP A5-10.2; 375]
+Kto <nie przyjdzie> nigdy?
+
+[WE21; GFJP A5-10.2; 376]
+Ani ja <nie | zostałem _>, ani on nie pójdzie.
+
+[WE21; GFJP A5-10.2; 377]
+Było późno, <nie kupiwszy więc tam> niczego, wyszła.
+
+[WE21; GFJP A5-10.2; 378]
+On pójdzie, bo ja <nie zostałem>.
+
+[WE22; GFJP A5-10.2; 379]
+Kto <przyjdzie | wtedy>?
+
+[WE22; GFJP A5-10.2; 380]
+Wiadomo, kiedy ktoś <przyjdzie do niego>.
+
+[*WE22; GFJP A5-10.2; 381]
+Wiadomo, kiedy ktoś przyjdzie do nikogo.
+
+[WE23; GFJP A5-10.2; 382]
+Ja | zostałem _.
+
+[WE23; GFJP A5-10.2; 383]
+Nie mamy pieniędzy, <zostać zaś tam> można.
+
+[WE23; GFJP A5-10.2; 384]
+Znam tego, kto <pójdzie na spacer>.
+
+[*WE23; GFJP A5-10.2; 385]
+Nie mamy pieniędzy, <zostać zaś nigdzie> można.
+
+[WE24; GFJP A5-10.2; 386]
+Póki <zostawałem _>, póty on szedł.
+
+[WE24; GFJP A5-10.2; 387]
+Martwię się, póty bowiem <zostawałem>, póki on szedł.
+
+[*WE24; GFJP A5-10.2; 388]
+Póki <zostałem>, póty on szedł.
+
+[*WE24; GFJP A5-10.2; 389]
+Martwię się, póty bowiem <zostałem>, póki on szedł.
+
+% 379
+
+[WE25; GFJP A5-10.3; 390]
+On pójdzie, <zostałem | bowiem> ja.
+
+[WE26; GFJP A5-10.3; 391]
+On pójdzie, albowiem <zostałem> ja.
+
+[WE27; GFJP A5-10.4; 392]
+<Przeczytano> to, póki nie przyszła.
+
+[*WE27; GFJP A5-10.4; 393]
+<Przeczytano> to, póki nie przyjdzie.
+
+[WE28; GFJP A5-10.4; 394]
+Chciano, żeby to <przeczytać>.
+
+[WE28; GFJP A5-10.4; 395]
+Cieszyli się, <czytając> to.
+
+[*WE28; GFJP A5-10.4; 396]
+Chciano, żebyście to <przeczytać>.
+
+[WE29; GFJP A5-10.4; 397]
+<Przeczytamy> to.
+
+[WE29; GFJP A5-10.4; 398]
+<Czytałybyście> to.
+
+[WE29; GFJP A5-10.4; 399]
+Chciano, żeby ona to <czytała>.
+
+% 380
+
+[WE30; GFJP A5-10.5; 400]
+<Przeczytamy> to.
+
+[WE30; GFJP A5-10.5; 401]
+<Czytajmy> to.
+
+[WE30; GFJP A5-10.5; 402]
+On <czyta> to.
+
+[WE30; GFJP A5-10.5; 403]
+Ona <czytała> to.
+
+[WE30; GFJP A5-10.5; 404]
+<Czytałybyście> to.
+
+[WE30; GFJP A5-10.5; 405]
+<Czytać> to!
+
+[WE30; GFJP A5-10.5; 406]
+Warto to <czytać>.
+
+[WE30; GFJP A5-10.5; 407]
+Cieszyli[!] się, <czytając> to. 
+
+[WE31; GFJP A5-10.5; 408]
+On <czyta> to, cieszyli się zatem.
+
+[WE31; GFJP A5-10.5; 409]
+Kiedy on to <czyta>?
+
+[WE31; GFJP A5-10.5; 410]
+Kiedy to <czytać>?
+
+[*WE31; GFJP A5-10.5; 411]
+<Czytajmy> to, cieszyli się zatem. 
+
+[*WE31; GFJP A5-10.5; 412]
+Kiedy on to <niech czyta>? 
+
+[WE32; GFJP A5-10.5; 413]
+Cieszyli się, że <czytałybyście> to. 
+
+[WE32; GFJP A5-10.5; 414]
+Martwię się, póty bowiem <będą czytać>, póki Piotr nie zda.
+
+[WE32; GFJP A5-10.5; 415]
+Ten, komu to <czytamy>, cieszy się.
+
+% 381
+
+[*WE32; GFJP A5-10.5; 416]
+Cieszyli się, że <czytajmy> to. 
+
+[*WE32; GFJP A5-10.5; 417]
+Ten, komu to <czytać>, cieszy się. 
+
+[WE33; GFJP A5-10.5; 418]
+Zaczekam, aż ona <będzie czytać>. 
+
+[*WE33; GFJP A5-10.5; 419]
+Zaczekam, aż ona <czytała>. 
+
+[WE34; GFJP A5-10.5; 420]
+Nim to <przeczytamy>, on przyjdzie. 
+
+[*WE34; GFJP A5-10.5; 421]
+Nim to <będziemy czytać>, on przyjdzie. 
+
+[WE35; GFJP A5-10.5; 422]
+Chciano, żeby ona to <czytała>. 
+
+[WE35; GFJP A5-10.5; 423]
+Chciano, żebyście to <czytały>. 
+
+[*WE35; GFJP A5-10.5; 424]
+Chciano, żeby to <czytajmy>. 
+
+[*WE35; GFJP A5-10.5; 425]
+Chciano, żeby ona to <czyta>. 
+
+[*WE35; GFJP A5-10.5; 426]
+Chciano, żebyście to <czytałybyście>. 
+
+% 382
+
+[PM1; GFJP A5-11; 427]
+<O | czym> mówicie?
+
+[PM1; GFJP A5-11; 428]
+On pójdzie <na | bardzo daleki spacer>.
+
+[PM1; GFJP A5-11; 429]
+To jest facet <bez | zasad>.
+
+[PM1; GFJP A5-11; 430]
+Mamy czas, <od | nich bowiem> lepszej załogi nigdy nie znajdę.
+
+[PM1; GFJP A5-11; 431]
+Ten, <w | którego domu> mieszkamy, ma pieniądze.
+
+% 383
+
+[NO2; GFJP A5-12.1.1; 432]
+<Chłopiec | , którego znam,> przyjdzie.
+
+[NO2; GFJP A5-12.1.1; 433]
+Mamy czas, <jaki bowiem chłopiec | , którego znam,> przyjdzie?
+
+[NO2; GFJP A5-12.1.1; 434]
+Chłopiec, <którego ojciec | , którego znam,> przyjdzie, jest studentem.
+
+[*NO2; GFJP A5-12.1.1; 435]
+Chłopiec, <którą | znam,> przyjdzie.
+
+[*NO2; GFJP A5-12.1.1; 436]
+<Chłopiec | , kogo znam,> przyjdzie.
+
+[*NO2; GFJP A5-12.1.1; 437]
+Chłopiec, <który | , którego znam,> przyjdzie, jest studentem.
+
+[NO3; GFJP A5-12.1.1; 438]
+Przyjdzie <ten | , kogo znam,> i posiedzi.
+
+[NO3; GFJP A5-12.1.1; 439]
+Przyjdzie <ta | , którą znam>.
+
+[NO3; GFJP A5-12.1.1; 440]
+To nie jest <nic | , co znam>.
+
+[*NO3; GFJP A5-12.1.1; 441]
+Przyjdzie <ten | , co znam>.
+
+[*NO3; GFJP A5-12.1.1; 442]
+Przyjdą ci, <kogo znam>.
+
+[*NO3; GFJP A5-12.1.1; 443]
+Przyjdzie <ta | , kogo znam>.
+
+% 384
+
+[NO4; GFJP A5-12.1.1; 444]
+<Tak dobry chłopiec | , jakby był aniołem,> nie istnieje.
+
+[NO4; GFJP A5-12.1.1; 445]
+<Taki chłopiec | , jakich ludzi ona ceni,> nie istnieje.
+
+[NO4; GFJP A5-12.1.1; 446]
+<Taki chłopiec | , że ludzie zazdroszczą,> nie istnieje.
+
+[NO4; GFJP A5-12.1.1; 447]
+<Taki chłopiec | , żeby ludzie zazdrościli,> nie istnieje.
+
+[NO6; GFJP A5-12.2.2; 448]
+<Co | tego autora> czytałeś?
+
+[NO6; GFJP A5-12.2.2; 449]
+Nie jest źle, <książkę | bowiem którego autora> czytałeś?
+
+[*NO6; GFJP A5-12.2.2; 450]
+<Książkę | kogo> czytałeś?
+
+[*NO6; GFJP A5-12.2.2; 451]
+<Co | nas> czytałeś?
+
+[NO7; GFJP A5-12.2.2; 452]
+<Którego autora | książkę> czytałeś?
+
+[NO7; GFJP A5-12.2.2; 453]
+<Którego autora | co> czytałeś?
+
+[*NO7; GFJP A5-12.2.2; 454]
+<Kogo | książkę> czytałeś?
+
+[*NO7; GFJP A5-12.2.2; 455]
+<Nas którą | książkę> czytałeś?
+
+% 385
+
+[NO8; GFJP A5-12.2.3; 456]
+Czytano <książkę | tego autora>.
+
+[NO8; GFJP A5-12.2.3; 457]
+Był czas, <coś | więc jego> czytano.
+
+[*NO8; GFJP A5-12.2.3; 458]
+Czytano <książkę | kogoś>.
+
+[*NO8; GFJP A5-12.2.3; 459]
+Czytano <książkę | nas>.
+
+[*NO8; GFJP A5-12.2.3; 460]
+Książkę, <którą | tego autora czytano>, znam.
+
+[NO9; GFJP A5-12.2.3; 461]
+<Jego | książkę> czytano.
+
+[NO9; GFJP A5-12.2.3; 462]
+Autora, <którego | książkę> czytano, znam.
+
+[*NO9; GFJP A5-12.2.3; 463]
+<Kogoś | książkę> czytano.
+
+[*NO9; GFJP A5-12.2.3; 464]
+<Ciebie | książkę> czytano.
+
+[NO10; GFJP A5-12.2.4; 465]
+<Co | tego autora> czytano, nie wiadomo.
+
+% 386
+
+[NO10; GFJP A5-12.2.4; 466]
+Nie wiadomo, <co | którego autora> czytano.
+
+[*NO10; GFJP A5-12.2.4; 467]
+<Książkę którego | autora czytano>, nie wiadomo.
+
+[*NO10; GFJP A5-12.2.4; 468]
+<Co | kogo> czytano, nie wiadomo.
+
+[NO11; GFJP A5-12.2.4; 469]
+Nie wiadomo, <z którego wieku autora | jak ciekawą książkę> czytano.
+
+[NO11; GFJP A5-12.2.4; 470]
+Nie wiadomo, <czego | książkę> czytano.
+
+[*NO11; GFJP A5-12.2.4; 471]
+Nie wiadomo, <którego autora | ją> czytano.
+
+[NO13; GFJP A5-12.3.2; 472]
+<Co | z tamtej książki> czytano?
+
+[NO13; GFJP A5-12.3.2; 473]
+Nie jest źle, <co natomiast | z którego autora książki> czytano?
+
+[NO14; GFJP A5-12.3.2; 474]
+<Z czyjej książki | fragment> czytano?
+
+[NO14; GFJP A5-12.3.2; 475]
+On nie zdał, <coś natomiast | z czego> czytano?
+
+% 387
+
+[NO15; GFJP A5-12.3.3; 476]
+Tego, <co | z tej książki> czytano, nie znam.
+
+[NO15; GFJP A5-12.3.3; 477]
+Czytano <bardzo obszerny fragment o miłości>.
+
+[NO16; GFJP A5-12.3.3; 478]
+Znam książkę, <z której | taki fragment> czytano.
+
+[NO16; GFJP A5-12.3.3; 479]
+<O miłości fragmentu> nie znam.
+
+[NO17; GFJP A5-12.3.4; 480]
+Nie wiadomo, <jaki fragment | z książki> czytano.
+
+[NO18; GFJP A5-12.3.4; 481]
+Nie jest źle, <o czym bowiem | fragment której książki> czytano, wiadomo.
+
+% 389
+
+[NO20; GFJP A5-12.4.2.1; 482]
+<Książkę | czyją> czytano?
+
+[*NO20; GFJP A5-12.4.2.1; 483]
+<Co czyje> czytano?
+
+[NO21; GFJP A5-12.4.2.1; 484]
+<Co | czyjego> czytano?
+
+[NO22; GFJP A5-12.4.2.1; 485]
+Nie ma czasu, <czemu więc | takiemu> się przyglądasz?
+
+[NO23; GFJP A5-12.4.2.1; 486]
+<Czyją | książkę> czytano?
+
+[*NO23; GFJP A5-12.4.2.1; 487]
+<Czyje | co> czytano?
+
+[NO24; GFJP A5-12.4.2.1; 488]
+<Jakiego | coś> czytano?
+
+[NO25; GFJP A5-12.4.2.1; 489]
+Nie jest źle, <nowego bowiem | czego> nie znam?
+
+% 390
+
+[NO26; GFJP A5-12.4.2.2; 490]
+Autora, <którego książkę | najnowszą> czytano, lubię.
+
+[NO26; GFJP A5-12.4.2.2; 491]
+<Książkę tę> czytano.
+
+[*NO26; GFJP A5-12.4.2.2; 492]
+Autora, <którego coś najnowsze> czytano, lubię.
+
+[NO27; GFJP A5-12.4.2.2; 493]
+Czytano <nowe | książki>.
+
+[NO27; GFJP A5-12.4.2.2; 494]
+Lubię takich autorów, <jaką książkę> czytano.
+
+[*NO27; GFJP A5-12.4.2.2; 495]
+Książka, <którą książkę> czytano, podoba mi się.
+
+[NO28; GFJP A5-12.4.2.2; 496]
+<Coś | nowego> czytano.
+
+[NO29; GFJP A5-12.4.2.2; 497]
+Nie znam <niczego | lepszego>.
+
+[NO30; GFJP A5-12.4.2.2; 498]
+<Bardzo nowego | coś> podoba mi się.
+
+[NO31; GFJP A5-12.4.2.2; 499]
+Nie jest źle, <takim więc | czymś> nie martwię się!
+
+% 391
+
+[NO32; GFJP A5-12.4.2.3; 500]
+<Kto | taki> przyjdzie, nie wiadomo.
+
+[NO33; GFJP A5-12.4.2.3; 501]
+Nie wiadomo, <co | czyjego> czytano.
+
+[NO34; GFJP A5-12.4.2.3; 502]
+Nie jest źle, <czego natomiast | nowego> nie znam, nie pytaliście.
+
+[NO35; GFJP A5-12.4.2.3; 503]
+Pytam was, <jaką | książkę> czytano.
+
+[NO36; GFJP A5-12.4.2.3; 504]
+<Jakiego | coś> czytano, nie wiadomo.
+
+[NO37; GFJP A5-12.4.2.3; 505]
+Pytaliście ich, o <którym | czymś> mówiono.
+
+[NO38; GFJP A5-12.4.2.3; 506]
+<Który z nich> przyjdzie?
+
+[NO38; GFJP A5-12.4.2.3; 507]
+Przyjdą< od niej lepsi>.
+
+[NO38; GFJP A5-12.4.2.3; 508]
+Znam <tego>.
+
+[NO38; GFJP A5-12.4.2.3; 509]
+<Żadnych nie> znam!
+
+% 392
+
+[NO39; GFJP A5-12.5.1; 510]
+Nie jest źle, <kto | bowiem> przyjdzie?
+
+[NO39; GFJP A5-12.5.1; 511]
+Nie jest źle, <on natomiast> przyjdzie.
+
+[*NO39; GFJP A5-12.5.1; 512]
+Nie jest źle, ten, <który zaś przyjdzie>, nie ma czasu.
+
+[NO40; GFJP A5-12.5.1; 513]
+<Kto> przyjdzie?
+
+[NO40; GFJP A5-12.5.1; 514]
+<On> przyjdzie.
+
+[NO41; GFJP A5-12.5.2; 515]
+Znam chłopca, <który> przyszedł.
+
+[NO41; GFJP A5-12.5.2; 516]
+Znam tę, <która> przyszła.
+
+[NO42; GFJP A5-12.6.1; 517]
+<Co> czytano?
+
+[NO42; GFJP A5-12.6.1; 518]
+Pytaliście o <kogo>?
+
+[NO42; GFJP A5-12.6.1; 519]
+Nie wiadomo, <czym> takim się martwicie.
+
+% 393
+
+[NO43; GFJP A5-12.6.2; 520]
+Czytano <coś> nowego.
+
+[NO43; GFJP A5-12.6.2; 521]
+Przyszedł <ten>, którego nie znam.
+
+[NO44; GFJP A5-12.6.2; 522]
+O <nikogo> nie pytaliście!
+
+[NO44; GFJP A5-12.6.2; 523]
+<Nikt> z nich nie przyjdzie.
+
+[NO45; GFJP A5-12.6.2; 524]
+<Ja> pójdę.
+
+[NO45; GFJP A5-12.6.2; 525]
+To jest <jego> książka.
+
+[NO46; GFJP A5-12.6.2; 526]
+Czytano <książkę>.
+
+[NO47; GFJP A5-12.6.3; 527]
+Tego, <czym> się martwicie, nie znam.
+
+[NO47; GFJP A5-12.6.3; 528]
+Znam tego, <kto> przyjdzie.
+
+[NO47; GFJP A5-12.6.3; 529]
+Chłopiec, <którego> znam, przyjdzie.
+
+% 394
+
+[PT2; GFJP A5-13.1.2; 530]
+On jest <taki | , jakby nas nie lubił,> od dawna.
+
+[PT2; GFJP A5-13.1.2; 531]
+Chłopca <tak miłego, jakie dziewczyny lubicie,> nie znam.
+
+[PT2; GFJP A5-13.1.2; 532]
+To, <z czego tak dobrych, że jej zazdroszczę,> chłopców dziś już nie ma, znali wszyscy.
+
+% 395
+
+[PT4; GFJP A5-13.2.2; 533]
+On jest <żądny | czego>?
+
+[PT5; GFJP A5-13.2.2; 534]
+<Którym chłopcem | zajętą> dziewczynę znasz?
+
+[PT6; GFJP A5-13.2.3; 535]
+Znam <poświęconą | Piotrowi> książkę.
+
+[PT6; GFJP A5-13.2.3; 536]
+Tego, <od którego żądniejszych sławy> autorów nie znam, nie wybrano.
+
+[PT7; GFJP A5-13.2.3; 537]
+Znam <Piotrowi | przez niego poświęconą> książkę.
+
+[PT7; GFJP A5-13.2.3; 538]
+Nie martwię się, <taką bowiem dziewczyną zajęty> chłopiec nie jest mi potrzebny.
+
+% 396
+
+[PT8; GFJP A5-13.2.4; 539]
+Nie wiadomo, <przez kogo poświęconą | Piotrowi> książkę czytano.
+
+[PT9; GFJP A5-13.2.4; 540]
+<Kim |  interesujący się> chłopcy przyjdą, nie pytaliście.
+
+[PT11; GFJP A5-13.3.2; 541]
+On jest <lepszy | od kogo>?
+
+[PT12; GFJP A5-13.3.2; 542]
+Nie jest źle, <przez którego więc chłopca | zaproszoną> dziewczynę wybrać?
+
+% 397
+
+[PT13; GFJP A5-13.3.3; 543]
+Chłopiec jest taki, <jaką | dla niego> dziewczyną była ona.
+
+[PT14; GFJP A5-13.3.3; 544]
+Znam jej <przez tego autora | poświęconą> książkę.
+
+[PT15; GFJP A5-13.3.4; 545]
+<Jak lepszy | od kogo> on jest, nie wiadomo.
+
+[PT16; GFJP A5-13.3.4; 546]
+Pytam, <przez którego chłopca | zaproszoną> dziewczynę wybrać.
+
+% 398
+
+[PT18; GFJP A5-13.4.2; 547]
+<Jaka | gdzie> ona jest?
+
+[PT19; GFJP A5-13.4.2; 548]
+Nie jest źle, <kiedy bowiem | poświęconą Piotrowi przez niego> książkę czytano?
+
+[PT20; GFJP A5-13.4.3; 549]
+<Poświęconą | właśnie> Piotrowi przez niego książkę czytano.
+
+[PT21; GFJP A5-13.4.3; 550]
+Znam chłopca, <od którego gorzej | zdający> kandydaci zostali przyjęci.
+
+% 399
+
+[PT22; GFJP A5-13.4.4; 551]
+<Jaka | gdzie> ona jest, nie wiadomo.
+
+[PT23; GFJP A5-13.4.4; 552]
+Pytaliśmy, <kiedy | poświęconą Piotrowi> książkę czytano.
+
+[PT24; GFJP A5-13.5.1; 553]
+Nie jest źle, <czyje | bowiem> to było?
+
+[PT24; GFJP A5-13.5.1; 554]
+Nie jest źle, <poświęconej natomiast> Piotrowi przez niego książki nie czytano.
+
+[PT25; GFJP A5-13.5.1; 555]
+Nie jest źle, bo <czyje> to było?
+
+[PT25; GFJP A5-13.5.1; 556]
+<Poświęconą> Piotrowi przez niego książkę czytano.
+
+% 400
+
+[PT26; GFJP A5-13.5.2; 557]
+On jest taki, <jaka> dla niego była ona.
+
+[PT27; GFJP A5-6.1; 558]
+<Czyje> to było?
+
+[PT27; GFJP A5-6.1; 559]
+Pytano, przez <którego> chłopca zaproszoną dziewczynę wybrać.
+
+[PT28; GFJP A5-13.6.2; 560]
+<Jakiś> chłopiec przyjdzie.
+
+[PT28; GFJP A5-13.6.2; 561]
+Znam <tę> książkę.
+
+[PT28; GFJP A5-13.6.2; 562]
+On jest taki, <jaka> dla niego była ona.
+
+[PT29; GFJP A5-13.6.2; 563]
+Nie czytano <żadnego> autora.
+
+[PT30; GFJP A5-13.6.2; 564]
+Znam Piotrowi przez niego <poświęconą> książkę.
+
+[PT30; GFJP A5-13.6.2; 565]
+On jest <lepszy>.
+
+[PT31; GFJP A5-13.6.3; 566]
+On jest taki, <jaka> dla niego była ona.
+
+% 402
+
+[PS2; GFJP A5-14.1.2; 567]
+Przyszedł <tak, jakby był głodny,> i poszedł.
+
+[PS2; GFJP A5-14.1.2; 568]
+Gra <od takich skrzypków lepiej, że mu zazdrościć>.
+
+% 403
+
+[PS4; GFJP A5-14.2.2; 569]
+<Gdzie | w tamtych górach> macie szałas?
+
+[PS5; GFJP A5-14.2.2; 570]
+Macie szałas <w górach | jak wysoko>?
+
+[PS6; GFJP A5-14.2.3; 571]
+Znam go <lepiej | od nich>.
+
+[PS7; GFJP A5-14.2.3; 572]
+Lubiła te góry, <w których | gdzieś> macie szałas.
+
+[PS8; GFJP A5-14.2.4; 573]
+Przyjadą, <gdzie bowiem | w górach> macie szałas, wiadomo.
+
+[PS9; GFJP A5-14.2.4; 574]
+Pytaliśmy, <w jakich górach | wysoko> macie szałas.
+
+% 405
+
+[PS11; GFJP A5-14.3.2; 575]
+Szałas <tam | gdzie> macie?
+
+[PS12; GFJP A5-14.3.2; 576]
+Mamy czas, <kiedy natomiast | lepiej> wyglądaliśmy?
+
+[PS13; GFJP A5-14.3.3; 577]
+Nie jest źle, <gdzieś bowiem | bliżej od nas> macie szałas.
+
+[PS14; GFJP A5-14.3.3; 578]
+Chłopiec, <od którego blisko | tak> macie szałas, będzie.
+
+[PS15; GFJP A5-14.3.4; 579]
+Nie jest źle, <gdzie więc | tam> macie szałas, wiem.
+
+[PS16; GFJP A5-14.3.4; 580]
+Pytała, <jak | kiedy> wyglądaliśmy.
+
+[PS17; GFJP A5-14.4; 581]
+Nie jest źle, <gdzie | zatem> macie szałas?
+
+[PS18; GFJP A5-14.4; 582]
+<Daleko> macie szałas!
+
+[PS19; GFJP A5-14.5.1; 583]
+<Gdzie> macie szałas?
+
+% 406
+
+[PS20; GFJP A5-14.5.2; 584]
+<Gdzieś> macie szałas.
+
+[PS20; GFJP A5-14.5.2; 585]
+On przyszedł <tak> szybko.
+
+[PS21; GFJP A5-14.5.2; 586]
+<Nigdy> nie wiadomo, jaki on jest.
+
+[PS22; GFJP A5-14.5.2; 587]
+On przyszedł tak <szybko>.
+
+% 407
+
+[ZD2; GFJP A5-15.1.2; 588]
+Pytano <nie tylko | o to, kto przyjdzie, | ale także | o  to,  czy urządzać przyjęcie>.
+
+[ZD2; GFJP A5-15.1.2; 589]
+Nie jest źle, <nie tylko bowiem o to, kto przyjdzie, ale także czy urządzać przyjęcie>, pytano.
+
+[*ZD2; GFJP A5-15.1.2; 590]
+Pytano   <nie   tylko,  kto  przyjdzie,  ale  także  czy urządzać przyjęcie>.
+
+[*ZD2; GFJP A5-15.1.2; 591]
+Pytano <nie tylko o to, kto przyjdzie, ale  także,  czy  urządzać przyjęcie>.
+
+% 408
+
+[ZD3; GFJP A5-15.1.2; 592]
+Pytano <o to, kto przyjdzie, | a nie czy urządzać przyjęcie>.
+
+[ZD3; GFJP A5-15.1.2; 593]
+On, ponieważ <się spóźniają, lecz także ponieważ nie ma etatów>, zwolnił ich.
+
+[ZD4; GFJP A5-15.1.3.1; 594]
+Piotr prowadził, dopóki miał ochotę i <zarówno | dopóki świeciło słońce,  |jak też | dopóki nie było mgły>.
+
+[*ZD4; GFJP A5-15.1.3.1; 595]
+Piotr prowadził, dopóki miał ochotę i <zarówno dopóki świeciło słońce, jak też dopóki nie byłoby mgły>.
+
+[ZD5; GFJP A5-15.1.3.1; 596]
+Ja spałem<, dopóki zaś świeciło słońce, jak też dopóki nie było mgły>, Piotr prowadził.
+
+% 409
+
+[ZD6; GFJP A5-15.1.3.2; 597]
+Zrobiłem to, gdy wszyscy wyszli oraz <nie tylko | gdy byłem sam, | ale także | gdy majster dał mi znak>.
+
+[ZD7; GFJP A5-15.1.3.2; 598]
+Zrobiłem to<, gdy byłem sam, | nie zaś | gdy majster dał mi znak>.
+
+[*ZD7; GFJP A5-15.1.3.2; 599]
+Zrobiłem to<, gdy byłem sam, nie zaś gdy majster da mi znak>.
+
+% 410
+
+[ZD8; GFJP A5-15.1.3.3; 600]
+Chłopiec, którego matkę znałem i <nie tylko | który  mnie  zna,  | ale również | któremu zawdzięczam życie>, będzie.
+
+[ZD9; GFJP A5-15.1.3.3; 601]
+Chłopiec, <którego matkę znałem, | jak też | który mnie zna>, będzie.
+
+[*ZD9; GFJP A5-15.1.3.3; 602]
+ Chłopiec, <którego matkę znałem, jak też które mnie znają>, będzie.
+
+[*ZD10; GFJP A5-15.2.1; 603]
+Pytano  <lub  o  to,  czy  urządzać  przyjęcie,  lub  o  to,  kogo zaprosimy>.
+
+% 411
+
+[ZD11; GFJP A5-15.2.2; 604]
+Pytano <o to, kto przyjdzie, | lub o to, czy wydać przyjęcie, lub o to, kogo zaprosimy>.
+
+[*ZD11; GFJP A5-15.2.2; 605]
+Pytano <o to, kto przyjdzie lub o to, czy wydać przyjęcie, lub o to, kogo zaprosimy>.
+
+[ZD12; GFJP A5-15.2.2; 606]
+Pytano <o to, kto przyjdzie, o to, czy wydać przyjęcie , lub o to, kogo zaprosimy>.
+
+[ZD13; GFJP A5-15.2.2; 607]
+Pytano <o to, kto przyjdzie lub  czy  wydać  przyjęcie,  lub  kogo zaprosimy>.
+
+[ZD14; GFJP A5-15.2.2; 608]
+On<, ponieważ się spóźniają i ponieważ nie ma etatów>, zwolnił ich.
+
+% 412
+
+[ZD15; GFJP A5-15.2.3.1; 609]
+Nie było źle<, dopóki przeto miał ochotę | i dopóki świeciło słońce, i dopóki nie było mgły>, prowadził.
+
+[ZD16; GFJP A5-15.2.3.1; 610]
+Piotr prowadził<, dopóki miał ochotę,  dopóki  świeciło  słońce  | bądź też | dopóki nie było mgły>.
+
+[ZD17; GFJP A5-15.2.3.2; 611]
+<Gdy wszyscy wyszli | i gdy byłem sam, i gdy majster dał mi znak>, zrobiłem to.
+
+[*ZD17; GFJP A5-15.2.3.2; 612]
+<Gdy wszyscy wyszli i gdy będę sam, i gdy majster dał mi znak>, zrobiłem to.
+
+[ZD18; GFJP A5-15.2.3.2; 613]
+Zrobiłem to<, gdy byłem sam | oraz | gdy majster dał mi znak>.
+
+% 413
+
+[ZD19; GFJP A5-15.2.3.3; 614]
+Chłopiec<, którego matkę znałem | i który mnie zna, i od którego pożyczam pieniądze>, będzie.
+
+[*ZD19; GFJP A5-15.2.3.3; 615]
+Chłopiec<, którego matkę znałem i który mnie zna, i od której pożyczam pieniądze>, będzie.
+
+[ZD20; GFJP A5-15.2.3.3; 616]
+Chłopiec <, którego matkę znałem, który mnie zna | i | od którego pożyczam pieniądze>, będzie.
+
+[ZD20; GFJP A5-15.2.3.3; 617]
+To  jest  taka  dziewczyna<,  jakich chłopców nie znoszę oraz jaka była Maria>.
+
+% 414
+
+[ZD22; GFJP A5-15.3.2; 618]
+Pytano <i | o to, kto przyjdzie, i | o to, czy wydać przyjęcie>.
+
+[ZD22; GFJP A5-15.3.2; 619]
+Nie  jest  źle,  <i  zatem  o  to,  kto  przyjdzie,  i  czy  wydać przyjęcie>, pytano.
+
+[*ZD22; GFJP A5-15.3.2; 620]
+Pytano <i kto przyjdzie, i czy wydać przyjęcie>.
+
+[ZD23; GFJP A5-15.3.2; 621]
+Pytano <i | o to, kto przyjdzie, | i o to, czy wydać przyjęcie, i o to, kogo zaprosić>.
+
+[ZD24; GFJP A5-15.3.2; 622]
+Nie  jest  źle,  <o  to  bowiem,  kto  przyjdzie,  o to, czy wydać przyjęcie>, pytano.
+
+[ZD24; GFJP A5-15.3.2; 623]
+<Ponieważ się spóźniają, ponieważ nie ma etatów>, zwolnił ich.
+
+% 415
+
+[ZD25; GFJP A5-15.3.2; 624]
+Pytano  <o  to,  kto  przyjdzie,  |  czy  wydać  przyjęcie,   kogo zaprosić>.
+
+[ZD26; GFJP A5-15.3.3.1; 625]
+Piotr prowadził, dopóki miał ochotę, a także <i | dopóki  świeciło słońce, | i | dopóki nie było mgły>. 
+
+% 416
+
+[ZD27; GFJP A5-15.3.3.1; 626]
+Piotr  prowadził, dopóki miał ochotę, a także <i | dopóki świeciło słońce, | i dopóki nie było mgły, i dopóki nie był zmęczony>.
+
+[ZD28; GFJP A5-15.3.3.1; 627]
+Nie  jest  źle  <,  dopóki  zatem świeciło słońce, dopóki nie było mgły>, prowadził.
+
+[ZD29; GFJP A5-15.3.3.1; 628]
+Piotr<, dopóki świeciło słońce, | dopóki  nie  było  mgły,  dopóki miał ochotę>, prowadził.
+
+% 417
+
+[ZD30; GFJP A5-15.3.3.2; 629]
+Gdy  wszyscy  wyszli,  nie zaś <i gdy byłem sam, | i | gdy majster dał mi znak>, zrobiłem to.
+
+[ZD31; GFJP A5-15.3.3.2; 630]
+Gdy wszyscy wyszli, nie zaś <i | gdy byłem sam, | i gdy majster dał mi znak, i gdy wszystko było gotowe>, zrobiłem to.
+
+[ZD32; GFJP A5-15.3.3.2; 631]
+Zrobię to<, gdy będę sam, | gdy majster da mi znak>.
+
+[*ZD32; GFJP A5-15.3.3.2; 632]
+Zrobię to<, gdy będę sam, gdy majster dał mi znak>.
+
+[ZD33; GFJP A5-15.3.3.2; 633]
+Zrobiłem to<, gdy byłem sam,  |  gdy  majster  dał  mi  znak,  gdy wszystko było gotowe>.
+
+% 418
+
+[ZD34; GFJP A5-15.3.3.3; 634]
+To,  co  masz  <lub  czego nie chcesz, lub o czym one marzą>, oddać można.
+
+[ZD35; GFJP A5-15.3.3.3; 635]
+To, co masz <i czego nie chcesz, i o czym one marzą, i czego ci zazdroszczą>, oddać można.
+
+[ZD36; GFJP A5-15.3.3.3; 636]
+Chłopiec, od którego pożyczam pieniądze, jak również <którego matkę znałem, który mnie zna>, będzie.
+
+[*ZD36; GFJP A5-15.3.3.3; 637]
+Chłopiec, od którego pożyczam pieniądze, jak również <którego matkę znałem, którzy mnie znają>, będzie.
+
+[ZD37; GFJP A5-15.3.3.3; 638]
+Chłopiec, którego matkę znałem, <który mnie zna, od którego pożyczam pieniądze>, będzie.
+
+% 419
+
+[ZD38; GFJP A5-15.4.1; 639]
+Czekaliśmy, <o to natomiast, kto przyjdzie>, pytano.
+
+[ZD39; GFJP A5-15.4.1; 640]
+Piotr, <dopóki świeciło słońce>, prowadził.
+
+[ZD40; GFJP A5-15.4.1; 641]
+Chłopiec, od którego pożyczam pieniądze, jak również <którego matkę znałem>, będzie.
+
+[ZD42; GFJP A5-15.5.1; 642]
+Czekali, <aż przyjdziecie i was zobaczą>.
+
+[ZD42; GFJP A5-15.5.1; 643]
+Będziemy siedzieć, <aż przyjdziecie>.
+
+[ZD42; GFJP A5-15.5.1; 644]
+Nie jest źle, <chociaż bowiem przyszedłem, nie zbili mnie>.
+
+[ZD42; GFJP A5-15.5.1; 645]
+Piotr  prowadził,  <dopóki  miał  ochotę,  jak  również  nie  było wiatru>.
+
+[ZD42; GFJP A5-15.5.1; 646]
+<Że nas zwolnił>, szkoda.
+
+[ZD43; GFJP A5-15.5.1; 647]
+Nie jest źle, <choćby+śmy bowiem przyszli>, nie zbiliby mnie.
+
+[ZD43; GFJP A5-15.5.1; 648]
+<Gdyby nie tylko on przyszedł, lecz również ona przyszła>, to go zabiją!
+
+[*ZD43; GFJP A5-15.5.1; 649]
+Nie jest źle, <choćby bowiemśmy przyszli, nie zbiliby mnie>.
+
+% 420
+
+[ZD44; GFJP A5-15.5.2; 650]
+Kupię to, <czego ona nie ma>.
+
+[ZD44; GFJP A5-15.5.2; 651]
+Taką książkę, <jakiego poety nie lubimy>, kupiono.
+
+[ZD44; GFJP A5-15.5.2; 652]
+Chłopiec, <którego znałem>, będzie.
+
+[ZD44; GFJP A5-15.5.2; 653]
+Nie wiadomo, <czy on przyjdzie, czy też zostanie tam>.
+
+[ZD44; GFJP A5-15.5.2; 654]
+Nie jest źle, <kto natomiast przyjdzie>, nie wiadomo.
+
+[ZD45; GFJP A5-15.5.3; 655]
+Wiadomo, kto będzie, a także <że warto wydać przyjęcie>.
+
+[ZD46; GFJP A5-15.5.3; 656]
+Wiadomo, <kto będzie>, a także że warto wydać przyjęcie.
+
+[ZD47; GFJP A5-15.5.3; 657]
+Mówiono nam, żeby przyjść oraz <że będzie przyjęcie>.
+
+[ZD48; GFJP A5-15.5.3; 658]
+Mówiono nam, <żeby przyjść> oraz że będzie przyjęcie.
+
+[ZD49; GFJP A5-15.5.3; 659]
+Jak śpiewasz bądź <kiedy tańczysz>, wolimy.
+
+[ZD50; GFJP A5-15.5.3; 660]
+<Jak śpiewasz> bądź kiedy tańczysz, wolimy.
+
+%%% Local Variables: 
+%%% coding: utf-8
+%%% mode: text
+%%% End: 

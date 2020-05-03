@@ -1,0 +1,1230 @@
+1204 przestrzeń-1
+  0 wolne powietrze-1
+  0 przestrzeń publiczna-1
+  0 forum-7
+  0 nadprzestrzeń-2
+  0 przesmyk-2, przesmyk tkacki-1
+  0 miarola-1
+  0 bezgranicze-1
+  0 międzywał-1
+  0 międzytorze-1
+  0 międzyrzędzie-1, międzyrząd-1
+  112 miejsce-6
+    0 luz-1
+    8 odstęp-1, interwał-1
+      0 cięcie poziomicowe-1, cięcie warstwicowe-1
+      0 światło-6
+      0 menzura-3
+      0 interlinia-1
+      0 interkolumnium-1, międzysłupie-1
+      1 spacja-2
+        0 twarda spacja-1, sztywna spacja-1
+      0 podziałka-1, działka-5
+    101 przerwa-2, luka-2
+      0 luka stratygraficzna-1
+      22 szczelina-2, rozszczep-1, rozszczepienie-4, szpara-1
+        0 szczelina brzeżna-1
+        0 kieszeń-5, kieszeń patologiczna-1, kieszeń przyzębna-1
+        0 szczelina Sylwiusza-1, szczelina boczna-1, bruzda boczna-1
+        0 szczelina synaptyczna-1
+        0 rozpadlina-2
+        0 pęcherz żywiczny-1
+        0 rozszczep języczka-1
+        2 rozszczep podniebienia-1, wilcza paszcza-1
+          0 rozszczep podniebienia twardego-1
+          0 rozszczep podniebienia miękkiego-1
+        0 rozszczep wargi-1, rozszczepienie wargi-1, zajęcza warga-1
+        5 coloboma-1, koloboma-1
+          0 rozszczep powieki-1, szczelina powieki-1, koloboma powieki-1
+          0 rozszczep nerwu wzrokowego-1, szczelina nerwu wzrokowego-1, koloboma nerwu wzrokowego-1
+          0 rozszczep soczewki-1, szczelina soczewki-1, koloboma soczewki-1
+          0 rozszczep siatkówki-1, szczelina siatkówki-1, koloboma siatkówki-1
+          0 rozszczep tęczówki-1, szczelina tęczówki-1, koloboma tęczówki-1
+        0 rozszczep kręgosłupa-1, tarń dwudzielna-1
+        1 rozszczep czaszki-1
+          0 rozszczep potylicy-1
+        0 szczelina dylatacyjna-1, dylatacja-1
+        0 spoina-1, fuga-2
+      0 wyłom-3
+      2 prześwit-1
+        0 przelot-2
+        0 okno-4
+      0 rozdarcie-3, przedarcie-2
+      57 otwór-1
+        0 luk-2
+        0 otwór kolcowy-1
+        0 wejście-20
+        0 zaskok-2
+        2 por-4
+          0 por-3
+          VISITED 0 por-2
+        0 ponor-1
+        0 strzelnica-3
+        VISITED 0 gęba-2
+        0 ubytek-3, dziura-4
+        0 okno-2
+        0 okno-3
+        0 biforium-1
+        0 pragęba-1, prausta-1, blastoporus-1, prostoma-1
+        0 przeziernik-2
+        0 ambrazura-1
+        0 przetchlinka-1
+        0 przetchlinka-2
+        0 wpust-2
+        0 wywierzysko-1
+        1 przerębel-1, przerębla-1
+          0 połynia-1, płoń-1
+        1 otwór wiertniczy-1, odwiert-1
+          0 szyb naftowy-1
+        3 wycięcie-3, wykrój-2
+          0 szczerbina-1, szczerbinka-1
+          1 wręga-2, wręg-1
+            0 wrężyna-1
+        1 odbyt-1
+          0 kloaka-2, stek-2
+        11 wylot-2
+          0 brama lodowcowa-1, wrota lodowcowe-1
+          0 wypust-2
+          0 czara głosowa-1, dźwięcznik-1
+          0 wywiew-1
+          2 ujście-5
+            0 komin hydrotermalny-1, komin geotermalny-1, ujście hydrotermalne-1
+            0 por-2
+          3 odpływ-3, spust-2
+            0 odciek-3
+            0 upust-3
+            0 szpigat-1, spływnik-1
+        0 przepust-1
+        13 okno-1
+          0 okno krosnowe-1
+          0 wole oko-1, bawole oko-2
+          0 okno połaciowe-1
+          0 świetlik-6
+          0 dymnik-2
+          0 lukarna-1
+          0 iluminator-2
+          0 świetlik-1, iluminator-1, bulaj-1, luminator-1
+          4 okno-5
+            0 rozeta-2
+            0 witryna-4, wystawa-3
+            1 okienko-9
+              0 skajlajt-1
+      13 dziura-1, rozpadlina-1, rozpadlisko-1
+        0 dolina ryftowa-1
+        0 wykrot-1
+        0 żleb-1, kuluar-1
+        0 czeluść-1
+        0 szczerba-1
+        1 przepaść-1
+          VISITED 0 otchłań-1
+        0 kanion-1
+        3 wyrwa-1, wyłom-2
+          0 wyryw-1
+          0 obryw-1
+          0 komin-5
+        0 krater-1
+  0 przód-2
+  1 tył-2
+    VISITED 0 horyzont-1
+  4 plan-4
+    3 tło-4
+      0 mora-3
+      0 sztafaż-2
+      0 sceneria-2
+  0 dusza-7
+  0 dwór-5
+  1 dal-1, dalekość-1, bezkres-1, bezkresność-1
+    0 niezmierność-2
+  6 jama ciała-1
+    2 jama gębowa-1
+      0 gęba-2
+      0 jama ustna-1
+    0 blastocel-1, protoceloma-1, pierwotna jama ciała-1
+    0 jama brzuszna-1
+    0 jama gardłowa-1
+  0 magnetosfera-1
+  0 eter-3
+  0 otchłań-1
+  0 przestrzeń pozaziemska-1, kosmos-2, przestrzeń kosmiczna-1
+  0 kosmos-1, wszechświat-1, makrokosmos-1, uniwersum-1, świat-4, makroświat-1
+  0 pole karne-1
+  3 pole-3
+    1 tercja-5
+      0 tercja obronna-1
+    0 pole bramkowe-1
+  28 plac-1
+    0 plac manewrowy-1
+    0 majdan-1
+    0 forum-3
+    0 agora-1
+    0 emporium-1
+    1 skwer-1, zieleniec-1
+      0 skwerek-1
+    0 arena-1
+    0 parking-1
+    2 plac zabaw-1
+      0 małpi gaj-2
+      0 ogródek jordanowski-1, jordanek-1, ogród jordanowski-1
+    0 rynek-1
+    7 podwórze-1, podwórko-1
+      0 opłotki-4
+      5 dziedziniec-1, podwórzec-1, podworzec-1
+        0 perystyl-1
+        0 wirydarz-1
+        0 atrium-1
+        0 spacerniak-1, spacernik-1
+        0 patio-1
+    6 targ-2, targowisko-1, bazar-1, jarmark-2, rynek-3, plac-5
+      0 maślany rynek-1
+      0 pchli targ-1
+      1 giełda-2
+        0 giełda samochodowa-1, autogiełda-1
+      0 suk-1
+      0 zielony rynek-1
+  VISITED 14 pokład-2
+  32 otwór-2, dziura-2
+    0 otwór kierunkowy-1
+    0 wlew-3
+    1 wziernik-5
+      0 wizjer-1, judasz-2, wziernik-3
+    0 dziura ozonowa-1
+    0 przewiert-1
+    0 compluvium-1
+    0 mikrootwór-1
+    0 tęcza-3, otwór tęczowy-1
+    0 okulus-1
+    0 piezometr-2
+    0 sęczyna-1
+    0 wsuwka-2
+    0 wsyp-1
+    0 czerpnia powietrza-1
+    0 oculus-1
+    0 remizka-1, luwers-1
+    0 okienko-1
+    0 szyberdach-1
+    0 zrzutnia-1
+    0 przestrzelina-2
+    0 łuza-1
+    0 dziupla-2
+    1 ucho-4, uszko-3
+      0 ucho halsowe-1
+    0 wziernik-2
+    0 kluza-1, przewłoka-1
+    0 dysza-2
+    0 wywietrznik-1, przewietrznik-1
+    2 studnia-1
+      0 studnia artezyjska-1
+      0 abisynka-2, studnia abisyńska-1
+  2 sfera-5, firmament-2, sfera niebieska-1
+    0 horyzont zdarzeń-1
+    0 sfera gwiazd stałych-1
+  1 niebo-1, nieboskłon-1, niebiosa-1, błękit-3, niebiosy-1, firmament-1, sklepienie niebieskie-1
+    0 makrelowe niebo-1
+  0 aut-1
+  981 obszar-1, rejon-3, obręb-1
+    38 strefa-1, zona-1
+      0 strumień lodowy-1
+      0 szew tektoniczny-1
+      0 kurtyna zero-1
+      0 krenal-1
+      0 technosfera-1
+      0 heliosfera-1
+      0 profundal-1, strefa trofolityczna-1
+      0 ekosfera-1
+      29 sfera-3
+        0 warstwa eufotyczna-1
+        0 strefa pływów-1, strefa międzypływowa-1
+        0 strefa nerytyczna-1
+        0 strefa hemipelagiczna-1
+        0 strefa Benioffa-1
+        0 hadal-1
+        1 stygal-1
+          0 interstycjał-1, interstycjal-1
+        0 strefa klimatyczna-1
+        0 sublitoral-2
+        0 abisal-1, abysal-1, sfera głębinowa-1, strefa abysalna-1
+        VISITED 4 bental-1, strefa bentoniczna-1
+        6 front-1, front atmosferyczny-1, front meteorologiczny-1
+          0 front polarny-1
+          0 front drugorzędny-1
+          0 front chłodny-1
+          0 front stacjonarny-1
+          0 front zokludowany-1
+          0 front ciepły-1
+        0 geosfera-1
+        0 pelagial-1, wody pelagialne-1, strefa pelagialna-1, toń wodna-1
+        0 biosfera-1, sfera biotyczna-1
+        0 litoral-1, strefa litoralna-1, strefa przybrzeżna-1
+        0 równikowy pas ciszy-1
+        0 skłon kontynentalny-1, batial-1, strefa batialna-1
+    14 terytorium-1
+      0 kraina-6
+      0 królestwo-3
+      0 obszar-5
+      0 zabór-3
+      0 terytorium stowarzyszone-1
+      1 terytorium autonomiczne-1
+        0 bantustan-1
+      5 terytorium zależne-1, terytorium zamorskie-2
+        0 terytorium zamorskie-1
+        2 kolonia-4
+          0 kleruchia-1
+          0 półkolonia-2
+        0 protektorat-2
+      0 państwo roślinne-1, państwo-3, państwo florystyczne-1
+    0 obszar przestrzeni publicznej-1
+    0 Hinterland-1
+    0 pas drogi granicznej-1
+    0 region strefowy-1
+    0 strefa niebezpieczna-1
+    0 elipsa rozsiania-1
+    0 objętość Hubble'a-1
+    0 fałszywa próżnia-1
+    0 przestrzeń międzyplanetarna-1
+    0 jądro galaktyki-1
+    0 strefa konwektywna-2
+    0 obszar górniczy-1
+    0 trójkąt bermudzki-2
+    0 rewir-2
+    0 cień akustyczny-1
+    0 osiedle mieszkaniowe-1
+    0 strefa ciszy-1
+    0 równina sandrowa-1
+    0 megaszew litosfery-1
+    0 strefa peryglacjalna-1
+    0 pole firnowe-1
+    0 podnóże kontynentalne-1, wyniesienie kontynentalne-1
+    0 domena magnetyczna-1
+    0 obszar wiejski-1
+    1 jednostka osadnicza-2
+      0 kotan-1
+    0 strefa czasowa-1
+    0 strefa podmiejska-1
+    0 rezerwat archeologiczny-2
+    0 działka ewidencyjna-1
+    0 obręb ewidencyjny-1
+    0 peryglacjał-1
+    0 strefa pożarowa-1
+    1 obszar celny-1
+      0 wolny obszar celny-1
+    0 strefa nadgraniczna-1
+    0 strefa buforowa-1
+    0 strefa numeracyjna-1
+    VISITED 0 aglomeracja-2
+    1 zlewnia-1
+      0 dorzecze-1
+    0 matecznik-6
+    0 egzarchat-4
+    0 dzielnica-4
+    0 pulpit-3
+    0 tarcza kontynentalna-1, tarcza krystaliczna-1, tarcza-10
+    0 bujowisko-1
+    0 nadział-2
+    1 komórka-7
+      0 mikrokomórka-1
+    0 anekumena-1
+    0 subekumena-1
+    0 obszar metropolitalny-1
+    0 specjalna strefa ekonomiczna-1, SSE-1, strefa ekonomiczna-1
+    0 strefa bezatomowa-1
+    0 mechowisko-1
+    0 żubrowisko-1
+    0 ziemia niczyja-1
+    0 antypody-3
+    0 ekumena-1
+    0 kwartał-2, kwatera-2
+    0 wertepy-2
+    0 okręg-2
+    4 dzielnica-2
+      0 dzielnica przyrodniczo-leśna-1
+      1 dzielnica historyczna-1, dzielnica-3
+        0 dzielnica senioralna-1
+      0 dzielnica klimatyczna-1
+    3 akwatorium-1
+      0 reda-1, przedmorze-1
+      0 kotwicowisko-1
+      0 tor wodny-1, farwater-1, szlak żeglowny-1
+    18 ląd-1, ziemia-4
+      0 tombolo-1
+      VISITED 0 przesmyk-3, międzymorze-1, istm-1, istmus-1
+      4 stały ląd-1, kontynent-1
+        0 mikrokontynent-1
+        0 paleokontynent-1, prakontynent-1
+        0 subkontynent-1
+        0 superkontynent-1
+      0 kontynent-2
+      9 wyspa-1
+        0 Itaka-1
+        0 Helgoland-1
+        0 wyspa pływowa-1
+        0 wyspa kontynentalna-1
+        0 szkier-1, skjer-1, skier-1, szer-1
+        0 kępa-3, ostrów-1, ostrowie-1
+        0 wyspa wulkaniczna-1
+        1 wyspa koralowa-1
+          0 atol-1
+    20 teren-2
+      0 oaza antarktyczna-1
+      0 biała plama-1
+      0 teren zamknięty-1
+      0 teren zalewowy-1
+      0 teren przyległy-1
+      0 odcinek-4
+      0 buchtowisko-1, buchta-4
+      0 teren dwujęzyczny-1, kraj dwujęzyczny-1
+      0 teren szkoły-1
+      3 teren przemysłowy-1
+        2 park-3
+          0 park technologiczny-1
+          0 park przemysłowy-1
+      0 teren wojskowy-1
+      0 teren budowy-1, plac budowy-1
+      3 trawnik-1
+        0 wgłębnik-1
+        0 gazon-1
+        VISITED 0 darń-1, darnina-1
+      0 obszar zabudowany-1
+    0 terra incognita-1
+    0 obszar epicentralny-1
+    0 zrzutowisko-1
+    367 powierzchnia-2
+      0 powierzchnia użytkowa-1
+      0 lico-4
+      2 powierzchnia zrównania-1
+        VISITED 0 platforma abrazyjna-1
+        VISITED 0 peneplena-1, prawierównia-1
+      0 faseta-4
+      2 wygład-1
+        0 lustro tektoniczne-1, wygład tektoniczny-1, zwierciadło tektoniczne-1
+        0 wygład lodowcowy-1
+      0 mada-1
+      0 włos-2
+      2 tarcza-4
+        0 tarcza Nipkowa-1
+        0 cyferblat-1
+      0 bieżnik-1, protektor-3
+      14 pokład-2
+        VISITED 13 pokład-3, pokład statku-1
+      8 strona-8, stronica-1
+        0 szpalta-2
+        0 strona tytułowa-1
+        0 pagina-2
+        0 formatka-2
+        0 recto-1
+        0 verso-1
+        0 wakat-3, vacat-2
+        0 kolumna-6
+      337 płaszczyzna-1
+        12 ściana-9, ścianka-3
+          0 prospekt-3
+          0 ścianka działowa-1
+          9 bok-2
+            0 szczyt-8
+            0 strąga-2
+            2 tybinka-1
+              0 tybinka mała-1, podtybinka-1
+              0 tybinka duża-1
+            0 flanka-1
+            2 burta-1, burt-2
+              0 bakburta-1, bakbort-1
+              0 sterburta-1, sterbort-1
+        0 stapel-1
+        0 spad-3
+        0 płyta postojowa-1
+        0 tablica-3
+        0 taras-1
+        20 poziom-5
+          0 baza erozyjna-1
+          18 kondygnacja-1
+            0 półpiętro-1, antresola-3, mezanin-1, mezzanino-1
+            0 suterena-1, suteryna-1
+            6 piwnica-1, podziemie-1
+              0 podpiwniczenie-1
+              2 loch-1
+                0 ergastulum-1
+                0 ciemnica-2
+              1 krypta-1
+                0 katakumby-2, katakumba-1
+            6 piętro-1
+              5 góra-5
+                0 pięterko-1
+                3 strych-1, poddasze-1, podstrysze-1
+                  0 facjatka-1, facjata-2
+                  0 stryszek-1
+                  0 mansarda-1, wystawka-1
+            1 parter-1
+              0 przyziemie-1, przyziem-1
+        0 klepisko-3, gumno-2
+        7 tło-1
+          0 poddruk-1
+          3 pole-4
+            0 przycisk-5
+            0 lupka-2
+            0 egzerga-1, ekserga-1, odcinek-8
+          0 tinta-1, tynta-1
+          0 tinta-2, tynta-2
+        0 spłacheć-1
+        VISITED 7 równina-1
+        2 pochyłość-1, spadek-2, spadzistość-1
+          0 zjazd-4
+          0 stromizna-1, stromość-1
+        1 podłoże-1
+          0 podtorze-1
+        4 podłoga-1, ziemia-5
+          0 dylina-1, delina-1
+          0 betonka-1
+          0 posadzka-1
+          0 klepisko-1, polepa-1
+        8 platforma-1
+          0 platforma abrazyjna-1
+          1 platforma wydobywcza-1, platforma eksploatacyjna-1, platforma produkcyjna-1
+            0 platforma naftowa-1
+          0 namiot ścianowy-1, platforma ścianowa-1, portaledge-1
+          0 paleta-1
+          0 bocianie gniazdo-1, bocianiec-1, kosz masztowy-1
+          0 platforma wiertnicza-1
+          0 platforma tramwaju-1, pomost-3
+        193 warstwa-1
+          0 łuska-11
+          0 łuska-10
+          0 warstwa graniczna-1
+          0 runo-3
+          0 runo leśne-1
+          0 warstwa zaporowa-1
+          0 przestrzeń peryplazmatyczna-1
+          0 warstwa adsorpcyjna-1
+          0 otoczka bakteryjna-1
+          18 osad-3
+            0 torf sapropelowy-1
+            0 osad fluwioglacjalny-1
+            0 osad eoliczny-1
+            0 osad abyssalny-1
+            3 szlam-2
+              2 szlam-1, muł-1
+                0 sapropel-1, szlam gnilny-1
+                0 nanos-1
+            0 fluwioglacjał-1
+            0 osady ściekowe-1
+            0 osady denne-1
+            0 warwa-1
+            0 tillit-1
+            0 aluwium-2
+            0 gytia-1
+            0 deluwium-1, osad deluwialny-1
+            0 sedyment-1
+            0 namuł-1, namulisko-1
+          0 dywanik asfaltowy-1
+          0 warstwa ścieralna-1
+          1 podłoże malarskie-1
+            0 podobrazie-1
+          0 przedmurze-5
+          0 homosfera-1
+          0 podlew-1
+          0 heterosfera-1
+          0 mezopauza-1
+          0 ryzosfera-1, strefa korzeniowa-1
+          0 glikokaliks-1
+          0 intyna-1, endosporium-1
+          0 egzyna-1
+          0 welamen-1
+          0 obłocznia-1, hymenium-1
+          0 wierzchnica-3
+          0 wierzchnica-2
+          0 przypalenizna-1
+          0 obwój-3
+          0 kobierzec-2, dywan-2
+          0 wykładka-1
+          0 epilimnion-1, warstwa nadskokowa-1
+          6 tynk-1, wyprawa-4
+            0 rapówka-1
+            0 baranek-5
+            0 obrzutka-1
+            0 suchy tynk-1
+            0 tynk szlachetny-1
+            0 narzut-2
+          0 endoplazma-1
+          0 hipoderma-1, podskórnia-1
+          0 laserunek-1
+          0 hypolimnion-1
+          0 trofoblast-1
+          0 kożuch-2
+          0 termosfera-1
+          0 ozonosfera-1, warstwa ozonowa-1
+          0 tropopauza-1
+          0 termoklina-1, metalimnion-1
+          0 astenosfera-1
+          0 podglebie-1
+          0 naledź-1
+          1 złogi-1
+            0 kurdiuk-1
+          0 podścielisko-2
+          0 endokarp-1
+          0 mezokarp-1
+          0 egzokarp-1
+          VISITED 0 lodoszreń-1
+          1 darń-2, darnina-2
+            0 runo-1, poszycie-6, podszycie-6
+          0 natrysk-3
+          1 egzosfera-1
+            0 protosfera-1
+          0 jastrych-1
+          2 pokład-1
+            0 denniak-1
+            0 ucinka-1
+          0 martwica-2
+          0 glej-1
+          0 wylewka-1
+          0 zlodowacenie-6, glacjacja-1
+          0 troposfera-1
+          2 litosfera-1
+            0 litosfera oceaniczna-1
+            0 litosfera kontynentalna-1
+          0 jonosfera-1
+          0 hydrosfera-1
+          2 gładź-1
+            0 gładź tynkowa-1
+            0 gładź podłogowa-1, szlichta-1
+          0 mezosfera-1, crofesima-1
+          0 darń-1, darnina-1
+          1 zmarzlina-1, marzłoć-1
+            0 termokras-1, kras termiczny-1, geliwytopisko-1
+          0 rdza-1
+          1 skorupa-1
+            0 skorupa ziemska-1
+          0 podkład-2
+          9 podkład-1
+            0 balast-3
+            1 grunt-7, zaprawa-2
+              0 pokost-1
+            1 podkład-4, podkład kolejowy-1
+              0 podrozjazdnica-1
+            0 podściółka-1
+            2 czaprak-1, potnik-1
+              0 kutan-2
+              0 kropierz-1
+          3 wyściółka-1
+            0 futrówka-3
+            1 pakuły-1
+              0 słoma targana-1, targaniec-1
+          4 pokrywa-2
+            0 czasza lodowa-1, kopuła lodowa-1
+            0 czapa-2
+            0 mulcz-1
+            0 regolit-1, glina zwietrzelinowa-1
+          0 stratosfera-1
+          8 nawierzchnia-1
+            0 żwir-2
+            0 makadam-1
+            0 tłuczeń-1, szaber-1, szuter-1
+            0 tartan-1
+            0 polepa-2
+            0 asfalt-2
+            1 bruk-1
+              0 kocie łby-1
+          57 powłoka-2
+            0 powłoka galwaniczna-1
+            0 egzoszkielet-2
+            0 powłoka konwersyjna-1
+            0 polewa pustynna-1
+            0 ściana-8, ścianka-2
+            3 płaszcz-2
+              0 płaszcz górny-1
+              0 płaszcz Ziemi-1
+              0 płaszcz dolny-1, mezosfera-2
+            1 szata-2
+              0 szata godowa-1
+            1 kożuch-4
+              0 pło-1
+            0 elajosom-1, ciałko mrówcze-1, ciałko tłuszczowe-1
+            0 panierka-1, panier-1
+            11 śnieg-2, biały puch-1
+              0 śnieżnik-3, lodowczyk-1
+              0 gips-2
+              0 ponowa-1
+              0 szreń-1
+              0 okiść-1
+              0 sanna-1
+              0 lodoszreń-1
+              0 firn-2
+              0 suchy śnieg-1
+              0 zaspa-1
+              0 puch-1
+            3 nalot-1
+              0 płytka nazębna-1, płytka bakteryjna nazębna-1
+              0 meszek-3
+              0 pleśniawka-2
+            0 ektoderma-2
+            0 endoderma-1, entoderma-1
+            0 wylinka-1
+            0 plater-1
+            2 nabłonek-2
+              0 doczesna-1
+              0 śródbłonek-1
+            0 zgorzelina-1, zgorzel-3, zendra-1
+            3 szkliwo-1, emalia-1, glazura-2, polewa-2
+              0 szkliwo ceramiczne-1
+              1 angoba-1, pobiałka-3
+                0 firnis-1
+            2 atmosfera-2
+              0 atmosfera słoneczna-1
+              0 atmosfera-3, atmosfera ziemska-1
+            4 skóra-2, skórka-1
+              2 osłonka-3
+                0 kiełbaśnica-2
+                0 flak-5, kiszka-5
+              0 obierka-1, obierek-1, obierzyna-1
+            5 skóra-3
+              0 skóra materacowa-1
+              0 skórsko-1
+              0 łałok-1
+              0 cera-1
+              0 karnacja-1
+        13 pokład-3, pokład statku-1
+          0 podpokład-1
+          0 spardek-1
+          0 fordek-1, pokład dziobowy-1
+          0 szkafut-1
+          0 achterdek-1, pokład rufowy-1
+          0 pokład działowy-1, pokład bateryjny-1
+          0 pokład dolny-1
+          0 pokład górny-1
+          0 pokład startowy-1
+          0 międzypokład-1, międzypokładzie-1
+          0 dek-1
+          0 pokład główny-1
+          0 pomost-2
+        13 ściana-1
+          0 ściana szkieletowa-1
+          0 kosznica-1
+          0 shoji-1
+          0 horyzont-1
+          0 nadstawka-1
+          0 szczyt-7, ściana szczytowa-1
+          6 mur-1
+            0 spina-3
+            0 ściana tęczowa-1
+            3 elewacja-1
+              0 ściana kurtynowa-1, elewacja kurtynowa-1
+              1 fasada-1, front-5
+                0 fronton-2
+        0 ekran-3
+        23 tablica-1
+          0 tablica rejestracyjna-1
+          3 plansza-1
+            0 goban-1
+            0 warcabnica-1
+            0 szachownica-2
+          12 tabliczka-1
+            0 tabliczka znamionowa-1
+            0 dyptyk-5, dyptych-3
+            0 tafelka-2
+            VISITED 0 szyldzik-1
+            0 wywieszka-1
+            4 plakietka-1
+              2 identyfikator-3
+                0 tag-3
+                0 kolczyk-2
+              0 nieśmiertelnik-2
+            0 etykieta-2, etykietka-2
+            0 wizytówka-1
+          2 szyld-1
+            0 szyldzik-1
+            0 neon-2
+          1 drogowskaz-1
+            0 baka-1, stawa-1
+          0 epitafium-1
+        2 sufit-1
+          0 strop-2
+          0 powała-1
+        0 przepierzenie-1, parawan-1
+        9 dno-1
+          0 misa-3
+          0 grunt-6
+          0 szelf-1
+          4 bental-1, strefa bentoniczna-1
+            0 abysobental-1, abisobental-1
+            0 batybental-1
+            0 bental profundalny-1
+            0 bental litoralny-1
+          0 dno oceaniczne-1
+      VISITED 5 ziemia-8, grunt-1
+    29 pole-1
+      0 pole siłowe-1
+      0 pole drumlinowe-1
+      1 pole magnetyczne-1
+        0 zwierciadło magnetyczne-1
+      0 pole biwakowe-1, pole namiotowe-1
+      2 pole elektromagnetyczne-1
+        0 soczewka elektronowa-1
+        0 pole elektryczne-1
+      0 borowisko-1
+      0 pole minowe-1
+      0 pole bitwy-1, pole-14
+      17 pole-2, łan-1, niwa-2, rola-4, pole uprawne-1
+        0 gradowisko-1
+        0 bronowisko-1
+        0 kapuścisko-1, kapuśnisko-1
+        1 kartoflisko-1
+          0 kopanisko-1
+        0 areał-1
+        0 nieużytek-1
+        0 odłóg-1, ugór-1
+        7 ściernisko-1, rżysko-1, ścierń-1
+          0 lnisko-1
+          0 konopisko-1
+          0 żytnisko-1
+          0 ryżowisko-1
+          0 pszeniczysko-1
+          0 jęczmienisko-1
+          0 grochowisko-1
+        0 szkoda-1
+    0 martwe pole-1
+    0 diaspora-1
+    149 teren-1, krajobraz-1, okolica-1, strony-1
+      0 użytek leśny-1
+      0 płuca-2, zielone płuca-1
+      0 betonowa pustynia-1
+      0 użytek zielony-1
+      0 użytek ekologiczny-1
+      0 uprawa-4
+      0 remiza-3, remiza śródpolna-1
+      0 skalisko-1
+      0 obsuwisko-1
+      0 sapisko-1
+      0 golfowisko-1
+      0 gajowina-1, gajowisko-1
+      0 wieś-2
+      0 binduga-1
+      4 borówczysko-1
+        0 jagodowisko-2, jagodzisko-2
+        0 borówczysko połoninowe-1
+        0 borówczysko piargowe-1
+        0 borówczysko bażynowe-1
+      0 młaka-1, młak-1
+      0 teren zakryty-1
+      0 teren odkryty-1, teren otwarty-1
+      0 zarzecze-1
+      0 zagórze-1
+      2 wybrzeże-1
+        0 Wybrzeże Koromandelskie-1
+        0 lido-1
+      0 międzyrzecze-2
+      0 teren leśny-1
+      0 lasotundra-1
+      0 rozłóg-1, błonie-1, step-1
+      0 przymorze-1
+      0 interior-1
+      1 nadrzecze-1
+        0 polder-2
+      0 teren zielony-1, teren zieleni-1
+      8 torfowisko-1
+        0 torfowisko przejściowe-1
+        0 torfowisko soligeniczne-1
+        0 mszarnik-1
+        1 torfowisko źródliskowe-1
+          0 wiszar-1, torfowisko wiszące-1
+        0 torfowisko wysokie-1, mszar-2
+        0 torfowisko ombrofilne-1
+        0 torfowisko niskie-1, torfowisko łąkowe-1
+      VISITED 0 tundra-1
+      VISITED 0 sawanna-1
+      0 przedgórze-1, podgórze-1, przedmurze-3
+      0 półpustynia-1
+      0 pojezierze-1
+      0 pogórze-1
+      0 pogranicze-1, rubież-1, przygranicze-1
+      0 wrzosowisko-1
+      2 rezerwat-1, rezerwat przyrody-1
+        0 rezerwat krajobrazowy-1
+        0 rezerwat biosfery-1
+      7 równina-1
+        0 peneplena-1, prawierównia-1
+        0 morena denna-1
+        VISITED 0 hamada-1
+        VISITED 3 step-2
+      11 góry-1
+        0 góry średnie-1
+        0 góry niskie-1
+        0 góry wulkaniczne-1
+        0 góry zrębowe-1, góry załomowe-1
+        0 góry kopułowe-1
+        0 kaledonidy-1
+        0 łańcuch górski-1
+        0 pasmo górskie-1, pasmo gór-1
+        1 góry fałdowe-1
+          0 hercynidy-1, waryscydy-1
+        0 grzbiet śródoceaniczny-1
+      44 las-1
+        VISITED 0 park leśny-1
+        0 las ochronny-1
+        0 las tropikalny-1
+        0 tajga-2
+        0 cisina-1
+        0 jaworzyna-3
+        0 leszczyna-3, orzeszyna-4
+        0 pralas-1
+        0 bobrowisko-1
+        0 halizna-2
+        0 las mieszany-1
+        0 las iglasty-1
+        0 las liściasty-1
+        0 sośnina-2, choina-1
+        0 świerczyna-1
+        0 jedlina-2
+        2 grąd-1
+          0 grąd subatlantycki-1
+          0 grąd środkowoeuropejski-1
+        0 grabina-1
+        0 dąbrowa-1, dębina-2
+        0 buczyna-1
+        0 brzezina-1
+        0 ols-1, oles-1, olszyna-1
+        0 las monsunowy-1
+        2 regiel-1, piętro reglowe-1
+          0 regiel dolny-1
+          0 regiel górny-1
+        0 las łęgowy-1, łęg-2
+        0 las galeriowy-1
+        0 las dziewiczy-1
+        2 las deszczowy-1
+          0 selwas-1, selwa-1
+          0 namorzyny-1, mangrowe-1
+        0 gęstwina-1, gęstwa-1, gąszcz-1, gąszcza-1
+        0 puszcza-1
+        2 młodnik-1, młodniak-1, zagajnik-1
+          0 topolina-1
+          0 sośniak-1
+        0 knieja-1
+        0 gaj-1
+        0 dżungla-1
+        1 bór-1
+          0 bór bagienny-1
+      0 podnóże-1
+      6 pustynia-1
+        0 hamada-1
+        VISITED 1 pustynia lodowa-1
+        0 pustynia skalista-1
+        1 pustynia piaszczysta-1
+          0 erg-1
+      5 ziemia-8, grunt-1
+        0 podłoże gruntowe-1
+        0 klepisko-4, boisko-2
+        0 gołoborze-2
+        0 żwirowisko-1
+        0 błoto-2
+      1 bagno-1, bajoro-1, bagnisko-1, trzęsawisko-1, grzęzawisko-1, moczary-1, mokradło-1, błoto-1, rojst-1, błotnisko-1, topiel-2, topielisko-1
+        0 oparzelisko-1
+      12 łąka-1
+        0 łąka trzęślicowa-1
+        4 pastwisko-1, popas-2
+          0 pastewnik-1
+          0 ryjowisko-1
+          0 halizna-1
+          0 wygon-2
+        0 hala-2, hala pasterska-1
+        0 turzycowisko-1
+        0 połonina-1
+        0 łęg-1
+        1 polana-1
+          0 wyżnia-1
+    0 biochora-1
+    0 biocykl-1
+    9 biom-1
+      0 tundra-1
+      0 tajga-1
+      0 sawanna-1
+      3 step-2
+        0 pampa-2, pampasy-1
+        0 puszta-1
+        0 preria-1
+      1 pustynia lodowa-1
+        0 pustynia arktyczna-1
+    0 lasostep-1
+    9 region-2, ziemia-6, rejon-1, kraina-3, kraj-2
+      0 ziemia święta-1
+      0 basen-2
+      0 Polesie-1
+      0 Łemkowszczyzna-3
+      0 kraina geograficzna-1
+      0 spichlerz-2, spichrz-2
+      0 region węzłowy-1, region nodalny-1
+      0 kraina historyczna-1
+      0 zagłębie-1
+    0 rówień-1
+    0 egzarchat-1
+    0 żuława-1
+    0 zlewisko-1
+    0 spłaszczenie-3
+    0 solnisko-1
+    0 biotop-1
+    0 bezdroże-1, manowce-1
+    0 pas neutralny-1
+    0 tropik-1
+    1 wybieg-2
+      0 padok-2
+    0 park narodowy-1
+    0 park krajobrazowy-1
+    13 zabudowanie-3, zabudowania-1
+      0 parafia-4
+      0 przedzamcze-1
+      0 opłotki-1
+      0 kampus-1, campus-1
+      8 osiedle-1
+        0 agromiasteczko-1
+        0 oppidum-1
+        0 falanster-1
+        VISITED 0 kolonia-1
+        1 blokowisko-1
+          0 wielka płyta-4
+        0 podzamcze-1, przedzamcze-2
+        0 sadyba-1
+    1 nizina-1, dołek-3
+      0 niż-3
+    6 posesja-1, działka-3, parcela-1, plac-2
+      0 działka robocza-1
+      0 kwatera wojenna-1
+      0 działka siedliskowa-1
+      0 działka przyzagrodowa-1
+      1 budowa-2
+        0 hydrobudowa-1
+    0 oaza-4
+    2 wyżyna-1, wierzchnica-4
+      1 płaskowyż-1, płaskowzgórze-1
+        0 field-1
+    2 kawał-3, połać-1, szmat-1
+      1 kawałek-3
+        0 obrywka-1
+    1 enklawa-1, wyspa-2
+      0 kolonia-2
+    115 jednostka administracyjna-1
+      0 leśnictwo-2
+      0 obręb-4
+      0 ułus-2
+      0 wojskowa komenda uzupełnień-1
+      0 dyrekcja-5
+      0 obwód wyborczy-1
+      0 księstwo śląskie-1
+      0 ordynariat polowy-1
+      0 departament-2
+      0 aglomeracja-2
+      0 municypium-4
+      0 generałgubernatorstwo-1, generał-gubernatorstwo-1
+      0 półkanton-1
+      0 tema-1
+      0 szejkat-1, szejkanat-1
+      0 lordostwo-3
+      0 banat-1, banowina-1
+      0 kapitania-1, kapitania generalna-1
+      0 nom-1
+      0 seniorat-3
+      0 dystrykt-1
+      0 metropolia-3
+      0 nomarchia-1
+      0 paszałyk-1, paszałykat-1, paszalik-1
+      0 tribus-1
+      0 pałanka-2
+      0 kongregacja-1
+      0 ostan-1
+      1 ziemia-3
+        0 powiatówka-2
+      1 kraj-4
+        0 kraj związkowy-1, land-1
+      0 gromada-5
+      0 komitat-1, żupania-1, żupanat-1
+      0 komornictwo-1
+      0 rejencja-1
+      0 sandżak-2
+      0 merostwo-1
+      0 kasztelania-2
+      0 wicekrólestwo-1, virreinato-1
+      0 stanica-5
+      0 ajmak-1
+      0 margrabstwo-1, marchia-1
+      1 hrabstwo-1
+        0 hrabstwo ceremonialne-1
+      0 gubernium-1
+      0 komturia-1, komturstwo-1
+      0 prefektura-1
+      0 prefektura-2
+      0 patriarchat-1
+      0 namiestnictwo-2
+      0 gubernatorstwo-1, gubernia-1
+      0 eparchia-1
+      0 dekanat-1, dziekanat-1
+      0 cyrkuł-1
+      0 satrapia-1
+      0 kanton-1
+      0 wikariat apostolski-1
+      0 wikariat-2, wikaria-1
+      0 stan-4
+      0 starostwo-2
+      0 sołectwo-1
+      6 okręg-1, obwód-1
+        0 obwód autonomiczny-1
+        0 obwód rybacki-1
+        0 obwód łowiecki-1
+        0 podokręg-1
+        0 obwód głosowania-1
+        VISITED 0 rewir-1
+      0 nadleśnictwo-2
+      2 diecezja-1, biskupstwo-2
+        0 sufragania-1
+        0 archidiecezja-1, arcybiskupstwo-1
+      8 gmina-1
+        0 gmina górnicza-1
+        0 fila-1
+        0 gmina miejska-1
+        1 gmina miejsko-wiejska-1
+          0 Mogielnica-2
+        1 gmina wiejska-1
+          0 sołectwo-2
+        0 dem-1
+      2 powiat-1
+        0 powiat ziemski-1
+        0 powiat grodzki-1
+      7 prowincja-1
+        0 Junnan-1
+        0 hospodarstwo-1
+        0 tetrarchia-2
+        0 palatynat-1
+        0 eparchia-2
+        0 wilajet-1, wilaja-1
+        0 emirat-1
+      0 województwo-1
+      4 region-1
+        0 mikroregion-1
+        0 makroregion-1
+        0 region miejski-1
+        0 euroregion-1
+      16 dzielnica-1, rejon-2
+        0 Ruda-2
+        0 Prokocim-1
+        0 Hradczany-1
+        0 fawela-1, favela-1
+        VISITED 0 kwadrat-6, dzielnia-1
+        0 starówka-1, stare miasto-1
+        0 śródmieście-1
+        0 przedmieście-2
+        2 getto-2
+          0 getto tranzytowe-1, getto przejściowe-1
+          0 getto szczątkowe-1
+        0 slumsy-1, slamsy-1
+        2 peryferie-1, przedmieście-1
+          0 prowincja-5
+          0 suburbium-1
+        0 rewir-1
+    9 okolica-2, sąsiedztwo-1, pobliże-1
+      0 kwadrat-6, dzielnia-1
+      0 przyległość-1
+      0 przedproże-1, przedpole-1
+      0 otulina-1
+      4 otoczenie-6
+        0 okole-1
+        0 przychacie-1
+        0 ośrodek-3, medium-3, środowisko-2
+        0 kontekst-4
+    3 park-1
+      0 park miejski-1
+      0 park leśny-1
+      0 planty-1
+    74 miejscowość-1
+      0 okolica szlachecka-1
+      0 miejsce zamieszkania-1
+      3 kurort-1, wczasowisko-1
+        0 zimowisko-3
+        0 letnisko-1
+        0 kąpielisko-1
+      0 zadupie-1, dziura-6, grajdoł-1, zapadły kąt-1, partykularz-1, kaczy dół-1
+      2 uzdrowisko-1, kurort-2
+        0 stacja klimatyczna-1
+        0 zdrojowisko-1
+      1 miasteczko-1, mieścina-1
+        0 mieścina-2, pipidówka-1
+      20 miasto-1, gród-2
+        0 Wenecja Północy-1
+        0 miasto otwarte-1
+        0 Zasław-1
+        0 miasto wojewódzkie-1
+        0 Jaworów-1
+        0 miasto satelickie-1, miasto-satelita-1
+        0 Sambor-1
+        0 *miasto starożytne-1
+        0 miasto powiatowe-1
+        2 *miasto polskie-1
+          0 Strumień-4
+          0 Iłża-1
+        1 stolica-2
+          0 stolica regionu-1
+        0 miasto-ogród-1, miasto ogród-1
+        0 municypium-1
+        0 lokacja-1
+        1 metropolia-1, caput mundi-1
+          0 megamiasto-1
+        0 stolica-1, miasto stołeczne-1
+      24 osada-1
+        0 słoboda-1
+        0 palafit-1
+        11 obozowisko-2
+          6 obóz-7
+            0 horda-4, orda-4
+            0 tabor-4
+            1 kosz-7
+              0 sicz-4
+            0 podobóz-1
+            0 kurzeń-3, kureń-3
+          0 obóz-5, koczowisko-1
+          2 obóz-2, obozowisko-1
+            0 biwak-2
+            0 stanica-3
+        0 jurydyka-2
+        0 podgrodzie-1, przedgrodzie-1
+        0 faktoria-1
+        0 kolonia-1
+        0 auł-1
+        2 kraal-1
+          0 duży kraal-1
+          0 mały kraal-1
+        1 gród-1
+          0 przygródek-1
+      15 wieś-1, wioska-1
+        0 wioska tematyczna-1
+        0 lokacja-4
+        0 widlica-1
+        0 wielodrożnica-1
+        0 okolnica-1
+        0 rzędówka-1
+        0 łańcuchówka-1
+        0 owalnica-1, wieś placowa-1, oblicówka-1
+        0 wioszczyna-1
+        0 kolokacja-2
+        0 chutor-1
+        0 stanica-4
+        0 ulicówka-1, szeregówka-2
+        0 przysiółek-1
+        0 zaścianek-2
+    18 pas-3
+      0 pas drogowy-1
+      0 skiba-2
+      0 droga kołowania-1
+      1 przybrzeże-1
+        0 pas przybrzeżny wód-1, wody terytorialne-1
+      1 przesieka-1
+        0 pikada-2
+      3 linia podziału powierzchniowego-1
+        0 linia oddziałowa-1
+        1 linia ostępowa-1, tryba-1, dukt-1
+          0 przecinka-1
+      0 przesmyk-3, międzymorze-1, istm-1, istmus-1
+      4 pas ruchu-1, pasmo-3
+        0 pas włączeniowy-1
+        0 prawoskręt-2
+        0 lewoskręt-2
+        0 buspas-1
+      0 zodiak-1, zwierzyniec niebieski-1
+    0 zagranica-1, obczyzna-1, obce terytorium-1
+    0 świat-3, nieznane-1
+  4 krajobraz-3, pejzaż-3, widok-2
+    0 krajobraz pogórniczy-1, krajobraz poeksploatacyjny-1
+    0 krajobraz peryglacjalny-1
+    0 krajobraz kulturowy-1
+    0 panorama-1, perspektywa-4

@@ -1,0 +1,212 @@
+% Pakiet do drukowania drzew analizy.
+%
+% Copyright (C) 1997-2007 Marcin Woliński
+%
+% This program may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License, version 1.2.
+% The version 1.2 of this license is in
+%   http://www.latex-project.org/lppl/lppl-1-2.html
+% and version 1.2 or later is part of all distributions of LaTeX 
+% version 1999/12/01 or later.
+%
+
+\NeedsTeXFormat{LaTeX2e}[1995/12/01]
+\ProvidesPackage{incltree}[2006/03/30 v.0.4 Parse trees printouts]
+
+%\RequirePackage{pstcol}
+\RequirePackage{tikz}
+\RequirePackage[pdfpagemode=None,colorlinks=true,linkcolor=white]{hyperref}
+
+%\RequirePackage{dcg}
+%\def\nonterminal#1#2#3{\strut\expjedn{#1}#3\hfil\rlap{\quad\footnotesize\reg{#2}}}
+\def\nonterminal#1#2#3{\strut\textsf{#1}#3\hfil\rlap{\quad\footnotesize\reg{#2}}}
+%\def\nonterminal#1#2{\strut\expjedn{#1}}
+%\def\nonterminal#1#2{{\sffamily#1} \hfill\quad\reg{#2}}
+\definecolor{termback}{gray}{.85}
+\def\terminal#1#2#3{\kern-1.1pt
+  %\psframebox[framesep=-.05pt,%boxsep=false,%
+%    linewidth=.4pt,linearc=2pt,cornersize=absolute,%
+%    fillcolor=termback,fillstyle=solid]%
+  \tikz[baseline]{\draw (0,0) node[fill=gray!15,draw,rounded
+    corners=2pt,anchor=base,inner sep=0pt]
+    {\strut\enspace\textbf{\textit{#1}}\enspace
+      \vrule \@height2.4ex\@depth1.3ex\@width.4pt
+      \enspace\textsc{#2}\enspace};%
+%    \draw (term.south) -- (term.north);
+    }%
+  \vrule \@height2.4ex\@depth1.3ex\@width0pt\relax
+                                %\kern-5pt
+}
+
+% \newcommand*{\altformat}[2]{\thinspace
+%   \tikz[baseline]{\draw (0,0) node[fill=red!90,anchor=base,inner sep=1.5pt]
+%     {\textbf{\textcolor{white}{\small#1}}};%
+% %    \draw (term.south) -- (term.north);
+%     }%  
+% }
+\newcommand*{\altformat}[2]{\thinspace
+  {\fboxsep=1.5pt
+    \colorbox{red}{\textbf{\textcolor{white}{\small#1}}}%
+    \colorbox{blue}{\textbf{\textcolor{white}{\small#2}}}%
+  }%  
+}
+\newcommand*{\formatlinknext}[2]{%
+  \hyperlink{page.#2}{#1\kern1pt\raise.15ex\hbox{$\triangleright$}}}
+\newcommand*{\formatlinkprev}[2]{%
+  \hyperlink{page.#2}{\raise.15ex\hbox{$\triangleleft$}\kern1pt#1}}
+%\newcommand*{\altnone}[1]{}
+\newcommand*{\altfirst}[3]{%
+  \altformat{1/\formatlinknext{#1}{#2}}{#3}}
+\newcommand*{\altmid}[5]{%
+  \altformat{\formatlinkprev{#1}{#3}/%
+    \formatlinknext{#2}{#4}}{#5}}
+\newcommand*{\altlast}[3]{%
+  \altformat{\formatlinkprev{#1}{#2}/#1}{#3}}
+
+\newbox\@tempboxb
+\newenvironment{tree}[1]{\par
+  \catcode`\_=13 
+  \offinterlineskip
+  \centering\noindent\setbox0=\vbox\bgroup
+}{\vskip0pt 
+  \egroup
+% kern, bo numery wzorów wystają w~prawo:
+  \setbox\@tempboxb=\hbox{\box0\kern35pt}%
+  \fitbox\@tempboxb{\textwidth}{.98\textheight}%
+%  \fitbox\@tempboxb{10cm}{15cm}%
+%  \resizebox{!}{\textheight}{\box0}%
+  \par\newpage
+}
+% % wersja trzy po trzy na stronę:
+% \renewenvironment{tree}{%\par
+%   \catcode`\_=13 
+%   \offinterlineskip
+%   \noindent\setbox0=\vbox\bgroup
+% }{\vskip0pt 
+%   \egroup
+% % kern, bo numery wzorów wystają w~prawo:
+%   \setbox\@tempboxb=\hbox{\box0\kern35pt}%
+%   \fitbox\@tempboxb{.32\textwidth}{.32\textheight}%
+%   \hfil
+% %  \par
+% }
+
+
+% Dopasowanie pudełka o~numerze #1 do ramki o~wymiarach #2 x #3:
+\newcommand*{\fitbox}[3]{%
+  \Gscale@div{\@tempa}{\wd#1}{#2}% a/x
+  \Gscale@div{\@tempb}{\ht#1}{#3}% b/y
+  \ifdim\@tempa pt<\@tempb pt
+  % skalujemy do y
+    \resizebox{!}{#3}{\box#1}%
+%    \Gscale@box@dd{\ht0}{#3}{\box#1}%
+  \else
+  % skalujemy do x
+    \resizebox{#2}{!}{\box#1}%
+%    \Gscale@box@dd{\wd0}{#2}{\box#1}%
+  \fi
+%\box#1
+}
+
+\newbox\subtreebox
+\newdimen\subtreewd
+\newdimen\subtreeht
+
+\newif\iftree@incompressed
+\def\TreeLeaf#1{\hbox{#1}\nointerlineskip
+}
+\def\Tree#1#2#3{%
+  \hbox{{%
+      \vtop{%
+        \setbox\subtreebox=\vbox{%
+          {%\if#1l\let\drawbars=\drawbarsl\fi
+            \tree@incompressedfalse
+            #3%
+            \global\let\if@zsyp\iftree@incompressed
+          }%
+        }%
+        \setbox0=\hbox{#2}
+        \subtreewd=\dimexpr \wd\subtreebox+10pt\relax
+        \ifdim\subtreewd < \wd0
+          \subtreewd=\wd0
+        \fi
+        \hbox to\subtreewd{\unhbox0}\nointerlineskip
+        \vbox{%
+          \unvbox\subtreebox
+%          \global\subtreeht=2.4ex
+          \global\subtreeht=0ex
+          \reboxsubtrees
+        }%
+      }}% fr
+  }\nointerlineskip
+}
+
+\def\reboxsubtrees{%
+  \setbox0=\lastbox
+  \ifvoid0\else
+    {\reboxsubtrees}%
+%    \moveright\dimexpr\subtreewd-\wd0 \box0
+    \hbox to\subtreewd{%
+      \hfil
+      \@tempdimb=\dimexpr\wd0+4pt-\subtreewd\relax
+      \subtreeht=\dimexpr\subtreeht+\ht0+.3ex\relax
+%      \if@zsyp \psset{linestyle=dashed,dash=2pt 1.5pt}\fi
+      \tikz{
+        \useasboundingbox (0,0);
+      \if@zsyp
+      \draw[rounded corners=4pt,dash pattern=on 2pt off 1.5pt] (-1pt,.7ex) -- (\@tempdimb,.7ex) -- 
+        (\@tempdimb,\subtreeht);
+      \else
+      \draw[rounded corners=4pt] (-1pt,.7ex) -- (\@tempdimb,.7ex) -- 
+      (\@tempdimb,\subtreeht);
+      \fi
+}%
+%      \global\subtreeht=\dimexpr\ht0+\dp0+2.4ex\relax
+      \global\subtreeht=\dimexpr\ht0+\dp0\relax
+      \box0}%
+    \nointerlineskip
+  \fi
+}
+
+\def\TreeCompressed#1#2#3{%
+  \tree@incompressedtrue
+  #3%
+}
+
+\newcommand*{\includetree}[1]{{\let\TreeC\Tree\input{#1}}}
+\newcommand*{\includeshorttree}[1]{{\let\TreeC\TreeCompressed\input{#1}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\def\info#1#2{\bgroup
+  \def\tmp{#1}%
+  \expandafter\egroup
+  \expandafter\def
+  \csname info:\expandafter\strip@prefix\meaning\tmp\endcsname{#2}}
+\def\useinfo#1{\def\tmp{#1}%
+  \csname info:\expandafter\strip@prefix\meaning\tmp\endcsname}
+\def\simpinfo#1{\csname info:#1\endcsname}
+\def\ifinfo#1#2{\def\tmp{#1}%
+  \expandafter\ifx
+  \csname info:\expandafter\strip@prefix\meaning\tmp\endcsname\relax
+  \else #2\fi
+}
+
+\info{numer}{}
+\info{trees}{?}
+
+\newcommand*{\reg}[1]{\textrm{(#1)}}
+
+\newcommand*\koniecprzykladu{
+%\egroup\newpage\bgroup
+%\nrdrzewa1\@firsttreetrue
+}
+
+
+\endinput
+
+%%% Local Variables: 
+%%% coding: utf-8
+%%% mode: latex
+%%% TeX-master: shared
+%%% End: 

@@ -1,0 +1,18 @@
+Plik freqListInterps.ml wykorzystuje plik data/interps_general.tab, skąd usunięte zostały niektóre wpisy,
+głównie dotyczące adj (powodujące dwuznaczności przy scalaniu).
+
+Pozostawione intepretacje:
+-siebie, numcol (nieobecne w SGJP) pozostają jak są
+-ppron12, ppron3 pozostają jak są
+(tzn. nie ma znalezionych odpowiedników, są pomijane)
+
+W przypadku praet, imps, imp, fin, inf, ger, pact, ppas wybrana została interpretacja najbardziej podobna
+do oryginalnej licząc od końca, co rozwiązuje problemy perf.impef, neg.aff
+
+Przekształcenia:
+-qub:wok, qub:nwok -> qub
+
+Co do num spoza SGJP:
+-jeżeli forma składa się wyłącznie z cyfr arabskich i rzymskich, wybierana jest najdłuższa interpretacja
+Zapewne w rzeczywistości powinny wtedy obejmować wszystkie możliwe tagi.
+-w przeciwnym wypadku wybierana jest najkrótsza (najwęższa) interpretacja

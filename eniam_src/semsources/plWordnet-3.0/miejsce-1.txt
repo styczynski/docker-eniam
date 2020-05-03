@@ -1,0 +1,2720 @@
+2634 miejsce-1
+  0 magiczna górka-1
+  0 koniec świata-2
+  0 stanowisko pracy-1
+  0 nisza ekologiczna-1
+  0 widełki replikacyjne-1
+  0 strefa ryftu-1
+  1 lokacja-6
+    0 instancja-4
+  0 świeże powietrze-1
+  0 dziki zachód-2
+  0 małpi gaj-1
+  0 przybytek-2
+  0 podwale-1
+  0 *miejsce fikcyjne-1
+  0 ciemnik-2
+  0 ziemia-10
+  0 wypuklina-1
+  0 wypłuczysko-1
+  0 wypalenisko-1
+  0 zestrzał-2
+  VISITED 0 strąga-1
+  0 wietnica-1
+  0 wiatrowisko-1
+  0 zapłotki-1
+  0 płyta-5
+  0 hipsternia-2
+  0 zasadzka-2
+  0 kryniczysko-1
+  0 dżungla-2
+  0 umieralnia-1
+  0 przemalunek-2
+  0 zakątek-2
+  0 kasa-5
+  477 *miejsce wyróżniające się z całości obiektu-1
+    0 anomalia magnetyczna-2
+    108 *forma ukształtowania terenu-1
+      0 padół-3
+      0 pagór mrozowy-1
+      0 kociołek wietrzeniowy-1, kociołek skalny-1
+      0 bruzda lodowcowa-1
+      0 amfiteatr morenowy-1
+      0 rzeźba staroglacjalna-1
+      0 rzeźba młodoglacjalna-1
+      0 rzeźba krasowa-1
+      0 rzeźba glacifluwialna-1
+      0 rzeźba glacjalna-1
+      0 grzbiet podmorski-1
+      VISITED 0 żebro-4
+      0 grzęda-6
+      0 kolumna-10, filar-6
+      7 skalica-1, skałka-3, tor-7
+        0 baszta-2
+        0 maczuga skalna-1
+        0 kopa skalna-1
+        0 materac skalny-1
+        0 chłopek-2
+        0 turniczka-1
+        0 grzyb skalny-1
+      VISITED 36 obniżenie-5
+      VISITED 42 wzniesienie-5, wyniosłość-2
+      6 zbocze-1, stok-1
+        0 przeciwstok-1
+        2 ściana-6
+          0 czołówka-5
+          0 urwisko-1, uskok-3
+        0 upłaz-1
+        0 skarpa-1
+    1 plama-4
+      0 plama barwna-1
+    0 patelnia-2
+    0 wyleżysko-1
+    2 odsłonięcie-4
+      0 wychodnia-1, wychód-3
+      0 odkrywka-1
+    5 przewężenie-1, zwężenie-3
+      0 ucho igielne-2
+      3 cieśń-1
+        0 cieśń aorty-1
+        0 cieśń macicy-1
+        0 cieśń gardzieli-1
+    0 stromizna-1, stromość-1
+    408 nierówność-4
+      0 zakop-1
+      0 mulda-1
+      0 wygięcie-4
+      43 zgrubienie-2, zgrubiałość-1, gula-1, bulwa-3
+        0 troczek zginaczy-1
+        0 troczek prostowników-1
+        0 warga-3
+        0 pasemko Caspary'ego-1
+        0 róża-8
+        26 węzeł-4
+          15 węzeł żeglarski-1
+            0 węzeł masztowy-1
+            0 stoper-5
+            0 węzeł knagowy-1
+            0 węzeł Huntera-1, związ Huntera-1
+            3 węzeł szotowy-1
+              0 węzeł bramszotowy-1
+              0 węzeł tkacki-1
+              0 węzeł flagowy-1
+            0 węzeł złodziejski-1
+            0 węzeł refowy-1
+            0 węzeł prosty-1
+            0 bosmanka-1, gałka bosmańska-1, skrajwęzeł rzutkowy-1
+            0 kluczka-1
+            1 węzeł płaski-1
+              0 węzeł babski-1
+          1 węzeł krzyżowy-1
+            0 węzeł holowniczy-1
+          0 półwyblinka-1
+          0 wyblinka-2, ósemka pionierska-1
+          0 węzeł ratowniczy-1, węzeł skrajny tatrzański-1
+          0 supeł-1, węzeł zwykły-1, półsztyk-1, półwęzeł-1
+          0 dziewiątka-6
+          0 garda-1
+          1 ósemka-10
+            0 podwójna ósemka-1
+        0 łuk brwiowy-1, łuk nadoczodołowy-1
+        0 wyrośle-2, wyrośl-2
+        0 ciałko rzęskowe-1, ciało rzęskowe-1
+        0 wrzeciono-3
+        0 zawęźlenie-3
+        0 rozdęcie-3
+        0 kolanko-2, węzeł-5
+        0 guz-2
+        0 gruzeł-1
+        1 odcisk-1, nagniotek-1, odgniotek-1
+          0 modzel-1
+      20 występ-2, wypust-1
+        0 kołnierz-2
+        0 przedmurze-4
+        0 żebro-3
+        0 cypel-1
+        0 gzyms-1
+        0 pióro-2, wypust-3
+        0 ryzalit-1
+        1 terasa-1, taras-2
+          0 płaśń-1, płaśnia-1
+        1 nawis-1
+          0 przewieszka-1, ściana przewieszona-1
+        8 gwint-1
+          0 gwint toczny-1
+          0 gwint stożkowy-1
+          1 gwint trapezowy-1
+            0 gwint trapezowy metryczny-1
+          0 gwint metryczny-1
+          0 gwint pociągowy-1
+          0 gwint prostokątny-1
+          0 gwint złączny-1
+      8 zagięcie-3, zgięcie-3, załamanie-5, przegięcie-5
+        1 załom-1, uskok-4, załam-1
+          0 odsadzka-1
+        4 fałda-1, plisa-2, fałd-1
+          1 zakładka-2
+            0 zaszewka-1
+          0 szczypanka-1
+          0 kontrafałda-1
+        0 załamek-1
+      66 wypukłość-1, uwypuklenie-3
+        0 guzowatość-2
+        0 łuska-8
+        0 żebro-6
+        0 krosta-2, pryszcz-2
+        0 uchyłek-1
+        0 guzek-2
+        0 krętarz-1
+        0 brzusiec-1
+        8 narośl-1
+          0 ostroga piętowa-1
+          0 dzikie mięso-1
+          0 parch-3
+          0 bulwka-1
+          0 halluks-1, haluks-1, paluch koślawy-1
+          0 polip-2
+          1 galas-1, galasówka-2
+            0 dębianka-2
+        1 garb-1
+          0 garbek-1
+        3 wybrzuszenie-2
+          0 wał dziąsłowy-1
+          0 purchel-1
+          0 entaza-1
+        42 wzniesienie-5, wyniosłość-2
+          0 żebro-4
+          0 czasza-4
+          0 nek-1, rdzeń wulkaniczny-1, pień wulkaniczny-1
+          0 kępa-2
+          0 wypiętrzenie-1
+          1 wysoczyzna-1
+            0 wysoczyzna morenowa-1
+          3 ostaniec-1
+            0 głowa cukru-1
+            0 ostaniec deflacyjny-1
+            0 mogot-1, ostaniec krasowy-1, hum-1
+          0 wulkan błotny-1
+          3 masyw-1
+            0 masyw górski-1
+            0 rozróg-1
+            0 autochton-2
+          8 wzgórze-1, pagórek-1, wzgórek-1, górka-1
+            1 muton-1
+              0 szkier-1, skjer-1, skier-1, szer-1
+            0 oz-1
+            0 kem-1
+            0 drumlin-1
+            2 wydma-1
+              0 barchan-2
+              0 diuna-1
+          16 góra-1
+            1 góra podwodna-1, góra podmorska-1
+              0 gujot-1, guyot-1, podwodna stołowa góra-1
+            0 kopa-1
+            0 stoliwo-1
+            11 wulkan-1
+              1 stożek wulkaniczny-1
+                0 stożek pasożytniczy-1, stożek przybyszowy-1
+              0 wulkan drzemiący-1
+              0 superwulkan-1
+              0 wulkan eksplozywny-1
+              0 wulkan tarczowy-1
+              0 wulkan tufowy-1
+              0 wygasły wulkan-1
+              0 drzemiący wulkan-1
+              0 stratowulkan-1, wulkan mieszany-1
+              0 wulkan czynny-1
+      2 wybój-1
+        VISITED 0 wądół-1
+        0 mulda-2
+      261 wgłębienie-2, zagłębienie-2, wklęsłość-1, wklęśnięcie-2, wydrążenie-3, zaklęsłość-1, zaklęśnięcie-2
+        2 niecka-1
+          VISITED 1 kotlina-1
+        VISITED 0 aedicula-3, edykuła-3, edykuł-3
+        0 siodełko tureckie-1
+        0 dołek osiowy-1
+        0 banior-1, misa eworsyjna-1, kołbań-3
+        0 ałas-1
+        0 wytopisko-1
+        0 perystom-1, peristom-1
+        0 komora-7
+        2 zachyłek-1
+          0 zachyłek gruszkowaty-1
+          0 zachyłek łonowy-1
+        0 takyr-1, takir-1
+        0 marmit-1, kocioł eworsyjny-1, kocioł wirowy-1, garnek podlodowcowy-1
+        0 wkop-1
+        1 jama-1
+          0 zatoka-4
+        10 dół-2
+          0 sondaż-2
+          0 wapiennik-5
+          0 wądół-1
+          0 grajdołek-1
+          0 wykrot-1
+          4 lej-1, krater-2, lejek-3, werteb-1
+            1 krater meteorytowy-1, krater uderzeniowy-1
+              0 astroblem-1
+            0 lej krasowy-1, lejek krasowy-1, wertep krasowy-1, werteb krasowy-1
+            0 wertep sufozyjny-1, lej sufozyjny-1, lejek sufozyjny-1, werteb sufozyjny-1, kocioł sufozyjny-1
+        2 dół-3
+          0 zębodół-1
+          0 oczodół-1
+        0 zawalisko-1
+        0 aksilla-1, pachwina-2
+        0 ploso-1
+        VISITED 0 szot-2, szott-1
+        0 geosynklina-1
+        0 kryptodepresja-1, zatopiona depresja-1
+        0 podcięcie-5
+        0 mszar-1
+        0 kawerna-1
+        3 wnęka-2, nisza-2, nyża-1
+          0 nisza niwalna-1
+          0 komin-1
+          0 kocioł-3, cyrk lodowcowy-1, kar-1
+        1 wręga-2, wręg-1
+          0 wrężyna-1
+        6 wcięcie-3
+          0 żłobek-3
+          1 talia-2, stan-5, pas-4, kibić-1
+            0 talia osy-1
+          2 nacięcie-4
+            0 nacios-1
+            0 karb-2
+        4 zapadlisko-1, zapadlina-1
+          0 zapadlisko tektoniczne-1
+          VISITED 2 rów tektoniczny-1, graben-1
+        3 basen-3
+          0 basen naftowy-1
+          0 basen sedymentacyjny-1
+          0 basen oceaniczny-1
+        0 wgięcie-3, wgniecenie-3
+        0 wilczy dół-1
+        0 podołek-1
+        9 wnęka-1
+          0 kieszeń-2
+          0 lodżia-1, loggia-1
+          0 framuga-2
+          0 blenda-1
+          4 nisza-1
+            0 aedicula-3, edykuła-3, edykuł-3
+            VISITED 0 arkosolium-1
+            0 mihrab-1
+            0 eksedra-1
+        0 koleina-1
+        15 bruzda-1, rowek-1, wrąb-1, wyżłobienie-4, żłobienie-6
+          5 żłób-4
+            VISITED 4 dolina lodowcowa-1, żłób lodowcowy-1, żłób polodowcowy-1, dolina U-kształtna-1
+          0 bruzda-3
+          0 grawerka-3
+          0 dołek-1
+          0 zacios-1
+          0 wpust-1, felc-1
+          0 nut-1
+          0 fuga-4
+          0 bonia-2
+          0 bonia-1
+        2 krater-3, krater wulkaniczny-1
+          0 krater pasożytniczy-1, krater boczny-1
+          0 maar-1
+        5 jaskinia-1, grota-1, pieczara-1
+          0 grota ogrodowa-1
+          0 schronisko-3
+          0 jaskinia lodowa-1
+          VISITED 0 jaskinia lawowa-1
+          0 awen-1, jaskinia krasowa-1
+        36 obniżenie-5
+          4 rów-2
+            0 rów oceaniczny-1
+            2 rów tektoniczny-1, graben-1
+              0 aulakogen-1
+              0 ryft-1
+          0 przełączka-1
+          0 lej depresyjny-1, stożek depresyjny-1
+          2 depresja-3
+            0 depresja śródziemnomorska-1
+            0 polder-1
+          23 dolina-1
+            0 dolina marginalna-1
+            0 dolina zawieszona-1, dolina wisząca-1, dolina podwieszona-1
+            0 wadi-1, ued-1, wadis-1
+            4 dolina lodowcowa-1, żłób lodowcowy-1, żłób polodowcowy-1, dolina U-kształtna-1
+              0 dolina przegłębiona-1
+              0 pradolina-2
+              1 rynna-1
+                0 rynna polodowcowa-1, rynna subglacjalna-1, dolina rynnowa-1
+            3 dolina V-kształtna-1
+              0 kanion podmorski-1
+              0 wcios-1
+              0 debrza-1, debrze-1, debra-1
+            0 przegłębienie-2
+            0 roztoka-1
+            4 wąwóz-1
+              0 holweg-1, głębocznica-1
+              0 rozdół-1
+              0 jar-1, parów-1, wądół-2
+              0 kanion-1
+            1 łożysko-2
+              0 pradolina-1
+            1 kotlina-1
+              0 polje-1
+          1 przełęcz-1
+            0 siodło-3
+        5 komora-8
+          0 trawieniec-1
+          3 przedżołądek-1
+            0 księgi-1
+            0 czepiec-3
+            0 żwacz-2
+        2 koryto-1
+          1 koryto rzeki-1
+            0 rzeczysko-1
+        0 krater-1
+        109 zbiornik-1
+          0 kaczy dół-2
+          0 zbiornik magmowy-1
+          0 komora wulkaniczna-1
+          0 płuczkarnia-1, płuczkarka-1
+          0 planktoniarnia-1
+          7 *zbiornik sztuczny-1
+            VISITED 0 zlewnia-3
+            1 basen-7
+              0 brodzik-2
+            0 odstojnik-1, osadnik-2
+            0 studzienka ściekowa-1, wpust ściekowy-1
+            0 szambo-1, kloaka-1, dół gnilny-1
+            0 zbiornik retencyjny-1
+          1 akwarium-1
+            0 kula-7
+          93 zbiornik wodny-1, akwen-1
+            0 martwa woda-1
+            0 zbiornik przepływowy-1
+            0 kołbań-2
+            0 praocean-1
+            0 moczydło-1
+            0 impluvium-1
+            VISITED 0 zimochów-1
+            VISITED 0 wodowisko-1
+            VISITED 0 cumowisko-1
+            3 kąpielisko-2
+              0 lido-2
+              1 pływalnia-1, basen-1
+                0 basen kryty-1
+            0 awanport-1, przedporcie-1
+            0 cofka-2
+            0 delfinarium-1
+            0 naturalny zbiornik wodny-1
+            0 basen modelowy-1
+            3 basen-4, basen portowy-1
+              2 dok-1
+                0 dok pływający-1
+                0 suchy dok-1
+            0 sadzawka-1
+            0 sadzawka-2
+            0 kałuża-1
+            1 rozlewisko-1, rozlew-1, zalewisko-1
+              0 młaka-2, młak-2
+            4 staw-1
+              0 staw osadowy-1
+              0 tarlisko-2, ikrzysko-2
+              0 glinianka-2
+              0 oczko-2, oczko wodne-1
+            0 ocean-1
+            2 morze-1
+              0 morze międzykontynentalne-1
+              0 morze epikontynentalne-1
+            56 jezioro-2
+              0 jezioro ramienicowe-1
+              0 jezioro polimiktyczne-1
+              3 jezioro przybrzeżne-1
+                0 jezioro limanowe-1, liman-1
+                0 jezioro lagunowe-1
+                0 jezioro deltowe-1
+              0 jezioro biogeniczne-1
+              8 jezioro lodowcowe-1, jezioro glacjalne-1
+                0 jezioro drumlinowe-1
+                0 jezioro przyozowe-1
+                0 jezioro peryglacjalne-1, jezioro ekstraglacjalne-1
+                VISITED 0 jezioro episzelfowe-1
+                0 jezioro supraglacjalne-1
+                0 jezioro proglacjalne-1
+                0 jezioro podlodowcowe-1, jezioro subglacjalne-1
+                VISITED 0 zastoisko-1, jezioro zastoiskowe-1
+              0 jezioro pluwialne-1
+              0 jezioro okresowe-1
+              0 jezioro endoreiczne-1
+              0 jezioro lobeliowe-1
+              0 jezioro hipertroficzne-1
+              0 jezioro saprotroficzne-1, jezioro przeżyźnione-1
+              5 jezioro słodkie-1, jezioro słodkowodne-1
+                1 jezioro oligotroficzne-1
+                  0 jezioro episzelfowe-1
+                0 jezioro mezotroficzne-1
+                0 jezioro politroficzne-1
+                0 jezioro eutroficzne-1
+              0 jezioro gorzkie-1
+              2 jezioro humotroficzne-1, jezioro humusowe-1
+                1 jezioro polihumusowe-1, jezioro dystroficzne-1
+                  0 suchar-3
+              4 jezioro zaporowe-1
+                0 jezioro wydmowe-1
+                0 jezioro osuwiskowe-1
+                VISITED 0 jezioro morenowe-1
+                0 zastoisko-1, jezioro zastoiskowe-1
+              1 jezioro krasowe-1
+                0 jezioro poljowe-1
+              9 jezioro polodowcowe-1
+                0 jezioro tektoniczno-polodowcowe-1
+                2 jezioro wytopiskowe-1
+                  0 jezioro ałasowe-1, jezioro termokrasowe-1
+                  0 oczko polodowcowe-1, oczko wytopiskowe-1
+                0 jezioro rynnowe-1
+                0 jezioro morenowe-1
+                0 jezioro karowe-1, jezioro cyrkowe-1
+                0 jezioro fiordowe-1
+                0 jezioro eworsyjne-1
+              0 jezioro reliktowe-1
+              1 jezioro tektoniczne-1, jezioro ryftowe-1
+                0 jezioro zapadliskowe-1
+              0 jezioro meteorytowe-1, jezioro kosmiczne-1
+              0 jezioro wulkaniczne-1
+              0 jezioro przepływowe-1
+              1 jezioro słone-1
+                0 szot-2, szott-1
+              0 jezioro meandrowe-1
+              0 starorzecze-1
+        12 rów-1, wykop-1, kanał-1, przykop-1
+          0 wilczy dół-2
+          0 łotok-1
+          0 odprowadzalnik-1
+          0 doprowadzalnik-1
+          0 aprosza-1
+          0 przekop-1
+          1 okop-1, rów-3
+            0 koszokop-1
+          0 transzeja-1
+          1 rów melioracyjny-1
+            0 lewada-2
+          0 fosa-1
+    5 styk-1
+      3 zbieg-1
+        0 róg-12
+        0 róg-9
+        0 spływ-3
+      0 kontakt-3
+    4 rozgałęzienie-1, rozwidlenie-1
+      0 bifurkacja-1
+      0 rozjazd-1
+      0 badyl-3
+      0 widły-2
+    8 zakręt-1, skręt-2
+      0 kolano-2
+      0 prawoskręt-2
+      0 lewoskręt-2
+      0 zakręt śmierci-1
+      0 zakos-1
+      0 wiraż-1
+      1 meander-1
+        0 meander-3
+    3 kąt-1, róg-2
+      0 wysokość astronomiczna-1
+      0 róg halsowy-1
+      0 kąt kursowy-1
+  2 cień-6, chłód-5
+    0 chłodnik-4, ciennik-1
+    0 półcień-1
+  1 raj-2, eldorado-1, kanada-2, mekka-1
+    0 oaza podatkowa-1, raj podatkowy-1
+  7 stanowisko-7
+    0 stanowisko dokumentacyjne-1
+    2 stanowisko archeologiczne-1
+      0 tell-1, tall-1
+      0 stanowisko antropologiczne-1
+    1 stanowisko-2
+      0 ambona-1
+    0 stanowisko-1
+  76 punkt-9
+    VISITED 0 pikieta-5
+    0 miejsce obsługi podróżnych-1
+    3 kiosk-4
+      1 urzędomat-1
+        0 skarbomat-1
+      0 kiosk multimedialny-1
+    0 mobilny punkt krwiodawstwa-1, ruchomy punkt krwiodawstwa-1
+    VISITED 50 lokal użytkowy-1
+    0 stacja benzynowa-1, stacja-5
+    11 *punkt usługowy-1, lokal usługowy-1
+      0 pralnia-2
+      0 pogotowie-5
+      0 fotolab-1, fotolaboratorium-1
+      0 serwis-4
+      0 ksero-3
+      1 myjnia-1
+        0 automyjnia-1
+      0 solarium-1, solarka-2
+      0 magiel-2
+      0 wypożyczalnia-1
+      0 totalizator-2, kolektura-1
+    3 skup-1, punkt skupu-1
+      0 zlewnia-2
+      0 skup złomu-1
+      0 skup makulatury-1
+    0 kantor-1
+  9 początek-1
+    0 wejście-21
+    0 rozbiegówka-1
+    5 źródło-4, źródlisko-1, zdrój-2
+      0 źródło geotermalne-1
+      0 wywierzysko-2
+      0 wysięk-2
+      1 cieplica-1, gorące źródło-1, terma-2, źródło termalne-1, woda termalna-1
+        0 gejzer-1
+    0 start-1
+  15 obszar-2
+    0 polarna czapa lodowa-1
+    0 strefa wolnocłowa-1
+    0 czapka tektoniczna-1
+    0 okno tektoniczne-1
+    0 obszar pensejsmiczny-1
+    0 obszar alimentacyjny-1
+    0 pas radiacyjny-1
+    0 magnetosfera ziemska-1
+    0 ciernisko-1
+    0 porośl-1
+    0 sitowisko-1
+    1 zasięg-1
+      0 zasięg dysjunktywny-1
+    0 szlak gradowy-1
+    0 teren-4
+  4 kraina-2
+    0 świat fantazji-1
+    2 *kraina fikcyjna-1
+      1 *kraina mitologiczna-1
+        0 Atlantyda-1
+  0 kanał-3
+  VISITED 7 tunel-1
+  5 siedlisko-1, ostoja-1, refugium-1
+    0 remiza-3, remiza śródpolna-1
+    1 mikrosiedlisko-1
+      VISITED 0 siedlisko-4
+    0 wylęgarnia-1
+    0 lęgowisko-1, gniazdowisko-1
+  0 wylęgarnia-3
+  0 zadupie-1, dziura-6, grajdoł-1, zapadły kąt-1, partykularz-1, kaczy dół-1
+  0 pogorzelisko-1, popielisko-1, zgliszcze-1, spalenisko-1, pożarzysko-4
+  1 pustelnia-2, eremitorium-1, erem-1
+    0 aśrama-1, aszrama-1
+  851 *miejsce ze względu na przeznaczenie-1
+    0 pikieta-5
+    0 egzotarium-1
+    0 bar tlenowy-1
+    0 przelew-2
+    1 park-5
+      0 park dinozaurów-1
+    0 ring wystawowy-1
+    0 młyn-3
+    0 gniazdo-7
+    0 miejsce postojowe-1
+    0 padok-4
+    0 wyraj-4
+    0 zimowisko-4
+    0 zlewnia-3
+    0 kulisa-5
+    0 przeprawa-3
+    0 wybieg-4
+    0 cinerarium-1
+    31 zbiornik-2
+      0 zbiornik balastowy-1
+      0 walczak-1
+      0 naczynie wzbiorcze-1
+      0 butla gazowa-1
+      0 barat-1
+      0 oczyszczalnik-3
+      VISITED 2 zasobnik-1
+      0 rezerwuar-1
+      0 desorber-1
+      VISITED 0 zsypnik-1
+      0 pojemnik na deszczówkę-1, pojemnik na wode deszczową-1
+      0 pływak-4
+      0 tank-2
+      1 baniak-1
+        0 kanister-1
+      VISITED 0 kompostownik-1
+      0 miska olejowa-1
+      0 kałamarz-2
+      VISITED 0 popielnik-1
+      0 butla-2, butla tlenowa-1
+      0 bak-1
+      VISITED 0 baryłka-2
+      VISITED 0 kadź-2
+      0 cysterna-2
+      0 silos-1, silos budowlany-1
+      VISITED 3 śmietnik-1
+    0 solarium-3
+    0 rozmnoża-3
+    0 przesyp-4
+    0 odwszalnia-1
+    VISITED 0 kruszarnia-1
+    0 nadscenie-1
+    0 leżalnia-1
+    0 nęcisko-1
+    0 wyświetlarnia-1
+    0 templum-3
+    0 templum-1
+    25 miejsce pochówku-1, miejsce wiecznego spoczynku-1
+      17 grób-1, mogiła-1
+        0 arkosolium-1
+        0 kubikulum-1, cubiculum-1
+        8 grobowiec-1
+          0 grób galeriowy-1
+          0 tolos-1
+          0 kolumbarium-1
+          0 dolmen-1
+          0 cenotaf-1, kenotaf-1, kenotafium-1
+          0 mastaba-1
+          0 konfesja-1
+          0 piramida-1
+        0 grób ciałopalny-1
+        VISITED 0 sarkofag-1
+        0 kurhan-1
+        0 mauzoleum-1
+        VISITED 1 krypta-1
+      6 cmentarz-1, nekropolia-2
+        0 mizar-1, zireć-1
+        0 cmentarzysko-1
+        0 grzebowisko-1
+        0 katakumby-1, katakumba-2
+        0 nekropola-1, nekropolia-1, miasto umarłych-1
+        0 kirkut-1, kierkut-1
+    0 warnia-1
+    0 golfowisko-1
+    0 bekowisko-2
+    0 trzaskowisko-2
+    0 brzoskwiniarnia-1
+    0 karciarnia-1
+    0 kaczkarnia-1
+    0 chody-1
+    0 załadownia-1
+    0 przeładownia-1
+    0 bukowisko-2
+    0 bobrowisko-2, bobrownia-1
+    0 biesiadowisko-1
+    0 wodowisko-1
+    0 cumowisko-1
+    50 *wydzielona przestrzeń, w której żyją zwierzęta-1
+      0 pingwinarium-1
+      0 sokolarnia-1
+      7 spęd-3
+        0 szałasisko-1
+        5 zagroda-2
+          0 strąga-1
+          0 kojec-3
+          0 korral-1, corral-1
+          0 kraal-2
+          0 padok-1
+      1 klatka-3
+        0 kojec-1
+      1 wybieg-2
+        0 padok-2
+      VISITED 35 *pomieszczenie, w którym żyją zwierzęta-1
+    0 kieracisko-1
+    3 stacja-2
+      0 stacja postojowa-1
+      0 stacja obsługiwana-1
+      0 dworzec-1
+    0 skład-2
+    37 przejście-22, komunikacja-3
+      0 szpaler-3
+      0 parodos-2
+      0 rękaw-2
+      0 pasaż-1
+      0 przelotnia-1
+      7 tunel-1
+        0 syfon-7
+        0 rękaw-5
+        0 rękaw-4
+        0 jaskinia lawowa-1
+        0 tunel aerodynamiczny-1
+        0 tunel hydrotechniczny-1
+        0 przejście podziemne-1
+      0 womitorium-1
+      0 kaponiera-2
+      0 pasy-1, przejście dla pieszych-1, zebra-2
+      0 opłotki-2
+      0 przełaz-1
+      0 ambit-1, obejście-5
+      0 przesmyk-1, gardziel-2
+      11 korytarz-2
+        0 galeria bojowa-1
+        0 chodnik obronny-1
+        0 korytarz ekologiczny-1
+        0 mina-4
+        0 syfon-3
+        0 poterna-1, potajnik-1
+        0 dromos-1
+        0 ponor-1
+        2 podkop-1
+          0 chodnik przeciwminowy-1
+          0 chodnik minowy-1
+      2 skrót-4
+        0 tunel Morrisa-Thorne'a-1
+        0 most Einsteina-Rosena-1
+      0 chodnik-1
+      0 granica-2, przejście graniczne-1
+    0 fraternia-1
+    0 sterylizatornia-1
+    0 piecownia-1
+    3 próg-3, próg rzeczny-1
+      0 poroh-1
+      0 szypot-1
+      0 katarakta-2
+    0 łabędziarnia-1
+    0 rdzeniarnia-1
+    0 odkład-1
+    0 rykowisko-2
+    1 tokowisko-1
+      0 sadowisko-2
+    0 harcówka-1
+    0 podscenie-1, kanał-12, fosa orkiestrowa-1, kanał dla orkiestry-1
+    0 polerownia-1
+    0 korowalnia-1
+    0 rafineria-2
+    0 galwanizernia-1
+    0 międzymurze-1
+    0 światła-2
+    1 igielnik-1
+      0 poduszka na szpilki-1, poduszka na igły i szpilki-1
+    0 skrzynka kontaktowa-1
+    0 poligon-2, poligon doświadczalny-1
+    0 pigalak-1
+    0 krematorium-2, piec-3
+    0 formiernia-1
+    0 szparagarnia-1
+    0 cerkwisko-1
+    0 blich-1, blech-1
+    0 tarlisko-1, ikrzysko-1
+    0 domicyl-1
+    0 gimnazjon-1, gimnazjum-3
+    0 kołchoz-2
+    1 żerowisko-1
+      0 szkoda-1
+    0 strzelnica-2
+    11 zaświaty-1, tamten świat-1
+      0 asfodelowa łąka-1
+      0 podziemie-4
+      0 szeol-1
+      0 otchłań-2, limbus-2, limbo-1
+      0 czyściec-1
+      4 raj-3, niebo-2, niebiosy-2, niebiosa-4
+        0 łono Abrahama-1
+        0 kraina wiecznych łowów-1
+        0 empireum-1
+        0 Pola Elizejskie-1, Elizjum-1
+      0 piekło-1, gehenna-2, pandemonium-2, orkus-2, hades-1, naraka-1
+    0 spalarnia-1
+    0 postój-2, etap-3
+    0 krematorium-1, spopielarnia-1
+    5 forum-4
+      VISITED 4 mównica-1
+    25 podwyższenie-2, wzniesienie-4
+      0 góry pierścieniowe-1
+      0 podium-2
+      1 trybuna-1
+        0 kantoria-1
+      0 wybieg-3
+      0 górka rozrządowa-1
+      0 katafalk-1, mary-1
+      0 tumba-2
+      0 słupek startowy-1
+      0 podest-3
+      3 podium-1
+        0 kliros-1
+        0 szafot-1
+        VISITED 0 proscenium-1, proskenion-1
+      4 mównica-1
+        0 dakka-1, dikka-1
+        0 bima-1
+        1 ambona-2, kazalnica-1
+          0 minbar-1, mimbar-1
+      6 scena-6
+        0 otwarta scena-1
+        0 scena szufladkowa-1, scena szufladowa-1
+        0 scena pudełkowa-1
+        0 scena obrotowa-1, obrotówka-1
+        0 proscenium-1, proskenion-1
+        0 estrada-1
+    69 *miejsce kultu-1
+      0 stacja duszpasterska-1
+      VISITED 50 przybytek-3
+      0 trzebnica-2, ofiarnia-1, ofiarnisko-1
+      0 lararium-1
+      VISITED 0 zolnik-2
+      0 betyl-1
+      0 kalwaria-1
+      0 kaplica wotywna-1
+      3 figura-7
+        0 świątek-2
+        1 kapliczka-1
+          0 aedicula-2, edykuła-2, edykuł-2
+      0 ołtarz-2
+      0 uroczysko-1
+      0 krąg kamienny-1, kromlech-1
+      1 sanktuarium-1
+        0 bama-1
+      VISITED 1 kaplica-2
+    74 schronienie-3
+      0 arka Noego-2
+      0 ogrzewalnia-1
+      0 forteca-2, wieża z kości słoniowej-1, twierdza-2
+      0 kuczka-1
+      0 przytułek-3
+      0 przytulisko-1
+      VISITED 20 baza noclegowa-1
+      9 namiot-1
+        0 kibitka-2
+        VISITED 0 Namiot Spotkania-1, Przybytek Mojżeszowy-1, przybytek-6
+        0 namiot ścianowy-1, platforma ścianowa-1, portaledge-1
+        0 tipi-1
+        VISITED 0 pretorium-1
+        0 pałatka-2
+        VISITED 0 wigwam-1
+        0 jurta-1
+        0 cyrk-3
+      1 szałas-2
+        0 wigwam-1
+      1 schron-2
+        0 ziemianka-1
+      0 samotnia-1, pustelnia-1
+      3 kryjówka-1, ukrycie-4
+        0 dziupla-3
+        0 melina-2
+        0 czatownia-1
+      1 azyl-2, oaza-2, enklawa-2
+        0 azyl dyplomatyczny-1
+      22 gniazdo-1
+        0 kotnik-1
+        0 jama-2
+        0 termitiera-1
+        0 żeremie-1
+        1 mrowisko-1
+          VISITED 0 formikarium-1
+        6 legowisko-1, leże-1
+          0 kołbań-1
+          0 wężowisko-2
+          0 gawra-1, budowisko-1
+          0 komysz-1
+          0 barłóg-2
+          0 zimowisko-1
+        VISITED 7 ul-2
+        0 nora-2
+      2 obóz-2, obozowisko-1
+        0 biwak-2
+        0 stanica-3
+      0 wiata-1
+    0 terminal-2
+    1 cel-1
+      0 zsyłka-2
+    1 przejazd-1
+      0 przejazd kolejowy-1
+    100 miejsce pracy-1, miejsce zatrudnienia-1, zakład pracy-1, praca-4, robota-1
+      0 teren-7
+      12 kopalnia-1
+        0 kopalnia otworowa-1
+        0 wapiennik-4
+        0 rudnik-2
+        0 wapniarka-1
+        0 bursztyniarnia-2, kopalnia bursztynu-1
+        0 piaskownia-1, piaskarnia-1
+        0 biedaszyb-1
+        0 żwirownia-1
+        0 kamieniołom-1
+        0 kopalnia węgla brunatnego-1
+        0 kopalnia węgla kamiennego-1
+        0 salina-1
+      VISITED 3 firma-5
+      0 plan-6
+      VISITED 0 reżyserka-3, reżysernia-1
+      0 plener-1
+      VISITED 0 atelier-1
+      48 dział-2, wydział-3, pion-2, sekcja-3
+        0 podwydział-1
+        0 biuro łącznikowe-1
+        0 kryminalistyka-2
+        0 agencja-5
+        0 rurownia-1
+        0 decernat-1
+        0 kruszarnia-1
+        0 korektornia-1, korekta-4
+        0 klejownia-3, klejarnia-1
+        0 młynownia-4
+        0 młynownia-2
+        0 przygotowalnia-2
+        0 pudełczarnia-1
+        0 zecernia-1
+        0 prototypownia-1
+        0 niciarnia-1
+        0 dekoratornia-2
+        0 cewiarnia-1, przewijalnia-1, przewijarnia-1
+        0 klejownia-2, klejarnia-2
+        0 ekstraktownia-1
+        0 tabletkarnia-1
+        0 wydział lokalowy-1
+        0 probiernia-2
+        0 odłam-4
+        0 paczkarnia-1, paczkownia-1
+        0 stereotypownia-1, gisernia-2
+        0 dział personalny-1, biuro personalne-1, dział osobowy-1, kadry-1
+        0 ekspedycja-4, ekspedytura-1
+        2 księgowość-2, rachuba-2
+          0 dekretowanie-1
+          0 kwestura-2
+        3 oddział-6
+          0 stacja sanitarna-1
+          0 tłoczarnia-1
+          0 prażalnia-1
+        3 filia-1, oddział-4, agenda-2, ekspozytura-2
+          0 obwód drogowy-1
+          0 decernat-2
+          0 komórka-5, ogniwo-4
+        8 biuro-3
+          0 biuro podawcze-1
+          0 helpdesk-1
+          0 sekretariat-2
+          0 komendantura-1
+          0 intendentura-1, zaopatrzenie-3
+          0 sprawozdawczość-2
+          1 kancelaria-2, palestra-3
+            0 kancelaria tajna-1
+      26 gospodarstwo-1, gospodarka-2
+        0 gospodarstwo leśne-1
+        0 gospodarstwo niskotowarowe-1
+        7 gospodarstwo rolne-1
+          0 gospodarstwo małorolne-1
+          0 gospodarstwo karłowate-1
+          0 gospodarstwo towarowe-1
+          0 gospodarstwo agroturystyczne-1
+          0 farma-1
+          1 ferma-1
+            0 bażantarnia-1, bażanciarnia-1
+        0 pstrągarnia-1
+        0 gazdostwo-2, gazdówka-1
+        0 kibuc-1
+        0 sowchoz-1
+        0 kołchoz-1
+        0 punkt kopulacyjny-1, stacja kopulacyjna-1
+        0 stadnina-1
+        0 pasieka-1
+        0 Państwowe Gospodarstwo Rolne-1, PGR-2, pegeer-1
+        0 ranczo-1, rancho-1
+        5 plantacja-1
+          0 malinnik-2
+          0 truskawkarnia-1
+          0 fazenda-2, facenda-1
+          0 chmielarnia-1, chmielnik-2
+          0 winnica-1
+      1 budowa-2
+        0 hydrobudowa-1
+    108 siedziba-2, siedlisko-3
+      50 przybytek-3
+        0 Namiot Spotkania-1, Przybytek Mojżeszowy-1, przybytek-6
+        2 miejsce święte-1
+          0 adyton-1
+          0 święta góra-1
+        0 wyrocznia-2
+        44 świątynia-1
+          0 świątynia etruska-1
+          0 świątynia hypertralna-1
+          0 jinja-1
+          0 dagoba-1
+          0 mandapa-2
+          1 amfiprostylos-1
+            0 tetrastylos-1, tetrastyl-1
+          0 templum-2
+          0 perypter-1, perypteros-1, peripteros-1
+          0 prostyl-1, prostylos-1
+          0 monopter-2, monopteros-2
+          0 mitreum-1
+          0 stupa-1
+          0 zikkurat-1, ziggurat-1, zigurat-1, zikurat-1
+          0 dipteros-1
+          0 piramida-2
+          0 gontyna-1, kącina-1, kontyna-1
+          0 chram-1
+          0 pagoda-1
+          0 meczet-1
+          0 panteon-1
+          19 kościół-2, Dom Boży-2
+            0 kościół ścienno-filarowy-1
+            0 kościół filialny-1
+            0 kościół parafialny-1
+            0 parafia-3
+            0 kościół salowy-1
+            0 fara-1, kościół farny-1
+            0 konkatedra-1, współkatedra-1, kościół konkatedralny-1
+            0 kolegiata-1
+            0 zbór-1, kircha-1
+            0 kościół halowy-1
+            4 cerkiew-2, cerkiew prawosławna-2
+              0 cerkiew łemkowska-1
+              0 cerkiew huculska-1
+              0 cerkiew bojkowska-1
+              0 sobór-2
+            2 katedra-1
+              0 prokatedra-1
+              0 archikatedra-1
+            0 bazylika-1
+          2 kaplica-1
+            0 kaplica przedpogrzebowa-1, kaplica przycmentarna-1
+            0 oratorium-2
+      0 adres-3
+      0 pałanka-3
+      0 dwór-3
+      0 domicyl-3
+      1 *siedziba bogów-1
+        0 Helikon-1
+      0 sadyba-1
+      12 rezydencja-1
+        0 delicja-3
+        0 alkazar-1
+        3 zamek-1
+          0 bastylia-1
+          0 zamczysko-1
+          0 kasztel-2
+        5 pałac-1
+          0 alkazar-2
+          0 seraj-2
+          0 palatium-1
+          1 pałacyk-1
+            0 bagatela-3
+      32 dom-2, dach nad głową-1, własny kąt-1, kąt-3, lokum-1, chata-2, chałupa-3, dach-2
+        0 biała sala-1
+        0 igloo-1, iglu-1
+        VISITED 27 mieszkanie-4
+        1 zakwaterowanie-4, kwatera-1, kwaterunek-2
+          0 kwatera zastępcza-1
+      3 dwór-1
+        0 dworzyszcze-1
+        1 dworek-1
+          0 kałamarzyk-3
+    10 składowisko-1
+      0 zsypisko-2
+      0 śmietnik-2
+      0 mogilnik-1
+      0 wrakowisko-1
+      0 deskowisko-1
+      0 wylewisko-1
+      1 złomowisko-1
+        0 szrot-1
+      0 gnojnik-1, gnojowisko-1, gnojownia-1
+      0 śmietnisko-1, wysypisko-1, składowisko odpadów-1
+    0 recepcja-1
+    185 siedziba-1
+      0 lokum-2
+      2 klub-4
+        0 fitness klub-1, fitness club-1
+        0 resursa-2
+      3 firma-5
+        0 agencja-6
+        0 wydawnictwo-3
+        0 hurtownia-2
+      0 bank-2
+      1 kwatera główna-1
+        0 horda-6, orda-3
+      0 pretorium-1
+      0 jurydyka-1
+      0 pałac ślubów-1
+      0 izba wytrzeźwień-1
+      1 stacja-1
+        0 stacja zborna-1
+      0 rabinat-2
+      0 synagoga-2
+      2 poradnia-1
+        0 telefon zaufania-1
+        0 biuro matrymonialne-1
+      0 sejm-3
+      0 pogotowie-1
+      0 prokuratura-2
+      VISITED 3 przedszkole-1
+      1 redakcja-2
+        0 słownik-2, słownikarnia-1
+      0 spółdzielnia-3
+      88 placówka-1
+        14 placówka opiekuńczo-wychowawcza-1
+          0 ośrodek kuratorski-1
+          0 wioska dziecięca-1
+          0 placówka resocjalizacyjna-1
+          0 placówka socjalizacyjna-1
+          0 placówka rodzinna-1
+          0 placówka interwencyjna-1
+          0 placówka wsparcia dziennego-1
+          0 schronisko-2, azyl-3
+          0 dom starców-1, przytułek-2
+          0 hospicjum-1
+          0 żłobek-2
+          0 świetlica-2
+          0 sierociniec-1, ochronka-1, dom dziecka-1
+          VISITED 0 dom poprawczy-1, zakład poprawczy-1, poprawczak-1
+        47 placówka oświatowo-wychowawcza-1
+          42 szkoła-2
+            0 szkoła podwydziałowa-1
+            0 Rej-3
+            2 szkoła policealna-1
+              0 szkoła pomaturalna-2
+              0 studium-3
+            0 budowlanka-2
+            0 jazzówka-3
+            0 college-1, koledż-1
+            0 preparanda-1
+            0 szkoła podstawowa-4, podstawówka-3
+            0 szkoła specjalna-1
+            0 handlówka-1, szkoła handlowa-1
+            0 quadrivium-1, kwadrywium-2
+            0 dziesięciolatka-2
+            0 efebia-2
+            0 medresa-1, madrasa-2
+            0 podchorążówka-1
+            5 szkoła ponadgimnazjalna-1
+              VISITED 3 liceum-4
+              VISITED 0 technikum-3
+            8 szkoła wyższa-2, uczelnia-2
+              0 latający uniwersytet-1
+              0 uczelnia akademicka-1
+              0 akademia-4
+              0 filmówka-1, szkoła filmowa-1
+              0 jesziwa-1, jesziba-1, akademia talmudyczna-1, jeszybot-1
+              0 medresa-2, madrasa-1
+              0 uniwersytet-1, uniwerek-1
+              0 politechnika-1, polibuda-1
+            13 szkoła ponadpodstawowa-2
+              2 zawodówka-2, zasadnicza szkoła zawodowa-1
+                0 samochodówka-2
+                0 budowlanka-1
+              8 szkoła średnia-2
+                0 korpus kadetów-1
+                3 liceum-4
+                  0 liceum plastyczne-1
+                  0 liceum ogólnokształcące-1, ogólniak-2, LO-1
+                  0 liceum profilowane-1, profilak-1
+                0 progimnazjum-1
+                0 seminarium-2
+                0 technikum-3
+              0 gimnazjum-2
+            0 kolegium-2
+          3 przedszkole-1
+            0 przedszkole integracyjne-1
+            0 freblówka-1
+            0 dzieciniec-1
+        0 konserwatornia-2
+        0 misja-4
+        0 hanza-2, faktoria-2
+        0 poczta-3
+        17 placówka służby zdrowia-1, zakład opieki zdrowotnej-1
+          0 izba chorych-1
+          0 ośrodek zdrowia-1
+          0 izolatorium-1
+          2 sanatorium-1
+            0 półsanatorium-1
+            0 prewentorium-1, sanatorium zapobiegawcze-1
+          2 przychodnia-1, lecznica-2
+            0 poliklinika-1
+            0 ambulatorium-1
+          7 szpital-1, klinika-1, lecznica-1
+            0 rewir-3
+            0 szpitalik-1
+            0 leprozorium-1, lazaret-2
+            0 lazaret-1
+            0 infirmeria-1
+            0 szpital zakaźny-1
+            0 szpital psychiatryczny-1, dom wariatów-2, wariatkowo-1, dom obłąkanych-1
+        2 instytut-2
+          1 obserwatorium-1
+            0 obserwatorium astronomiczne-1
+      29 szkoła-1, buda-3
+        0 prywatniak-2
+        0 przemysłówka-4
+        0 kantorat-1
+        0 powiatówka-1
+        0 wieczorówka-1
+        0 alumnat-2
+        0 szabasówka-1
+        0 pensja-2
+        0 konwikt-1
+        0 tysiąclatka-1
+        0 cheder-1
+        0 zawodówka-1
+        0 szkółka-1
+        2 szkoła zawodowa-1
+          0 gastronomik-3
+          0 kolejówka-1
+        0 technikum-1
+        0 szkoła podstawowa-1, podstawówka-1
+        8 uczelnia-1
+          0 proseminarium-2
+          0 akademia-1
+          0 pedagogium-1
+          0 konserwatorium-1
+          0 politechnika-2, polibuda-2
+          0 seminarium duchowne-1, seminarium-3
+          1 uniwersytet-2, uniwerek-2, alma mater-1, wszechnica-1
+            0 uniwersytet ludowy-1
+        0 liceum-1
+        0 gimnazjum-1
+      VISITED 0 administracja-3, zarząd-3, kierownictwo-3, dyrekcja-2
+      0 ratusz-1, magistrat-1
+      6 klasztor-1, konwent-1
+        0 wihara-1
+        0 stauropigia-1
+        0 opactwo-1
+        0 kartuzja-1
+        0 ławra-2
+        0 monaster-1, monastyr-1
+      13 urząd-3
+        0 podsekretariat-1
+        0 urząd pracy-1
+        0 namiestnictwo-3
+        0 notariat-2
+        0 pośredniak-1
+        0 nadleśnictwo-3
+        0 urząd skarbowy-1, fiskus-2, skarbówka-1
+        3 ministerstwo-2
+          0 ministerstwo środowiska-1
+          0 Ministerstwo Obrony Narodowej-2, MON-1
+          0 ministerstwo kultury-1
+        0 sąd-3
+        0 parlament-4
+      VISITED 0 sztab-1
+      13 agencja-1, przedstawicielstwo-2, agenda-1, agentura-2, oddział-3, delegatura-1, ekspozytura-1
+        5 posterunek-1
+          0 checkpoint-1
+          0 rogatka-2
+          2 komisariat-1, komenda-2, policja-3
+            0 gestapo-2
+            0 cyrkuł-2
+        0 filiał-1
+        VISITED 0 ataszat-1, attachat-2
+        0 nuncjatura-2
+        0 konsulat-3, urząd konsularny-1
+        2 placówka-2
+          0 konsulat-2
+          0 ambasada-1
+    1 poczekalnia-1
+      0 cechownia-2
+    82 pojemnik-2
+      0 zbieralnik pary-1
+      0 łódka-3
+      0 konwertor-3
+      0 przechowalnik-1
+      2 zasobnik-1
+        0 magazynek-1
+        0 ładownik-1
+      0 mantelzak-1
+      0 zsypnik-1
+      0 kałamarz-3
+      0 ossuarium-1
+      0 koryto-2
+      0 korytko-1
+      0 prochownica-1
+      0 kompostownik-1
+      0 kapsuła-1
+      0 melaśnik-1
+      0 gazetnik-1
+      0 mieszalnik-2
+      0 mieszalnik-1
+      0 skrzynia-3
+      0 popielnik-1
+      2 relikwiarz-1
+        0 stauroteka-1
+        0 pacyfikał-1
+      1 ładownica-1
+        0 bandażownica-2
+      6 skrzynka-3
+        0 skrzynka pocztowa-1
+        1 skrytka pocztowa-1
+          0 paczkomat-1
+        0 kapsla-3
+        0 skrzynka na listy-1
+        VISITED 0 kasetka-1, kaseta-2
+      10 skrzynia-2
+        0 paka-1
+        0 sadz-1
+        0 naczynie skipowe-1, skip-3
+        0 rojnica-1
+        0 kastra-1
+        0 fola-1
+        0 arka-1
+        0 nosiłki-1
+        0 urna-1, urna wyborcza-1
+        0 kasa-4, sejf-1
+      0 kubeł-2
+      0 baryłka-2
+      2 portfel-1
+        1 portmonetka-1
+          0 podkówka-1
+      1 skarbonka-1
+        0 puszka-7
+      0 kadź-2
+      1 kontener-1
+        0 skip-2
+      3 śmietnik-1
+        0 kosz na śmieci-1, kosz-2, kubeł-3
+        0 śmietniczka-2
+        0 zsyp-2
+      8 koszyk-1, kosz-1
+        0 brudniak-1
+        0 króbka-1
+        0 guffa-3, kuff-1
+        0 wereszka-1
+        0 opałka-1
+        0 kipa-4
+        0 koszałka-1
+        0 kobiałka-1, łubianka-1, kobiała-1
+      11 pudełko-1
+        0 mydelniczka-2
+        0 humidor-1
+        0 herbatnica-1
+        0 puzdro-1
+        0 puderniczka-1, pudernica-2
+        0 bombonierka-1
+        0 puzderko-1
+        0 papierośnica-1, cygarnica-1
+        0 szkatułka-1
+        0 karton-1
+        0 kasetka-1, kaseta-2
+      2 trumna-1
+        0 cztery deski-1
+        0 sarkofag-1
+    1 ekspozycja-2, wystawa-2
+      0 panopticum-1, panoptikum-2
+    4 wyjście-22
+      0 wyłaz-1
+      VISITED 1 drzwi-2
+      VISITED 0 furta-1
+    3 dyspozytornia-1, centrala-4
+      VISITED 0 telecentrum-1
+      0 centrala telekomunikacyjna-1
+      0 radio taxi-1
+  10 przecięcie-6
+    0 skrzyżowanie wzrokowe-1
+    3 cezura-2
+      2 średniówka-1, cezura-4, diereza-1
+        0 średniówka żeńska-1
+        0 średniówka męska-1
+    4 skrzyżowanie-5, krzyżówka-4
+      0 rozdroże-1, rozstaj-1
+      0 skrzyżowanie równorzędne-1
+      1 rondo-1
+        0 rondo kompaktowe-1
+  0 zacisze-1, ustronie-1
+  1 głębina-1, toń-1, topiel-1, topielisko-2
+    0 odmęt-1
+  23 dostęp-2
+    0 dojście-23
+    11 wejście-17, próg-6
+      1 wlot-1
+        0 wwiew-1
+      0 zejściówka-1
+      1 właz-1
+        0 studzienka-1
+      0 portal-2
+      1 drzwi-2
+        0 carskie wrota-1
+      0 furta-1
+      0 bramka-2
+      0 wjazd-2
+    9 wjazd-1
+      0 wjazd-3
+      7 brama-1
+        0 brama triumfalna-1
+        0 propyleje-1, propileje-1
+        0 gopura-1
+        2 wrota-1, wierzeje-1, odrzwia-2
+          0 porta-1, furta-2
+          0 kołowrót-5
+        0 bramka-3, furtka-1
+  2 ubocze-1
+    0 prowincja-2, zaścianek-1
+    0 zakątek-1, kąt-4
+  43 baza-1
+    0 baza lotnicza-1
+    0 baza transportowa-1
+    0 kosmodrom-1, port kosmiczny-1
+    4 zajezdnia-1
+      VISITED 0 wagonownia-1
+      0 parowozownia-1
+      0 elektrowozownia-1
+      VISITED 0 remiza-1, remiza strażacka-1
+    20 baza noclegowa-1
+      1 kemping-1, camping-1
+        0 autocamping-1, autokemping-1
+      17 nocleg-2
+        0 kwatera prywatna-1
+        0 noclegowisko-1
+        0 hostel-1
+        0 pensjonat-1
+        0 noclegownia-1
+        VISITED 3 schronisko-1
+        7 hotel-1
+          0 condo hotel-1
+          0 dom poselski-1
+          0 hotel pracowniczy-1
+          1 zajazd-1, gospoda-2
+            0 karawanseraj-1, chan-2, chana-1
+          0 hotel robotniczy-1
+          0 motel-1
+    6 port-1
+      0 gazoport-1
+      2 przystań-1
+        0 przystań morska-1
+        0 marina-2
+      1 port morski-1
+        0 port macierzysty-1
+    6 lotnisko-1
+      0 szybowisko-1
+      0 lotnisko miejskie-1
+      0 port śmigłowcowy-1, heliport-1
+      0 port lotniczy-1
+      0 lądowisko-1
+      0 lotnisko wojskowe-1
+  329 ośrodek-2, centrum-3, ognisko-3
+    0 gniazdo-2, matecznik-1
+    1 ognisko magmowe-1
+      0 ognisko wulkaniczne-1
+    0 ośrodek akademicki-1
+    1 stolica-2
+      0 stolica regionu-1
+    0 ośrodek władzy-1
+    8 siedlisko-2
+      6 ostoja-2
+        0 bastion-2, opoka-5
+        3 opoka-4
+          2 pocieszyciel-1
+            0 pokrzepiciel-2
+            0 koiciel-1
+        0 przedmurze-1
+      0 przybytek-1, świątynia-2
+    1 czakra-1, czakram-1, ćakra-1, ćakram-1
+      0 trzecie oko-1
+    306 źródło-2
+      0 kopalnia-2
+      0 źródło niekonwencjonalne-1
+      0 źródło odnawialne-1
+      0 wytwórnia-2
+      59 źródło informacji-1
+        1 źródło archeologiczne-1
+          0 zolnik-2
+        36 informator-2
+          0 oświeciciel-1
+          3 obwieściciel-1
+            0 rozgłosiciel-1
+            0 objawiciel-1, rewelator-1
+            0 zwiastun-1
+          5 przekaziciel-2
+            0 sprawozdawca-2
+            3 posłaniec-1, umyślny-1
+              2 goniec-1
+                0 pogoniec-2
+                0 chłopiec na posyłki-1, chłopak na posyłki-1
+          1 osobowe źródło informacji-1, OZI-1
+            0 TW-3, tajny współpracownik-1
+          9 agent-3, szpieg-1, wywiadowca-2, agent wywiadu-1
+            0 kontrwywiadowca-1
+            0 agent obcego wywiadu-1
+            0 podwójny agent-1
+            0 szpieg gospodarczy-1, szpieg przemysłowy-1
+            1 superagent-1, superszpieg-1
+              0 as wywiadu-1
+            VISITED 0 konfident-1
+            1 rezydent wywiadu-1, rezydent-6
+              0 agent wpływu-1
+          12 donosiciel-1
+            0 życzliwy-1
+            0 delator-2
+            0 sykofant-2
+            0 sykofant-1
+            3 szpieg-2, inwigilator-1
+              0 szpiegus-1
+              0 anioł stróż-2, ogon-2
+              0 wtyka-1, wtyczka-2
+            0 skarżypyta-1
+            1 denuncjator-1, denuncjant-1
+              0 delator-1
+            0 konfident-1
+          0 demaskator-1, demistyfikator-1
+        19 media-2, czwarta władza-1, mass media-1, publikatory-1, środki masowego przekazu-1, mass-media-1
+          0 medium społecznościowe-1
+          2 radio-1, rozgłośnia-1, radiostacja-2, rozgłośnia radiowa-1, fale eteru-1
+            0 radio internetowe-1
+            0 radiowęzeł-1
+          5 telewizja-1, TV-4, tv-2, mały ekran-2, srebrny ekran-1, szklany ekran-2, jedenasta muza-1
+            0 telewizja repertuarowa-1
+            0 sieć kablowa-1
+            0 satelita-6, satka-1
+            0 telewizja internetowa-2
+            0 telewizja kablowa-2
+          7 prasa-2
+            0 propagandówka-1
+            0 prasa bulwarowa-1
+            0 prasa brukowa-1
+            0 prasa kolorowa-1
+            0 gadzinówka-1, prasa gadzinowa-1, gazeta gadzinowa-1, pismo gadzinowe-1
+            1 bibuła-2
+              0 samizdat-1
+          0 internet-1, sieć-3, net-1, WWW-1
+      0 róg obfitości-1, róg Amaltei-1
+      0 krynica-2
+      0 zarzewie-2
+      2 ognisko-6
+        1 przerzut-1
+          0 metastaza-1, przerzut nowotworowy-1
+      1 źródło dochodu-1
+        0 bonanza-3, kura znosząca złote jaja-1, kura znosząca złote jajka-1, żyła złota-1, złote jabłko-1, złoty interes-1, kopalnia złota-1, dojna krowa-2, kokosowy interes-1
+      0 żywicielka-2
+      4 źródło pola-1
+        3 biegun-1
+          0 biegun geomagnetyczny-1
+          0 biegun magnetyczny-1
+          0 biegun elektryczny-1
+      2 kolebka-1, ojczyzna-2, prakolebka-1
+        0 wylęgarnia-2
+        0 rozsadnik-2
+      224 *źródło energii-1
+        0 geotermia-1
+        0 promiennik-2
+        0 biały węgiel-1
+        42 *źródło ciepła-1
+          19 kuchnia-2
+            3 piec kuchenny-1
+              0 westfalka-1
+              0 kuchnia na drewno-1, kuchnia opalana drewnem-1
+              0 kuchnia węglowa-1
+            0 kuchnia polowa-1, kuchnia wojskowa-1, garkuchnia-4
+            13 kuchenka-1
+              0 kuchnia angielska-1, kuchenka angielska-1
+              0 termon-1
+              4 kuchenka turystyczna-1
+                1 kuchenka alkoholowa-1
+                  0 maszynka spirytusowa-1
+                0 kocher-1
+                0 prymus-2
+              1 kuchnia gazowa-1, gazówka-3
+                0 maszynka gazowa-1
+              2 kuchenka elektryczna-1
+                0 przenośna kuchenka elektryczna-1
+                0 maszynka elektryczna-2
+              0 mikrofalówka-1, mikrowela-1, mikrofala-2, kuchenka mikrofalowa-1
+          VISITED 2 ognisko-1, ogień-9
+          VISITED 0 ogień-8, płomienie-1
+          7 podgrzewacz-2
+            0 szkandela-1
+            0 bemar-1
+            0 terma-1
+            0 termofor-1
+            1 grzałka-1
+              0 świeca żarowa-1
+            0 bojler-1
+          3 palenisko-1
+            0 piecowisko-1
+            0 grill-3, barbecue-1
+            0 kominek-2
+          5 palnik-1
+            0 palnik acetylenowo-tlenowy-1
+            0 palnik Arganda-1
+            0 lampa lutownicza-1
+            0 palnik Langmuira-1
+            0 palnik gazowy-1
+        18 ogniwo elektryczne-1, ogniwo-1
+          1 ogniwo paliwowe-1
+            0 ogniwo wodorowe-1
+          0 suche ogniwo Leclanchégo-1
+          12 ogniwo galwaniczne-1
+            0 ogniwo Bunsena-1
+            0 ogniwo wzorcowe-1
+            0 ogniwo korozyjne-1
+            2 ogniwo mokre chemicznie-1
+              1 ogniwo rtęciowo-cynkowe-1
+                0 ogniwo Clarka-1
+            0 ogniwo Leclanchégo-1
+            0 ogniwo Westona-1
+            0 ogniwo srebrowo-cynkowe-1, ogniwo srebrowe-1, ogniwo AgZn-1
+            2 ogniwo Volty-1
+              1 akumulator kwasowo-ołowiowy-1
+                0 akumulator samochodowy-1
+          0 fotoogniwo-1, ogniwo słoneczne-1, ogniwo fotowoltaiczne-1, ogniwo fotoelektryczne-1
+          0 termopara-1, termoogniwo-1, termoelement-1, ogniwo termoelektryczne-1
+        162 światło-10
+          97 sztuczne źródło światła-1
+            1 świetlik-3, światło chemiczne-1
+              0 świetlik wędkarski-1, świetlik-5
+            0 światło pozycyjne-1
+            1 lampki świąteczne-1
+              0 lampki choinkowe-1
+            1 żarówka-1
+              0 lampa Nernsta-1
+            89 lampa-1
+              0 lampa Wooda-1
+              0 lampa olejna-1
+              3 lampa punktowa-1, spot-4
+                VISITED 2 reflektor punktowy-1
+              0 plafoniera-1
+              0 kogut-4
+              0 stroboskop-3, lampa stroboskopowa-1
+              0 lampa uliczna-1
+              0 światło wapienne-1, światło Drummonda-1
+              1 lampa benzynowa-1, benzynówka-1
+                0 lampa Davy'ego-2, wskaźnikowa lampa benzynowa-1
+              0 lampa naftowa-1
+              0 lampa gazowa-1
+              18 lampa elektryczna-1
+                0 skaner-4
+                3 lampa łukowa-1
+                  0 świeca Jabłoczkowa-1
+                  0 łukowa lampa węglowa-1
+                  0 ksenonowa lampa łukowa-1
+                12 lampa wyładowcza-1
+                  0 rura Crookesa-1, lampa Crookesa-1
+                  0 gazowa lampa elektronowa-1
+                  0 lampa kwarcowa-1, kwarcówka-1
+                  0 lampa ksenonowa-1
+                  0 lampa sodowa-1, sodówka-1
+                  1 rtęciówka-1, lampa rtęciowa-1
+                    0 wysokociśnieniowa lampa rtęciowa-1
+                  0 lampa metalohalogenkowa-1
+                  0 lampa neonowa-1, neonówka-1
+                  0 lampa fluorescencyjna-1, świetlówka-1
+                  0 neon-2
+                  0 jarzeniówka-1
+              0 lampa wisząca-1
+              1 lampa biurkowa-1
+                VISITED 0 bankierka-2
+              0 lampa przykręcana-1
+              3 lampa stojąca-1
+                1 lampa stołowa-1
+                  0 bankierka-2
+                0 lampa podłogowa-1
+              0 sztormówka-2
+              0 ampla-2
+              0 owoskop-1
+              0 lampa karbidowa-1, karbidówka-1, karbidka-1
+              0 kinkiet-2
+              0 soluks-2, sollux-2
+              1 żyrandol-1
+                0 pająk-4
+              5 lampka-2
+                0 lampka maślana-1
+                0 lampka wieczysta-1
+                1 lampka nocna-1
+                  0 lampka nocna dla dzieci-1, lampka dla dzieci-1
+                0 kaganek-1, lampka oliwna-1
+              VISITED 6 latarnia-1
+              3 latarka-1
+                0 latarka czołowa-1
+                0 latarka paluszkowa-1
+                0 latareczka-1
+              24 reflektor-1, światło-12
+                0 światło dzienne-2
+                2 lampa przeciwmgielna-1
+                  0 lampa przeciwmgielna tylna-1, reflektor przeciwmgielny tylny-1, światło przeciwmgielne tylne-1
+                  0 lampa przeciwmgielna przednia-1, reflektor przeciwmgielny przedni-1, światło przeciwmgielne przednie-1
+                0 reflektor tylny-1, lampa tylna-1, światło tylne-1
+                0 reflektor przedni-1, lampa przednia-1, światło przednie-1
+                0 lampa sygnalizacyjna-1, reflektor sygnalizacyjny-1
+                0 światło kotwiczne-1
+                0 światła nawigacyjne-1
+                0 światło awaryjne-1
+                0 światło przeciwmgłowe-1, światło przeciwmgielne-2
+                0 światło stopowe-1, stop-2
+                0 światło długie-1, światło drogowe-1
+                0 światło postojowe-1
+                0 światło pozycyjne-2
+                0 światło krótkie-1, światło mijania-1
+                2 reflektor punktowy-1
+                  0 lampa teatralna-1, lampa sceniczna-1
+                  0 szperacz-1
+                0 jupiter-1
+                0 halogen-1, lampa halogenowa-1
+                2 kierunkowskaz-1, migacz-2
+                  0 kierunkowskaz lewy-1, migacz lewy-1
+                  0 kierunkowskaz prawy-1, migacz prawy-1
+              0 lampa błyskowa-1, flesz-1
+          4 ogień-10
+            2 sztuczne ognie-1, fajerwerki-1, raca-2, bengalskie ognie-1
+              0 zimne ognie-1
+              0 szmermel-1
+            0 ogień olimpijski-1
+          0 scyntylator-1
+          0 księżyc-3
+          0 słońce-3
+          0 kaganiec-2
+          2 ognisko-1, ogień-9
+            0 najda-1
+            0 sobótka-2
+          0 ogień-8, płomienie-1
+          0 głownia-1, żagiew-1
+          0 znicz-1, lampka-1
+          6 latarnia-1
+            0 latarnia umarłych-1
+            0 rewerber-2
+            3 lampion-1
+              0 lampion z dyni-1, dynia na Halloween-1
+              0 fotofor-2
+              0 chińska latarnia-1, chiński lampion-1
+          2 pochodnia-1
+            0 znicz olimpijski-1
+            0 łuczywo-1
+          38 gwiazda-1
+            0 gwiazda preonowa-1
+            7 gwiazda zdegenerowana-1
+              1 gwiazda dziwna-1, gwiazda kwarkowa-1
+                0 gwiazda elektrosłaba-1
+              0 czarny karzeł-1
+              2 gwiazda neutronowa-1
+                1 pulsar-1
+                  0 pulsar milisekundowy-1
+              0 biały karzeł-1
+            0 gwiazda symbiotyczna-1
+            0 błękitny karzeł-2
+            1 podkarzeł-1
+              0 brązowy podkarzeł-1
+            5 karzeł-4
+              0 błękitny karzeł-1
+              0 żółto-biały karzeł-1
+              0 żółty karzeł-1
+              0 pomarańczowy karzeł-1
+              0 czerwony karzeł-1
+            4 supernowa-1
+              0 supernowa typu II-1
+              0 supernowa typu Ic-1
+              0 supernowa typu Ib-1
+              0 supernowa typu Ia-1
+            0 gwiazda stała-1
+            3 olbrzym-5
+              0 gwiazda Wolfa-Rayeta-1
+              0 błękitny olbrzym-1
+              0 czerwony olbrzym-1
+            1 gwiazda zmienna-1
+              VISITED 0 cefeida-1, gwiazda typu δ Cephei-1, cefeida klasyczna-1
+            0 gwiazda nowa-1, nowa klasyczna-1, nowa-1
+            0 gwiazda betlejemska-1
+            0 podolbrzym-1
+            0 protogwiazda-1
+            3 nadolbrzym-1
+              0 błękitny nadolbrzym-1
+              0 czerwony nadolbrzym-1
+              0 cefeida-1, gwiazda typu δ Cephei-1, cefeida klasyczna-1
+          0 sygnalizacja świetlna-1, światła sygnalizacyjne-1
+          5 świeca-1, świeczka-1
+            0 świeca roratnia-1, roratka-1
+            0 akolitka-1
+            0 paschał-1
+            0 łojówka-1, świeca łojowa-1
+            0 gromnica-1
+    2 centrala-2
+      0 podcentrala-1
+      0 sztab-1
+    0 oś-3
+  25 miejsce odosobnienia-1
+    2 kratki-1, kraty-1
+      VISITED 1 zakład karny-1
+    0 turma-3
+    4 więzienie-2
+      VISITED 0 ergastulum-1
+      0 turma-1, tiurma-1
+      1 zakład karny-1
+        0 kryminał-3
+    0 odstaj-1
+    0 rezerwat-2
+    9 obóz-3
+      0 stacja rozdzielcza-2
+      0 internat-2
+      0 obóz pracy-1
+      0 łagier-1, gułag-1
+      0 oflag-1
+      0 stalag-1
+      2 obóz koncentracyjny-1, koncentrak-1
+        0 obóz zagłady-1
+        0 lagier-1, kacet-1
+    0 katownia-1, izba tortur-1, sala tortur-1
+    0 zakład zamknięty-1, oddział zamknięty-1
+    0 dom poprawczy-1, zakład poprawczy-1, poprawczak-1
+    2 areszt-1
+      0 odwach-2
+      0 areszt śledczy-1
+  3 ujście-4, ujście rzeki-1
+    0 estuarium-1
+    1 delta-1
+      0 delta wsteczna-1
+  28 położenie-9, lokalizacja-1, pozycja-6, usytuowanie-2, umiejscowienie-4, lokacja-5
+    0 róża skoczkowa-1
+    0 geolokalizacja-1
+    0 przynależność-3
+    0 konfiguracja-2
+    0 położenie geograficzne-1
+    0 przodozgięcie-1
+    0 syzygia-1
+    0 ekspozycja-8
+    0 ekspozycja-7
+    0 niskość-2
+    0 naziemność-1
+    2 pozycja-10
+      0 pozycja bramkowa-1
+      0 atak-8, ofensywa-5
+    12 pozycja-5, stanowisko-4, punkt-4
+      0 ława działowa-1
+      4 posterunek-2
+        1 posterunek ruchu-1
+          0 posterunek pomocniczy-1
+        0 grangarda-1
+        0 posterunek odgałęźny-1
+      0 przyczółek-1
+      0 forpoczta-2
+      3 punkt ogniowy-1, stanowisko ogniowe-1
+        0 gniazdo ogniowe-1
+        0 przeciwstraż-1, kontrgard-1, słoniczoło-1
+        0 działobitnia-1
+    0 aspekt-2
+  84 lokal-1
+    0 lokal socjalny-1
+    50 lokal użytkowy-1
+      49 sklep-1
+        0 rybny-1
+        0 sklep zoologiczny-1
+        0 optyk-3
+        0 płóciennica-3
+        0 skateshop-1
+        0 sodowiarnia-1
+        0 delikatesy-1
+        0 antykwariat-2
+        1 galeria-1
+          0 desa-1
+        0 sex-shop-1, sex shop-1
+        0 butik-1
+        0 sklep za żółtymi firankami-1
+        0 lumpeks-1, szmateks-1, ciucholand-1, lumpex-1, second-hand-1, second hand-1, secondhand-1
+        0 dyskont-1
+        2 sklep mięsny-1
+          0 rzeźnik-4, jatka-1
+          0 wędliniarnia-1
+        0 pasmanteria-2
+        1 zieleniak-1, warzywniak-1
+          0 owocarnia-1
+        0 konfekcja-3
+        0 trafika-1
+        2 sam-1
+          0 megasam-1
+          0 supersam-1
+        0 perfumeria-1
+        0 sklepik-1
+        1 komis-1
+          0 autokomis-1
+        0 cukiernia-2, ciastkarnia-1
+        0 monopol-2, sklep monopolowy-1
+        0 piekarnia-2
+        3 market-1
+          0 megamarket-1
+          1 supermarket-1
+            0 hipermarket-1
+        0 kiosk-1
+        2 księgarnia-1
+          0 księgarnia internetowa-1
+          0 antykwariat-1
+        1 sklep ogólnospożywczy-1
+          0 garmażeria-1, garmażernia-1
+        0 papierniczy-1
+        0 kwiaciarnia-1
+        0 drogeria-1
+        1 salon-2
+          0 autosalon-1
+        0 apteka-1
+    3 schronisko-1
+      0 schronisko młodzieżowe-1
+      0 stanica-1
+      0 bacówka-1
+    27 mieszkanie-4
+      0 mieszkanie lokatorskie-1
+      0 mieszkanie komunalne-1
+      0 ekonomówka-1
+      0 loft-1
+      0 melina-3, meta-2
+      0 stancja-1
+      0 ciepłe gniazdko-1
+      11 mieszkanie służbowe-1
+        VISITED 0 rządcówka-1
+        1 leśniczówka-1
+          0 nadleśniczówka-1
+        0 gajówka-1
+        0 dozorcówka-1
+        0 agronomówka-1
+        0 pastorówka-1
+        0 organistówka-1
+        0 kanonia-2
+        0 wikariat-1, wikarówka-1
+        0 plebania-1, probostwo-1, proboszczówka-1
+      0 mieszkanie kwaterunkowe-1, kwaterunek-4
+      0 pustostan-1
+      0 sublokatorka-1
+      0 nora-1
+      0 kawalerka-1
+      0 penthouse-1
+      1 apartament-1
+        0 stanza-2
+  89 punkt-1
+    0 pikieta-6
+    0 trójstyk-1
+    0 czwórstyk-1
+    0 ziemia odniesienia-1
+    0 punkt podsłoneczny-1
+    0 punkt równonocny-1
+    0 refleks-4
+    0 punkt Lanza-1
+    0 punkt zlewny-1
+    0 punkt witalny-1
+    0 punkt tonizujący-1
+    0 punkt opatrunkowy-1
+    0 punkt okostnowy-1
+    0 punkt spustowy-1
+    0 punkt motoryczny-1
+    0 punkt sędziowski-1
+    0 punkt potrójny-1
+    0 punkt limfatyczny-1
+    0 punkt filtracyjny-1
+    0 kilometr zerowy-1
+    0 węzeł potrójny-1
+    0 biegun galaktyczny-1
+    0 biegun niebieski-1
+    0 punkt triangulacyjny-1
+    0 punkt geodezyjny-3
+    0 poziom morza-1
+    0 biegun ciepła-1
+    0 ślepe źródło-1
+    0 punkt konstrukcyjny-1
+    0 punkt graniczny-1
+    0 punkt świetlny-1
+    1 punkt pomiarowy-1
+      0 punkt Laplace'a-1
+    4 punkt asekuracyjny-1
+      0 śruba lodowa-1
+      0 ring-2
+      0 spit-1, nit-4
+      0 hak-5
+    0 węzeł-13, węzeł fali-1
+    0 barycentrum-1, środek ciężkości-1
+    0 zero-3
+    0 ognisko-5, fokus-1
+    1 węzeł-7
+      0 węzeł wstępujący-1
+    0 węzeł-1
+    0 apeks-1
+    0 bulik-1
+    2 apocentrum-1
+      0 apogeum-2
+      0 aphelium-1, afelium-1
+    3 perycentrum-1
+      0 peryastron-1, periastron-1
+      0 punkt przysłoneczny-1, peryhelium-1, perihelium-1
+      0 punkt przyziemny-1, perygeum-1, perigeum-1
+    0 czarny punkt-1
+    0 biegun zimna-1, biegun chłodu-1
+    0 radiant-1
+    0 antycentrum-1
+    1 punkt odniesienia-1
+      0 mira-1
+    0 martwy punkt-1
+    1 punkt wysokościowy-1
+      0 reper-1
+    13 środek-5, centrum-2, serce-4
+      0 barycentrum-2, środek masy-1
+      0 śródgłos-1
+      0 półmetek-3
+      0 hipocentrum-1
+      0 śródlądzie-1
+      6 ośrodek-4
+        3 węzeł-11
+          0 węzeł transportowy-1
+          0 węzeł drogowy-1
+          0 węzeł komunikacyjny-1
+        0 oko cyklonu-1
+        0 epicentrum-1
+      0 jądro-5
+    3 cel-5
+      0 rzutek-1
+      1 tarcza-5
+        0 sylwetka-2
+    7 stanowisko-6
+      0 radiolokacyjna stacja wstępnego poszukiwania-1
+      0 ładownia-2, ładowisko-2
+      0 stacja rozrządowa-1
+      2 przystanek-1
+        0 przystanek na żądanie-1
+        0 przystanek autobusowy-1
+      0 peron-1
+  466 pomieszczenie-3
+    0 cytadela-3
+    0 kabina-7
+    0 łaźnia łańcuszkowa-1
+    0 komora rozprężania-1
+    0 komora minowa-1
+    0 pomieszczenie przynależne-1
+    0 aneks-3
+    0 nowicjat-2
+    0 garderoba-4
+    0 świetlica-4
+    0 izba-5
+    0 piekarnia-3
+    0 tepidarium-1
+    1 wieczernik-1
+      0 Wieczernik-3
+    0 frigidarium-1
+    0 octownia-1
+    0 cella-1
+    0 dyskretka-4
+    0 ubłagalnia-1
+    0 luk-1
+    0 palarnia-1, fajczarnia-2
+    0 opistodomos-1
+    0 andron-1
+    0 gyneceum-1, gineceum-1
+    0 koza-13
+    0 przegroda-2
+    0 natryskownia-1
+    0 procentownia-1
+    0 wydawalnia-1
+    0 odbieralnia-1
+    0 pędzarnia-1, bimbrownia-1
+    1 boks-4
+      0 boks-2
+    0 cela-2
+    0 stajnia Augiasza-2
+    0 naos-1
+    0 leżakownia-1
+    0 kiszka-3
+    0 pakowalnia-1, pakownia-1
+    0 skrajnik-1
+    0 triclinium-1, triklinium-1, tryklinium-1
+    0 postrzygalnia-1
+    0 inhalatorium-1
+    26 *pomieszczenie gospodarcze-1
+      0 kredens-3
+      0 drożdżarnia-1, drożdżownia-2
+      0 brudownik-1
+      0 węglarnia-1
+      0 kwaszarnia-1
+      0 śrutownia-1
+      0 przewiewnia-1
+      0 solarnia-1
+      0 ucieralnia-1
+      0 obieralnia-1
+      0 prasowalnia-1
+      0 pralnia-1
+      5 schowek-1, magazynek-2, kantorek-1, komórka-2, skrytka-1
+        0 almaria-1, armaria-1
+        0 podpiecek-1
+        VISITED 0 składzik-1
+        0 pawlacz-1, antresola-2
+        0 sejf-2
+      3 kuchnia-1
+        0 widna kuchnia-1
+        0 ciemna kuchnia-1
+        0 kambuz-1
+      2 spiżarnia-1
+        0 sernik-3
+        0 pentra-1
+      0 garaż-1
+    48 *pomieszczenie mieszkalne-1
+      0 nadzorcówka-1
+      0 wnętrze-2
+      0 kubryk-1
+      0 garderoba-1, ubieralnia-1, przygotowalnia-1, gotowalnia-1
+      4 przedpokój-1
+        0 przysionek-1
+        0 sień-1, wiatrołap-1, łapacz-3
+        VISITED 1 hol-1, hall-1
+      37 pokój-1
+        0 cztery ściany-1
+        0 pokój kąpielowy-1
+        0 pokój gościnny-1
+        0 tablinum-1
+        0 stołownia-1
+        0 trójka-8
+        0 piątka-10
+        0 dwójka-9
+        0 pokój dziecinny-1
+        0 biblioteka-4
+        0 numer-8
+        0 gabinet-2
+        0 jedynka-3, pojedynka-2
+        0 służbówka-1
+        0 czwórka-10
+        0 buduar-1
+        0 komnata-1
+        0 izdebka-1
+        4 jadalnia-1, stołowy-1
+          0 trapeza-2
+          0 messa-1, mesa-1
+          0 stołówka-1
+          0 refektarz-1
+        0 bawialnia-1
+        2 sypialnia-1, alkowa-1
+          0 cubiculum-2
+          0 dormitorium-1, dormitarz-1
+        1 duży pokój-1, pokój dzienny-1, living room-1, salon-1, living-room-1
+          0 salonik-1
+        7 izba-1
+          0 izba czeladna-1
+          0 babiniec-5
+          0 sztuba-2
+          0 komora-9
+          0 bokówka-1
+          0 wyżka-1
+          0 alkierz-1
+      0 łazienka-1, umywalnia-1
+    0 wykończalnia-1, wykańczalnia-1
+    0 kawiarenka internetowa-1, kafejka internetowa-1
+    0 zamrażalnia-1
+    7 komora-1
+      0 komora ratownicza Davisa-1
+      0 pułapka magnetyczna-1
+      0 komora niskich ciśnień-1
+      0 komora imersyjna-1
+      0 komora gorąca-1
+      0 komora gazowa-1
+      VISITED 0 fitotron-1
+    0 hypogeum-1
+    0 babiniec-1
+    0 przymierzalnia-1
+    0 forpik-1, skrajnik dziobowy-1
+    7 nadbudówka-2
+      0 kiosk-3
+      0 dziobówka-1
+      0 kapitanka-1
+      0 pokładówka-1
+      0 kasztel-1
+      0 rufówka-1
+      0 forkasztel-1
+    0 pieczarkarnia-1
+    0 zmywalnia-1
+    0 kazamata-1
+    0 antresola-1
+    0 wędzarnia-1
+    0 rozbieralnia-2
+    1 sortownia-1, rozdzielnia-1
+      0 brakownia-1, brakarnia-1
+    0 lodownia-1, lodówka-3
+    0 kompostownia-1
+    0 samborze-1
+    0 przebieralnia-1, rozbieralnia-1
+    0 portiernia-1, portierka-1
+    4 miejsce zebrań-1
+      0 loża-5
+      0 kuria-2
+      0 kapitularz-1
+      0 loża-3
+    0 prosektorium-1
+    73 *pomieszczenie techniczne-1
+      0 stacja elektroenergetyczna-1
+      0 stacja zakładowa-1
+      0 wymiennikownia-1
+      0 krajalnia-1
+      0 odpylnia-1
+      0 kafarownia-1
+      0 chlorownia-1
+      0 traniarnia-1, tranownia-1
+      0 garownia-1, gara-1
+      0 pomiarownia-1
+      0 trawiarnia-1
+      0 operatornia-1
+      0 konserwatornia-1
+      0 blokownia-1
+      0 akumulatornia-1
+      0 znaczkownia-1, markownia-1, markiernia-1
+      0 wózkownia-1, wózkarnia-1
+      0 strugarnia-2
+      0 kopiarnia-1
+      0 agregatownia-1
+      0 ampułkarnia-1, ampułczarnia-1
+      0 kompletownia-1
+      0 wytrawialnia-1
+      0 opalarnia-1
+      0 wychładzalnia-1
+      0 przełączalnia-1
+      0 parzelnia-1
+      0 nagrywalnia-1
+      0 czyszczalnia-2, czyszczarnia-2
+      0 powielarnia-1
+      0 newsroom-1, pokój wiadomości-1
+      0 serwerownia-1
+      0 zasobnia-1
+      1 dojrzewalnia-1
+        0 bananownia-1
+      0 gręplarnia-1, zgrzeblarnia-1
+      0 emaliernia-1
+      0 fitotron-1
+      0 kompresorownia-1
+      0 lampiarnia-1, lampownia-1
+      0 transformatornia-2
+      7 aparatownia-1
+        0 aparatownia telefonii wielokrotnej-1
+        0 aparatownia wzmacniakowa-1
+        0 aparatownia telekopiowa-1
+        0 aparatownia ruchomego węzła łączności-1
+        0 aparatownia radioodbiorcza-1
+        0 aparatownia łączności dalekosiężnej-1
+        0 aparatownia zdalnego sterowania-1
+      0 narzędziownia-1
+      0 slabing-2
+      0 hydrofornia-1
+      0 słodownia-1, mielcuch-1
+      VISITED 0 szlifiernia-1
+      VISITED 0 cechownia-1
+      0 montażownia-1
+      1 suszarnia-1
+        0 suszarnia tunelowa-1
+      0 pompownia-1, stacja pomp-1
+      0 nastawnia-1
+      0 mieszalnia-1
+      0 lakiernia-1, lakierownia-1
+      0 lokomotywownia-1
+      0 wagonownia-1
+      2 montownia-1, montażownia-2
+        0 silnikownia-1
+        0 blokownia-2
+      0 maszynownia-1
+      0 ciemnia-1
+      0 remiza-1, remiza strażacka-1
+      0 kotłownia-1
+      0 hala maszyn-1
+      VISITED 0 budka suflera-1
+    0 ogród zimowy-1
+    0 klitka-1, kanciapa-1, klatka-2, dziupla-1
+    0 gabinet luster-1
+    6 przedsionek-1
+      0 mandapa-1
+      0 pronaos-1
+      0 babiniec-2
+      0 narteks-1
+      0 kruchta-1
+      0 konfesja-4
+    0 skryptorium-1, scriptorium-1
+    0 rozmównica-2
+    0 rozmównica-1, parlatorium-1, konwersatorium-1
+    VISITED 0 ciemnica-2
+    0 tunel chłodniczy-1
+    5 łaźnia-1
+      0 hammam-1
+      0 parówka-1, łaźnia parowa-1
+      0 termy-1, łaźnia rzymska-1
+      0 mykwa-1, mikwa-1
+      0 sauna-1
+    2 wartownia-1, wartownica-1
+      0 odwach-1
+      0 kordegarda-1
+    0 sterownia-1
+    0 sanitariat-1
+    3 nadbudówka-1, nadbudowa-1
+      0 glorieta-2, glorietta-2
+      0 pięterko-1
+      0 belweder-2
+    0 kokpit-1
+    0 harem-1, seraj-1, zenana-1
+    0 dyżurka-1
+    0 świetlica-1
+    0 czytelnia-1, lektorium-1
+    0 ładownia-1, ładowisko-1
+    1 zakrystia-1
+      0 pastoforium-1
+    2 skarbiec-1, skarbnica-2
+      0 trezor-1
+      0 sezam-2
+    2 loża-1
+      0 loża prasowa-1
+      0 loża honorowa-1
+    3 budka-2
+      0 plichta-1
+      0 brek-2
+      0 budka suflera-1
+    35 *pomieszczenie, w którym żyją zwierzęta-1
+      0 żurawnia-1
+      0 kuropatwiarnia-1
+      0 gęsiarnia-1
+      0 indycznik-1
+      0 wychowalnia-1
+      0 kociarnia-1
+      0 buchta-3
+      0 owczarnia-1
+      0 cielętnik-1
+      0 grzebalisko-1
+      0 holendernia-1, olendernia-1, obora dworska-1
+      0 krowiarnia-1
+      2 wiwarium-1, zwierzętarnia-1, vivarium-1
+        1 insektarium-1
+          0 formikarium-1
+      0 małpiarnia-1
+      0 lwiarnia-1
+      0 herpetarium-1
+      0 fokarium-1
+      0 królikarnia-1, króliczarnia-1
+      0 gołębnik-1
+      1 ptaszarnia-1
+        0 woliera-1
+      0 kurnik-1
+      2 terrarium-1
+        0 serpentarium-1
+        0 zimownik-1
+      7 ul-2
+        0 ul pniowy-1
+        0 dzion-1
+        0 słomiak-1
+        0 barć-1
+        0 ul ramowy-1
+        0 ul figuralny-1
+        0 koszka-1, kószka-1, bezdenka-1
+    33 pracownia-1
+      VISITED 0 fab lab-1
+      0 kostiumernia-2
+      VISITED 0 blachownia-1
+      0 siodlarnia-2
+      0 protezownia-1
+      0 cieślarnia-1
+      0 woskownia-1
+      0 rzeźbiarnia-1
+      0 kleślarnia-1, rysownia-1, kreślarnia-1
+      0 medaliernia-1
+      0 jubilernia-1
+      0 dekoratornia-1
+      0 bursztyniarnia-1
+      0 modelatornia-1
+      0 hafciarnia-1
+      0 cerownia-2
+      0 wzorcownia-1
+      0 hamownia-1
+      0 szwalnia-1
+      0 modelarnia-1
+      0 atelier-1
+      VISITED 6 laboratorium-1
+      5 gabinet-1
+        0 pokój nauczycielski-1
+        0 gabinet odnowy-1
+        0 zabiegówka-1, zabiegowy-1
+        1 gabinet lekarski-1
+          0 gabinet stomatologiczny-1
+    6 piwnica-1, podziemie-1
+      0 podpiwniczenie-1
+      2 loch-1
+        0 ergastulum-1
+        0 ciemnica-2
+      1 krypta-1
+        0 katakumby-2, katakumba-1
+    13 kabina-1
+      0 kabina-8
+      0 kabina-4
+      0 radiokabina-1
+      0 solarium-2
+      0 kabina prysznicowa-1, kabina-5
+      0 batysfera-1
+      0 kabinka-1, kokpit-2
+      0 reżyserka-3, reżysernia-1
+      0 rozmównica-3
+      2 kajuta-1, kabina-3
+        0 achterpik-1, skrajnik rufowy-1
+        0 forpik-2
+      0 szoferka-1, kabina-2
+    13 biuro-2, kancelaria-1, gabinet-4
+      0 biuro parlamentarne-1
+      0 rządcówka-1
+      0 telecentrum-1
+      0 kantor-5
+      0 sołtysówka-1
+      0 biuro podróży-1
+      0 dziekanat-2
+      0 rejestracja-3, registratura-2
+      0 ataszat-1, attachat-2
+      0 prefektura-4
+      0 rektorat-1
+      0 sekretariat-1
+      0 administracja-3, zarząd-3, kierownictwo-3, dyrekcja-2
+    1 przedział-1
+      0 coupé-4
+    14 sala-2
+      0 sala plenarna-1
+      0 remiza-2
+      0 hipostyl-1, hypostyl-1
+      0 galeria-2
+      0 antykamera-1
+      0 rotunda-2
+      0 audytorium-2
+      0 salka-1
+      0 aula-1
+      0 sala gimnastyczna-1
+      1 sala chorych-1
+        0 izolatka-2, separatka-2
+      1 klasa-2, pokój lekcyjny-1
+        0 klasopracownia-1
+    4 korytarz-1
+      0 podcień-1, podcienie-1, podsienie-1
+      0 krużganek-1
+      1 hol-1, hall-1
+        0 westybul-1
+    2 studio-1
+      0 podstudio-1
+      0 studio nagrań-1
+    0 szatnia-1
+    27 magazyn-1, skład-4, składnica-1, zbiornica-1
+      0 skład podatkowy-1
+      0 żagielkoja-1
+      0 kabelgat-1, komora linowa-1
+      0 narzędziarnia-1
+      0 kostiumernia-1
+      0 materialnia-1
+      0 laktarium-1
+      0 zimochów-1
+      1 repozytorium-1
+        0 bank DNA-1, repozytorium DNA-1
+      0 rudarnia-1
+      0 paszarnia-1
+      0 paczkarnia-2
+      0 kartoflarnia-1
+      0 prochownia-1
+      0 kazamata-2
+      0 lodownia-2
+      0 pakamera-1
+      0 skład konsygnacyjny-1, magazyn konsygnacyjny-1
+      0 skład celny-1
+      0 arsenał-1, zbrojownia-1
+      2 chłodnia-1
+        0 mroźnia-1
+        0 lodownia-3
+      2 spichlerz-1, spichrz-1
+        0 świronek-1
+        0 elewator-1
+    5 toaleta-1, WC-1, ubikacja-1, klozet-2, w.c.-2, W.C.-1, dwa zera-1, wucet-1, przybytek-4, ustronne miejsce-1
+      0 kingston-1
+      0 szalet-1
+      0 wychodek-1, wygódka-1, sławojka-1
+      0 pisuar-2
+      0 latryna-1
+    2 zaplecze-1, tyły-1, kuluary-1
+      0 zaplecze sanitarne-1
+      0 zaplecze socjalne-1
+    6 laboratorium-1
+      0 fab lab-1
+      0 laboratorium galenowe-1
+      1 laboratorium biologiczne-1
+        0 laboratorium referencyjne-1, laboratorium odwoławcze-1
+      0 laboratorium fizyczne-1
+      0 destylarnia-2
+    9 przechowalnia-1, schowek-2
+      0 narciarnia-1
+      0 depozytorium-1
+      0 spadochroniarnia-1
+      0 działownia-1
+      0 beczkarnia-2
+      0 składzik-1
+      0 bagażownia-1
+      0 rupieciarnia-1, graciarnia-1, lamus-2
+      0 rekwizytornia-1
+    1 kaplica-2
+      0 chór-10
+    3 hala-1
+      0 hala peronowa-1
+      0 kadłubownia-1
+      0 konwertorownia-1
+    3 cela-1
+      0 cela śmierci-1
+      0 izolatka-1, separatka-1
+      0 karcer-1
+  7 skupisko-1
+    0 okręg przemysłowy-1, dystrykt przemysłowy-1
+    0 sztetł-1, sztetl-1
+    1 przysiółek-2, przysiołek-1
+      0 wysiółek-1
+    0 siedlisko-4
+    0 ośrodek-5
+    0 zagłębie-1
+  3 wnętrze-1, środek-3
+    0 ośródka-1
+    1 rdzeń-2
+      0 dusza-9
+  29 warsztat-1
+    0 garncarnia-1
+    0 płóciennica-2
+    0 tokarnia-1
+    0 blachownia-1
+    0 majsternia-1
+    0 bieżnikownia-1
+    0 cholewkarnia-1
+    0 skrzynkarnia-1
+    0 beczkarnia-1
+    0 muflarnia-1
+    0 fryzernia-1, fryzarnia-1
+    0 ścieralnia-1
+    0 heblarnia-1
+    0 gładzarnia-1
+    0 smolarnia-1
+    0 ślusarnia-1
+    0 zakład szewski-1
+    0 ludwisarnia-1, puszkarnia-1
+    0 ciesielnia-1, zakład ciesielski-1
+    0 cyzelernia-1
+    0 szlifiernia-1
+    0 introligatornia-1
+    0 cechownia-1
+    0 malarnia-1
+    0 blacharnia-1
+    0 tapicernia-1
+    0 stolarnia-1
+    0 autoserwis-1
+    0 kuźnia-2
+  1 pustkowie-1, bezludzie-1, pustka-2, odludzie-1, głusza-1
+    0 zadupie-2, wygwizdów-1, wygwizdowo-1, przedpiekle-1
+  147 koniec-1
+    0 pętla-3
+    51 końcówka-7
+      0 trufla-4
+      48 zakończenie-7
+        1 nos-2
+          0 stożek dziobowy-1
+        0 sztych-3
+        0 anemostat-1
+        0 pływak-7
+        0 kiść-4
+        0 szpic-2
+        0 ogon-3
+        11 zwieńczenie-3
+          0 sikhara-1, śikhara-1
+          2 szczyt-5
+            0 fronton-1, przyczółek-2
+            0 kokosznik-2
+          0 akroterion-1, naszczytnik-1
+          1 hełm-2, dach hełmowy-1
+            0 cebula-5
+          0 grzebień-4
+          0 iglica-2, igła-3
+          1 kapitel-1, głowica-1
+            0 makowica-1
+        2 końcówka-4
+          0 krokodylek-2
+          0 wtyczka-1
+        11 końcówka-2
+          0 łapaczka-1
+          VISITED 0 talerz-4
+          0 zgrzewadło-1
+          3 wiertło-1, bor-2
+            0 wiertło stopniowe-1
+            0 środkowiec-1
+            0 wiertło dentystyczne-1, wiertło stomatologiczne-1
+          0 frez-1
+          1 stalówka-2
+            0 rondówka-1, rondo-7
+          0 ssawka-2
+        0 nok-1
+        0 pawęż-1
+        0 pęcherzyk płucny-1
+        0 wyrostek robaczkowy-1, ślepa kiszka-1, wyrostek-3
+        3 czubek-2, koniuszek-1, koniuszczek-1
+          0 koniuszek serca-1
+          0 koniuszek palca-1
+          0 opuszka-1
+        0 główka-1
+        3 dziób-4
+          0 dziobiec-1
+          1 dziób-3
+            0 taran-2
+      0 piętka-1, przylepka-1
+    0 pięta-3
+    0 finisz-1
+    10 brzeg-1, skraj-1, kraniec-1
+      0 faseta-3
+      0 rąbek-1
+      0 margines-3
+      VISITED 6 obrzeże-1
+    1 wygłos-1
+      0 wygłos absolutny-1
+    0 wylot-1, wylot drogi-1
+    1 kres-2
+      0 ściana-10
+    0 meta-1
+    11 wierzchołek-1, szczyt-1, czubek-1, czub-1
+      0 top-4
+      0 grzbiet fali-1, grzebień fali-1
+      0 zagłówek-2
+      0 nosek-1
+      6 szczyt-2, wierzchołek-2, kulminacja-1, grzbiet-2, wierzchnica-5
+        0 turnica-1
+        0 ośmiotysięcznik-1
+        0 nunatak-1
+        0 pięciotysięcznik-2
+        1 turnia-1
+          0 ambona-3, kazalnica-2
+    44 granica-1, linia-6
+      0 linia podstawowa-1
+      0 horyzont geograficzny-1
+      1 oś-4
+        0 oś strzałkowa-1
+      1 granica miasta-1
+        0 pomerium-1
+      0 heliopauza-1
+      23 linia-18
+        0 izofona-2
+        0 linia wiecznego śniegu-1, granica wiecznego śniegu-1
+        0 likwidus-1
+        0 wodnica-2, linia wodna-1
+        5 linia-3
+          0 linia obrony-1
+          0 linia natarcia-1
+          0 linia demarkacyjna-1
+          1 linia frontu-1, front-4, rejon walk-1
+            0 pobojowisko-1
+        12 wybrzeże-2, brzeg-3, pobrzeże-1, nadbrzeże-1, linia brzegowa-1
+          0 wybrzeże szkierowe-1
+          0 prawobrzeże-1
+          0 lewobrzeże-1
+          0 rias-1
+          0 międzywale-1
+          0 riwiera-1
+          3 nabrzeże-1
+            0 bulwar-3
+            0 molo-1
+            0 keja-1
+          0 plaża-1
+          0 klif-1, faleza-1
+      1 granica państwa-1
+        0 zielona granica-1
+      1 miedza-1
+        0 halizna-3
+      1 horyzont-2, widnokrąg-1
+        0 horyzont radiowy-1
+      6 obrzeże-1
+        0 podbora-1
+        0 oszyjek-1
+        0 peryferie-3
+        2 peryferie-1, przedmieście-1
+          0 prowincja-5
+          0 suburbium-1
+    25 krawędź-1, brzeg-2
+      0 kresa-2
+      0 faza-9
+      0 lik-2
+      0 kant-1, rant-1
+      0 oblina-1, oflis-1
+      0 okapnik-1
+      0 faseta-1, ucios-1
+      0 banda-5
+      9 ostrze-1
+        0 talerz-4
+        0 rzezak-2
+        2 ząb-2
+          0 broniak-1, bronik-1
+          0 tryb-4
+        0 żyletka-1
+        1 grot-1
+          0 mikrolit-2, zbrojnik mikrolityczny-1
+        0 brzeszczot-2
+      0 rondo-3
+      5 róg-1, narożnik-1, naroże-1
+        0 ośle ucho-1
+        0 faseta-2, faska-2
+        0 długi róg-1
+        0 krótki róg-1
+        0 węgieł-1, winkiel-1
+  0 zamknięcie-13, odosobnienie-3

@@ -1,4 +1,5 @@
 from setuptools import setup
+import setuptools
 
 # read the contents of your README file
 from os import path
@@ -15,7 +16,7 @@ setup(
     url='http://styczynski.in',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    packages=[],
+    packages=setuptools.find_packages(),
     scripts=['bin/eniam-cli'],
     include_package_data=True,
     package_data={},

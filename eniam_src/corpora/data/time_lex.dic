@@ -1,0 +1,299 @@
+@CONSTANT_NAMES
+null
+minute hour day week month year
+00 01 02 03 04 05 06 07 08 09
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+-1 -2 -3 -4         
+future past time era
+night early_morning late_morning early_afternoon late_afternoon evening
+
+#STARE
+#minute hour day weekday monthday week month year 
+
+
+@ATTR_NAMES
+time_declaration 
+aprox at end begin before after complement
+range
+whole partition
+sequence index setindex add_index
+intersection sum
+flatten merge
+
+#STARE
+#tensor join
+#type restr seq_whole index
+
+
+@ROLE_NAMES
+Time RevPart Attr Arg Count Number Part      
+NumberFuture NumberPast 
+
+@RULES
+
+sense=stan,quant=pro: {time_declaration=@Time};
+sense=w,rel=Time: @Arg;
+sense=o,rel=Time: {at=@Arg};
+sense=do,rel=Time: {end=@Arg};
+sense=od,rel=Time: {begin=@Arg};
+sense=przed,rel=Time: {before=@Arg};
+sense=po,rel=Time: {after=@Arg};
+sense=koło,rel=Time: {aprox=@Arg};
+sense=około,rel=Time: {aprox=@Arg};
+sense=okolica: {aprox=@Arg};
+sense=blisko,rel=Time: {aprox=@Arg};
+sense=oprócz,rel=Time: {complement=@Arg};
+sense=nie,rel=Time: {complement=@Time};
+sense=minuta: 
+  {range=day, sequence={whole=hour, partition=minute}, index=@Count, add_index=1};
+sense=godzina,quant=sg|pro: 
+  {range=day, intersection=[
+    {sequence={whole=day, partition=hour}, index=@Number, add_index=1},
+    *RevPart]};
+sense=godzina:
+  {range=day, intersection=[hour,*Time]};
+sense=dzień,quant=sg|pro: 
+  {range=month, intersection=[{sequence={whole={sequence=month,index=null}, partition=day}, index=@Number},*Part]};
+#  {sequence={whole=@Part, partition=day}, restr=@Number}; #definicja równoważna powyższej, gdy jest zdefiniowane Part
+sense=dzień:
+  {range=month, intersection=[day,*Time]};
+sense=tydzień,quant=sg|pro: 
+  {range=month, sequence={intersection=[week,*Part]},index=@Number default null};
+sense=tydzień,quant=sg: 
+    {range=month, sequence={intersection=[week,future]},index=@NumberFuture};
+sense=tydzień,quant=sg: 
+    {range=month, sequence={intersection=[week,past]},index=@NumberPast};
+sense=tydzień:
+  {range=month, intersection=[week,*Time]};
+sense=miesiąc,quant=sg|pro: 
+  {range=year, intersection=[{sequence={whole={sequence=year,index=null}, partition=month}, index=@Number default null},*Part]};
+sense=miesiąc,quant=sg: 
+    {range=year, sequence={intersection=[month,future]},index=@NumberFuture};
+sense=miesiąc,quant=sg: 
+    {range=year, sequence={intersection=[month,past]},index=@NumberPast};
+sense=miesiąc:
+  {range=year, intersection=[month,*Time]};
+sense=rok,quant=sg|pro: 
+  {range=year, sequence={whole=era, partition=year}, index=@Number};
+sense=rok,quant=sg: 
+    {range=year, sequence={intersection=[year,future]},index=@NumberFuture};
+sense=rok,quant=sg: 
+    {range=year, sequence={intersection=[year,past]},index=@NumberPast};
+sense=rok:
+  {range=year, intersection=[year,*Time]};
+
+sense=południe,quant=sg:
+  {range=day, intersection=[
+    {sequence={whole=day, partition=hour}, index=12, add_index=1},
+    {sequence={whole=hour, partition=minute}, index=00, add_index=1}]};
+sense=północ,quant=sg:
+  {range=day, intersection=[
+    {sequence={whole=day, partition=hour}, index=00, add_index=1},
+    {sequence={whole=hour, partition=minute}, index=00, add_index=1}]};
+sense=dziś: {sequence={intersection=[day,future]}, index=0};
+sense=dzisiaj: {sequence={intersection=[day,future]}, index=0};
+sense=jutro: {sequence={intersection=[day,future]}, index=1};
+sense=pojutrze: {sequence={intersection=[day,future]}, index=2};
+sense=popojutrze: {sequence={intersection=[day,future]}, index=3};
+sense=wczoraj: {sequence={intersection=[day,past]}, index=1};
+sense=przedwczoraj: {sequence={intersection=[day,past]}, index=2};
+
+sense=styczeń,quant=sg:
+  {range=year, intersection=[{sequence={whole=year, partition=month}, index=1},@Part]};
+sense=styczeń,quant=sg:
+  {range=year, sequence={whole={sequence=year,index=null}, partition=month}, index=1};
+sense=luty,quant=sg:
+  {range=year, intersection=[{sequence={whole=year, partition=month}, index=2},@Part]};
+sense=luty,quant=sg:
+  {range=year, sequence={whole={sequence=year,index=null}, partition=month}, index=2};
+sense=marzec,quant=sg:
+  {range=year, intersection=[{sequence={whole=year, partition=month}, index=3},@Part]};
+sense=marzec,quant=sg:
+  {range=year, sequence={whole={sequence=year,index=null}, partition=month}, index=3};
+sense=kwiecień,quant=sg:
+  {range=year, intersection=[{sequence={whole=year, partition=month}, index=4},@Part]};
+sense=kwiecień,quant=sg:
+  {range=year, sequence={whole={sequence=year,index=null}, partition=month}, index=4};
+sense=maj,quant=sg:
+  {range=year, intersection=[{sequence={whole=year, partition=month}, index=5},@Part]};
+sense=maj,quant=sg:
+  {range=year, sequence={whole={sequence=year,index=null}, partition=month}, index=5};
+sense=czerwiec,quant=sg:
+  {range=year, intersection=[{sequence={whole=year, partition=month}, index=6},@Part]};
+sense=czerwiec,quant=sg:
+  {range=year, sequence={whole={sequence=year,index=null}, partition=month}, index=6};
+sense=lipiec,quant=sg:
+  {range=year, intersection=[{sequence={whole=year, partition=month}, index=7},@Part]};
+sense=lipiec,quant=sg:
+  {range=year, sequence={whole={sequence=year,index=null}, partition=month}, index=7};
+sense=sierpień,quant=sg:
+  {range=year, intersection=[{sequence={whole=year, partition=month}, index=8},@Part]};
+sense=sierpień,quant=sg:
+  {range=year, sequence={whole={sequence=year,index=null}, partition=month}, index=8};
+sense=wrzesień,quant=sg:
+  {range=year, intersection=[{sequence={whole=year, partition=month}, index=9},@Part]};
+sense=wrzesień,quant=sg:
+  {range=year, sequence={whole={sequence=year,index=null}, partition=month}, index=9};
+sense=październik,quant=sg:
+  {range=year, intersection=[{sequence={whole=year, partition=month}, index=10},@Part]};
+sense=październik,quant=sg:
+  {range=year, sequence={whole={sequence=year,index=null}, partition=month}, index=10};
+sense=listopad,quant=sg:
+  {range=year, intersection=[{sequence={whole=year, partition=month}, index=11},@Part]};
+sense=listopad,quant=sg:
+  {range=year, sequence={whole={sequence=year,index=null}, partition=month}, index=11};
+sense=grudzień,quant=sg:
+  {range=year, intersection=[{sequence={whole=year, partition=month}, index=12},@Part]};
+sense=grudzień,quant=sg:
+  {range=year, sequence={whole={sequence=year,index=null}, partition=month}, index=12};
+
+sense=poniedziałek,quant=sg:
+  {range=week, sequence={intersection=[
+     {range=week, sequence={whole=week, partition=day}, index=1},
+     *Part]},
+    index=@Number default null};
+sense=poniedziałek,quant=sg:
+    {range=week, sequence={sequence={whole={intersection=[week,future]}, partition=day}, index=1},index=@NumberFuture};
+sense=poniedziałek,quant=sg:
+    {range=week, sequence={sequence={whole={intersection=[week,past]}, partition=day}, index=1},index=@NumberPast};
+sense=poniedziałek,quant=pl:
+  {range=week, sequence={intersection=[
+     {sequence={whole=week, partition=day}, index=1},
+     *Part]},
+    setindex=null};
+sense=wtorek,quant=sg:
+  {range=week, sequence={intersection=[
+     {sequence={whole=week, partition=day}, index=2},
+     *Part]},
+    index=@Number default null};
+sense=wtorek,quant=sg:
+    {range=week, sequence={sequence={whole={intersection=[week,future]}, partition=day}, index=2},index=@NumberFuture};
+sense=wtorek,quant=sg:
+    {range=week, sequence={sequence={whole={intersection=[week,past]}, partition=day}, index=2},index=@NumberPast};
+sense=wtorek,quant=pl:
+  {range=week, sequence={intersection=[
+     {sequence={whole=week, partition=day}, index=2},
+     *Part]},
+    setindex=null};
+sense=środa,quant=sg:
+  {range=week, sequence={intersection=[
+     {sequence={whole=week, partition=day}, index=3},
+     *Part]},
+    index=@Number default null};
+sense=środa,quant=sg:
+    {range=week, sequence={sequence={whole={intersection=[week,future]}, partition=day}, index=3},index=@NumberFuture};
+sense=środa,quant=sg:
+    {range=week, sequence={sequence={whole={intersection=[week,past]}, partition=day}, index=3},index=@NumberPast};
+sense=środa,quant=pl:
+  {range=week, sequence={intersection=[
+     {sequence={whole=week, partition=day}, index=3},
+     *Part]},
+    setindex=null};
+sense=czwartek,quant=sg:
+  {range=week, sequence={intersection=[
+     {sequence={whole=week, partition=day}, index=4},
+     *Part]},
+    index=@Number default null};
+sense=czwartek,quant=sg:
+    {range=week, sequence={sequence={whole={intersection=[week,future]}, partition=day}, index=4},index=@NumberFuture};
+sense=czwartek,quant=sg:
+    {range=week, sequence={sequence={whole={intersection=[week,past]}, partition=day}, index=4},index=@NumberPast};
+sense=czwartek,quant=pl:
+  {range=week, sequence={intersection=[
+     {sequence={whole=week, partition=day}, index=4},
+     *Part]},
+    setindex=null};
+sense=piątek,quant=sg:
+  {range=week, sequence={intersection=[
+     {sequence={whole=week, partition=day}, index=5},
+     *Part]},
+    index=@Number default null};
+sense=piątek,quant=sg:
+    {range=week, sequence={sequence={whole={intersection=[week,future]}, partition=day}, index=5},index=@NumberFuture};
+sense=piątek,quant=sg:
+    {range=week, sequence={sequence={whole={intersection=[week,past]}, partition=day}, index=5},index=@NumberPast};
+sense=piątek,quant=pl:
+  {range=week, sequence={intersection=[
+     {sequence={whole=week, partition=day}, index=5},
+     *Part]},
+    setindex=null};
+sense=sobota,quant=sg:
+  {range=week, sequence={intersection=[
+     {sequence={whole=week, partition=day}, index=6},
+     *Part]},
+    index=@Number default null};
+sense=sobota,quant=sg:
+    {range=week, sequence={sequence={whole={intersection=[week,future]}, partition=day}, index=6},index=@NumberFuture};
+sense=sobota,quant=sg:
+    {range=week, sequence={sequence={whole={intersection=[week,past]}, partition=day}, index=6},index=@NumberPast};
+sense=sobota,quant=pl:
+  {range=week, sequence={intersection=[
+     {sequence={whole=week, partition=day}, index=6},
+     *Part]},
+    setindex=null};
+sense=niedziela,quant=sg:
+  {range=week, sequence={intersection=[
+     {sequence={whole=week, partition=day}, index=7},
+     *Part]},
+    index=@Number default null};
+sense=niedziela,quant=sg:
+    {range=week, sequence={sequence={whole={intersection=[week,future]}, partition=day}, index=7},index=@NumberFuture};
+sense=niedziela,quant=sg:
+    {range=week, sequence={sequence={whole={intersection=[week,past]}, partition=day}, index=7},index=@NumberPast};
+sense=niedziela,quant=pl:
+  {range=week, sequence={intersection=[
+     {sequence={whole=week, partition=day}, index=7},
+     *Part]},
+    setindex=null};
+sense=weekend,quant=sg:
+  {range=month, sequence={intersection=[
+     {merge={sequence={whole={sequence=week}, partition=day}, setindex=[6,7]}},
+     *Part]},
+    index=@Number default null};
+sense=weekend,quant=sg:
+  {range=month, sequence={merge={sequence={whole={sequence={intersection=[week,future]}}, partition=day}, setindex=[6,7]}},index=@NumberFuture};
+sense=weekend,quant=sg:
+  {range=month, sequence={merge={sequence={whole={sequence={intersection=[week,past]}}, partition=day}, setindex=[6,7]}},index=@NumberPast};
+sense=weekend,quant=pl:
+  {range=month, sequence={intersection=[
+     {merge={sequence={whole=week, partition=day}, setindex=[6,7]}},
+     *Part]},
+    setindex=null};
+sense=dzień roboczy|dzień powszedni,quant=sg:
+  {range=month, sequence={intersection=[
+     {flatten={sequence={whole=week, partition=day}, setindex=[1,2,3,4,5]}},
+     *Part]},
+    index=@Number default null};
+sense=dzień roboczy|dzień powszedni,quant=pl:
+  {range=month, sequence={intersection=[
+     {flatten={sequence={whole=week, partition=day}, setindex=[1,2,3,4,5]}},
+     *Part]},
+    setindex=null};
+
+sense=rano|ranny|poranny:
+  {merge={sequence={whole=day, partition=hour}, setindex=[early_morning,late_morning]}};
+sense=nad ranem:
+  {merge={sequence={whole=day, partition=hour}, setindex=[night,early_morning]}};
+sense=przedpołudnie|przedpołudniowy:
+  {merge={sequence={whole=day, partition=hour}, setindex=late_morning}};
+sense=popołudnie|popołudniowy|okołopopołudniowy:
+  {merge={sequence={whole=day, partition=hour}, setindex=[early_afternoon,late_afternoon]}};
+sense=wieczór|wieczorny:
+  {merge={sequence={whole=day, partition=hour}, setindex=evening}};
+sense=noc|nocny:
+  {merge={sequence={whole=day, partition=hour}, setindex=night}};
+
+cat=HourNumber: @sense;
+cat=YearNumber: @sense;
+cat=OrdNumber: @sense;
+cat=DayNumber: @sense;
+cat=MonthNumber: @sense;
+cat=Number: @sense;
+
+sense=bieżący: 0;
+sense=przyszły|nadchodzący|następny: 1;
+sense=ubiegły|poprzedni|miniony: 1;
+
+
+
+

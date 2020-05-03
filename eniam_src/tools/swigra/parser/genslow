@@ -1,0 +1,62 @@
+#! /usr/bin/perl
+# Dostosowanie formatu słownika wymagań rzeczownikowych i przymiotnikowych.
+#
+# Author: Marcin Woliński
+# This file is in the public domain.
+
+use strict;
+use locale;
+
+ 
+my $srcdict=shift;
+$srcdict = 's_rzecz' unless $srcdict;
+
+my (%slownik, %swislownik);
+
+print <<EOS;
+% This file has been generated with genslow.  Do not modify.  
+% Modifications should be applied to the file $srcdict instead.\n
+%
+EOS
+
+open TAB, "<$srcdict" || die;
+while (<TAB>) {
+    if (/^%(?!%)/) {
+	print;
+    } elsif (/^%%/) {
+    } elsif (m/^([^\t %]+)\t([^\t%]*)(?: ?%.*)?\n/) {
+	my ($lemat, @wyms)=($1, split('\+',$2));
+
+	my $key="$lemat";
+	$slownik{$key}=[$lemat, ()]
+	    unless defined $slownik{$key};
+	push @{$slownik{$key}->[1]}, [@wyms];
+    } else {
+	die "Error in $srcdict w. $.: $_";
+    }
+}
+
+foreach my $verb (sort keys %slownik) {
+    my ($lemat, $wyms) = @{$slownik{$verb}};
+    my $entry = "$srcdict($lemat, [".
+      join(', ',map {"[[".join('], [', @$_)."]]"} @$wyms).
+      "]).\n";
+    $swislownik{$entry}=1;
+}
+
+print $_
+    foreach sort keys %swislownik;
+
+print <<EOS;
+%%% \x4Cocal Variables: 
+%%% coding: utf-8
+%%% mode: prolog
+%%% End: 
+EOS
+
+
+### Local Variables:
+### coding: utf-8
+### mode: perl
+### End:
+

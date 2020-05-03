@@ -1,0 +1,419 @@
+<node name="rzecz-6" size="334">
+  <node name="wyrzut sumienia-2" size="0"/>
+  <node name="trucizna-2" size="0"/>
+  <node name="skrzyżowanie-4, hybryda-4" size="43">
+    <node name="krążownik podwodny-1" size="0"/>
+    <node name="krążownik lotniczy-1" size="0"/>
+    <node name="podwodny lotniskowiec-1" size="0"/>
+    <node name="pancerniko-lotniskowiec-1" size="0"/>
+    <node name="napęd hybrydowy-1" size="0"/>
+    <node name="krzyżówka-3, hybryda-1, mieszaniec-1, metys-1, hybryd-1" size="37">
+      <node name="regent-4" size="0"/>
+      <node name="cytrokumkwat-1, citrofortunella-1" size="1">
+        <node name="kalamondin-1" size="0"/>
+      </node>
+      <node name="cytranga-1" size="0"/>
+      <node name="tangelo-2, tangerynka-2" size="0"/>
+      <node name="mięta pieprzowa-1, mięta lekarska-1" size="0"/>
+      <node name="zobo-1" size="0"/>
+      <node name="tyglew-1" size="0"/>
+      <node name="jaglion-1" size="0"/>
+      <node name="liard-1, lipard-1" size="0"/>
+      <node name="yakalo-1" size="0"/>
+      <node name="żubroń-1" size="0"/>
+      <node name="dzo-1" size="0"/>
+      <node name="zebroid-1" size="0"/>
+      <node name="zebrula-1" size="0"/>
+      <node name="pszenżyto-1" size="0"/>
+      <node name="leopon-1" size="0"/>
+      <node name="lygrys-1" size="0"/>
+      <node name="zebryna-1" size="0"/>
+      <node name="żubrobizon-1" size="0"/>
+      <node name="birtugan-1, nar-1, wielbłąd mieszany-1, tulu-1" size="0"/>
+      <node name="tryton-1" size="0"/>
+      <node name="sylen-1" size="0"/>
+      <node name="tchórzofretka-1, tchórz hodowlany-1" size="0"/>
+      <node name="brahman-2" size="0"/>
+      <node name="bastard-1" size="1">
+        <node name="struś afrykański czarny-1" size="0"/>
+      </node>
+      <node name="hipogryf-1" size="0"/>
+      <node name="harpia-1" size="0"/>
+      <node name="bulterier-1, bull terrier-1" size="0"/>
+      <node name="osłomuł-1, oślik-1" size="0"/>
+      <node name="centaur-1, hipocentaur-1" size="0"/>
+      <node name="muł-2" size="2">
+        <node name="mulica-1" size="0"/>
+        <node name="mulątko-1" size="0"/>
+      </node>
+      <node name="gryf-1" size="0"/>
+      <node name="satyr-1, faun-1" size="0"/>
+    </node>
+  </node>
+  <node name="rzecz oceniana pozytywnie-1" size="31" abstract="true">
+    <node name="majstersztyk-3" size="1">
+      <node name="arcydzieło-2" size="0"/>
+    </node>
+    <node name="oczko w głowie-2, oczko-16" size="0"/>
+    <node name="miecz obosieczny-2" size="0"/>
+    <node name="łakomy kąsek-1" size="0"/>
+    <node name="ideał-2" size="7">
+      <node name="dzieło sztuki-2" size="0"/>
+      <node name="doskonałość-2" size="1">
+        <node name="alfa i omega-1" size="0"/>
+      </node>
+      <node name="raj-1, eden-2, rajski ogród-1" size="2">
+        <node name="arkadia-1" size="0"/>
+        <node name="kraina mlekiem i miodem płynąca-1" size="0"/>
+      </node>
+      <node name="książę z bajki-1" size="0"/>
+    </node>
+    <node name="chluba-1, duma-7, chwała-3" size="1">
+      <node name="ozdoba-2" size="0"/>
+    </node>
+    <node name="cenność-3" size="0"/>
+    <node name="koronkowa robota-1" size="0"/>
+    <node name="cacko-2, cudo-1" size="0"/>
+    <node name="smakołyk-1, smakowitość-2, pychota-1, pyszota-1" size="6">
+      <node name="ambrozja-1, cymes-1" size="0"/>
+      <node name="rarytas-1" size="0"/>
+      <node name="przysmak-1" size="0"/>
+      <node name="specjał-1" size="0"/>
+      <node name="frykas-1" size="0"/>
+      <node name="delikates-1" size="0"/>
+    </node>
+    <node name="dobro-1" size="5">
+      <node name="dar-3" size="4">
+        <node name="dana-1" size="0"/>
+        <node name="łaska-2" size="0"/>
+        <node name="charyzmat-2" size="0"/>
+        <node name="dziecięctwo Boże-1" size="0"/>
+      </node>
+    </node>
+  </node>
+  <node name="rzecz oceniana negatywnie-1" size="256" abstract="true">
+    <node name="miecz obosieczny-2" size="0"/>
+    <node name="miska soczewicy-1" size="0"/>
+    <node name="dziurawy worek-1" size="0"/>
+    <node name="szkarada-2, koszmarek-1, potworek-1" size="4">
+      <node name="paskuda-2" size="0"/>
+      <node name="brzydactwo-1, brzydota-2, szpetota-2" size="1">
+        <node name="bezguście-2" size="0"/>
+      </node>
+      <node name="gargamel-1" size="0"/>
+    </node>
+    <node name="śmierdziuch-3" size="0"/>
+    <node name="poniewierca-1" size="0"/>
+    <node name="inkwizycja-2" size="0"/>
+    <node name="mniejsze zło-1" size="0"/>
+    <node name="dno-3" size="0"/>
+    <node name="żelastwo-1" size="0"/>
+    <node name="złom-4, bling-bling-1" size="0"/>
+    <node name="margines-2" size="0"/>
+    <node name="zło konieczne-1" size="0"/>
+    <node name="wypociny-1, wypocina-1" size="2">
+      <node name="elukubracja-1" size="0"/>
+      <node name="chałtura-1" size="0"/>
+    </node>
+    <node name="cholerstwo-1, draństwo-4" size="0"/>
+    <node name="drapak-1" size="0"/>
+    <node name="zło-1, diabelstwo-1, licho-2, złe-1, diabelskość-5" size="88">
+      <node name="mrok-4" size="0"/>
+      <node name="ciemność-3" size="0"/>
+      <node name="demoniczność-1, demonizm-1, diaboliczność-1, diabolizm-1, szatańskość-1" size="0"/>
+      <node name="hydra-1" size="0"/>
+      <node name="nieszczęście-2, niedola-1" size="81">
+        <node name="plaga egipska-2" size="0"/>
+        <node name="puszka Pandory-1" size="0"/>
+        <node name="pech-1, niefart-1" size="3">
+          <node name="twarde lądowanie-1" size="0"/>
+          <node name="zezowate szczęście-1, garbate szczęście-1" size="0"/>
+          <node name="ironia-3" size="0"/>
+        </node>
+        <node name="krzywda-1, niesprawiedliwość-1" size="74">
+          <node name="nierówność-2" size="1">
+            <node name="nierówność społeczna-1" size="0"/>
+          </node>
+          <node name="wyzysk-1" size="6">
+            <node name="lichwa-2, lichwiarstwo-1" size="0"/>
+            <node name="eksploatacja-1" size="0"/>
+            <node name="pasożytnictwo-2" size="0"/>
+            <node name="zdzierstwo-1" size="0"/>
+            <node name="niewolnictwo-1, niewola-1" size="1">
+              <node name="encomienda-1" size="0"/>
+            </node>
+          </node>
+          <node name="nietolerancja-1, nietolerancyjność-1" size="23">
+            <node name="antyfeminizm-1" size="0"/>
+            <node name="ciemnogród-1" size="0"/>
+            <node name="antysemityzm-1, antyżydowskość-1, antyjudaizm-1, żydożerstwo-1" size="0"/>
+            <node name="ksenofobia-2" size="4">
+              <node name="brytofobia-1" size="0"/>
+              <node name="antyslawizm-1, slawofobia-1" size="0"/>
+              <node name="rusofobia-1" size="0"/>
+              <node name="germanofobia-1" size="0"/>
+            </node>
+            <node name="dyskryminacja-1" size="15">
+              <node name="audyzm-1" size="0"/>
+              <node name="atrakcjonizm-1, lookizm-1" size="0"/>
+              <node name="adultyzm-1" size="0"/>
+              <node name="transfobia-1, transuprzedzenia-1" size="1">
+                <node name="transmizogynia-1" size="0"/>
+              </node>
+              <node name="heterofobia-1" size="0"/>
+              <node name="ageizm-1" size="0"/>
+              <node name="handicapizm-1" size="0"/>
+              <node name="deprywacja polityczna-1" size="0"/>
+              <node name="seksizm-1" size="1">
+                <node name="lesbofobia-1" size="0"/>
+              </node>
+              <node name="numerus clausus-1" size="0"/>
+              <node name="szowinizm-1" size="0"/>
+              <node name="rasizm-1" size="1">
+                <node name="antyslawizm-1, slawofobia-1" size="0"/>
+              </node>
+            </node>
+          </node>
+          <node name="represja-1, ucisk-1, prześladowanie-2, terror-1" size="28">
+            <node name="bułgaryzacja-2" size="0"/>
+            <node name="persekucja-1" size="0"/>
+            <node name="junkierstwo-2" size="0"/>
+            <node name="bolszewizacja-2" size="0"/>
+            <node name="sekatura-1" size="0"/>
+            <node name="dragonada-2" size="0"/>
+            <node name="dragonada-1" size="0"/>
+            <node name="psychuszka-1" size="0"/>
+            <node name="ciemięstwo-1" size="0"/>
+            <node name="pogrom-2, czystka-1" size="1"/>
+            <node name="szykana-1" size="1">
+              <node name="czystka-2" size="0"/>
+            </node>
+            <node name="szykany-1" size="3">
+              <node name="mobbing-1" size="0"/>
+              <node name="nagonka-1" size="1">
+                <node name="polowanie na czarownice-1" size="0"/>
+              </node>
+            </node>
+            <node name="przesiedlenie-2" size="0"/>
+            <node name="zsyłka-1" size="0"/>
+            <node name="wywózka-1" size="1">
+              <node name="branka-2" size="0"/>
+            </node>
+            <node name="wysiedlenie-2" size="1">
+              <node name="rugi-1" size="0"/>
+            </node>
+            <node name="wypędzenie-2" size="0"/>
+            <node name="rusyfikacja-2" size="0"/>
+            <node name="germanizacja-2" size="0"/>
+            <node name="obława-1" size="1">
+              <node name="łapanka-1" size="0"/>
+            </node>
+          </node>
+          <node name="obelga-1, zniewaga-1, obraza-1, policzek-2, znieważenie-2, afront-1, dotknięcie-6, dyshonor-1, ujma-1, poniżenie-3, dyzgust-3, epitet-3" size="11">
+            <node name="obraza majestatu-1" size="0"/>
+            <node name="środkowy palec-1" size="0"/>
+            <node name="ukąszenie heglowskie-1" size="0"/>
+            <node name="czynna zniewaga-1" size="0"/>
+            <node name="zwymyślanie-2" size="0"/>
+            <node name="wyzwisko-2" size="0"/>
+            <node name="profanacja-1, świętokradztwo-2" size="0"/>
+            <node name="zniesławienie-2" size="0"/>
+            <node name="szyderstwo-2" size="1">
+              <node name="persyflaż-2" size="0"/>
+            </node>
+            <node name="bluźnierstwo-2" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="szatan-1, demon-1, diabeł-2, zły duch-1, książę ciemności-1, upadły anioł-1, antychryst-2" size="1">
+        <node name="iblis-1, eblis-1" size="0"/>
+      </node>
+    </node>
+    <node name="ruina-1" size="0"/>
+    <node name="moloch-1" size="0"/>
+    <node name="rupieć-1, złom-2, klamot-1, grat-1, szmelc-1, gruchot-2" size="3">
+      <node name="grat-2, rzęch-1" size="0"/>
+      <node name="obdrapaniec-2" size="0"/>
+      <node name="szpargał-2" size="0"/>
+    </node>
+    <node name="postępek-2, zło-2" size="141">
+      <node name="gwałt-4" size="0"/>
+      <node name="zbrodnia-2" size="0"/>
+      <node name="zdradziectwo-2" size="0"/>
+      <node name="żakostwo-1" size="0"/>
+      <node name="niestosowność-1" size="0"/>
+      <node name="hucpa-1, zuchwalstwo-2, bezczelność-2, szelmostwo-2, wałek-4, przekręt-1, chucpa-1" size="2">
+        <node name="geszeft-1" size="0"/>
+        <node name="kant-2" size="0"/>
+      </node>
+      <node name="podłość-2, nikczemność-2, bezeceństwo-1, łajdactwo-2, draństwo-1, świństwo-1, hultajstwo-1, łotrostwo-2, niegodziwość-2, chamstwo-2" size="4">
+        <node name="parszywość-1" size="0"/>
+        <node name="obrzydliwość-3, wstrętność-1, przebrzydłość-1" size="0"/>
+        <node name="szubrawstwo-1" size="0"/>
+        <node name="zberezeństwo-1, zbereżeństwo-1" size="0"/>
+      </node>
+      <node name="zawłaszczenie-3" size="1">
+        <node name="uzurpacja-1, uzurpatorstwo-1" size="0"/>
+      </node>
+      <node name="proceder-1" size="4">
+        <node name="szulerka-2, szulerstwo-1" size="0"/>
+        <node name="nierząd-1, prostytucja-1, seksbiznes-1, najstarszy zawód świata-1" size="1">
+          <node name="sponsoring-2" size="0"/>
+        </node>
+        <node name="żebractwo-1, żebry-1, żebranina-1" size="0"/>
+      </node>
+      <node name="wybryk-1, eksces-1, wyskok-1, odskok-3" size="0"/>
+      <node name="obmowa-2" size="0"/>
+      <node name="niedyskrecja-1" size="0"/>
+      <node name="grzech-1, przewina-1" size="11">
+        <node name="grzech śmiertelny-1, grzech ciężki-1" size="0"/>
+        <node name="popijawa-1, pijaństwo-2" size="0"/>
+        <node name="grzech powszedni-1, niewierność-4" size="0"/>
+        <node name="grzech pierworodny-1" size="0"/>
+        <node name="kazirodztwo-1" size="0"/>
+        <node name="krzywoprzysięstwo-1" size="0"/>
+        <node name="świętokradztwo-1" size="0"/>
+        <node name="zdrada-2, niewierność-2" size="1">
+          <node name="skok w bok-1" size="0"/>
+        </node>
+        <node name="rozpusta-2, nieczystość-1" size="0"/>
+        <node name="bluźnierstwo-1, blasfemia-1" size="0"/>
+      </node>
+      <node name="wykroczenie-2" size="10">
+        <node name="spalony-1, offside-1, ofsajd-1" size="0"/>
+        <node name="kroki-2" size="0"/>
+        <node name="ręka-5" size="0"/>
+        <node name="delikt-1" size="1">
+          <node name="delikt konstytucyjny-1" size="0"/>
+        </node>
+        <node name="uchybienie-2" size="1">
+          <node name="nieformalność-1" size="0"/>
+        </node>
+        <node name="faul-1" size="2">
+          <node name="nakładka-2" size="0"/>
+          <node name="podcięcie-7" size="0"/>
+        </node>
+      </node>
+      <node name="przestępstwo-1" size="95">
+        <node name="przestępstwo kryminalne-1" size="0"/>
+        <node name="przestępstwo pospolite-1" size="1">
+          <node name="zagarnięcie mienia-1" size="0"/>
+        </node>
+        <node name="sutenerstwo-1" size="0"/>
+        <node name="przywłaszczenie-2" size="1">
+          <node name="malwersacja-1, defraudacja-1" size="0"/>
+        </node>
+        <node name="spekulacja-3" size="5">
+          <node name="lichwa-2, lichwiarstwo-1" size="0"/>
+          <node name="ażiotaż-1" size="0"/>
+          <node name="grynderstwo-1" size="0"/>
+          <node name="oscylator-2" size="0"/>
+          <node name="paskarstwo-1, pasek-4" size="0"/>
+        </node>
+        <node name="nieumyślne spowodowanie śmierci-1" size="0"/>
+        <node name="afera-1" size="0"/>
+        <node name="hacking-1, hakerstwo-1, hackerstwo-1, cracking-1" size="0"/>
+        <node name="kuplerstwo-1" size="0"/>
+        <node name="zdrada stanu-1" size="0"/>
+        <node name="plagiatorstwo-1" size="0"/>
+        <node name="pajęczarstwo-1" size="2">
+          <node name="radiopajęczarstwo-1" size="0"/>
+          <node name="telepajęczarstwo-1" size="0"/>
+        </node>
+        <node name="uzurpacja-1, uzurpatorstwo-1" size="0"/>
+        <node name="stręczycielstwo-1" size="0"/>
+        <node name="pedofilia-1" size="0"/>
+        <node name="pomocnictwo-1" size="0"/>
+        <node name="kłusownictwo-1" size="0"/>
+        <node name="zbiegostwo-1" size="1">
+          <node name="dezercja-2" size="0"/>
+        </node>
+        <node name="paserstwo-1, paserka-1" size="0"/>
+        <node name="czyn nierządny-1" size="1">
+          <node name="gwałt-2" size="0"/>
+        </node>
+        <node name="wymuszenie-2" size="1">
+          <node name="wymuszenie rozbójnicze-1" size="0"/>
+        </node>
+        <node name="fałszerstwo-1, falsyfikacja-1" size="0"/>
+        <node name="zbrodnia-1" size="12">
+          <node name="zbrodnia nazistowska-1, zbrodnia hitlerowska-1" size="0"/>
+          <node name="zbrodnia komunistyczna-1, zbrodnia stalinowska-1" size="0"/>
+          <node name="mord-2, masakra-1, rzeź-1, rzeźnia-2, krwawa łaźnia-1, wyżynka-2" size="6">
+            <node name="rzeź niewiniątek-3" size="0"/>
+            <node name="pogrom-2, czystka-1" size="1">
+              <node name="czystka etniczna-1" size="0"/>
+            </node>
+            <node name="egzekucja-1" size="0"/>
+            <node name="ludobójstwo-1, eksterminacja-1" size="1">
+              <node name="holocaust-1, szoah-1, Szoah-2, holokaust-1, zagłada-2, Zagłada-3" size="0"/>
+            </node>
+          </node>
+          <node name="zbrodnia wojenna-1" size="0"/>
+          <node name="zbrodnia przeciw pokojowi-1" size="0"/>
+          <node name="zbrodnia przeciw ludzkości-1, zbrodnia przeciwko ludzkości-1" size="0"/>
+        </node>
+        <node name="włamanie-2" size="0"/>
+        <node name="wyłudzenie-2" size="0"/>
+        <node name="szpiegostwo-1" size="0"/>
+        <node name="przemyt-1, kontrabanda-1, szmugiel-1, przemytnictwo-1" size="1">
+          <node name="przemyt mrówkowy-1, przemyt plecakowy-1, przemyt mrówczany-1" size="0"/>
+        </node>
+        <node name="porwanie-8" size="3">
+          <node name="rapt-2" size="0"/>
+          <node name="kidnaping-1, kidnaperstwo-1" size="0"/>
+          <node name="uprowadzenie-2" size="0"/>
+        </node>
+        <node name="pranie brudnych pieniędzy-1, pranie pieniędzy-1" size="0"/>
+        <node name="piractwo-1, piractwo intelektualne-1" size="1">
+          <node name="wideopiractwo-1" size="0"/>
+        </node>
+        <node name="napad-1, napaść-1" size="11">
+          <node name="napad rabunkowy-1" size="0"/>
+          <node name="inwazja-1, agresja-3, najazd-1, nachód-1" size="7">
+            <node name="zajazd-2" size="0"/>
+            <node name="szturm-1, nawała-2, nawałnica-3" size="0"/>
+            <node name="oblężenie-1" size="0"/>
+            <node name="podbój-1" size="3">
+              <node name="zawojowanie-4, debelacja-1, debellacja-1" size="0"/>
+              <node name="kolonizacja-1" size="0"/>
+              <node name="konkwista-1" size="0"/>
+            </node>
+          </node>
+          <node name="wtargnięcie-3" size="0"/>
+          <node name="skok-3" size="0"/>
+        </node>
+        <node name="korupcja-2, łapownictwo-1, przekupstwo-1, łapówkarstwo-1" size="2">
+          <node name="łapownictwo czynne-1" size="0"/>
+          <node name="łapownictwo bierne-1" size="0"/>
+        </node>
+        <node name="zabójstwo-1, mord-1, morderstwo-1" size="11">
+          <node name="trucicielstwo-1" size="0"/>
+          <node name="matkobójstwo-1" size="0"/>
+          <node name="skrytobójstwo-1" size="0"/>
+          <node name="ojcobójstwo-1" size="0"/>
+          <node name="mężobójstwo-1" size="0"/>
+          <node name="królobójstwo-1" size="0"/>
+          <node name="carobójstwo-1" size="0"/>
+          <node name="dzieciobójstwo-1" size="1">
+            <node name="synobójstwo-1" size="0"/>
+          </node>
+          <node name="bratobójstwo-1, zbrodnia kainowa-1" size="0"/>
+          <node name="otrucie-2" size="0"/>
+        </node>
+        <node name="nadużycie-3" size="1">
+          <node name="solicytacja-2" size="0"/>
+        </node>
+        <node name="kradzież-1, złodziejstwo-1" size="6">
+          <node name="juma-1" size="0"/>
+          <node name="skimming-1" size="0"/>
+          <node name="koniokradztwo-1" size="0"/>
+          <node name="doliniarstwo-1" size="0"/>
+          <node name="grabież-1, rabunek-1, łupiestwo-1" size="1">
+            <node name="szaber-2, szabrownictwo-1" size="0"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</node>

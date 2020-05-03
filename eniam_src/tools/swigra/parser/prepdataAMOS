@@ -1,0 +1,85 @@
+#!/usr/bin/perl -n
+#
+# Skrypt przetwarza plik ze zdaniami w formacie projektu AMOS
+# (por. gfjp-aprzyk.txt) na zbiór plików .doa dla parsera.
+#
+# Author: Marcin Woliński
+# This file is in the public domain.
+
+
+require 5.004;
+use POSIX qw(locale_h);
+
+sub BEGIN {
+    setlocale(LC_ALL, "pl_PL.iso8859-2");
+#    print "[parsertexmall].\n";
+    $flushneeded=0;
+    $nrformy=0;
+    $nrprzyk=1;
+}
+
+sub END {
+    flushit;
+}
+
+sub flushit {
+    return unless $flushneeded;
+    print PRZYK ":-analiza('$tekst').\n\n";
+    print PRZYK ":-halt.\n";
+    print PRZYK "\n%%% \x4Cocal Variables:\n";
+    print PRZYK "%%% coding: utf-8\n";
+    print PRZYK "%%% mode: prolog\n";
+    print PRZYK "%%% End:\n";
+    close PRZYK;
+    $flushneeded=0;
+    $tekst='';
+    $nrformy = 0;
+    $doanalizy='';
+}
+
+if (m/^$/) {
+    flushit;
+} elsif (s/^%%\s+Plik (.+?)\s*$//) {
+    flushit;
+    $plik=$1;
+} elsif (m/^%\s*([0-9]+)$/) {
+    flushit;
+    $strona=$1;
+} elsif (m/^%/) {
+    flushit;
+    print STDERR $_;
+} elsif (m/^\[\s*(.+?)\s*;\s*(.+?)\s*;\s*(.+?)\s*\]$/) {
+    flushit;
+    $sekcja=$2; $numer=$3; $reg=$1;
+} elsif (m/^(\[[^\]]+\])$/) {
+    flushit;
+    print STDERR $_;
+#    print PRZYK ":-statprint(info,'$1').\n";
+} else {
+    chomp;
+#    print PRZYK ":-setinput(0,',',0).\n" unless $flushneeded;
+    if (!$flushneeded) {
+	
+	open PRZYK, (sprintf ">przyk%04d.doa", $nrprzyk++);
+#	print PRZYK ":-load_foreign_library(foreign('libmorfeusz-swi')).\n";
+	print PRZYK ":-statprint(plik,'$plik').\n\n" if $plik;
+#    print PRZYK ":-statprint(tekst,'$tekst').\n";
+	print PRZYK ":-statprint(strona,$strona).\n" if $strona;
+	print PRZYK ":-statprint(sekcja,'$sekcja').\n";
+	print PRZYK ":-statprint(numer,'$numer').\n";
+	print PRZYK ":-statprint('reguła','$reg').\n";
+    }
+    $flushneeded=1; # ??? zawsze?
+    s/^(\s+)//;
+    s/\[[^\]]*\]//g;
+    s/[<>*|_]//g;
+    s/\+//g;
+##    s/(.*)/\L$1/;
+    $tekst .= ($tekst?" ":"") . $_;
+#    print PRZYK "]).\n\n";
+}
+
+### Local Variables: 
+### coding: utf-8
+### mode: shell-script
+### End: 

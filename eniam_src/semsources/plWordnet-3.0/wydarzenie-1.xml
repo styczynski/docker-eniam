@@ -1,0 +1,2781 @@
+<node name="wydarzenie-1, historia-3, wypadek-3, zdarzenie-2" size="2183">
+  <node name="kosmos-4" size="0"/>
+  <node name="powtórka z rozrywki-1" size="0"/>
+  <node name="event-1" size="0"/>
+  <node name="derelikcja-1" size="0"/>
+  <node name="zdarzenie prawne-1" size="0"/>
+  <node name="cudaczność-6" size="0"/>
+  <node name="zdarzenie radiacyjne-1" size="0"/>
+  <node name="zdarzenie losowe-1" size="0"/>
+  <node name="rozpoczęcie-4" size="64">
+    <node name="wielki wybuch-2" size="0"/>
+    <node name="otwarcie-2" size="1">
+      <node name="inauguracja-1" size="0"/>
+    </node>
+    <node name="otwarcie-5" size="53">
+      <node name="debiut-3, otwarcie szachowe-1" size="52">
+        <node name="debiut półotwarty-1" size="7">
+          <node name="debiut Nimzowitscha-1" size="0"/>
+          <node name="obrona Pirca-1" size="0"/>
+          <node name="obrona Alechina-1" size="0"/>
+          <node name="obrona skandynawska-1" size="0"/>
+          <node name="obrona Caro-Kann-1" size="0"/>
+          <node name="obrona francuska-1" size="0"/>
+          <node name="obrona sycylijska-1" size="0"/>
+        </node>
+        <node name="debiut zamknięty-1" size="17">
+          <node name="otwarcie Rétiego-1" size="0"/>
+          <node name="obrona Grünfelda-1" size="0"/>
+          <node name="partia katalońska-1" size="0"/>
+          <node name="obrona holenderska-1" size="0"/>
+          <node name="obrona Nimzowitscha-1" size="0"/>
+          <node name="partia angielska-1" size="0"/>
+          <node name="obrona hetmańsko-indyjska-1" size="0"/>
+          <node name="obrona królewsko-indyjska-1" size="0"/>
+          <node name="gambit hetmański-1" size="8"/>
+        </node>
+        <node name="debiut otwarty-1" size="19">
+          <node name="obrona Philidora-1" size="2">
+            <node name="kontrgambit Lopeza-1" size="0"/>
+            <node name="kontrgambit Philidora-1" size="0"/>
+          </node>
+          <node name="partia wiedeńska-1" size="0"/>
+          <node name="partia szkocka-1" size="0"/>
+          <node name="obrona rosyjska-1, partia rosyjska-1" size="0"/>
+          <node name="obrona dwóch skoczków-1" size="0"/>
+          <node name="gambit królewski-2" size="9"/>
+          <node name="partia włoska-1" size="0"/>
+          <node name="partia hiszpańska-1" size="0"/>
+        </node>
+        <node name="gambit-2" size="26">
+          <node name="gambit wołżański-1" size="0"/>
+          <node name="gambit królewski-2" size="9">
+            <node name="gambit Masona-1" size="0"/>
+            <node name="gambit Villemsona-1" size="0"/>
+            <node name="gambit gońca-1" size="0"/>
+            <node name="nieprzyjęty gambit królewski-1" size="0"/>
+            <node name="kontrgambit Falkbeera-1" size="0"/>
+            <node name="wariant z szybkim d5-1" size="0"/>
+            <node name="gambit Kieseritzky'ego-1" size="0"/>
+            <node name="obrona klasyczna-1" size="0"/>
+            <node name="gambit skoczka-1, gambit skoczkowy-1" size="0"/>
+          </node>
+          <node name="kontrgambit-1" size="7">
+            <node name="kontrgambit Gianutio-1" size="0"/>
+            <node name="kontrgambit Lembergera-1" size="0"/>
+            <node name="kontrgambit Winawera-1" size="0"/>
+            <node name="kontrgambit Lopeza-1" size="0"/>
+            <node name="kontrgambit Philidora-1" size="0"/>
+            <node name="kontrgambit Falkbeera-1" size="0"/>
+            <node name="kontrgambit Albina-1" size="0"/>
+          </node>
+          <node name="gambit hetmański-1" size="8">
+            <node name="obrona austriacka-1" size="0"/>
+            <node name="kontrgambit Albina-1" size="0"/>
+            <node name="obrona Czigorina-1" size="0"/>
+            <node name="obrona słowiańska-1" size="0"/>
+            <node name="gambit przyjęty-1" size="0"/>
+            <node name="gambit nieprzyjęty-1" size="2">
+              <node name="obrona bałtycka-1, obrona Keresa-1" size="0"/>
+              <node name="obrona Marshalla-1" size="0"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node name="start-4" size="0"/>
+    <node name="start-2" size="4">
+      <node name="restart-2" size="0"/>
+      <node name="start zatrzymany-1" size="0"/>
+      <node name="start lotny-1" size="0"/>
+      <node name="falstart-1" size="0"/>
+    </node>
+    <node name="rozruch-1" size="0"/>
+  </node>
+  <node name="wjazd-4" size="1">
+    <node name="ingres-2" size="0"/>
+  </node>
+  <node name="wmarsz-1" size="0"/>
+  <node name="przebój-3" size="0"/>
+  <node name="pokaz-2" size="59"/>
+  <node name="kasacja-3" size="0"/>
+  <node name="triennale-1" size="0"/>
+  <node name="biennale-1" size="0"/>
+  <node name="wybudowa-1" size="0"/>
+  <node name="kampania-2" size="0"/>
+  <node name="rozpleciny-1, warkocz-4" size="0"/>
+  <node name="doświadczenie-6" size="1">
+    <node name="doświadczenie religijne-1, doświadczenie duchowe-1" size="0"/>
+  </node>
+  <node name="okazja-2, okoliczność-2" size="24">
+    <node name="impreza-2, balanga-1" size="23"/>
+  </node>
+  <node name="zachowanie-9" size="0"/>
+  <node name="wiercenie-4, odwiert-2" size="0"/>
+  <node name="kontakt-2" size="53">
+    <node name="dialog obywatelski-1" size="0"/>
+    <node name="trofalaksja-1" size="0"/>
+    <node name="bliskie spotkanie trzeciego stopnia-1" size="0"/>
+    <node name="spojrzenie-4, wejrzenie-3, wzrok-1" size="12">
+      <node name="rzut oka-1" size="0"/>
+      <node name="argusowe oko-1" size="0"/>
+      <node name="krowie oczy-1" size="0"/>
+      <node name="powłóczyste spojrzenie-1" size="0"/>
+      <node name="blask-2" size="2"/>
+      <node name="chochlik-1, diablik-1" size="1">
+        <node name="kurwik-1" size="0"/>
+      </node>
+      <node name="oko-3" size="0"/>
+      <node name="maślane oczy-1, maślane spojrzenie-1" size="0"/>
+      <node name="wzrok bazyliszka-1, oczy bazyliszka-1" size="0"/>
+    </node>
+    <node name="dotyk-2, dotknięcie-5" size="36">
+      <node name="uderzenie-10" size="33">
+        <node name="tupnięcie-3" size="0"/>
+        <node name="apel-5" size="0"/>
+        <node name="puknięcie-8, stuknięcie-9" size="0"/>
+        <node name="klaśnięcie-4" size="1">
+          <node name="oklask-1" size="0"/>
+        </node>
+        <node name="cios-1, raz-2" size="25">
+          <node name="cios młotkowy-1" size="0"/>
+          <node name="cios prosty-1, prosty-3" size="2">
+            <node name="prawy prosty-1" size="0"/>
+            <node name="lewy prosty-1" size="0"/>
+          </node>
+          <node name="pchnięcie-4" size="1">
+            <node name="sztych-2" size="0"/>
+          </node>
+          <node name="atemi-1" size="0"/>
+          <node name="hak-4" size="0"/>
+          <node name="pałka-5, pała-7" size="0"/>
+          <node name="szacht-3" size="0"/>
+          <node name="byk-4" size="0"/>
+          <node name="fanga-2" size="0"/>
+          <node name="bykowiec-2" size="0"/>
+          <node name="sierpowy-1, sierp-2, swing-4, cios sierpowy-1" size="2">
+            <node name="prawy sierpowy-1" size="0"/>
+            <node name="lewy sierpowy-1" size="0"/>
+          </node>
+          <node name="kopniak-1, kop-2, kopnięcie-4, kops-1" size="0"/>
+          <node name="klaps-1" size="0"/>
+          <node name="uderzenie-15" size="6">
+            <node name="manszeta-4" size="0"/>
+            <node name="młyniec-2" size="0"/>
+            <node name="nokdaun-1, knock-down-1, KD-1" size="0"/>
+            <node name="nokaut-2, knock-out-1, knockout-1, KO-1" size="0"/>
+            <node name="kontra-3" size="1">
+              <node name="riposta-2" size="0"/>
+            </node>
+          </node>
+        </node>
+        <node name="prztyczek-1, prztyk-1, prztyknięcie-1, pstryczek-1, pstryk-2, pstryknięcie-1" size="0"/>
+        <node name="kuksaniec-1, kuks-1, sójka-3, szturchaniec-1, szturchnięcie-2, kułak-3" size="0"/>
+      </node>
+      <node name="muśnięcie-4" size="0"/>
+      <node name="liźnięcie-5" size="0"/>
+    </node>
+  </node>
+  <node name="nieprawdopodobieństwo-1" size="0"/>
+  <node name="akt-5" size="0"/>
+  <node name="rozrywka-1" size="497">
+    <node name="łamigłówka-1" size="21">
+      <node name="wykreślanka-1" size="0"/>
+      <node name="wsuwanka-1" size="0"/>
+      <node name="labirynt-6" size="0"/>
+      <node name="zgadywanka-1" size="0"/>
+      <node name="szarada-1" size="13">
+        <node name="diakrostych-1" size="0"/>
+        <node name="anagram-2" size="0"/>
+        <node name="logogryf-1" size="0"/>
+        <node name="szyfrogram-2" size="0"/>
+        <node name="kalambur-1" size="0"/>
+        <node name="krzyżówka-2" size="7">
+          <node name="swatka-2" size="0"/>
+          <node name="krzyżówka panoramiczna-1" size="0"/>
+          <node name="krzyżówka magiczna-1" size="1">
+            <node name="kwadrat magiczny-2" size="0"/>
+          </node>
+          <node name="krzyżówka hetmańska-1" size="0"/>
+          <node name="bliźniaki-2" size="0"/>
+          <node name="jolka-1" size="0"/>
+        </node>
+      </node>
+      <node name="rebus-1" size="0"/>
+      <node name="pasjans-1" size="0"/>
+      <node name="zagadka-1" size="0"/>
+    </node>
+    <node name="hazard-2" size="13">
+      <node name="gra hazardowa-1" size="10"/>
+      <node name="e-hazard-1" size="0"/>
+      <node name="karciarstwo-1" size="0"/>
+    </node>
+    <node name="zabawa-2" size="240">
+      <node name="perskie oko-5" size="0"/>
+      <node name="hopki-2" size="0"/>
+      <node name="świętojanka-3" size="0"/>
+      <node name="podkoziołek-1" size="0"/>
+      <node name="zorbing-1" size="0"/>
+      <node name="ślizgawka-3" size="0"/>
+      <node name="zabawa w dom-1" size="0"/>
+      <node name="zabawa w doktora-1" size="0"/>
+      <node name="zabawa weselna-1, zabawa oczepinowa-1" size="1">
+        <node name="gorące krzesła-1" size="0"/>
+      </node>
+      <node name="gra w butelkę-1, butelka-3" size="0"/>
+      <node name="karaoke-1" size="0"/>
+      <node name="igraszka słowna-1, gra słów-2" size="2">
+        <node name="kalambur-2" size="0"/>
+        <node name="anagram-1" size="0"/>
+      </node>
+      <node name="salonowiec-1" size="0"/>
+      <node name="zabawa dziecięca-1" size="24" abstract="true">
+        <node name="głupi jaś-2" size="0"/>
+        <node name="walka na poduszki-1" size="0"/>
+        <node name="zielone-2, gra w zielone-1" size="0"/>
+        <node name="kraje-1" size="0"/>
+        <node name="skakanie w linkę-1" size="1">
+          <node name="double Dutch-1" size="0"/>
+        </node>
+        <node name="skakanie na skakance-1" size="0"/>
+        <node name="chowany-1, chowaniec-1, chowanka-1" size="0"/>
+        <node name="kocia kołyska-1" size="0"/>
+        <node name="oszukaniec-2" size="0"/>
+        <node name="koło-9, kółko-2" size="0"/>
+        <node name="łapki-1" size="0"/>
+        <node name="kipi-kasza-1, kipi kasza-1" size="0"/>
+        <node name="klasy-1, gra w klasy-1" size="0"/>
+        <node name="dokazywanie-2, figle-1, psoty-1, swawola-2, harce-2" size="0"/>
+        <node name="pomidor-3" size="0"/>
+        <node name="kółko graniaste-1" size="0"/>
+        <node name="głuchy telefon-1" size="0"/>
+        <node name="ciuciubabka-2, ślepa babka-1" size="0"/>
+        <node name="wyliczanka-2" size="0"/>
+        <node name="czarny lud-1" size="0"/>
+        <node name="berek-1, ganiany-1, goniany-1, gra w berka-1" size="2"/>
+      </node>
+      <node name="użycie-6" size="0"/>
+      <node name="gra-1" size="203">
+        <node name="gra nieskończona-1" size="0"/>
+        <node name="gra liczbowa-1" size="0"/>
+        <node name="chuba-1" size="0"/>
+        <node name="mankala-1" size="0"/>
+        <node name="diabolo-1" size="0"/>
+        <node name="ciupy-1, hacle-1, hacele-1" size="0"/>
+        <node name="pikuty-1" size="0"/>
+        <node name="gra logiczna-1" size="1">
+          <node name="samotnik-3, zakonniczka-2" size="0"/>
+        </node>
+        <node name="gra losowa-1" size="19">
+          <node name="gra hazardowa-1" size="10">
+            <node name="perskie oczko-2" size="0"/>
+            <node name="ferbel-1" size="0"/>
+            <node name="stukułka-1" size="0"/>
+            <node name="rosyjska ruletka-1" size="0"/>
+            <node name="bakarat-2, bakar-1" size="0"/>
+            <node name="totalizator-1" size="1">
+              <node name="toto-lotek-1, totolotek-1, totek-1" size="0"/>
+            </node>
+            <node name="ruletka-1" size="0"/>
+            <node name="poker-1" size="1"/>
+          </node>
+          <node name="loteria-1" size="7">
+            <node name="loteryjka-1" size="2"/>
+            <node name="zdrapka-1" size="0"/>
+            <node name="wideoloteria-1" size="0"/>
+            <node name="loteria fantowa-1, tombola-1" size="0"/>
+            <node name="bingo-1" size="0"/>
+          </node>
+        </node>
+        <node name="odbijanka-1" size="0"/>
+        <node name="larp-1" size="0"/>
+        <node name="gra RPG-1, RPG-2" size="3">
+          <node name="drama-5" size="0"/>
+          <node name="gra RPG-2, RPG-1" size="1"/>
+        </node>
+        <node name="rzucanka-1" size="1">
+          <node name="rzucanka siatkarska-1" size="0"/>
+        </node>
+        <node name="gra podwórkowa-1" size="8" abstract="true">
+          <node name="gra w bule-1, bule-1, boule-1, petanka-1, petanque-1" size="0"/>
+          <node name="serso-2" size="0"/>
+          <node name="zośka-1" size="0"/>
+          <node name="klasy-1, gra w klasy-1" size="0"/>
+          <node name="klipa-1" size="0"/>
+          <node name="berek-1, ganiany-1, goniany-1, gra w berka-1" size="2">
+            <node name="krowa-8" size="0"/>
+            <node name="berek kucany-1, kucany-1" size="0"/>
+          </node>
+        </node>
+        <node name="gra towarzyska-1" size="97">
+          <node name="państwa-miasta-1" size="0"/>
+          <node name="mora-6" size="0"/>
+          <node name="okręty-1, statki-1" size="0"/>
+          <node name="lotto-1" size="0"/>
+          <node name="loteryjka-1" size="2">
+            <node name="memo-1" size="0"/>
+            <node name="Piotruś-1, Czarny Piotruś-1" size="0"/>
+          </node>
+          <node name="gra planszowa-2, planszówka-2" size="26">
+            <node name="halma-1" size="0"/>
+            <node name="węże i drabiny-1" size="0"/>
+            <node name="monopol-5" size="0"/>
+            <node name="chińczyk-3" size="0"/>
+            <node name="nim-3" size="0"/>
+            <node name="pachisi-1" size="0"/>
+            <node name="trylma-1" size="0"/>
+            <node name="wari-1" size="0"/>
+            <node name="tryktrak-1" size="0"/>
+            <node name="młynek-2" size="0"/>
+            <node name="go-1" size="0"/>
+            <node name="warcaby-1" size="1">
+              <node name="wybijanka-1" size="0"/>
+            </node>
+            <node name="szachy-1, królewska gra-1" size="12">
+              <node name="szachy błyskawiczne-1, blitz-1" size="0"/>
+              <node name="szachy szybkie-1, szachy aktywne-1" size="0"/>
+              <node name="problemistyka-1" size="0"/>
+              <node name="antyszachy-1" size="0"/>
+              <node name="szachy losowe-1, szachy Fischera-1, szachy 960-1" size="0"/>
+              <node name="szachy trzyosobowe-1" size="0"/>
+              <node name="szachy czteroosobowe-1" size="0"/>
+              <node name="żywe szachy-1" size="0"/>
+              <node name="szachy korespondencyjne-1" size="0"/>
+              <node name="szachy heksagonalne-1" size="1">
+                <node name="szachy heksagonalne Glińskiego-1, heksagonalne szachy polskie-1" size="0"/>
+              </node>
+              <node name="shōgi-1" size="0"/>
+            </node>
+          </node>
+          <node name="pchełki-1" size="0"/>
+          <node name="bierki-1, gra w bierki-1" size="0"/>
+          <node name="gra słowna-1" size="1" abstract="true">
+            <node name="scrabble-1" size="0"/>
+          </node>
+          <node name="madżong-1, mahjong-1, mah jong-1, mahjongg-1" size="0"/>
+          <node name="kółko i krzyżyk-1, gra w kółko i krzyżyk-1" size="0"/>
+          <node name="gra w kości-1" size="0"/>
+          <node name="bingo-1" size="0"/>
+          <node name="domino-1" size="4">
+            <node name="sewastopol-1" size="0"/>
+            <node name="bergen-1" size="0"/>
+            <node name="muggins-1" size="0"/>
+            <node name="matador-1" size="0"/>
+          </node>
+          <node name="gra w karty-1, karty-1, gra karciana-1" size="50">
+            <node name="sześćdziesiąt sześć-1" size="0"/>
+            <node name="tysiąc-4" size="0"/>
+            <node name="karciane domino-1" size="0"/>
+            <node name="rus-2" size="0"/>
+            <node name="ramsz-1" size="0"/>
+            <node name="ferbel-1" size="0"/>
+            <node name="drużbart-1" size="0"/>
+            <node name="zechcyk-1" size="0"/>
+            <node name="panfil-1, pamfil-1" size="0"/>
+            <node name="lombr-1" size="0"/>
+            <node name="szust-3" size="0"/>
+            <node name="chapanka-1" size="0"/>
+            <node name="stukułka-1" size="0"/>
+            <node name="mariasz-2" size="0"/>
+            <node name="dupa biskupa-1" size="0"/>
+            <node name="kuku-1" size="0"/>
+            <node name="kent-1" size="0"/>
+            <node name="pan-10" size="0"/>
+            <node name="hanafuda-1" size="2">
+              <node name="koi-koi-1" size="0"/>
+              <node name="poka-1" size="0"/>
+            </node>
+            <node name="makao-1" size="0"/>
+            <node name="remik-1, remibrydż-1, remi-1, żolik-1" size="0"/>
+            <node name="kanasta-1" size="0"/>
+            <node name="bakarat-2, bakar-1" size="0"/>
+            <node name="wojna-4, gra w wojnę-1" size="0"/>
+            <node name="Juker-1, Euker-1" size="0"/>
+            <node name="trzy karty-1" size="0"/>
+            <node name="Piotruś-1, Czarny Piotruś-1" size="0"/>
+            <node name="garibaldka-1" size="0"/>
+            <node name="kierki-1" size="0"/>
+            <node name="tysiąc-3" size="0"/>
+            <node name="bezik-1" size="0"/>
+            <node name="oszukaniec-2" size="0"/>
+            <node name="dureń-2" size="0"/>
+            <node name="pikieta-2" size="1">
+              <node name="rumel-1" size="0"/>
+            </node>
+            <node name="preferans-1" size="0"/>
+            <node name="labet-1" size="0"/>
+            <node name="wist-1, wist klasyczny-1" size="0"/>
+            <node name="wint-1" size="0"/>
+            <node name="tarot-2, tarok-1" size="0"/>
+            <node name="skat-1" size="0"/>
+            <node name="pasjans-1" size="0"/>
+            <node name="oczko-6, dwadzieścia jeden-1" size="1">
+              <node name="blackjack-1" size="0"/>
+            </node>
+            <node name="poker-1" size="1">
+              <node name="poker rozbierany-1, nagi poker-1" size="0"/>
+            </node>
+            <node name="brydż-1, bridż-1" size="1">
+              <node name="brydż sportowy-1" size="0"/>
+            </node>
+          </node>
+        </node>
+        <node name="rzutki-1, lotki-1, strzałki-1, gra w lotki-1, gra w rzutki-1, gra w strzałki-1, darty-1, dart-1" size="0"/>
+        <node name="paintball-1" size="1">
+          <node name="speedball-1" size="0"/>
+        </node>
+        <node name="łapki-1" size="0"/>
+        <node name="cymbergaj-1" size="0"/>
+        <node name="gra drużynowa-1, gra zespołowa-1" size="39" abstract="true">
+          <node name="siatkonoga-1" size="2">
+            <node name="footvolley-1" size="0"/>
+            <node name="futnet-1" size="0"/>
+          </node>
+          <node name="korfball-1" size="0"/>
+          <node name="hurling-1" size="0"/>
+          <node name="polo-1" size="0"/>
+          <node name="podchody-1" size="0"/>
+          <node name="lacrosse-1" size="0"/>
+          <node name="piłka-1, piłkarstwo-1" size="20">
+            <node name="piłka palantowa-1, palant-2" size="0"/>
+            <node name="zbijak-1, zbijany-1" size="0"/>
+            <node name="ulama-1" size="0"/>
+            <node name="piłka halowa-1, futsal-1" size="0"/>
+            <node name="piłka wodna-1, waterpolo-1" size="0"/>
+            <node name="dwa ognie-1" size="0"/>
+            <node name="hazena-1, jordanka-1, czeska piłka ręczna-1" size="0"/>
+            <node name="rugby-1" size="0"/>
+            <node name="futbol amerykański-1, football-1" size="0"/>
+            <node name="piłka ręczna-1, szczypiorniak-1, ręka-7" size="0"/>
+            <node name="piłka nożna-1, futbol-1, soccer-1, noga-3" size="4">
+              <node name="freestyle-5" size="0"/>
+              <node name="enerdowski futbol-1, NRD-owski futbol-1" size="0"/>
+              <node name="football profesjonalny-1" size="0"/>
+              <node name="halówka-1" size="0"/>
+            </node>
+            <node name="koszykówka-1, koszykarstwo-2, piłka koszykowa-1, kosz-10" size="2">
+              <node name="streetball-1, koszykówka uliczna-1" size="0"/>
+              <node name="euroliga-1" size="0"/>
+            </node>
+            <node name="siatkówka-1, siatkarstwo-1, piłka siatkowa-1, siatka-7" size="1">
+              <node name="siatkówka plażowa-1, plażówka-3" size="0"/>
+            </node>
+          </node>
+          <node name="pelota-1, pilota-1, jai-alai-1" size="0"/>
+          <node name="kwadrant-3" size="0"/>
+          <node name="baseball-1, bejsbol-2" size="0"/>
+          <node name="krykiet-1" size="0"/>
+          <node name="hokej-1" size="5">
+            <node name="hokej na rolkach-1" size="0"/>
+            <node name="unihokej-1, floorball-1" size="0"/>
+            <node name="hokej na lodzie-1, hokej-2" size="0"/>
+            <node name="hokej na trawie-1" size="0"/>
+            <node name="hokej rosyjski-1, bandy-1" size="0"/>
+          </node>
+        </node>
+        <node name="gra komputerowa-1" size="22" abstract="true">
+          <node name="czytanka-3" size="0"/>
+          <node name="remake-2" size="0"/>
+          <node name="symulator-2" size="1">
+            <node name="symulator lotu-1" size="0"/>
+          </node>
+          <node name="zręcznościówka-1, gra zręcznościowa-1" size="0"/>
+          <node name="sandbox-1" size="0"/>
+          <node name="skradanka-1" size="0"/>
+          <node name="strategia-3, strateg-2, gra strategiczna-1" size="2">
+            <node name="RTS-1, strategia czasu rzeczywistego-1" size="0"/>
+            <node name="turówka-2" size="0"/>
+          </node>
+          <node name="bijatyka-2, mordobicie-2, nawalanka-3" size="0"/>
+          <node name="strzelanina-3, strzelanka-1" size="1">
+            <node name="FPS-1" size="0"/>
+          </node>
+          <node name="przygodówka-1" size="1">
+            <node name="point and click-1" size="0"/>
+          </node>
+          <node name="platformówka-1" size="0"/>
+          <node name="gra RPG-2, RPG-1" size="1">
+            <node name="gra MMORPG-1, MMO-1" size="0"/>
+          </node>
+          <node name="gra sieciowa-1" size="1">
+            <node name="gra MMORPG-1, MMO-1" size="0"/>
+          </node>
+          <node name="ścigałka-1, wyścigi-1, wyścigówka-4, gra wyścigowa-1" size="1">
+            <node name="samochodówka-1" size="0"/>
+          </node>
+          <node name="film interaktywny-1" size="0"/>
+        </node>
+        <node name="kręgle-1, gra w kręgle-1" size="0"/>
+        <node name="golf-2" size="0"/>
+      </node>
+    </node>
+    <node name="impreza-1, feta-1" size="231">
+      <node name="impreza turystyczna-1" size="0"/>
+      <node name="wyścigi-2" size="0"/>
+      <node name="promocja-7" size="0"/>
+      <node name="przegląd-2" size="1">
+        <node name="gitariada-1" size="0"/>
+      </node>
+      <node name="półmetek-2, połowinki-1" size="0"/>
+      <node name="turniej-1" size="1"/>
+      <node name="ognisko-4" size="0"/>
+      <node name="tombola-2" size="0"/>
+      <node name="biba-1, bania-6, ochlaj-1" size="0"/>
+      <node name="lajkonik-1" size="0"/>
+      <node name="kulig-1" size="0"/>
+      <node name="recital-1" size="1"/>
+      <node name="wernisaż-1" size="0"/>
+      <node name="wystawa-1, ekspozycja-1" size="2">
+        <node name="ludzkie zoo-1" size="0"/>
+        <node name="targi-1" size="0"/>
+      </node>
+      <node name="pokaz-1, prezentacja-3" size="54">
+        <node name="striptiz-1" size="0"/>
+        <node name="demonstracja-4" size="0"/>
+        <node name="rewia mody-1, rewia-2" size="0"/>
+        <node name="projekcja-1" size="1">
+          <node name="kolaudacja-1" size="0"/>
+        </node>
+        <node name="przedstawienie-7, sztuka-4, widowisko-1, inscenizacja-1, spektakl-1" size="45">
+          <node name="spektakl muzyczny-1" size="0"/>
+          <node name="melodramat-5" size="0"/>
+          <node name="teatrzyk-3" size="1">
+            <node name="teatrzyk cieni-1" size="0"/>
+          </node>
+          <node name="katakali-1, kathakali-1" size="0"/>
+          <node name="igrce-1" size="0"/>
+          <node name="divertissement-1" size="0"/>
+          <node name="herody-1" size="0"/>
+          <node name="forma teatralna-1" size="1">
+            <node name="bulwarówka-3, komedia bulwarowa-1" size="0"/>
+          </node>
+          <node name="teatr-2" size="6">
+            <node name="teatr lalek-3" size="1">
+              <node name="teatr cieni-1" size="0"/>
+            </node>
+            <node name="teatr uliczny-1" size="0"/>
+            <node name="teatr telewizji-1" size="0"/>
+            <node name="teatr muzyczny-4" size="0"/>
+            <node name="teatr radiowy-1" size="0"/>
+          </node>
+          <node name="show-1" size="0"/>
+          <node name="performance-1, performans-1" size="1">
+            <node name="environment-1" size="0"/>
+          </node>
+          <node name="faktomontaż-1" size="0"/>
+          <node name="music-hall-1" size="0"/>
+          <node name="happening-1" size="1">
+            <node name="streaking-1" size="0"/>
+          </node>
+          <node name="feeria-2" size="0"/>
+          <node name="benefis-1" size="0"/>
+          <node name="korrida-1, corrida-1, tauromachia-1" size="0"/>
+          <node name="przekładaniec-2, montaż-2" size="1">
+            <node name="kabareton-1" size="0"/>
+          </node>
+          <node name="burleska-4" size="0"/>
+          <node name="cyrk-1" size="0"/>
+          <node name="szopka-2, jasełka-1" size="0"/>
+          <node name="pantomima-1, mimodram-1, mim-2" size="1">
+            <node name="arlekinada-2" size="0"/>
+          </node>
+          <node name="musical-2" size="0"/>
+          <node name="popołudniówka-2" size="0"/>
+          <node name="rewia-1" size="0"/>
+          <node name="balet-2, spektakl baletowy-1" size="0"/>
+          <node name="operetka-2" size="0"/>
+          <node name="premiera-1" size="2">
+            <node name="prawykonanie-1" size="0"/>
+            <node name="prapremiera-1" size="0"/>
+          </node>
+          <node name="opera-3" size="0"/>
+          <node name="kabaret-1" size="2">
+            <node name="kabareton-1" size="0"/>
+            <node name="szopka-3" size="0"/>
+          </node>
+        </node>
+        <node name="seans-1" size="2">
+          <node name="kino-3" size="0"/>
+          <node name="seans spirytystyczny-1" size="0"/>
+        </node>
+      </node>
+      <node name="piknik-1" size="2">
+        <node name="lipcówka-3" size="0"/>
+        <node name="majówka-1" size="0"/>
+      </node>
+      <node name="festyn-1" size="2">
+        <node name="fiesta-3" size="0"/>
+        <node name="corso-1, korso-1" size="0"/>
+      </node>
+      <node name="maraton-2" size="0"/>
+      <node name="zawody-2" size="64">
+        <node name="puchar-4" size="0"/>
+        <node name="spartakiada-1" size="0"/>
+        <node name="agonistyka-1" size="0"/>
+        <node name="paraolimpiada-1, igrzyska paraolimpijskie-1" size="0"/>
+        <node name="mistrzostwa-1, czempionat-1, championat-1" size="1">
+          <node name="mundial-1" size="0"/>
+        </node>
+        <node name="trójmecz-1" size="0"/>
+        <node name="czwórmecz-1" size="0"/>
+        <node name="uniwersjada-1" size="0"/>
+        <node name="wyścig-1" size="39"/>
+        <node name="mityng-1" size="0"/>
+        <node name="memoriał-1" size="0"/>
+        <node name="turniej-2" size="4">
+          <node name="Turniej Gwiazdkowy-1" size="0"/>
+          <node name="Wielki Szlem-4" size="0"/>
+          <node name="miniturniej-1" size="0"/>
+          <node name="play off-1, play-off-1" size="0"/>
+        </node>
+        <node name="igrzyska-1, igrzysko-1" size="7"/>
+      </node>
+      <node name="zabawa-1, tańce-1, potańcówka-1, balety-1" size="14">
+        <node name="comber-4" size="0"/>
+        <node name="kinderbal-1" size="0"/>
+        <node name="otrzęsiny-1, frycówka-1" size="0"/>
+        <node name="szaleństwo-4" size="0"/>
+        <node name="prywatka-1" size="0"/>
+        <node name="dyskoteka-2, disco-1" size="0"/>
+        <node name="dansing-1, dancing-1" size="0"/>
+        <node name="wieczorek-1" size="1"/>
+        <node name="studniówka-1" size="0"/>
+        <node name="bal-1" size="3">
+          <node name="asambl-1" size="0"/>
+          <node name="bal przebierańców-1, kostiumówka-1" size="0"/>
+          <node name="maskarada-1" size="0"/>
+        </node>
+      </node>
+      <node name="występ-1, produkcja-5" size="16">
+        <node name="solo-1" size="0"/>
+        <node name="intermedium-1" size="0"/>
+        <node name="improwizacja-3" size="1">
+          <node name="jam session-1, jam-session-1" size="0"/>
+        </node>
+        <node name="wystąpienie-10, przemowa-2" size="5">
+          <node name="deklamacja-1, recytacja-1" size="4">
+            <node name="norito-1" size="0"/>
+            <node name="chór-6" size="0"/>
+            <node name="melopeja-1" size="0"/>
+            <node name="melorecytacja-1, melodeklamacja-1" size="0"/>
+          </node>
+        </node>
+        <node name="koncert-1" size="4">
+          <node name="benefis-1" size="0"/>
+          <node name="jazz-jamboree-1" size="0"/>
+          <node name="recital-1" size="1">
+            <node name="minirecital-1" size="0"/>
+          </node>
+        </node>
+        <node name="debiut-2" size="0"/>
+      </node>
+      <node name="przyjęcie-13" size="48"/>
+      <node name="sylwester-1, sylwek-1" size="0"/>
+      <node name="konkurs-1" size="5">
+        <node name="olimpiada-2" size="0"/>
+        <node name="telekonkurs-1" size="0"/>
+        <node name="teleturniej-1" size="0"/>
+        <node name="quiz-1, kwiz-1" size="0"/>
+        <node name="plebiscyt-2" size="0"/>
+      </node>
+      <node name="festiwal-1" size="8">
+        <node name="igrzyska-1, igrzysko-1" size="7">
+          <node name="igrzyska greckie-1" size="2">
+            <node name="igrzyska istmijskie-1" size="0"/>
+            <node name="starożytne igrzyska olimpijskie-1, igrzyska olimpijskie-2, olimpiada-4" size="0"/>
+          </node>
+          <node name="parafiada-1" size="0"/>
+          <node name="juwenalia-2" size="0"/>
+          <node name="olimpiada-1, igrzyska olimpijskie-1, nowożytne igrzyska olimpijskie-1" size="1">
+            <node name="olimpiada zimowa-1" size="0"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node name="konflikt-1, konfrontacja-2" size="35">
+    <node name="topór wojenny-1" size="0"/>
+    <node name="awantura-1, brewerie-1, burda-1, burza-5, draka-1, Sodoma i Gomora-1" size="2"/>
+    <node name="zatarg-1, scysja-1, nieporozumienie-2, kwasy-1, spięcie-4, tarcia-1, zadrażnienie-1" size="0"/>
+    <node name="spór-1, dyferencja-2" size="14">
+      <node name="spór kompetencyjny-1" size="0"/>
+      <node name="przetarg-3" size="0"/>
+      <node name="pojedynek-4" size="0"/>
+      <node name="logomachia-1, łapanie za słówka-1" size="0"/>
+      <node name="walka-5, wojna-2, batalia-2, bój-2" size="3">
+        <node name="gladiatorstwo-1" size="0"/>
+        <node name="atak-6" size="0"/>
+        <node name="krucjata-2" size="0"/>
+      </node>
+      <node name="kłótnia-1, waśń-1, niesnaski-1, swary-1" size="5">
+        <node name="ścięcie-12" size="0"/>
+        <node name="niesnaska-1" size="0"/>
+        <node name="scena-7" size="0"/>
+        <node name="pyskówka-2" size="0"/>
+        <node name="sprzeczka-1, utarczka-2, zwada-1, potyczka-2, starcie-7" size="0"/>
+      </node>
+    </node>
+    <node name="wojna na górze-1" size="0"/>
+    <node name="przeprawa-1" size="0"/>
+    <node name="wojna-1" size="12"/>
+  </node>
+  <node name="scena-1, scenka-1" size="1">
+    <node name="pantomima-3" size="0"/>
+  </node>
+  <node name="antecedens-1, antecedencja-1" size="0"/>
+  <node name="wstrząs dziejowy-1, burza-2, huragan-2, nawałnica-2, pożar-1, pożoga-2, wicher-2, zawierucha-2, burza dziejowa-1" size="3">
+    <node name="pomór-2" size="0"/>
+    <node name="rewolucja-1" size="1"/>
+  </node>
+  <node name="plaga-1" size="11">
+    <node name="epidemia-1, zaraza-2" size="10">
+      <node name="enzootia-1" size="0"/>
+      <node name="mór-1" size="1">
+        <node name="mór-3, zaraza morowa-1, czarna śmierć-1, morowe powietrze-1" size="0"/>
+      </node>
+      <node name="epifitia-1, epifitoza-1" size="0"/>
+      <node name="epizootia-1, pomór-3, zaraza-6, epizoocja-1" size="0"/>
+      <node name="pandemia-1" size="3">
+        <node name="czarna śmierć-2" size="0"/>
+        <node name="grypa azjatycka-1" size="0"/>
+        <node name="hiszpanka-3" size="0"/>
+      </node>
+      <node name="endemia-1" size="0"/>
+    </node>
+  </node>
+  <node name="zdarzenie związane z religią-1" size="8" abstract="true">
+    <node name="agon-1" size="0"/>
+    <node name="paruzja-1" size="0"/>
+    <node name="wniebowzięcie-2" size="0"/>
+    <node name="wniebowstąpienie-1" size="1">
+      <node name="miradż-1" size="0"/>
+    </node>
+    <node name="zmartwychwstanie-1" size="0"/>
+    <node name="wcielenie-4, inkarnacja-2" size="1">
+      <node name="kenoza-1" size="0"/>
+    </node>
+  </node>
+  <node name="zamieszki-1, rozruchy-1, ruchawka-1, wrzenie-7, tumult-2" size="1">
+    <node name="zadyma-1" size="0"/>
+  </node>
+  <node name="apokalipsa-4" size="18">
+    <node name="klęska żywiołowa-1, kataklizm-1" size="7"/>
+    <node name="zagłada-1, zatracenie-2, zatrata-2" size="9">
+      <node name="hekatomba-2" size="0"/>
+      <node name="mord-2, masakra-1, rzeź-1, rzeźnia-2, krwawa łaźnia-1, wyżynka-2" size="6">
+        <node name="rzeź niewiniątek-3" size="0"/>
+        <node name="pogrom-2, czystka-1" size="1"/>
+        <node name="egzekucja-1" size="0"/>
+        <node name="ludobójstwo-1, eksterminacja-1" size="1">
+          <node name="holocaust-1, szoah-1, Szoah-2, holokaust-1, zagłada-2, Zagłada-3" size="0"/>
+        </node>
+      </node>
+      <node name="samozagłada-1, samounicestwienie-1, samozniszczenie-1, autodestrukcja-1" size="0"/>
+    </node>
+  </node>
+  <node name="apokalipsa-2" size="0"/>
+  <node name="dekonspiracja-1, wsypa-1, wpadka-2" size="0"/>
+  <node name="zdarzenie oceniane negatywnie-1" size="152" abstract="true">
+    <node name="jatka-3" size="0"/>
+    <node name="kryminał-4" size="0"/>
+    <node name="satyra-3" size="0"/>
+    <node name="niepowodzenie-1, klapa-2, fiasko-1, klęska-3, katastrofa-1, koniec-5, obsuwa-1" size="98">
+      <node name="musztarda po obiedzie-1" size="0"/>
+      <node name="pudło-8" size="0"/>
+      <node name="antysztuka-2" size="0"/>
+      <node name="wpadka-1, wtopa-1" size="3">
+        <node name="plama-1" size="0"/>
+        <node name="potknięcie-2" size="1"/>
+      </node>
+      <node name="strata-1, utrata-1, szkoda-2, uszczerbek-1" size="83">
+        <node name="trójkąt Harbergera-1" size="0"/>
+        <node name="straty moralne-1" size="0"/>
+        <node name="dekulturacja-1" size="0"/>
+        <node name="zgar-1" size="0"/>
+        <node name="depersonalizacja-1" size="0"/>
+        <node name="przegrana-2" size="0"/>
+        <node name="frycowe-1, gapowe-1" size="0"/>
+        <node name="uszczerbek na zdrowiu-1" size="0"/>
+        <node name="krzywda-1, niesprawiedliwość-1" size="74">
+          <node name="nierówność-2" size="1">
+            <node name="nierówność społeczna-1" size="0"/>
+          </node>
+          <node name="wyzysk-1" size="6">
+            <node name="lichwa-2, lichwiarstwo-1" size="0"/>
+            <node name="eksploatacja-1" size="0"/>
+            <node name="pasożytnictwo-2" size="0"/>
+            <node name="zdzierstwo-1" size="0"/>
+            <node name="niewolnictwo-1, niewola-1" size="1">
+              <node name="encomienda-1" size="0"/>
+            </node>
+          </node>
+          <node name="nietolerancja-1, nietolerancyjność-1" size="23">
+            <node name="antyfeminizm-1" size="0"/>
+            <node name="ciemnogród-1" size="0"/>
+            <node name="antysemityzm-1, antyżydowskość-1, antyjudaizm-1, żydożerstwo-1" size="0"/>
+            <node name="ksenofobia-2" size="4">
+              <node name="brytofobia-1" size="0"/>
+              <node name="antyslawizm-1, slawofobia-1" size="0"/>
+              <node name="rusofobia-1" size="0"/>
+              <node name="germanofobia-1" size="0"/>
+            </node>
+            <node name="dyskryminacja-1" size="15">
+              <node name="audyzm-1" size="0"/>
+              <node name="atrakcjonizm-1, lookizm-1" size="0"/>
+              <node name="adultyzm-1" size="0"/>
+              <node name="transfobia-1, transuprzedzenia-1" size="1">
+                <node name="transmizogynia-1" size="0"/>
+              </node>
+              <node name="heterofobia-1" size="0"/>
+              <node name="ageizm-1" size="0"/>
+              <node name="handicapizm-1" size="0"/>
+              <node name="deprywacja polityczna-1" size="0"/>
+              <node name="seksizm-1" size="1">
+                <node name="lesbofobia-1" size="0"/>
+              </node>
+              <node name="numerus clausus-1" size="0"/>
+              <node name="szowinizm-1" size="0"/>
+              <node name="rasizm-1" size="1">
+                <node name="antyslawizm-1, slawofobia-1" size="0"/>
+              </node>
+            </node>
+          </node>
+          <node name="represja-1, ucisk-1, prześladowanie-2, terror-1" size="28">
+            <node name="bułgaryzacja-2" size="0"/>
+            <node name="persekucja-1" size="0"/>
+            <node name="junkierstwo-2" size="0"/>
+            <node name="bolszewizacja-2" size="0"/>
+            <node name="sekatura-1" size="0"/>
+            <node name="dragonada-2" size="0"/>
+            <node name="dragonada-1" size="0"/>
+            <node name="psychuszka-1" size="0"/>
+            <node name="ciemięstwo-1" size="0"/>
+            <node name="pogrom-2, czystka-1" size="1">
+              <node name="czystka etniczna-1" size="0"/>
+            </node>
+            <node name="szykana-1" size="1">
+              <node name="czystka-2" size="0"/>
+            </node>
+            <node name="szykany-1" size="3">
+              <node name="mobbing-1" size="0"/>
+              <node name="nagonka-1" size="1">
+                <node name="polowanie na czarownice-1" size="0"/>
+              </node>
+            </node>
+            <node name="przesiedlenie-2" size="0"/>
+            <node name="zsyłka-1" size="0"/>
+            <node name="wywózka-1" size="1">
+              <node name="branka-2" size="0"/>
+            </node>
+            <node name="wysiedlenie-2" size="1">
+              <node name="rugi-1" size="0"/>
+            </node>
+            <node name="wypędzenie-2" size="0"/>
+            <node name="rusyfikacja-2" size="0"/>
+            <node name="germanizacja-2" size="0"/>
+            <node name="obława-1" size="1">
+              <node name="łapanka-1" size="0"/>
+            </node>
+          </node>
+          <node name="obelga-1, zniewaga-1, obraza-1, policzek-2, znieważenie-2, afront-1, dotknięcie-6, dyshonor-1, ujma-1, poniżenie-3, dyzgust-3, epitet-3" size="11">
+            <node name="obraza majestatu-1" size="0"/>
+            <node name="środkowy palec-1" size="0"/>
+            <node name="ukąszenie heglowskie-1" size="0"/>
+            <node name="czynna zniewaga-1" size="0"/>
+            <node name="zwymyślanie-2" size="0"/>
+            <node name="wyzwisko-2" size="0"/>
+            <node name="profanacja-1, świętokradztwo-2" size="0"/>
+            <node name="zniesławienie-2" size="0"/>
+            <node name="szyderstwo-2" size="1">
+              <node name="persyflaż-2" size="0"/>
+            </node>
+            <node name="bluźnierstwo-2" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="porażka-1, przegrana-1, klęska-1" size="6">
+        <node name="powrót na tarczy-1" size="0"/>
+        <node name="pogrom-3" size="0"/>
+        <node name="powrót na tarczy-2" size="0"/>
+        <node name="plajta-1" size="0"/>
+        <node name="cięgi-1, baty-1, razy-1" size="0"/>
+        <node name="kompromitacja-1, blamaż-1, dyskredytacja-1, skompromitowanie-4, krewa-1" size="0"/>
+      </node>
+    </node>
+    <node name="makabreska-2" size="0"/>
+    <node name="pijatyka-1, opilstwo-2, libacja-1, wypitka-1, napitka-1" size="0"/>
+    <node name="szczyt szczytów-1, szczyt wszystkiego-1" size="0"/>
+    <node name="makabra-1" size="4">
+      <node name="horror-2, okropieństwo-2, koszmar-1, okropność-1, potworność-2, straszliwość-2, straszność-2" size="3">
+        <node name="piekło-2" size="0"/>
+        <node name="pandemonium-1" size="1">
+          <node name="sądny dzień-3, dzień gniewu-4" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="wypadek-1" size="15">
+      <node name="wypadek jądrowy-1" size="0"/>
+      <node name="katastrofa budowlana-1" size="0"/>
+      <node name="wypadek komunikacyjny-1" size="1">
+        <node name="wypadek drogowy-1" size="0"/>
+      </node>
+      <node name="zakrztuszenie-1, zachłyśnięcie-1, aspiracja-3" size="0"/>
+      <node name="wykolejenie-2" size="0"/>
+      <node name="kapotaż-1" size="0"/>
+      <node name="tąpnięcie-1" size="0"/>
+      <node name="zawał-2" size="1">
+        <node name="obwał-1" size="0"/>
+      </node>
+      <node name="karambol-1" size="0"/>
+      <node name="kolizja-2" size="1">
+        <node name="kolizja drogowa-1" size="0"/>
+      </node>
+      <node name="stłuczka-1, zderzenie-2, kraksa-1" size="1">
+        <node name="czołówka-9, zderzenie czołowe-1" size="0"/>
+      </node>
+    </node>
+    <node name="nieszczęście-1, tragedia-1, dramat-3, cios-2, zguba-1" size="25">
+      <node name="kop-3" size="0"/>
+      <node name="katastrofa-2" size="3">
+        <node name="katastrofa naturalna-1" size="1">
+          <node name="katastrofa kosmiczna-1" size="0"/>
+        </node>
+        <node name="katastrofa ekologiczna-1" size="0"/>
+      </node>
+      <node name="klęska-2" size="12">
+        <node name="głód-2" size="0"/>
+        <node name="klęska urodzaju-1" size="0"/>
+        <node name="klęska żywiołowa-1, kataklizm-1" size="7">
+          <node name="trzęsienie ziemi-1" size="0"/>
+          <node name="susza-1, posucha-1" size="0"/>
+          <node name="powódź-1, wylew-2" size="2">
+            <node name="potop-2" size="0"/>
+            <node name="potop-1" size="0"/>
+          </node>
+          <node name="nawałnica-1, oberwanie chmury-1" size="0"/>
+          <node name="tsunami-1" size="0"/>
+        </node>
+        <node name="pożar-3, ogień-1" size="1">
+          <node name="pożoga-1" size="0"/>
+        </node>
+      </node>
+      <node name="cios w plecy-1" size="0"/>
+      <node name="lawina-1" size="5">
+        <node name="lawina deskowa-1" size="0"/>
+        <node name="lawina piroklastyczna-1" size="0"/>
+        <node name="lawina gruzowa-1" size="0"/>
+        <node name="lahar-1, spływ popiołowy-1" size="0"/>
+        <node name="pyłówka-1, lawina pyłowa-1" size="0"/>
+      </node>
+    </node>
+  </node>
+  <node name="zrządzenie-1, dopust-1, wyrok-1" size="1">
+    <node name="dopust boży-1" size="0"/>
+  </node>
+  <node name="powrót-2" size="12">
+    <node name="restauracja-3" size="0"/>
+    <node name="repolonizacja-2" size="0"/>
+    <node name="remilitaryzacja-1" size="0"/>
+    <node name="remilitaryzacja-2" size="0"/>
+    <node name="regres-1, regresja-3" size="1">
+      <node name="infantylizacja-2" size="0"/>
+    </node>
+    <node name="nawrót-1" size="5">
+      <node name="retrogresja-1" size="0"/>
+      <node name="recydywa-1" size="0"/>
+      <node name="nawrót choroby-1, wznowa-1" size="2">
+        <node name="recydywa-3" size="0"/>
+        <node name="rzut-6" size="0"/>
+      </node>
+    </node>
+  </node>
+  <node name="heca-1, cyrk-4, jaja-1, jajca-1" size="5">
+    <node name="bonanza-1" size="1">
+      <node name="przeboje-1, hocki-klocki-1" size="0"/>
+    </node>
+    <node name="kino-4, komedia-3" size="0"/>
+    <node name="przedstawienie-8, widowisko-2, opera-4" size="1">
+      <node name="dziwowisko-1" size="0"/>
+    </node>
+  </node>
+  <node name="wyprowadzka-1" size="0"/>
+  <node name="perypetia-2" size="0"/>
+  <node name="zaśnięcie-2" size="0"/>
+  <node name="wyświęcenie-3" size="0"/>
+  <node name="przebudzenie-2" size="0"/>
+  <node name="przewiezienie-2" size="0"/>
+  <node name="pogodzenie-2" size="0"/>
+  <node name="zaistnienie-2" size="0"/>
+  <node name="nalot-2" size="2">
+    <node name="nalot falowy-1" size="0"/>
+    <node name="nalot dywanowy-1" size="0"/>
+  </node>
+  <node name="przeprowadzka-1, przenosiny-1" size="0"/>
+  <node name="precedens-1" size="0"/>
+  <node name="wyzwolenie-4" size="1">
+    <node name="samowyzwolenie-1" size="0"/>
+  </node>
+  <node name="podział-1, fragmentacja-1, segmentacja-1" size="42">
+    <node name="warstwowanie-2" size="0"/>
+    <node name="parkietaż Penrose'a-1" size="0"/>
+    <node name="cykl komórkowy-1" size="0"/>
+    <node name="rozbiór-3" size="0"/>
+    <node name="nadział-1" size="0"/>
+    <node name="trysekcja-1" size="1">
+      <node name="trysekcja kąta-1" size="0"/>
+    </node>
+    <node name="obediencja-3" size="0"/>
+    <node name="dekoncentracja-2" size="0"/>
+    <node name="partycjonowanie-1" size="0"/>
+    <node name="kantonizacja-1" size="0"/>
+    <node name="kariokineza-1" size="2">
+      <node name="mejoza-1, kariokineza redukcyjna-1" size="0"/>
+      <node name="mitoza-1, kariokineza somatyczna-1" size="0"/>
+    </node>
+    <node name="segregacja-1" size="2">
+      <node name="getto ławkowe-1" size="0"/>
+      <node name="seksowanie-1" size="0"/>
+    </node>
+    <node name="cytokineza-1" size="0"/>
+    <node name="dywersyfikacja-1" size="0"/>
+    <node name="delimitacja-1" size="0"/>
+    <node name="bifurkacja-2" size="0"/>
+    <node name="segmentacja-3, metameria-1" size="0"/>
+    <node name="regionizacja-1, regionalizacja-1" size="0"/>
+    <node name="rejonizacja-2" size="0"/>
+    <node name="trójpodział-1" size="0"/>
+    <node name="rozdział-3, dystrybucja-1, alokacja-1, repartycja-1" size="10">
+      <node name="alokacja pamięci-1" size="0"/>
+      <node name="subsydiowanie krzyżowe-1" size="0"/>
+      <node name="ogrzewanie-3" size="1">
+        <node name="centralne ogrzewanie-2, centralne-2, CO-3, c.o.-2" size="0"/>
+      </node>
+      <node name="proliferacja-3" size="0"/>
+      <node name="rozdzielnictwo-1" size="0"/>
+      <node name="rozdawnictwo-1" size="0"/>
+      <node name="redystrybucja-1" size="1">
+        <node name="redystrybucja dochodów-1" size="0"/>
+      </node>
+      <node name="kolportaż-1, kolporterstwo-1" size="0"/>
+    </node>
+    <node name="rozszczepienie-5" size="0"/>
+    <node name="rozpad-3" size="1">
+      <node name="bałkanizacja-1" size="0"/>
+    </node>
+    <node name="parcelacja-1" size="0"/>
+    <node name="decentralizacja-1" size="0"/>
+    <node name="rozbiór-1" size="0"/>
+  </node>
+  <node name="wycinka-1" size="4">
+    <node name="trzebież-1" size="2">
+      <node name="deforestacja-1, wylesienie-1" size="0"/>
+      <node name="wyrąb-1" size="0"/>
+    </node>
+    <node name="przecinka-2" size="0"/>
+  </node>
+  <node name="odjazd-1" size="0"/>
+  <node name="melodramat-3" size="0"/>
+  <node name="epizod-1" size="0"/>
+  <node name="rozłam-1, rozbrat-2, rozdział-4" size="4">
+    <node name="raskoł-1" size="0"/>
+    <node name="secesja-2" size="0"/>
+    <node name="rozbicie-12" size="0"/>
+    <node name="schizma-1, schyzma-1" size="0"/>
+  </node>
+  <node name="manewr-1, ruch-6" size="26">
+    <node name="demonstracja-5" size="0"/>
+    <node name="atak-1, natarcie-5, uderzenie-16" size="11">
+      <node name="ofensywa-1" size="0"/>
+      <node name="bombardowanie-4" size="0"/>
+      <node name="grupowe uderzenie jądrowe-1" size="0"/>
+      <node name="bariera jądrowa-1" size="0"/>
+      <node name="atak rakietowy-1" size="0"/>
+      <node name="szarża-1" size="0"/>
+      <node name="kontra-2, kontratak-1, kontrnatarcie-1, kontrofensywa-1, kontruderzenie-1, przeciwnatarcie-1, przeciwuderzenie-1" size="0"/>
+      <node name="wypad-2" size="0"/>
+      <node name="ostrzał-1, obstrzał-1, ogień-7" size="2">
+        <node name="ogień zaporowy-1" size="0"/>
+        <node name="ogień krzyżowy-1" size="0"/>
+      </node>
+    </node>
+    <node name="zaatakowanie-2, natarcie-1, najechanie-1, uderzenie-1, naparcie-1" size="8">
+      <node name="wejście-3" size="2">
+        <node name="wkroczenie-2" size="1">
+          <node name="wdarcie się-6" size="0"/>
+        </node>
+      </node>
+      <node name="starcie się-1" size="0"/>
+      <node name="zaczepienie-3" size="1">
+        <node name="zaczęcie-6, zadarcie-3" size="0"/>
+      </node>
+      <node name="zbombardowanie-1" size="0"/>
+      <node name="ostrzelanie-1, obstrzelanie-1" size="0"/>
+    </node>
+    <node name="obrona-1" size="0"/>
+    <node name="kontrmanewr-1" size="0"/>
+    <node name="odwrót-1, rejterada-1" size="0"/>
+    <node name="wymarsz-1, odmarsz-1" size="0"/>
+  </node>
+  <node name="śledztwo-1, dochodzenie-23, kwerenda-1" size="0"/>
+  <node name="zaginięcie-4" size="0"/>
+  <node name="powrót-1" size="2">
+    <node name="paruzja-1" size="0"/>
+    <node name="repatriacja-1, reemigracja-1" size="0"/>
+  </node>
+  <node name="kapitulacja-1" size="0"/>
+  <node name="przemarsz-1" size="11">
+    <node name="capstrzyk-1" size="0"/>
+    <node name="procesja-1" size="0"/>
+    <node name="pochód-1" size="6">
+      <node name="kontrpochód-1" size="0"/>
+      <node name="żakinada-2" size="0"/>
+      <node name="corso-1, korso-1" size="0"/>
+      <node name="marsz-2" size="2"/>
+    </node>
+    <node name="defilada-1, parada-1" size="1"/>
+  </node>
+  <node name="strzelanina-1" size="0"/>
+  <node name="włamanie-1" size="0"/>
+  <node name="bunt-2, rewolta-1" size="15">
+    <node name="reakcja pogańska-1" size="0"/>
+    <node name="okupacja-2" size="0"/>
+    <node name="kontrrewolucja-1" size="0"/>
+    <node name="rabacja-1" size="0"/>
+    <node name="przewrót-1" size="1">
+      <node name="przewrót pałacowy-1" size="0"/>
+    </node>
+    <node name="rokosz-1" size="0"/>
+    <node name="strajk-1" size="4">
+      <node name="strajk ostrzegawczy-1" size="0"/>
+      <node name="strajk włoski-1" size="0"/>
+      <node name="strajk głodowy-1, głodówka-1, głodowanie-2" size="0"/>
+      <node name="strajk okupacyjny-1" size="0"/>
+    </node>
+    <node name="rebelia-1" size="0"/>
+    <node name="rewolucja-1" size="1"/>
+  </node>
+  <node name="wendeta-1, wróżda-1, vendetta-1" size="0"/>
+  <node name="kradzież-2" size="0"/>
+  <node name="zamiana-2, substytucja-3, wymiana-4" size="11">
+    <node name="transpozycja-5" size="0"/>
+    <node name="kontrafaktura-1" size="0"/>
+    <node name="immoblizacja-1" size="0"/>
+    <node name="podmiana-1" size="0"/>
+    <node name="wymiana-5" size="0"/>
+    <node name="frymark-1" size="0"/>
+    <node name="wektoryzacja-1, trasowanie-1" size="0"/>
+    <node name="konsolidacja-2" size="0"/>
+    <node name="przebieranka-1" size="0"/>
+    <node name="przesiadka-1" size="0"/>
+    <node name="transfer-2" size="0"/>
+  </node>
+  <node name="likwidacja-1" size="22">
+    <node name="neutralizacja-2" size="3">
+      <node name="dezaktywacja-3" size="2">
+        <node name="dezaktywacja-1" size="1">
+          <node name="dekontaminacja-1" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="konfiskata-3" size="0"/>
+    <node name="ubierka-1" size="0"/>
+    <node name="samorozwiązanie-1" size="0"/>
+    <node name="denuklearyzacja-1, dezatomizacja-1" size="0"/>
+    <node name="dekartelizacja-1" size="0"/>
+    <node name="niwelacja-1" size="0"/>
+    <node name="samolikwidacja-1" size="0"/>
+    <node name="rozbrojenie-5" size="2">
+      <node name="demilitaryzacja-1" size="0"/>
+      <node name="demobilizacja-1" size="0"/>
+    </node>
+    <node name="rozbiórka-1, demontaż-1" size="1">
+      <node name="wyburzenie-2" size="0"/>
+    </node>
+    <node name="kasacja-2" size="0"/>
+    <node name="utylizacja-1" size="4">
+      <node name="recykling-1, recycling-1, recyrkulacja-1, recyklizacja-1" size="0"/>
+      <node name="odzysk-1" size="2">
+        <node name="rekuperacja-1" size="0"/>
+        <node name="regeneracja-1" size="0"/>
+      </node>
+    </node>
+  </node>
+  <node name="ewentualność-1, możliwość-2" size="11">
+    <node name="potencja-6" size="0"/>
+    <node name="ryzyko-2" size="1">
+      <node name="margines-1" size="0"/>
+    </node>
+    <node name="opcja-2" size="0"/>
+    <node name="wyjście-23" size="6">
+      <node name="rozwiązanie-8, odpowiedź-3" size="5">
+        <node name="hasło-7" size="0"/>
+        <node name="alternatywa-4" size="0"/>
+        <node name="furtka-2" size="1">
+          <node name="ucho igielne-3" size="0"/>
+        </node>
+        <node name="złoty środek-1" size="0"/>
+      </node>
+    </node>
+  </node>
+  <node name="sąd-4" size="13">
+    <node name="sąd szczegółowy-2" size="0"/>
+    <node name="rug-1, rugi-2" size="0"/>
+    <node name="sąd ostateczny-1" size="0"/>
+    <node name="posiedzenie niejawne-1" size="0"/>
+    <node name="samosąd-1" size="2">
+      <node name="dintojra-1" size="0"/>
+      <node name="lincz-1" size="0"/>
+    </node>
+    <node name="Sąd Boży-1, ordalia-1" size="3">
+      <node name="pojedynek sądowy-1" size="0"/>
+      <node name="próba żelaza-1" size="0"/>
+      <node name="próba wody-1" size="0"/>
+    </node>
+    <node name="rozprawa-3" size="1">
+      <node name="posiedzenie pojednawcze-1" size="0"/>
+    </node>
+  </node>
+  <node name="niespodzianka-1, zaskoczenie-4" size="10">
+    <node name="mina-6" size="0"/>
+    <node name="szoking-1, shocking-1" size="0"/>
+    <node name="sensacja-1" size="6">
+      <node name="skandal-1, afera-2, awantura-2, chryja-1, granda-2" size="5">
+        <node name="flejm-1" size="0"/>
+        <node name="afera rozporkowa-1" size="0"/>
+        <node name="afera koperkowa-1" size="0"/>
+        <node name="awantura arabska-1" size="0"/>
+        <node name="seksafera-1, seksskandal-1" size="0"/>
+      </node>
+    </node>
+    <node name="odkrycie-8" size="0"/>
+  </node>
+  <node name="fakt-1" size="847">
+    <node name="okoliczność łagodząca-1" size="0"/>
+    <node name="przesłanka-3, okoliczność faktyczna-1" size="0"/>
+    <node name="oznaka-1, objaw-2, symptom-2, przejaw-1, znak-3, wskazówka-1, uzewnętrznienie-2" size="836">
+      <node name="tarcie osierdziowe-1" size="0"/>
+      <node name="reakcja wyprostna-1" size="0"/>
+      <node name="krzew gorejący-1" size="0"/>
+      <node name="siniec-3, cień-9, podkowa-3" size="1"/>
+      <node name="herostratyzm-1" size="0"/>
+      <node name="hierofania-1" size="0"/>
+      <node name="oświadczenie woli-1" size="53">
+        <node name="czynność prawna-1, działanie prawne-1, czynność cywilnoprawna-1" size="51">
+          <node name="czynność pozorna-1" size="0"/>
+          <node name="czynność procesowa-1, czynność proceduralna-1" size="1">
+            <node name="czynność wykonawcza-1" size="0"/>
+          </node>
+          <node name="czynność gospodarcza-1, czynność handlowa-1" size="1">
+            <node name="czynność opodatkowana-1" size="0"/>
+          </node>
+          <node name="konwersja-10" size="0"/>
+          <node name="kognicja-1" size="0"/>
+          <node name="umorzenie-4" size="1">
+            <node name="abolicja-2" size="0"/>
+          </node>
+          <node name="derogacja-1" size="0"/>
+          <node name="przeniesienie praw-1" size="40">
+            <node name="alienacja-3" size="0"/>
+            <node name="darowizna-2" size="0"/>
+            <node name="dań-1" size="0"/>
+            <node name="sprzedaż-1, przedaż-1" size="33">
+              <node name="droga bezprzetargowa-1" size="0"/>
+              <node name="sprzedaż bezpośrednia-1" size="0"/>
+              <node name="licytacja-3" size="0"/>
+              <node name="submisja-1" size="0"/>
+              <node name="wyderek-1, wyderkaf-1, wyderka-1" size="0"/>
+              <node name="promocja-5" size="2">
+                <node name="happy hour-1" size="0"/>
+                <node name="gratis-1" size="0"/>
+              </node>
+              <node name="sprzedaż wiązana-1" size="0"/>
+              <node name="rozprzedaż-1" size="0"/>
+              <node name="preselekcja-1" size="0"/>
+              <node name="przedsprzedaż-1" size="0"/>
+              <node name="odsprzedaż-1, odprzedaż-1" size="0"/>
+              <node name="wyszynk-1" size="0"/>
+              <node name="symonia-1, świętokupstwo-1" size="0"/>
+              <node name="telemarketing-1" size="0"/>
+              <node name="modniarstwo-1" size="1">
+                <node name="kapelusznictwo-1" size="0"/>
+              </node>
+              <node name="zbyt-1" size="0"/>
+              <node name="wyprzedaż-1" size="0"/>
+              <node name="eksport-1" size="2">
+                <node name="dumping-1" size="0"/>
+                <node name="reeksport-1" size="0"/>
+              </node>
+              <node name="targ-1" size="3">
+                <node name="sochaczki-1" size="0"/>
+                <node name="kiermasz-1" size="0"/>
+                <node name="jarmark-1" size="0"/>
+              </node>
+              <node name="przetarg-1, przetarg ofertowy-2" size="5">
+                <node name="przetarg ograniczony-2" size="0"/>
+                <node name="przetarg nieograniczony-2" size="0"/>
+                <node name="aukcja-1" size="2">
+                  <node name="aukcja holenderska-1" size="0"/>
+                  <node name="aukcja internetowa-1" size="0"/>
+                </node>
+              </node>
+            </node>
+            <node name="cesja-1" size="2">
+              <node name="cesja należności-1" size="0"/>
+              <node name="abandon-1" size="0"/>
+            </node>
+          </node>
+        </node>
+        <node name="żyro-2, giro-1, indos-1" size="0"/>
+      </node>
+      <node name="wskaźnik-4" size="10">
+        <node name="wskaźnik uwarunkowania-1" size="0"/>
+        <node name="pozycja testowa-1" size="0"/>
+        <node name="wskaźnik cen-1" size="0"/>
+        <node name="wskaźnik racjonalizacji-1" size="0"/>
+        <node name="produktywność wieloczynnikowa-1" size="0"/>
+        <node name="miernik-1, probierz-2, wymiernik-1" size="1">
+          <node name="społeczna wydajność pracy-1" size="0"/>
+        </node>
+        <node name="selektor-4" size="0"/>
+        <node name="wykładnik-1, barometr-2" size="1">
+          <node name="papierek lakmusowy-2" size="0"/>
+        </node>
+      </node>
+      <node name="zwiastun-2" size="1">
+        <node name="prodrom-1" size="0"/>
+      </node>
+      <node name="wizytówka-2" size="0"/>
+      <node name="wyznacznik-2" size="6">
+        <node name="niezmiennik-1, inwariant-1" size="5">
+          <node name="inwariant-3, niezmiennik-2" size="0"/>
+          <node name="inwariant-2" size="3">
+            <node name="fonem-1" size="2">
+              <node name="archifonem-1" size="0"/>
+              <node name="allofon-1, alofon-1" size="0"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node name="przebłysk-1, błysk-2" size="0"/>
+      <node name="znacznik-2" size="0"/>
+      <node name="dreszcz-1, drżączka-1, ciarki-1, dreszcze-1" size="0"/>
+      <node name="objaw chorobowy-1" size="624" abstract="true">
+        <node name="objaw oponowy-1" size="1" abstract="true">
+          <node name="objaw Brudzińskiego-1" size="0"/>
+        </node>
+        <node name="migotanie przedsionków-1, migotanie przedsionków serca-1" size="0"/>
+        <node name="rozkojarzenie-2" size="0"/>
+        <node name="triada Charcota-1" size="0"/>
+        <node name="ostry brzuch-1" size="0"/>
+        <node name="objaw zasłonowy-1" size="0"/>
+        <node name="skaza wysiękowa-1" size="0"/>
+        <node name="objaw konwersyjny-1" size="0"/>
+        <node name="prodrom-1" size="0"/>
+        <node name="bransoleta krzywicza-1" size="0"/>
+        <node name="różaniec krzywiczy-1" size="0"/>
+        <node name="katapleksja-1" size="0"/>
+        <node name="kalcyfikacja-1, zwapnienie-1" size="0"/>
+        <node name="parakeratoza-1" size="0"/>
+        <node name="poliglobulia-1" size="0"/>
+        <node name="teleangiektazja-1" size="0"/>
+        <node name="zespół pustego siodła-1" size="0"/>
+        <node name="hiperprolaktynemia-1" size="0"/>
+        <node name="retrakcja-2" size="0"/>
+        <node name="woloocze-1" size="0"/>
+        <node name="palilalia-1" size="0"/>
+        <node name="objaw Aschaffenburga-1" size="0"/>
+        <node name="agelia-1" size="0"/>
+        <node name="autyzm schizofreniczny-1" size="0"/>
+        <node name="leukokoria-1" size="0"/>
+        <node name="objaw Liepmanna-1" size="0"/>
+        <node name="enoftalmia-1" size="0"/>
+        <node name="anizokorioza-1" size="0"/>
+        <node name="mydriaza-1" size="0"/>
+        <node name="mioza-1" size="0"/>
+        <node name="łzotok-1" size="0"/>
+        <node name="perseweracja-2" size="0"/>
+        <node name="ambitendencja-1" size="0"/>
+        <node name="przykurcz-1" size="0"/>
+        <node name="artropatia neurogenna-1, stawy Charcota-1" size="0"/>
+        <node name="objaw Babińskiego-1" size="0"/>
+        <node name="hipotonia-2" size="1">
+          <node name="hipotonia mięśniowa-1" size="0"/>
+        </node>
+        <node name="orbitopatia tarczycowa-1, oftalmopatia tarczycowa-1, oftalmopatia naciekowo-obrzękowa-1, oftalmopatia Gravesa-Basedowa-1, wytrzeszcz złośliwy-1" size="0"/>
+        <node name="bakteriomocz-1, bakteriuria-1" size="0"/>
+        <node name="pasma Meesa-1, pasma Aldricha-Meesa-1" size="0"/>
+        <node name="nykturia-1" size="0"/>
+        <node name="dysuria-1, dyzuria-1" size="0"/>
+        <node name="objaw Köbnera-1" size="0"/>
+        <node name="objaw Nikolskiego-1" size="0"/>
+        <node name="czarcia miotła-1" size="0"/>
+        <node name="mozaika-3" size="0"/>
+        <node name="polifagia-1, hiperfagia-1" size="0"/>
+        <node name="echopraksja-1" size="0"/>
+        <node name="autoskopia-1" size="0"/>
+        <node name="ambisentencja-1" size="0"/>
+        <node name="schizofazja-1, sałata słowna-1" size="0"/>
+        <node name="anhedonia-1" size="0"/>
+        <node name="hirsutyzm-1" size="0"/>
+        <node name="martwiak-2" size="0"/>
+        <node name="szpotawość-1" size="0"/>
+        <node name="zawroty głowy-1" size="0"/>
+        <node name="polipowatość-1" size="0"/>
+        <node name="chloroza-1" size="0"/>
+        <node name="konfabulacja-2" size="0"/>
+        <node name="ginekomastia-1" size="0"/>
+        <node name="azoospermia-1" size="0"/>
+        <node name="sapka-1" size="0"/>
+        <node name="męczliwość-1" size="0"/>
+        <node name="kulawizna-1" size="0"/>
+        <node name="skaza krwotoczna-1, plamica-2, purpura-3" size="0"/>
+        <node name="małopłytkowość-1, trombocytopenia-1" size="0"/>
+        <node name="hemoglobinuria-1" size="0"/>
+        <node name="eozynofilia-1" size="0"/>
+        <node name="wodobrzusze-1, puchlina brzuszna-1" size="0"/>
+        <node name="abulia-1, hipobulia-1" size="0"/>
+        <node name="aura-3" size="0"/>
+        <node name="koprolalia-1" size="0"/>
+        <node name="irradiacja-1" size="0"/>
+        <node name="limfocytoza-1" size="0"/>
+        <node name="wielomocz-1, poliuria-1" size="0"/>
+        <node name="częstomocz-1, polakisuria-1" size="0"/>
+        <node name="skąpomocz-1, oliguria-1" size="0"/>
+        <node name="bezmocz-1, anuria-1" size="0"/>
+        <node name="toczeń-2" size="0"/>
+        <node name="dystonia-1" size="0"/>
+        <node name="ropomocz-1" size="1">
+          <node name="ropomocz jałowy-1" size="0"/>
+        </node>
+        <node name="mdłości-1, nudności-1" size="0"/>
+        <node name="zmiana-4, zmiana chorobowa-1" size="286">
+          <node name="sklerotyzacja-1" size="0"/>
+          <node name="kurze łapki-1" size="0"/>
+          <node name="myszka stawowa-1" size="0"/>
+          <node name="depigmentacja-1" size="0"/>
+          <node name="rozstępy-1" size="0"/>
+          <node name="zwłóknienie-1" size="2">
+            <node name="zwłóknienie klatki piersiowej-1" size="0"/>
+            <node name="mukowiscydoza-1, zwłóknienie torbielowate-1" size="0"/>
+          </node>
+          <node name="ropień-1, absces-1" size="1">
+            <node name="jęczmień-3" size="0"/>
+          </node>
+          <node name="leukoplakia-1, rogowacenie białe-1" size="0"/>
+          <node name="metaplazja-1, przetwarzanie-3" size="0"/>
+          <node name="zmiana morfologiczna-1" size="26">
+            <node name="zmiana patologiczna-1" size="25">
+              <node name="artropatia neurogenna-1, stawy Charcota-1" size="0"/>
+              <node name="róg skórny-1" size="0"/>
+              <node name="odmrozina-1" size="0"/>
+              <node name="zmiana wsteczna-1" size="19">
+                <node name="zwyrodnienie-2" size="1"/>
+                <node name="martwica-1, nekroza-1" size="14">
+                  <node name="martwica skrzepowa-1" size="0"/>
+                  <node name="martwica serowata-1" size="0"/>
+                  <node name="martwica rozpływna-1" size="1">
+                    <node name="encefalomalacja-1, rozmiękanie mózgu-1" size="0"/>
+                  </node>
+                  <node name="jałowa martwica kości-1" size="7">
+                    <node name="choroba Blounta-1, piszczel szpotawa-1" size="0"/>
+                    <node name="oddzielająca martwica kostno-chrzęstna-1, choroba Königa-1" size="0"/>
+                    <node name="choroba Haglunda-1, choroba Haglunda-Severa-1, jałowa martwica guza piętowego-1" size="0"/>
+                    <node name="choroba Kienböcka-1" size="0"/>
+                    <node name="choroba Scheuermanna-1, młodzieńcza kifoza-1" size="0"/>
+                    <node name="choroba Osgooda-Schlattera-1" size="0"/>
+                    <node name="choroba Perthesa-1, osteochondroza młodzieńcza głowy kości udowej-1" size="0"/>
+                  </node>
+                  <node name="zgorzel-1, gangrena-1" size="1">
+                    <node name="zgorzel-2" size="0"/>
+                  </node>
+                </node>
+                <node name="atrofia-1, zanik-1, uwiąd-1, wiąd-1" size="1">
+                  <node name="wstecznictwo-1" size="0"/>
+                </node>
+              </node>
+              <node name="odleżyna-1" size="0"/>
+              <node name="odmrożenie-1" size="0"/>
+            </node>
+          </node>
+          <node name="zastój-4, zastoina-1" size="0"/>
+          <node name="dysplazja-1" size="0"/>
+          <node name="ganglion-1, torbiel galaretowata-1" size="0"/>
+          <node name="łuska-5" size="0"/>
+          <node name="gruzełek-1" size="0"/>
+          <node name="wyrośle-1, wyrośl-1" size="0"/>
+          <node name="złóg-1" size="7">
+            <node name="kamień-5" size="5">
+              <node name="kamień nerkowy-1" size="0"/>
+              <node name="kamień nosowy-1, rynolit-1" size="0"/>
+              <node name="kamień pępkowy-1" size="0"/>
+              <node name="kamień żółciowy-1" size="0"/>
+              <node name="kamień nazębny-1" size="0"/>
+            </node>
+            <node name="piasek moczowy-1" size="0"/>
+          </node>
+          <node name="ropniak-1" size="1">
+            <node name="czop-4" size="0"/>
+          </node>
+          <node name="wykwit-1" size="30">
+            <node name="bąbel pokrzywkowy-1" size="0"/>
+            <node name="wysypka-2, osutka-1" size="2">
+              <node name="angiokeratoma-1, wysypka kąpielówkowa-1" size="0"/>
+              <node name="jodzica-1" size="0"/>
+            </node>
+            <node name="wrzodzianka-1" size="0"/>
+            <node name="liszaj-1" size="0"/>
+            <node name="grudka-2" size="8">
+              <node name="brodawka-2, kurzajka-1" size="5">
+                <node name="brodawka przejściowa-1" size="0"/>
+                <node name="brodawka płaska-1, brodawka młodocianych-1" size="0"/>
+                <node name="brodawka stóp-1" size="0"/>
+                <node name="brodawka zwykła-1" size="0"/>
+                <node name="kłykcina-1, kłykcina kończysta-1, brodawka płciowa-1, brodawka weneryczna-1" size="0"/>
+              </node>
+              <node name="gradówka-1" size="0"/>
+              <node name="ziarniniak-1, granuloma-1" size="0"/>
+            </node>
+            <node name="guzek-1" size="1">
+              <node name="plamka Fordyce'a-1" size="0"/>
+            </node>
+            <node name="wągr-1, wągier-1, zaskórnik-1" size="0"/>
+            <node name="pęcherz-1, bąbel-1, bąbelek-2, pęcherzyk-2" size="6">
+              <node name="pęcherz żywiczny-1" size="0"/>
+              <node name="potówka-1" size="0"/>
+              <node name="opryszczka-1, skwarka-2, febra-1, zimno-2, opryszczka pospolita-1, opryszczka zwykła-1" size="3">
+                <node name="opryszczka narządów płciowych-1" size="0"/>
+                <node name="opryszczkowe zapalenie jamy ustnej-1" size="0"/>
+                <node name="opryszczka wargowa-1" size="0"/>
+              </node>
+            </node>
+            <node name="krosta-1, wyprysk-2, wyrzut-3" size="4">
+              <node name="pryszcz-1, syf-3" size="1">
+                <node name="zachciewajka-2" size="0"/>
+              </node>
+              <node name="karbunkuł-3, czyrak gromadny-1, czyrak mnogi-1" size="0"/>
+              <node name="pypeć-3" size="0"/>
+            </node>
+          </node>
+          <node name="przetoka-1, fistuła-1, anastomoza patologiczna-1" size="1">
+            <node name="przetoka tchawiczo-przełykowa-1" size="0"/>
+          </node>
+          <node name="zrost-2" size="4">
+            <node name="spondylodeza-1" size="0"/>
+            <node name="obliteracja-1" size="0"/>
+            <node name="rychłozrost-1" size="0"/>
+            <node name="syndaktylia-1" size="0"/>
+          </node>
+          <node name="tętniak-1, anewryzm-1" size="0"/>
+          <node name="stwardnienie-3, skostnienie-3, skostniałość-1" size="1">
+            <node name="zrogowacenie-2" size="0"/>
+          </node>
+          <node name="rumień-1" size="3">
+            <node name="rumień dłoni-1" size="0"/>
+            <node name="rumień trwały-1" size="0"/>
+            <node name="rumień wędrujący-1" size="0"/>
+          </node>
+          <node name="przebarwienie-1" size="6">
+            <node name="tatuaż amalgamatowy-1" size="0"/>
+            <node name="siniec-3, cień-9, podkowa-3" size="1">
+              <node name="wór-2" size="0"/>
+            </node>
+            <node name="ostuda-1, melanoderma-1, chloasma-1" size="0"/>
+            <node name="kręgi pod oczami-1, sińce pod oczami-1, cienie pod oczami-1" size="0"/>
+            <node name="rumieniec-2" size="0"/>
+          </node>
+          <node name="narośl-1" size="8">
+            <node name="ostroga piętowa-1" size="0"/>
+            <node name="dzikie mięso-1" size="0"/>
+            <node name="parch-3" size="0"/>
+            <node name="bulwka-1" size="0"/>
+            <node name="halluks-1, haluks-1, paluch koślawy-1" size="0"/>
+            <node name="polip-2" size="0"/>
+            <node name="galas-1, galasówka-2" size="1">
+              <node name="dębianka-2" size="0"/>
+            </node>
+          </node>
+          <node name="guz-1, tumor-1" size="106">
+            <node name="perlak-1, guz perlisty-1" size="0"/>
+            <node name="ziarniszczak-1" size="0"/>
+            <node name="guz neuroendokrynny przewodu pokarmowego-1, guz żołądkowo-jelitowo-trzustkowy-1" size="6"/>
+            <node name="guz chromochłonny-1, barwiak-1" size="0"/>
+            <node name="potworniak okolicy krzyżowo-guzicznej-1" size="0"/>
+            <node name="odpryskowiak-1, heterotopia-1" size="0"/>
+            <node name="hamartoblastoma-1" size="0"/>
+            <node name="hamartoma-1" size="3">
+              <node name="naczyniak jamisty ośrodkowego układu nerwowego-1" size="0"/>
+              <node name="mięśniak prążkowanokomórkowy-1" size="0"/>
+              <node name="hamartoma podwzgórza-1" size="0"/>
+            </node>
+            <node name="kilak-1" size="0"/>
+            <node name="polip-2" size="0"/>
+            <node name="nowotwór niezłośliwy-1, nowotwór łagodny-1, guz łagodny-1" size="40"/>
+            <node name="guz złośliwy-1, nowotwór złośliwy-1" size="45"/>
+          </node>
+          <node name="jagła-1" size="0"/>
+          <node name="odcisk-1, nagniotek-1, odgniotek-1" size="1">
+            <node name="modzel-1" size="0"/>
+          </node>
+          <node name="wole-1" size="0"/>
+          <node name="żylak-1" size="1">
+            <node name="hemoroid-1" size="0"/>
+          </node>
+          <node name="skrzep-1" size="0"/>
+          <node name="siniak-1, krwiak-1, wylew-3, siniec-2, wynaczynienie-1" size="2">
+            <node name="krwiak podpaznokciowy-1" size="0"/>
+            <node name="śliwa-3, limo-1" size="0"/>
+          </node>
+          <node name="wrzód-1" size="7">
+            <node name="szankier-1, wrzód weneryczny-1" size="2">
+              <node name="szankier twardy-1, wrzód twardy-1, wrzód Huntera-1, owrzodzenie pierwotne-1" size="0"/>
+              <node name="szankier miękki-1, wrzód miękki-1, szankroid-1" size="0"/>
+            </node>
+            <node name="wrzód trawienny-1" size="2">
+              <node name="wrzód żołądka-1" size="0"/>
+              <node name="wrzód dwunastnicy-1" size="0"/>
+            </node>
+            <node name="wrzód aftowy-1" size="0"/>
+          </node>
+          <node name="opuchlizna-1, obrzmienie-2, obrzęk-1" size="5">
+            <node name="guz Potta-1" size="0"/>
+            <node name="dymienica-1" size="0"/>
+            <node name="obrzęk uogólniony płodu-1" size="0"/>
+            <node name="fluksja-1" size="0"/>
+            <node name="słoniowacizna-1, elefantiaza-1, słoniowatość-3" size="0"/>
+          </node>
+          <node name="cysta-1, torbiel-1" size="6">
+            <node name="torbiel bąblowcowa-1" size="0"/>
+            <node name="żabka-10" size="0"/>
+            <node name="torbiel osierdzia-1" size="0"/>
+            <node name="torbiel Bakera-1, cysta Bakera-1, torbiel dołu podkolanowego-1" size="0"/>
+            <node name="torbiel rzekoma-1" size="0"/>
+            <node name="prosak-1" size="0"/>
+          </node>
+          <node name="znamię-2" size="13">
+            <node name="znamię Beckera-1, melanoza Beckera-1" size="0"/>
+            <node name="znamię Suttona-1, znamię &quot;halo&quot;-1" size="0"/>
+            <node name="znamię Spitz-1, znamię wrzecionowato-nabłonkowatokomórkowe-1" size="0"/>
+            <node name="znamię łojowe Jadassohna-1, znamię łojowe-1" size="0"/>
+            <node name="znamię Ito-1" size="0"/>
+            <node name="plama soczewicowata-1" size="0"/>
+            <node name="znamię naczyniowe-1, naczyniak-2" size="0"/>
+            <node name="piętno-3" size="0"/>
+            <node name="pypeć-1" size="0"/>
+            <node name="ogień-5" size="0"/>
+            <node name="myszka-4" size="0"/>
+            <node name="pieprzyk-1" size="1">
+              <node name="pipsztok-2, pipsztyk-2" size="0"/>
+            </node>
+          </node>
+          <node name="nowotwór-1, choroba nowotworowa-1" size="116">
+            <node name="ziarniszczak-1" size="0"/>
+            <node name="guz neuroendokrynny przewodu pokarmowego-1, guz żołądkowo-jelitowo-trzustkowy-1" size="6">
+              <node name="guz wydzielający VIP-1, zespół Vernera-Morrisona-1" size="0"/>
+              <node name="guz insulinowy-1, wyspiak-1" size="1">
+                <node name="wyspiak trzustki-1" size="0"/>
+              </node>
+              <node name="somatostatinoma-1, guz somatostatynowy-1" size="0"/>
+              <node name="gastrinoma-1, guz gastrynowy-1" size="0"/>
+              <node name="rakowiak-1" size="0"/>
+            </node>
+            <node name="guz chromochłonny-1, barwiak-1" size="0"/>
+            <node name="hamartoblastoma-1" size="0"/>
+            <node name="szpiczak mnogi-1, szpiczak plazmocytowy-1, choroba Kahlera-1" size="0"/>
+            <node name="guz Abrikosowa-1, guz ziarnistokomórkowy-1" size="0"/>
+            <node name="glukagonoma-1" size="0"/>
+            <node name="rogowiak kolczystokomórkowy-1" size="0"/>
+            <node name="nabłoniak wapniejący-1, nabłoniak wapniejący Mahlerbego-1" size="0"/>
+            <node name="ziarniak-6" size="0"/>
+            <node name="ospa karpi-1" size="0"/>
+            <node name="choroba Mareka-1" size="0"/>
+            <node name="metastaza-1, przerzut nowotworowy-1" size="0"/>
+            <node name="naczyniak-1" size="15">
+              <node name="naczyniak limfatyczny torbielowaty-1" size="0"/>
+              <node name="naczyniak limfatyczny złośliwy-1" size="0"/>
+              <node name="naczyniak niezłośliwy limfatyczny-1" size="0"/>
+              <node name="naczyniak złośliwy-1" size="3"/>
+              <node name="naczyniak niezłośliwy-1" size="7"/>
+            </node>
+            <node name="nowotwór niezłośliwy-1, nowotwór łagodny-1, guz łagodny-1" size="40">
+              <node name="mięśniak gładkokomórkowy-1" size="0"/>
+              <node name="przyzwojak-1" size="0"/>
+              <node name="kostniak-1" size="1">
+                <node name="kostniak kostninowy-1, kostniak kostnawy-1" size="0"/>
+              </node>
+              <node name="chrzęstniak-1" size="0"/>
+              <node name="choroba Lhermitte'a-Duclos-1, dysplastyczny zwojak móżdżku-1" size="0"/>
+              <node name="naczyniakomięśniakotłuszczak-1" size="0"/>
+              <node name="nerwiakowłókniak-1" size="0"/>
+              <node name="naczyniak niezłośliwy limfatyczny-1" size="0"/>
+              <node name="naczyniak niezłośliwy-1" size="7">
+                <node name="ziarniniak naczyniowy-1" size="0"/>
+                <node name="kłębczak-1" size="0"/>
+                <node name="obłoniak-1" size="0"/>
+                <node name="naczyniakomięśniak gładkokomórkowy-1" size="0"/>
+                <node name="naczyniak groniasty-1" size="0"/>
+                <node name="naczyniak krwionośny jamisty-1" size="0"/>
+                <node name="naczyniak krwionośny włośniczkowy-1" size="0"/>
+              </node>
+              <node name="skórzak-3" size="0"/>
+              <node name="śluzak-1" size="1">
+                <node name="śluzak serca-1" size="0"/>
+              </node>
+              <node name="oponiak-1" size="0"/>
+              <node name="czerniak-2" size="0"/>
+              <node name="ogień-5" size="0"/>
+              <node name="włókniak-1" size="7">
+                <node name="włókniak młodzieńczy nosogardła-1, naczyniowłókniak młodzieńczy-1" size="0"/>
+                <node name="włókniak twardy-1" size="0"/>
+                <node name="włókniak miękki-1" size="4">
+                  <node name="tłuszczak-1" size="0"/>
+                  <node name="brodawczak-1" size="2">
+                    <node name="brodawczak odwrócony-1, brodawczak odwrócony jam nosa i zatok przynosowych-1, brodawczak Schneidera-1" size="0"/>
+                    <node name="brodawczak splotu naczyniówkowego-1" size="0"/>
+                  </node>
+                </node>
+              </node>
+              <node name="nerwiak-1" size="4">
+                <node name="neuroblastoma-1, nerwiak płodowy-1, nerwiak płodowy współczulny-1, nerwiak zarodkowy-1" size="0"/>
+                <node name="nerwiak osłonkowy-1, schwannoma-1" size="0"/>
+                <node name="nerwiak zwojowy-1" size="0"/>
+                <node name="nerwiak węchowy zarodkowy-1" size="0"/>
+              </node>
+              <node name="gruczolak-1" size="3">
+                <node name="gruczolak wątrobowokomórkowy-1" size="0"/>
+                <node name="gruczolak wielopostaciowy-1, guz mieszany-1" size="0"/>
+                <node name="gruczolak przysadki-1" size="0"/>
+              </node>
+            </node>
+            <node name="guz złośliwy-1, nowotwór złośliwy-1" size="45">
+              <node name="kostniakomięsak-1, mięsak kościopochodny-1" size="0"/>
+              <node name="guz Wilmsa-2, nerczak płodowy-1, nerczak zarodkowy-1, nerczak złośliwy-1" size="0"/>
+              <node name="oblak-1" size="0"/>
+              <node name="mięsak maziówkowy-1, maziak-1" size="0"/>
+              <node name="mięsak Ewinga-1, guz Ewinga-1" size="0"/>
+              <node name="prymitywny guz neuroektodermalny-1, obwodowy niedojrzały guz neuroektodermalny-1, guz Askina-1" size="0"/>
+              <node name="nowotwór złośliwy skóry-1" size="4" abstract="true">
+                <node name="rak neuroendokrynny skóry-1, rak z komórek Merkla-1" size="0"/>
+                <node name="rak kolczystokomórkowy skóry-1" size="0"/>
+                <node name="rak podstawnokomórkowy skóry-1" size="0"/>
+                <node name="czerniak złośliwy-1, czerniak-1, melanoma-1" size="0"/>
+              </node>
+              <node name="naczyniak limfatyczny złośliwy-1" size="0"/>
+              <node name="naczyniak złośliwy-1" size="3">
+                <node name="mięsak Kaposiego-1" size="0"/>
+                <node name="obłoniak złośliwy-1" size="0"/>
+                <node name="śródbłoniak krwionośny złośliwy-1" size="0"/>
+              </node>
+              <node name="sarkoidoza-1" size="0"/>
+              <node name="struniak-1" size="0"/>
+              <node name="szpiczak-1" size="0"/>
+              <node name="nasieniak-1" size="0"/>
+              <node name="nabłoniak-1" size="1">
+                <node name="nabłoniak kosmówkowy-1, kosmówczak-1" size="0"/>
+              </node>
+              <node name="chłoniak-1" size="4">
+                <node name="chłoniak Burkitta-1" size="0"/>
+                <node name="zespół Sézary'ego-1" size="0"/>
+                <node name="ziarnica złośliwa-1, choroba Hodgkina-1, chłoniak Hodgkina-1, limfogranulomatoza-1" size="0"/>
+                <node name="ziarniniak grzybiasty-1" size="0"/>
+              </node>
+              <node name="nowotwór anaplastyczny-1" size="0"/>
+              <node name="potworniak-1" size="1">
+                <node name="torbiel skórzasta-1" size="0"/>
+              </node>
+              <node name="glejak-1" size="0"/>
+              <node name="siatkówczak-1" size="0"/>
+              <node name="mięsak-1, sarkoma-1" size="0"/>
+              <node name="rak-1" size="14">
+                <node name="choroba Pageta-1" size="0"/>
+                <node name="guz Brennera-1" size="0"/>
+                <node name="rak płuca-1, rak oskrzela-1" size="1">
+                  <node name="guz Pancoasta-1, zespół Pancoasta-1" size="0"/>
+                </node>
+                <node name="rak neuroendokrynny skóry-1, rak z komórek Merkla-1" size="0"/>
+                <node name="rak kolczystokomórkowy skóry-1" size="0"/>
+                <node name="rak podstawnokomórkowy skóry-1" size="0"/>
+                <node name="rak przedinwazyjny-1, rak w miejscu-1, CIS-5, rak 0 stopnia-1" size="2">
+                  <node name="choroba Bowena-1" size="1">
+                    <node name="erytroplazja Queyrata-1, choroba Bowena żołędzi prącia-1" size="0"/>
+                  </node>
+                </node>
+                <node name="rak prącia-1" size="0"/>
+                <node name="rak szyjki macicy-1" size="0"/>
+                <node name="rak gruczołu krokowego-1, rak prostaty-1" size="0"/>
+                <node name="rak jamy nosowo-gardłowej-1" size="0"/>
+              </node>
+            </node>
+            <node name="białaczka-1, leukemia-1" size="7">
+              <node name="przewlekła białaczka limfatyczna-1, CLL-1" size="1">
+                <node name="przewlekła białaczka limfocytowa B-komórkowa-1" size="0"/>
+              </node>
+              <node name="ostra białaczka limfoblastyczna-1, ALL-2" size="0"/>
+              <node name="białaczka szpikowa-1" size="3">
+                <node name="przewlekła białaczka szpikowa-1" size="0"/>
+                <node name="ostra białaczka szpikowa-1" size="1">
+                  <node name="ostra białaczka promielocytowa-1, ostra białaczka progranulocytowa-1, APL-1, AML z t(15;17)(q22,q12)-1, PML-RARA-1" size="0"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node name="aspermia-1" size="0"/>
+        <node name="gonitwa myśli-1" size="0"/>
+        <node name="kseroftalmia-1, zespół suchego oka-1" size="0"/>
+        <node name="atrezja-1, zarośnięcie-5" size="8">
+          <node name="atrezja jelita grubego-1, zwężenie jelita grubego-1, zarośnięcie jelita grubego-1, wrodzony brak jelita grubego-1" size="0"/>
+          <node name="atrezja przełyku-1" size="0"/>
+          <node name="atrezja odbytu-1, malformacja odbytu i odbytnicy-1" size="0"/>
+          <node name="atrezja dwunastnicy-1, wrodzona niedrożność dwunastnicy-1, zwężenie dwunastnicy-1, zarośnięcie dwunastnicy-1, wrodzony brak dwunastnicy-1" size="0"/>
+          <node name="atrezja jelita cienkiego-1" size="0"/>
+          <node name="atrezja pochwy-1" size="0"/>
+          <node name="atrezja dróg żółciowych-1, niedrożność dróg żółciowych-1, zarośnięcie dróg żółciowych-1, zarośnięcie przewodów żółciowych-1" size="0"/>
+          <node name="atrezja nozdrzy tylnych-1, zarośnięcie nozdrzy tylnych-1, wrodzone zwężenie nozdrzy tylnych-1" size="0"/>
+        </node>
+        <node name="entropion-1, entropium-1" size="1">
+          <node name="entropion wrodzony-1, entropium wrodzone-1" size="0"/>
+        </node>
+        <node name="ektropion-1, ektropium-1" size="1">
+          <node name="ektropion wrodzony-1, ektropium wrodzone-1" size="0"/>
+        </node>
+        <node name="ptoza-1" size="1">
+          <node name="ptoza wrodzona-1" size="0"/>
+        </node>
+        <node name="ciągotka nerwicowa-1" size="0"/>
+        <node name="ciągotka-1" size="0"/>
+        <node name="adynamia-1" size="0"/>
+        <node name="amimia-1" size="0"/>
+        <node name="liściozwój-1" size="0"/>
+        <node name="otalgia-1" size="0"/>
+        <node name="echolalia-2" size="0"/>
+        <node name="wydzielina-1, wyciek-2, wypływ-2" size="9">
+          <node name="przesięk-1" size="0"/>
+          <node name="wysięk-1" size="1">
+            <node name="woda-5" size="0"/>
+          </node>
+          <node name="upławy-1" size="0"/>
+          <node name="smark-1, gil-2, glut-1" size="2">
+            <node name="koza-6" size="0"/>
+            <node name="kapka-1" size="0"/>
+          </node>
+          <node name="flegma-2, plwocina-1" size="0"/>
+          <node name="ropa-1" size="0"/>
+        </node>
+        <node name="łojotok-1" size="0"/>
+        <node name="światłowstręt-1, fotofobia-1" size="0"/>
+        <node name="przepuklina-1, ruptura-1" size="16">
+          <node name="przepuklina mózgowa-1" size="0"/>
+          <node name="przepuklina cewy nerwowej-1" size="0"/>
+          <node name="przepuklina przeponowa-1" size="0"/>
+          <node name="przepuklina rozworu przełykowego-1" size="0"/>
+          <node name="przepuklina brzuszna-1" size="11">
+            <node name="przepuklina pępowinowa-1" size="0"/>
+            <node name="przepuklina okołostomijna-1" size="0"/>
+            <node name="przepuklina uwięźnięta-1" size="1">
+              <node name="przepuklina Richtera-1" size="0"/>
+            </node>
+            <node name="przepuklina kresy białej-1, przepuklina w kresie białej-1" size="0"/>
+            <node name="przepuklina pępkowa-1" size="0"/>
+            <node name="przepuklina udowa-1" size="0"/>
+            <node name="przepuklina pachwinowa-1" size="3">
+              <node name="przepuklina pachwinowa prosta-1" size="0"/>
+              <node name="przepuklina pachwinowa skośna-1" size="1">
+                <node name="przepuklina mosznowa-1" size="0"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node name="pleśniawka-2" size="0"/>
+        <node name="sinica-2, cyjanoza-1" size="0"/>
+        <node name="akinezja-1" size="0"/>
+        <node name="leukocytopenia-1, leukopenia-1" size="0"/>
+        <node name="leukocytoza-1" size="0"/>
+        <node name="krwiomocz-1, hematuria-1" size="2">
+          <node name="makrohematuria-1" size="0"/>
+          <node name="mikrohematuria-1, krwinkomocz-1, erytrocyturia-1, krwiomocz mikroskopowy-1" size="0"/>
+        </node>
+        <node name="niedociśnienie-1" size="0"/>
+        <node name="chrypka-1" size="0"/>
+        <node name="alalia-1" size="0"/>
+        <node name="parafazja-1" size="0"/>
+        <node name="anartria-1" size="0"/>
+        <node name="dysfagia-1" size="2">
+          <node name="dysfagia przełykowa-1" size="0"/>
+          <node name="dysfagia ustno-gardłowa-1, dysfagia przedprzełykowa-1" size="0"/>
+        </node>
+        <node name="białkomocz-1, albuminuria-1, proteinuria-1" size="2">
+          <node name="białkomocz patologiczny-1" size="0"/>
+          <node name="białkomocz fizjologiczny-1" size="0"/>
+        </node>
+        <node name="aleksja-1, niezdolność czytania-1" size="1">
+          <node name="czysta aleksja-1, czysta ślepota słów-1, aleksja bez agrafii-1" size="0"/>
+        </node>
+        <node name="agnozja-1" size="7">
+          <node name="autotopagnozja-1, somatotopagnozja-1" size="0"/>
+          <node name="agnozja czuciowa-1" size="1">
+            <node name="astereognozja-1" size="0"/>
+          </node>
+          <node name="agnozja słuchowa-1" size="0"/>
+          <node name="agnozja wzrokowa-1, ślepota korowa-1" size="2">
+            <node name="prozopagnozja-1, agnozja twarzy-1" size="0"/>
+            <node name="agnozja wzrokowa jednoczesna-1" size="0"/>
+          </node>
+        </node>
+        <node name="karłowatość-1, niskorosłość-1, karzełkowatość-1" size="0"/>
+        <node name="stereotypia-1, czynność stereotypowa-1, stereotypia ruchowa-1" size="0"/>
+        <node name="mutyzm-1" size="0"/>
+        <node name="afonia-1, bezgłos-1" size="2">
+          <node name="apsityria-1" size="0"/>
+          <node name="mutyzm wybiórczy-1" size="0"/>
+        </node>
+        <node name="inkoherencja-2, splątanie-2" size="0"/>
+        <node name="obsesja-2, natręctwo-1" size="7">
+          <node name="ortoreksja-1" size="2">
+            <node name="witarianizm-1" size="1">
+              <node name="frutarianizm-1, fruktarianizm-1, fruitarianizm-1, fruktorianizm-1" size="0"/>
+            </node>
+          </node>
+          <node name="arytmomania-1" size="0"/>
+          <node name="ablutomania-1" size="0"/>
+          <node name="anankazm-1" size="0"/>
+          <node name="korba-3, faza-8, zajob-3, job-1" size="0"/>
+        </node>
+        <node name="urojenie-2" size="3">
+          <node name="dereizm-1" size="0"/>
+          <node name="urojenie ksobne-1, ksobność-1" size="0"/>
+          <node name="mania wielkości-1, megalomania-2" size="0"/>
+        </node>
+        <node name="furia-2, szał-2" size="0"/>
+        <node name="kawerna-2" size="0"/>
+        <node name="przekrwienie-1" size="0"/>
+        <node name="koprofagia-1" size="0"/>
+        <node name="aerofagia-1, łykawica-1" size="0"/>
+        <node name="łysienie-1" size="0"/>
+        <node name="szczękościsk-1" size="0"/>
+        <node name="puchlina-1, puchlina wodna-2" size="0"/>
+        <node name="nosicielstwo-1" size="0"/>
+        <node name="moczenie-2" size="0"/>
+        <node name="kwasica-1" size="1">
+          <node name="kwasica ketonowa-1" size="0"/>
+        </node>
+        <node name="kichanie-2" size="0"/>
+        <node name="katatonia-1" size="0"/>
+        <node name="katalepsja-1" size="0"/>
+        <node name="bezdech-1" size="0"/>
+        <node name="potliwość-1" size="0"/>
+        <node name="niepoczytalność-1" size="0"/>
+        <node name="hipostaza-3" size="0"/>
+        <node name="bielmo-1, leukoma-1" size="0"/>
+        <node name="delirium-1, majaczenie-7, zespół majaczeniowy-1, ostry zespół mózgowy-1" size="1">
+          <node name="majaczenie alkoholowe-1, delirium tremens-1, biała gorączka-1, majaczenie drżenne-1" size="0"/>
+        </node>
+        <node name="odrętwienie-5, drętwota-3" size="1">
+          <node name="katalepsja-1" size="0"/>
+        </node>
+        <node name="stupor-1, osłupienie-2, drętwica-1" size="0"/>
+        <node name="udar mózgu-1, wylew krwi do mózgu-1, wylew-1, apopleksja-1, incydent mózgowo-naczyniowy-1, udar-3" size="0"/>
+        <node name="słowotok-1, logorea-1" size="0"/>
+        <node name="odma-1" size="1">
+          <node name="odma opłucnowa-1" size="0"/>
+        </node>
+        <node name="nadżerka-1" size="1">
+          <node name="zajad-1" size="0"/>
+        </node>
+        <node name="zadyszka-1" size="0"/>
+        <node name="zwyrodnienie-2" size="1">
+          <node name="tłuszczyk-3" size="0"/>
+        </node>
+        <node name="wodogłowie-1, hydrocefalia-1, wodomózgowie-1" size="2">
+          <node name="wodogłowie normotensyjne-1, zespół Hakima-1" size="0"/>
+          <node name="wodogłowie wrodzone-1" size="0"/>
+        </node>
+        <node name="świąd-1, swędzenie-2" size="1">
+          <node name="świąd pływaków-1" size="0"/>
+        </node>
+        <node name="ślinotok-1" size="0"/>
+        <node name="skleroza-2" size="0"/>
+        <node name="oziębłość płciowa-1" size="0"/>
+        <node name="owrzodzenie-2" size="1">
+          <node name="afta-1" size="0"/>
+        </node>
+        <node name="oczopląs-1" size="0"/>
+        <node name="niedrożność-1" size="1">
+          <node name="niedrożność jelit-1" size="0"/>
+        </node>
+        <node name="niedokrwienie-1" size="0"/>
+        <node name="neuropatia-1" size="0"/>
+        <node name="marskość-1" size="1">
+          <node name="marskość wątroby-1, zwłóknienie wątroby-1" size="0"/>
+        </node>
+        <node name="duszność-1" size="0"/>
+        <node name="tachykardia-1, częstoskurcz-1" size="0"/>
+        <node name="chrypa-1" size="0"/>
+        <node name="bradykardia-1, rzadkoskurcz-1" size="0"/>
+        <node name="hipertrofia-1, przerost-1" size="3">
+          <node name="przerost połowiczy-1, hemihiperplazja-1, hemihipertrofia-1" size="0"/>
+          <node name="hipertrofia wewnątrzmaciczna-1, makrosomia-1" size="0"/>
+          <node name="przerost łechtaczki-1, klitoromegalia-1, hipertrofia łechtaczki-1" size="0"/>
+        </node>
+        <node name="ataksja-1" size="0"/>
+        <node name="arytmia-1, niemiarowość-1" size="0"/>
+        <node name="afazja-1" size="5">
+          <node name="afazja postępująca niefluentna-1, postępująca afazja bez płynności mowy-1" size="0"/>
+          <node name="paragrafia-1" size="0"/>
+          <node name="aleksykalizm-1" size="0"/>
+          <node name="agramatyzm-1" size="0"/>
+          <node name="afazja amnestyczna-1" size="0"/>
+        </node>
+        <node name="nadciśnienie-1" size="1">
+          <node name="nadciśnienie płucne-1" size="0"/>
+        </node>
+        <node name="głód nikotynowy-1" size="0"/>
+        <node name="głód narkotyczny-1" size="0"/>
+        <node name="stan podgorączkowy-1" size="0"/>
+        <node name="stan spastyczny-1" size="0"/>
+        <node name="mrowienie-1, mrowie-2" size="1">
+          <node name="parestezja-1, czucie opaczne-1" size="0"/>
+        </node>
+        <node name="letarg-1, bezwład-3" size="0"/>
+        <node name="odwodnienie-4" size="2">
+          <node name="odwodnienie hipertoniczne-1" size="0"/>
+          <node name="odwodnienie izotoniczne-1" size="0"/>
+        </node>
+        <node name="porażenie-3, paraliż-1, bezwładność-3, bezwład-2" size="7">
+          <node name="porażenie Todda-1, porażenie ponapadowe Todda-1" size="0"/>
+          <node name="astazja-1" size="0"/>
+          <node name="abazja-1" size="0"/>
+          <node name="paraplegia-1" size="0"/>
+          <node name="hemiplegia-1, porażenie połowicze-1" size="0"/>
+          <node name="niedowład-1" size="1">
+            <node name="niedowład połowiczy-1, hemiparesis-1" size="0"/>
+          </node>
+        </node>
+        <node name="wzdęcie-2, meteoryzm-1, bębnica-1" size="0"/>
+        <node name="perforacja-1" size="0"/>
+        <node name="zgaga-1" size="0"/>
+        <node name="zator-1, embolia-1" size="1">
+          <node name="zakrzep-1, skrzeplina-1" size="0"/>
+        </node>
+        <node name="obstrukcja-1, zaparcie-3, zatwardzenie-1" size="0"/>
+        <node name="otępienie-2, demencja-1" size="0"/>
+        <node name="euforia-2" size="0"/>
+        <node name="amnezja-1, amnezja organiczna-1" size="3">
+          <node name="amnezja pourazowa-1" size="0"/>
+          <node name="amnezja następcza-1, niepamięć następcza-1" size="0"/>
+          <node name="amnezja wsteczna-1, niepamięć wsteczna-1" size="0"/>
+        </node>
+        <node name="kaszel-1" size="1">
+          <node name="kaszel suchy-1" size="0"/>
+        </node>
+        <node name="atak-2, napad-2, paroksyzm-1" size="1">
+          <node name="napad padaczkowy-1" size="0"/>
+        </node>
+        <node name="żółtaczka-1" size="0"/>
+        <node name="zawrót-1" size="0"/>
+        <node name="zawał-1" size="2">
+          <node name="zawał blady-1" size="0"/>
+          <node name="zawał-3, zawał mięśnia sercowego-1, zawał serca-1" size="0"/>
+        </node>
+        <node name="wymioty-1, torsje-1" size="0"/>
+        <node name="śpiączka-1, koma-2" size="0"/>
+        <node name="palpitacja-1, kołatanie serca-1" size="0"/>
+        <node name="omdlenie-3, zasłabnięcie-3, zemdlenie-3" size="1">
+          <node name="półomdlenie-1" size="0"/>
+        </node>
+        <node name="migrena-1" size="0"/>
+        <node name="kolka-1" size="0"/>
+        <node name="kurcz-1, skurcz-1" size="6">
+          <node name="opistotonus-1" size="0"/>
+          <node name="pochwica-1" size="0"/>
+          <node name="tik-1" size="0"/>
+          <node name="czkawka-1" size="0"/>
+          <node name="spazm-1" size="0"/>
+          <node name="konwulsja-1, drgawka-1" size="0"/>
+        </node>
+        <node name="krwawienie-2" size="3">
+          <node name="krwawienie dokomorowe-1" size="0"/>
+          <node name="wybroczyna-1" size="0"/>
+          <node name="krwotok-1" size="0"/>
+        </node>
+        <node name="katar-2" size="2">
+          <node name="gile do pasa-1" size="0"/>
+          <node name="katar sienny-1" size="0"/>
+        </node>
+        <node name="rozwolnienie-1, biegunka-1, laksacja-1" size="0"/>
+        <node name="bezsenność-1" size="0"/>
+        <node name="zatrucie-5, intoksykacja-1" size="9">
+          <node name="przytrucie-1" size="0"/>
+          <node name="scombrotoksizm-1" size="0"/>
+          <node name="rtęcica-1" size="0"/>
+          <node name="zatrucie pokarmowe-1" size="0"/>
+          <node name="ergotyzm-1" size="0"/>
+          <node name="toksemia-1, jadzica-1" size="0"/>
+          <node name="samozatrucie-1, autointoksykacja-1" size="0"/>
+          <node name="toksykoza-1" size="0"/>
+          <node name="mocznica-1, uremia-1" size="0"/>
+        </node>
+        <node name="zapaść-2, kollaps-1, kolaps-1" size="0"/>
+        <node name="upośledzenie-1" size="2">
+          <node name="akalkulia-1" size="0"/>
+          <node name="kretyństwo-3" size="0"/>
+        </node>
+        <node name="wstrząs-1" size="4">
+          <node name="wstrząs septyczny-1" size="0"/>
+          <node name="wstrząs kardiogenny-1" size="0"/>
+          <node name="szok-3" size="0"/>
+          <node name="wstrząs anafilaktyczny-1, anafilaksja-1, reakcja anafilaktyczna-1, odczyn anafilaktyczny-1" size="0"/>
+        </node>
+        <node name="gorączka-1, temperatura-3" size="2">
+          <node name="febra-3" size="0"/>
+          <node name="maligna-1" size="0"/>
+        </node>
+        <node name="szum-2, szmer-2" size="0"/>
+      </node>
+      <node name="wyraz-1" size="111">
+        <node name="niedowierzanie-1" size="0"/>
+        <node name="upust-4" size="0"/>
+        <node name="surowość-6" size="0"/>
+        <node name="nacechowanie-3" size="7">
+          <node name="zabarwienie-4" size="6">
+            <node name="ton-3" size="0"/>
+            <node name="odcień-2, posmak-2, nuta-2, nutka-1, półton-3, tonacja-2" size="4">
+              <node name="konotacja-3" size="0"/>
+              <node name="domieszka-2" size="0"/>
+              <node name="smrodek-2" size="0"/>
+              <node name="półton-1" size="0"/>
+            </node>
+          </node>
+        </node>
+        <node name="szczęśliwość-3" size="0"/>
+        <node name="wesołość-5" size="0"/>
+        <node name="pokaz-2" size="59">
+          <node name="ustawka-2" size="0"/>
+          <node name="demonstracja-3, manifestacja-3" size="0"/>
+          <node name="popis-2" size="1">
+            <node name="szpanerstwo-1" size="0"/>
+          </node>
+          <node name="popis-1, koncert-3" size="54">
+            <node name="rodeo-1" size="0"/>
+            <node name="harce-1" size="0"/>
+            <node name="sztuczka-2, trik-2, trick-2" size="1">
+              <node name="efekt specjalny-1" size="0"/>
+            </node>
+            <node name="figura-8" size="47">
+              <node name="ranwers-1, przewrót-4" size="0"/>
+              <node name="pasaż-4" size="0"/>
+              <node name="lewada-1" size="0"/>
+              <node name="layout-4" size="0"/>
+              <node name="piramida-7" size="0"/>
+              <node name="jaskółka-2" size="0"/>
+              <node name="akrobacja lotnicza-1, akrobacja powietrzna-1, akrobacja-3, ewolucja-4" size="18">
+                <node name="immelman-1, imelman-1" size="0"/>
+                <node name="ranwers-1, przewrót-4" size="0"/>
+                <node name="schody-3" size="0"/>
+                <node name="looping-2, pętla-2" size="0"/>
+                <node name="półbeczka-1" size="0"/>
+                <node name="zwitka-2" size="0"/>
+                <node name="zawrót-2" size="0"/>
+                <node name="wywrót-1" size="0"/>
+                <node name="wyrównanie-7" size="0"/>
+                <node name="świeca-3" size="0"/>
+                <node name="ślizg-1" size="1">
+                  <node name="wyślizg-1" size="0"/>
+                </node>
+                <node name="spirala-3" size="0"/>
+                <node name="półpętla-1" size="0"/>
+                <node name="piruetka-1" size="0"/>
+                <node name="korkociąg-2" size="0"/>
+                <node name="górka-4" size="0"/>
+                <node name="beczka-3" size="0"/>
+              </node>
+              <node name="figura taneczna-1" size="10">
+                <node name="kwadrat-7" size="0"/>
+                <node name="krzyżyk-8" size="0"/>
+                <node name="batterie-1" size="1">
+                  <node name="entrechat-1" size="0"/>
+                </node>
+                <node name="prysiudy-1" size="0"/>
+                <node name="promenada-2" size="0"/>
+                <node name="kółeczko-1" size="0"/>
+                <node name="hołubiec-1" size="0"/>
+                <node name="arabeska-3, arabesque-1" size="0"/>
+                <node name="koszyczek-2" size="0"/>
+              </node>
+              <node name="ewolucja-5" size="6">
+                <node name="ewolucja narciarska-1" size="5">
+                  <node name="telemark-1, wypad-3" size="0"/>
+                  <node name="telemark-2" size="0"/>
+                  <node name="pług-2" size="0"/>
+                  <node name="łuk-5" size="0"/>
+                  <node name="krystiania-1, chrystiania-1" size="0"/>
+                </node>
+              </node>
+              <node name="ósemka-11" size="0"/>
+              <node name="akrobacja-2" size="3">
+                <node name="flip-1" size="0"/>
+                <node name="looping-1" size="0"/>
+                <node name="przerzut-3" size="0"/>
+              </node>
+            </node>
+            <node name="defilada-1, parada-1" size="1">
+              <node name="rewia-3" size="0"/>
+            </node>
+          </node>
+        </node>
+        <node name="rubaszność-2" size="0"/>
+        <node name="nieprzytomność-2, błędność-2" size="0"/>
+        <node name="zwierciadło-5" size="7">
+          <node name="odbicie-20, odzwierciedlenie-4" size="6">
+            <node name="układ Henona-1" size="0"/>
+            <node name="mikrokosmos-1, mikroświat-1" size="4">
+              <node name="psychika-1, dusza-4, duch-6, duchowość-3, psyche-1, serce-2" size="3">
+                <node name="nerwy-2" size="1">
+                  <node name="stalowe nerwy-1, nerwy ze stali-1, nerwy jak postronki-1" size="0"/>
+                </node>
+                <node name="metapsychika-1" size="0"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node name="nieśmiałość-2" size="1">
+          <node name="niepewność-2" size="0"/>
+        </node>
+        <node name="łagodność-4" size="1">
+          <node name="miękkość-7" size="0"/>
+        </node>
+        <node name="przytomność-3" size="4">
+          <node name="trzeźwość-6" size="0"/>
+          <node name="uważność-1" size="1">
+            <node name="przenikliwość-4" size="0"/>
+          </node>
+          <node name="zimna krew-1" size="0"/>
+        </node>
+        <node name="wyraz twarzy-1" size="12">
+          <node name="derp-1" size="0"/>
+          <node name="mina-1" size="10">
+            <node name="nieogar-3" size="0"/>
+            <node name="mars-1" size="0"/>
+            <node name="skrzywienie-2" size="0"/>
+            <node name="uśmiech-2" size="4">
+              <node name="uśmiech sardoniczny-2" size="0"/>
+              <node name="banan-3, rogal-2" size="0"/>
+              <node name="półuśmiech-1" size="0"/>
+              <node name="uśmieszek-1" size="0"/>
+            </node>
+            <node name="grymas-1" size="1">
+              <node name="uśmiech sardoniczny-1" size="0"/>
+            </node>
+          </node>
+        </node>
+        <node name="blask-2" size="2">
+          <node name="iskra-3, iskierka-3" size="0"/>
+          <node name="płomyk-2, ogieniek-2, ogienek-2, ognik-3" size="0"/>
+        </node>
+        <node name="figlarność-1" size="0"/>
+        <node name="okazanie uczuć-1" size="0"/>
+        <node name="westchnienie-1" size="0"/>
+      </node>
+      <node name="zapowiedź-1, zwiastun-3, prognostyk-3" size="16">
+        <node name="wizja Kasandry-1" size="0"/>
+        <node name="wstęp-4" size="3">
+          <node name="uwertura-2, preludium-3, przygrywka-3" size="0"/>
+          <node name="przygotowanie-6" size="0"/>
+          <node name="rekonesans-1" size="0"/>
+        </node>
+        <node name="przedświt-2" size="0"/>
+        <node name="promyk-2, promień-4" size="1">
+          <node name="światełko w tunelu-1" size="0"/>
+        </node>
+        <node name="antycypacja-1, prefiguracja-1" size="0"/>
+        <node name="sygnał-5" size="1">
+          <node name="poszlaka-1" size="0"/>
+        </node>
+        <node name="wróżba-1, omen-1" size="0"/>
+        <node name="przedsmak-1, przedsionek-2" size="1">
+          <node name="uwertura-2, preludium-3, przygrywka-3" size="0"/>
+        </node>
+        <node name="pierwsza jaskółka-1" size="0"/>
+        <node name="podmuch-3, wiew-2, powiew-2" size="1">
+          <node name="powab-2" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="fakt historyczny-1" size="0"/>
+    <node name="przykład-2, exemplum-1" size="2">
+      <node name="przypadek-2" size="1">
+        <node name="precedens-1" size="0"/>
+      </node>
+    </node>
+    <node name="fakt prawny-1" size="1">
+      <node name="municypalizacja-1" size="0"/>
+    </node>
+    <node name="fakt naukowy-1" size="0"/>
+    <node name="klątwa-2, przekleństwo-2" size="0"/>
+  </node>
+  <node name="wypadek-2, incydent-1" size="3">
+    <node name="utonięcie-6" size="0"/>
+    <node name="potknięcie-2" size="1">
+      <node name="wypadek przy pracy-1" size="0"/>
+    </node>
+  </node>
+  <node name="wybuch-1, eksplozja-1, detonacja-2" size="5">
+    <node name="odstrzał-3" size="0"/>
+    <node name="efuzja-2" size="0"/>
+    <node name="strzał-4" size="0"/>
+    <node name="kamuflet-1" size="0"/>
+    <node name="rozprysk-2" size="0"/>
+  </node>
+  <node name="walka-1, bój-1, czyn zbrojny-1, konfrontacja-1, starcie-8, zmagania-1, konflikt zbrojny-1, szczęk oręża-1" size="46">
+    <node name="taran-4" size="0"/>
+    <node name="boje homeryckie-1" size="0"/>
+    <node name="tytanomachia-1" size="0"/>
+    <node name="walka na śmierć i życie-1" size="0"/>
+    <node name="walka wręcz-1" size="0"/>
+    <node name="korsarstwo-1, kaperstwo-1" size="0"/>
+    <node name="gigantomachia-1" size="0"/>
+    <node name="dywersja-1" size="0"/>
+    <node name="abordaż-1" size="0"/>
+    <node name="zapasy-2" size="0"/>
+    <node name="bitwa-2" size="1">
+      <node name="batalia-1" size="0"/>
+    </node>
+    <node name="partyzantka-4" size="1">
+      <node name="guerilla-1" size="0"/>
+    </node>
+    <node name="pojedynek-3" size="2">
+      <node name="pojedynek sądowy-1" size="0"/>
+      <node name="pojedynek amerykański-1" size="0"/>
+    </node>
+    <node name="sabotaż-1, bojkot-1" size="1">
+      <node name="mały sabotaż-1" size="0"/>
+    </node>
+    <node name="zryw-1" size="0"/>
+    <node name="potyczka-1, utarczka-1" size="1">
+      <node name="szturchanina-1" size="0"/>
+    </node>
+    <node name="bójka-1, bijatyka-1, bitka-1, bitwa-1, łomotanina-1, mordobicie-1, nawalanka-1, przewalanka-1, rękoczyny-1, rozpierducha-1, rozróba-1, rozróbka-1" size="5"/>
+    <node name="rewolucja-1" size="1">
+      <node name="rewolucja agrarna-1" size="0"/>
+    </node>
+    <node name="wojna-1" size="12">
+      <node name="zimna wojna-2" size="0"/>
+      <node name="wojna jądrowa-1" size="0"/>
+      <node name="wojna światowa-1" size="0"/>
+      <node name="wojna napoleońska-1" size="0"/>
+      <node name="wojna podjazdowa-1, podjazdówka-1" size="1">
+        <node name="gerylasówka-1" size="0"/>
+      </node>
+      <node name="wojna domowa-1" size="0"/>
+      <node name="święta wojna-1" size="1">
+        <node name="dżihad-1" size="0"/>
+      </node>
+      <node name="rekonkwista-1, reconquista-1" size="0"/>
+      <node name="blitzkrieg-1" size="0"/>
+      <node name="krucjata-1, wyprawa krzyżowa-1" size="0"/>
+    </node>
+    <node name="powstanie-6, insurekcja-1" size="2">
+      <node name="powstanie styczniowe-1" size="0"/>
+      <node name="intifada-1" size="0"/>
+    </node>
+  </node>
+  <node name="ucieczka-1" size="7">
+    <node name="pierzch-1" size="0"/>
+    <node name="gigant-6" size="0"/>
+    <node name="myk-1" size="0"/>
+    <node name="hidżra-1, hedżra-1, hegira-1" size="0"/>
+    <node name="dezercja-1, rejterada-2" size="0"/>
+    <node name="fugas chrustas-1" size="0"/>
+    <node name="wagary-1" size="0"/>
+  </node>
+  <node name="proces-3, sprawa-2, postępowanie-5, przewód sądowy-1, przewód-5" size="16">
+    <node name="postępowanie nakazowe-1" size="0"/>
+    <node name="postępowanie przygotowawcze-1" size="0"/>
+    <node name="pokazówka-1" size="0"/>
+    <node name="kazus-2, casus-2" size="0"/>
+    <node name="pyskówka-1" size="0"/>
+    <node name="proces poszlakowy-1" size="0"/>
+    <node name="postępowanie cywilne-1" size="1">
+      <node name="postępowanie nieprocesowe-1" size="0"/>
+    </node>
+    <node name="środek prawny-1" size="6">
+      <node name="środek zaskarżenia-1" size="0"/>
+      <node name="remonstracja-1" size="0"/>
+      <node name="przymus administracyjny-1" size="3">
+        <node name="egzakcja-1" size="0"/>
+        <node name="przymus drogowy-1, przymus drożny-1" size="0"/>
+        <node name="nakaz pracy-1" size="0"/>
+      </node>
+    </node>
+    <node name="proces karny-1, postępowanie karne-1" size="0"/>
+  </node>
+  <node name="spotkanie-6" size="148">
+    <node name="ustawka-3" size="0"/>
+    <node name="zbiórka-4, apel-8" size="0"/>
+    <node name="posiady góralskie-1" size="0"/>
+    <node name="spotkanie modlitewne-1" size="0"/>
+    <node name="spotkanie warsztatowe-1" size="0"/>
+    <node name="spotkanie przedwyborcze-1" size="0"/>
+    <node name="wizyta studyjna-1" size="0"/>
+    <node name="spotkanie opłatkowe-1, wigilia-6, opłatek-2" size="0"/>
+    <node name="warsztat-4" size="2">
+      <node name="warsztat strategiczny-1" size="0"/>
+      <node name="trening-2" size="0"/>
+    </node>
+    <node name="sesja-7" size="0"/>
+    <node name="sesja-4" size="1">
+      <node name="jam session-1, jam-session-1" size="0"/>
+    </node>
+    <node name="wyjście-24" size="1">
+      <node name="piwo-3" size="0"/>
+    </node>
+    <node name="wieczór-1" size="4">
+      <node name="wieczór autorski-1" size="1">
+        <node name="wieczór poetycki-1, wieczorek poetycki-1" size="0"/>
+      </node>
+      <node name="wieczorek-1" size="1">
+        <node name="wieczornica-1" size="0"/>
+      </node>
+    </node>
+    <node name="kolacja-2" size="0"/>
+    <node name="schadzka-1" size="0"/>
+    <node name="kolędowanie-4" size="0"/>
+    <node name="randka-1" size="3">
+      <node name="szybka randka-1" size="0"/>
+      <node name="randka rozbierana-1" size="0"/>
+      <node name="randka w ciemno-1" size="0"/>
+    </node>
+    <node name="sabat-1" size="0"/>
+    <node name="zlot-1" size="3">
+      <node name="zlot gwiaździsty-1" size="0"/>
+      <node name="jamboree-1, jambo-1" size="0"/>
+      <node name="złaz-1" size="0"/>
+    </node>
+    <node name="audiencja-1, posłuchanie-5" size="1">
+      <node name="audiencja generalna-1" size="0"/>
+    </node>
+    <node name="przyjęcie-13" size="48">
+      <node name="roczek-2" size="0"/>
+      <node name="osiedliny-2" size="0"/>
+      <node name="salon-4" size="0"/>
+      <node name="herbatka-4" size="1">
+        <node name="five o'clock-1, fajf-1" size="0"/>
+      </node>
+      <node name="recepcja-2" size="0"/>
+      <node name="stypa-1, konsolacja-1" size="0"/>
+      <node name="poprawiny-1" size="0"/>
+      <node name="śledź-3" size="0"/>
+      <node name="komers-1, komersz-1" size="0"/>
+      <node name="wieczór-2" size="2">
+        <node name="wieczór panieński-1" size="0"/>
+        <node name="wieczór kawalerski-1" size="0"/>
+      </node>
+      <node name="żurfiks-1" size="0"/>
+      <node name="jubel-1" size="0"/>
+      <node name="sympozjon-2" size="1">
+        <node name="sympozjon-5" size="0"/>
+      </node>
+      <node name="koktajl-3, cocktail-2" size="0"/>
+      <node name="chrzciny-1" size="0"/>
+      <node name="uczta-1, biesiada-1" size="1">
+        <node name="agapa-1" size="0"/>
+      </node>
+      <node name="raut-1" size="1">
+        <node name="asambl-1" size="0"/>
+      </node>
+      <node name="bankiet-1" size="0"/>
+      <node name="impreza-2, balanga-1" size="23">
+        <node name="imieniny-2" size="0"/>
+        <node name="urodziny-3" size="5">
+          <node name="dziewiętnastka-4" size="0"/>
+          <node name="siedemnastka-5" size="0"/>
+          <node name="szesnastka-6" size="0"/>
+          <node name="piętnastka-4" size="0"/>
+          <node name="osiemnastka-4" size="0"/>
+        </node>
+        <node name="wigilia-4" size="1">
+          <node name="spotkanie opłatkowe-1, wigilia-6, opłatek-2" size="0"/>
+        </node>
+        <node name="parapetówka-1" size="0"/>
+        <node name="mikołajki-2" size="0"/>
+        <node name="barbórka-2" size="2">
+          <node name="karczma piwna-1" size="0"/>
+          <node name="comber-5" size="0"/>
+        </node>
+        <node name="lumpka-1, hulanka-1, pohulanka-1" size="3">
+          <node name="orgia-2" size="0"/>
+          <node name="orgietka-1" size="0"/>
+          <node name="bachanalia-2, bachanalie-2" size="0"/>
+        </node>
+        <node name="domówka-1" size="0"/>
+        <node name="grill-2, barbecue-2" size="0"/>
+        <node name="popijocha-1, popijawa-2" size="0"/>
+        <node name="andrzejki-1" size="0"/>
+        <node name="pijatyka-1, opilstwo-2, libacja-1, wypitka-1, napitka-1" size="0"/>
+      </node>
+    </node>
+    <node name="próba-5" size="1">
+      <node name="próba generalna-1" size="0"/>
+    </node>
+    <node name="zbiórka-1, apel-2" size="0"/>
+    <node name="zjazd-1" size="6">
+      <node name="konwent-3" size="0"/>
+      <node name="kontrakt-4" size="0"/>
+      <node name="kongregacja-4" size="0"/>
+      <node name="konklawe-1" size="0"/>
+      <node name="sobór-3, koncylium-1" size="1">
+        <node name="sobór powszechny-1" size="0"/>
+      </node>
+    </node>
+    <node name="zgromadzenie-4, zebranie-9" size="45">
+      <node name="konwent-4" size="0"/>
+      <node name="kapituła-2" size="0"/>
+      <node name="sejm-4" size="4">
+        <node name="sejm elekcyjny-1" size="0"/>
+        <node name="sejm konwokacyjny-1, konwokacja-1" size="0"/>
+        <node name="sejm koronacyjny-1" size="0"/>
+        <node name="sejm walny-1" size="0"/>
+      </node>
+      <node name="apella-1" size="0"/>
+      <node name="odprawa-2" size="1">
+        <node name="briefing-1" size="0"/>
+      </node>
+      <node name="eklezja-2" size="0"/>
+      <node name="prasówka-1" size="0"/>
+      <node name="komicja-1, komicje-1" size="0"/>
+      <node name="konwentykiel-1" size="0"/>
+      <node name="wywiadówka-1" size="0"/>
+      <node name="nasiadówka-1" size="0"/>
+      <node name="landtag-1" size="0"/>
+      <node name="plenum-1" size="0"/>
+      <node name="sejmik-1" size="7">
+        <node name="sejmik samorządowy-1" size="0"/>
+        <node name="sejmik województwa-1" size="0"/>
+        <node name="sejmik przedsejmowy-1" size="0"/>
+        <node name="koło-10" size="1">
+          <node name="koło rycerskie-1" size="0"/>
+        </node>
+        <node name="sejmik generalny-1, generał-3" size="0"/>
+        <node name="sejmik relacyjny-1" size="0"/>
+      </node>
+      <node name="zwołanie-4" size="0"/>
+      <node name="demonstracja-1, manifestacja-1, manifa-2, demka-1" size="6">
+        <node name="pikieta-4" size="0"/>
+        <node name="manifa-1" size="0"/>
+        <node name="kontrdemonstracja-1, kontrmanifestacja-1" size="0"/>
+        <node name="marsz-2" size="2">
+          <node name="biały marsz-1" size="0"/>
+          <node name="czarny marsz-1" size="0"/>
+        </node>
+      </node>
+      <node name="mityng-2" size="1">
+        <node name="wiec-1" size="0"/>
+      </node>
+      <node name="posiedzenie-6" size="1">
+        <node name="rada-4" size="0"/>
+      </node>
+      <node name="narada-2" size="4">
+        <node name="konsultacja-2" size="2">
+          <node name="superwizja-1" size="0"/>
+          <node name="konsylium-2, consilium-2, konsulta-1" size="0"/>
+        </node>
+        <node name="operatywka-1" size="0"/>
+      </node>
+      <node name="kolegium-3" size="1">
+        <node name="definitorium-2" size="0"/>
+      </node>
+    </node>
+    <node name="konferencja-1" size="8">
+      <node name="konferencja episkopatu-1" size="0"/>
+      <node name="telekonferencja-1" size="1">
+        <node name="wideokonferencja-1" size="0"/>
+      </node>
+      <node name="sympozjum-1, sympozjon-3" size="1">
+        <node name="kolokwium-2" size="0"/>
+      </node>
+      <node name="forum-1" size="0"/>
+      <node name="szczyt-6" size="0"/>
+      <node name="kongres-2" size="0"/>
+    </node>
+  </node>
+  <node name="przypadek-1, zrządzenie losu-1, traf-1, kazus-1, casus-1" size="10">
+    <node name="strzał-2" size="1">
+      <node name="strzał w dziesiątkę-1" size="0"/>
+    </node>
+    <node name="wypadek losowy-1" size="0"/>
+    <node name="pech-1, niefart-1" size="3">
+      <node name="twarde lądowanie-1" size="0"/>
+      <node name="zezowate szczęście-1, garbate szczęście-1" size="0"/>
+      <node name="ironia-3" size="0"/>
+    </node>
+    <node name="szczęście-2, fuks-2, fart-1, łut szczęścia-1, uśmiech losu-1, błogosławieństwo-3" size="2">
+      <node name="miękkie lądowanie-2" size="0"/>
+      <node name="manna z nieba-1" size="0"/>
+    </node>
+  </node>
+  <node name="przygoda-1" size="0"/>
+  <node name="zajście-9" size="0"/>
+  <node name="rywalizacja-1, współzawodnictwo-1, konkurencja-1, zmagania-2, walka-6, wyścig-2, gra-2, kompetycja-1" size="55">
+    <node name="konkurencja-5" size="0"/>
+    <node name="szarada-3" size="0"/>
+    <node name="wolna konkurencja-1" size="0"/>
+    <node name="turniej-1" size="1">
+      <node name="karuzel-1" size="0"/>
+    </node>
+    <node name="przepychanka-2" size="0"/>
+    <node name="zawody-1" size="0"/>
+    <node name="walka-4" size="6">
+      <node name="pojedynek-2" size="0"/>
+      <node name="pojedynek-1" size="1">
+        <node name="harc-1" size="0"/>
+      </node>
+      <node name="wolnoamerykanka-1, wolna amerykanka-2" size="0"/>
+      <node name="fair play-1, czysta gra-1" size="0"/>
+      <node name="sparing-1, sparring-1" size="0"/>
+    </node>
+    <node name="rewanż-1" size="0"/>
+    <node name="wyścig-1" size="39">
+      <node name="kryterium uliczne-1" size="0"/>
+      <node name="gymkhana-1" size="0"/>
+      <node name="kumoterki-1" size="0"/>
+      <node name="setka-9, stumetrówka-1" size="0"/>
+      <node name="cyklotrial-1" size="0"/>
+      <node name="cross-1, kros-1" size="0"/>
+      <node name="czasówka-1" size="0"/>
+      <node name="gońba-1" size="0"/>
+      <node name="bieg myśliwski-1" size="0"/>
+      <node name="zjazd-2, bieg zjazdowy-1" size="0"/>
+      <node name="chód-2, chodziarstwo-1, chód sportowy-1" size="0"/>
+      <node name="regaty-1" size="0"/>
+      <node name="rajd-1" size="6">
+        <node name="rajd przygodowy-1" size="0"/>
+        <node name="rajd obserwowany-1, trial-1" size="2">
+          <node name="trial motocyklowy-1" size="0"/>
+          <node name="trial rowerowy-1" size="0"/>
+        </node>
+        <node name="sześciodniówka-1" size="0"/>
+        <node name="rajd gwiaździsty-1" size="0"/>
+      </node>
+      <node name="bieg-3" size="19">
+        <node name="bieg długi-1" size="0"/>
+        <node name="bieg rozstawny-1" size="0"/>
+        <node name="bieg na orientację-1, orienteering-1" size="1">
+          <node name="radioorientacja sportowa-1" size="0"/>
+        </node>
+        <node name="dromos-2" size="0"/>
+        <node name="diaulos-1" size="0"/>
+        <node name="skip-1" size="3">
+          <node name="skip C-1" size="0"/>
+          <node name="skip B-1" size="0"/>
+          <node name="skip A-1" size="0"/>
+        </node>
+        <node name="półmaraton-1" size="0"/>
+        <node name="bieg przez płotki-1" size="0"/>
+        <node name="bieg przełajowy-1, przełaj-1" size="0"/>
+        <node name="bieg płaski-1" size="0"/>
+        <node name="sprint-1" size="0"/>
+        <node name="sztafeta-1" size="1">
+          <node name="sztafeta pożarnicza-1" size="0"/>
+        </node>
+        <node name="maraton-1" size="1">
+          <node name="supermaraton-1, ultramaraton-1" size="0"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node name="uroczystość-1" size="53">
+    <node name="swaćba-1" size="0"/>
+    <node name="choinka-3" size="0"/>
+    <node name="śluby-2" size="0"/>
+    <node name="chrzest-4" size="0"/>
+    <node name="obchód-3" size="1">
+      <node name="gaik-1, maik-1, nowe lato-1" size="0"/>
+    </node>
+    <node name="beania-2" size="0"/>
+    <node name="prekonizacja-1" size="0"/>
+    <node name="ceremoniał-1, akt-4" size="3">
+      <node name="ekspulsja-1" size="0"/>
+      <node name="komendancja-1" size="0"/>
+      <node name="intromisja-1" size="0"/>
+    </node>
+    <node name="galówka-1" size="0"/>
+    <node name="akademia-3" size="0"/>
+    <node name="oficjałka-1" size="0"/>
+    <node name="juwenalia-1, żakinada-1, dni studenta-1" size="0"/>
+    <node name="kupała-1, sobótka-1, noc świętojańska-1" size="0"/>
+    <node name="wręczenie-2" size="0"/>
+    <node name="immatrykulacja-1" size="0"/>
+    <node name="bierzmowanie-2" size="0"/>
+    <node name="zaręczyny-1, zrękowiny-1" size="0"/>
+    <node name="koronacja-1" size="0"/>
+    <node name="chrzest-1" size="0"/>
+    <node name="obchody-1" size="4">
+      <node name="oktawa wielkanocna-1" size="0"/>
+      <node name="rocznica-2" size="2">
+        <node name="jubileusz-1" size="1">
+          <node name="benefis-1" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="procesja-1" size="0"/>
+    <node name="odpust-1" size="0"/>
+    <node name="dożynki-1, święto plonów-1" size="0"/>
+    <node name="święto-2" size="9">
+      <node name="hubertowiny-1, hubertus-1" size="0"/>
+      <node name="fiesta-3" size="0"/>
+      <node name="urodziny-2" size="5">
+        <node name="dziewiętnastka-4" size="0"/>
+        <node name="siedemnastka-5" size="0"/>
+        <node name="szesnastka-6" size="0"/>
+        <node name="piętnastka-4" size="0"/>
+        <node name="osiemnastka-4" size="0"/>
+      </node>
+      <node name="wesele-1, gody-2" size="0"/>
+    </node>
+    <node name="ślub-1, zaślubiny-1, mariaż-2" size="4">
+      <node name="ślub cywilny-1" size="0"/>
+      <node name="ślub konkordatowy-1" size="0"/>
+      <node name="ślub kościelny-1" size="0"/>
+      <node name="zamążpójście-1, zamęście-1" size="0"/>
+    </node>
+    <node name="ceremonia-1" size="6">
+      <node name="hawdala-1" size="0"/>
+      <node name="gala-1" size="0"/>
+      <node name="obłóczyny-2" size="0"/>
+      <node name="ingres-1" size="0"/>
+      <node name="adoracja-2" size="1">
+        <node name="pudźa-1, pudża-1" size="0"/>
+      </node>
+    </node>
+  </node>
+  <node name="awaria-1, uszkodzenie-3" size="9">
+    <node name="blackout-1" size="0"/>
+    <node name="utyk-1" size="0"/>
+    <node name="przepięcie-1" size="1">
+      <node name="przepięcie łączeniowe-1" size="0"/>
+    </node>
+    <node name="urwanie-5" size="0"/>
+    <node name="zerwanie-10" size="0"/>
+    <node name="zwarcie-2, spięcie-5, zwarcie elektryczne-1" size="1">
+      <node name="krótkie spięcie-1" size="0"/>
+    </node>
+    <node name="rozstrój-2" size="0"/>
+  </node>
+  <node name="zajście-8" size="13">
+    <node name="awantura-1, brewerie-1, burda-1, burza-5, draka-1, Sodoma i Gomora-1" size="2">
+      <node name="jazda-4" size="0"/>
+      <node name="burza w szklance wody-1" size="0"/>
+    </node>
+    <node name="defenestracja-1" size="0"/>
+    <node name="przepychanka-1" size="0"/>
+    <node name="szamotanina-1, szarpanina-1" size="1">
+      <node name="szturchanina-1" size="0"/>
+    </node>
+    <node name="bójka-1, bijatyka-1, bitka-1, bitwa-1, łomotanina-1, mordobicie-1, nawalanka-1, przewalanka-1, rękoczyny-1, rozpierducha-1, rozróba-1, rozróbka-1" size="5">
+      <node name="rąbanina-1" size="0"/>
+      <node name="ustawka-1" size="0"/>
+      <node name="siekanina-1" size="0"/>
+      <node name="haratanina-1" size="0"/>
+      <node name="jatka-2" size="0"/>
+    </node>
+  </node>
+</node>

@@ -1,0 +1,64 @@
+verb	kupić	arg	Initiator Source	PODMIOTY	prepnp(sem,od,gen)
+verb	kupić	arg	Initiator Source	człowiek 1	prepnp(sem,od,gen)
+verb	kupić	arg	Measure	jednostka monetarna 1 pieniądze 1	prepnp(sem,za,acc)
+verb	kupić	arg	Measure	pieniądze 1 jednostka monetarna 1	prepnp(sem,za,acc)
+verb	kupić	arg	Theme Background	karta 1	prepnp(sem,za,acc)
+verb	narastać	arg	Recipient	LUDZIE ISTOTY	prepnp(sem,w,loc)
+verb	odjechać	arg	Factor	pojazd 1 WYTWÓR	prepnp(sem,na,loc)
+verb	odjechać	arg	Factor	pojazd 1 WYTWÓR	prepnp(sem,w,loc)
+verb	odjechać	arg	Instrument	pojazd 1 WYTWÓR	prepnp(sem,na,loc)
+verb	odjechać	arg	Instrument	pojazd 1 WYTWÓR	prepnp(sem,w,loc)
+verb	odjeżdżać	arg	Factor	WYTWÓR CECHA DOBRA SYTUACJA	prepnp(sem,na,loc)
+verb	odjeżdżać	arg	Factor	WYTWÓR CECHA DOBRA SYTUACJA	prepnp(sem,w,loc)
+verb	odjeżdżać	arg	Factor	pojazd 1 WYTWÓR	prepnp(sem,na,loc)
+verb	odjeżdżać	arg	Factor	pojazd 1 WYTWÓR	prepnp(sem,w,loc)
+verb	omawiać	arg	Initiator Background	PODMIOTY	prepnp(sem,z,inst)
+verb	oskarżyć	arg	Condition Foreground	KONCEPCJA CECHA CZYNNOŚĆ SYTUACJA	prepncp(o,acc),_[że]
+verb	oskarżyć	arg	Condition Foreground	KONCEPCJA CECHA CZYNNOŚĆ SYTUACJA	prepnp(sem,o,acc)
+verb	oskarżyć	arg	Condition Foreground	KONCEPCJA CECHA CZYNNOŚĆ SYTUACJA	prepnp(sem,za,acc)
+verb	oskarżyć	arg	Recipient	PODMIOTY	prepnp(sem,przed,inst)
+verb	oskarżyć	arg	Recipient	PODMIOTY	prepnp(sem,wobec,gen)
+verb	protestować	arg	Theme	decyzja 1 wytwór umysłu 1 KOMUNIKAT SYTUACJA	prepncp(przeciw,dat),_[jakoby]
+verb	protestować	arg	Theme	decyzja 1 wytwór umysłu 1 KOMUNIKAT SYTUACJA	prepncp(przeciw,dat),_[że]
+verb	protestować	arg	Theme	decyzja 1 wytwór umysłu 1 KOMUNIKAT SYTUACJA	prepncp(przeciw,dat),_[żeby]
+verb	protestować	arg	Theme	decyzja 1 wytwór umysłu 1 KOMUNIKAT SYTUACJA	prepncp(przeciw,dat),int[]
+verb	protestować	arg	Theme	decyzja 1 wytwór umysłu 1 KOMUNIKAT SYTUACJA	prepnp(sem,przeciw,dat)
+verb	przeprosić	arg	Experiencer Foreground	CZYNNOŚĆ SYTUACJA	prepncp(za,acc),_[że]
+verb	przeprosić	arg	Experiencer Foreground	CZYNNOŚĆ SYTUACJA	prepncp(za,acc),int[]
+verb	przeprosić	arg	Experiencer Foreground	CZYNNOŚĆ SYTUACJA	prepnp(sem,za,acc)
+verb	przeprosić	arg	Theme Foreground	CZYNNOŚĆ SYTUACJA	prepncp(za,acc),_[że]
+verb	przeprosić	arg	Theme Foreground	CZYNNOŚĆ SYTUACJA	prepncp(za,acc),int[]
+verb	przeprosić	arg	Theme Foreground	CZYNNOŚĆ SYTUACJA	prepnp(sem,za,acc)
+verb	rozpaczać	arg	Stimulus	ISTOTY CECHA SYTUACJA	comprepnp(sem,z powodu)
+verb	rozpaczać	arg	Stimulus	ISTOTY CECHA SYTUACJA	prepncp(nad,inst),_[że]
+verb	rozpaczać	arg	Stimulus	ISTOTY CECHA SYTUACJA	prepnp(sem,nad,inst)
+verb	rozpaczać	arg	Stimulus	ISTOTY CECHA SYTUACJA	prepnp(sem,po,loc)
+verb	rozróżniać	arg	Attribute	zachowanie 7 CECHA CZYNNOŚĆ	prepncp(po,loc),_[że]
+verb	rozróżniać	arg	Attribute	zachowanie 7 CECHA CZYNNOŚĆ	prepncp(po,loc),int[]
+verb	rozróżniać	arg	Attribute	zachowanie 7 CECHA CZYNNOŚĆ	prepnp(sem,po,loc)
+verb	rozróżniać	arg	Theme Background	ALL	prepncp(od,gen),_[że]
+verb	rozróżniać	arg	Theme Background	ALL	prepncp(od,gen),int[]
+verb	rozróżniać	arg	Theme Background	ALL	prepnp(sem,od,gen)
+verb	rozróżniać	arg	Theme Foreground	ALL	prepnp(sem,między,inst)
+verb	rozróżniać	arg	Theme Foreground	ALL	prepnp(sem,pomiędzy,inst)
+verb	stosować	arg	Condition	zaburzenie 2 CECHA SYTUACJA	prepnp(sem,na,acc)
+verb	stosować	arg	Condition	zaburzenie 2 CECHA SYTUACJA	prepnp(sem,w,loc)
+verb	stosować	arg	Location	POŁOŻENIE	prepnp(sem,na,acc)
+verb	stosować	arg	Purpose	CZYNNOŚĆ	prepnp(sem,do,gen)
+verb	stosować	arg	Theme	ALL	prepnp(sem,do,gen)
+verb	stosować	arg	Theme	ALL	prepnp(sem,w,loc)
+verb	stosować	arg	Theme	ALL	prepnp(sem,wobec,gen)
+verb	wyjrzeć	arg	Location Source	POŁOŻENIE MIEJSCE SYTUACJA	xp(abl)[prepnp(sem,spod,gen);prepnp(sem,z,gen)]
+verb	wyjrzeć	arg	Theme Source	MIEJSCE SYTUACJA	xp(abl)[prepnp(sem,spod,gen);prepnp(sem,z,gen)]
+verb	wyruszyć	arg	Location Goal	MIEJSCE OTOCZENIE	prepnp(sem,do,gen)
+verb	wyłaniać	arg	Theme Source	KONCEPCJA WYTWÓR OBIEKTY SYTUACJA	prepnp(sem,spośród,gen)
+verb	wyłaniać	arg	Theme Source	KONCEPCJA WYTWÓR OBIEKTY SYTUACJA	prepnp(sem,z,gen)
+verb	zatelefonować	arg	Recipient	PODMIOTY	prepnp(sem,do,gen)
+verb	zatelefonować	arg	Theme	sprawa 1 KOMUNIKAT WYTWÓR	comprepnp(sem,w sprawie)
+verb	zatelefonować	arg	Theme	sprawa 1 KOMUNIKAT WYTWÓR	prepncp(z,inst),_[że]
+verb	zatelefonować	arg	Theme	sprawa 1 KOMUNIKAT WYTWÓR	prepnp(sem,o,acc)
+verb	zatelefonować	arg	Theme	sprawa 1 KOMUNIKAT WYTWÓR	prepnp(sem,po,acc)
+verb	zatelefonować	arg	Theme	sprawa 1 KOMUNIKAT WYTWÓR	prepnp(sem,z,inst)
+verb	zrezygnować	arg	Theme	CZYNNOŚĆ DOBRA SYTUACJA	prepncp(z,gen),_[że]
+verb	zrezygnować	arg	Theme	CZYNNOŚĆ DOBRA SYTUACJA	prepncp(z,gen),_[żeby]
+verb	zrezygnować	arg	Theme	CZYNNOŚĆ DOBRA SYTUACJA	prepnp(sem,z,gen)

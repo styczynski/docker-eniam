@@ -1,0 +1,52 @@
+ENIAMwalenty Version 1.0 :
+-----------------------
+
+ENIAMwalenty is a library that converts
+Polish Valence Dictionary "Walenty"
+from TEI into format used by ENIAM.
+
+Install
+-------
+
+ENIAMwalenty requires OCaml version 4.02.3 compiler
+together with Xlib library version 3.2.
+
+In order to use ENIAMwalenty you must first download Walenty in TEI format
+together with the phrase expands file.
+
+Then, compile ENIAMwalenty:
+
+make
+
+convert Walenty:
+
+./converter <walenty_file> <expands_file>
+
+install converted Walenty:
+
+make install
+
+remove temporary files:
+
+make clean
+
+Credits
+-------
+Copyright © 2016-2018 Wojciech Jaworski <wjaworski atSPAMfree mimuw dot edu dot pl>
+Copyright © 2016-2018 Institute of Computer Science Polish Academy of Sciences
+
+Licence
+-------
+
+This library is free software: you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.

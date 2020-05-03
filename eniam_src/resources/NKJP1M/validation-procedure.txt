@@ -1,0 +1,46 @@
+SGJP-EXACT: 132267 pozycji, w tym:
+  - zawsze CORR
+  - NCH oprócz 84 pozycji COMPD, które są akronimami odmienionymi z myślnikiem
+  - NCOMPOS w 70 pozycjach z lematami: być:aglt, osiemset, tak, duży, wzejść, wejść, zejść
+  - COMPOS-ndm: 914 pozycji zawierających sporo akronimów
+  - COMPOS-LWR: 20 pozycji, tylko w wersji COMPOS-LWR-ALT, głównie akronimy
+  - COMPOS-*: 81 pozycji
+
+cat NKJP1M-tagged-frequency.tab | grep -P "\tCOMPOS\tSGJP-EXACT\tNCH\tCORR" >NKJP1M-tagged-frequency-EXACT.tab
+cat NKJP1M-tagged-frequency.tab | grep -v -P "\tCOMPOS\tSGJP-EXACT\tNCH\tCORR" >NKJP1M-tagged-frequency-NON-EXACT.tab
+
+SGJP-LMM-UNCAPITAL: 21320 pozycji, w tym:
+
+COMPOS /   na później.
+  - zawsze CORR
+  - zawsze NCH
+  - NCOMPOS w 33 pozycjach z lematami: wejść, zejść, duży, wyjść,
+
+cat NKJP1M-tagged-frequency-NON-EXACT.tab | grep -v -P "\tCOMPOS-LWR\tSGJP-LMM-UNCAPITAL\tNCH\tCORR" >NKJP1M-tagged-frequency-TAIL.tab
+cat NKJP1M-tagged-frequency-NON-EXACT.tab | grep -P "\tCOMPOS-LWR\tSGJP-LMM-UNCAPITAL\tNCH\tCORR" >NKJP1M-tagged-frequency-LMM-UNCAPITAL.tab
+
+cat NKJP1M-tagged-frequency-TAIL.tab | grep -P "\tSYMB\t" > NKJP1M-tagged-frequency-SYMB.tab
+cat NKJP1M-tagged-frequency-TAIL.tab | grep -v -P "\tSYMB\t" > NKJP1M-tagged-frequency-TAIL2.tab
+
+SYMB: 5703 pozycji, w tym:
+  - może zawierać trochę akronimów do odsiania
+
+sort NKJP1M-tagged-frequency-TAIL2.tab >NKJP1M-tagged-frequency-FOR-VALIDATION.tab
+
+NKJP1M-tagged-frequency-FOR-VALIDATION.tab skopiowany do NKJP1M-tagged-frequency-VALIDATION.tab
+NKJP1M-tagged-frequency-VALIDATION.tab ręcznie przetworzony w arkuszu kalkulacyjnym
+
+
+posortować zwn COMPOS i przejrzeć.
+posortować zwn UNK i przejrzeć.
+gdzie umieszczać nazwy typu 125p
+do analizy: COMPOS	NON-SGJP	UNK	CORR
+wyszukać w pierwszej kolumnie - i '
+
+kryptonimy: COMPOS-ndm	NON-SGJP	PN	CORR
+demokraci.pl itp.
+
+Uwaga do tagsetu: akronimy odmienione z myślnikiem należą do COMPD a nie ACRO
+
+cat NKJP1M-tagged-frequency-VALIDATION-sort.tab NKJP1M-tagged-frequency-SYMB-sort.csv NKJP1M-tagged-frequency-LMM-UNCAPITAL.tab NKJP1M-tagged-frequency-EXACT.tab | sort >NKJP1M-tagged-frequency-AFTER-VALIDATION.tab
+

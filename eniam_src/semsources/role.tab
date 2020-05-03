@@ -1,0 +1,20 @@
+			Stimulus
+a	subj,np(str)	kto	Initiator +
+ą	xp(inst)	kim	Instrument +
+			Factor +
+			Experiencer +
+ę	np(str)	kogo	Theme
+			Result +
+ie	np(dat)	komu	Recipient +
+	xp(dest)		Purpose -
+	xp(caus)	dlaczego	Condition +
+ona,..	adjp	jaka	Attribute +
+		ile	Measure +
+ono	advp	jak	Manner +
+	xp(dur)	jak długo	Duration -
+	xp(time)	kiedy	Time
+	xp(perl)	którędy	Path -
+ie	xp(locat)	gdzie	Location +
+y	xp(abl)	skąd	Location Source
+ę	xp(adl)	dokąd	Location Goal
+

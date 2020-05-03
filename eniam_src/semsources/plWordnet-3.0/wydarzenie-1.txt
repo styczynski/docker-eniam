@@ -1,0 +1,2266 @@
+2183 wydarzenie-1, historia-3, wypadek-3, zdarzenie-2
+  0 kosmos-4
+  0 powtórka z rozrywki-1
+  0 event-1
+  0 derelikcja-1
+  0 zdarzenie prawne-1
+  0 cudaczność-6
+  0 zdarzenie radiacyjne-1
+  0 zdarzenie losowe-1
+  64 rozpoczęcie-4
+    0 wielki wybuch-2
+    1 otwarcie-2
+      0 inauguracja-1
+    53 otwarcie-5
+      52 debiut-3, otwarcie szachowe-1
+        7 debiut półotwarty-1
+          0 debiut Nimzowitscha-1
+          0 obrona Pirca-1
+          0 obrona Alechina-1
+          0 obrona skandynawska-1
+          0 obrona Caro-Kann-1
+          0 obrona francuska-1
+          0 obrona sycylijska-1
+        17 debiut zamknięty-1
+          0 otwarcie Rétiego-1
+          0 obrona Grünfelda-1
+          0 partia katalońska-1
+          0 obrona holenderska-1
+          0 obrona Nimzowitscha-1
+          0 partia angielska-1
+          0 obrona hetmańsko-indyjska-1
+          0 obrona królewsko-indyjska-1
+          VISITED 8 gambit hetmański-1
+        19 debiut otwarty-1
+          2 obrona Philidora-1
+            VISITED 0 kontrgambit Lopeza-1
+            VISITED 0 kontrgambit Philidora-1
+          0 partia wiedeńska-1
+          0 partia szkocka-1
+          0 obrona rosyjska-1, partia rosyjska-1
+          0 obrona dwóch skoczków-1
+          VISITED 9 gambit królewski-2
+          0 partia włoska-1
+          0 partia hiszpańska-1
+        26 gambit-2
+          0 gambit wołżański-1
+          9 gambit królewski-2
+            0 gambit Masona-1
+            0 gambit Villemsona-1
+            0 gambit gońca-1
+            0 nieprzyjęty gambit królewski-1
+            VISITED 0 kontrgambit Falkbeera-1
+            0 wariant z szybkim d5-1
+            0 gambit Kieseritzky'ego-1
+            0 obrona klasyczna-1
+            0 gambit skoczka-1, gambit skoczkowy-1
+          7 kontrgambit-1
+            0 kontrgambit Gianutio-1
+            0 kontrgambit Lembergera-1
+            0 kontrgambit Winawera-1
+            0 kontrgambit Lopeza-1
+            0 kontrgambit Philidora-1
+            0 kontrgambit Falkbeera-1
+            VISITED 0 kontrgambit Albina-1
+          8 gambit hetmański-1
+            0 obrona austriacka-1
+            0 kontrgambit Albina-1
+            0 obrona Czigorina-1
+            0 obrona słowiańska-1
+            0 gambit przyjęty-1
+            2 gambit nieprzyjęty-1
+              0 obrona bałtycka-1, obrona Keresa-1
+              0 obrona Marshalla-1
+    0 start-4
+    4 start-2
+      0 restart-2
+      0 start zatrzymany-1
+      0 start lotny-1
+      0 falstart-1
+    0 rozruch-1
+  1 wjazd-4
+    0 ingres-2
+  0 wmarsz-1
+  0 przebój-3
+  VISITED 59 pokaz-2
+  0 kasacja-3
+  0 triennale-1
+  0 biennale-1
+  0 wybudowa-1
+  0 kampania-2
+  0 rozpleciny-1, warkocz-4
+  1 doświadczenie-6
+    0 doświadczenie religijne-1, doświadczenie duchowe-1
+  24 okazja-2, okoliczność-2
+    VISITED 23 impreza-2, balanga-1
+  0 zachowanie-9
+  0 wiercenie-4, odwiert-2
+  53 kontakt-2
+    0 dialog obywatelski-1
+    0 trofalaksja-1
+    0 bliskie spotkanie trzeciego stopnia-1
+    12 spojrzenie-4, wejrzenie-3, wzrok-1
+      0 rzut oka-1
+      0 argusowe oko-1
+      0 krowie oczy-1
+      0 powłóczyste spojrzenie-1
+      VISITED 2 blask-2
+      1 chochlik-1, diablik-1
+        0 kurwik-1
+      0 oko-3
+      0 maślane oczy-1, maślane spojrzenie-1
+      0 wzrok bazyliszka-1, oczy bazyliszka-1
+    36 dotyk-2, dotknięcie-5
+      33 uderzenie-10
+        0 tupnięcie-3
+        0 apel-5
+        0 puknięcie-8, stuknięcie-9
+        1 klaśnięcie-4
+          0 oklask-1
+        25 cios-1, raz-2
+          0 cios młotkowy-1
+          2 cios prosty-1, prosty-3
+            0 prawy prosty-1
+            0 lewy prosty-1
+          1 pchnięcie-4
+            0 sztych-2
+          0 atemi-1
+          0 hak-4
+          0 pałka-5, pała-7
+          0 szacht-3
+          0 byk-4
+          0 fanga-2
+          0 bykowiec-2
+          2 sierpowy-1, sierp-2, swing-4, cios sierpowy-1
+            0 prawy sierpowy-1
+            0 lewy sierpowy-1
+          0 kopniak-1, kop-2, kopnięcie-4, kops-1
+          0 klaps-1
+          6 uderzenie-15
+            0 manszeta-4
+            0 młyniec-2
+            0 nokdaun-1, knock-down-1, KD-1
+            0 nokaut-2, knock-out-1, knockout-1, KO-1
+            1 kontra-3
+              0 riposta-2
+        0 prztyczek-1, prztyk-1, prztyknięcie-1, pstryczek-1, pstryk-2, pstryknięcie-1
+        0 kuksaniec-1, kuks-1, sójka-3, szturchaniec-1, szturchnięcie-2, kułak-3
+      0 muśnięcie-4
+      0 liźnięcie-5
+  0 nieprawdopodobieństwo-1
+  0 akt-5
+  497 rozrywka-1
+    21 łamigłówka-1
+      0 wykreślanka-1
+      0 wsuwanka-1
+      0 labirynt-6
+      0 zgadywanka-1
+      13 szarada-1
+        0 diakrostych-1
+        0 anagram-2
+        0 logogryf-1
+        0 szyfrogram-2
+        0 kalambur-1
+        7 krzyżówka-2
+          0 swatka-2
+          0 krzyżówka panoramiczna-1
+          1 krzyżówka magiczna-1
+            0 kwadrat magiczny-2
+          0 krzyżówka hetmańska-1
+          0 bliźniaki-2
+          0 jolka-1
+      0 rebus-1
+      VISITED 0 pasjans-1
+      0 zagadka-1
+    13 hazard-2
+      VISITED 10 gra hazardowa-1
+      0 e-hazard-1
+      0 karciarstwo-1
+    240 zabawa-2
+      0 perskie oko-5
+      0 hopki-2
+      0 świętojanka-3
+      0 podkoziołek-1
+      0 zorbing-1
+      0 ślizgawka-3
+      0 zabawa w dom-1
+      0 zabawa w doktora-1
+      1 zabawa weselna-1, zabawa oczepinowa-1
+        0 gorące krzesła-1
+      0 gra w butelkę-1, butelka-3
+      0 karaoke-1
+      2 igraszka słowna-1, gra słów-2
+        0 kalambur-2
+        0 anagram-1
+      0 salonowiec-1
+      24 *zabawa dziecięca-1
+        0 głupi jaś-2
+        0 walka na poduszki-1
+        0 zielone-2, gra w zielone-1
+        0 kraje-1
+        1 skakanie w linkę-1
+          0 double Dutch-1
+        0 skakanie na skakance-1
+        0 chowany-1, chowaniec-1, chowanka-1
+        0 kocia kołyska-1
+        VISITED 0 oszukaniec-2
+        0 koło-9, kółko-2
+        VISITED 0 łapki-1
+        0 kipi-kasza-1, kipi kasza-1
+        VISITED 0 klasy-1, gra w klasy-1
+        0 dokazywanie-2, figle-1, psoty-1, swawola-2, harce-2
+        0 pomidor-3
+        0 kółko graniaste-1
+        0 głuchy telefon-1
+        0 ciuciubabka-2, ślepa babka-1
+        0 wyliczanka-2
+        0 czarny lud-1
+        VISITED 2 berek-1, ganiany-1, goniany-1, gra w berka-1
+      0 użycie-6
+      203 gra-1
+        0 gra nieskończona-1
+        0 gra liczbowa-1
+        0 chuba-1
+        0 mankala-1
+        0 diabolo-1
+        0 ciupy-1, hacle-1, hacele-1
+        0 pikuty-1
+        1 gra logiczna-1
+          0 samotnik-3, zakonniczka-2
+        19 gra losowa-1
+          10 gra hazardowa-1
+            0 perskie oczko-2
+            VISITED 0 ferbel-1
+            VISITED 0 stukułka-1
+            0 rosyjska ruletka-1
+            VISITED 0 bakarat-2, bakar-1
+            1 totalizator-1
+              0 toto-lotek-1, totolotek-1, totek-1
+            0 ruletka-1
+            VISITED 1 poker-1
+          7 loteria-1
+            VISITED 2 loteryjka-1
+            0 zdrapka-1
+            0 wideoloteria-1
+            0 loteria fantowa-1, tombola-1
+            VISITED 0 bingo-1
+        0 odbijanka-1
+        0 larp-1
+        3 gra RPG-1, RPG-2
+          0 drama-5
+          VISITED 1 gra RPG-2, RPG-1
+        1 rzucanka-1
+          0 rzucanka siatkarska-1
+        8 *gra podwórkowa-1
+          0 gra w bule-1, bule-1, boule-1, petanka-1, petanque-1
+          0 serso-2
+          0 zośka-1
+          0 klasy-1, gra w klasy-1
+          0 klipa-1
+          2 berek-1, ganiany-1, goniany-1, gra w berka-1
+            0 krowa-8
+            0 berek kucany-1, kucany-1
+        97 gra towarzyska-1
+          0 państwa-miasta-1
+          0 mora-6
+          0 okręty-1, statki-1
+          0 lotto-1
+          2 loteryjka-1
+            0 memo-1
+            VISITED 0 Piotruś-1, Czarny Piotruś-1
+          26 gra planszowa-2, planszówka-2
+            0 halma-1
+            0 węże i drabiny-1
+            0 monopol-5
+            0 chińczyk-3
+            0 nim-3
+            0 pachisi-1
+            0 trylma-1
+            0 wari-1
+            0 tryktrak-1
+            0 młynek-2
+            0 go-1
+            1 warcaby-1
+              0 wybijanka-1
+            12 szachy-1, królewska gra-1
+              0 szachy błyskawiczne-1, blitz-1
+              0 szachy szybkie-1, szachy aktywne-1
+              0 problemistyka-1
+              0 antyszachy-1
+              0 szachy losowe-1, szachy Fischera-1, szachy 960-1
+              0 szachy trzyosobowe-1
+              0 szachy czteroosobowe-1
+              0 żywe szachy-1
+              0 szachy korespondencyjne-1
+              1 szachy heksagonalne-1
+                0 szachy heksagonalne Glińskiego-1, heksagonalne szachy polskie-1
+              0 shōgi-1
+          0 pchełki-1
+          0 bierki-1, gra w bierki-1
+          1 *gra słowna-1
+            0 scrabble-1
+          0 madżong-1, mahjong-1, mah jong-1, mahjongg-1
+          0 kółko i krzyżyk-1, gra w kółko i krzyżyk-1
+          0 gra w kości-1
+          0 bingo-1
+          4 domino-1
+            0 sewastopol-1
+            0 bergen-1
+            0 muggins-1
+            0 matador-1
+          50 gra w karty-1, karty-1, gra karciana-1
+            0 sześćdziesiąt sześć-1
+            0 tysiąc-4
+            0 karciane domino-1
+            0 rus-2
+            0 ramsz-1
+            0 ferbel-1
+            0 drużbart-1
+            0 zechcyk-1
+            0 panfil-1, pamfil-1
+            0 lombr-1
+            0 szust-3
+            0 chapanka-1
+            0 stukułka-1
+            0 mariasz-2
+            0 dupa biskupa-1
+            0 kuku-1
+            0 kent-1
+            0 pan-10
+            2 hanafuda-1
+              0 koi-koi-1
+              0 poka-1
+            0 makao-1
+            0 remik-1, remibrydż-1, remi-1, żolik-1
+            0 kanasta-1
+            0 bakarat-2, bakar-1
+            0 wojna-4, gra w wojnę-1
+            0 Juker-1, Euker-1
+            0 trzy karty-1
+            0 Piotruś-1, Czarny Piotruś-1
+            0 garibaldka-1
+            0 kierki-1
+            0 tysiąc-3
+            0 bezik-1
+            0 oszukaniec-2
+            0 dureń-2
+            1 pikieta-2
+              0 rumel-1
+            0 preferans-1
+            0 labet-1
+            0 wist-1, wist klasyczny-1
+            0 wint-1
+            0 tarot-2, tarok-1
+            0 skat-1
+            0 pasjans-1
+            1 oczko-6, dwadzieścia jeden-1
+              0 blackjack-1
+            1 poker-1
+              0 poker rozbierany-1, nagi poker-1
+            1 brydż-1, bridż-1
+              0 brydż sportowy-1
+        0 rzutki-1, lotki-1, strzałki-1, gra w lotki-1, gra w rzutki-1, gra w strzałki-1, darty-1, dart-1
+        1 paintball-1
+          0 speedball-1
+        0 łapki-1
+        0 cymbergaj-1
+        39 *gra drużynowa-1, gra zespołowa-1
+          2 siatkonoga-1
+            0 footvolley-1
+            0 futnet-1
+          0 korfball-1
+          0 hurling-1
+          0 polo-1
+          0 podchody-1
+          0 lacrosse-1
+          20 piłka-1, piłkarstwo-1
+            0 piłka palantowa-1, palant-2
+            0 zbijak-1, zbijany-1
+            0 ulama-1
+            0 piłka halowa-1, futsal-1
+            0 piłka wodna-1, waterpolo-1
+            0 dwa ognie-1
+            0 hazena-1, jordanka-1, czeska piłka ręczna-1
+            0 rugby-1
+            0 futbol amerykański-1, football-1
+            0 piłka ręczna-1, szczypiorniak-1, ręka-7
+            4 piłka nożna-1, futbol-1, soccer-1, noga-3
+              0 freestyle-5
+              0 enerdowski futbol-1, NRD-owski futbol-1
+              0 football profesjonalny-1
+              0 halówka-1
+            2 koszykówka-1, koszykarstwo-2, piłka koszykowa-1, kosz-10
+              0 streetball-1, koszykówka uliczna-1
+              0 euroliga-1
+            1 siatkówka-1, siatkarstwo-1, piłka siatkowa-1, siatka-7
+              0 siatkówka plażowa-1, plażówka-3
+          0 pelota-1, pilota-1, jai-alai-1
+          0 kwadrant-3
+          0 baseball-1, bejsbol-2
+          0 krykiet-1
+          5 hokej-1
+            0 hokej na rolkach-1
+            0 unihokej-1, floorball-1
+            0 hokej na lodzie-1, hokej-2
+            0 hokej na trawie-1
+            0 hokej rosyjski-1, bandy-1
+        22 *gra komputerowa-1
+          0 czytanka-3
+          0 remake-2
+          1 symulator-2
+            0 symulator lotu-1
+          0 zręcznościówka-1, gra zręcznościowa-1
+          0 sandbox-1
+          0 skradanka-1
+          2 strategia-3, strateg-2, gra strategiczna-1
+            0 RTS-1, strategia czasu rzeczywistego-1
+            0 turówka-2
+          0 bijatyka-2, mordobicie-2, nawalanka-3
+          1 strzelanina-3, strzelanka-1
+            0 FPS-1
+          1 przygodówka-1
+            0 point and click-1
+          0 platformówka-1
+          1 gra RPG-2, RPG-1
+            VISITED 0 gra MMORPG-1, MMO-1
+          1 gra sieciowa-1
+            0 gra MMORPG-1, MMO-1
+          1 ścigałka-1, wyścigi-1, wyścigówka-4, gra wyścigowa-1
+            0 samochodówka-1
+          0 film interaktywny-1
+        0 kręgle-1, gra w kręgle-1
+        0 golf-2
+    231 impreza-1, feta-1
+      0 impreza turystyczna-1
+      0 wyścigi-2
+      0 promocja-7
+      1 przegląd-2
+        0 gitariada-1
+      0 półmetek-2, połowinki-1
+      VISITED 1 turniej-1
+      0 ognisko-4
+      0 tombola-2
+      0 biba-1, bania-6, ochlaj-1
+      0 lajkonik-1
+      0 kulig-1
+      VISITED 1 recital-1
+      0 wernisaż-1
+      2 wystawa-1, ekspozycja-1
+        0 ludzkie zoo-1
+        0 targi-1
+      54 pokaz-1, prezentacja-3
+        0 striptiz-1
+        0 demonstracja-4
+        0 rewia mody-1, rewia-2
+        1 projekcja-1
+          0 kolaudacja-1
+        45 przedstawienie-7, sztuka-4, widowisko-1, inscenizacja-1, spektakl-1
+          0 spektakl muzyczny-1
+          0 melodramat-5
+          1 teatrzyk-3
+            0 teatrzyk cieni-1
+          0 katakali-1, kathakali-1
+          0 igrce-1
+          0 divertissement-1
+          0 herody-1
+          1 forma teatralna-1
+            0 bulwarówka-3, komedia bulwarowa-1
+          6 teatr-2
+            1 teatr lalek-3
+              0 teatr cieni-1
+            0 teatr uliczny-1
+            0 teatr telewizji-1
+            0 teatr muzyczny-4
+            0 teatr radiowy-1
+          0 show-1
+          1 performance-1, performans-1
+            0 environment-1
+          0 faktomontaż-1
+          0 music-hall-1
+          1 happening-1
+            0 streaking-1
+          0 feeria-2
+          VISITED 0 benefis-1
+          0 korrida-1, corrida-1, tauromachia-1
+          1 przekładaniec-2, montaż-2
+            VISITED 0 kabareton-1
+          0 burleska-4
+          0 cyrk-1
+          0 szopka-2, jasełka-1
+          1 pantomima-1, mimodram-1, mim-2
+            0 arlekinada-2
+          0 musical-2
+          0 popołudniówka-2
+          0 rewia-1
+          0 balet-2, spektakl baletowy-1
+          0 operetka-2
+          2 premiera-1
+            0 prawykonanie-1
+            0 prapremiera-1
+          0 opera-3
+          2 kabaret-1
+            0 kabareton-1
+            0 szopka-3
+        2 seans-1
+          0 kino-3
+          0 seans spirytystyczny-1
+      2 piknik-1
+        0 lipcówka-3
+        0 majówka-1
+      2 festyn-1
+        VISITED 0 fiesta-3
+        VISITED 0 corso-1, korso-1
+      0 maraton-2
+      64 zawody-2
+        0 puchar-4
+        0 spartakiada-1
+        0 agonistyka-1
+        0 paraolimpiada-1, igrzyska paraolimpijskie-1
+        1 mistrzostwa-1, czempionat-1, championat-1
+          0 mundial-1
+        0 trójmecz-1
+        0 czwórmecz-1
+        0 uniwersjada-1
+        VISITED 39 wyścig-1
+        0 mityng-1
+        0 memoriał-1
+        4 turniej-2
+          0 Turniej Gwiazdkowy-1
+          0 Wielki Szlem-4
+          0 miniturniej-1
+          0 play off-1, play-off-1
+        VISITED 7 igrzyska-1, igrzysko-1
+      14 zabawa-1, tańce-1, potańcówka-1, balety-1
+        0 comber-4
+        0 kinderbal-1
+        0 otrzęsiny-1, frycówka-1
+        0 szaleństwo-4
+        0 prywatka-1
+        0 dyskoteka-2, disco-1
+        0 dansing-1, dancing-1
+        VISITED 1 wieczorek-1
+        0 studniówka-1
+        3 bal-1
+          VISITED 0 asambl-1
+          0 bal przebierańców-1, kostiumówka-1
+          0 maskarada-1
+      16 występ-1, produkcja-5
+        0 solo-1
+        0 intermedium-1
+        1 improwizacja-3
+          VISITED 0 jam session-1, jam-session-1
+        5 wystąpienie-10, przemowa-2
+          4 deklamacja-1, recytacja-1
+            0 norito-1
+            0 chór-6
+            0 melopeja-1
+            0 melorecytacja-1, melodeklamacja-1
+        4 koncert-1
+          VISITED 0 benefis-1
+          0 jazz-jamboree-1
+          1 recital-1
+            0 minirecital-1
+        0 debiut-2
+      VISITED 48 przyjęcie-13
+      0 sylwester-1, sylwek-1
+      5 konkurs-1
+        0 olimpiada-2
+        0 telekonkurs-1
+        0 teleturniej-1
+        0 quiz-1, kwiz-1
+        0 plebiscyt-2
+      8 festiwal-1
+        7 igrzyska-1, igrzysko-1
+          2 igrzyska greckie-1
+            0 igrzyska istmijskie-1
+            0 starożytne igrzyska olimpijskie-1, igrzyska olimpijskie-2, olimpiada-4
+          0 parafiada-1
+          0 juwenalia-2
+          1 olimpiada-1, igrzyska olimpijskie-1, nowożytne igrzyska olimpijskie-1
+            0 olimpiada zimowa-1
+  35 konflikt-1, konfrontacja-2
+    0 topór wojenny-1
+    VISITED 2 awantura-1, brewerie-1, burda-1, burza-5, draka-1, Sodoma i Gomora-1
+    0 zatarg-1, scysja-1, nieporozumienie-2, kwasy-1, spięcie-4, tarcia-1, zadrażnienie-1
+    14 spór-1, dyferencja-2
+      0 spór kompetencyjny-1
+      0 przetarg-3
+      0 pojedynek-4
+      0 logomachia-1, łapanie za słówka-1
+      3 walka-5, wojna-2, batalia-2, bój-2
+        0 gladiatorstwo-1
+        0 atak-6
+        0 krucjata-2
+      5 kłótnia-1, waśń-1, niesnaski-1, swary-1
+        0 ścięcie-12
+        0 niesnaska-1
+        0 scena-7
+        0 pyskówka-2
+        0 sprzeczka-1, utarczka-2, zwada-1, potyczka-2, starcie-7
+    0 wojna na górze-1
+    0 przeprawa-1
+    VISITED 12 wojna-1
+  1 scena-1, scenka-1
+    0 pantomima-3
+  0 antecedens-1, antecedencja-1
+  3 wstrząs dziejowy-1, burza-2, huragan-2, nawałnica-2, pożar-1, pożoga-2, wicher-2, zawierucha-2, burza dziejowa-1
+    0 pomór-2
+    VISITED 1 rewolucja-1
+  11 plaga-1
+    10 epidemia-1, zaraza-2
+      0 enzootia-1
+      1 mór-1
+        0 mór-3, zaraza morowa-1, czarna śmierć-1, morowe powietrze-1
+      0 epifitia-1, epifitoza-1
+      0 epizootia-1, pomór-3, zaraza-6, epizoocja-1
+      3 pandemia-1
+        0 czarna śmierć-2
+        0 grypa azjatycka-1
+        0 hiszpanka-3
+      0 endemia-1
+  8 *zdarzenie związane z religią-1
+    0 agon-1
+    VISITED 0 paruzja-1
+    0 wniebowzięcie-2
+    1 wniebowstąpienie-1
+      0 miradż-1
+    0 zmartwychwstanie-1
+    1 wcielenie-4, inkarnacja-2
+      0 kenoza-1
+  1 zamieszki-1, rozruchy-1, ruchawka-1, wrzenie-7, tumult-2
+    0 zadyma-1
+  18 apokalipsa-4
+    VISITED 7 klęska żywiołowa-1, kataklizm-1
+    9 zagłada-1, zatracenie-2, zatrata-2
+      0 hekatomba-2
+      6 mord-2, masakra-1, rzeź-1, rzeźnia-2, krwawa łaźnia-1, wyżynka-2
+        0 rzeź niewiniątek-3
+        VISITED 1 pogrom-2, czystka-1
+        0 egzekucja-1
+        1 ludobójstwo-1, eksterminacja-1
+          0 holocaust-1, szoah-1, Szoah-2, holokaust-1, zagłada-2, Zagłada-3
+      0 samozagłada-1, samounicestwienie-1, samozniszczenie-1, autodestrukcja-1
+  0 apokalipsa-2
+  0 dekonspiracja-1, wsypa-1, wpadka-2
+  152 *zdarzenie oceniane negatywnie-1
+    0 jatka-3
+    0 kryminał-4
+    0 satyra-3
+    98 niepowodzenie-1, klapa-2, fiasko-1, klęska-3, katastrofa-1, koniec-5, obsuwa-1
+      0 musztarda po obiedzie-1
+      0 pudło-8
+      0 antysztuka-2
+      3 wpadka-1, wtopa-1
+        0 plama-1
+        VISITED 1 potknięcie-2
+      83 strata-1, utrata-1, szkoda-2, uszczerbek-1
+        0 trójkąt Harbergera-1
+        0 straty moralne-1
+        0 dekulturacja-1
+        0 zgar-1
+        0 depersonalizacja-1
+        0 przegrana-2
+        0 frycowe-1, gapowe-1
+        0 uszczerbek na zdrowiu-1
+        74 krzywda-1, niesprawiedliwość-1
+          1 nierówność-2
+            0 nierówność społeczna-1
+          6 wyzysk-1
+            0 lichwa-2, lichwiarstwo-1
+            0 eksploatacja-1
+            0 pasożytnictwo-2
+            0 zdzierstwo-1
+            1 niewolnictwo-1, niewola-1
+              0 encomienda-1
+          23 nietolerancja-1, nietolerancyjność-1
+            0 antyfeminizm-1
+            0 ciemnogród-1
+            0 antysemityzm-1, antyżydowskość-1, antyjudaizm-1, żydożerstwo-1
+            4 ksenofobia-2
+              0 brytofobia-1
+              VISITED 0 antyslawizm-1, slawofobia-1
+              0 rusofobia-1
+              0 germanofobia-1
+            15 dyskryminacja-1
+              0 audyzm-1
+              0 atrakcjonizm-1, lookizm-1
+              0 adultyzm-1
+              1 transfobia-1, transuprzedzenia-1
+                0 transmizogynia-1
+              0 heterofobia-1
+              0 ageizm-1
+              0 handicapizm-1
+              0 deprywacja polityczna-1
+              1 seksizm-1
+                0 lesbofobia-1
+              0 numerus clausus-1
+              0 szowinizm-1
+              1 rasizm-1
+                0 antyslawizm-1, slawofobia-1
+          28 represja-1, ucisk-1, prześladowanie-2, terror-1
+            0 bułgaryzacja-2
+            0 persekucja-1
+            0 junkierstwo-2
+            0 bolszewizacja-2
+            0 sekatura-1
+            0 dragonada-2
+            0 dragonada-1
+            0 psychuszka-1
+            0 ciemięstwo-1
+            1 pogrom-2, czystka-1
+              0 czystka etniczna-1
+            1 szykana-1
+              0 czystka-2
+            3 szykany-1
+              0 mobbing-1
+              1 nagonka-1
+                0 polowanie na czarownice-1
+            0 przesiedlenie-2
+            0 zsyłka-1
+            1 wywózka-1
+              0 branka-2
+            1 wysiedlenie-2
+              0 rugi-1
+            0 wypędzenie-2
+            0 rusyfikacja-2
+            0 germanizacja-2
+            1 obława-1
+              0 łapanka-1
+          11 obelga-1, zniewaga-1, obraza-1, policzek-2, znieważenie-2, afront-1, dotknięcie-6, dyshonor-1, ujma-1, poniżenie-3, dyzgust-3, epitet-3
+            0 obraza majestatu-1
+            0 środkowy palec-1
+            0 ukąszenie heglowskie-1
+            0 czynna zniewaga-1
+            0 zwymyślanie-2
+            0 wyzwisko-2
+            0 profanacja-1, świętokradztwo-2
+            0 zniesławienie-2
+            1 szyderstwo-2
+              0 persyflaż-2
+            0 bluźnierstwo-2
+      6 porażka-1, przegrana-1, klęska-1
+        0 powrót na tarczy-1
+        0 pogrom-3
+        0 powrót na tarczy-2
+        0 plajta-1
+        0 cięgi-1, baty-1, razy-1
+        0 kompromitacja-1, blamaż-1, dyskredytacja-1, skompromitowanie-4, krewa-1
+    0 makabreska-2
+    VISITED 0 pijatyka-1, opilstwo-2, libacja-1, wypitka-1, napitka-1
+    0 szczyt szczytów-1, szczyt wszystkiego-1
+    4 makabra-1
+      3 horror-2, okropieństwo-2, koszmar-1, okropność-1, potworność-2, straszliwość-2, straszność-2
+        0 piekło-2
+        1 pandemonium-1
+          0 sądny dzień-3, dzień gniewu-4
+    15 wypadek-1
+      0 wypadek jądrowy-1
+      0 katastrofa budowlana-1
+      1 wypadek komunikacyjny-1
+        0 wypadek drogowy-1
+      0 zakrztuszenie-1, zachłyśnięcie-1, aspiracja-3
+      0 wykolejenie-2
+      0 kapotaż-1
+      0 tąpnięcie-1
+      1 zawał-2
+        0 obwał-1
+      0 karambol-1
+      1 kolizja-2
+        0 kolizja drogowa-1
+      1 stłuczka-1, zderzenie-2, kraksa-1
+        0 czołówka-9, zderzenie czołowe-1
+    25 nieszczęście-1, tragedia-1, dramat-3, cios-2, zguba-1
+      0 kop-3
+      3 katastrofa-2
+        1 katastrofa naturalna-1
+          0 katastrofa kosmiczna-1
+        0 katastrofa ekologiczna-1
+      12 klęska-2
+        0 głód-2
+        0 klęska urodzaju-1
+        7 klęska żywiołowa-1, kataklizm-1
+          0 trzęsienie ziemi-1
+          0 susza-1, posucha-1
+          2 powódź-1, wylew-2
+            0 potop-2
+            0 potop-1
+          0 nawałnica-1, oberwanie chmury-1
+          0 tsunami-1
+        1 pożar-3, ogień-1
+          0 pożoga-1
+      0 cios w plecy-1
+      5 lawina-1
+        0 lawina deskowa-1
+        0 lawina piroklastyczna-1
+        0 lawina gruzowa-1
+        0 lahar-1, spływ popiołowy-1
+        0 pyłówka-1, lawina pyłowa-1
+  1 zrządzenie-1, dopust-1, wyrok-1
+    0 dopust boży-1
+  12 powrót-2
+    0 restauracja-3
+    0 repolonizacja-2
+    0 remilitaryzacja-1
+    0 remilitaryzacja-2
+    1 regres-1, regresja-3
+      0 infantylizacja-2
+    5 nawrót-1
+      0 retrogresja-1
+      0 recydywa-1
+      2 nawrót choroby-1, wznowa-1
+        0 recydywa-3
+        0 rzut-6
+  5 heca-1, cyrk-4, jaja-1, jajca-1
+    1 bonanza-1
+      0 przeboje-1, hocki-klocki-1
+    0 kino-4, komedia-3
+    1 przedstawienie-8, widowisko-2, opera-4
+      0 dziwowisko-1
+  0 wyprowadzka-1
+  0 perypetia-2
+  0 zaśnięcie-2
+  0 wyświęcenie-3
+  0 przebudzenie-2
+  0 przewiezienie-2
+  0 pogodzenie-2
+  0 zaistnienie-2
+  2 nalot-2
+    0 nalot falowy-1
+    0 nalot dywanowy-1
+  0 przeprowadzka-1, przenosiny-1
+  VISITED 0 precedens-1
+  1 wyzwolenie-4
+    0 samowyzwolenie-1
+  42 podział-1, fragmentacja-1, segmentacja-1
+    0 warstwowanie-2
+    0 parkietaż Penrose'a-1
+    0 cykl komórkowy-1
+    0 rozbiór-3
+    0 nadział-1
+    1 trysekcja-1
+      0 trysekcja kąta-1
+    0 obediencja-3
+    0 dekoncentracja-2
+    0 partycjonowanie-1
+    0 kantonizacja-1
+    2 kariokineza-1
+      0 mejoza-1, kariokineza redukcyjna-1
+      0 mitoza-1, kariokineza somatyczna-1
+    2 segregacja-1
+      0 getto ławkowe-1
+      0 seksowanie-1
+    0 cytokineza-1
+    0 dywersyfikacja-1
+    0 delimitacja-1
+    0 bifurkacja-2
+    0 segmentacja-3, metameria-1
+    0 regionizacja-1, regionalizacja-1
+    0 rejonizacja-2
+    0 trójpodział-1
+    10 rozdział-3, dystrybucja-1, alokacja-1, repartycja-1
+      0 alokacja pamięci-1
+      0 subsydiowanie krzyżowe-1
+      1 ogrzewanie-3
+        0 centralne ogrzewanie-2, centralne-2, CO-3, c.o.-2
+      0 proliferacja-3
+      0 rozdzielnictwo-1
+      0 rozdawnictwo-1
+      1 redystrybucja-1
+        0 redystrybucja dochodów-1
+      0 kolportaż-1, kolporterstwo-1
+    0 rozszczepienie-5
+    1 rozpad-3
+      0 bałkanizacja-1
+    0 parcelacja-1
+    0 decentralizacja-1
+    0 rozbiór-1
+  4 wycinka-1
+    2 trzebież-1
+      0 deforestacja-1, wylesienie-1
+      0 wyrąb-1
+    0 przecinka-2
+  0 odjazd-1
+  0 melodramat-3
+  0 epizod-1
+  4 rozłam-1, rozbrat-2, rozdział-4
+    0 raskoł-1
+    0 secesja-2
+    0 rozbicie-12
+    0 schizma-1, schyzma-1
+  26 manewr-1, ruch-6
+    0 demonstracja-5
+    11 atak-1, natarcie-5, uderzenie-16
+      0 ofensywa-1
+      0 bombardowanie-4
+      0 grupowe uderzenie jądrowe-1
+      0 bariera jądrowa-1
+      0 atak rakietowy-1
+      0 szarża-1
+      0 kontra-2, kontratak-1, kontrnatarcie-1, kontrofensywa-1, kontruderzenie-1, przeciwnatarcie-1, przeciwuderzenie-1
+      0 wypad-2
+      2 ostrzał-1, obstrzał-1, ogień-7
+        0 ogień zaporowy-1
+        0 ogień krzyżowy-1
+    8 zaatakowanie-2, natarcie-1, najechanie-1, uderzenie-1, naparcie-1
+      2 wejście-3
+        1 wkroczenie-2
+          0 wdarcie się-6
+      0 starcie się-1
+      1 zaczepienie-3
+        0 zaczęcie-6, zadarcie-3
+      0 zbombardowanie-1
+      0 ostrzelanie-1, obstrzelanie-1
+    0 obrona-1
+    0 kontrmanewr-1
+    0 odwrót-1, rejterada-1
+    0 wymarsz-1, odmarsz-1
+  0 śledztwo-1, dochodzenie-23, kwerenda-1
+  0 zaginięcie-4
+  2 powrót-1
+    0 paruzja-1
+    0 repatriacja-1, reemigracja-1
+  0 kapitulacja-1
+  11 przemarsz-1
+    0 capstrzyk-1
+    VISITED 0 procesja-1
+    6 pochód-1
+      0 kontrpochód-1
+      0 żakinada-2
+      0 corso-1, korso-1
+      VISITED 2 marsz-2
+    VISITED 1 defilada-1, parada-1
+  0 strzelanina-1
+  0 włamanie-1
+  15 bunt-2, rewolta-1
+    0 reakcja pogańska-1
+    0 okupacja-2
+    0 kontrrewolucja-1
+    0 rabacja-1
+    1 przewrót-1
+      0 przewrót pałacowy-1
+    0 rokosz-1
+    4 strajk-1
+      0 strajk ostrzegawczy-1
+      0 strajk włoski-1
+      0 strajk głodowy-1, głodówka-1, głodowanie-2
+      0 strajk okupacyjny-1
+    0 rebelia-1
+    VISITED 1 rewolucja-1
+  0 wendeta-1, wróżda-1, vendetta-1
+  0 kradzież-2
+  11 zamiana-2, substytucja-3, wymiana-4
+    0 transpozycja-5
+    0 kontrafaktura-1
+    0 immoblizacja-1
+    0 podmiana-1
+    0 wymiana-5
+    0 frymark-1
+    0 wektoryzacja-1, trasowanie-1
+    0 konsolidacja-2
+    0 przebieranka-1
+    0 przesiadka-1
+    0 transfer-2
+  22 likwidacja-1
+    3 neutralizacja-2
+      2 dezaktywacja-3
+        1 dezaktywacja-1
+          0 dekontaminacja-1
+    0 konfiskata-3
+    0 ubierka-1
+    0 samorozwiązanie-1
+    0 denuklearyzacja-1, dezatomizacja-1
+    0 dekartelizacja-1
+    0 niwelacja-1
+    0 samolikwidacja-1
+    2 rozbrojenie-5
+      0 demilitaryzacja-1
+      0 demobilizacja-1
+    1 rozbiórka-1, demontaż-1
+      0 wyburzenie-2
+    0 kasacja-2
+    4 utylizacja-1
+      0 recykling-1, recycling-1, recyrkulacja-1, recyklizacja-1
+      2 odzysk-1
+        0 rekuperacja-1
+        0 regeneracja-1
+  11 ewentualność-1, możliwość-2
+    0 potencja-6
+    1 ryzyko-2
+      0 margines-1
+    0 opcja-2
+    6 wyjście-23
+      5 rozwiązanie-8, odpowiedź-3
+        0 hasło-7
+        0 alternatywa-4
+        1 furtka-2
+          0 ucho igielne-3
+        0 złoty środek-1
+  13 sąd-4
+    0 sąd szczegółowy-2
+    0 rug-1, rugi-2
+    0 sąd ostateczny-1
+    0 posiedzenie niejawne-1
+    2 samosąd-1
+      0 dintojra-1
+      0 lincz-1
+    3 Sąd Boży-1, ordalia-1
+      VISITED 0 pojedynek sądowy-1
+      0 próba żelaza-1
+      0 próba wody-1
+    1 rozprawa-3
+      0 posiedzenie pojednawcze-1
+  10 niespodzianka-1, zaskoczenie-4
+    0 mina-6
+    0 szoking-1, shocking-1
+    6 sensacja-1
+      5 skandal-1, afera-2, awantura-2, chryja-1, granda-2
+        0 flejm-1
+        0 afera rozporkowa-1
+        0 afera koperkowa-1
+        0 awantura arabska-1
+        0 seksafera-1, seksskandal-1
+    0 odkrycie-8
+  847 fakt-1
+    0 okoliczność łagodząca-1
+    0 przesłanka-3, okoliczność faktyczna-1
+    836 oznaka-1, objaw-2, symptom-2, przejaw-1, znak-3, wskazówka-1, uzewnętrznienie-2
+      0 tarcie osierdziowe-1
+      0 reakcja wyprostna-1
+      0 krzew gorejący-1
+      VISITED 1 siniec-3, cień-9, podkowa-3
+      0 herostratyzm-1
+      0 hierofania-1
+      53 oświadczenie woli-1
+        51 czynność prawna-1, działanie prawne-1, czynność cywilnoprawna-1
+          0 czynność pozorna-1
+          1 czynność procesowa-1, czynność proceduralna-1
+            0 czynność wykonawcza-1
+          1 czynność gospodarcza-1, czynność handlowa-1
+            0 czynność opodatkowana-1
+          0 konwersja-10
+          0 kognicja-1
+          1 umorzenie-4
+            0 abolicja-2
+          0 derogacja-1
+          40 przeniesienie praw-1
+            0 alienacja-3
+            0 darowizna-2
+            0 dań-1
+            33 sprzedaż-1, przedaż-1
+              0 droga bezprzetargowa-1
+              0 sprzedaż bezpośrednia-1
+              0 licytacja-3
+              0 submisja-1
+              0 wyderek-1, wyderkaf-1, wyderka-1
+              2 promocja-5
+                0 happy hour-1
+                0 gratis-1
+              0 sprzedaż wiązana-1
+              0 rozprzedaż-1
+              0 preselekcja-1
+              0 przedsprzedaż-1
+              0 odsprzedaż-1, odprzedaż-1
+              0 wyszynk-1
+              0 symonia-1, świętokupstwo-1
+              0 telemarketing-1
+              1 modniarstwo-1
+                0 kapelusznictwo-1
+              0 zbyt-1
+              0 wyprzedaż-1
+              2 eksport-1
+                0 dumping-1
+                0 reeksport-1
+              3 targ-1
+                0 sochaczki-1
+                0 kiermasz-1
+                0 jarmark-1
+              5 przetarg-1, przetarg ofertowy-2
+                0 przetarg ograniczony-2
+                0 przetarg nieograniczony-2
+                2 aukcja-1
+                  0 aukcja holenderska-1
+                  0 aukcja internetowa-1
+            2 cesja-1
+              0 cesja należności-1
+              0 abandon-1
+        0 żyro-2, giro-1, indos-1
+      10 wskaźnik-4
+        0 wskaźnik uwarunkowania-1
+        0 pozycja testowa-1
+        0 wskaźnik cen-1
+        0 wskaźnik racjonalizacji-1
+        0 produktywność wieloczynnikowa-1
+        1 miernik-1, probierz-2, wymiernik-1
+          0 społeczna wydajność pracy-1
+        0 selektor-4
+        1 wykładnik-1, barometr-2
+          0 papierek lakmusowy-2
+      1 zwiastun-2
+        VISITED 0 prodrom-1
+      0 wizytówka-2
+      6 wyznacznik-2
+        5 niezmiennik-1, inwariant-1
+          0 inwariant-3, niezmiennik-2
+          3 inwariant-2
+            2 fonem-1
+              0 archifonem-1
+              0 allofon-1, alofon-1
+      0 przebłysk-1, błysk-2
+      0 znacznik-2
+      0 dreszcz-1, drżączka-1, ciarki-1, dreszcze-1
+      624 *objaw chorobowy-1
+        1 *objaw oponowy-1
+          0 objaw Brudzińskiego-1
+        0 migotanie przedsionków-1, migotanie przedsionków serca-1
+        0 rozkojarzenie-2
+        0 triada Charcota-1
+        0 ostry brzuch-1
+        0 objaw zasłonowy-1
+        0 skaza wysiękowa-1
+        0 objaw konwersyjny-1
+        0 prodrom-1
+        0 bransoleta krzywicza-1
+        0 różaniec krzywiczy-1
+        0 katapleksja-1
+        0 kalcyfikacja-1, zwapnienie-1
+        0 parakeratoza-1
+        0 poliglobulia-1
+        0 teleangiektazja-1
+        0 zespół pustego siodła-1
+        0 hiperprolaktynemia-1
+        0 retrakcja-2
+        0 woloocze-1
+        0 palilalia-1
+        0 objaw Aschaffenburga-1
+        0 agelia-1
+        0 autyzm schizofreniczny-1
+        0 leukokoria-1
+        0 objaw Liepmanna-1
+        0 enoftalmia-1
+        0 anizokorioza-1
+        0 mydriaza-1
+        0 mioza-1
+        0 łzotok-1
+        0 perseweracja-2
+        0 ambitendencja-1
+        0 przykurcz-1
+        VISITED 0 artropatia neurogenna-1, stawy Charcota-1
+        0 objaw Babińskiego-1
+        1 hipotonia-2
+          0 hipotonia mięśniowa-1
+        0 orbitopatia tarczycowa-1, oftalmopatia tarczycowa-1, oftalmopatia naciekowo-obrzękowa-1, oftalmopatia Gravesa-Basedowa-1, wytrzeszcz złośliwy-1
+        0 bakteriomocz-1, bakteriuria-1
+        0 pasma Meesa-1, pasma Aldricha-Meesa-1
+        0 nykturia-1
+        0 dysuria-1, dyzuria-1
+        0 objaw Köbnera-1
+        0 objaw Nikolskiego-1
+        0 czarcia miotła-1
+        0 mozaika-3
+        0 polifagia-1, hiperfagia-1
+        0 echopraksja-1
+        0 autoskopia-1
+        0 ambisentencja-1
+        0 schizofazja-1, sałata słowna-1
+        0 anhedonia-1
+        0 hirsutyzm-1
+        0 martwiak-2
+        0 szpotawość-1
+        0 zawroty głowy-1
+        0 polipowatość-1
+        0 chloroza-1
+        0 konfabulacja-2
+        0 ginekomastia-1
+        0 azoospermia-1
+        0 sapka-1
+        0 męczliwość-1
+        0 kulawizna-1
+        0 skaza krwotoczna-1, plamica-2, purpura-3
+        0 małopłytkowość-1, trombocytopenia-1
+        0 hemoglobinuria-1
+        0 eozynofilia-1
+        0 wodobrzusze-1, puchlina brzuszna-1
+        0 abulia-1, hipobulia-1
+        0 aura-3
+        0 koprolalia-1
+        0 irradiacja-1
+        0 limfocytoza-1
+        0 wielomocz-1, poliuria-1
+        0 częstomocz-1, polakisuria-1
+        0 skąpomocz-1, oliguria-1
+        0 bezmocz-1, anuria-1
+        0 toczeń-2
+        0 dystonia-1
+        1 ropomocz-1
+          0 ropomocz jałowy-1
+        0 mdłości-1, nudności-1
+        286 zmiana-4, zmiana chorobowa-1
+          0 sklerotyzacja-1
+          0 kurze łapki-1
+          0 myszka stawowa-1
+          0 depigmentacja-1
+          0 rozstępy-1
+          2 zwłóknienie-1
+            0 zwłóknienie klatki piersiowej-1
+            0 mukowiscydoza-1, zwłóknienie torbielowate-1
+          1 ropień-1, absces-1
+            0 jęczmień-3
+          0 leukoplakia-1, rogowacenie białe-1
+          0 metaplazja-1, przetwarzanie-3
+          26 zmiana morfologiczna-1
+            25 zmiana patologiczna-1
+              0 artropatia neurogenna-1, stawy Charcota-1
+              0 róg skórny-1
+              0 odmrozina-1
+              19 zmiana wsteczna-1
+                VISITED 1 zwyrodnienie-2
+                14 martwica-1, nekroza-1
+                  0 martwica skrzepowa-1
+                  0 martwica serowata-1
+                  1 martwica rozpływna-1
+                    0 encefalomalacja-1, rozmiękanie mózgu-1
+                  7 jałowa martwica kości-1
+                    0 choroba Blounta-1, piszczel szpotawa-1
+                    0 oddzielająca martwica kostno-chrzęstna-1, choroba Königa-1
+                    0 choroba Haglunda-1, choroba Haglunda-Severa-1, jałowa martwica guza piętowego-1
+                    0 choroba Kienböcka-1
+                    0 choroba Scheuermanna-1, młodzieńcza kifoza-1
+                    0 choroba Osgooda-Schlattera-1
+                    0 choroba Perthesa-1, osteochondroza młodzieńcza głowy kości udowej-1
+                  1 zgorzel-1, gangrena-1
+                    0 zgorzel-2
+                1 atrofia-1, zanik-1, uwiąd-1, wiąd-1
+                  0 wstecznictwo-1
+              0 odleżyna-1
+              0 odmrożenie-1
+          0 zastój-4, zastoina-1
+          0 dysplazja-1
+          0 ganglion-1, torbiel galaretowata-1
+          0 łuska-5
+          0 gruzełek-1
+          0 wyrośle-1, wyrośl-1
+          7 złóg-1
+            5 kamień-5
+              0 kamień nerkowy-1
+              0 kamień nosowy-1, rynolit-1
+              0 kamień pępkowy-1
+              0 kamień żółciowy-1
+              0 kamień nazębny-1
+            0 piasek moczowy-1
+          1 ropniak-1
+            0 czop-4
+          30 wykwit-1
+            0 bąbel pokrzywkowy-1
+            2 wysypka-2, osutka-1
+              0 angiokeratoma-1, wysypka kąpielówkowa-1
+              0 jodzica-1
+            0 wrzodzianka-1
+            0 liszaj-1
+            8 grudka-2
+              5 brodawka-2, kurzajka-1
+                0 brodawka przejściowa-1
+                0 brodawka płaska-1, brodawka młodocianych-1
+                0 brodawka stóp-1
+                0 brodawka zwykła-1
+                0 kłykcina-1, kłykcina kończysta-1, brodawka płciowa-1, brodawka weneryczna-1
+              0 gradówka-1
+              0 ziarniniak-1, granuloma-1
+            1 guzek-1
+              0 plamka Fordyce'a-1
+            0 wągr-1, wągier-1, zaskórnik-1
+            6 pęcherz-1, bąbel-1, bąbelek-2, pęcherzyk-2
+              0 pęcherz żywiczny-1
+              0 potówka-1
+              3 opryszczka-1, skwarka-2, febra-1, zimno-2, opryszczka pospolita-1, opryszczka zwykła-1
+                0 opryszczka narządów płciowych-1
+                0 opryszczkowe zapalenie jamy ustnej-1
+                0 opryszczka wargowa-1
+            4 krosta-1, wyprysk-2, wyrzut-3
+              1 pryszcz-1, syf-3
+                0 zachciewajka-2
+              0 karbunkuł-3, czyrak gromadny-1, czyrak mnogi-1
+              0 pypeć-3
+          1 przetoka-1, fistuła-1, anastomoza patologiczna-1
+            0 przetoka tchawiczo-przełykowa-1
+          4 zrost-2
+            0 spondylodeza-1
+            0 obliteracja-1
+            0 rychłozrost-1
+            0 syndaktylia-1
+          0 tętniak-1, anewryzm-1
+          1 stwardnienie-3, skostnienie-3, skostniałość-1
+            0 zrogowacenie-2
+          3 rumień-1
+            0 rumień dłoni-1
+            0 rumień trwały-1
+            0 rumień wędrujący-1
+          6 przebarwienie-1
+            0 tatuaż amalgamatowy-1
+            1 siniec-3, cień-9, podkowa-3
+              0 wór-2
+            0 ostuda-1, melanoderma-1, chloasma-1
+            0 kręgi pod oczami-1, sińce pod oczami-1, cienie pod oczami-1
+            0 rumieniec-2
+          8 narośl-1
+            0 ostroga piętowa-1
+            0 dzikie mięso-1
+            0 parch-3
+            0 bulwka-1
+            0 halluks-1, haluks-1, paluch koślawy-1
+            VISITED 0 polip-2
+            1 galas-1, galasówka-2
+              0 dębianka-2
+          106 guz-1, tumor-1
+            0 perlak-1, guz perlisty-1
+            VISITED 0 ziarniszczak-1
+            VISITED 6 guz neuroendokrynny przewodu pokarmowego-1, guz żołądkowo-jelitowo-trzustkowy-1
+            VISITED 0 guz chromochłonny-1, barwiak-1
+            0 potworniak okolicy krzyżowo-guzicznej-1
+            0 odpryskowiak-1, heterotopia-1
+            VISITED 0 hamartoblastoma-1
+            3 hamartoma-1
+              0 naczyniak jamisty ośrodkowego układu nerwowego-1
+              0 mięśniak prążkowanokomórkowy-1
+              0 hamartoma podwzgórza-1
+            0 kilak-1
+            0 polip-2
+            VISITED 40 nowotwór niezłośliwy-1, nowotwór łagodny-1, guz łagodny-1
+            VISITED 45 guz złośliwy-1, nowotwór złośliwy-1
+          0 jagła-1
+          1 odcisk-1, nagniotek-1, odgniotek-1
+            0 modzel-1
+          0 wole-1
+          1 żylak-1
+            0 hemoroid-1
+          0 skrzep-1
+          2 siniak-1, krwiak-1, wylew-3, siniec-2, wynaczynienie-1
+            0 krwiak podpaznokciowy-1
+            0 śliwa-3, limo-1
+          7 wrzód-1
+            2 szankier-1, wrzód weneryczny-1
+              0 szankier twardy-1, wrzód twardy-1, wrzód Huntera-1, owrzodzenie pierwotne-1
+              0 szankier miękki-1, wrzód miękki-1, szankroid-1
+            2 wrzód trawienny-1
+              0 wrzód żołądka-1
+              0 wrzód dwunastnicy-1
+            0 wrzód aftowy-1
+          5 opuchlizna-1, obrzmienie-2, obrzęk-1
+            0 guz Potta-1
+            0 dymienica-1
+            0 obrzęk uogólniony płodu-1
+            0 fluksja-1
+            0 słoniowacizna-1, elefantiaza-1, słoniowatość-3
+          6 cysta-1, torbiel-1
+            0 torbiel bąblowcowa-1
+            0 żabka-10
+            0 torbiel osierdzia-1
+            0 torbiel Bakera-1, cysta Bakera-1, torbiel dołu podkolanowego-1
+            0 torbiel rzekoma-1
+            0 prosak-1
+          13 znamię-2
+            0 znamię Beckera-1, melanoza Beckera-1
+            0 znamię Suttona-1, znamię &quot;halo&quot;-1
+            0 znamię Spitz-1, znamię wrzecionowato-nabłonkowatokomórkowe-1
+            0 znamię łojowe Jadassohna-1, znamię łojowe-1
+            0 znamię Ito-1
+            0 plama soczewicowata-1
+            0 znamię naczyniowe-1, naczyniak-2
+            0 piętno-3
+            0 pypeć-1
+            VISITED 0 ogień-5
+            0 myszka-4
+            1 pieprzyk-1
+              0 pipsztok-2, pipsztyk-2
+          116 nowotwór-1, choroba nowotworowa-1
+            0 ziarniszczak-1
+            6 guz neuroendokrynny przewodu pokarmowego-1, guz żołądkowo-jelitowo-trzustkowy-1
+              0 guz wydzielający VIP-1, zespół Vernera-Morrisona-1
+              1 guz insulinowy-1, wyspiak-1
+                0 wyspiak trzustki-1
+              0 somatostatinoma-1, guz somatostatynowy-1
+              0 gastrinoma-1, guz gastrynowy-1
+              0 rakowiak-1
+            0 guz chromochłonny-1, barwiak-1
+            0 hamartoblastoma-1
+            0 szpiczak mnogi-1, szpiczak plazmocytowy-1, choroba Kahlera-1
+            0 guz Abrikosowa-1, guz ziarnistokomórkowy-1
+            0 glukagonoma-1
+            0 rogowiak kolczystokomórkowy-1
+            0 nabłoniak wapniejący-1, nabłoniak wapniejący Mahlerbego-1
+            0 ziarniak-6
+            0 ospa karpi-1
+            0 choroba Mareka-1
+            0 metastaza-1, przerzut nowotworowy-1
+            15 naczyniak-1
+              0 naczyniak limfatyczny torbielowaty-1
+              VISITED 0 naczyniak limfatyczny złośliwy-1
+              VISITED 0 naczyniak niezłośliwy limfatyczny-1
+              VISITED 3 naczyniak złośliwy-1
+              VISITED 7 naczyniak niezłośliwy-1
+            40 nowotwór niezłośliwy-1, nowotwór łagodny-1, guz łagodny-1
+              0 mięśniak gładkokomórkowy-1
+              0 przyzwojak-1
+              1 kostniak-1
+                0 kostniak kostninowy-1, kostniak kostnawy-1
+              0 chrzęstniak-1
+              0 choroba Lhermitte'a-Duclos-1, dysplastyczny zwojak móżdżku-1
+              0 naczyniakomięśniakotłuszczak-1
+              0 nerwiakowłókniak-1
+              0 naczyniak niezłośliwy limfatyczny-1
+              7 naczyniak niezłośliwy-1
+                0 ziarniniak naczyniowy-1
+                0 kłębczak-1
+                0 obłoniak-1
+                0 naczyniakomięśniak gładkokomórkowy-1
+                0 naczyniak groniasty-1
+                0 naczyniak krwionośny jamisty-1
+                0 naczyniak krwionośny włośniczkowy-1
+              0 skórzak-3
+              1 śluzak-1
+                0 śluzak serca-1
+              0 oponiak-1
+              0 czerniak-2
+              0 ogień-5
+              7 włókniak-1
+                0 włókniak młodzieńczy nosogardła-1, naczyniowłókniak młodzieńczy-1
+                0 włókniak twardy-1
+                4 włókniak miękki-1
+                  0 tłuszczak-1
+                  2 brodawczak-1
+                    0 brodawczak odwrócony-1, brodawczak odwrócony jam nosa i zatok przynosowych-1, brodawczak Schneidera-1
+                    0 brodawczak splotu naczyniówkowego-1
+              4 nerwiak-1
+                0 neuroblastoma-1, nerwiak płodowy-1, nerwiak płodowy współczulny-1, nerwiak zarodkowy-1
+                0 nerwiak osłonkowy-1, schwannoma-1
+                0 nerwiak zwojowy-1
+                0 nerwiak węchowy zarodkowy-1
+              3 gruczolak-1
+                0 gruczolak wątrobowokomórkowy-1
+                0 gruczolak wielopostaciowy-1, guz mieszany-1
+                0 gruczolak przysadki-1
+            45 guz złośliwy-1, nowotwór złośliwy-1
+              0 kostniakomięsak-1, mięsak kościopochodny-1
+              0 guz Wilmsa-2, nerczak płodowy-1, nerczak zarodkowy-1, nerczak złośliwy-1
+              0 oblak-1
+              0 mięsak maziówkowy-1, maziak-1
+              0 mięsak Ewinga-1, guz Ewinga-1
+              0 prymitywny guz neuroektodermalny-1, obwodowy niedojrzały guz neuroektodermalny-1, guz Askina-1
+              4 *nowotwór złośliwy skóry-1
+                VISITED 0 rak neuroendokrynny skóry-1, rak z komórek Merkla-1
+                VISITED 0 rak kolczystokomórkowy skóry-1
+                VISITED 0 rak podstawnokomórkowy skóry-1
+                0 czerniak złośliwy-1, czerniak-1, melanoma-1
+              0 naczyniak limfatyczny złośliwy-1
+              3 naczyniak złośliwy-1
+                0 mięsak Kaposiego-1
+                0 obłoniak złośliwy-1
+                0 śródbłoniak krwionośny złośliwy-1
+              0 sarkoidoza-1
+              0 struniak-1
+              0 szpiczak-1
+              0 nasieniak-1
+              1 nabłoniak-1
+                0 nabłoniak kosmówkowy-1, kosmówczak-1
+              4 chłoniak-1
+                0 chłoniak Burkitta-1
+                0 zespół Sézary'ego-1
+                0 ziarnica złośliwa-1, choroba Hodgkina-1, chłoniak Hodgkina-1, limfogranulomatoza-1
+                0 ziarniniak grzybiasty-1
+              0 nowotwór anaplastyczny-1
+              1 potworniak-1
+                0 torbiel skórzasta-1
+              0 glejak-1
+              0 siatkówczak-1
+              0 mięsak-1, sarkoma-1
+              14 rak-1
+                0 choroba Pageta-1
+                0 guz Brennera-1
+                1 rak płuca-1, rak oskrzela-1
+                  0 guz Pancoasta-1, zespół Pancoasta-1
+                0 rak neuroendokrynny skóry-1, rak z komórek Merkla-1
+                0 rak kolczystokomórkowy skóry-1
+                0 rak podstawnokomórkowy skóry-1
+                2 rak przedinwazyjny-1, rak w miejscu-1, CIS-5, rak 0 stopnia-1
+                  1 choroba Bowena-1
+                    0 erytroplazja Queyrata-1, choroba Bowena żołędzi prącia-1
+                0 rak prącia-1
+                0 rak szyjki macicy-1
+                0 rak gruczołu krokowego-1, rak prostaty-1
+                0 rak jamy nosowo-gardłowej-1
+            7 białaczka-1, leukemia-1
+              1 przewlekła białaczka limfatyczna-1, CLL-1
+                0 przewlekła białaczka limfocytowa B-komórkowa-1
+              0 ostra białaczka limfoblastyczna-1, ALL-2
+              3 białaczka szpikowa-1
+                0 przewlekła białaczka szpikowa-1
+                1 ostra białaczka szpikowa-1
+                  0 ostra białaczka promielocytowa-1, ostra białaczka progranulocytowa-1, APL-1, AML z t(15;17)(q22,q12)-1, PML-RARA-1
+        0 aspermia-1
+        0 gonitwa myśli-1
+        0 kseroftalmia-1, zespół suchego oka-1
+        8 atrezja-1, zarośnięcie-5
+          0 atrezja jelita grubego-1, zwężenie jelita grubego-1, zarośnięcie jelita grubego-1, wrodzony brak jelita grubego-1
+          0 atrezja przełyku-1
+          0 atrezja odbytu-1, malformacja odbytu i odbytnicy-1
+          0 atrezja dwunastnicy-1, wrodzona niedrożność dwunastnicy-1, zwężenie dwunastnicy-1, zarośnięcie dwunastnicy-1, wrodzony brak dwunastnicy-1
+          0 atrezja jelita cienkiego-1
+          0 atrezja pochwy-1
+          0 atrezja dróg żółciowych-1, niedrożność dróg żółciowych-1, zarośnięcie dróg żółciowych-1, zarośnięcie przewodów żółciowych-1
+          0 atrezja nozdrzy tylnych-1, zarośnięcie nozdrzy tylnych-1, wrodzone zwężenie nozdrzy tylnych-1
+        1 entropion-1, entropium-1
+          0 entropion wrodzony-1, entropium wrodzone-1
+        1 ektropion-1, ektropium-1
+          0 ektropion wrodzony-1, ektropium wrodzone-1
+        1 ptoza-1
+          0 ptoza wrodzona-1
+        0 ciągotka nerwicowa-1
+        0 ciągotka-1
+        0 adynamia-1
+        0 amimia-1
+        0 liściozwój-1
+        0 otalgia-1
+        0 echolalia-2
+        9 wydzielina-1, wyciek-2, wypływ-2
+          0 przesięk-1
+          1 wysięk-1
+            0 woda-5
+          0 upławy-1
+          2 smark-1, gil-2, glut-1
+            0 koza-6
+            0 kapka-1
+          0 flegma-2, plwocina-1
+          0 ropa-1
+        0 łojotok-1
+        0 światłowstręt-1, fotofobia-1
+        16 przepuklina-1, ruptura-1
+          0 przepuklina mózgowa-1
+          0 przepuklina cewy nerwowej-1
+          0 przepuklina przeponowa-1
+          0 przepuklina rozworu przełykowego-1
+          11 przepuklina brzuszna-1
+            0 przepuklina pępowinowa-1
+            0 przepuklina okołostomijna-1
+            1 przepuklina uwięźnięta-1
+              0 przepuklina Richtera-1
+            0 przepuklina kresy białej-1, przepuklina w kresie białej-1
+            0 przepuklina pępkowa-1
+            0 przepuklina udowa-1
+            3 przepuklina pachwinowa-1
+              0 przepuklina pachwinowa prosta-1
+              1 przepuklina pachwinowa skośna-1
+                0 przepuklina mosznowa-1
+        0 pleśniawka-2
+        0 sinica-2, cyjanoza-1
+        0 akinezja-1
+        0 leukocytopenia-1, leukopenia-1
+        0 leukocytoza-1
+        2 krwiomocz-1, hematuria-1
+          0 makrohematuria-1
+          0 mikrohematuria-1, krwinkomocz-1, erytrocyturia-1, krwiomocz mikroskopowy-1
+        0 niedociśnienie-1
+        0 chrypka-1
+        0 alalia-1
+        0 parafazja-1
+        0 anartria-1
+        2 dysfagia-1
+          0 dysfagia przełykowa-1
+          0 dysfagia ustno-gardłowa-1, dysfagia przedprzełykowa-1
+        2 białkomocz-1, albuminuria-1, proteinuria-1
+          0 białkomocz patologiczny-1
+          0 białkomocz fizjologiczny-1
+        1 aleksja-1, niezdolność czytania-1
+          0 czysta aleksja-1, czysta ślepota słów-1, aleksja bez agrafii-1
+        7 agnozja-1
+          0 autotopagnozja-1, somatotopagnozja-1
+          1 agnozja czuciowa-1
+            0 astereognozja-1
+          0 agnozja słuchowa-1
+          2 agnozja wzrokowa-1, ślepota korowa-1
+            0 prozopagnozja-1, agnozja twarzy-1
+            0 agnozja wzrokowa jednoczesna-1
+        0 karłowatość-1, niskorosłość-1, karzełkowatość-1
+        0 stereotypia-1, czynność stereotypowa-1, stereotypia ruchowa-1
+        0 mutyzm-1
+        2 afonia-1, bezgłos-1
+          0 apsityria-1
+          0 mutyzm wybiórczy-1
+        0 inkoherencja-2, splątanie-2
+        7 obsesja-2, natręctwo-1
+          2 ortoreksja-1
+            1 witarianizm-1
+              0 frutarianizm-1, fruktarianizm-1, fruitarianizm-1, fruktorianizm-1
+          0 arytmomania-1
+          0 ablutomania-1
+          0 anankazm-1
+          0 korba-3, faza-8, zajob-3, job-1
+        3 urojenie-2
+          0 dereizm-1
+          0 urojenie ksobne-1, ksobność-1
+          0 mania wielkości-1, megalomania-2
+        0 furia-2, szał-2
+        0 kawerna-2
+        0 przekrwienie-1
+        0 koprofagia-1
+        0 aerofagia-1, łykawica-1
+        0 łysienie-1
+        0 szczękościsk-1
+        0 puchlina-1, puchlina wodna-2
+        0 nosicielstwo-1
+        0 moczenie-2
+        1 kwasica-1
+          0 kwasica ketonowa-1
+        0 kichanie-2
+        0 katatonia-1
+        VISITED 0 katalepsja-1
+        0 bezdech-1
+        0 potliwość-1
+        0 niepoczytalność-1
+        0 hipostaza-3
+        0 bielmo-1, leukoma-1
+        1 delirium-1, majaczenie-7, zespół majaczeniowy-1, ostry zespół mózgowy-1
+          0 majaczenie alkoholowe-1, delirium tremens-1, biała gorączka-1, majaczenie drżenne-1
+        1 odrętwienie-5, drętwota-3
+          0 katalepsja-1
+        0 stupor-1, osłupienie-2, drętwica-1
+        0 udar mózgu-1, wylew krwi do mózgu-1, wylew-1, apopleksja-1, incydent mózgowo-naczyniowy-1, udar-3
+        0 słowotok-1, logorea-1
+        1 odma-1
+          0 odma opłucnowa-1
+        1 nadżerka-1
+          0 zajad-1
+        0 zadyszka-1
+        1 zwyrodnienie-2
+          0 tłuszczyk-3
+        2 wodogłowie-1, hydrocefalia-1, wodomózgowie-1
+          0 wodogłowie normotensyjne-1, zespół Hakima-1
+          0 wodogłowie wrodzone-1
+        1 świąd-1, swędzenie-2
+          0 świąd pływaków-1
+        0 ślinotok-1
+        0 skleroza-2
+        0 oziębłość płciowa-1
+        1 owrzodzenie-2
+          0 afta-1
+        0 oczopląs-1
+        1 niedrożność-1
+          0 niedrożność jelit-1
+        0 niedokrwienie-1
+        0 neuropatia-1
+        1 marskość-1
+          0 marskość wątroby-1, zwłóknienie wątroby-1
+        0 duszność-1
+        0 tachykardia-1, częstoskurcz-1
+        0 chrypa-1
+        0 bradykardia-1, rzadkoskurcz-1
+        3 hipertrofia-1, przerost-1
+          0 przerost połowiczy-1, hemihiperplazja-1, hemihipertrofia-1
+          0 hipertrofia wewnątrzmaciczna-1, makrosomia-1
+          0 przerost łechtaczki-1, klitoromegalia-1, hipertrofia łechtaczki-1
+        0 ataksja-1
+        0 arytmia-1, niemiarowość-1
+        5 afazja-1
+          0 afazja postępująca niefluentna-1, postępująca afazja bez płynności mowy-1
+          0 paragrafia-1
+          0 aleksykalizm-1
+          0 agramatyzm-1
+          0 afazja amnestyczna-1
+        1 nadciśnienie-1
+          0 nadciśnienie płucne-1
+        0 głód nikotynowy-1
+        0 głód narkotyczny-1
+        0 stan podgorączkowy-1
+        0 stan spastyczny-1
+        1 mrowienie-1, mrowie-2
+          0 parestezja-1, czucie opaczne-1
+        0 letarg-1, bezwład-3
+        2 odwodnienie-4
+          0 odwodnienie hipertoniczne-1
+          0 odwodnienie izotoniczne-1
+        7 porażenie-3, paraliż-1, bezwładność-3, bezwład-2
+          0 porażenie Todda-1, porażenie ponapadowe Todda-1
+          0 astazja-1
+          0 abazja-1
+          0 paraplegia-1
+          0 hemiplegia-1, porażenie połowicze-1
+          1 niedowład-1
+            0 niedowład połowiczy-1, hemiparesis-1
+        0 wzdęcie-2, meteoryzm-1, bębnica-1
+        0 perforacja-1
+        0 zgaga-1
+        1 zator-1, embolia-1
+          0 zakrzep-1, skrzeplina-1
+        0 obstrukcja-1, zaparcie-3, zatwardzenie-1
+        0 otępienie-2, demencja-1
+        0 euforia-2
+        3 amnezja-1, amnezja organiczna-1
+          0 amnezja pourazowa-1
+          0 amnezja następcza-1, niepamięć następcza-1
+          0 amnezja wsteczna-1, niepamięć wsteczna-1
+        1 kaszel-1
+          0 kaszel suchy-1
+        1 atak-2, napad-2, paroksyzm-1
+          0 napad padaczkowy-1
+        0 żółtaczka-1
+        0 zawrót-1
+        2 zawał-1
+          0 zawał blady-1
+          0 zawał-3, zawał mięśnia sercowego-1, zawał serca-1
+        0 wymioty-1, torsje-1
+        0 śpiączka-1, koma-2
+        0 palpitacja-1, kołatanie serca-1
+        1 omdlenie-3, zasłabnięcie-3, zemdlenie-3
+          0 półomdlenie-1
+        0 migrena-1
+        0 kolka-1
+        6 kurcz-1, skurcz-1
+          0 opistotonus-1
+          0 pochwica-1
+          0 tik-1
+          0 czkawka-1
+          0 spazm-1
+          0 konwulsja-1, drgawka-1
+        3 krwawienie-2
+          0 krwawienie dokomorowe-1
+          0 wybroczyna-1
+          0 krwotok-1
+        2 katar-2
+          0 gile do pasa-1
+          0 katar sienny-1
+        0 rozwolnienie-1, biegunka-1, laksacja-1
+        0 bezsenność-1
+        9 zatrucie-5, intoksykacja-1
+          0 przytrucie-1
+          0 scombrotoksizm-1
+          0 rtęcica-1
+          0 zatrucie pokarmowe-1
+          0 ergotyzm-1
+          0 toksemia-1, jadzica-1
+          0 samozatrucie-1, autointoksykacja-1
+          0 toksykoza-1
+          0 mocznica-1, uremia-1
+        0 zapaść-2, kollaps-1, kolaps-1
+        2 upośledzenie-1
+          0 akalkulia-1
+          0 kretyństwo-3
+        4 wstrząs-1
+          0 wstrząs septyczny-1
+          0 wstrząs kardiogenny-1
+          0 szok-3
+          0 wstrząs anafilaktyczny-1, anafilaksja-1, reakcja anafilaktyczna-1, odczyn anafilaktyczny-1
+        2 gorączka-1, temperatura-3
+          0 febra-3
+          0 maligna-1
+        0 szum-2, szmer-2
+      111 wyraz-1
+        0 niedowierzanie-1
+        0 upust-4
+        0 surowość-6
+        7 nacechowanie-3
+          6 zabarwienie-4
+            0 ton-3
+            4 odcień-2, posmak-2, nuta-2, nutka-1, półton-3, tonacja-2
+              0 konotacja-3
+              0 domieszka-2
+              0 smrodek-2
+              0 półton-1
+        0 szczęśliwość-3
+        0 wesołość-5
+        59 pokaz-2
+          0 ustawka-2
+          0 demonstracja-3, manifestacja-3
+          1 popis-2
+            0 szpanerstwo-1
+          54 popis-1, koncert-3
+            0 rodeo-1
+            0 harce-1
+            1 sztuczka-2, trik-2, trick-2
+              0 efekt specjalny-1
+            47 figura-8
+              VISITED 0 ranwers-1, przewrót-4
+              0 pasaż-4
+              0 lewada-1
+              0 layout-4
+              0 piramida-7
+              0 jaskółka-2
+              18 akrobacja lotnicza-1, akrobacja powietrzna-1, akrobacja-3, ewolucja-4
+                0 immelman-1, imelman-1
+                0 ranwers-1, przewrót-4
+                0 schody-3
+                0 looping-2, pętla-2
+                0 półbeczka-1
+                0 zwitka-2
+                0 zawrót-2
+                0 wywrót-1
+                0 wyrównanie-7
+                0 świeca-3
+                1 ślizg-1
+                  0 wyślizg-1
+                0 spirala-3
+                0 półpętla-1
+                0 piruetka-1
+                0 korkociąg-2
+                0 górka-4
+                0 beczka-3
+              10 figura taneczna-1
+                0 kwadrat-7
+                0 krzyżyk-8
+                1 batterie-1
+                  0 entrechat-1
+                0 prysiudy-1
+                0 promenada-2
+                0 kółeczko-1
+                0 hołubiec-1
+                0 arabeska-3, arabesque-1
+                0 koszyczek-2
+              6 ewolucja-5
+                5 ewolucja narciarska-1
+                  0 telemark-1, wypad-3
+                  0 telemark-2
+                  0 pług-2
+                  0 łuk-5
+                  0 krystiania-1, chrystiania-1
+              0 ósemka-11
+              3 akrobacja-2
+                0 flip-1
+                0 looping-1
+                0 przerzut-3
+            1 defilada-1, parada-1
+              0 rewia-3
+        0 rubaszność-2
+        0 nieprzytomność-2, błędność-2
+        7 zwierciadło-5
+          6 odbicie-20, odzwierciedlenie-4
+            0 układ Henona-1
+            4 mikrokosmos-1, mikroświat-1
+              3 psychika-1, dusza-4, duch-6, duchowość-3, psyche-1, serce-2
+                1 nerwy-2
+                  0 stalowe nerwy-1, nerwy ze stali-1, nerwy jak postronki-1
+                0 metapsychika-1
+        1 nieśmiałość-2
+          0 niepewność-2
+        1 łagodność-4
+          0 miękkość-7
+        4 przytomność-3
+          0 trzeźwość-6
+          1 uważność-1
+            0 przenikliwość-4
+          0 zimna krew-1
+        12 wyraz twarzy-1
+          0 derp-1
+          10 mina-1
+            0 nieogar-3
+            0 mars-1
+            0 skrzywienie-2
+            4 uśmiech-2
+              0 uśmiech sardoniczny-2
+              0 banan-3, rogal-2
+              0 półuśmiech-1
+              0 uśmieszek-1
+            1 grymas-1
+              0 uśmiech sardoniczny-1
+        2 blask-2
+          0 iskra-3, iskierka-3
+          0 płomyk-2, ogieniek-2, ogienek-2, ognik-3
+        0 figlarność-1
+        0 okazanie uczuć-1
+        0 westchnienie-1
+      16 zapowiedź-1, zwiastun-3, prognostyk-3
+        0 wizja Kasandry-1
+        3 wstęp-4
+          VISITED 0 uwertura-2, preludium-3, przygrywka-3
+          0 przygotowanie-6
+          0 rekonesans-1
+        0 przedświt-2
+        1 promyk-2, promień-4
+          0 światełko w tunelu-1
+        0 antycypacja-1, prefiguracja-1
+        1 sygnał-5
+          0 poszlaka-1
+        0 wróżba-1, omen-1
+        1 przedsmak-1, przedsionek-2
+          0 uwertura-2, preludium-3, przygrywka-3
+        0 pierwsza jaskółka-1
+        1 podmuch-3, wiew-2, powiew-2
+          0 powab-2
+    0 fakt historyczny-1
+    2 przykład-2, exemplum-1
+      1 przypadek-2
+        0 precedens-1
+    1 fakt prawny-1
+      0 municypalizacja-1
+    0 fakt naukowy-1
+    0 klątwa-2, przekleństwo-2
+  3 wypadek-2, incydent-1
+    0 utonięcie-6
+    1 potknięcie-2
+      0 wypadek przy pracy-1
+  5 wybuch-1, eksplozja-1, detonacja-2
+    0 odstrzał-3
+    0 efuzja-2
+    0 strzał-4
+    0 kamuflet-1
+    0 rozprysk-2
+  46 walka-1, bój-1, czyn zbrojny-1, konfrontacja-1, starcie-8, zmagania-1, konflikt zbrojny-1, szczęk oręża-1
+    0 taran-4
+    0 boje homeryckie-1
+    0 tytanomachia-1
+    0 walka na śmierć i życie-1
+    0 walka wręcz-1
+    0 korsarstwo-1, kaperstwo-1
+    0 gigantomachia-1
+    0 dywersja-1
+    0 abordaż-1
+    0 zapasy-2
+    1 bitwa-2
+      0 batalia-1
+    1 partyzantka-4
+      0 guerilla-1
+    2 pojedynek-3
+      0 pojedynek sądowy-1
+      0 pojedynek amerykański-1
+    1 sabotaż-1, bojkot-1
+      0 mały sabotaż-1
+    0 zryw-1
+    1 potyczka-1, utarczka-1
+      VISITED 0 szturchanina-1
+    VISITED 5 bójka-1, bijatyka-1, bitka-1, bitwa-1, łomotanina-1, mordobicie-1, nawalanka-1, przewalanka-1, rękoczyny-1, rozpierducha-1, rozróba-1, rozróbka-1
+    1 rewolucja-1
+      0 rewolucja agrarna-1
+    12 wojna-1
+      0 zimna wojna-2
+      0 wojna jądrowa-1
+      0 wojna światowa-1
+      0 wojna napoleońska-1
+      1 wojna podjazdowa-1, podjazdówka-1
+        0 gerylasówka-1
+      0 wojna domowa-1
+      1 święta wojna-1
+        0 dżihad-1
+      0 rekonkwista-1, reconquista-1
+      0 blitzkrieg-1
+      0 krucjata-1, wyprawa krzyżowa-1
+    2 powstanie-6, insurekcja-1
+      0 powstanie styczniowe-1
+      0 intifada-1
+  7 ucieczka-1
+    0 pierzch-1
+    0 gigant-6
+    0 myk-1
+    0 hidżra-1, hedżra-1, hegira-1
+    0 dezercja-1, rejterada-2
+    0 fugas chrustas-1
+    0 wagary-1
+  16 proces-3, sprawa-2, postępowanie-5, przewód sądowy-1, przewód-5
+    0 postępowanie nakazowe-1
+    0 postępowanie przygotowawcze-1
+    0 pokazówka-1
+    0 kazus-2, casus-2
+    0 pyskówka-1
+    0 proces poszlakowy-1
+    1 postępowanie cywilne-1
+      0 postępowanie nieprocesowe-1
+    6 środek prawny-1
+      0 środek zaskarżenia-1
+      0 remonstracja-1
+      3 przymus administracyjny-1
+        0 egzakcja-1
+        0 przymus drogowy-1, przymus drożny-1
+        0 nakaz pracy-1
+    0 proces karny-1, postępowanie karne-1
+  148 spotkanie-6
+    0 ustawka-3
+    0 zbiórka-4, apel-8
+    0 posiady góralskie-1
+    0 spotkanie modlitewne-1
+    0 spotkanie warsztatowe-1
+    0 spotkanie przedwyborcze-1
+    0 wizyta studyjna-1
+    VISITED 0 spotkanie opłatkowe-1, wigilia-6, opłatek-2
+    2 warsztat-4
+      0 warsztat strategiczny-1
+      0 trening-2
+    0 sesja-7
+    1 sesja-4
+      0 jam session-1, jam-session-1
+    1 wyjście-24
+      0 piwo-3
+    4 wieczór-1
+      1 wieczór autorski-1
+        0 wieczór poetycki-1, wieczorek poetycki-1
+      1 wieczorek-1
+        0 wieczornica-1
+    0 kolacja-2
+    0 schadzka-1
+    0 kolędowanie-4
+    3 randka-1
+      0 szybka randka-1
+      0 randka rozbierana-1
+      0 randka w ciemno-1
+    0 sabat-1
+    3 zlot-1
+      0 zlot gwiaździsty-1
+      0 jamboree-1, jambo-1
+      0 złaz-1
+    1 audiencja-1, posłuchanie-5
+      0 audiencja generalna-1
+    48 przyjęcie-13
+      0 roczek-2
+      0 osiedliny-2
+      0 salon-4
+      1 herbatka-4
+        0 five o'clock-1, fajf-1
+      0 recepcja-2
+      0 stypa-1, konsolacja-1
+      0 poprawiny-1
+      0 śledź-3
+      0 komers-1, komersz-1
+      2 wieczór-2
+        0 wieczór panieński-1
+        0 wieczór kawalerski-1
+      0 żurfiks-1
+      0 jubel-1
+      1 sympozjon-2
+        0 sympozjon-5
+      0 koktajl-3, cocktail-2
+      0 chrzciny-1
+      1 uczta-1, biesiada-1
+        0 agapa-1
+      1 raut-1
+        0 asambl-1
+      0 bankiet-1
+      23 impreza-2, balanga-1
+        0 imieniny-2
+        5 urodziny-3
+          VISITED 0 dziewiętnastka-4
+          VISITED 0 siedemnastka-5
+          VISITED 0 szesnastka-6
+          VISITED 0 piętnastka-4
+          VISITED 0 osiemnastka-4
+        1 wigilia-4
+          0 spotkanie opłatkowe-1, wigilia-6, opłatek-2
+        0 parapetówka-1
+        0 mikołajki-2
+        2 barbórka-2
+          0 karczma piwna-1
+          0 comber-5
+        3 lumpka-1, hulanka-1, pohulanka-1
+          0 orgia-2
+          0 orgietka-1
+          0 bachanalia-2, bachanalie-2
+        0 domówka-1
+        0 grill-2, barbecue-2
+        0 popijocha-1, popijawa-2
+        0 andrzejki-1
+        0 pijatyka-1, opilstwo-2, libacja-1, wypitka-1, napitka-1
+    1 próba-5
+      0 próba generalna-1
+    0 zbiórka-1, apel-2
+    6 zjazd-1
+      0 konwent-3
+      0 kontrakt-4
+      0 kongregacja-4
+      0 konklawe-1
+      1 sobór-3, koncylium-1
+        0 sobór powszechny-1
+    45 zgromadzenie-4, zebranie-9
+      0 konwent-4
+      0 kapituła-2
+      4 sejm-4
+        0 sejm elekcyjny-1
+        0 sejm konwokacyjny-1, konwokacja-1
+        0 sejm koronacyjny-1
+        0 sejm walny-1
+      0 apella-1
+      1 odprawa-2
+        0 briefing-1
+      0 eklezja-2
+      0 prasówka-1
+      0 komicja-1, komicje-1
+      0 konwentykiel-1
+      0 wywiadówka-1
+      0 nasiadówka-1
+      0 landtag-1
+      0 plenum-1
+      7 sejmik-1
+        0 sejmik samorządowy-1
+        0 sejmik województwa-1
+        0 sejmik przedsejmowy-1
+        1 koło-10
+          0 koło rycerskie-1
+        0 sejmik generalny-1, generał-3
+        0 sejmik relacyjny-1
+      0 zwołanie-4
+      6 demonstracja-1, manifestacja-1, manifa-2, demka-1
+        0 pikieta-4
+        0 manifa-1
+        0 kontrdemonstracja-1, kontrmanifestacja-1
+        2 marsz-2
+          0 biały marsz-1
+          0 czarny marsz-1
+      1 mityng-2
+        0 wiec-1
+      1 posiedzenie-6
+        0 rada-4
+      4 narada-2
+        2 konsultacja-2
+          0 superwizja-1
+          0 konsylium-2, consilium-2, konsulta-1
+        0 operatywka-1
+      1 kolegium-3
+        0 definitorium-2
+    8 konferencja-1
+      0 konferencja episkopatu-1
+      1 telekonferencja-1
+        0 wideokonferencja-1
+      1 sympozjum-1, sympozjon-3
+        0 kolokwium-2
+      0 forum-1
+      0 szczyt-6
+      0 kongres-2
+  10 przypadek-1, zrządzenie losu-1, traf-1, kazus-1, casus-1
+    1 strzał-2
+      0 strzał w dziesiątkę-1
+    0 wypadek losowy-1
+    3 pech-1, niefart-1
+      0 twarde lądowanie-1
+      0 zezowate szczęście-1, garbate szczęście-1
+      0 ironia-3
+    2 szczęście-2, fuks-2, fart-1, łut szczęścia-1, uśmiech losu-1, błogosławieństwo-3
+      0 miękkie lądowanie-2
+      0 manna z nieba-1
+  0 przygoda-1
+  0 zajście-9
+  55 rywalizacja-1, współzawodnictwo-1, konkurencja-1, zmagania-2, walka-6, wyścig-2, gra-2, kompetycja-1
+    0 konkurencja-5
+    0 szarada-3
+    0 wolna konkurencja-1
+    1 turniej-1
+      0 karuzel-1
+    0 przepychanka-2
+    0 zawody-1
+    6 walka-4
+      0 pojedynek-2
+      1 pojedynek-1
+        0 harc-1
+      0 wolnoamerykanka-1, wolna amerykanka-2
+      0 fair play-1, czysta gra-1
+      0 sparing-1, sparring-1
+    0 rewanż-1
+    39 wyścig-1
+      0 kryterium uliczne-1
+      0 gymkhana-1
+      0 kumoterki-1
+      0 setka-9, stumetrówka-1
+      0 cyklotrial-1
+      0 cross-1, kros-1
+      0 czasówka-1
+      0 gońba-1
+      0 bieg myśliwski-1
+      0 zjazd-2, bieg zjazdowy-1
+      0 chód-2, chodziarstwo-1, chód sportowy-1
+      0 regaty-1
+      6 rajd-1
+        0 rajd przygodowy-1
+        2 rajd obserwowany-1, trial-1
+          0 trial motocyklowy-1
+          0 trial rowerowy-1
+        0 sześciodniówka-1
+        0 rajd gwiaździsty-1
+      19 bieg-3
+        0 bieg długi-1
+        0 bieg rozstawny-1
+        1 bieg na orientację-1, orienteering-1
+          0 radioorientacja sportowa-1
+        0 dromos-2
+        0 diaulos-1
+        3 skip-1
+          0 skip C-1
+          0 skip B-1
+          0 skip A-1
+        0 półmaraton-1
+        0 bieg przez płotki-1
+        0 bieg przełajowy-1, przełaj-1
+        0 bieg płaski-1
+        0 sprint-1
+        1 sztafeta-1
+          0 sztafeta pożarnicza-1
+        1 maraton-1
+          0 supermaraton-1, ultramaraton-1
+  53 uroczystość-1
+    0 swaćba-1
+    0 choinka-3
+    0 śluby-2
+    0 chrzest-4
+    1 obchód-3
+      0 gaik-1, maik-1, nowe lato-1
+    0 beania-2
+    0 prekonizacja-1
+    3 ceremoniał-1, akt-4
+      0 ekspulsja-1
+      0 komendancja-1
+      0 intromisja-1
+    0 galówka-1
+    0 akademia-3
+    0 oficjałka-1
+    0 juwenalia-1, żakinada-1, dni studenta-1
+    0 kupała-1, sobótka-1, noc świętojańska-1
+    0 wręczenie-2
+    0 immatrykulacja-1
+    0 bierzmowanie-2
+    0 zaręczyny-1, zrękowiny-1
+    0 koronacja-1
+    0 chrzest-1
+    4 obchody-1
+      0 oktawa wielkanocna-1
+      2 rocznica-2
+        1 jubileusz-1
+          0 benefis-1
+    0 procesja-1
+    0 odpust-1
+    0 dożynki-1, święto plonów-1
+    9 święto-2
+      0 hubertowiny-1, hubertus-1
+      0 fiesta-3
+      5 urodziny-2
+        0 dziewiętnastka-4
+        0 siedemnastka-5
+        0 szesnastka-6
+        0 piętnastka-4
+        0 osiemnastka-4
+      0 wesele-1, gody-2
+    4 ślub-1, zaślubiny-1, mariaż-2
+      0 ślub cywilny-1
+      0 ślub konkordatowy-1
+      0 ślub kościelny-1
+      0 zamążpójście-1, zamęście-1
+    6 ceremonia-1
+      0 hawdala-1
+      0 gala-1
+      0 obłóczyny-2
+      0 ingres-1
+      1 adoracja-2
+        0 pudźa-1, pudża-1
+  9 awaria-1, uszkodzenie-3
+    0 blackout-1
+    0 utyk-1
+    1 przepięcie-1
+      0 przepięcie łączeniowe-1
+    0 urwanie-5
+    0 zerwanie-10
+    1 zwarcie-2, spięcie-5, zwarcie elektryczne-1
+      0 krótkie spięcie-1
+    0 rozstrój-2
+  13 zajście-8
+    2 awantura-1, brewerie-1, burda-1, burza-5, draka-1, Sodoma i Gomora-1
+      0 jazda-4
+      0 burza w szklance wody-1
+    0 defenestracja-1
+    0 przepychanka-1
+    1 szamotanina-1, szarpanina-1
+      0 szturchanina-1
+    5 bójka-1, bijatyka-1, bitka-1, bitwa-1, łomotanina-1, mordobicie-1, nawalanka-1, przewalanka-1, rękoczyny-1, rozpierducha-1, rozróba-1, rozróbka-1
+      0 rąbanina-1
+      0 ustawka-1
+      0 siekanina-1
+      0 haratanina-1
+      0 jatka-2

@@ -1,0 +1,4778 @@
+4615 część-3
+  0 strefa-4
+  VISITED 0 miejsce-9
+  0 linia-21
+  0 przęsło-6
+  549 *część ciała-1
+    0 węzeł-16
+    0 przedpiersie-2
+    0 skok-5
+    0 międzyżebrze-2
+    0 łaskotki-2
+    0 skleryt-1
+    0 pęcina-1
+    0 łyda-1, łydka-1
+    2 metamer-1, segment-3, pierścień ciała-1
+      0 proglotyd-1
+      0 przedplecze-1, przedtułów-1
+    0 pacha-1
+    0 tułów-2
+    2 kopyto-3
+      1 racica-1
+        0 rapeć-2
+    0 udo-1
+    0 tułów-1, kadłub-1, korpus-3
+    2 stopa-1
+      0 lotosowa stopa-1
+      0 płetwa-2
+    0 kolano-1
+    0 grzbiet-1
+    11 fałda-3, fałd-2
+      0 struna głosowa-1
+      0 torba-4
+      1 wałek-5, zwałek-1
+        0 oponka-3, opona-3
+      0 nagłośnia-1
+      2 warga sromowa-1
+        0 wargi sromowe mniejsze-1
+        0 wargi sromowe większe-1
+      1 zmarszczka-1
+        0 bruzda-2
+      0 napletek-1
+    5 brzuch-1
+      0 bęben-6
+      1 brzuch-2
+        0 mięsień piwny-1
+      0 sześciopak-2, kaloryfer-2
+      0 brzuszysko-1, brzucho-1, kałdun-1, bebech-1, maciek-1
+    1 biust-1, piersi-1
+      0 cyc-3
+    0 podudzie-1, goleń-1
+    504 organ-3, narząd-1
+      6 zawiązek-2
+        4 pąk-1, pączek-2
+          0 oczko-15
+          0 kapar-2
+          0 oczko-1
+          0 goździk-3
+        0 kiełek-1
+      0 narząd Jacobsona-1, narząd lemieszowy-1
+      0 wole miodowe-1
+      0 puch kielichowy-1
+      0 narząd krytyczny-1
+      0 drugorzędowe cechy płciowe-1
+      0 ropalium-1, ciałko brzeżne-1
+      1 listek-2
+        0 łuszczka-2
+      0 oczko Hessego-1
+      0 żyłka-4
+      10 narząd limfoidalny-1, narząd limfatyczny-1
+        0 grudka limfatyczna-1
+        0 kaletka Fabrycjusza-1, torebka Fabrycjusza-1, kieszonka Fabrycjusza-1
+        0 pierścień gardłowy Waldeyera-1, pierścień chłonny gardła-1
+        2 węzeł chłonny-1, węzeł limfatyczny-1
+          0 węzeł wartowniczy-1, SLN-1
+          0 węzeł Virchowa-1
+        VISITED 0 grasica-1
+        VISITED 0 wyrostek robaczkowy-1, ślepa kiszka-1, wyrostek-3
+        0 śledziona-1
+        0 szpik-1, szpik kostny-1
+      0 grudka chłonna-1
+      0 aparat mowy-1
+      0 kądziołek-1
+      0 śródnercze-1, pranercze-1
+      0 zaodwłok-1
+      0 tyflosolis-1
+      0 zatoki-1, zatoki przynosowe-1
+      156 organ roślinny-1
+        0 ostroga-4
+        0 wąs czepny-1
+        VISITED 0 kolec-4
+        0 skrzydełko-4
+        VISITED 0 miodnik-1, nektarium-1, nektarnik-1
+        42 pęd-2, pęd roślinny-1
+          1 wilk-7
+            0 pijawka-3
+          0 wypustek-1
+          0 pławina-1
+          0 pasynek-1, pasierb-2
+          0 brukselka-3
+          0 ablegier-1, odkład-5
+          0 zraz-2
+          0 areola-1
+          0 rogożyna-1
+          0 krótkopęd-1
+          3 gałęziak-2
+            0 kladokladium-1
+            0 platykladium-1
+            0 fyllokladium-1, fylokladium-1, filokladium-1
+          0 głąbik-1
+          0 rozłóg-2, wić-3
+          0 prątek-2
+          0 odrost-1, odrośl-1
+          0 szparag-2
+          21 gałąź-1
+            2 kiść-1
+              0 bez-3
+              0 grono-2
+            0 łoza-4
+            0 wawrzyn-2, laur-3
+            1 wierzbina-4, łoza-2, łozina-1
+              0 wiklina-1
+            0 grabina-2
+            0 dębina-3
+            0 brzezina-2
+            2 jedlina-3, choina-3
+              0 sośnina-3
+              0 świerszczyna-1
+            0 olszyna-4
+            5 gałązka-1
+              0 palma-2
+              0 rozmaryn-2
+              0 bazia-2
+              0 rózga-1, różdżka-3, rószczka-2
+              0 wić-1, witka-1
+            0 konar-1
+        VISITED 0 cierń-3
+        11 kwiat-2
+          0 jaśmin-3
+          0 goździk-4
+          0 kwiat języczkowy-1
+          0 lawenda-2
+          0 hibiskus-2
+          0 karczoch-3
+          0 kwiat motylkowy-1, kwiat motylkowaty-1
+          0 kwiat pułapkowy-1
+          0 kwiat przedprątny-1
+          0 kwiat męski-1, kwiat pręcikowy-1
+          0 kwiat żeński-1, kwiat słupkowy-1
+        12 łodyga-1
+          0 piętka-3
+          0 kard-2
+          0 nanercz-1, jabłko nanerczowe-1
+          1 łęcina-1, łęt-1
+            0 grochowina-1
+          0 badyl-2
+          1 szypułka-1
+            0 ogonek-2
+          1 źdźbło-1
+            0 słomka-2
+          0 trzcina-3
+          0 głąb-2
+        25 liść-1
+          0 liść złożony-1
+          0 przysadka-2
+          0 papeda-2
+          0 trawa cytrynowa-2
+          0 stewia-2
+          0 szałwia-3
+          0 liść curry-1
+          0 mikrofil-1
+          0 makrofil-1
+          0 liść pierzastodzielny-1
+          0 podkwiatek-1
+          0 trójliść-1
+          0 liść laurowy-1, listek laurowy-1, liść bobkowy-1, listek bobkowy-1
+          0 liściak-3, filodium-1
+          0 liścień-1, liść zarodkowy-1
+          0 bazylia-1
+          0 piołun-2
+          0 melisa-2
+          0 plewa-3, plewka-1
+          0 sporofil-1
+          0 podsadka-1
+          0 owocolistek-1
+          1 mięta-2
+            0 mięta pieprzowa-2
+          0 igła-5, szpilka-7
+        14 pień-1, pniak-2
+          0 strzała-2
+          0 bezpieńka-1
+          0 krzywak-2
+          0 rosocha-2
+          0 dłużyca-1
+          0 kłodzina-1
+          1 okrąglak-3
+            0 kulak-1
+          0 pieniek-1, karcz-1
+          4 kłoda-1, kloc-2
+            1 okrąglak-2, krąglak-1, oblak-2, wyrzynek-1
+              0 kopalniak-1
+            1 klocek-2
+              0 dusza-12
+        40 korzeń-1
+          0 lukrecja-2
+          1 galangal-1, galanga-1
+            0 kencur-1
+          0 skorzonera-2, wężymord-2
+          0 rzodkiew-3
+          0 korzeń przybyszowy-1
+          0 alrauna-1
+          0 pneumatofor-2, korzeń oddechowy-1
+          0 salcefia-2, salsefia-2, szparag zimowy-1
+          2 kłącze-1
+            0 imbir-3
+            0 korzeń fiołkowy-1
+          0 korzeń powietrzny-1
+          0 korzeń palowy-1
+          0 pasternak-2
+          0 chrzan-2
+          7 cebulka-4, cebula-2
+            1 ząbek-2
+              0 ząbek czosnku-1
+            0 czosnek-2
+            3 cebula-1
+              0 cebula perłowa-1
+              0 szalotka-2
+              0 dymka-2
+          1 marchewka-2, marchew-2
+            0 karotka-2, karota-2
+          0 pietruszka-2
+          12 bulwa-2
+            0 brukiew-2, karpiel-2
+            0 topinambur-2, gruszka ziemna-1, karczoch jerozolimski-1
+            0 maniok-2
+            0 kasztan wodny-1
+            2 ziemniak-2, kartofel-2, pyra-1
+              0 słodki ziemniak-1, batat-1, patat-1
+              0 sadzeniak-1
+            0 rzodkiewka-2
+            1 burak-2
+              0 burak ćwikłowy-1, burak stołowy-1
+            0 seler-2
+            0 rzepa-2
+      0 protonefrydium-1
+      0 metanefrydium-1
+      0 przyoczko-1, oczko-14
+      0 fotofor-1, narząd świetlny-1
+      0 wypotnik-1, hydatoda-1
+      0 narząd otolitowy-1
+      0 statocysta-1
+      0 przednercze-1, nerka głowowa-1
+      7 anastomoza-2
+        5 anastomoza chirurgiczna-1, przetoka-2
+          VISITED 4 stomia-1
+        0 anastomoza naczyniowa-1
+      0 linia boczna-1, linia naboczna-1
+      0 skrzelotchawka-1
+      5 pęcherzyk-1
+        0 pęcherzyk-4
+        VISITED 0 pęcherzyk płucny-1
+        0 pęcherzyk jajnikowy-1, pęcherzyk Graafa-1
+        0 pęcherzyk żółtkowy-1
+        0 pęcherzyk żółciowy-1, woreczek żółciowy-1
+      0 moczownik-1
+      0 synergista-1, narząd synergetyczny-1
+      0 narządy płciowe męskie zewnętrzne-1
+      0 wędzidełko-1
+      2 lofofor-1
+        0 kryzelnica-1
+        0 ramienionóg-1
+      5 *narząd płciowy rośliny-1
+        0 rodnia-1
+        0 plemnia-1
+        1 pręcik-2
+          0 prątniczek-1
+        0 słupek-4
+      0 parzydełko-1
+      0 pokładełko-1
+      0 głowotułów-1
+      0 tchawka-1
+      0 efektor-2
+      0 głośnia-1
+      22 organellum-1
+        0 fagolizosom-1
+        0 plamka oczna-1, stigma-1
+        0 aparat Golgiego-1
+        0 peroksysom-1, mikrociałko-1
+        0 mitochondrium-2
+        0 lizosom-1
+        0 centriola-1
+        0 nukleoid-1, genofor-1, chromosom bakteryjny-1
+        0 centrosom-1, śródciałko-1
+        0 rybosom-1
+        1 wakuola-1, wodniczka-2
+          0 fagosom-1, wakuola fagocytowa-1, wodniczka fagocytowa-1
+        7 plastyd-1
+          0 proplastyd-1
+          0 elajoplast-1
+          1 leukoplast-1
+            0 amyloplast-1
+          2 plastyd barwny-1, chromatofor-2
+            0 chromoplast-1
+            0 chloroplast-1, ciałko zieleni-1
+        VISITED 0 nibynóżka-1, pseudopodium-1
+        0 jądro komórkowe-1, nukleus-1, jądro-7
+      30 narząd ruchu-1
+        0 ramię-5
+        0 rzęska-4
+        0 noga-6
+        2 undulipodium-1
+          0 wić-2, witka-2
+          0 rzęska-1
+        0 parapodium-1
+        0 nibynóżka-1, pseudopodium-1
+        0 płetwa-1
+        VISITED 17 kończyna-1
+        1 skrzydło-1
+          0 pokrywa-3
+        0 ramię-1
+      29 przewód-2
+        0 przewód pokarmowy-1
+        1 cewka-1
+          0 cewka moczowa-1
+        0 kanał energetyczny-2
+        VISITED 0 przewód chłonny prawy-1
+        VISITED 0 przewód piersiowy-1
+        0 nasieniowód-1
+        0 moczowód-1
+        0 jajowód-1
+        18 naczynie-1
+          0 pajączek-3
+          0 piseczniczka-1
+          2 naczynie chłonne-1, naczynie limfatyczne-1
+            0 przewód chłonny prawy-1
+            0 przewód piersiowy-1
+          0 włośniczka-1, kapilara-1
+          7 tętnica-1, arteria-2, naczynie tętnicze-1
+            0 tętnica podkolanowa-1
+            VISITED 0 tętnica łydkowa-1
+            0 tętnica szyjna-1
+            0 tętnica płucna-1
+            0 tętnica wieńcowa-1
+            VISITED 0 gałąź oskrzelowa aorty-1
+            0 aorta-1
+          3 żyła-1, naczynie żylne-1
+            0 żyła podkolanowa-1
+            0 żyła udowa-1
+            0 żyła wrotna-1
+        0 pępowina-1, sznur pępkowy-1
+        0 oskrzele-1
+        0 trąbka Eustachiusza-1, trąbka słuchowa-1, przewód Eustachiusza-1
+      1 przeszczep-1, transplantat-1
+        0 bajpas-2, by-pass-1, bypass-2
+      0 przyssawka-1
+      2 zawiązek-1
+        0 cewa nerwowa-1, cewka nerwowa-1
+        0 prajelito-1, progaster-1, jelito pierwotne-1, archenteron-1
+      4 zarodnia-1, sporangium-1
+        0 mikrosporangium-1
+        0 makrosporangium-1, megasporangium-1
+        0 worek-2
+        0 puszka-5
+      4 narząd gębowy-1
+        0 smoczek-2
+        0 kłujka-1
+        0 ryjek-2
+        0 ssawka-1, trąbka-2
+      0 łechtaczka-1, klitoris-1, clitoris-1
+      0 narządy płciowe żeńskie zewnętrzne-1, srom-2
+      0 narząd szczątkowy-1, rudyment-1
+      0 worek płucny-1, płucotchawka-1
+      0 worek trzewiowy-1
+      0 krtań-1
+      0 skrzela-1, skrzele-1
+      2 genitalia-1, nagość-4
+        0 klejnoty-2, klejnoty koronne-2, przyrodzenie-1
+        0 joni-1
+      0 trąba-3
+      30 gruczoł-1
+        0 gruczoł żółtnikowy-1, żółtnik-1
+        0 gruczoł jadowy-1
+        5 gruczoł dokrewny-1
+          0 ciałko żółte-1
+          0 szyszynka-1
+          0 przysadka-1, przysadka mózgowa-1
+          0 grasica-1
+          VISITED 0 trzustka-1
+        0 miodnik-1, nektarium-1, nektarnik-1
+        1 gruczoł zapachowy-1
+          0 fiołek-2
+        1 gruczoł sutkowy-1, gruczoł mlekowy-1, sutek-1
+          0 wymię-1
+        2 gruczoł rozrodczy-1, gruczoł płciowy-1, gonada-1, pierwszorzędowe cechy płciowe-1
+          0 jądro-1
+          0 jajnik-1
+        0 gruczoł przytarczowy-1, gruczoł przytarczyczny-1, przytarczyca-1
+        1 gruczoł trawienny-1
+          0 trzustka-1
+        0 gruczoł tarczycowy-1, tarczyca-1, gruczoł tarczowy-1
+        1 gruczoł ślinowy-1, ślinianka-1
+          0 ślinianka przyuszna-1
+        1 gruczoł przędny-1
+          0 kądzielnik-1
+        0 gruczoł potowy-1
+        0 gruczoł nadnerczowy-1, nadnercze-1
+        0 gruczoł łzowy-1
+        0 gruczoł łojowy-1
+        0 gruczoł kuprowy-1
+        0 gruczoł krokowy-1, prostata-1, stercz-1
+        0 wątroba-1
+      0 zalążek-2
+      0 oskrzela-1
+      0 tchawica-1
+      3 pęcherz-2
+        0 pęcherz moczowy-1, pęcherz-4
+        0 pęcherz pławny-1
+        0 pęcherz płodowy-1
+      0 łożysko-3, placenta-1
+      3 warga-1
+        0 fafle-1
+        0 warga dolna-1
+        0 warga górna-1
+      3 nerka-1
+        0 nerka wędrująca-1, nerka ruchoma-1
+        0 nerka dodatkowa-1, nerka nadliczbowa-1, trzecia nerka-1
+        0 nerka podkowiasta-1, nerka płatowata-1, złączenie nerek-1
+      0 dwunastnica-1
+      2 jelito-1, flak-2, kiszka-2
+        0 jelito grube-1
+        0 jelito cienkie-1
+      1 żołądek-1
+        0 żołądek mięśniowy-1
+      0 pochwa-2, wagina-1
+      5 macica-1, narząd rodny-1
+        0 macica łukowata-1
+        0 macica podzielona-1
+        0 macica podwójna-1
+        0 macica jednorożna-1
+        0 macica dwurożna-1
+      0 gałka oczna-1
+      0 płuca-1
+      2 oko-1
+        0 oko ciemieniowe-1, narząd ciemieniowy-1
+        0 ślepie-1
+      3 usta-1, buzia-2, pysio-2
+        0 usta jak korale-1
+        0 paszczęka-1
+        0 gębusia-2
+      28 kość-1
+        3 kosteczka słuchowa-1
+          0 strzemiączko-2, strzemionko-3
+          0 młoteczek-1
+          0 kowadełko-1
+        0 kość udowa-1
+        0 kość miedniczna-1
+        0 kość łonowa-1
+        0 kość skokowa-1, napiętek-2
+        0 skuła-1
+        0 kość ogonowa-1, kość guziczna-1
+        0 kość jarzmowa-1
+        0 kość gnykowa-1, gnyk-1
+        0 knaga-2
+        0 lemiesz-2, kość lemieszowa-1
+        0 paliczek-1
+        0 piszczel-1, kość piszczelowa-1
+        4 kręg-1
+          0 kręg połowiczy-1
+          2 kręg szyjny-2
+            0 kręg obrotowy-1, obrotnik-1
+            0 dźwigacz-1, kręg szczytowy-1, atlas-4
+        0 mostek-3
+        0 kość strzałkowa-1, strzałka-3
+        0 łopatka-1
+        0 żebro-1
+        0 obojczyk-2
+        0 ość-1
+        0 gnat-2
+      0 dziób-5
+      36 członek-3
+        3 nos-1
+          0 jastrzębi nos-1, orli nos-1
+          0 pyza-4
+          0 nochal-1, kinol-1, kulfon-3
+        17 kończyna-1
+          0 kikut-1
+          3 kończyna dolna-1
+            VISITED 2 noga-4
+          2 kończyna górna-1
+            1 ręka-1
+              0 mańka-1
+          11 noga-2
+            1 łapa-1
+              0 skok-7
+            0 badyl-5
+            4 odnóże-1
+              0 szczękonóże-1
+              0 szczękonóżka-1, nogogłaszczka-1, pedipalp-2
+              0 szczękoczułek-1
+              0 szczypce-2, kleszcze-3
+            2 noga-4
+              0 noga rozkroczna-1
+              0 nożysko-1
+        4 głowa-1
+          0 łeb-1
+          1 *głowa człowieka-1, ludzka głowa-1
+            0 łysina-1, glaca-1
+          0 łepek-1, łebek-1
+        1 szyja-1
+          0 łabędzia szyja-1
+        6 ogon-1
+          0 wachlarz-3
+          0 omyk-1, osmyk-1, kosmyk-2
+          0 kwiat-4
+          0 wiecha-2, polano-2
+          0 bukiet-3
+          0 kita-1
+      0 penis-1, członek-4, prącie-1, fallus-1, męskość-2
+      1 ucho-1
+        0 łyżka-7
+      34 nasiono-1, nasienie-1
+        3 siemię-1
+          0 siemię konopne-1, konopie-4
+          0 kanar-3, siemię kanarowe-1
+          0 siemię lniane-2
+        0 orzeszek piniowy-1
+        0 orzech brazylijski-2
+        0 kasztan-6
+        0 gałka muszkatołowa-1
+        0 kakao-1
+        0 nerkowiec-4
+        0 kozieradka-1
+        0 siewka-1
+        0 kardamon-1, kardamon zielony-1
+        0 orzeszek ziemny-1, orzeszek arachidowy-1, arachid-1, fistaszek-1
+        0 słonecznik-3
+        1 pestka-1
+          0 migdał-2
+        0 żołądź-1
+        15 ziarno-2, ziarenko-2, ziarnko-1
+          0 przepad-1
+          0 fasola azuki-2, fasola adzuki-2
+          0 ciecierzyca-2, groch włoski-1, cieciorka-2
+          0 sezam-4
+          0 jądro-2
+          0 fiżon-1
+          2 kawa-2
+            0 robusta-3
+            0 arabica-2, arabika-3
+          0 jaś-1
+          0 bób-2
+          0 soja-2
+          0 soczewica-2
+          0 groszek-1
+          0 groch-2
+      1 serce-1
+        0 serce jak dzwon-1
+      0 mózg-1, mózgownica-1, mózgowie-1
+      1 język-6
+        0 ozór-2, jęzor-1
+  0 ramię-4
+  0 zakładka-4
+  12 znak zodiaku-1
+    0 Ryby-1
+    0 Wodnik-3
+    0 Strzelec-6
+    0 Skorpion-4
+    0 Waga-9
+    0 Panna-7
+    0 Lew-4
+    0 Rak-7
+    0 Bliźnięta-4
+    0 Byk-8
+    0 Baran-8
+    0 Koziorożec-3
+  0 regenerat-1
+  1 północ-3
+    0 Północ-4
+  2 wschód-6, ściana wschodnia-1
+    0 Wschód-4
+    0 Wschód-3, Orient-1, Azja-1
+  1 południe-4
+    0 Południe-5
+  477 *miejsce wyróżniające się z całości obiektu-1
+    0 anomalia magnetyczna-2
+    108 *forma ukształtowania terenu-1
+      0 padół-3
+      0 pagór mrozowy-1
+      0 kociołek wietrzeniowy-1, kociołek skalny-1
+      0 bruzda lodowcowa-1
+      0 amfiteatr morenowy-1
+      0 rzeźba staroglacjalna-1
+      0 rzeźba młodoglacjalna-1
+      0 rzeźba krasowa-1
+      0 rzeźba glacifluwialna-1
+      0 rzeźba glacjalna-1
+      0 grzbiet podmorski-1
+      VISITED 0 żebro-4
+      0 grzęda-6
+      0 kolumna-10, filar-6
+      7 skalica-1, skałka-3, tor-7
+        0 baszta-2
+        0 maczuga skalna-1
+        0 kopa skalna-1
+        0 materac skalny-1
+        0 chłopek-2
+        0 turniczka-1
+        0 grzyb skalny-1
+      VISITED 36 obniżenie-5
+      VISITED 42 wzniesienie-5, wyniosłość-2
+      6 zbocze-1, stok-1
+        0 przeciwstok-1
+        2 ściana-6
+          0 czołówka-5
+          0 urwisko-1, uskok-3
+        0 upłaz-1
+        0 skarpa-1
+    1 plama-4
+      0 plama barwna-1
+    0 patelnia-2
+    0 wyleżysko-1
+    2 odsłonięcie-4
+      0 wychodnia-1, wychód-3
+      0 odkrywka-1
+    5 przewężenie-1, zwężenie-3
+      0 ucho igielne-2
+      3 cieśń-1
+        0 cieśń aorty-1
+        0 cieśń macicy-1
+        0 cieśń gardzieli-1
+    0 stromizna-1, stromość-1
+    408 nierówność-4
+      0 zakop-1
+      0 mulda-1
+      0 wygięcie-4
+      43 zgrubienie-2, zgrubiałość-1, gula-1, bulwa-3
+        0 troczek zginaczy-1
+        0 troczek prostowników-1
+        0 warga-3
+        0 pasemko Caspary'ego-1
+        0 róża-8
+        26 węzeł-4
+          15 węzeł żeglarski-1
+            0 węzeł masztowy-1
+            0 stoper-5
+            0 węzeł knagowy-1
+            0 węzeł Huntera-1, związ Huntera-1
+            3 węzeł szotowy-1
+              0 węzeł bramszotowy-1
+              0 węzeł tkacki-1
+              0 węzeł flagowy-1
+            0 węzeł złodziejski-1
+            0 węzeł refowy-1
+            0 węzeł prosty-1
+            0 bosmanka-1, gałka bosmańska-1, skrajwęzeł rzutkowy-1
+            0 kluczka-1
+            1 węzeł płaski-1
+              0 węzeł babski-1
+          1 węzeł krzyżowy-1
+            0 węzeł holowniczy-1
+          0 półwyblinka-1
+          0 wyblinka-2, ósemka pionierska-1
+          0 węzeł ratowniczy-1, węzeł skrajny tatrzański-1
+          0 supeł-1, węzeł zwykły-1, półsztyk-1, półwęzeł-1
+          0 dziewiątka-6
+          0 garda-1
+          1 ósemka-10
+            0 podwójna ósemka-1
+        0 łuk brwiowy-1, łuk nadoczodołowy-1
+        0 wyrośle-2, wyrośl-2
+        0 ciałko rzęskowe-1, ciało rzęskowe-1
+        0 wrzeciono-3
+        0 zawęźlenie-3
+        0 rozdęcie-3
+        0 kolanko-2, węzeł-5
+        0 guz-2
+        0 gruzeł-1
+        1 odcisk-1, nagniotek-1, odgniotek-1
+          0 modzel-1
+      20 występ-2, wypust-1
+        0 kołnierz-2
+        0 przedmurze-4
+        0 żebro-3
+        0 cypel-1
+        0 gzyms-1
+        0 pióro-2, wypust-3
+        0 ryzalit-1
+        1 terasa-1, taras-2
+          0 płaśń-1, płaśnia-1
+        1 nawis-1
+          0 przewieszka-1, ściana przewieszona-1
+        8 gwint-1
+          0 gwint toczny-1
+          0 gwint stożkowy-1
+          1 gwint trapezowy-1
+            0 gwint trapezowy metryczny-1
+          0 gwint metryczny-1
+          0 gwint pociągowy-1
+          0 gwint prostokątny-1
+          0 gwint złączny-1
+      8 zagięcie-3, zgięcie-3, załamanie-5, przegięcie-5
+        1 załom-1, uskok-4, załam-1
+          0 odsadzka-1
+        4 fałda-1, plisa-2, fałd-1
+          1 zakładka-2
+            0 zaszewka-1
+          0 szczypanka-1
+          0 kontrafałda-1
+        0 załamek-1
+      66 wypukłość-1, uwypuklenie-3
+        0 guzowatość-2
+        0 łuska-8
+        0 żebro-6
+        0 krosta-2, pryszcz-2
+        0 uchyłek-1
+        0 guzek-2
+        0 krętarz-1
+        0 brzusiec-1
+        8 narośl-1
+          0 ostroga piętowa-1
+          0 dzikie mięso-1
+          0 parch-3
+          0 bulwka-1
+          0 halluks-1, haluks-1, paluch koślawy-1
+          0 polip-2
+          1 galas-1, galasówka-2
+            0 dębianka-2
+        1 garb-1
+          0 garbek-1
+        3 wybrzuszenie-2
+          0 wał dziąsłowy-1
+          0 purchel-1
+          0 entaza-1
+        42 wzniesienie-5, wyniosłość-2
+          0 żebro-4
+          0 czasza-4
+          0 nek-1, rdzeń wulkaniczny-1, pień wulkaniczny-1
+          0 kępa-2
+          0 wypiętrzenie-1
+          1 wysoczyzna-1
+            0 wysoczyzna morenowa-1
+          3 ostaniec-1
+            0 głowa cukru-1
+            0 ostaniec deflacyjny-1
+            0 mogot-1, ostaniec krasowy-1, hum-1
+          0 wulkan błotny-1
+          3 masyw-1
+            0 masyw górski-1
+            0 rozróg-1
+            0 autochton-2
+          8 wzgórze-1, pagórek-1, wzgórek-1, górka-1
+            1 muton-1
+              0 szkier-1, skjer-1, skier-1, szer-1
+            0 oz-1
+            0 kem-1
+            0 drumlin-1
+            2 wydma-1
+              0 barchan-2
+              0 diuna-1
+          16 góra-1
+            1 góra podwodna-1, góra podmorska-1
+              0 gujot-1, guyot-1, podwodna stołowa góra-1
+            0 kopa-1
+            0 stoliwo-1
+            11 wulkan-1
+              1 stożek wulkaniczny-1
+                0 stożek pasożytniczy-1, stożek przybyszowy-1
+              0 wulkan drzemiący-1
+              0 superwulkan-1
+              0 wulkan eksplozywny-1
+              0 wulkan tarczowy-1
+              0 wulkan tufowy-1
+              0 wygasły wulkan-1
+              0 drzemiący wulkan-1
+              0 stratowulkan-1, wulkan mieszany-1
+              0 wulkan czynny-1
+      2 wybój-1
+        VISITED 0 wądół-1
+        0 mulda-2
+      261 wgłębienie-2, zagłębienie-2, wklęsłość-1, wklęśnięcie-2, wydrążenie-3, zaklęsłość-1, zaklęśnięcie-2
+        2 niecka-1
+          VISITED 1 kotlina-1
+        VISITED 0 aedicula-3, edykuła-3, edykuł-3
+        0 siodełko tureckie-1
+        0 dołek osiowy-1
+        0 banior-1, misa eworsyjna-1, kołbań-3
+        0 ałas-1
+        0 wytopisko-1
+        0 perystom-1, peristom-1
+        0 komora-7
+        2 zachyłek-1
+          0 zachyłek gruszkowaty-1
+          0 zachyłek łonowy-1
+        0 takyr-1, takir-1
+        0 marmit-1, kocioł eworsyjny-1, kocioł wirowy-1, garnek podlodowcowy-1
+        0 wkop-1
+        1 jama-1
+          0 zatoka-4
+        10 dół-2
+          0 sondaż-2
+          0 wapiennik-5
+          0 wądół-1
+          0 grajdołek-1
+          0 wykrot-1
+          4 lej-1, krater-2, lejek-3, werteb-1
+            1 krater meteorytowy-1, krater uderzeniowy-1
+              0 astroblem-1
+            0 lej krasowy-1, lejek krasowy-1, wertep krasowy-1, werteb krasowy-1
+            0 wertep sufozyjny-1, lej sufozyjny-1, lejek sufozyjny-1, werteb sufozyjny-1, kocioł sufozyjny-1
+        2 dół-3
+          0 zębodół-1
+          0 oczodół-1
+        0 zawalisko-1
+        0 aksilla-1, pachwina-2
+        0 ploso-1
+        VISITED 0 szot-2, szott-1
+        0 geosynklina-1
+        0 kryptodepresja-1, zatopiona depresja-1
+        0 podcięcie-5
+        0 mszar-1
+        0 kawerna-1
+        3 wnęka-2, nisza-2, nyża-1
+          0 nisza niwalna-1
+          0 komin-1
+          0 kocioł-3, cyrk lodowcowy-1, kar-1
+        1 wręga-2, wręg-1
+          0 wrężyna-1
+        6 wcięcie-3
+          0 żłobek-3
+          VISITED 1 talia-2, stan-5, pas-4, kibić-1
+          2 nacięcie-4
+            0 nacios-1
+            0 karb-2
+        4 zapadlisko-1, zapadlina-1
+          0 zapadlisko tektoniczne-1
+          VISITED 2 rów tektoniczny-1, graben-1
+        3 basen-3
+          0 basen naftowy-1
+          0 basen sedymentacyjny-1
+          0 basen oceaniczny-1
+        0 wgięcie-3, wgniecenie-3
+        0 wilczy dół-1
+        0 podołek-1
+        9 wnęka-1
+          0 kieszeń-2
+          0 lodżia-1, loggia-1
+          0 framuga-2
+          VISITED 0 blenda-1
+          VISITED 4 nisza-1
+        0 koleina-1
+        15 bruzda-1, rowek-1, wrąb-1, wyżłobienie-4, żłobienie-6
+          5 żłób-4
+            VISITED 4 dolina lodowcowa-1, żłób lodowcowy-1, żłób polodowcowy-1, dolina U-kształtna-1
+          0 bruzda-3
+          0 grawerka-3
+          0 dołek-1
+          0 zacios-1
+          VISITED 0 wpust-1, felc-1
+          0 nut-1
+          0 fuga-4
+          0 bonia-2
+          0 bonia-1
+        2 krater-3, krater wulkaniczny-1
+          0 krater pasożytniczy-1, krater boczny-1
+          0 maar-1
+        5 jaskinia-1, grota-1, pieczara-1
+          0 grota ogrodowa-1
+          0 schronisko-3
+          0 jaskinia lodowa-1
+          0 jaskinia lawowa-1
+          0 awen-1, jaskinia krasowa-1
+        36 obniżenie-5
+          4 rów-2
+            0 rów oceaniczny-1
+            2 rów tektoniczny-1, graben-1
+              0 aulakogen-1
+              0 ryft-1
+          0 przełączka-1
+          0 lej depresyjny-1, stożek depresyjny-1
+          2 depresja-3
+            0 depresja śródziemnomorska-1
+            0 polder-1
+          23 dolina-1
+            0 dolina marginalna-1
+            0 dolina zawieszona-1, dolina wisząca-1, dolina podwieszona-1
+            0 wadi-1, ued-1, wadis-1
+            4 dolina lodowcowa-1, żłób lodowcowy-1, żłób polodowcowy-1, dolina U-kształtna-1
+              0 dolina przegłębiona-1
+              0 pradolina-2
+              1 rynna-1
+                0 rynna polodowcowa-1, rynna subglacjalna-1, dolina rynnowa-1
+            3 dolina V-kształtna-1
+              0 kanion podmorski-1
+              0 wcios-1
+              0 debrza-1, debrze-1, debra-1
+            0 przegłębienie-2
+            0 roztoka-1
+            4 wąwóz-1
+              0 holweg-1, głębocznica-1
+              0 rozdół-1
+              0 jar-1, parów-1, wądół-2
+              0 kanion-1
+            1 łożysko-2
+              0 pradolina-1
+            1 kotlina-1
+              0 polje-1
+          1 przełęcz-1
+            0 siodło-3
+        5 komora-8
+          0 trawieniec-1
+          3 przedżołądek-1
+            0 księgi-1
+            0 czepiec-3
+            0 żwacz-2
+        2 koryto-1
+          1 koryto rzeki-1
+            0 rzeczysko-1
+        0 krater-1
+        109 zbiornik-1
+          0 kaczy dół-2
+          0 zbiornik magmowy-1
+          0 komora wulkaniczna-1
+          0 płuczkarnia-1, płuczkarka-1
+          0 planktoniarnia-1
+          7 *zbiornik sztuczny-1
+            0 zlewnia-3
+            1 basen-7
+              0 brodzik-2
+            0 odstojnik-1, osadnik-2
+            0 studzienka ściekowa-1, wpust ściekowy-1
+            0 szambo-1, kloaka-1, dół gnilny-1
+            0 zbiornik retencyjny-1
+          1 akwarium-1
+            0 kula-7
+          93 zbiornik wodny-1, akwen-1
+            0 martwa woda-1
+            0 zbiornik przepływowy-1
+            0 kołbań-2
+            0 praocean-1
+            0 moczydło-1
+            0 impluvium-1
+            0 zimochów-1
+            0 wodowisko-1
+            0 cumowisko-1
+            3 kąpielisko-2
+              0 lido-2
+              1 pływalnia-1, basen-1
+                0 basen kryty-1
+            0 awanport-1, przedporcie-1
+            0 cofka-2
+            0 delfinarium-1
+            0 naturalny zbiornik wodny-1
+            0 basen modelowy-1
+            3 basen-4, basen portowy-1
+              2 dok-1
+                0 dok pływający-1
+                0 suchy dok-1
+            0 sadzawka-1
+            0 sadzawka-2
+            0 kałuża-1
+            1 rozlewisko-1, rozlew-1, zalewisko-1
+              0 młaka-2, młak-2
+            4 staw-1
+              0 staw osadowy-1
+              0 tarlisko-2, ikrzysko-2
+              0 glinianka-2
+              0 oczko-2, oczko wodne-1
+            0 ocean-1
+            2 morze-1
+              0 morze międzykontynentalne-1
+              0 morze epikontynentalne-1
+            56 jezioro-2
+              0 jezioro ramienicowe-1
+              0 jezioro polimiktyczne-1
+              3 jezioro przybrzeżne-1
+                0 jezioro limanowe-1, liman-1
+                0 jezioro lagunowe-1
+                0 jezioro deltowe-1
+              0 jezioro biogeniczne-1
+              8 jezioro lodowcowe-1, jezioro glacjalne-1
+                0 jezioro drumlinowe-1
+                0 jezioro przyozowe-1
+                0 jezioro peryglacjalne-1, jezioro ekstraglacjalne-1
+                VISITED 0 jezioro episzelfowe-1
+                0 jezioro supraglacjalne-1
+                0 jezioro proglacjalne-1
+                0 jezioro podlodowcowe-1, jezioro subglacjalne-1
+                VISITED 0 zastoisko-1, jezioro zastoiskowe-1
+              0 jezioro pluwialne-1
+              0 jezioro okresowe-1
+              0 jezioro endoreiczne-1
+              0 jezioro lobeliowe-1
+              0 jezioro hipertroficzne-1
+              0 jezioro saprotroficzne-1, jezioro przeżyźnione-1
+              5 jezioro słodkie-1, jezioro słodkowodne-1
+                1 jezioro oligotroficzne-1
+                  0 jezioro episzelfowe-1
+                0 jezioro mezotroficzne-1
+                0 jezioro politroficzne-1
+                0 jezioro eutroficzne-1
+              0 jezioro gorzkie-1
+              2 jezioro humotroficzne-1, jezioro humusowe-1
+                1 jezioro polihumusowe-1, jezioro dystroficzne-1
+                  0 suchar-3
+              4 jezioro zaporowe-1
+                0 jezioro wydmowe-1
+                0 jezioro osuwiskowe-1
+                VISITED 0 jezioro morenowe-1
+                0 zastoisko-1, jezioro zastoiskowe-1
+              1 jezioro krasowe-1
+                0 jezioro poljowe-1
+              9 jezioro polodowcowe-1
+                0 jezioro tektoniczno-polodowcowe-1
+                2 jezioro wytopiskowe-1
+                  0 jezioro ałasowe-1, jezioro termokrasowe-1
+                  0 oczko polodowcowe-1, oczko wytopiskowe-1
+                0 jezioro rynnowe-1
+                0 jezioro morenowe-1
+                0 jezioro karowe-1, jezioro cyrkowe-1
+                0 jezioro fiordowe-1
+                0 jezioro eworsyjne-1
+              0 jezioro reliktowe-1
+              1 jezioro tektoniczne-1, jezioro ryftowe-1
+                0 jezioro zapadliskowe-1
+              0 jezioro meteorytowe-1, jezioro kosmiczne-1
+              0 jezioro wulkaniczne-1
+              0 jezioro przepływowe-1
+              1 jezioro słone-1
+                0 szot-2, szott-1
+              0 jezioro meandrowe-1
+              0 starorzecze-1
+        12 rów-1, wykop-1, kanał-1, przykop-1
+          0 wilczy dół-2
+          0 łotok-1
+          0 odprowadzalnik-1
+          0 doprowadzalnik-1
+          0 aprosza-1
+          0 przekop-1
+          1 okop-1, rów-3
+            0 koszokop-1
+          0 transzeja-1
+          1 rów melioracyjny-1
+            0 lewada-2
+          0 fosa-1
+    5 styk-1
+      3 zbieg-1
+        0 róg-12
+        0 róg-9
+        0 spływ-3
+      0 kontakt-3
+    4 rozgałęzienie-1, rozwidlenie-1
+      0 bifurkacja-1
+      0 rozjazd-1
+      0 badyl-3
+      0 widły-2
+    8 zakręt-1, skręt-2
+      0 kolano-2
+      0 prawoskręt-2
+      0 lewoskręt-2
+      0 zakręt śmierci-1
+      0 zakos-1
+      0 wiraż-1
+      1 meander-1
+        0 meander-3
+    3 kąt-1, róg-2
+      0 wysokość astronomiczna-1
+      0 róg halsowy-1
+      0 kąt kursowy-1
+  8 miejsce-4
+    0 podkolanie-1
+    0 cytostom-1
+    2 ognisko-6
+      1 przerzut-1
+        0 metastaza-1, przerzut nowotworowy-1
+    1 talia-2, stan-5, pas-4, kibić-1
+      0 talia osy-1
+    0 okolica-3
+  0 odcinek-2
+  1251 element-3
+    0 stała-3
+    0 wkład-5
+    0 zgrzebło-4
+    2 obręcz-3
+      1 felga-1
+        0 alufelga-1
+    0 śruba pociągowa-1
+    0 organ roboczy-1
+    0 pętlica-5
+    0 pętlica-3
+    0 kieł-2
+    0 para kinematyczna-1
+    0 włókno-4
+    0 trzon-4
+    0 sprężyna zaworowa-1
+    1 segment-4
+      0 celka-3
+    2 stopień-10
+      1 stopień-2, schodek-1
+        0 stupaja-2
+    0 nawias syntaktyczny-1
+    0 kieszeń-6
+    0 człon odwracalny-1
+    0 część zamienna-1
+    0 zwód-3
+    0 kontrolka-3, widżet-1
+    0 chwytak-4
+    0 widełki-3
+    0 pióro-7
+    0 kolumna-11
+    0 strunociąg-2, mostek-6
+    0 przęsło-4
+    0 nabiegunnik-1
+    0 leżnik-1
+    0 chłodnik-2
+    86 *element architektoniczny-1, element budowli-1
+      0 aedicula-2, edykuła-2, edykuł-2
+      0 gabion-1, kosz szańcowy-1
+      0 naczółek-4
+      0 nadokiennik-1
+      0 amalaka-1
+      0 anulus-1
+      0 obłęk-3
+      0 łęk pozorny-1
+      2 łęk-2
+        0 łęk oporowy-1, łęk przyporowy-1
+        0 łęk sklepienny-1, łuk sklepienny-1
+      0 czasza-5
+      0 echinus-1, echin-1
+      1 wspornik-2
+        0 modylion-1
+      52 *dekoracja architektoniczna-1, ozdoba architektoniczna-1
+        0 układ lombardzki-1
+        0 rybi pęcherz-1
+        0 jaskółczy ogon-2, rybi ogon-1
+        0 panneau-2
+        0 szczytnica-1
+        1 obramienie-2
+          0 portal-3
+        0 uszak-2
+        VISITED 0 atlant-1, gigant-7, telamon-2, herkulant-1
+        VISITED 0 mukarnas-1, ornament stalaktytowy-1
+        VISITED 9 *detal architektoniczny-1
+        VISITED 11 zwieńczenie-3
+        0 łezka-1, kropla-3, gutta-1
+        0 żłobkowanie-2, bruzdkowanie-1, kanele-1, kanelowanie-1, kanelura-1, rowkowanie-2
+        0 rostra-1
+        0 wimperga-1
+        VISITED 0 tralka-1, balas-2, balaska-1, balasek-1
+        VISITED 0 archiwolta-1
+        0 tympanon-2, tympan-1
+        0 plafon-1
+        0 maswerk-1, laskowanie-1
+        0 kaseton-1, skrzyniec-1
+        0 gargulec-1, rzygacz-1, plwacz-1
+        0 attyka-1
+        0 blenda-1
+        VISITED 0 kariatyda-1
+        0 pinakiel-1, sterczyna-1, fiala-1
+        1 fryz-1
+          0 arkatura-1, fryz arkadowy-1
+        2 baldachim-2, baldach-2
+          0 cyborium-1
+          0 konfesja-2
+      0 blankowanie-1, krenelaż-2, blanki-1
+      VISITED 0 kroksztyn-1
+      10 łuk-6
+        0 kudu-1
+        0 łuk Tudorów-1, łuk ostry obniżony-1, łuk czteropunktowy-1
+        0 tęcza-2, łuk tęczowy-1
+        VISITED 0 kokosznik-2
+        0 ostrołuk-1
+        0 archiwolta-1
+        0 gurt-3
+        0 łuk romański-1
+        VISITED 0 łuk oporowy-1
+        0 żebro-2
+      0 przypora-2, szkarpa-1, skarpa-2
+      0 architraw-1, epistyl-1, nadsłupie-1
+      1 gzyms-4, ucios-3
+        0 gzyms kordonowy-1
+      0 parapet-1, podokiennik-1
+      1 balustrada-1
+        0 galeryjka-1
+    0 koźlik-1
+    0 wykolejnica-1
+    0 blokownik-1
+    553 *element garderoby-1, sztuka odzieży-1, element ubioru-1, część garderoby-1
+      30 dzianina-2
+        0 moher-3
+        VISITED 18 *wyrób pończoszniczy-1
+        VISITED 9 sweter-1
+      0 bawełnianka-3
+      0 podwika-1, podwijka-1, podwiczka-1
+      0 body-1
+      0 mieszek-6
+      0 nauszniki-1
+      VISITED 56 góra-7
+      0 ocieplacz-1
+      4 kostium kąpielowy-1, strój kąpielowy-1, kostium plażowy-1, kostium-3
+        0 tankini-1
+        0 opalacz-1
+        0 bikini-1
+        VISITED 0 kąpielówki-1
+      1 ażur-1
+        VISITED 0 negliż-1, dezabil-1
+      3 fatałaszek-1, ciuszek-1, gałganek-1, łaszek-1, szmatka-1
+        VISITED 0 frufru-1, fru fru-1
+        VISITED 0 wdzianko-1
+        VISITED 0 negliż-1, dezabil-1
+      1 łachman-1, łach-1, szmata-3, lump-4
+        0 łatanina-1
+      5 szlafrok-1, podomka-1
+        0 lizeska-1
+        0 płaszcz kąpielowy-1
+        0 peniuar-1
+        0 matinka-1
+        0 bonżurka-1
+      9 sukienka-1
+        0 tuba-7
+        0 letniczka-2, letniczek-1
+        0 szmizjerka-1
+        0 sukienczyna-1
+        0 minisukienka-1
+        0 plażówka-1
+        0 chłopka-2
+        VISITED 1 bezrękawnik-1
+      10 spódnica-1
+        0 kuczbaja-2
+        0 pareo-2
+        0 watówka-4
+        0 kretonka-1
+        0 minispódniczka-1
+        0 kilt-1
+        0 solejka-1
+        0 krynolina-2
+        0 sarong-1
+        0 spódniczka-1
+      108 dodatek-5
+        0 muszka-3, mucha-4
+        0 szelki-1
+        18 *wyrób pończoszniczy-1
+          0 rajtuzy-3
+          3 pończochy-1
+            0 nylony-1
+            0 stylony-1
+            0 fildekosy-1
+          VISITED 1 legginsy-1, getry-3
+          0 onuca-1
+          0 getry-1
+          2 skarpetka-1, skarpeta-1
+            0 stopka-3
+            0 podkolanówka-1
+          2 rajstopy-1, rajtuzy-4, rajtki-3, rajty-1
+            0 kryształki-1
+            0 rajtuzy-2, rajtki-1
+          2 pończocha-1
+            0 sztuca-1
+            0 kabaretka-1
+        0 krepina-2
+        0 parasolka-1
+        4 wstawka-1
+          2 wszywka-1
+            1 klin-7
+              0 godet-1
+          0 przodzik-1
+        6 torebka-1
+          0 dyskretka-2
+          0 kopertówka-1, koperta-2
+          3 saszetka-1
+            0 pedałówka-1, pederastka-1
+            0 nerka-4
+            0 kosmetyczka-3
+        0 brelok-1
+        9 okulary-1, bryle-1, patrzałki-1, szkła-1
+          0 plus-7
+          1 okulary przeciwsłoneczne-1
+            0 borewicze-1, awiatory-1
+          0 monokl-1
+          0 lenonki-1, lennonki-1
+          0 gogle-1
+          0 fotochromy-1
+          1 binokle-1, cwikier-1
+            0 lornion-1, lorgnon-1
+        0 mufka-1
+        0 wachlarz-1
+        VISITED 0 podwiązka-2
+        3 spinka-1, sponka-1
+          0 żabka-6
+          0 wsuwka-1
+          0 szpilka-1
+        0 szelka-1
+        0 szalik-1
+        7 szal-1
+          0 lis-4
+          0 woal-1
+          0 tałes-1
+          0 mantyla-1
+          0 boa-1
+          0 etola-1
+          0 szal kaszmirski-1
+        2 rękawiczka-1
+          0 całusek-4
+          0 mitenka-1, mitynka-1
+        VISITED 3 peruka-1
+        3 krawat-1, krawatka-1
+          0 windsor-3, węzeł windsorski-1
+          0 śledź-5
+          0 plastron-2
+        17 chustka-1
+          0 bandanka-1, bandamka-1
+          0 gazówka-4
+          0 halsztuk-1, halsztuch-1
+          1 apaszka-1
+            0 gawroszka-1
+          0 fular-1
+          8 chusta-1
+            VISITED 0 namiotka-1
+            0 łoktusza-1
+            VISITED 0 rańtuch-1
+            0 zawojka-1
+            0 pareo-1
+            0 mandylion-1
+            0 humerał-1
+            0 gremiał-1
+          1 chusteczka-1
+            0 chusteczka higieniczna-1
+        0 pasek-2
+        14 pas-1
+          0 cingulum-1
+          0 flintpas-1
+          0 okrajka-1
+          0 obi-2
+          0 wampum-1
+          0 bandolet-1, bandolier-1
+          0 krajka-1
+          0 nakarcznik-1
+          0 forgurt-1
+          0 pendent-1
+          0 paliusz-1, palium-1
+          0 koalicyjka-1, pas koalicyjny-1
+          0 pas ortopedyczny-1
+          0 pas słucki-1
+      35 bielizna-1
+        0 dessous-1, desu-1
+        0 pieluchomajtki-1
+        0 frufru-1, fru fru-1
+        0 śpiochy-1
+        8 spód-3
+          VISITED 2 podszewka-1
+          4 halka-1
+            0 haleczka-1
+            0 petticoat-1
+            0 półhalka-1
+            0 krynolina-3
+        0 koszula nocna-1
+        0 turniura-2, tiurniura-1
+        0 podwiązka-2
+        0 gorset-1
+        VISITED 2 podkoszulek-1, półkoszulek-1
+        0 piżama-1, pidżama-1
+        2 biustonosz-1, stanik-1, biusthalter-1
+          0 balkonetka-1, balkonik-3
+          0 bardotka-1
+        9 majtki-1, gacie-1, galoty-1, majtasy-1, pantalony-1
+          0 pantalony-4
+          0 bokserki-1
+          0 stringi-1
+          1 figi-1
+            0 hipstery-1
+          0 barchany-1
+          0 slipy-1, slipki-1
+          VISITED 0 kąpielówki-1
+          0 kalesony-1
+        0 negliż-1, dezabil-1
+      102 okrycie-4
+        0 sierak-1
+        0 czołdar-1, czaprak-2, dyftyk-2, dywdyk-3, tyftyk-3
+        0 kapota-2
+        0 ortalion-2
+        0 makintosz-2
+        0 czekman-1, czechman-1
+        0 płótnianka-1, płóciennica-1
+        0 ferezja-1
+        0 kubrak-1
+        0 delia-1
+        0 katanka-1
+        0 burka-1
+        0 salopa-1
+        0 palatynka-1
+        0 pałatka-1
+        0 czuha-1, czucha-1, cucha-1, gunia-1, czuchunia-1, czuhania-1
+        0 czerkieska-1
+        2 kożuch-1
+          0 baranica-1
+          0 półkożuszek-1
+        0 galabija-1, dżalabija-1
+        0 parcianka-3
+        0 czamara-1
+        0 chałat-1
+        0 burnus-1
+        0 bekiesza-1, litewka-1
+        1 sukmana-1, siermięga-1, świtka-1
+          0 kierezja-1
+        0 poncho-1, ponczo-1
+        0 kontusz-1
+        0 opończa-1
+        7 kaftan-1
+          0 jupka-1, jubka-1
+          0 dublet-3
+          0 jaka-1, jaczka-1
+          0 jakla-1
+          0 wams-1
+          0 kamizela-1
+          0 kacabaja-1
+        0 szuba-1
+        4 peleryna-1
+          VISITED 0 lacerna-1
+          0 almawiwa-1
+          VISITED 0 dacha-1
+          VISITED 0 kapa-2, pluwiał-1
+        8 futro-1
+          0 sobole-2
+          0 nutrie-2
+          0 foki-3
+          0 norki-2
+          0 karakuły-2
+          0 elki-2
+          0 tułup-1, tułub-1
+          0 dacha-1
+        3 palto-1
+          1 pelisa-1
+            0 lisiura-3
+          0 jesionka-1
+        24 kurtka-1
+          0 ramoneska-1
+          0 olejarz-1, olejówka-1
+          0 huzarka-2, attyla-1
+          0 mentyk-1
+          1 wiatrówka-3
+            0 szwedka-3
+          VISITED 0 kasak-3
+          0 kasak-2
+          VISITED 0 skóra-6
+          2 puchówka-1
+            0 anorak-1
+            0 parka-6
+          0 kangurka-1
+          0 ułanka-3
+          0 katanka-2
+          0 frencz-1
+          0 kolet-1
+          0 budrysówka-1
+          0 goreteks-2
+          VISITED 0 panterka-1
+          0 waciak-1, fufajka-1, kufajka-1, watówka-1
+          0 kurta-1
+          0 spencer-1
+          0 skafander-2
+        20 płaszcz-1
+          0 rotunda-4
+          0 redingot-2, redyngot-2
+          0 redingot-1, redyngot-1
+          0 hawelok-1
+          0 paenula-1
+          0 loden-2
+          0 paludament-1, paludamentum-1
+          0 karmaniola-3
+          0 skóra-6
+          0 hazuka-2
+          1 sztormiak-1, sztormówka-1
+            0 moleskin-2
+          VISITED 0 reglan-2, raglan-1
+          0 prochowiec-1
+          0 burnus-2
+          0 szynel-1
+          0 płaszczyk-1, narzutka-2
+          0 trencz-1
+          0 dyplomatka-2
+          0 deszczowiec-1
+      3 obuwie-1
+        0 oksford-4, oxford-1, wiedenki-1
+        0 geta-1
+        0 obuwie ortopedyczne-1
+      137 nakrycie głowy-1
+        0 toczenica-2
+        0 kefia-1
+        0 namiotka-1
+        0 pątlik-1
+        0 chaperon-1
+        0 rańtuch-1
+        0 opaska-4
+        0 stroik-6, fascynator-1
+        0 hennin-1
+        0 duchenka-1, duchna-1
+        0 kokosznik-1, kiczka-1, kika-1
+        0 zydwestka-1
+        0 czepek-3
+        1 czepek-2
+          0 czepek pływacki-1
+        0 kamiławka-1
+        0 jarmułka-1, kipa-2, mycka-1, myca-1
+        2 kornet-2
+          0 welon-2
+          0 czepiec-2
+        0 kłobuk-1
+        0 kwef-1
+        0 kaszkiet-1
+        0 infuła-1, mitra-1
+        0 pióropusz-1
+        0 welon-1
+        0 turban-1, zawój-1
+        3 peruka-1
+          0 tupet-2, tupecik-2
+          0 onkos-1
+          0 treska-1, tresa-1
+        33 hełm-1
+          0 misiurka-1
+          0 szturmak-1, hełm szturmowy-1, hełm burgundzki-1, burgoneta-1
+          0 hełmofon-1
+          21 hełm bojowy-1
+            0 hełm turniejowy-1
+            0 armet-1
+            0 hełm kirasjerski-1
+            0 kabuto-1
+            0 barbuta-1
+            1 hełm otwarty-1
+              0 hełm normandzki-1
+            0 pikielhauba-1, pikelhauba-1
+            0 morion-1
+            0 salada-1
+            1 łebka-1
+              0 basinet-1
+            0 kapalin-1
+            0 hełm garnczkowy-1, hełm wielki-1
+            0 hełm łuskowy-1
+            0 hełm stożkowy-1
+            0 hełm okularowy-1
+            0 hełm koryncki-1
+            1 szyszak-1, szłom-1
+              0 szyszak husarski-1
+            0 przyłbica-1
+          7 kask-1
+            0 kask wspinaczkowy-1, kask alpinistyczny-1
+            0 kask jeździecki-1
+            0 kask futbolowy-1
+            0 kask rowerowy-1
+            0 kask narciarski-1, kask snowboardowy-1
+            0 hełm górniczy-1
+            0 szczękowiec-1
+        2 beret-1
+          0 biret-1
+          0 beret baskijski-1, baskijka-2
+        0 kaptur-1
+        5 korona-1
+          0 korona homagialna-1
+          0 mitra-5
+          0 korona cierniowa-1
+          0 tiara-1
+          0 tiara-2
+        18 kapelusz-1
+          0 budka-3
+          0 bikorn-1, kapelusz stosowany-1, dwuróg-2
+          0 pilśniak-1
+          0 fedora-1
+          0 stetson-1
+          0 piróg-1, szapoklak-1
+          0 trikorn-1, trójróg-1
+          0 sombrero-1
+          0 kapelusz góralski-1, kłobuk-3
+          0 bolero-3
+          0 kapelusz panamski-1, panama-1
+          0 kapelusz kardynalski-1
+          0 toczek-1
+          0 melonik-1
+          2 cylinder-2
+            0 półcylinder-2
+            0 szapoklak-2
+          0 borsalino-1
+        42 czapka-1
+          0 mitra-4
+          4 czapka garnizonowa-1
+            0 maciejówka-1
+            0 czako-1
+            0 rogatywka-1, krakuska-1, konfederatka-1
+            0 furażerka-1, pierożek-1
+          0 wścieklica-2
+          0 kepi-1
+          0 skufia-1
+          0 wojskowa czapka polowa-1, polówka-4
+          0 ceratówka-1
+          0 czapka sportowa-1, sportówka-2
+          0 burdelówka-2
+          0 oprychówka-1
+          0 frygijka-1, czapka frygijska-1
+          0 ułanka-1
+          0 baseballówka-1, bejsbolówka-1
+          0 krymka-1, tiubietiejka-1
+          0 baranica-2
+          0 leninówka-1
+          0 magierka-1, batorówka-1, madziarka-1, czapka węgierska-1, magiera-1
+          0 lisiura-4
+          0 czerkieska-2
+          1 kołpak-2
+            0 kłobuk-4
+          1 kapuza-1
+            0 szłyk-1
+          0 piuska-1
+          0 pilotka-1
+          0 dekiel-3
+          0 szlafmyca-1
+          0 papacha-1, uszanka-1, uszatka-3
+          0 kominiarka-1
+          1 kaszkiet-2
+            0 kaszkiecina-1
+          0 fez-1, tarbusz-1
+          0 niewidka-1, czapka niewidka-1
+          0 cyklistówka-1
+          1 czapeczka-1
+            0 czepek-4
+          1 czapa-1
+            0 bermyca-1
+      32 szata-1
+        0 sambenito-1
+        0 lacerna-1
+        0 efod-1
+        0 himation-1
+        0 chylat-1
+        0 włosiennica-1
+        17 szata liturgiczna-1
+          0 sticharion-1
+          0 welon-5
+          0 fanon-1
+          0 sutanela-1, sutanka-1, rewerenda-2
+          0 tunicela-1, tunika-3, tunicella-1
+          7 *strój duchownego-1, szata duchownego-1
+            0 mucet-1, mozzetta-1
+            0 mantolet-1
+            0 ornat-1
+            VISITED 0 kapa-2, pluwiał-1
+            1 sutanna-1, sukienka duchowna-1
+              0 riasa-1
+            0 habit-1
+          1 komża-1
+            0 rokieta-1
+          0 kapa-2, pluwiał-1
+          0 dalmatyka-1
+          0 alba-1
+        0 peplum-1, peplos-1
+        0 dalmatyka-2
+        0 chlamida-1
+        0 chlajna-1
+        0 chiton-1
+        0 tunika-2
+        1 toga-1
+          0 rewerenda-1
+      14 suknia-1, kreacja-5
+        0 roba-1
+        0 roba francuska-1, suknia francuska-1
+        1 poloneska-1, suknia à la polonaise-1
+          0 suknia czerkieska-1
+        0 wolant-5
+        2 suknia ślubna-1
+          0 beza-2
+          0 princessa-1
+        1 suknia koktajlowa-1, sukienka koktajlowa-1
+          0 mała czarna-2
+        0 sarafan-1
+        0 robron-1
+        0 turniura-1, tiurniura-2
+        0 krynolina-1
+      34 spodnie-1, porcięta-1, portasy-1, portki-1, pantalony-2
+        0 dandyski-1
+        0 chinosy-1
+        0 szwedy-1
+        0 pludry-2
+        0 pantalony-3
+        0 drelichy-1
+        0 parciaki-1
+        0 spodeńki-1
+        0 rajtuzy-1, rajtki-2
+        0 wycieruchy-1
+        0 wadery-1, wodery-1
+        0 spódnico-spodnie-1, spódnica-spodnie-1
+        0 rybaczki-1
+        0 rurki-1
+        0 pludry-1
+        0 parcianki-1
+        0 ogrodniczki-1, farmerki-1
+        0 narciarki-1
+        1 legginsy-1, getry-3
+          0 lajkry-1
+        0 golfy-1
+        0 dzwony-1
+        0 bryczesy-1
+        0 bojówki-1
+        0 biodrówki-1
+        0 pumpy-1
+        0 szorty-1
+        1 spodenki-1, gatki-1
+          0 kąpielówki-1
+        0 szarawary-1, hajdawery-1
+        0 sztruksy-1
+        2 dżinsy-1, jeansy-1
+          0 Levisy-1, levisy-2
+          0 wycieruchy-2
+    0 punta-1
+    0 reflektor-5, odbłyśnik-1
+    0 świat przedstawiony-1
+    0 nachrapnik-1
+    1 przedłużacz-1
+      0 teleskop-3
+    0 dławik-1, czok-1
+    0 statecznik-1, brzechwa-1
+    0 obuch-2
+    VISITED 4 okucie-3
+    5 okucie-2
+      1 obręcz-1
+        0 paluch-4
+      0 narożnik-2
+      1 zawiasy-1, zawias-1, zawiasa-1
+        0 biegun-4
+    0 chwytak-3
+    0 chwytak-2, chwytnik-4
+    0 zęza-1, zenza-1
+    140 element konstrukcyjny-1
+      1 dystans-7
+        0 podkładka-2
+      0 płyta detonacyjna-1
+      VISITED 2 wpust-4
+      0 wykusz-1
+      1 kołek-6
+        0 kołek rozporowy-1
+      0 membrana-2
+      VISITED 0 wkrętka-1
+      0 przęsło-3
+      0 wysklepek-1
+      29 podpora-2
+        0 jarzmo mostowe-1
+        0 poduszka-7
+        0 oklepiec-2
+        0 świeca-11, pasierb-3
+        0 atlant-1, gigant-7, telamon-2, herkulant-1
+        0 przyczółek-3
+        0 kilblok-1, podpora stępkowa-1
+        0 stojak cierny-1
+        0 środkowiec-2
+        0 ponton-2
+        0 krążyna-1, buksztel-1
+        0 podciąg-2
+        0 kroksztyn-1
+        0 tralka-1, balas-2, balaska-1, balasek-1
+        0 trawers-5
+        0 pylon-1
+        0 kariatyda-1
+        1 wspornik-1
+          0 sztyca-1
+        0 stempel-2
+        5 filar-1
+          0 filar przyporowy-1
+          0 pilers-1
+          0 lizena-1
+          1 pilaster-1, pilastr-1
+            0 anta-1
+        0 noga-5
+        1 kolumna-1
+          0 półkolumna-1, kolumna uwięzła-1
+      0 mukarnas-1, ornament stalaktytowy-1
+      0 zastrzał-2
+      0 ściąg-1
+      0 wieszak-5
+      1 stropnica-1
+        0 stalnica-1
+      0 rygiel-2
+      0 impost-1, nasadnik-1
+      0 cokolik-1
+      0 szpros-1, szczeblina-1
+      0 nadświetle-1
+      0 trójnik-1
+      0 nakrywa-1
+      0 centropłat-1
+      0 strzępia-1
+      0 wielka płyta-1
+      1 przycieś-1, podest-1, półpiętro-2
+        0 spocznik-1
+      0 ślemię-1
+      0 przypustnica-1, przysuwnica-1
+      0 wiatrownica-2
+      0 wiatrownica-1
+      0 wiatrownica-3, odchylacz dymu-1
+      0 ościeże-1
+      0 skowa-1
+      0 stylobat-1
+      0 płatew-1, płatwa-1
+      0 obłąk-2
+      0 żagielek-1, pendentyw-1
+      6 uszczelniacz-1
+        0 uszczelniacz Bange'a-1
+        0 pierścień tłokowy-1
+        VISITED 0 objemka-2
+        1 pakuły-1
+          0 słoma targana-1, targaniec-1
+        0 uszczelka-1
+      0 kotewka-3
+      1 kotew-1, kotwa-2, ankra-1, ankier-1
+        0 spit-1, nit-4
+      0 przedproże-2
+      0 tryforium-1, triforium-1
+      3 rozpórka-1
+        2 saling-1
+          0 blindgafel-1, watersaling-1
+          0 jumpsaling-1
+      2 kliniec-1
+        VISITED 1 zwornik-2, klucz-9
+      0 podnóżek-2, stopnica-1
+      0 wpust-1, felc-1
+      8 kształtka-1
+        3 kształtka rurowa-1
+          2 kolanko-4, kolano-4
+            0 kolano hamburskie-1
+            0 obsadzka-2
+        0 kausza-1, sercówka-1, chomątko-1
+        0 napowietrznik-1
+        VISITED 0 dołącznik-1
+        0 kwadralit-1
+      0 odbój-1
+      0 strzemię-1
+      3 zrąb-1, wiązanie-17
+        2 węzłówka-1, kątnica-2, wiązanie kątowe-1
+          0 węzłówka rufowa-1, dejwud-1, kolano rufowe-1
+          0 węzłówka dziobowa-1
+      0 nadproże-1
+      9 kształtownik-1, profil-1
+        0 zetownik-1
+        0 piętka-7, kima-2
+        0 usztywniacz-3
+        0 teownik-1
+        0 dwuteownik-1
+        0 ceownik-1
+        0 kątownik-1
+        1 płaskownik-1
+          0 pióro-3
+      0 alkierz-2
+      0 przęsło-2
+      0 wręga-1, żebro-7, wręg-2
+      2 stewa-1
+        0 stewa dziobowa-1, dziobnica-1
+        0 stewa rufowa-1, tylnica-1
+      0 harmonijka-2, opończa-2
+      1 wiązar-1, dźwigacz dachowy-1, więzar-1
+        0 wiązar wieszarowy-1, wieszar-1
+      2 kabłąk-1, pałąk-4
+        0 chomątko-2
+        0 chomąto-1
+      0 łuk oporowy-1
+      1 rozpora-1
+        0 szrek-1
+      4 nisza-1
+        0 aedicula-3, edykuła-3, edykuł-3
+        0 arkosolium-1
+        0 mihrab-1
+        0 eksedra-1
+      0 arkada-1
+    3 dominanta-1, akord-1
+      0 dominanta stylistyczna-1
+      0 dominanta kompozycyjna-1
+      0 profil-6
+    3 płoza-1
+      0 biegun-3
+      0 płoza-2
+      0 płoza-3
+    28 wypełnienie-7
+      11 *materiał stomatologiczny-1
+        0 lak-4, emalia-3, lakier-4
+        0 sealer-1
+        0 parapasta-1
+        0 środek adhezyjny-1
+        0 kamfenol-1
+        0 fleczer-1
+        2 cement stomatologiczny-1, cement-2
+          0 cement cynkowo-polikarboksylowy-1
+          0 cement cynkowo-fosforanowy-1
+        0 amalgamat stomatologiczny-1
+        0 kwas alginowy-1
+      0 barwiczka-2
+      4 wkładka-2
+        0 wkładka ortopedyczna-1
+        1 wkładka do butów-1
+          0 piętka-5
+        0 wklęsek-1
+      0 podsadzka-1
+      7 przybitka-2
+        2 glina-1
+          0 glina bazalna-1
+          0 glina zwałowa-1, glina lodowcowa-1, glina morenowa-1
+        3 piasek-1, piach-1
+          0 lotne piaski-1
+          0 piasek kwarcowy-1
+          0 piasek szklarski-1
+      0 plomba-2, wypełnienie-8
+    0 szala-1
+    123 złączenie-5, połączenie-9, złącze-1, spojenie-4
+      0 rąbek-3
+      0 połączenie wielowypustowe-1
+      0 połączenie sprężyste-1
+      1 połączenie rurowe-1
+        0 połączenie gwintowe-1
+      0 połączenie łapkowe-1
+      0 połączenie kształtowo-cierne-1
+      2 połączenie kształtowe-1
+        0 połączenie sworzniowe-1
+        0 połączenie wpustowe-1
+      0 połączenie klejowe-1
+      0 połączenie cierne-1
+      0 połączenie wciskowe-1
+      0 połączenie śrubowe-1
+      2 wpust-4
+        0 wpust czółenkowy-1
+        0 wpust czopkowy-1
+      0 kąt żylny-1
+      0 gniazdo sieciowe-1
+      0 gniazdo abonenckie-1
+      0 gniazdo procesorowe-1
+      0 gniazdo antenowe-1
+      0 gniazdo zaworowe-1
+      0 gniazdko telefoniczne-1
+      0 szew-5
+      0 czop-1
+      7 kołek-5
+        0 kołek stolarski-1
+        0 trzpień-1
+        4 sworzeń-1, bolec-1
+          0 wczep-1
+          0 przewodzień-1
+          0 dybel-2
+          0 wtyk-1
+      0 ucios-2
+      3 więzozrost-1
+        0 więzozrost sprężysty-1
+        0 szew-3
+        0 więzozrost włóknisty-1
+      1 chrząstkozrost-1
+        0 spojenie łonowe-1
+      0 falc-3
+      0 falc-1
+      0 kościozrost-1
+      0 zgrzew-1, połączenie zgrzewane-1
+      2 połączenie międzykomórkowe-1
+        0 plazmodesma-1, plasmodesma-1
+        0 desmosom-1
+      1 zwornik-2, klucz-9
+        VISITED 0 agrafa-1
+      0 zakładka-3
+      0 lutunek-1
+      0 dołącznik-1
+      0 lutowina-1
+      2 przegub-2
+        0 kardan-1
+        0 gacek-2, gązawa-1, ósemka-14
+      3 splot-3
+        0 splot skrzydłowy-1
+        1 splot słoneczny-1
+          0 splot trzewny-1
+      0 złącze p-n-1
+      0 chiazma-1
+      0 czopuch-1
+      1 sprzęg-2
+        0 siodło-4
+      4 stomia-1
+        1 urostomia-1
+          0 nefrostomia-1
+        0 gastrostomia-2
+        0 kolostomia-1
+      0 jaskółczy ogon-1, jaskółcze złącze-1
+      0 krzyżak-3, czwórnik-2
+      0 szponga-1
+      0 zwora-1
+      0 łubek-1
+      0 szpilka-4
+      0 przewiązka-2
+      0 trawers-2
+      0 knykieć-1, kłykieć-1
+      1 złączka-1, złącznik-1
+        0 zwiernik-1
+      0 łącznia-1
+      0 spoina-1, fuga-2
+      0 zrost-3
+      VISITED 0 mufa-2
+      7 mocowanie-2
+        0 bagnet F-1
+        0 ładownik-5
+        4 okucie-3
+          0 szpona-2
+          0 wantownik-1, podwięź-1
+          0 knaga-3
+          0 pełzacz-2
+      0 pinezka-1, pineska-1, pluskiewka-1
+      0 podłączenie-5
+      0 spaw-1, spoina-2
+      0 szew-1
+      0 zacisk-2
+      1 nit-1
+        0 nitonakrętka-1
+      7 śruba-1
+        0 wkrętka-1
+        0 ślimak-4
+        0 hacel-1, ocel-1
+        0 kotewka-1
+        0 kotew-3, kotwa-1
+        1 wkręt-1
+          0 blachowkręt-1
+      4 gwóźdź-1
+        0 bretnal-1
+        0 gwoździk-1, ćwieczek-1
+        0 hufnal-1, podkowiak-1
+        0 ćwiek-1
+      0 przyłącze-2
+      0 śledź-4
+      5 pętla-1
+        0 pętelka-2
+        0 pętla abonencka-1, lokalna pętla abonencka-1
+        2 gumka-1
+          0 frotka-3
+          0 recepturka-1
+      0 kontakt-4, gniazdko-1, gniazdo-3, gniazdko elektryczne-1, gniazdo wtykowe-1, gniazdo wtyczkowe-1
+    2 wkład-4
+      0 toner-2
+      0 sztyft-4
+    262 część-2
+      0 przedłużacz-5
+      0 n-gram-1
+      0 kolano-3
+      0 stopień turbiny-1
+      0 trzon macicy-1
+      0 część przewodząca obca-1
+      0 część przewodząca dostępna-1
+      0 sekcja-5
+      0 opona pneumatyczna-1
+      0 palec-4
+      0 palec-3
+      0 wieniec-4
+      0 jądro-8, kernel-1
+      8 głowica-6
+        0 głowica gwinciarska-1
+        1 głowica elektromagnetyczna-1
+          0 głowica magnetofonowa-1
+        0 głowica frezowa-1
+        3 głowica rewolwerowa-1
+          0 głowica rewolwerowa skośna-1
+          0 głowica rewolwerowa pozioma-1
+          0 głowica rewolwerowa pionowa-1
+      1 pas-6
+        0 pas klinowy-1
+      0 gardziel-4
+      0 młoteczek-3
+      0 młoteczek-2
+      0 czasza-7
+      0 czasza-6
+      8 ustnik-4
+        0 niekapek-1
+        0 ustnik-1
+        4 ustnik-2
+          2 lufka-2, fifka-1, lufa-4, cygarnica-2
+            0 szkło-4, dzidka-1
+            0 cygarniczka-1
+          0 filtr-3
+        0 ustnik-3
+      0 szczęka-5
+      0 młotek-5
+      0 pióro-6
+      0 mostek-8
+      0 podzielnia-1
+      0 apofiza-1, apofyza-1
+      0 pępuszek-3
+      0 główka-6
+      0 wozówka-1
+      0 jarzmo-3
+      0 napiętek-1, napiętnik-1
+      0 nagłowie-1
+      0 talerz-6
+      0 piętka-6
+      0 zblocze-1
+      0 suwaczek-2
+      0 pierzysko-1
+      0 toczysko-1
+      1 skrzydełko-8
+        0 skrzydełko-6
+      0 słupica-1
+      0 sztagownik-1
+      0 lotka-3
+      0 kłosownik-1
+      0 żubrownik-1
+      0 redlica-1, radlica-1, rajka-1
+      0 regenerat-2
+      1 szyjka-3
+        0 szyjka macicy-1
+      1 miska-3
+        0 miska olejowa-1
+      1 tarcza-6
+        0 tarcza Nipkowa-1
+      1 segment-2
+        0 nadstawka-2
+      0 stopa-3
+      0 stopa-6
+      0 alidada-1
+      0 siedzenie-10, tył-5
+      1 ściągacz-1, śruba rzymska-1
+        0 ściągacz talrepowy-1, ściągacz linowy-1
+      0 obsada-5
+      0 smugacz-1
+      0 zapłonnik-1, starter-1
+      0 skrzele-2, slot-2
+      0 stojan-1, stator-1
+      2 tłok-2
+        0 tłok silnika-1
+        0 nurnik-1
+      9 wał-3
+        0 wał odbioru mocy-1
+        0 wał giętki-1
+        0 szturwał-1
+        2 nawój-1
+          0 nawój odbiorczy-1
+          0 nawój nadawczy-1
+        0 wał rozrządu-1, wał rozrządczy-1
+        0 wał napędowy-1
+        0 wał korbowy-1, wał wykorbiony-1
+      0 rdzeń-1
+      3 fotoelement-1
+        0 fotoogniwo-1, ogniwo słoneczne-1, ogniwo fotowoltaiczne-1, ogniwo fotoelektryczne-1
+        0 fotorezystor-1
+        0 fototranzystor-1
+      0 cep-4
+      2 ogumienie-1
+        0 ogumienie masywne-1
+        0 pneumatyk-2
+      0 dyl-3
+      VISITED 11 końcówka-2
+      0 wstrząsacz-3
+      2 krzywka-1
+        0 krzywka styczna-1
+        0 krzywka harmoniczna-1
+      0 mikrotelefon-1
+      1 cylinder-3
+        0 gardziel-3
+      0 motowidło-2
+      1 tuner-1
+        0 tuner radiowy-1
+      2 nóż-3
+        0 biga-1
+        0 krajak-1, nacinak-1
+      1 łyżka-3, czerpak-2
+        0 zgarniak-1
+      9 wałek-2
+        0 duktor-1
+        0 czesak-1
+        0 maglownik-1
+        0 przewał-1
+        0 rolka-4
+        0 krążnik-1
+        0 register-2
+        0 wrzeciono-2
+        0 wrzeciono-1
+      0 wybierak-2
+      0 cięgło-1
+      0 suport-1
+      0 obsadka-1
+      0 prowadnik-1
+      6 prowadnica-1
+        1 szyna-3
+          0 karnisz-1
+        3 szyna-1
+          0 zębnica-1
+          0 opornica-1
+          0 odbojnica-2
+      0 tarcza-2, tarcza numerowa-1
+      0 czasza-2
+      0 tabulator-2
+      0 kompresor-2
+      2 cięgno-1
+        0 cięgno kotwiczne-1, cięgno kotwicze-1
+        0 cięgno napędowe-1
+      0 element toczny-1
+      2 element grzejny-1
+        1 warnik-1
+          0 desorber-1
+      0 suwak-2
+      0 podzespół-1
+      0 krok-6
+      6 walec-4
+        4 szpulka-2, szpula-2
+          0 rolka-3
+          1 bęben-3
+            0 cewa-1, bobina-1
+          0 motek-2
+        0 rotor-1, rotor Flettnera-1
+      29 obudowa-2
+        0 skórka-5
+        4 korpus-5
+          3 kadłub-2
+            0 kadłub-4, kadłub samolotu-1
+            1 kadłub-3
+              0 bakdek-1
+        0 koperta-5
+        0 skrzynka-2
+        20 nadwozie-1
+          0 furgon-3
+          0 kabriolet-3
+          0 van-2
+          0 fastback-1
+          0 kombivan-2
+          0 vis-à-vis-1
+          0 barchetta-1
+          0 roadster-2
+          0 hardtop-2
+          0 pick-up-1
+          0 liftback-1
+          0 minivan-2, miniwan-2
+          0 kombi-1
+          0 coupé-1
+          0 sedan-2, limuzyna-2
+          0 hatchback-2
+          0 faeton-3, phaeton-1
+          0 lando-1
+          0 nadwozie samonośne-1
+          0 torpedo-2
+      2 kowadło-1
+        0 dwuróg-1
+        0 klepadło-1
+      3 kolec-2
+        0 kolec-4
+        0 kolec-1
+        0 cierń-3
+      3 moduł-1
+        0 żeberko-2
+        0 moduł dokujący-1
+        0 mikromoduł-1
+      2 łożysko-1
+        0 łożysko toczne-1
+        0 maźnica-2
+      VISITED 0 głowica-2
+      12 pierścień-2
+        0 pierścień Segera-1
+        0 pierścień ślizgowy-1
+        0 maillon-1
+        0 karabinek-3
+        0 manszeta-3
+        0 objemka-2
+        0 przelotka-1
+        0 raksa-1
+        0 kolucho-1
+        0 pierścień szotowy-1, szotring-1
+        0 dulka-1
+        0 mufa-2
+      1 ogniwo-2
+        0 wodzik-1
+      0 główka-3
+      9 koło-1
+        0 koło pasowe-1
+        3 tryb-6
+          0 trybik-1
+          1 koło zębate-1
+            0 ślimacznica-2
+        0 koło łopatkowe-1
+        0 balans-4, balansjer-3
+        0 koło zamachowe-1
+        0 koło młyńskie-1
+      0 główka-2
+      5 oparcie-3
+        0 podbródek-3
+        0 ustawiacz-1
+        1 poręcz-3
+          0 podłokietnik-1
+        0 wezgłowie-1, podgłówek-1, zagłówek-3, wezgłówek-1
+      5 oś-2, ośka-1
+        0 oś wiązana-1
+        0 oś ślepa-1
+        0 oś portalowa-1
+        0 oś toczna-1
+        0 półoś-1, półośka-1
+      0 kieszeń-1
+    10 szczegół-2, detal-1
+      9 *detal architektoniczny-1
+        0 żabka-9
+        0 antefiks-1
+        0 panoplia-1, panoplium-1
+        0 agrafa-1
+        0 palmeta-1
+        0 kwiaton-1
+        0 karczoch-2
+        0 maszkaron-1, maszkara-3, maskaron-1
+        0 feston-2
+  9 początek-1
+    0 wejście-21
+    0 rozbiegówka-1
+    5 źródło-4, źródlisko-1, zdrój-2
+      0 źródło geotermalne-1
+      0 wywierzysko-2
+      0 wysięk-2
+      1 cieplica-1, gorące źródło-1, terma-2, źródło termalne-1, woda termalna-1
+        0 gejzer-1
+    0 start-1
+  0 zachód-5
+  0 piano-2
+  0 forte-2
+  2 wypustka-1
+    0 rzęska-2
+    0 włośnik-1
+  0 spłacheć-1
+  2004 składnik-1, komponent-1, budulec-2, składowa-1
+    0 rzadkie-1
+    0 gęste-1
+    0 składowa jedynki-1
+    0 inert-1
+    0 pierwiastek-4
+    0 zapychacz-2
+    0 harmoniczna-1, składowa harmoniczna-1
+    1965 okoliczność-1, cyrkumstancja-1
+      2 siła wyższa-2
+        0 boża ręka-1
+        0 ręka boska-1
+      1 kontratyp-2
+        0 obrona konieczna-1
+      0 przesłanka-3, okoliczność faktyczna-1
+      216 możliwość-4, możność-1
+        10 dostęp-3
+          0 dostęp telekomunikacyjny-1
+          0 dostęp warunkowy-1
+          7 dostępność-2
+            0 ogólnodostępność-1
+            1 dostrzegalność-2
+              0 rozróżnialność-1
+            2 osiągalność-1
+              0 uchwytność-1
+              0 ściągalność-1
+            0 egzoteryczność-1
+        2 dojście-22, przystęp-1, dostęp-1
+          0 drzwi-3
+          0 wstęp-2
+        VISITED 1 nadzieja-1, otucha-1
+        4 okazja-1
+          1 gratka-1
+            0 rarytas-1
+          0 pole-9
+          0 sposobność-1, pretekst-1
+        1 perspektywa-2, widoki-1
+          0 ciemne chmury-1
+        12 szansa-1
+          11 nadzieja-2
+            10 podpora-3
+              4 filar-5
+                VISITED 3 opoka-4
+              0 pociecha-3
+              0 oparcie-4
+              6 ostoja-2
+                0 bastion-2, opoka-5
+                3 opoka-4
+                  2 pocieszyciel-1
+                    0 pokrzepiciel-2
+                    0 koiciel-1
+                0 przedmurze-1
+        179 prawo-3, legitymacja-3, uprawnienie-3
+          0 nietykalność cielesna-1
+          1 tytuł prawny-1
+            0 jednostka uczestnictwa-1
+          0 prawo majątkowe-1
+          0 prawa rodzicielskie-1
+          0 interes prawny-1
+          0 wolność gospodarcza-1
+          0 uprawnienie władcze-1
+          0 inicjatywa ustawodawcza-1
+          0 użytkowanie wieczyste-1
+          0 dyspozycja-8
+          0 asiento-1
+          0 obieralność-1
+          0 intercesja-1
+          0 prezenta-1
+          0 dyspozycja-7
+          2 roszczenie-3
+            0 regres-2, roszczenie zwrotne-1
+            0 wierzytelność-1
+          0 odwołalność-1
+          0 licencja-3
+          1 ustawodawstwo-2, prawodawstwo-2, legislacja-1
+            0 legislacja wspólnotowa-1
+          2 prawo wyborcze-2
+            0 bierne prawo wyborcze-1
+            0 czynne prawo wyborcze-1
+          0 prawo wychodu-1
+          0 prawo łaski-1
+          0 serwitut-1
+          5 dziedzictwo-2, dziedziczność-1, następstwo-3
+            0 sekundogenitura-3
+            0 minorat-1
+            0 majorat-1
+            0 sukcesja-1
+            0 seniorat-2
+          1 debit-1
+            0 debit pocztowy-1, debit komunikacyjny-1
+          4 święcenia-2
+            0 akolitat-1
+            0 prezbiteriat-1
+            0 diakonat-2
+            0 sakra-2
+          0 indygenat-1
+          0 pierwokup-1
+          0 retencja-2
+          2 prywatność-1
+            0 brudy-2
+            0 intymność-2
+          7 pełnomocnictwo-2, plenipotencja-1
+            0 kuratorstwo-4
+            3 mandat-2
+              0 mandat imperatywny-1
+              0 mandat wolny-1
+              0 mandat poselski-1
+            0 prokura-1
+            0 powiernictwo-1
+          9 nietykalność-1, nienaruszalność-1
+            0 integralność terytorialna-1
+            0 nietykalność osobista-1
+            0 eksterytorialność-1
+            VISITED 5 immunitet-1
+          1 kompetencja-2
+            0 właściwość-4
+          94 władza-1, zwierzchnictwo-1, rządy-1
+            0 długie ręce-1
+            0 rządy pośrednie-1
+            0 władza rodzicielska-1
+            0 władza suwerenna-1, władza zwierzchnia-1
+            0 zabór-4
+            0 stabilizacja-3
+            2 okupacja-1
+              0 zabory-1
+              0 zabór-1, aneksja-1
+            0 samorządowość-1
+            0 możnowładza-1
+            0 dyktatorstwo-1
+            0 wielowładza-1
+            0 sejmowładztwo-1
+            0 pajdokracja-1
+            0 dwuwładza-1
+            0 władza ludowa-1
+            0 dyktatura proletariatu-1
+            0 rząd dusz-1
+            0 koregencja-1
+            0 pryncypat-1
+            1 współrząd-1, współwładztwo-1
+              0 kondominium-1
+            VISITED 0 protektorat-1
+            VISITED 60 urząd-2, dostojeństwo-2, godność-2
+            3 monarchia absolutna-1, absolutyzm-1, autarchia-1, autokracja-1, autokratyzm-1, jedynowładztwo-1, samowładztwo-1, samodzierżawienie-1, samodzierżawie-1, jednowładztwo-1, samodzierżstwo-1
+              1 monarchia despotyczna-2, despotyzm-3, despocja-3
+                0 despotyzm teokratyczny-1
+              0 absolutyzm oświecony-1
+            0 kierownictwo-2
+            2 kadencja-2
+              0 dziekaństwo-2
+              0 prezydentura-1
+            0 dowództwo-1
+          21 przywilej-1, prerogatywa-1, ekscept-1, uprzywilejowanie-2
+            0 serwitoriat-1
+            0 przywilej targowy-1
+            0 przywilej menniczy-1
+            0 przywilej ojczyźniany-1
+            0 przywilej emerytalny-1
+            0 kolacja-3
+            0 złota wolność-1
+            0 liberum veto-1
+            0 pierworództwo-1
+            0 regalia-1, ducalia-1
+            1 przywilej lokacyjny-1
+              0 wolnizna-1
+            0 przywilej erekcyjny-1
+            0 przywilej dyplomatyczny-1
+            0 wstęp wolny-1
+            5 immunitet-1
+              0 immunitet sądowy-1
+              0 immunitet formalny-1
+              0 immunitet materialny-1
+              0 egzempcja-2, egzempcja wojskowa-1
+              0 immunitet dyplomatyczny-1
+      VISITED 0 wzgląd-1
+      0 zaszłość-1
+      0 przeciwwskazanie-1
+      334 czynnik-1, uwarunkowanie-2, warunek-1
+        0 Czarny Piotruś-3
+        0 warunek Dirichleta-1
+        0 monogeneza-1
+        0 czynnik von Willebranda-1
+        0 czynnik V Leiden-1
+        0 czynnik endogeniczny-2
+        0 czynnik endogeniczny-1
+        0 teratogen-1, czynnik teratogenny-1
+        0 motor-5, sprężyna-2
+        0 artefakt-3
+        0 induktor-2, inicjator-2
+        0 inaktywator-1
+        0 wróg-4
+        0 czynnik niecenowy-1
+        0 doradca-2
+        0 cenzor-4
+        185 patogen-1, czynnik chorobotwórczy-1
+          4 kokarcynogen-1, kokancerogen-1
+            0 forbol-1
+            0 katechina-1, katechol-1, pirokatechol-1, pirokatechina-1
+            0 naftalen-1
+            VISITED 0 formaldehyd-1, aldehyd mrówkowy-1, metanal-1
+          0 wiroid-1
+          0 pałeczka grypy-1
+          0 pałeczka wrzodu miękkiego-1
+          0 pałeczka nosacizny-1
+          0 pałeczka krztuśca-1
+          0 mykoplazma-1
+          0 laseczka larwy-1
+          10 czynnik rakotwórczy-1, czynnik onkogenny-1, karcynogen-1, kancerogen-1
+            0 piren-1
+            VISITED 0 metaarsenin sodu-1, arsenin sodu-1, metaarsenian(III) sodu-1, arsenian(III) sodu-1
+            0 benzopiren-1
+            VISITED 0 aflatoksyna-1
+            0 arsen-1, As-1
+            VISITED 0 benzen-1
+            0 nikiel-1, Ni-1
+            2 azbest-1
+              0 amiant-1, azbest amiantowy-1, azbest aktynolitowy-1
+              0 azbest chryzotylowy-1, chryzotyl-1, azbest serpentynowy-1, azbest biały-1
+          0 śrubowiec mniejszy-1
+          0 brucella-1
+          0 laseczka wąglika-1
+          0 listeria-1
+          0 przecinkowiec cholery-1
+          0 legionella-1
+          0 shigella-1
+          0 erwinia-1
+          0 dwoinka rzeżączki-2, gonokok-2
+          0 laseczka tężca-1
+          0 salmonella-1
+          0 prion-1
+          0 meningokok-1, dwoinka zapalenia opon mózgowych-1
+          0 włoskowiec różycy-1
+          0 pałeczka dżumy-1
+          2 prątek-1, mykobakteria-1
+            0 prątek bydlęcy-1
+            0 prątek gruźlicy-1, prątek Kocha-1, prątek ludzki-1, prątek gruźliczy-1, prątek kwasoodporny-1
+          4 paciorkowiec-1, streptokok-1
+            0 paciorkowiec ropny-1
+            0 paciorkowiec bezmleczności-1
+            0 paciorkowiec kałowy-1
+            0 pneumokok-1, paciorkowiec zapalenia płuc-1, dwoinka zapalenia płuc-1
+          0 zarazek-1
+          0 promieniowanie jonizujące-1
+          140 trucizna-1
+            0 cyjanowodór-1
+            0 pentan-1
+            0 antymonowodór-1, styban-1
+            0 selenowodór-1, seleniak-1, selan-1
+            0 toluidyna-1, metyloanilina-1, aminotoluen-1, aminometylobenzen-1
+            0 kwas arsenawy-1, kwas arsenowy(III)-1
+            0 metaarsenin sodu-1, arsenin sodu-1, metaarsenian(III) sodu-1, arsenian(III) sodu-1
+            0 kwas selenowy-1, kwas selenowy(VI)-1
+            1 selenian-2, selenian(VI)-1
+              0 selenian sodu-1, selenian(VI) sodu-1
+            2 selenian(IV)-1, selenin-1
+              0 selenian(IV) cynku-1, selenin cynku-1, trioksydoselenian(2−) cynku-1
+              0 selenin baru-1, selenian(IV) baru-1
+            0 chloran sodu-1, chloran(V) sodu-1
+            0 cyjanamid-1
+            0 chromian baru-1, chromian(VI) baru-1
+            0 dichromian potasu-1, dwuchromian potasu-1, dichromian(VI) potasu-1
+            0 siarczan(VI) manganu(II)-1, siarczan manganu(II)-1
+            0 trichloroeten-1, trichloroetylen-1, tri-1, trójchloroetylen-1
+            0 dieldryna-1
+            0 kakodyl-1
+            0 mezytylen-1
+            0 propyn-1, metyloacetylen-1
+            12 bojowy środek trujący-1, BŚT-1, BST-1
+              0 trylony-1
+              0 sarin-1
+              0 chloropikryna-1
+              2 lakrymator-1
+                0 chloroaceton-1, chloropropanon-1
+                0 bromoaceton-1
+              5 gaz bojowy-1
+                0 chlorocyjan-1
+                0 luizyt-1
+                0 adamsyt-1
+                VISITED 0 fosgen-1, tlenochlorek węgla-1
+                0 gaz musztardowy-1, iperyt siarkowy-1, iperyt-1
+            0 azotan baru-1
+            0 pięciotlenek wanadu-1, tlenek wanadu(V)-1
+            0 hydroksyloamina-1
+            0 fenylohydrazyna-1
+            0 chlorek rtęci(II)-1, sublimat-1
+            0 fosforowodór-1, fosfan-1, fosfina-1, fosforiak-1
+            0 sternit-1
+            0 pankuronium-1
+            0 dioksyna-1
+            VISITED 0 kolchicyna-1
+            VISITED 0 koniina-1
+            2 piorunian-1
+              0 piorunian srebra-1
+              0 piorunian rtęci-1
+            0 fenyloamina-1, anilina-1, aminobenzen-1
+            0 1,3-butadien-1, dwuwinyl-1, erytren-1
+            0 fluorowodór-1
+            0 fosgen-1, tlenochlorek węgla-1
+            0 hydrazyna-1
+            0 krezol-1, metylofenol-1
+            0 czterochlorek węgla-1, tetrachlorometan-1, tetra-1, chlorek węgla(IV)-1, tetrachlorek węgla-1
+            0 lizol-1
+            0 grynszpan-1, zieleń miedziana-1
+            0 arszenik-1, tritlenek diarsenu-1, trójtlenek arsenu-1, tritlenek arsenu-1
+            VISITED 0 strychnina-1
+            76 toksyna-1
+              1 ekscytotoksyna-1
+                0 kwas kainowy-1
+              0 rycyna-2
+              0 enterotoksyna-1
+              0 pikrotoksyna-1
+              0 irydyna-1
+              2 toksyna sinicowa-1
+                0 nodularyna-1
+                0 mikrocystyna-1
+              0 falloidyna-1
+              2 ptomaina-1, jad trupi-1
+                0 putrescyna-1
+                0 kadaweryna-1
+              0 kantarydyna-1
+              1 mykotoksyna-1
+                0 aflatoksyna-1
+              1 neurotoksyna-1
+                VISITED 0 jad kiełbasiany-1, botulina-1
+              0 solanina-1
+              0 anemonina-1
+              0 anatoksyna-1, toksoid-1
+              0 kurara-1
+              50 alkaloid-1
+                0 bufotenina-1
+                0 piperyna-1
+                0 pyretryna-1
+                0 lobelina-1, lobelia-2, latelional-1
+                0 psylocyna-1
+                0 harmina-1
+                0 harmalina-1
+                0 tropina-1
+                0 berberyna-1
+                0 rezerpina-1
+                0 pilokarpina-1
+                0 eseryna-1, fizostygmina-1
+                0 sparteina-1
+                0 hioscyjamina-1
+                0 emetyna-1
+                0 arekolina-1
+                0 rycynina-1
+                0 chinidyna-1
+                0 ergometryna-1
+                0 ajmalina-1
+                0 muskaryna-1
+                0 tebaina-1
+                0 psylocybina-1
+                0 akonityna-1
+                0 johimbina-1
+                0 kolchicyna-1
+                0 koniina-1
+                0 apomorfina-1
+                0 ergotyna-1, sporysznik-1
+                0 ergotamina-1
+                0 efedryna-1
+                0 papaweryna-1
+                0 teobromina-1
+                0 teofilina-1
+                0 skopolamina-1, hioscyna-1
+                0 meskalina-1
+                0 strychnina-1
+                0 fagina-1
+                0 kodeina-1, metylomorfina-1
+                0 atropina-1
+                0 chinina-1
+                VISITED 0 nikotyna-1
+                2 kofeina-1
+                  0 guaranina-1
+                  0 teina-1
+                1 heroina-1, diacetylomorfina-1
+                  0 kompot-2, zupa-4
+                VISITED 1 kokaina-1, koka-1, biała śmierć-1
+                0 morfina-1
+              3 jad-1
+                0 endotoksyna-1
+                1 egzotoksyna-1, ektotoksyna-1
+                  0 jad kiełbasiany-1, botulina-1
+            0 formalina-1
+            0 siarkowodór-1, sulfan-1
+            0 cyjanek potasu-1, cyjanek-2, cyjankali-1
+            0 benzen-1
+            0 formaldehyd-1, aldehyd mrówkowy-1, metanal-1
+            0 alkohol metylowy-1, metanol-1, spirytus drzewny-1
+            0 nikotyna-1
+            1 kokaina-1, koka-1, biała śmierć-1
+              0 crack-1
+        0 regulator-2
+        0 języczek u wagi-1
+        0 stresor-1
+        0 mutagen-1
+        0 destruktor-1
+        0 weryfikator-1
+        0 regenerator-2
+        1 czynnik ekologiczny-1
+          0 czynnik abiotyczny-1
+        0 czynnik biotyczny-1
+        0 determinanta-1, determinant-1
+        0 modyfikator-2
+        1 łącznik-6, klamra-3, lepiszcze-2, ogniwo-3, punkt styczny-1, spoidło-1, spoiwo-3, spójnia-1, unifikator-1, zwornik-1
+          0 arka przymierza-2
+        12 bodziec-1, impuls-1, podnieta-1, sygnał-6
+          0 stymulator-3
+          0 bodziec dystalny-1
+          0 bodziec proksymalny-1
+          0 dewiant-2
+          1 atraktant-1
+            0 chemoatraktant-1, chemotaksyna-1, hormon lokomocyjny-1
+          0 dystraktor-1
+          0 stymulator-1
+          0 bodziec warunkowy-1
+          0 bodziec progowy-1
+          0 bodziec podprogowy-1
+          0 bodziec bezwarunkowy-1
+        0 warunek wystarczający-1, warunek dostateczny-1
+        44 geneza-1
+          0 polifiletyzm-1
+          0 monofiletyczność-1, monofiletyzm-1
+          0 psychogeneza-1
+          0 biogeneza-1
+          0 autogeneza-1, samorództwo-1, abiogeneza-1
+          0 patogeneza-1, patogenia-1
+          37 pochodzenie-5, korzenie-1, proweniencja-1, metryka-2
+            1 autochtoniczność-1
+              VISITED 0 autochtonizm-1
+            23 etnogeneza-1
+              0 autochtonizm-1
+              0 rdzenność-1
+              0 plemienność-1
+              0 orientalność-1
+              0 etnogenia-1
+              0 nacja-2, narodowość-1
+              1 rodzimość-1, macierzystość-1
+                0 swojskość-1
+              14 lokalność-1
+                1 regionalność-1
+                  0 subregionalność-1, podregionalność-1
+                0 mazurskość-1
+                0 kresowość-1
+                4 wiejskość-1
+                  0 sielankowość-1, sielskość-1
+                  0 rustykalność-1
+                  0 wieśniactwo-1
+                  0 ludowość-1
+                4 miejskość-1, miastowość-1, komunalność-1
+                  2 mieszczańskość-1
+                    VISITED 1 drobnomieszczaństwo-1, drobnomieszczańskość-1
+                  0 stołeczność-1
+            1 etymologia-1, źródłosłów-2
+              0 etymologia ludowa-1
+            6 rodowód-1, genealogia-1
+              0 nieszlachectwo-1
+              0 rodowość-1
+              0 proletariackość-1
+              0 plebejskość-1
+              0 arystokratyzm-2, arystokratyczność-1
+              0 szlachectwo-1
+            2 autorstwo-1
+              0 współautorstwo-1
+              0 anonimowość-1, anonimat-2
+        43 przyczyna-1, powód-1, źródło-1
+          0 racja-5
+          0 motyw-4
+          0 pobudka-1
+          0 cierń-1
+          0 przyczyna celowa-1
+          0 przyczyna sprawcza-1
+          0 przyczyna materialna-1
+          0 przyczyna formalna-1
+          0 etiologia-3
+          0 causa-1, kauza-1
+          9 postrach-3
+            0 kosa-3, żyleta-2
+            0 pogromca-2, poskromiciel-1
+            6 brutal-1
+              0 barbarzyńca-1
+              0 gestapowiec-2
+              3 agresor-1
+                0 bulterier-2, bullterier-2
+                0 damski bokser-1
+                0 drapieżca-2
+          0 matka-4
+          0 wskazanie-7
+          1 podłoże-4
+            0 tło-3
+          VISITED 0 zadra-1
+          2 kość niezgody-1
+            0 jabłko niezgody-1
+            0 kamień obrazy-1
+          0 praźródło-1
+          0 wzgląd-1
+          0 wzgląd-3
+          0 praprzyczyna-1
+          0 pożywka-2
+          0 zarzewie-1, iskra-4
+          0 generator-2
+          4 wymówka-2, wykręt-1
+            3 pretekst-2
+              2 przykrywka-2
+                0 kostium historyczny-1, historyzm maski-1
+                0 kamuflaż-1, listek figowy-2, zasłona dymna-1
+          0 premedytacja-2, wyrachowanie-3
+          0 przesłanka-1
+          0 atrakcja-1, urozmaicenie-2, mamidło-1, wabik-1, magnes-2, magnetyczność-2
+        14 kryterium-1
+          0 kryterium sterowania-1
+          0 kryterium stabilności Hurwitza-1
+          0 kryterium Jury-1
+          0 kryterium Hautusa-1
+          0 kryterium Sylvestera-1
+          4 kryterium podejmowania decyzji-1
+            0 kryterium Laplace'a-1
+            0 kryterium Savage'a-1, reguła Savage'a-1, reguła minimaksu-1
+            0 kryterium Walda-1, kryterium maksyminowe-1
+            0 kryterium Hurwicza-1
+          0 kryterium oceny decyzji-1
+          0 wyraźność-1
+          1 miernik-1, probierz-2, wymiernik-1
+            0 społeczna wydajność pracy-1
+      1471 stan-1
+        0 wieczny spoczynek-1
+        0 stan deweloperski-1
+        0 przejściówka-3
+        0 wojna celna-1
+        0 trzeźwość-2
+        VISITED 0 bezradność-2
+        0 stan krytyczny-2
+        0 sprawność-7
+        0 stan nieczynny-1
+        0 stan nietrzeźwości-1, upojenie alkoholowe-1
+        0 stan ostrzegawczy-1
+        0 stan alarmowy-1
+        0 nieaktywność-2
+        0 aktywność-4
+        9 aktywność-3
+          1 erupcja-1, wylew-4
+            0 erupcja freatyczna-1
+          6 ruch-8
+            0 dreptanina-1
+            0 ruch w interesie-1
+            0 ruch ciągły-1
+            2 bieganina-1, latanina-1
+              1 bonanza-1
+                0 przeboje-1, hocki-klocki-1
+        0 trójstronność-2
+        0 bękarctwo-1
+        0 bezświadomość-1
+        0 jedynactwo-1
+        0 nieużywalność-2
+        0 niepraworządność-2
+        0 niedyspozycyjność-1
+        0 notoryczność-1
+        0 spocznienie-1
+        0 krytyczność-2
+        0 zakładnictwo-1
+        0 ihram-1
+        0 łaska-2
+        10 bezruch-1, nieruchomość-2, spoczynek-3, nieruch-1
+          1 stabilność-2
+            0 niewywrotność-1
+          2 osłupienie-3
+            VISITED 0 stupor-2
+            0 katatonia-1
+          0 martwota-1
+          0 równowaga-4, statyczność-1
+          0 akinezja-2, strach bierny-1
+          1 statyka-1
+            0 statyczność-3
+        1 status-3
+          0 spłacalność-2
+        0 dziecięctwo Boże-1
+        0 toksemia-1, jadzica-1
+        0 wiremia-1, wirusemia-1
+        1 stan środowiska-1
+          0 stosunek wodny-1
+        2 forma-14
+          1 samopoczucie-1
+            0 niewyraźność-2
+        0 zajętość-1
+        44 *stan fizjologiczny-1
+          0 depresja oddechowa-1
+          0 hiperwentylacja-1
+          0 ospałość-4
+          0 hipokapnia-1
+          0 hiperkapnia-1
+          0 hiponatremia-1
+          0 limfopenia-1, limfocytopenia-1
+          0 asystolia-1
+          0 sympatykotonia-1
+          0 wagotonia-1, parasympatykotonia-1
+          0 stan padaczkowy-1
+          0 stres oksydacyjny-1
+          2 przystosowanie-2, adaptacja-3
+            1 mimetyzm-1, mimezja-1
+              0 mimikra-1, mimikria-1
+          1 świadomość-3, przytomność-1
+            0 trzeźwość-5
+          0 śnięcie-1, śnięcie ryb-1, próg letalny-1
+          2 neutropenia-1
+            1 agranulocytoza-1
+              0 zespół Kostmanna-1, choroba Kostmanna-1
+          1 charłactwo-1, marazm-3, wyniszczenie-3
+            0 kacheksja-1
+          0 hiperkaliemia-1, hiperpotasemia-1
+          1 kondycja-3
+            0 kondycja hodowlana-1
+          0 pobudzenie seksualne-1
+          0 dziewictwo-1, cnota-1, wianek-2
+          0 bradykardia-1, rzadkoskurcz-1
+          VISITED 0 hibernacja-2
+          VISITED 0 sen letni-1, estywacja-1, diapauza letnia-1
+          VISITED 0 sen zimowy-1, hibernacja-1, diapauza zimowa-1
+          0 agonia-1, konanie-2, umieranie-1, stan terminalny-1
+          10 kondycja-1, forma-13
+            0 niedysponowanie-1
+            0 wytrzymałość-3
+            VISITED 7 kondycja fizyczna-1, sprawność fizyczna-1
+        1 umieralność-1, śmiertelność-1
+          0 nadumieralność-1
+        11 *niepodejmowanie działania lub czynności-1
+          0 nieużywanie-1
+          0 nieużywalność-1
+          1 nieingerencja-1
+            0 nieinterwencja-1
+          6 bezczynność-1
+            0 zasiedziałość-2
+            3 lenistwo-1, rozleniwienie-2, nieróbstwo-1, gnuśność-1, próżniactwo-1
+              0 bumelanctwo-1, bumelka-1
+              0 pasożytnictwo-2
+              0 wygodnictwo-2
+            VISITED 0 nuda-1, znudzenie-2
+        2 dzietność-1
+          0 małodzietność-1
+          0 wielodzietność-1
+        VISITED 0 bezdzietność-1, bezpotomność-1
+        VISITED 94 niemożność-1, niezdolność-1, niemożliwość-1, niemożebność-1
+        39 porządek-1, ład-1
+          0 porządek społeczny-1, ład społeczny-1, porządek publiczny-1
+          16 spokój-2
+            0 oko cyklonu-2
+            0 mir domowy-1
+            0 cisza-6
+            0 pokój-3
+            11 zgoda-2, ład-3, harmonia-3, zgodność-3, jedność-3, harmonijność-2
+              0 święty spokój-1
+              0 nieagresja-1
+              0 odprężenie-3
+              0 modus vivendi-1
+              0 zgranie-2
+              0 sztama-1
+              0 zjednoczenie-2, komunia-3, przymierze-2
+              1 pojednanie-2, pogodzenie się-1
+                0 rekoncyliacja-2
+              1 solidarność-1
+                0 solidarność jajników-1
+          4 zdyscyplinowanie-3, dyscyplina-1, rygor-1, karność-1, subordynacja-1
+            0 apel-4
+            1 dryl-3
+              0 wojsko-4
+            0 samodyscyplina-1
+          15 bezpieczeństwo-1
+            VISITED 0 bezpieczeństwo terytorialne-1
+            0 bezpieczeństwo czynne-1
+            0 bezpieczeństwo bierne-1
+            0 bezpieczeństwo biologiczne-1
+            0 bezpieczeństwo osobowe-1
+            0 bezpieczeństwo informatyczne-1
+            0 bezpieczeństwo fizyczne-1
+            0 bezpieczeństwo prawne-1
+            0 bezpieczeństwo żywnościowe-1
+            0 bezpieczeństwo zbiorowe-1
+            0 bezpieczeństwo osobiste-1
+            0 bezpieczeństwo publiczne-1
+            0 bezpieczeństwo zewnętrzne-1
+            0 bezpieczeństwo socjalne-1, bezpieczeństwo społeczne-1
+            0 pewność-8
+        0 stan surowy-1
+        0 stan krytyczny-1
+        12 podporządkowanie-1
+          0 submisja-2
+          10 podległość-1, zniewolenie-5, jarzmo-1, uzależnienie-3, zależność-2
+            0 niewola egipska-2
+            0 heteronomia-1
+            0 zależność gospodarcza-1
+            0 podwładność-1
+            0 dependencja-1
+            0 poddaństwo-1
+            0 protektorat-1
+            0 lenno-1, lennictwo-1, wasalstwo-1, lenność-1
+            1 niewolnictwo-1, niewola-1
+              0 encomienda-1
+        62 odpoczynek-1, wypoczynek-1, spoczynek-1, relaks-1
+          0 reset-3
+          VISITED 0 odsapka-1
+          0 wczasy pod gruszą-1
+          21 *wypoczynek zorganizowany-1
+            8 wycieczka-1, wyprawa-2
+              0 biała szkoła-1
+              0 lipcówka-3
+              0 zielona szkoła-1
+              0 objazdówka-1
+              1 przejażdżka-1
+                0 kulig-1
+              0 majówka-1
+              0 spływ-2
+            0 półkolonie-1, półkolonia-1
+            0 kolonie-1, kolonia-5
+            4 obóz-4
+              0 obóz wędrowny-1
+              0 obóz dochodzeniowy-1
+              0 zgrupowanie-4
+              0 oaza-3
+            2 wczasy-1
+              0 wczasy w siodle-1
+              0 wczasy wagonowe-1
+            VISITED 0 biwak-1
+            0 zimowisko-2
+          0 fajrant-1, fajerant-1
+          0 letnisko-2
+          0 sjesta-1
+          24 rekreacja-1
+            7 kąpiel-2
+              0 piłka wodna-1, waterpolo-1
+              5 nurkowanie-5
+                0 nurkowanie wrakowe-1
+                0 nurkowanie techniczne-1
+                0 nurkowanie bezdechowe-1, freediving-1
+                0 snorkeling-1
+                0 płetwonurkowanie-1
+            15 turystyka-1
+              0 seksturystyka-1, turystyka seksualna-1
+              0 couchsurfing-1
+              0 turystyka kwalifikowana-1
+              0 turystyka wyjazdowa-1
+              0 turystyka przyjazdowa-1
+              0 turystyka aborcyjna-1
+              0 backpacking-1
+              0 safari-2
+              0 karawaning-2, caravaning-1
+              0 tramping-2
+              0 globtroterstwo-1
+              0 ekoturystyka-1
+              0 agroturystyka-1
+              0 krajoznawstwo-1
+              0 żegluga-2
+          8 sen-1, spoczynek-2
+            0 mokry sen-1
+            0 ciężki sen-1
+            0 twardy sen-1, głęboki sen-1, mocny sen-1
+            0 hibernacja-2
+            0 sen letni-1, estywacja-1, diapauza letnia-1
+            0 sen zimowy-1, hibernacja-1, diapauza zimowa-1
+            1 drzemka-1, półsen-1
+              0 półdrzemka-1
+        220 konieczność-1, wymóg-1
+          219 obowiązek-1, powinność-1, ciężar-2
+            0 przymus adwokacki-1
+            0 dyscyplina partyjna-1, dyscyplina klubowa-1
+            0 obowiązek wizowy-1
+            0 obowiązek alimentacyjny-1
+            0 stróża-1
+            0 urbarium-2
+            0 saum-1
+            0 landwera-1, landwehra-1
+            0 obowiązek publiczny-1
+            1 obowiązek obywatelski-1
+              0 świadczenie osobiste-1
+            0 readmisja-1
+            0 szarwark-1
+            12 tajemnica-1
+              0 tajemnica telekomunikacyjna-1
+              0 tajemnica adwokacka-1
+              0 tajemnica przedsiębiorstwa-1, tajemnica handlowa-1
+              0 tajemnica skarbowa-1
+              0 tajemnica statystyczna-1
+              0 tajemnica bankowa-1
+              0 tajemnica dziennikarska-1
+              0 tajemnica spowiedzi-1
+              0 tajemnica lekarska-1
+              0 tajemnica służbowa-1
+              0 tajemnica państwowa-1, tajemnica stanu-1
+              0 tajemnica korespondencji-1
+            170 zobowiązanie-2
+              0 dożywocie-4
+              0 zobowiązanie wymagalne-1
+              2 pożyczka-1
+                0 pożyczka hipoteczna-1
+                0 chwilówka-1
+              4 dług-1, zadłużenie-2, kreska-7
+                0 dług publiczny-1
+                0 kredyt-3
+                0 saldo debetowe-1
+                0 debet-1
+              0 zobowiązanie długoterminowe-1
+              0 zobowiązanie krótkoterminowe-1
+              117 praca-1, zatrudnienie-3, robota-3
+                0 woluntariat-1
+                0 czarna robota-2
+                0 lekki chleb-1
+                0 roboty przymusowe-1
+                0 czarna robota-1
+                0 roboty publiczne-1
+                0 praca sezonowa-1
+                0 praca tymczasowa-1
+                0 praca interwencyjna-1
+                0 najemnictwo-1
+                0 wieczorówka-3
+                0 dniówka-4
+                0 angaż-2
+                0 zarobek-3
+                1 posada-1, miejsce-5
+                  0 etat-1
+                0 telepraca-1
+                0 samozatrudnienie-1
+                0 lewizna-1
+                0 praktyka-2
+                0 dwuetatowość-1
+                0 kontrakt-3
+                0 chałupnictwo-1, praca nakładcza-1
+                0 nocka-1
+                0 saksy-1
+                0 fucha-2, boki-1
+                82 stanowisko-5, funkcja-1, posterunek-3, stołek-2, stolec-2
+                  0 ławka strzelecka-1
+                  0 stanowisko robotnicze-1
+                  0 redaktorstwo-1
+                  0 kapitaństwo-1
+                  0 kantorat-2
+                  0 administratorstwo-1
+                  0 ordynatura-1
+                  0 aspirantura-1
+                  0 rektorstwo-1
+                  0 docentura-1
+                  0 asystentura-1
+                  0 dependencja-2
+                  0 adiutantura-1
+                  0 wakat-1, vacat-1
+                  2 dyrygentura-2
+                    0 cheironomia-1
+                    0 kapelmistrzostwo-1
+                  0 profesura-1
+                  0 synekura-1, koryto-5, żłób-3
+                  0 archidiakonat-1
+                  60 urząd-2, dostojeństwo-2, godność-2
+                    0 skarbny-1
+                    0 fotel-2
+                    0 książęcość-2
+                    0 referendarz-4
+                    0 prokonsulat-1
+                    0 rejentostwo-2
+                    0 regimentarstwo-1
+                    0 cześnikostwo-2
+                    0 dziekaństwo-1
+                    0 konsulostwo-2
+                    0 decemwirat-1
+                    0 horodniczy-1
+                    0 podsekretariat-2
+                    0 kuratorstwo-1
+                    0 wezyrat-1
+                    0 stolnikostwo-2
+                    0 podkomorstwo-1
+                    0 lordostwo-1
+                    0 interrex-2, interreks-2
+                    0 tron-3, korona-11
+                    0 referendaria-1
+                    0 penitencjaria-1
+                    0 sołtysostwo-1
+                    0 purpura-5
+                    0 marszałkostwo-1
+                    0 ambasadorostwo-1, ambasadorstwo-1
+                    0 rachmistrzostwo-1
+                    0 rotmistrzostwo-1
+                    0 przeorstwo-1
+                    0 pułkownikostwo-1
+                    0 szambelaństwo-1
+                    0 prezesura-1
+                    0 pretura-1
+                    0 rabinat-1
+                    0 ataszat-2, attachat-1
+                    0 premierostwo-1
+                    0 merostwo-3
+                    0 kasztelania-1, kasztelaństwo-1
+                    0 królewskość-2
+                    0 sędziostwo-1
+                    0 palatynat-2
+                    0 patrycjat-3
+                    0 seniorat-1
+                    0 parostwo-1
+                    0 prefektura-3
+                    0 patriarchat-2
+                    0 namiestnictwo-1, namiestnikostwo-1
+                    0 kanonia-1, kanonikat-1
+                    0 hrabiostwo-1
+                    0 hetmaństwo-1
+                    0 dyrektorstwo-1, dyrekcja-3, dyrektura-1
+                    0 dygnitarstwo-1
+                    0 beneficjum-1
+                    0 baronostwo-2
+                    0 asesura-1
+                    0 arcyksięstwo-1
+                    0 arcybiskupstwo-2
+                    0 kalifat-1
+                    0 biskupstwo-1, apostolat-2, episkopat-2, infuła-2, mitra-2
+                    0 elektorat-2, elektorstwo-1
+                  0 teka-3
+                5 zlecenie-6
+                  0 mokra robota-1
+                  0 obstalunek-1
+                  0 stop limit-1
+                  1 recepta-1, preskrypcja-2
+                    0 zielona recepta-1
+                0 chałtura-2, chałturnictwo-1
+                0 wolontariat-1, praca społeczna-1
+              0 obligo-1
+              0 promesa-2
+              VISITED 0 akcept-1
+              32 alimenty-1
+                31 stosunek zobowiązaniowy-1
+                  0 akcept-1
+                  VISITED 29 kredyt-1
+              3 dług-2
+                1 dług moralny-1
+                  0 dług wdzięczności-1
+                0 dług honorowy-1
+              0 obciążenie-5
+              29 kredyt-1
+                0 kredyt akceptacyjny-1
+                0 spłata balonowa-1, płatność balonowa-1, kredyt balonowy-1, rata balonowa-2
+                7 kredyt bankowy-1
+                  0 kredyt rolowany-1
+                  0 kredyt podporządkowany-1
+                  0 kredyt konsorcjalny-1
+                  1 kredyt obrotowy-1
+                    0 kredyt kasowy-1
+                  0 kredyt gotówkowy-1
+                  0 kredyt inwestycyjny-1
+                1 kredyt hipoteczny-1
+                  0 odwrócona hipoteka-1
+                0 kredyt stracony-1
+                0 kredyt redyskontowy-1
+                0 kredyt lombardowy-1
+                0 kredyt konsumencki-1
+                0 kredyt skupowy-1
+                2 kredyt preferencyjny-1
+                  0 kredyt suszowy-1
+                  0 kredyt studencki-1
+                0 kredyt kontraktowy-1
+                0 kredyt pomostowy-1
+                0 trzydziestka-8
+                0 mikrokredyt-1
+                0 remburs-1, kredyt rembursowy-1
+                0 kredyt rewolwingowy-1, rewolwing-1
+                0 kredyt państwowy-1
+                0 kredyt refinansowy-1
+                0 kredyt konsumpcyjny-1
+            0 obowiązek szkolny-1
+            0 prestacja-1
+            0 podwoda-2
+            0 pańszczyzna-1
+            6 zaległość-1
+              5 opóźnienie-3, spóźnienie-2, zwłoka-2, poślizg-2
+                0 czas martwy-1
+                0 retardacja-1
+                0 retardacja-2
+                0 niedoczas-1
+                0 zacofanie-2, niedorozwój-3, prymityw-2, upośledzenie-2, zaniedbanie-2, zapóźnienie-1
+            0 stawiennictwo-1
+            0 odpłatność-1
+            7 odpowiedzialność-1
+              0 odpowiedzialność zawodowa-1
+              0 odpowiedzialność konstytucyjna-1
+              1 odpowiedzialność cywilna-1
+                0 odpowiedzialność kontraktowa-1
+              0 odpowiedzialność posiłkowa-1
+              0 współodpowiedzialność-1
+              0 solidarność-2
+            0 powołanie-4, posłannictwo-1, przeznaczenie-5, misja-2, apostolstwo-2, apostolat-1, wola boża-1
+        2 niezgodność-2
+          0 frykcja-3
+          0 niedopasowanie seksualne-1
+        246 nieistnienie-1
+          242 brak-1
+            0 asemantyczność-1
+            0 czarna dziura-2
+            0 bezrefleksyjność-1
+            0 bezradność-2
+            0 bezideowość-2
+            0 bezodpływowość-1
+            0 bezcielesność-1
+            0 bezchmurność-1
+            0 bezcelowość-2
+            0 bezbronność-2
+            0 rozprężenie-1
+            0 niewzajemność-2
+            0 bezsoczność-1, achylia-1
+            0 atonalność-1
+            0 asplenia-1
+            0 anonychia-1
+            0 akrania-1, bezczaszkowie-1
+            0 afalia-1
+            0 afakia-1
+            0 adaktylia-1
+            0 anaplazja-1
+            0 aseksualizm-1, aseksualność-1
+            0 niewrażliwość-3
+            1 deprywacja-1, deprywacja potrzeby-1
+              0 deprywacja snu-1
+            0 niegotowość-1
+            3 ubytek-2
+              0 upiek-1
+              0 wżer-1
+              0 kawerna-2
+            2 aplazja-1
+              0 wrodzony brak nasieniowodów-1, wrodzona obustronna aplazja nasieniowodów-1
+              0 aplazja kości promieniowej-1
+            5 agenezja-1
+              0 agenezja kości krzyżowej-1, hipoplazja kości krzyżowej-1
+              0 fokomelia-1
+              0 anodoncja-1, agenezja zębów-1
+              0 agenezja nerki-1, agenezja nerek-1
+              0 agenezja ciała modzelowatego-1
+            0 gołożer-1
+            0 arhinia-1, wrodzony brak nosa-1
+            0 anorchizm-1, anorchia-1
+            0 aniridia-1
+            0 anoftalmia-1, bezocze-1
+            0 bezmózgowie-1, anencefalia-1
+            0 cisza w eterze-1, cisza radiowa-1
+            0 niedopłata-1
+            0 manko-1
+            3 nieczułość-2
+              0 arefleksja-1
+              1 analgezja-1
+                0 analgezja wrodzona-1
+            2 bezkrytyczność-1, bezkrytycyzm-1
+              0 introjekcja-1
+              0 zaślepienie-3
+            1 niebyt-1, nicość-1
+              0 nirwana-1
+            0 bezrybie-2
+            94 niemożność-1, niezdolność-1, niemożliwość-1, niemożebność-1
+              0 fizyczna niemożliwość-1
+              0 marchwiane ręce-1
+              0 sterylność-3
+              0 nieprzystosowalność-1
+              0 immobilizm-1
+              0 niespełnialność-1
+              0 agelia-1
+              0 krótkowidztwo-2
+              0 aleksytymia-1, analfabetyzm emocjonalny-1
+              0 nieziszczalność-1
+              0 niewyobrażalność-1
+              0 niezaprzeczalność-1
+              0 agamia-2
+              1 niedostrzegalność-2
+                0 niewyczuwalność-2
+              0 nieprzyswajalność-2
+              0 nieprzyswajalność-1
+              0 niedefiniowalność-1
+              0 nieprzekładalność-1
+              0 nieprzekładalność-2, nieprzetłumaczalność-1
+              0 nieprawdopodobność-1
+              0 karkołomność-2
+              0 niewykrywalność-1
+              0 niemuzykalność-1
+              0 nielotność-1
+              0 asocjalność-1
+              1 nokaut-1, knock-out-2
+                0 techniczny nokaut-1, nokaut techniczny-1
+              2 dysfagia-1
+                0 dysfagia przełykowa-1
+                0 dysfagia ustno-gardłowa-1, dysfagia przedprzełykowa-1
+              0 antytalent-1
+              1 aleksja-1, niezdolność czytania-1
+                0 czysta aleksja-1, czysta ślepota słów-1, aleksja bez agrafii-1
+              7 agnozja-1
+                0 autotopagnozja-1, somatotopagnozja-1
+                1 agnozja czuciowa-1
+                  0 astereognozja-1
+                0 agnozja słuchowa-1
+                2 agnozja wzrokowa-1, ślepota korowa-1
+                  0 prozopagnozja-1, agnozja twarzy-1
+                  0 agnozja wzrokowa jednoczesna-1
+              0 nieuchwytność-1
+              1 niewykonalność-1
+                0 niespłacalność-1
+              0 nieściągalność-1
+              0 nieobliczalność-1
+              4 niedostępność-1
+                0 niedosiężność-1
+                0 niedotykalność-1
+                0 nieosiągalność-1
+                0 niesprowadzalność-1
+              0 niedopuszczalność-1, niedozwoloność-1
+              0 impotencja-2
+              0 bezsenność-2
+              1 daremność-1, bezowocność-1, bezskuteczność-1, bezpłodność-2, nadaremność-1
+                0 płonność-1
+              36 nieumiejętność-1
+                0 niezdarstwo-1
+                0 niezręczność-6
+                0 bezguście-1
+                0 indolencja-1
+                2 niezdarność-1, niezręczność-1, wdzięk słonia-1
+                  0 ciężka ręka-1
+                  0 dziurawe ręce-1, gliniane ręce-1
+                0 beztalencie-2
+                VISITED 0 niekompetencja-1, inkompetencja-1, niekompetentność-1
+                VISITED 21 naiwność-1
+                4 analfabetyzm-1
+                  0 analfabetyzm matematyczny-1
+                  0 analfabetyzm funkcjonalny-1
+                  0 półanalfabetyzm-1
+                  0 wtórny analfabetyzm-1, powrotny analfabetyzm-1
+            0 bezzasadność-1, bezpodstawność-1, niezasadność-1
+            1 luka-1, wyrwa-2, dziura-3
+              0 backdoor-1
+            4 bezsensowność-1, absurdalność-1, niedorzeczność-1, nonsensowność-1, bezsens-1, nonsens-2, nielogiczność-1, bzdurność-1
+              0 nierozumność-2
+              0 paranoiczność-1
+              0 idiotyczność-2
+              0 surrealistyczność-1
+            9 nieatrakcyjność-1
+              3 nieciekawość-1
+                VISITED 0 bezbarwność-2
+                0 bezpłciowość-1
+                0 oklepaność-1
+              0 nieapetyczność-2
+              1 nieefektowność-1
+                0 bezbarwność-2
+              0 wsiowość-1, wieśniackość-1
+              1 nudność-1
+                0 gnuśność-3
+            VISITED 0 bezsilność-1, bezradność-1, bezsiła-1, bezbronność-1, niemoc-2
+            VISITED 25 niewiedza-1, ignorancja-1, nieznajomość-1, nieuctwo-1, nieobeznanie-1
+            0 niecierpliwość-1
+            VISITED 0 niełaska-1
+            3 zero-1, nic-1
+              0 dupa blada-1, dupa zbita-1
+              0 guzik-4
+              0 figa-4
+            23 niedobór-1, niedomiar-1, niedostatek-4, deficyt-1
+              0 świński dołek-1
+              0 skąpość-1
+              0 przyducha-1
+              0 anoksja-2, deficyt tlenowy-1
+              0 anoksja-1, anoksemia-1, głód tlenowy-1
+              0 hipoksja-1
+              0 hipokaliemia-1, hipokalemia-1
+              0 hipokalcemia-1
+              0 hipoglikemia-1, niedocukrzenie-1, niedocukrzenie krwi-1
+              0 deficytowość-2
+              0 kropla w morzu-1, kropla w morzu potrzeb-1
+              0 krótka kołdra-1
+              0 posucha-2
+              0 leukocytopenia-1, leukopenia-1
+              1 niedożywienie-1
+                0 wygłodzenie-2
+              2 niedotlenienie-1
+                0 dług tlenowy-1
+                0 asfiksja-1, zamartwica-1
+              VISITED 0 niedosyt-1, nienasycenie-1
+              2 ubóstwo-1, niedostatek-1, mizeria-1
+                VISITED 1 ciasnota-2, ograniczoność-1, ciasność-3
+            16 bezrobocie-1, bezrobotność-1
+              0 naturalna stopa bezrobocia-1
+              0 bezrobocie przymusowe-1
+              0 bezrobocie dobrowolne-1
+              0 bezrobocie frykcyjne-1
+              0 bezrobocie neoklasyczne-1
+              0 bezrobocie klasyczne-1, bezrobocie naturalne-1
+              0 bezrobocie sezonowe-1
+              0 bezrobocie cykliczne-1, bezrobocie koniunkturalne-1, bezrobocie keynesowskie-1
+              0 bezrobocie technologiczne-1
+              0 bezrobocie strukturalne-1
+              0 bezrobocie ukryte-1, bezrobocie agrarne-1
+              0 bezrobocie jawne-1
+              1 bezrobocie długookresowe-1
+                0 bezrobocie chroniczne-1
+              0 bezrobocie średniookresowe-1
+              0 bezrobocie krótkookresowe-1
+          2 nieobecność-1, absencja-1, niebytność-1
+            0 zwolnienie-9
+            0 niestawiennictwo-1
+        0 nagość-1, golizna-1
+        0 bezdomność-1
+        7 bezpieczeństwo-3
+          0 bezpieczeństwo terytorialne-1
+          0 bezpieczeństwo energetyczne-1
+          0 bezpieczeństwo jądrowe-1
+          0 bezpieczeństwo ontologiczne-1
+          2 schronienie-2
+            0 azyl-4
+            0 azyl-1
+        658 *stan psychiczny-1
+          0 ekstaza-2
+          0 zaćmienie-7
+          0 katharsis-2
+          0 gorączka-3
+          0 wkrętka-2
+          0 psychodeliczność-1
+          0 reisefieber-1, rajzefiber-1
+          0 nadczłowieczeństwo-1
+          0 nerwicowość-1
+          0 świadomość-4
+          0 rozmodlenie-1
+          0 eudajmonia-1
+          0 markotność-1
+          265 emocja-1, uczucie-5
+            0 niedowierzanie-1
+            0 nerw-4
+            0 gorąca krew-2
+            1 kotwica-3
+              0 kotwica kinestetyczna-1
+            0 zmartwienie-5
+            1 afekt-3
+              0 afekt patologiczny-1
+            0 silność-1
+            0 tęskliwość-1
+            10 wstyd-1
+              0 niehonor-1
+              0 żal-4, bieda-4
+              1 upokorzenie-2, poniżenie-2
+                VISITED 0 śmieszność-2
+              0 kompromitacja-1, blamaż-1, dyskredytacja-1, skompromitowanie-4, krewa-1
+              4 hańba-1, niesława-1, infamia-1, pohańbienie-2, zmaza-1
+                0 plama na honorze-1
+                VISITED 1 piętno-4
+                0 rogi-2
+            0 namiętność-1, burza-4, pożar-2, ogień-4, płomień-3, wicher-3, żar-2
+            0 braterstwo-2
+            6 przywiązanie-3
+              0 wierność-4
+              4 wierność-2
+                0 wierność-3
+                1 lojalność-1
+                  0 lojalizm-2
+                0 stałość-2
+            0 rozczulenie-2
+            0 skrucha-1, żal-1
+            1 zazdrość-1
+              0 zawiść-1
+            0 sentyment-2
+            1 rozczarowanie-2, zawód-1
+              0 zimny prysznic-1, kubeł zimnej wody-1
+            0 wzgarda-1, pogarda-1
+            0 bezsilność-1, bezradność-1, bezsiła-1, bezbronność-1, niemoc-2
+            0 wdzięczność-1
+            1 niewdzięczność-1
+              0 czarna niewdzięczność-1
+            0 niedosyt-1, nienasycenie-1
+            8 zdziwienie-2, zdumienie-2, zadziwienie-2
+              0 wielkie oczy-1
+              0 osłupienie-4
+              1 zdziwko-1
+                0 zonk-1
+              0 oszołomienie-4
+              2 zaskoczenie-5
+                1 szok-2
+                  0 wstrząs-2
+            0 wzruszenie-2, rozrzewnienie-2, rozczulenie-3
+            1 niepokój-1, zaniepokojenie-2, obawa-1, niespokojność-2, troska-1, niepewność-3, zatroskanie-1
+              0 zazdrość-2
+            0 komfort-2
+            3 wrogość-1, nieprzyjaźń-1, nieprzyjacielskość-1
+              VISITED 0 hejt-3
+              VISITED 0 germanofobia-1
+              VISITED 0 antysemityzm-1, antyżydowskość-1, antyjudaizm-1, żydożerstwo-1
+            11 gniew-1
+              6 złość-1, cholera-4, żółć-3
+                2 wściekłość-1, furia-1, pasja-2
+                  0 szewska pasja-1
+                  0 szał-4
+                2 irytacja-1, rozdrażnienie-3, zdenerwowanie-5, nerwy-1, nerwacja-1
+                  0 drażliwość-1
+                  0 zniecierpliwienie-2
+              0 oburzenie-2
+              1 wzburzenie-3, afekt-2
+                0 biała gorączka-2
+              VISITED 0 zgorszenie-2
+            5 niezadowolenie-1
+              1 malkontenctwo-1
+                0 gderactwo-1, zrzędziarstwo-1
+              VISITED 0 frustracja-1
+              1 pretensja-1, żal-2, wymówka-1, wytyk-1, wyrzut-1
+                0 zarzut-1
+            1 dyskomfort-1
+              0 ból głowy-1
+            50 chęć-2, ochota-1, wola-2, chcenie-3, apetyt-1, melodia-3
+              0 wena-3
+              1 chcica-1
+                0 chcica-2
+              0 skwapliwość-2
+              0 chrapka-1
+              17 smak-4, apetyt-2
+                0 wilczy apetyt-1
+                14 pica-1, łaknienie spaczone-1
+                  0 mukofagia-1
+                  0 hialofagia-1
+                  0 ksylofagia-2
+                  0 trichofagia-1
+                  0 autokanibalizm-1
+                  0 hematofagia-1
+                  0 geofagia-1
+                  0 geomelofagia-1
+                  0 emitofagia-1
+                  0 koprofagia-1
+                  0 koniofagia-1
+                  0 kautopireiofagia-1
+                  0 amylofagia-1
+                  0 aerofagia-1, łykawica-1
+                0 żarłoczność-1, łakomstwo-1, łapczywość-1
+              22 pragnienie-1, pokusa-1, żądza-1, pożądanie-4, głód-3, łaknienie-1
+                0 parcie na szkło-1
+                0 tęsknota-2
+                2 oczekiwanie-3
+                  1 nadzieja-1, otucha-1
+                    0 światełko w tunelu-1
+                1 pożądanie-5, chęć posiadania-1
+                  0 żądza-3
+                0 pożądanie-3, pociąg fizyczny-1, chuć-1, pożądliwość-1, ciągoty-1, zmysły-1, żądza-2
+                4 marzenie-5
+                  0 marzenie ściętej głowy-1
+                  0 zamek na piasku-1, zamek na lodzie-1
+                  1 mrzonka-1, złudzenie-2, utopia-2, miraż-2
+                    0 bańka mydlana-2
+                8 potrzeba-1, nieodzowność-1, niezbędność-1
+                  0 jaś wędrowniczek-1
+                  3 głód-4
+                    0 głód alkoholowy-1
+                    0 głód nikotynowy-1
+                    0 głód narkotyczny-1
+                  0 poriomania-1, dromomania-1
+                  1 popęd-1, zew krwi-1, głos natury-1
+                    0 popęd płciowy-1, libido-1, wola boża-2
+              3 chętka-1, zachcianka-1
+                0 zachciewajka-1
+                0 kaprys-1, fanaberia-1, widzimisię-1, fantazja-4
+                0 dziwactwo-2
+            23 zachwyt-1, podziw-1, zachwycenie-2
+              VISITED 3 fascynacja-1, urzeczenie-1, oczarowanie-2, olśnienie-3, zauroczenie-2
+              VISITED 0 upojenie-3, odurzenie-4
+              VISITED 16 uwielbienie-1, adoracja-1
+              0 uznanie-6
+            1 wstyd-2, zawstydzenie-2, zmieszanie-3, zażenowanie-2, konsternacja-1, zakłopotanie-2, skrępowanie-3, pomieszanie-3, onieśmielenie-2, krępacja-1, żenada-1
+              0 śmieszność-2
+            9 sympatia-1, przychylność-2, zainteresowanie-2, inklinacja-2
+              5 ksenofilia-1
+                0 anglofilstwo-1
+                0 rusofilizm-2, rusofilstwo-2
+                VISITED 0 filosemityzm-1
+                0 germanofilstwo-1
+                0 polonofilstwo-1
+              0 okcydentalizm-2
+              0 rusofilizm-1, rusofilstwo-1, moskalofilizm-1, moskalofilstwo-1
+              VISITED 0 chłopomania-1, chłopomaństwo-1, ludomania-1
+            1 stres-1, zdenerwowanie-4
+              0 trema-1
+            4 satysfakcja-1, spełnienie-3, duma-6, zadowolenie-2, ukontentowanie-2
+              0 szał dupy-1
+              0 pełnia-1
+              0 nasycenie-7
+              0 samozadowolenie-1
+            1 rozpacz-1, desperacja-1, boleść-1
+              0 czarna rozpacz-1
+            VISITED 8 radość-1, wesołość-1, uciecha-1, radocha-1
+            0 przyjaźń-1
+            1 nienawiść-1
+              0 hejt-3
+            32 niechęć-1, alergia-2, animozja-1, ansa-1, antypatia-1, dyzgust-2
+              VISITED 0 antypatriotyzm-1
+              2 odium-1
+                1 piętno-4
+                  0 kainowe piętno-1, kainowe znamię-1, piętno Kaina-1
+              3 uraza-1
+                0 obraza-2
+                VISITED 0 zadra-1
+                0 resentyment-1
+              0 mizantropia-1
+              0 opór-2, opory-2
+              2 nieżyczliwość-1, nieprzychylność-1
+                0 niezrozumienie-2
+                0 niełaska-1
+              15 uprzedzenie-3
+                3 uraz-2
+                  1 drzazga-2
+                    0 zadra-1
+                  VISITED 0 trauma-1, uraz psychiczny-1
+                VISITED 0 anglofobia-1
+                0 heterofobia-1
+                0 handicapizm-1
+                0 mizoandria-1, mizoandryzm-1, mizandria-1
+                0 mizoginia-1, mizoginizm-1
+                VISITED 1 antypolonizm-1, polonofobia-1
+                1 homofobia-1
+                  0 lesbofobia-1
+                0 germanofobia-1
+                0 antysemityzm-1, antyżydowskość-1, antyjudaizm-1, żydożerstwo-1
+              2 awersja-1, wstręt-1, odraza-1, obrzydzenie-2, obrzydliwość-2, obmierzłość-1, repulsja-1
+                0 niesmak-1, zgaga-2, absmak-2
+                0 abominacja-1
+              0 antagonizm-1
+            2 litość-1, miłosierdzie-1, ubolewanie-3, współczucie-2, zmiłowanie-1, kompasja-1
+              0 empatia-1
+              0 politowanie-1
+            7 miłość-1
+              5 afekt-1, uczucie-4
+                2 miłość-4
+                  0 głębsze uczucie-1
+                  0 namiętność-3
+                1 zakochanie-1, zadurzenie-1
+                  0 strzała Amora-1, strzała Erosa-1, strzała Kupidyna-1
+              0 wszechmiłość-1
+            11 lęk-1, strach-1, bojaźń-1
+              0 żołądek pod gardłem-1, serce w przełyku-1
+              0 boj-1
+              0 przelęknienie-1
+              0 cykor-2
+              0 zahamowanie-4
+              1 panika-1
+                0 panika bankowa-1
+              2 przerażenie-2, zgroza-1, groza-1
+                0 zgorszenie-2
+                0 postrach-2
+              0 trwoga-1, przestrach-1, zalęknienie-1
+            5 serdeczność-1, ciepło-2
+              0 matczyność-2
+              1 czułość-1, tkliwość-1
+                0 czułostkowość-1
+              0 wylewność-1
+              0 koleżeństwo-1, koleżeńskość-1
+            8 ciekawość-1
+              0 zainteresowanie-3, zaciekawienie-2
+              3 fascynacja-1, urzeczenie-1, oczarowanie-2, olśnienie-3, zauroczenie-2
+                0 zawrót głowy-1
+                1 przygoda-2
+                  0 flirt-2
+              0 wścibstwo-1, wścibskość-1
+              0 zaabsorbowanie-3
+              0 dociekliwość-1, wnikliwość-1
+            VISITED 16 smutek-1, smęt-1
+          0 katharsis-1
+          0 monoideizm-1
+          0 kociokwik-1
+          2 iluminacja-2, oświecenie-1, bodhi-1
+            0 satori-1
+            0 moksza-1
+          VISITED 0 dobrostan zwierząt-1
+          0 ogłupienie-3
+          0 opętanie-2
+          11 nieprzytomność-1, nieświadomość-2
+            4 zamroczenie-2, oszołomienie-3
+              0 odurzenie-5
+              2 odjazd-3, odlot-1
+                0 zjazd-8, zgon-2
+                0 kop-1
+            0 letarg-1, bezwład-3
+            0 nietrzeźwość-1, upojenie-1, wirus filipiński-1
+            3 trans-1
+              2 hipnoza-1
+                0 analgezja-2
+                0 autohipnoza-1
+          25 niewiedza-1, ignorancja-1, nieznajomość-1, nieuctwo-1, nieobeznanie-1
+            0 ciemność-4
+            0 racjonalna ignorancja-1
+            0 nierozeznanie-1
+            0 nieprofesjonalność-1, amatorskość-2
+            0 niefachowość-1
+            0 niekompetencja-1, inkompetencja-1, niekompetentność-1
+            0 niedoświadczenie-1
+            2 dezorientacja-1
+              VISITED 0 anomia-2
+              0 zagubienie-3
+            8 ciemnota-1
+              7 obskurantyzm-1, zacofanie-1, niedorozwój-2
+                0 reakcyjność-1
+                0 prowincjonalizm-1, prowincjonalność-1, zaściankowość-1, małomiasteczkowość-1
+                1 drobnomieszczaństwo-1, drobnomieszczańskość-1
+                  0 kołtuństwo-1, kołtuneria-1, dulszczyzna-1, filisteria-1
+                1 ciasnota-2, ograniczoność-1, ciasność-3
+                  0 prymitywność-2
+                0 ciemnogród-1
+            0 analfabetyzm-2
+            0 niezrozumienie-1
+            3 nieświadomość-1
+              0 dyzgust-1
+              1 zapomnienie-6
+                0 amnezja dziecięca-1
+          261 postawa-1
+            0 antyromantyzm-1
+            0 pseudointelektualizm-1
+            0 rogata dusza-2
+            0 antykaczyzm-1
+            0 ironia romantyczna-1
+            0 skromność-4
+            0 progresizm-2
+            0 miłość bliźniego-1
+            0 beylizm-1
+            0 hamletyzm-1
+            0 indywidualizm-4
+            0 maskulinizm-1
+            0 morale-1
+            0 wierność-6
+            0 chadeckość-1
+            0 laksyzm-1
+            0 irrealizm-1
+            VISITED 0 idiolatria-2
+            0 nieneutralność-2
+            0 antyintelektualizm-2
+            0 antydogmatyzm-1
+            0 anglofobia-1
+            0 papizm-1
+            0 permisywność-1
+            0 familiocentryzm-1
+            0 adonizacja-1
+            0 prowokacyjność-1
+            0 pragmatyczność-2
+            0 nieżyciowość-1
+            0 postulatywność-1
+            0 antypatriotyzm-1
+            0 prorosyjskość-1
+            0 technicyzm-1
+            0 antyrosyjskość-1
+            0 antyradzieckość-1
+            0 antyreligia-1
+            0 żeromszczyzna-1
+            0 horacjanizm-1
+            0 syntonia-1, syntoniczność-1
+            0 filhellenizm-2
+            0 aintelektualizm-1
+            0 niepokorność-2
+            0 roszczeniowość-1
+            0 rewizjonizm-4
+            0 ofiarnictwo-1
+            0 humanizm-2
+            0 karierowiczostwo-1, arywizm-1
+            1 immoralizm-1
+              0 amoralizm-1, moralny nihilizm-1
+            0 samoudręka-1, samoudręczenie-1
+            0 neutrum-1
+            0 cierpiętnictwo-1
+            0 bajronizm-1
+            0 pięknoduchostwo-1
+            0 antyamerykanizm-1
+            0 kwietyzm-1, pasywizm-1
+            0 eurocentryzm-1, europocentryzm-1
+            0 antysyjonizm-1
+            1 antypolonizm-1, polonofobia-1
+              0 polakożerstwo-1
+            0 walenrodyzm-1, wallenrodyzm-1
+            VISITED 0 euroentuzjazm-1
+            2 ucieczka-2
+              VISITED 1 eskapizm-1
+            0 tumiwisizm-1
+            0 kontestacja-1
+            0 obywatelskość-1
+            0 bezideowość-1
+            4 zasadniczość-2
+              1 bezkompromisowość-1, nieprzejednanie-1, pryncypializm-1, pryncypialność-1
+                VISITED 0 weredyzm-1
+              1 despotyzm-2, apodyktyczność-1, despotyczność-1
+                0 arbitralność-2
+            0 prometeizm-1
+            0 rytualizm-1
+            2 indyferentyzm-1
+              1 eskapizm-1
+                0 klerkizm-1
+            0 fideizm-1
+            0 etnocentryzm-1
+            0 laickość-1, świeckość-1, laicyzm-1
+            0 krytykanctwo-1
+            0 nonkonformizm-1
+            0 estetyzm-2
+            1 asekuracja-3
+              0 autocenzura-1
+            0 negatywizm-1
+            4 idealizm-2, ideowość-1
+              0 donkiszoteria-1, donkiszotyzm-1
+              0 marzycielstwo-1, iluzjonizm-1, utopizm-1, angelologia-3
+              1 romantyzm-1
+                0 werteryzm-1
+            0 makiawelizm-1
+            0 koniunkturalizm-1, koniunkturalność-1
+            0 nihilizm-2
+            0 prawicowość-1
+            1 lewicowość-1
+              VISITED 0 lewactwo-1
+            0 kosmopolityzm-1
+            0 kolektywizm-1
+            1 internacjonalizm-1
+              0 internacjonalizm proletariacki-1
+            0 hedonizm-2, sybarytyzm-1, wygodnictwo-1, epikureizm-2
+            1 dogmatyzm-1, dogmatyczność-1, doktrynerstwo-1
+              0 talmudyzm-1
+            0 antyklerykalizm-1
+            0 intelektualizm-1
+            1 irracjonalizm-1, irracjonalność-1
+              0 okultyzm-1, ezoteryzm-1, ezoteryka-1
+            3 pesymizm-1, czarnowidztwo-1, defetyzm-1
+              0 ponuractwo-1
+              0 katastrofizm-1
+              0 fatalizm-1
+            0 minimalizm-2
+            0 maksymalizm-1
+            0 indywidualizm-1
+            8 radykalizm-1, ekstremizm-1, radykalność-1
+              0 ekstremistyczność-1
+              0 lewackość-1
+              0 rewolucjonizm-1
+              0 czarna reakcja-1
+              0 lewactwo-1
+              1 fanatyzm-1
+                0 zelotyzm-1
+              0 rewolucyjność-1
+            1 aktywność-1
+              0 aktywność zawodowa-1
+            0 klerykalizm-1
+            7 realizm-2, racjonalizm-2, pragmatyzm-1
+              0 antyromantyzm-2
+              0 eurorealizm-1
+              0 racjonalność-2
+              0 utylitaryzm-2, praktycyzm-1
+              2 materializm-2
+                0 konsumpcjonizm-1
+                0 komercjalizm-1, merkantylizm-2
+            0 oportunizm-1, konformizm-1
+            0 cynizm-1, cyniczność-1
+            1 potępienie-3
+              0 samopotępienie-1
+            1 patriotyzm-1, miłość do ojczyzny-1
+              0 hurrapatriotyzm-1, hurapatriotyzm-1
+            26 nieposłuszeństwo-1, niesubordynacja-1, krnąbrność-1, niekarność-1, niesforność-1, niesfora-1
+              0 niegrzeczność-3
+              VISITED 0 psotliwość-1
+              0 przekora-1, przekorność-1
+              11 nieprawomyślność-1
+                10 herezja-1, kacerstwo-1
+                  0 donatyzm-1
+                  0 nikolaizm-1
+                  VISITED 0 modalizm-2
+                  0 kataryzm-1
+                  6 antytrynitaryzm-1
+                    0 tryteizm-1
+                    3 monarchianizm-1
+                      0 sabelianizm-1
+                      0 modalizm-2
+                      0 adopcjanizm-1
+                    0 arianizm-1
+              1 buntowniczość-1
+                0 wywrotowość-1
+              0 hardość-1, buta-1, niepokorność-1, butność-2
+              8 woluntaryzm-1, swawola-1, niezdyscyplinowanie-1
+                0 samowolka-2
+                0 samozwaństwo-1
+                0 psotliwość-1
+                0 maruderstwo-1
+                0 kacykostwo-1
+                0 partyzantka-3
+                1 bezprawie-1, anarchia-1, samowola-2, bezkarność-1, bezkrólewie-1, swawola-3, bezład-2, nierząd-2, samowolność-2, bezrząd-1, anarchiczność-1
+                  0 bezhołowie-1
+            1 pogoda ducha-1, optymizm-1, radość życia-1
+              0 huraoptymizm-1, hurraoptymizm-1
+            23 wiara-1, przekonanie-3
+              0 demonologia-2
+              0 magizm-1
+              0 myślenie magiczne-1
+              0 preegzystencja-1, przedistnienie-1
+              18 wierzenie-6
+                0 preanimizm-1
+                0 animatyzm-1
+                0 profetyzm-3
+                0 likantropia-2, lykantropia-1, wilkołactwo-2
+                0 henoteizm-1
+                0 totemizm-1
+                2 pogaństwo-1, poganizm-1
+                  0 bałwochwalstwo-2
+                  0 idolatria-2, idololatria-1
+                0 teizm-1
+                1 szamanizm-1
+                  0 seid-1
+                0 panteizm-1
+                0 politeizm-1, wielobóstwo-1
+                0 monoteizm-1, jedynobóstwo-1, monolatria-1
+                2 animizm-1
+                  0 voodoo-1, wudu-1
+                  0 druidyzm-1
+            18 kult-2
+              0 kult lunarny-1
+              0 statolatria-1
+              0 katenoteizm-1
+              0 latria-1
+              0 sabeizm-1
+              0 umbanda-1
+              0 śaktyzm-1
+              0 siwaizm-1, śiwaizm-1
+              0 mitraizm-1
+              0 pirolatria-1
+              0 nekrolatria-1
+              0 ikonolatria-1
+              1 astrolatria-1
+                0 heliolatria-1, kult solarny-1
+              0 antropolatria-1
+              0 animalizm-1, zoolatria-1
+              0 fetyszyzm-3
+              0 satanizm-1
+            22 zaufanie-4, ufność-1
+              21 naiwność-1
+                0 prostomyślność-1
+                19 prostoduszność-1
+                  0 prostolinijność-1
+                  17 szczerość-1
+                    0 brutalność-4
+                    13 prostota-3, naturalność-1
+                      VISITED 1 poczciwość-1, dobroduszność-1
+                      10 bezpośredniość-1
+                        2 dosadność-2
+                          0 niewyparzony język-1, niewyparzony jęzor-1, niewyparzona gęba-1, niewyparzona morda-1, niewyparzona buzia-1, niewyparzony pysk-1
+                          VISITED 0 rubaszność-1
+                        0 luzackość-1
+                        0 familijność-1
+                        3 bezpretensjonalność-1
+                          2 bezceremonialność-1, nonszalancja-1, niedbałość-2, dezynwoltura-1
+                            0 rubaszność-1
+                            0 obcesowość-1
+                        1 spontaniczność-1
+                          0 żywiołowość-2
+                    1 prawdomówność-1
+                      0 weredyzm-1
+                1 poczciwość-1, dobroduszność-1
+                  0 jowialność-1
+            27 poważanie-2, szacunek-2, respekt-1, estyma-1, atencja-1, cześć-3, uznanie-5, nabożność-1, uszanowanie-2, mir-1, poszanowanie-1
+              0 gloria victis-1
+              0 powaga-5
+              0 pietyzm-1, nabożeństwo-2
+              3 tolerancja-1, tolerancyjność-2
+                0 liberalizm-2
+                0 filosemityzm-1
+                0 niedyskryminacja-1
+              0 hołd-1
+              16 uwielbienie-1, adoracja-1
+                0 idiolatria-2
+                0 cielęcy zachwyt-1, cielęce uwielbienie-1
+                0 bałwochwalstwo-1
+                3 kult-1
+                  0 kult przodków-1, manizm-1
+                  1 kult jednostki-1
+                    0 napoleonizm-2
+                0 fetyszyzacja-1, fetyszyzm-1
+                1 ubóstwienie-2
+                  0 samoubóstwienie-1
+                5 narcyzm-1, samouwielbienie-1, autofilia-1, idolatria-1, samozachwyt-1
+                  0 miłość własna-1
+                  3 próżność-1, nieskromność-2
+                    0 reklamiarstwo-1
+                    1 snobizm-1
+                      0 arystokratyzm-1, błękitna krew-1
+              1 autorytet-1
+                0 posłuch-2
+          8 uwaga-2
+            0 ceremonia-2
+            0 baczenie-3
+            0 miejsce-9
+            0 oczy dookoła głowy-1
+            0 oko-7
+            1 czujność-1
+              0 oczy szeroko otwarte-1
+            0 koncentracja-1, skupienie-6
+          11 spokój-1, spokojność-1
+            0 pewność-7
+            4 zrównoważenie-6, równość-5
+              3 opanowanie-6
+                0 samoopanowanie-1
+                0 zimna krew-1
+                0 angielska flegma-1
+            3 pokój-4, równowaga-2
+              0 ataraksja-1
+              0 cisza-3
+              0 pogoda-4
+            0 stoicki spokój-1, stoicyzm-2, stoickość-1
+          92 nastrój-1, humor-1, samopoczucie-2, usposobienie-3, stan-2
+            0 awanturny nastrój-1
+            0 wisielczy humor-2
+            0 eutymia-1
+            3 faza-7
+              0 gastrofaza-1, gastro-1
+              0 śmiechawa-1, śmiechówa-1, śmichawa-1
+              VISITED 0 głupawka-1
+            0 humor-4
+            2 zaduma-1
+              VISITED 1 melancholia-1, melancholijność-1
+            0 rozbawienie-2
+            6 uspokojenie-3
+              0 pociecha-2, pokrzepienie-3, pocieszenie-2, osłoda-1, konsolacja-2
+              0 samouspokojenie-1
+              3 odprężenie-4, rozluźnienie-6, spadek napięcia-1, relaks-2, ulga-2, uspokojenie-4, ukojenie-2, wyciszenie-4, relaksacja-2, wytchnienie-1
+                0 ujście-6
+                0 odsapka-1
+                0 chillout-2
+            1 apatia-1, osowiałość-1, otępiałość-1, otępienie-3, marazm-2, letarg-2, bezwładność-2, bezwład-1, odrętwienie-4, drętwota-2, martwota-2, inercyjność-1, bezczucie-1
+              0 stupor-2
+            0 nuda-1, znudzenie-2
+            40 podekscytowanie-2, podniecenie-5, pobudzenie-3, rozemocjonowanie-2, ekscytacja-1
+              0 zachłyst-1
+              25 zapał-1, entuzjazm-1, duch-7, serce-7
+                0 nałogowość-1
+                0 żarliwość-1
+                0 euroentuzjazm-1
+                0 bojowość-2
+                0 błysk w oku-1
+                0 neofityzm-2
+                15 zapamiętanie-3
+                  14 mania-2, maniactwo-1, szał-1, amok-2, obsesja-1, bzik-1, fioł-1, fiksacja-2, hyś-1, hyź-1, fiks-1, fiś-1
+                    0 anglomania-1
+                    0 małyszomania-1
+                    0 wideomania-1
+                    0 tytułomania-1
+                    0 telemania-1
+                    0 teatromania-1
+                    0 szpiegomania-1
+                    0 rekordomania-1
+                    0 papierkomania-1
+                    0 kinomania-1
+                    0 hipomania-1
+                    0 grafomania-1, grafomaństwo-1
+                    0 gigantomania-1
+                    0 chłopomania-1, chłopomaństwo-1, ludomania-1
+                0 skwapliwość-1
+                1 animusz-1, fason-2, fantazja-1
+                  0 kawalerska fantazja-1, ułańska fantazja-1
+              1 natchnienie-1, wena-1, trans-2
+                0 muza-3
+              0 rausz-1
+              0 upojenie-3, odurzenie-4
+              0 euforia-1
+              2 ekstaza-1, uniesienie-8
+                1 uduchowienie-2
+                  0 ekstatyczność-1
+              4 sensacja-2
+                2 hałas-2
+                  0 raban-1
+                  0 wrzawa-2
+                0 szum-6
+            4 napięcie-3, naprężenie-3
+              0 chemia-9
+              0 cisza przed burzą-1
+              0 nerwówka-1
+              0 frustracja-1
+            8 radość-1, wesołość-1, uciecha-1, radocha-1
+              0 zaciesz-1
+              0 współradość-1
+              2 ubaw-1, fun-1
+                0 zgryw-1, zgrywa-1
+                0 polewka-2, polew-2, beka-4, zwała-1, zlew-2, zlewka-3, padaka-2
+              0 głupawka-1
+              0 triumfalizm-1, tryumfalizm-1
+              0 beztroska-2
+            0 zamyślenie-2, zadumanie-1, nieobecność-2
+            16 smutek-1, smęt-1
+              0 zrezygnowanie-2, rezygnacja-1
+              0 chmurka-4
+              0 elegijność-1
+              0 tkliwość-3
+              VISITED 0 nostalgia-1
+              0 posępność-1, mroczność-2, grobowość-1
+              2 przygnębienie-2, chandra-1, spleen-1, splin-1, zgnębienie-3
+                1 Weltschmerz-1, weltszmerc-1, ból świata-1
+                  0 ból dupy-1
+              5 żal-3, żałość-1, rozżalenie-2, żałosność-1
+                0 żałoba-1
+                1 rozgoryczenie-2, gorycz-1, piołun-3
+                  0 zgorzknienie-3
+                1 tęsknota-1
+                  0 nostalgia-1
+              1 melancholia-1, melancholijność-1
+                0 szarość-3, szarzyzna-1
+          8 choroba ducha-1
+            0 trauma-1, uraz psychiczny-1
+            6 załamanie-3, depresja-1
+              0 dystymia-1
+              0 subdepresja-1
+              0 melancholia-2
+              0 dół-4, dołek-2
+              0 amok-1
+              0 depresja cykliczna-1
+        56 *stan fizyczny-1
+          0 stan wzbudzony-1
+          0 stan podstawowy-1
+          0 czuwanie-4
+          10 nasycenie-5
+            0 saturacja-5
+            0 saturacja-4
+            0 saturacja-3, nasycenie-8
+            0 zasolenie-4, nasolenie-2
+            VISITED 0 zasiarczenie-2, sulfatacja-1
+            0 zakwaszenie-4
+            3 stężenie-4, koncentracja-4, moc-5
+              0 stężenie molalne-1
+              0 glikemia-1
+              0 esencjonalność-1
+          1 zdrowotność-1
+            0 nieodporność-2
+          1 przechylenie-2
+            0 przegłębienie-1, trym-1
+          3 widzialność-1
+            2 postrzegalność-1, dostrzegalność-1, zauważalność-1
+              0 wyraźność-2
+              0 rozróżnialność-2
+          0 dobrostan zwierząt-1
+          4 niewidzialność-1, niewidoczność-1
+            3 przezroczystość-1, przeźroczystość-1, przepuszczalność światła-1, przejrzystość-1, klarowność-3, przezierność-1
+              1 czystość-3
+                0 krystaliczność-2
+              0 dwójłomność-1
+          27 zdrowie-1
+            0 normalność-2
+            0 kruchość-4, wątłość-3
+            0 skóra-4
+            0 końskie zdrowie-1, żelazne zdrowie-1
+            0 poczytalność-1
+            7 wydolność-1, sprawność-2
+              0 pełnosprawność-1
+              0 władza-4
+              2 ostrość-2
+                0 spiczastość-1, szpiczastość-1
+                0 obosieczność-1, obusieczność-1
+              0 potencja-2, męskość-3
+              0 drożność-1
+            4 odporność-3
+              0 hartowność-3
+              2 immunizacja-1
+                0 immunizacja bierna-1
+                0 immunizacja czynna-1
+            7 kondycja fizyczna-1, sprawność fizyczna-1
+              0 obolałość-1
+              0 niewyspanie-1
+              0 krzepa-1, tężyzna-1, krzepkość-1, czerstwość-1
+              3 zmęczenie-3, znużenie-2, utrudzenie-2, wyczerpanie-2, przemęczenie-3
+                0 ciężka głowa-1
+                0 męczliwość-1
+                0 rozbicie-11
+            0 zdrowie-2
+        18 izolacja-2, odosobnienie-2, wyizolowanie-4, separacja-1
+          1 wykluczenie-6
+            0 marginalizacja-1, ekskluzja-1, wykluczenie społeczne-1
+          0 samoizolacja-1
+          0 sekciarstwo-2
+          4 samotność-1
+            0 samotniczość-1
+            1 sieroctwo-1
+              0 półsieroctwo-1
+            0 bezdzietność-1, bezpotomność-1
+          0 kwarantanna-1
+          0 zapomnienie-7, niepamięć-1
+          1 blokada-2
+            0 blokada ekonomiczna-1
+          4 alienacja-1, wyobcowanie-2, osamotnienie-2
+            0 samotniczość-2
+            0 alienacja rodzicielska-1
+            0 alienacja polityczna-1
+            0 anomia-2
+        3 gotowość-2, pogotowie-4, alert-1
+          0 gotowość bojowa-1
+          0 gotowość cywilna-1
+          0 pogotowie przeciwpowodziowe-1
+        81 obecność-1
+          57 występowanie-11
+            0 endemizm-1, endemiczność-1
+            55 rozmieszczenie-2, rozkład-3
+              0 konfiguracja elektronowa-1
+              0 antytetyczność-2
+              0 rytm-3
+              3 szereg-2
+                0 szereg napięciowy-1
+                0 trójszereg-1
+                0 dwuszereg-1
+              0 ugrupowanie-4
+              0 pasowość-1
+              0 liniatura-1
+              3 narys fortyfikacyjny-1
+                0 narys poligonalny-1
+                0 narys kleszczowy-1
+                0 narys bastionowy-1
+              0 wiązanie-16, wątek-5
+              0 rejonizacja-1
+              27 sieć-5, siatka-4
+                0 sieć bayesowska-1
+                0 sieć niwelacyjna-1
+                0 sieć krystaliczna-1
+                1 sieć geodezyjna-1
+                  0 sieć satelitarna-1
+                0 sieć kolejowa-1
+                0 sieć telekomunikacyjna-1
+                0 sieć triangulacyjna-1
+                0 siatka geograficzna-1
+                0 sieć wodociągowa-1
+                0 sieć światłowodowa-1
+                0 sieć rozdzielcza-1
+                0 sieć energetyczna-1
+                0 sieć elektroenergetyczna-1
+                0 sieć ciepłownicza-1
+                0 sieć trakcyjna-1
+                0 sieć cytokinowa-1
+                0 drenaż-3
+                0 cytoszkielet-1
+                0 krakelura-2
+                0 krakelura-1
+                5 sieć neuronowa-1, sztuczna sieć neuronowa-1
+                  0 sieć radialna-1
+                  0 sieć Kohonena-1
+                  2 perceptron-2
+                    0 perceptron wielowarstwowy-1
+                    0 perceptron jednowarstwowy-1
+              0 ulistnienie-1, filotaksja-1
+              3 plątanina-2, gmatwanina-1
+                1 gąszcz-2, dżungla-4
+                  0 rozchwiej-1
+                0 labirynt-3
+              5 pozycja-9
+                1 odkryty atak-1
+                  VISITED 0 odkryty szach-1
+                3 szach-1
+                  0 odkryty szach-1
+                  1 mat-2, szach-mat-1, szach i mat-1
+                    0 widełki skoczkowe-1
+          0 udział-4
+          18 pobyt-1, bytność-1
+            0 pobyt czasowy-1
+            0 pobyt stały-1
+            1 nocleg-1
+              0 biwak-1
+            0 emigracja-1, wychodźstwo-2
+            1 niewola-2
+              0 jasyr-2
+            10 odwiedziny-1, wizyta-1
+              1 wizyta-2
+                0 wizyta domowa-1
+              0 rewizyta-1
+              0 gościna-1
+              1 wizytacja-1
+                0 hospitacja-1
+              0 najście-4
+              0 kolęda-3
+              0 widzenie-9
+              0 przymiarka-1, miara-7
+          0 obieg-5
+          0 wolność-4
+          0 gościnny występ-1
+    0 oleina-1
+    5 szczegół-1, niuans-1, moment-3
+      0 epizod-1
+      3 drobiazg-3, drobnostka-2, bagatela-2, błahostka-1, bzdura-2, głupstwo-4, głupota-4, duperela-1, duperele-2, bzdet-2, małe piwo-1, betka-1, detal-2, fraszka-2, pierdoła-2, pierdółka-1, frajer-3
+        0 dyrdymałka-1, faramuszka-1, bzdurka-1
+        1 formalność-2, łatwizna-1, pryszcz-3
+          0 nominalność-1
+    0 ingrediencja-1, ingredient-1
+    23 domieszka-1, przymieszka-1
+      22 zanieczyszczenie-3
+        1 aerozol atmosferyczny-1
+          0 aerozol siarczanowy-1
+        0 zasiarczenie-2, sulfatacja-1
+        8 pył-1, proch-4
+          0 chmurka-5
+          0 pył wulkaniczny-1
+          0 pył kosmiczny-1, pył meteorowy-1, pył gwiezdny-1
+          0 pył radioaktywny-1, pył promieniotwórczy-1
+          0 pył dymnicowy-1, popiół dymnicowy-1
+          1 popiół wulkaniczny-1
+            0 puzzolana-1
+          0 kurz-1, pył-2, nalot-4
+        VISITED 2 zawiesina-2
+        1 brud-1, syf-1
+          0 żałoba-4
+        4 dym-1
+          0 dym tytoniowy-1
+          0 finfa-1, fimfa-1
+          0 kopeć-1
+          0 smog-1
+    2 zawiesina-2
+      0 zmętnienie-5
+      0 męt-1, męty-1, cedziny-1, ustoiny-1, fusy-1
+  9 odnoga-1, rozgałęzienie-3, odgałęzienie-1
+    0 pasynek-2
+    0 telom-1
+    2 gałąź-4
+      0 tętnica łydkowa-1
+      0 gałąź oskrzelowa aorty-1
+    0 labirynt-2
+    1 poprzecznik-1, poprzecznia-1, przecinka-3, chodnik poprzeczny-1
+      0 przebitka-7
+    0 nadoczniak-1
+  26 koniec-3, końcówka-3
+    1 końcówka-5
+      0 finisz-3, dobieg-1
+    0 ostatnie podrygi-1, ostatnie podrygi zdychającej ostrygi-1, ostatnie podrygi konającej ostrygi-1
+    10 końcowość-1
+      0 terminalność-1
+      0 finalność-1, finałowość-1
+      7 ostateczność-2, definitywność-1
+        0 nieprzekraczalność-1, graniczność-1
+        5 nieodwołalność-1
+          0 niewzruszalność-2
+          0 niezaskarżalność-1
+          0 bezapelacyjność-1
+          1 nieodwracalność-1
+            0 bezpowrotność-2
+    0 finalizacja-1
+    10 finał-2, zakończenie-5, finisz-2
+      0 rozwiązanie akcji-1
+      0 ostatnie słowo-1
+      0 finał-3
+      0 tyłówka-1
+      0 postludium-1
+      0 epoda-2
+      0 koda-1, coda-1
+      0 puenta-1, pointa-1
+      0 posłowie-1
+      0 epilog-1, dośpiew-1
+  19 wstęp-1
+    0 rubrum-1
+    0 komparycja-1
+    0 prolog-4
+    0 ekspozycja-4
+    0 czołówka-8
+    0 dedykacja-2
+    0 przedśpiew-1
+    2 wprowadzenie-11
+      1 wprowadzenie odautorskie-1
+        0 prozopopeja-1, fictio personae-1
+    0 introdukcja-1
+    1 preludium-2
+      0 preambulum-1
+    0 prolog-2
+    0 przedmowa-1, przedsłowie-1, słowo wstępne-1, prolegomena-1
+    0 inwokacja-1, wezwanie-5
+    0 preambuła-1, arenga-1
+    1 uwertura-1
+      0 sinfonia-1
+  0 sektor-1
+  93 strona-1
+    13 przód-1, czoło-1
+      0 fejs-3
+      0 czoło fali-1
+      8 przód-3
+        0 dekolt-2
+        6 twarz-1
+          0 radiowa twarz-1
+          0 micha-3
+          0 buzia-1, pyszczek-1, mordka-1, pysio-1
+          0 gębusia-1
+          0 maska-4
+          0 fizjonomia-2, fizjognomia-1, fizys-1, fizis-1, oblicze-2
+      1 front-3
+        0 czołówka-1
+    41 wierzch-1
+      11 pokrycie-12
+        1 pokrycie dachowe-1
+          0 blachodachówka-1
+        8 nawierzchnia-1
+          0 żwir-2
+          0 makadam-1
+          0 tłuczeń-1, szaber-1, szuter-1
+          0 tartan-1
+          0 polepa-2
+          0 asfalt-2
+          1 bruk-1
+            0 kocie łby-1
+      0 prawa strona-2
+      26 pokrycie-11
+        0 warstwa ablacyjna-1
+        0 przypalenizna-1
+        0 ocynkowanie-2
+        0 posrebrzenie-3
+        0 pozłota-1
+        0 szalunek-2, szalowanie-1, deskowanie-3, oszalowanie-1, szalówka-2
+        0 gont-1
+        7 poszycie-5
+          0 balon-8
+          0 poszycie metalowe-1
+          0 poszycie laminatowe-1
+          3 poszycie drewniane-1
+            0 poszycie listewkowe-1, poszycie słomkowe-1
+            0 poszycie zakładkowe-1, poszycie klinkierowe-1, poszycie na zakładkę-1
+            0 poszycie klepkowe-1, poszycie stykowe-1, poszycie karawelowe-1
+        1 tapeta-1
+          0 fototapeta-1
+        2 obicie-5, tapicerka-1
+          0 kołtryna-2
+          0 futrówka-2
+        5 dachówka-1
+          0 dachówka zakładkowa-1
+          0 gąsior-4
+          0 korytkówka-1
+          0 karpiówka-1, dachówka karpiowa-1
+          0 dachówka holenderska-1, holenderka-4, esówka-1
+      0 awers-2
+    9 bok-2
+      0 szczyt-8
+      0 strąga-2
+      2 tybinka-1
+        0 tybinka mała-1, podtybinka-1
+        0 tybinka duża-1
+      0 flanka-1
+      2 burta-1, burt-2
+        0 bakburta-1, bakbort-1
+        VISITED 0 sterburta-1, sterbort-1
+    2 odwrotna strona-1
+      0 rewers-1
+      0 rewers-4
+    VISITED 11 spód-1
+    0 awers-1
+    2 grzbiet-4
+      0 falc-2
+      0 grzbiet książki-1
+    0 sterburta-1, sterbort-1
+    7 tył-1
+      0 tylec-1
+      5 tył-3
+        2 pupa-1, tyłek-1, zadek-1, cztery litery-1
+          0 siedzenie-7, kuper-1
+          0 zad-1
+        0 potylica-1
+        0 plecy-1, grzbiet-3
+  147 koniec-1
+    0 pętla-3
+    51 końcówka-7
+      0 trufla-4
+      48 zakończenie-7
+        1 nos-2
+          0 stożek dziobowy-1
+        0 sztych-3
+        0 anemostat-1
+        0 pływak-7
+        0 kiść-4
+        0 szpic-2
+        0 ogon-3
+        VISITED 11 zwieńczenie-3
+        2 końcówka-4
+          0 krokodylek-2
+          0 wtyczka-1
+        11 końcówka-2
+          0 łapaczka-1
+          VISITED 0 talerz-4
+          0 zgrzewadło-1
+          3 wiertło-1, bor-2
+            0 wiertło stopniowe-1
+            0 środkowiec-1
+            0 wiertło dentystyczne-1, wiertło stomatologiczne-1
+          0 frez-1
+          1 stalówka-2
+            0 rondówka-1, rondo-7
+          0 ssawka-2
+        0 nok-1
+        0 pawęż-1
+        0 pęcherzyk płucny-1
+        0 wyrostek robaczkowy-1, ślepa kiszka-1, wyrostek-3
+        3 czubek-2, koniuszek-1, koniuszczek-1
+          0 koniuszek serca-1
+          0 koniuszek palca-1
+          0 opuszka-1
+        0 główka-1
+        3 dziób-4
+          0 dziobiec-1
+          1 dziób-3
+            0 taran-2
+      0 piętka-1, przylepka-1
+    0 pięta-3
+    0 finisz-1
+    10 brzeg-1, skraj-1, kraniec-1
+      0 faseta-3
+      0 rąbek-1
+      0 margines-3
+      VISITED 6 obrzeże-1
+    1 wygłos-1
+      0 wygłos absolutny-1
+    0 wylot-1, wylot drogi-1
+    1 kres-2
+      0 ściana-10
+    0 meta-1
+    VISITED 11 wierzchołek-1, szczyt-1, czubek-1, czub-1
+    44 granica-1, linia-6
+      0 linia podstawowa-1
+      0 horyzont geograficzny-1
+      1 oś-4
+        0 oś strzałkowa-1
+      1 granica miasta-1
+        0 pomerium-1
+      0 heliopauza-1
+      23 linia-18
+        0 izofona-2
+        0 linia wiecznego śniegu-1, granica wiecznego śniegu-1
+        0 likwidus-1
+        0 wodnica-2, linia wodna-1
+        5 linia-3
+          0 linia obrony-1
+          0 linia natarcia-1
+          0 linia demarkacyjna-1
+          1 linia frontu-1, front-4, rejon walk-1
+            0 pobojowisko-1
+        12 wybrzeże-2, brzeg-3, pobrzeże-1, nadbrzeże-1, linia brzegowa-1
+          0 wybrzeże szkierowe-1
+          0 prawobrzeże-1
+          0 lewobrzeże-1
+          0 rias-1
+          0 międzywale-1
+          0 riwiera-1
+          3 nabrzeże-1
+            0 bulwar-3
+            0 molo-1
+            0 keja-1
+          0 plaża-1
+          0 klif-1, faleza-1
+      1 granica państwa-1
+        0 zielona granica-1
+      1 miedza-1
+        0 halizna-3
+      1 horyzont-2, widnokrąg-1
+        0 horyzont radiowy-1
+      6 obrzeże-1
+        0 podbora-1
+        0 oszyjek-1
+        0 peryferie-3
+        2 peryferie-1, przedmieście-1
+          0 prowincja-5
+          0 suburbium-1
+    25 krawędź-1, brzeg-2
+      0 kresa-2
+      0 faza-9
+      0 lik-2
+      0 kant-1, rant-1
+      0 oblina-1, oflis-1
+      0 okapnik-1
+      0 faseta-1, ucios-1
+      0 banda-5
+      9 ostrze-1
+        0 talerz-4
+        0 rzezak-2
+        2 ząb-2
+          0 broniak-1, bronik-1
+          0 tryb-4
+        0 żyletka-1
+        1 grot-1
+          0 mikrolit-2, zbrojnik mikrolityczny-1
+        0 brzeszczot-2
+      0 rondo-3
+      5 róg-1, narożnik-1, naroże-1
+        0 ośle ucho-1
+        0 faseta-2, faska-2
+        0 długi róg-1
+        0 krótki róg-1
+        0 węgieł-1, winkiel-1
+  88 góra-2
+    0 korona-15
+    56 góra-7
+      0 bliźniak-2
+      6 koszulka-2
+        0 t-shirt-1
+        0 polo-2, polówka-2
+        0 treningówka-2
+        2 podkoszulek-1, półkoszulek-1
+          1 bokserka-3
+            VISITED 0 tank top-1
+      0 wdzianko-1
+      0 tunika-1
+      8 kamizelka-1
+        0 kapok-1, kamizelka ratunkowa-1, pas ratunkowy-1
+        0 bolero-2
+        1 serdak-1
+          0 kabat-1
+        1 bezrękawnik-1
+          0 kasak-3
+        0 stanik-2
+        0 gorset-2
+      9 sweter-1
+        0 kardigan-1
+        0 dżemper-1, jumper-4
+        0 półgolf-1
+        0 lizeska-2
+        0 reglan-2, raglan-1
+        0 pulower-1
+        0 blezer-1
+        0 szetland-1
+        0 golf-3
+      4 bluza-1
+        0 kaftan bezpieczeństwa-1
+        0 lejbik-2
+        0 polar-1
+        0 panterka-1
+      6 marynarka-1
+        0 dwurzędówka-1, marynarka dwurzędowa-1
+        0 jednorzędówka-1, marynarka jednorzędowa-1
+        2 surdut-1
+          0 anglez-4
+          0 tużurek-1
+        0 frak-1
+      2 żakiet-1
+        0 lejbik-1
+        0 bolerko-1
+      5 koszula-1
+        0 wyszywanka-3
+        0 śmiertelnica-2
+        0 ciasnocha-1
+        0 nonajron-2, non-iron-2
+        0 rubaszka-1
+      6 bluzka-1
+        0 kasak-1
+        0 wcinak-1
+        0 bluzka koszulowa-1
+        1 top-1
+          0 tank top-1
+        0 szmizetka-1
+    11 zwieńczenie-3
+      0 sikhara-1, śikhara-1
+      2 szczyt-5
+        0 fronton-1, przyczółek-2
+        0 kokosznik-2
+      0 akroterion-1, naszczytnik-1
+      1 hełm-2, dach hełmowy-1
+        0 cebula-5
+      0 grzebień-4
+      0 iglica-2, igła-3
+      1 kapitel-1, głowica-1
+        0 makowica-1
+    4 głowa-3
+      2 głowica-3
+        0 gładzak-1
+        0 głowica konwencjonalna-1
+      0 głowica-2
+    0 nadstawa-1
+    11 wierzchołek-1, szczyt-1, czubek-1, czub-1
+      0 top-4
+      0 grzbiet fali-1, grzebień fali-1
+      0 zagłówek-2
+      0 nosek-1
+      6 szczyt-2, wierzchołek-2, kulminacja-1, grzbiet-2, wierzchnica-5
+        0 turnica-1
+        0 ośmiotysięcznik-1
+        0 nunatak-1
+        0 pięciotysięcznik-2
+        1 turnia-1
+          0 ambona-3, kazalnica-2
+  28 dół-1
+    9 podstawa-3
+      0 baza-3
+      0 bęben-2, tambur-1
+      1 piedestał-1, postument-1
+        0 cokół-2
+      0 cokół-1
+      3 fundament-1
+        0 stopa fundamentowa-1
+        0 ława fundamentowa-1
+        0 podmurówka-1
+    3 spód-2
+      0 podłodzie-1
+      1 dno-2
+        0 dennica-3
+    0 obło-1
+    11 spód-1
+      0 ślizg-3
+      0 flek-1
+      8 podszycie-5, podbicie-5, podbitka-1
+        0 błam-1
+        0 plisa-1
+        2 podszewka-1
+          0 kolanówka-1
+          0 kieszeniówka-1
+        2 ocieplenie-5, ocieplacz-2
+          0 watolina-1, wata-2
+          0 podpinka-2
+    0 podnóże-1

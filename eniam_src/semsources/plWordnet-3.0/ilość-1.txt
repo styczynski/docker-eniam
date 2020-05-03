@@ -1,0 +1,2303 @@
+2265 ilość-1
+  0 udział-3
+  1 etat-4
+    0 etat rębny-1
+  0 emisja zanieczyszczeń-2
+  0 deszcz-3
+  0 przestrzeń dyskowa-1
+  0 nadwyżka adsorpcyjna-1, nadmiar powierzchniowy-1
+  0 tonaż-6
+  0 zasób złoża-1
+  0 co nieco-1, coś niecoś-1
+  0 tabletka-3
+  0 odpływ-4
+  0 przesyp-3
+  0 ekstraktywność-1
+  0 towarowość-1
+  0 ilostan-1
+  0 krata-4
+  0 laska-6
+  0 odsyp-1
+  0 importochłonność-1
+  0 świetlność-1
+  0 przesył-1, transfer-3
+  1 stek-3
+    0 wiązanka-3, wiącha-1
+  236 zawartość-3
+    0 kobiałka-2
+    0 pucharek-6
+    0 amfora-2
+    0 ampułka-5
+    0 czerpak-3
+    0 ceber-2
+    0 kanka-2
+    0 shaker-2
+    0 foremka-4
+    0 dzieża-2
+    0 mieszalnik-4
+    0 maźnica-3
+    0 mate-5, matero-2, calabaza-2
+    0 krater-5
+    0 dojnica-2
+    0 cyborium-5, puszka-10
+    0 alabastron-2
+    0 flacha-3
+    0 sagan-2
+    1 gar-2
+      0 baniak-5
+    1 baniak-4
+      0 kanister-2
+    0 kasetka-2
+    0 puderniczka-2
+    0 wytłaczanka-2
+    0 blister-2
+    0 spray-3
+    0 kompostownik-2
+    0 piórnik-3
+    0 kontener-3
+    0 skarbonka-2
+    0 bombonierka-5
+    0 rożek-12
+    0 śniadaniówka-2
+    0 kałamarz-4
+    0 kawiarka-4
+    0 kompotiera-2, bola-4, ponczówka-2, ponczownica-2
+    0 waza-4
+    0 kolba-4
+    0 sączek-4
+    0 piknometr-2
+    0 biureta-2
+    0 basen-9
+    0 bulionówka-2
+    0 kaczka-8
+    0 bomboniera-4, bombonierka-4
+    0 patera-3, klosz-5
+    0 kokilka-3
+    0 róg-13
+    0 maselniczka-2, masielniczka-2
+    0 pieprzniczka-4
+    0 tykwa-4
+    0 odmierzacz-2
+    0 owocarka-3
+    0 popielniczka-2
+    0 wanienka-3
+    0 flakon-4, flakonik-3
+    1 wazon-2
+      0 flakon-3
+    0 doniczka-2
+    0 miednica-3
+    0 poidło-3, pojnik-2
+    0 kuweta-4
+    0 balia-2
+    0 tortownica-2
+    0 szybkowar-2
+    0 rondel-2
+    0 kocioł-6
+    0 kwarta-9
+    0 czajnik-2
+    0 brytfanna-2
+    0 fermentor-2
+    0 kadzielnica-2, trybularz-2
+    1 cylinder-4
+      0 menzurka-2, cylinderek-4
+    0 menażka-2
+    0 probówka-2, próbówka-2
+    0 zlewka-2
+    0 nocnik-2
+    0 cukiernica-2
+    0 solniczka-2
+    0 sosjerka-2
+    1 spodek-2
+      0 spodeczek-2
+    0 bidon-2
+    0 kielich-3
+    0 salaterka-2
+    0 waza-3
+    0 stągiew-3
+    0 konew-3
+    0 kadź-4
+    0 blaszanka-2
+    0 baryłka-5, baryła-4
+    0 skopek-3
+    0 rynienka-3
+    0 kwaterka-3
+    1 dzban-2
+      0 kruża-2
+    2 butla-3
+      0 balon-7
+      0 gąsior-3
+    0 termos-2
+    0 talerzyk-2
+    0 półmisek-2
+    0 pucharek-5
+    0 dzbanek-2
+    1 garnek-2
+      0 kociołek-2
+    0 garnuszek-4
+    0 garnuszek-3
+    0 kufa-3
+    0 tygiel-4, rynka-2
+    0 kubeł-5
+    0 czara-4
+    0 puchar-3
+    0 zbiornik-3
+    1 worek-3
+      0 woreczek-3
+    1 karafka-2
+      0 dekanter-3
+    0 wór-3
+    0 niecka-3
+    0 szpryca-5
+    VISITED 1 patelnia-3
+    VISITED 0 talerz-3
+    VISITED 0 czara-6
+    0 misa-2
+    2 miska-4
+      0 czarka-3
+      0 makutra-2, donica-2
+    VISITED 0 chochelka-2
+    3 beczka-6
+      0 keg-2
+      0 beka-5
+      0 antał-2
+    23 opakowanie-3
+      3 zgrzewka-2
+        0 dwupak-1
+        0 czteropak-1
+        0 sześciopak-1
+      1 pudełko-2
+        0 bombonierka-2
+      0 saszetka-3
+      2 paczka-7
+        0 rama-5
+        0 torebka-5
+      0 pudło-5
+      0 tubka-2, tuba-6
+      0 kubek-5
+      0 torba-2
+      7 puszka-8
+        6 konserwa-1
+          0 byczki-1
+          0 paprykarz szczeciński-1
+          0 anchois-1
+          0 tuszonka-1
+          0 skumbria-1
+          0 mielonka-1
+      0 karton-4
+    1 łyżka-6
+      0 łyżka stołowa-2
+    0 kubek-3
+    0 łycha-2
+    0 łopatka-5
+    0 łopata-4
+    2 blacha-7, forma-16, foremka-3
+      0 papilotek-4, papilotka-2
+      0 keksówka-2
+    13 butelka-4
+      0 litrówka-2
+      1 syfon-6
+        0 autosyfon-2
+      0 butelka-6
+      0 flasza-2
+      0 manierka-2
+      0 półlitrówka-2
+      0 piersiówka-2
+      0 flaszeczka-3
+      2 flaszka-4
+        VISITED 1 flacha-1, flaszka-2
+      VISITED 0 małpka-1
+    VISITED 0 chochla-2
+    5 szklanka-3
+      0 literatka-3
+      0 musztardówka-2
+      0 stopka-9
+      0 szklaneczka-2
+      0 szklanica-2, szklenica-2
+    0 miarka-1
+    0 korytko-7
+    1 koryto-6
+      0 żłób-5
+    0 łyżeczka-2
+    0 półkwaterek-2, półkwaterka-2
+    0 ampuła-1
+    VISITED 1 kufel-2
+    0 cukierniczka-2
+    0 filiżanka-2
+    0 garść-2, garstka-2
+    6 ładunek-3, transport-2
+      0 fura-5
+      0 ładuga-1
+      0 zrzut-1
+      0 drobnica-3
+      0 fracht-1
+      0 cargo-2, kargo-1
+    10 kieliszek-2, kielonek-1, kielon-2
+      0 szampanka-3
+      0 koniakówka-2
+      VISITED 3 głębszy-1, maluch-3, jeden-1, lufa-2, lufka-1, sznaps-2, szczeniaczek-2
+      0 pięćdziesiątka-7
+      1 kulawka-3, kusztyk-2, kuszyk-2
+        0 kusztyczek-2
+      0 naparstek-1
+    14 pojemnik-3
+      0 skrzynka-7
+      0 skrzynia-4
+      1 beczułka-2
+        0 faska-3
+      0 wiadro-2
+      3 słoik-2
+        0 wek-2, weck-2
+        1 zaprawa-6
+          0 marynata-1
+      0 kosz-4, koszyk-2
+      0 konewka-2
+      0 skrzynka-4
+      0 fasa-2
+      0 bańka-6
+  4 zawartość-2
+    0 wodność-1
+    0 normoksemia-1
+    0 *zawartość tłuszczu-1
+    0 stopa-5
+  3 małość-2
+    0 chudość-3, szczupłość-4
+    0 niskość-4
+    0 nieobfitość-1
+  0 klaster dyskowy-1, klaster-7
+  0 pojemność polowa-1, pojemność polowa wodna-1, pojemność polowa gleby-1
+  1 pakiet-3
+    0 pakiet kontrolny-1
+  0 rzeka-3
+  1 suma-2, całokształt-1
+    0 pula genowa-1
+  0 proporcja-3
+  0 plenność-2
+  0 rybostan-1, zarybienie-2
+  0 kwantum-1, quantum-1
+  0 wyleczalność-1
+  0 spłacalność-1
+  0 przebieg-3
+  0 pranie-4
+  0 kwadrupla-2
+  0 naważka-1
+  0 przygarść-1
+  0 wypadkowość-1
+  0 zachorowalność-1, zapadalność-1
+  0 materiałochłonność-1
+  0 wartościowość-1
+  252 porcja-1
+    VISITED 0 plaster-1
+    0 olej-6
+    0 balsam-4
+    0 torebka-7
+    0 masło-6
+    0 doniczka-3
+    0 smalec-5
+    0 smalec-3
+    0 olej konopny-2
+    0 olej lniany-2
+    0 powidła-2
+    3 pasta-4
+      0 ajwar-2
+      0 hummus-2
+      0 pesto-2
+    0 konfitury-2
+    0 bułka tarta-2
+    0 makaron-3
+    8 mąka-2
+      0 mąka żytnia-2
+      0 mąka jęczmienna-2
+      0 mąka kukurydziana-2
+      0 mąka razowa-2
+      0 mąka ziemniaczana-2
+      2 mąka pszenna-2
+        0 mąka orkiszowa-2
+        0 krupczatka-2
+    0 żelatyna-2
+    0 oliwa-6, oliwa z oliwek-2, olej z oliwek-2
+    0 masło shea-2
+    0 margaryna-3
+    2 syrop-2
+      0 melasa-2
+      0 grenadyna-3
+    0 aromat-3, esencja-5
+    3 cukier-3
+      0 cukier puder-2
+      0 cukier waniliowy-2
+      0 cukier wanilinowy-2
+    0 keczup-2, ketchup-2
+    0 kwasek cytrynowy-2
+    0 majonez-2
+    0 miód-3
+    2 musztarda-2
+      0 musztarda dijon-2
+      0 musztarda sarepska-2
+    0 ocet-2
+    0 słodzik-2
+    0 wanilia-3
+    0 koncentrat-2
+    0 przecier-2
+    0 ćwikła-2
+    0 pasta curry-2
+    2 pasztet-6
+      1 paprykarz-3
+        0 paprykarz szczeciński-2
+    0 marmolada-2
+    0 dżem-2
+    0 chrzan-4
+    0 proszek do pieczenia-2
+    0 mrożonka-2
+    0 golonko-2
+    0 antrykot-2
+    0 gicz-3
+    0 miód sztuczny-2
+    0 mielonka-2
+    0 kisiel-3
+    6 kawa-7
+      0 kawa mielona-3
+      0 kawa rozpuszczalna-4
+      1 kawa bezkofeinowa-3
+        0 kawa zbożowa-4, inka-6
+      0 robusta-5
+      0 arabika-4, arabica-4
+    5 kasza-2
+      0 kasza manna-2
+      0 kasza kukurydziana-2
+      0 kasza jęczmienna-2
+      0 kasza jaglana-2
+      0 kasza gryczana-2
+    0 fix-2
+    0 galaretka-4
+    0 galaretka-3
+    0 drożdże-3
+    0 budyń-5
+    0 budyń-4
+    4 śmietana-2
+      0 dwunastka-6
+      0 osiemnastka-7
+      1 śmietanka-5
+        0 kremówka-3
+    16 ser-2
+      9 ser podpuszczkowy-2
+        4 ser żółty-2
+          0 ementaler-2
+          0 parmezan-2, ser parmeński-2
+          0 gouda-2
+          0 cheddar-2
+        3 ser pleśniowy-2
+          0 rokpol-2
+          0 gorgonzola-2
+          0 camembert-2, kamamber-2
+      0 twaróg-3, ser twarogowy-2
+      0 ricotta-2
+      0 mascarpone-2
+      0 ser topiony-2
+      0 mozzarella-2
+      0 feta-3
+    1 patelnia-3
+      0 wok-3
+    0 talerz-3
+    0 czara-6
+    0 chochelka-2
+    0 racja-2
+    0 zupa-2
+    2 masło-4
+      0 masło czosnkowe-2
+      0 osełka-2
+    0 gomółka-2
+    0 chochla-2
+    0 korytko-2
+    0 tuszonka-2
+    1 kufel-2
+      0 halba-3
+    0 dzwonko-1
+    0 dolewka-1
+    0 kulka-1, gałka-1
+    1 dokładka-1
+      0 repeta-1
+    1 bochenek-1
+      0 chleb-2
+    0 pęto-2
+    6 kromka-1
+      VISITED 0 wafel ryżowy-1
+      0 pajda-1, skiba-1
+      VISITED 0 piętka-1, przylepka-1
+      0 suchar-2, sucharek-1
+      1 tost-1, grzanka-1
+        0 bruschetta-1
+    0 kąsek-1, kęs-1, kęsek-1
+    0 jogurt-1
+    86 napój-2
+      0 krupnik-3
+      10 nalewka-3
+        0 aroniówka-2
+        0 jagodówka-4
+        0 jarzębiak-3, jarzębinówka-2
+        0 malinówka-5
+        0 morelówka-2
+        1 orzechówka-4
+          0 żołądkówka-2
+        1 porzeczkówka-2
+          0 smorodinówka-2
+        0 wiśniówka-3
+      0 tymbark-2
+      0 wino-5
+      0 oranżada-2
+      9 wódka-2
+        3 głębszy-1, maluch-3, jeden-1, lufa-2, lufka-1, sznaps-2, szczeniaczek-2
+          0 strzemienny-1, rozchodniaczek-1
+          0 karniak-2
+          0 klin-3
+        1 flacha-1, flaszka-2
+          0 litr-1, literek-1
+        0 seta-1, setka-1
+        0 ćwiartka-1
+        0 małpka-1
+      0 lemoniada-2
+      0 maślanka-5
+      0 pepsi-1, cola-2
+      3 piwo-2, browar-2
+        0 heineken-1
+        0 piwo rzezane-1, piwo rżnięte-1, rzezak-3
+        VISITED 0 u-boot-3
+      0 woda-6
+      0 herbata-4
+      0 czekolada-3
+      0 sok-4
+      28 drink-1
+        0 poncz-3
+        0 soft-1, soft drink-1
+        2 shot-1
+          0 kamikadze-4, kamikaze-4
+          0 wściekły pies-1
+        0 u-boot-3
+        0 szprycer-1
+        20 koktajl-2, cocktail-3, koktajl alkoholowy-1
+          0 kir-2
+          4 short drink-1, short-1
+            0 manhattan-1
+            0 daiqiuri-1
+            0 margarita-1
+            0 martini-2
+          12 long-1, long drink-1
+            0 śrubokręt-2, screwdriver-1
+            0 sex on the beach-1
+            0 tatanka-1, szarlotka-2
+            0 tequila sunrise-1
+            0 piña colada-1, pinacolada-1
+            0 cuba libre-1
+            0 mojito-1
+            3 caipirinha-1, caipirinia-1, caipi-1
+              0 caipi black-1
+              1 caipiroska-1
+                0 morangoska-1
+            0 krwawa Mary-1, krwawa Mery-1
+          0 kruszon-1, bola-2
+      0 kefir-1
+      20 kawa-1
+        0 kawa mielona-4
+        0 kawa rozpuszczalna-3
+        1 kawa bezkofeinowa-4
+          0 kawa zbożowa-3, inka-5
+        0 robusta-4
+        0 arabika-5, arabica-5
+        0 kawa macchiato-1
+        2 kawa latte-1, latte-1
+          0 latte macchiato-1
+          0 kawa mokka-1, mokka-1
+        0 espresso-1
+        0 cappuccino-1
+        0 kawa po irlandzku-1
+        4 czarna kawa-1, czarna-4
+          0 pół czarnej-1
+          0 mała czarna-1
+          0 duża czarna-1
+          0 kawa po turecku-1
+        1 biała kawa-1
+          0 kawa po wiedeńsku-1
+    VISITED 0 szczypta-1
+    0 kolejka-2
+    2 mleko-1
+      0 zsiadłe mleko-2, kwaśne mleko-2
+      0 wydój-2
+    18 dawka-1, doza-1
+      3 dawka promieniowania-1
+        0 równoważnik dawki pochłoniętej-1
+        0 dawka śmiertelna-1
+        0 dawka dopuszczalna-1
+      1 działka-4
+        0 kreska-6
+      0 opłatek-3, kaszetka-1
+      0 końska dawka-1
+      0 dawka progowa-1
+      0 dawka uderzeniowa-1, kuracja uderzeniowa-1, uderzenie-12
+      0 ampułka-1
+      6 pigułka-1, pastylka-1, tabletka-1, proszek-2, proch-5
+        0 niebieska tabletka-1, niebieska pigułka-1
+        0 tabletka dzień po-1, pigułka dzień po-1
+        0 tabletka stulecia-1
+        0 lingwetka-1
+        0 drażetka-1
+        0 kapsułka-1
+  0 cośkolwiek-1, cokolwiek-1
+  1 ładunek-2
+    0 nosiwo-1
+  VISITED 5 nadwyżka-1, naddatek-1
+  1 haust-1, łyk-1
+    0 łyczek-1
+  4 zużycie-2
+    0 zasobożerność-1
+    0 dekapitalizacja-1
+    1 konsumpcja-1, spożycie-2
+      0 prosumpcja-1
+  25 ogrom-1, bezlik-1, bezmiar-1, bezmierność-1, kupa-2, masa-4, zatrzęsienie-6, nieskończoność-1, wielość-1, krocie-1, góra-3, fura-2, stos-1, sterta-1, mnóstwo-1, piramida-5
+    0 pierdyliard-1
+    0 zylion-1
+    0 potok-2
+    0 góra lodowa-2
+    0 grad-4
+    0 niezmierność-1
+    0 niezliczoność-1
+    0 niewyczerpalność-1
+    1 strumień-2, potok-3
+      0 rzeka-4
+    2 burza-3
+      0 afro-1
+      0 szopa-2
+    0 fala-2
+    0 niespożytość-1, niepożytość-1
+    VISITED 2 feeria-1, koncert-4, orgia-3
+    0 galopada-2
+    0 wir-2
+    0 lawina-2
+    0 huk-2
+    0 stóg-1
+    0 szmat-2, kawał-2
+    0 morze-2
+  3 porcja-2, garść-1, dawka-2, doza-2
+    0 domieszka-2
+    0 serwis-2
+    0 pakiet-2
+  0 sztuka-6
+  56 nakład-1
+    0 nakład inwestycyjny-1
+    6 wydatek-1, ekspens-1
+      0 wydatek socjalny-1
+      0 wydatek majątkowy-1, wydatek inwestycyjny-1
+      2 wydatek bieżący-1, wydatek konsumpcyjny-1
+        0 wydatek osobowy-1
+        0 wydatek rzeczowy-1
+      0 rozchód-1
+    47 koszt-1
+      0 bariera wyjścia-1
+      0 koszty pracy-1
+      0 koszt złożony-1
+      0 koszt prosty-1
+      0 koszt działalności inwestycyjnej-1, koszt inwestycyjny-1
+      5 koszt rachunkowy-1
+        2 koszt całkowity-1
+          0 koszt zmienny-1
+          0 koszt stały-1
+        0 koszt bezpośredni-1
+        0 koszt pośredni-1
+      3 koszt jakości-1
+        0 koszt niezgodności-1
+        0 koszt oceny jakości-1
+        0 koszt zapewnienia jakości-1
+      0 koszt utopiony-1
+      3 koszt transakcyjny-1
+        0 koszt kontroli-1
+        0 koszt zarządzania i zawierania kontaktów-1
+        0 koszt poszukiwania informacji-1
+      0 koszt krańcowy-1, koszt marginalny-1
+      0 koszt alternatywny-1
+      0 koszt finansowy-1, koszt działalności finansowej-1
+      18 koszt operacyjny-1, koszt działalności operacyjnej-1
+        0 koszt działalności pomocniczej-1
+        0 koszt sprzedaży-1
+        0 koszt zakupu-1
+        0 koszt zarządu-1
+        0 koszt wydziałowy-1
+        3 koszt działalności podstawowej-1
+          0 koszt działalności usługowej-1
+          0 koszt działalności handlowej-1
+          0 koszt działalności produkcyjnej-1
+        8 koszt rodzajowy-1
+          0 świadczenie-8
+          0 wynagrodzenie-4
+          0 usługa obca-1
+          0 zużycie materiałów i energii-1
+          3 amortyzacja-1
+            0 amortyzacja degresywna-1
+            0 amortyzacja liniowa-1
+            0 amortyzacja podatkowa-1
+      0 koszt własny-1
+      3 kara pieniężna-1
+        0 główszczyzna-1
+        0 mandat-1, mandat karny-1
+        0 grzywna-1
+  1 sztuka-5
+    0 sztukamięs-1
+  7 odrobina-1, ździebko-1
+    0 drobina-4
+    0 ślad-1
+    0 ociupina-1, ciutka-1, ciupka-1, ciutek-1
+    0 garstka-3
+    0 kapka-2
+    0 szczypta-1
+    0 kropla-2, kropelka-2
+  3 zero-1, nic-1
+    0 dupa blada-1, dupa zbita-1
+    0 guzik-4
+    0 figa-4
+  1 próba-1
+    0 liga-4
+  1 procent-1, odsetek-1
+    0 uzysk-1
+  54 nadmiar-1, przesyt-1
+    0 chomąto-2
+    0 przypiek-1, nadpiek-1
+    0 górka-3
+    0 hiperkaliemia-1, hiperpotasemia-1
+    0 hiperglikemia-1
+    0 klęska urodzaju-1
+    1 hiperkalcemia-1
+      0 zespół Burnetta-1
+    0 nadmetraż-1
+    0 nadbagaż-1
+    4 nadmiarowość-1, redundancja-1
+      3 dodatkowość-1
+        0 rezerwowość-1
+        0 uboczność-1
+        0 fakultatywność-1
+    0 leukocytoza-1
+    0 nadkomplet-1
+    1 przeludnienie-1
+      0 przeludnienie agrarne-1
+    1 nadpodaż-1
+      0 świńska górka-1
+    0 nadprodukcja-1, hiperprodukcja-1
+    0 przerost-2, hipertrofia-2
+    0 przejedzenie-2
+    23 przesada-1, przesadność-1, nadmierność-1, egzageracja-1
+      0 rozpusta-1
+      1 nadopiekuńczość-1
+        0 kuratela-1
+      0 hiperboliczność-1
+      0 hiperkrytycyzm-1
+      0 nadpobudliwość-1, niespokojność-3
+      0 czułostkowość-1
+      0 teatralizacja-1
+      3 nieumiarkowanie-1, niepohamowanie-1
+        1 pijaństwo-3, opilstwo-1
+          0 dypsomania-1, opilstwo okresowe-1
+        0 obżarstwo-1, żarłoctwo-1
+      0 nadgorliwość-1
+      0 kabotyństwo-1, kabotynizm-1
+      0 dwa grzyby w barszcz-1, przegięcie-4, dwa grzyby w barszczu-1
+      2 skrajność-1, krańcowość-1, ekstrem-1, ekstremalność-1
+        0 ostateczność-3
+        0 antypody-2
+      1 nadwrażliwość-2, mimozowatość-1, przeczulenie-1, przewrażliwienie-1, sensytywność-2
+        0 drażliwość-1
+      0 przechył-1
+      0 ostentacja-1, manifestacyjność-1
+      0 poza-1, maniera-1, maska-6
+    5 nadwyżka-1, naddatek-1
+      0 nadwyżka budżetowa-1
+      1 zapas-2
+        0 retencja-1
+      0 superata-1
+      0 nadpłata-1
+  1 moc-3, zatrzęsienie-5, nawał-1, natłok-1, mnóstwo-2, mnogość-1, nawała-1, wielość-2
+    0 inwazja-2
+  23 niedobór-1, niedomiar-1, niedostatek-4, deficyt-1
+    0 świński dołek-1
+    0 skąpość-1
+    0 przyducha-1
+    0 anoksja-2, deficyt tlenowy-1
+    0 anoksja-1, anoksemia-1, głód tlenowy-1
+    0 hipoksja-1
+    0 hipokaliemia-1, hipokalemia-1
+    0 hipokalcemia-1
+    0 hipoglikemia-1, niedocukrzenie-1, niedocukrzenie krwi-1
+    0 deficytowość-2
+    0 kropla w morzu-1, kropla w morzu potrzeb-1
+    0 krótka kołdra-1
+    0 posucha-2
+    0 leukocytopenia-1, leukopenia-1
+    1 niedożywienie-1
+      0 wygłodzenie-2
+    2 niedotlenienie-1
+      0 dług tlenowy-1
+      0 asfiksja-1, zamartwica-1
+    0 niedosyt-1, nienasycenie-1
+    2 ubóstwo-1, niedostatek-1, mizeria-1
+      1 ciasnota-2, ograniczoność-1, ciasność-3
+        0 prymitywność-2
+  397 kwota-1, suma-1, sumka-2
+    0 margines wypłacalności-1
+    0 odliczenie-4
+    0 kokosy-1
+    0 obrót podatkowy-1
+    0 wartość godziwa-1
+    0 bańka-7
+    0 bank-4
+    0 dziesiątak-3, dycha-4
+    7 piątak-1, piątal-1
+      6 piątka-6
+        0 pięciodolarówka-1
+        0 pięcioeurówka-1
+        0 pięciopensówka-1
+        0 pięciocentówka-1
+        0 pięciozłotówka-1
+        0 pięciogroszówka-1
+    0 przekaz-6
+    44 zapłata-2
+      VISITED 36 wynagrodzenie-2, zarobek-1
+      6 odszkodowanie-1, rekompensata-1, wyrównanie-8, kompensata-1, wynagrodzenie-3, restytucja-3, indemnizacja-1
+        0 restytucja naturalna-1
+        0 remuneracja-1
+        0 reparacje-1
+        0 przestojowe-1
+        0 odstępne-1
+        0 nawiązka-1
+    0 przegrana-2
+    0 grosz-2
+    0 tysiąc-2, tysiak-1
+    0 reszta-2
+    0 ciężki grosz-1, ciężki pieniądz-1, drogie pieniądze-1, ciężka forsa-1
+    0 bajońska suma-1, sumy neapolitańskie-1
+    1 kieszonkowe-1
+      0 tygodniówka-3
+    0 apanaże-1
+    4 budżet-1
+      0 budżet domowy-1, budżet rodzinny-1
+      0 budżet państwa-1, budżet-2
+      0 budżet roczny-1
+      0 prowizorium budżetowe-2, budżet tymczasowy-1
+    5 przedpłata-1
+      0 prepaid-1, pre-paid-1
+      0 prenumerata-1
+      0 subskrypcja-1
+      1 abonament-1
+        0 radioabonament-1
+    1 potrącenie-4
+      0 dyskonto-1, eskonto-1
+    0 zaliczka-1, zadatek-2, akonto-1, forszus-1
+    0 nakład-3
+    0 grosze-1, marny grosz-1, psi grosz-1, psi pieniądz-1
+    185 wpływ-2, przychód-1
+      0 obrót-5
+      0 inkaso-2
+      182 dochód-1, zarobek-2
+        0 przychód krańcowy-1
+        0 dochód pasywny-1
+        0 dochód realny-1
+        0 dochód nominalny-1
+        0 dochód rozporządzalny-1
+        0 podatek inflacyjny-1
+        0 dochód własny-1
+        0 dochód osobisty-1
+        0 dochód gwarantowany-1
+        15 zysk-1, intrata-1, profit-2
+          0 zysk inflacyjny-1
+          0 zysk księgowy-1
+          0 zysk rezydualny-1
+          0 narzut-1
+          0 zysk operacyjny-1
+          0 przebitka-2
+          5 utarg-1
+            0 utarg całkowity-1
+            0 utarg miesięczny-1
+            0 utarg dzienny-1
+            0 utarg krańcowy-1
+            0 utarg przeciętny-1
+          2 marża-1
+            1 marża handlowa-1
+              0 marża odsetkowa-1
+        0 prowent-1
+        0 apanaż-1
+        0 seniorat-4, senioraż-1, renta emisyjna-1, renta mennicza-1
+        0 lewizna-2
+        0 komin płacowy-1, komin zarobkowy-1
+        1 renta gruntowa-1
+          0 renta różniczkowa-1
+        1 prebenda-1
+          0 altaria-1
+        0 apanaże-2
+        0 dochód netto-1, zysk netto-1
+        0 dochód brutto-1, zysk brutto-1
+        0 odsetka-1
+        1 dywidenda-1
+          0 dywidenda obligatoryjna-1
+        0 renta-1
+        1 odsetki-1, procent-3, oprocentowanie-2
+          0 lichwa-1
+        36 wynagrodzenie-2, zarobek-1
+          0 wynagrodzenie bezosobowe-1
+          0 wynagrodzenie osobowe-1
+          0 nagroda roczna-1
+          0 kapanina-1
+          0 lafa-1
+          1 honorarium-1
+            0 wierszówka-1
+          0 bilansówka-1
+          VISITED 0 jurgielt-2
+          0 lekki kawałek chleba-2
+          0 ciężki kawałek chleba-2
+          0 tygodniówka-2
+          0 nadgodzina-1
+          0 dniówka-3
+          3 wyrównanie-9, kompensacja-1, kompensata-2
+            0 kliring pracy-1
+            0 indeksacja-1
+            0 rewaloryzacja-3
+          0 wynagrodzenie brutto-1, płaca brutto-1, brutto-2
+          0 wynagrodzenie netto-1, płaca netto-1, netto-3
+          1 żołd-1, lenung-1
+            0 jurgielt-1
+          0 tantiema-1
+          0 dzień roboczy-2, dniówka-2, roboczodniówka-1
+          1 prowizja-1
+            0 kurtaż-1
+          4 płaca-1, pensja-1, uposażenie-2, wypłata-2, pobory-1
+            0 płaca realna-1
+            0 koszty osobowe-1
+            0 gaża-1
+            0 płaca minimalna-1
+          3 odprawa-1
+            0 odprawa warunkowa-2
+            0 odprawa pośmiertna-1
+            0 odprawa bezwarunkowa-1
+          0 dieta-1
+        17 zapomoga-1, datek-2, pomoc-2, wsparcie-6
+          0 dodatek aktywizacyjny-1
+          0 pomoc horyzontalna-1
+          1 wsparcie finansowe-1
+            0 premia termomodernizacyjna-1
+          VISITED 0 becikowe-1, jednorazowa zapomoga z tytułu urodzenia się dziecka-1
+          0 wyprawka-1
+          10 zasiłek-1
+            0 zasiłek porodowy-1
+            0 zasiłek stały-1
+            0 zasiłek pogrzebowy-1
+            0 zasiłek okresowy-1
+            0 zasiłek chorobowy-1
+            0 zasiłek pielęgnacyjny-1
+            0 socjal-1
+            0 kuroniówka-2
+            0 zasiłek wychowawczy-1
+            0 zasiłek rodzinny-1
+        64 świadczenie-7
+          0 świadczenie wysokospecjalistyczne-1
+          0 świadczenie specjalistyczne-1
+          0 świadczenie pracownicze-1
+          8 świadczenie społeczne-1
+            0 zaliczka alimentacyjna-1
+            VISITED 0 ubezpieczenie społeczne-1
+            3 renta-2
+              0 renta szkoleniowa-1
+              0 renta inwalidzka-1
+              0 renta strukturalna-1
+            1 emerytura-1, zaopatrzenie emerytalne-1
+              0 emerytura pomostowa-1
+          0 becikowe-1, jednorazowa zapomoga z tytułu urodzenia się dziecka-1
+          0 benefit-1
+          0 alimenta-1
+          10 danina-1
+            0 olbora-1, orbora-1
+            VISITED 0 powołowe-1
+            0 świętojanka-2
+            0 odumarszczyzna-1
+            0 narzaz-1
+            0 hiberna-2
+            0 osep-1
+            0 świętopietrze-1
+            0 kontrybucja-1
+            0 haracz-2, trybut-1
+          0 pańszczyzna-2, renta odrobkowa-1
+          0 kontyngent-1
+          0 darmocha-2, daremszczyzna-1
+          VISITED 32 alimenty-1
+          1 stypendium-1
+            0 stypendium naukowe-1
+        19 dopłata-1, dodatek-1
+          0 ołówkowe-1, dodatek ołówkowy-1
+          0 dodatek motywacyjny-1
+          0 dodatek mieszkaniowy-1
+          0 dodatek wyrównawczy-1
+          0 dodatek służbowy-1
+          0 dodatek szkoleniowy-1
+          0 dodatek kompensacyjny-1
+          0 dodatek pielęgnacyjny-1
+          0 dopłata kompensacyjna-1
+          0 premia gwarancyjna-1
+          1 napiwek-1
+            0 bakczysz-1, bakszysz-1
+          0 dodatek rodzinny-1
+          0 dodatek funkcyjny-1
+          4 dotacja-1, dofinansowanie-2, subwencja-1, subsydium-1, dotowanie-2
+            0 subwencja ogólna-1
+            0 subsydium eksportowe-1
+            0 dopłata bezpośrednia-1
+            0 grant-1
+    113 opłata-1
+      0 rogatkowe-1
+      0 stempel-5
+      0 opłata bankowa-1
+      0 opłata wyrównawcza-1
+      0 opłata eksploatacyjna-1
+      0 korkowe-1
+      0 opłata miejscowa-1
+      0 opłata skarbowa-1
+      0 wkład mieszkaniowy-1
+      0 wkład budowlany-1
+      0 opłata ryczałtowa-1
+      0 opłata winietowa-1
+      0 opłata portowa-1
+      0 opłata lotniskowa-1
+      0 opłata adiacencka-1
+      0 opłata lokalna-1
+      0 opłata kancelaryjna-1
+      0 wpis stosunkowy-1
+      0 wpis stały-1
+      0 wpis ostateczny-1
+      0 opłata produktowa-1
+      0 pamiętne-1
+      0 annaty-1
+      0 jednane-1
+      1 fracht-2
+        0 fracht dystansowy-1
+      18 podatek-2
+        0 podatek liniowy-1
+        0 karta podatkowa-1
+        6 podatek pośredni-1
+          0 podatek obrotowy-1
+          0 podatek importowy-1
+          3 podatek konsumpcyjny-1
+            0 akcyza-1
+            1 VAT-2, vat-1, PTU-1, podatek od towarów i usług-1
+              0 podatek należny-1
+        8 podatek bezpośredni-1
+          0 podatek od gier-1
+          0 podatek drogowy-1
+          0 podatek leśny-1
+          0 podatek wyrównawczy-1
+          0 podatek gruntowy-1, podatek rolny-1
+          2 podatek dochodowy-1
+            0 PIT-2, podatek od dochodów osobistych-1
+            0 CIT-1, podatek dochodowy od osób prawnych-1, podatek od przedsiębiorstw-1
+      0 hazuka-3
+      2 ubezpieczenie-6
+        0 ubezpieczenie społeczne-1
+        0 ubezpieczenie na życie-1
+      0 kominowe-1
+      0 taksa-1
+      0 taryfa-1
+      1 kaucja-1
+        0 wadium-1
+      0 haracz-1
+      1 okup-1, wykupne-1
+        0 kompozycja-6
+      0 czesne-1
+      0 wpisowe-1, wpis-1
+      44 podatek-1, opodatkowanie-2, danina-2
+        0 renta planistyczna-1
+        0 podatek od czynności cywilnoprawnych-1
+        0 podatek urbarialny-1
+        0 podatek Tobina-1
+        0 podatek solidarnościowy-1
+        0 podatek od luksusu-1
+        0 podatek kościelny-1
+        0 podatek ekologiczny-1, podatek na ochronę środowiska-1
+        0 podatek degresywny-1
+        0 podatek cedularny-1
+        0 podatek basenowy-1
+        0 janosikowe-1
+        0 podatek rzeczowy-1
+        0 podatek majątkowy-1
+        0 podatek tonażowy-1
+        0 rugowe-1
+        0 podatek Pigou-1
+        0 fordon-2
+        0 czopowe-1
+        0 samoopodatkowanie-1
+        0 powołowe-1
+        0 podatek katastralny-1, kataster-2, kadaster-2
+        0 szos-1
+        0 bykowe-1
+        0 łanowe-1
+        0 poradlne-1, podatek poradlny-1
+        0 dupla-1
+        0 zakat-1, zaka-1, zakāt-2
+        0 kwarta-4
+        1 pogłówne-1, podatek pogłówny-1
+          0 dżizja-1
+        0 kominowe-2, podatek kominowy-1
+        0 podymne-1, podworowe-1
+        0 kwadrupla-1
+        0 domiar-1, domiar podatkowy-1
+        0 ryczałt-2
+        0 regresja podatkowa-1
+        0 dziesięcina-1
+        1 popiwek-1
+          0 neopopiwek-1
+        0 podatek progresywny-1
+        VISITED 2 myto-1
+      6 cło-1
+        0 cło generalne-1
+        0 cło retorsyjne-1
+        0 cło ochronne-1, cło zaporowe-1, cło prohibicyjne-1
+        2 myto-1
+          0 pomierne-1
+          0 mostowe-1
+      4 czynsz-1
+        0 czynsz wolny-1
+        0 obiedne-1
+        0 dzierżawne-1, czynsz dzierżawny-1, dzierżawa-2
+        0 komorne-1
+    1 łapówka-1, łapówa-1, wziątka-1, korzyść majątkowa-2, szeleszczący argument-1, koperta-3, kopertówka-2, kopertówa-1
+      0 jurgielt-2
+    0 wpłata-2
+    12 udział-1, wkład-1
+      0 stopa zwrotu-1, stopa dochodu-1
+      0 aport-1
+      9 akcja-4
+        0 akcja imienna-1
+        0 akcja założycielska-1
+        0 akcja niema-1
+        0 akcja gotówkowa-1
+        0 akcja aportowa-1
+        0 akcja na okaziciela-1
+        0 akcja zwykła-1
+        0 akcja uprzywilejowana-1
+        0 złota akcja-1
+    59 należność-1
+      0 opłata półkowa-1
+      0 ekspozycje kredytowe-1
+      0 należność publicznoprawna-1
+      0 delacja-2
+      0 znaleźne-1
+      0 odstępne-2
+      4 dług-1, zadłużenie-2, kreska-7
+        0 dług publiczny-1
+        0 kredyt-3
+        0 saldo debetowe-1
+        0 debet-1
+      0 należność krótkoterminowa-1
+      0 należność długoterminowa-1
+      7 składka-1
+        0 zus-2
+        0 ubezpieczenie zdrowotne-1, zdrowotne-1
+        4 ubezpieczenie społeczne-2, społeczne-1
+          0 ubezpieczenie wypadkowe-1
+          0 ubezpieczenie chorobowe-1
+          0 ubezpieczenie rentowe-1
+          0 ubezpieczenie emerytalne-1
+      0 ryczałt-1
+      32 alimenty-1
+        31 stosunek zobowiązaniowy-1
+          0 akcept-1
+          29 kredyt-1
+            0 kredyt akceptacyjny-1
+            0 spłata balonowa-1, płatność balonowa-1, kredyt balonowy-1, rata balonowa-2
+            7 kredyt bankowy-1
+              0 kredyt rolowany-1
+              0 kredyt podporządkowany-1
+              0 kredyt konsorcjalny-1
+              1 kredyt obrotowy-1
+                0 kredyt kasowy-1
+              0 kredyt gotówkowy-1
+              0 kredyt inwestycyjny-1
+            1 kredyt hipoteczny-1
+              0 odwrócona hipoteka-1
+            0 kredyt stracony-1
+            0 kredyt redyskontowy-1
+            0 kredyt lombardowy-1
+            0 kredyt konsumencki-1
+            0 kredyt skupowy-1
+            2 kredyt preferencyjny-1
+              0 kredyt suszowy-1
+              0 kredyt studencki-1
+            0 kredyt kontraktowy-1
+            0 kredyt pomostowy-1
+            0 trzydziestka-8
+            0 mikrokredyt-1
+            0 remburs-1, kredyt rembursowy-1
+            0 kredyt rewolwingowy-1, rewolwing-1
+            0 kredyt państwowy-1
+            0 kredyt refinansowy-1
+            0 kredyt konsumpcyjny-1
+      2 rachunek-3, regestr-5
+        1 faktura-1
+          0 e-faktura-1
+      0 spłata-2
+    0 majątek-4, pieniądze-2
+    3 deficyt-2
+      0 deficyt ekonomiczny-1
+      0 deficyt cykliczny-1, saldo cykliczne-1
+      0 deficyt budżetowy-1, dziura budżetowa-1
+    1 rata-1
+      0 rata balonowa-1, spłata balonowa-2, płatność balonowa-2
+  0 kropla-1, kropelka-1
+  8 bogactwo-1, dostatek-1, obfitość-1, profuzja-1
+    0 dwa grzyby w barszczu-2
+    0 dar ziemi-1
+    0 kalejdoskop-1
+    2 feeria-1, koncert-4, orgia-3
+      0 symfonia-2
+      0 eksplozja-2
+    0 dorodność-1
+    0 dobrodziejstwo-2
+  1136 część-1
+    0 kwadrant-6
+    0 odprysk-3
+    0 tysięczna część-1
+    0 dziesiąta część-1
+    0 dwunasta część-1
+    0 piąta część-1
+    2 ósma część-1
+      1 ósemka-8
+        0 oktant-2
+    0 siódma część-1
+    0 szósta część-1
+    0 wierzchołek góry lodowej-1, szczyt góry lodowej-1
+    0 kolumna-12
+    0 tysiączna-2, tysięczna-2
+    VISITED 0 obrywka-1
+    0 piętka-8
+    0 podzakres-1
+    0 obwój-2
+    0 łuk kolankowy-1
+    0 rzut-4
+    0 trzecia część-1, 1/3-1, jedna trzecia-1
+    0 procent-2
+    1 całostka-2
+      0 strofoida-1
+    0 odcinek-1
+    5 dział-3
+      0 skrzynka-5
+      2 blok-12
+        0 nekrologia-1
+        0 teleferie-1
+      0 varia-2, miscellanea-2
+    6 człon-1
+      0 człon pośredni-1
+      4 człon składniowy-1
+        0 człon konstytutywny-1
+        0 człon równorzędny-1
+        0 człon podrzędny-1, człon określający-1
+        0 człon nadrzędny-1, człon określany-1
+    0 promil-1
+    0 transza-1
+    3 mniejszość-2
+      2 mniejszość-1
+        0 mniejszość narodowa-1
+        0 mniejszość etniczna-1
+    3 ćwiartka-2, ćwierć-1, 1/4-1, jedna czwarta-1, czwarta część-1
+      0 ćwiertnia-1
+      0 ćwiartka-5
+      0 czwórka-12, ćwiartka-4
+    0 dola-2, działka-2
+    198 fragment-1, ułamek-2, ułomek-2
+      0 piąte przez dziesiąte-1
+      6 włókienko-1
+        5 włókno-2, fibryl-1
+          0 troczek więzadła-1, troczek więzadła łukowatego-1
+          0 troczek rzepki-1
+          0 neurofibryl-1
+          0 miofibryla-1, włókienko kurczliwe-1
+          0 miocyt-1
+      0 paragraf-2
+      0 eksplantat-1
+      0 strona-11
+      0 ustęp-3
+      0 kapitulum-2
+      0 epeisodion-1
+      0 fugato-1
+      0 szlagwort-1
+      0 ritornel-1
+      0 ekscerpt-1
+      0 pieśń-3
+      0 poła-1
+      0 artykuł-3
+      0 mer-2
+      0 kontekst-2
+      8 urywek-1, wyrywek-1
+        1 wyimek-1, wyjątek-2
+          0 wypisek-1, wypis-2
+        5 ustęp-1, passus-1
+          0 perykopa-1
+          0 punkt-6
+          1 akapit-1
+            0 lead-1, główka artykułu-1, lid-1
+          0 konkluzja-2
+      0 Parasza-1
+      1 sampel-1
+        0 loop-1
+      6 scena-2
+        0 scena rozbierana-2
+        0 kommos-1
+        2 balet-6
+          0 divertimento-1
+          0 adadżio-3, adagio-3
+        0 ansambl-2
+      0 złomisko-1
+      0 recytatyw-2
+      0 kuplet-2
+      0 wycinek-1
+      9 powtórzenie-5
+        0 dittografia-1
+        1 refren-2
+          0 riff-2
+        1 ostinato-1
+          0 riff-1
+        0 konkatenacja-1, kompozycja łańcuchowa-1
+        0 repryza-1
+        1 refren-1
+          0 przyśpiew-2
+      15 epizod-3
+        0 rólka-1
+        13 scena-3
+          0 scenka rodzajowa-1
+          0 międzyakt-2
+          0 psychostazja-1
+          0 ekspozycja-4
+          0 dokrętka-2
+          0 zdjęcia próbne-1
+          0 dłużyzna-1
+          5 ujęcie-8, klaps-4
+            0 kontrplan-1
+            0 dubel-1
+            0 przebitka-5
+            1 zbliżenie-4
+              0 najazd kamery-1
+      109 odcinek-3
+        0 hals-2
+        1 podjazd-4
+          0 premia górska-2
+        0 wieniec-3
+        0 stroik-9
+        0 eska-1
+        0 jelito ślepe-1, kątnica-1
+        0 topik-2
+        0 międzywęźle-1
+        0 esica-1
+        0 poprzecznica-1
+        1 podbieg-1
+          0 premia górska-5
+        0 prostka-1, króciec-1
+        0 okrężnica-1
+        0 odbytnica-1, jelito proste-1, prostnica-1, kiszka stolcowa-1
+        8 zakręt-1, skręt-2
+          0 kolano-2
+          0 prawoskręt-2
+          0 lewoskręt-2
+          0 zakręt śmierci-1
+          0 zakos-1
+          0 wiraż-1
+          1 meander-1
+            0 meander-3
+        0 etap-2
+        0 przełyk-1
+        0 dwunastnica-1
+        79 odległość-1, dystans-2
+          0 linia śniegu-1
+          0 horyzont cząstek-1
+          0 odległość zenitalna-1
+          0 odległość biegunowa-1
+          0 rzut beretem-1, rzut kamieniem-1
+          0 ogniskowa-1, odległość ogniskowa-1
+          0 abcug-1
+          0 krok-9
+          0 skok śruby-1
+          0 zasięg-2
+          5 rozstawienie-3, rozstaw-1, rozstawa-1
+            0 rozstaw osi-1
+            0 rozstaw przylądkowy-1
+            0 rozstaw trójstopowy-1
+            0 rozstaw bośniacki-1
+            0 rozłoga-1
+          0 postęp-3
+          10 droga-5
+            0 skok tłoka-1
+            8 tor-2, trajektoria-1
+              1 helisa-1, linia śrubowa-1
+                0 helisa-2, podwójna helisa-1
+              0 krzywa balistyczna-1
+              4 orbita-1
+                0 orbita geostacjonarna-1
+                0 orbita biegunowa-1, orbita polarna-1
+                0 deferent-1
+                0 epicykl-1
+          0 półdystans-1
+          0 elongacja-2
+          0 kilometraż-1
+          0 rozstęp-1
+          0 stopień geotermiczny-1
+          4 oddalenie-9
+            1 bliskość-3
+              0 tutejszość-1
+            1 dal-1, dalekość-1, bezkres-1, bezkresność-1
+              0 niezmierność-2
+          1 wysokość-4
+            0 apotema-1
+          11 wysokość-3, górność-1
+            0 stan wody-1
+            0 wysokość względna-1
+            0 wysokość ortometryczna-1
+            0 wysokość bezwzględna-1
+            3 pułap-1
+              0 pułap statyczny-1, pułap teoretyczny-1
+              0 pułap dynamiczny-1
+              0 pułap praktyczny-1
+            2 poziom-1
+              0 wodostan-1
+              0 wznios kapilarny-1, wznios-2
+          2 kawał-3, połać-1, szmat-1
+            1 kawałek-3
+              0 obrywka-1
+          8 odstęp-1, interwał-1
+            0 cięcie poziomicowe-1, cięcie warstwicowe-1
+            0 światło-6
+            0 menzura-3
+            0 interlinia-1
+            0 interkolumnium-1, międzysłupie-1
+            1 spacja-2
+              0 twarda spacja-1, sztywna spacja-1
+            0 podziałka-1, działka-5
+          14 trasa-2, droga-3
+            4 dystans-3
+              0 średni dystans-1
+              1 krótki dystans-1
+                0 setka-8
+              0 długi dystans-1
+            0 kurs-2
+            6 tor-1
+              0 skatepark-1
+              0 tor przeszkód-1
+              0 motodrom-1
+              0 welodrom-1
+              0 nartostrada-1
+              0 bieżnia-1
+            0 marszruta-1
+        0 prosta-1
+      2 rozdział-1, kapitulum-1
+        0 księga-1
+        0 sura-1
+      6 wiersz-2, wers-1, linijka-2, linia-16
+        0 sierota-5, szewc-2
+        0 sierota-4
+        0 żywa pagina-1
+        0 wdowa-3
+        0 bękart-2
+        0 werset-1
+      4 cytat-1, przytoczenie-3, cytata-1
+        0 mowa niezależna-1
+        0 agrafon-1
+        0 fortunka-1
+        0 epigraf-1, motto-2
+      0 akt-3
+    0 atom-1
+    4 większość-1, gros-1, lwia część-1
+      0 większość bezwzględna-1, bezwzględna większość-1
+      2 większość kwalifikowana-1
+        1 większość parlamentarna-1
+          0 większość sejmowa-1
+    8 próbka-1, próba-2
+      0 rdzeń lodowy-1
+      0 zgład-1
+      0 wycinek-4
+      0 posiew-2
+      0 tester-4
+      0 kerner-2
+      0 wymaz-1
+      0 rozmaz-1
+    1 połowa-1, połówka-1, pół-1, 1/2-1, jedna druga-1, druga część-1
+      0 hemidrachma-1
+    98 reszta-1
+      97 pozostałość-1
+        0 odciek-1
+        0 kikut-2
+        0 wypar-1
+        1 resztki-1
+          0 zakwaska-1
+        10 szczątki-2
+          1 prochy-1
+            0 popioły-1
+          5 skamieniałość-1, skamielina-1
+            0 acritarcha-1, akrytarchy-1, akritarchy-1
+            0 pikaia-1
+            2 ośródka-2
+              0 ośródka zewnętrzna-1
+              0 ośródka wewnętrzna-1
+          0 kościotrup-2
+          0 relikwia-2
+        0 grodzisko-1, grodziszcze-1
+        0 ruina-2
+        0 przeżytek-1, anachronizm-2, archaizm-2, starzyzna-1
+        0 resztówka-2
+        0 pogorzelisko-1, popielisko-1, zgliszcze-1, spalenisko-1, pożarzysko-4
+        VISITED 4 resztka-1, końcówka-1
+        17 osad-1, strąt-1, precypitat-2
+          0 płytka nazębna-1, płytka bakteryjna nazębna-1
+          0 pizoid-1
+          0 fus-2
+          0 fus-1
+          0 kamień-2, kamień kotłowy-1, nawar-1
+          0 kokolit-1, kokkolit-1
+          0 dendryt-1
+          6 naciek jaskiniowy-1, naciek krasowy-1, naciek-2
+            0 misa martwicowa-1
+            0 draperia naciekowa-1, zasłona naciekowa-1
+            0 heliktyt-1
+            0 stalagnat-1
+            0 stalagmit-1
+            0 stalaktyt-1, sopleniec-2, nawis-2
+          0 nagar-1
+          1 patyna-1, grynszpan szlachetny-1, śniedź-1
+            0 grynszpan-1, zieleń miedziana-1
+        0 kikut-1
+        4 szczątki-1, szczątek-1, szczęt-1
+          0 skolit-1
+          2 martwa materia organiczna-1
+            0 mumia-3
+            0 detrytus-1
+        2 ruiny-1, gruzy-1, gruzowisko-1, rozwalina-1, rumowisko-2
+          0 zgliszcza-2
+          0 zwalisko-1
+        8 odpady-1
+          0 odpady promieniotwórcze-1
+          0 czerwony szlam-1
+          0 zmiotki-1
+          0 ścieki-1
+          0 mungo-3
+          0 zlewki-1
+          0 wytłoki-1, wytłoczyny-1
+          0 trociny-1
+        34 odpad-1, odpadek-1
+          0 odpad poużytkowy-1
+          0 osady ściekowe-1
+          0 rozkrusz-1
+          0 ostrużyny-1
+          0 zrzyn-1
+          0 gałęziówka-1
+          4 surowiec wtórny-1
+            0 tłuczka-1, stłuczka-2
+            0 makulatura-1
+            1 złom-1, szmelc-2
+              0 żelastwo-2, złom żelazny-1
+          0 poślad-1
+          0 strużyna-1, ostrużyna-1, heblowina-1
+          0 paździerz-1
+          0 kalafonia-1
+          0 makuch-1, kuch-1, kuchy-1
+          0 młóto-1, wysłodziny-1, słodziny-1
+          0 plewa-1
+          0 ochłap-1
+          0 ogarek-2
+          0 fusy-2
+          0 otręby-1
+          0 obierka-1, obierek-1, obierzyna-1
+          0 ogryzek-1
+          0 gruz-1
+          VISITED 1 okruch-1, okruszyna-1, kruszyna-2, okruszynka-1
+          0 pak-1
+          0 szlaka-1
+          VISITED 2 ścinek-1, resztka-2, ścinka-1, resztówka-1
+          1 śmieć-1
+            VISITED 0 farfocel-1
+    16 partia-6
+      0 wsad-2
+      0 trio-4
+      0 seria-7
+      0 wokal-1
+      11 partia-7
+        2 podkład-3, tło-5
+          1 akompaniament-2
+            0 przygrywka-2
+        0 głos-6
+        6 linia melodyczna-1, linia kompozycyjna-1
+          3 głos-8
+            0 kontralt-3
+            0 alt-5
+            0 generałbas-1, bas cyfrowany-1, basso continuo-1
+          0 kontrapunkt-2
+          0 cantus firmus-1
+    492 jednostka-1
+      0 czynność autonomiczna-1
+      0 opole-3
+      0 impuls telefoniczny-1, impuls-4
+      0 jednostka zależna-1
+      0 jednostka ewidencyjna-1
+      0 jednostka budżetowa-1
+      0 gospodarstwo pomocnicze-1
+      0 jednostka naukowa-1
+      0 komisariat-2
+      0 podjednostka-1
+      91 jednostka systematyczna-1, takson-1, jednostka taksonomiczna-1
+        0 takson politypowy-1
+        0 takson parafiletyczny-1
+        0 takson monotypowy-1
+        0 takson monofiletyczny-1
+        0 forma-17
+        24 *pomocnicza kategoria systematyczna-1
+          0 grupa-11
+          0 seria-8
+          0 nadplemię-1
+          0 nadklasa-1
+          0 infratyp-1
+          0 infragromada-1
+          0 nadgromada-1
+          0 szczep-7
+          0 nadtyp-1
+          0 nadrodzaj-1
+          0 szczep-6
+          0 podplemię-1
+          0 plemię-1
+          0 nadrodzina-1
+          0 infrarząd-1
+          0 podkrólestwo-1
+          0 podgatunek-1
+          0 podgromada-1
+          0 podklasa-1
+          0 podrodzina-1
+          0 nadrząd-1
+          0 podrząd-1
+          0 podtyp-1
+          0 podrodzaj-1
+        0 gromada-6
+        0 rodzina-2
+        0 klasa-7
+        0 gromada-4
+        2 odmiana-2
+          0 odmiana mieszańcowa-1
+          0 pododmiana-1
+        0 rząd-5
+        0 typ-2
+        0 rodzaj-2
+        50 gatunek-2
+          0 gatunek zbiorowy-1
+          0 gatunek zawleczony-1
+          0 gatunek zagrożony-1
+          0 gatunek wyróżniający-1, takson wyróżniający-1
+          0 gatunek wymarły-1
+          0 gatunek wszędobylski-1, gatunek ubikwistyczny-1
+          0 gatunek wskaźnikowy-1, bioindykator-2, biowskaźnik-1
+          0 gatunek typowy-1
+          0 gatunek temporalny-1, podgatunek temporalny-1
+          0 gatunek semelparyczny-1
+          0 gatunek rzadki-1, gatunek potencjalnie zagrożony-1
+          0 gatunek przypadkowy-1
+          0 gatunek politypowy-1
+          0 gatunek pionierski-1
+          0 gatunek morfologiczny-1
+          0 gatunek monotypowy-1
+          0 gatunek kluczowy-1, gatunek zwornikowy-1
+          0 gatunek iteroparyczny-1
+          0 gatunek introdukowany-1
+          0 gatunek holocykliczny-1
+          0 gatunek dominujący-1
+          5 gatunek diadromiczny-1, gatunek diadromowy-1, gatunek dwuśrodowiskowy-1
+            0 gatunek katadromiczny-1, gatunek katadromowy-1
+            0 gatunek amfidromiczny-1
+            2 gatunek anadromowy-1, gatunek anadromiczny-1
+              0 minóg morski-1, minog morski-1
+              0 minóg trójzębny-1
+          0 gatunek chroniony-1
+          0 gatunek charakterystyczny-1
+          1 gatunek osłonowy-1, gatunek celowy-1, gatunek tarczowy-1
+            0 gatunek parasolowy-1
+          0 gatunek bliźniaczy-1, gatunek kryptyczny-1
+          0 gatunek alochroniczny-1, gatunek allochroniczny-1
+          0 gatunek synchroniczny-1
+          0 gatunek anholocykliczny-1
+          0 gatunek amfitermiczny-1
+          0 gatunek alopatryczny-1, gatunek allopatryczny-1
+          1 gatunek alochtoniczny-1, gatunek allochtoniczny-1, gatunek obcy-1, allochton-3, alochton-3
+            0 gatunek inwazyjny-1
+          0 gatunek agamiczny-1
+          5 gatunek rodzimy-1, gatunek autochtoniczny-1
+            4 apofit-1
+              2 alokazja-1, zakleśń-1
+                0 alokazja olbrzymia-1
+                0 alokazja amazońska-1
+              0 kostrzewa walezyjska-1
+          0 gatunek synantropijny-1, synantrop-1
+          0 gatunek udomowiony-1
+          0 dominant-1
+          0 monotyp-1
+      274 jednostka organizacyjna-1
+        0 psychologia-3
+        0 filologia klasyczna-2
+        0 filologia hiszpańska-3
+        0 filologia chorwacka-3
+        0 filologia białoruska-3
+        0 italianistyka-2
+        0 iberystyka-2
+        0 hungarystyka-2
+        0 bałtystyka-2, bałtologia-2
+        0 chorągiew-4
+        0 filologia włoska-3
+        0 filologia ukraińska-3
+        0 filologia orientalna-3
+        0 rusycystyka-3, filologia rosyjska-3
+        2 loża-4, loża wolnomularska-1, loża masońska-1
+          0 loża adopcyjna-1
+          0 loża symboliczna-1
+        0 romanistyka-3, filologia romańska-3
+        0 germanistyka-3, filologia germańska-1, filologia niemiecka-3
+        0 anglistyka-3, filologia angielska-3
+        0 polonistyka-3, filologia polska-3
+        1 wydział-5, fakultet-2
+          0 filologia-3, wydział filologii-1, wydział filologiczny-1
+        8 chorągiew-1
+          0 chorągiew lekka-1
+          0 chorągiew pancerna-1
+          0 chorągiew husarska-1
+          0 chorągiew strzelcza-1
+          0 chorągiew kopijnicza-1
+          0 chorągiew nadworna-1
+          0 chorągiew ziemska-1
+          0 chorągiew rodowa-1
+        0 wenta-1
+        0 ułus-1
+        0 zakład-2
+        48 dział-2, wydział-3, pion-2, sekcja-3
+          0 podwydział-1
+          0 biuro łącznikowe-1
+          0 kryminalistyka-2
+          0 agencja-5
+          0 rurownia-1
+          0 decernat-1
+          0 kruszarnia-1
+          0 korektornia-1, korekta-4
+          0 klejownia-3, klejarnia-1
+          0 młynownia-4
+          0 młynownia-2
+          0 przygotowalnia-2
+          0 pudełczarnia-1
+          0 zecernia-1
+          0 prototypownia-1
+          0 niciarnia-1
+          0 dekoratornia-2
+          0 cewiarnia-1, przewijalnia-1, przewijarnia-1
+          0 klejownia-2, klejarnia-2
+          0 ekstraktownia-1
+          0 tabletkarnia-1
+          0 wydział lokalowy-1
+          0 probiernia-2
+          0 odłam-4
+          0 paczkarnia-1, paczkownia-1
+          0 stereotypownia-1, gisernia-2
+          0 dział personalny-1, biuro personalne-1, dział osobowy-1, kadry-1
+          0 ekspedycja-4, ekspedytura-1
+          2 księgowość-2, rachuba-2
+            0 dekretowanie-1
+            0 kwestura-2
+          3 oddział-6
+            0 stacja sanitarna-1
+            0 tłoczarnia-1
+            0 prażalnia-1
+          3 filia-1, oddział-4, agenda-2, ekspozytura-2
+            0 obwód drogowy-1
+            0 decernat-2
+            0 komórka-5, ogniwo-4
+          8 biuro-3
+            0 biuro podawcze-1
+            0 helpdesk-1
+            0 sekretariat-2
+            0 komendantura-1
+            0 intendentura-1, zaopatrzenie-3
+            0 sprawozdawczość-2
+            1 kancelaria-2, palestra-3
+              0 kancelaria tajna-1
+        187 organ-1, ciało-1
+          0 konserwator przyrody-1
+          0 ława miejska-1
+          0 zgromadzenie narodowe-1
+          0 rada robotnicza-1
+          0 rada pracownicza-1
+          0 komitet techniczny-1
+          0 komitet sterujący-1
+          0 dozór bóżniczy-1
+          0 organ założycielski-1
+          0 organ rentowy-1
+          0 organ podatkowy-1
+          0 organ koncesyjny-1
+          2 organ kontroli-1
+            0 izba obrachunkowa-1
+            0 komisja rewizyjna-1
+          0 rada programowa-1
+          0 sowiet-2
+          12 izba-2
+            5 izba niższa-1
+              0 izba deputowanych-1
+              0 sejm-1
+              0 izba poselska-1
+              0 Duma-1
+              0 Bundestag-2
+            5 izba wyższa-1
+              0 Bundesrat-1
+              0 Izba Parów-1
+              0 Izba Lordów-1
+              1 senat-1
+                0 izba senacka-1
+          0 walne zebranie-1
+          4 organ spółki-1
+            0 zgromadzenie wspólników-1
+            0 zarząd-4
+            0 rada nadzorcza-1
+            0 walne zgromadzenie-1
+          0 rada pedagogiczna-1
+          0 egzekutywa-1
+          0 prezydium-2
+          44 *organ władzy-1
+            0 zebranie wiejskie-1
+            3 egzekutywa-5
+              2 rząd-1, gabinet-3, Rada Ministrów-1
+                0 rząd mniejszościowy-1, gabinet mniejszościowy-1
+                0 rząd koalicyjny-1
+            0 biuro polityczne-1, politbiuro-1
+            0 senat-4
+            0 rzecznik praw obywatelskich-1, ombudsman-1
+            0 areopag-1
+            0 signoria-2, sinioria-2
+            0 konstytuanta-1
+            0 legislatywa-1
+            0 junta-1
+            1 dyrektoriat-1
+              0 dyrektoriat-3
+            1 starszyzna-1
+              0 rada starców-1, rada starszych-1
+            7 sejmik-1
+              0 sejmik samorządowy-1
+              0 sejmik województwa-1
+              0 sejmik przedsejmowy-1
+              1 koło-10
+                0 koło rycerskie-1
+              0 sejmik generalny-1, generał-3
+              0 sejmik relacyjny-1
+            10 ustawodawca-1, legislator-2, prawodawca-1
+              0 nowelizator-1
+              8 parlament-1
+                0 skupsztina-1, skupsztyna-1, skupszczyna-1
+                0 sejm walny-2
+                0 medżlis-1, madżlis-1
+                0 Storting-1
+                0 kortezy-1
+                0 Kongres-1
+                0 Kneset-1
+                0 Landtag-2
+            0 samorząd-2
+            0 zgromadzenie-6
+            4 dowództwo-2, wodza-2
+              0 kwatera główna-2
+              0 kwatermistrzostwo-1
+              0 generalicja-1
+              0 admiralicja-1
+            0 senat-3
+          0 wojewoda-1
+          72 urząd-1
+            0 wywiad skarbowy-1
+            0 urząd pocztowy-1
+            1 izba-6
+              0 izba morska-1
+            0 urząd centralny-1
+            0 urząd marszałkowski-1
+            0 podkanclerstwo-1
+            0 archontat-1
+            0 naczelnikostwo-2
+            0 podczaszostwo-2
+            0 prezydentostwo-1
+            0 kuchmistrzostwo-2
+            0 eforat-1
+            1 magistrat-2, miasto-2
+              0 senat-5
+            0 komisariat-3
+            0 prytan-1
+            0 wójtostwo-2, adwokacja-2
+            0 landratura-1
+            0 podskarbiostwo-1
+            0 radcostwo-2
+            0 kanclerstwo-1
+            12 *urząd kościelny-1
+              0 koadiutoria-1
+              0 kancelaria papieska-1
+              0 prymasostwo-1
+              0 dykasteria-1, dykasterium-1
+              0 przeorat-1
+              0 prepozytura-1
+              0 prałatura-1
+              0 papiestwo-1, tron Piotrowy-1
+              0 nuncjatura-1
+              0 dekanat-2
+              VISITED 0 wikariat-2, wikaria-1
+              0 kuria-1
+            0 kwaterunek-3
+            0 trybunat-1
+            0 rzecznictwo patentowe-1
+            0 komornictwo-2
+            0 prokuratoria-1
+            0 ordynariat-1
+            0 heroldia-1
+            0 egzarchat-2
+            0 egzarchat-3
+            0 administratura-1
+            0 dyrektorstwo-1, dyrekcja-3, dyrektura-1
+            0 dygnitarstwo-1
+            0 cesarstwo-4
+            0 carstwo-2
+            0 burmistrzostwo-1
+            0 buława-2
+            0 notariat-1
+            0 magistratura-1
+            0 rektorat-2
+            0 kwestura-1
+            0 bosmanat-1
+            0 kapitanat-2, kapitanat portu-1
+            0 starostwo-1
+            0 sanepid-1
+            0 nadleśnictwo-1
+            0 kuratorium-1, kuratorium oświaty-1
+            2 inspektorat-1
+              0 inspektorat pracy-1
+              0 inspektorat szkolny-1
+            0 UOP-2, Urząd Ochrony Państwa-1
+            0 konsulat-1
+            0 cenzura-3
+            0 prokurator generalny-2
+            VISITED 0 prokuratura-1
+            0 gmina-2
+            1 resort-2
+              0 ministerstwo-3, resort-3
+          1 samorząd-1
+            0 samorząd pomocniczy-1
+          0 prokuratura-1
+          0 prezydium-1
+          13 policja-2
+            0 policja sądowa-1
+            0 policja polityczna-1
+            0 policja obyczajowa-1, obyczajówka-1
+            0 granatowa policja-1
+            0 policja dochodzeniowa-1, dochodzeniówka-1
+            0 gestapo-1
+            0 Europol-1
+            0 ochrana-1
+            0 Interpol-1
+            1 milicja-1
+              0 milicja obywatelska-1
+            0 żandarmeria-1
+            0 drogówka-1, policja drogowa-1
+          4 komitet-1
+            0 komitet centralny-1
+            0 radiokomitet-1
+            0 podkomitet-1
+            0 komitet obywatelski-1
+          6 komisja-1
+            0 komisja śledcza-1
+            0 komisja majątkowa-1
+            0 komisja nadzwyczajna-1
+            0 komisja etyczna-1
+            0 komisja budżetowa-1
+            0 krajówka-1, komisja krajowa-1
+        1 departament-1, wydział-2, referat-2, sekcja-1, resort-1
+          0 resort siłowy-1
+      115 jednostka administracyjna-1
+        0 leśnictwo-2
+        0 obręb-4
+        0 ułus-2
+        0 wojskowa komenda uzupełnień-1
+        0 dyrekcja-5
+        0 obwód wyborczy-1
+        0 księstwo śląskie-1
+        0 ordynariat polowy-1
+        0 departament-2
+        0 aglomeracja-2
+        0 municypium-4
+        0 generałgubernatorstwo-1, generał-gubernatorstwo-1
+        0 półkanton-1
+        0 tema-1
+        0 szejkat-1, szejkanat-1
+        0 lordostwo-3
+        0 banat-1, banowina-1
+        0 kapitania-1, kapitania generalna-1
+        0 nom-1
+        0 seniorat-3
+        0 dystrykt-1
+        0 metropolia-3
+        0 nomarchia-1
+        0 paszałyk-1, paszałykat-1, paszalik-1
+        0 tribus-1
+        0 pałanka-2
+        0 kongregacja-1
+        0 ostan-1
+        1 ziemia-3
+          0 powiatówka-2
+        1 kraj-4
+          0 kraj związkowy-1, land-1
+        0 gromada-5
+        0 komitat-1, żupania-1, żupanat-1
+        0 komornictwo-1
+        0 rejencja-1
+        0 sandżak-2
+        0 merostwo-1
+        0 kasztelania-2
+        0 wicekrólestwo-1, virreinato-1
+        0 stanica-5
+        0 ajmak-1
+        0 margrabstwo-1, marchia-1
+        1 hrabstwo-1
+          0 hrabstwo ceremonialne-1
+        0 gubernium-1
+        0 komturia-1, komturstwo-1
+        0 prefektura-1
+        0 prefektura-2
+        0 patriarchat-1
+        0 namiestnictwo-2
+        0 gubernatorstwo-1, gubernia-1
+        0 eparchia-1
+        0 dekanat-1, dziekanat-1
+        0 cyrkuł-1
+        0 satrapia-1
+        0 kanton-1
+        0 wikariat apostolski-1
+        0 wikariat-2, wikaria-1
+        0 stan-4
+        0 starostwo-2
+        0 sołectwo-1
+        6 okręg-1, obwód-1
+          0 obwód autonomiczny-1
+          0 obwód rybacki-1
+          0 obwód łowiecki-1
+          0 podokręg-1
+          0 obwód głosowania-1
+          VISITED 0 rewir-1
+        0 nadleśnictwo-2
+        2 diecezja-1, biskupstwo-2
+          0 sufragania-1
+          0 archidiecezja-1, arcybiskupstwo-1
+        8 gmina-1
+          0 gmina górnicza-1
+          0 fila-1
+          0 gmina miejska-1
+          1 gmina miejsko-wiejska-1
+            0 Mogielnica-2
+          1 gmina wiejska-1
+            0 sołectwo-2
+          0 dem-1
+        2 powiat-1
+          0 powiat ziemski-1
+          0 powiat grodzki-1
+        7 prowincja-1
+          0 Junnan-1
+          0 hospodarstwo-1
+          0 tetrarchia-2
+          0 palatynat-1
+          0 eparchia-2
+          0 wilajet-1, wilaja-1
+          0 emirat-1
+        0 województwo-1
+        4 region-1
+          0 mikroregion-1
+          0 makroregion-1
+          0 region miejski-1
+          0 euroregion-1
+        16 dzielnica-1, rejon-2
+          0 Ruda-2
+          0 Prokocim-1
+          0 Hradczany-1
+          0 fawela-1, favela-1
+          0 kwadrat-6, dzielnia-1
+          0 starówka-1, stare miasto-1
+          0 śródmieście-1
+          0 przedmieście-2
+          2 getto-2
+            0 getto tranzytowe-1, getto przejściowe-1
+            0 getto szczątkowe-1
+          0 slumsy-1, slamsy-1
+          2 peryferie-1, przedmieście-1
+            0 prowincja-5
+            0 suburbium-1
+          0 rewir-1
+    273 kawałek-2
+      0 plaster-1
+      VISITED 0 ułom-1
+      0 okrzos-1
+      2 wycinek-5
+        0 rdzeń wiertniczy-1
+        0 wycinek kuli-1
+      51 końcówka-7
+        0 trufla-4
+        48 zakończenie-7
+          1 nos-2
+            0 stożek dziobowy-1
+          0 sztych-3
+          0 anemostat-1
+          0 pływak-7
+          0 kiść-4
+          0 szpic-2
+          0 ogon-3
+          11 zwieńczenie-3
+            0 sikhara-1, śikhara-1
+            2 szczyt-5
+              0 fronton-1, przyczółek-2
+              0 kokosznik-2
+            0 akroterion-1, naszczytnik-1
+            1 hełm-2, dach hełmowy-1
+              0 cebula-5
+            0 grzebień-4
+            0 iglica-2, igła-3
+            1 kapitel-1, głowica-1
+              0 makowica-1
+          2 końcówka-4
+            0 krokodylek-2
+            0 wtyczka-1
+          11 końcówka-2
+            0 łapaczka-1
+            0 talerz-4
+            0 zgrzewadło-1
+            3 wiertło-1, bor-2
+              0 wiertło stopniowe-1
+              0 środkowiec-1
+              0 wiertło dentystyczne-1, wiertło stomatologiczne-1
+            0 frez-1
+            1 stalówka-2
+              0 rondówka-1, rondo-7
+            0 ssawka-2
+          0 nok-1
+          0 pawęż-1
+          0 pęcherzyk płucny-1
+          0 wyrostek robaczkowy-1, ślepa kiszka-1, wyrostek-3
+          3 czubek-2, koniuszek-1, koniuszczek-1
+            0 koniuszek serca-1
+            0 koniuszek palca-1
+            0 opuszka-1
+          0 główka-1
+          3 dziób-4
+            0 dziobiec-1
+            1 dziób-3
+              0 taran-2
+        0 piętka-1, przylepka-1
+      0 zuchelek-1
+      0 śrucina-1
+      0 wykrawek-1
+      2 pas-5
+        0 taśma-8
+        0 szelka-1
+      0 odcinek-6
+      0 język-8
+      0 płachetek-1, spłachetek-1
+      35 płat-3
+        0 deska śnieżna-1
+        0 półarkusz-1
+        0 darń-3, darnina-3
+        4 wafel-1
+          0 gofr-1
+          1 andrut-1
+            0 andrut kaliski-1
+          0 wafel ryżowy-1
+        26 arkusz-1
+          0 przedłużacz-3
+          0 test-6
+          1 egzamin-2
+            0 matura-3
+          0 płachta Zygalskiego-1
+          0 papier stemplowy-1
+          0 krepa-3
+          0 kalka-4
+          0 sekstern-1
+          0 wyklejka-1
+          0 arkusz autorski-1
+          0 arkusz introligatorski-1, lega-1
+          0 arkusz drukarski-1, składka-3, składka arkuszowa-1, arkusz druku-1
+          12 kartka-1
+            0 wycinek-3
+            0 alonż-2, alonżka-1, przedłużka-2, przedłużek-1
+            2 karta-6
+              0 karta tytułowa-1
+              0 alonż-1, przedłużka-1
+            0 przekładka-2
+            1 ściąga-1, ściągawka-1, ściągaczka-1
+              0 gotowiec-1
+            3 kalka-2
+              0 kalka maszynowa-1, kalka ołówkowa-1, kopiał ołówkowy-1
+              0 dekal-1, kalka ceramiczna-1
+              0 kalka techniczna-1, kalka szkicowa-1, szkicówka-1, kalka kreślarska-1
+      0 skwarek-1, skwarka-1
+      2 drewko-1
+        1 szczapa-2, drzazga-3, trzaska-1
+          0 głoginka-1, głowinka-2
+      0 tarczka-1
+      1 skorupa-4, czerep-3
+        0 ostrakon-1, ostrak-1
+      2 wiór-1, wiórek-1
+        0 zrębek-1
+        0 opiłek-1
+      5 drobina-1
+        0 granulka-1
+        0 pyłek-1
+        0 paproch-1, paproszek-1
+        1 okruch-1, okruszyna-1, kruszyna-2, okruszynka-1
+          0 klast-1
+      4 resztka-1, końcówka-1
+        0 ostatek-1
+        1 niedogarek-1
+          0 niedopałek-1, pet-1, kiep-2
+        0 zeskrobina-2
+      1 strzęp-1, strzępek-1
+        0 farfocel-1
+      1 płatek-1
+        VISITED 0 śnieżynka-1, płatek śniegu-1, śnieżyczka-2
+      0 odprysk-1
+      VISITED 4 odłamek-1, odłupek-1, ułomek-1, ułamek-3
+      2 drzazga-1
+        0 zadzior-1, zadziora-1
+        0 zadra-2
+      1 serwetka-2
+        0 puryfikaterz-1
+      36 kawałek materiału-1
+        0 sukienko-3
+        0 gałgan-1
+        4 szmatka-3
+          3 szmatka-2
+            0 zaparzaczka-2
+            1 ścierka-1
+              0 pomywak-1
+        0 szmata-7
+        0 potnik-2
+        1 metka-1
+          0 birka-1
+        16 naszycie-4
+          1 aplikacja-2
+            0 wyszywka-1
+          0 lampas-1
+          8 naszywka-1
+            0 szewron-1
+            1 naramiennik-4, pagon-1, galon-1, szlify-1, naramiennica-2
+              0 epolet-1, szlifa-1
+            1 szamerunek-1
+              0 pętlica-2
+            0 krokiewka-1
+            0 baretka-1
+            0 belka-2, pasek-3
+          0 łata-6
+          2 naszywka-2
+            0 ekran-5
+            0 tarcza-3
+        0 bryt-1
+        0 łachman-2
+        2 płachta-1
+          0 muleta-1
+          0 pałatka-1
+        2 ścinek-1, resztka-2, ścinka-1, resztówka-1
+          0 zrzynek-1
+          VISITED 0 obrzynek-1
+      2 skrawek-1, okrawek-1
+        0 skraw-1
+        0 obrzynek-1
+      101 bryła-4
+        0 głowa cukru-2
+        0 lód martwy-1
+        0 węgiel-4
+        45 bryłka-1, grudka-1
+          0 chromatyna płciowa-1, ciałko Barra-1, ciałko X-1
+          0 obnóże-1
+          2 serek-2
+            0 kwargiel-1, serek ołomuniecki-1
+            0 plaskanka-1, plaskanka serowa-1
+          0 pierzga-1, chleb pszczeli-1, chlebek pszczeli-1
+          0 gradzina-1, gradowina-1
+          0 gruzełek-2
+          0 granula-1
+          1 ziarno-3, ziarenko-1, ziarnko-2
+            0 chondra-1
+          33 kryształ-1, ciało krystaliczne-1, kryształek-1
+            0 kryształ naśladowczy-1
+            0 jaskółczy ogon-3
+            0 kryształ bliźniaczy-1, kryształ prawidłowy-1
+            0 dodekaedr-2
+            0 skalenoedr-1
+            0 mikrokryształ-1
+            3 piroelektryk-1
+              0 aksynit-1
+              VISITED 1 ferroelektryk-1
+            0 saletra wapniowa-1, saletra norweska-1, azotan wapnia-1
+            0 hipoksantyna-1
+            0 nitromannit-1, heksaazotan mannitolu-1
+            0 azotan uranylu-1
+            0 dwuścian-2, pinakoid-1
+            2 piezoelektryk-1
+              1 ferroelektryk-1
+                0 azotyn sodu-1, azotan(III) sodu-1
+            3 fosforek-1
+              0 fosforek glinu-1
+              0 fosforek galu-1
+              0 fosforek indu-1
+            0 arsenian-1
+            0 romboedr-1, rombościan-2
+            0 mikrolit-1
+            1 fenokryształ-1
+              0 prakryształ-1, paleokryształ-1
+            0 piramida-6
+            0 igiełka-4
+            2 kryształ lodu-1
+              0 lód włóknisty-1
+              0 śnieżynka-1, płatek śniegu-1, śnieżyczka-2
+            0 saletra potasowa-1, saletra indyjska-1, azotan potasu-1
+            0 monokryształ-1
+            0 dendryt-2, kryształ dendrytyczny-1
+        8 odłam-2, łom-2, złom-3
+          0 ułom-1
+          0 obłam-1
+          VISITED 0 łom czekoladowy-1, blok czekoladowy-1
+          4 odłamek-1, odłupek-1, ułomek-1, ułamek-3
+            0 łupka-1
+            0 graniak-1, wielograniec-1, wiatrowiec-1, eologliptolit-1
+            0 czerep-2
+            0 szrapnel-2
+        0 serak-1
+        0 góra lodowa-1
+        0 buła-1
+        0 brykiet-1
+        1 kra-1
+          0 pak-2, pak lodowy-1, lód pakowy-1, lód dryfujący-1
+        26 meteoryt-1
+          3 meteoryt żelazny-1
+            0 heksaedryt-1
+            0 oktaedryt-1
+            0 ataksyt-1
+          4 meteoryt żelazno-kamienny-1
+            0 syderofir-1
+            0 lodranit-1, łodranit-1
+            0 pallasyt-1
+            0 mezosyderyt-1
+          0 mikrometeoryt-1
+          0 syderyt-1
+          14 aerolit-1, meteoryt kamienny-1
+            0 chondryt enstatytowy-1
+            6 achondryt-1
+              0 meteoryt HED-1
+              0 shergottyt-1
+              0 diogenit-1
+              0 meteoryt marsjański-1
+              0 eukryt-1
+              0 howardyt-1
+            5 chondryt-1
+              3 chondryt zwyczajny-1
+                0 chondryt oliwinowo-pigeonitowy-1, amfoteryt-1
+                0 chondryt oliwinowo-hiperstenowy-1
+                0 chondryt oliwinowo-bronzytowy-1
+              0 chondryt węglisty-1
+        0 sopel-1
+        1 gruda-1
+          0 pecyna-1, pacyna-1
+        7 blok-2
+          0 cios-3
+          0 cios-4
+          0 łom czekoladowy-1, blok czekoladowy-1
+          0 wlewek-1
+          0 menhir-1
+          1 bela-3, bal-3
+            0 balot-1

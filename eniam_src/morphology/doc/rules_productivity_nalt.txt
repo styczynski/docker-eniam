@@ -1,0 +1,189 @@
+N99	168	26	ndm				subst:sg:inst:m1
+N98	399	59	ndm				subst:sg:inst:f
+N97	1284	272	ndm				subst:sg:gen:n2
+N96	393	244	ndm				subst:sg:gen:m3
+N95	50	24	ndm				subst:sg:gen:m2
+N94	168	184	ndm				subst:sg:gen:m1
+N93	399	284	ndm				subst:sg:gen:f
+N92	1284	3	ndm				subst:sg:dat:n2
+N91	393	4	ndm				subst:sg:dat:m3
+N9	87	4	ndm				adj:sg:acc:f:pos
+N89	168	10	ndm				subst:sg:dat:m1
+N88	399	39	ndm				subst:sg:dat:f
+N87	1296	72	ndm				subst:sg:acc:n2
+N86	397	22	ndm				subst:sg:acc:m3
+N85	50	8	ndm				subst:sg:acc:m2
+N84	168	75	ndm				subst:sg:acc:m1
+N83	399	102	ndm				subst:sg:acc:f
+N8	87	7	ndm				adj:pl:nom.voc:m2.m3.f.n1.n2.p2.p3:pos
+N71	1282	136	ndm				subst:pl:nom:n2
+N70	393	5	ndm				subst:pl:nom:m3
+N7	87	4	ndm				adj:pl:nom.voc:m1.p1:pos
+N69	50	1	ndm				subst:pl:nom:m2
+N68	168	30	ndm				subst:pl:nom:m1
+N67	399	13	ndm				subst:pl:nom:f
+N63	1282	8	ndm				subst:pl:loc:n2
+N62	393	2	ndm				subst:pl:loc:m3
+N6	87	4	ndm				adj:pl:loc:m1.m2.m3.f.n1.n2.p1.p2.p3:pos
+N54	393	2	ndm				subst:pl:inst:m3
+N53	50	1	ndm				subst:pl:inst:m2
+N52	168	1	ndm				subst:pl:inst:m1
+N5	87	1	ndm				adj:pl:inst:m1.m2.m3.f.n1.n2.p1.p2.p3:pos
+N47	1282	7	ndm				subst:pl:gen:n2
+N46	393	5	ndm				subst:pl:gen:m3
+N45	50	2	ndm				subst:pl:gen:m2
+N44	168	9	ndm				subst:pl:gen:m1
+N43	399	4	ndm				subst:pl:gen:f
+N4	87	12	ndm				adj:pl:gen:m1.m2.m3.f.n1.n2.p1.p2.p3:pos
+N36	168	1	ndm				subst:pl:dat:m1
+N31	1282	27	ndm				subst:pl:acc:n2
+N30	393	8	ndm				subst:pl:acc:m3
+N29	50	3	ndm				subst:pl:acc:m2
+N28	168	2	ndm				subst:pl:acc:m1
+N27	399	6	ndm				subst:pl:acc:f
+N23	87	6	ndm				adj:sg:nom.voc:n1.n2:pos
+N22	87	14	ndm				adj:sg:nom.voc:m1.m2.m3:pos
+N21	87	17	ndm				adj:sg:nom.voc:f:pos
+N20	87	7	ndm				adj:sg:loc:m1.m2.m3.n1.n2:pos
+N2	87	6	ndm				adj:pl:acc:m2.m3.f.n1.n2.p2.p3:pos
+N19	87	2	ndm				adj:sg:loc:f:pos
+N18	87	7	ndm				adj:sg:inst:m1.m2.m3.n1.n2:pos
+N17	87	1	ndm				adj:sg:inst:f:pos
+N16	87	9	ndm				adj:sg:gen:m1.m2.m3.n1.n2:pos
+N15	87	4	ndm				adj:sg:gen:f:pos
+N13	87	2	ndm				adj:sg:dat:f:pos
+N114	171	1	ndm				subst:sg:voc:m1
+N113	399	3	ndm				subst:sg:voc:f
+N11	87	4	ndm				adj:sg:acc:m3:pos
+N107	1284	175	ndm				subst:sg:loc:n2
+N106	393	98	ndm				subst:sg:loc:m3
+N105	50	7	ndm				subst:sg:loc:m2
+N103	399	56	ndm				subst:sg:loc:f
+N102	1284	40	ndm				subst:sg:inst:n2
+N101	393	27	ndm				subst:sg:inst:m3
+N100	50	1	ndm				subst:sg:inst:m2
+N10	87	2	ndm				adj:sg:acc:m1.m2:pos
+1897856	414	4			ni	ni	adj:sg:nom.voc:m1.m2.m3:pos
+1897745	1396	1			cy	cy	adj:sg:nom.voc:m1.m2.m3:pos
+1897724	1955	1			czy	czy	adj:sg:nom.voc:m1.m2.m3:pos
+1897485	20790	19			ny	ny	adj:sg:nom.voc:m1.m2.m3:pos
+1897484	20790	5			ny	ny	adj:sg:acc:m3:pos
+1897411	4395	4			ty	ty	adj:sg:nom.voc:m1.m2.m3:pos
+1897396	19407	31			wy	wy	adj:sg:nom.voc:m1.m2.m3:pos
+1897395	19407	18			wy	wy	adj:sg:acc:m3:pos
+1897286	13327	21			ki	ki	adj:sg:nom.voc:m1.m2.m3:pos
+1897285	13327	14			ki	ki	adj:sg:acc:m3:pos
+1887601	2	2	*		d	d	adj:sg:nom:m1.m2.m3:pos
+1886995	5	1	*		en	en	adj:sg:nom.voc:m1.m2.m3:pos
+1872832	42	1	*		usi	usi	adj:sg:nom.voc:m1.m2.m3:pos
+1697177	535	1			no	no	adv:pos
+1696949	5517	12			nie	nie	adv:pos
+1695731	163	1			ni	ni	subst:sg:loc:f
+1695726	2	1			ni	ni	subst:sg:acc:m3
+1695718	31	2			ni	ni	subst:pl:nom:m1
+1695530	2	1			si	si	subst:pl:nom:m1
+1694934	10	1			li	li	subst:pl:nom:m1
+1694597	88	1			cy	cy	subst:pl:nom:m1
+1690259	1	1			sy	sy	subst:pl:nom:m1
+1689652	18	1			ty	ty	subst:sg:acc:m3
+1688100	1055	1			ki	ki	subst:sg:voc:m1
+1688090	54	1			ki	ki	subst:sg:acc:m3
+1688080	1	2			ki	ki	subst:pl:nom:m1
+1687490	5	1			di	di	subst:pl:nom:m1
+1676929	19	1			bie	bie	subst:sg:acc:n2
+1676784	372	1			cie	cie	subst:sg:acc:n2
+1676139	1859	11			nie	nie	subst:sg:acc:n2
+1676127	1	2			nie	nie	subst:pl:nom:n2
+1675784	83	1			wie	wie	subst:sg:acc:n2
+1675357	5	5			le	le	subst:sg:loc:n2
+1675355	5	2			le	le	subst:sg:inst:n2
+1675353	5	7			le	le	subst:sg:gen:n2
+1675349	63	6			le	le	subst:sg:acc:n2
+1675022	11	1			ce	ce	subst:sg:acc:n2
+1674809	2	2			cze	cze	subst:pl:nom:n2
+1674567	1	1			dze	dze	subst:pl:nom:n2
+1673498	49	1			że	że	subst:sg:acc:n2
+1672278	1	1			be	be	subst:sg:acc:n2
+1672188	2	1			che	che	subst:sg:voc:m1
+1672025	1	3			de	de	subst:sg:acc:n2
+1671547	1	1			me	me	subst:sg:acc:n2
+1671350	112	2			ne	ne	subst:sg:acc:n2
+1671244	1	1			pe	pe	subst:sg:acc:n2
+1671099	2	2			re	re	subst:sg:acc:n2
+1669600	70	1			kie	kie	subst:sg:acc:n2
+1669411	1	1			oe	oe	subst:sg:voc:m1
+1657223	1	1			ga	ga	subst:sg:voc:f
+1637335	2	1			sio	sio	subst:sg:acc:n2
+1637283	5	1			lo	lo	subst:sg:acc:n2
+1637260	5	2			co	co	subst:sg:acc:n2
+1636647	6	1			no	no	subst:sg:voc:m1
+1636633	124	1			no	no	subst:sg:acc:n2
+1636598	2	1			po	po	subst:sg:acc:n2
+1636388	50	3			to	to	subst:sg:acc:n2
+1636353	1	1			vo	vo	subst:sg:acc:n2
+1636318	2190	1			wo	wo	subst:sg:acc:n2
+1636052	95	1			ko	ko	subst:sg:voc:m1
+1636038	1126	9			ko	ko	subst:sg:acc:n2
+1635741	1	1			tio	tio	subst:sg:acc:n2
+1615454	7	2			num	num	subst:sg:gen:n2
+1615452	7	1			num	num	subst:sg:acc:n2
+1615419	30	1			rum	rum	subst:sg:inst:n2
+1615418	30	2			rum	rum	subst:sg:gen:n2
+1615346	20	1			tum	tum	subst:sg:gen:n2
+1615204	26	2			eum	eum	subst:sg:loc:n2
+1615202	26	2			eum	eum	subst:sg:gen:n2
+1615200	26	1			eum	eum	subst:sg:acc:n2
+1615094	38	1			dium	dium	subst:sg:gen:n2
+1614898	136	1			rium	rium	subst:sg:loc:n2
+1614896	136	1			rium	rium	subst:sg:gen:n2
+1614544	19	1			rus	rus	subst:sg:acc:m3
+1614538	11	1			sus	sus	subst:sg:acc:m3
+1604074	62793	4			ć	ć	subst:sg:acc:f
+1602936	15	2			m	m	subst:sg:loc:n2
+1602933	15	1			m	m	subst:sg:inst:n2
+1602931	15	9			m	m	subst:sg:gen:n2
+1602927	15	4			m	m	subst:sg:acc:n2
+1602926	1782	6			m	m	subst:sg:acc:m3
+1602632	59	1			ń	ń	subst:sg:acc:f
+1601164	339	1			p	p	subst:sg:acc:m3
+1600727	63	2			ew	ew	subst:sg:acc:m3
+1600491	367	3			ów	ów	subst:sg:acc:m3
+1599761	549	7			l	l	subst:sg:acc:m3
+1599760	25	1			l	l	subst:sg:acc:f
+1599608	221	1			el	el	subst:sg:acc:m3
+1599455	85	1			iel	iel	subst:sg:acc:m3
+1598680	13	6			c	c	subst:sg:acc:f
+1598308	74	2			ec	ec	subst:sg:acc:m3
+1597935	439	2			iec	iec	subst:sg:acc:m3
+1597772	124	1			niec	niec	subst:sg:acc:m3
+1596293	836	1			cz	cz	subst:sg:acc:m3
+1596292	36	3			cz	cz	subst:sg:acc:f
+1595051	4	3			rz	rz	subst:sg:acc:f
+1594335	268	1			ierz	ierz	subst:sg:acc:m3
+1594099	5	1			órz	órz	subst:sg:acc:m3
+1593591	9	2			sz	sz	subst:sg:acc:f
+1592775	66	1			aj	aj	subst:sg:acc:m3
+1591091	219	3			ch	ch	subst:sg:acc:m3
+1590607	503	8			d	d	subst:sg:acc:m3
+1590341	94	1			ód	ód	subst:sg:acc:m3
+1589966	6	2			h	h	subst:sg:acc:m3
+1589412	313	1			ł	ł	subst:sg:acc:m3
+1585608	1578	12			n	n	subst:sg:acc:m3
+1585589	1	1			n	n	subst:pl:gen:m1
+1585115	189	6			en	en	subst:sg:acc:m3
+1582537	1172	5			r	r	subst:sg:acc:m3
+1582236	470	5			er	er	subst:sg:acc:m3
+1581778	117	1			ór	ór	subst:sg:acc:m3
+1580862	848	10			s	s	subst:sg:acc:m3
+1580173	13	1			esz	esz	subst:sg:acc:m3
+1579658	1	23			t	t	subst:sg:gen:m3
+1579654	2291	16			t	t	subst:sg:acc:m3
+1579636	1	1			t	t	subst:pl:gen:m3
+1579305	255	4			et	et	subst:sg:acc:m3
+1577857	26	4			x	x	subst:sg:acc:m3
+1577508	142	2			z	z	subst:sg:acc:m3
+1574272	365	2			g	g	subst:sg:acc:m3
+1573151	3214	15			k	k	subst:sg:acc:m3
+1572802	2036	8			ek	ek	subst:sg:acc:m3
+1571566	6	1			e	e	depr:pl:nom:m2
+1571488	5	2			u	u	subst:sg:voc:m1

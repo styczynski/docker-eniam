@@ -1,0 +1,632 @@
+% \RequirePackage[hyphens]{url}
+\documentclass[a4paper, 12pt]{article}
+% \documentclass[preprint, a4paper, 11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[english, polish]{babel}
+\usepackage[utf8]{inputenc}
+
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{latexsym}
+\usepackage{dsfont}
+\theoremstyle{remark}
+\newtheorem{test}{Test}
+
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{rotating}
+
+\usepackage[hidelinks]{hyperref}
+% \urlstyle{sf}
+\expandafter\def\expandafter\UrlBreaks\expandafter{\UrlBreaks% save the current one
+ \do\\~} % this stops urls from sticking out of the damn screen and the paper. I hate this arrggh.
+
+
+ \usepackage{tocloft}
+ \cftsetindents{section}{0pt}{2.25em}
+ \cftsetindents{subsection}{0pt}{2.25em}
+ \cftsetindents{paragraph}{0pt}{2.25em}
+% \addtocontents{toc}{\cftpagenumbersoff{section}}
+
+\usepackage{xcolor}
+
+\newcommand{\eniam}{\textsc{Eniam}}
+\newcommand{\experiencer}{\textsc{Experiencer}}
+\newcommand{\agent}{\textsc{Agent}}
+\newcommand{\theme}{\textsc{Theme}}
+\frenchspacing
+
+\title{
+\normalsize
+\setlength{\topsep}{0pt} 
+\noindent
+Zleceniodawca: IPI PAN \hfill Dzieło do umowy z dnia: 28.11.2016 \\
+Zleceniobiorca: Jakub Kozakoszczak \hfill Termin zakończenia pracy: 15.12.2016 \\
+\rule{\linewidth}{2pt} \\[6pt] 
+\huge Reprezentacja semantyczna \\ przyimków i ich modyfikatorów \\ dla parsera \eniam \\[-2pt]}
+\author{\Large Wojciech Jaworski, Jakub Kozakoszczak\\[6pt]
+\hspace{-5pt}\rule{\linewidth}{2pt} }
+\date{}
+% \date{\normalsize Date Submitted}
+
+\begin{document}
+% latex \let\install=y\input{mathstyle.dtx}
+
+\maketitle
+
+\vspace{-26pt}
+\begin{description}
+	\setlength{\itemsep}{4pt} 
+	\setlength{\parskip}{0pt} 
+	\item[Zrealizowane w ramach projektu:] „CLARIN -- Polskie wspólne zasoby językowe i infrastruktura technologiczna”
+	\item[Tytuł pracy zamówionej:] ,,Koncepcja reprezentacji semantycznej przyimków uwzględniająca ich modyfikowalność''
+	\item[Adres dzieła:] \url{http://wiki.nlp.ipipan.waw.pl/clarin/Parser%20kategorialny?action=AttachFile&do=view
+	&target=JK_reprezentacja_przyimkow.pdf}
+	\item[Opracowanie dokumentu:] Jakub Kozakoszczak
+\end{description}
+
+\vspace{6pt}
+\hrule
+\vspace{-14pt}
+\renewcommand\contentsname{\normalsize{}}
+\tableofcontents
+\vspace{20pt}
+\hrule
+\newpage
+
+\section{Koncepcja} % (fold)
+
+\subsection{Założenia ogólne} % (fold)
+\label{sub:zalożenia_oglne}
+
+
+Proponowana reprezentacja rozwiązuje problem modyfikowalności przyimków przez przypisywanie im zmiennej odniesieniowej i nadanie roli tematycznej.
+Z uwagi na występowanie modyfikatorów dla przyimków semantycznych (np. ,,dość głęboko w szafie'' , ,,5 km od domu'' (dodatkowy argument ,,5 km'') ,,w szczególnym związku z'' (modyfikacja przyimka złożonego), przyimki te nie mogą być reprezentowane jako predykaty wiążące identyfikator odniesienia swojego podrzędnika z identyfikatorem odniesienia nadrzędnika.
+Dlatego z każdym przyimkiem semantycznym wiążemy zmienną reprezentującą jego własne odniesienie i wiążemy ją z zmienną reprezentującą odniesienie nadrzędnika jedną z relacji oznaczających role tematyczne.
+
+Drugim problemem jest wieloznaczność przyimków. Dla każdego przyimka identyfikujemy jego sensy, każdy traktujemy jak oddzielny przyimek (oddzielną jednostkę leksykalną), zaliczamy każdy do klasy podobnych sensów i wyczerpująco opisujemy uwzględniając dla każdego sensu
+rolę tematyczną, 
+typ semantyczny całej frazy przyimkowej
+i preferencje selekcyjne przyimka.
+Preferencje selekcyjne przyimka semantycznego dotyczą nie tylko frazy rzeczownikowej zależnej, ale są też nakładane na jego nadrzędnik, zwykle czasownik lub rzeczownik. 
+% Ew. daj przykład "pod parasolem" vs. "pod pomnikiem"
+% subsection założenia_oglne (end)
+
+Tak, jak fizyce korzysta się z modeli, o których wiadomo, że nie opisują wszystkiego i są na nie kontrprzykłady, podobnie przedstawiony tu model semantyki języka nie opisuje wszystkich zjawisk, jakie występują w języku, a w założeniu ma opisywać to, co powszechnie występuje w tekstach języka polskiego. Model ten ma dwa poziomy. Jeden znich wskazuje podział przyimków na sensy i przypiuje im role tematyczne oraz preferencje selekcyjne. Drugi z nich stanowi uzasadnienie poprawności podziału w pierwszym poprzez formalne zdefiniowanie sensów przyimków w założonej ,,ontologii''. Pierwszy poziom jest bardziej użytkowy a drugi podaje model rzeczywistości.
+
+\subsection{Znaczenie przyimka semantycznego} % (fold)
+\label{sub:znaczenie_przyimka_semantycznego}
+
+Zgodnie z założeniami reprezentacji wypracowanej w ramach projektu \textsc{clarin 1} reprezentujemy znaczenie przyimka jako jego algorytm znaczeniowy i odniesienie.
+Odniesieniami przyimków są relacje, np. jedna z możliwych relacji dla przyimka ,,blisko'' jest zdefiniowana jako
+
+\begin{equation}
+v(\text{blisko})=\{(X,Y):\text{dist}(X,Y) \leq e\}
+\end{equation}
+
+gdzie e=0,01 a ,,dist'' jest to polimorficza metryka zdefiniowana jak poniżej:
+\begin{enumerate}
+\item gdy $X$ i $Y$ są punktami w przestrzeni liniowej, jest to metryka Euklidesowa,
+\item gdy $X$ i $Y$ są podzbiorami przestrzeni liniowej, jest to metryka Hausdorffa nad metryką Euklidesową.
+W szczególności, gdy $X$ i $Y$ są liczbami, wtedy
+\begin{equation}
+ \text{dist}(X,Y) = |X - Y|,
+\end{equation}
+\item gdy $X$ i $Y$ są parametryzowane przez czas, czyli traktujemy je jak funkcje takie, że $X(t)$ jest punktem lub podzbiorem przestrzeni liniowej, wtedy
+\begin{equation}
+ \text{dist}(X,Y) = sup_t(\text{dist}(X(t),Y(t)))
+\end{equation}
+\end{enumerate}
+
+Algorytm znaczeniowy ,,blisko'' zwraca \texttt{true} dla tych i tylko tych obiektów, które są relacją definiowalną w postaci 
+\begin{equation}\label{alg_dla_blisko}
+R=\{(X,Y):dist(X,Y) \leq e\}
+\end{equation}
+ gdzie ,,dist'' jest metryką, a $e$ liczbą rzeczywistą większą od 0.
+
+% subsection znaczenie_przyimka_semantycznego (end)
+
+\subsection{Człony relacji oznaczanej przez przyimek} % (fold)
+\label{sub:czlony_relacji_oznaczanej_przez_przyimek}
+
+\begin{itemize}
+\item Przez $B$ oznaczymy odniesienie \textbf{podrzędnika przyimka}.
+\item Przez $P$ oznaczymy odniesienie \textbf{wyrażenia przyimkowego przestrzennego}.
+\item Przez $R$ oznaczymy odniesienie \textbf{przyimka}.
+\item Przez $A$ oznaczymy odniesienie \textbf{nadrzędnika wyrażenia przyimkowego}.
+\item W przypadku określeń czasu nadrzędnikiem przyimka jest zazwyczaj nazwa zdarzenia lub stanu.
+\item W przypadku określeń czasu podrzędnikiem przyimka jest zazwyczaj nazwa przedziału czasowego albo nazwa zdarzenia.
+\item Odniesieniami \textbf{nazw przedziałów czasowych }są interwały (zaczepione w ustalonych punktach na osi czasu). 
+\item Odniesieniami \textbf{nazw zdarzeń }są zdarzenia.
+\item Odniesieniami \textbf{wyrażeń przyimkowych będących określeniami czasu }są interwały.
+\item Przez $.beg$ będziemy oznaczać początek interwału, przez $.end$ koniec, a przez $.len$ długość.
+\item Przez $.time$ będziemy oznaczać czas zdarzenia/stanu, przez $.loc$ będziemy oznaczać parametryzowane przez czas miejsce zdarzenia/stanu/przedmiotu.
+\end{itemize}
+
+% subsection czlony_relacji_oznaczanej_przez_przyimek (end)
+
+\subsection{Role tematyczne wyrażeń przyimkowych} % (fold)
+\label{sub:role_tematyczne_przyimkw_semantycznych}
+
+Role tematyczne dla przyimków definiujemy jako trójargumentowe relacje, których pierwszym argumentem jest odniesienie nadrzędnika przyimka, drugim jest odniesienie przyimka, a trzecim odniesienie podrzędnika przyimka.
+
+We wzorach poniżej relacja $X\sqsubset Y$ jest uogólnieniem zawierania zbiorów zdefiniowanym jak poniżej:
+\begin{itemize}
+	\item gdy $X$ i $Y$ są punktami w przestrzeni liniowej, wtedy
+	\begin{equation}
+	X\sqsubset Y \text{\ wtw\ } X \text{\ jest podzbiorem otoczki wypukłej\ }Y
+	\end{equation}
+	\item gdy $X$ i $Y$ są parametryzowane przez czas, wtedy
+	\begin{equation}
+	X\sqsubset Y \text{\ wtw\ } \forall t: X(t) \text{\ jest podzbiorem otoczki wypukłej\ }Y(t))
+	\end{equation}
+\end{itemize}
+
+
+\paragraph{Definicje ról tematycznych} % (fold)
+\label{par:role_tematyczne}
+\begin{enumerate}
+\item \textbf{Loc}
+\begin{equation}
+\text{Loc}(A,R,B) \equiv \exists P: \forall t: A.loc(t) \sqsubset P(t) \wedge (P,B.loc) \in R
+\end{equation}
+\item \textbf{LocGoal}
+\begin{align}
+\nonumber\text{LocGoal}(A,R,B) \equiv \exists P: A.loc(A.end) \sqsubset P(A.end) \\ \wedge A.loc(A.beg) \not\sqsubset P(A.beg) \wedge (P,B.loc) \in R
+\end{align}
+\item \textbf{LocSrc}
+\begin{align}
+\nonumber\text{LocSrc}(A,R,B) \equiv \exists P: A.loc(A.beg) \sqsubset P(A.beg) \\ \wedge A.loc(A.end) \not\sqsubset P(A.end) \wedge (P,B.loc) \in R
+\end{align}
+\item \textbf{Time}
+Gdy $B$ jest interwałem
+\begin{equation}
+\text{Time}(A,R,B) \equiv (A.time,B) \in R
+\end{equation}
+% \item \textbf{Time}
+wpp.
+\begin{equation}
+\text{Time}(A,R,B) \equiv (A.time,B.time) \in R
+\end{equation}
+\item \textbf{Count}
+\begin{equation}
+\text{Count}(A,R,B) \equiv (A.count,B) \in R
+\end{equation}
+\begin{equation}
+\text{Count}(A,B) \equiv A.count = B
+\end{equation}
+\item \textbf{Order}
+\begin{align}
+\nonumber\text{Order}(A,R,B) \equiv
+context.order \text{ jest porządkiem indukowanym} \\ \text{przez algorytmy znaczeniowe A i B} \wedge (A,B) \in R
+\end{align}
+\item \textbf{Cond}
+\begin{align}
+\nonumber\text{Cond}(A,R,B) \equiv context.order \text{ jest porządkiem oddającym} \\ \text{zależności przyczynowo-skutkowe} \wedge (A,B) \in R
+\end{align}
+\end{enumerate}
+% \begin{equation}
+% #Order(A,R,B) \equiv \exists P: A.order=porządek indukowany przez P \wedge R(,B) \in R
+% \end{equation}
+% paragraph role_tematyczne (end)
+
+% subsection role_tematyczne_przyimkw_semantycznych (end)
+
+Np. dla zdania ,,Strzał padł koło południa'' mamy $\text{type}(A,\text{paść})$, 
+$\text{type}(R,\text{koło}_1)$, \newline $\text{type}(B,\text{południe})$ oraz wiążącą je rolę tematyczną $\text{Time}(A,R,B)$.
+Zadanie opisania semantyki przyimków sprowadza się teraz do wskazania ich (przyimków) 
+\begin{enumerate}
+\item lematu i schematu składniowego, 
+\item preferencji selekcyjnych nałożonych na nadrzędnik, 
+\item preferencji selekcyjnych nałożonych na podrzędnik, 
+\item roli tematycznej, 
+\item sensu przyimka -- nazwy algorytmu znaczeniowego,
+\item ewentualnego numeru sensu w istniejących słownikach języka polskiego,
+\item przykładu
+\end{enumerate}
+Oprócz tego potrzebujemy wskazać sensy identyczne oraz zdefiniować poszczególne algorytmy znaczeniowe.
+
+Przyjmujemy, że przyimki mogą mieć wiele sensów.
+Oznaczamy je poprzez dodawanie do lematów przyimków kolejnych liczb naturalnych. 
+Sensy różnych przyimków mogą być identyczne. Mają wtedy ten sam algorytm znaczeniowy, jak np. w przypadku bliskoznacznych przyimków przestrzennych
+koło$_1$ = blisko$_1$ = około$_1$ = niedaleko$_1$ = opodal$_1$ = pod$_2$ = obok$_1$.
+Algorytmy znaczeniowe przyimków definiujemy tak, by były niezależne od ról tematycznych. Przykładowa definicja algorytmu znaczeniowego przyimka ,,blisko'' podana jest powyżej \hyperref[alg_dla_blisko]{(definicja \ref*{alg_dla_blisko})}, kolejne dwie dla ,,w$_1$'' (zarazem ,,do$_1$'', ,,z$_1$'' i ,,podczas$_1$'') i ,,pod$_1$'' podane są poniżej:
+
+\begin{equation}
+	\text{w}_1(R) = true \text{\ wtw R jest relacją definiowalną w postaci\ }  R = \{(X,Y): X \sqsubset Y\}
+\end{equation}
+\begin{align} 
+\nonumber \text{pod}_1(R) = true \text{\ wtw R jest relacją definiowalną w postaci:}\\
+ \{(X,Y) \in \textsc{miejsce} \times \textsc{miejsce}: X.height < Y.height\}\\
+ \nonumber \cup \{(X,Y) \in \text{I\!R} \times \text{I\!R}: X < Y\} 
+ \cup \{(X,Y): X \prec Y\},
+\end{align}
+ gdzie $\prec\;=context.order$.
+   \newline Jeśli X i Y są parametryzowane przez czas, to
+\begin{equation}
+	R=\{(X,Y)\!:\ \forall t\!: (X(t),Y(t)) \in R\}
+\end{equation}
+
+\section{Przyimki polskie} % (fold)
+\label{sec:przyimki_polskie}
+% Wersja z typami semantycznymi:
+
+% \begin{sidewaystable}
+% \centering
+% {% \begin{tabular}{|p{2.5cm}|p{2.5cm}|p{2.5cm}|p{2.5cm}|p{1.5cm}|p{2cm}|p{0.5cm}|p{5cm}|} \hline lemat i~składnia & pref. sel. na nadrz. & typ semantyczny & pref. sel. na podrz. & rola tematyczna & sens (algorytm) & nu\-mer w SJP & przykład \\ \hline koło:gen &  & CZAS & CZAS & Time & koło$_1$ & 2 & Zadzwoniła koło szóstej.\\ około:gen &  & CZAS & CZAS & Time & około$_1$ & & \\ blisko:gen &  & POŁOŻENIE & PRZED. FIZ. & Loc & blisko$_1$ & a & Mieszka blisko stacji metra. \\ koło:gen &  & POŁOŻENIE & PRZED. FIZ. & Loc & koło$_1$ &  1& \\ niedaleko:gen &  & POŁOŻENIE & PRZED. FIZ. & Loc & niedaleko$_1$ & & Mieszkali niedaleko parku. \\ opodal:gen &  & POŁOŻENIE & PRZED. FIZ. & Loc & opodal$_1$ & & Konie pasły się opodal lasu. \\ pod:inst &  & ? & PRZED. FIZ. & Loc & pod$_2$ &  3& \\ obok:gen &  & POŁOŻENIE & PRZED. FIZ. & Loc & obok$_1$ &  1& \\ pod:acc &  & ? & PRZED. FIZ. & LocGoal & pod$_2$ & & \\ koło:gen &  & ? & LICZBA & Count & koło$_1$ & & Ma koło pięciu lat. \\ blisko:gen &  & ? & ? & ? & blisko$_1$ & & Obracał się blisko prezesa \\ podczas:gen &  & KIEDY & SYTUACJA & Time & podczas$_1$ & & \\ w:loc &  & POŁOŻENIE & PRZED. FIZ. & Loc & w$_1$ & 1 & \\ w:acc &  & ? & PRZED. FIZ. & LocGoal & w$_1$ & 2,4 & \\ do:gen &  & ? & PRZED. FIZ. & LocGoal & do$_1$ & 3 & \\ z:gen &  & ? & PRZED. FIZ. & LocSrc & z$_1$ & 1b & \\ po:loc &  & KIEDY & SYTUACJA & Time & po$_1$ & 6 & \\ po:loc &  & CZAS & CZAS & Time & po$_1$ & & \\ po:loc &  & ? & PRZED. FIZ. & Loc & po$_1$ & 3 & \\ pod:acc &  & ? & ? & LocGoal & pod$_1$ & 1,2 & \\ pod:acc &  & ? & ? & Count & pod$_1$ & 14 & \\ pod:inst &  & POŁOŻENIE & ? & Loc & pod$_1$ & 1 & Kot spał pod biurkiem. \\ pod:inst &  & ? & ? & Order & pod$_1$ & 16 & Pod wiceministrem było pięciu dyrektorów departamentu. \\ pod:inst &  & ? & ? & Cond & pod$_1$ & 8,17 & Drzwi otworzyły się pod naporem tłumu. Kazano mu opuścić lokal pod groźbą eksmisji. \\ \hline \end{tabular}%
+% }
+% \end{sidewaystable}
+% % subsection hasla_leksykalne (end)
+
+\begin{sidewaystable}
+\centering
+{%
+\begin{tabular}{|p{2.5cm}|p{2.5cm}|p{2.5cm}|p{2cm}|p{2cm}|p{2cm}|p{9cm}|}
+\hline
+lemat i~składnia & pref. sel. na nadrz. & pref. sel. na podrz. & rola tematyczna & sens (algorytm) & numer w SJP & przykład \\ \hline
+koło:gen & zdarzenie-2 & CZAS & Time & koło$_1$ & 2 & Zadzwoniła koło szóstej.\\
+około:gen & zdarzenie-2 & CZAS & Time & około$_1$ & & \\
+blisko:gen & SYTUACJA & PRZED. FIZ. & Loc & blisko$_1$ & a & Mieszka blisko stacji metra. \\
+koło:gen & SYTUACJA & PRZED. FIZ. & Loc & koło$_1$ &  1& \\
+niedaleko:gen & SYTUACJA & PRZED. FIZ. & Loc & niedaleko$_1$ & & Mieszkali niedaleko parku. \\
+opodal:gen & SYTUACJA & PRZED. FIZ. & Loc & opodal$_1$ & & Konie pasły się opodal lasu. \\
+pod:inst & SYTUACJA & PRZED. FIZ. & Loc & pod$_2$ &  3& \\
+obok:gen & SYTUACJA & PRZED. FIZ. & Loc & obok$_1$ &  1& \\
+pod:acc & zdarzenie-2 & PRZED. FIZ. & LocGoal & pod$_2$ & & \\
+koło:gen & SYTUACJA & LICZBA & Count & koło$_1$ & & Ma koło pięciu lat. \\
+blisko:gen & SYTUACJA & LUDZIE & <undefined> & blisko$_1$ & & Obracał się blisko prezesa \\
+podczas:gen & SYTUACJA & CZAS & Time & podczas$_1$ & & \\
+w:loc & SYTUACJA & PRZED. FIZ. & Loc & w$_1$ & 1 & \\
+w:acc & zdarzenie-2 & PRZED. FIZ. & LocGoal & w$_1$ & 2,4 & \\
+do:gen & zdarzenie-2 & PRZED. FIZ. & LocGoal & do$_1$ & 3 & \\
+z:gen & zdarzenie-2 & PRZED. FIZ. & LocSrc & z$_1$ & 1b & \\
+po:loc & SYTUACJA & ZDARZENIE & Time & po$_1$ & 6 & \\
+po:loc & SYTUACJA & CZAS & Time & po$_1$ & & \\
+po:loc & zdarzenie-2 & PRZED. FIZ. & Loc & po$_1$ & 3 & \\
+pod:acc & zdarzenie-2 & PRZED. FIZ. & LocGoal & pod$_1$ & 1,2 & \\
+pod:acc & SYTUACJA & ILOŚĆ & Count & pod$_1$ & 14 & \\
+pod:inst & SYTUACJA & PRZED. FIZ. & Loc & pod$_1$ & 1 & Kot spał pod biurkiem. \\
+pod:inst & SYTUACJA & LUDZIE & Order & pod$_1$ & 16 & Pod wiceministrem było pięciu dyrektorów departamentu. \\
+pod:inst & zdarzenie-2 & CZEMU & Cond & pod$_1$ & 8,17 & Drzwi otworzyły się pod naporem tłumu. Kazano mu opuścić lokal pod groźbą eksmisji. \\
+\hline
+\end{tabular}%
+}
+\end{sidewaystable}
+% subsection hasla_leksykalne (end)
+
+\subsection{Wybrane częste sensy i hasła leksykalne} % (fold)
+\label{sec:podzia_ze_wzgldu_na_rol_tematyczna}
+
+
+\paragraph{Przyimki niesemantyczne (argumenty)} % (fold)
+\label{sub:argument}
+\paragraph{dla-9}\label{prep-9}	przyimek wyznaczający obiekt odniesienia komunikowanego sądu, najczęściej osobę, z punktu widzenia której sąd ten jest wydawany
+\begin{equation}
+\text{Był to dla mnie rok pełen sukcesów.}
+\end{equation}
+\paragraph{do-12}\label{prep-12}	przyimek komunikujący cel czynności
+\begin{equation}
+\text{Oddał buty do naprawy.}
+\end{equation}
+\paragraph{do-17}\label{prep-17}	przyimek wprowadzający składnik zdania rządzony przez czasownik, przymiotnik, rzeczownik lub określający je
+\begin{equation}
+\text{Przywiązał się do dziadka. Był podobny do siostry.}
+\end{equation}
+\paragraph{do-18}\label{prep-18}	przyimek wprowadzający samodzielne wypowiedzenia nieoznajmujące, m.in. przekleństwa, formuły grzecznościowe, odezwy
+\begin{equation}
+\text{Do diabła! Do zobaczenia! Do broni!}
+\end{equation}
+\paragraph{dokoła-21, dookoła-22}\label{prep-21}	przyimek określający główny temat tego, o czym mowa w zdaniu
+\begin{equation}
+\text{Wszystkie jego myśli krążyły dokoła rodzinnego domu.}
+\end{equation}
+\paragraph{ku-35}\label{prep-35}	przyimek wraz z przyłączanym rzeczownikiem komunikujący, że zbliża się dana pora roku lub dnia
+\begin{equation}
+\text{Dni są coraz dłuższe i ma się ku wiośnie.}
+\end{equation}
+\paragraph{ku-36}\label{prep-36}	przyimek występujący w zdaniu komunikującym, że ktoś jest zainteresowany inną osobą pod względem erotycznym
+\begin{equation}
+\text{Nasze dzieci mają się ku sobie.}
+\end{equation}
+\paragraph{między-40}\label{prep-40}	przyimek komunikujący, iż zależność, o której mowa, dotyczy wymienionych w zdaniu osób, zjawisk, przedmiotów lub faktów
+\begin{equation}
+\text{Pokrewieństwo między nimi było bardzo dalekie.}
+\end{equation}
+\paragraph{między-42}\label{prep-42}	przyimek wprowadzający określenie przeznaczenia tego, co stanowi rezultat dokonanego podziału
+\begin{equation}
+\text{Podzielił majątek między synów.}
+\end{equation}
+\paragraph{między-44}\label{prep-44}	przyimek komunikujący, iż wybór, przed którym stoi dana osoba, dotyczy wymienionych przedmiotów lub osób
+\begin{equation}
+\text{Wybieraj między mną a nim.}
+\end{equation}
+\paragraph{między-45}\label{prep-45}	przyimek wprowadzający określenie zbioru, do którego należą lub spośród którego się wyróżniają charakteryzowane w zdaniu przedmioty lub osoby
+\begin{equation}
+\text{Słynęła z urody między rówieśnicami.}
+\end{equation}
+\paragraph{na-50}\label{prep-50}	przyimek tworzący z nazwami czynności wyrażenia określające cel, skutek lub sposób odbywania się tych czynności
+\begin{equation}
+\text{Składać na pół.}
+\end{equation}
+\paragraph{na-51}\label{prep-51}	przyimek łączący z nadrzędnymi czasownikami rzeczowniki stanowiące ich uzupełnienie
+\begin{equation}
+\text{Liczyć na pomoc.}
+\end{equation}
+\paragraph{na-52}\label{prep-52}	z nadrzędnymi rzeczownikami wyrazy stanowiące ich uzupełnienie
+\begin{equation}
+\text{Skrzynka na listy.}
+\end{equation}
+% section podzia_ze_wzgldu_na_rol_tematyczna (end)
+\paragraph{Beneficient} % (fold)
+\label{sub:beneficient}
+\paragraph{dla-7} \label{prep-7}	przyimek komunikujący o przeznaczeniu obiektu
+\begin{equation}
+\text{Film dla młodzieży.}
+\end{equation}
+% paragraph quasi_beneficient (end)
+\paragraph{Comparison} % (fold)
+\label{sub:comparison}
+\paragraph{aniżeli-1} \label{prep-1}	przyimek łączący podstawę porównania z wyrażeniem, które komunikuje zwykle wyższy stopień nasilenia cechy
+\begin{equation}
+\text{Była ładniejsza aniżeli jej koleżanka.}
+\end{equation}
+\paragraph{co-6} \label{prep-6}	przyimek używany w połączeniach, komunikujących, że przedmioty pod względem danej cechy są tożsame
+\begin{equation}
+\text{Krawat tego koloru co koszula}
+\end{equation}
+\paragraph{jak-24} \label{prep-24}	przyimek wprowadzający wyrażenie porównawcze
+\begin{equation}
+\text{Nos miała jak kartofelek.}
+\end{equation}
+\paragraph{Condition} % (fold)
+\label{sub:condition}
+\paragraph{dzięki-23} \label{prep-23}	przyimek komunikujący o cechach, faktach lub osobach, które spowodowały, że dana sytuacja jest dla kogoś pomyślna
+\begin{equation}
+\text{Uratował się dzięki przytomności umysłu.}
+\end{equation}
+\paragraph{mimo-38} \label{prep-38}	przyimek oznaczający rozbieżność między tym, co się dzieje, a tym, czego się należało spodziewać
+\begin{equation}
+\text{Mimo późnej pory wyszedł na spacer.}
+\end{equation}
+\paragraph{na\_skutek-361} \label{prep-361}
+\paragraph{pod\_wpływem-400} \label{prep-400}
+\paragraph{w\_wyniku-479} \label{prep-479}
+\paragraph{z\_powodu-504} \label{prep-504}
+
+\paragraph{Duration} % (fold)
+\label{sub:duration}
+\paragraph{na-48} \label{prep-48}	przyimek tworzący wyrażenia oznaczające trwanie czegoś, okres, termin lub porę dziania się czegoś
+\begin{equation}
+\text{Wyjechać na weekend.}
+\end{equation}
+% paragraph duration (end)
+
+\paragraph{Location} % (fold)
+\label{sub:location}
+\paragraph{blisko-3} \label{prep-3}	przyimek komunikujący o małej odległości między przedmiotami
+\begin{equation}
+\text{Mieszka blisko stacji metra.}
+\end{equation}
+\paragraph{dokoła-20} \label{prep-20}	przyimek komunikujący, że to, o czym mowa w zdaniu, ma miejsce ze wszystkich stron czegoś znajdującego się w środku
+\begin{equation}
+\text{Dokoła klombów posadzono tulipany.}
+\end{equation}
+\paragraph{koło-29} \label{prep-29}	przyimek komunikujący o małej odległości między przedmiotami
+\begin{equation}
+\text{Usiądź koło mnie.}
+\end{equation}
+\paragraph{koło-31} \label{prep-31}	przyimek przyłączający nazwę przedmiotu będącego obiektem czynności, o której mowa w zdaniu
+\begin{equation}
+\text{Dłubał coś koło zegara.}
+\end{equation}
+\paragraph{między-39} \label{prep-39}	przyimek komunikujący, że to, o czym mowa, jest z obu stron otoczone czymś
+\begin{equation}
+\text{Ulica ciągnęła się między domami.}
+\end{equation}
+\paragraph{między-43} \label{prep-43}	przyimek ograniczający dwustronnie zbiór cech, które można przypisać nietypowemu obiektowi, o którym mowa
+\begin{equation}
+\text{Bluzka koloru między żółtym a brązowym.}
+\end{equation}
+\paragraph{na-46} \label{prep-46}	przyimek tworzący wyrażenia oznaczające miejsce dziania się lub znajdowania się czegoś
+\begin{equation}
+\text{Pracował na polu.}
+\end{equation}
+% paragraph location (end)
+
+\paragraph{Location\_goal} % (fold)
+\label{sub:location_goal}
+\paragraph{do-13} \label{prep-13}	przyimek komunikujący kierunek ruchu
+\begin{equation}
+\text{Skoczył do wody.}
+\end{equation}
+\paragraph{do-15} \label{prep-15}	przyimek wyznaczający górną lub dolną granicę czegoś
+\begin{equation}
+\text{Inflacja spadła do dziesięciu procent.}
+\end{equation}
+\paragraph{do-16} \label{prep-16}	przyimek komunikujący o rezultacie procesu lub charakteryzujący stopień nasilenia tego procesu
+\begin{equation}
+\text{Blacha rozpaliła się do czerwoności.}
+\end{equation}
+\paragraph{ku-32} \label{prep-32}	przyimek przyłączający określenie miejsca, w kierunku którego ktoś zmierza lub coś prowadzi
+\begin{equation}
+\text{Odwrócił się nagle i ruszył ku drzwiom.}
+\end{equation}
+\paragraph{na-47} \label{prep-47}	miejsce lub kierunek, będące celem ruchu, czynności
+\begin{equation}
+\text{Pojechali na Mazury.}
+\end{equation}
+
+\paragraph{Extra\_result} % (fold)
+\label{sub:manner}
+\paragraph{ku-34} \label{prep-34}	przyimek przyłączający określenie czyjegoś stanu wewnętrznego, który wytworzył się w następstwie zdarzenia lub zjawiska, o którym mowa w zdaniu
+\begin{equation}
+\text{Ku radości maluchów spadł śnieg.}
+\end{equation}
+
+\paragraph{Measure} % (fold)
+\label{sub:measure}
+\paragraph{na-49} \label{prep-49}	przyimek tworzący wyrażenia oznaczające miarę, ocenę wielkości oraz zakres ich zastosowania
+\begin{equation}
+\text{Gruby na palec.}
+\end{equation}
+% paragraph measure (end)
+
+\paragraph{Member} % (fold)
+\label{sub:member}
+\paragraph{bez-2} \label{prep-2}	przyimek komunikujący zwykle brak, nieobecność czegoś lub kogoś
+\begin{equation}
+\text{Las bez grzybów. Sukienka bez rękawów. Odejść bez pożegnania.}
+\end{equation}
+% paragraph member (end)
+
+\paragraph{Math} % (fold)
+\label{sub:mod_math}
+\paragraph{do-19} \label{prep-19}	przyimek między liczebnikami oznaczający potęgowanie
+\begin{equation}
+\text{Dwa do piątej.}
+\end{equation}
+% paragraph mod_math (end)
+
+\paragraph{Purpose} % (fold)
+\label{sub:purpose}
+\paragraph{dla-10} \label{prep-10}	przyimek wprowadzający przyczynę jakichś działań
+\begin{equation}
+\text{Na dziki polowano dla mięsa.}
+\end{equation}
+\paragraph{dla-8} \label{prep-8}	przyimek komunikujący cel czynności
+\begin{equation}
+\text{Tupali nogami dla rozgrzewki.}
+\end{equation}
+\paragraph{do-11} \label{prep-11}	przyimek komunikujący o przeznaczeniu obiektu
+\begin{equation}
+\text{filiżanka do kawy}
+\end{equation}
+\paragraph{ku-33} \label{prep-33}	przyimek przyłączający określenie celu czynności, o której mowa w zdaniu
+\begin{equation}
+\text{Nakręcono ten film ku przestrodze młodzieży.}
+\end{equation}
+% paragraph purpose (end)
+
+\paragraph{Quantifier} % (fold)
+\label{sub:quantifier}
+\paragraph{co-5} \label{prep-5}	przyimek używany w połączeniach charakteryzujących częstość, z jaką coś się powtarza
+\begin{equation}
+\text{Przystawał co krok.}
+\end{equation}
+\paragraph{jako-28} \label{prep-28}	przyimek przyłączający liczebnik porządkowy, który wskazuje na kolejność charakteryzowanego zdarzenia względem innych
+\begin{equation}
+\text{Sekretarz komisji przyszedł na zebranie jako pierwszy.}
+\end{equation}
+% paragraph quantifier (end)
+
+\paragraph{Role} % (fold)
+\label{sub:role}
+\paragraph{jako-25} \label{prep-25}	przyimek wprowadzający określenie roli, jaką pełni jakaś osoba w danych okolicznościach, a także określenie stosunku tej osoby do innych osób
+\begin{equation}
+\text{Jako gospodarz spotkania starał się być dla wszystkich życzliwy i miły.}
+\end{equation}
+\paragraph{jako-27} \label{prep-27}	przyimek wprowadzający określenie sposobu potraktowania lub oceny danego obiektu lub stanu rzeczy
+\begin{equation}
+\text{Takie stany są określane jako depresyjne.}
+\end{equation}
+% paragraph role (end)
+
+\paragraph{Time} % (fold)
+\label{sub:time}
+\paragraph{blisko-4} \label{prep-4}	lub między punktami czasowymi
+\begin{equation}
+\text{Było już blisko daty wyjazdu.}
+\end{equation}
+\paragraph{jako-26} \label{prep-26}	przyimek wraz z przyłączanym rzeczownikiem wskazujący na okres życia osoby, o której mowa w zdaniu
+\begin{equation}
+\text{Jako dziecko przebyła wszystkie choroby zakaźne.}
+\end{equation}
+\paragraph{koło-30} \label{prep-30}	przyimek poprzedzający określenie liczby, ilości, miary lub czasu, który komunikuje, że jest ono przybliżone
+\begin{equation}
+\text{Zadzwoniła koło szóstej.}
+\end{equation}
+\paragraph{lada-37} \label{prep-37}	przyimek łączący się z nazwą jednostki czasu, komunikujący, iż coś stanie się w najbliższym czasie
+\begin{equation}
+\text{Przyjadą lada godzina.}
+\end{equation}
+\paragraph{między-41} \label{prep-41}	przyimek wprowadzający określenia granic czasowych, w których miało miejsce dane zdarzenie
+\begin{equation}
+\text{Wrócę między drugą a trzecią.}
+\end{equation}
+% paragraph time (end)
+
+\paragraph{Time\_goal} % (fold)
+\label{sub:time_goal}
+\paragraph{do-14} \label{prep-14}	przyimek określający czas zakończenia zdarzenia
+\begin{equation}
+\text{Spał do południa.}
+\end{equation}
+
+% subsection time_goal (end)
+
+\section{Indeks przyimków} % (fold)
+\label{sec:indeks_przyimkow}
+\begin{multicols}{4}
+\noindent
+\hyperref[prep-1]{aniżeli-1}\\
+\hyperref[prep-2]{bez-2}\\
+\hyperref[prep-3]{blisko-3}\\
+\hyperref[prep-4]{blisko-4}\\
+\hyperref[prep-5]{co-5}\\
+\hyperref[prep-6]{co-6}\\
+\hyperref[prep-7]{dla-7}\\
+\hyperref[prep-8]{dla-8}\\
+\hyperref[prep-9]{dla-9}\\
+\hyperref[prep-10]{dla-10}\\
+\hyperref[prep-11]{do-11}\\
+\hyperref[prep-12]{do-12}\\
+\hyperref[prep-13]{do-13}\\
+\hyperref[prep-14]{do-14}\\
+\hyperref[prep-15]{do-15}\\
+\hyperref[prep-16]{do-16}\\
+\hyperref[prep-17]{do-17}\\
+\hyperref[prep-18]{do-18}\\
+\hyperref[prep-19]{do-19}\\
+\hyperref[prep-20]{dokoła-20}\\
+\hyperref[prep-21]{dokoła-21}\\
+\hyperref[prep-21]{dookoła-22}\\
+\hyperref[prep-23]{dzięki-23}\\
+\hyperref[prep-24]{jak-24}\\
+\hyperref[prep-25]{jako-25}\\
+\hyperref[prep-26]{jako-26}\\
+\hyperref[prep-27]{jako-27}\\
+\hyperref[prep-28]{jako-28}\\
+\hyperref[prep-29]{koło-29}\\
+\hyperref[prep-30]{koło-30}\\
+\hyperref[prep-31]{koło-31}\\
+\hyperref[prep-32]{ku-32}\\
+\hyperref[prep-33]{ku-33}\\
+\hyperref[prep-34]{ku-34}\\
+\hyperref[prep-35]{ku-35}\\
+\hyperref[prep-36]{ku-36}\\
+\hyperref[prep-37]{lada-37}\\
+\hyperref[prep-38]{mimo-38}\\
+\hyperref[prep-39]{między-39}\\
+\hyperref[prep-40]{między-40}\\
+\hyperref[prep-41]{między-41}\\
+\hyperref[prep-42]{między-42}\\
+\hyperref[prep-43]{między-43}\\
+\hyperref[prep-44]{między-44}\\
+\hyperref[prep-45]{między-45}\\
+\hyperref[prep-46]{na-46}\\
+\hyperref[prep-47]{na-47}\\
+\hyperref[prep-48]{na-48}\\
+\hyperref[prep-49]{na-49}\\
+\hyperref[prep-50]{na-50}\\
+\hyperref[prep-51]{na-51}\\
+\hyperref[prep-52]{na-52}\\
+\hyperref[prep-361]{na\_skutek-361}\\
+\hyperref[prep-400]{pod\_wpływem-400}\\
+\hyperref[prep-479]{w\_wyniku-479}\\
+\hyperref[prep-504]{z\_powodu-504}\\
+\end{multicols}
+
+% section indeks_przyimkow (end)
+\end{document}

@@ -1,0 +1,27 @@
+W	w	prep:loc:nwok
+organizacji	organizacja	subst:sg:loc:f
+współczesnego	współczesny	adj:sg:gen:n:pos
+społeczeństwa	społeczeństwo	subst:sg:gen:n
+występują	występować	fin:pl:ter:imperf
+wielokierunkowe	wielokierunkowy	adj:pl:nom:n:pos
+działania	działanie	subst:pl:nom:n
+,	,	interp
+kształtujące	kształtować	pact:pl:nom:n:imperf:aff
+różne	różny	adj:pl:acc:f:pos
+dziedziny	dziedzina	subst:pl:acc:f
+życia	życie	subst:sg:gen:n
+ERROR :		:interp
+kulturę	kultura	subst:sg:acc:f
+,	,	interp
+oświatę	oświata	subst:sg:acc:f
+,	,	interp
+naukę	nauka	subst:sg:acc:f
+,	,	interp
+obronę	obrona	subst:sg:acc:f
+i	i	conj
+bezpieczeństwo	bezpieczeństwo	subst:sg:acc:n
+,	,	interp
+ochronę	ochrona	subst:sg:acc:f
+zdrowia	zdrowie	subst:sg:gen:n
+itd	i tak dalej	brev:pun
+.	.	interp

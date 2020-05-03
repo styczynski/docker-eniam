@@ -1,0 +1,678 @@
+condaglt (terminal): terminal
+cudz (terminal): terminal
+ff (fwe): fwe
+fl (fno przec): fno
+fl (fno): fno
+fl (fpm przec): fpm
+fl (fpm): fpm
+fl (fpmpt): fpmpt
+fl (fps przec): fps
+fl (fps): fps
+fl (fpt przec): fpt
+fl (fpt): fpt
+fl (fwe przec): fwe
+fl (fwe): fwe
+fl (fzd): fzd
+fl (modpart przec): modpart
+fl (modpart): modpart
+fl (przec fno przec): fno
+fl (przec fno): fno
+fl (przec fpm przec): fpm
+fl (przec fpm): fpm
+fl (przec fps przec): fps
+fl (przec fps): fps
+fl (przec fpt przec): fpt
+fl (przec fpt): fpt
+fl (przec fwe przec): fwe
+fl (przec fwe): fwe
+fl (przec modpart przec): modpart
+flicz (flicz modpart): flicz
+flicz (formalicz formalicz): formalicz
+flicz (formalicz): formalicz
+flicz (modpart flicz): flicz
+flicz (modpart modpart flicz): flicz
+fno (cudz fno cudz): fno
+fno (flicz fno): flicz
+fno (flicz): flicz
+fno (fno flicz): flicz
+fno (fno fno fno fzd): fno
+fno (fno fno fno): fno
+fno (fno fno fpm fpm): fno
+fno (fno fno fpm fpt): fno
+fno (fno fno fpm fw): fno
+fno (fno fno fpm fzd): fno
+fno (fno fno fpm przec fpt): fno
+fno (fno fno fpm): fno
+fno (fno fno fpt): fno
+fno (fno fno fw): fno
+fno (fno fno fzd): fno
+fno (fno fno przec fpt przec fpm): fno
+fno (fno fno przec fpt przec): fno
+fno (fno fno przec fpt): fno
+fno (fno fno): fno
+fno (fno fpm fno fpm): fno
+fno (fno fpm fno): fno
+fno (fno fpm fpm fpm): fno
+fno (fno fpm fpm fw): fno
+fno (fno fpm fpm): fno
+fno (fno fpm fpt): fno
+fno (fno fpm fw fzd): fno
+fno (fno fpm fw): fno
+fno (fno fpm fzd): fno
+fno (fno fpm modpart): fno
+fno (fno fpm przec fpt przec fpt): fno
+fno (fno fpm przec fpt przec): fno
+fno (fno fpm przec fpt): fno
+fno (fno fpm): fno
+fno (fno fpt fno fno): fno
+fno (fno fpt fno fpm): fno
+fno (fno fpt fno fpt): fno
+fno (fno fpt fno fzd): fno
+fno (fno fpt fno): fno
+fno (fno fpt fpm fpm): fno
+fno (fno fpt fpm fzd): fno
+fno (fno fpt fpm przec fpt): fno
+fno (fno fpt fpm): fno
+fno (fno fpt fpt fno fpm): fno
+fno (fno fpt fpt fno): fno
+fno (fno fpt fpt): fno
+fno (fno fpt fw fpt): fno
+fno (fno fpt fw): fno
+fno (fno fpt fzd): fno
+fno (fno fpt przec fpt fzd): fno
+fno (fno fpt przec fpt przec): fno
+fno (fno fpt przec fpt): fno
+fno (fno fpt): fno
+fno (fno fw fno): fno
+fno (fno fw fpm fpm): fno
+fno (fno fw fpm fw): fno
+fno (fno fw fpm): fno
+fno (fno fw fw fpm): fno
+fno (fno fw fw fw fzd): fno
+fno (fno fw fw): fno
+fno (fno fw): fno
+fno (fno fzd fzd): fno
+fno (fno fzd przec fpt): fno
+fno (fno fzd): fno
+fno (fno modpart fpm): fno
+fno (fno modpart): fno
+fno (fno przec fno przec): fno
+fno (fno przec fno): fno
+fno (fno przec fpt fzd): fno
+fno (fno przec fpt przec fpt przec fpt): fno
+fno (fno przec fpt przec): fno
+fno (fno przec fpt): fno
+fno (fno przec spójnik fno przec): fno
+fno (fno przec spójnik fno): spójnik
+fno (fno spójnik fno spójnik fno spójnik fno spójnik fno spójnik fno spójnik fno): spójnik
+fno (fno spójnik fno spójnik fno spójnik fno spójnik fno spójnik fno): spójnik
+fno (fno spójnik fno spójnik fno spójnik fno spójnik fno): spójnik
+fno (fno spójnik fno spójnik fno spójnik fno): spójnik
+fno (fno spójnik fno spójnik fno): spójnik
+fno (fno spójnik fno): spójnik
+fno (formarzecz spójnik): formarzecz
+fno (formarzecz): formarzecz
+fno (fpm fno fno): fno
+fno (fpm fno fpm): fno
+fno (fpm fno fpt fpm fzd): fno
+fno (fpm fno fpt): fno
+fno (fpm fno fw fw): fno
+fno (fpm fno): fno
+fno (fpm fpm fno): fno
+fno (fpm fpt fno fno fpm): fno
+fno (fpm fpt fno fno): fno
+fno (fpm fpt fno fpt): fno
+fno (fpm fpt fno): fno
+fno (fpm modpart fpt fno): fno
+fno (fpt flicz fno): flicz
+fno (fpt fno fno fno): fno
+fno (fpt fno fno fpm): fno
+fno (fpt fno fno fpt): fno
+fno (fpt fno fno fzd): fno
+fno (fpt fno fno modpart): fno
+fno (fpt fno fno przec fpt przec): fno
+fno (fpt fno fno przec fpt): fno
+fno (fpt fno fno): fno
+fno (fpt fno fpm fno): fno
+fno (fpt fno fpm fpm przec fpt): fno
+fno (fpt fno fpm fpm): fno
+fno (fpt fno fpm fpt): fno
+fno (fpt fno fpm fw): fno
+fno (fpt fno fpm fzd): fno
+fno (fpt fno fpm przec fpt przec): fno
+fno (fpt fno fpm przec fpt): fno
+fno (fpt fno fpm): fno
+fno (fpt fno fpt fno fpm): fno
+fno (fpt fno fpt fno): fno
+fno (fpt fno fpt fpm fpm): fno
+fno (fpt fno fpt fpm przec fpt): fno
+fno (fpt fno fpt fpm): fno
+fno (fpt fno fpt fpt): fno
+fno (fpt fno fpt fzd): fno
+fno (fpt fno fpt przec fpt przec): fno
+fno (fpt fno fpt przec fpt): fno
+fno (fpt fno fpt): fno
+fno (fpt fno fw fpm): fno
+fno (fpt fno fw fw): fno
+fno (fpt fno fw): fno
+fno (fpt fno fzd fzd): fno
+fno (fpt fno fzd): fno
+fno (fpt fno przec fpt fzd): fno
+fno (fpt fno przec fpt przec fpm): fno
+fno (fpt fno przec fpt przec fpt): fno
+fno (fpt fno przec fpt przec): fno
+fno (fpt fno przec fpt): fno
+fno (fpt fno): fno
+fno (fpt fpm fno): fno
+fno (fpt fpt fno fno fno fpm): fno
+fno (fpt fpt fno fno fno): fno
+fno (fpt fpt fno fno fpm): fno
+fno (fpt fpt fno fno fpt): fno
+fno (fpt fpt fno fno): fno
+fno (fpt fpt fno fpm fpm): fno
+fno (fpt fpt fno fpm fzd): fno
+fno (fpt fpt fno fpm): fno
+fno (fpt fpt fno fpt fno fpm): fno
+fno (fpt fpt fno fpt fpm): fno
+fno (fpt fpt fno fpt fzd): fno
+fno (fpt fpt fno fpt): fno
+fno (fpt fpt fno fw fw): fno
+fno (fpt fpt fno fzd): fno
+fno (fpt fpt fno przec fpt): fno
+fno (fpt fpt fno): fno
+fno (fpt fpt fpm fno fpm fpm): fno
+fno (fpt fpt fpt fno fno): fno
+fno (fpt fpt fpt fno fpt): fno
+fno (fpt fpt fpt fno fzd): fno
+fno (fpt fpt fpt fno): fno
+fno (fpt fpt fpt fpt fno): fno
+fno (fpt fpt przec fpt przec fno fpt): fno
+fno (fpt modpart fno): fno
+fno (fpt przec fpt przec fno fno): fno
+fno (fpt przec fpt przec fno fpm fzd): fno
+fno (fpt przec fpt przec fno fpt): fno
+fno (fpt przec fpt przec fno): fno
+fno (fpt): fpt
+fno (fw fno fno): fno
+fno (fw fno): fno
+fno (fw fpt fno fno): fno
+fno (modpart fno fno fpm): fno
+fno (modpart fno fno): fno
+fno (modpart fno fpm fpm): fno
+fno (modpart fno fpm): fno
+fno (modpart fno fpt fno): fno
+fno (modpart fno fpt fpm): fno
+fno (modpart fno fpt): fno
+fno (modpart fno fw): fno
+fno (modpart fno fzd): fno
+fno (modpart fno przec fpt): fno
+fno (modpart fno): fno
+fno (modpart fpt fno fno fzd): fno
+fno (modpart fpt fno fno): fno
+fno (modpart fpt fno fpm fzd): fno
+fno (modpart fpt fno fpm): fno
+fno (modpart fpt fno fpt): fno
+fno (modpart fpt fno fzd): fno
+fno (modpart fpt fno): fno
+fno (modpart fpt fpt fno): fno
+fno (modpart modpart fno fno): fno
+fno (modpart modpart fno): fno
+fno (modpart modpart fpt fno fno): fno
+fno (modpart modpart fpt fno fzd): fno
+fno (modpart modpart fpt fpt fno fno): fno
+fno (spójnik fno przec spójnik fno): spójnik
+fno (zaimos spójnik): zaimos
+fno (zaimos): zaimos
+fno (zaimprzym): zaimprzym
+fno (zaimrzecz spójnik): zaimrzecz
+fno (zaimrzecz): zaimrzecz
+formaczas (condaglt terminal): terminal
+formaczas (przyzlo terminal): przyzlo
+formaczas (terminal condaglt): condaglt
+formaczas (terminal condaglt): terminal
+formaczas (terminal przyzlo): przyzlo
+formaczas (terminal terminal): terminal
+formaczas (terminal): terminal
+formalicz (terminal): terminal
+formaprzym (terminal): terminal
+formaprzys (terminal): terminal
+formarzecz (terminal terminal): terminal
+formarzecz (terminal): terminal
+formawykrz (terminal): terminal
+fpm (cudz fpm cudz): fpm
+fpm (fno przyimek): przyimek
+fpm (fpm fps): fpm
+fpm (fpm modpart): fpm
+fpm (fpm przec spójnik fpm przec): fpm
+fpm (fpm przec spójnik fpm): spójnik
+fpm (fpm spójnik fpm spójnik fpm spójnik fpm spójnik fpm): spójnik
+fpm (fpm spójnik fpm spójnik fpm spójnik fpm): spójnik
+fpm (fpm spójnik fpm spójnik fpm): spójnik
+fpm (fpm spójnik fpm): spójnik
+fpm (fps fpm): fpm
+fpm (fps fps fpm): fpm
+fpm (fps modpart fpm): fpm
+fpm (modpart fpm): fpm
+fpm (modpart modpart fpm): fpm
+fpm (przyimek fno): przyimek
+fpm (spójnik fpm przec spójnik fpm): spójnik
+fpmpt (przyimek fpt): przyimek
+fps (cudz fps cudz): fps
+fps (formaprzys spójnik): formaprzys
+fps (formaprzys): formaprzys
+fps (fpm fps): fps
+fps (fps fpm): fps
+fps (fps fps fpm): fps
+fps (fps fps fps): fps
+fps (fps fps): fps
+fps (fps modpart fps): fps
+fps (fps modpart): fps
+fps (fps spójnik fps spójnik fps spójnik fps): spójnik
+fps (fps spójnik fps spójnik fps): spójnik
+fps (fps spójnik fps): spójnik
+fps (modpart fps fps): fps
+fps (modpart fps): fps
+fps (modpart modpart fps): fps
+fpt (cudz fpt cudz): fpt
+fpt (formaprzym spójnik): formaprzym
+fpt (formaprzym): formaprzym
+fpt (fpm fpm fpt): fpt
+fpt (fpm fps fpt): fpt
+fpt (fpm fpt fpm fpm): fpt
+fpt (fpm fpt fpm): fpt
+fpt (fpm fpt fw): fpt
+fpt (fpm fpt): fpt
+fpt (fps fpm fpt fpm): fpt
+fpt (fps fpm fpt): fpt
+fpt (fps fps fpm fpt): fpt
+fpt (fps fps fpt): fpt
+fpt (fps fpt fpm): fpt
+fpt (fps fpt fps): fpt
+fpt (fps fpt fw fpm): fpt
+fpt (fps fpt fw fw): fpt
+fpt (fps fpt fw): fpt
+fpt (fps fpt): fpt
+fpt (fps modpart fpt): fpt
+fpt (fpt fpm fpm): fpt
+fpt (fpt fpm fps): fpt
+fpt (fpt fpm fw): fpt
+fpt (fpt fpm): fpt
+fpt (fpt fps fpm): fpt
+fpt (fpt fps fps): fpt
+fpt (fpt fps fw fpm): fpt
+fpt (fpt fps fw): fpt
+fpt (fpt fps): fpt
+fpt (fpt fw fpm): fpt
+fpt (fpt fw fps fpm): fpt
+fpt (fpt fw fps fw): fpt
+fpt (fpt fw fw fpm): fpt
+fpt (fpt fw fw): fpt
+fpt (fpt fw): fpt
+fpt (fpt modpart): fpt
+fpt (fpt spójnik fpt spójnik fpt spójnik fpt spójnik fpt): spójnik
+fpt (fpt spójnik fpt spójnik fpt spójnik fpt): spójnik
+fpt (fpt spójnik fpt spójnik fpt): spójnik
+fpt (fpt spójnik fpt): spójnik
+fpt (fw fpm fpt): fpt
+fpt (fw fps fpt): fpt
+fpt (fw fpt fw): fpt
+fpt (fw fpt): fpt
+fpt (fw modpart fpt): fpt
+fpt (modjaki fps fpt): fpt
+fpt (modjaki fpt): fpt
+fpt (modpart fps fpt fw): fpt
+fpt (modpart fps fpt): fpt
+fpt (modpart fpt fpm): fpt
+fpt (modpart fpt fw): fpt
+fpt (modpart fpt): fpt
+fpt (modpart modpart fpt): fpt
+fpt (zaimprzym): zaimprzym
+fw (fno): fno
+fw (fpm): fpm
+fw (fpmpt): fpmpt
+fw (fps): fps
+fw (fpt): fpt
+fw (fwe): fwe
+fw (fzd): fzd
+fw (terminal): terminal
+fwe (cudz fwe cudz): fwe
+fwe (fl fl fl fwe fw): fwe
+fwe (fl fl fw fwe): fwe
+fwe (fl fl fwe fl fw): fwe
+fwe (fl fl fwe fl): fwe
+fwe (fl fl fwe fw): fwe
+fwe (fl fl fwe): fwe
+fwe (fl fw fwe fl): fwe
+fwe (fl fw fwe): fwe
+fwe (fl fwe fl fl): fwe
+fwe (fl fwe fl fw fl): fwe
+fwe (fl fwe fl fw): fwe
+fwe (fl fwe fl): fwe
+fwe (fl fwe fw fl fw): fwe
+fwe (fl fwe fw fl): fwe
+fwe (fl fwe fw fw fl): fwe
+fwe (fl fwe fw fw): fwe
+fwe (fl fwe fw): fwe
+fwe (fl fwe): fwe
+fwe (formaczas spójnik): formaczas
+fwe (formaczas): formaczas
+fwe (fw fl fl fwe fw): fwe
+fwe (fw fl fw fwe): fwe
+fwe (fw fl fwe fl): fwe
+fwe (fw fl fwe fw): fwe
+fwe (fw fl fwe): fwe
+fwe (fw fw fl fwe): fwe
+fwe (fw fw fwe fl): fwe
+fwe (fw fw fwe): fwe
+fwe (fw fwe fl fl): fwe
+fwe (fw fwe fl fw): fwe
+fwe (fw fwe fl): fwe
+fwe (fw fwe fw fl): fwe
+fwe (fw fwe fw fw): fwe
+fwe (fw fwe fw): fwe
+fwe (fw fwe): fwe
+fwe (fwe fl fl fl): fwe
+fwe (fwe fl fl fw): fwe
+fwe (fwe fl fl): fwe
+fwe (fwe fl fw fl): fwe
+fwe (fwe fl fw fw): fwe
+fwe (fwe fl fw): fwe
+fwe (fwe fl): fwe
+fwe (fwe fw fl fl): fwe
+fwe (fwe fw fl fw): fwe
+fwe (fwe fw fl): fwe
+fwe (fwe fw fw fl): fwe
+fwe (fwe fw fw fw): fwe
+fwe (fwe fw fw): fwe
+fwe (fwe fw): fwe
+fwe (fwe przec spójnik fwe): spójnik
+fwe (fwe spójnik fwe spójnik fwe spójnik fwe): spójnik
+fwe (fwe spójnik fwe spójnik fwe): spójnik
+fwe (fwe spójnik fwe): spójnik
+fwe (partykuła formaczas spójnik): formaczas
+fwe (partykuła formaczas): formaczas
+fwe (spójnik fwe przec spójnik fwe): spójnik
+fzd (fzd przec spójnik fzd): spójnik
+fzd (fzd spójnik fzd spójnik fzd): spójnik
+fzd (fzd spójnik fzd): spójnik
+fzd (korelat fzd): fzd
+fzd (przec spójnik zdanie przec): spójnik
+fzd (przec spójnik zdanie): spójnik
+fzd (przec zdanie przec): zdanie
+fzd (przec zdanie): zdanie
+fzd (spójnik zdanie przec): spójnik
+fzd (spójnik zdanie): spójnik
+fzd (zdanie przec): zdanie
+fzd (zdanie): zdanie
+korelat (przyimek zaimrzecz): przyimek
+korelat (zaimrzecz): zaimrzecz
+modjaki (zaimprzym): zaimprzym
+modpart (terminal): terminal
+nawias (terminal): terminal
+partykuła (terminal): terminal
+pauza (terminal): terminal
+posiłk (condaglt): condaglt
+posiłk (partykuła posiłk): posiłk
+posiłk (terminal): terminal
+przec (terminal): terminal
+przyimek (terminal): terminal
+przyzlo (terminal): terminal
+spójnik (spójnik spójnik): spójnik
+spójnik (terminal): terminal
+wypowiedzenie (cudz zdanie cudz znakkonca): zdanie
+wypowiedzenie (cudz zdanie znakkonca cudz): zdanie
+wypowiedzenie (cudz zdanie znakkonca): zdanie
+wypowiedzenie (fno terminal wypowiedzenie): terminal
+wypowiedzenie (nawias zdanie nawias znakkonca): zdanie
+wypowiedzenie (nawias zdanie nawias): zdanie
+wypowiedzenie (nawias zdanie znakkonca nawias): zdanie
+wypowiedzenie (nawias zdanie znakkonca): zdanie
+wypowiedzenie (pauza spójnik zdanie znakkonca): spójnik
+wypowiedzenie (pauza zdanie znakkonca): zdanie
+wypowiedzenie (spójnik zdanie znakkonca): spójnik
+wypowiedzenie (zdanie cudz znakkonca): zdanie
+wypowiedzenie (zdanie znakkonca cudz): zdanie
+wypowiedzenie (zdanie znakkonca nawias): zdanie
+wypowiedzenie (zdanie znakkonca): zdanie
+zaimos (terminal): terminal
+zaimprzym (terminal): terminal
+zaimrzecz (terminal): terminal
+zdanie (ff fl fl fl): ff
+zdanie (ff fl fl fw fw): ff
+zdanie (ff fl fl fw): ff
+zdanie (ff fl fl): ff
+zdanie (ff fl fw fl): ff
+zdanie (ff fl fw fw fl): ff
+zdanie (ff fl fw fw): ff
+zdanie (ff fl fw): ff
+zdanie (ff fl): ff
+zdanie (ff fw fl fl fl): ff
+zdanie (ff fw fl fl fw): ff
+zdanie (ff fw fl fl): ff
+zdanie (ff fw fl fw fl): ff
+zdanie (ff fw fl fw fw): ff
+zdanie (ff fw fl fw): ff
+zdanie (ff fw fl): ff
+zdanie (ff fw fw fl fl): ff
+zdanie (ff fw fw fl fw): ff
+zdanie (ff fw fw fl): ff
+zdanie (ff fw fw fw fw fl): ff
+zdanie (ff fw fw fw): ff
+zdanie (ff fw fw): ff
+zdanie (ff fw): ff
+zdanie (ff): ff
+zdanie (fl ff fl fl fw fw): ff
+zdanie (fl ff fl fl fw): ff
+zdanie (fl ff fl fl): ff
+zdanie (fl ff fl fw fl): ff
+zdanie (fl ff fl fw fw fl): ff
+zdanie (fl ff fl fw fw): ff
+zdanie (fl ff fl fw): ff
+zdanie (fl ff fl): ff
+zdanie (fl ff fw fl fl fw): ff
+zdanie (fl ff fw fl fl): ff
+zdanie (fl ff fw fl fw fl): ff
+zdanie (fl ff fw fl fw): ff
+zdanie (fl ff fw fl): ff
+zdanie (fl ff fw fw fl fw): ff
+zdanie (fl ff fw fw fl): ff
+zdanie (fl ff fw fw fw): ff
+zdanie (fl ff fw fw): ff
+zdanie (fl ff fw): ff
+zdanie (fl ff): ff
+zdanie (fl fl ff fl fw): ff
+zdanie (fl fl ff fl): ff
+zdanie (fl fl ff fw fl fl): ff
+zdanie (fl fl ff fw fl fw fw): ff
+zdanie (fl fl ff fw fl fw): ff
+zdanie (fl fl ff fw fl): ff
+zdanie (fl fl ff fw fw fl): ff
+zdanie (fl fl ff fw fw fw fl): ff
+zdanie (fl fl ff fw fw fw): ff
+zdanie (fl fl ff fw fw): ff
+zdanie (fl fl ff fw): ff
+zdanie (fl fl ff): ff
+zdanie (fl fl fl ff fw fw fw): ff
+zdanie (fl fl fl ff fw fw): ff
+zdanie (fl fl fl ff fw): ff
+zdanie (fl fl fl ff): ff
+zdanie (fl fl fl fw ff fw): ff
+zdanie (fl fl fl fw ff): ff
+zdanie (fl fl fl posiłk fw fw ff): ff
+zdanie (fl fl fw ff fl fw): ff
+zdanie (fl fl fw ff fl): ff
+zdanie (fl fl fw ff fw fl fw): ff
+zdanie (fl fl fw ff fw fl): ff
+zdanie (fl fl fw ff fw fw): ff
+zdanie (fl fl fw ff fw): ff
+zdanie (fl fl fw ff): ff
+zdanie (fl fl fw fl ff fw fl): ff
+zdanie (fl fl fw fl ff fw): ff
+zdanie (fl fl fw fl ff): ff
+zdanie (fl fl fw fl fw ff): ff
+zdanie (fl fl fw fl fw fw ff): ff
+zdanie (fl fl fw fw ff fl): ff
+zdanie (fl fl fw fw ff fw): ff
+zdanie (fl fl fw fw ff): ff
+zdanie (fl fl posiłk fw ff): ff
+zdanie (fl fl posiłk fw fw ff fl): ff
+zdanie (fl fw ff fl fl fl): ff
+zdanie (fl fw ff fl fl fw fl): ff
+zdanie (fl fw ff fl fl fw): ff
+zdanie (fl fw ff fl fl): ff
+zdanie (fl fw ff fl fw fw): ff
+zdanie (fl fw ff fl fw): ff
+zdanie (fl fw ff fl): ff
+zdanie (fl fw ff fw fl fl): ff
+zdanie (fl fw ff fw fl fw fl): ff
+zdanie (fl fw ff fw fl fw): ff
+zdanie (fl fw ff fw fl): ff
+zdanie (fl fw ff fw fw fl fl): ff
+zdanie (fl fw ff fw fw fl): ff
+zdanie (fl fw ff fw fw): ff
+zdanie (fl fw ff fw): ff
+zdanie (fl fw ff): ff
+zdanie (fl fw fl ff fl fw): ff
+zdanie (fl fw fl ff fl): ff
+zdanie (fl fw fl ff fw fl): ff
+zdanie (fl fw fl ff fw fw fl): ff
+zdanie (fl fw fl ff fw fw): ff
+zdanie (fl fw fl ff fw): ff
+zdanie (fl fw fl ff): ff
+zdanie (fl fw fl fl ff fw fw): ff
+zdanie (fl fw fl fl ff fw): ff
+zdanie (fl fw fl fl ff): ff
+zdanie (fl fw fl fw ff fl): ff
+zdanie (fl fw fl fw ff fw): ff
+zdanie (fl fw fl fw ff): ff
+zdanie (fl fw fw ff fl fl): ff
+zdanie (fl fw fw ff fl fw fl): ff
+zdanie (fl fw fw ff fl): ff
+zdanie (fl fw fw ff fw fl): ff
+zdanie (fl fw fw ff fw): ff
+zdanie (fl fw fw ff): ff
+zdanie (fl fw fw fl ff): ff
+zdanie (fl fw fw fl fw ff): ff
+zdanie (fl fw fw fw ff fw): ff
+zdanie (fl fw fw fw ff): ff
+zdanie (fl fw fw fw fl ff fl): ff
+zdanie (fl fw fw fw fl ff): ff
+zdanie (fl fw posiłk fl ff): ff
+zdanie (fl fw posiłk fw ff): ff
+zdanie (fl fw posiłk fw fl ff fw): ff
+zdanie (fl posiłk fl ff fw fl): ff
+zdanie (fl posiłk fl ff fw): ff
+zdanie (fl posiłk fw ff fw fl): ff
+zdanie (fl posiłk fw ff): ff
+zdanie (fl posiłk fw fl fw ff): ff
+zdanie (fl posiłk fw fw ff fw): ff
+zdanie (fl posiłk fw fw ff): ff
+zdanie (fl): fl
+zdanie (formawykrz fw): formawykrz
+zdanie (formawykrz): formawykrz
+zdanie (fw ff fl fl fl): ff
+zdanie (fw ff fl fl fw): ff
+zdanie (fw ff fl fl): ff
+zdanie (fw ff fl fw fl): ff
+zdanie (fw ff fl fw fw fl): ff
+zdanie (fw ff fl fw fw): ff
+zdanie (fw ff fl fw): ff
+zdanie (fw ff fl): ff
+zdanie (fw ff fw fl fl fl): ff
+zdanie (fw ff fw fl fl fw): ff
+zdanie (fw ff fw fl fl): ff
+zdanie (fw ff fw fl fw fl): ff
+zdanie (fw ff fw fl fw): ff
+zdanie (fw ff fw fl): ff
+zdanie (fw ff fw fw fl fl): ff
+zdanie (fw ff fw fw fl fw): ff
+zdanie (fw ff fw fw fl): ff
+zdanie (fw ff fw fw fw): ff
+zdanie (fw ff fw fw): ff
+zdanie (fw ff fw): ff
+zdanie (fw ff): ff
+zdanie (fw fl ff fl fl): ff
+zdanie (fw fl ff fl fw fl): ff
+zdanie (fw fl ff fl fw): ff
+zdanie (fw fl ff fl): ff
+zdanie (fw fl ff fw fl fw): ff
+zdanie (fw fl ff fw fl): ff
+zdanie (fw fl ff fw fw fl): ff
+zdanie (fw fl ff fw fw fw): ff
+zdanie (fw fl ff fw fw): ff
+zdanie (fw fl ff fw): ff
+zdanie (fw fl ff): ff
+zdanie (fw fl fl ff fl): ff
+zdanie (fw fl fl ff fw fw fl): ff
+zdanie (fw fl fl ff fw fw): ff
+zdanie (fw fl fl ff fw): ff
+zdanie (fw fl fl ff): ff
+zdanie (fw fl fl fw ff fw): ff
+zdanie (fw fl fl posiłk fw ff): ff
+zdanie (fw fl fw ff fl): ff
+zdanie (fw fl fw ff fw fl): ff
+zdanie (fw fl fw ff fw fw): ff
+zdanie (fw fl fw ff fw): ff
+zdanie (fw fl fw ff): ff
+zdanie (fw fl fw fl ff): ff
+zdanie (fw fl fw fw ff): ff
+zdanie (fw fl posiłk fl ff): ff
+zdanie (fw fl posiłk fw ff fw): ff
+zdanie (fw fl posiłk fw ff): ff
+zdanie (fw fw ff fl fl fl): ff
+zdanie (fw fw ff fl fl fw): ff
+zdanie (fw fw ff fl fl): ff
+zdanie (fw fw ff fl fw): ff
+zdanie (fw fw ff fl): ff
+zdanie (fw fw ff fw fl): ff
+zdanie (fw fw ff fw fw fl): ff
+zdanie (fw fw ff fw fw): ff
+zdanie (fw fw ff fw): ff
+zdanie (fw fw ff): ff
+zdanie (fw fw fl ff fl): ff
+zdanie (fw fw fl ff fw fl): ff
+zdanie (fw fw fl ff fw): ff
+zdanie (fw fw fl ff): ff
+zdanie (fw fw fl fl ff): ff
+zdanie (fw fw fl fw ff): ff
+zdanie (fw fw fw ff fl): ff
+zdanie (fw fw fw ff): ff
+zdanie (fw fw fw fl ff): ff
+zdanie (fw fw fw fl fl ff): ff
+zdanie (fw fw posiłk fl ff): ff
+zdanie (fw fw posiłk fw ff fw): ff
+zdanie (fw posiłk fl ff fw): ff
+zdanie (fw posiłk fw ff fl): ff
+zdanie (fw posiłk fw ff fw): ff
+zdanie (fw posiłk fw ff): ff
+zdanie (fw posiłk fw fl ff fw): ff
+zdanie (fw posiłk fw fl fw ff): ff
+zdanie (fw posiłk fw fw ff fw fl): ff
+zdanie (fw): fw
+zdanie (fzd przec spójnik zdanie): zdanie
+zdanie (posiłk ff fw): ff
+zdanie (posiłk ff): ff
+zdanie (posiłk fl ff fl): ff
+zdanie (posiłk fl ff fw): ff
+zdanie (posiłk fl ff): ff
+zdanie (posiłk fl fw ff): ff
+zdanie (posiłk fw ff fl fw): ff
+zdanie (posiłk fw ff fw fw): ff
+zdanie (posiłk fw ff fw): ff
+zdanie (posiłk fw ff): ff
+zdanie (posiłk fw fl ff): ff
+zdanie (posiłk fw fl fl ff): ff
+zdanie (posiłk fw fl fw fw ff fl): ff
+zdanie (posiłk fw fw ff fl): ff
+zdanie (posiłk fw fw ff): ff
+zdanie (spójnik zdanie przec spójnik zdanie): spójnik
+zdanie (zdanie przec spójnik zdanie): spójnik
+zdanie (zdanie przec spójnik zdanie): zdanie
+zdanie (zdanie przec zdanie): przec
+zdanie (zdanie przec zdanie): zdanie
+zdanie (zdanie spójnik zdanie przec spójnik zdanie): spójnik
+zdanie (zdanie spójnik zdanie spójnik zdanie spójnik zdanie spójnik zdanie): spójnik
+zdanie (zdanie spójnik zdanie spójnik zdanie spójnik zdanie): spójnik
+zdanie (zdanie spójnik zdanie spójnik zdanie): spójnik
+zdanie (zdanie spójnik zdanie): spójnik
+znakkonca (terminal): terminal

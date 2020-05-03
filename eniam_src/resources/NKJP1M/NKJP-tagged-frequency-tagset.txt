@@ -1,0 +1,93 @@
+The file NKJP1M-tagged-frequency.tab has 7 column for each entry from the fre-
+quency list for NKJP1M.
+
+The file NKJP1M-frequency-with-corrections.tab has either 9 or 11 columns. In
+the former case, the columns are: word form (incorrect), lemma, word form (co-
+rrected), tag etc.
+
+In the latter, the columns are: word form (incorrect), lemma (incorrect), tag
+(incorrect), word forms (correct), lemmas (correct), tags (correct) etc. In
+this case, the corrected form contains many tokens, which are separated with
+| signs (as well as their tags and lemmas).
+
+1. Word form.
+2. Lemma.
+3. Tag. 
+4. Frequency.
+
+5. Adherence to the morphologic rules extracted from SGJP (see resources for
+SGJP).
+Possible values are:
+COMPOS-* - the triple adheres to a rule marked with asterisk (ie. unproductive,
+exceptional).
+COMPOS-ndm - the triple adheres to a non-inflecting rule (without affixes).
+COMPOS - the triple adheres to some other, regular rule.
+COMPOS-ALT - the triple is catched by one of the exceptions to those rules, li-
+sted in resources/SGJP/alt.tab.
+COMPOS-LWR, COMPOS-LWR-*, COMPOS-LWR-ndm, COMPOS-LWR-ALT - the triple adheres
+after converting both the word form and lemma to lowercase.
+NCOMPOS - all the others (no rule).
+
+6. Presence of this triple (word form, lemma, tag) in SGJP.
+I've used loosened criteria of tag equivalence (ie. treating tags n1, n2, n3,
+p2, p3 all as equal in both resources, since there is disagreement in using 
+them).
+Possible values are:
+SGJP-EXACT - the triple was found in SGJP exactly as it is in NKJP1M.
+SGJP-LMM-UNCAPITAL - the triple was found in SGJP with the first letter of the
+lemma converted to lowercase.
+SGJP-LMM-CAPITAL - the triple was found in SGJP when all the letters in the le-
+mma but the first were converted to lowercase.
+SGJP-LMM-LOWER - the triple was found in SGJP when the whole lemma was conve-
+rted to lowercase.
+SGJP-BTH-LOWER - the triple was found in SGJP when both the lemma and word form
+were converted to lowercase.
+NON-SGJP - all the others.
+
+7. Word classification.
+Possible values are:
+NCH - not checked (automatic label for all entries which are NOT NON-SGJP), may
+be actually any of the others.
+SYMB - a number, abbreviation, other symbol (eg. signs of articles in legal
+acts).
+COMPD - a compound form, with the second part after a hyphen, or apostrophe.
+PN - proper name. This includes the following cases, spelled in lowercase acco-
+rding to the standard ortography: 1) names of inhabitants and adjectives deri-
+ved from the names of places, nations etc. 2) words that are part of encyclo-
+paedic knowledge: names of races of pets, chemical substances, names of things
+referring to them by their brand (eg. ford, mercedes), names of biological spe-
+cies, names of currencies. 3) symbolic names (cryptonyms) of industrial products
+or scientific entities. Phonetic spellings are also included (such as "pep-
+sikola"), since they appear in oral transciptions.
+ACRO - acronyms, treated as a subset of proper names; but if they are inflected,
+they are COMPD.
+WEB - web addresses used as names of entities, used by humans (if they are just
+pointers for computers, they end up as SYMB's).
+CW - common word.
+SPEC - word of limited usage (scientific, vocational), but excluding slang.
+NEOL - neologism.
+EXT - external, non-Polish word.
+
+8. Correctness.
+Possible values are:
+CORR - correctly spelled word.
+ERR - incorrectly spelled word (including forms considered non-standard Polish
+*but not* dialectal).
+CERR - common error, often not perceived as such in less official contexts.
+DIAL - a dialectal or archaic form.
+PHON - word spelled incorrectly, but in a way clearly intended to reflect its 
+pronunciation.
+TAGD - word spelled correctly, but there's a disagreement between NKJP1M and
+SGJP in its part of speech classification (of type  "chory" - adj or subst?,
+"cierpiący" - adj or pact?).
+PLTAN - plurale tantum - word spelled correctly, but NKJP1M lemmatises it in
+plural and SGJP in singular.
+TAGE - in few obvious, unambigous instances - word incorrectly tagged by NKJP1M,
+only when the correct tag would make it CORR.
+ERR-TAGE, CERR-TAGE are possible when both the form and its tag are incorrect.
+
+Values added to the frequency-with-corrections file:
+DERR - deliberate error; these are not useful to model human error making, as
+they obviously deviate from the ortographic norm for some conscious reason.
+TERR - tokenization error; these are only parts of tokens that shouldn't have
+been indicated as separate in the freqlist.

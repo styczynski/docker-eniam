@@ -1,0 +1,5 @@
+- uporządkować położenie info_sentences i podzielić na część dotyczącą formatu i część dotyczącą korpusu
+
+- w ENIAMpreIntegration.parse_sentence zdania dla mate parsera tworzone są również wtedy, gdy są w cudzysłowach
+
+- poprawić uruchamianie mateparsera tak by działał szybciej

@@ -1,0 +1,2626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chunkList SYSTEM "ccl.dtd">
+<chunkList>
+ <chunk id="annots#Rachunkowosc">
+  <sentence id="s1">
+   <tok>
+    <orth>Podatki</orth>
+    <lex disamb="1"><base>podatek</base><ctag>subst:pl:nom:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">2363</prop>
+    <prop key="sense:ukb:syns_rank">2363/0.86603 223738/0.13397</prop>
+    <prop key="sense:ukb:unitsstr">podatek-1(pos) opodatkowanie-2(pos)</prop>
+    <prop key="sumo_map">subsumed:CurrencyMeasure</prop>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex disamb="1"><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+   </tok>
+   <tok>
+    <orth>Unii</orth>
+    <lex disamb="1"><base>unia</base><ctag>subst:sg:loc:f</ctag></lex>
+    <prop key="sense:ukb:syns_id">3623</prop>
+    <prop key="sense:ukb:syns_rank">3623/0.843487 7837/0.103926 7838/0.0525863</prop>
+    <prop key="sense:ukb:unitsstr">unia-1(zwz)</prop>
+    <prop key="sumo_map">subsumed:PoliticalOrganization</prop>
+   </tok>
+   <tok>
+    <orth>Europejskiej</orth>
+    <lex disamb="1"><base>europejski</base><ctag>adj:sg:loc:f:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">827</prop>
+    <prop key="sense:ukb:syns_rank">827/0.749757 245699/0.250243</prop>
+    <prop key="sense:ukb:unitsstr">europejski-1(rel)</prop>
+    <prop key="sumo_map">equivalent:Europe</prop>
+   </tok>
+   <tok>
+    <orth>można</orth>
+    <lex disamb="1"><base>można</base><ctag>pred</ctag></lex>
+    <prop key="sense:ukb:syns_id">1709</prop>
+    <prop key="sense:ukb:syns_rank">1709/1</prop>
+    <prop key="sense:ukb:unitsstr">można-1(cumy) wolno-1(cumy)</prop>
+   </tok>
+   <tok>
+    <orth>podzielić</orth>
+    <lex disamb="1"><base>podzielić</base><ctag>inf:perf</ctag></lex>
+    <prop key="sense:ukb:syns_id">54973</prop>
+    <prop key="sense:ukb:syns_rank">54973/0.308103 56823/0.292291 56585/0.119036 57630/0.097488 2397/0.077262 56843/0.0444211 2795/0.039307 63649/0.0134803 57631/0.00861133</prop>
+    <prop key="sense:ukb:unitsstr">skategoryzować-1(cumy) posegregować-1(cumy) posortować-1(cumy) zakwalifikować-2(cumy) sklasyfikować-2(cumy) stypizować-1(cumy) podzielić-4(cumy) pogrupować-1(cumy)</prop>
+   </tok>
+   <tok>
+    <orth>na</orth>
+    <lex disamb="1"><base>na</base><ctag>prep:acc</ctag></lex>
+   </tok>
+   <tok>
+    <orth>podatki</orth>
+    <lex disamb="1"><base>podatek</base><ctag>subst:pl:acc:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">2363</prop>
+    <prop key="sense:ukb:syns_rank">2363/0.86603 223738/0.13397</prop>
+    <prop key="sense:ukb:unitsstr">podatek-1(pos) opodatkowanie-2(pos)</prop>
+    <prop key="sumo_map">subsumed:CurrencyMeasure</prop>
+   </tok>
+   <tok>
+    <orth>bezpośrednie</orth>
+    <lex disamb="1"><base>bezpośredni</base><ctag>adj:pl:acc:m3:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">177</prop>
+    <prop key="sense:ukb:syns_rank">177/0.896639 103625/0.0474998 176/0.045806 421652/0.0100548</prop>
+    <prop key="sense:ukb:unitsstr">bezpośredni-1(jak)</prop>
+   </tok>
+   <tok>
+    <orth>i</orth>
+    <lex disamb="1"><base>i</base><ctag>conj</ctag></lex>
+   </tok>
+   <tok>
+    <orth>pośrednie</orth>
+    <lex disamb="1"><base>pośredni</base><ctag>adj:pl:acc:m3:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">9082</prop>
+    <prop key="sense:ukb:syns_rank">9082/0.83702 2482/0.144755 246636/0.0182253</prop>
+    <prop key="sense:ukb:unitsstr">pośredni-1(jak) przejściowy-1(jak)</prop>
+    <prop key="sumo_map">subsumed:SubjectiveAssessmentAttribute</prop>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+   </tok>
+  </sentence>
+  <sentence id="s2">
+   <tok>
+    <orth>Jedynie</orth>
+    <lex disamb="1"><base>jedynie</base><ctag>qub</ctag></lex>
+   </tok>
+   <tok>
+    <orth>podatki</orth>
+    <lex disamb="1"><base>podatek</base><ctag>subst:pl:nom:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">2363</prop>
+    <prop key="sense:ukb:syns_rank">2363/0.86603 223738/0.13397</prop>
+    <prop key="sense:ukb:unitsstr">podatek-1(pos) opodatkowanie-2(pos)</prop>
+    <prop key="sumo_map">subsumed:CurrencyMeasure</prop>
+   </tok>
+   <tok>
+    <orth>pośrednie</orth>
+    <lex disamb="1"><base>pośredni</base><ctag>adj:pl:nom:m3:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">9082</prop>
+    <prop key="sense:ukb:syns_rank">9082/0.83702 2482/0.144755 246636/0.0182253</prop>
+    <prop key="sense:ukb:unitsstr">pośredni-1(jak) przejściowy-1(jak)</prop>
+    <prop key="sumo_map">subsumed:SubjectiveAssessmentAttribute</prop>
+   </tok>
+   <tok>
+    <orth>zostały</orth>
+    <lex disamb="1"><base>zostać</base><ctag>praet:pl:m3:perf</ctag></lex>
+    <prop key="sense:ukb:syns_id">57019</prop>
+    <prop key="sense:ukb:syns_rank">57019/0.333964 57020/0.324078 53863/0.187255 2561/0.0890646 49997/0.0656392</prop>
+    <prop key="sense:ukb:unitsstr">zostać-5(cst) pozostać-2(cst)</prop>
+   </tok>
+   <tok>
+    <orth>zharmonizowane</orth>
+    <lex disamb="1"><base>zharmonizować</base><ctag>ppas:pl:nom:m3:perf:aff</ctag></lex>
+    <prop key="sense:ukb:syns_id">65307</prop>
+    <prop key="sense:ukb:syns_rank">65307/1</prop>
+    <prop key="sense:ukb:unitsstr">zestroić-1(zmn) zharmonizować-1(zmn) skorelować-1(zmn)</prop>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+   </tok>
+   <tok>
+    <orth>natomiast</orth>
+    <lex disamb="1"><base>natomiast</base><ctag>conj</ctag></lex>
+   </tok>
+   <tok>
+    <orth>podatki</orth>
+    <lex disamb="1"><base>podatek</base><ctag>subst:pl:nom:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">2363</prop>
+    <prop key="sense:ukb:syns_rank">2363/0.86603 223738/0.13397</prop>
+    <prop key="sense:ukb:unitsstr">podatek-1(pos) opodatkowanie-2(pos)</prop>
+    <prop key="sumo_map">subsumed:CurrencyMeasure</prop>
+   </tok>
+   <tok>
+    <orth>bezpośrednie</orth>
+    <lex disamb="1"><base>bezpośredni</base><ctag>adj:pl:nom:m3:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">177</prop>
+    <prop key="sense:ukb:syns_rank">177/0.896639 103625/0.0474998 176/0.045806 421652/0.0100548</prop>
+    <prop key="sense:ukb:unitsstr">bezpośredni-1(jak)</prop>
+   </tok>
+   <tok>
+    <orth>są</orth>
+    <lex disamb="1"><base>być</base><ctag>fin:pl:ter:imperf</ctag></lex>
+    <prop key="sense:ukb:syns_id">250920</prop>
+    <prop key="sense:ukb:syns_rank">250920/0.50127 50321/0.138007 55138/0.0984526 299/0.0833815 57004/0.0732424 250899/0.0574316 250925/0.0188598 250545/0.0168643 250912/0.00689784 250918/0.00559292</prop>
+    <prop key="sense:ukb:unitsstr">być-9(cst)</prop>
+   </tok>
+   <tok>
+    <orth>zróżnicowane</orth>
+    <lex disamb="1"><base>zróżnicować</base><ctag>ppas:pl:nom:n:perf:aff</ctag></lex>
+    <prop key="sense:ukb:syns_id">54971</prop>
+    <prop key="sense:ukb:syns_rank">54971/0.908862 4432/0.0911379</prop>
+    <prop key="sense:ukb:unitsstr">zróżnicować-2(cumy)</prop>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex disamb="1"><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+   </tok>
+   <tok>
+    <orth>poszczególnych</orth>
+    <lex disamb="1"><base>poszczególny</base><ctag>adj:pl:loc:m3:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">2500</prop>
+    <prop key="sense:ukb:syns_rank">2500/1</prop>
+    <prop key="sense:ukb:unitsstr">poszczególny-1(jak)</prop>
+    <prop key="sumo_map">subsumed:SubjectiveAssessmentAttribute</prop>
+   </tok>
+   <tok>
+    <orth>krajach</orth>
+    <lex disamb="1"><base>kraj</base><ctag>subst:pl:loc:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">41068</prop>
+    <prop key="sense:ukb:syns_rank">41068/0.76005 35149/0.229137 76009/0.00813283 67003/0.0026803</prop>
+    <prop key="sense:ukb:unitsstr">kraj-1(grp) państwo-1(zwz)</prop>
+    <prop key="sumo_map">subsumed:Nation</prop>
+   </tok>
+   <tok>
+    <orth>członkowskich</orth>
+    <lex disamb="1"><base>członkowski</base><ctag>adj:pl:loc:m3:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">9282</prop>
+    <prop key="sense:ukb:syns_rank">9282/1 408854/0</prop>
+    <prop key="sense:ukb:unitsstr">członkowski-1(rel)</prop>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+   </tok>
+  </sentence>
+  <sentence id="s3">
+   <tok>
+    <orth>Podatek</orth>
+    <lex disamb="1"><base>podatek</base><ctag>subst:sg:nom:m3</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">2363</prop>
+    <prop key="sense:ukb:syns_rank">2363/0.86603 223738/0.13397</prop>
+    <prop key="sense:ukb:unitsstr">podatek-1(pos) opodatkowanie-2(pos)</prop>
+    <prop key="sumo_map">subsumed:CurrencyMeasure</prop>
+   </tok>
+   <tok>
+    <orth>VAT</orth>
+    <lex disamb="1"><base>VAT</base><ctag>subst:sg:nom:m3</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">3703</prop>
+    <prop key="sense:ukb:syns_rank">3703/1</prop>
+    <prop key="sense:ukb:unitsstr">VAT-2(pos) PTU-1(pos) vat-1(pos) podatek_od_towarów_i_usług-1(pos)</prop>
+    <prop key="sumo_map">subsumed:Tax</prop>
+   </tok>
+   <tok>
+    <orth>Stawka</orth>
+    <lex disamb="1"><base>stawka</base><ctag>subst:sg:nom:f</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">384384</prop>
+    <prop key="sense:ukb:syns_rank">384384/0.936418 2806/0.0635825</prop>
+    <prop key="sense:ukb:unitsstr">stawka-2(zwz)</prop>
+    <prop key="sumo_map">equivalent:PerFn</prop>
+   </tok>
+   <tok>
+    <orth>podstawowa</orth>
+    <lex disamb="1"><base>podstawowy</base><ctag>adj:sg:nom:f:pos</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">1039</prop>
+    <prop key="sense:ukb:syns_rank">1039/0.866667 9390/0.133333</prop>
+    <prop key="sense:ukb:unitsstr">właściwy-5(jak) konstytutywny-1(jak) zasadniczy-2(jak) podstawowy-2(jak) główny-3(jak) najważniejszy-1(jak) pryncypalny-1(jak)</prop>
+   </tok>
+   <tok>
+    <orth>(</orth>
+    <lex disamb="1"><base>(</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>ang</orth>
+    <lex disamb="1"><base>ang</base><ctag>brev:pun</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>standard</orth>
+    <lex disamb="1"><base>standard</base><ctag>subst:sg:nom:m3</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">2877</prop>
+    <prop key="sense:ukb:syns_rank">2877/0.634832 1965/0.354298 394991/0.0108696</prop>
+    <prop key="sense:ukb:unitsstr">prawidłowość-1(umy) standard-1(umy) reguła-1(umy)</prop>
+    <prop key="sumo_map">subsumed:Proposition</prop>
+   </tok>
+   <tok>
+    <orth>rate</orth>
+    <lex disamb="1"><base>rate</base><ctag>adj:sg:nom:m3:pos</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>)</orth>
+    <lex disamb="1"><base>)</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>podatku</orth>
+    <lex disamb="1"><base>podatek</base><ctag>subst:sg:gen:m3</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">2363</prop>
+    <prop key="sense:ukb:syns_rank">2363/0.86603 223738/0.13397</prop>
+    <prop key="sense:ukb:unitsstr">podatek-1(pos) opodatkowanie-2(pos)</prop>
+    <prop key="sumo_map">subsumed:CurrencyMeasure</prop>
+   </tok>
+   <tok>
+    <orth>VAT</orth>
+    <lex disamb="1"><base>VAT</base><ctag>subst:sg:gen:m3</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">3703</prop>
+    <prop key="sense:ukb:syns_rank">3703/1</prop>
+    <prop key="sense:ukb:unitsstr">VAT-2(pos) PTU-1(pos) vat-1(pos) podatek_od_towarów_i_usług-1(pos)</prop>
+    <prop key="sumo_map">subsumed:Tax</prop>
+   </tok>
+   <tok>
+    <orth>nie</orth>
+    <lex disamb="1"><base>nie</base><ctag>qub</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>może</orth>
+    <lex disamb="1"><base>móc</base><ctag>fin:sg:ter:imperf</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">56100</prop>
+    <prop key="sense:ukb:syns_rank">56100/0.531493 251543/0.237964 251542/0.230544</prop>
+    <prop key="sense:ukb:unitsstr">być_w_stanie-1(cst) być_w_mocy-1(cst) móc-1(cst)</prop>
+   </tok>
+   <tok>
+    <orth>być</orth>
+    <lex disamb="1"><base>być</base><ctag>inf:imperf</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">250920</prop>
+    <prop key="sense:ukb:syns_rank">250920/0.50127 50321/0.138007 55138/0.0984526 299/0.0833815 57004/0.0732424 250899/0.0574316 250925/0.0188598 250545/0.0168643 250912/0.00689784 250918/0.00559292</prop>
+    <prop key="sense:ukb:unitsstr">być-9(cst)</prop>
+   </tok>
+   <tok>
+    <orth>niższa</orth>
+    <lex disamb="1"><base>niski</base><ctag>adj:sg:nom:f:com</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">1845</prop>
+    <prop key="sense:ukb:syns_rank">1845/0.244594 10593/0.236626 233966/0.203052 9452/0.191802 223931/0.0983244 104444/0.0207309 233965/0.00401153 247621/0.000859535</prop>
+    <prop key="sense:ukb:unitsstr">niewysoki-1(jak) niski-5(jak)</prop>
+    <prop key="sumo_map">subsumed:SubjectiveAssessmentAttribute</prop>
+   </tok>
+   <tok>
+    <orth>niż</orth>
+    <lex disamb="1"><base>niż</base><ctag>prep:nom</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>15</orth>
+    <lex disamb="1"><base>15</base><ctag>num:pl:nom:m3:rec</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>%</orth>
+    <lex disamb="1"><base>%</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>nie</orth>
+    <lex disamb="1"><base>nie</base><ctag>qub</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>ma</orth>
+    <lex disamb="1"><base>mieć</base><ctag>fin:sg:ter:imperf</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">59906</prop>
+    <prop key="sense:ukb:syns_rank">59906/0.628311 8913/0.252023 1719/0.0623793 55321/0.0572874</prop>
+    <prop key="sense:ukb:unitsstr">posiadać-1(cst) odznaczać_się-1(cst) cechować_się-1(cst) nosić-2(cst) charakteryzować_się-1(cst) mieć-1(cst)</prop>
+   </tok>
+   <tok>
+    <orth>natomiast</orth>
+    <lex disamb="1"><base>natomiast</base><ctag>conj</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>ustalonej</orth>
+    <lex disamb="1"><base>ustalić</base><ctag>ppas:sg:gen:f:perf:aff</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">3662</prop>
+    <prop key="sense:ukb:syns_rank">3662/0.536069 223893/0.376624 59907/0.0632061 59909/0.0192708 59914/0.00483073</prop>
+    <prop key="sense:ukb:unitsstr">ustalić-1(cumy)</prop>
+   </tok>
+   <tok>
+    <orth>górnej</orth>
+    <lex disamb="1"><base>górny</base><ctag>adj:sg:gen:f:pos</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">9508</prop>
+    <prop key="sense:ukb:syns_rank">9508/0.893617 9504/0.0654807 3396/0.0249057 1577/0.0159123 9506/8.44827e 422240/1.04538e 9507/1.04538e</prop>
+    <prop key="sense:ukb:unitsstr">wysoki-2(jak) górny-5(jak)</prop>
+   </tok>
+   <tok>
+    <orth>granicy</orth>
+    <lex disamb="1"><base>granica</base><ctag>subst:sg:gen:f</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">974</prop>
+    <prop key="sense:ukb:syns_rank">974/0.762584 7979/0.195034 976/0.021371 102941/0.0145676 8834/0.00644288</prop>
+    <prop key="sense:ukb:unitsstr">linia-6(ksz) granica-1(msc)</prop>
+    <prop key="sumo_map">subsumed:Region</prop>
+   </tok>
+   <tok>
+    <orth>(</orth>
+    <lex disamb="1"><base>(</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>obecnie</orth>
+    <lex disamb="1"><base>obecnie</base><ctag>adv:pos</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>najwyższa</orth>
+    <lex disamb="1"><base>wysoki</base><ctag>adj:sg:nom:f:sup</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">9508</prop>
+    <prop key="sense:ukb:syns_rank">9508/0.546886 4032/0.174154 10592/0.122684 249144/0.0790611 4034/0.0672331 105295/0.00998117</prop>
+    <prop key="sense:ukb:unitsstr">wysoki-2(jak) górny-5(jak)</prop>
+   </tok>
+   <tok>
+    <orth>stawka</orth>
+    <lex disamb="1"><base>stawka</base><ctag>subst:sg:nom:f</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">384384</prop>
+    <prop key="sense:ukb:syns_rank">384384/0.936418 2806/0.0635825</prop>
+    <prop key="sense:ukb:unitsstr">stawka-2(zwz)</prop>
+    <prop key="sumo_map">equivalent:PerFn</prop>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex disamb="1"><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>UE</orth>
+    <lex disamb="1"><base>UE</base><ctag>subst:sg:loc:f</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>i</orth>
+    <lex disamb="1"><base>i</base><ctag>conj</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>na</orth>
+    <lex disamb="1"><base>na</base><ctag>prep:loc</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>świecie</orth>
+    <lex disamb="1"><base>Świat</base><ctag>subst:sg:loc:m3</ctag></lex>
+    <lex disamb="1"><base>świat</base><ctag>subst:sg:loc:m3</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>jest</orth>
+    <lex disamb="1"><base>być</base><ctag>fin:sg:ter:imperf</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">250920</prop>
+    <prop key="sense:ukb:syns_rank">250920/0.50127 50321/0.138007 55138/0.0984526 299/0.0833815 57004/0.0732424 250899/0.0574316 250925/0.0188598 250545/0.0168643 250912/0.00689784 250918/0.00559292</prop>
+    <prop key="sense:ukb:unitsstr">być-9(cst)</prop>
+   </tok>
+   <tok>
+    <orth>na</orth>
+    <lex disamb="1"><base>na</base><ctag>prep:loc</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>Węgrzech</orth>
+    <lex disamb="1"><base>Węgry</base><ctag>subst:pl:loc:n</ctag></lex>
+    <ann chan="country_nam">1</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>wynosi</orth>
+    <lex disamb="1"><base>wynosić</base><ctag>fin:sg:ter:imperf</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">57939</prop>
+    <prop key="sense:ukb:syns_rank">57939/0.767381 57937/0.0963175 3976/0.0895687 60628/0.0367487 57943/0.00512393 53936/0.00348566 68120/0.00137456</prop>
+    <prop key="sense:ukb:unitsstr">wynosić-6(cst)</prop>
+   </tok>
+   <tok>
+    <orth>27</orth>
+    <lex disamb="1"><base>27</base><ctag>num:pl:acc:m3:rec</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>%</orth>
+    <lex disamb="1"><base>%</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>)</orth>
+    <lex disamb="1"><base>)</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+  </sentence>
+  <sentence id="s4">
+   <tok>
+    <orth>Dodatkowo</orth>
+    <lex disamb="1"><base>dodatkowo</base><ctag>adv:pos</ctag></lex>
+   </tok>
+   <tok>
+    <orth>każdy</orth>
+    <lex disamb="1"><base>każdy</base><ctag>adj:sg:nom:m3:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">3901</prop>
+    <prop key="sense:ukb:syns_rank">3901/1</prop>
+    <prop key="sense:ukb:unitsstr">każdy-1(jak) jakikolwiek-1(jak) wszelaki-1(jak) wszelki-1(jak)</prop>
+   </tok>
+   <tok>
+    <orth>kraj</orth>
+    <lex disamb="1"><base>kraj</base><ctag>subst:sg:nom:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">41068</prop>
+    <prop key="sense:ukb:syns_rank">41068/0.76005 35149/0.229137 76009/0.00813283 67003/0.0026803</prop>
+    <prop key="sense:ukb:unitsstr">kraj-1(grp) państwo-1(zwz)</prop>
+    <prop key="sumo_map">subsumed:Nation</prop>
+   </tok>
+   <tok>
+    <orth>członkowski</orth>
+    <lex disamb="1"><base>członkowski</base><ctag>adj:sg:nom:m3:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">9282</prop>
+    <prop key="sense:ukb:syns_rank">9282/1 408854/0</prop>
+    <prop key="sense:ukb:unitsstr">członkowski-1(rel)</prop>
+   </tok>
+   <tok>
+    <orth>może</orth>
+    <lex disamb="1"><base>móc</base><ctag>fin:sg:ter:imperf</ctag></lex>
+    <prop key="sense:ukb:syns_id">56100</prop>
+    <prop key="sense:ukb:syns_rank">56100/0.531493 251543/0.237964 251542/0.230544</prop>
+    <prop key="sense:ukb:unitsstr">być_w_stanie-1(cst) być_w_mocy-1(cst) móc-1(cst)</prop>
+   </tok>
+   <tok>
+    <orth>zastosować</orth>
+    <lex disamb="1"><base>zastosować</base><ctag>inf:perf</ctag></lex>
+    <prop key="sense:ukb:syns_id">2506</prop>
+    <prop key="sense:ukb:syns_rank">2506/1</prop>
+    <prop key="sense:ukb:unitsstr">użyć-1(cwyt) posłużyć_się-2(cwyt) wykorzystać-1(cwyt) zastosować-1(cwyt) skorzystać-1(cst)</prop>
+   </tok>
+   <tok>
+    <orth>tylko</orth>
+    <lex disamb="1"><base>tylko</base><ctag>qub</ctag></lex>
+   </tok>
+   <tok>
+    <orth>jedną</orth>
+    <lex disamb="1"><base>jeden</base><ctag>adj:sg:acc:f:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">1151</prop>
+    <prop key="sense:ukb:syns_rank">1151/0.891972 1158/0.0766248 1154/0.030604 1153/0.000799677</prop>
+    <prop key="sense:ukb:unitsstr">jeden-3(jak) pewien-1(jak) określony-2(jak)</prop>
+   </tok>
+   <tok>
+    <orth>stawkę</orth>
+    <lex disamb="1"><base>stawka</base><ctag>subst:sg:acc:f</ctag></lex>
+    <prop key="sense:ukb:syns_id">384384</prop>
+    <prop key="sense:ukb:syns_rank">384384/0.936418 2806/0.0635825</prop>
+    <prop key="sense:ukb:unitsstr">stawka-2(zwz)</prop>
+    <prop key="sumo_map">equivalent:PerFn</prop>
+   </tok>
+   <tok>
+    <orth>obniżoną</orth>
+    <lex disamb="1"><base>obniżyć</base><ctag>ppas:sg:acc:f:perf:aff</ctag></lex>
+    <prop key="sense:ukb:syns_id">62934</prop>
+    <prop key="sense:ukb:syns_rank">62934/0.601461 2005/0.360801 62936/0.0377376</prop>
+    <prop key="sense:ukb:unitsstr">obniżyć-1(zmn)</prop>
+   </tok>
+   <tok>
+    <orth>(</orth>
+    <lex disamb="1"><base>(</base><ctag>interp</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>reduced</orth>
+    <lex disamb="1"><base>reduced</base><ctag>xxx</ctag></lex>
+   </tok>
+   <tok>
+    <orth>rate</orth>
+    <lex disamb="1"><base>rate</base><ctag>xxx</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>)</orth>
+    <lex disamb="1"><base>)</base><ctag>interp</ctag></lex>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex disamb="1"><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+   </tok>
+   <tok>
+    <orth>stosunku</orth>
+    <lex disamb="1"><base>stosunek</base><ctag>subst:sg:loc:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">21358</prop>
+    <prop key="sense:ukb:syns_rank">21358/0.706646 2489/0.155719 10691/0.0863902 224824/0.0512452</prop>
+    <prop key="sense:ukb:unitsstr">stosunek-3(umy) proporcja-4(umy)</prop>
+    <prop key="sumo_map">subsumed:RationalNumber</prop>
+   </tok>
+   <tok>
+    <orth>do</orth>
+    <lex disamb="1"><base>do</base><ctag>prep:gen</ctag></lex>
+   </tok>
+   <tok>
+    <orth>stawki</orth>
+    <lex disamb="1"><base>stawka</base><ctag>subst:sg:gen:f</ctag></lex>
+    <prop key="sense:ukb:syns_id">384384</prop>
+    <prop key="sense:ukb:syns_rank">384384/0.936418 2806/0.0635825</prop>
+    <prop key="sense:ukb:unitsstr">stawka-2(zwz)</prop>
+    <prop key="sumo_map">equivalent:PerFn</prop>
+   </tok>
+   <tok>
+    <orth>podstawowej</orth>
+    <lex disamb="1"><base>podstawowy</base><ctag>adj:sg:gen:f:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">1039</prop>
+    <prop key="sense:ukb:syns_rank">1039/0.866667 9390/0.133333</prop>
+    <prop key="sense:ukb:unitsstr">właściwy-5(jak) konstytutywny-1(jak) zasadniczy-2(jak) podstawowy-2(jak) główny-3(jak) najważniejszy-1(jak) pryncypalny-1(jak)</prop>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+   </tok>
+  </sentence>
+  <sentence id="s5">
+   <tok>
+    <orth>Stawka</orth>
+    <lex disamb="1"><base>stawka</base><ctag>subst:sg:nom:f</ctag></lex>
+    <prop key="sense:ukb:syns_id">384384</prop>
+    <prop key="sense:ukb:syns_rank">384384/0.936418 2806/0.0635825</prop>
+    <prop key="sense:ukb:unitsstr">stawka-2(zwz)</prop>
+    <prop key="sumo_map">equivalent:PerFn</prop>
+   </tok>
+   <tok>
+    <orth>zerowa</orth>
+    <lex disamb="1"><base>zerowy</base><ctag>adj:sg:nom:f:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">105707</prop>
+    <prop key="sense:ukb:syns_rank">105707/0.780573 105706/0.219427 105708/0</prop>
+    <prop key="sense:ukb:unitsstr">zerowy-2(jak)</prop>
+    <prop key="sumo_map">subsumed:starts</prop>
+   </tok>
+   <tok>
+    <orth>VAT</orth>
+    <lex disamb="1"><base>VAT</base><ctag>subst:sg:nom:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">3703</prop>
+    <prop key="sense:ukb:syns_rank">3703/1</prop>
+    <prop key="sense:ukb:unitsstr">VAT-2(pos) PTU-1(pos) vat-1(pos) podatek_od_towarów_i_usług-1(pos)</prop>
+    <prop key="sumo_map">subsumed:Tax</prop>
+   </tok>
+   <tok>
+    <orth>(</orth>
+    <lex disamb="1"><base>(</base><ctag>interp</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>zero</orth>
+    <lex disamb="1"><base>zero</base><ctag>num:pl:nom:f:rec</ctag></lex>
+   </tok>
+   <tok>
+    <orth>rate</orth>
+    <lex disamb="1"><base>rate</base><ctag>subst:pl:gen:f</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>)</orth>
+    <lex disamb="1"><base>)</base><ctag>interp</ctag></lex>
+   </tok>
+   <tok>
+    <orth>może</orth>
+    <lex disamb="1"><base>móc</base><ctag>fin:sg:ter:imperf</ctag></lex>
+    <prop key="sense:ukb:syns_id">56100</prop>
+    <prop key="sense:ukb:syns_rank">56100/0.531493 251543/0.237964 251542/0.230544</prop>
+    <prop key="sense:ukb:unitsstr">być_w_stanie-1(cst) być_w_mocy-1(cst) móc-1(cst)</prop>
+   </tok>
+   <tok>
+    <orth>być</orth>
+    <lex disamb="1"><base>być</base><ctag>inf:imperf</ctag></lex>
+    <prop key="sense:ukb:syns_id">250920</prop>
+    <prop key="sense:ukb:syns_rank">250920/0.50127 50321/0.138007 55138/0.0984526 299/0.0833815 57004/0.0732424 250899/0.0574316 250925/0.0188598 250545/0.0168643 250912/0.00689784 250918/0.00559292</prop>
+    <prop key="sense:ukb:unitsstr">być-9(cst)</prop>
+   </tok>
+   <tok>
+    <orth>stosowana</orth>
+    <lex disamb="1"><base>stosować</base><ctag>ppas:sg:nom:f:imperf:aff</ctag></lex>
+    <prop key="sense:ukb:syns_id">58552</prop>
+    <prop key="sense:ukb:syns_rank">58552/1</prop>
+    <prop key="sense:ukb:unitsstr">posługiwać_się-1(cpos) wykorzystywać-1(cpos) stosować-1(cpos) korzystać-1(cst) używać-1(cpos)</prop>
+   </tok>
+   <tok>
+    <orth>jedynie</orth>
+    <lex disamb="1"><base>jedynie</base><ctag>qub</ctag></lex>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex disamb="1"><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+   </tok>
+   <tok>
+    <orth>stosunku</orth>
+    <lex disamb="1"><base>stosunek</base><ctag>subst:sg:loc:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">21358</prop>
+    <prop key="sense:ukb:syns_rank">21358/0.706646 2489/0.155719 10691/0.0863902 224824/0.0512452</prop>
+    <prop key="sense:ukb:unitsstr">stosunek-3(umy) proporcja-4(umy)</prop>
+    <prop key="sumo_map">subsumed:RationalNumber</prop>
+   </tok>
+   <tok>
+    <orth>do</orth>
+    <lex disamb="1"><base>do</base><ctag>prep:gen</ctag></lex>
+   </tok>
+   <tok>
+    <orth>dostaw</orth>
+    <lex disamb="1"><base>dostawa</base><ctag>subst:pl:gen:f</ctag></lex>
+    <prop key="sense:ukb:syns_id">15844</prop>
+    <prop key="sense:ukb:syns_rank">15844/0.684758 17898/0.300814 45173/0.014428</prop>
+    <prop key="sense:ukb:unitsstr">przywóz-1(czy) dowóz-1(czy) dostawa-1(czy) przywózka-1(czy)</prop>
+    <prop key="sumo_map">subsumed:TransportationService</prop>
+   </tok>
+   <tok>
+    <orth>wewnątrzwspólnotowych</orth>
+    <lex disamb="1"><base>wewnątrzwspólnotowych</base><ctag>subst:sg:gen:f</ctag></lex>
+   </tok>
+   <tok>
+    <orth>oraz</orth>
+    <lex disamb="1"><base>oraz</base><ctag>conj</ctag></lex>
+   </tok>
+   <tok>
+    <orth>eksportu</orth>
+    <lex disamb="1"><base>eksport</base><ctag>subst:sg:gen:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">10767</prop>
+    <prop key="sense:ukb:syns_rank">10767/1</prop>
+    <prop key="sense:ukb:unitsstr">eksport-1(pos)</prop>
+    <prop key="sumo_map">subsumed:Physical</prop>
+   </tok>
+   <tok>
+    <orth>towarów</orth>
+    <lex disamb="1"><base>towar</base><ctag>subst:pl:gen:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">7086</prop>
+    <prop key="sense:ukb:syns_rank">7086/0.930421 1779/0.0414404 43364/0.028139</prop>
+    <prop key="sense:ukb:unitsstr">towar-3(wytw)</prop>
+    <prop key="sumo_map">equivalent:Product</prop>
+   </tok>
+   <tok>
+    <orth>do</orth>
+    <lex disamb="1"><base>do</base><ctag>prep:gen</ctag></lex>
+   </tok>
+   <tok>
+    <orth>krajów</orth>
+    <lex disamb="1"><base>kraj</base><ctag>subst:pl:gen:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">41068</prop>
+    <prop key="sense:ukb:syns_rank">41068/0.76005 35149/0.229137 76009/0.00813283 67003/0.0026803</prop>
+    <prop key="sense:ukb:unitsstr">kraj-1(grp) państwo-1(zwz)</prop>
+    <prop key="sumo_map">subsumed:Nation</prop>
+   </tok>
+   <tok>
+    <orth>trzecich</orth>
+    <lex disamb="1"><base>trzeci</base><ctag>adj:pl:gen:m3:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">241292</prop>
+    <prop key="sense:ukb:syns_rank">241292/0.77193 418589/0.22807 418533/0 418591/0 105237/0</prop>
+    <prop key="sense:ukb:unitsstr">postronny-1(jak) trzeci-6(jak)</prop>
+    <prop key="sumo_map">subsumed:StateOfMind</prop>
+   </tok>
+   <tok>
+    <orth>(</orth>
+    <lex disamb="1"><base>(</base><ctag>interp</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>niebędących</orth>
+    <lex disamb="1"><base>być</base><ctag>pact:pl:gen:m1:imperf:neg</ctag></lex>
+    <prop key="sense:ukb:syns_id">250920</prop>
+    <prop key="sense:ukb:syns_rank">250920/0.50127 50321/0.138007 55138/0.0984526 299/0.0833815 57004/0.0732424 250899/0.0574316 250925/0.0188598 250545/0.0168643 250912/0.00689784 250918/0.00559292</prop>
+    <prop key="sense:ukb:unitsstr">być-9(cst)</prop>
+   </tok>
+   <tok>
+    <orth>członkami</orth>
+    <lex disamb="1"><base>członek</base><ctag>subst:pl:inst:m1</ctag></lex>
+    <prop key="sense:ukb:syns_id">6043</prop>
+    <prop key="sense:ukb:syns_rank">6043/0.618273 29159/0.369698 6450/0.010414 6449/0.00161452</prop>
+    <prop key="sense:ukb:unitsstr">członek-2(os)</prop>
+    <prop key="sumo_map">equivalent:groupMember;R:Musician</prop>
+   </tok>
+   <tok>
+    <orth>UE</orth>
+    <lex disamb="1"><base>UE</base><ctag>subst:sg:gen:f</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>)</orth>
+    <lex disamb="1"><base>)</base><ctag>interp</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+   </tok>
+  </sentence>
+  <sentence id="s6">
+   <tok>
+    <orth>Obecnie</orth>
+    <lex disamb="1"><base>obecnie</base><ctag>adv:pos</ctag></lex>
+   </tok>
+   <tok>
+    <orth>kraje</orth>
+    <lex disamb="1"><base>krajać</base><ctag>fin:sg:ter:imperf</ctag></lex>
+    <prop key="sense:ukb:syns_id">17993</prop>
+    <prop key="sense:ukb:syns_rank">17993/1</prop>
+    <prop key="sense:ukb:unitsstr">kroić-2(cwyt) krajać-1(cwyt)</prop>
+   </tok>
+   <tok>
+    <orth>członkowskie</orth>
+    <lex disamb="1"><base>członkowski</base><ctag>adj:pl:acc:m3:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">9282</prop>
+    <prop key="sense:ukb:syns_rank">9282/1 408854/0</prop>
+    <prop key="sense:ukb:unitsstr">członkowski-1(rel)</prop>
+   </tok>
+   <tok>
+    <orth>zgodnie</orth>
+    <lex disamb="1"><base>zgodnie</base><ctag>adv:pos</ctag></lex>
+   </tok>
+   <tok>
+    <orth>z</orth>
+    <lex disamb="1"><base>z</base><ctag>prep:inst:nwok</ctag></lex>
+   </tok>
+   <tok>
+    <orth>wynegocjowanymi</orth>
+    <lex disamb="1"><base>wynegocjować</base><ctag>ppas:pl:inst:m3:perf:aff</ctag></lex>
+    <prop key="sense:ukb:syns_id">57953</prop>
+    <prop key="sense:ukb:syns_rank">57953/1</prop>
+    <prop key="sense:ukb:unitsstr">wynegocjować-1(cpor)</prop>
+   </tok>
+   <tok>
+    <orth>warunkami</orth>
+    <lex disamb="1"><base>warunek</base><ctag>subst:pl:inst:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">20740</prop>
+    <prop key="sense:ukb:syns_rank">20740/0.508055 3724/0.44348 6425/0.0484653</prop>
+    <prop key="sense:ukb:unitsstr">warunek-1(zj) uwarunkowanie-2(zj) czynnik-1(zj)</prop>
+    <prop key="sumo_map">subsumed:Agent</prop>
+   </tok>
+   <tok>
+    <orth>mogą</orth>
+    <lex disamb="1"><base>móc</base><ctag>fin:pl:ter:imperf</ctag></lex>
+    <prop key="sense:ukb:syns_id">56100</prop>
+    <prop key="sense:ukb:syns_rank">56100/0.531493 251543/0.237964 251542/0.230544</prop>
+    <prop key="sense:ukb:unitsstr">być_w_stanie-1(cst) być_w_mocy-1(cst) móc-1(cst)</prop>
+   </tok>
+   <tok>
+    <orth>stosować</orth>
+    <lex disamb="1"><base>stosować</base><ctag>inf:imperf</ctag></lex>
+    <prop key="sense:ukb:syns_id">58552</prop>
+    <prop key="sense:ukb:syns_rank">58552/1</prop>
+    <prop key="sense:ukb:unitsstr">posługiwać_się-1(cpos) wykorzystywać-1(cpos) stosować-1(cpos) korzystać-1(cst) używać-1(cpos)</prop>
+   </tok>
+   <tok>
+    <orth>stawkę</orth>
+    <lex disamb="1"><base>stawka</base><ctag>subst:sg:acc:f</ctag></lex>
+    <prop key="sense:ukb:syns_id">384384</prop>
+    <prop key="sense:ukb:syns_rank">384384/0.936418 2806/0.0635825</prop>
+    <prop key="sense:ukb:unitsstr">stawka-2(zwz)</prop>
+    <prop key="sumo_map">equivalent:PerFn</prop>
+   </tok>
+   <tok>
+    <orth>przejściową</orth>
+    <lex disamb="1"><base>przejściowy</base><ctag>adj:sg:acc:f:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">9082</prop>
+    <prop key="sense:ukb:syns_rank">9082/0.972538 3549/0.0274622 229097/0</prop>
+    <prop key="sense:ukb:unitsstr">pośredni-1(jak) przejściowy-1(jak)</prop>
+    <prop key="sumo_map">subsumed:SubjectiveAssessmentAttribute</prop>
+   </tok>
+   <tok>
+    <orth>(</orth>
+    <lex disamb="1"><base>(</base><ctag>interp</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>parking</orth>
+    <lex disamb="1"><base>parking</base><ctag>subst:sg:nom:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">8308</prop>
+    <prop key="sense:ukb:syns_rank">8308/1</prop>
+    <prop key="sense:ukb:unitsstr">parking-1(msc)</prop>
+    <prop key="sumo_map">equivalent:ParkingLot</prop>
+   </tok>
+   <tok>
+    <orth>rate</orth>
+    <lex disamb="1"><base>rate</base><ctag>subst:sg:nom:m3</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>)</orth>
+    <lex disamb="1"><base>)</base><ctag>interp</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+   </tok>
+  </sentence>
+  <sentence id="s7">
+   <tok>
+    <orth>Dla</orth>
+    <lex disamb="1"><base>dla</base><ctag>prep:gen</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>przykładu</orth>
+    <lex disamb="1"><base>przykład</base><ctag>subst:sg:gen:m3</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">23161</prop>
+    <prop key="sense:ukb:syns_rank">23161/0.868422 17845/0.122533 404294/0.00904559</prop>
+    <prop key="sense:ukb:unitsstr">przykład-2(por) exemplum-1(por)</prop>
+    <prop key="sumo_map">subsumed:instance</prop>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex disamb="1"><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>Polsce</orth>
+    <lex disamb="1"><base>Polska</base><ctag>subst:sg:loc:f</ctag></lex>
+    <ann chan="country_nam">1</ann>
+   </tok>
+   <tok>
+    <orth>stawką</orth>
+    <lex disamb="1"><base>stawka</base><ctag>subst:sg:inst:f</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">384384</prop>
+    <prop key="sense:ukb:syns_rank">384384/0.936418 2806/0.0635825</prop>
+    <prop key="sense:ukb:unitsstr">stawka-2(zwz)</prop>
+    <prop key="sumo_map">equivalent:PerFn</prop>
+   </tok>
+   <tok>
+    <orth>przejściową</orth>
+    <lex disamb="1"><base>przejściowy</base><ctag>adj:sg:inst:f:pos</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">9082</prop>
+    <prop key="sense:ukb:syns_rank">9082/0.972538 3549/0.0274622 229097/0</prop>
+    <prop key="sense:ukb:unitsstr">pośredni-1(jak) przejściowy-1(jak)</prop>
+    <prop key="sumo_map">subsumed:SubjectiveAssessmentAttribute</prop>
+   </tok>
+   <tok>
+    <orth>jest</orth>
+    <lex disamb="1"><base>być</base><ctag>fin:sg:ter:imperf</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">250920</prop>
+    <prop key="sense:ukb:syns_rank">250920/0.50127 50321/0.138007 55138/0.0984526 299/0.0833815 57004/0.0732424 250899/0.0574316 250925/0.0188598 250545/0.0168643 250912/0.00689784 250918/0.00559292</prop>
+    <prop key="sense:ukb:unitsstr">być-9(cst)</prop>
+   </tok>
+   <tok>
+    <orth>obniżona</orth>
+    <lex disamb="1"><base>obniżyć</base><ctag>ppas:sg:nom:f:perf:aff</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">62934</prop>
+    <prop key="sense:ukb:syns_rank">62934/0.601461 2005/0.360801 62936/0.0377376</prop>
+    <prop key="sense:ukb:unitsstr">obniżyć-1(zmn)</prop>
+   </tok>
+   <tok>
+    <orth>stawka</orth>
+    <lex disamb="1"><base>stawka</base><ctag>subst:sg:nom:f</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">384384</prop>
+    <prop key="sense:ukb:syns_rank">384384/0.936418 2806/0.0635825</prop>
+    <prop key="sense:ukb:unitsstr">stawka-2(zwz)</prop>
+    <prop key="sumo_map">equivalent:PerFn</prop>
+   </tok>
+   <tok>
+    <orth>8</orth>
+    <lex disamb="1"><base>8</base><ctag>num:pl:nom:m3:rec</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>%</orth>
+    <lex disamb="1"><base>%</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>oraz</orth>
+    <lex disamb="1"><base>oraz</base><ctag>conj</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>stawka</orth>
+    <lex disamb="1"><base>stawka</base><ctag>subst:sg:nom:f</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">384384</prop>
+    <prop key="sense:ukb:syns_rank">384384/0.936418 2806/0.0635825</prop>
+    <prop key="sense:ukb:unitsstr">stawka-2(zwz)</prop>
+    <prop key="sumo_map">equivalent:PerFn</prop>
+   </tok>
+   <tok>
+    <orth>5</orth>
+    <lex disamb="1"><base>5</base><ctag>num:pl:nom:m3:rec</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>%</orth>
+    <lex disamb="1"><base>%</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+  </sentence>
+  <sentence id="s8">
+   <tok>
+    <orth>Podatki</orth>
+    <lex disamb="1"><base>podatek</base><ctag>subst:pl:nom:m3</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">2363</prop>
+    <prop key="sense:ukb:syns_rank">2363/0.86603 223738/0.13397</prop>
+    <prop key="sense:ukb:unitsstr">podatek-1(pos) opodatkowanie-2(pos)</prop>
+    <prop key="sumo_map">subsumed:CurrencyMeasure</prop>
+   </tok>
+   <tok>
+    <orth>bezpośrednie</orth>
+    <lex disamb="1"><base>bezpośredni</base><ctag>adj:pl:nom:m3:pos</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">177</prop>
+    <prop key="sense:ukb:syns_rank">177/0.896639 103625/0.0474998 176/0.045806 421652/0.0100548</prop>
+    <prop key="sense:ukb:unitsstr">bezpośredni-1(jak)</prop>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex disamb="1"><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>krajach</orth>
+    <lex disamb="1"><base>kraj</base><ctag>subst:pl:loc:m3</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">41068</prop>
+    <prop key="sense:ukb:syns_rank">41068/0.76005 35149/0.229137 76009/0.00813283 67003/0.0026803</prop>
+    <prop key="sense:ukb:unitsstr">kraj-1(grp) państwo-1(zwz)</prop>
+    <prop key="sumo_map">subsumed:Nation</prop>
+   </tok>
+   <tok>
+    <orth>Unii</orth>
+    <lex disamb="1"><base>unia</base><ctag>subst:sg:gen:f</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">3623</prop>
+    <prop key="sense:ukb:syns_rank">3623/0.843487 7837/0.103926 7838/0.0525863</prop>
+    <prop key="sense:ukb:unitsstr">unia-1(zwz)</prop>
+    <prop key="sumo_map">subsumed:PoliticalOrganization</prop>
+   </tok>
+   <tok>
+    <orth>Europejskiej</orth>
+    <lex disamb="1"><base>europejski</base><ctag>adj:sg:gen:f:pos</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">827</prop>
+    <prop key="sense:ukb:syns_rank">827/0.749757 245699/0.250243</prop>
+    <prop key="sense:ukb:unitsstr">europejski-1(rel)</prop>
+    <prop key="sumo_map">equivalent:Europe</prop>
+   </tok>
+   <tok>
+    <orth>Dania</orth>
+    <lex disamb="1"><base>danie</base><ctag>subst:sg:gen:n</ctag></lex>
+    <ann chan="country_nam">2</ann>
+    <prop key="sense:ukb:syns_id">86803</prop>
+    <prop key="sense:ukb:syns_rank">86803/0.369248 96892/0.165228 92412/0.0627376 90317/0.0588297 86826/0.0559696 94381/0.0528928 86746/0.0459185 100695/0.0364932 86783/0.0357376 11055/0.0341546 94025/0.0262499 98160/0.0217554 99568/0.0146444 90092/0.00662485 86749/0.00638326 97969/0.00361594 94759/0.00351701</prop>
+    <prop key="sense:ukb:unitsstr">danie-4(zdarz)</prop>
+   </tok>
+   <tok>
+    <orth>podatki</orth>
+    <lex disamb="1"><base>podatek</base><ctag>subst:pl:nom:m3</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">2363</prop>
+    <prop key="sense:ukb:syns_rank">2363/0.86603 223738/0.13397</prop>
+    <prop key="sense:ukb:unitsstr">podatek-1(pos) opodatkowanie-2(pos)</prop>
+    <prop key="sumo_map">subsumed:CurrencyMeasure</prop>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex disamb="1"><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>Danii</orth>
+    <lex disamb="1"><base>Dania</base><ctag>subst:sg:loc:f</ctag></lex>
+    <ann chan="country_nam">4</ann>
+   </tok>
+   <tok>
+    <orth>Malta</orth>
+    <lex disamb="1"><base>Malta</base><ctag>subst:sg:nom:f</ctag></lex>
+    <ann chan="country_nam">1</ann>
+   </tok>
+   <tok>
+    <orth>taxxa</orth>
+    <lex disamb="1"><base>taxxa</base><ctag>adj:pl:gen:f:pos</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>fug</orth>
+    <lex disamb="1"><base>fuga</base><ctag>subst:pl:gen:f</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">30212</prop>
+    <prop key="sense:ukb:syns_rank">30212/0.311196 30279/0.299257 30213/0.215675 30211/0.152873 393116/0.0209986</prop>
+    <prop key="sense:ukb:unitsstr">fuga-3(sbst)</prop>
+    <prop key="sumo_map">subsumed:Mixture</prop>
+   </tok>
+   <tok>
+    <orth>l</orth>
+    <lex disamb="1"><base>L</base><ctag>brev:pun</ctag></lex>
+    <lex disamb="1"><base>lata</base><ctag>brev:pun</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>-</orth>
+    <lex disamb="1"><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>income</orth>
+    <lex disamb="1"><base>income</base><ctag>subst:sg:nom:m3</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>(</orth>
+    <lex disamb="1"><base>(</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>maltański</orth>
+    <lex disamb="1"><base>maltański</base><ctag>adj:sg:nom:m3:pos</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">43237</prop>
+    <prop key="sense:ukb:syns_rank">43237/1</prop>
+    <prop key="sense:ukb:unitsstr">maltański-1(rel)</prop>
+    <prop key="sumo_map">instance_of:Nation</prop>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>)</orth>
+    <lex disamb="1"><base>)</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>–</orth>
+    <lex disamb="1"><base>–</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>podatek</orth>
+    <lex disamb="1"><base>podatek</base><ctag>subst:sg:nom:m3</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">2363</prop>
+    <prop key="sense:ukb:syns_rank">2363/0.86603 223738/0.13397</prop>
+    <prop key="sense:ukb:unitsstr">podatek-1(pos) opodatkowanie-2(pos)</prop>
+    <prop key="sumo_map">subsumed:CurrencyMeasure</prop>
+   </tok>
+   <tok>
+    <orth>dochodowy</orth>
+    <lex disamb="1"><base>dochodowy</base><ctag>adj:sg:nom:m3:pos</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">574</prop>
+    <prop key="sense:ukb:syns_rank">574/1 103776/0</prop>
+    <prop key="sense:ukb:unitsstr">opłacalny-1(jak) intratny-1(jak) zyskowny-1(jak) dochodowy-1(jak)</prop>
+    <prop key="sumo_map">subsumed:FinancialTransaction</prop>
+   </tok>
+   <tok>
+    <orth>zarówno</orth>
+    <lex disamb="1"><base>zarówno</base><ctag>conj</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>od</orth>
+    <lex disamb="1"><base>od</base><ctag>prep:gen:nwok</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>osób</orth>
+    <lex disamb="1"><base>osoba</base><ctag>subst:pl:gen:f</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">6047</prop>
+    <prop key="sense:ukb:syns_rank">6047/0.869021 28688/0.0555055 43487/0.0476476 28667/0.0278261</prop>
+    <prop key="sense:ukb:unitsstr">persona-2(os) istota_ludzka-1(os) jednostka-2(os) osoba-1(os) człowiek-1(os) istota_rozumna-1(os)</prop>
+    <prop key="sumo_map">equivalent:Human</prop>
+   </tok>
+   <tok>
+    <orth>indywidualnych</orth>
+    <lex disamb="1"><base>indywidualny</base><ctag>adj:pl:gen:f:pos</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">399202</prop>
+    <prop key="sense:ukb:syns_rank">399202/0.681191 1086/0.318809</prop>
+    <prop key="sense:ukb:unitsstr">indywidualny-2(jak)</prop>
+    <prop key="sumo_map">subsumed:SubjectiveAssessmentAttribute</prop>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>jak</orth>
+    <lex disamb="1"><base>jak</base><ctag>adv:pos</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>i</orth>
+    <lex disamb="1"><base>i</base><ctag>qub</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>zysków</orth>
+    <lex disamb="1"><base>zysk</base><ctag>subst:pl:gen:m3</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">1108</prop>
+    <prop key="sense:ukb:syns_rank">1108/0.596791 404144/0.403209</prop>
+    <prop key="sense:ukb:unitsstr">profit-1(pos) zysk-2(cech) interes-5(pos) pożytek-1(cech) korzyść-1(cech) beneficjum-2(cech)</prop>
+    <prop key="sumo_map">subsumed:SubjectiveAssessmentAttribute</prop>
+   </tok>
+   <tok>
+    <orth>firm</orth>
+    <lex disamb="1"><base>firma</base><ctag>subst:pl:gen:f</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">20</prop>
+    <prop key="sense:ukb:syns_rank">20/0.622791 232167/0.27496 65617/0.0586761 65615/0.034883 65613/0.00869069</prop>
+    <prop key="sense:ukb:unitsstr">business-1(zwz) biznes-2(zwz) interes-3(zwz) przedsiębiorstwo-1(zwz) firma-1(zwz)</prop>
+    <prop key="sumo_map">subsumed:Corporation</prop>
+   </tok>
+   <tok>
+    <orth>stosowany</orth>
+    <lex disamb="1"><base>stosować</base><ctag>ppas:sg:nom:m3:imperf:aff</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">58552</prop>
+    <prop key="sense:ukb:syns_rank">58552/1</prop>
+    <prop key="sense:ukb:unitsstr">posługiwać_się-1(cpos) wykorzystywać-1(cpos) stosować-1(cpos) korzystać-1(cst) używać-1(cpos)</prop>
+   </tok>
+   <tok>
+    <orth>na</orth>
+    <lex disamb="1"><base>na</base><ctag>prep:loc</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>Malcie</orth>
+    <lex disamb="1"><base>Malta</base><ctag>subst:sg:loc:f</ctag></lex>
+    <ann chan="country_nam">3</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+  </sentence>
+  <sentence id="s9">
+   <tok>
+    <orth>Osoby</orth>
+    <lex disamb="1"><base>osoba</base><ctag>subst:pl:nom:f</ctag></lex>
+    <prop key="sense:ukb:syns_id">6047</prop>
+    <prop key="sense:ukb:syns_rank">6047/0.869021 28688/0.0555055 43487/0.0476476 28667/0.0278261</prop>
+    <prop key="sense:ukb:unitsstr">persona-2(os) istota_ludzka-1(os) jednostka-2(os) osoba-1(os) człowiek-1(os) istota_rozumna-1(os)</prop>
+    <prop key="sumo_map">equivalent:Human</prop>
+   </tok>
+   <tok>
+    <orth>fizyczne</orth>
+    <lex disamb="1"><base>fizyczny</base><ctag>adj:pl:nom:f:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">861</prop>
+    <prop key="sense:ukb:syns_rank">861/0.666954 9415/0.271451 9413/0.036172 241266/0.01866 9417/0.00443008 405911/0.0023327 9414/1.61247e</prop>
+    <prop key="sense:ukb:unitsstr">somatyczny-1(jak) fizyczny-1(jak)</prop>
+    <prop key="sumo_map">subsumed:OrganicObject</prop>
+   </tok>
+   <tok>
+    <orth>są</orth>
+    <lex disamb="1"><base>być</base><ctag>fin:pl:ter:imperf</ctag></lex>
+    <prop key="sense:ukb:syns_id">250920</prop>
+    <prop key="sense:ukb:syns_rank">250920/0.50127 50321/0.138007 55138/0.0984526 299/0.0833815 57004/0.0732424 250899/0.0574316 250925/0.0188598 250545/0.0168643 250912/0.00689784 250918/0.00559292</prop>
+    <prop key="sense:ukb:unitsstr">być-9(cst)</prop>
+   </tok>
+   <tok>
+    <orth>opodatkowane</orth>
+    <lex disamb="1"><base>opodatkować</base><ctag>ppas:pl:nom:f:perf:aff</ctag></lex>
+    <prop key="sense:ukb:syns_id">54169</prop>
+    <prop key="sense:ukb:syns_rank">54169/1</prop>
+    <prop key="sense:ukb:unitsstr">opodatkować-1(cpos)</prop>
+   </tok>
+   <tok>
+    <orth>jedną</orth>
+    <lex disamb="1"><base>jeden</base><ctag>adj:sg:inst:f:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">1151</prop>
+    <prop key="sense:ukb:syns_rank">1151/0.891972 1158/0.0766248 1154/0.030604 1153/0.000799677</prop>
+    <prop key="sense:ukb:unitsstr">jeden-3(jak) pewien-1(jak) określony-2(jak)</prop>
+   </tok>
+   <tok>
+    <orth>z</orth>
+    <lex disamb="1"><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+   </tok>
+   <tok>
+    <orth>sześciu</orth>
+    <lex disamb="1"><base>sześć</base><ctag>num:pl:gen:f:congr</ctag></lex>
+   </tok>
+   <tok>
+    <orth>stawek</orth>
+    <lex disamb="1"><base>stawka</base><ctag>subst:pl:gen:f</ctag></lex>
+    <prop key="sense:ukb:syns_id">384384</prop>
+    <prop key="sense:ukb:syns_rank">384384/0.936418 2806/0.0635825</prop>
+    <prop key="sense:ukb:unitsstr">stawka-2(zwz)</prop>
+    <prop key="sumo_map">equivalent:PerFn</prop>
+   </tok>
+   <tok>
+    <orth>progresywnych</orth>
+    <lex disamb="1"><base>progresywny</base><ctag>adj:pl:gen:f:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">238743</prop>
+    <prop key="sense:ukb:syns_rank">238743/1 238740/0</prop>
+    <prop key="sense:ukb:unitsstr">progresywny-2(rel) progresyjny-2(rel)</prop>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>:</orth>
+    <lex disamb="1"><base>:</base><ctag>interp</ctag></lex>
+   </tok>
+   <tok>
+    <orth>0</orth>
+    <lex disamb="1"><base>0</base><ctag>num:pl:gen:m3:rec</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+   </tok>
+   <tok>
+    <orth>15</orth>
+    <lex disamb="1"><base>15</base><ctag>num:pl:nom:m3:rec</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+   </tok>
+   <tok>
+    <orth>20</orth>
+    <lex disamb="1"><base>20</base><ctag>num:pl:nom:m3:rec</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+   </tok>
+   <tok>
+    <orth>25</orth>
+    <lex disamb="1"><base>25</base><ctag>num:pl:nom:m3:rec</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+   </tok>
+   <tok>
+    <orth>30</orth>
+    <lex disamb="1"><base>30</base><ctag>num:pl:nom:m3:rec</ctag></lex>
+   </tok>
+   <tok>
+    <orth>lub</orth>
+    <lex disamb="1"><base>lub</base><ctag>conj</ctag></lex>
+   </tok>
+   <tok>
+    <orth>35</orth>
+    <lex disamb="1"><base>35</base><ctag>num:pl:acc:m3:rec</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>%</orth>
+    <lex disamb="1"><base>%</base><ctag>interp</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+   </tok>
+  </sentence>
+  <sentence id="s10">
+   <tok>
+    <orth>Zyski</orth>
+    <lex disamb="1"><base>zysk</base><ctag>subst:pl:nom:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">1108</prop>
+    <prop key="sense:ukb:syns_rank">1108/0.596791 404144/0.403209</prop>
+    <prop key="sense:ukb:unitsstr">profit-1(pos) zysk-2(cech) interes-5(pos) pożytek-1(cech) korzyść-1(cech) beneficjum-2(cech)</prop>
+    <prop key="sumo_map">subsumed:SubjectiveAssessmentAttribute</prop>
+   </tok>
+   <tok>
+    <orth>firm</orth>
+    <lex disamb="1"><base>firma</base><ctag>subst:pl:gen:f</ctag></lex>
+    <prop key="sense:ukb:syns_id">20</prop>
+    <prop key="sense:ukb:syns_rank">20/0.622791 232167/0.27496 65617/0.0586761 65615/0.034883 65613/0.00869069</prop>
+    <prop key="sense:ukb:unitsstr">business-1(zwz) biznes-2(zwz) interes-3(zwz) przedsiębiorstwo-1(zwz) firma-1(zwz)</prop>
+    <prop key="sumo_map">subsumed:Corporation</prop>
+   </tok>
+   <tok>
+    <orth>są</orth>
+    <lex disamb="1"><base>być</base><ctag>fin:pl:ter:imperf</ctag></lex>
+    <prop key="sense:ukb:syns_id">250920</prop>
+    <prop key="sense:ukb:syns_rank">250920/0.50127 50321/0.138007 55138/0.0984526 299/0.0833815 57004/0.0732424 250899/0.0574316 250925/0.0188598 250545/0.0168643 250912/0.00689784 250918/0.00559292</prop>
+    <prop key="sense:ukb:unitsstr">być-9(cst)</prop>
+   </tok>
+   <tok>
+    <orth>opodatkowane</orth>
+    <lex disamb="1"><base>opodatkować</base><ctag>ppas:pl:nom:f:perf:aff</ctag></lex>
+    <prop key="sense:ukb:syns_id">54169</prop>
+    <prop key="sense:ukb:syns_rank">54169/1</prop>
+    <prop key="sense:ukb:unitsstr">opodatkować-1(cpos)</prop>
+   </tok>
+   <tok>
+    <orth>stawką</orth>
+    <lex disamb="1"><base>stawka</base><ctag>subst:sg:inst:f</ctag></lex>
+    <prop key="sense:ukb:syns_id">384384</prop>
+    <prop key="sense:ukb:syns_rank">384384/0.936418 2806/0.0635825</prop>
+    <prop key="sense:ukb:unitsstr">stawka-2(zwz)</prop>
+    <prop key="sumo_map">equivalent:PerFn</prop>
+   </tok>
+   <tok>
+    <orth>liniową</orth>
+    <lex disamb="1"><base>liniowy</base><ctag>adj:sg:inst:f:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">395131</prop>
+    <prop key="sense:ukb:syns_rank">395131/0.5 395081/0.5 395139/0 395134/0 395127/0 395123/0 395136/0 395120/0 395128/0 395130/0</prop>
+    <prop key="sense:ukb:unitsstr">liniowy-7(rel)</prop>
+   </tok>
+   <tok>
+    <orth>35</orth>
+    <lex disamb="1"><base>35</base><ctag>num:pl:inst:m3:congr</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>%</orth>
+    <lex disamb="1"><base>%</base><ctag>interp</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+   </tok>
+  </sentence>
+  <sentence id="s11">
+   <tok>
+    <orth>Wielka</orth>
+    <lex disamb="1"><base>wielki</base><ctag>adj:sg:nom:f:pos</ctag></lex>
+    <ann chan="country_nam">1</ann>
+    <prop key="sense:ukb:syns_id">236538</prop>
+    <prop key="sense:ukb:syns_rank">236538/0.322421 3789/0.249329 10554/0.144045 236539/0.121666 916/0.0822849 105737/0.044755 236540/0.0354993</prop>
+    <prop key="sense:ukb:unitsstr">wielki-5(rel)</prop>
+   </tok>
+   <tok>
+    <orth>Brytania</orth>
+    <lex disamb="1"><base>Brytania</base><ctag>subst:sg:nom:f</ctag></lex>
+    <lex disamb="1"><base>brytania</base><ctag>subst:sg:nom:f</ctag></lex>
+    <ann chan="country_nam">1</ann>
+   </tok>
+   <tok>
+    <orth>income</orth>
+    <lex disamb="1"><base>income</base><ctag>adj:sg:nom:f:pos</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>tax</orth>
+    <lex disamb="1"><base>tax</base><ctag>subst:sg:nom:f</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>(</orth>
+    <lex disamb="1"><base>(</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>ang</orth>
+    <lex disamb="1"><base>ang</base><ctag>brev:pun</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>I</orth>
+    <lex disamb="1"><base>I</base><ctag>brev:pun</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>T</orth>
+    <lex disamb="1"><base>T</base><ctag>brev:pun</ctag></lex>
+    <lex disamb="1"><base>tom</base><ctag>brev:pun</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>)</orth>
+    <lex disamb="1"><base>)</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>–</orth>
+    <lex disamb="1"><base>–</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>podatek</orth>
+    <lex disamb="1"><base>podatek</base><ctag>subst:sg:nom:m3</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">2363</prop>
+    <prop key="sense:ukb:syns_rank">2363/0.86603 223738/0.13397</prop>
+    <prop key="sense:ukb:unitsstr">podatek-1(pos) opodatkowanie-2(pos)</prop>
+    <prop key="sumo_map">subsumed:CurrencyMeasure</prop>
+   </tok>
+   <tok>
+    <orth>dochodowy</orth>
+    <lex disamb="1"><base>dochodowy</base><ctag>adj:sg:nom:m3:pos</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">574</prop>
+    <prop key="sense:ukb:syns_rank">574/1 103776/0</prop>
+    <prop key="sense:ukb:unitsstr">opłacalny-1(jak) intratny-1(jak) zyskowny-1(jak) dochodowy-1(jak)</prop>
+    <prop key="sumo_map">subsumed:FinancialTransaction</prop>
+   </tok>
+   <tok>
+    <orth>od</orth>
+    <lex disamb="1"><base>od</base><ctag>prep:gen:nwok</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>osób</orth>
+    <lex disamb="1"><base>osoba</base><ctag>subst:pl:gen:f</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">6047</prop>
+    <prop key="sense:ukb:syns_rank">6047/0.869021 28688/0.0555055 43487/0.0476476 28667/0.0278261</prop>
+    <prop key="sense:ukb:unitsstr">persona-2(os) istota_ludzka-1(os) jednostka-2(os) osoba-1(os) człowiek-1(os) istota_rozumna-1(os)</prop>
+    <prop key="sumo_map">equivalent:Human</prop>
+   </tok>
+   <tok>
+    <orth>fizycznych</orth>
+    <lex disamb="1"><base>fizyczny</base><ctag>adj:pl:gen:f:pos</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">861</prop>
+    <prop key="sense:ukb:syns_rank">861/0.666954 9415/0.271451 9413/0.036172 241266/0.01866 9417/0.00443008 405911/0.0023327 9414/1.61247e</prop>
+    <prop key="sense:ukb:unitsstr">somatyczny-1(jak) fizyczny-1(jak)</prop>
+    <prop key="sumo_map">subsumed:OrganicObject</prop>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+  </sentence>
+  <sentence id="s12">
+   <tok>
+    <orth>W</orth>
+    <lex disamb="1"><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>Wielkiej</orth>
+    <lex disamb="1"><base>wielki</base><ctag>adj:sg:loc:f:pos</ctag></lex>
+    <ann chan="country_nam">1</ann>
+    <prop key="sense:ukb:syns_id">236538</prop>
+    <prop key="sense:ukb:syns_rank">236538/0.322421 3789/0.249329 10554/0.144045 236539/0.121666 916/0.0822849 105737/0.044755 236540/0.0354993</prop>
+    <prop key="sense:ukb:unitsstr">wielki-5(rel)</prop>
+   </tok>
+   <tok>
+    <orth>Brytanii</orth>
+    <lex disamb="1"><base>Brytania</base><ctag>subst:sg:loc:f</ctag></lex>
+    <lex disamb="1"><base>brytania</base><ctag>subst:sg:loc:f</ctag></lex>
+    <ann chan="country_nam">1</ann>
+   </tok>
+   <tok>
+    <orth>naliczany</orth>
+    <lex disamb="1"><base>naliczać</base><ctag>ppas:sg:nom:m1:imperf:aff</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">54159</prop>
+    <prop key="sense:ukb:syns_rank">54159/1</prop>
+    <prop key="sense:ukb:unitsstr">naliczać-1(cpos)</prop>
+   </tok>
+   <tok>
+    <orth>jest</orth>
+    <lex disamb="1"><base>być</base><ctag>fin:sg:ter:imperf</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">250920</prop>
+    <prop key="sense:ukb:syns_rank">250920/0.50127 50321/0.138007 55138/0.0984526 299/0.0833815 57004/0.0732424 250899/0.0574316 250925/0.0188598 250545/0.0168643 250912/0.00689784 250918/0.00559292</prop>
+    <prop key="sense:ukb:unitsstr">być-9(cst)</prop>
+   </tok>
+   <tok>
+    <orth>według</orth>
+    <lex disamb="1"><base>według</base><ctag>prep:gen</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>skali</orth>
+    <lex disamb="1"><base>skala</base><ctag>subst:sg:gen:f</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">102876</prop>
+    <prop key="sense:ukb:syns_rank">102876/0.35258 8021/0.320566 102877/0.145226 32602/0.116243 42193/0.0653844</prop>
+    <prop key="sense:ukb:unitsstr">podziałka-2(umy) skala-3(il)</prop>
+    <prop key="sumo_map">subsumed:RationalNumber</prop>
+   </tok>
+   <tok>
+    <orth>progresywnej</orth>
+    <lex disamb="1"><base>progresywny</base><ctag>adj:sg:gen:f:pos</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">238743</prop>
+    <prop key="sense:ukb:syns_rank">238743/1 238740/0</prop>
+    <prop key="sense:ukb:unitsstr">progresywny-2(rel) progresyjny-2(rel)</prop>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>:</orth>
+    <lex disamb="1"><base>:</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>10</orth>
+    <lex disamb="1"><base>10</base><ctag>num:pl:nom:f:rec</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>22</orth>
+    <lex disamb="1"><base>22</base><ctag>adj:sg:gen:m3:pos</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>i</orth>
+    <lex disamb="1"><base>i</base><ctag>conj</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>40</orth>
+    <lex disamb="1"><base>40</base><ctag>num:pl:acc:m3:rec</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>%</orth>
+    <lex disamb="1"><base>%</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>z</orth>
+    <lex disamb="1"><base>z</base><ctag>prep:inst:nwok</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>kwotą</orth>
+    <lex disamb="1"><base>kwota</base><ctag>subst:sg:inst:f</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">1480</prop>
+    <prop key="sense:ukb:syns_rank">1480/1</prop>
+    <prop key="sense:ukb:unitsstr">sumka-2(pos) suma-1(pos) kwota-1(pos)</prop>
+    <prop key="sumo_map">subsumed:CurrencyMeasure</prop>
+   </tok>
+   <tok>
+    <orth>wolną</orth>
+    <lex disamb="1"><base>wolny</base><ctag>adj:sg:inst:f:pos</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">3838</prop>
+    <prop key="sense:ukb:syns_rank">3838/0.247573 105129/0.188441 418091/0.176883 104915/0.102644 1933/0.0866514 9656/0.0768149 3839/0.0462192 104241/0.0288401 3840/0.0230981 3842/0.0191126 10566/0.00198093 238779/0.00174239 241191/1.61436e</prop>
+    <prop key="sense:ukb:unitsstr">wolny-5(jak) niezajęty-1(jak)</prop>
+   </tok>
+   <tok>
+    <orth>(</orth>
+    <lex disamb="1"><base>(</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>w</orth>
+    <lex disamb="1"><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>roku</orth>
+    <lex disamb="1"><base>rok</base><ctag>subst:sg:loc:m3</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">2913</prop>
+    <prop key="sense:ukb:syns_rank">2913/0.683315 65382/0.195563 65377/0.121123</prop>
+    <prop key="sense:ukb:unitsstr">rok-2(czas)</prop>
+    <prop key="sumo_map">R:YearDuration</prop>
+   </tok>
+   <tok>
+    <orth>fiskalnym</orth>
+    <lex disamb="1"><base>fiskalny</base><ctag>adj:sg:loc:m3:pos</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">398992</prop>
+    <prop key="sense:ukb:syns_rank">398992/0.99906 8722/0.000940188</prop>
+    <prop key="sense:ukb:unitsstr">podatkowy-1(rel) fiskalny-2(rel)</prop>
+   </tok>
+   <tok>
+    <orth>06</orth>
+    <lex disamb="1"><base>06</base><ctag>num:pl:nom:m3:rec</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>/</orth>
+    <lex disamb="1"><base>/</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>07</orth>
+    <lex disamb="1"><base>07</base><ctag>num:pl:nom:m3:rec</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>-</orth>
+    <lex disamb="1"><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>5035</orth>
+    <lex disamb="1"><base>5035</base><ctag>num:pl:gen:m3:congr</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>funtów</orth>
+    <lex disamb="1"><base>funt</base><ctag>subst:pl:gen:m3</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">7948</prop>
+    <prop key="sense:ukb:syns_rank">7948/0.677422 12653/0.308118 7945/0.0144598</prop>
+    <prop key="sense:ukb:unitsstr">funt-1(il) £-1(il)</prop>
+    <prop key="sumo_map">subsumed:CurrencyMeasure</prop>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>)</orth>
+    <lex disamb="1"><base>)</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+  </sentence>
+  <sentence id="s13">
+   <tok>
+    <orth>national</orth>
+    <lex disamb="1"><base>national</base><ctag>xxx</ctag></lex>
+   </tok>
+   <tok>
+    <orth>insurance</orth>
+    <lex disamb="1"><base>insurance</base><ctag>xxx</ctag></lex>
+   </tok>
+   <tok>
+    <orth>contributions</orth>
+    <lex disamb="1"><base>contributions</base><ctag>xxx</ctag></lex>
+   </tok>
+   <tok>
+    <orth>-</orth>
+    <lex disamb="1"><base>-</base><ctag>interp</ctag></lex>
+   </tok>
+   <tok>
+    <orth>składka</orth>
+    <lex disamb="1"><base>składka</base><ctag>subst:sg:nom:f</ctag></lex>
+    <prop key="sense:ukb:syns_id">20348</prop>
+    <prop key="sense:ukb:syns_rank">20348/0.638055 47888/0.236598 3127/0.125348</prop>
+    <prop key="sense:ukb:unitsstr">składka_arkuszowa-1(wytw) składka-3(wytw) arkusz_drukarski-1(wytw) arkusz_druku-1(wytw)</prop>
+    <prop key="sumo_map">subsumed:Text</prop>
+   </tok>
+   <tok>
+    <orth>ubezpieczenia</orth>
+    <lex disamb="1"><base>ubezpieczenie</base><ctag>subst:sg:gen:n</ctag></lex>
+    <prop key="sense:ukb:syns_id">3560</prop>
+    <prop key="sense:ukb:syns_rank">3560/0.445744 47950/0.387912 92408/0.112092 103295/0.0257778 100258/0.0185942 103298/0.00452657 103300/0.00292689 103299/0.00242729</prop>
+    <prop key="sense:ukb:unitsstr">asekuracja-1(zwz) ubezpieczenie-5(zwz) umowa_ubezpieczenia-1(zwz)</prop>
+    <prop key="sumo_map">equivalent:InsurancePolicy</prop>
+   </tok>
+   <tok>
+    <orth>społecznego</orth>
+    <lex disamb="1"><base>społeczny</base><ctag>adj:sg:gen:n:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">10307</prop>
+    <prop key="sense:ukb:syns_rank">10307/0.680708 10306/0.135864 406211/0.095352 10308/0.0880761 242488/0 413830/0</prop>
+    <prop key="sense:ukb:unitsstr">społeczny-2(jak)</prop>
+   </tok>
+   <tok>
+    <orth>(</orth>
+    <lex disamb="1"><base>(</base><ctag>interp</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>klasy</orth>
+    <lex disamb="1"><base>klasa</base><ctag>subst:sg:gen:f</ctag></lex>
+    <prop key="sense:ukb:syns_id">1133</prop>
+    <prop key="sense:ukb:syns_rank">1133/0.521483 404631/0.155157 1240/0.107148 1534/0.0860323 3719/0.0737659 5748/0.0342562 43579/0.00853893 43567/0.00415971 44947/0.00364447 43566/0.00295793 1242/0.00180159 43571/0.000602984 52705/0.000396553 43563/5.6068e</prop>
+    <prop key="sense:ukb:unitsstr">jakość-2(cech) marka-5(cech) klasa-3(cech) gatunek-3(cech)</prop>
+    <prop key="sumo_map">subsumed:SubjectiveAssessmentAttribute</prop>
+   </tok>
+   <tok>
+    <orth>pierwszej</orth>
+    <lex disamb="1"><base>pierwszy</base><ctag>adj:sg:gen:f:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">239237</prop>
+    <prop key="sense:ukb:syns_rank">239237/0.736061 10030/0.189437 10081/0.0498615 418770/0.00828549 10082/0.00681453 239239/0.00512614 418499/0.004414</prop>
+    <prop key="sense:ukb:unitsstr">pierwszy-4(jak)</prop>
+   </tok>
+   <tok>
+    <orth>i</orth>
+    <lex disamb="1"><base>i</base><ctag>conj</ctag></lex>
+   </tok>
+   <tok>
+    <orth>czwartej</orth>
+    <lex disamb="1"><base>czwarty</base><ctag>adj:sg:gen:f:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">418788</prop>
+    <prop key="sense:ukb:syns_rank">418788/0.902408 105216/0.0975923 418778/0 418779/0</prop>
+    <prop key="sense:ukb:unitsstr">czwarty-5(jak)</prop>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>)</orth>
+    <lex disamb="1"><base>)</base><ctag>interp</ctag></lex>
+   </tok>
+   <tok>
+    <orth>posiada</orth>
+    <lex disamb="1"><base>posiadać</base><ctag>fin:sg:ter:imperf</ctag></lex>
+    <prop key="sense:ukb:syns_id">59906</prop>
+    <prop key="sense:ukb:syns_rank">59906/0.695522 8913/0.266566 64671/0.0300896 60112/0.0050022 60110/0.00280328 60113/1.68853e</prop>
+    <prop key="sense:ukb:unitsstr">posiadać-1(cst) odznaczać_się-1(cst) cechować_się-1(cst) nosić-2(cst) charakteryzować_się-1(cst) mieć-1(cst)</prop>
+   </tok>
+   <tok>
+    <orth>cechy</orth>
+    <lex disamb="1"><base>cech</base><ctag>subst:pl:acc:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">16048</prop>
+    <prop key="sense:ukb:syns_rank">16048/1</prop>
+    <prop key="sense:ukb:unitsstr">cech-1(zwz)</prop>
+    <prop key="sumo_map">subsumed:Organization</prop>
+   </tok>
+   <tok>
+    <orth>podatku</orth>
+    <lex disamb="1"><base>podatek</base><ctag>subst:sg:gen:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">2363</prop>
+    <prop key="sense:ukb:syns_rank">2363/0.86603 223738/0.13397</prop>
+    <prop key="sense:ukb:unitsstr">podatek-1(pos) opodatkowanie-2(pos)</prop>
+    <prop key="sumo_map">subsumed:CurrencyMeasure</prop>
+   </tok>
+   <tok>
+    <orth>dochowego</orth>
+    <lex disamb="1"><base>dochowego</base><ctag>subst:sg:gen:m3</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+   </tok>
+  </sentence>
+  <sentence id="s14">
+   <tok>
+    <orth>Jest</orth>
+    <lex disamb="1"><base>być</base><ctag>fin:sg:ter:imperf</ctag></lex>
+    <prop key="sense:ukb:syns_id">250920</prop>
+    <prop key="sense:ukb:syns_rank">250920/0.50127 50321/0.138007 55138/0.0984526 299/0.0833815 57004/0.0732424 250899/0.0574316 250925/0.0188598 250545/0.0168643 250912/0.00689784 250918/0.00559292</prop>
+    <prop key="sense:ukb:unitsstr">być-9(cst)</prop>
+   </tok>
+   <tok>
+    <orth>pobierana</orth>
+    <lex disamb="1"><base>pobierać</base><ctag>ppas:sg:nom:f:imperf:aff</ctag></lex>
+    <prop key="sense:ukb:syns_id">67817</prop>
+    <prop key="sense:ukb:syns_rank">67817/0.525071 2344/0.376526 67813/0.0669569 67820/0.0142688 54758/0.0117158 224822/0.00546218</prop>
+    <prop key="sense:ukb:unitsstr">brać-14(cpos) pobierać-1(cpos)</prop>
+   </tok>
+   <tok>
+    <orth>wraz</orth>
+    <lex disamb="1"><base>wraz</base><ctag>subst:sg:nom:m3</ctag></lex>
+   </tok>
+   <tok>
+    <orth>z</orth>
+    <lex disamb="1"><base>z</base><ctag>prep:inst:nwok</ctag></lex>
+   </tok>
+   <tok>
+    <orth>podatkiem</orth>
+    <lex disamb="1"><base>podatek</base><ctag>subst:sg:inst:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">2363</prop>
+    <prop key="sense:ukb:syns_rank">2363/0.86603 223738/0.13397</prop>
+    <prop key="sense:ukb:unitsstr">podatek-1(pos) opodatkowanie-2(pos)</prop>
+    <prop key="sumo_map">subsumed:CurrencyMeasure</prop>
+   </tok>
+   <tok>
+    <orth>jako</orth>
+    <lex disamb="1"><base>jako</base><ctag>conj</ctag></lex>
+   </tok>
+   <tok>
+    <orth>procent</orth>
+    <lex disamb="1"><base>procent</base><ctag>subst:sg:nom:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">7537</prop>
+    <prop key="sense:ukb:syns_rank">7537/0.841273 102680/0.111131 2100/0.047596</prop>
+    <prop key="sense:ukb:unitsstr">procent-3(pos) odsetki-1(pos) oprocentowanie-2(pos)</prop>
+    <prop key="sumo_map">equivalent:interestEarned</prop>
+   </tok>
+   <tok>
+    <orth>dochodu</orth>
+    <lex disamb="1"><base>dochód</base><ctag>subst:sg:gen:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">573</prop>
+    <prop key="sense:ukb:syns_rank">573/1</prop>
+    <prop key="sense:ukb:unitsstr">zarobek-2(pos) dochód-1(pos)</prop>
+    <prop key="sumo_map">equivalent:income</prop>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+   </tok>
+  </sentence>
+  <sentence id="s15">
+   <tok>
+    <orth>W</orth>
+    <lex disamb="1"><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+   </tok>
+   <tok>
+    <orth>roku</orth>
+    <lex disamb="1"><base>rok</base><ctag>subst:sg:loc:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">2913</prop>
+    <prop key="sense:ukb:syns_rank">2913/0.683315 65382/0.195563 65377/0.121123</prop>
+    <prop key="sense:ukb:unitsstr">rok-2(czas)</prop>
+    <prop key="sumo_map">R:YearDuration</prop>
+   </tok>
+   <tok>
+    <orth>podatkowym</orth>
+    <lex disamb="1"><base>podatkowy</base><ctag>adj:sg:loc:m3:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">398992</prop>
+    <prop key="sense:ukb:syns_rank">398992/1</prop>
+    <prop key="sense:ukb:unitsstr">podatkowy-1(rel) fiskalny-2(rel)</prop>
+   </tok>
+   <tok>
+    <orth>2007</orth>
+    <lex disamb="1"><base>2007</base><ctag>num:pl:nom:m3:rec</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>/</orth>
+    <lex disamb="1"><base>/</base><ctag>interp</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>08</orth>
+    <lex disamb="1"><base>08</base><ctag>num:pl:nom:m3:rec</ctag></lex>
+   </tok>
+   <tok>
+    <orth>wynosiła</orth>
+    <lex disamb="1"><base>wynosić</base><ctag>praet:sg:f:imperf</ctag></lex>
+    <prop key="sense:ukb:syns_id">57939</prop>
+    <prop key="sense:ukb:syns_rank">57939/0.767381 57937/0.0963175 3976/0.0895687 60628/0.0367487 57943/0.00512393 53936/0.00348566 68120/0.00137456</prop>
+    <prop key="sense:ukb:unitsstr">wynosić-6(cst)</prop>
+   </tok>
+   <tok>
+    <orth>ona</orth>
+    <lex disamb="1"><base>on</base><ctag>ppron3:sg:nom:f:ter:akc:npraep</ctag></lex>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex disamb="1"><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+   </tok>
+   <tok>
+    <orth>przypadku</orth>
+    <lex disamb="1"><base>przypadek</base><ctag>subst:sg:loc:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">2770</prop>
+    <prop key="sense:ukb:syns_rank">2770/0.506359 2771/0.344047 28652/0.149594</prop>
+    <prop key="sense:ukb:unitsstr">przypadek-2(prc)</prop>
+    <prop key="sumo_map">R:patient;subsumed:Human</prop>
+   </tok>
+   <tok>
+    <orth>osób</orth>
+    <lex disamb="1"><base>osoba</base><ctag>subst:pl:gen:f</ctag></lex>
+    <prop key="sense:ukb:syns_id">6047</prop>
+    <prop key="sense:ukb:syns_rank">6047/0.869021 28688/0.0555055 43487/0.0476476 28667/0.0278261</prop>
+    <prop key="sense:ukb:unitsstr">persona-2(os) istota_ludzka-1(os) jednostka-2(os) osoba-1(os) człowiek-1(os) istota_rozumna-1(os)</prop>
+    <prop key="sumo_map">equivalent:Human</prop>
+   </tok>
+   <tok>
+    <orth>pozostających</orth>
+    <lex disamb="1"><base>pozostawać</base><ctag>pact:pl:gen:f:imperf:aff</ctag></lex>
+    <prop key="sense:ukb:syns_id">57022</prop>
+    <prop key="sense:ukb:syns_rank">57022/0.364918 57023/0.352092 53862/0.203844 57026/0.0660384 57027/0.0131079</prop>
+    <prop key="sense:ukb:unitsstr">pozostawać-3(cst) zostawać-5(cst)</prop>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex disamb="1"><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+   </tok>
+   <tok>
+    <orth>stosunku</orth>
+    <lex disamb="1"><base>stosunek</base><ctag>subst:sg:loc:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">21358</prop>
+    <prop key="sense:ukb:syns_rank">21358/0.706646 2489/0.155719 10691/0.0863902 224824/0.0512452</prop>
+    <prop key="sense:ukb:unitsstr">stosunek-3(umy) proporcja-4(umy)</prop>
+    <prop key="sumo_map">subsumed:RationalNumber</prop>
+   </tok>
+   <tok>
+    <orth>pracy</orth>
+    <lex disamb="1"><base>praca</base><ctag>subst:sg:gen:f</ctag></lex>
+    <prop key="sense:ukb:syns_id">102718</prop>
+    <prop key="sense:ukb:syns_rank">102718/0.740767 5395/0.138712 16474/0.111783 417730/0.0052437 230828/0.00349487</prop>
+    <prop key="sense:ukb:unitsstr">robota-3(zwz) zatrudnienie-3(zwz) praca-1(zwz)</prop>
+    <prop key="sumo_map">subsumed:Position</prop>
+   </tok>
+   <tok>
+    <orth>11</orth>
+    <lex disamb="1"><base>11</base><ctag>num:pl:gen:m3:congr</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>%</orth>
+    <lex disamb="1"><base>%</base><ctag>interp</ctag></lex>
+   </tok>
+   <tok>
+    <orth>(</orth>
+    <lex disamb="1"><base>(</base><ctag>interp</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>plus</orth>
+    <lex disamb="1"><base>plus</base><ctag>subst:sg:nom:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">4185</prop>
+    <prop key="sense:ukb:syns_rank">4185/0.716013 404403/0.210535 2341/0.0380946 404401/0.0253514 79976/0.00751768 404404/0.00154535 404405/0.000942463</prop>
+    <prop key="sense:ukb:unitsstr">dobra_strona-1(cech) mocna_strona-1(cech) wartość-3(cech) pozytyw-1(cech) plus-1(cech) atut-1(cech) walor-1(cech) przymiot-2(cech) zaleta-1(cech)</prop>
+    <prop key="sumo_map">subsumed:PropertyFn</prop>
+   </tok>
+   <tok>
+    <orth>12</orth>
+    <lex disamb="1"><base>12</base><ctag>num:pl:nom:m3:rec</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>8</orth>
+    <lex disamb="1"><base>8</base><ctag>num:pl:nom:m3:rec</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>%</orth>
+    <lex disamb="1"><base>%</base><ctag>interp</ctag></lex>
+   </tok>
+   <tok>
+    <orth>ze</orth>
+    <lex disamb="1"><base>z</base><ctag>prep:gen:wok</ctag></lex>
+   </tok>
+   <tok>
+    <orth>strony</orth>
+    <lex disamb="1"><base>strona</base><ctag>subst:sg:gen:f</ctag></lex>
+    <prop key="sense:ukb:syns_id">7355</prop>
+    <prop key="sense:ukb:syns_rank">7355/0.307306 5113/0.215862 247562/0.18445 1233/0.142402 235235/0.0579149 6399/0.0438249 35862/0.0210113 28669/0.0140268 405063/0.0132008</prop>
+    <prop key="sense:ukb:unitsstr">stronica-1(wytw) strona-8(wytw)</prop>
+    <prop key="sumo_map">equivalent:Page</prop>
+   </tok>
+   <tok>
+    <orth>pracodawcy</orth>
+    <lex disamb="1"><base>pracodawca</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <prop key="sense:ukb:syns_id">6814</prop>
+    <prop key="sense:ukb:syns_rank">6814/1</prop>
+    <prop key="sense:ukb:unitsstr">pracodawca-1(os)</prop>
+    <prop key="sumo_map">equivalent:employs;R:Position</prop>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>)</orth>
+    <lex disamb="1"><base>)</base><ctag>interp</ctag></lex>
+   </tok>
+   <tok>
+    <orth>z</orth>
+    <lex disamb="1"><base>z</base><ctag>prep:inst:nwok</ctag></lex>
+   </tok>
+   <tok>
+    <orth>kwotą</orth>
+    <lex disamb="1"><base>kwota</base><ctag>subst:sg:inst:f</ctag></lex>
+    <prop key="sense:ukb:syns_id">1480</prop>
+    <prop key="sense:ukb:syns_rank">1480/1</prop>
+    <prop key="sense:ukb:unitsstr">sumka-2(pos) suma-1(pos) kwota-1(pos)</prop>
+    <prop key="sumo_map">subsumed:CurrencyMeasure</prop>
+   </tok>
+   <tok>
+    <orth>wolną</orth>
+    <lex disamb="1"><base>wolny</base><ctag>adj:sg:inst:f:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">3838</prop>
+    <prop key="sense:ukb:syns_rank">3838/0.247573 105129/0.188441 418091/0.176883 104915/0.102644 1933/0.0866514 9656/0.0768149 3839/0.0462192 104241/0.0288401 3840/0.0230981 3842/0.0191126 10566/0.00198093 238779/0.00174239 241191/1.61436e</prop>
+    <prop key="sense:ukb:unitsstr">wolny-5(jak) niezajęty-1(jak)</prop>
+   </tok>
+   <tok>
+    <orth>identyczną</orth>
+    <lex disamb="1"><base>identyczny</base><ctag>adj:sg:inst:f:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">3510</prop>
+    <prop key="sense:ukb:syns_rank">3510/1</prop>
+    <prop key="sense:ukb:unitsstr">tożsamy-1(jak) identyczny-1(jak) taki_sam-3(jak) ten_sam-1(jak)</prop>
+    <prop key="sumo_map">equivalent:equal</prop>
+   </tok>
+   <tok>
+    <orth>jak</orth>
+    <lex disamb="1"><base>jak</base><ctag>adv:pos</ctag></lex>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex disamb="1"><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+   </tok>
+   <tok>
+    <orth>przypadku</orth>
+    <lex disamb="1"><base>przypadek</base><ctag>subst:sg:loc:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">2770</prop>
+    <prop key="sense:ukb:syns_rank">2770/0.506359 2771/0.344047 28652/0.149594</prop>
+    <prop key="sense:ukb:unitsstr">przypadek-2(prc)</prop>
+    <prop key="sumo_map">R:patient;subsumed:Human</prop>
+   </tok>
+   <tok>
+    <orth>podatku</orth>
+    <lex disamb="1"><base>podatek</base><ctag>subst:sg:gen:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">2363</prop>
+    <prop key="sense:ukb:syns_rank">2363/0.86603 223738/0.13397</prop>
+    <prop key="sense:ukb:unitsstr">podatek-1(pos) opodatkowanie-2(pos)</prop>
+    <prop key="sumo_map">subsumed:CurrencyMeasure</prop>
+   </tok>
+   <tok>
+    <orth>dochodowego</orth>
+    <lex disamb="1"><base>dochodowy</base><ctag>adj:sg:gen:m3:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">574</prop>
+    <prop key="sense:ukb:syns_rank">574/1 103776/0</prop>
+    <prop key="sense:ukb:unitsstr">opłacalny-1(jak) intratny-1(jak) zyskowny-1(jak) dochodowy-1(jak)</prop>
+    <prop key="sumo_map">subsumed:FinancialTransaction</prop>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+   </tok>
+  </sentence>
+  <sentence id="s16">
+   <tok>
+    <orth>W</orth>
+    <lex disamb="1"><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+   </tok>
+   <tok>
+    <orth>przypadku</orth>
+    <lex disamb="1"><base>przypadek</base><ctag>subst:sg:loc:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">2770</prop>
+    <prop key="sense:ukb:syns_rank">2770/0.506359 2771/0.344047 28652/0.149594</prop>
+    <prop key="sense:ukb:unitsstr">przypadek-2(prc)</prop>
+    <prop key="sumo_map">R:patient;subsumed:Human</prop>
+   </tok>
+   <tok>
+    <orth>osób</orth>
+    <lex disamb="1"><base>osoba</base><ctag>subst:pl:gen:f</ctag></lex>
+    <prop key="sense:ukb:syns_id">6047</prop>
+    <prop key="sense:ukb:syns_rank">6047/0.869021 28688/0.0555055 43487/0.0476476 28667/0.0278261</prop>
+    <prop key="sense:ukb:unitsstr">persona-2(os) istota_ludzka-1(os) jednostka-2(os) osoba-1(os) człowiek-1(os) istota_rozumna-1(os)</prop>
+    <prop key="sumo_map">equivalent:Human</prop>
+   </tok>
+   <tok>
+    <orth>prowadzących</orth>
+    <lex disamb="1"><base>prowadzić</base><ctag>pact:pl:gen:f:imperf:aff</ctag></lex>
+    <prop key="sense:ukb:syns_id">66371</prop>
+    <prop key="sense:ukb:syns_rank">66371/0.140617 2630/0.140607 2631/0.0977001 2632/0.0923235 224935/0.081141 10647/0.0780633 66370/0.0616413 224936/0.0572168 66369/0.0511153 66373/0.048621 66372/0.043302 66375/0.0392611 66367/0.0280033 66374/0.0177207 3214/0.0142635 224937/0.00840393</prop>
+    <prop key="sense:ukb:unitsstr">prowadzić-9(cwyt)</prop>
+   </tok>
+   <tok>
+    <orth>działalność</orth>
+    <lex disamb="1"><base>działalność</base><ctag>subst:sg:acc:f</ctag></lex>
+    <prop key="sense:ukb:syns_id">10956</prop>
+    <prop key="sense:ukb:syns_rank">10956/1</prop>
+    <prop key="sense:ukb:unitsstr">działalność-1(zwz)</prop>
+    <prop key="sumo_map">equivalent:IntentionalProcess</prop>
+   </tok>
+   <tok>
+    <orth>gospdoarczą</orth>
+    <lex disamb="1"><base>gospdoarczą</base><ctag>adj:sg:gen:f:pos</ctag></lex>
+   </tok>
+   <tok>
+    <orth>stawka</orth>
+    <lex disamb="1"><base>stawka</base><ctag>subst:sg:nom:f</ctag></lex>
+    <prop key="sense:ukb:syns_id">384384</prop>
+    <prop key="sense:ukb:syns_rank">384384/0.936418 2806/0.0635825</prop>
+    <prop key="sense:ukb:unitsstr">stawka-2(zwz)</prop>
+    <prop key="sumo_map">equivalent:PerFn</prop>
+   </tok>
+   <tok>
+    <orth>ubezpiecznia</orth>
+    <lex disamb="1"><base>ubezpiecznia</base><ctag>subst:sg:nom:f</ctag></lex>
+   </tok>
+   <tok>
+    <orth>społecznego</orth>
+    <lex disamb="1"><base>społeczny</base><ctag>adj:sg:gen:m3:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">10307</prop>
+    <prop key="sense:ukb:syns_rank">10307/0.680708 10306/0.135864 406211/0.095352 10308/0.0880761 242488/0 413830/0</prop>
+    <prop key="sense:ukb:unitsstr">społeczny-2(jak)</prop>
+   </tok>
+   <tok>
+    <orth>wynosi</orth>
+    <lex disamb="1"><base>wynosić</base><ctag>fin:sg:ter:imperf</ctag></lex>
+    <prop key="sense:ukb:syns_id">57939</prop>
+    <prop key="sense:ukb:syns_rank">57939/0.767381 57937/0.0963175 3976/0.0895687 60628/0.0367487 57943/0.00512393 53936/0.00348566 68120/0.00137456</prop>
+    <prop key="sense:ukb:unitsstr">wynosić-6(cst)</prop>
+   </tok>
+   <tok>
+    <orth>8</orth>
+    <lex disamb="1"><base>8</base><ctag>num:pl:acc:m3:rec</ctag></lex>
+   </tok>
+   <tok>
+    <orth>procent</orth>
+    <lex disamb="1"><base>procent</base><ctag>subst:sg:nom:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">7537</prop>
+    <prop key="sense:ukb:syns_rank">7537/0.841273 102680/0.111131 2100/0.047596</prop>
+    <prop key="sense:ukb:unitsstr">procent-3(pos) odsetki-1(pos) oprocentowanie-2(pos)</prop>
+    <prop key="sumo_map">equivalent:interestEarned</prop>
+   </tok>
+   <tok>
+    <orth>dochodu</orth>
+    <lex disamb="1"><base>dochód</base><ctag>subst:sg:gen:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">573</prop>
+    <prop key="sense:ukb:syns_rank">573/1</prop>
+    <prop key="sense:ukb:unitsstr">zarobek-2(pos) dochód-1(pos)</prop>
+    <prop key="sumo_map">equivalent:income</prop>
+   </tok>
+   <tok>
+    <orth>netto</orth>
+    <lex disamb="1"><base>netto</base><ctag>adj:sg:gen:m3:pos</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+   </tok>
+  </sentence>
+  <sentence id="s17">
+   <tok>
+    <orth>Dla</orth>
+    <lex disamb="1"><base>dla</base><ctag>prep:gen</ctag></lex>
+   </tok>
+   <tok>
+    <orth>dochodów</orth>
+    <lex disamb="1"><base>dochód</base><ctag>subst:pl:gen:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">573</prop>
+    <prop key="sense:ukb:syns_rank">573/1</prop>
+    <prop key="sense:ukb:unitsstr">zarobek-2(pos) dochód-1(pos)</prop>
+    <prop key="sumo_map">equivalent:income</prop>
+   </tok>
+   <tok>
+    <orth>powyżej</orth>
+    <lex disamb="1"><base>powyżej</base><ctag>prep:gen</ctag></lex>
+   </tok>
+   <tok>
+    <orth>33540</orth>
+    <lex disamb="1"><base>33540</base><ctag>num:pl:gen:m3:congr</ctag></lex>
+   </tok>
+   <tok>
+    <orth>funtów</orth>
+    <lex disamb="1"><base>funt</base><ctag>subst:pl:gen:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">7948</prop>
+    <prop key="sense:ukb:syns_rank">7948/0.677422 12653/0.308118 7945/0.0144598</prop>
+    <prop key="sense:ukb:unitsstr">funt-1(il) £-1(il)</prop>
+    <prop key="sumo_map">subsumed:CurrencyMeasure</prop>
+   </tok>
+   <tok>
+    <orth>rocznie</orth>
+    <lex disamb="1"><base>rocznie</base><ctag>adv:pos</ctag></lex>
+   </tok>
+   <tok>
+    <orth>stawka</orth>
+    <lex disamb="1"><base>stawka</base><ctag>subst:sg:nom:f</ctag></lex>
+    <prop key="sense:ukb:syns_id">384384</prop>
+    <prop key="sense:ukb:syns_rank">384384/0.936418 2806/0.0635825</prop>
+    <prop key="sense:ukb:unitsstr">stawka-2(zwz)</prop>
+    <prop key="sumo_map">equivalent:PerFn</prop>
+   </tok>
+   <tok>
+    <orth>składki</orth>
+    <lex disamb="1"><base>składka</base><ctag>subst:sg:gen:f</ctag></lex>
+    <prop key="sense:ukb:syns_id">20348</prop>
+    <prop key="sense:ukb:syns_rank">20348/0.638055 47888/0.236598 3127/0.125348</prop>
+    <prop key="sense:ukb:unitsstr">składka_arkuszowa-1(wytw) składka-3(wytw) arkusz_drukarski-1(wytw) arkusz_druku-1(wytw)</prop>
+    <prop key="sumo_map">subsumed:Text</prop>
+   </tok>
+   <tok>
+    <orth>ubezpieczenia</orth>
+    <lex disamb="1"><base>ubezpieczenie</base><ctag>subst:sg:gen:n</ctag></lex>
+    <prop key="sense:ukb:syns_id">3560</prop>
+    <prop key="sense:ukb:syns_rank">3560/0.445744 47950/0.387912 92408/0.112092 103295/0.0257778 100258/0.0185942 103298/0.00452657 103300/0.00292689 103299/0.00242729</prop>
+    <prop key="sense:ukb:unitsstr">asekuracja-1(zwz) ubezpieczenie-5(zwz) umowa_ubezpieczenia-1(zwz)</prop>
+    <prop key="sumo_map">equivalent:InsurancePolicy</prop>
+   </tok>
+   <tok>
+    <orth>społecznego</orth>
+    <lex disamb="1"><base>społeczny</base><ctag>adj:sg:gen:n:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">10307</prop>
+    <prop key="sense:ukb:syns_rank">10307/0.680708 10306/0.135864 406211/0.095352 10308/0.0880761 242488/0 413830/0</prop>
+    <prop key="sense:ukb:unitsstr">społeczny-2(jak)</prop>
+   </tok>
+   <tok>
+    <orth>wynosi</orth>
+    <lex disamb="1"><base>wynosić</base><ctag>fin:sg:ter:imperf</ctag></lex>
+    <prop key="sense:ukb:syns_id">57939</prop>
+    <prop key="sense:ukb:syns_rank">57939/0.767381 57937/0.0963175 3976/0.0895687 60628/0.0367487 57943/0.00512393 53936/0.00348566 68120/0.00137456</prop>
+    <prop key="sense:ukb:unitsstr">wynosić-6(cst)</prop>
+   </tok>
+   <tok>
+    <orth>1</orth>
+    <lex disamb="1"><base>1</base><ctag>num:pl:acc:m3:rec</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>%</orth>
+    <lex disamb="1"><base>%</base><ctag>interp</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+   </tok>
+  </sentence>
+  <sentence id="s18">
+   <tok>
+    <orth>corporation</orth>
+    <lex disamb="1"><base>corporation</base><ctag>xxx</ctag></lex>
+   </tok>
+   <tok>
+    <orth>tax</orth>
+    <lex disamb="1"><base>tax</base><ctag>xxx</ctag></lex>
+   </tok>
+   <tok>
+    <orth>-</orth>
+    <lex disamb="1"><base>-</base><ctag>interp</ctag></lex>
+   </tok>
+   <tok>
+    <orth>podatek</orth>
+    <lex disamb="1"><base>podatek</base><ctag>subst:sg:nom:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">2363</prop>
+    <prop key="sense:ukb:syns_rank">2363/0.86603 223738/0.13397</prop>
+    <prop key="sense:ukb:unitsstr">podatek-1(pos) opodatkowanie-2(pos)</prop>
+    <prop key="sumo_map">subsumed:CurrencyMeasure</prop>
+   </tok>
+   <tok>
+    <orth>dochodowy</orth>
+    <lex disamb="1"><base>dochodowy</base><ctag>adj:sg:nom:m3:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">574</prop>
+    <prop key="sense:ukb:syns_rank">574/1 103776/0</prop>
+    <prop key="sense:ukb:unitsstr">opłacalny-1(jak) intratny-1(jak) zyskowny-1(jak) dochodowy-1(jak)</prop>
+    <prop key="sumo_map">subsumed:FinancialTransaction</prop>
+   </tok>
+   <tok>
+    <orth>od</orth>
+    <lex disamb="1"><base>od</base><ctag>prep:gen:nwok</ctag></lex>
+   </tok>
+   <tok>
+    <orth>osób</orth>
+    <lex disamb="1"><base>osoba</base><ctag>subst:pl:gen:f</ctag></lex>
+    <prop key="sense:ukb:syns_id">6047</prop>
+    <prop key="sense:ukb:syns_rank">6047/0.869021 28688/0.0555055 43487/0.0476476 28667/0.0278261</prop>
+    <prop key="sense:ukb:unitsstr">persona-2(os) istota_ludzka-1(os) jednostka-2(os) osoba-1(os) człowiek-1(os) istota_rozumna-1(os)</prop>
+    <prop key="sumo_map">equivalent:Human</prop>
+   </tok>
+   <tok>
+    <orth>prawnych</orth>
+    <lex disamb="1"><base>prawny</base><ctag>adj:pl:gen:f:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">3008</prop>
+    <prop key="sense:ukb:syns_rank">3008/0.863284 420136/0.136716</prop>
+    <prop key="sense:ukb:unitsstr">prawny-1(rel) prawniczy-1(rel)</prop>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+   </tok>
+  </sentence>
+  <sentence id="s19">
+   <tok>
+    <orth>Pobierany</orth>
+    <lex disamb="1"><base>pobierać</base><ctag>ppas:sg:nom:m1:imperf:aff</ctag></lex>
+    <prop key="sense:ukb:syns_id">67817</prop>
+    <prop key="sense:ukb:syns_rank">67817/0.525071 2344/0.376526 67813/0.0669569 67820/0.0142688 54758/0.0117158 224822/0.00546218</prop>
+    <prop key="sense:ukb:unitsstr">brać-14(cpos) pobierać-1(cpos)</prop>
+   </tok>
+   <tok>
+    <orth>według</orth>
+    <lex disamb="1"><base>według</base><ctag>prep:gen</ctag></lex>
+   </tok>
+   <tok>
+    <orth>skali</orth>
+    <lex disamb="1"><base>skala</base><ctag>subst:sg:gen:f</ctag></lex>
+    <prop key="sense:ukb:syns_id">102876</prop>
+    <prop key="sense:ukb:syns_rank">102876/0.35258 8021/0.320566 102877/0.145226 32602/0.116243 42193/0.0653844</prop>
+    <prop key="sense:ukb:unitsstr">podziałka-2(umy) skala-3(il)</prop>
+    <prop key="sumo_map">subsumed:RationalNumber</prop>
+   </tok>
+   <tok>
+    <orth>progresywnej</orth>
+    <lex disamb="1"><base>progresywny</base><ctag>adj:sg:gen:f:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">238743</prop>
+    <prop key="sense:ukb:syns_rank">238743/1 238740/0</prop>
+    <prop key="sense:ukb:unitsstr">progresywny-2(rel) progresyjny-2(rel)</prop>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>:</orth>
+    <lex disamb="1"><base>:</base><ctag>interp</ctag></lex>
+   </tok>
+   <tok>
+    <orth>20</orth>
+    <lex disamb="1"><base>20</base><ctag>num:pl:nom:f:rec</ctag></lex>
+   </tok>
+   <tok>
+    <orth>i</orth>
+    <lex disamb="1"><base>i</base><ctag>qub</ctag></lex>
+   </tok>
+   <tok>
+    <orth>30</orth>
+    <lex disamb="1"><base>30</base><ctag>num:pl:acc:m3:rec</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>%</orth>
+    <lex disamb="1"><base>%</base><ctag>interp</ctag></lex>
+   </tok>
+   <tok>
+    <orth>przy</orth>
+    <lex disamb="1"><base>przy</base><ctag>prep:loc</ctag></lex>
+   </tok>
+   <tok>
+    <orth>braku</orth>
+    <lex disamb="1"><base>brak</base><ctag>subst:sg:loc:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">29817</prop>
+    <prop key="sense:ukb:syns_rank">29817/0.565625 528/0.284562 36773/0.0842679 16630/0.065545</prop>
+    <prop key="sense:ukb:unitsstr">brak-1(cech)</prop>
+    <prop key="sumo_map">subsumed:needs</prop>
+   </tok>
+   <tok>
+    <orth>kwoty</orth>
+    <lex disamb="1"><base>kwota</base><ctag>subst:sg:gen:f</ctag></lex>
+    <prop key="sense:ukb:syns_id">1480</prop>
+    <prop key="sense:ukb:syns_rank">1480/1</prop>
+    <prop key="sense:ukb:unitsstr">sumka-2(pos) suma-1(pos) kwota-1(pos)</prop>
+    <prop key="sumo_map">subsumed:CurrencyMeasure</prop>
+   </tok>
+   <tok>
+    <orth>wolnej</orth>
+    <lex disamb="1"><base>wolny</base><ctag>adj:sg:gen:f:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">3838</prop>
+    <prop key="sense:ukb:syns_rank">3838/0.247573 105129/0.188441 418091/0.176883 104915/0.102644 1933/0.0866514 9656/0.0768149 3839/0.0462192 104241/0.0288401 3840/0.0230981 3842/0.0191126 10566/0.00198093 238779/0.00174239 241191/1.61436e</prop>
+    <prop key="sense:ukb:unitsstr">wolny-5(jak) niezajęty-1(jak)</prop>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+   </tok>
+  </sentence>
+  <sentence id="s20">
+   <tok>
+    <orth>Więcej</orth>
+    <lex disamb="1"><base>więcej</base><ctag>num:pl:nom:f:rec</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>:</orth>
+    <lex disamb="1"><base>:</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>podatki</orth>
+    <lex disamb="1"><base>podatek</base><ctag>subst:pl:acc:m3</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">2363</prop>
+    <prop key="sense:ukb:syns_rank">2363/0.86603 223738/0.13397</prop>
+    <prop key="sense:ukb:unitsstr">podatek-1(pos) opodatkowanie-2(pos)</prop>
+    <prop key="sumo_map">subsumed:CurrencyMeasure</prop>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex disamb="1"><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>Wielkiej</orth>
+    <lex disamb="1"><base>wielki</base><ctag>adj:sg:loc:f:pos</ctag></lex>
+    <ann chan="country_nam">3</ann>
+    <prop key="sense:ukb:syns_id">236538</prop>
+    <prop key="sense:ukb:syns_rank">236538/0.322421 3789/0.249329 10554/0.144045 236539/0.121666 916/0.0822849 105737/0.044755 236540/0.0354993</prop>
+    <prop key="sense:ukb:unitsstr">wielki-5(rel)</prop>
+   </tok>
+   <tok>
+    <orth>Brytanii</orth>
+    <lex disamb="1"><base>Brytania</base><ctag>subst:sg:loc:f</ctag></lex>
+    <lex disamb="1"><base>brytania</base><ctag>subst:sg:loc:f</ctag></lex>
+    <ann chan="country_nam">3</ann>
+   </tok>
+   <tok>
+    <orth>Irlandia</orth>
+    <lex disamb="1"><base>Irlandia</base><ctag>subst:sg:nom:f</ctag></lex>
+    <ann chan="country_nam">2</ann>
+   </tok>
+   <tok>
+    <orth>W</orth>
+    <lex disamb="1"><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <ann chan="country_nam">2</ann>
+   </tok>
+   <tok>
+    <orth>Irlandii</orth>
+    <lex disamb="1"><base>Irlandia</base><ctag>subst:sg:loc:f</ctag></lex>
+    <ann chan="country_nam">1</ann>
+   </tok>
+   <tok>
+    <orth>stosuje</orth>
+    <lex disamb="1"><base>stosować</base><ctag>fin:sg:ter:imperf</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">58552</prop>
+    <prop key="sense:ukb:syns_rank">58552/1</prop>
+    <prop key="sense:ukb:unitsstr">posługiwać_się-1(cpos) wykorzystywać-1(cpos) stosować-1(cpos) korzystać-1(cst) używać-1(cpos)</prop>
+   </tok>
+   <tok>
+    <orth>się</orth>
+    <lex disamb="1"><base>się</base><ctag>qub</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>dwie</orth>
+    <lex disamb="1"><base>dwa</base><ctag>num:pl:acc:f:congr</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>stawki</orth>
+    <lex disamb="1"><base>stawka</base><ctag>subst:pl:acc:f</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">384384</prop>
+    <prop key="sense:ukb:syns_rank">384384/0.936418 2806/0.0635825</prop>
+    <prop key="sense:ukb:unitsstr">stawka-2(zwz)</prop>
+    <prop key="sumo_map">equivalent:PerFn</prop>
+   </tok>
+   <tok>
+    <orth>tego</orth>
+    <lex disamb="1"><base>ten</base><ctag>adj:sg:gen:m3:pos</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">514</prop>
+    <prop key="sense:ukb:syns_rank">514/1</prop>
+    <prop key="sense:ukb:unitsstr">ten-1(jak) następujący-1(jak) dany-1(jak) ów-1(jak)</prop>
+   </tok>
+   <tok>
+    <orth>podatku</orth>
+    <lex disamb="1"><base>podatek</base><ctag>subst:sg:gen:m3</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">2363</prop>
+    <prop key="sense:ukb:syns_rank">2363/0.86603 223738/0.13397</prop>
+    <prop key="sense:ukb:unitsstr">podatek-1(pos) opodatkowanie-2(pos)</prop>
+    <prop key="sumo_map">subsumed:CurrencyMeasure</prop>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>:</orth>
+    <lex disamb="1"><base>:</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>20</orth>
+    <lex disamb="1"><base>20</base><ctag>num:pl:nom:m3:rec</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>i</orth>
+    <lex disamb="1"><base>i</base><ctag>conj</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>41</orth>
+    <lex disamb="1"><base>41</base><ctag>num:pl:nom:m3:rec</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>%</orth>
+    <lex disamb="1"><base>%</base><ctag>interp</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>Zobacz</orth>
+    <lex disamb="1"><base>zobaczyć</base><ctag>impt:sg:sec:perf</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">4424</prop>
+    <prop key="sense:ukb:syns_rank">4424/0.874742 57106/0.0909621 57108/0.0202197 57107/0.0140764</prop>
+    <prop key="sense:ukb:unitsstr">obejrzeć-1(pst) oglądnąć-1(pst) zobaczyć-2(pst) widzieć-1(pst)</prop>
+   </tok>
+   <tok>
+    <orth>też</orth>
+    <lex disamb="1"><base>też</base><ctag>qub</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>podatek</orth>
+    <lex disamb="1"><base>podatek</base><ctag>subst:sg:acc:m3</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">2363</prop>
+    <prop key="sense:ukb:syns_rank">2363/0.86603 223738/0.13397</prop>
+    <prop key="sense:ukb:unitsstr">podatek-1(pos) opodatkowanie-2(pos)</prop>
+    <prop key="sumo_map">subsumed:CurrencyMeasure</prop>
+   </tok>
+   <tok>
+    <orth>stawki</orth>
+    <lex disamb="1"><base>stawek</base><ctag>subst:pl:acc:m3</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">240224</prop>
+    <prop key="sense:ukb:syns_rank">240224/</prop>
+    <prop key="sense:ukb:unitsstr">stawek-1(msc)</prop>
+    <prop key="sumo_map">subsumed:Lake</prop>
+   </tok>
+   <tok>
+    <orth>podatkowe</orth>
+    <lex disamb="1"><base>podatkowy</base><ctag>adj:pl:acc:m3:pos</ctag></lex>
+    <ann chan="country_nam">0</ann>
+    <prop key="sense:ukb:syns_id">398992</prop>
+    <prop key="sense:ukb:syns_rank">398992/1</prop>
+    <prop key="sense:ukb:unitsstr">podatkowy-1(rel) fiskalny-2(rel)</prop>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex disamb="1"><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+   <tok>
+    <orth>Europie</orth>
+    <lex disamb="1"><base>Europa</base><ctag>subst:sg:loc:f</ctag></lex>
+    <ann chan="country_nam">0</ann>
+   </tok>
+  </sentence>
+ </chunk>
+</chunkList>

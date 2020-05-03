@@ -1,0 +1,5108 @@
+4788 zrobić-1
+  96 *zrobić _PROCES_DK-1
+    50 *CZASOWNIK - PROCES DK oznaczający wytwarzanie czegoś-1
+      0 wyprodukować-3
+      48 wytworzyć-2
+        0 osadzić-3, nawarstwić-1
+        0 wygenerować-1
+        7 dostarczyć-2
+          2 zająć-11
+            0 zabawić-2
+            0 zagadać-4
+          0 zafundować-3
+          0 zafundować-4
+          1 dać-17
+            0 użyczyć-3
+        0 wygenerować-2
+        0 zawiązać-7
+        7 wydać-9, zrodzić-1
+          0 obrodzić-1
+          4 puścić-9, wypuścić-6
+            3 rozkrzewić się-2
+              0 rozgałęzić się-2
+              1 ukorzenić się-1, zakorzenić się-2
+                0 rozkorzenić się-2
+          0 zaowocować-2, zrodzić owoce-1
+        12 wysłać-3
+          0 wyemitować-1
+          0 emitować-1
+          0 wypromieniować-1
+          8 przekazać-2
+            7 przesłać-2
+              0 przeteleksować-1
+              0 przefaksować-1
+              VISITED 0 zatelegrafować-1, zadepeszować-1
+              3 nadać-3
+                0 wyemitować-2
+                0 emitować-2
+                0 puścić-8
+        14 wydzielić-4
+          0 puścić bąka-1, zepsuć powietrze-1
+          1 zionąć-1
+            0 wionąć-2
+          0 emitować-3
+          1 zapachnieć-1
+            0 zajechać-10
+          0 zadymić-2
+          0 puścić-12
+          1 spocić się-2, spotnieć-2
+            0 zapocić się-2
+          0 wyparować-3
+          1 plunąć-1, splunąć-1
+            0 odplunąć-1
+          0 zaślinić się-1
+    42 *CZASOWNIK - PROCES DK oznaczający zmianę położenia lub zmianę relacji przestrzennych-1
+      0 przelać się-3
+      31 oddzielić się-1
+        0 odwarstwić się-1
+        3 wydzielić się-2
+          0 wypromieniować-2
+          1 wytrącić się-1
+            0 strącić się-1
+        3 rozłączyć się-2
+          0 rozlutować się-1
+          1 rozsunąć się-1
+            0 rozejść się-10
+        3 wyodrębnić się-1, odciąć się-3, wydzielić się-1
+          1 zróżnicować się-1
+            0 spolaryzować się-2
+          0 zindywidualizować się-1
+        0 odejść-12, odleźć-1
+        9 odłączyć się-1
+          0 odcumować się-2
+          0 odwiązać się-2
+          1 odczepić się-1
+            0 odkleić się-1, odlepić się-1
+          1 odkręcić się-2
+            0 rozkręcić się-3
+          0 odmarznąć-1
+          1 urwać się-1, oderwać się-2
+            0 ukręcić się-1
+        6 odpaść-4, odlecieć-2
+          0 odkruszyć się-1, ukruszyć się-1
+          0 obłupać się-1
+          1 zejść-3, zleźć-1, obleźć-3
+            0 złuszczyć się-1
+          0 oberwać się-2
+          0 sypnąć się-3, obsypać się-5, osypać się-3
+      8 otworzyć się-1, rozewrzeć się-1, odemknąć się-1
+        0 odkręcić się-4
+        1 odblokować się-1
+          0 odkorkować się-1
+        0 uchylić się-1
+        0 odskoczyć-4
+        2 rozchylić się-1
+          1 rozewrzeć się-2
+            0 rozdziawić się-2
+    0 zastygnąć-2, zamrzeć-2
+    0 odejść-4
+  12 *zrobić _WYPADEK_DK-1
+    5 pominąć-3, nie zauważyć-1
+      4 przeoczyć-1
+        0 przegapić-1
+        0 zagapić się-2
+        0 przepuścić-8
+        0 przespać-2, zaspać-1
+    1 dowieść-2, zaświadczyć-1
+      0 obwieścić-2
+    3 zakończyć-2
+      0 zamknąć-6
+      1 zwieńczyć-2
+        0 koronować-3
+  824 *zrobić _DZIAŁANIE_ DK-1
+    0 rozmienić się na drobne-1
+    0 zrobić na odpierdol-1, zrobić na odpierdol się-1
+    159 *CZASOWNIK - DZIAŁANIE DK oznaczający wytworzenie czegoś-1
+      0 wywołać-2
+      138 wytworzyć-1, zrobić-2
+        0 wytatuować-1
+        0 wydrapać-1
+        0 wykleić-1
+        13 zbudować-1, wybudować-1, postawić-2, wznieść-1
+          0 wyprowadzić-3
+          0 wysklepić-2
+          0 zabarykadować-1
+          0 postawić się-2
+          VISITED 0 erygować-1
+          4 poprowadzić-3, przeprowadzić-4
+            0 puścić-16
+            2 doprowadzić-4
+              1 przyłączyć-3
+                VISITED 0 pociągnąć-8
+          0 pobudować się-1
+          0 wystawić-1
+          0 uwić-2
+        0 zawiązać-9
+        1 ukręcić-1
+          0 zakręcić gibona-1
+        0 zaimprowizować-1
+        5 wykończyć-1, zakończyć-3
+          VISITED 0 wycyzelować-1
+          1 dopracować-1
+            0 dopieścić-1, wycyzelować-2
+          VISITED 0 podszyć-2
+          0 obrobić-3
+        63 stworzyć-2, utworzyć-4, zbudować-2
+          2 sporządzić-1
+            1 spisać-2
+              0 zinwentaryzować-1
+          0 wyprodukować-4
+          0 wykreować-3, stworzyć-3
+          0 wyczarować-2
+          0 wysnuć-1
+          0 utkać-4
+          41 zorganizować-1
+            0 zblokować-1
+            1 uformować-3
+              0 ukonstytuować-1
+            6 utworzyć-2
+              0 afiliować-1
+              VISITED 0 zamurować-2
+              3 założyć-1
+                0 założyć gniazdo-1
+                0 erygować-3
+                0 zawiązać-8
+            29 przygotować-2, przyszykować-1, uszykować-1, naszykować-1
+              0 sformatować-3
+              0 oporządzić-2
+              0 oprawić-4, oporządzić-1
+              VISITED 3 urządzić-2
+              8 przygotować się-1, przyszykować się-1
+                0 zmobilizować się-1
+                0 wystroić się-1
+                0 zaprawić się-2
+                0 uzbroić się-3
+                1 spakować się-1, zwinąć się-2, zebrać się-3
+                  0 przepakować się-1
+                0 przysposobić się-1
+                0 zebrać siły-1, spiąć się-1, sprężyć się-3, zebrać się w sobie-1
+              0 zmobilizować-3
+              0 rozorać-1
+              7 obrobić-4
+                0 uprawić-1
+                3 przepuścić-7
+                  0 przefiltrować-2, przesączyć-1
+                  0 przesiać-3
+                  0 odsączyć-1, odcedzić-1, osączyć-1
+                0 przeciągnąć-9
+                0 przeciągnąć-10
+              0 wyrychtować-1
+              1 spreparować-4
+                0 wygarbować-1, wyprawić-3
+            0 zaaranżować-2
+          3 połączyć-3
+            0 zblokować-3
+            0 puścić-17
+            0 spiąć-3
+          VISITED 0 sklecić-1, posklejać-1
+          3 skonstruować-1, zbudować-3
+            0 zmontować-3
+            0 rzucić-14
+            0 sklecić-2
+          3 ułożyć-7
+            0 obelkować-1
+            0 skopić-1
+            0 skomponować-2, skombinować-2, skompilować-1
+        16 skopiować-1, przekopiować-1, powielić-1
+          0 pobrać-7, ściągnąć-15
+          0 zeskanować-1
+          1 odbić-9
+            0 skserować-1
+          0 odwzorować-2
+          VISITED 0 przedrukować-1
+          0 przerysować-1, odrysować-1
+          0 przenieść-3
+          1 przepisać-1, odpisać-3
+            0 ściągnąć-6, spisać-4, zerżnąć-2, odwalić-3
+          2 wydrukować-2
+            VISITED 0 dodrukować-3
+            0 wytłoczyć-6
+          2 przepisać-3
+            0 spisać-3
+            0 przetranskrybować-1
+        29 wyprodukować-2, wykonać-2
+          0 zesłodować-1
+          0 zmajstrować-1
+          0 wytłoczyć-5
+          0 wytłoczyć-4
+          0 uprząść-1, usnuć-1
+          0 uwarzyć-1
+          0 wykuć-1, ukuć-2, odkuć-2
+          0 nawarzyć-1
+          2 udziać-1
+            0 wyszydełkować-1
+            0 wydziergać-1
+          0 obszyć-3
+          0 uszyć-1
+          0 utkać-2
+          1 podrobić-1, sfabrykować-1, sfalsyfikować-1, sfałszować-1, spreparować-2
+            0 sfingować-1
+          VISITED 5 dorobić-1
+          0 wypleść-2
+          2 otrzymać-3, pozyskać-2, uzyskać-2
+            1 wytopić-1
+              0 wysmażyć-2
+          0 natkać-1
+          1 wytłoczyć-1
+            0 wybić-10
+      0 zagnieździć się-1, zalęgnąć się-1, zaląc się-1, założyć legowisko-1
+      0 wyhodować-1
+      17 przyrządzić-1, przygotować-4
+        0 ubić-2
+        2 usmażyć-1
+          0 zeszklić-2
+          0 wysmażyć-1
+        0 uwędzić-1
+        6 upiec-1
+          0 opiec-1
+          VISITED 0 dopiec-1
+          VISITED 0 dopiec-2
+          1 przypiec-1, podpiec-1
+            0 spiec-2
+          0 wypiec-2
+        4 ugotować-1
+          0 obgotować-1
+          0 zaparzyć-1, naparzyć-1
+          0 wygotować-1
+          0 udusić-1
+    4 *CZASOWNIK - DZIAŁANIE DK oznaczający zmianę w obrębie zjawisk fizycznych-1
+      0 ściszyć-1, przyciszyć-1
+      VISITED 0 *wydobyć dźwięk-1
+      1 zrumienić-1
+        0 podsmażyć-1
+    29 *CZASOWNIK - DZIAŁANIE DK oznaczający zmianę w obrębie relacji abstrakcyjnych-1
+      0 zaokrąglić-2
+      13 podtrzymać-5
+        0 utrzymać-3
+        11 zachować-4, przechować-1
+          7 utrwalić-2
+            1 zapisać-4
+              0 nagrać się-7
+            0 zaprasować-1
+            3 nagrać-1
+              0 dograć-3
+              VISITED 1 sfilmować-1, nakręcić-3
+          2 zapamiętać-2, zapisać w pamięci-1, zachować w pamięci-1
+            0 zakodować-2
+            0 spamiętać-1
+      6 wyrównać-4
+        0 powetować-1
+        0 zamortyzować-3
+        3 zrównoważyć-1, skompensować-1
+          0 zbilansować-2, zrównoważyć-2
+          0 wyważyć-2
+          0 przeciwstawić-1
+      6 zaplanować-1, założyć-8, zamyślić-1, zamierzyć-1, uplanować-1
+        3 przewidzieć-2
+          2 oszacować-1, ocenić-3, wyszacować-1
+            0 przeszacować-2
+            0 otaksować-2
+        VISITED 1 pamiętać-1
+    103 *CZASOWNIK - DZIAŁANIE DK oznaczający zmianę sytuacji związanych (lub sytuacje związane) ze współżyciem w społeczeństwie-1
+      0 ukoronować się-1
+      VISITED 0 zainaugurować-1
+      0 przeżegnać się-1
+      0 koronować się-1
+      0 wyczarować-1
+      0 obstawić się-1
+      3 urządzić-2
+        0 zainscenizować-1, zaaranżować-1, wyreżyserować-2
+        0 zaimprowizować-2
+        0 wyprawić-2, wydać-7, dać-14
+      6 dokonać-1
+        0 wyważyć otwarte drzwi-1
+        0 przenieść góry-1
+        0 zasłużyć się-1
+        2 wykazać się-2
+          1 popisać się-1
+            0 zaszpanować-1
+      0 odstawić-2
+      1 przetłumaczyć-1, przełożyć-3
+        0 spolonizować-2
+      8 wprowadzić-1, wypuścić-3
+        0 emitować-4
+        0 wydać-4
+        5 wydać-1, opublikować-1
+          0 puścić-10
+          3 ogłosić-3
+            2 ogłosić drukiem-1, wydrukować-1
+              VISITED 0 dodrukować-2, dobić-2
+              0 przedrukować-1
+      0 odrobić-1, odpracować-1, odsłużyć-2
+      37 wykonać-1
+        0 poczynić-1
+        3 zanucić-1
+          1 zagwizdać-2, wygwizdać-2
+            0 odgwizdać-1
+          0 zamruczeć-4
+        5 zagrać-7, odegrać-1
+          0 wcielić się-1
+          0 zaimprowizować-4
+          2 zinterpretować-1
+            0 zreinterpretować-1
+            0 ustawić-6
+        23 przygotować-1
+          0 przestrzelić-1, przestrzelać-2
+          0 zgotować-1
+          20 opracować-1
+            0 algorytmizować-2
+            0 skodyfikować-1
+            0 zaimplementować-1
+            0 implementować-1
+            0 zaprojektować-1
+            0 wyczerpać-3
+            1 zaplanować-3
+              0 zapreliminować-1
+            3 złożyć-2
+              0 przełamać-1, złamać-3
+              0 zesznurować-2
+              0 zablokować-7
+            0 zdubbingować-1
+            0 zadiustować-1, zaadiustować-1
+            3 zredagować-1
+              0 przeredagować-1
+              0 rozpisać-2
+              0 spisać-1
+            0 spreparować-3
+            0 naszkicować-1
+        1 pomylić-1, zmylić-2, poplątać-1, pomieszać-2
+          0 pokręcić-4
+      34 stworzyć-1, spłodzić-1, wykreować-1
+        3 przetworzyć-1
+          2 sparafrazować-2
+            1 sparodiować-2
+              0 strawestować-1
+        0 ułożyć-5
+        0 wyprodukować-1, zrealizować-1
+        1 sportretować-1
+          0 skarykaturować-1
+        0 zmontować-1
+        0 wyreżyserować-1
+        1 sfilmować-1, nakręcić-3
+          0 zaanimować-1
+        0 skomponować-1
+        2 wyrzeźbić-1
+          0 wyciosać-1
+          0 wystrugać-1
+        0 sklecić-1, posklejać-1
+        1 odmalować-3, namalować-1
+          0 wymalować-2
+        14 napisać-1
+          VISITED 0 wysmażyć-3, wypocić-1
+          0 wypisać się-2
+          1 wypisać-2
+            0 wystawić-9
+          0 wypisać-3
+          VISITED 2 dopisać-2
+          5 zapisać-3
+            0 rozpisać-4
+            0 zaprotokołować-1, zaprotokółować-1
+            0 zakodować-1, zaszyfrować-1
+            1 zanotować-2
+              0 odnotować-3
+    69 *CZASOWNIK - DZIAŁANIE DK oznaczający zmianę posiadania lub sytuacji związanej z posiadaniem-1
+      68 zużyć-1
+        0 wydatkować-2
+        0 wyrysować-1
+        0 wymalować-1
+        1 opróżnić-2, wypróżnić-1
+          0 wysączyć-2
+        0 wydzwonić-1
+        0 ograniczyć się-1
+        0 spalić-2
+        0 donosić-4
+        0 zeżreć-1
+        0 wypisać-1
+        4 wyczerpać-2
+          0 wystrzelać-3
+          0 wypryskać-1
+          0 wysmarować-3
+          0 wykupić-5
+        0 wybrać-3
+        0 wyszyć-1
+        0 spaść-7, skarmić-1
+        0 rozładować-3
+        2 sfatygować-1
+          VISITED 0 wyświecić-1
+          0 rozklekotać-1
+        1 wypalić-2
+          0 opalić się-2
+        0 wykończyć-5
+        0 wypiec-1
+        41 zniszczyć-3
+          0 wyświechtać-1
+          0 zdezelować-1
+          0 zszargać-3, zaszargać-1
+          0 sprać-2
+          0 poorać-2, zajechać-4, zaorać-2
+          0 poharatać-2
+          0 wytłuc-1
+          0 zdewastować-1
+          0 stępić-2
+          0 odrapać-1, obdrapać-1
+          0 zjeździć-2
+          0 zaczytać-1
+          0 załamać-2, zarwać-1
+          0 zmechacić-1, skosmacić-1
+          0 nadeżreć-2
+          0 znosić-1
+          1 wytrzeć-1
+            0 wyświecić-1
+          0 podniszczyć-1
+          1 zedrzeć-1
+            0 podrzeć-2
+          0 zdeptać-1
+          0 wydeptać-2, zadeptać-1
+          1 rozmyć-2
+            0 zerodować-1
+          0 wypiec-3, wypalić-4
+          0 przetrzeć-1
+          13 rozerwać-1
+            0 rozsadzić-1
+            0 porozrywać-1
+            0 naderwać-1
+            VISITED 3 rozedrzeć-1
+            0 zerwać-1, przerwać-6
+            8 podrzeć-1, porwać-4, poszarpać-2
+              0 rozharatać-1
+              0 wystrzępić-1, postrzępić-1
+              0 potargać-3
+              0 rozszarpać-1
+              3 rozedrzeć-1
+                0 porozdzierać-1
+                0 nadedrzeć-1
+                0 przedrzeć-1
+    252 *CZASOWNIK - DZIAŁANIE DK oznaczający zmianę położenia lub relacji przestrzennych-1
+      2 odgrodzić się-1
+        1 zamknąć się-6
+          0 pozamykać się-3
+      0 przewinąć-1
+      2 obrócić-2, okręcić-2
+        0 przekręcić-2
+        0 zakręcić-2
+      6 złączyć-2
+        0 sprzęgnąć-1, sprząc-2
+        0 zsunąć-1
+        3 nasadzić-1, nasunąć-1
+          0 nawlec-1, nanizać-1
+          1 wbić-2, nabić-2, nadziać-2
+            0 nakłuć-3
+      30 otoczyć-1
+        0 obudować-2
+        0 osnuć-1
+        4 obrzeżyć-1, obwieść-1, obramować-1
+          1 obrysować-1
+            0 wyciągnąć-10
+          0 obwałować-1
+          0 obmurować-2
+        2 ograniczyć-2, ogrodzić-1
+          0 ogrodzić się-1
+          0 zagrodzić się-2
+        14 owinąć-1, zawinąć-1, obwinąć-1, spowić-1, spowinąć-1
+          1 opakować-1, zapakować-2, spakować-3
+            0 zawiązać-1, związać-11
+          0 przewinąć-3
+          0 otulić-1, opatulić-1, okutać-1, zakutać-1
+          0 obwiązać-1, owiązać-1
+          8 okręcić-1, opleść-1, oplątać-1, omotać-1
+            2 przewiązać-1, przepasać-1, opasać-1, opiąć-2
+              1 ściągnąć-5
+                0 zebrać-8
+            3 nawinąć-1, zwinąć-3, zawinąć-3, namotać-1, nakręcić-7
+              0 uzwoić-1
+              1 zakręcić-5, skręcić-3
+                0 podkręcić-4
+            0 zabandażować-1, obandażować-1
+        3 obłożyć-2
+          0 wydarniować-1
+          0 ofornirować-1
+          0 obmurować-1, omurować-1
+        0 obwarować-1
+      14 unieruchomić-1
+        0 zakleszczyć-1
+        4 zatrzymać-6, zastopować-4, unieruchomić-2
+          0 zablokować-2
+          2 zgasić-4, wyłączyć-4, zamknąć-8, wygasić-3, zagasić-4
+            VISITED 1 zrestartować-1, zresetować-1
+        0 usztywnić-2
+        5 obezwładnić-2
+          0 skuć-2
+          VISITED 0 przykuć-1
+          2 związać-9
+            0 skrępować-2
+            0 spętać-1
+        0 przykuć-2, przygwoździć-3
+      33 wyrównać-2, zrównać-1
+        2 zagrabić-2, zgrabić-1
+          0 rozgrabić-2
+          0 ograbić-2
+        0 powłóczyć-4
+        0 wycyrklować-1
+        1 zniwelować-2
+          0 odreagować-2
+        VISITED 0 udeptać-1
+        10 wygładzić-1, ogładzić-2
+          0 odprasować-1, wyprasować-1, uprasować-1
+          0 przygładzić-1
+          0 wycyzelować-1
+          0 dotrzeć-6
+          0 opiłować-1, spiłować-1
+          0 obciągnąć-1
+          0 wyślizgać-2
+          0 oheblować-1, ostrugać-3
+          0 wyszlifować-3, oszlifować-2
+          0 obtoczyć-2
+        1 zatrzeć-1
+          0 zagipsować-1
+        12 ubić-1
+          0 uklepać-1
+          0 ujeździć-3
+          0 roztłuc-2, rozbić-8
+          0 udeptać-1
+          6 zbić-2
+            0 skołtunić-1, skudłać-1, skudłacić-1
+            2 nabić-1
+              1 naładować-3, załadować-2
+                0 przeładować-2
+            0 stłoczyć-1
+            0 skłębić-1
+          0 ugnieść-2
+      1 odbudować się-1
+        0 dźwignąć się-3, podźwignąć się-5
+      3 odblokować-3
+        2 utorować-2
+          0 przebić się-6
+          0 rozepchać się-1, rozepchnąć się-3
+      16 zgromadzić się-1, zebrać się-1, zgrupować się-1
+        0 ścieśnić się-2, stłoczyć się-1, zbić się-1
+        0 uzbierać się-2
+        0 ugrupować się-1
+        0 zlecieć się-2
+        1 zbiec się-2, zbiegnąć się-1
+          0 zlecieć się-1
+        0 zejść się-1
+        0 obsiąść-1, obleźć-2
+        0 zjechać się-1, zjechać-7
+        0 najść-2
+        0 napłynąć-6
+        0 ściągnąć-7
+        0 zwołać się-1
+        2 ustawić się-1
+          0 uformować się-3
+          0 rozwinąć się-7
+      135 dołączyć-2
+        0 wmontować-1
+        0 donieść-3
+        0 dokleić-1, dolepić-1
+        1 załączyć-1
+          0 obudować-5
+        1 związać-2
+          0 przyłączyć-4
+        0 doczepić-1
+        48 przymocować-1, przytwierdzić-1, umocować-1, zamocować-1
+          0 przyspawać-1
+          0 przyprawić-1
+          0 zaklinować-1
+          0 przykręcić-1
+          0 dokręcić-1
+          0 wbudować-1
+          0 zakotwiczyć-1
+          0 zaplombować-1, opieczętować-1
+          0 zacumować-1, przycumować-1
+          1 przeciągnąć-1
+            0 pociągnąć-8
+          7 przyszyć-1
+            0 podszyć-2
+            1 podszyć-1
+              0 wywatować-1
+            1 obszyć-1
+              0 oblamować-1, zalamować-1, wylamować-1
+            0 wszyć-2
+            0 naszyć-1
+          0 zahaczyć-1, zaczepić-1
+          0 przygwoździć-2
+          0 zasadzić-2, wsunąć-1, zatknąć-1
+          1 przywiesić-1, uwiesić-1, zawiesić-1
+            0 uwiązać-2
+          2 przybić-1
+            0 podkuć-2
+            0 podkuć-1
+          1 przykleić-1, przylepić-1, nakleić-1, nalepić-1
+            0 wkleić-1, wlepić-3
+          4 przywiązać-1
+            0 zacumować-3
+            0 zaprząc-2, wprząc-1, wprzęgnąć-3
+            0 uwiązać-1
+            0 przytroczyć-1
+          0 przykuć-1
+          4 obsadzić-1, osadzić-2
+            0 immobilizować-1
+            0 oprawić-2
+            0 zagnieździć-1, zadokować-1
+            0 utwierdzić-3
+          7 przyczepić-1
+            0 przyssać się-1
+            0 uczepić-1
+            3 przypiąć-1
+              0 przyszpilić-2
+              0 podpiąć-2
+              0 wpiąć-1
+            0 nawiązać-3
+        77 dodać-3
+          0 domieszać-1
+          0 dosadzić-1, przysadzić-1
+          8 przysporzyć-1, przynieść-3
+            0 nastręczyć-1
+            1 opłacić się-1
+              0 zwrócić się-4, wrócić się-2
+            0 zaowocować-1, zaprocentować-1
+            0 okryć-3
+            VISITED 2 wzbogacić się-1, dorobić się-1, zbić majątek-1
+          0 przydać-1
+          0 dokooptować-1
+          0 dogrzać-2
+          0 dać-2
+          0 dostawić-1
+          2 dopisać-2
+            0 dopisać się-1
+            0 przypisać-1
+          0 wnieść-5
+          0 doładować-2
+          28 uzupełnić-1, dopełnić-2
+            0 zapchać-6
+            0 wypełnić-6
+            1 nanieść-5
+              0 porysować-3, poryć-1, zorać-2
+            0 dodrukować-3
+            0 dozbroić-1
+            VISITED 0 dokształcić-1, douczyć-1
+            0 dorysować-2
+            0 domalować-2
+            0 zapchać-3
+            0 wmontować-2
+            0 dotlenić-1
+            0 dorżnąć-2
+            1 doposażyć-1
+              0 dozbroić-2
+            0 doszyć-2
+            1 doładować-1
+              0 dowalić-3
+            0 skompletować-1
+            1 opatrzyć-3, zaopatrzyć-1
+              0 poprzedzić-3
+            3 odbudować-2
+              0 odmłodzić-3
+              1 odtworzyć-4, zregenerować-3
+                0 odmłodzić-4
+            2 dodać-2, dopowiedzieć-2, nadmienić-1
+              0 dorzucić-1
+              0 rozwinąć-8
+          3 zaprawić-1
+            0 zabielić-1
+            0 zasmażyć-1
+            0 okrasić-3
+          0 podłożyć-2
+          VISITED 0 dorobić-2
+          5 dorobić-1
+            0 dodrukować-2, dobić-2
+            0 dokręcić-3
+            0 dogrzać-4
+            0 dopiec-1
+            0 dotrzeć-5
+          3 dołożyć-2
+            0 przyrzucić-1
+            0 dosypać-1
+            0 dolać-3
+          10 dołożyć-1
+            1 dopełnić-3
+              0 dolać-2
+            1 podrzucić-7, dorzucić-2
+              0 przywalić-5
+            5 przyprawić-2, doprawić-1
+              0 zaostrzyć-5
+              0 zakwasić-3
+              0 posłodzić-1, osłodzić-1
+              0 popieprzyć-1, opieprzyć-1
+              0 posolić-1, osolić-1
+    31 *CZASOWNIK - DZIAŁANIE DK oznaczający zmianę sytuacji związanej z łańcuchem przyczynowo-skutkowym-1
+      0 obsłużyć-2
+      0 pospieszyć się-1, uwinąć się-1, pośpieszyć się-2, pośpieszyć-3, pospieszyć-3
+      28 wymienić-3, zamienić-1, zastąpić-1, zmienić-2
+        0 wykropkować-2
+        0 podmienić-1
+        0 przemianować-1
+        0 wybarwić-1
+        0 sprowadzić-6
+        0 przewinąć-2
+        0 przesiąść się-2
+        0 odbić-10
+        0 przeliczyć-2
+        0 przerejestrować-1
+        0 przewietrzyć-2, odświeżyć-4
+        0 podstawić-4
+        0 przeszczepić-3
+        1 przeszczepić-1
+          0 transplantować-1
+        0 nawrócić się-1
+        0 przebić-4
+        1 przeprowadzić się-1
+          0 przekwaterować się-1
+        0 rozmienić-1
+        0 przewlec-2
+        0 przejść-13
+        0 przejść-14
+        0 nadpisać-1
+        0 przebrać-2
+        0 zdematerializować-2
+        0 odmłodzić-2
+        0 przeskoczyć-2
+    72 *CZASOWNIK - DZIAŁANIE DK oznaczający zmianę stanu mentalnego lub emocjonalnego albo reakcję emocjonalno-fizjologiczną-1
+      2 wymyślić-2
+        0 znaleźć-5, wynaleźć-1
+        0 dorobić-2
+      68 poznać-3
+        0 prześlizgnąć się-1, prześliznąć się-3
+        3 wejść-14, wniknąć-3
+          0 wmyślić się-1
+          0 wejrzeć-1, wglądnąć-2
+          0 wczytać się-1
+        4 odkryć-3
+          0 wynaleźć-3
+          2 wykryć-1
+            1 znaleźć-6
+              0 odnaleźć-2
+        12 zorientować się-1, rozeznać się-1, rozeznać-1, połapać się-1
+          3 spostrzec-2
+            VISITED 0 obejrzeć się-3
+            0 złapać się-4, przyłapać się-2
+            0 zreflektować się-2
+          7 dostrzec-2, dojrzeć-3
+            2 doszukać się-1, dopatrzyć się-1, upatrzyć-1
+              0 doszperać się-1
+              0 czepić się-2, przyczepić się-4, przypiąć się-2, doczepić się-1
+            2 odróżnić-3, rozróżnić-2
+              0 rozdzielić-6, odgraniczyć-2, rozgraniczyć-2
+              0 rozeznać-2
+            0 wykryć-3, ujawnić-2
+        15 zapoznać się-1, zaznajomić się-1, poznać się-1
+          0 otrzeć się-3, liznąć-3
+          0 prześledzić-1
+          0 przelecieć-9
+          VISITED 0 oczytać się-1
+          0 obcykać się-1, obeznać się-1, otrzaskać się-2
+          1 zgłębić-1, przestudiować-1
+            0 przerobić-2
+          0 wystudiować-2
+          0 wystudiować-3
+          5 obejrzeć-1, widzieć-1, zobaczyć-2, oglądnąć-1
+            0 przyglądnąć się-1, przyjrzeć się-1
+            0 pooglądać-2
+            2 przejrzeć-2
+              0 przekartkować-1
+              VISITED 0 przerzucić-5
+        10 przeczytać-1
+          VISITED 0 połknąć-4
+          1 odczytać-5
+            0 odszyfrować-3, rozszyfrować-3, zdekodować-1
+          0 wyczytać-3
+          0 zaczytać-2
+          0 przerzucić-5
+          0 rozczytać się-1, zaczytać się-1
+          VISITED 1 pochłonąć-7
+          1 odczytać-1, przeczytać-3, odcyfrować-1, odszyfrować-2, rozczytać-1
+            0 rozkodować-1, odkodować-1, rozszyfrować-1, odszyfrować-1
+        21 nauczyć się-1, wyedukować się-1, wykształcić się-3, wyszkolić się-1
+          0 podszkolić się-1, poduczyć się-1
+          3 posiąść-3, przyswoić-2, opanować-4
+            0 wchłonąć-6, łyknąć-4
+            1 pochłonąć-7
+              0 połknąć-4
+          0 potrafić-1
+          0 wyuczyć się-1
+          0 wyspecjalizować się-1
+          0 wykuć-3, wykuć się-1, wkuć-2, wkuć się-2
+          0 podkuć-3
+          1 przeszkolić się-1
+            VISITED 0 przekwalifikować się-1
+          0 poznać-7
+          2 przygotować się-2
+            0 przekwalifikować się-1
+            0 oczytać się-1
+          1 popracować nad sobą-1
+            0 wyćwiczyć się-1
+          1 wyćwiczyć-2
+            0 wystudiować-1
+          1 powtórzyć-4
+            0 przepowiedzieć-2
+    0 *CZASOWNIK - DZIAŁANIE DK oznaczający reakcję organizmu lub czynność fizjologiczną-1
+    114 *CZASOWNIK - DZIAŁANIE DK oznaczający kontakt fizyczny-1
+      0 wywiercić-1
+      2 wykopać-2
+        VISITED 0 przekopać-5
+        0 przekopać-4
+      1 przebić-2
+        0 przekopać-5
+      104 dać-3
+        VISITED 32 przyznać-2
+        VISITED 1 dać awans-1
+        24 udzielić-2
+          0 użyczyć-2
+          VISITED 1 wyświęcić-1
+          16 poradzić-2
+            VISITED 0 skonsultować-1
+            0 odradzić-1
+            0 odradzać-2
+            12 doradzić-1
+              4 podpowiedzieć-2
+                0 podszepnąć-2
+                0 podyktować-3
+                0 podsunąć-3, zasugerować-2, poddać-3
+                0 skierować-5, naprowadzić-1, odesłać-1
+              1 zalecić-2
+                0 przepisać-5, zaordynować-2, zaaplikować-3, zapisać-6
+              4 zarekomendować-1, polecić-1, zalecić-1
+                0 nastręczyć-2
+                VISITED 1 zareklamować-2
+                VISITED 0 naraić-1, nadać-5
+          0 rozwieść-1
+          2 wybaczyć-1, przebaczyć-1, odpuścić-1, podarować-2, darować-1
+            0 amnestionować-1, amnestiować-1
+            VISITED 0 rozgrzeszyć-1, udzielić rozgrzeszenia-1, dać rozgrzeszenie-1
+        30 nadać-1
+          0 umocować-2
+          0 wynieść na tron-1, powołać na tron-1, wprowadzić na tron-1, umieścić na tronie-1, osadzić  na tronie-1
+          1 uwłaszczyć-1
+            0 uwłaszczyć-2
+          4 mianować-1
+            0 nobilitować-2
+            0 pasować-3
+            0 intronizować-1
+            0 koronować-2
+          0 ukoronować-1
+          10 przydzielić-1
+            VISITED 0 rozpisać-1
+            VISITED 0 zaokrętować-1
+            0 zakwaterować-1
+            VISITED 6 wydzielić-2
+          3 zatwierdzić-1, uprawomocnić-1, usankcjonować-1
+            0 ratyfikować-1
+            0 autoryzować-3
+            0 zalegitymizować-1
+          1 nazwać-2, nadać imię-1
+            0 ochrzcić-3
+          2 promować-1
+            0 habilitować-1
+            0 doktoryzować-1
+        VISITED 14 odpowiedzieć-2, dać odpowiedź-1, udzielić odpowiedzi-1, odeprzeć-3
+      3 zmiażdżyć-1, zgnieść-2, rozgnieść-1
+        0 zgryźć-1
+        0 utłuc-1
+        0 rozetrzeć-1
+    0 trzasnąć-3
+    0 wyrżnąć-3
+  3932 *zrobić _AKT_ DK-1
+    896 *CZASOWNIK - AKT oznaczający zmianę sytuacji związanych (lub sytuacje związane) ze współżyciem w społeczeństwie-1
+      0 przyłożyć rękę-1
+      0 zlamić-1
+      538 *zrobić coś motywowanego względami społecznymi-1
+        VISITED 0 pokazać się na oczy-1, spojrzeć w oczy-1
+        0 przymknąć oko-1, przymknąć oczy-1, spojrzeć przez palce-1, popatrzeć przez palce-1
+        VISITED 0 przelać krew-2
+        0 przelać krew-1
+        0 rozgościć się-1
+        11 dopilnować-1, upilnować-1
+          0 nie uronić-1
+          9 zadbać-1, zatroszczyć się-1, pomyśleć-1
+            VISITED 6 zaopiekować się-1, doglądnąć-1, zająć się-2, otoczyć opieką-1, roztoczyć opiekę-2
+            1 pamiętać-1
+              0 nie omieszkać-1
+        17 pomóc-1
+          0 przyjąć poród-1, odebrać poród-1, przyjąć na świat-1
+          0 wywindować-2
+          VISITED 0 ulżyć-1
+          0 wyręczyć-1, odciążyć-3
+          VISITED 12 nauczyć-1, wyedukować-1, wykształcić-1, wyszkolić-1
+        1 zatrudnić się-1, zaangażować się-1
+          0 nająć się-1, wynająć się-1
+        14 uchronić-1, ochronić-1, obronić-2, ustrzec-1
+          VISITED 1 ubezpieczyć-1
+          0 przypilnować-1
+          2 zabezpieczyć się-2
+            0 ufortyfikować się-1
+            0 uzbroić się-2
+          0 oszczędzić-1, zaoszczędzić-1
+          VISITED 1 przechować-3
+          1 osłonić-3
+            0 obstawić-4
+          2 wyratować-1, ocalić-1, wybawić-1, zbawić-1, uratować-1, odratować-1
+            0 wybronić-1
+            0 wyciągnąć-4, wydostać-3, wydobyć-5, wyprowadzić-4
+        2 wypomnieć-1, wymówić-4
+          0 wytknąć-2, wytknąć palcem-1
+          0 wygarnąć-2
+        10 pozdrowić-1
+          0 ukłonić się-2
+          0 zasalutować-1
+          4 ukłonić się-1, złożyć ukłon-1
+            0 pokłonić się-1, złożyć pokłon-1
+            0 uchylić kapelusza-1
+            VISITED 0 odkłonić się-1
+            0 dygnąć-1
+          0 powitać-1, przywitać-1, powitać się-1, przywitać się-1
+          0 pożegnać się-3
+          0 pożegnać-1
+        17 skontaktować się-1, skomunikować się-1, porozumieć się-1
+          2 połączyć się-1
+            0 dodzwonić się-1
+            0 wybrać numer-1
+          0 wymienić-4
+          0 odezwać się-3
+          2 zadzwonić-1, zatelefonować-1, przedzwonić-1
+            0 przekręcić-5
+            VISITED 0 oddzwonić-1, odtelefonować-1
+          8 dogadać się-1
+            VISITED 0 wymigać-1
+            6 umówić się-1, uzgodnić-1, umówić-1, zmówić się-2
+              1 dogadać się-2, porozumieć się-2, ugadać się-2
+                0 dograć-4
+              0 dogadać-1
+              0 zamówić-4
+              1 założyć się-1, pójść o zakład-1
+                VISITED 0 postawić-8, obstawić-3
+        0 pójść w ślady-1, pójść śladem-1, wstąpić w ślady-1
+        10 zachować-3
+          5 utrzymać-4
+            0 dotrzymać kroku-2
+            0 podtrzymać-4
+            0 dowlec-2
+            1 nadążyć-1, zdążyć-3
+              0 dotrzymać kroku-1
+          0 utrzymać-5
+          0 zostawić-6, pozostawić-7, odłożyć-4
+          1 przechować-3
+            0 dotrzymać-2, dochować-2
+        35 ułatwić-1
+          0 uprościć-2
+          VISITED 1 utorować-1
+          VISITED 1 uprzystępnić-1
+          29 pomóc-3, wesprzeć-2, dopomóc-1, wspomóc-1, udzielić pomocy-1, przyjść z pomocą-1, poratować-1
+            2 pocieszyć-1
+              1 dodać otuchy-1, podtrzymać na duchu-1, podnieść na duchu-1, podtrzymać-1, wesprzeć-3, pokrzepić-2, skrzepić-2
+                0 podbudować-3
+            0 ulżyć-2
+            VISITED 1 podpowiedzieć-1
+            0 poradzić-1
+            0 usłużyć-1
+            2 wyswobodzić-2, wyzwolić-2, uwolnić-3, oswobodzić-3
+              0 wykupić-4
+              0 odbić-7
+            0 podnieść-7, unieść-3
+            0 przeprowadzić-3
+            0 przepchnąć-4
+            6 zaopiekować się-1, doglądnąć-1, zająć się-2, otoczyć opieką-1, roztoczyć opiekę-2
+              0 adoptować-2
+              4 przygarnąć-1
+                3 przysposobić-2
+                  0 zaadoptować-1
+                  0 usynowić-1
+                  VISITED 0 adoptować-1
+            2 uratować-2, wyratować-2
+              0 odratować-2
+              0 zreanimować-1, ożywić-4, przywrócić ... do życia-1
+            0 przetrzeć-4
+            VISITED 0 sprowadzić-7
+            2 uczynić dobro-1
+              1 wyświadczyć-1
+                0 przysłużyć się-1
+        107 zaszkodzić-2
+          0 wbić nóż w plecy-1, wsadzić nóż w plecy-1
+          4 ośmieszyć się-1
+            0 skompromitować się-1, zdyskredytować się-1
+            2 wygłupić się-1
+              0 zbłaźnić się-1
+              0 wydurnić się-1
+          0 poszkodować-1
+          15 zadać-1
+            0 zadać gwałt-2
+            VISITED 13 uderzyć-2, zadać cios-2, zadać raz-1, dać-13, wymierzyć-3, dać łupnia-1
+          2 namotać-3
+            VISITED 1 wrobić-1
+          46 zabić-3, pozbawić życia-1
+            VISITED 45 zabić-1, uśmiercić-1, załatwić-3
+          52 skrzywdzić-1
+            0 urwać dupę-1, wyrwać nogi z dupy-1, powyrywać nogi z dupy-1, wyrwać nogi z tyłka-1, powyrywać nogi z tyłka-1, urwać łeb-1, ukręcić łeb-2
+            1 wrobić-1
+              0 podłożyć świnię-1
+            0 zdyskryminować-1
+            0 poczęstować-1
+            0 okaleczyć-3
+            45 zabić-1, uśmiercić-1, załatwić-3
+              0 zagonić-2
+              0 zagryźć-2
+              0 zadźgać-1, zakłuć-2
+              0 zaszlachtować-1
+              0 eksterminować-2
+              0 zasztyletować-1
+              0 kropnąć-5
+              0 zlinczować-1
+              0 spalić-4
+              0 zdziesiątkować-1
+              0 przejechać-4, rozjechać-1
+              1 dobić-5
+                0 dorżnąć-1
+              0 zatruć-3, otruć-1
+              0 zatłuc-1
+              0 zamorzyć-2
+              0 utłuc-3
+              0 zastrzelić-1
+              0 ukamienować-1
+              1 zarżnąć-1, ubić-3
+                0 zaszlachtować-2
+              0 rozstrzelać-1
+              0 powiesić-3
+              0 stracić-2
+              1 ściąć-4, zdekapitować-1, skrócić o głowę-1
+                0 zgilotynować-1
+              2 upolować-2
+                VISITED 1 złowić-1
+              VISITED 2 upolować-1
+              VISITED 1 położyć-3
+              0 odstrzelić-2
+              0 uśpić-3
+              11 zamordować-1, zgładzić-1
+                1 zgładzić-2
+                  0 wyżąć-3, wyciąć w pień-1, wyżąć w pień-1
+                VISITED 0 położyć trupem-1, wykończyć-4
+                0 zabatożyć-1
+                0 zagazować-1
+                0 zagłodzić-2, zamorzyć-3
+                0 ukrzyżować-1
+                0 powalić-2
+                0 udusić-2, zadusić-1
+                0 sprzątnąć-4
+                0 zamęczyć-1, zakatować-1, zadręczyć-2, umęczyć-2
+          0 skompromitować-1
+          2 zhańbić-1, pohańbić-1, zniesławić-1, zbrukać-1, splamić-2, skalać-1, pokalać-1, splugawić-1
+            VISITED 0 obrzucić błotem-1
+            0 splamić mundur-1
+          24 zniszczyć-2
+            0 rozwalić-5, zdruzgotać-4
+            0 zdezintegrować-1
+            1 zerwać-7
+              VISITED 0 rozwieść się-1, rozejść się-8, wziąć rozwód-1
+            0 sponiewierać-1
+            4 zniweczyć-1, unicestwić-1
+              3 wyniszczyć-2
+                0 wytruć-1
+                0 zdziesiątkować-2
+                0 wygłodzić-1
+            11 wynarodowić-1, wykorzenić-2
+              VISITED 0 zarabizować-2
+              0 zlatynizować-2
+              VISITED 0 zeslawizować-2
+              VISITED 0 zmadziaryzować-1
+              VISITED 0 zjudaizować-2
+              VISITED 0 zromanizować-2
+              VISITED 0 spolonizować-1
+              VISITED 0 zukrainizować-1
+              VISITED 0 zrusyfikować-1
+              VISITED 0 sturczyć-1
+              VISITED 0 zgermanizować-1, zniemczyć-1
+            1 wykończyć-3
+              0 zaszczuć-2
+        1 zwiedzić-1
+          VISITED 0 zjeździć-1, zjechać-8
+        10 zagrać-3
+          0 zagrać do kotleta-1
+          1 zafałszować-3
+            0 skiksować-4
+          0 zatrąbić-2
+          0 odtrąbić-3
+          0 brząknąć-2, brzęknąć-3, brzdęknąć-1, brzdąknąć-1
+          0 zaakompaniować-1
+          0 odbębnić-2
+          0 zaimprowizować-3
+          0 zadąć-2
+        71 postąpić-1
+          VISITED 0 wziąć przykład-1
+          0 polecieć w chuja-1
+          0 wylizać dupę-1, wleźć w tyłek-1, wleźć w dupę-1
+          0 sfrajerować się-1, sfrajerzyć się-1
+          0 zadać gwałt naturze-1
+          8 posunąć się-2
+            0 ważyć się-2
+            0 potrafić-2
+            5 odważyć się-1, ośmielić się-1, poważyć się-1
+              1 zaryzykować-3
+                0 rzucić na szalę-1, położyć na szalę-1
+              0 targnąć się-1
+              1 spróbować-4, popróbować-3
+                0 pokusić się-1
+          0 pograć-1
+          VISITED 0 wyłamać się-1
+          0 zhańbić się-1, pohańbić się-1, okryć się hańbą-1, splugawić się-1
+          0 skurwić się-2
+          0 zniżyć się-4
+          0 zachować-2
+          0 spisać się-1
+          18 sprzeciwić się-1, przeciwstawić się-1, zaprotestować-1, stawić opór-1, zaoponować-1
+            0 stanąć dęba-1, stanąć sztorcem-1, ustawić się sztorcem-1, postawić się sztorcem-1, stanąć okoniem-1
+            0 postawić się-1
+            VISITED 0 oprotestować-1
+            0 tupnąć-2
+            0 fiknąć-3, podskoczyć-2, wierzgnąć-2, szurnąć-5
+            VISITED 0 rozprawić się-1
+            3 zbuntować się-1
+              0 okupować-3
+              VISITED 0 szarpnąć się-2
+              0 powstać-5
+            VISITED 0 zbojkotować-1
+            VISITED 0 stawić czoła-1, stawić czoło-1
+            0 powstać-3
+            3 pokłócić się-1, posprzeczać się-1, poróżnić się-1, pospierać się-1, skłócić się-1
+              0 pójść na udry-1
+              0 zetrzeć się-3
+              0 przemówić się-1
+            0 odmówić-3, podziękować-2
+          30 zachować się-1
+            0 zbroić-5
+            VISITED 0 zapomnieć się-1
+            0 rozpanoszyć się-2
+            0 zgrzeszyć-1
+            0 zostać-4, pozostać-3
+            0 zostać-5, pozostać-2
+            2 zagrać-9, udać-1
+              0 upozorować-1
+              0 odstawić-7
+            0 znaleźć się-1
+            18 obrazić-1
+              1 wyzwać-1
+                0 spiorunować-1
+              6 znieważyć-1
+                0 sprofanować-1, zbezcześcić-1
+                0 zdeptać-3, podeptać-2
+                3 ubliżyć-1, zelżyć-1
+                  0 przezwać-2
+                  VISITED 0 wyszydzić-1
+                  0 zapluć się-2
+              VISITED 3 poniżyć-1
+              4 zwymyślać-1, nawymyślać-1
+                VISITED 0 obrzucić mięsem-1
+                0 skrzyczeć-1
+                0 skląć-1
+                0 objechać-3
+            0 narozrabiać-1
+        70 zareagować-1
+          0 zbyć-2
+          0 szarpnąć się-2
+          9 przyjąć-6
+            0 przyjąć na klatę-1, wziąć na klatę-1
+            VISITED 0 uświadomić sobie-1, zdać sobie sprawę-1
+            0 łyknąć-5
+            1 przełknąć-3
+              0 połknąć-3
+            1 przejąć się-1, zaniepokoić się-1
+              0 zmartwić się-1, strapić się-1, zasmucić się-1, zatroszczyć się-2, zatroskać się-1, zatrwożyć się-2
+            1 ucieszyć się-1, uradować się-1, rozradować się-1
+              0 zatrzeć ręce-1
+          10 podjąć-5
+            6 spróbować-2, podjąć próby-1, podjąć wysiłki-1, popróbować-2
+              0 zanieść-4
+              0 wyciągnąć rękę-3
+              VISITED 0 zapolować-2
+              0 zaatakować-6
+              1 zmierzyć się-1
+                0 stawić czoła-1, stawić czoło-1
+            VISITED 2 objąć-1, podjąć się-2
+          VISITED 1 przemilczeć-1, zmilczeć-1
+          VISITED 10 stracić głowę-1, stracić panowanie nad sobą-1
+          29 odpowiedzieć-3
+            0 odtrąbić-4
+            0 oddzwonić-1, odtelefonować-1
+            0 odgwizdać-3
+            8 odwzajemnić się-1, odwzajemnić-1, odpłacić-1, odpłacić się-1, odpowiedzieć-7, oddać-6, zrewanżować się-1
+              0 odbić piłeczkę-1
+              VISITED 0 odwdzięczyć się-1
+              VISITED 0 rewizytować-1
+              2 zemścić się-1, pomścić-1, odegrać się-2, pomścić się-1
+                1 rozprawić się-2, załatwić rachunki-1, wyrównać rachunki-1, załatwić się-5, pozałatwiać-2
+                  0 rozmówić się-3
+              0 odkłonić się-1
+              0 wypłacić-2, wypłacić się-1
+            0 skwitować-1
+            0 skontrować-1
+            14 odpowiedzieć-2, dać odpowiedź-1, udzielić odpowiedzi-1, odeprzeć-3
+              0 odwrzasnąć-1
+              0 odszepnąć-2
+              0 odrzec-1
+              0 odpyskować-1, odpysknąć-1
+              0 odkrzyknąć-1
+              0 odburknąć-1, odwarknąć-1, odmruknąć-1
+              0 odbąknąć-1
+              VISITED 1 odmówić-1
+              VISITED 0 odpalić-1
+              1 odpisać-2, odpowiedzieć-4
+                0 zaręczyć-2
+              0 zripostować-1
+              0 odparować-1
+          3 obronić się-3, odeprzeć-2
+            0 odgryźć się-1
+            0 odciąć się-4, odgryźć się-2
+            0 zareplikować-1
+        1 ugościć-1, podjąć-3, przyjąć-4
+          0 przenocować-2, położyć-7
+        152 potraktować-1, odnieść się-1, obejść się-1, postąpić-3
+          0 napluć w twarz-1
+          16 zignorować-1
+            15 zlekceważyć-1
+              0 puścić mimo uszu-1
+              0 zamknąć uszy-1, zatkać uszy-1
+              VISITED 0 zabawić się w chowanego-1, zabawić się w kotka i myszkę-1
+              0 zbagatelizować-1, zbanalizować-2
+              0 machnąć ręką-2
+              VISITED 0 zagrać na nosie-1
+              1 pogardzić-2, wzgardzić-1
+                0 splunąć-2
+              VISITED 0 zmarginalizować-1, zepchnąć na margines-1, usunąć w cień-1
+              0 zbojkotować-1
+              4 zaniedbać-1, zapomnieć-1
+                0 zabałaganić-2
+                VISITED 0 zabagnić-2
+                0 zapuścić-3
+                0 zachwaścić-3
+          0 ominąć szerokim łukiem-1
+          0 uniewinnić-2
+          0 pogardzić-1
+          0 podejść-2
+          0 zmarnować-1
+          8 wyśmiać-1, obśmiać-1
+            0 wykpić-1, wydrwić-1
+            0 wyszydzić-1
+            0 wygwizdać-1
+            1 ośmieszyć-1
+              0 zadrwić-3
+            VISITED 1 sparodiować-1
+            0 skompromitować-3
+          0 odciąć się-1
+          0 zdystansować się-1
+          0 przejąć się-2, wziąć do serca-1
+          23 wyróżnić-3, uprzywilejować-1
+            0 zaszczycić-1
+            21 wywyższyć-1, wynieść-6
+              0 nobilitować-1
+              0 postawić na piedestale-1, wynieść na piedestał-1, wynieść na ołtarze-2
+              2 kanonizować-1
+                0 wynosić na ołtarze-1
+                0 wynieść na ołtarze-1
+              0 beatyfikować-1
+              VISITED 14 pochwalić-1
+          92 ocenić-1, osądzić-1
+            0 podsumować-2
+            1 zbilansować-1, podsumować-3
+              0 rozliczyć-2
+            2 zaopiniować-1
+              0 skonsultować-1
+              0 zrecenzować-1, skrytykować-2
+            1 przecenić-2
+              0 przeszacować-1
+            0 zdiagnozować-1
+            0 zweryfikować-2
+            1 postrzec-2
+              0 odczuć-3
+            25 uznać-4
+              0 przyjąć-1
+              6 poczuć się-2
+                5 wywyższyć się-1, zadrzeć nosa-1
+                  0 napuszyć się-2
+                  3 pochwalić się-1
+                    0 pochełpić się-1
+                    0 pochlubić się-1, poszczycić się-1
+                    0 zatriumfować-3, zatryumfować-3
+              0 dopuścić-3
+              5 poczytać-1
+                4 wziąć-10
+                  0 wziąć do siebie-1
+                  2 uwzględnić-1, wziąć pod uwagę-1, wziąć poprawkę-1, zważyć-2
+                    1 wliczyć-1, wkalkulować-1
+                      0 zaliczyć-5
+              1 przypisać-2
+                0 podszyć się-1
+              VISITED 0 przełożyć-7
+              6 umniejszyć-1, pomniejszyć-2
+                0 zminimalizować-2
+                0 zmarginalizować-1, zepchnąć na margines-1, usunąć w cień-1
+                0 zdeprecjonować-1, zdewaluować-2, zdezawuować-1
+                2 zdegradować-2
+                  0 zdeklasować-2
+                  0 deklasować-2
+            10 zaprzeczyć-2, odmówić-2
+              0 odsądzić-1
+              VISITED 0 zdyskwalifikować-3
+              7 wyrzec się-1
+                0 pogardzić-3
+                0 wyprzeć się-1
+                VISITED 0 zaprzedać-1
+                VISITED 0 dać-10
+                VISITED 0 wykląć-2
+                1 poświęcić-3
+                  0 ofiarować-5
+            2 zinterpretować-2, zrozumieć-1
+              0 obejrzeć się-3
+              0 spojrzeć-2
+            33 skrytykować-1
+              0 powiesić psy-1
+              0 skomentować-2
+              VISITED 0 sarknąć-2
+              0 wyzłośliwić się-1
+              0 zjechać-3
+              0 skopać-5
+              0 uderzyć-8
+              0 zdyskwalifikować-3
+              0 rozprawić się-1
+              0 chłosnąć-3, smagnąć-3
+              2 dociąć-1, przygadać-1, przyciąć-2, przymówić-1, dogadać-2, przygryźć-2, przytknąć-2
+                1 pojechać-3
+                  0 dojechać-2
+              3 obgadać-2, obrobić-5, obmówić-1, oczernić-1, obsmarować-2
+                VISITED 0 nadać-6
+                0 opluć-1
+                0 obmalować-1
+              3 wyśmiać się-1
+                1 zażartować-2
+                  0 zakpić-1, zadrwić-1
+                VISITED 0 skarykaturować-2
+              VISITED 7 napaść-2, zaatakować-3, natrzeć-3, najechać-2, nalecieć-1, naskoczyć-1, wjechać-3, wsiąść-3
+              3 potępić-1
+                1 przekląć-2
+                  0 wykląć-2
+                0 napiętnować-1
+            1 ustosunkować się-1, zająć stanowisko-1
+              0 przychylić się-1
+            5 oskarżyć-1, zarzucić-4, zepchnąć-4
+              0 obwinić-1
+              0 pomówić-2
+              0 posądzić-1
+              1 obciążyć-3, obarczyć-2
+                0 zaciążyć-5
+          VISITED 0 doświadczyć-2, poddać próbie-1, wypróbować-1
+        3 obronić-1, odeprzeć-1, odrzucić-2
+          0 sparować-1, odparować-2
+          0 utrzymać-9
+          0 osłonić-4
+        0 nadstawić głowy-1, nadstawić głowę-1, nadstawić karku-1, nadstawić grzbiet-1, nadstawić grzbietu-1, nadstawić kark-1, nadstawić łeb-1, nadstawić łba-1
+      13 *wykonać czynności religijne bądź magiczne-1
+        1 pobłogosławić-1
+          0 przeżegnać-1
+        VISITED 0 wyspowiadać-1, udzielić spowiedzi-1, wysłuchać spowiedzi-1
+        1 wyświęcić-1
+          0 konsekrować-1
+        0 rozgrzeszyć-1, udzielić rozgrzeszenia-1, dać rozgrzeszenie-1
+        VISITED 0 wyspowiadać się-1, pojednać się z Bogiem-1
+        0 ochrzcić-1
+        VISITED 1 wykląć-1
+        0 odprawić-1
+        1 poświęcić-1, wyświęcić-2
+          0 konsekrować-2
+      82 *zrobić coś niezgodnego z prawem lub z normami społecznymi-1
+        0 nawarzyć piwa-1
+        62 popełnić-1, dopuścić się-1
+          0 sprzeniewierzyć-2
+          1 przewinić-1, zawinić-2
+            0 przeskrobać-1, zmajstrować-2
+          0 przeterminować-2
+          57 nabrać-2, oszukać-1
+            0 zapędzić w kozi róg-1
+            0 zabawić się w chowanego-1, zabawić się w kotka i myszkę-1
+            0 zagrać na nosie-1
+            0 zrobić na szaro-1, przerobić na szaro-1
+            0 nabić w butelkę-1
+            0 wystawić do wiatru-1
+            0 wyprowadzić w pole-1, wywieść w pole-1, wystrychnąć na dudka-1
+            3 omylić-1, zwieść-1, omamić-1, złudzić-1, zmylić-1
+              1 zdezorientować-1
+                0 zamącić-3, skołować-2
+              0 zablefować-1, zabluffować-1
+            VISITED 0 wymanewrować-1
+            0 otumanić-2
+            0 odrwić-1, okpić-1
+            0 przechytrzyć-1
+            0 zamydlić oczy-1
+            VISITED 23 *zdobyć podstępem-1
+            0 wyrolować-1
+            0 podejść-4
+            0 wyłebać-1
+            0 zbajtlować-1, zabajtlować-1
+            0 zdezinformować-1
+            0 ocyganić-1
+            0 kiwnąć-2
+            0 rąbnąć-6
+            0 naciąć-3
+            VISITED 4 skłamać-1, zełgać-1, rozminąć się z prawdą-1, minąć się z prawdą-1
+            1 zdradzić-2
+              0 przehandlować-2, sprzedać-2
+            0 zwieść-2
+        17 naruszyć-2, złamać-2, uchybić-1, przekroczyć-3, wykroczyć-1, zaburzyć-1
+          0 sfaulować-2
+          0 zmącić-3, zamącić-2
+          0 zapomnieć się-1
+          0 włamać się-2
+          VISITED 0 włamać się-1
+          0 obrazić-2
+          0 zatrząść-4
+          0 zgrzeszyć-2, popełnić grzech-1
+          0 pogwałcić-1
+          1 zachwiać-2
+            0 podminować-3
+          4 zakłócić-1
+            0 wprowadzić-9
+            1 przerwać-3
+              VISITED 0 przeciąć-3
+            0 zamieszać-3, przemieszać-3
+          0 zdradzić-3, przypiąć rogi-1, przyprawić rogi-1
+      0 zawahać się-1
+      0 przećwiczyć-2
+      0 pośpieszyć się-1, pospieszyć się-2
+      0 skazać się-1
+      0 zaczekać-2
+      VISITED 1 wstrzymać-3
+      4 zaatakować-1
+        0 zaszarżować-1
+        2 napaść-1, porwać się-3
+          0 spaść-9
+          0 skoczyć-2, rzucić się-2
+      VISITED 5 zostawić-4, pozostawić-4
+      75 uporać się-1
+        73 poradzić-3
+          72 poradzić sobie-1, dać sobie radę-1
+            0 lądować-2
+            0 załatwić się-2
+            0 sprawdzić się-2
+            0 sprostać-1
+            0 obejść się-2, obyć się-2
+            14 pokonać-3, przezwyciężyć-1, zwyciężyć-2
+              0 wymanewrować-2
+              VISITED 0 wziąć-19
+              1 zwalczyć-2
+                0 przemóc-2, przełamać-2
+              1 przełamać się-3, przemóc się-1
+                0 przekonać się-1
+              2 przetrzymać-2
+                1 przeczekać-3
+                  0 przespać-4
+              VISITED 3 zwalczyć-1
+              0 oprzeć się-1, obronić się-2
+            0 przeżyć-5, wyżyć-1
+            44 uwolnić się-2
+              0 wyswobodzić się-2, wyzwolić się-1
+              1 wydostać się-3
+                0 wyplątać się-2, wywikłać się-2
+              1 uniezależnić się-1, usamodzielnić się-1
+                0 zautonomizować się-2
+              32 pozbyć się-2
+                1 spławić-2
+                  0 spuścić na drzewo-1
+                0 wygryźć-3
+                0 przepłakać-2
+                0 zapić-3
+                2 odzwyczaić się-1, odwyknąć-1
+                  0 oduczyć się-1
+                  0 zasiedzieć się-3
+                0 wyprzeć-2
+                4 odreagować-1
+                  3 rozładować-4, wyładować-2
+                    1 wyżyć się-2
+                      0 wyszaleć się-1, wyszumieć się-1
+                    0 wypłakać się-2
+                17 usunąć-2
+                  0 wykasować się-2
+                  2 wydalić-2
+                    0 wywołać-5
+                    0 relegować-1
+                  0 utrącić-3
+                  0 wykopać-4
+                  0 przefiltrować-3
+                  7 wyrzucić-5, wywalić-2
+                    0 szurnąć-6
+                    0 wylać-5
+                    4 wypędzić-1, wygonić-1, wygnać-1
+                      0 wykurzyć-1
+                      0 rozpędzić-4, rozproszyć-6
+                      1 wypłoszyć-1
+                        0 podkurzyć-1
+                  1 obalić-2
+                    0 zdetronizować-2
+              3 wydobyć się-3, odbić się od dna-1, podnieść się-4, stanąć na nogi-1, wyjść na prostą-1, wyjść obronną ręką-1, wygrzebać się-1, podźwignąć się-1, wyjść-18, wydźwignąć się-1, powstać-2, dźwignąć się-1
+                2 wybrnąć-1
+                  0 wykupić się-2
+                  0 wykaraskać się-2
+              0 odciąć się-6
+              0 wyrwać się-2, wywinąć się-1
+            5 zdołać-1, podołać-1
+              1 unieść-7, udźwignąć-1
+                0 utrzymać-8, podtrzymać-2
+              1 utrzymać-6
+                0 podtrzymać-3, przytrzymać-2
+              0 przebrnąć-2
+        0 przeskoczyć-4
+      26 umieścić-2, ulokować-2, zainstalować-2
+        0 zapakować-3
+        0 zaokrętować-1
+        VISITED 0 wkręcić-3
+        0 wepchnąć-3, wepchać-3
+        8 przenieść-6
+          0 przepisać-2
+          0 przeflancować-1
+          0 przesiedlić-1
+          1 dać awans-1
+            0 awansować-1
+          0 przesunąć-5
+          VISITED 1 zdegradować-1
+        VISITED 0 przyjąć-12
+        VISITED 4 oddać-1
+        2 zamknąć-4, wsadzić-2
+          0 posadzić-4
+          0 internować-1
+        3 osiedlić-1, osadzić-5
+          2 zasiedlić-1, zaludnić-1
+            0 przeludnić-1
+            0 skolonizować-1
+      1 przemilczeć-1, zmilczeć-1
+        0 zasznurować usta-2
+      2 uczcić-1
+        0 powitać-2, przywitać-2
+        0 opić-1, oblać-5
+      10 postarać się-2
+        0 poszukać-1
+        0 zakręcić się-2
+        1 przyłożyć się-1
+          0 przysiąść fałdów-1
+        0 dać z siebie wszystko-1
+        4 wysilić się-1, napiąć się-2, wytężyć się-1, naprężyć się-2, natężyć się-1, sprężyć się-1
+          0 wypruć flaki-1
+          0 zadać sobie trud-1
+          0 wyprężyć się-1
+          0 nadąć się-1
+      1 spowinowacić się-1, skoligacić się-1
+        0 wżenić się-1
+      38 sprawdzić-1, skontrolować-1, zbadać-4
+        1 przeegzaminować-1
+          0 oblać-3, ściąć-5, skosić-2, obciąć-4
+        12 poszukać-2
+          11 przeszukać-1, obszukać-1
+            0 splądrować-1
+            0 splądrować-2
+            VISITED 0 zrewidować-1
+            0 przejrzeć-3, przepatrzyć-1
+            0 przekopać-2, przekopać się-2
+            1 przerzucić-4
+              0 przewrócić-2
+            0 przewertować-1
+            0 przeczesać-1
+            0 spenetrować-1
+            0 przetrząsnąć-1
+        0 przetestować-1
+        0 zrewidować-1
+        0 wylegitymować-1
+        0 przeliczyć-1
+        0 przejrzeć-1
+        0 atestować-1
+        0 sczytać-2
+        4 spróbować-3, wypróbować-2
+          0 przymierzyć-2
+          0 oblatać-1
+          0 przetestować-2
+          0 ostrzelać-2
+        0 ocenzurować-1
+        VISITED 2 zweryfikować-1
+        0 obwąchać-1
+        4 zbadać-1
+          1 przebadać-1
+            0 osłuchać-1
+          0 wysondować-2
+          0 prześwietlić-2
+        0 odpytać-1, przepytać-1, zapytać-2
+        0 doświadczyć-2, poddać próbie-1, wypróbować-1
+      23 wziąć udział-1
+        11 przyłączyć się-2, dołączyć się-1
+          8 włączyć się-1
+            0 zaprząc się-1, zaprzęgnąć się-1, wprząc się-1, wprzęgnąć się-1
+            1 wejść-11
+              VISITED 0 wkroczyć-5
+            4 zaangażować się-2, włożyć całą duszę-1
+              1 zatracić się-1
+                0 oszaleć-3
+              0 wciągnąć się-1
+              0 rozentuzjazmować się-1
+          2 wdać się-1, wmieszać się-2
+            0 wkroczyć-5
+            0 wplątać się-1, władować się-3, wpakować się-2, uwikłać się-1, wmotać się-1, wrobić się-1, zamotać się-1, wkopać się-3
+        1 stoczyć-2
+          0 zmierzyć się-2
+        0 zapolować-1
+        VISITED 0 zaliczyć-1
+        2 wystąpić-1
+          VISITED 0 zaprezentować-1
+          0 dać-16
+        0 podzielić-6
+        2 zagrać-2
+          0 obronić-3
+          0 rozegrać-2
+      0 sfotografować-1, zdjąć-2
+      VISITED 0 cofnąć się-1
+      14 zachować-1
+        13 ukryć-2, zataić-1, utaić-1
+          0 zamieść pod dywan-1
+          0 zatrzeć-6
+          0 skryć-3
+          0 zakryć-4
+          0 zakrzyczeć-1
+          0 zatuszować-1
+          0 przemilczeć-2, zamilczeć-1, pokryć milczeniem-1, zmilczeć-2
+          0 zakonspirować-1
+          0 utajnić-1
+          0 schować pod korcem-1, schować pod korzec-1
+          VISITED 0 zawoalować-2
+          1 zamaskować-2, zakamuflować-1
+            0 pokryć-11
+      1 zabronić-1, zakazać-1, wzbronić-1
+        0 zdjąć-5
+      25 wygrać-1, zwyciężyć-1, pokonać-1
+        0 zmiażdżyć-2, zniszczyć-5
+        2 pobić-1, przewyższyć-1
+          0 zdeklasować-1
+          0 deklasować-1
+        0 rozłożyć-6
+        0 puknąć-6
+        0 sfaulować-1
+        0 wziąć-19
+        0 ograć-1
+        0 wypunktować-1
+        0 złamać-4, przełamać-4
+        0 zmóc-1, przemóc-1
+        0 zamatować-1, dać mata-1
+        1 położyć-3
+          0 położyć trupem-1, wykończyć-4
+        0 znokautować-1
+        0 zatriumfować-2, zatryumfować-1
+        0 rozgromić-1, rozbić-6
+        0 zdruzgotać-3
+        3 zwalczyć-1
+          2 stłumić-3, zdusić-1
+            0 uśmierzyć-2
+            0 spacyfikować-1
+        1 odegrać się-1, powetować sobie-1
+          VISITED 0 odbić-13
+      23 spełnić-1, wywiązać się-1, wykonać-3, wypełnić-5
+        1 obsłużyć-1, załatwić-2
+          0 ekspediować-2
+        0 wysłuchać-2
+        1 wyrobić-4
+          0 wylatać-1
+        0 dochować-1
+        5 doprowadzić-1
+          0 wysiedzieć-2
+          VISITED 0 pozałatwiać-1
+          2 przeprowadzić-2
+            0 zwerbować-3
+            0 zsyntetyzować-2
+        0 rozwiązać-3
+        7 zaliczyć-2
+          0 przejść-17
+          4 zdać-4
+            3 dostać się-3
+              0 zaklasyfikować się-1, zakwalifikować się-1, zaliczyć się-1
+              1 przejść-5
+                0 awansować-3
+          VISITED 0 zdać-5
+        0 dopełnić-1
+        0 dotrzymać-1
+    327 *CZASOWNIK - AKT oznaczający zmianę posiadania lub sytuację związaną z posiadaniem-1
+      3 pozbyć się-1, wyzbyć się-1
+        VISITED 0 upłynnić-1
+        1 wyrzucić-3, wywalić-1
+          0 rozstać się-4
+      1 pożyczyć-1
+        0 udzielić kredytu-1, dać kredyt-1, skredytować-1
+      148 uzyskać-1
+        2 zdobyć-2
+          0 puknąć-7
+          0 wyrównać-1
+        0 wykłócić się-1
+        VISITED 0 zainkasować-1, pobrać-1
+        0 wydębić-1
+        0 zwolnić się-2
+        VISITED 0 wycisnąć-2
+        0 habilitować się-1
+        1 dojść-2
+          VISITED 0 zwindykować-1
+        3 wynegocjować-1
+          0 wytargować się-1
+          0 utargować-1, wytargować-2
+          0 renegocjować-1
+        0 wyjść-8
+        0 złapać-3
+        0 doktoryzować się-1
+        36 osiągnąć-1, dojść-3, dopiąć celu-1, dopiąć swego-1, odnieść-3, postawić na swoim-1, wskórać-1, zwojować-1, dopiąć-3
+          VISITED 0 złapać Pana Boga za nogi-1
+          0 wejść na głowę-1
+          0 wysiedzieć-1
+          0 dosłużyć się-1
+          0 wygórować-1
+          0 sięgnąć-6
+          0 zdziałać-1
+          6 uniknąć-1
+            VISITED 0 odseparować się-1
+            1 uciec-3
+              0 schować głowę w piasek-1
+            2 wykręcić się-2, wykpić się-1, wymigać się-1, wywinąć się-2
+              1 wymówić się-1
+                0 wyłgać się-1
+          0 wedrzeć się-4
+          VISITED 0 wycisnąć-2
+          0 odnaleźć-3
+          0 przebić się-1
+          0 przeprowadzić-1
+          0 wynieść-5
+          4 wypracować-1, dopracować się-1
+            0 wysłużyć-1
+            2 wzbogacić się-1, dorobić się-1, zbić majątek-1
+              0 ubić-4
+              0 obrosnąć w piórka-1
+          VISITED 0 przeforsować-1, przepchnąć-2
+          0 przepchać się-2
+          0 wygrać-2
+          0 okupić-1, opłacić-2, przypłacić-1, zapłacić-2
+          6 skorzystać-2, zyskać-1, dobrze wyjść-2
+            0 obłowić się-1
+            4 zarobić-1, zyskać-3
+              0 wyciągnąć-13
+              0 utargować-2
+              0 zapracować-2
+              0 dorobić-3
+        2 wydostać-2, wydobyć-3
+          VISITED 0 wyciągnąć-2
+          VISITED 0 wyciągnąć-7
+        68 pozyskać-1, zdobyć-1, postarać się-3, załatwić-1, wystarać się-1, dobić się-1
+          0 pociągnąć za sznurki-1
+          0 zyskać-4
+          0 awansować-2
+          0 zgarnąć-2
+          0 wytargować-1
+          5 wyjednać-1
+            0 nobilitować się-1
+            3 wyprosić-1, uprosić-1
+              0 wyjęczeć-2
+              0 wypłakać-2
+              0 ubłagać-1, wybłagać-1
+          2 zasłużyć-1
+            1 zapracować-1
+              0 zarobić-2
+          0 wyszarpać-2
+          0 wygospodarować-1
+          23 *zdobyć podstępem-1
+            2 wyłudzić-1
+              0 naciągnąć-6
+              VISITED 0 wyciągnąć-2
+            0 wyciągnąć-7
+            VISITED 18 przywłaszczyć-1, zagarnąć-1, zawłaszczyć-1, sięgnąć po cudze-1, zagrabić-1
+          0 skosić-1
+          0 wysupłać-1
+          1 kupić-2
+            0 kupić-6
+          0 załapać-1
+          7 znaleźć-1
+            VISITED 3 wyszukać-1, wynaleźć-2
+            0 trafić-3
+            VISITED 0 odnaleźć-4
+            0 odkryć-4
+          VISITED 0 przeforsować-1, przepchnąć-2
+          2 przekupić-1, podkupić-1, opłacić się-2, okupić się-1
+            0 skorumpować-2, przemówić do ręki-1, przemówić do kieszeni-1
+            0 posmarować-2
+          2 posiąść-1
+            0 posiąść-4
+            0 rozerwać-2
+          2 zebrać-3, zgromadzić-2
+            0 znieść-4
+            VISITED 0 skupić-4
+          3 skombinować-1, wystarać się-2, załatwić-5, zorganizować-3, wykombinować-2, skołować-1
+            0 wkręcić-3
+            0 naraić-1, nadać-5
+            0 wydeptać-3, wychodzić-22, wylatać-2
+          0 wywalczyć-1, wywojować-1
+        26 dostać-2
+          0 wziąć w łapę-1, dostać w łapę-1
+          12 otrzymać-2
+            0 złapać Pana Boga za nogi-1
+            VISITED 10 wziąć-18
+          1 odziedziczyć-1
+            0 sukcedować-1
+          20 otrzymać-1
+            10 wziąć-18
+              4 zająć-8
+                3 zamieszkać-2, osiedlić się-1, osiąść-1, osadzić się-3
+                  0 zakopać się-2
+                  1 wprowadzić się-2
+                    0 zakwaterować się-1
+              VISITED 1 przejąć-1, przechwycić-1
+              2 przyjąć-9
+                0 odebrać-4
+                0 odebrać-5
+            VISITED 0 wynieść-4
+            9 wziąć-17, pobrać-2
+              0 wypożyczyć-2
+              0 zainkasować-1, pobrać-1
+              VISITED 0 policzyć-4
+              0 zedrzeć-3
+              1 pożyczyć-2
+                0 zapożyczyć się-1, zadłużyć się-1, zaciągnąć dług-1, zaciągnąć kredyt-1, zaciągnąć pożyczkę-1
+              0 skasować-3
+              1 przejąć-1, przechwycić-1
+                0 skomunalizować-1
+      106 przekazać-1
+        0 upchnąć-3, upchać-2, wcisnąć-3
+        0 zapisać-2
+        0 przelać-2, scedować-1
+        0 przetransferować-1
+        0 oddać-4, dać-11
+        0 zdać-2
+        4 oddać-1
+          3 powierzyć-1
+            0 wydać za mąż-1, wydać-11
+            0 polecić-2, poruczyć-1, zawierzyć-1
+            0 zostawić-7, pozostawić-5
+        VISITED 0 przepisać-4, odpisać-4
+        0 zastawić-3
+        77 dać-4
+          0 sypnąć-4
+          0 sprezentować-1
+          VISITED 0 wepchnąć-2, wepchać-2, wetknąć-2, wmusić-1
+          1 podzielić się-3
+            0 przełamać się-5
+          0 kapnąć-1
+          VISITED 0 zafundować-1, postawić-5, ufundować-1, zasponsorować-3
+          0 złożyć-4
+          0 odpalić-3
+          1 podać-2, dać-6
+            0 wręczyć-1
+          11 rozdać-1
+            10 rozdzielić-3, podzielić-7
+              0 rozlosować-1
+              0 rozdysponować-1
+              6 wydzielić-2
+                0 poskąpić-2
+                4 odmierzyć-2
+                  0 odważyć-1
+                  0 wycyrklować-2
+                  1 odliczyć-3
+                    0 wyliczyć-5
+              0 rozebrać-2
+          3 obdarować-1, obdarzyć-1
+            1 obdzielić-1
+              0 nadzielić-1
+            0 obsypać-2, osypać-3
+          12 nakarmić-1, wykarmić-1, odżywić-2
+            0 odkarmić-1, odżywić-3
+            3 spaść-11, upaść-3, utuczyć-1
+              0 odkarmić-2
+              VISITED 0 opaść-4
+              0 podpaść-4, podtuczyć-1
+            0 przekarmić-1
+            0 zadać-4
+            0 wykarmić-2
+            3 odpaść-2
+              0 podtuczyć-2, podpaść-3
+              1 utuczyć-2
+                0 opaść-4
+            0 dokarmić-1, dożywić-1
+          5 podarować-1, darować-2, złożyć w darze-1
+            1 ufundować-2
+              0 erygować-1
+            1 ofiarować-1
+              0 ofiarować-4
+            0 zaofiarować-2
+          20 oddać-2
+            0 powierzyć-3
+            VISITED 0 puścić-7
+            7 zrzec się-1
+              0 przepisać-4, odpisać-4
+              5 odstąpić-1, ustąpić-1
+                0 indosować-1
+                VISITED 0 użyczyć-1, udzielić-3, dać-9
+                VISITED 1 oddać-7
+                VISITED 0 odsprzedać-1, odprzedać-1
+            13 sprzedać-1, przehandlować-1
+              0 skomercjalizować-2
+              1 wyprzedać-1
+                0 wyprzedać się-1
+              VISITED 0 wyeksportować-1
+              0 spuścić-4
+              0 zlicytować-1
+              0 upłynnić-1
+              0 zbyć-1
+              0 opchnąć-1
+              1 oddać-7
+                0 puścić-7
+              0 skredytować-2
+              0 odsprzedać-1, odprzedać-1
+          2 wydać-10
+            VISITED 1 wypłacić-1
+          6 wynagrodzić-1, nagrodzić-2, zrekompensować-1
+            VISITED 0 odkupić-5
+            0 odbić-13
+            3 zadośćuczynić-1
+              0 zmazać-3
+              0 odpokutować-1, odprawić pokutę-1
+              0 okupić-2, odkupić-3
+        3 włożyć-4, zainwestować-1, ulokować-3
+          0 wpakować-2, władować-2
+          0 wpompować-2
+          0 zdeponować-1
+        6 oddać-5, zwrócić-3
+          VISITED 0 odkopnąć-1
+          0 odrzucić-6
+          0 odnieść-2
+          VISITED 1 zrefinansować-1
+          0 spłacić-1, oddłużyć się-1
+        5 przesłać-1, wysłać-1, posłać-1
+          1 nadać-4
+            0 zatelegrafować-1, zadepeszować-1
+          0 wyeksportować-1
+          0 podesłać-3
+          0 rozesłać-2
+      27 wymienić-2, zamienić-2
+        0 przewalutować-1
+        0 wymienić się-1, zamienić się-2
+        2 spieniężyć-1
+          1 zrealizować-4
+            0 zdyskontować-2
+        0 skapitalizować-1
+        20 kupić-1, nabyć-1, zakupić-1, sprawić-2
+          0 kupić kota w worku-1
+          0 odkupić-5
+          0 nabrać-4
+          0 wykupić-2
+          1 wykupić-1
+            0 wchłonąć-4
+          5 wziąć-9
+            4 nająć-1, wynająć-2, odnająć-2
+              0 podnająć-1
+              1 wydzierżawić-2
+                0 poddzierżawić-1
+              0 wyczarterować-2
+          0 zafundować-2
+          0 dokupić-1
+          0 wylicytować-3
+          0 dostać-1
+          0 zafundować-1, postawić-5, ufundować-1, zasponsorować-3
+          0 odkupić-1
+          0 subskrybować-1
+          0 skupić-4
+      31 wydać-3, wyłożyć-3
+        0 spłukać się-1, wyczyścić się-3
+        0 puścić-4
+        0 wydatkować-1
+        1 wykosztować się-1, wyżyłować się-1
+          0 zdobyć się-1, szarpnąć się-3, wysadzić się-1
+        25 zapłacić-1
+          VISITED 0 zasponsorować-2
+          2 pokryć-6
+            0 refundować-1
+            VISITED 0 zrefundować-1
+          0 założyć-9
+          2 dać-5
+            0 zadatkować-1
+            0 złożyć się-5
+          1 wypłacić-1
+            0 uhonorować-2
+          3 dopłacić-1
+            0 dołożyć się-1
+            1 dofinansować-1, doinwestować-1, dać dotację-1
+              0 dokapitalizować-1
+          1 wpłacić-1
+            0 przekazać-4
+          1 przepłacić-1, zapłacić jak za zboże-1
+            0 nadpłacić-1
+          7 opłacić-1, sfinansować-1
+            0 zasponsorować-1
+            1 utrzymać-7
+              VISITED 0 utrzymać-1, wyżywić-1
+            1 zrefinansować-1
+              0 zrefundować-1
+            1 uregulować-2, uiścić-1, wnieść-3, uiścić się-1
+              0 rozliczyć się-1, obliczyć się-1, obrachować się-2, policzyć się-1, wyliczyć się-1
+      VISITED 16 odzyskać-1
+    593 *CZASOWNIK - AKT oznaczający zmianę położenia lub zmianę relacji przestrzennych-1
+      1 zrównać się-1
+        0 dogonić-1, dopędzić-1, doścignąć-1
+      0 zacumować-2
+      7 udać się-2, pójść-2
+        0 potruchtać-1
+        0 poskoczyć-1
+        0 pomaszerować-2
+        VISITED 3 pójść do łóżka-1, przespać się-1
+      39 podzielić-2
+        1 rozdrobnić-2
+          0 rozproszyć-3
+        0 rozpisać-1
+        0 zatomizować-1
+        0 rozparcelować-1
+        0 rozbić-3
+        32 oddzielić-2, odgraniczyć-1, rozgraniczyć-1
+          0 odizolować-2
+          9 przedzielić-1, rozdzielić-1
+            8 przegrodzić-1
+              7 odgrodzić-3
+                6 osłonić-1, zasłonić-2
+                  1 zakryć-1
+                    0 obudować-1
+                  0 zakratować-1, okratować-1
+                  1 zaciemnić-1
+                    0 ocienić-1, zacienić-1
+                  0 obłożyć-1
+          20 odseparować-1, odizolować-1, odosobnić-1
+            0 separować-1
+            0 odciąć-2
+            0 wyizolować-2
+            16 oddzielić-3
+              1 rozłączyć-2, rozdzielić-2
+                0 separować-2
+              0 wyizolować-3
+              11 odłączyć-2
+                0 oderwać-5
+                9 wykluczyć-1, wyłączyć-3
+                  0 wymanewrować-1
+                  VISITED 0 wymeldować-1
+                  1 wypisać-4
+                    0 wyrejestrować-1
+                  0 wyeliminować-2
+                  0 pominąć-1
+                  0 zdyskwalifikować-2
+                  1 wykląć-1
+                    0 ekskomunikować-1
+              0 odgrodzić-2
+      0 puścić się-1
+      VISITED 32 ulokować się-1, umieścić się-1
+      2 zejść-1, zstąpić-1
+        0 zsiąść-1
+        0 spełznąć-2
+      VISITED 10 ruszyć-2, wyruszyć-1, ruszyć się-2
+      76 poruszyć się-1, ruszyć się-1
+        0 zakołysać się-2, rozkołysać się-1, rozbujać się-1, rozhuśtać się-1
+        VISITED 0 plusnąć-2, chlupnąć-1
+        0 zatrzepotać-1
+        1 zamierzyć się-1, przymierzyć się-1
+          0 zamachnąć się-1
+        0 zaroić się-1
+        5 skoczyć-1
+          0 rzucić się-1
+          0 fiknąć-4
+          0 chlusnąć-4
+          0 kicnąć-1
+          0 podskoczyć-1
+        57 *zmienić pozycję-1
+          0 pójść-3
+          0 złożyć się-4
+          1 wyprostować się-1, rozprostować się-2
+            0 przeciągnąć się-2
+          0 usiąść-2, siąść-2
+          6 stanąć-2
+            0 stanąć dęba-3
+            2 ustawić się-2
+              0 upozować się-1
+              0 pokryć-10
+            VISITED 1 wstać-1, powstać-4
+          1 kucnąć-1
+            0 przykucnąć-1, ukucnąć-1, przysiąść-2, przycupnąć-3
+          5 unieść się-2
+            4 podnieść się-2
+              0 dźwignąć się-2, podźwignąć się-2
+              0 nastroszyć się-2, najeżyć się-2, zjeżyć się-2
+              1 wstać-1, powstać-4
+                0 zerwać się-2, poderwać się-1
+          1 uklęknąć-1, klęknąć-1
+            0 przyklęknąć-1
+          0 zwisnąć-1
+          VISITED 10 usiąść-1, siąść-1
+          3 zwrócić się-2, skierować się-2, obrócić się-1
+            0 nakierować się-2
+            0 nastawić się-1
+            0 odwrócić się-1, odkręcić się-3, wykręcić się-1
+          VISITED 6 położyć się-1, lec-1, legnąć-1
+          13 pochylić się-1, nachylić się-1, przychylić się-2, schylić się-1
+            0 wygiąć się-2, zgiąć się-1
+            0 uchylić się-2, umknąć-2
+            2 przechylić się-2
+              1 zachwiać się-2, kiwnąć się-2, gibnąć się-2
+                0 poślizgnąć się-1, pośliznąć się-1
+            0 przygiąć się-1
+            0 przegiąć się-1
+            2 wychylić się-1
+              0 podać się-2
+              0 przechylić się-1, przewiesić się-1
+            0 odchylić się-1
+            1 zgarbić się-1
+              0 przykulić się-1, skulić się-1, skurczyć się-3, stulić się-3
+        2 porwać się-1, zerwać się-1
+          0 rozbrykać się-1, rozhukać się-1
+          0 bryknąć-2
+        2 zatańczyć-1
+          0 odtańczyć-1, przetańczyć-3
+          0 kiwnąć się-3
+      VISITED 433 przemieścić się-1, przenieść się-1
+    497 *CZASOWNIK - AKT oznaczający zmianę stanu mentalnego lub emocjonalnego albo reakcję emocjonalno-fizjologiczną-1
+      22 *zrobić coś związanego z percepcją bodźców-1
+        4 posłuchać-2
+          3 wysłuchać-3
+            0 przesłuchać-3
+            0 odsłuchać-1
+            0 dosłuchać-1
+        16 popatrzeć-1, popatrzyć-1
+          0 wyjrzeć-1
+          0 rozejrzeć się-1
+          13 spojrzeć-1, skierować spojrzenie-1, skierować wzrok-1
+            0 zawiesić oko-1
+            0 zgromić-1
+            0 obejrzeć się-1, oglądnąć się-1
+            0 wejrzeć-2, wglądnąć-1
+            0 skrzyżować spojrzenia-1
+            0 łypnąć-1, łysnąć-3
+            0 musnąć-3
+            0 rzucić okiem-2, rzucić spojrzenie-2, rzucić wzrok-2
+            0 zerknąć-1, kuknąć-1
+            0 wpatrzyć się-1, wgapić się-1, zapatrzyć się-1, zagapić się-1
+            0 zlustrować-2
+            1 zajrzeć-1, zapuścić oko-1, zapuścić wzrok-1, zapuścić spojrzenie-1
+              0 zapuścić żurawia-1
+      233 *zrobić coś, co związane jest z porozumiewaniem się i rozumowaniem-1
+        127 przyznać-3
+          5 zgodzić się-1, podzielić-5
+            0 powiedzieć jednym głosem-1
+            0 przechylić się-3
+            0 przyjąć-2
+            1 potwierdzić-3, przytwierdzić-2
+              0 przytaknąć-2, potaknąć-1
+          120 uznać-3, dojść do wniosku-2
+            0 uświadomić sobie-1, zdać sobie sprawę-1
+            0 zidentyfikować się-1
+            0 kupić-3
+            VISITED 2 przekonać się-2
+            3 stwierdzić-2, skonstatować-1
+              1 wykazać-3
+                0 zgodzić się-4
+              0 wywieść-2, wyprowadzić-2
+            0 zaakceptować-3
+            5 zaaprobować-1
+              0 pobłogosławić-3
+              3 poprzeć-1, opowiedzieć się-2
+                0 zawtórować-2
+                VISITED 1 opowiedzieć się-1
+            VISITED 2 uwierzyć-1, dać wiarę-1
+            99 pozwolić-1, zezwolić-1, zgodzić się-2, przystać-1, przyzwolić-1, zaakceptować-1, wyrazić zgodę-1
+              0 dać się-2
+              0 pozwolić sobie-2
+              0 akredytować-2
+              VISITED 0 dać-12
+              32 przyznać-2
+                0 obdzielić-2
+                1 udzielić-1
+                  0 urlopować-1
+                0 zasądzić-2, przysądzić-1
+                21 nagrodzić-1, dać nagrodę-1
+                  0 uhonorować-3
+                  0 odznaczyć-1
+                  0 koronować-1
+                  0 wyróżnić-2
+                  0 ozłocić-2
+                  0 uwieńczyć-3
+                  14 pochwalić-1
+                    0 skomplementować-1
+                    1 zareklamować-2
+                      0 przereklamować-1
+                    2 pochlebić-1, schlebić-1, przypochlebić-1, przypochlebić się-1
+                      0 podlizać się-1
+                      0 podbić bębenka-1
+                    0 rozpłynąć się-3
+                    6 wysławić-1, pobłogosławić-2, podnieść-3, wychwalić-1
+                      0 wychwalić pod niebiosa-1, wynieść pod niebiosa-1
+                      4 wyidealizować-1
+                        0 zabsolutyzować-1
+                        2 uwznioślić-1, wysublimować-1, uduchowić-1
+                          1 uszlachetnić-2
+                            0 uczłowieczyć-1, zhumanizować-1
+                5 ocenić-2, sklasyfikować-1
+                  4 zakwalifikować-1, zaliczyć-3, zaklasyfikować-1
+                    0 ometkować-2, zaszufladkować-1
+                    0 przekwalifikować-2
+                    0 zaszeregować-1
+                    0 podciągnąć-4
+              0 ulec-3
+              VISITED 4 ulec-4
+              1 popuścić-3
+                0 popuścić pasa-1
+              VISITED 4 dopuścić-1
+              2 wypuścić-2, puścić-2
+                1 wysadzić-2
+                  0 wyrzucić-6
+              7 puścić-3
+                VISITED 0 przepuścić-2
+                2 wpuścić-2
+                  0 przepuścić-3
+                  0 przyjąć-12
+                VISITED 2 dopuścić-2
+              0 dozwolić-1
+              0 autoryzować-1
+              2 zatwierdzić-2, zaakceptować-2
+                0 nostryfikować-1
+                0 zalegalizować-1
+              32 poddać się-2
+                0 pomalować się-1, umalować się-1
+                0 kapitulować-2
+                2 dać się-1
+                  0 unieść się-4
+                  0 dać się wrobić-1, dać się wkopać-1, dać się wplątać-1
+                2 uczesać się-2
+                  0 wygolić się-1
+                  0 ogolić się-1
+                0 zbadać się-1
+                3 znieść-3
+                  0 udźwignąć-2
+                  1 ścierpieć-1, strawić-4
+                    0 znieść-8
+                2 podlec-2
+                  0 podpaść-1
+                  0 odprawić się-1
+                14 ulec-2
+                  0 wpaść-13
+                  1 odurzyć się-2, nasycić się-4
+                    0 upoić się-2
+                  10 stracić głowę-1, stracić panowanie nad sobą-1
+                    1 stracić nerwy-1, stracić panowanie nad nerwami-1
+                      0 rozstroić się-2
+                    4 zwariować-2, oszaleć-2
+                      0 upaść na głowę-1
+                      0 zamienić się z chujem na głowy-1, pozamieniać się z chujem na głowy-1
+                      0 zachorować na głowę-2
+                      0 dostać małpiego rozumu-1
+                    0 zapomnieć się-2
+                    1 wybuchnąć-2, wykipieć-1, zakipieć-1, zawrzeć-3
+                      0 eksplodować-2
+                0 ugiąć się-2
+        2 posłuchać-1
+          1 wysłuchać-1
+            0 wyspowiadać-1, udzielić spowiedzi-1, wysłuchać spowiedzi-1
+        0 zaufać-3, uwierzyć-2
+        13 zakwestionować-1, podważyć-1
+          0 oprotestować-1
+          VISITED 0 obalić-1, zbić-6
+          5 zdyskredytować-1
+            3 poniżyć-1
+              0 upokorzyć-1
+              1 upodlić-1, spodlić-1
+                0 odczłowieczyć-1, odhumanizować-1, zdehumanizować-1
+            0 odbrązowić-1, odidealizować-1
+          4 zaprzeczyć-1, zanegować-1
+            VISITED 0 zadać kłam-1, zadać fałsz-1
+            1 wyprzeć się-2
+              0 pójść w zaparte-1
+            0 zbuntować się-2
+        2 pominąć-2, opuścić-2
+          0 opuścić-5
+          0 przeskoczyć-5
+        18 pogodzić się-1
+          0 przeboleć-1
+          16 zaakceptować-4
+            2 zadowolić się-2
+              0 poprzestać-1, obyć się-3, obejść się-4
+              0 ukontentować się-1
+            12 podporządkować się-1, zastosować się-1
+              VISITED 1 ukorzyć się-1
+              0 sprzedać się-2
+              0 zaprzedać się-1
+              4 ulec-4
+                1 skusić się-1
+                  0 połakomić się-1, połasić się-2, połaszczyć się-1
+                1 ustąpić-7
+                  0 złamać się-3
+              0 oddać się-2
+              0 zachować-6
+              0 posłuchać-4, usłuchać-1
+        2 wyobrazić sobie-1, przedstawić sobie-1, wyimaginować-1
+          0 zobaczyć oczyma duszy-1
+          0 uroić sobie-1, ubzdurać sobie-1, ubrdać sobie-1
+        24 przewidzieć-1
+          0 wywróżyć z fusów-1, wywróżyć z ręki-1
+          0 ekstrapolować-1
+          0 wyśnić-1
+          0 założyć-5
+          0 wywróżyć-2
+          4 przepowiedzieć-1
+            0 wykrakać-1
+            2 wywróżyć-1, powróżyć-1
+              0 postawić kabałę-1, postawić karty-1
+              0 wykukać-1
+          1 wytypować-3
+            0 postawić-8, obstawić-3
+          VISITED 11 domyślić się-1
+        3 powtórzyć-2
+          2 sparafrazować-1
+            1 sparodiować-1
+              0 strawestować-2
+        49 pomyśleć-2
+          0 pójść po rozum do głowy-1, wpaść po rozum do głowy-1, sięgnąć po rozum do głowy-1
+          0 zakłamać się-1
+          0 wspomnieć-2
+          4 zastanowić się-1, pogłówkować-1, pogłowić się-1
+            0 zajść w głowę-1
+            0 zadać sobie pytanie-1
+            VISITED 0 wyważyć-1
+            0 wykalkulować-1
+          7 zaplanować-2, obmyślić-1, rozplanować-2, zaprojektować-2, ułożyć-6
+            0 rozłożyć-5
+            0 zakroić-1
+            0 ukartować-1
+            0 obliczyć-1
+            0 uknuć-1
+            0 zakreślić-4
+            0 umówić się-2
+          27 przemyśleć-1
+            0 skalkulować-1
+            12 rozważyć-1, rozpatrzeć-1, rozpatrzyć-1
+              0 przeanalizować-2, zanalizować-2
+              0 rozpoznać-2
+              9 zanalizować-1, zbadać-3, przeanalizować-1, przebadać-2
+                0 wysondować-3
+                1 spenetrować-2
+                  0 zinfiltrować-1
+                2 zinterpretować-3
+                  0 opisać-2
+                  0 skomentować-1
+                2 porównać-1, skonfrontować-1, zderzyć-1, zestawić-4, przyrównać-1
+                  0 przymierzyć-3
+                  0 przeciwstawić-2, skontrastować-1
+            0 przetrawić-4
+            11 domyślić się-1
+              2 poznać-8
+                1 przejrzeć-5
+                  VISITED 0 rozszyfrować-2, rozgryźć-2
+              1 przeniknąć-2
+                0 prześwietlić-5
+              0 przeczuć-1
+              0 domniemać-1
+              0 odgadnąć-1
+              0 odczytać-4
+              0 poczuć-2, wyczuć-2
+              0 zwietrzyć-1, zwichrzyć-2, wywęszyć-1, wywąchać-1, zwęszyć-1, zwąchać-1
+          4 skojarzyć-2, powiązać-2, połączyć-4, pokojarzyć-1
+            0 zsyntetyzować-1, uogólnić-1
+            0 skontaminować-1, skrzyżować-3
+            0 związać-7
+            0 odnieść-5
+      0 powąchać-1
+      0 przećwiczyć-1
+      9 wymyślić-1, wykombinować-1, wykoncypować-1, wpaść na pomysł-1, wydumać-1
+        0 strzelić do głowy-1, strzelić do łba-1
+        0 ukuć-1
+        4 rozwiązać-4
+          VISITED 0 rozpracować-1
+          0 odgadnąć-2, zgadnąć-1
+          0 rozwikłać-2
+          0 rozszyfrować-2, rozgryźć-2
+        1 wpaść-3
+          0 trafić-6
+      115 przeznaczyć-1
+        0 zarzucić-3, zasypać-3, zawalić-4
+        105 skierować-1, zaadresować-1, zwrócić-1
+          0 wymierzyć-4
+          0 wystosować-1
+          VISITED 100 zwrócić się-1
+          0 powinszować-1, pogratulować-1, złożyć gratulacje-1
+          0 ześrodkować-2
+        5 poświęcić-2
+          2 skupić-2, skoncentrować-3
+            1 skupić się-1, skoncentrować się-1
+              0 pozbierać myśli-1, zebrać myśli-1, skupić myśli-1
+          0 zadedykować-1
+          0 dedykować-1
+        0 wyasygnować-1
+        0 asygnować-1
+      VISITED 116 zdecydować-1, postanowić-1, podjąć decyzję-1, zadecydować-1
+    0 *CZASOWNIK - AKT oznaczający zjawisko fizyczne-1
+    560 *CZASOWNIK - AKT oznaczający sytuacje związane z łańcuchem przyczynowo-skutkowym-1
+      4 zapobiec-1, zapobiegnąć-1
+        VISITED 0 zabić czas-1
+        0 zaradzić-1
+        0 zażegnać-1
+        0 nawinąć się-1
+      0 zaniechać-2
+      344 zacząć-3, rozpocząć-1, zainicjować-1, wszcząć-1, jąć-1, począć-1
+        0 skrzyżować-4
+        0 przyjąć się-4
+        0 zagrać-1
+        0 zainaugurować-1
+        0 zawtórować-1
+        0 rozszumieć się-1
+        0 wdrożyć-1
+        0 wziąć-5
+        0 pójść-5
+        0 inaugurować-1
+        0 uruchomić-1
+        0 rozgrzebać-1
+        1 rozgadać się-1
+          0 rozplotkować się-1
+        0 wziąć na hol-1
+        VISITED 0 zagaić-1
+        0 wystartować-2
+        0 rozśpiewać się-1
+        0 podnieść-13
+        0 otworzyć-1
+        0 wejść-2
+        111 zacząć-5
+          0 rozświergotać się-1, rozszczebiotać się-1
+          VISITED 109 odezwać się-1, przemówić-1
+        0 zacząć-1
+        0 włączyć-3
+        VISITED 0 włączyć-2
+        4 wprowadzić-4
+          1 zorganizować-4
+            0 zinstytucjonalizować-1
+          VISITED 0 schrystianizować-1
+          0 zaprowadzić-4
+        0 przejść-1
+        3 znaleźć się-6
+          0 zadryfować-4
+          0 spocząć-2
+          0 spocząć-1
+        6 rozpłakać się-1, zapłakać-1
+          0 załkać-1
+          0 zaszlochać-1
+          0 chlipnąć-1
+          0 rozmazać się-2
+          0 zabuczeć-4, zabeczeć-2
+          0 rozkrzyczeć się-1
+        0 napocząć-1, naruszyć-1, ruszyć-3
+        1 ruszyć-4
+          0 zadziałać-2
+        0 wystartować-1
+        0 jąć się-1
+        0 rozćwierkać się-1
+        0 wystąpić-2
+        2 zastartować-1
+          0 zadebiutować-1
+          0 debiutować-1
+        2 zapoczątkować-1, dać początek-1
+          0 rozszumieć się-3
+          0 zaintonować-1
+        10 ruszyć-2, wyruszyć-1, ruszyć się-2
+          0 ruszyć dupę-1
+          0 wypuścić się-1
+          4 odejść-3, wyjść-2
+            0 odjechać-2
+            VISITED 1 odpłynąć-1, popłynąć-2
+            0 wylecieć-5, wystartować-3
+          0 porwać-5, wyrwać-2
+          0 runąć-2
+          0 pofrunąć-1, poszybować-1, polecieć-3
+        0 wszcząć-2, wzniecić-1
+        2 uwierzyć-1, dać wiarę-1
+          0 zaufać-1
+          0 kupić-7
+        4 przystąpić-1, zabrać się-1, wziąć się-1
+          0 zakasać rękawy-1
+          0 zawinąć się-4
+          0 usiąść-3, siąść-5
+          0 tknąć się-1
+        152 podjąć-1, przedsięwziąć-1
+          0 powziąć-1
+          2 wrócić-3, powrócić-2
+            0 przeprosić się-1
+            0 powrócić-5
+          7 postarać się-1, dołożyć starań-1, podjąć starania-1, zakrzątnąć się-2
+            0 zapolować-2
+            0 zabić się-3
+            2 zalecić się-1, umizgnąć się-1, uderzyć-9, uderzyć w konkury-1, uderzyć w koperczaki-1
+              0 uwieść-1, skusić-2
+              0 przystawić się-1, dowalić się-1, dostawić się-1, podwalić się-1, przywalić się-1
+            0 stanąć na głowie-1, stanąć na rzęsach-1, stanąć na uszach-1, wyjść z siebie-1, wyjść ze skóry-1, wyleźć ze skóry-1
+            0 poruszyć niebo i piekło-1, poruszyć wszystkie sprężyny-1, poruszyć niebo i ziemię-1
+          22 zająć się-1, poświęcić się-1
+            2 rozdrobnić się-1
+              0 rozmienić się na drobne-2
+              0 podzielić włos na czworo-1
+            0 zabawić się-2
+            0 zabić czas-1
+            0 zakrzątnąć się-1
+            0 zagadać się-1
+            3 poprowadzić-5
+              2 pozarządzać-1
+                1 pokierować-2
+                  0 nakierować się-3
+            0 zatonąć-1, zatopić się-1, utonąć-1
+            0 dotknąć się-3
+            8 oddać się-1
+              0 wsiąknąć-4
+              6 pogrążyć się-3, zapaść-6
+                0 zasłuchać się-1
+                0 zaczytać się-2
+                0 rozmodlić się-1
+                2 zamyślić się-1
+                  0 zamarzyć się-2
+                  0 zadumać się-1
+          116 zdecydować-1, postanowić-1, podjąć decyzję-1, zadecydować-1
+            0 rozstrzygnąć-1, rozsądzić-1
+            0 namyślić się-1
+            VISITED 4 poddać-1
+            1 zagłosować-1
+              0 optować-1
+            3 orzec-2, zawyrokować-2
+              VISITED 2 wydać wyrok-1
+            0 poprzysiąc-1
+            17 zobowiązać się-1, podjąć się-1, zobligować się-1
+              8 związać się-2
+                0 uwiązać się-1
+                0 zaręczyć się-1
+                5 obiecać-1, przyrzec-1, przyobiecać-1
+                  VISITED 0 rzucić słowo na wiatr-1, zrobić z gęby cholewę-1, zrobić z gęby cholewkę-1
+                  0 deklarować-3
+                  0 dać-10
+                  1 przysiąc-1, przysięgnąć-1
+                    0 ślubować-1
+              2 zdeklarować-1, zadeklarować-1
+                0 zaofiarować-1
+                VISITED 0 ofiarować-2
+              0 przyjąć-8
+              VISITED 0 skontrować-2
+              2 objąć-1, podjąć się-2
+                0 wziąć-21
+                0 awansować-4
+            0 uradzić-1
+            0 zdecydować się-1
+            0 wstrzymać się-2, uchylić się-3
+            80 ustalić-1
+              0 oznaczyć teren-2
+              1 ustawić-5
+                0 kupić-4
+              0 wycenić-1, otaksować-1
+              3 przeznaczyć-2
+                2 dać-8
+                  1 rzucić-11
+                    0 zawiać-3
+              4 uporządkować-2
+                1 usystematyzować-1
+                  0 skodyfikować-2
+                0 uszeregować-1
+                0 zhierarchizować-1
+              1 zawrzeć-1
+                0 zawrzeć znajomość-1, zapoznać-2, poznać się-2, zaznajomić się-2, zapoznać się-2, zawrzeć-6
+              0 zryczałtować-1
+              32 wyznaczyć-3, oznaczyć-1, naznaczyć-1
+                2 ukierunkować-1, zorientować-1, nakierować-1
+                  1 nastawić-2
+                    0 przygotować-5
+                0 policzyć-4
+                24 wydzielić-1, wyodrębnić-1
+                  7 wyizolować-1
+                    0 wyabstrahować-1
+                    1 wytrącić-3
+                      0 strącić-4
+                    0 wydestylować-2
+                    0 wyługować-1
+                    0 ekstrahować-1
+                    0 odwirować-1
+                  3 wycisnąć-1
+                    0 wytłoczyć-2
+                    1 wyżąć-2
+                      0 wykręcić-5
+                  8 podzielić-4, sklasyfikować-2, zakwalifikować-2, skategoryzować-1, posegregować-1, posortować-1, stypizować-1, pogrupować-1
+                    0 zgrupować-2
+                    6 zróżnicować-2
+                      0 rozwarstwić-1
+                      0 spolaryzować-2
+                      0 spolaryzować-1
+                      0 zdywersyfikować-1
+                      0 zindywidualizować-1
+                      0 wycieniować-2
+                  2 wyjąć-1
+                    1 wyłączyć-1
+                      0 wyjąć-3
+                2 zlokalizować-2, umiejscowić-3
+                  1 osadzić-4
+                    0 zakotwiczyć-3
+              VISITED 0 wytyczyć-1
+              27 wybrać-1
+                0 obrać-3
+                0 wylosować-1
+                VISITED 0 kliknąć-1
+                0 upatrzyć-2
+                0 odnaleźć-4
+                1 przebrać-3
+                  0 wybrakować-1
+                13 wskazać-1, wyznaczyć-1
+                  0 obsadzić-7
+                  0 substytuować-2
+                  0 ustanowić-2
+                  0 wytypować-2
+                  0 wykreować-2
+                  7 powołać-1
+                    0 nominować-1
+                    1 powołać-2
+                      0 zmobilizować-5
+                    0 mianować-2
+                    2 wybrać-2, obrać-2
+                      0 okrzyknąć-2
+                      0 wyłonić-1
+                0 przesiać-1
+                0 nakłonić się-1, skłonić się-1
+                1 dobrać-1
+                  0 wyważyć-1
+                0 wytypować-1
+                0 wyselekcjonować-1
+              1 ustanowić-1
+                0 uchwalić-1
+        5 nawiązać-1, zawiązać-6
+          0 zakolegować się-1, zakumplować się-1
+          0 zadzierzgnąć-1
+          0 zagaić-2
+          1 zaprzyjaźnić się-1
+            0 zbratać się-1
+      214 skończyć-1, dokończyć-1, sfinalizować-1, zakończyć-1, ukończyć-1, położyć kres-1, dokonać-2
+        0 ukręcić łeb-1, ukręcić łba-1
+        0 dobudować-1
+        1 dopiąć-1
+          0 zapiąć na ostatni guzik-1, dopiąć na ostatni guzik-1
+        0 dograć-1
+        0 rozgrzać się-4
+        0 dostroić-5
+        0 dodrukować-1
+        0 pozałatwiać-1
+        VISITED 0 dorysować-1
+        0 domalować-1
+        0 dopowiedzieć-1
+        0 dopalić-1
+        0 dopiec-2
+        0 dośpiewać-1
+        0 wylicytować-1
+        0 doczytać-1
+        0 dopisać-1
+        0 zamknąć-1
+        0 zdążyć-1
+        0 wyjść-5
+        0 wyjść-4
+        0 doszyć-1
+        0 doładować-3
+        1 ukończyć-2, skończyć-3
+          0 wyjść-14
+        0 dociąć-2
+        0 umorzyć-1
+        63 zrezygnować-1
+          1 powstrzymać się-1
+            0 powściągnąć się-1, pomiarkować się-2
+          1 poddać się-3
+            0 rozłożyć ręce-1
+          0 odejść-1, zaniechać-1, poniechać-1
+          0 wziąć nogi za pas-2, dać nogę-2
+          0 spasować-2
+          0 zdezerterować-1
+          0 odżegnać się-1
+          4 poddać-1
+            0 poddać partię-1
+            2 poddać się-1, złożyć broń-1, spasować-3, ulec-1
+              0 skapitulować-1
+              0 kapitulować-1
+          1 dać spokój-1, podarować-4, odpuścić sobie-1, odpuścić-4
+            0 machnąć ręką-1
+          4 darować-3, podarować-3
+            0 ułaskawić-1
+            1 przepuścić-1
+              0 puścić płazem-1, popuścić-2
+            0 oszczędzić-2
+          VISITED 0 rzucić-7, zarzucić-2
+          2 zwolnić się-3
+            VISITED 1 odejść-10
+          5 zostawić-4, pozostawić-4
+            0 kopnąć w dupę-1, kopnąć w tyłek-2
+            0 usadzić-2, posadzić-3
+            2 odczepić się-2
+              0 pocałować w dupę-1, pocałować w tyłek-1
+              0 wypchać się-3, wypchać się trocinami-1, kazać się wypchać-1, kazać się wypchać trocinami-1, dać się wypchać-1, dać się wypchać trocinami-1
+          1 rozstać się-1
+            0 pożegnać się-1, pożegnać-2
+          VISITED 0 zrejterować-1
+          0 zwinąć żagle-1, zwinąć chorągiewkę-1
+          0 postawić krzyżyk-1, położyć krzyżyk-1, spisać na straty-1
+          12 wycofać się-1
+            0 cofnąć się rakiem-1, wycofać się rakiem-1
+            VISITED 10 odstąpić-2
+          0 cofnąć się-1
+          VISITED 4 wypisać się-1, wystąpić-6
+          15 zakończyć-4
+            14 skończyć-4
+              0 spalić mosty-1
+              VISITED 12 zerwać-3
+        0 zremisować-1
+        0 uwieńczyć-2
+        134 przestać-1, zaprzestać-1
+          14 odejść-13
+            VISITED 0 zerwać-8
+            12 zerwać-3
+              0 rozejść się-4
+              5 odizolować się-1, odosobnić się-1
+                0 odseparować się-1
+                0 oddalić się-5, odsunąć się-6
+                0 zamknąć się-3
+                0 odgrodzić się-2
+                0 wyobcować się-1
+              2 rozstać się-2, rozłączyć się-1
+                0 separować się-2
+                0 rozwieść się-1, rozejść się-8, wziąć rozwód-1
+              1 odciąć się-5, odżegnać się-2
+                0 umyć ręce-1
+          3 wyłączyć się-1
+            1 zresetować się-1
+              0 naładować baterie-1
+            0 odpłynąć-7
+          0 wstać-4
+          0 zamilczeć-2
+          1 ustąpić-4
+            0 puścić-15
+          0 odstawić-4
+          0 odsunąć-4
+          0 wyłączyć-2
+          1 wstrzymać-3
+            0 zamrozić-3
+          4 odejść-7, odsunąć się-4
+            0 odbiec-2, odbiegnąć-2
+            1 zboczyć-1, zjechać-4, zejść-2
+              0 zadryfować-2
+            0 rozminąć się-3, minąć się-3
+          0 porzucić-2
+          0 zerwać-8
+          60 przerwać-1
+            3 zatrzymać się-2
+              0 stanąć-10
+              0 zajechać-6
+              0 zakotwiczyć się-1, zakotwiczyć-2
+            0 rozłączyć się-4
+            0 wstrzymać się-3, odczekać-1
+            0 uciąć-3
+            1 oderwać się-1
+              0 wzlecieć-3
+            0 zaciąć się-4, zająknąć się-1, stęknąć-3
+            35 zerwać-2
+              34 unieważnić-1
+                0 zdezaktualizować-1
+                0 zdelegalizować-1
+                0 delegalizować-1
+                0 przedawnić-1
+                11 rozwiązać-2
+                  10 *zakończyć stosunek pracy-1
+                    5 wypowiedzieć-4, wymówić-2
+                      4 odprawić-3, zwolnić-3
+                        0 zredukować-4
+                        0 zdemobilizować-2
+                        0 zdymisjonować-1, odwołać-2
+                        0 dymisjonować-1
+                    3 ustąpić-6, podać się do dymisji-1, złożyć urząd-1
+                      0 abdykować-1
+                      VISITED 1 odejść-10
+                0 anulować-1
+                1 uchylić-1, skasować-1
+                  0 abrogować-1
+                0 znieść-1, zdjąć-3
+                0 skreślić-1, wykreślić-1, przekreślić-1
+                0 umorzyć-2
+                13 cofnąć-3, odwołać-1, wycofać-1
+                  12 wycofać się-3
+                    0 wyłamać się-1
+                    10 odstąpić-2
+                      0 sprzeniewierzyć się-1
+                      0 rozmyślić się-1
+                      1 zdradzić-4
+                        0 zaprzedać-1
+                      0 wychylić się-3
+                      4 wypisać się-1, wystąpić-6
+                        1 odejść-10
+                          0 rzucić-7, zarzucić-2
+                        1 odchodzić-14
+                          0 rzucać-4, zarzucać-2
+            0 rozerwać-4
+            12 odpocząć-1, odsapnąć-1, odzipnąć-1, wytchnąć-1, wypocząć-1, odetchnąć-1, zażyć odpoczynku-1
+              0 odpocząć-3
+              4 przespać się-2
+                1 zdrzemnąć się-1, przedrzemać się-1
+                  0 uciąć komara-1, przyciąć komara-1
+                1 wyspać się-1, dospać-1
+                  0 odespać-1
+              0 wysapać się-1
+              0 spauzować-1
+              1 odprężyć się-1, odetchnąć-3, rozluźnić się-2, zrelaksować się-1, rozprężyć się-2, wyluzować się-1, odpocząć-2
+                VISITED 0 wyciągnąć kości-1, wyciągnąć nogi-1
+              0 wyleżeć się-1
+              0 ochłonąć-2
+          0 zamilknąć-2, umilknąć-3
+          6 zamilknąć-1, umilknąć-2
+            0 urwać-1
+            0 zawiesić głos-1
+            0 wyłączyć się-3
+            0 ugryźć się w język-1
+            0 nabrać wody w usta-1
+            0 stulić buzię-1, stulić pysk-1, stulić gębę-1, stulić dziób-1, stulić mordę-1, stulić ryj-1, stulić ryja-1, zamknąć buzię na kłódkę-1, przymknąć się-2, zamknąć gębę na kłódkę-1, zamknąć mordę na kłódkę-1, zamknąć się-7, stulić się-2, przytkać się-1
+          0 zapomnieć-4
+          27 stanąć-1, zatrzymać się-1
+            0 osadzić się-2
+            0 zajechać-5
+            0 wyłączyć się-2
+            0 zawiesić się-1
+            0 zahamować-1
+            1 wylądować-2
+              0 siąść-3, usiąść-4
+            18 spocząć-3
+              VISITED 10 usiąść-1, siąść-1
+              6 położyć się-1, lec-1, legnąć-1
+                0 walnąć się-3
+                1 ułożyć się-1
+                  0 położyć się-3
+                0 zlec-2, zlegnąć-1
+                1 rozciągnąć się-3, rozłożyć się-4, rozpłaszczyć się-1, wyciągnąć się-1
+                  0 wyciągnąć kości-1, wyciągnąć nogi-1
+            0 przystanąć-1
+          2 wypuścić-4, puścić-6
+            0 upuścić-2
+            0 uronić-1
+        2 pojednać się-1, pogodzić się-2, podać sobie ręce-1
+          1 wrócić-7
+            0 zejść się-4
+        5 odbyć-1
+          0 odsiedzieć-2
+          0 odsłużyć-1
+          0 przeterminować-1
+          1 przebyć-2
+            0 donosić-5
+    132 *CZASOWNIK - AKT oznaczający reakcję organizmu lub czynność fizjologiczną-1
+      39 *zrobić coś związanego z biologią i fizjologią człowieka-1
+        12 odbyć stosunek płciowy-1
+          1 posiąść-2, wziąć-16
+            0 zgwałcić-1
+          2 dać-7
+            0 skurwić się-1
+            0 puścić się-2
+          2 wykorzystać-3, dobrać się-2
+            0 dobrać się do majtek-1
+            VISITED 0 zmolestować-2
+          3 pójść do łóżka-1, przespać się-1
+            0 dać dupy-1
+            0 obsłużyć-3, zaspokoić-2, dogodzić-2
+            0 zasponsorować-2
+        0 smarknąć-1
+        0 obciągnąć-3, obciągnąć chuja-1, obciągnąć druta-1, obciągnąć fiuta-1, obciągnąć loda-1, zrobić gałę-1, zrobić laskę-1, zrobić loda-1, trzasnąć algidę-1, strzelić loda-1
+        18 *wykonać czynność fizjologiczną-1
+          VISITED 1 kaszlnąć-1
+          4 zapłodnić-1, spłodzić-2
+            0 pokryć-9
+            0 unasiennić-1
+            0 zacielić-1
+            0 zapylić-2
+          0 ziewnąć-1
+          8 wydalić-1, oddać-9
+            1 spuścić się-3
+              0 zalać-8
+            3 wysikać się-1, oddać mocz-1, siknąć-3
+              0 popuścić-4
+              0 wysikać-1
+              0 zsikać się-1, posikać się-1
+            0 wypróżnić się-1, oddać kał-1, zrobić kupę-1
+            0 zwymiotować-1, zwrócić-4
+          0 odetchnąć-2
+        4 urodzić-1
+          0 oszczenić się-1
+          0 okocić się-1
+          0 oprosić się-1
+          0 znieść-11
+      27 ruszyć-1, poruszyć-3
+        0 wyrzucić-2
+        0 zatrzepotać-3
+        0 wziąć-1
+        0 skinąć-1
+        2 mrugnąć-1
+          0 puścić oko-1
+          0 zamrugać-1
+        1 rzucić-2
+          0 podrzucić-4
+        9 machnąć-1
+          0 zadyndać-2
+          0 wywinąć-1
+          0 świsnąć-2
+          0 mignąć-4
+          0 merdnąć-1
+          0 wierzgnąć-3, fiknąć-2
+          0 majtnąć-2, majdnąć-2
+          0 kiwnąć-1
+          0 śmignąć-2
+        VISITED 7 przesunąć-2
+      2 rozmnożyć się-1, rozrodzić się-1
+        0 wysiać się-1, zasiać się-1
+        0 namnożyć się-3, rozplenić się-1
+      22 wypić-1
+        0 wychlipać-1, wychlipnąć-1
+        VISITED 0 pochłonąć-6
+        0 opić się-2
+        0 wychłeptać-1
+        0 wydoić-2, wydudlić-1
+        0 wyssać-2
+        0 wybębnić-2
+        0 napoić się-1
+        1 popić-1, zapić-2
+          0 skropić-2, zakropić-1
+        2 upić-1, nadpić-1
+          1 pociągnąć-5
+            0 siorbnąć-2
+        0 wysączyć-1
+        0 dopić-1
+        0 popić-2
+        5 wypić-2, napić się-1, wlać ... w siebie-1
+          2 łyknąć-1
+            0 przepłukać gardło-1, zwilżyć gardło-1
+            0 rąbnąć-4, obalić-4, wychylić-2, wygolić-2, chlapnąć-2, chlusnąć-5, grzmotnąć-3
+          1 zajrzeć do kieliszka-1, zajrzeć do butelki-1, pociągnąć z butelki-1
+            0 zatankować-2
+      38 zjeść-1, spożyć-1, skonsumować-1, posilić się-1, pożywić się-1
+        0 wsunąć-2
+        0 połknąć-2, przełknąć-1, łyknąć-3, chapnąć-1, chapsnąć-2
+        0 pojeść-1
+        0 pochłonąć-6
+        0 dożywić się-1
+        0 wrąbać-2
+        VISITED 0 ujeść-1
+        0 poczęstować się-1
+        2 objeść-1
+          0 obeżreć-1
+          0 obgryźć-1, ogryźć-1
+        0 nadeżreć-1
+        2 skubnąć-3, smyknąć-1, szczypnąć-2
+          0 wyskubać-1, wyskubnąć-1
+          0 podskubać-2
+        0 wciąć-2
+        0 przegryźć-3, zagryźć-1, zakąsić-1
+        0 przegryźć-4, przekąsić-1, przetrącić-2
+        5 wyjeść-1
+          0 wygryźć-1
+          0 wylizać-2
+          0 wygryźć-2
+          0 podjeść-2, podeżreć-1
+          0 wydziobać-2, wydzióbać-1
+        0 spałaszować-1
+        0 schrupać-1
+        0 pożreć-1, zeżreć-3
+        0 dojeść-1
+        1 spróbować-1, skosztować-1, zdegustować-1, posmakować-1, zakosztować-1, pokosztować-1, popróbować-1
+          0 liznąć-4
+        7 najeść się-1
+          0 zapchać się-1
+          0 napaść się-1
+          0 napaść się-2, objeść się-1, opchać się-1, napchać się-1, napakować się-1
+          0 podjeść-1, podeżreć-4
+          0 utuczyć się-1, zapaść się-3
+          0 nażreć się-1, obeżreć się-1, napchać w siebie-1
+          0 odjeść się-1
+    13 *CZASOWNIK - AKT oznaczający następstwo czasowe zdarzeń-1
+      4 zaczekać-1
+        3 wyczekać-1, doczekać-2
+          2 przeczekać-2
+            0 przespać-3
+            0 przeleżeć-2
+      0 wyprzedzić-1, uprzedzić-2, ubiec-1, ubiegnąć-2
+      6 powtórzyć-3
+        0 reasumować-2
+        0 popalić-1
+        0 ponowić-1
+        0 zdublować-2
+        1 przywołać-2, przytoczyć-1
+          0 zacytować-1
+    128 *CZASOWNIK - AKT oznaczający kontakt fizyczny-1
+      VISITED 2 chwycić się-1, złapać się-2, czepić się-1, uchwycić się-1
+      15 wziąć-3
+        14 chwycić-1, ująć-1
+          0 dzióbnąć-4, dziobnąć-4
+          0 dziobnąć-3, dzióbnąć-2, skubnąć-4
+          2 chwycić się-1, złapać się-2, czepić się-1, uchwycić się-1
+            0 przyczepić się-2
+            0 powiesić się-1, uwiesić się-1
+          0 capnąć-1
+          0 odebrać-3
+          0 podchwycić-2
+          5 złapać-1, schwycić-1, pochwycić-2, schwytać-2, uchwycić-1
+            0 chapnąć-3, chapsnąć-3, chłapnąć-1
+            0 porwać-2
+            1 załapać-2
+              0 podnieść-12
+            0 porwać się-5
+      0 utrzymać-2
+      2 uczesać-2
+        0 wyszczotkować-2
+        0 przeczesać-2
+      11 nakreślić-1
+        6 narysować-2
+          1 wykreślić-3
+            0 odłożyć-2
+          0 dorysować-1
+          VISITED 0 zakreślić-1
+          0 podkreślić-2
+          0 naszkicować-2
+        0 poprowadzić-1
+        0 zakreślić-2
+        1 zarysować-3
+          0 podmalować-1
+      92 dotknąć-1, tknąć-1
+        VISITED 0 pogłaskać-1, pogładzić-1
+        0 otrzeć się-1
+        0 macnąć-1
+        4 uderzyć się-1
+          0 łomotnąć się-1
+          0 walnąć się-1
+          0 puknąć się-1
+          0 gruchnąć się-1
+        VISITED 1 liznąć-2
+        VISITED 0 musnąć-1, liznąć-1
+        14 przylgnąć-1, obcisnąć-1, oblepić-1, opiąć-1, opiąć się-1
+          0 przyschnąć-1
+          0 wpić się-2
+          0 przystać-4
+          10 przycisnąć się-1, przykleić się-1, przylepić się-2, przywrzeć-1
+            0 przyrosnąć-1
+            4 przylgnąć-2, przywrzeć-2
+              0 przywarować-2
+              0 weprzeć-2, zaprzeć-2
+              0 przymarznąć-1
+              0 przywrzeć-3, przylepić się-4
+            0 oblepić-5
+            2 przytulić się-1
+              0 przypaść-4
+              0 przykleić się-3, przylepić się-3
+        0 grzmotnąć się-1
+        1 pocałować-1, cmoknąć-1
+          0 ucałować-1
+        10 ścisnąć-1, zacisnąć-1
+          0 zewrzeć-1
+          0 zaciągnąć-1
+          0 zadzierzgnąć-2
+          0 zacieśnić-2
+          0 zaciąć-3
+          1 szczypnąć-1, uszczypnąć-1
+            0 podszczypać-1, podszczypnąć-1, podskubać-1
+          0 spiąć-2
+          0 pościągać-6
+          0 sprasować-1
+        43 uderzyć-4
+          0 puknąć-1, stuknąć-7
+          0 zabębnić-1
+          1 kłapnąć-1, plasnąć-1, klapnąć-2
+            0 klasnąć-2
+          0 chlasnąć-2
+          0 poklepać-1
+          0 klepnąć-1
+          0 klasnąć-1
+          1 tupnąć-1
+            0 przytupnąć-1
+          0 trącić się-1
+          0 skiksować-3
+          0 ogłuszyć-5
+          1 trzasnąć-2, walnąć-1, huknąć-3, grzmotnąć-1, rąbnąć-1
+            0 palnąć-1
+          VISITED 1 przybić-3, przyklepać-1
+          0 gwizdnąć-1
+          3 kopnąć-1
+            0 wykopać-3
+            0 odkopnąć-1
+            0 wierzgnąć-1
+          0 podciąć-1
+          2 trącić-1, potrącić-1
+            0 popchnąć-1
+            0 szturchnąć-1
+          14 przywalić-1, przydzwonić-1, przygrzać-2, wyrżnąć-1, przyrżnąć-1, przyładować-1, łupnąć-1, rypnąć-2, gruchnąć-3, bachnąć-2, dogrzać-6
+            13 uderzyć-2, zadać cios-2, zadać raz-1, dać-13, wymierzyć-3, dać łupnia-1
+              0 spoliczkować-1
+              0 zaprawić-3, stuknąć-4, lunąć-2, chlusnąć-2, kropnąć-1, machnąć-3, strzelić-2
+              0 zdzielić-1
+              0 ciąć-3
+              0 świsnąć-1
+              0 rąbnąć-3
+              0 znokautować-2
+              0 kuksnąć-1
+              0 dowalić-1, dojechać-3, dosolić-1, dosunąć-1, przyłożyć-2, przylać-1, przysolić-1, przysunąć-2, zasunąć-2, zajechać-8
+              3 smagnąć-1
+                0 chlasnąć-1
+                1 chłosnąć-1
+                  0 zaciąć-2
+          0 pacnąć-1
+          0 buchnąć-2
+        1 oprzeć się-2, podeprzeć się-1, wesprzeć się-1
+          0 zaprzeć się-1
+        5 objąć-2, opleść-2, opasać-2, ogarnąć-2
+          0 uściskać-1, uścisnąć-1
+          1 ścisnąć-2
+            0 obściskać-1
+          1 przytulić-1, przygarnąć-2
+            0 ukochać-1
+      2 strzelić-1, wystrzelić-1, palnąć-2, wypalić-1, kropnąć-2, łupnąć-2, przygrzać-4, rąbnąć-2, puknąć-2, walnąć-3, wygarnąć-1, dogrzać-1
+        0 wstrzelić-2, wstrzelać-2
+        0 przenieść-2
+    97 *CZASOWNIK - AKT oznaczający zmianę relacji abstrakcyjnych-1
+      45 określić-1, ustalić-3
+        0 oznaczyć-4
+        VISITED 0 zdefiniować-1
+        3 policzyć-2
+          0 naliczyć-1, doliczyć się-1
+          0 odliczyć-1
+          0 doliczyć-1
+        0 wyznaczyć-2
+        0 umieścić-3, umiejscowić-2, zlokalizować-1
+        3 zważyć-1
+          0 przeważyć-5
+          0 przeważyć-4
+          0 przeważyć-6
+        5 sprecyzować-1, uściślić-1
+          0 dookreślić-1
+          0 uszczegółowić-1
+          0 doprecyzować-1
+          0 sformalizować-2
+          0 ukonkretnić-1, skonkretyzować-1, skrystalizować-2, wykrystalizować-2
+        2 wykryć-2
+          0 przechwycić-2
+          0 namierzyć-1
+        0 nakreślić-2
+        3 zmierzyć-1, odmierzyć-1
+          0 wymierzyć-5
+          VISITED 0 wyliczyć-4
+          0 zniwelować-3
+        0 odtworzyć-2, zrekonstruować-2
+        18 policzyć-1, obrachować-1, obliczyć-2, wyliczyć-2
+          0 oszacować-2
+          0 uśrednić-1
+          0 podnieść-14
+          0 wyliczyć-1
+          0 podzielić-9
+          0 pomnożyć-2, przemnożyć-1
+          1 naliczyć-2
+            0 skapitalizować-2
+          4 odjąć-3
+            3 odliczyć-2
+              0 wyliczyć-4
+              0 odpisać-1
+              0 potrącić-3, odtrącić-3, strącić-5
+          1 skalkulować-2, wykalkulować-2
+            0 obliczyć się-2, obrachować się-1
+          2 dodać-1, zsumować-1, podsumować-4, podliczyć-1
+            0 zliczyć-1
+            0 doliczyć-2
+      0 zmęczyć-3, zmordować-2, wymęczyć-1
+      32 wyróżnić-1
+        0 odróżnić-1
+        24 podkreślić-1, zaakcentować-1
+          0 wypunktować-3
+          0 przerysować-2
+          1 uwydatnić-1, wyeksponować-2, uwypuklić-1
+            0 zaostrzyć-6
+          0 zaznaczyć-3
+          18 wskazać-4
+            17 oznaczyć-2, zaznaczyć-2
+              0 skasować-4
+              1 oznakować-1
+                0 zaobrączkować-1
+              1 naznaczyć-3
+                0 napiętnować-3
+              0 zakreślić-1
+              10 opatrzyć-1
+                0 nacechować-2
+                0 ponumerować-1
+                0 wizować-1
+                0 postdatować-1
+                1 podstemplować-1, przypieczętować-2
+                  0 zalakować-1
+                0 zaadresować-2
+                2 podpisać-2, złożyć podpis-1, położyć podpis-1, opatrzyć ... podpisem-1, podpisać się-1
+                  0 kontrasygnować-1
+                  0 zaparafować-1
+        0 zaakcentować-2
+        0 wytłuścić-1, pogrubić-2
+        3 zaznaczyć-1, odznaczyć-2
+          2 wyznaczyć-4
+            0 wytyczyć-2
+            0 wytyczyć-1
+      16 odzyskać-1
+        0 rewindykować-1
+        11 znaleźć-2, odszukać-1, odnaleźć-1
+          3 wyszukać-1, wynaleźć-2
+            0 wygooglować-1, wyguglować-1
+            0 wyszperać-1
+            0 wypatrzyć-1
+          0 namierzyć-2
+          0 wytropić-2, wyśledzić-2
+          4 wytropić-1, wyśledzić-1
+            2 upolować-1
+              1 złowić-1
+                0 odłowić-1
+            0 zwietrzyć-2, wywęszyć-2, zwęszyć-2
+        VISITED 0 odebrać-2
+        1 odkupić-2
+          0 wykupić-3
+    0 uciąć-1
+    0 dać-1
+    0 rozciągnąć się-2
+    5 walnąć-2
+      0 kropnąć-10
+      0 rypnąć-1
+      VISITED 0 stuknąć-3
+      1 odbębnić-1, odwalić-1, odfajkować-1, odpędzlować-1, odmachać-1, odmachnąć-1, machnąć-2
+        0 zaliczyć-1
+    1239 *spowodować _AKT_-1
+      254 *CZASOWNIK - AKT oznaczający spowodowanie zjawiska fizycznego lub zmiany stanu fizycznego-1
+        0 odprężyć-2
+        5 *wytworzyć dźwięk-1
+          0 zagrzechotać-2
+          0 zachrzęścić-2
+          0 zabrzęczeć-2
+          0 brząknąć-1, brzęknąć-2, szczęknąć-2
+          0 stuknąć-1, puknąć-4, zakołatać-1
+        0 strzyknąć-1
+        172 wydobyć-2
+          0 emitować-5
+          169 *wydobyć głos-1, wydać głos-1
+            1 kaszlnąć-1
+              0 wykrztusić-2, odkrztusić-1, wykaszleć-1
+            0 zasapać-2
+            0 stęknąć-2
+            0 sapnąć-2
+            0 ryknąć-1
+            2 zanieść się-1
+              1 zakaszleć się-1, zakasłać się-1
+                0 zachłysnąć się-1
+            0 syknąć-2, zasyczeć-2
+            0 zapiszczeć-3
+            1 mlasnąć-1
+              0 cmoknąć-2
+            0 czknąć-1
+            0 chrapnąć-1, zachrapać-1
+            0 zacharczeć-1
+            0 beknąć-1
+            1 chrząknąć-1
+              0 odchrząknąć-1
+            109 odezwać się-1, przemówić-1
+              0 zabierać głos-1
+              0 zabrać głos-1
+              0 zaszeptać-1
+              0 zaszemrać-2
+              0 zachrypieć-2
+              0 zabełkotać-1
+              100 zwrócić się-1
+                0 przepić-3
+                64 wydać-8
+                  63 polecić-3
+                    4 zarządzić-1
+                      0 zwołać-2
+                      2 rozporządzić-1
+                        0 zadysponować-2
+                        0 rozporządzić się-1
+                    9 zlecić-1
+                      0 asygnować-2
+                      3 zamówić-3
+                        0 zakontraktować-1
+                        0 obstalować-1
+                        0 zaprenumerować-1
+                      3 powierzyć-2
+                        0 dać-18
+                        0 zdać-6
+                        0 obsadzić-5
+                    0 zamówić-5, zadysponować-1
+                    46 nakazać-1, rozkazać-1
+                      0 posadzić-5
+                      0 zakomenderować-1
+                      1 postawić ... w stan pogotowia-1, postawić ... w stan gotowości-1
+                        0 zmobilizować-4
+                      0 przykazać-1
+                      3 wziąć-11
+                        VISITED 2 zabrać-2
+                      0 kazać-3
+                      0 oddalić-6, odprawić-2
+                      33 wysłać-2, posłać-2
+                        VISITED 0 wykształcić-3, wyedukować-2
+                        0 odkomenderować-1
+                        1 oddelegować-1, wydelegować-1
+                          0 delegować-2
+                        0 ekspediować-1
+                        0 wyekspediować-1
+                        1 podesłać-2
+                          0 nasłać-1
+                        0 wytransferować-2
+                        0 wydelegować-2
+                        0 delegować-1
+                        0 popchnąć-5
+                        1 wyprawić-1
+                          0 odprawić-4
+                        18 posłać-4, skierować-3
+                          0 przysłać-1
+                          16 doprowadzić-2, przyprowadzić-1, sprowadzić-1, zaprowadzić-2, przywieść-2
+                            0 przygonić-2, przygnać-1, przypędzić-1
+                            0 doholować-2
+                            0 doholować-1
+                            0 dowieść-3
+                            0 przyholować-2
+                            0 zaimportować-1
+                            0 importować-1
+                            0 przywieść-4
+                            0 podstawić-5
+                            0 odstawić-6
+                            0 dostawić-3
+                            VISITED 2 zabrać-2
+                            1 powieść-1, poprowadzić-2
+                              0 sprowadzić-7
+                      3 wezwać-1, zawołać-2, przywołać-1, przyzwać-1, zawezwać-1
+                        0 pozwać-1
+                        0 dodzwonić się-2
+                        0 wywołać-4, wyrwać-7
+                0 zagaić-1
+                0 odwołać się-2
+                VISITED 0 powiedzieć-2
+                1 zagadnąć-2, zagadać-2, zagabnąć-2
+                  0 zaczepić-5, zahaczyć-3
+                0 zaprosić-1
+                17 spytać-1, zapytać-1, zadać pytanie-1, nagabnąć-1, spytać się-1, zapytać się-1, zwrócić się z pytaniem-1
+                  16 zasięgnąć-1
+                    12 dowiedzieć się-1, wywiedzieć się-1, zasięgnąć języka-1
+                      1 dopytać się-1, dopytać-1
+                        0 podpytać-1, podpytać się-1
+                      9 zbadać-2, wybadać-1, wysondować-1
+                        0 wymacać-2
+                        3 upewnić się-1
+                          2 przekonać się-2
+                            1 zobaczyć-3
+                              0 zobaczyć gołym okiem-1
+                        0 zlustrować-1
+                        2 wypytać-1, wypytać się-1
+                          0 wyspowiadać-2
+                          0 przesłuchać-2
+                    1 zasięgnąć opinii-1
+                      VISITED 0 skonsultować się-2, skonsultować-3
+                    1 poradzić się-1, zasięgnąć rady-1
+                      0 skonsultować się-2, skonsultować-3
+                9 poprosić-1, zwrócić się z prośbą-1
+                  0 poprosić-3
+                  0 zaskamlać-2, zaskomleć-2, zaskomlić-2
+                  1 wyprosić-2
+                    0 pokazać drzwi-1
+                  0 wyciągnąć rękę-5
+                  0 polecić się-2
+                  0 uciec się-3
+                  0 wezwać-3, zaapelować-2
+                  0 zakląć-2
+              0 fuknąć-1, prychnąć-1
+              0 wyrwać się-5
+            6 wymówić-1, wyartykułować-2, wypowiedzieć-3
+              0 zmiękczyć-2, spalatalizować-1
+              0 przeciągnąć-8
+              0 unosowić-1
+              0 ubezdźwięcznić-1
+              0 udźwięcznić-1
+              VISITED 0 wydusić-1
+            0 jęknąć-2, zajęczeć-2
+            0 pyknąć-1
+            0 zagadać-3
+            0 krzyknąć-2
+            0 zawyć-2
+            4 zaśmiać się-1, roześmiać się-1
+              0 zaśmiać się do rozpuku-1
+              0 zachichotać-1
+              0 zarżeć-2
+              0 zarechotać-1
+            6 zaśpiewać-1
+              0 zaśpiewać do kotleta-1
+              0 odśpiewać-1
+              0 zabuczeć-3
+              0 wyciągnąć-14
+              1 zafałszować-2
+                0 skiksować-1, uciąć koguta-1, wyciąć koguta-1
+            3 krzyknąć-1, wykrzyknąć-1, wrzasnąć-1, wydrzeć się-1
+              VISITED 1 zawołać-1
+              VISITED 0 huknąć-2
+            11 powiedzieć-4, wypowiedzieć-1
+              0 odszeptać-1, odszepnąć-1
+              0 kropnąć-7
+              1 podyktować-2
+                0 przeliterować-1
+              2 zmówić-1, odmówić-4
+                1 pomodlić się-1
+                  0 odmówić pacierz-1
+              0 zadeklamować-1, wydeklamować-1, wyrecytować-2
+              2 wygłosić-1
+                0 przemówić-3
+                0 kazać-2
+          0 *wydobyć dźwięk-1
+        3 rozmnożyć-1, pomnożyć-3, rozplenić-1
+          0 skrzyżować-2
+          0 rozkrzewić-1
+          0 sklonować-1
+        0 zamortyzować-1, stłumić-4, wytłumić-2
+        48 zanieczyścić-1
+          1 okopcić-1, zakopcić-2
+            0 osmalić-1
+          1 zadymić-1
+            0 napalić-3
+          1 zabałaganić-1
+            0 zagracić-1
+          0 zasolić-1
+          0 zasiarczyć-1
+          0 zasmrodzić-1
+          0 zaczadzić-2
+          1 zaśmiecić-2, naśmiecić-1, nabrudzić-1
+            0 nabarłożyć-1, naświntuszyć-1
+          0 zatruć-1, skazić-2
+          0 zamulić-1
+          33 zabrudzić-1, pobrudzić-1, ubrudzić-1
+            0 nabrudzić-2
+            0 wyświechtać-2
+            0 wybrudzić-1
+            0 zaświnić-1
+            0 opluć-2
+            0 upaćkać-1, zapaćkać-1
+            0 utytłać-1
+            0 nadeptać-2, zadeptać-2
+            0 powalać-1
+            0 pobłocić-1
+            0 obielić-3, ubielić-4
+            0 przybrudzić-1
+            0 zabłocić-1, obłocić-1
+            0 przepocić-1, zapocić-1
+            0 upstrzyć-3
+            0 splamić-1
+            7 poplamić-1
+              0 ciapnąć-1
+              0 oślinić-1, zaślinić-1
+              2 zaplamić-1, wyplamić-1
+                VISITED 1 zalać-4
+              0 zatłuścić-1
+              0 potłuścić-1, wytłuścić-2
+            0 wymazać-1
+            0 zapluć-1
+            0 zadeptać-3
+            0 zakurzyć-1
+            0 usmarować-1, wysmarować-2, obsmarować-1
+            0 zapaskudzić-1
+            VISITED 1 zasikać-1, posikać-1, osikać-1
+            0 osrać-1
+        22 zmoczyć-1
+          0 prysnąć-3, bryznąć-1
+          0 obmyć-2, omyć-1
+          0 zlać-2
+          0 spryskać-1, opryskać-3
+          0 przepoić-3
+          2 nawilżyć-1
+            0 podlać-2
+            0 nawodnić-1
+          0 przemoczyć-1
+          0 zawilgocić-1
+          0 skąpać-2
+          2 zamoczyć-1
+            1 zalać-4
+              0 pokrwawić-1, zakrwawić-1, okrwawić-1, skrwawić-1
+          5 zwilżyć-1
+            0 poślinić-1
+            0 spryskać-3, opryskać-4
+            2 skropić-1, nakropić-1, skroplić-2, wypsikać-1
+              0 uperfumować-1
+              0 poperfumować-1
+          1 zasikać-1, posikać-1, osikać-1
+            0 nasikać-1
+      129 *CZASOWNIK - AKT oznaczający spowodowanie zmian w obrębie społeczeństwa-1
+        0 upolitycznić-1
+        4 wyrządzić-1
+          0 kopnąć w dupę-2, kopnąć w tyłek-1
+          VISITED 0 osławić-2
+          0 spłatać-1
+          0 wyrządzić krzywdę-1, uczynić coś złego-1, urządzić-4, załatwić-4
+        0 wpuścić-3
+        1 oddalić-2
+          0 odsunąć-3
+        0 wsławić-1, rozsławić-1, opromienić-1
+        18 rozpowszechnić-1, upowszechnić-1, rozprzestrzenić-2
+          0 rozkrzewić-2
+          0 osławić-2
+          0 zasiać-1
+          1 rozpropagować-1
+            0 rozreklamować-1
+          0 nagłośnić-1, nadać rozgłos-1
+          2 rozpowiedzieć-1, rozgadać-1
+            1 rozpaplać-1
+              0 rozszczebiotać-1
+          0 przenieść-4, przeszczepić-2
+          0 roznieść-2
+          VISITED 0 wynieść-7
+          2 rozgłosić-1, roztrąbić-1
+            0 puścić-13
+            0 rozkrzyczeć-1
+          0 wylansować-1
+          0 spopularyzować-1
+          0 rozsiać-4
+        55 zostawić-1, pozostawić-1
+          0 osamotnić-1
+          0 zapomnieć-3
+          0 porzucić-1
+          3 opuścić-4
+            0 wyfrunąć-3
+            0 odejść-11
+            0 rzucić-13
+          VISITED 47 opuścić-1
+        20 zapewnić-2
+          1 ubezpieczyć-1
+            0 zaasekurować-1
+          1 zabezpieczyć-3
+            VISITED 0 zagwarantować-1
+          0 zawarować-1
+          1 poręczyć-1
+            0 podżyrować-1
+          3 zabezpieczyć-2
+            0 obudować-4
+            0 urządzić-3
+            0 skonsolidować-1
+          2 zastrzec-1, zarezerwować-1
+            0 opatentować-1
+            0 obwarować-3
+          2 wychować-2
+            0 wykształcić-3, wyedukować-2
+            0 odchować-1
+          0 utrzymać-1, wyżywić-1
+          1 ubezpieczyć-2
+            0 obstawić-2
+        16 ukarać-1, wymierzyć sprawiedliwość-1, wyciągnąć konsekwencje-1, pokarać-1, skarać-1
+          0 zmyć głowę-1
+          0 wyświecić-2
+          0 wlepić-1
+          0 kropnąć-6
+          0 dobrać się-4
+          0 stuknąć-3
+          0 potępić-2
+          8 upomnieć-1, zwrócić uwagę-1, napomnieć-1
+            0 ofuknąć-1, ofukać-1
+            0 pouczyć-2
+            1 skarcić-1, zganić-1
+              0 zgromić-2
+            0 poprawić-2
+            2 zestrofować-1
+              1 złajać-1, zbesztać-1, zrugać-1
+                VISITED 0 huknąć-2
+        6 odrzucić-1
+          0 oddalić-7
+          0 wykluczyć-3, wyłączyć-5
+          1 odmówić-1
+            0 dać kosza-1, dać czarną polewkę-1, dać arbuza-1
+          0 odtrącić-1
+          0 pożałować-3, poskąpić-1
+      87 *CZASOWNIK - AKT oznaczający spowodowanie zmiany stanu posiadania-1
+        0 ubezpieczyć się-1
+        70 zabrać-1, pozbawić-1, odebrać-1
+          0 amputować-2
+          6 okraść-1, obrobić-2
+            1 obrabować-1, ograbić-1, obłupić-2
+              0 rozbić-9
+            2 odrzeć-3
+              0 oskubać-1, obskubać-1
+              0 ogolić-2
+            0 wyczyścić-3
+          0 zepchnąć-3
+          0 wyślizgać-1
+          0 wywłaszczyć-1
+          0 ubezwłasnowolnić-1
+          5 nadebrać-1
+            0 odsypać-1
+            3 odlać-2, ulać-1
+              1 zlać-5
+                0 odlać-3
+              0 obciągnąć-4
+          0 ogołocić-1
+          0 uszczknąć-1
+          0 zdekompletować-1
+          0 rozbroić-1
+          0 odrzeć-1
+          0 odstawić-5
+          0 odsłonić-3
+          0 odebrać-2
+          0 odebrać-6
+          0 ująć-5
+          4 odjąć-1, ująć-4
+            0 usypać-1
+            2 zacząć-2, napocząć-2, naruszyć-3
+              0 nadjeść-1
+              0 ujeść-1
+          3 zająć-2, zatrzymać-1, zarekwirować-1
+            0 aresztować-2, sekwestrować-1
+            0 zasekwestrować-1
+            0 skonfiskować-1
+          0 wyzuć-1
+          0 wykastrować-1
+          0 wydziedziczyć-1
+          0 ruszyć-6
+          0 zdezaktywizować-1
+          0 odbić-1
+          0 odebrać-7
+          0 sprzątnąć-2
+          1 uwięzić-1
+            0 wtrącić-1
+          1 zdegradować-1
+            0 zdetronizować-1
+          0 zawiesić-6
+          18 przywłaszczyć-1, zagarnąć-1, zawłaszczyć-1, sięgnąć po cudze-1, zagrabić-1
+            0 nabrać-3, nabrać się-1
+            0 uzurpować-1
+            0 zdefraudować-1, sprzeniewierzyć-1, zmalwersować-1
+            VISITED 14 ukraść-1, skraść-1, zwinąć-4
+          0 wyrwać-3
+          14 ukraść-1, skraść-1, zwinąć-4
+            0 zgarnąć-5
+            0 ściągnąć-3
+            0 wynieść-1
+            0 podprowadzić-1, zachachmęcić-1
+            0 wyszabrować-1
+            0 podebrać-1
+            0 podkraść-1
+            0 wykraść-1
+            5 zrabować-1, złupić-1
+              4 rozkraść-1
+                0 rozwłóczyć-2
+                0 rozszabrować-1
+                0 rozwlec-3
+                0 rozgrabić-1
+        14 wyposażyć-1, zaopatrzyć-2
+          0 uposażyć-1
+          0 oprawić-5
+          0 zmotoryzować-1
+          0 wyekwipować-1
+          0 uzbroić-3
+          0 uskrzydlić-2
+          0 przeszklić-1
+          0 obudować-3
+          0 rzucić-6
+          0 uzbroić-2
+          2 zautomatyzować-1
+            0 zrobotyzować-1
+            0 zmechanizować-1
+          0 opatrzyć-5
+      480 *CZASOWNIK - AKT oznaczający spowodowanie zmiany stanu mentalnego, emocjonalnego lub psychiczno-fizjologicznego-1
+        377 zakomunikować-1
+          0 odmeldować się-1
+          140 sformułować-1, wyrazić-1, ująć-2, wyartykułować-1
+            0 wyprowadzić-6
+            0 ustosunkować-1
+            0 przeformułować-1
+            0 zaryzykować-2
+            0 zasugerować-1, dać do zrozumienia-1
+            1 wyrazić się-3
+              0 wysłowić się-1
+            4 zwerbalizować-1, wyrzec-1, ubrać w słowa-1
+              1 wypowiedzieć-2, wymówić-3
+                0 poskarżyć się-2, pożalić się-1, użalić się-2
+              0 wybrzmieć-3
+              0 wydusić-1
+            3 napisać-3
+              0 wysmażyć-3, wypocić-1
+              0 rozpisać się-1
+              0 skreślić-2, nakreślić-5
+            120 powiedzieć-1, rzec-1
+              0 zahuczeć-2
+              0 wyrzucić-4
+              0 sypnąć-3
+              0 wyjęczeć-1
+              0 pisnąć-1
+              0 wychlipać-2
+              0 zażartować-1
+              0 wysyczeć-1
+              0 wystękać-1
+              0 wysapać-1, zasapać-1
+              0 wymruczeć-1
+              0 wykrztusić-1
+              0 wydyszeć-1
+              0 wychrypieć-1
+              0 stęknąć-1
+              0 sarknąć-2
+              0 sapnąć-1
+              0 jęknąć-1, zajęczeć-3
+              1 zawołać-1
+                0 zakrzyknąć-1
+              0 wycedzić-1
+              0 wybełkotać-1
+              0 wybąkać-1, wybąknąć-1, bąknąć-1
+              3 obsypać-4, osypać-4
+                VISITED 2 obrzucić-1
+              0 wyjąkać-1
+              0 rozżalić się-2
+              1 podpowiedzieć-1
+                0 podszepnąć-1
+              0 zapodać-1
+              0 zabuczeć-2
+              0 zagrzmieć-1
+              VISITED 15 wypowiedzieć się-1, udzielić wypowiedzi-1, wyrazić się-2, wyszczególnić się-1
+              0 huknąć-2
+              15 złożyć-1
+                0 wnieść-2
+                VISITED 0 zareklamować-1, złożyć reklamację-1
+                0 powinszować-2, pożyczyć-3, złożyć życzenia-1
+                VISITED 0 zeznać-1, złożyć zeznania-1
+                VISITED 0 złożyć zeznanie-1
+                3 złożyć egzamin-1
+                  0 obronić-5, obronić się-4
+                  0 oblać-6, wyłożyć się-2
+                  0 zdać-5
+                3 przeprosić-1, złożyć przeprosiny-1
+                  0 paść na kolana-1
+                  0 pokajać się-1, posypać głowę popiołem-1
+                  0 skruszyć się-2, okazać skruchę-1
+                1 podziękować-1, złożyć podziękowanie-1
+                  0 odwdzięczyć się-1
+              0 chlapnąć językiem-1, chlapnąć jęzorem-1, chlapnąć ozorem-1
+              3 palnąć-3, chlapnąć-3
+                0 walnąć-5, rąbnąć-5, rypnąć-3, kropnąć-4
+                0 odpalić-1
+                0 palnąć głupstwo-1, palnąć gafę-1, palnąć byka-1
+              4 skłamać-1, zełgać-1, rozminąć się z prawdą-1, minąć się z prawdą-1
+                0 rzucić słowo na wiatr-1, zrobić z gęby cholewę-1, zrobić z gęby cholewkę-1
+                0 okłamać-1
+                0 zmyślić-1, wyssać z palca-1
+                0 zablefować-2, zabluffować-2
+              7 napaść-2, zaatakować-3, natrzeć-3, najechać-2, nalecieć-1, naskoczyć-1, wjechać-3, wsiąść-3
+                2 obrzucić-1
+                  0 obrzucić mięsem-1
+                  0 obrzucić błotem-1
+                0 wyżyć się-1
+                0 zaczepić-6
+                0 wyskoczyć z gębą-1, wyskoczyć z pyskiem-1
+                0 skoczyć do gardła-1, rzucić się do gardła-1, skoczyć do oczu-1
+              0 zakląć-1, przekląć-1
+              0 zagadać-1
+              0 wyszeptać-1, wyszepnąć-1
+              1 wyrecytować-1
+                0 odklepać-1, wyklepać-4
+              1 margnąć-1, warknąć-1, burknąć-1, sarknąć-1
+                0 syknąć-1, zasyczeć-4
+              0 rzucić-1
+              0 wymamrotać-1, mruknąć-1, wymamleć-1, wymamlać-1, zamruczeć-1, zamamrotać-1
+              4 wspomnieć-1
+                3 napomknąć-1
+                  0 wzmiankować-1
+                  0 przebąknąć-1, bąknąć-3
+                  0 zawadzić-3
+              0 westchnąć-1
+              0 szepnąć-1, powiedzieć na ucho-1
+              VISITED 22 stwierdzić-1
+            2 omówić-1
+              0 obgadać-1, pogadać-1
+              0 naradzić się-1, skonsultować się-1, przekonsultować-1, skonsultować-2
+          275 poinformować-1, udzielić informacji-1
+            1 dać znać-1
+              0 zasygnalizować-2
+            0 objaśnić-2
+            0 notyfikować-1
+            0 podzielić się-2
+            0 poinstruować-1, pouczyć-1
+            0 pokazać-4
+            0 uśmiercić-2
+            7 zgłosić-1
+              0 wymeldować-1
+              0 zareklamować-1, złożyć reklamację-1
+              0 zamówić-1
+              2 zalicytować-1
+                0 przelicytować-2
+                0 skontrować-2
+              0 odezwać się-2
+            33 zapoznać-1, zaznajomić-1
+              0 podać się-1
+              0 przybliżyć-1
+              0 wprowadzić-7
+              0 wtajemniczyć-1
+              15 opisać-1
+                0 odmalować-2
+                0 algorytmizować-1
+                0 scharakteryzować-1
+                VISITED 11 przedstawić-2
+              12 nauczyć-1, wyedukować-1, wykształcić-1, wyszkolić-1
+                0 wychować-1
+                0 wyuczyć-1
+                0 przyuczyć-1
+                0 dokształcić-1, douczyć-1
+                0 wyspecjalizować-1
+                0 wypuścić-5
+                0 przeszkolić-1
+                0 podszkolić-1, poduczyć-1
+                2 przygotować-3
+                  0 wyuczyć-2
+                  0 przysposobić-1
+                0 pokazać-5
+            8 zapewnić-1, upewnić-1
+              0 zagwarantować-1
+              1 deklarować-1
+                0 ofiarować-2
+              0 zarzec się-1, zażegnać się-1
+              0 poręczyć-2
+              0 utwierdzić-2
+              0 zaręczyć-1
+              0 przysiąc-2
+            0 zaawizować-1
+            11 donieść-1, zameldować-1, powiadomić-1, zawiadomić-1, uwiadomić-1, zasygnalizować-1
+              0 notyfikować-2
+              8 donieść-2, poskarżyć-1, poskarżyć się-1
+                0 nadać-6
+                0 naskarżyć-1
+                4 zadenuncjować-1
+                  VISITED 3 wydać-6
+                0 zakapować-1
+              0 napisać-2
+            0 wykrzyczeć-1
+            1 przypomnieć-1
+              0 przypomnieć się-1
+            0 zakablować-1
+            7 zaproponować-1, zgłosić-2
+              0 wyciągnąć rękę-4, wyciągnąć dłoń-2
+              0 wylicytować-2
+              0 przelicytować-1
+              0 wyzwać-2
+              1 zaproponować-3
+                0 wystawić-3
+              0 podrzucić-6
+            VISITED 13 uprzedzić-1, zapowiedzieć-1
+            0 wezwać-2, zaalarmować-1
+            36 ujawnić-1, wyjawić-1, zdradzić-1, odkryć-1
+              0 wydobyć na jaw-1, wyciągnąć na jaw-1, wydobyć na światło dzienne-1, wyciągnąć na światło dzienne-1
+              22 zdradzić się-1, odkryć się-1
+                0 wysypać się-3, zasypać się-2
+                0 otworzyć się-2, odblokować się-3, odsłonić się-4
+                0 ujawnić się-2
+                18 wyrazić-2, okazać-1, objawić-1, uzewnętrznić-1
+                  0 dać ujście-1, dać upust-1
+                  0 podnieść głowę-2
+                  0 przewrócić oczami-1, wywrócić oczami-1
+                  0 wykazać-2
+                  0 wylać-4
+                  2 uszanować-1
+                    1 uczcić-2
+                      0 uhonorować-1
+                  3 pokazać-2, przejawić-1, zademonstrować-2, zamanifestować-1
+                    0 skrzywić się-1
+                    0 nadąsać się-1, nadąsać policzki-1, nabzdyczyć się-1, rozdąsać się-1
+                    0 uśmiechnąć się-1, posłać uśmiech-1
+                  VISITED 5 wyznać-1, zwierzyć-1, wyjawić-2
+              1 odtajnić-1
+                0 ujawnić się-3
+              0 określić się-1
+              0 wynieść-7
+              9 zdemaskować-1, zdekonspirować-1, obnażyć-1
+                0 zadać kłam-1, zadać fałsz-1
+                0 rozpracować-1
+                0 skompromitować-2
+                5 wyznać-1, zwierzyć-1, wyjawić-2
+                  0 wypłakać-1
+                  0 wyspowiadać się-1, pojednać się z Bogiem-1
+                  1 powierzyć-4
+                    0 wtajemniczyć-2, dopuścić do tajemnicy-1
+                  0 wygadać-2
+              3 wydać-6
+                0 wkopać-4
+                1 wygadać się-1, wygadać-1, wyśpiewać-2, wypleść-3
+                  0 wypaplać-1, wyklepać-3, wypaplać się-1
+            37 oznajmić-1, oświadczyć-1
+              0 wywołać-3
+              0 odtrąbić-2
+              2 zdeklarować się-1, zadeklarować się-1
+                1 opowiedzieć się-1
+                  0 optować-2
+              0 deklarować się-1
+              22 stwierdzić-1
+                1 przyznać-1
+                  VISITED 0 zrehabilitować-3
+                0 zawyrokować-1
+                0 orzec-1
+                10 potwierdzić-1
+                  6 poświadczyć-1
+                    0 pokwitować-2
+                    1 przybić-3, przyklepać-1
+                      0 przybić piątkę-1
+                    2 zaświadczyć-2
+                      0 zeznać-1, złożyć zeznania-1
+                      0 podpisać-1
+                  0 usprawiedliwić-3
+                  1 przyznać się-1
+                    0 upokorzyć się-1
+                7 uznać-1
+                  2 uniżyć się-1
+                    1 ukorzyć się-1
+                      0 pójść do Canossy-1, pójść do Kanossy-1
+                  0 zrehabilitować-3
+                  0 przełożyć-7
+                  0 adoptować-1
+                  0 docenić-1
+              7 zgłosić się-1
+                0 wymeldować się-1
+                VISITED 3 wpisać się-2, zapisać się-1
+                1 zameldować się-1
+                  0 przemeldować się-1
+            130 podać-1
+              0 przynieść-1
+              2 przeczytać-2
+                0 odczytać-3
+                0 wyczytać-2
+              21 ogłosić-1, obwieścić-1
+                0 ogłosić się-2
+                0 odtrąbić-1
+                0 promulgować-1
+                0 rozpisać-3
+                1 odgwizdać-2
+                  0 odgwizdać-4
+                0 proklamować-1
+                13 uprzedzić-1, zapowiedzieć-1
+                  0 zapowiedzieć się-1
+                  0 zaprezentować-1
+                  0 zaawizować-2
+                  0 zaanonsować-2
+                  0 zameldować-3, zaanonsować-1
+                  2 przestrzec-1, ostrzec-1
+                    0 zaalarmować-2
+                    0 zapowiedzieć-3
+                  3 zagrozić-1
+                    0 pomachać szabelką-1, zamachać szabelką-1, potrząsnąć szabelką-1
+                    0 zaszantażować-1
+                    0 postraszyć-1, pogrozić-1
+                  0 zastrzec-2, zastrzec się-1
+              0 deklarować-2
+              0 powiedzieć-3
+              3 wskazać-3, pokazać-3
+                0 wydzwonić-2
+                1 wybić-2
+                  VISITED 0 nabić-6
+              3 wydać-2
+                2 wydać wyrok-1
+                  0 uniewinnić-1
+                  0 skazać-1, zasądzić-1
+              VISITED 85 przedstawić-1
+              3 wymienić-1, wyliczyć-3, wyszczególnić-1
+                0 wyspecyfikować-1
+                0 wypisać-5
+                0 odmienić-2
+              3 przekazać-3, powtórzyć-1
+                0 przelać-4
+                0 przywieźć-2
+                0 przemycić-2
+        1 odprężyć-1, zrelaksować-1, wyluzować-1, rozluźnić-2
+          0 odmóżdżyć-1
+        103 pokazać-1
+          0 wyświetlić-1
+          4 ukazać-2
+            3 odsłonić-1, odkryć-5
+              0 obnażyć-3
+              0 wyszczerzyć-1
+              0 obnażyć-2
+          1 odczytać-2
+            0 sczytać-1
+          0 oddalić-4
+          1 oprowadzić-1
+            0 obwieść-2
+          85 przedstawić-1
+            0 zreferować-1
+            4 podsumować-1
+              VISITED 0 zrekapitulować-1
+              VISITED 0 zreasumować-1
+              VISITED 0 reasumować-1
+              0 spuentować-1
+            0 zrelacjonować-1, zdać relację-1, zdać sprawę-1, złożyć relację-1
+            0 naświetlić-1
+            1 nakreślić-3
+              0 wyrysować-2, wykreślić-2
+            0 wypunktować-2
+            0 zaprezentować-2
+            15 wypowiedzieć się-1, udzielić wypowiedzi-1, wyrazić się-2, wyszczególnić się-1
+              0 zabrać głos-2
+              8 wystąpić-5
+                1 wysunąć-3
+                  0 wysunąć wniosek-1
+                0 postawić-7
+                4 przedłożyć-1, przedstawić-5
+                  0 wytoczyć-3
+                  2 wnieść-1
+                    1 zawnioskować-1
+                      0 pozwać-2
+              0 odpowiedzieć-1
+              0 streścić się-2
+              0 wymądrzyć się-1
+              1 poruszyć-2, podnieść-5, dotknąć-3, podjąć-2, ruszyć-5, potrącić-2
+                0 wkroczyć-4
+            0 zestawić-1
+            0 zdać-3
+            5 opowiedzieć-1
+              3 zwierzyć się-1, wynurzyć się-3, wywnętrzyć się-1
+                0 otworzyć duszę-1, odkryć duszę-1, otworzyć serce-1
+                1 wyżalić się-1
+                  0 wypłakać się-1
+              0 narysować-1
+            30 wyjaśnić-1, wytłumaczyć-1, wyklarować-2, objaśnić-1
+              0 wyprostować-3
+              0 rozjaśnić-4, przejaśnić-3
+              0 wskazać-5
+              0 zilustrować-1
+              17 uzasadnić-1, podbudować-1, uargumentować-1, umotywować-1, wyjaśnić-2
+                0 poprzeć-2
+                0 wywieść-5
+                5 usprawiedliwić-1
+                  0 zasłonić się-1
+                  3 obronić-4, stanąć w obronie-1, ująć się-1, wstawić się-2
+                    0 przemówić-4
+                    0 usprawiedliwić-2, wytłumaczyć-2
+                    0 upomnieć się o krzywdę-1, dopomnieć się o krzywdę-1
+                0 obalić-1, zbić-6
+                0 zracjonalizować-3
+                6 udowodnić-1, dowieść-1, wykazać-1
+                  1 pokazać-6
+                    0 zademonstrować-3
+                  2 zweryfikować-1
+                    0 zrewidować-2
+                    0 przesiać-2
+                  0 udokumentować-1
+              7 przedłożyć-2, wyłożyć-4, wyłuszczyć-1
+                0 skarykaturować-2
+                0 sportretować-2
+                0 złożyć zeznanie-1
+                3 streścić-1
+                  0 zrekapitulować-1
+                  0 zreasumować-1
+                  0 reasumować-1
+            VISITED 20 zademonstrować-1, zaprezentować-3
+          1 przedstawić-4
+            0 wystawić-5
+          2 wskazać-2
+            0 wytknąć-3
+            0 wystawić-6
+          20 zademonstrować-1, zaprezentować-3
+            1 wyeksponować-1
+              0 wystawić-7
+            17 przedstawić-6
+              0 roztoczyć-3
+              13 ukazać-1
+                0 uwidocznić-1
+                11 przedstawić-2
+                  0 przejaskrawić-2
+                  0 spersonifikować-1, uczłowieczyć-2
+                  0 pokazać-7
+                  0 zobrazować-1
+                  0 uchwycić-3
+                  0 odzwierciedlić-1, oddać-8
+                  1 przełożyć-5
+                    0 przetłumaczyć-2
+                  0 zarysować-1, nakreślić-4
+                  1 odtworzyć-3
+                    0 odwzorować-1
+              0 zapodać-2
+              0 wyjść-3
+          0 okazać-2, wylegitymować się-1, wykazać się-1
+        55 zmusić-2, wymóc-1, wymusić-1, zniewolić-1, przymusić-1
+          0 przelać krew-2
+          0 zmolestować-2
+          0 dać popalić-2, dać wycisk-1, dać w kość-2
+          1 przegonić-2, przepędzić-1
+            0 popędzić kota-1, pogonić kota-1, popędzić ... kota-1, pogonić ... kota-1
+          0 przegonić-3
+          0 zagonić-1, zapędzić-1, zagnać-1
+          0 zepchnąć-2
+          2 potrzymać-2
+            1 przetrzymać-4
+              0 wymrozić-3
+          0 wepchnąć-2, wepchać-2, wetknąć-2, wmusić-1
+          0 zaprząc-1, wprząc-2, wprzęgnąć-1
+          1 poskromić-2, ujarzmić-1
+            0 okiełznać-2, okiełzać-1
+          0 wycisnąć-2
+          0 ściągnąć-12
+          0 popędzić-2, pognać-2, pogonić-1
+          1 pośpieszyć-2, pospieszyć-2, pogonić-2, przynaglić-1, popędzić-3, ponaglić-1
+            0 podkręcić-3
+          0 spoić-2, spić-1, upić-2, upoić-3
+          0 kazać-1
+          1 postawić pod ścianą-1
+            0 przyłożyć nóż do gardła-1
+          0 wytrzymać-1
+          0 zdać-1
+          0 wyciągnąć-2
+          3 narzucić się-1
+            1 przyczepić się-1, doczepić się-2, przykleić się-2, przylepić się-1, przypiąć się-1, przyplątać się-1, uczepić się-1
+              0 przybłąkać się-1
+            0 wtrącić się-1, wścibić się-1, wściubić się-1, wsadzić nos-1, wetknąć nos-1, wścibić nos-1, wepchnąć nos-1
+          1 wyegzekwować-1
+            0 zwindykować-1
+          0 wyegzekwować-2
+          17 narzucić-2
+            0 wlepić-2
+            0 zarabizować-2
+            0 schrystianizować-1
+            0 zeslawizować-2
+            0 zmadziaryzować-1
+            0 zjudaizować-2
+            0 zromanizować-2
+            0 zamerykanizować-2
+            0 spolonizować-1
+            0 zukrainizować-1
+            0 zrusyfikować-1
+            0 sturczyć-1
+            0 styranizować-1
+            0 podyktować-1
+            0 przeforsować-1, przepchnąć-2
+            0 zhellenizować-1
+            0 zgermanizować-1, zniemczyć-1
+          0 zamknąć usta-1, zatkać usta-1, zamknąć buzię-2, zatkać buzię-1, zakneblować usta-1, zasznurować usta-1
+          0 przyprzeć-1, przygwoździć-1, przyprzeć do muru-1, przyszpilić-1, przycisnąć-3, przydusić-1
+          VISITED 0 wycisnąć-6, wydusić-2
+        12 określać-2
+          0 nazywać po imieniu-1
+          3 nazywać-1
+            0 zwać-1
+            0 przezywać-2
+            0 tytułować-1
+          0 definiować-1
+          1 mówić-6
+            0 wołać-3
+          1 obwoływać-1, okrzykiwać-1
+            0 ogłaszać-2
+          1 oznaczać-3
+            0 wyrażać-4
+        12 określić-2
+          0 nazwać po imieniu-1
+          3 nazwać-1
+            0 przybrać-3
+            0 przezwać-1
+            0 zatytułować-1
+          0 zdefiniować-1
+          0 powiedzieć-2
+          1 obwołać-1, okrzyknąć-1
+            0 ogłosić-2
+          2 oznaczyć-3
+            1 wyrazić-3
+              0 powiedzieć-5
+      100 *CZASOWNIK - AKT oznaczający spowodowanie zmiany w łańcuchu przyczynowo-skutkowym i czasowym-1
+        0 dać-19
+        3 oddalić-3
+          0 przegonić-6, przegnać-2
+          0 odpędzić-2
+          0 opędzić się-1
+        89 utrudnić-1
+          1 przysłonić-2, przesłonić-2
+            0 zamglić-1
+          0 storpedować-2
+          0 zagłuszyć-2
+          77 przeszkodzić-1
+            0 podstawić nogę-1, podłożyć nogę-1
+            0 rzucić kłody pod nogi-1
+            1 pokrzyżować plany-1, pokrzyżować-1, popsuć szyki-1, pomieszać szyki-1, pokrzyżować szyki-1
+              0 nabruździć-1
+            0 rozproszyć-8, zdekoncentrować-2, rozkojarzyć-1
+            24 przeszkodzić-2, zawadzić-4
+              23 zablokować-1, zatamować-1, zatarasować-1, zagrodzić-1
+                0 zblokować-2
+                0 zaprzeć-1
+                0 zasunąć-3
+                0 zaklinować-2
+                0 zabarykadować-2
+                0 zajechać-9
+                0 zawalić-5
+                0 zagrodzić się-1
+                0 zakorkować-2
+                VISITED 7 zatkać-1, zapchać-2
+                0 zastawić-4
+                4 zamknąć-9
+                  VISITED 2 odciąć-3
+                  0 zamurować-3
+            20 przerwać-4
+              2 odciąć-3
+                1 wyłączyć-6, odłączyć-4
+                  0 odbezpieczyć-2
+              0 przeciąć-3
+              0 rozłączyć-3
+              0 zgilotynować-2
+              0 wyłączyć-7
+              3 zatrzymać-7, zahamować-3, zastopować-2, zablokować-5
+                0 zdusić-4
+                1 zablokować-3, unieruchomić-3
+                  0 zamrozić-2
+              4 przebudzić-2, ocknąć-1
+                3 wyrwać-4, wytrącić-2
+                  2 obudzić-1, rozbudzić-2, przebudzić-1, zbudzić-1
+                    0 zerwać-9
+                    0 wybudzić-1
+              3 wejść w słowo-1, przerwać-5
+                2 wtrącić-3, wciąć się-3
+                  1 wtrącić się-2, dorzucić swoje trzy grosze-1, wtrącić swoje trzy grosze-1, udzielić rady-1
+                    0 wmieszać się-3
+            0 oderwać-4
+            0 oślepić-3, ukłuć-2
+            26 uniemożliwić-1, udaremnić-1
+              0 sparaliżować-2
+              0 ogłuszyć-3
+              0 odciąć-4
+              0 uziemić-2
+              0 zablokować-4
+              0 zdyskwalifikować-1
+              8 złapać-2, schwytać-1, pochwycić-1
+                0 pojmać-1
+                0 capnąć-2
+                2 zabrać-2
+                  1 porwać-1, uprowadzić-1
+                    0 zgarnąć-4, zagarnąć-2
+                0 aresztować-1
+                1 zaaresztować-1, przyskrzynić-1, przymknąć-1
+                  0 ująć-3, zatrzymać-3
+              0 sparaliżować-3
+              3 zatrzymać-5
+                2 zatamować-2
+                  0 zaprzeć oddech-1, zaprzeć dech-2
+                  0 zatkać-2
+              3 unieszkodliwić-1
+                2 uciszyć-3
+                  0 zamurować-4
+                  0 zakneblować-2
+              0 uwięzić-2
+              0 pogrzebać-2, przekreślić-2
+          6 powikłać-1, pogmatwać-1, pokomplikować-1, skomplikować-1, zagmatwać-1, zawikłać-1, poplątać-2, zapętlić-1
+            0 namieszać-1
+            0 zbajtlować-2, zabajtlować-2
+            0 namotać-2, zamotać-1
+            1 zaciemnić-2
+              0 zawoalować-2
+            0 zabagnić-2
+        4 opóźnić-1, przewlec-3
+          0 odciągnąć-4
+          2 odroczyć-1
+            0 sprolongować-1
+            0 prolongować-1
+      116 *CZASOWNIK - AKT oznaczający kontakt fizyczny, który wpływa na obiekt-1
+        0 maznąć się-2
+        18 uruchomić-2
+          0 otworzyć-6
+          0 odblokować-4
+          15 włączyć-4
+            1 zrestartować-1, zresetować-1
+              0 zresetować-2
+            2 puścić-11
+              VISITED 1 odtworzyć-5
+            2 odkręcić kurek-1
+              0 odkręcić gaz-1
+              0 odkręcić wodę-1
+            0 włączyć-2
+            2 włączyć-6
+              1 odtworzyć-5
+                0 retransmitować-1
+            1 zaświecić-3, zapalić-2
+              0 mignąć-5
+            2 zapalić-4
+              0 odpalić-6
+              0 odpalić-5, zapuścić-5
+        15 rozegrać-1
+          0 zamurować-2
+          1 zaatakować-5
+            0 zaszachować-1, dać szacha-1
+          6 zagrać-5
+            0 spalić-6
+            4 podać-3, odegrać-2
+              0 dograć-2
+              0 dośrodkować-1, scentrować-1, zacentrować-1
+              1 zaserwować-2
+                0 podać-5
+          4 zagrać-8
+            0 kupić-5
+            0 zameldować-4
+            1 wyjść-17
+              0 podegrać-1
+        31 zamknąć-3, zawrzeć-2
+          0 zamknąć na trzy spusty-1
+          0 zaciągnąć-2
+          0 przymknąć-2
+          0 zawalić-2
+          3 zapiąć-1
+            0 zapiąć się-2
+            1 dopiąć-2
+              0 dopiąć się-2
+          2 zakryć-3
+            1 przykryć-3
+              0 zadaszyć-1
+          0 zaślepić-2
+          0 zatrzasnąć-3
+          1 zawiązać-5
+            0 zasznurować-1, zesznurować-3
+          0 zatrzasnąć-2, przytrzasnąć-1
+          2 zakręcić-3
+            0 nakręcić-5
+            0 dokręcić-2
+          0 zabić-8
+          7 zatkać-1, zapchać-2
+            0 zalać-7
+            1 uszczelnić-1
+              0 utkać-5
+            0 zaszpuntować-1, zaczopować-1
+            0 zakneblować-1
+            0 przytkać-1
+            0 zakorkować-1
+          0 zmrużyć-1, przymrużyć-1
+          0 zaryglować-2
+          0 domknąć-1
+        3 wybić-1
+          0 wytłuc-3
+          0 odbić-8, obtłuc-2
+          0 wytrącić-1
+        17 pobić-2, zbić-1, stłuc-1, poturbować-1, zlać-1, sprać-1
+          0 przełożyć przez kolano-1
+          0 dać wycisk-2
+          0 skroić-4
+          0 posiniaczyć-1
+          0 sklepać-2
+          0 skopać-1, pokopać-2, wkopać-5
+          0 wlać-2
+          0 spałować-1
+          0 wrąbać-1
+          0 zmasakrować-1
+          0 wybić-7
+          0 potłuc-1
+          1 wysmagać-1, wychłostać-1
+            0 ubiczować-1
+          0 nabić-4
+          0 obić-2
+          0 skatować-1, zmaltretować-2
+        25 nacisnąć-1, nagnieść-1, przycisnąć-1, wcisnąć-2
+          0 naprzeć-2
+          1 docisnąć-1
+            0 dobić-7
+          0 zadzwonić-2
+          0 kliknąć-1
+          0 zdeptać-2, podeptać-1
+          4 potrzeć-1
+            0 drapnąć-1, podrapać-1
+            2 wymasować-1
+              1 rozmasować-1
+                0 rozetrzeć-3
+          8 przygnieść-1
+            0 przytłoczyć-2
+            0 przysiąść-4
+            0 przyskrzynić-2, przytrzasnąć-2
+            0 przywalić-2
+            1 przybić-5
+              0 opieczętować-2
+            1 zasypać-5
+              0 pogrzebać-3
+          4 nastąpić-4, nadepnąć-1, nadeptać-1
+            2 wejść-13
+              0 wleźć-8
+              0 wdepnąć-2
+            0 przydepnąć-1, przydeptać-1
+      30 *CZASOWNIK - AKT oznaczający spowodowanie zmiany położenia lub relacji przestrzennych-1
+        0 zetknąć-1
+        4 odbić-6
+          0 podkręcić-2
+          0 wypiąstkować-1
+          0 skiksować-2
+          0 ściąć-8
+        VISITED 1 wprowadzić-8, wwieść-1
+        21 ruszyć-7, poruszyć-5, wprawić w ruch-1
+          0 wzruszyć-2
+          0 rozruszać-1
+          0 wahnąć-1
+          0 rozkołysać-1, rozbujać-1, rozhuśtać-1
+          0 wstrząsnąć-2, potrząsnąć-1
+          0 nakręcić-2
+          0 zatrząść-2
+          7 przesunąć-2
+            0 pogłaskać-1, pogładzić-1
+            0 przejechać-3
+            0 przeciągnąć-5
+            0 pociągnąć-1
+            1 liznąć-2
+              0 oblizać-1
+            0 musnąć-1, liznąć-1
+          0 przetrząsnąć-2
+          4 pociągnąć-2, szarpnąć-1
+            1 powlec-3
+              0 zamieść-3
+            0 skubnąć-2
+            0 targnąć-1
+      0 sprowadzić-2
+      54 umożliwić-1
+        0 odkupić-4
+        0 urealnić-1
+        0 odblokować-5
+        2 skontaktować-1
+          0 umówić-2
+          0 zetknąć-2
+        0 skomunikować-1
+        0 skomunikować się-2
+        16 pozwolić-2
+          0 omamić się-1
+          0 sfotografować się-3, zdjąć się-1
+          4 dopuścić-1
+            3 wystawić-4
+              2 narazić-1
+                0 zaryzykować-1
+                0 wystawić na szwank-1, narazić na szwank-1
+          3 zanieczyścić-2
+            0 zawszyć-1, zawszawić-1
+            0 zapluskwić-1
+            0 zagrzybić-1
+          0 dozwolić-2
+          0 podlec-1
+          2 dopuścić-2
+            0 przypuścić-1, podpuścić-2
+            0 przyjąć-3
+        1 pozwolić-3
+          0 dać-12
+        1 połączyć-5
+          0 przełączyć-2
+        3 wprowadzić-2
+          0 wdrożyć-2
+          1 podstawić-3
+            0 substytuować-1
+        1 utorować-1
+          0 rozepchnąć się-1, rozepchać się-3
+        1 zapoznać-3, poznać-1, zaznajomić-2, spiknąć-1
+          0 przedstawić-3, zaprezentować-4
+        15 udostępnić-1
+          1 umiędzynarodowić-1
+            0 internacjonalizować-1
+          0 uwspólnić-2
+          0 upublicznić-1
+          0 użyczyć-1, udzielić-3, dać-9
+          0 otworzyć-4
+          0 zmieścić-3, pomieścić-2
+          1 uprzystępnić-1
+            0 spopularyzować-2
+          0 wypożyczyć-1
+          4 odnająć-1, wynająć-1, nająć-2
+            0 podnająć-2
+            1 wydzierżawić-1
+              0 poddzierżawić-2
+            0 wyczarterować-1
+        0 pogodzić-1, pojednać-1
+    36 włączyć-1, wcielić-1, przyłączyć-1
+      0 inkorporować-2
+      0 uruchomić-3
+      0 wchłonąć-1
+      0 wbudować-2
+      11 włączyć-5
+        0 zaangażować-1
+        2 wciągnąć-3
+          0 zamieszać-2, wmieszać-1
+          0 uwikłać-1, wplątać-1, zawikłać-2, wpakować-3, wkopać-3
+        6 przyjąć-7
+          2 wziąć-20
+            0 zgodzić-1, ugodzić-2
+            0 ożenić się-1, wziąć za żonę-1
+          0 zwerbować-1
+          1 zatrudnić-1, zaangażować-2
+            0 zaokrętować-2, zamustrować-1
+      1 wpleść-1
+        0 upstrzyć-2, usiać-1
+      9 wciągnąć-1, wpisać-2, wprowadzić-3
+        4 zarejestrować-1
+          1 zanotować-1, odnotować-1
+            0 wymeldować-2
+          0 skatalogować-1
+          0 nabić-6
+        2 wgrać-1
+          0 przekopiować-2
+          0 wkleić-2
+        0 zaksięgować-1
+      1 wkomponować-1, wtopić-1
+        0 wrysować-1
+      5 zapisać-1, wpisać-1, zgłosić-3
+        0 immatrykulować-1
+        3 wpisać się-2, zapisać się-1
+          0 akredytować się-1
+          0 zarejestrować się-1
+          0 dopisać się-2
+    479 *zrobić coś ze sobą-1
+      0 naćpać się-1
+      0 wypalić-3, wykopcić-1
+      0 nawalić się-3
+      1 zapalić-3, zakurzyć-2, zaćmić-1, zakopcić-1
+        0 pyknąć-2
+      9 upić się-1, opić się-1, spić się-1, upoić się-1, zaprawić się-1, zakropić się-1, zapić-1, doprawić się-1, popić-3
+        0 wstawić się-1
+        0 upić się jak Messerschmitt-1, spić się jak Messerschmitt-1, narąbać się jak Messerschmitt-1, nawalić się jak Messerschmitt-1
+        0 podchmielić-2, podpić-1
+        0 upić się na wesoło-1
+        0 upić się na smutno-1
+        3 spić się na umór-1, upić się w drobny mak-1, urżnąć się-1, urżnąć się w sztok-1, urżnąć się w trupa-1, urżnąć się jak bydlak-1, uwalić się-1, upić się w sztok-1, upić się jak bela-1, upić się jak świnia-1, zalać się w drobny mak-1, zalać się w bambus-1, spoić się-1, zalać pałę-1, zalać pałkę-1, zalać się-1, wlać się-3, zapruć się-1, uchlać się-1, zachlać się-1, najebać się-1, nachlać się-1, narąbać się-2, nawalić się-2, schlać się-1
+          0 zachlać-1
+          0 sponiewierać się-1
+          0 ululać się-1
+      32 ulokować się-1, umieścić się-1
+        1 zakopać się-1
+          0 zagrzebać się-1
+        1 umościć się-1
+          VISITED 0 rozeprzeć się-1
+        VISITED 1 rozsiąść się-1, usadowić się-1
+        18 zająć-5, zająć miejsce-1
+          0 wystawić się-1
+          0 zablokować-6
+          3 rozmieścić się-1, rozlokować się-1
+            0 rozsiąść się-2
+            1 rozłożyć się-3
+              0 rozbić się-4
+          0 dosiąść-1
+          10 usiąść-1, siąść-1
+            VISITED 0 przesiąść się-1
+            0 zasiąść-1
+            0 przysiąść-1, przycupnąć-2
+            1 rozsiąść się-1, usadowić się-1
+              0 rozeprzeć się-1
+            VISITED 1 wsiąść-1, dosiąść-2
+            0 obsadzić-6
+            0 przysiąść się-1
+            0 klapnąć-1
+        9 ukryć się-1, schować się-1, skryć się-1
+          0 zapaść-2
+          0 zajść-4
+          0 zaszyć się-1
+          0 zabarykadować się-1, zatarasować się-1
+          0 przycupnąć-1
+          0 zadekować się-1
+          0 zamelinować się-1
+          0 przyczaić się-1, przywarować-1
+          0 schronić się-1
+      433 przemieścić się-1, przenieść się-1
+        0 gibnąć-2
+        0 poczołgać się-1, popełznąć-1
+        0 powlec się-1, poleźć-1
+        0 przegrupować się-1
+        0 przesiąść się-1
+        0 zjechać-1
+        2 popłynąć-1
+          0 powiosłować-1
+          0 zadryfować-1
+        0 przewędrować-1
+        4 przesiedlić się-1
+          VISITED 0 reemigrować-1
+          VISITED 0 imigrować-1
+          VISITED 0 wyemigrować-1
+          VISITED 0 emigrować-1
+        1 zlecieć-1
+          0 sfrunąć-1
+        0 prześlizgnąć się-2, prześliznąć się-1
+        1 pognać-1, pogonić-3, popędzić-1, pomknąć-1, popruć-1, śmignąć-1
+          VISITED 0 polecieć-1, pogalopować-1, pocwałować-1
+        1 wyprzedzić-2, poprzedzić-1, przegonić-4, prześcignąć-1
+          0 zdublować-3
+        0 skręcić-1, zakręcić-1, wykręcić-2
+        0 przejść-2, przeleźć-1
+        25 przebyć-1, pokonać-2
+          0 przepełznąć-1, przeczołgać się-1
+          0 przepełznąć-2
+          0 przepłynąć-1
+          0 podpłynąć-2
+          0 nadłożyć-1
+          1 przemierzyć-1
+            0 zjeździć-1, zjechać-8
+          0 przewędrować-2
+          1 przelecieć-3
+            0 przefrunąć-1
+          0 przespacerować-2
+          0 przejść-7
+          2 przebiec-1
+            0 ubiec-2, ubiegnąć-1
+            0 przelecieć-6, przegalopować-1
+          VISITED 8 przekroczyć-2, przejść-3, przeleźć-2
+          0 ujechać-1, przejechać-1
+        0 zawrócić-1, wrócić-1, nawrócić-1, zawrócić się-1, wrócić się-1
+        4 pojechać-1
+          0 pokłusować-2
+          1 pogalopować-3
+            0 pocwałować-2
+          0 potoczyć się-2
+        15 obniżyć się-2, zniżyć się-1
+          0 opaść-6
+          0 stoczyć się-1
+          0 zeskoczyć-1
+          0 spuścić się-1
+          4 opaść-2
+            0 zapaść-8
+            0 utonąć-2, zatonąć-3
+            1 osunąć się-2, usunąć się-2, obsunąć się-2
+              0 omsknąć się-1
+          1 opuścić się-1
+            0 spaść-5
+          0 ugiąć się-3
+          1 zbiec-2
+            0 zlecieć-3
+          0 zanurkować-1
+        1 wznieść się-1, podnieść się-1, unieść się-1, wzbić się-1, wzlecieć-1
+          0 wylecieć-1
+        155 dostać się-1
+          1 trafić-1
+            0 wkłuć się-1
+          0 dobrnąć-1
+          0 włamać się-1
+          0 zabłądzić-1, zabłąkać się-1, zbłądzić-1
+          VISITED 0 dobrać się-1
+          VISITED 0 wjechać-2
+          2 wjechać-1
+            0 wtoczyć się-1
+            0 podjechać-2
+          0 podkopać się-1
+          0 wsunąć się-1, wślizgnąć się-2, wśliznąć się-2
+          0 wczołgać się-1, wpełznąć-1
+          0 wpaść-4
+          0 wepchać się-1, wpakować się-1, wmeldować się-1, wtarabanić się-1, wwalić się-1
+          2 zapuścić się-1, zagłębić się-2
+            0 zapędzić się-1
+            0 zabrnąć-1
+          22 zagłębić się-1, wgłębić się-1
+            0 wgnieść się-2, wgiąć się-2
+            2 wbić się-1
+              0 wpić się-1
+              0 nakłuć się-1, nadziać się-1
+            0 weżreć się-1
+            0 wkopać się-2
+            0 wkopać się-1
+            0 zaryć-1, zaryć się-1
+            0 wejść-5
+            0 wwiercić się-1
+            0 werżnąć się-1, worać się-1, wciąć się-1
+            0 wryć się-1
+            0 wkuć się-1
+            0 wgryźć się-1
+            0 wczepić się-1
+            0 wciąć się-2
+            2 wrosnąć-1
+              0 nacieknąć-2, naciec-2
+              0 przyjąć się-3
+            0 zanurkować-2
+            1 zanurzyć się-1
+              0 zanurkować-3
+          0 zakraść się-1, wkraść się-1, wślizgnąć się-1, wśliznąć się-1, wemknąć się-1, wsunąć się-2
+          0 wbiec-1
+          98 dotrzeć-1
+            4 przytoczyć się-1, przyturlać się-1, dowlec się-1, dotoczyć się-1, doturlać się-1
+              0 zawlec się-2, przywlec się-1
+              VISITED 0 doczłapać-1, doczłapać się-1
+              VISITED 0 zatoczyć się-3
+              0 dotelepać się-1
+            0 przytoczyć się-2, przyturlać się-2
+            1 przyjechać-2
+              0 zatoczyć się-3
+            VISITED 0 dojechać-1, zajechać-1
+            2 przybiec-1
+              0 przygnać-2, przypędzić-2
+              0 przylecieć-2
+            0 spłynąć-2
+            0 napłynąć-1
+            0 napłynąć-2
+            0 trafić-7
+            5 dosięgnąć-1, sięgnąć-5
+              0 dopełznąć-2
+              0 donieść-5
+              VISITED 1 dolecieć-4, dojść-10
+              0 trafić-9, utrafić-2, wcelować-1
+            48 przybyć-2
+              0 imigrować-1
+              2 spóźnić się-1
+                0 zaspać-2
+                0 zabałaganić-3, zamarudzić-1
+              2 przylecieć-1
+                1 przyfrunąć-2
+                  0 podfrunąć-1
+              4 przypłynąć-2
+                1 dopłynąć-2
+                  0 dobić-4, przybić-2, przypłynąć-3
+                VISITED 1 wpłynąć-2
+              0 lądować-1
+              3 stawić się-1, zgłosić się-2, stanąć-6
+                0 pokazać się na oczy-1, spojrzeć w oczy-1
+                0 przyjechać-3
+                0 zameldować się-2
+              2 przyjść-1, nadejść-3
+                0 przyleźć-1
+                0 najść-3
+              2 przyjechać-1
+                0 dojechać-1, zajechać-1
+                VISITED 0 podjechać-1
+              VISITED 14 zawitać-1, ściągnąć-11
+              9 powrócić-1, wrócić-2
+                0 wrócić z tarczą-2
+                0 wrócić na tarczy-1
+                0 reemigrować-1
+                0 wrócić z tarczą-1
+                0 wrócić na tarczy-2
+                VISITED 3 cofnąć się-2
+            0 wylądować-1
+            1 dolecieć-3, zalecieć-2
+              0 zadryfować-5
+            0 dobić-1
+            VISITED 0 docisnąć się-1, przedrzeć się-1, dopchać się-1
+            0 dociągnąć-2
+            1 dopłynąć-1
+              0 dociec-2
+            0 dobiec-1, dolecieć-1, zalecieć-1, dopędzić-2, dobiegnąć-1
+            0 doczołgać się-1, przyczołgać się-1, dopełznąć-1
+            0 zawędrować-1, przywędrować-1
+            20 osiągnąć-3
+              11 dojść-11
+                0 dojść-12
+                3 dojść-16, zajść-6
+                  0 doczłapać-1, doczłapać się-1
+                  0 zatoczyć się-5
+                  0 dokuśtykać-1, dokusztykać-1, przykuśtykać-1, przykusztykać-1
+                0 dojść-17
+                0 dojść-15
+                1 dolecieć-4, dojść-10
+                  0 trafić-10
+                0 dojść-18
+                0 dojść-19
+              0 wjechać-2
+              0 doskoczyć-3
+              VISITED 5 wspiąć się-1, wejść-1, wstąpić-1, wdrapać się-1
+          1 wpłynąć-2
+            0 zawinąć-4
+          5 wspiąć się-1, wejść-1, wstąpić-1, wdrapać się-1
+            0 wleźć-1
+            VISITED 0 wgramolić się-1, wtarabanić się-2, wtaszczyć się-1
+            1 wsiąść-1, dosiąść-2
+              0 wskoczyć-2
+            0 wedrzeć się-3
+          14 wejść-4
+            0 wstąpić-5
+            1 wkroczyć-1
+              0 wmaszerować-1
+            0 wtoczyć się-2
+            0 wgramolić się-1, wtarabanić się-2, wtaszczyć się-1
+            1 wepchać się-2, wepchnąć się-1, wcisnąć się-1, weprzeć się-1, wtłoczyć się-1
+              VISITED 0 władować się-1, załadować się-1
+            2 wsiąść-2
+              0 władować się-1, załadować się-1
+              0 dosiąść-3, dosiąść się-2
+            0 wleźć-2
+            0 przekroczyć próg-1
+            0 wedrzeć się-1, wtargnąć-1
+            1 wprowadzić-8, wwieść-1
+              0 wpędzić-2, wgonić-1
+          14 zawitać-1, ściągnąć-11
+            0 zajechać-2
+            0 zagościć-2
+            4 odwiedzić-1
+              VISITED 1 zajść-2, wstąpić-3, wpaść-5, zajrzeć-2, wdepnąć-3, wskoczyć-3
+              0 rewizytować-1
+              VISITED 0 nawiedzić-1
+            8 odwiedzić-2
+              1 zajść-2, wstąpić-3, wpaść-5, zajrzeć-2, wdepnąć-3, wskoczyć-3
+                0 zawadzić-2
+              0 nawiedzić-1
+              1 obiec-2
+                0 oblecieć-3
+              0 zakręcić się-3, obejść-2, okrążyć-3
+              0 zaczepić-4
+              0 objeździć-1, objechać-2
+            0 doskoczyć-2
+        5 przesunąć się-2
+          VISITED 2 ustąpić-3
+          0 zatoczyć się-1
+          0 przekrzywić się-1
+        3 odbić się-1
+          0 zeskoczyć-2
+          1 odskoczyć-3
+            0 odbić-2
+        2 posunąć się-1
+          1 zrobić miejsce-1
+            VISITED 0 ustąpić miejsca-1
+        6 okrążyć-1
+          0 obejść-1
+          0 opłynąć-1
+          0 oblecieć-2
+          0 oblecieć-1
+          0 objechać-1
+          0 obiec-1
+        26 zbliżyć się-1, przybliżyć się-1
+          0 przypełznąć-1
+          0 podsunąć się-1
+          0 podczołgać się-1
+          0 przypłynąć-1
+          0 podpłynąć-1
+          0 przyfrunąć-1
+          0 podjechać-3
+          0 nadjechać-1
+          0 podlecieć-1
+          0 nadciągnąć-2
+          0 nadejść-2
+          1 nadlecieć-1
+            0 nadfrunąć-1
+          0 nadpłynąć-1
+          0 dojść-9
+          0 dosunąć się-1, przysunąć się-1
+          1 dopaść-1, dorwać-2
+            0 doskoczyć-1, przyskoczyć-1
+          1 podbiec-1, podbiegnąć-1
+            0 podlecieć-2
+          0 podkraść się-1, zakraść się-2
+          0 nadbiec-2, nadbiegnąć-2
+          1 nadbiec-1, nadbiegnąć-1
+            0 nadlecieć-2
+          1 podejść-1, przystąpić-3
+            0 podejść-5, zajść-5
+        13 przedostać się-1
+          1 wskoczyć-1
+            0 plusnąć-2, chlupnąć-1
+          0 wypchać się-2, wypchnąć się-2
+          0 przekopać się-1
+          0 przewinąć się-2
+          1 przelecieć-1
+            VISITED 0 przeszyć-3
+          0 przejść-9
+          0 przemknąć-1, przemknąć się-1, prześlizgnąć się-3, prześliznąć się-2, przekraść się-1
+          0 docisnąć się-1, przedrzeć się-1, dopchać się-1
+          0 przepchać się-1, przepchnąć się-1
+          0 przecisnąć się-1
+          0 przebrnąć-1
+        22 minąć-1
+          0 przepłynąć-2
+          2 przelecieć-2
+            0 przeszyć-3
+            0 przenieść-8
+          0 przejść-10
+          3 przejechać-2
+            0 przegalopować-2
+            0 przegalopować-3
+            0 przetoczyć się-3
+          0 przejść-11
+          0 wyminąć-1
+          1 ominąć-1
+            0 wymanewrować-3
+          8 przekroczyć-2, przejść-3, przeleźć-2
+            0 przeleźć-3
+            0 przeprawić się-1
+            VISITED 2 wejść-3
+            1 przeskoczyć-1
+              0 przesadzić-3
+            0 przemaszerować-1
+        42 udać się-1, podążyć-1
+          0 wybrać się-1
+          0 pospieszyć-1, pośpieszyć-1
+          1 pojechać-2
+            0 przejechać się-1
+          0 wyprawić się-1
+          0 powieźć-1
+          1 zwrócić się-3
+            0 uderzyć-6
+          9 zabrać-3, wziąć-2
+            0 zaciągnąć-7
+            0 podjechać-1
+            0 wyciągnąć-3
+            0 podrzucić-5, podwieźć-1
+            0 unieść-4
+            3 wyprowadzić-1, wywieść-4
+              0 wymanewrować-4
+              0 wytoczyć-6
+              0 zwodować-1
+          3 ponieść-1
+            0 podźwigać-1, potaszczyć-1, potargać-4
+            0 obnieść-1
+            0 ulżyć-1
+          0 wyrwać się-1
+          4 wyjechać-1
+            0 wytoczyć się-1
+            0 wyemigrować-1
+            0 emigrować-1
+            0 przewietrzyć się-1
+          13 pójść-4
+            0 pomaszerować-1
+            0 potoczyć się-4
+            0 poleźć-2
+            0 pokuśtykać-1, pokusztykać-2
+            0 pokuśtykać-2, pokusztykać-1
+            0 podreptać-1
+            0 poczłapać-1
+            0 poczłapać-2
+            0 skierować się-1
+            0 pofatygować się-1, potrudzić się-1
+            0 pociągnąć-7
+            0 powędrować-1
+            0 postąpić-2
+        5 pobiec-1
+          0 polecieć-1, pogalopować-1, pocwałować-1
+          0 pokłusować-1
+          1 pogalopować-2
+            0 pocwałować-3
+          0 przebiec się-2, przebiegnąć się-2
+        94 oddalić się-1
+          0 pójść z Bogiem-1
+          0 rozjechać się-1
+          1 odbić-14
+            0 odłączyć się-2, odłączyć-3
+          0 pożeglować-1
+          3 rozejść się-1
+            0 rozleźć się-1
+            0 rozpełznąć się-3
+            VISITED 0 rozsunąć się-2, rozstąpić się-2
+          2 odbiegnąć-1, odbiec-1
+            VISITED 1 rozbiec się-1
+          4 rozproszyć się-1, rozpierzchnąć się-1, rozsypać się-1, rozpryskać się-2, rozprysnąć się-1
+            0 rozpełznąć się-2
+            1 rozbiec się-1
+              0 rozlecieć się-5
+            VISITED 0 rozlecieć się-4
+          3 odlecieć-1
+            0 ulecieć-1
+            0 rozlecieć się-4
+            0 odfrunąć-1
+          0 rozstać się-3
+          0 odjechać-1
+          1 odpłynąć-1, popłynąć-2
+            0 odbić-12
+          0 odczołgać się-1, odpełznąć-1
+          0 odskoczyć-1
+          5 odsunąć się-1
+            0 odstąpić-3
+            3 cofnąć się-2
+              2 wycofać się-2
+                0 odstąpić-4
+                0 zrejterować-2
+          2 odejść-2
+            0 odmaszerować-1
+            0 odmaszerować-2
+          13 uciec-1, ujść-1, zbiec-1
+            0 cofnąć się rakiem-2, wycofać się rakiem-2
+            0 wziąć nogi za pas-1, dać nogę-1
+            0 zgubić-3
+            0 przepłoszyć się-1, spłoszyć się-1
+            0 zdezerterować-2
+            0 bryknąć-1
+            0 dmuchnąć-4
+            0 wyślizgnąć się-3, wyśliznąć się-3, wymknąć się-2
+            0 wyciec-2, wycieknąć-3
+            0 zrejterować-1
+            VISITED 0 wynieść się-2
+            0 pierzchnąć-1
+            0 umknąć-1, czmychnąć-1
+          47 opuścić-1
+            0 katapultować się-1
+            0 ewakuować się-1
+            0 zjechać-2
+            0 wypłynąć-1
+            0 odpłynąć-2
+            0 wstać-3
+            0 wywędrować-1
+            2 ustąpić-3
+              0 przepuścić-2
+              0 ustąpić miejsca-1
+            0 wyfrunąć-1
+            0 wylecieć-2
+            0 wypaść-1
+            0 wynieść się-2
+            0 wyprowadzić się-1, wynieść się-1
+            2 usunąć się-1
+              0 rozsunąć się-2, rozstąpić się-2
+              0 uskoczyć-1
+            15 wydostać się-1
+              0 wydobyć się-2
+              0 wykaraskać się-1
+              0 odkopać się-1
+              0 wykluć się-1, wylęgnąć się-1, wyląc się-1, ulęgnąć się-1
+              0 wykopać się-1
+              0 wyplątać się-1, wywikłać się-1
+              0 wygramolić się-1
+              0 wyczołgać się-1, wypełznąć-1
+              2 wylecieć-6
+                0 wyroić się-2
+                0 wyfrunąć-2
+              0 wyrwać się-3
+              0 wynurzyć się-2, wypłynąć-3
+              1 wymknąć się-1, wyślizgnąć się-1, wysunąć się-1, wyśliznąć się-1, wykraść się-1
+                0 urwać się-3
+            9 wyjść-1, pójść-1
+              0 wymaszerować-2
+              0 wymaszerować-1
+              0 ewakuować się-2
+              0 wysiąść-1
+              0 wyleźć-1
+              0 zniknąć-2, ulotnić się-2
+              2 wystąpić-7, wyjść-9
+                0 wylec-1, wysypać się-2
+                0 wytoczyć się-3
+            2 wybiec-1
+              0 wylecieć-7
+              0 wyrwać się-6
+          0 odskoczyć-2
+    8 użyć-3
+      0 wziąć-22
+      2 wziąć-23
+        1 zażyć-1
+          0 zaćpać-1, zaćpać się-1
+      0 zaaplikować-2
+      2 nadużyć-2
+        0 przedawkować-1
+        0 dogodzić sobie-1
+    8 zaatakować-2, natrzeć-1, najechać-1, uderzyć-1, naprzeć-1
+      0 zetrzeć się-1
+      2 wejść-3
+        1 wkroczyć-2
+          0 wedrzeć się-6
+      1 zaczepić-3
+        0 zacząć-6, zadrzeć-3
+      0 zbombardować-1
+      0 ostrzelać-1, obstrzelać-1
+    63 użyć-1, posłużyć się-2, zastosować-1, wykorzystać-1, skorzystać-1
+      0 wziąć-14
+      0 sięgnąć-2
+      0 zaordynować-1
+      0 zrealizować-3
+      0 zabezpieczyć się-1
+      0 wymigać-1
+      0 dobrać się-1
+      0 wprząc-3, wprzęgnąć-2
+      0 zajeździć-4
+      1 wyeksploatować-1
+        0 zajeździć-1, zajechać-7
+      1 uciec się-4
+        0 oddać duszę diabłu-1, zaprzedać duszę diabłu-1, sprzedać duszę diabłu-1
+      0 nadużyć-1
+      4 wyzyskać-1, wykorzystać-2, użyć-2, spożytkować-1, zużytkować-1
+        0 zdyskontować-1
+        0 wyeksploatować-2
+        1 zagospodarować-2
+          0 oszczędzić-4
+      11 użyć-4, posłużyć się-1, wyręczyć się-1
+        10 wykorzystać-4
+          0 opić-2
+          1 zmanipulować-1
+            0 wziąć pod włos-1
+          0 wysłużyć się-1
+          4 wyzyskać-2, wyżyłować-2
+            0 złupić-2
+            0 wyeksploatować-3
+            0 wydoić-1
+            0 wycisnąć-6, wydusić-2
+          0 zatkać dziury-1, zapchać dziury-1
+      28 zaczerpnąć-1, wziąć-4, sięgnąć-1
+        0 wziąć przykład-1
+        0 ukraść-2
+        2 zasadzić-3, oprzeć-1, oprzeć się-3, zasadzić się-1
+          0 wysnuć-2
+          0 osnuć-3
+        18 przejąć-2, przyswoić-1, zasymilować-1, zapożyczyć-1
+          0 wyssać z mlekiem matki-1
+          0 recypować-1
+          0 zarabizować się-1
+          0 zgermanizować się-1
+          0 zeslawizować się-1
+          0 zlatynizować się-1
+          0 zmadziaryzować się-1
+          0 zjudaizować się-1
+          0 zromanizować się-1
+          0 zamerykanizować się-1
+          0 zukrainizować się-1
+          0 zrusyfikować się-1
+          0 sturczyć się-1
+          0 spolonizować się-1, spolszczyć się-1
+          1 nasiąknąć-2, przesiąknąć-1
+            0 wynieść-4
+          0 zarazić się-2
+          0 zawłaszczyć-2
+        3 nawiązać-2, odwołać się-3
+          0 powołać się-1
+          0 wrócić-9
+          0 podchwycić-3
+      0 zaczerpnąć-2
+      1 zająć-1
+        0 okupować-1

@@ -1,0 +1,154 @@
+#! /usr/bin/perl
+#
+#  Przygotowuje (pod)korpus w formacie NKJP do analizy Świgrą
+#
+#  Argumentami skryptu jest ścieżka do korpusu źródłowego i ścieżka
+#  wewnątrz której skrypt utworzy wynikową hierarchię katalogów.
+#
+
+use strict;
+use utf8;
+use open ':utf8', ':std';
+use XML::LibXML;
+use File::Find;
+
+die "Wymagane argumenty: ścieżka źródłowa i docelowa\n"
+    unless @ARGV == 2;
+
+my ($srcdir, $outdir) = (shift,shift);
+
+mkdir($outdir,0777) unless -d $outdir;
+
+my $parser = XML::LibXML->new();
+$parser->expand_xinclude(1);
+my $xpc = XML::LibXML::XPathContext->new;
+$xpc->registerNs('n', 'http://www.tei-c.org/ns/1.0');
+
+find({
+    wanted => \&process_one_file,
+    preprocess => \&sort_the_files,
+    no_chdir => 1
+     },
+     $srcdir);
+
+sub sort_the_files {
+#    print STDERR join(', ', @_, "\n");
+    sort @_
+}
+
+sub process_one_file {
+    return unless $_ =~ m|/ann_morphosyntax.xml$|;
+    print STDERR "$File::Find::dir\n";
+
+    my $doc = $parser->parse_file( $_ );
+
+    my $root = $doc->documentElement();
+
+    my $nkjpid = $xpc->find('//n:TEI/n:teiHeader/@xml:id',$root);
+    die "Brak identyfikatora w nagłówku" unless $nkjpid;
+
+    mkdir("$outdir/$nkjpid",0777) or die "Nie dało się utworzyć katalogu $nkjpid";
+
+    my @pars = $xpc->findnodes('//n:text/n:body//n:p',$root);
+
+    print STDERR "tekst $nkjpid";
+
+    # Dla każdego akapitu w pliku:
+    foreach my $p (@pars) {
+	my $pid = $p->getAttribute('xml:id');
+	die "Brak identyfikatora próbki" unless $pid;
+	my @sents = $p->getChildrenByTagName('s');
+	(print STDERR "\nPusty akapit $pid w tekście $nkjpid!\n"), next unless @sents>0;
+	
+	print STDERR '.';
+	mkdir("$outdir/$nkjpid/$pid",0777) or die "Nie dało się utworzyć katalogu $pid";
+	open PKT, '>', "$outdir/$nkjpid/$pid/$pid.packet.xml" or die "Nie dało się utworzyć paczki $pid";
+	print PKT "<packet name=\"$nkjpid/$pid\">\n";
+
+#    print $p->nodeName, ' ', $pid, ":\n";
+    # Dla każdego zdania w akapicie:
+	foreach my $s (@sents) {
+	    my $sid = $s->getAttribute('xml:id');
+#	print "s $sid: ";
+
+	    my @toks = $s->getElementsByTagName('seg'); # nie Children, bo mogą być w choice’ach!!
+	    (print STDERR "Zdanie $sid w tekście $nkjpid nie zawiera żadnych tokenów!\n"), next unless @toks>0;
+
+	    open SENT, '>', "$outdir/$nkjpid/$pid/$sid.doa" or die "Nie dało się utworzyć pliku $pid/$sid";
+	    print PKT "  <forest file=\"$sid.xml\" />\n";
+	    my $text = '';
+	    my $nrtok = 0;
+	    # Dla każdego tokenu w zdaniu:
+	    foreach my $t (@toks) {
+		my $tid = $t->getAttribute('xml:id');
+		die "Token bez identyfikatora w zdaniu $sid" unless $tid;
+		# <seg> powinno zawierać jedną <fs type="morph">:
+		my @tmp = $t->getChildrenByTagName('*');
+		die "Token $tid ma więcej niż jednego potomka $(\(scalar(@tmp)))" unless @tmp == 1;
+		my $tfs = $tmp[0];
+		die "Token $tid ma dziwną zawartość" 
+		    unless $tfs->getName eq 'fs' && $tfs->getAttribute('type') eq 'morph';
+		# sprawdzamy, czy bezspacjowy:
+		my $nps = $xpc->find('./n:f[@name="nps"]/n:binary/@value',$tfs)->string_value eq 'true';
+		$text .= ' ' unless !$text || $nps;
+		# pobieramy ortha:
+		my $token = $xpc->find('n:f[@name="orth"]/n:string',$tfs) || die "Brak orth";
+		$text .= $token;
+		get_interps($tfs, $token, $nrtok, $tid, $nps);
+		$nrtok++;
+	    }
+	    print SENT "info(sample_id,'$nkjpid/$pid').\n";
+	    print SENT "info(sent_id,'$nkjpid/$pid/$sid').\n";
+	    print SENT "info(startnode, 0).\n";
+	    print SENT "info(endnode, $nrtok).\n";
+
+#	    print STDERR "$pid/$sid:  $text\n";
+	    $text =~ s/'/\\'/g;
+	    print SENT "info(tekst,'$text').\n";
+	    print SENT "info(morph_ok, tak).\n";
+	    print SENT ":-analiza('$text').\n";
+	    close SENT;
+	}
+
+	print PKT "</packet>\n";
+	close PKT;
+    
+    }
+    print STDERR "\n";
+}
+
+sub get_interps {
+    my ($tfs,$token,$nrtok,$tid,$nps) = @_;
+    my $nrtok1 = $nrtok + 1;
+    $token =~ s/'/\\'/g;
+    # przeglądamy lexy:
+ #   my @interps = ();
+    # zapamiętujemy, która interpretacja została wybrana przez anotatorów (może być tylko jedna):
+    my $disambid = $xpc->findnodes('n:f[@name="disamb"]/n:fs[@type="tool_report"]/n:f[@name="choice"]/@fVal',$tfs)
+	->string_value;
+    $disambid =~ s/^#//;
+#    print "*** $disambid\n";
+    my @tmp = $xpc->findnodes('n:f[@name="interps"]',$tfs);
+    die "Więcej niż jedna ($(\(scalar(@tmp))) sekcja interps)" unless @tmp == 1;
+    for my $i ($tmp[0]->getChildrenByTagName('*')) {
+	die "Dziwna zawartość struktury interps"
+	    unless $i->getName eq 'fs' && $i->getAttribute('type') eq 'lex';
+	my $base = $xpc->find('n:f[@name="base"]/n:string',$i);
+	$base =~ s/'/\\'/g;
+	my $pos =  $xpc->find('n:f[@name="ctag"]/n:symbol/@value',$i);
+	for my $msd ($xpc->findnodes('n:f[@name="msd"]//n:symbol',$i)) {
+	    my $tag2 = $msd->getAttribute('value');
+	    my $msdid = $msd->getAttribute('xml:id');
+#	    push @interps, [$token, $base, $pos, $tag2, $msdid eq $disambid, $msdid];
+	    print SENT "input($nrtok,$nrtok1,'$token','$base',"
+		.($tag2? "$pos:$tag2" : $pos)
+		.","
+		.($msdid eq $disambid?'nkjp:tak':'nkjp:nie')
+		.",'$tid','$msdid',"
+		.($nps ? 'nps' : 'sp')
+		.").\n";
+#	    print join(' ', @{$interps[$#interps]}, "\n");
+	}
+    }
+#    return @interps;
+}

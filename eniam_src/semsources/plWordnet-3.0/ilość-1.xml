@@ -1,0 +1,2744 @@
+<node name="ilość-1" size="2265">
+  <node name="udział-3" size="0"/>
+  <node name="etat-4" size="1">
+    <node name="etat rębny-1" size="0"/>
+  </node>
+  <node name="emisja zanieczyszczeń-2" size="0"/>
+  <node name="deszcz-3" size="0"/>
+  <node name="przestrzeń dyskowa-1" size="0"/>
+  <node name="nadwyżka adsorpcyjna-1, nadmiar powierzchniowy-1" size="0"/>
+  <node name="tonaż-6" size="0"/>
+  <node name="zasób złoża-1" size="0"/>
+  <node name="co nieco-1, coś niecoś-1" size="0"/>
+  <node name="tabletka-3" size="0"/>
+  <node name="odpływ-4" size="0"/>
+  <node name="przesyp-3" size="0"/>
+  <node name="ekstraktywność-1" size="0"/>
+  <node name="towarowość-1" size="0"/>
+  <node name="ilostan-1" size="0"/>
+  <node name="krata-4" size="0"/>
+  <node name="laska-6" size="0"/>
+  <node name="odsyp-1" size="0"/>
+  <node name="importochłonność-1" size="0"/>
+  <node name="świetlność-1" size="0"/>
+  <node name="przesył-1, transfer-3" size="0"/>
+  <node name="stek-3" size="1">
+    <node name="wiązanka-3, wiącha-1" size="0"/>
+  </node>
+  <node name="zawartość-3" size="236">
+    <node name="kobiałka-2" size="0"/>
+    <node name="pucharek-6" size="0"/>
+    <node name="amfora-2" size="0"/>
+    <node name="ampułka-5" size="0"/>
+    <node name="czerpak-3" size="0"/>
+    <node name="ceber-2" size="0"/>
+    <node name="kanka-2" size="0"/>
+    <node name="shaker-2" size="0"/>
+    <node name="foremka-4" size="0"/>
+    <node name="dzieża-2" size="0"/>
+    <node name="mieszalnik-4" size="0"/>
+    <node name="maźnica-3" size="0"/>
+    <node name="mate-5, matero-2, calabaza-2" size="0"/>
+    <node name="krater-5" size="0"/>
+    <node name="dojnica-2" size="0"/>
+    <node name="cyborium-5, puszka-10" size="0"/>
+    <node name="alabastron-2" size="0"/>
+    <node name="flacha-3" size="0"/>
+    <node name="sagan-2" size="0"/>
+    <node name="gar-2" size="1">
+      <node name="baniak-5" size="0"/>
+    </node>
+    <node name="baniak-4" size="1">
+      <node name="kanister-2" size="0"/>
+    </node>
+    <node name="kasetka-2" size="0"/>
+    <node name="puderniczka-2" size="0"/>
+    <node name="wytłaczanka-2" size="0"/>
+    <node name="blister-2" size="0"/>
+    <node name="spray-3" size="0"/>
+    <node name="kompostownik-2" size="0"/>
+    <node name="piórnik-3" size="0"/>
+    <node name="kontener-3" size="0"/>
+    <node name="skarbonka-2" size="0"/>
+    <node name="bombonierka-5" size="0"/>
+    <node name="rożek-12" size="0"/>
+    <node name="śniadaniówka-2" size="0"/>
+    <node name="kałamarz-4" size="0"/>
+    <node name="kawiarka-4" size="0"/>
+    <node name="kompotiera-2, bola-4, ponczówka-2, ponczownica-2" size="0"/>
+    <node name="waza-4" size="0"/>
+    <node name="kolba-4" size="0"/>
+    <node name="sączek-4" size="0"/>
+    <node name="piknometr-2" size="0"/>
+    <node name="biureta-2" size="0"/>
+    <node name="basen-9" size="0"/>
+    <node name="bulionówka-2" size="0"/>
+    <node name="kaczka-8" size="0"/>
+    <node name="bomboniera-4, bombonierka-4" size="0"/>
+    <node name="patera-3, klosz-5" size="0"/>
+    <node name="kokilka-3" size="0"/>
+    <node name="róg-13" size="0"/>
+    <node name="maselniczka-2, masielniczka-2" size="0"/>
+    <node name="pieprzniczka-4" size="0"/>
+    <node name="tykwa-4" size="0"/>
+    <node name="odmierzacz-2" size="0"/>
+    <node name="owocarka-3" size="0"/>
+    <node name="popielniczka-2" size="0"/>
+    <node name="wanienka-3" size="0"/>
+    <node name="flakon-4, flakonik-3" size="0"/>
+    <node name="wazon-2" size="1">
+      <node name="flakon-3" size="0"/>
+    </node>
+    <node name="doniczka-2" size="0"/>
+    <node name="miednica-3" size="0"/>
+    <node name="poidło-3, pojnik-2" size="0"/>
+    <node name="kuweta-4" size="0"/>
+    <node name="balia-2" size="0"/>
+    <node name="tortownica-2" size="0"/>
+    <node name="szybkowar-2" size="0"/>
+    <node name="rondel-2" size="0"/>
+    <node name="kocioł-6" size="0"/>
+    <node name="kwarta-9" size="0"/>
+    <node name="czajnik-2" size="0"/>
+    <node name="brytfanna-2" size="0"/>
+    <node name="fermentor-2" size="0"/>
+    <node name="kadzielnica-2, trybularz-2" size="0"/>
+    <node name="cylinder-4" size="1">
+      <node name="menzurka-2, cylinderek-4" size="0"/>
+    </node>
+    <node name="menażka-2" size="0"/>
+    <node name="probówka-2, próbówka-2" size="0"/>
+    <node name="zlewka-2" size="0"/>
+    <node name="nocnik-2" size="0"/>
+    <node name="cukiernica-2" size="0"/>
+    <node name="solniczka-2" size="0"/>
+    <node name="sosjerka-2" size="0"/>
+    <node name="spodek-2" size="1">
+      <node name="spodeczek-2" size="0"/>
+    </node>
+    <node name="bidon-2" size="0"/>
+    <node name="kielich-3" size="0"/>
+    <node name="salaterka-2" size="0"/>
+    <node name="waza-3" size="0"/>
+    <node name="stągiew-3" size="0"/>
+    <node name="konew-3" size="0"/>
+    <node name="kadź-4" size="0"/>
+    <node name="blaszanka-2" size="0"/>
+    <node name="baryłka-5, baryła-4" size="0"/>
+    <node name="skopek-3" size="0"/>
+    <node name="rynienka-3" size="0"/>
+    <node name="kwaterka-3" size="0"/>
+    <node name="dzban-2" size="1">
+      <node name="kruża-2" size="0"/>
+    </node>
+    <node name="butla-3" size="2">
+      <node name="balon-7" size="0"/>
+      <node name="gąsior-3" size="0"/>
+    </node>
+    <node name="termos-2" size="0"/>
+    <node name="talerzyk-2" size="0"/>
+    <node name="półmisek-2" size="0"/>
+    <node name="pucharek-5" size="0"/>
+    <node name="dzbanek-2" size="0"/>
+    <node name="garnek-2" size="1">
+      <node name="kociołek-2" size="0"/>
+    </node>
+    <node name="garnuszek-4" size="0"/>
+    <node name="garnuszek-3" size="0"/>
+    <node name="kufa-3" size="0"/>
+    <node name="tygiel-4, rynka-2" size="0"/>
+    <node name="kubeł-5" size="0"/>
+    <node name="czara-4" size="0"/>
+    <node name="puchar-3" size="0"/>
+    <node name="zbiornik-3" size="0"/>
+    <node name="worek-3" size="1">
+      <node name="woreczek-3" size="0"/>
+    </node>
+    <node name="karafka-2" size="1">
+      <node name="dekanter-3" size="0"/>
+    </node>
+    <node name="wór-3" size="0"/>
+    <node name="niecka-3" size="0"/>
+    <node name="szpryca-5" size="0"/>
+    <node name="patelnia-3" size="1"/>
+    <node name="talerz-3" size="0"/>
+    <node name="czara-6" size="0"/>
+    <node name="misa-2" size="0"/>
+    <node name="miska-4" size="2">
+      <node name="czarka-3" size="0"/>
+      <node name="makutra-2, donica-2" size="0"/>
+    </node>
+    <node name="chochelka-2" size="0"/>
+    <node name="beczka-6" size="3">
+      <node name="keg-2" size="0"/>
+      <node name="beka-5" size="0"/>
+      <node name="antał-2" size="0"/>
+    </node>
+    <node name="opakowanie-3" size="23">
+      <node name="zgrzewka-2" size="3">
+        <node name="dwupak-1" size="0"/>
+        <node name="czteropak-1" size="0"/>
+        <node name="sześciopak-1" size="0"/>
+      </node>
+      <node name="pudełko-2" size="1">
+        <node name="bombonierka-2" size="0"/>
+      </node>
+      <node name="saszetka-3" size="0"/>
+      <node name="paczka-7" size="2">
+        <node name="rama-5" size="0"/>
+        <node name="torebka-5" size="0"/>
+      </node>
+      <node name="pudło-5" size="0"/>
+      <node name="tubka-2, tuba-6" size="0"/>
+      <node name="kubek-5" size="0"/>
+      <node name="torba-2" size="0"/>
+      <node name="puszka-8" size="7">
+        <node name="konserwa-1" size="6">
+          <node name="byczki-1" size="0"/>
+          <node name="paprykarz szczeciński-1" size="0"/>
+          <node name="anchois-1" size="0"/>
+          <node name="tuszonka-1" size="0"/>
+          <node name="skumbria-1" size="0"/>
+          <node name="mielonka-1" size="0"/>
+        </node>
+      </node>
+      <node name="karton-4" size="0"/>
+    </node>
+    <node name="łyżka-6" size="1">
+      <node name="łyżka stołowa-2" size="0"/>
+    </node>
+    <node name="kubek-3" size="0"/>
+    <node name="łycha-2" size="0"/>
+    <node name="łopatka-5" size="0"/>
+    <node name="łopata-4" size="0"/>
+    <node name="blacha-7, forma-16, foremka-3" size="2">
+      <node name="papilotek-4, papilotka-2" size="0"/>
+      <node name="keksówka-2" size="0"/>
+    </node>
+    <node name="butelka-4" size="13">
+      <node name="litrówka-2" size="0"/>
+      <node name="syfon-6" size="1">
+        <node name="autosyfon-2" size="0"/>
+      </node>
+      <node name="butelka-6" size="0"/>
+      <node name="flasza-2" size="0"/>
+      <node name="manierka-2" size="0"/>
+      <node name="półlitrówka-2" size="0"/>
+      <node name="piersiówka-2" size="0"/>
+      <node name="flaszeczka-3" size="0"/>
+      <node name="flaszka-4" size="2">
+        <node name="flacha-1, flaszka-2" size="1"/>
+      </node>
+      <node name="małpka-1" size="0"/>
+    </node>
+    <node name="chochla-2" size="0"/>
+    <node name="szklanka-3" size="5">
+      <node name="literatka-3" size="0"/>
+      <node name="musztardówka-2" size="0"/>
+      <node name="stopka-9" size="0"/>
+      <node name="szklaneczka-2" size="0"/>
+      <node name="szklanica-2, szklenica-2" size="0"/>
+    </node>
+    <node name="miarka-1" size="0"/>
+    <node name="korytko-7" size="0"/>
+    <node name="koryto-6" size="1">
+      <node name="żłób-5" size="0"/>
+    </node>
+    <node name="łyżeczka-2" size="0"/>
+    <node name="półkwaterek-2, półkwaterka-2" size="0"/>
+    <node name="ampuła-1" size="0"/>
+    <node name="kufel-2" size="1"/>
+    <node name="cukierniczka-2" size="0"/>
+    <node name="filiżanka-2" size="0"/>
+    <node name="garść-2, garstka-2" size="0"/>
+    <node name="ładunek-3, transport-2" size="6">
+      <node name="fura-5" size="0"/>
+      <node name="ładuga-1" size="0"/>
+      <node name="zrzut-1" size="0"/>
+      <node name="drobnica-3" size="0"/>
+      <node name="fracht-1" size="0"/>
+      <node name="cargo-2, kargo-1" size="0"/>
+    </node>
+    <node name="kieliszek-2, kielonek-1, kielon-2" size="10">
+      <node name="szampanka-3" size="0"/>
+      <node name="koniakówka-2" size="0"/>
+      <node name="głębszy-1, maluch-3, jeden-1, lufa-2, lufka-1, sznaps-2, szczeniaczek-2" size="3"/>
+      <node name="pięćdziesiątka-7" size="0"/>
+      <node name="kulawka-3, kusztyk-2, kuszyk-2" size="1">
+        <node name="kusztyczek-2" size="0"/>
+      </node>
+      <node name="naparstek-1" size="0"/>
+    </node>
+    <node name="pojemnik-3" size="14">
+      <node name="skrzynka-7" size="0"/>
+      <node name="skrzynia-4" size="0"/>
+      <node name="beczułka-2" size="1">
+        <node name="faska-3" size="0"/>
+      </node>
+      <node name="wiadro-2" size="0"/>
+      <node name="słoik-2" size="3">
+        <node name="wek-2, weck-2" size="0"/>
+        <node name="zaprawa-6" size="1">
+          <node name="marynata-1" size="0"/>
+        </node>
+      </node>
+      <node name="kosz-4, koszyk-2" size="0"/>
+      <node name="konewka-2" size="0"/>
+      <node name="skrzynka-4" size="0"/>
+      <node name="fasa-2" size="0"/>
+      <node name="bańka-6" size="0"/>
+    </node>
+  </node>
+  <node name="zawartość-2" size="4">
+    <node name="wodność-1" size="0"/>
+    <node name="normoksemia-1" size="0"/>
+    <node name="zawartość tłuszczu-1" size="0" abstract="true"/>
+    <node name="stopa-5" size="0"/>
+  </node>
+  <node name="małość-2" size="3">
+    <node name="chudość-3, szczupłość-4" size="0"/>
+    <node name="niskość-4" size="0"/>
+    <node name="nieobfitość-1" size="0"/>
+  </node>
+  <node name="klaster dyskowy-1, klaster-7" size="0"/>
+  <node name="pojemność polowa-1, pojemność polowa wodna-1, pojemność polowa gleby-1" size="0"/>
+  <node name="pakiet-3" size="1">
+    <node name="pakiet kontrolny-1" size="0"/>
+  </node>
+  <node name="rzeka-3" size="0"/>
+  <node name="suma-2, całokształt-1" size="1">
+    <node name="pula genowa-1" size="0"/>
+  </node>
+  <node name="proporcja-3" size="0"/>
+  <node name="plenność-2" size="0"/>
+  <node name="rybostan-1, zarybienie-2" size="0"/>
+  <node name="kwantum-1, quantum-1" size="0"/>
+  <node name="wyleczalność-1" size="0"/>
+  <node name="spłacalność-1" size="0"/>
+  <node name="przebieg-3" size="0"/>
+  <node name="pranie-4" size="0"/>
+  <node name="kwadrupla-2" size="0"/>
+  <node name="naważka-1" size="0"/>
+  <node name="przygarść-1" size="0"/>
+  <node name="wypadkowość-1" size="0"/>
+  <node name="zachorowalność-1, zapadalność-1" size="0"/>
+  <node name="materiałochłonność-1" size="0"/>
+  <node name="wartościowość-1" size="0"/>
+  <node name="porcja-1" size="252">
+    <node name="plaster-1" size="0"/>
+    <node name="olej-6" size="0"/>
+    <node name="balsam-4" size="0"/>
+    <node name="torebka-7" size="0"/>
+    <node name="masło-6" size="0"/>
+    <node name="doniczka-3" size="0"/>
+    <node name="smalec-5" size="0"/>
+    <node name="smalec-3" size="0"/>
+    <node name="olej konopny-2" size="0"/>
+    <node name="olej lniany-2" size="0"/>
+    <node name="powidła-2" size="0"/>
+    <node name="pasta-4" size="3">
+      <node name="ajwar-2" size="0"/>
+      <node name="hummus-2" size="0"/>
+      <node name="pesto-2" size="0"/>
+    </node>
+    <node name="konfitury-2" size="0"/>
+    <node name="bułka tarta-2" size="0"/>
+    <node name="makaron-3" size="0"/>
+    <node name="mąka-2" size="8">
+      <node name="mąka żytnia-2" size="0"/>
+      <node name="mąka jęczmienna-2" size="0"/>
+      <node name="mąka kukurydziana-2" size="0"/>
+      <node name="mąka razowa-2" size="0"/>
+      <node name="mąka ziemniaczana-2" size="0"/>
+      <node name="mąka pszenna-2" size="2">
+        <node name="mąka orkiszowa-2" size="0"/>
+        <node name="krupczatka-2" size="0"/>
+      </node>
+    </node>
+    <node name="żelatyna-2" size="0"/>
+    <node name="oliwa-6, oliwa z oliwek-2, olej z oliwek-2" size="0"/>
+    <node name="masło shea-2" size="0"/>
+    <node name="margaryna-3" size="0"/>
+    <node name="syrop-2" size="2">
+      <node name="melasa-2" size="0"/>
+      <node name="grenadyna-3" size="0"/>
+    </node>
+    <node name="aromat-3, esencja-5" size="0"/>
+    <node name="cukier-3" size="3">
+      <node name="cukier puder-2" size="0"/>
+      <node name="cukier waniliowy-2" size="0"/>
+      <node name="cukier wanilinowy-2" size="0"/>
+    </node>
+    <node name="keczup-2, ketchup-2" size="0"/>
+    <node name="kwasek cytrynowy-2" size="0"/>
+    <node name="majonez-2" size="0"/>
+    <node name="miód-3" size="0"/>
+    <node name="musztarda-2" size="2">
+      <node name="musztarda dijon-2" size="0"/>
+      <node name="musztarda sarepska-2" size="0"/>
+    </node>
+    <node name="ocet-2" size="0"/>
+    <node name="słodzik-2" size="0"/>
+    <node name="wanilia-3" size="0"/>
+    <node name="koncentrat-2" size="0"/>
+    <node name="przecier-2" size="0"/>
+    <node name="ćwikła-2" size="0"/>
+    <node name="pasta curry-2" size="0"/>
+    <node name="pasztet-6" size="2">
+      <node name="paprykarz-3" size="1">
+        <node name="paprykarz szczeciński-2" size="0"/>
+      </node>
+    </node>
+    <node name="marmolada-2" size="0"/>
+    <node name="dżem-2" size="0"/>
+    <node name="chrzan-4" size="0"/>
+    <node name="proszek do pieczenia-2" size="0"/>
+    <node name="mrożonka-2" size="0"/>
+    <node name="golonko-2" size="0"/>
+    <node name="antrykot-2" size="0"/>
+    <node name="gicz-3" size="0"/>
+    <node name="miód sztuczny-2" size="0"/>
+    <node name="mielonka-2" size="0"/>
+    <node name="kisiel-3" size="0"/>
+    <node name="kawa-7" size="6">
+      <node name="kawa mielona-3" size="0"/>
+      <node name="kawa rozpuszczalna-4" size="0"/>
+      <node name="kawa bezkofeinowa-3" size="1">
+        <node name="kawa zbożowa-4, inka-6" size="0"/>
+      </node>
+      <node name="robusta-5" size="0"/>
+      <node name="arabika-4, arabica-4" size="0"/>
+    </node>
+    <node name="kasza-2" size="5">
+      <node name="kasza manna-2" size="0"/>
+      <node name="kasza kukurydziana-2" size="0"/>
+      <node name="kasza jęczmienna-2" size="0"/>
+      <node name="kasza jaglana-2" size="0"/>
+      <node name="kasza gryczana-2" size="0"/>
+    </node>
+    <node name="fix-2" size="0"/>
+    <node name="galaretka-4" size="0"/>
+    <node name="galaretka-3" size="0"/>
+    <node name="drożdże-3" size="0"/>
+    <node name="budyń-5" size="0"/>
+    <node name="budyń-4" size="0"/>
+    <node name="śmietana-2" size="4">
+      <node name="dwunastka-6" size="0"/>
+      <node name="osiemnastka-7" size="0"/>
+      <node name="śmietanka-5" size="1">
+        <node name="kremówka-3" size="0"/>
+      </node>
+    </node>
+    <node name="ser-2" size="16">
+      <node name="ser podpuszczkowy-2" size="9">
+        <node name="ser żółty-2" size="4">
+          <node name="ementaler-2" size="0"/>
+          <node name="parmezan-2, ser parmeński-2" size="0"/>
+          <node name="gouda-2" size="0"/>
+          <node name="cheddar-2" size="0"/>
+        </node>
+        <node name="ser pleśniowy-2" size="3">
+          <node name="rokpol-2" size="0"/>
+          <node name="gorgonzola-2" size="0"/>
+          <node name="camembert-2, kamamber-2" size="0"/>
+        </node>
+      </node>
+      <node name="twaróg-3, ser twarogowy-2" size="0"/>
+      <node name="ricotta-2" size="0"/>
+      <node name="mascarpone-2" size="0"/>
+      <node name="ser topiony-2" size="0"/>
+      <node name="mozzarella-2" size="0"/>
+      <node name="feta-3" size="0"/>
+    </node>
+    <node name="patelnia-3" size="1">
+      <node name="wok-3" size="0"/>
+    </node>
+    <node name="talerz-3" size="0"/>
+    <node name="czara-6" size="0"/>
+    <node name="chochelka-2" size="0"/>
+    <node name="racja-2" size="0"/>
+    <node name="zupa-2" size="0"/>
+    <node name="masło-4" size="2">
+      <node name="masło czosnkowe-2" size="0"/>
+      <node name="osełka-2" size="0"/>
+    </node>
+    <node name="gomółka-2" size="0"/>
+    <node name="chochla-2" size="0"/>
+    <node name="korytko-2" size="0"/>
+    <node name="tuszonka-2" size="0"/>
+    <node name="kufel-2" size="1">
+      <node name="halba-3" size="0"/>
+    </node>
+    <node name="dzwonko-1" size="0"/>
+    <node name="dolewka-1" size="0"/>
+    <node name="kulka-1, gałka-1" size="0"/>
+    <node name="dokładka-1" size="1">
+      <node name="repeta-1" size="0"/>
+    </node>
+    <node name="bochenek-1" size="1">
+      <node name="chleb-2" size="0"/>
+    </node>
+    <node name="pęto-2" size="0"/>
+    <node name="kromka-1" size="6">
+      <node name="wafel ryżowy-1" size="0"/>
+      <node name="pajda-1, skiba-1" size="0"/>
+      <node name="piętka-1, przylepka-1" size="0"/>
+      <node name="suchar-2, sucharek-1" size="0"/>
+      <node name="tost-1, grzanka-1" size="1">
+        <node name="bruschetta-1" size="0"/>
+      </node>
+    </node>
+    <node name="kąsek-1, kęs-1, kęsek-1" size="0"/>
+    <node name="jogurt-1" size="0"/>
+    <node name="napój-2" size="86">
+      <node name="krupnik-3" size="0"/>
+      <node name="nalewka-3" size="10">
+        <node name="aroniówka-2" size="0"/>
+        <node name="jagodówka-4" size="0"/>
+        <node name="jarzębiak-3, jarzębinówka-2" size="0"/>
+        <node name="malinówka-5" size="0"/>
+        <node name="morelówka-2" size="0"/>
+        <node name="orzechówka-4" size="1">
+          <node name="żołądkówka-2" size="0"/>
+        </node>
+        <node name="porzeczkówka-2" size="1">
+          <node name="smorodinówka-2" size="0"/>
+        </node>
+        <node name="wiśniówka-3" size="0"/>
+      </node>
+      <node name="tymbark-2" size="0"/>
+      <node name="wino-5" size="0"/>
+      <node name="oranżada-2" size="0"/>
+      <node name="wódka-2" size="9">
+        <node name="głębszy-1, maluch-3, jeden-1, lufa-2, lufka-1, sznaps-2, szczeniaczek-2" size="3">
+          <node name="strzemienny-1, rozchodniaczek-1" size="0"/>
+          <node name="karniak-2" size="0"/>
+          <node name="klin-3" size="0"/>
+        </node>
+        <node name="flacha-1, flaszka-2" size="1">
+          <node name="litr-1, literek-1" size="0"/>
+        </node>
+        <node name="seta-1, setka-1" size="0"/>
+        <node name="ćwiartka-1" size="0"/>
+        <node name="małpka-1" size="0"/>
+      </node>
+      <node name="lemoniada-2" size="0"/>
+      <node name="maślanka-5" size="0"/>
+      <node name="pepsi-1, cola-2" size="0"/>
+      <node name="piwo-2, browar-2" size="3">
+        <node name="heineken-1" size="0"/>
+        <node name="piwo rzezane-1, piwo rżnięte-1, rzezak-3" size="0"/>
+        <node name="u-boot-3" size="0"/>
+      </node>
+      <node name="woda-6" size="0"/>
+      <node name="herbata-4" size="0"/>
+      <node name="czekolada-3" size="0"/>
+      <node name="sok-4" size="0"/>
+      <node name="drink-1" size="28">
+        <node name="poncz-3" size="0"/>
+        <node name="soft-1, soft drink-1" size="0"/>
+        <node name="shot-1" size="2">
+          <node name="kamikadze-4, kamikaze-4" size="0"/>
+          <node name="wściekły pies-1" size="0"/>
+        </node>
+        <node name="u-boot-3" size="0"/>
+        <node name="szprycer-1" size="0"/>
+        <node name="koktajl-2, cocktail-3, koktajl alkoholowy-1" size="20">
+          <node name="kir-2" size="0"/>
+          <node name="short drink-1, short-1" size="4">
+            <node name="manhattan-1" size="0"/>
+            <node name="daiqiuri-1" size="0"/>
+            <node name="margarita-1" size="0"/>
+            <node name="martini-2" size="0"/>
+          </node>
+          <node name="long-1, long drink-1" size="12">
+            <node name="śrubokręt-2, screwdriver-1" size="0"/>
+            <node name="sex on the beach-1" size="0"/>
+            <node name="tatanka-1, szarlotka-2" size="0"/>
+            <node name="tequila sunrise-1" size="0"/>
+            <node name="piña colada-1, pinacolada-1" size="0"/>
+            <node name="cuba libre-1" size="0"/>
+            <node name="mojito-1" size="0"/>
+            <node name="caipirinha-1, caipirinia-1, caipi-1" size="3">
+              <node name="caipi black-1" size="0"/>
+              <node name="caipiroska-1" size="1">
+                <node name="morangoska-1" size="0"/>
+              </node>
+            </node>
+            <node name="krwawa Mary-1, krwawa Mery-1" size="0"/>
+          </node>
+          <node name="kruszon-1, bola-2" size="0"/>
+        </node>
+      </node>
+      <node name="kefir-1" size="0"/>
+      <node name="kawa-1" size="20">
+        <node name="kawa mielona-4" size="0"/>
+        <node name="kawa rozpuszczalna-3" size="0"/>
+        <node name="kawa bezkofeinowa-4" size="1">
+          <node name="kawa zbożowa-3, inka-5" size="0"/>
+        </node>
+        <node name="robusta-4" size="0"/>
+        <node name="arabika-5, arabica-5" size="0"/>
+        <node name="kawa macchiato-1" size="0"/>
+        <node name="kawa latte-1, latte-1" size="2">
+          <node name="latte macchiato-1" size="0"/>
+          <node name="kawa mokka-1, mokka-1" size="0"/>
+        </node>
+        <node name="espresso-1" size="0"/>
+        <node name="cappuccino-1" size="0"/>
+        <node name="kawa po irlandzku-1" size="0"/>
+        <node name="czarna kawa-1, czarna-4" size="4">
+          <node name="pół czarnej-1" size="0"/>
+          <node name="mała czarna-1" size="0"/>
+          <node name="duża czarna-1" size="0"/>
+          <node name="kawa po turecku-1" size="0"/>
+        </node>
+        <node name="biała kawa-1" size="1">
+          <node name="kawa po wiedeńsku-1" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="szczypta-1" size="0"/>
+    <node name="kolejka-2" size="0"/>
+    <node name="mleko-1" size="2">
+      <node name="zsiadłe mleko-2, kwaśne mleko-2" size="0"/>
+      <node name="wydój-2" size="0"/>
+    </node>
+    <node name="dawka-1, doza-1" size="18">
+      <node name="dawka promieniowania-1" size="3">
+        <node name="równoważnik dawki pochłoniętej-1" size="0"/>
+        <node name="dawka śmiertelna-1" size="0"/>
+        <node name="dawka dopuszczalna-1" size="0"/>
+      </node>
+      <node name="działka-4" size="1">
+        <node name="kreska-6" size="0"/>
+      </node>
+      <node name="opłatek-3, kaszetka-1" size="0"/>
+      <node name="końska dawka-1" size="0"/>
+      <node name="dawka progowa-1" size="0"/>
+      <node name="dawka uderzeniowa-1, kuracja uderzeniowa-1, uderzenie-12" size="0"/>
+      <node name="ampułka-1" size="0"/>
+      <node name="pigułka-1, pastylka-1, tabletka-1, proszek-2, proch-5" size="6">
+        <node name="niebieska tabletka-1, niebieska pigułka-1" size="0"/>
+        <node name="tabletka dzień po-1, pigułka dzień po-1" size="0"/>
+        <node name="tabletka stulecia-1" size="0"/>
+        <node name="lingwetka-1" size="0"/>
+        <node name="drażetka-1" size="0"/>
+        <node name="kapsułka-1" size="0"/>
+      </node>
+    </node>
+  </node>
+  <node name="cośkolwiek-1, cokolwiek-1" size="0"/>
+  <node name="ładunek-2" size="1">
+    <node name="nosiwo-1" size="0"/>
+  </node>
+  <node name="nadwyżka-1, naddatek-1" size="5"/>
+  <node name="haust-1, łyk-1" size="1">
+    <node name="łyczek-1" size="0"/>
+  </node>
+  <node name="zużycie-2" size="4">
+    <node name="zasobożerność-1" size="0"/>
+    <node name="dekapitalizacja-1" size="0"/>
+    <node name="konsumpcja-1, spożycie-2" size="1">
+      <node name="prosumpcja-1" size="0"/>
+    </node>
+  </node>
+  <node name="ogrom-1, bezlik-1, bezmiar-1, bezmierność-1, kupa-2, masa-4, zatrzęsienie-6, nieskończoność-1, wielość-1, krocie-1, góra-3, fura-2, stos-1, sterta-1, mnóstwo-1, piramida-5" size="25">
+    <node name="pierdyliard-1" size="0"/>
+    <node name="zylion-1" size="0"/>
+    <node name="potok-2" size="0"/>
+    <node name="góra lodowa-2" size="0"/>
+    <node name="grad-4" size="0"/>
+    <node name="niezmierność-1" size="0"/>
+    <node name="niezliczoność-1" size="0"/>
+    <node name="niewyczerpalność-1" size="0"/>
+    <node name="strumień-2, potok-3" size="1">
+      <node name="rzeka-4" size="0"/>
+    </node>
+    <node name="burza-3" size="2">
+      <node name="afro-1" size="0"/>
+      <node name="szopa-2" size="0"/>
+    </node>
+    <node name="fala-2" size="0"/>
+    <node name="niespożytość-1, niepożytość-1" size="0"/>
+    <node name="feeria-1, koncert-4, orgia-3" size="2"/>
+    <node name="galopada-2" size="0"/>
+    <node name="wir-2" size="0"/>
+    <node name="lawina-2" size="0"/>
+    <node name="huk-2" size="0"/>
+    <node name="stóg-1" size="0"/>
+    <node name="szmat-2, kawał-2" size="0"/>
+    <node name="morze-2" size="0"/>
+  </node>
+  <node name="porcja-2, garść-1, dawka-2, doza-2" size="3">
+    <node name="domieszka-2" size="0"/>
+    <node name="serwis-2" size="0"/>
+    <node name="pakiet-2" size="0"/>
+  </node>
+  <node name="sztuka-6" size="0"/>
+  <node name="nakład-1" size="56">
+    <node name="nakład inwestycyjny-1" size="0"/>
+    <node name="wydatek-1, ekspens-1" size="6">
+      <node name="wydatek socjalny-1" size="0"/>
+      <node name="wydatek majątkowy-1, wydatek inwestycyjny-1" size="0"/>
+      <node name="wydatek bieżący-1, wydatek konsumpcyjny-1" size="2">
+        <node name="wydatek osobowy-1" size="0"/>
+        <node name="wydatek rzeczowy-1" size="0"/>
+      </node>
+      <node name="rozchód-1" size="0"/>
+    </node>
+    <node name="koszt-1" size="47">
+      <node name="bariera wyjścia-1" size="0"/>
+      <node name="koszty pracy-1" size="0"/>
+      <node name="koszt złożony-1" size="0"/>
+      <node name="koszt prosty-1" size="0"/>
+      <node name="koszt działalności inwestycyjnej-1, koszt inwestycyjny-1" size="0"/>
+      <node name="koszt rachunkowy-1" size="5">
+        <node name="koszt całkowity-1" size="2">
+          <node name="koszt zmienny-1" size="0"/>
+          <node name="koszt stały-1" size="0"/>
+        </node>
+        <node name="koszt bezpośredni-1" size="0"/>
+        <node name="koszt pośredni-1" size="0"/>
+      </node>
+      <node name="koszt jakości-1" size="3">
+        <node name="koszt niezgodności-1" size="0"/>
+        <node name="koszt oceny jakości-1" size="0"/>
+        <node name="koszt zapewnienia jakości-1" size="0"/>
+      </node>
+      <node name="koszt utopiony-1" size="0"/>
+      <node name="koszt transakcyjny-1" size="3">
+        <node name="koszt kontroli-1" size="0"/>
+        <node name="koszt zarządzania i zawierania kontaktów-1" size="0"/>
+        <node name="koszt poszukiwania informacji-1" size="0"/>
+      </node>
+      <node name="koszt krańcowy-1, koszt marginalny-1" size="0"/>
+      <node name="koszt alternatywny-1" size="0"/>
+      <node name="koszt finansowy-1, koszt działalności finansowej-1" size="0"/>
+      <node name="koszt operacyjny-1, koszt działalności operacyjnej-1" size="18">
+        <node name="koszt działalności pomocniczej-1" size="0"/>
+        <node name="koszt sprzedaży-1" size="0"/>
+        <node name="koszt zakupu-1" size="0"/>
+        <node name="koszt zarządu-1" size="0"/>
+        <node name="koszt wydziałowy-1" size="0"/>
+        <node name="koszt działalności podstawowej-1" size="3">
+          <node name="koszt działalności usługowej-1" size="0"/>
+          <node name="koszt działalności handlowej-1" size="0"/>
+          <node name="koszt działalności produkcyjnej-1" size="0"/>
+        </node>
+        <node name="koszt rodzajowy-1" size="8">
+          <node name="świadczenie-8" size="0"/>
+          <node name="wynagrodzenie-4" size="0"/>
+          <node name="usługa obca-1" size="0"/>
+          <node name="zużycie materiałów i energii-1" size="0"/>
+          <node name="amortyzacja-1" size="3">
+            <node name="amortyzacja degresywna-1" size="0"/>
+            <node name="amortyzacja liniowa-1" size="0"/>
+            <node name="amortyzacja podatkowa-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="koszt własny-1" size="0"/>
+      <node name="kara pieniężna-1" size="3">
+        <node name="główszczyzna-1" size="0"/>
+        <node name="mandat-1, mandat karny-1" size="0"/>
+        <node name="grzywna-1" size="0"/>
+      </node>
+    </node>
+  </node>
+  <node name="sztuka-5" size="1">
+    <node name="sztukamięs-1" size="0"/>
+  </node>
+  <node name="odrobina-1, ździebko-1" size="7">
+    <node name="drobina-4" size="0"/>
+    <node name="ślad-1" size="0"/>
+    <node name="ociupina-1, ciutka-1, ciupka-1, ciutek-1" size="0"/>
+    <node name="garstka-3" size="0"/>
+    <node name="kapka-2" size="0"/>
+    <node name="szczypta-1" size="0"/>
+    <node name="kropla-2, kropelka-2" size="0"/>
+  </node>
+  <node name="zero-1, nic-1" size="3">
+    <node name="dupa blada-1, dupa zbita-1" size="0"/>
+    <node name="guzik-4" size="0"/>
+    <node name="figa-4" size="0"/>
+  </node>
+  <node name="próba-1" size="1">
+    <node name="liga-4" size="0"/>
+  </node>
+  <node name="procent-1, odsetek-1" size="1">
+    <node name="uzysk-1" size="0"/>
+  </node>
+  <node name="nadmiar-1, przesyt-1" size="54">
+    <node name="chomąto-2" size="0"/>
+    <node name="przypiek-1, nadpiek-1" size="0"/>
+    <node name="górka-3" size="0"/>
+    <node name="hiperkaliemia-1, hiperpotasemia-1" size="0"/>
+    <node name="hiperglikemia-1" size="0"/>
+    <node name="klęska urodzaju-1" size="0"/>
+    <node name="hiperkalcemia-1" size="1">
+      <node name="zespół Burnetta-1" size="0"/>
+    </node>
+    <node name="nadmetraż-1" size="0"/>
+    <node name="nadbagaż-1" size="0"/>
+    <node name="nadmiarowość-1, redundancja-1" size="4">
+      <node name="dodatkowość-1" size="3">
+        <node name="rezerwowość-1" size="0"/>
+        <node name="uboczność-1" size="0"/>
+        <node name="fakultatywność-1" size="0"/>
+      </node>
+    </node>
+    <node name="leukocytoza-1" size="0"/>
+    <node name="nadkomplet-1" size="0"/>
+    <node name="przeludnienie-1" size="1">
+      <node name="przeludnienie agrarne-1" size="0"/>
+    </node>
+    <node name="nadpodaż-1" size="1">
+      <node name="świńska górka-1" size="0"/>
+    </node>
+    <node name="nadprodukcja-1, hiperprodukcja-1" size="0"/>
+    <node name="przerost-2, hipertrofia-2" size="0"/>
+    <node name="przejedzenie-2" size="0"/>
+    <node name="przesada-1, przesadność-1, nadmierność-1, egzageracja-1" size="23">
+      <node name="rozpusta-1" size="0"/>
+      <node name="nadopiekuńczość-1" size="1">
+        <node name="kuratela-1" size="0"/>
+      </node>
+      <node name="hiperboliczność-1" size="0"/>
+      <node name="hiperkrytycyzm-1" size="0"/>
+      <node name="nadpobudliwość-1, niespokojność-3" size="0"/>
+      <node name="czułostkowość-1" size="0"/>
+      <node name="teatralizacja-1" size="0"/>
+      <node name="nieumiarkowanie-1, niepohamowanie-1" size="3">
+        <node name="pijaństwo-3, opilstwo-1" size="1">
+          <node name="dypsomania-1, opilstwo okresowe-1" size="0"/>
+        </node>
+        <node name="obżarstwo-1, żarłoctwo-1" size="0"/>
+      </node>
+      <node name="nadgorliwość-1" size="0"/>
+      <node name="kabotyństwo-1, kabotynizm-1" size="0"/>
+      <node name="dwa grzyby w barszcz-1, przegięcie-4, dwa grzyby w barszczu-1" size="0"/>
+      <node name="skrajność-1, krańcowość-1, ekstrem-1, ekstremalność-1" size="2">
+        <node name="ostateczność-3" size="0"/>
+        <node name="antypody-2" size="0"/>
+      </node>
+      <node name="nadwrażliwość-2, mimozowatość-1, przeczulenie-1, przewrażliwienie-1, sensytywność-2" size="1">
+        <node name="drażliwość-1" size="0"/>
+      </node>
+      <node name="przechył-1" size="0"/>
+      <node name="ostentacja-1, manifestacyjność-1" size="0"/>
+      <node name="poza-1, maniera-1, maska-6" size="0"/>
+    </node>
+    <node name="nadwyżka-1, naddatek-1" size="5">
+      <node name="nadwyżka budżetowa-1" size="0"/>
+      <node name="zapas-2" size="1">
+        <node name="retencja-1" size="0"/>
+      </node>
+      <node name="superata-1" size="0"/>
+      <node name="nadpłata-1" size="0"/>
+    </node>
+  </node>
+  <node name="moc-3, zatrzęsienie-5, nawał-1, natłok-1, mnóstwo-2, mnogość-1, nawała-1, wielość-2" size="1">
+    <node name="inwazja-2" size="0"/>
+  </node>
+  <node name="niedobór-1, niedomiar-1, niedostatek-4, deficyt-1" size="23">
+    <node name="świński dołek-1" size="0"/>
+    <node name="skąpość-1" size="0"/>
+    <node name="przyducha-1" size="0"/>
+    <node name="anoksja-2, deficyt tlenowy-1" size="0"/>
+    <node name="anoksja-1, anoksemia-1, głód tlenowy-1" size="0"/>
+    <node name="hipoksja-1" size="0"/>
+    <node name="hipokaliemia-1, hipokalemia-1" size="0"/>
+    <node name="hipokalcemia-1" size="0"/>
+    <node name="hipoglikemia-1, niedocukrzenie-1, niedocukrzenie krwi-1" size="0"/>
+    <node name="deficytowość-2" size="0"/>
+    <node name="kropla w morzu-1, kropla w morzu potrzeb-1" size="0"/>
+    <node name="krótka kołdra-1" size="0"/>
+    <node name="posucha-2" size="0"/>
+    <node name="leukocytopenia-1, leukopenia-1" size="0"/>
+    <node name="niedożywienie-1" size="1">
+      <node name="wygłodzenie-2" size="0"/>
+    </node>
+    <node name="niedotlenienie-1" size="2">
+      <node name="dług tlenowy-1" size="0"/>
+      <node name="asfiksja-1, zamartwica-1" size="0"/>
+    </node>
+    <node name="niedosyt-1, nienasycenie-1" size="0"/>
+    <node name="ubóstwo-1, niedostatek-1, mizeria-1" size="2">
+      <node name="ciasnota-2, ograniczoność-1, ciasność-3" size="1">
+        <node name="prymitywność-2" size="0"/>
+      </node>
+    </node>
+  </node>
+  <node name="kwota-1, suma-1, sumka-2" size="397">
+    <node name="margines wypłacalności-1" size="0"/>
+    <node name="odliczenie-4" size="0"/>
+    <node name="kokosy-1" size="0"/>
+    <node name="obrót podatkowy-1" size="0"/>
+    <node name="wartość godziwa-1" size="0"/>
+    <node name="bańka-7" size="0"/>
+    <node name="bank-4" size="0"/>
+    <node name="dziesiątak-3, dycha-4" size="0"/>
+    <node name="piątak-1, piątal-1" size="7">
+      <node name="piątka-6" size="6">
+        <node name="pięciodolarówka-1" size="0"/>
+        <node name="pięcioeurówka-1" size="0"/>
+        <node name="pięciopensówka-1" size="0"/>
+        <node name="pięciocentówka-1" size="0"/>
+        <node name="pięciozłotówka-1" size="0"/>
+        <node name="pięciogroszówka-1" size="0"/>
+      </node>
+    </node>
+    <node name="przekaz-6" size="0"/>
+    <node name="zapłata-2" size="44">
+      <node name="wynagrodzenie-2, zarobek-1" size="36"/>
+      <node name="odszkodowanie-1, rekompensata-1, wyrównanie-8, kompensata-1, wynagrodzenie-3, restytucja-3, indemnizacja-1" size="6">
+        <node name="restytucja naturalna-1" size="0"/>
+        <node name="remuneracja-1" size="0"/>
+        <node name="reparacje-1" size="0"/>
+        <node name="przestojowe-1" size="0"/>
+        <node name="odstępne-1" size="0"/>
+        <node name="nawiązka-1" size="0"/>
+      </node>
+    </node>
+    <node name="przegrana-2" size="0"/>
+    <node name="grosz-2" size="0"/>
+    <node name="tysiąc-2, tysiak-1" size="0"/>
+    <node name="reszta-2" size="0"/>
+    <node name="ciężki grosz-1, ciężki pieniądz-1, drogie pieniądze-1, ciężka forsa-1" size="0"/>
+    <node name="bajońska suma-1, sumy neapolitańskie-1" size="0"/>
+    <node name="kieszonkowe-1" size="1">
+      <node name="tygodniówka-3" size="0"/>
+    </node>
+    <node name="apanaże-1" size="0"/>
+    <node name="budżet-1" size="4">
+      <node name="budżet domowy-1, budżet rodzinny-1" size="0"/>
+      <node name="budżet państwa-1, budżet-2" size="0"/>
+      <node name="budżet roczny-1" size="0"/>
+      <node name="prowizorium budżetowe-2, budżet tymczasowy-1" size="0"/>
+    </node>
+    <node name="przedpłata-1" size="5">
+      <node name="prepaid-1, pre-paid-1" size="0"/>
+      <node name="prenumerata-1" size="0"/>
+      <node name="subskrypcja-1" size="0"/>
+      <node name="abonament-1" size="1">
+        <node name="radioabonament-1" size="0"/>
+      </node>
+    </node>
+    <node name="potrącenie-4" size="1">
+      <node name="dyskonto-1, eskonto-1" size="0"/>
+    </node>
+    <node name="zaliczka-1, zadatek-2, akonto-1, forszus-1" size="0"/>
+    <node name="nakład-3" size="0"/>
+    <node name="grosze-1, marny grosz-1, psi grosz-1, psi pieniądz-1" size="0"/>
+    <node name="wpływ-2, przychód-1" size="185">
+      <node name="obrót-5" size="0"/>
+      <node name="inkaso-2" size="0"/>
+      <node name="dochód-1, zarobek-2" size="182">
+        <node name="przychód krańcowy-1" size="0"/>
+        <node name="dochód pasywny-1" size="0"/>
+        <node name="dochód realny-1" size="0"/>
+        <node name="dochód nominalny-1" size="0"/>
+        <node name="dochód rozporządzalny-1" size="0"/>
+        <node name="podatek inflacyjny-1" size="0"/>
+        <node name="dochód własny-1" size="0"/>
+        <node name="dochód osobisty-1" size="0"/>
+        <node name="dochód gwarantowany-1" size="0"/>
+        <node name="zysk-1, intrata-1, profit-2" size="15">
+          <node name="zysk inflacyjny-1" size="0"/>
+          <node name="zysk księgowy-1" size="0"/>
+          <node name="zysk rezydualny-1" size="0"/>
+          <node name="narzut-1" size="0"/>
+          <node name="zysk operacyjny-1" size="0"/>
+          <node name="przebitka-2" size="0"/>
+          <node name="utarg-1" size="5">
+            <node name="utarg całkowity-1" size="0"/>
+            <node name="utarg miesięczny-1" size="0"/>
+            <node name="utarg dzienny-1" size="0"/>
+            <node name="utarg krańcowy-1" size="0"/>
+            <node name="utarg przeciętny-1" size="0"/>
+          </node>
+          <node name="marża-1" size="2">
+            <node name="marża handlowa-1" size="1">
+              <node name="marża odsetkowa-1" size="0"/>
+            </node>
+          </node>
+        </node>
+        <node name="prowent-1" size="0"/>
+        <node name="apanaż-1" size="0"/>
+        <node name="seniorat-4, senioraż-1, renta emisyjna-1, renta mennicza-1" size="0"/>
+        <node name="lewizna-2" size="0"/>
+        <node name="komin płacowy-1, komin zarobkowy-1" size="0"/>
+        <node name="renta gruntowa-1" size="1">
+          <node name="renta różniczkowa-1" size="0"/>
+        </node>
+        <node name="prebenda-1" size="1">
+          <node name="altaria-1" size="0"/>
+        </node>
+        <node name="apanaże-2" size="0"/>
+        <node name="dochód netto-1, zysk netto-1" size="0"/>
+        <node name="dochód brutto-1, zysk brutto-1" size="0"/>
+        <node name="odsetka-1" size="0"/>
+        <node name="dywidenda-1" size="1">
+          <node name="dywidenda obligatoryjna-1" size="0"/>
+        </node>
+        <node name="renta-1" size="0"/>
+        <node name="odsetki-1, procent-3, oprocentowanie-2" size="1">
+          <node name="lichwa-1" size="0"/>
+        </node>
+        <node name="wynagrodzenie-2, zarobek-1" size="36">
+          <node name="wynagrodzenie bezosobowe-1" size="0"/>
+          <node name="wynagrodzenie osobowe-1" size="0"/>
+          <node name="nagroda roczna-1" size="0"/>
+          <node name="kapanina-1" size="0"/>
+          <node name="lafa-1" size="0"/>
+          <node name="honorarium-1" size="1">
+            <node name="wierszówka-1" size="0"/>
+          </node>
+          <node name="bilansówka-1" size="0"/>
+          <node name="jurgielt-2" size="0"/>
+          <node name="lekki kawałek chleba-2" size="0"/>
+          <node name="ciężki kawałek chleba-2" size="0"/>
+          <node name="tygodniówka-2" size="0"/>
+          <node name="nadgodzina-1" size="0"/>
+          <node name="dniówka-3" size="0"/>
+          <node name="wyrównanie-9, kompensacja-1, kompensata-2" size="3">
+            <node name="kliring pracy-1" size="0"/>
+            <node name="indeksacja-1" size="0"/>
+            <node name="rewaloryzacja-3" size="0"/>
+          </node>
+          <node name="wynagrodzenie brutto-1, płaca brutto-1, brutto-2" size="0"/>
+          <node name="wynagrodzenie netto-1, płaca netto-1, netto-3" size="0"/>
+          <node name="żołd-1, lenung-1" size="1">
+            <node name="jurgielt-1" size="0"/>
+          </node>
+          <node name="tantiema-1" size="0"/>
+          <node name="dzień roboczy-2, dniówka-2, roboczodniówka-1" size="0"/>
+          <node name="prowizja-1" size="1">
+            <node name="kurtaż-1" size="0"/>
+          </node>
+          <node name="płaca-1, pensja-1, uposażenie-2, wypłata-2, pobory-1" size="4">
+            <node name="płaca realna-1" size="0"/>
+            <node name="koszty osobowe-1" size="0"/>
+            <node name="gaża-1" size="0"/>
+            <node name="płaca minimalna-1" size="0"/>
+          </node>
+          <node name="odprawa-1" size="3">
+            <node name="odprawa warunkowa-2" size="0"/>
+            <node name="odprawa pośmiertna-1" size="0"/>
+            <node name="odprawa bezwarunkowa-1" size="0"/>
+          </node>
+          <node name="dieta-1" size="0"/>
+        </node>
+        <node name="zapomoga-1, datek-2, pomoc-2, wsparcie-6" size="17">
+          <node name="dodatek aktywizacyjny-1" size="0"/>
+          <node name="pomoc horyzontalna-1" size="0"/>
+          <node name="wsparcie finansowe-1" size="1">
+            <node name="premia termomodernizacyjna-1" size="0"/>
+          </node>
+          <node name="becikowe-1, jednorazowa zapomoga z tytułu urodzenia się dziecka-1" size="0"/>
+          <node name="wyprawka-1" size="0"/>
+          <node name="zasiłek-1" size="10">
+            <node name="zasiłek porodowy-1" size="0"/>
+            <node name="zasiłek stały-1" size="0"/>
+            <node name="zasiłek pogrzebowy-1" size="0"/>
+            <node name="zasiłek okresowy-1" size="0"/>
+            <node name="zasiłek chorobowy-1" size="0"/>
+            <node name="zasiłek pielęgnacyjny-1" size="0"/>
+            <node name="socjal-1" size="0"/>
+            <node name="kuroniówka-2" size="0"/>
+            <node name="zasiłek wychowawczy-1" size="0"/>
+            <node name="zasiłek rodzinny-1" size="0"/>
+          </node>
+        </node>
+        <node name="świadczenie-7" size="64">
+          <node name="świadczenie wysokospecjalistyczne-1" size="0"/>
+          <node name="świadczenie specjalistyczne-1" size="0"/>
+          <node name="świadczenie pracownicze-1" size="0"/>
+          <node name="świadczenie społeczne-1" size="8">
+            <node name="zaliczka alimentacyjna-1" size="0"/>
+            <node name="ubezpieczenie społeczne-1" size="0"/>
+            <node name="renta-2" size="3">
+              <node name="renta szkoleniowa-1" size="0"/>
+              <node name="renta inwalidzka-1" size="0"/>
+              <node name="renta strukturalna-1" size="0"/>
+            </node>
+            <node name="emerytura-1, zaopatrzenie emerytalne-1" size="1">
+              <node name="emerytura pomostowa-1" size="0"/>
+            </node>
+          </node>
+          <node name="becikowe-1, jednorazowa zapomoga z tytułu urodzenia się dziecka-1" size="0"/>
+          <node name="benefit-1" size="0"/>
+          <node name="alimenta-1" size="0"/>
+          <node name="danina-1" size="10">
+            <node name="olbora-1, orbora-1" size="0"/>
+            <node name="powołowe-1" size="0"/>
+            <node name="świętojanka-2" size="0"/>
+            <node name="odumarszczyzna-1" size="0"/>
+            <node name="narzaz-1" size="0"/>
+            <node name="hiberna-2" size="0"/>
+            <node name="osep-1" size="0"/>
+            <node name="świętopietrze-1" size="0"/>
+            <node name="kontrybucja-1" size="0"/>
+            <node name="haracz-2, trybut-1" size="0"/>
+          </node>
+          <node name="pańszczyzna-2, renta odrobkowa-1" size="0"/>
+          <node name="kontyngent-1" size="0"/>
+          <node name="darmocha-2, daremszczyzna-1" size="0"/>
+          <node name="alimenty-1" size="32"/>
+          <node name="stypendium-1" size="1">
+            <node name="stypendium naukowe-1" size="0"/>
+          </node>
+        </node>
+        <node name="dopłata-1, dodatek-1" size="19">
+          <node name="ołówkowe-1, dodatek ołówkowy-1" size="0"/>
+          <node name="dodatek motywacyjny-1" size="0"/>
+          <node name="dodatek mieszkaniowy-1" size="0"/>
+          <node name="dodatek wyrównawczy-1" size="0"/>
+          <node name="dodatek służbowy-1" size="0"/>
+          <node name="dodatek szkoleniowy-1" size="0"/>
+          <node name="dodatek kompensacyjny-1" size="0"/>
+          <node name="dodatek pielęgnacyjny-1" size="0"/>
+          <node name="dopłata kompensacyjna-1" size="0"/>
+          <node name="premia gwarancyjna-1" size="0"/>
+          <node name="napiwek-1" size="1">
+            <node name="bakczysz-1, bakszysz-1" size="0"/>
+          </node>
+          <node name="dodatek rodzinny-1" size="0"/>
+          <node name="dodatek funkcyjny-1" size="0"/>
+          <node name="dotacja-1, dofinansowanie-2, subwencja-1, subsydium-1, dotowanie-2" size="4">
+            <node name="subwencja ogólna-1" size="0"/>
+            <node name="subsydium eksportowe-1" size="0"/>
+            <node name="dopłata bezpośrednia-1" size="0"/>
+            <node name="grant-1" size="0"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node name="opłata-1" size="113">
+      <node name="rogatkowe-1" size="0"/>
+      <node name="stempel-5" size="0"/>
+      <node name="opłata bankowa-1" size="0"/>
+      <node name="opłata wyrównawcza-1" size="0"/>
+      <node name="opłata eksploatacyjna-1" size="0"/>
+      <node name="korkowe-1" size="0"/>
+      <node name="opłata miejscowa-1" size="0"/>
+      <node name="opłata skarbowa-1" size="0"/>
+      <node name="wkład mieszkaniowy-1" size="0"/>
+      <node name="wkład budowlany-1" size="0"/>
+      <node name="opłata ryczałtowa-1" size="0"/>
+      <node name="opłata winietowa-1" size="0"/>
+      <node name="opłata portowa-1" size="0"/>
+      <node name="opłata lotniskowa-1" size="0"/>
+      <node name="opłata adiacencka-1" size="0"/>
+      <node name="opłata lokalna-1" size="0"/>
+      <node name="opłata kancelaryjna-1" size="0"/>
+      <node name="wpis stosunkowy-1" size="0"/>
+      <node name="wpis stały-1" size="0"/>
+      <node name="wpis ostateczny-1" size="0"/>
+      <node name="opłata produktowa-1" size="0"/>
+      <node name="pamiętne-1" size="0"/>
+      <node name="annaty-1" size="0"/>
+      <node name="jednane-1" size="0"/>
+      <node name="fracht-2" size="1">
+        <node name="fracht dystansowy-1" size="0"/>
+      </node>
+      <node name="podatek-2" size="18">
+        <node name="podatek liniowy-1" size="0"/>
+        <node name="karta podatkowa-1" size="0"/>
+        <node name="podatek pośredni-1" size="6">
+          <node name="podatek obrotowy-1" size="0"/>
+          <node name="podatek importowy-1" size="0"/>
+          <node name="podatek konsumpcyjny-1" size="3">
+            <node name="akcyza-1" size="0"/>
+            <node name="VAT-2, vat-1, PTU-1, podatek od towarów i usług-1" size="1">
+              <node name="podatek należny-1" size="0"/>
+            </node>
+          </node>
+        </node>
+        <node name="podatek bezpośredni-1" size="8">
+          <node name="podatek od gier-1" size="0"/>
+          <node name="podatek drogowy-1" size="0"/>
+          <node name="podatek leśny-1" size="0"/>
+          <node name="podatek wyrównawczy-1" size="0"/>
+          <node name="podatek gruntowy-1, podatek rolny-1" size="0"/>
+          <node name="podatek dochodowy-1" size="2">
+            <node name="PIT-2, podatek od dochodów osobistych-1" size="0"/>
+            <node name="CIT-1, podatek dochodowy od osób prawnych-1, podatek od przedsiębiorstw-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="hazuka-3" size="0"/>
+      <node name="ubezpieczenie-6" size="2">
+        <node name="ubezpieczenie społeczne-1" size="0"/>
+        <node name="ubezpieczenie na życie-1" size="0"/>
+      </node>
+      <node name="kominowe-1" size="0"/>
+      <node name="taksa-1" size="0"/>
+      <node name="taryfa-1" size="0"/>
+      <node name="kaucja-1" size="1">
+        <node name="wadium-1" size="0"/>
+      </node>
+      <node name="haracz-1" size="0"/>
+      <node name="okup-1, wykupne-1" size="1">
+        <node name="kompozycja-6" size="0"/>
+      </node>
+      <node name="czesne-1" size="0"/>
+      <node name="wpisowe-1, wpis-1" size="0"/>
+      <node name="podatek-1, opodatkowanie-2, danina-2" size="44">
+        <node name="renta planistyczna-1" size="0"/>
+        <node name="podatek od czynności cywilnoprawnych-1" size="0"/>
+        <node name="podatek urbarialny-1" size="0"/>
+        <node name="podatek Tobina-1" size="0"/>
+        <node name="podatek solidarnościowy-1" size="0"/>
+        <node name="podatek od luksusu-1" size="0"/>
+        <node name="podatek kościelny-1" size="0"/>
+        <node name="podatek ekologiczny-1, podatek na ochronę środowiska-1" size="0"/>
+        <node name="podatek degresywny-1" size="0"/>
+        <node name="podatek cedularny-1" size="0"/>
+        <node name="podatek basenowy-1" size="0"/>
+        <node name="janosikowe-1" size="0"/>
+        <node name="podatek rzeczowy-1" size="0"/>
+        <node name="podatek majątkowy-1" size="0"/>
+        <node name="podatek tonażowy-1" size="0"/>
+        <node name="rugowe-1" size="0"/>
+        <node name="podatek Pigou-1" size="0"/>
+        <node name="fordon-2" size="0"/>
+        <node name="czopowe-1" size="0"/>
+        <node name="samoopodatkowanie-1" size="0"/>
+        <node name="powołowe-1" size="0"/>
+        <node name="podatek katastralny-1, kataster-2, kadaster-2" size="0"/>
+        <node name="szos-1" size="0"/>
+        <node name="bykowe-1" size="0"/>
+        <node name="łanowe-1" size="0"/>
+        <node name="poradlne-1, podatek poradlny-1" size="0"/>
+        <node name="dupla-1" size="0"/>
+        <node name="zakat-1, zaka-1, zakāt-2" size="0"/>
+        <node name="kwarta-4" size="0"/>
+        <node name="pogłówne-1, podatek pogłówny-1" size="1">
+          <node name="dżizja-1" size="0"/>
+        </node>
+        <node name="kominowe-2, podatek kominowy-1" size="0"/>
+        <node name="podymne-1, podworowe-1" size="0"/>
+        <node name="kwadrupla-1" size="0"/>
+        <node name="domiar-1, domiar podatkowy-1" size="0"/>
+        <node name="ryczałt-2" size="0"/>
+        <node name="regresja podatkowa-1" size="0"/>
+        <node name="dziesięcina-1" size="0"/>
+        <node name="popiwek-1" size="1">
+          <node name="neopopiwek-1" size="0"/>
+        </node>
+        <node name="podatek progresywny-1" size="0"/>
+        <node name="myto-1" size="2"/>
+      </node>
+      <node name="cło-1" size="6">
+        <node name="cło generalne-1" size="0"/>
+        <node name="cło retorsyjne-1" size="0"/>
+        <node name="cło ochronne-1, cło zaporowe-1, cło prohibicyjne-1" size="0"/>
+        <node name="myto-1" size="2">
+          <node name="pomierne-1" size="0"/>
+          <node name="mostowe-1" size="0"/>
+        </node>
+      </node>
+      <node name="czynsz-1" size="4">
+        <node name="czynsz wolny-1" size="0"/>
+        <node name="obiedne-1" size="0"/>
+        <node name="dzierżawne-1, czynsz dzierżawny-1, dzierżawa-2" size="0"/>
+        <node name="komorne-1" size="0"/>
+      </node>
+    </node>
+    <node name="łapówka-1, łapówa-1, wziątka-1, korzyść majątkowa-2, szeleszczący argument-1, koperta-3, kopertówka-2, kopertówa-1" size="1">
+      <node name="jurgielt-2" size="0"/>
+    </node>
+    <node name="wpłata-2" size="0"/>
+    <node name="udział-1, wkład-1" size="12">
+      <node name="stopa zwrotu-1, stopa dochodu-1" size="0"/>
+      <node name="aport-1" size="0"/>
+      <node name="akcja-4" size="9">
+        <node name="akcja imienna-1" size="0"/>
+        <node name="akcja założycielska-1" size="0"/>
+        <node name="akcja niema-1" size="0"/>
+        <node name="akcja gotówkowa-1" size="0"/>
+        <node name="akcja aportowa-1" size="0"/>
+        <node name="akcja na okaziciela-1" size="0"/>
+        <node name="akcja zwykła-1" size="0"/>
+        <node name="akcja uprzywilejowana-1" size="0"/>
+        <node name="złota akcja-1" size="0"/>
+      </node>
+    </node>
+    <node name="należność-1" size="59">
+      <node name="opłata półkowa-1" size="0"/>
+      <node name="ekspozycje kredytowe-1" size="0"/>
+      <node name="należność publicznoprawna-1" size="0"/>
+      <node name="delacja-2" size="0"/>
+      <node name="znaleźne-1" size="0"/>
+      <node name="odstępne-2" size="0"/>
+      <node name="dług-1, zadłużenie-2, kreska-7" size="4">
+        <node name="dług publiczny-1" size="0"/>
+        <node name="kredyt-3" size="0"/>
+        <node name="saldo debetowe-1" size="0"/>
+        <node name="debet-1" size="0"/>
+      </node>
+      <node name="należność krótkoterminowa-1" size="0"/>
+      <node name="należność długoterminowa-1" size="0"/>
+      <node name="składka-1" size="7">
+        <node name="zus-2" size="0"/>
+        <node name="ubezpieczenie zdrowotne-1, zdrowotne-1" size="0"/>
+        <node name="ubezpieczenie społeczne-2, społeczne-1" size="4">
+          <node name="ubezpieczenie wypadkowe-1" size="0"/>
+          <node name="ubezpieczenie chorobowe-1" size="0"/>
+          <node name="ubezpieczenie rentowe-1" size="0"/>
+          <node name="ubezpieczenie emerytalne-1" size="0"/>
+        </node>
+      </node>
+      <node name="ryczałt-1" size="0"/>
+      <node name="alimenty-1" size="32">
+        <node name="stosunek zobowiązaniowy-1" size="31">
+          <node name="akcept-1" size="0"/>
+          <node name="kredyt-1" size="29">
+            <node name="kredyt akceptacyjny-1" size="0"/>
+            <node name="spłata balonowa-1, płatność balonowa-1, kredyt balonowy-1, rata balonowa-2" size="0"/>
+            <node name="kredyt bankowy-1" size="7">
+              <node name="kredyt rolowany-1" size="0"/>
+              <node name="kredyt podporządkowany-1" size="0"/>
+              <node name="kredyt konsorcjalny-1" size="0"/>
+              <node name="kredyt obrotowy-1" size="1">
+                <node name="kredyt kasowy-1" size="0"/>
+              </node>
+              <node name="kredyt gotówkowy-1" size="0"/>
+              <node name="kredyt inwestycyjny-1" size="0"/>
+            </node>
+            <node name="kredyt hipoteczny-1" size="1">
+              <node name="odwrócona hipoteka-1" size="0"/>
+            </node>
+            <node name="kredyt stracony-1" size="0"/>
+            <node name="kredyt redyskontowy-1" size="0"/>
+            <node name="kredyt lombardowy-1" size="0"/>
+            <node name="kredyt konsumencki-1" size="0"/>
+            <node name="kredyt skupowy-1" size="0"/>
+            <node name="kredyt preferencyjny-1" size="2">
+              <node name="kredyt suszowy-1" size="0"/>
+              <node name="kredyt studencki-1" size="0"/>
+            </node>
+            <node name="kredyt kontraktowy-1" size="0"/>
+            <node name="kredyt pomostowy-1" size="0"/>
+            <node name="trzydziestka-8" size="0"/>
+            <node name="mikrokredyt-1" size="0"/>
+            <node name="remburs-1, kredyt rembursowy-1" size="0"/>
+            <node name="kredyt rewolwingowy-1, rewolwing-1" size="0"/>
+            <node name="kredyt państwowy-1" size="0"/>
+            <node name="kredyt refinansowy-1" size="0"/>
+            <node name="kredyt konsumpcyjny-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="rachunek-3, regestr-5" size="2">
+        <node name="faktura-1" size="1">
+          <node name="e-faktura-1" size="0"/>
+        </node>
+      </node>
+      <node name="spłata-2" size="0"/>
+    </node>
+    <node name="majątek-4, pieniądze-2" size="0"/>
+    <node name="deficyt-2" size="3">
+      <node name="deficyt ekonomiczny-1" size="0"/>
+      <node name="deficyt cykliczny-1, saldo cykliczne-1" size="0"/>
+      <node name="deficyt budżetowy-1, dziura budżetowa-1" size="0"/>
+    </node>
+    <node name="rata-1" size="1">
+      <node name="rata balonowa-1, spłata balonowa-2, płatność balonowa-2" size="0"/>
+    </node>
+  </node>
+  <node name="kropla-1, kropelka-1" size="0"/>
+  <node name="bogactwo-1, dostatek-1, obfitość-1, profuzja-1" size="8">
+    <node name="dwa grzyby w barszczu-2" size="0"/>
+    <node name="dar ziemi-1" size="0"/>
+    <node name="kalejdoskop-1" size="0"/>
+    <node name="feeria-1, koncert-4, orgia-3" size="2">
+      <node name="symfonia-2" size="0"/>
+      <node name="eksplozja-2" size="0"/>
+    </node>
+    <node name="dorodność-1" size="0"/>
+    <node name="dobrodziejstwo-2" size="0"/>
+  </node>
+  <node name="część-1" size="1136">
+    <node name="kwadrant-6" size="0"/>
+    <node name="odprysk-3" size="0"/>
+    <node name="tysięczna część-1" size="0"/>
+    <node name="dziesiąta część-1" size="0"/>
+    <node name="dwunasta część-1" size="0"/>
+    <node name="piąta część-1" size="0"/>
+    <node name="ósma część-1" size="2">
+      <node name="ósemka-8" size="1">
+        <node name="oktant-2" size="0"/>
+      </node>
+    </node>
+    <node name="siódma część-1" size="0"/>
+    <node name="szósta część-1" size="0"/>
+    <node name="wierzchołek góry lodowej-1, szczyt góry lodowej-1" size="0"/>
+    <node name="kolumna-12" size="0"/>
+    <node name="tysiączna-2, tysięczna-2" size="0"/>
+    <node name="obrywka-1" size="0"/>
+    <node name="piętka-8" size="0"/>
+    <node name="podzakres-1" size="0"/>
+    <node name="obwój-2" size="0"/>
+    <node name="łuk kolankowy-1" size="0"/>
+    <node name="rzut-4" size="0"/>
+    <node name="trzecia część-1, 1/3-1, jedna trzecia-1" size="0"/>
+    <node name="procent-2" size="0"/>
+    <node name="całostka-2" size="1">
+      <node name="strofoida-1" size="0"/>
+    </node>
+    <node name="odcinek-1" size="0"/>
+    <node name="dział-3" size="5">
+      <node name="skrzynka-5" size="0"/>
+      <node name="blok-12" size="2">
+        <node name="nekrologia-1" size="0"/>
+        <node name="teleferie-1" size="0"/>
+      </node>
+      <node name="varia-2, miscellanea-2" size="0"/>
+    </node>
+    <node name="człon-1" size="6">
+      <node name="człon pośredni-1" size="0"/>
+      <node name="człon składniowy-1" size="4">
+        <node name="człon konstytutywny-1" size="0"/>
+        <node name="człon równorzędny-1" size="0"/>
+        <node name="człon podrzędny-1, człon określający-1" size="0"/>
+        <node name="człon nadrzędny-1, człon określany-1" size="0"/>
+      </node>
+    </node>
+    <node name="promil-1" size="0"/>
+    <node name="transza-1" size="0"/>
+    <node name="mniejszość-2" size="3">
+      <node name="mniejszość-1" size="2">
+        <node name="mniejszość narodowa-1" size="0"/>
+        <node name="mniejszość etniczna-1" size="0"/>
+      </node>
+    </node>
+    <node name="ćwiartka-2, ćwierć-1, 1/4-1, jedna czwarta-1, czwarta część-1" size="3">
+      <node name="ćwiertnia-1" size="0"/>
+      <node name="ćwiartka-5" size="0"/>
+      <node name="czwórka-12, ćwiartka-4" size="0"/>
+    </node>
+    <node name="dola-2, działka-2" size="0"/>
+    <node name="fragment-1, ułamek-2, ułomek-2" size="198">
+      <node name="piąte przez dziesiąte-1" size="0"/>
+      <node name="włókienko-1" size="6">
+        <node name="włókno-2, fibryl-1" size="5">
+          <node name="troczek więzadła-1, troczek więzadła łukowatego-1" size="0"/>
+          <node name="troczek rzepki-1" size="0"/>
+          <node name="neurofibryl-1" size="0"/>
+          <node name="miofibryla-1, włókienko kurczliwe-1" size="0"/>
+          <node name="miocyt-1" size="0"/>
+        </node>
+      </node>
+      <node name="paragraf-2" size="0"/>
+      <node name="eksplantat-1" size="0"/>
+      <node name="strona-11" size="0"/>
+      <node name="ustęp-3" size="0"/>
+      <node name="kapitulum-2" size="0"/>
+      <node name="epeisodion-1" size="0"/>
+      <node name="fugato-1" size="0"/>
+      <node name="szlagwort-1" size="0"/>
+      <node name="ritornel-1" size="0"/>
+      <node name="ekscerpt-1" size="0"/>
+      <node name="pieśń-3" size="0"/>
+      <node name="poła-1" size="0"/>
+      <node name="artykuł-3" size="0"/>
+      <node name="mer-2" size="0"/>
+      <node name="kontekst-2" size="0"/>
+      <node name="urywek-1, wyrywek-1" size="8">
+        <node name="wyimek-1, wyjątek-2" size="1">
+          <node name="wypisek-1, wypis-2" size="0"/>
+        </node>
+        <node name="ustęp-1, passus-1" size="5">
+          <node name="perykopa-1" size="0"/>
+          <node name="punkt-6" size="0"/>
+          <node name="akapit-1" size="1">
+            <node name="lead-1, główka artykułu-1, lid-1" size="0"/>
+          </node>
+          <node name="konkluzja-2" size="0"/>
+        </node>
+      </node>
+      <node name="Parasza-1" size="0"/>
+      <node name="sampel-1" size="1">
+        <node name="loop-1" size="0"/>
+      </node>
+      <node name="scena-2" size="6">
+        <node name="scena rozbierana-2" size="0"/>
+        <node name="kommos-1" size="0"/>
+        <node name="balet-6" size="2">
+          <node name="divertimento-1" size="0"/>
+          <node name="adadżio-3, adagio-3" size="0"/>
+        </node>
+        <node name="ansambl-2" size="0"/>
+      </node>
+      <node name="złomisko-1" size="0"/>
+      <node name="recytatyw-2" size="0"/>
+      <node name="kuplet-2" size="0"/>
+      <node name="wycinek-1" size="0"/>
+      <node name="powtórzenie-5" size="9">
+        <node name="dittografia-1" size="0"/>
+        <node name="refren-2" size="1">
+          <node name="riff-2" size="0"/>
+        </node>
+        <node name="ostinato-1" size="1">
+          <node name="riff-1" size="0"/>
+        </node>
+        <node name="konkatenacja-1, kompozycja łańcuchowa-1" size="0"/>
+        <node name="repryza-1" size="0"/>
+        <node name="refren-1" size="1">
+          <node name="przyśpiew-2" size="0"/>
+        </node>
+      </node>
+      <node name="epizod-3" size="15">
+        <node name="rólka-1" size="0"/>
+        <node name="scena-3" size="13">
+          <node name="scenka rodzajowa-1" size="0"/>
+          <node name="międzyakt-2" size="0"/>
+          <node name="psychostazja-1" size="0"/>
+          <node name="ekspozycja-4" size="0"/>
+          <node name="dokrętka-2" size="0"/>
+          <node name="zdjęcia próbne-1" size="0"/>
+          <node name="dłużyzna-1" size="0"/>
+          <node name="ujęcie-8, klaps-4" size="5">
+            <node name="kontrplan-1" size="0"/>
+            <node name="dubel-1" size="0"/>
+            <node name="przebitka-5" size="0"/>
+            <node name="zbliżenie-4" size="1">
+              <node name="najazd kamery-1" size="0"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node name="odcinek-3" size="109">
+        <node name="hals-2" size="0"/>
+        <node name="podjazd-4" size="1">
+          <node name="premia górska-2" size="0"/>
+        </node>
+        <node name="wieniec-3" size="0"/>
+        <node name="stroik-9" size="0"/>
+        <node name="eska-1" size="0"/>
+        <node name="jelito ślepe-1, kątnica-1" size="0"/>
+        <node name="topik-2" size="0"/>
+        <node name="międzywęźle-1" size="0"/>
+        <node name="esica-1" size="0"/>
+        <node name="poprzecznica-1" size="0"/>
+        <node name="podbieg-1" size="1">
+          <node name="premia górska-5" size="0"/>
+        </node>
+        <node name="prostka-1, króciec-1" size="0"/>
+        <node name="okrężnica-1" size="0"/>
+        <node name="odbytnica-1, jelito proste-1, prostnica-1, kiszka stolcowa-1" size="0"/>
+        <node name="zakręt-1, skręt-2" size="8">
+          <node name="kolano-2" size="0"/>
+          <node name="prawoskręt-2" size="0"/>
+          <node name="lewoskręt-2" size="0"/>
+          <node name="zakręt śmierci-1" size="0"/>
+          <node name="zakos-1" size="0"/>
+          <node name="wiraż-1" size="0"/>
+          <node name="meander-1" size="1">
+            <node name="meander-3" size="0"/>
+          </node>
+        </node>
+        <node name="etap-2" size="0"/>
+        <node name="przełyk-1" size="0"/>
+        <node name="dwunastnica-1" size="0"/>
+        <node name="odległość-1, dystans-2" size="79">
+          <node name="linia śniegu-1" size="0"/>
+          <node name="horyzont cząstek-1" size="0"/>
+          <node name="odległość zenitalna-1" size="0"/>
+          <node name="odległość biegunowa-1" size="0"/>
+          <node name="rzut beretem-1, rzut kamieniem-1" size="0"/>
+          <node name="ogniskowa-1, odległość ogniskowa-1" size="0"/>
+          <node name="abcug-1" size="0"/>
+          <node name="krok-9" size="0"/>
+          <node name="skok śruby-1" size="0"/>
+          <node name="zasięg-2" size="0"/>
+          <node name="rozstawienie-3, rozstaw-1, rozstawa-1" size="5">
+            <node name="rozstaw osi-1" size="0"/>
+            <node name="rozstaw przylądkowy-1" size="0"/>
+            <node name="rozstaw trójstopowy-1" size="0"/>
+            <node name="rozstaw bośniacki-1" size="0"/>
+            <node name="rozłoga-1" size="0"/>
+          </node>
+          <node name="postęp-3" size="0"/>
+          <node name="droga-5" size="10">
+            <node name="skok tłoka-1" size="0"/>
+            <node name="tor-2, trajektoria-1" size="8">
+              <node name="helisa-1, linia śrubowa-1" size="1">
+                <node name="helisa-2, podwójna helisa-1" size="0"/>
+              </node>
+              <node name="krzywa balistyczna-1" size="0"/>
+              <node name="orbita-1" size="4">
+                <node name="orbita geostacjonarna-1" size="0"/>
+                <node name="orbita biegunowa-1, orbita polarna-1" size="0"/>
+                <node name="deferent-1" size="0"/>
+                <node name="epicykl-1" size="0"/>
+              </node>
+            </node>
+          </node>
+          <node name="półdystans-1" size="0"/>
+          <node name="elongacja-2" size="0"/>
+          <node name="kilometraż-1" size="0"/>
+          <node name="rozstęp-1" size="0"/>
+          <node name="stopień geotermiczny-1" size="0"/>
+          <node name="oddalenie-9" size="4">
+            <node name="bliskość-3" size="1">
+              <node name="tutejszość-1" size="0"/>
+            </node>
+            <node name="dal-1, dalekość-1, bezkres-1, bezkresność-1" size="1">
+              <node name="niezmierność-2" size="0"/>
+            </node>
+          </node>
+          <node name="wysokość-4" size="1">
+            <node name="apotema-1" size="0"/>
+          </node>
+          <node name="wysokość-3, górność-1" size="11">
+            <node name="stan wody-1" size="0"/>
+            <node name="wysokość względna-1" size="0"/>
+            <node name="wysokość ortometryczna-1" size="0"/>
+            <node name="wysokość bezwzględna-1" size="0"/>
+            <node name="pułap-1" size="3">
+              <node name="pułap statyczny-1, pułap teoretyczny-1" size="0"/>
+              <node name="pułap dynamiczny-1" size="0"/>
+              <node name="pułap praktyczny-1" size="0"/>
+            </node>
+            <node name="poziom-1" size="2">
+              <node name="wodostan-1" size="0"/>
+              <node name="wznios kapilarny-1, wznios-2" size="0"/>
+            </node>
+          </node>
+          <node name="kawał-3, połać-1, szmat-1" size="2">
+            <node name="kawałek-3" size="1">
+              <node name="obrywka-1" size="0"/>
+            </node>
+          </node>
+          <node name="odstęp-1, interwał-1" size="8">
+            <node name="cięcie poziomicowe-1, cięcie warstwicowe-1" size="0"/>
+            <node name="światło-6" size="0"/>
+            <node name="menzura-3" size="0"/>
+            <node name="interlinia-1" size="0"/>
+            <node name="interkolumnium-1, międzysłupie-1" size="0"/>
+            <node name="spacja-2" size="1">
+              <node name="twarda spacja-1, sztywna spacja-1" size="0"/>
+            </node>
+            <node name="podziałka-1, działka-5" size="0"/>
+          </node>
+          <node name="trasa-2, droga-3" size="14">
+            <node name="dystans-3" size="4">
+              <node name="średni dystans-1" size="0"/>
+              <node name="krótki dystans-1" size="1">
+                <node name="setka-8" size="0"/>
+              </node>
+              <node name="długi dystans-1" size="0"/>
+            </node>
+            <node name="kurs-2" size="0"/>
+            <node name="tor-1" size="6">
+              <node name="skatepark-1" size="0"/>
+              <node name="tor przeszkód-1" size="0"/>
+              <node name="motodrom-1" size="0"/>
+              <node name="welodrom-1" size="0"/>
+              <node name="nartostrada-1" size="0"/>
+              <node name="bieżnia-1" size="0"/>
+            </node>
+            <node name="marszruta-1" size="0"/>
+          </node>
+        </node>
+        <node name="prosta-1" size="0"/>
+      </node>
+      <node name="rozdział-1, kapitulum-1" size="2">
+        <node name="księga-1" size="0"/>
+        <node name="sura-1" size="0"/>
+      </node>
+      <node name="wiersz-2, wers-1, linijka-2, linia-16" size="6">
+        <node name="sierota-5, szewc-2" size="0"/>
+        <node name="sierota-4" size="0"/>
+        <node name="żywa pagina-1" size="0"/>
+        <node name="wdowa-3" size="0"/>
+        <node name="bękart-2" size="0"/>
+        <node name="werset-1" size="0"/>
+      </node>
+      <node name="cytat-1, przytoczenie-3, cytata-1" size="4">
+        <node name="mowa niezależna-1" size="0"/>
+        <node name="agrafon-1" size="0"/>
+        <node name="fortunka-1" size="0"/>
+        <node name="epigraf-1, motto-2" size="0"/>
+      </node>
+      <node name="akt-3" size="0"/>
+    </node>
+    <node name="atom-1" size="0"/>
+    <node name="większość-1, gros-1, lwia część-1" size="4">
+      <node name="większość bezwzględna-1, bezwzględna większość-1" size="0"/>
+      <node name="większość kwalifikowana-1" size="2">
+        <node name="większość parlamentarna-1" size="1">
+          <node name="większość sejmowa-1" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="próbka-1, próba-2" size="8">
+      <node name="rdzeń lodowy-1" size="0"/>
+      <node name="zgład-1" size="0"/>
+      <node name="wycinek-4" size="0"/>
+      <node name="posiew-2" size="0"/>
+      <node name="tester-4" size="0"/>
+      <node name="kerner-2" size="0"/>
+      <node name="wymaz-1" size="0"/>
+      <node name="rozmaz-1" size="0"/>
+    </node>
+    <node name="połowa-1, połówka-1, pół-1, 1/2-1, jedna druga-1, druga część-1" size="1">
+      <node name="hemidrachma-1" size="0"/>
+    </node>
+    <node name="reszta-1" size="98">
+      <node name="pozostałość-1" size="97">
+        <node name="odciek-1" size="0"/>
+        <node name="kikut-2" size="0"/>
+        <node name="wypar-1" size="0"/>
+        <node name="resztki-1" size="1">
+          <node name="zakwaska-1" size="0"/>
+        </node>
+        <node name="szczątki-2" size="10">
+          <node name="prochy-1" size="1">
+            <node name="popioły-1" size="0"/>
+          </node>
+          <node name="skamieniałość-1, skamielina-1" size="5">
+            <node name="acritarcha-1, akrytarchy-1, akritarchy-1" size="0"/>
+            <node name="pikaia-1" size="0"/>
+            <node name="ośródka-2" size="2">
+              <node name="ośródka zewnętrzna-1" size="0"/>
+              <node name="ośródka wewnętrzna-1" size="0"/>
+            </node>
+          </node>
+          <node name="kościotrup-2" size="0"/>
+          <node name="relikwia-2" size="0"/>
+        </node>
+        <node name="grodzisko-1, grodziszcze-1" size="0"/>
+        <node name="ruina-2" size="0"/>
+        <node name="przeżytek-1, anachronizm-2, archaizm-2, starzyzna-1" size="0"/>
+        <node name="resztówka-2" size="0"/>
+        <node name="pogorzelisko-1, popielisko-1, zgliszcze-1, spalenisko-1, pożarzysko-4" size="0"/>
+        <node name="resztka-1, końcówka-1" size="4"/>
+        <node name="osad-1, strąt-1, precypitat-2" size="17">
+          <node name="płytka nazębna-1, płytka bakteryjna nazębna-1" size="0"/>
+          <node name="pizoid-1" size="0"/>
+          <node name="fus-2" size="0"/>
+          <node name="fus-1" size="0"/>
+          <node name="kamień-2, kamień kotłowy-1, nawar-1" size="0"/>
+          <node name="kokolit-1, kokkolit-1" size="0"/>
+          <node name="dendryt-1" size="0"/>
+          <node name="naciek jaskiniowy-1, naciek krasowy-1, naciek-2" size="6">
+            <node name="misa martwicowa-1" size="0"/>
+            <node name="draperia naciekowa-1, zasłona naciekowa-1" size="0"/>
+            <node name="heliktyt-1" size="0"/>
+            <node name="stalagnat-1" size="0"/>
+            <node name="stalagmit-1" size="0"/>
+            <node name="stalaktyt-1, sopleniec-2, nawis-2" size="0"/>
+          </node>
+          <node name="nagar-1" size="0"/>
+          <node name="patyna-1, grynszpan szlachetny-1, śniedź-1" size="1">
+            <node name="grynszpan-1, zieleń miedziana-1" size="0"/>
+          </node>
+        </node>
+        <node name="kikut-1" size="0"/>
+        <node name="szczątki-1, szczątek-1, szczęt-1" size="4">
+          <node name="skolit-1" size="0"/>
+          <node name="martwa materia organiczna-1" size="2">
+            <node name="mumia-3" size="0"/>
+            <node name="detrytus-1" size="0"/>
+          </node>
+        </node>
+        <node name="ruiny-1, gruzy-1, gruzowisko-1, rozwalina-1, rumowisko-2" size="2">
+          <node name="zgliszcza-2" size="0"/>
+          <node name="zwalisko-1" size="0"/>
+        </node>
+        <node name="odpady-1" size="8">
+          <node name="odpady promieniotwórcze-1" size="0"/>
+          <node name="czerwony szlam-1" size="0"/>
+          <node name="zmiotki-1" size="0"/>
+          <node name="ścieki-1" size="0"/>
+          <node name="mungo-3" size="0"/>
+          <node name="zlewki-1" size="0"/>
+          <node name="wytłoki-1, wytłoczyny-1" size="0"/>
+          <node name="trociny-1" size="0"/>
+        </node>
+        <node name="odpad-1, odpadek-1" size="34">
+          <node name="odpad poużytkowy-1" size="0"/>
+          <node name="osady ściekowe-1" size="0"/>
+          <node name="rozkrusz-1" size="0"/>
+          <node name="ostrużyny-1" size="0"/>
+          <node name="zrzyn-1" size="0"/>
+          <node name="gałęziówka-1" size="0"/>
+          <node name="surowiec wtórny-1" size="4">
+            <node name="tłuczka-1, stłuczka-2" size="0"/>
+            <node name="makulatura-1" size="0"/>
+            <node name="złom-1, szmelc-2" size="1">
+              <node name="żelastwo-2, złom żelazny-1" size="0"/>
+            </node>
+          </node>
+          <node name="poślad-1" size="0"/>
+          <node name="strużyna-1, ostrużyna-1, heblowina-1" size="0"/>
+          <node name="paździerz-1" size="0"/>
+          <node name="kalafonia-1" size="0"/>
+          <node name="makuch-1, kuch-1, kuchy-1" size="0"/>
+          <node name="młóto-1, wysłodziny-1, słodziny-1" size="0"/>
+          <node name="plewa-1" size="0"/>
+          <node name="ochłap-1" size="0"/>
+          <node name="ogarek-2" size="0"/>
+          <node name="fusy-2" size="0"/>
+          <node name="otręby-1" size="0"/>
+          <node name="obierka-1, obierek-1, obierzyna-1" size="0"/>
+          <node name="ogryzek-1" size="0"/>
+          <node name="gruz-1" size="0"/>
+          <node name="okruch-1, okruszyna-1, kruszyna-2, okruszynka-1" size="1"/>
+          <node name="pak-1" size="0"/>
+          <node name="szlaka-1" size="0"/>
+          <node name="ścinek-1, resztka-2, ścinka-1, resztówka-1" size="2"/>
+          <node name="śmieć-1" size="1">
+            <node name="farfocel-1" size="0"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node name="partia-6" size="16">
+      <node name="wsad-2" size="0"/>
+      <node name="trio-4" size="0"/>
+      <node name="seria-7" size="0"/>
+      <node name="wokal-1" size="0"/>
+      <node name="partia-7" size="11">
+        <node name="podkład-3, tło-5" size="2">
+          <node name="akompaniament-2" size="1">
+            <node name="przygrywka-2" size="0"/>
+          </node>
+        </node>
+        <node name="głos-6" size="0"/>
+        <node name="linia melodyczna-1, linia kompozycyjna-1" size="6">
+          <node name="głos-8" size="3">
+            <node name="kontralt-3" size="0"/>
+            <node name="alt-5" size="0"/>
+            <node name="generałbas-1, bas cyfrowany-1, basso continuo-1" size="0"/>
+          </node>
+          <node name="kontrapunkt-2" size="0"/>
+          <node name="cantus firmus-1" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="jednostka-1" size="492">
+      <node name="czynność autonomiczna-1" size="0"/>
+      <node name="opole-3" size="0"/>
+      <node name="impuls telefoniczny-1, impuls-4" size="0"/>
+      <node name="jednostka zależna-1" size="0"/>
+      <node name="jednostka ewidencyjna-1" size="0"/>
+      <node name="jednostka budżetowa-1" size="0"/>
+      <node name="gospodarstwo pomocnicze-1" size="0"/>
+      <node name="jednostka naukowa-1" size="0"/>
+      <node name="komisariat-2" size="0"/>
+      <node name="podjednostka-1" size="0"/>
+      <node name="jednostka systematyczna-1, takson-1, jednostka taksonomiczna-1" size="91">
+        <node name="takson politypowy-1" size="0"/>
+        <node name="takson parafiletyczny-1" size="0"/>
+        <node name="takson monotypowy-1" size="0"/>
+        <node name="takson monofiletyczny-1" size="0"/>
+        <node name="forma-17" size="0"/>
+        <node name="pomocnicza kategoria systematyczna-1" size="24" abstract="true">
+          <node name="grupa-11" size="0"/>
+          <node name="seria-8" size="0"/>
+          <node name="nadplemię-1" size="0"/>
+          <node name="nadklasa-1" size="0"/>
+          <node name="infratyp-1" size="0"/>
+          <node name="infragromada-1" size="0"/>
+          <node name="nadgromada-1" size="0"/>
+          <node name="szczep-7" size="0"/>
+          <node name="nadtyp-1" size="0"/>
+          <node name="nadrodzaj-1" size="0"/>
+          <node name="szczep-6" size="0"/>
+          <node name="podplemię-1" size="0"/>
+          <node name="plemię-1" size="0"/>
+          <node name="nadrodzina-1" size="0"/>
+          <node name="infrarząd-1" size="0"/>
+          <node name="podkrólestwo-1" size="0"/>
+          <node name="podgatunek-1" size="0"/>
+          <node name="podgromada-1" size="0"/>
+          <node name="podklasa-1" size="0"/>
+          <node name="podrodzina-1" size="0"/>
+          <node name="nadrząd-1" size="0"/>
+          <node name="podrząd-1" size="0"/>
+          <node name="podtyp-1" size="0"/>
+          <node name="podrodzaj-1" size="0"/>
+        </node>
+        <node name="gromada-6" size="0"/>
+        <node name="rodzina-2" size="0"/>
+        <node name="klasa-7" size="0"/>
+        <node name="gromada-4" size="0"/>
+        <node name="odmiana-2" size="2">
+          <node name="odmiana mieszańcowa-1" size="0"/>
+          <node name="pododmiana-1" size="0"/>
+        </node>
+        <node name="rząd-5" size="0"/>
+        <node name="typ-2" size="0"/>
+        <node name="rodzaj-2" size="0"/>
+        <node name="gatunek-2" size="50">
+          <node name="gatunek zbiorowy-1" size="0"/>
+          <node name="gatunek zawleczony-1" size="0"/>
+          <node name="gatunek zagrożony-1" size="0"/>
+          <node name="gatunek wyróżniający-1, takson wyróżniający-1" size="0"/>
+          <node name="gatunek wymarły-1" size="0"/>
+          <node name="gatunek wszędobylski-1, gatunek ubikwistyczny-1" size="0"/>
+          <node name="gatunek wskaźnikowy-1, bioindykator-2, biowskaźnik-1" size="0"/>
+          <node name="gatunek typowy-1" size="0"/>
+          <node name="gatunek temporalny-1, podgatunek temporalny-1" size="0"/>
+          <node name="gatunek semelparyczny-1" size="0"/>
+          <node name="gatunek rzadki-1, gatunek potencjalnie zagrożony-1" size="0"/>
+          <node name="gatunek przypadkowy-1" size="0"/>
+          <node name="gatunek politypowy-1" size="0"/>
+          <node name="gatunek pionierski-1" size="0"/>
+          <node name="gatunek morfologiczny-1" size="0"/>
+          <node name="gatunek monotypowy-1" size="0"/>
+          <node name="gatunek kluczowy-1, gatunek zwornikowy-1" size="0"/>
+          <node name="gatunek iteroparyczny-1" size="0"/>
+          <node name="gatunek introdukowany-1" size="0"/>
+          <node name="gatunek holocykliczny-1" size="0"/>
+          <node name="gatunek dominujący-1" size="0"/>
+          <node name="gatunek diadromiczny-1, gatunek diadromowy-1, gatunek dwuśrodowiskowy-1" size="5">
+            <node name="gatunek katadromiczny-1, gatunek katadromowy-1" size="0"/>
+            <node name="gatunek amfidromiczny-1" size="0"/>
+            <node name="gatunek anadromowy-1, gatunek anadromiczny-1" size="2">
+              <node name="minóg morski-1, minog morski-1" size="0"/>
+              <node name="minóg trójzębny-1" size="0"/>
+            </node>
+          </node>
+          <node name="gatunek chroniony-1" size="0"/>
+          <node name="gatunek charakterystyczny-1" size="0"/>
+          <node name="gatunek osłonowy-1, gatunek celowy-1, gatunek tarczowy-1" size="1">
+            <node name="gatunek parasolowy-1" size="0"/>
+          </node>
+          <node name="gatunek bliźniaczy-1, gatunek kryptyczny-1" size="0"/>
+          <node name="gatunek alochroniczny-1, gatunek allochroniczny-1" size="0"/>
+          <node name="gatunek synchroniczny-1" size="0"/>
+          <node name="gatunek anholocykliczny-1" size="0"/>
+          <node name="gatunek amfitermiczny-1" size="0"/>
+          <node name="gatunek alopatryczny-1, gatunek allopatryczny-1" size="0"/>
+          <node name="gatunek alochtoniczny-1, gatunek allochtoniczny-1, gatunek obcy-1, allochton-3, alochton-3" size="1">
+            <node name="gatunek inwazyjny-1" size="0"/>
+          </node>
+          <node name="gatunek agamiczny-1" size="0"/>
+          <node name="gatunek rodzimy-1, gatunek autochtoniczny-1" size="5">
+            <node name="apofit-1" size="4">
+              <node name="alokazja-1, zakleśń-1" size="2">
+                <node name="alokazja olbrzymia-1" size="0"/>
+                <node name="alokazja amazońska-1" size="0"/>
+              </node>
+              <node name="kostrzewa walezyjska-1" size="0"/>
+            </node>
+          </node>
+          <node name="gatunek synantropijny-1, synantrop-1" size="0"/>
+          <node name="gatunek udomowiony-1" size="0"/>
+          <node name="dominant-1" size="0"/>
+          <node name="monotyp-1" size="0"/>
+        </node>
+      </node>
+      <node name="jednostka organizacyjna-1" size="274">
+        <node name="psychologia-3" size="0"/>
+        <node name="filologia klasyczna-2" size="0"/>
+        <node name="filologia hiszpańska-3" size="0"/>
+        <node name="filologia chorwacka-3" size="0"/>
+        <node name="filologia białoruska-3" size="0"/>
+        <node name="italianistyka-2" size="0"/>
+        <node name="iberystyka-2" size="0"/>
+        <node name="hungarystyka-2" size="0"/>
+        <node name="bałtystyka-2, bałtologia-2" size="0"/>
+        <node name="chorągiew-4" size="0"/>
+        <node name="filologia włoska-3" size="0"/>
+        <node name="filologia ukraińska-3" size="0"/>
+        <node name="filologia orientalna-3" size="0"/>
+        <node name="rusycystyka-3, filologia rosyjska-3" size="0"/>
+        <node name="loża-4, loża wolnomularska-1, loża masońska-1" size="2">
+          <node name="loża adopcyjna-1" size="0"/>
+          <node name="loża symboliczna-1" size="0"/>
+        </node>
+        <node name="romanistyka-3, filologia romańska-3" size="0"/>
+        <node name="germanistyka-3, filologia germańska-1, filologia niemiecka-3" size="0"/>
+        <node name="anglistyka-3, filologia angielska-3" size="0"/>
+        <node name="polonistyka-3, filologia polska-3" size="0"/>
+        <node name="wydział-5, fakultet-2" size="1">
+          <node name="filologia-3, wydział filologii-1, wydział filologiczny-1" size="0"/>
+        </node>
+        <node name="chorągiew-1" size="8">
+          <node name="chorągiew lekka-1" size="0"/>
+          <node name="chorągiew pancerna-1" size="0"/>
+          <node name="chorągiew husarska-1" size="0"/>
+          <node name="chorągiew strzelcza-1" size="0"/>
+          <node name="chorągiew kopijnicza-1" size="0"/>
+          <node name="chorągiew nadworna-1" size="0"/>
+          <node name="chorągiew ziemska-1" size="0"/>
+          <node name="chorągiew rodowa-1" size="0"/>
+        </node>
+        <node name="wenta-1" size="0"/>
+        <node name="ułus-1" size="0"/>
+        <node name="zakład-2" size="0"/>
+        <node name="dział-2, wydział-3, pion-2, sekcja-3" size="48">
+          <node name="podwydział-1" size="0"/>
+          <node name="biuro łącznikowe-1" size="0"/>
+          <node name="kryminalistyka-2" size="0"/>
+          <node name="agencja-5" size="0"/>
+          <node name="rurownia-1" size="0"/>
+          <node name="decernat-1" size="0"/>
+          <node name="kruszarnia-1" size="0"/>
+          <node name="korektornia-1, korekta-4" size="0"/>
+          <node name="klejownia-3, klejarnia-1" size="0"/>
+          <node name="młynownia-4" size="0"/>
+          <node name="młynownia-2" size="0"/>
+          <node name="przygotowalnia-2" size="0"/>
+          <node name="pudełczarnia-1" size="0"/>
+          <node name="zecernia-1" size="0"/>
+          <node name="prototypownia-1" size="0"/>
+          <node name="niciarnia-1" size="0"/>
+          <node name="dekoratornia-2" size="0"/>
+          <node name="cewiarnia-1, przewijalnia-1, przewijarnia-1" size="0"/>
+          <node name="klejownia-2, klejarnia-2" size="0"/>
+          <node name="ekstraktownia-1" size="0"/>
+          <node name="tabletkarnia-1" size="0"/>
+          <node name="wydział lokalowy-1" size="0"/>
+          <node name="probiernia-2" size="0"/>
+          <node name="odłam-4" size="0"/>
+          <node name="paczkarnia-1, paczkownia-1" size="0"/>
+          <node name="stereotypownia-1, gisernia-2" size="0"/>
+          <node name="dział personalny-1, biuro personalne-1, dział osobowy-1, kadry-1" size="0"/>
+          <node name="ekspedycja-4, ekspedytura-1" size="0"/>
+          <node name="księgowość-2, rachuba-2" size="2">
+            <node name="dekretowanie-1" size="0"/>
+            <node name="kwestura-2" size="0"/>
+          </node>
+          <node name="oddział-6" size="3">
+            <node name="stacja sanitarna-1" size="0"/>
+            <node name="tłoczarnia-1" size="0"/>
+            <node name="prażalnia-1" size="0"/>
+          </node>
+          <node name="filia-1, oddział-4, agenda-2, ekspozytura-2" size="3">
+            <node name="obwód drogowy-1" size="0"/>
+            <node name="decernat-2" size="0"/>
+            <node name="komórka-5, ogniwo-4" size="0"/>
+          </node>
+          <node name="biuro-3" size="8">
+            <node name="biuro podawcze-1" size="0"/>
+            <node name="helpdesk-1" size="0"/>
+            <node name="sekretariat-2" size="0"/>
+            <node name="komendantura-1" size="0"/>
+            <node name="intendentura-1, zaopatrzenie-3" size="0"/>
+            <node name="sprawozdawczość-2" size="0"/>
+            <node name="kancelaria-2, palestra-3" size="1">
+              <node name="kancelaria tajna-1" size="0"/>
+            </node>
+          </node>
+        </node>
+        <node name="organ-1, ciało-1" size="187">
+          <node name="konserwator przyrody-1" size="0"/>
+          <node name="ława miejska-1" size="0"/>
+          <node name="zgromadzenie narodowe-1" size="0"/>
+          <node name="rada robotnicza-1" size="0"/>
+          <node name="rada pracownicza-1" size="0"/>
+          <node name="komitet techniczny-1" size="0"/>
+          <node name="komitet sterujący-1" size="0"/>
+          <node name="dozór bóżniczy-1" size="0"/>
+          <node name="organ założycielski-1" size="0"/>
+          <node name="organ rentowy-1" size="0"/>
+          <node name="organ podatkowy-1" size="0"/>
+          <node name="organ koncesyjny-1" size="0"/>
+          <node name="organ kontroli-1" size="2">
+            <node name="izba obrachunkowa-1" size="0"/>
+            <node name="komisja rewizyjna-1" size="0"/>
+          </node>
+          <node name="rada programowa-1" size="0"/>
+          <node name="sowiet-2" size="0"/>
+          <node name="izba-2" size="12">
+            <node name="izba niższa-1" size="5">
+              <node name="izba deputowanych-1" size="0"/>
+              <node name="sejm-1" size="0"/>
+              <node name="izba poselska-1" size="0"/>
+              <node name="Duma-1" size="0"/>
+              <node name="Bundestag-2" size="0"/>
+            </node>
+            <node name="izba wyższa-1" size="5">
+              <node name="Bundesrat-1" size="0"/>
+              <node name="Izba Parów-1" size="0"/>
+              <node name="Izba Lordów-1" size="0"/>
+              <node name="senat-1" size="1">
+                <node name="izba senacka-1" size="0"/>
+              </node>
+            </node>
+          </node>
+          <node name="walne zebranie-1" size="0"/>
+          <node name="organ spółki-1" size="4">
+            <node name="zgromadzenie wspólników-1" size="0"/>
+            <node name="zarząd-4" size="0"/>
+            <node name="rada nadzorcza-1" size="0"/>
+            <node name="walne zgromadzenie-1" size="0"/>
+          </node>
+          <node name="rada pedagogiczna-1" size="0"/>
+          <node name="egzekutywa-1" size="0"/>
+          <node name="prezydium-2" size="0"/>
+          <node name="organ władzy-1" size="44" abstract="true">
+            <node name="zebranie wiejskie-1" size="0"/>
+            <node name="egzekutywa-5" size="3">
+              <node name="rząd-1, gabinet-3, Rada Ministrów-1" size="2">
+                <node name="rząd mniejszościowy-1, gabinet mniejszościowy-1" size="0"/>
+                <node name="rząd koalicyjny-1" size="0"/>
+              </node>
+            </node>
+            <node name="biuro polityczne-1, politbiuro-1" size="0"/>
+            <node name="senat-4" size="0"/>
+            <node name="rzecznik praw obywatelskich-1, ombudsman-1" size="0"/>
+            <node name="areopag-1" size="0"/>
+            <node name="signoria-2, sinioria-2" size="0"/>
+            <node name="konstytuanta-1" size="0"/>
+            <node name="legislatywa-1" size="0"/>
+            <node name="junta-1" size="0"/>
+            <node name="dyrektoriat-1" size="1">
+              <node name="dyrektoriat-3" size="0"/>
+            </node>
+            <node name="starszyzna-1" size="1">
+              <node name="rada starców-1, rada starszych-1" size="0"/>
+            </node>
+            <node name="sejmik-1" size="7">
+              <node name="sejmik samorządowy-1" size="0"/>
+              <node name="sejmik województwa-1" size="0"/>
+              <node name="sejmik przedsejmowy-1" size="0"/>
+              <node name="koło-10" size="1">
+                <node name="koło rycerskie-1" size="0"/>
+              </node>
+              <node name="sejmik generalny-1, generał-3" size="0"/>
+              <node name="sejmik relacyjny-1" size="0"/>
+            </node>
+            <node name="ustawodawca-1, legislator-2, prawodawca-1" size="10">
+              <node name="nowelizator-1" size="0"/>
+              <node name="parlament-1" size="8">
+                <node name="skupsztina-1, skupsztyna-1, skupszczyna-1" size="0"/>
+                <node name="sejm walny-2" size="0"/>
+                <node name="medżlis-1, madżlis-1" size="0"/>
+                <node name="Storting-1" size="0"/>
+                <node name="kortezy-1" size="0"/>
+                <node name="Kongres-1" size="0"/>
+                <node name="Kneset-1" size="0"/>
+                <node name="Landtag-2" size="0"/>
+              </node>
+            </node>
+            <node name="samorząd-2" size="0"/>
+            <node name="zgromadzenie-6" size="0"/>
+            <node name="dowództwo-2, wodza-2" size="4">
+              <node name="kwatera główna-2" size="0"/>
+              <node name="kwatermistrzostwo-1" size="0"/>
+              <node name="generalicja-1" size="0"/>
+              <node name="admiralicja-1" size="0"/>
+            </node>
+            <node name="senat-3" size="0"/>
+          </node>
+          <node name="wojewoda-1" size="0"/>
+          <node name="urząd-1" size="72">
+            <node name="wywiad skarbowy-1" size="0"/>
+            <node name="urząd pocztowy-1" size="0"/>
+            <node name="izba-6" size="1">
+              <node name="izba morska-1" size="0"/>
+            </node>
+            <node name="urząd centralny-1" size="0"/>
+            <node name="urząd marszałkowski-1" size="0"/>
+            <node name="podkanclerstwo-1" size="0"/>
+            <node name="archontat-1" size="0"/>
+            <node name="naczelnikostwo-2" size="0"/>
+            <node name="podczaszostwo-2" size="0"/>
+            <node name="prezydentostwo-1" size="0"/>
+            <node name="kuchmistrzostwo-2" size="0"/>
+            <node name="eforat-1" size="0"/>
+            <node name="magistrat-2, miasto-2" size="1">
+              <node name="senat-5" size="0"/>
+            </node>
+            <node name="komisariat-3" size="0"/>
+            <node name="prytan-1" size="0"/>
+            <node name="wójtostwo-2, adwokacja-2" size="0"/>
+            <node name="landratura-1" size="0"/>
+            <node name="podskarbiostwo-1" size="0"/>
+            <node name="radcostwo-2" size="0"/>
+            <node name="kanclerstwo-1" size="0"/>
+            <node name="urząd kościelny-1" size="12" abstract="true">
+              <node name="koadiutoria-1" size="0"/>
+              <node name="kancelaria papieska-1" size="0"/>
+              <node name="prymasostwo-1" size="0"/>
+              <node name="dykasteria-1, dykasterium-1" size="0"/>
+              <node name="przeorat-1" size="0"/>
+              <node name="prepozytura-1" size="0"/>
+              <node name="prałatura-1" size="0"/>
+              <node name="papiestwo-1, tron Piotrowy-1" size="0"/>
+              <node name="nuncjatura-1" size="0"/>
+              <node name="dekanat-2" size="0"/>
+              <node name="wikariat-2, wikaria-1" size="0"/>
+              <node name="kuria-1" size="0"/>
+            </node>
+            <node name="kwaterunek-3" size="0"/>
+            <node name="trybunat-1" size="0"/>
+            <node name="rzecznictwo patentowe-1" size="0"/>
+            <node name="komornictwo-2" size="0"/>
+            <node name="prokuratoria-1" size="0"/>
+            <node name="ordynariat-1" size="0"/>
+            <node name="heroldia-1" size="0"/>
+            <node name="egzarchat-2" size="0"/>
+            <node name="egzarchat-3" size="0"/>
+            <node name="administratura-1" size="0"/>
+            <node name="dyrektorstwo-1, dyrekcja-3, dyrektura-1" size="0"/>
+            <node name="dygnitarstwo-1" size="0"/>
+            <node name="cesarstwo-4" size="0"/>
+            <node name="carstwo-2" size="0"/>
+            <node name="burmistrzostwo-1" size="0"/>
+            <node name="buława-2" size="0"/>
+            <node name="notariat-1" size="0"/>
+            <node name="magistratura-1" size="0"/>
+            <node name="rektorat-2" size="0"/>
+            <node name="kwestura-1" size="0"/>
+            <node name="bosmanat-1" size="0"/>
+            <node name="kapitanat-2, kapitanat portu-1" size="0"/>
+            <node name="starostwo-1" size="0"/>
+            <node name="sanepid-1" size="0"/>
+            <node name="nadleśnictwo-1" size="0"/>
+            <node name="kuratorium-1, kuratorium oświaty-1" size="0"/>
+            <node name="inspektorat-1" size="2">
+              <node name="inspektorat pracy-1" size="0"/>
+              <node name="inspektorat szkolny-1" size="0"/>
+            </node>
+            <node name="UOP-2, Urząd Ochrony Państwa-1" size="0"/>
+            <node name="konsulat-1" size="0"/>
+            <node name="cenzura-3" size="0"/>
+            <node name="prokurator generalny-2" size="0"/>
+            <node name="prokuratura-1" size="0"/>
+            <node name="gmina-2" size="0"/>
+            <node name="resort-2" size="1">
+              <node name="ministerstwo-3, resort-3" size="0"/>
+            </node>
+          </node>
+          <node name="samorząd-1" size="1">
+            <node name="samorząd pomocniczy-1" size="0"/>
+          </node>
+          <node name="prokuratura-1" size="0"/>
+          <node name="prezydium-1" size="0"/>
+          <node name="policja-2" size="13">
+            <node name="policja sądowa-1" size="0"/>
+            <node name="policja polityczna-1" size="0"/>
+            <node name="policja obyczajowa-1, obyczajówka-1" size="0"/>
+            <node name="granatowa policja-1" size="0"/>
+            <node name="policja dochodzeniowa-1, dochodzeniówka-1" size="0"/>
+            <node name="gestapo-1" size="0"/>
+            <node name="Europol-1" size="0"/>
+            <node name="ochrana-1" size="0"/>
+            <node name="Interpol-1" size="0"/>
+            <node name="milicja-1" size="1">
+              <node name="milicja obywatelska-1" size="0"/>
+            </node>
+            <node name="żandarmeria-1" size="0"/>
+            <node name="drogówka-1, policja drogowa-1" size="0"/>
+          </node>
+          <node name="komitet-1" size="4">
+            <node name="komitet centralny-1" size="0"/>
+            <node name="radiokomitet-1" size="0"/>
+            <node name="podkomitet-1" size="0"/>
+            <node name="komitet obywatelski-1" size="0"/>
+          </node>
+          <node name="komisja-1" size="6">
+            <node name="komisja śledcza-1" size="0"/>
+            <node name="komisja majątkowa-1" size="0"/>
+            <node name="komisja nadzwyczajna-1" size="0"/>
+            <node name="komisja etyczna-1" size="0"/>
+            <node name="komisja budżetowa-1" size="0"/>
+            <node name="krajówka-1, komisja krajowa-1" size="0"/>
+          </node>
+        </node>
+        <node name="departament-1, wydział-2, referat-2, sekcja-1, resort-1" size="1">
+          <node name="resort siłowy-1" size="0"/>
+        </node>
+      </node>
+      <node name="jednostka administracyjna-1" size="115">
+        <node name="leśnictwo-2" size="0"/>
+        <node name="obręb-4" size="0"/>
+        <node name="ułus-2" size="0"/>
+        <node name="wojskowa komenda uzupełnień-1" size="0"/>
+        <node name="dyrekcja-5" size="0"/>
+        <node name="obwód wyborczy-1" size="0"/>
+        <node name="księstwo śląskie-1" size="0"/>
+        <node name="ordynariat polowy-1" size="0"/>
+        <node name="departament-2" size="0"/>
+        <node name="aglomeracja-2" size="0"/>
+        <node name="municypium-4" size="0"/>
+        <node name="generałgubernatorstwo-1, generał-gubernatorstwo-1" size="0"/>
+        <node name="półkanton-1" size="0"/>
+        <node name="tema-1" size="0"/>
+        <node name="szejkat-1, szejkanat-1" size="0"/>
+        <node name="lordostwo-3" size="0"/>
+        <node name="banat-1, banowina-1" size="0"/>
+        <node name="kapitania-1, kapitania generalna-1" size="0"/>
+        <node name="nom-1" size="0"/>
+        <node name="seniorat-3" size="0"/>
+        <node name="dystrykt-1" size="0"/>
+        <node name="metropolia-3" size="0"/>
+        <node name="nomarchia-1" size="0"/>
+        <node name="paszałyk-1, paszałykat-1, paszalik-1" size="0"/>
+        <node name="tribus-1" size="0"/>
+        <node name="pałanka-2" size="0"/>
+        <node name="kongregacja-1" size="0"/>
+        <node name="ostan-1" size="0"/>
+        <node name="ziemia-3" size="1">
+          <node name="powiatówka-2" size="0"/>
+        </node>
+        <node name="kraj-4" size="1">
+          <node name="kraj związkowy-1, land-1" size="0"/>
+        </node>
+        <node name="gromada-5" size="0"/>
+        <node name="komitat-1, żupania-1, żupanat-1" size="0"/>
+        <node name="komornictwo-1" size="0"/>
+        <node name="rejencja-1" size="0"/>
+        <node name="sandżak-2" size="0"/>
+        <node name="merostwo-1" size="0"/>
+        <node name="kasztelania-2" size="0"/>
+        <node name="wicekrólestwo-1, virreinato-1" size="0"/>
+        <node name="stanica-5" size="0"/>
+        <node name="ajmak-1" size="0"/>
+        <node name="margrabstwo-1, marchia-1" size="0"/>
+        <node name="hrabstwo-1" size="1">
+          <node name="hrabstwo ceremonialne-1" size="0"/>
+        </node>
+        <node name="gubernium-1" size="0"/>
+        <node name="komturia-1, komturstwo-1" size="0"/>
+        <node name="prefektura-1" size="0"/>
+        <node name="prefektura-2" size="0"/>
+        <node name="patriarchat-1" size="0"/>
+        <node name="namiestnictwo-2" size="0"/>
+        <node name="gubernatorstwo-1, gubernia-1" size="0"/>
+        <node name="eparchia-1" size="0"/>
+        <node name="dekanat-1, dziekanat-1" size="0"/>
+        <node name="cyrkuł-1" size="0"/>
+        <node name="satrapia-1" size="0"/>
+        <node name="kanton-1" size="0"/>
+        <node name="wikariat apostolski-1" size="0"/>
+        <node name="wikariat-2, wikaria-1" size="0"/>
+        <node name="stan-4" size="0"/>
+        <node name="starostwo-2" size="0"/>
+        <node name="sołectwo-1" size="0"/>
+        <node name="okręg-1, obwód-1" size="6">
+          <node name="obwód autonomiczny-1" size="0"/>
+          <node name="obwód rybacki-1" size="0"/>
+          <node name="obwód łowiecki-1" size="0"/>
+          <node name="podokręg-1" size="0"/>
+          <node name="obwód głosowania-1" size="0"/>
+          <node name="rewir-1" size="0"/>
+        </node>
+        <node name="nadleśnictwo-2" size="0"/>
+        <node name="diecezja-1, biskupstwo-2" size="2">
+          <node name="sufragania-1" size="0"/>
+          <node name="archidiecezja-1, arcybiskupstwo-1" size="0"/>
+        </node>
+        <node name="gmina-1" size="8">
+          <node name="gmina górnicza-1" size="0"/>
+          <node name="fila-1" size="0"/>
+          <node name="gmina miejska-1" size="0"/>
+          <node name="gmina miejsko-wiejska-1" size="1">
+            <node name="Mogielnica-2" size="0"/>
+          </node>
+          <node name="gmina wiejska-1" size="1">
+            <node name="sołectwo-2" size="0"/>
+          </node>
+          <node name="dem-1" size="0"/>
+        </node>
+        <node name="powiat-1" size="2">
+          <node name="powiat ziemski-1" size="0"/>
+          <node name="powiat grodzki-1" size="0"/>
+        </node>
+        <node name="prowincja-1" size="7">
+          <node name="Junnan-1" size="0"/>
+          <node name="hospodarstwo-1" size="0"/>
+          <node name="tetrarchia-2" size="0"/>
+          <node name="palatynat-1" size="0"/>
+          <node name="eparchia-2" size="0"/>
+          <node name="wilajet-1, wilaja-1" size="0"/>
+          <node name="emirat-1" size="0"/>
+        </node>
+        <node name="województwo-1" size="0"/>
+        <node name="region-1" size="4">
+          <node name="mikroregion-1" size="0"/>
+          <node name="makroregion-1" size="0"/>
+          <node name="region miejski-1" size="0"/>
+          <node name="euroregion-1" size="0"/>
+        </node>
+        <node name="dzielnica-1, rejon-2" size="16">
+          <node name="Ruda-2" size="0"/>
+          <node name="Prokocim-1" size="0"/>
+          <node name="Hradczany-1" size="0"/>
+          <node name="fawela-1, favela-1" size="0"/>
+          <node name="kwadrat-6, dzielnia-1" size="0"/>
+          <node name="starówka-1, stare miasto-1" size="0"/>
+          <node name="śródmieście-1" size="0"/>
+          <node name="przedmieście-2" size="0"/>
+          <node name="getto-2" size="2">
+            <node name="getto tranzytowe-1, getto przejściowe-1" size="0"/>
+            <node name="getto szczątkowe-1" size="0"/>
+          </node>
+          <node name="slumsy-1, slamsy-1" size="0"/>
+          <node name="peryferie-1, przedmieście-1" size="2">
+            <node name="prowincja-5" size="0"/>
+            <node name="suburbium-1" size="0"/>
+          </node>
+          <node name="rewir-1" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="kawałek-2" size="273">
+      <node name="plaster-1" size="0"/>
+      <node name="ułom-1" size="0"/>
+      <node name="okrzos-1" size="0"/>
+      <node name="wycinek-5" size="2">
+        <node name="rdzeń wiertniczy-1" size="0"/>
+        <node name="wycinek kuli-1" size="0"/>
+      </node>
+      <node name="końcówka-7" size="51">
+        <node name="trufla-4" size="0"/>
+        <node name="zakończenie-7" size="48">
+          <node name="nos-2" size="1">
+            <node name="stożek dziobowy-1" size="0"/>
+          </node>
+          <node name="sztych-3" size="0"/>
+          <node name="anemostat-1" size="0"/>
+          <node name="pływak-7" size="0"/>
+          <node name="kiść-4" size="0"/>
+          <node name="szpic-2" size="0"/>
+          <node name="ogon-3" size="0"/>
+          <node name="zwieńczenie-3" size="11">
+            <node name="sikhara-1, śikhara-1" size="0"/>
+            <node name="szczyt-5" size="2">
+              <node name="fronton-1, przyczółek-2" size="0"/>
+              <node name="kokosznik-2" size="0"/>
+            </node>
+            <node name="akroterion-1, naszczytnik-1" size="0"/>
+            <node name="hełm-2, dach hełmowy-1" size="1">
+              <node name="cebula-5" size="0"/>
+            </node>
+            <node name="grzebień-4" size="0"/>
+            <node name="iglica-2, igła-3" size="0"/>
+            <node name="kapitel-1, głowica-1" size="1">
+              <node name="makowica-1" size="0"/>
+            </node>
+          </node>
+          <node name="końcówka-4" size="2">
+            <node name="krokodylek-2" size="0"/>
+            <node name="wtyczka-1" size="0"/>
+          </node>
+          <node name="końcówka-2" size="11">
+            <node name="łapaczka-1" size="0"/>
+            <node name="talerz-4" size="0"/>
+            <node name="zgrzewadło-1" size="0"/>
+            <node name="wiertło-1, bor-2" size="3">
+              <node name="wiertło stopniowe-1" size="0"/>
+              <node name="środkowiec-1" size="0"/>
+              <node name="wiertło dentystyczne-1, wiertło stomatologiczne-1" size="0"/>
+            </node>
+            <node name="frez-1" size="0"/>
+            <node name="stalówka-2" size="1">
+              <node name="rondówka-1, rondo-7" size="0"/>
+            </node>
+            <node name="ssawka-2" size="0"/>
+          </node>
+          <node name="nok-1" size="0"/>
+          <node name="pawęż-1" size="0"/>
+          <node name="pęcherzyk płucny-1" size="0"/>
+          <node name="wyrostek robaczkowy-1, ślepa kiszka-1, wyrostek-3" size="0"/>
+          <node name="czubek-2, koniuszek-1, koniuszczek-1" size="3">
+            <node name="koniuszek serca-1" size="0"/>
+            <node name="koniuszek palca-1" size="0"/>
+            <node name="opuszka-1" size="0"/>
+          </node>
+          <node name="główka-1" size="0"/>
+          <node name="dziób-4" size="3">
+            <node name="dziobiec-1" size="0"/>
+            <node name="dziób-3" size="1">
+              <node name="taran-2" size="0"/>
+            </node>
+          </node>
+        </node>
+        <node name="piętka-1, przylepka-1" size="0"/>
+      </node>
+      <node name="zuchelek-1" size="0"/>
+      <node name="śrucina-1" size="0"/>
+      <node name="wykrawek-1" size="0"/>
+      <node name="pas-5" size="2">
+        <node name="taśma-8" size="0"/>
+        <node name="szelka-1" size="0"/>
+      </node>
+      <node name="odcinek-6" size="0"/>
+      <node name="język-8" size="0"/>
+      <node name="płachetek-1, spłachetek-1" size="0"/>
+      <node name="płat-3" size="35">
+        <node name="deska śnieżna-1" size="0"/>
+        <node name="półarkusz-1" size="0"/>
+        <node name="darń-3, darnina-3" size="0"/>
+        <node name="wafel-1" size="4">
+          <node name="gofr-1" size="0"/>
+          <node name="andrut-1" size="1">
+            <node name="andrut kaliski-1" size="0"/>
+          </node>
+          <node name="wafel ryżowy-1" size="0"/>
+        </node>
+        <node name="arkusz-1" size="26">
+          <node name="przedłużacz-3" size="0"/>
+          <node name="test-6" size="0"/>
+          <node name="egzamin-2" size="1">
+            <node name="matura-3" size="0"/>
+          </node>
+          <node name="płachta Zygalskiego-1" size="0"/>
+          <node name="papier stemplowy-1" size="0"/>
+          <node name="krepa-3" size="0"/>
+          <node name="kalka-4" size="0"/>
+          <node name="sekstern-1" size="0"/>
+          <node name="wyklejka-1" size="0"/>
+          <node name="arkusz autorski-1" size="0"/>
+          <node name="arkusz introligatorski-1, lega-1" size="0"/>
+          <node name="arkusz drukarski-1, składka-3, składka arkuszowa-1, arkusz druku-1" size="0"/>
+          <node name="kartka-1" size="12">
+            <node name="wycinek-3" size="0"/>
+            <node name="alonż-2, alonżka-1, przedłużka-2, przedłużek-1" size="0"/>
+            <node name="karta-6" size="2">
+              <node name="karta tytułowa-1" size="0"/>
+              <node name="alonż-1, przedłużka-1" size="0"/>
+            </node>
+            <node name="przekładka-2" size="0"/>
+            <node name="ściąga-1, ściągawka-1, ściągaczka-1" size="1">
+              <node name="gotowiec-1" size="0"/>
+            </node>
+            <node name="kalka-2" size="3">
+              <node name="kalka maszynowa-1, kalka ołówkowa-1, kopiał ołówkowy-1" size="0"/>
+              <node name="dekal-1, kalka ceramiczna-1" size="0"/>
+              <node name="kalka techniczna-1, kalka szkicowa-1, szkicówka-1, kalka kreślarska-1" size="0"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node name="skwarek-1, skwarka-1" size="0"/>
+      <node name="drewko-1" size="2">
+        <node name="szczapa-2, drzazga-3, trzaska-1" size="1">
+          <node name="głoginka-1, głowinka-2" size="0"/>
+        </node>
+      </node>
+      <node name="tarczka-1" size="0"/>
+      <node name="skorupa-4, czerep-3" size="1">
+        <node name="ostrakon-1, ostrak-1" size="0"/>
+      </node>
+      <node name="wiór-1, wiórek-1" size="2">
+        <node name="zrębek-1" size="0"/>
+        <node name="opiłek-1" size="0"/>
+      </node>
+      <node name="drobina-1" size="5">
+        <node name="granulka-1" size="0"/>
+        <node name="pyłek-1" size="0"/>
+        <node name="paproch-1, paproszek-1" size="0"/>
+        <node name="okruch-1, okruszyna-1, kruszyna-2, okruszynka-1" size="1">
+          <node name="klast-1" size="0"/>
+        </node>
+      </node>
+      <node name="resztka-1, końcówka-1" size="4">
+        <node name="ostatek-1" size="0"/>
+        <node name="niedogarek-1" size="1">
+          <node name="niedopałek-1, pet-1, kiep-2" size="0"/>
+        </node>
+        <node name="zeskrobina-2" size="0"/>
+      </node>
+      <node name="strzęp-1, strzępek-1" size="1">
+        <node name="farfocel-1" size="0"/>
+      </node>
+      <node name="płatek-1" size="1">
+        <node name="śnieżynka-1, płatek śniegu-1, śnieżyczka-2" size="0"/>
+      </node>
+      <node name="odprysk-1" size="0"/>
+      <node name="odłamek-1, odłupek-1, ułomek-1, ułamek-3" size="4"/>
+      <node name="drzazga-1" size="2">
+        <node name="zadzior-1, zadziora-1" size="0"/>
+        <node name="zadra-2" size="0"/>
+      </node>
+      <node name="serwetka-2" size="1">
+        <node name="puryfikaterz-1" size="0"/>
+      </node>
+      <node name="kawałek materiału-1" size="36">
+        <node name="sukienko-3" size="0"/>
+        <node name="gałgan-1" size="0"/>
+        <node name="szmatka-3" size="4">
+          <node name="szmatka-2" size="3">
+            <node name="zaparzaczka-2" size="0"/>
+            <node name="ścierka-1" size="1">
+              <node name="pomywak-1" size="0"/>
+            </node>
+          </node>
+        </node>
+        <node name="szmata-7" size="0"/>
+        <node name="potnik-2" size="0"/>
+        <node name="metka-1" size="1">
+          <node name="birka-1" size="0"/>
+        </node>
+        <node name="naszycie-4" size="16">
+          <node name="aplikacja-2" size="1">
+            <node name="wyszywka-1" size="0"/>
+          </node>
+          <node name="lampas-1" size="0"/>
+          <node name="naszywka-1" size="8">
+            <node name="szewron-1" size="0"/>
+            <node name="naramiennik-4, pagon-1, galon-1, szlify-1, naramiennica-2" size="1">
+              <node name="epolet-1, szlifa-1" size="0"/>
+            </node>
+            <node name="szamerunek-1" size="1">
+              <node name="pętlica-2" size="0"/>
+            </node>
+            <node name="krokiewka-1" size="0"/>
+            <node name="baretka-1" size="0"/>
+            <node name="belka-2, pasek-3" size="0"/>
+          </node>
+          <node name="łata-6" size="0"/>
+          <node name="naszywka-2" size="2">
+            <node name="ekran-5" size="0"/>
+            <node name="tarcza-3" size="0"/>
+          </node>
+        </node>
+        <node name="bryt-1" size="0"/>
+        <node name="łachman-2" size="0"/>
+        <node name="płachta-1" size="2">
+          <node name="muleta-1" size="0"/>
+          <node name="pałatka-1" size="0"/>
+        </node>
+        <node name="ścinek-1, resztka-2, ścinka-1, resztówka-1" size="2">
+          <node name="zrzynek-1" size="0"/>
+          <node name="obrzynek-1" size="0"/>
+        </node>
+      </node>
+      <node name="skrawek-1, okrawek-1" size="2">
+        <node name="skraw-1" size="0"/>
+        <node name="obrzynek-1" size="0"/>
+      </node>
+      <node name="bryła-4" size="101">
+        <node name="głowa cukru-2" size="0"/>
+        <node name="lód martwy-1" size="0"/>
+        <node name="węgiel-4" size="0"/>
+        <node name="bryłka-1, grudka-1" size="45">
+          <node name="chromatyna płciowa-1, ciałko Barra-1, ciałko X-1" size="0"/>
+          <node name="obnóże-1" size="0"/>
+          <node name="serek-2" size="2">
+            <node name="kwargiel-1, serek ołomuniecki-1" size="0"/>
+            <node name="plaskanka-1, plaskanka serowa-1" size="0"/>
+          </node>
+          <node name="pierzga-1, chleb pszczeli-1, chlebek pszczeli-1" size="0"/>
+          <node name="gradzina-1, gradowina-1" size="0"/>
+          <node name="gruzełek-2" size="0"/>
+          <node name="granula-1" size="0"/>
+          <node name="ziarno-3, ziarenko-1, ziarnko-2" size="1">
+            <node name="chondra-1" size="0"/>
+          </node>
+          <node name="kryształ-1, ciało krystaliczne-1, kryształek-1" size="33">
+            <node name="kryształ naśladowczy-1" size="0"/>
+            <node name="jaskółczy ogon-3" size="0"/>
+            <node name="kryształ bliźniaczy-1, kryształ prawidłowy-1" size="0"/>
+            <node name="dodekaedr-2" size="0"/>
+            <node name="skalenoedr-1" size="0"/>
+            <node name="mikrokryształ-1" size="0"/>
+            <node name="piroelektryk-1" size="3">
+              <node name="aksynit-1" size="0"/>
+              <node name="ferroelektryk-1" size="1"/>
+            </node>
+            <node name="saletra wapniowa-1, saletra norweska-1, azotan wapnia-1" size="0"/>
+            <node name="hipoksantyna-1" size="0"/>
+            <node name="nitromannit-1, heksaazotan mannitolu-1" size="0"/>
+            <node name="azotan uranylu-1" size="0"/>
+            <node name="dwuścian-2, pinakoid-1" size="0"/>
+            <node name="piezoelektryk-1" size="2">
+              <node name="ferroelektryk-1" size="1">
+                <node name="azotyn sodu-1, azotan(III) sodu-1" size="0"/>
+              </node>
+            </node>
+            <node name="fosforek-1" size="3">
+              <node name="fosforek glinu-1" size="0"/>
+              <node name="fosforek galu-1" size="0"/>
+              <node name="fosforek indu-1" size="0"/>
+            </node>
+            <node name="arsenian-1" size="0"/>
+            <node name="romboedr-1, rombościan-2" size="0"/>
+            <node name="mikrolit-1" size="0"/>
+            <node name="fenokryształ-1" size="1">
+              <node name="prakryształ-1, paleokryształ-1" size="0"/>
+            </node>
+            <node name="piramida-6" size="0"/>
+            <node name="igiełka-4" size="0"/>
+            <node name="kryształ lodu-1" size="2">
+              <node name="lód włóknisty-1" size="0"/>
+              <node name="śnieżynka-1, płatek śniegu-1, śnieżyczka-2" size="0"/>
+            </node>
+            <node name="saletra potasowa-1, saletra indyjska-1, azotan potasu-1" size="0"/>
+            <node name="monokryształ-1" size="0"/>
+            <node name="dendryt-2, kryształ dendrytyczny-1" size="0"/>
+          </node>
+        </node>
+        <node name="odłam-2, łom-2, złom-3" size="8">
+          <node name="ułom-1" size="0"/>
+          <node name="obłam-1" size="0"/>
+          <node name="łom czekoladowy-1, blok czekoladowy-1" size="0"/>
+          <node name="odłamek-1, odłupek-1, ułomek-1, ułamek-3" size="4">
+            <node name="łupka-1" size="0"/>
+            <node name="graniak-1, wielograniec-1, wiatrowiec-1, eologliptolit-1" size="0"/>
+            <node name="czerep-2" size="0"/>
+            <node name="szrapnel-2" size="0"/>
+          </node>
+        </node>
+        <node name="serak-1" size="0"/>
+        <node name="góra lodowa-1" size="0"/>
+        <node name="buła-1" size="0"/>
+        <node name="brykiet-1" size="0"/>
+        <node name="kra-1" size="1">
+          <node name="pak-2, pak lodowy-1, lód pakowy-1, lód dryfujący-1" size="0"/>
+        </node>
+        <node name="meteoryt-1" size="26">
+          <node name="meteoryt żelazny-1" size="3">
+            <node name="heksaedryt-1" size="0"/>
+            <node name="oktaedryt-1" size="0"/>
+            <node name="ataksyt-1" size="0"/>
+          </node>
+          <node name="meteoryt żelazno-kamienny-1" size="4">
+            <node name="syderofir-1" size="0"/>
+            <node name="lodranit-1, łodranit-1" size="0"/>
+            <node name="pallasyt-1" size="0"/>
+            <node name="mezosyderyt-1" size="0"/>
+          </node>
+          <node name="mikrometeoryt-1" size="0"/>
+          <node name="syderyt-1" size="0"/>
+          <node name="aerolit-1, meteoryt kamienny-1" size="14">
+            <node name="chondryt enstatytowy-1" size="0"/>
+            <node name="achondryt-1" size="6">
+              <node name="meteoryt HED-1" size="0"/>
+              <node name="shergottyt-1" size="0"/>
+              <node name="diogenit-1" size="0"/>
+              <node name="meteoryt marsjański-1" size="0"/>
+              <node name="eukryt-1" size="0"/>
+              <node name="howardyt-1" size="0"/>
+            </node>
+            <node name="chondryt-1" size="5">
+              <node name="chondryt zwyczajny-1" size="3">
+                <node name="chondryt oliwinowo-pigeonitowy-1, amfoteryt-1" size="0"/>
+                <node name="chondryt oliwinowo-hiperstenowy-1" size="0"/>
+                <node name="chondryt oliwinowo-bronzytowy-1" size="0"/>
+              </node>
+              <node name="chondryt węglisty-1" size="0"/>
+            </node>
+          </node>
+        </node>
+        <node name="sopel-1" size="0"/>
+        <node name="gruda-1" size="1">
+          <node name="pecyna-1, pacyna-1" size="0"/>
+        </node>
+        <node name="blok-2" size="7">
+          <node name="cios-3" size="0"/>
+          <node name="cios-4" size="0"/>
+          <node name="łom czekoladowy-1, blok czekoladowy-1" size="0"/>
+          <node name="wlewek-1" size="0"/>
+          <node name="menhir-1" size="0"/>
+          <node name="bela-3, bal-3" size="1">
+            <node name="balot-1" size="0"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</node>

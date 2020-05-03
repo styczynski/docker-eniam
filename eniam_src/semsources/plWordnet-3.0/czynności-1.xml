@@ -1,0 +1,287 @@
+<node name="czynności-1" size="229" abstract="true">
+  <node name="cel inflacyjny-1" size="0"/>
+  <node name="działania-2" size="147" abstract="true">
+    <node name="żywienie-4" size="0"/>
+    <node name="czynność karmiczna-1" size="0"/>
+    <node name="czynność łączeniowa-1" size="0"/>
+    <node name="czynności eksploracyjne-1" size="0"/>
+    <node name="czynności regulacyjne-1" size="0"/>
+    <node name="czynność pomocnicza-1" size="0"/>
+    <node name="czynność faktyczna-1" size="1">
+      <node name="czynność techniczna-1" size="0"/>
+    </node>
+    <node name="czynności dowodowe-1" size="0"/>
+    <node name="czynności sprawdzające-1" size="0"/>
+    <node name="czynności wyjaśniające-1" size="0"/>
+    <node name="drenaż rynku-1" size="0"/>
+    <node name="drenaż mózgów-1" size="0"/>
+    <node name="edycja-4" size="1">
+      <node name="tabulacja-1" size="0"/>
+    </node>
+    <node name="postępowanie naprawcze-1" size="0"/>
+    <node name="postępowanie administracyjne-1" size="0"/>
+    <node name="postępowanie-4, procedura-2" size="10">
+      <node name="postępowanie upadłościowe-1" size="0"/>
+      <node name="postępowanie układowe-1" size="0"/>
+      <node name="weryfikacja-2" size="2">
+        <node name="lustracja-2" size="1">
+          <node name="autolustracja-1" size="0"/>
+        </node>
+      </node>
+      <node name="impeachment-1" size="0"/>
+      <node name="walidacja-1" size="0"/>
+      <node name="przewód-6" size="2">
+        <node name="przewód habilitacyjny-1" size="0"/>
+        <node name="przewód doktorski-1" size="0"/>
+      </node>
+    </node>
+    <node name="dezynfekcja-1, sterylizacja-1, antyseptyka-1" size="3">
+      <node name="apertyzacja-1" size="0"/>
+      <node name="aseptyka-2" size="0"/>
+      <node name="ozonizacja-1" size="0"/>
+    </node>
+    <node name="współpraca-1, kooperacja-1" size="11">
+      <node name="alians strategiczny-1" size="0"/>
+      <node name="powiązanie kooperacyjne-1" size="0"/>
+      <node name="związek komunalny-1" size="1">
+        <node name="związek międzygminny-1" size="0"/>
+      </node>
+      <node name="trójstronność-1" size="0"/>
+      <node name="współpraca transgraniczna-1" size="0"/>
+      <node name="twinning-1" size="0"/>
+      <node name="międzyrządowość-1" size="0"/>
+      <node name="networking-2" size="0"/>
+      <node name="synergia-1, synergizm-2" size="0"/>
+      <node name="kolaboracja-1" size="0"/>
+    </node>
+    <node name="rachunek kosztów-1" size="0"/>
+    <node name="operacjonalizacja-1" size="0"/>
+    <node name="networking-1" size="0"/>
+    <node name="kombinatorstwo-1" size="1">
+      <node name="spekulanctwo-1" size="0"/>
+    </node>
+    <node name="niszczycielstwo-1" size="0"/>
+    <node name="intryganctwo-1, krecia robota-1, podjazdy-1" size="0"/>
+    <node name="sztuka dla sztuki-2" size="0"/>
+    <node name="drenaż kieszeni-1" size="0"/>
+    <node name="rzecznictwo-1" size="1">
+      <node name="rzecznictwo patentowe-1" size="0"/>
+    </node>
+    <node name="stereotypia-1, czynność stereotypowa-1, stereotypia ruchowa-1" size="0"/>
+    <node name="pośrednictwo-1" size="4">
+      <node name="agent rozliczeniowy-1" size="0"/>
+      <node name="komis-2" size="0"/>
+      <node name="bukmacherstwo-1, bukmacherka-2" size="0"/>
+      <node name="factoring-1, faktoring-1" size="0"/>
+    </node>
+    <node name="kosmetyka-1" size="0"/>
+    <node name="mobilizacja-1" size="0"/>
+    <node name="organizacja-3" size="5">
+      <node name="samoorganizacja-2" size="0"/>
+      <node name="pionierka-3" size="0"/>
+      <node name="logistyka-1" size="2">
+        <node name="logistyka odwrócona-1" size="0"/>
+        <node name="ekologistyka-1" size="0"/>
+      </node>
+    </node>
+    <node name="przedsięwzięcie-2" size="16">
+      <node name="kształtowanie środowiska-1" size="0"/>
+      <node name="przedsięwzięcie termomodernizacyjne-1" size="0"/>
+      <node name="biznes-4" size="0"/>
+      <node name="interes-6" size="3">
+        <node name="geszeft-3" size="0"/>
+        <node name="geszeft-1" size="0"/>
+        <node name="bonanza-3, kura znosząca złote jaja-1, kura znosząca złote jajka-1, żyła złota-1, złote jabłko-1, złoty interes-1, kopalnia złota-1, dojna krowa-2, kokosowy interes-1" size="0"/>
+      </node>
+      <node name="hazard-1" size="0"/>
+      <node name="gra w ciemno-1" size="0"/>
+      <node name="reforma-1" size="2">
+        <node name="reforma rolna-1" size="0"/>
+        <node name="pierestrojka-1, pieriestrojka-1" size="0"/>
+      </node>
+      <node name="inwestycja-2" size="3">
+        <node name="lokata-3" size="0"/>
+        <node name="reinwestycja-1" size="0"/>
+        <node name="zamrożenie-4" size="0"/>
+      </node>
+    </node>
+    <node name="poczynania-1" size="0"/>
+    <node name="ochrona-1" size="36">
+      <node name="ochrona środowiska-1" size="3">
+        <node name="ochrona przyrody-1" size="1">
+          <node name="ochrona gatunkowa-1" size="0"/>
+        </node>
+        <node name="ochrona krajobrazowa-1" size="0"/>
+      </node>
+      <node name="ochrona przeciwporażeniowa-1" size="2">
+        <node name="ochrona przeciwporażeniowa podstawowa-1" size="0"/>
+        <node name="ochrona przeciwporażeniowa dodatkowa-1" size="0"/>
+      </node>
+      <node name="kaftan bezpieczeństwa-2" size="0"/>
+      <node name="konserwacja zabytków-1" size="1">
+        <node name="regotycyzacja-1" size="0"/>
+      </node>
+      <node name="kokon-3" size="0"/>
+      <node name="ściółkowanie-1" size="0"/>
+      <node name="ochrona uzdrowiskowa-1" size="0"/>
+      <node name="ochrona przeciwpożarowa-1" size="0"/>
+      <node name="ochrona indywidualna-1" size="0"/>
+      <node name="ochrona konserwatorska-1" size="0"/>
+      <node name="ochrona danych osobowych-1" size="0"/>
+      <node name="archiwizacja-2" size="0"/>
+      <node name="izolacja-6" size="0"/>
+      <node name="osłona-2" size="0"/>
+      <node name="ubezpieczenie-7, asekuracja-4" size="0"/>
+      <node name="mir-3" size="0"/>
+      <node name="hedging-1" size="0"/>
+      <node name="archiwizacja-1, archiwizacja danych-1" size="0"/>
+      <node name="prewencja-1, profilaktyka-1" size="6">
+        <node name="profilaktyka drugorzędowa-1" size="0"/>
+        <node name="profilaktyka środowiskowa-1" size="0"/>
+        <node name="profilaktyka jodowa-1" size="0"/>
+        <node name="psychoprofilaktyka-1, higiena psychiczna-1, prewencja psychologiczna-1, psychohigiena-1" size="1">
+          <node name="interwencja kryzysowa-1" size="0"/>
+        </node>
+        <node name="antykoncepcja-1" size="0"/>
+      </node>
+      <node name="konserwacja-2" size="0"/>
+      <node name="blokada-3" size="3">
+        <node name="perm-5" size="0"/>
+        <node name="simlock-1, SIM lock-1, SIM-lock-1" size="0"/>
+        <node name="ban-4" size="0"/>
+      </node>
+    </node>
+    <node name="uczestnictwo-1, udział-2, partycypacja-1" size="22">
+      <node name="współuczestnictwo-1, współudział-1, wspólnictwo-1" size="0"/>
+      <node name="partycypacja publiczna-1" size="0"/>
+      <node name="partycypacja społeczna-1" size="0"/>
+      <node name="wkład-3" size="1">
+        <node name="inwestycja-3" size="0"/>
+      </node>
+      <node name="start-5" size="0"/>
+      <node name="inkluzja-2" size="0"/>
+      <node name="adhezja-2" size="0"/>
+      <node name="chrzest-3" size="0"/>
+      <node name="akces-1, akcesja-1" size="0"/>
+      <node name="zaangażowanie-3" size="1">
+        <node name="zaabsorbowanie-3" size="0"/>
+      </node>
+      <node name="przynależność-2" size="9">
+        <node name="afgańskość-1" size="0"/>
+        <node name="herbowość-1" size="0"/>
+        <node name="dzierżawczość-1" size="0"/>
+        <node name="bandera-2" size="0"/>
+        <node name="cenzus-1" size="1">
+          <node name="cenzus wyborczy-1" size="0"/>
+        </node>
+        <node name="obywatelstwo-1, przynależność państwowa-1" size="0"/>
+        <node name="członkostwo-1" size="1">
+          <node name="partyjność-1" size="0"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node name="retencja-3" size="0"/>
+  <node name="pielęgnacja-1" size="1">
+    <node name="grooming-1" size="0"/>
+  </node>
+  <node name="naprawa-1" size="19">
+    <node name="odbudowa-1" size="5">
+      <node name="rekonstrukcja-1" size="3">
+        <node name="anastyloza-1" size="0"/>
+        <node name="geniusz tworzycielski-1" size="0"/>
+        <node name="bractwo rycerskie-1" size="0"/>
+      </node>
+      <node name="rewitalizacja-2" size="0"/>
+    </node>
+    <node name="aggiornamento-1, udzisiejszenie-1" size="0"/>
+    <node name="łatanina-2" size="0"/>
+    <node name="reperacja-1" size="0"/>
+    <node name="telenaprawa-1" size="0"/>
+    <node name="autoserwis-2, autonaprawa-1" size="0"/>
+    <node name="wulkanizacja-1" size="0"/>
+    <node name="renowacja-1, rewaloryzacja-2, odnowa-2, restauracja-2, odnawianie-4" size="2">
+      <node name="termorenowacja-1" size="0"/>
+      <node name="samoodnowa-1" size="0"/>
+    </node>
+    <node name="remont-1, remontowanie-1" size="3">
+      <node name="remont średni-1" size="0"/>
+      <node name="remont bieżący-1" size="0"/>
+      <node name="kapitalny remont-1, remont kapitalny-1" size="0"/>
+    </node>
+  </node>
+  <node name="mycie-2" size="1">
+    <node name="zmycie-1" size="0"/>
+  </node>
+  <node name="komunikacja-2" size="44">
+    <node name="układ komunikacyjny-1" size="0"/>
+    <node name="połączenie-10" size="5">
+      <node name="linia-20" size="4">
+        <node name="linia autobusowa-1" size="0"/>
+        <node name="linia kolejowa-2" size="0"/>
+        <node name="linia metra-1" size="0"/>
+        <node name="linia tramwajowa-1" size="0"/>
+      </node>
+    </node>
+    <node name="ruch-7" size="3">
+      <node name="ruch pieszy-2" size="0"/>
+      <node name="ruch drogowy-1" size="0"/>
+      <node name="ruch kołowy-1" size="0"/>
+    </node>
+    <node name="transport-1, przewoźnictwo-1, przewóz-1" size="32">
+      <node name="kabotaż-2" size="0"/>
+      <node name="pławba-1" size="0"/>
+      <node name="tyrolka-1, kolejka tyrolska-1" size="0"/>
+      <node name="hydrotransport-1" size="0"/>
+      <node name="podwózka-1" size="1">
+        <node name="okazja-3" size="0"/>
+      </node>
+      <node name="czumactwo-1" size="0"/>
+      <node name="transportacja-2" size="0"/>
+      <node name="zwózka-1" size="0"/>
+      <node name="wwóz-1" size="0"/>
+      <node name="wyładunek-1" size="0"/>
+      <node name="transport pneumatyczny-1" size="0"/>
+      <node name="przerzut-2" size="0"/>
+      <node name="tranzyt-1" size="0"/>
+      <node name="dostawa-1, przywóz-1, dowóz-1, przywózka-1" size="4">
+        <node name="dostawa wewnątrzwspólnotowa-1" size="0"/>
+        <node name="import-1" size="2">
+          <node name="wwóz-2" size="0"/>
+          <node name="reimport-1" size="0"/>
+        </node>
+      </node>
+      <node name="wywóz-1, wywózka-2" size="3">
+        <node name="wywózka-1" size="1">
+          <node name="branka-2" size="0"/>
+        </node>
+        <node name="ewakuacja-1" size="0"/>
+      </node>
+      <node name="żegluga-1" size="7">
+        <node name="fracht-3" size="0"/>
+        <node name="tramping-1, żegluga trampowa-1" size="0"/>
+        <node name="spław-1" size="1">
+          <node name="flisactwo-1, flis-2, pływanka-1" size="0"/>
+        </node>
+        <node name="kabotaż-1" size="2">
+          <node name="kabotaż mały-1" size="0"/>
+          <node name="kabotaż wielki-1" size="0"/>
+        </node>
+      </node>
+      <node name="wysyłka-1, spedycja-1, ekspedycja-3" size="0"/>
+    </node>
+  </node>
+  <node name="powiększenie-2" size="7">
+    <node name="ekstensyfikacja-1" size="0"/>
+    <node name="wydłużenie-3" size="0"/>
+    <node name="zwiększenie-2, wzmożenie-3, spotęgowanie-2" size="4">
+      <node name="sensybilizacja-2, uczulenie-4" size="0"/>
+      <node name="ekonomizacja-1" size="0"/>
+      <node name="radykalizacja-1" size="0"/>
+      <node name="intensyfikacja-2, koncentracja-3, kondensacja-2, dynamizacja-1" size="0"/>
+    </node>
+  </node>
+  <node name="kontynuacja-2" size="1">
+    <node name="prolongata-1, prolongacja-1" size="0"/>
+  </node>
+</node>

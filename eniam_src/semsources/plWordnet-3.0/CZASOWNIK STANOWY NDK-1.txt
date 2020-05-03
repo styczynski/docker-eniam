@@ -1,0 +1,842 @@
+821 *CZASOWNIK STANOWY NDK-1
+  13 *być, pozostawać w jakichś relacjach społecznych-1
+    0 mieć na pieńku-1
+    0 należeć-6
+    0 pochodzić-1, wywodzić się-1
+    4 współżyć-2, żyć-5
+      3 przestawać-4, obcować-2, zadawać się-1
+        0 pospolitować się-1
+        0 kumplować się-1, kolegować się-1
+        0 przyjaźnić się-1
+    1 odpowiadać-7
+      0 zaręczać-2
+    1 przynależeć-1, być własnością-1, należeć-2, być w posiadaniu-2
+      0 zbywać-3
+    0 zawdzięczać-1
+  5 *CZASOWNIK - STAN NDK oznaczający stan mentalny-1
+    0 wierzyć-4
+    1 ufać-1, wierzyć-3
+      0 polegać-2, zdawać się-2
+    0 woleć-1, preferować-1, przedkładać-3
+    0 wątpić-1, powątpiewać-1
+  65 *CZASOWNIK - STAN NDK oznaczający położenie lub relacje przestrzenne-1
+    43 *być jakoś usytuowanym względem czegoś-1
+      0 poprzedzać-3
+      5 wystawać-1, sterczeć-1
+        3 wyrastać-10, górować-2
+          VISITED 2 wznosić się-1
+        0 stać-7, stać sztorcem-1
+      1 mieścić się-3, wchodzić-15
+        0 włazić-7
+      23 przykrywać-2
+        15 pokrywać-9, okrywać-2
+          0 zaprószać-1
+          3 zalewać-1
+            0 zlewać-1
+            1 zatapiać-2
+              0 podtapiać-2
+          0 kłaść się-2, wlec się-4, słać się-1, ścielić się-1, ciągnąć się-7
+          0 oszraniać-1
+          0 owiewać-5
+          2 obsypywać-6, osypywać-3
+            1 oprószać-1
+              0 przyprószać-2
+          0 oblepiać-2
+          1 porastać-2, obrastać-2, zarastać-3
+            0 zachwaszczać-2
+          0 obladzać-1
+        6 pokrywać-8
+          1 leżeć-4
+            0 rozpościerać się-1, rozciągać się-1, rozlegać się-2, roztaczać się-1
+          0 kryć-5
+          0 otulać-2
+          0 nachodzić-3, zachodzić-4
+          0 zaśmiecać-4
+      9 otaczać-1
+        0 osnuwać-2
+        0 oblewać-2, obmywać-4, omywać-4
+        2 ogarniać-5, spowijać-2
+          1 owiewać-4
+            0 muskać-4
+        1 okręcać się-3, omotywać się-1, oplatać-3, oplątywać-2, oplątywać się-1, owijać się-2, zawijać się-1, oplatać się-3
+          0 nawijać się-1
+        1 okalać-1, obramowywać-2, ogradzać-2, ograniczać-3
+          0 opasywać-3, przepasywać-2
+    20 *być jakoś usytuowanym-1
+      3 rozdzielać się-3
+        0 rozdwajać się-2
+        1 rozwidlać się-1, rozgałęziać się-1, rozbiegać się-1, rozchodzić się-3
+          0 rozjeżdżać się-2
+      1 obniżać się-2
+        0 spadać-5, pochylać się-3, opadać-4
+      0 wychodzić-23
+      12 łączyć się-2, stykać się-1, schodzić się-5
+        9 spotykać się-3, stykać się-2
+          0 zbiegać się-2
+          5 dochodzić-16, dobiegać-6
+            4 wpływać-3
+              0 wpadać-7
+              0 zlewać się-1
+              1 dopływać-2
+                0 dociekać-2
+          0 przecinać-1
+          0 krzyżować się-1, przecinać się-1
+        1 sąsiadować-1, graniczyć-1
+          0 przylegać-2, dotykać-2, przytykać-2
+  53 *CZASOWNIK - STAN NDK oznaczający stan psychiczny intelektualny-1
+    0 czuć bluesa-1
+    1 znać-1
+      0 znać z widzenia-1
+    5 spodziewać się-1
+      2 oczekiwać-2, czekać-4
+        1 czyhać-3
+          0 polować-1, łowić-4, tropić-3
+      0 liczyć-6
+      0 mieć nadzieję-1
+    12 wiedzieć-1, mieć świadomość-1, być świadomym-1
+      0 znać się-1
+      0 umieć-2
+      0 posiadać-6
+      2 znać-2
+        0 być za pan brat-1
+        0 rozumieć-5
+      0 rozumieć-4
+      3 czuć-4, wyczuwać-1
+        0 mieć nos-1, mieć nosa-1
+        1 poczuwać się-1
+          0 solidaryzować się-2
+      0 pamiętać-3, nosić w pamięci-1, mieć w pamięci-1
+    5 rozumieć-2
+      0 obejmować-5, pojmować-1, kojarzyć-1, ogarniać-3
+      3 interpretować-1, rozumieć-1
+        0 psychologizować-1
+        1 brać-3
+          0 brać do siebie-1
+    24 interesować się-2, ciekawić się-1, zaciekawiać się-1
+      0 oglądać się-3
+      21 zwracać uwagę-2
+        0 odkrywać-5
+        VISITED 11 zauważać-1, spostrzegać-1, postrzegać-2, dostrzegać-2
+        1 nasłuchiwać-1, przysłuchiwać się-1, wsłuchiwać się-1, łowić uchem-1, nadsłuchiwać-1
+          0 kotłować-2
+        5 przyglądać się-1, przypatrywać się-1, oglądać-2
+          0 gapić się-2
+          0 obcinać-6
+          0 patrzeć-3, patrzyć-2, patrzeć się-2, patrzyć się-2
+          0 lustrować-2
+          0 podglądać-1, podpatrywać-2
+      0 pasjonować się-1
+  149 *CZASOWNIK - STAN NDK oznaczający sytuacje związane z percepcją lub odczuwaniem-1
+    55 *być odbieranym w jakiś sposób-1
+      0 śmierdzieć-2
+      5 przedstawiać się-2, wyglądać-2
+        3 sprawiać wrażenie-1
+          0 zalecieć-3, zawiać-8
+          1 wydawać się-2, zdawać się-1
+            0 widzieć się-5
+        0 jawić się-1
+      26 zarysowywać się-3, malować się-3, rysować się-1, znaczyć się-1, zaznaczać się-2
+        4 świecić-3, jaśnieć-3, pałać-2, świecić się-2
+          0 srebrzyć się-1
+          2 mienić się-1
+            0 opalizować-1
+            0 migotać-2, grać-14
+        17 odcinać się-1, wyróżniać się-2, kontrastować-1, odgraniczać się-1, wyodrębniać się-2
+          0 zielenieć-2, zielenić się-2
+          0 uwydatniać się-2, odznaczać się-2
+          0 żółcieć-1, żółcić się-1
+          0 szarzeć-1
+          0 różowieć-2, różowić się-2
+          0 czernieć-1, czernić się-2
+          0 ciemnieć-1
+          2 brązowieć-2, brązowić się-1
+            0 brunatnieć-1, brunatnić się-1
+            VISITED 0 rudzieć-2
+          2 niebieszczeć-1, niebieszczyć się-1, niebieścieć-1, niebieścić się-1
+            0 granatowieć-2
+            0 błękitnieć-2
+          0 bieleć-1, bielić się-1
+          0 rudzieć-1
+          2 czerwienieć-2, czerwienić się-3, purpurowieć-2
+            0 rudzieć-2
+            0 rumienić się-2
+        1 prześwitywać-1, przebijać-3, przeświecać-1, przebijać się-4
+          0 przeglądać-4
+        0 majaczyć-1, majaczeć-1, majaczyć się-2
+      17 słychać-1
+        0 trzeszczeć-2
+        15 brzmieć-2
+          0 toczyć się-6
+          1 drgać-3, drżeć-3
+            0 wibrować-2
+          0 trzepotać-2, łopotać-1, furkotać-1, furczeć-1
+          10 rozbrzmiewać-2, rozlegać się-3, odzywać się-2
+            0 podnosić się-7
+            0 wznosić się-6
+            0 biec-6, biegnąć-4
+            0 rozdzwaniać się-2
+            0 pobrzmiewać-2
+            0 hukać-5
+            1 wydobywać się-4
+              0 wyrywać się-6
+            0 wybrzmiewać-2
+            0 rozdzierać-4
+      2 błyszczeć-1, świecić się-1, świecić-1, lśnić-1, połyskiwać-1, jaśnieć-1, lśnić się-1, błyszczeć się-1, jarzyć się-1, promienieć-1, szklić się-1, żarzyć się-3
+        0 perlić się-1
+        0 iskrzyć się-1, skrzyć się-1, skrzyć-1
+    9 reagować-1
+      0 tolerować-2
+      0 widzieć-3
+      6 śmiać się-1
+        0 śmiać się do rozpuku-1
+        0 kwiczeć-1
+        0 zarykiwać się-1
+        0 rżeć-2
+        0 chichotać-1
+        0 rechotać-1, zaśmiewać się-1
+    82 postrzegać-3, percypować-1, rejestrować-2, chwytać-3, odbierać-3
+      0 widzieć-11
+      63 czuć-5, odczuwać-2
+        0 wyczuwać-2
+        0 zachciewać się-2
+        0 robić się-5
+        59 doznawać-1, zaznawać-1, doświadczać-2, poznawać-6
+          0 dostawać w kość-2
+          0 kiszki grają marsza-1
+          0 obrywać-4
+          0 dochodzić-22, szczytować-1
+          0 zażywać-2
+          0 kosztować-3
+          0 dostępować-1
+          6 stykać się-3, spotykać się-4, natykać się-2
+            0 ocierać się-5
+            0 spotykać-5
+            3 poznawać-4
+              0 zawierać znajomość-1, zawierać-5, zapoznawać się-1, zaznajamiać się-1, poznawać się-1, zapoznawać-3, poznawać-8
+              1 spotykać-1
+                0 ocierać się-4
+          0 używać-5
+          0 śnić-2
+          0 przestraszać się-1, tchórzyć-2, wystraszać się-1
+          0 odczuwać-5
+          2 odczuwać-4
+            1 realizować się-2, spełniać się-2
+              0 wyżywać się-2
+          2 przeżywać-3
+            0 odnawiać się-4
+            0 wczuwać się-2
+          2 przechodzić-13
+            0 odchorowywać-1
+            0 przeżywać-5
+          0 podlegać-2
+          0 odnosić-1
+          0 znajdować-2, znajdywać-5
+          5 znajdować się-6
+            0 być w czarnej dupie-2
+            0 popadać-3, ześlizgiwać się-2
+            2 wpadać-2, włazić-3, wdeptywać-2
+              1 wtapiać-1
+                0 dawać ciała-1
+          11 ponosić-5
+            7 przegrywać-1, ponosić porażkę-2
+              0 przepadać-6
+              0 ustępować-6
+              0 tracić-5, źle wychodzić-1
+              0 oblewać-6, wykładać się-2
+              0 odpadać-3
+              0 potykać się-4
+              0 upadać na duchu-1
+            1 przegrywać-2, ponosić porażkę-1
+              0 wykrwawiać się-3
+            0 odpowiadać-10, ponosić odpowiedzialność-1, pokutować-4, odpokutowywać-2, pić piwo-1
+          4 marznąć-2
+            0 trząść się jak galareta-2, drżeć jak osika-2, trząść się jak osika-2
+            0 zamarzać na kość-1, marznąć na kość-1
+            0 szczękać zębami-1
+            0 ziębnąć-1, przemarzać-2
+          0 próbować-2
+          4 cierpieć-4, męczyć się-3
+            0 zadręczać się-1, dręczyć się-1
+            0 zdychać-4
+            0 głodować-1, cierpieć głód-1, przymierać głodem-1, nie dojadać-1
+            0 pokutować-3
+      0 odnosić wrażenie-1, mieć wrażenie-1
+      14 widzieć-5
+        0 przeglądać się-2
+        0 mieć majaki-1, majaczyć-2
+        11 zauważać-1, spostrzegać-1, postrzegać-2, dostrzegać-2
+          0 przeglądać na oczy-1
+          0 odnotowywać-3
+          0 podchwytywać-3
+          1 wyłapywać-2, wychwytywać-2, wyławiać-3
+            0 wyłuskiwać-2
+          0 odnajdować-3, odnajdywać-4
+          0 apercypować-1
+          3 rozróżniać-2, odróżniać-2
+            2 rozpoznawać-2, poznawać-5
+              0 identyfikować-2
+              0 diagnozować-2
+      0 słyszeć-1
+  2 być-5
+    0 brać-1
+    0 uczestniczyć-2, mieć udział-1
+  68 być-1, znajdować się-2
+    0 chronić-2
+    2 chodzić po głowie-1
+      1 tłoczyć się-1
+        0 kłębić się-2, kotłować się-3
+    0 stać-11
+    0 stać-10
+    0 stać-9
+    0 leżeć-5
+    0 spoczywać-2, leżeć-6
+    4 stać-4
+      VISITED 3 stać-12
+    9 występować-2
+      VISITED 0 koczować-3
+      0 figurować-1
+      0 trafiać się-2
+      0 zalegać-4
+      0 roić się-2
+      VISITED 1 rosnąć-7
+      0 żyć-6
+      0 znajdować się-4, mieścić się-1
+    0 przechodzić-2
+    1 leżeć-1, spoczywać-1
+      0 poniewierać się-2, walać się-2
+    2 tkwić-1
+      0 siedzieć-4
+      VISITED 0 trzymać się-2
+    30 przebywać-1, siedzieć-2
+      0 grzać dupę-1, grzać tyłek-1
+      2 stać-14
+        1 stacjonować-1, bazować-2
+          0 koszarować-2
+      0 koczować-3
+      0 rezydować-2
+      0 kisić się-1, kwasić się-2, kisnąć-1
+      2 bawić-1, gościć-2
+        VISITED 0 nocować-1
+        0 popasać-1
+      1 obozować-1, biwakować-1
+        0 campingować-1, kempingować-1
+      1 siedzieć-5, siedzieć za kratkami-1
+        0 odsiadywać-1
+      VISITED 11 pozostawać-2, zostawać-3
+      0 plażować-1
+      0 przesiadywać-1, wysiadywać-2
+      1 mieszkać-1
+        0 gnieździć się-4
+    7 ukrywać się-1, chować się-1, skrywać się-1, kryć się-2
+      0 chronić się-1
+      0 zapadać-6
+      0 zachodzić-7
+      0 zaszywać się-1
+      0 barykadować się-1, tarasować się-1
+      0 dekować się-1
+      0 melinować się-1
+  85 być-3
+    0 być za pan brat-2
+    0 mieć się z pyszna-1
+    0 mieć mokro-2
+    0 mieć mokro-1
+    0 ledwo żyć-1, chodzić do tyłu-1
+    0 niedospać-1
+    4 być-6
+      0 spływać-6, spływać jak po kaczce-1
+      0 bić po oczach-2
+      0 chorować na głowę-2
+      0 być w lesie-1
+    0 prowadzić się-5
+    0 dawać się-3
+    3 iść-7
+      0 odchodzić-13
+      1 odchodzić-9
+        0 odpadać-2
+    0 tonąć-1, zapadać-1
+    0 rekrutować się-1
+    0 służyć-2
+    0 spodziewać się dziecka-1, być przy nadziei-1
+    0 czekać-2
+    57 utrzymywać się-1
+      0 trzymać się-3, trzymać-13
+      0 zalegać-3
+      0 trzymać-8
+      52 pozostawać-1
+        0 zostawać na placu boju-1
+        0 trzymać-12, wytrzymywać-3
+        0 kisić się we własnym sosie-1, smażyć się we własnym sosie-1, kwasić się we własnym sosie-1, tkwić we własnym sosie-1, kisić się-3, kwasić się-3, gnić-2, kisnąć-3
+        4 wytrzymywać-2, przetrzymywać-5
+          2 przeżywać-4
+            0 ratować się-1
+            0 dożywać-2
+          0 znosić-6
+        11 trwać-3
+          10 czekać-3
+            1 wymarzać-2
+              0 wymrażać się-1
+            0 doczekiwać się-1, doigrywać się-1
+            0 przeczekiwać-3
+            0 antyszambrować-1
+            0 kolędować-3
+            1 czaić się-1, czatować-2, czyhać-2, przyczajać się-1, zaczajać się-1, zasadzać się-2, dybać-1
+              0 szykować się-3
+            1 oczekiwać-3, wyczekiwać-1, wyglądać-5, wypatrywać-2
+              0 spodziewać się-2
+        11 pozostawać-2, zostawać-3
+          1 tkwić-2
+            0 kiblować-1
+          0 podziewać się-2
+          1 zalegać-5
+            0 odłogować-1, leżeć odłogiem-1
+          5 stać-5
+            0 wystawać-2
+            0 kotwiczyć-2
+            0 cumować-3
+            0 parkować-2
+            0 sterczeć-2
+        2 upierać się-1, zapierać się-1, zawzinać się-1
+          0 zacinać się-5
+          0 obstawać-2, trwać-4, pozostawać przy swoim-1
+        VISITED 16 trwać-2, utrzymywać się-2
+      0 pokutować-2
+    0 urlopować-2
+    20 zostawać-2
+      0 stawać-7
+      0 stawać-3
+      0 powracać-5, wracać-5
+      16 trwać-2, utrzymywać się-2
+        1 siedzieć-7
+          0 wysiadywać-1, siedzieć-8
+        0 służyć-6, prosić-4
+        0 balansować-3
+        0 klęczeć-1
+        0 stać-3
+        2 wisieć-2, zwisać-2, zwieszać się-1
+          0 obwisać-1
+          0 wisieć-3
+        1 siedzieć-3
+          0 sąsiadować-2
+        4 leżeć-2
+          0 wylegiwać się-1, byczyć się-1, leżeć martwym bykiem-1
+          0 leżakować-2
+          0 półleżeć-1
+          0 warować-1
+  127 *CZASOWNIK - STAN NDK oznaczający relacje ponadczasowe i abstrakcyjne-1
+    1 widać-2
+      0 widać gołym okiem-1
+    0 trza-1
+    0 mieć część wspólną-1
+    11 *pełnić jakąś funkcję-1
+      0 bronić-8
+      0 różnić-1
+      0 rozpoczynać-3
+      0 reprezentować-2
+      3 dzielić-3
+        2 przedzielać-3
+          1 przegradzać-2
+            0 odgradzać-3
+      2 odgrywać rolę-1, pełnić rolę-1, grać rolę-1
+        0 znaczyć-4, mieć znaczenie-1, liczyć się-2
+        0 mentorować-3
+    45 *być, pozostawać w jakiejś relacji do czegoś-1
+      0 skutkować-2
+      0 pokrywać się-2
+      6 odpowiadać-8, przystawać-2
+        0 uzupełniać się-2, dopełniać się-2
+        4 pasować-2, harmonizować-1, komponować się-1, korelować-1, współbrzmieć-1, korespondować-1, wkomponowywać się-3, współgrać-1, godzić się-6
+          0 podpadać-2, wpisywać się-3
+          0 uzupełniać-2, dopełniać-2
+          0 grać-13
+          0 licować-2
+      4 współwystępować-1
+        2 towarzyszyć-2
+          0 iść w parze-1
+          0 wtórować-3
+        0 współistnieć-1, koegzystować-1
+      3 kłócić się-2, kolidować-1, zgrzytać-2
+        0 zaprzeczać-3, przeczyć-2, pozostawać w sprzeczności-1
+        0 ścierać się-4
+        0 wykluczać się-1
+      5 górować-3, przewyższać-4, przebijać-9
+        0 gasić-5, zagaszać-2
+        0 wyrastać-1
+        0 prześcigać-2, przeganiać-7
+        VISITED 0 celować-4
+        0 przyćmiewać-3, przygaszać-2, zaćmiewać-2
+      0 przewyższać-3, przerastać-2
+      1 przewyższać-2, przerastać-1
+        0 królować-2
+      0 wykraczać-2, wybiegać-3
+      0 zależeć-2, warunkować-2
+      2 zagrażać-1, grozić-1, wisieć nad głową-1, wisieć-4
+        0 wisieć na włosku-1
+        0 czyhać-1
+      2 różnić się-1, odbiegać-2, odróżniać się-1, odstawać-2
+        1 odbijać-1
+          0 kontrastować-2
+      1 przysługiwać-1, należeć się-1
+        0 przypadać-2, dostawać się-4
+      3 przypominać-1
+        VISITED 0 przywodzić-4
+        0 graniczyć-2, ocierać się-3
+        0 zakrawać-1
+      4 kojarzyć się-1, łączyć się-4, wiązać się-2
+        0 przywodzić-4
+        2 zależeć-1
+          1 podlegać-3
+            0 być pod pantoflem-1
+    0 wystarczać-2
+    0 poprzedzać-1
+    2 widać-1
+      0 grać-12
+      0 widnieć-1
+    21 móc-1, być w stanie-1, być w mocy-1
+      0 kontaktować-2
+      19 umieć-1
+        15 mówić-8
+          0 wykrztuszać-2
+          0 huczeć-1, grzmieć-1
+          0 chrypieć-1
+          1 piszczeć-3
+            0 popiskiwać-2
+          0 bełkotać-2
+          0 buczeć-2
+          1 mamrotać-1, mamlać-2, mamleć-2, mruczeć-1
+            0 pomrukiwać-1
+          0 gaworzyć-1
+          1 cedzić-1
+            0 syczeć-4, sykać-3
+          0 wyrzucać-7
+          1 szeptać-1, mówić na ucho-1
+            0 szemrać-2
+        0 potrafić-1
+        1 czytać-3
+          0 sylabizować-1, dukać-1
+    2 mieć-4
+      0 nosić-4
+      0 nosić-3
+    8 wyróżniać się-1
+      0 brylować-1
+      0 wybijać się-1
+      VISITED 0 skrzyć się-2, skrzyć-2
+      0 wypływać-5
+      0 słynąć-1, szczycić się-2
+      0 rozbłyskać-2, rozbłyskiwać-2
+      0 błyszczeć-2
+      0 celować-4
+    11 mieć-3, być w posiadaniu-1, posiadać-2
+      0 posiadać-4
+      9 zawierać-3, mieścić-1, obejmować-3
+        0 posiadać-5
+        0 zawierać-1, mieścić-2
+        5 obfitować-1
+          0 skrzyć się-2, skrzyć-2
+          0 opływać-4, kąpać się-3
+          0 tonąć-7
+          0 płynąć-8
+          0 pływać-6
+        0 skrywać-4, kryć-4, ukrywać-1
+    0 trzeba-1, powinno się-1, należeć-1, wypadać-5, godzić się-5, przystać-3
+    0 trzeba-2, potrzeba-1
+    1 musieć-1, potrzebować-1, być zmuszonym-1, mieć-2
+      0 powinien-1, winien-1
+    0 wolno-1, można-1
+    5 dotyczyć-1, odnosić się-2, tyczyć-1, tyczyć się-1, stosować się-1
+      0 traktować-2
+      2 obejmować-2
+        1 zawierać-4
+          0 zamykać-9
+      0 chodzić-13, iść-19
+    4 dominować-1, przeważać-1, górować-1
+      0 trzymać pod pantoflem-1
+      1 rządzić-2
+        0 rozdawać karty-1
+      0 panować-6
+  151 *CZASOWNIK - STAN NDK oznaczający stan emocjonalny-1
+    VISITED 2 czuć się-1
+    147 czuć-2, odczuwać-1
+      0 nie posiadać się-1
+      26 chować-7, żywić-2
+        VISITED 22 *żywić do kogoś uczucie pozytywne-1
+        VISITED 2 *żywić do kogoś uczucie negatywne-1
+      0 wrzeć-2, kipieć-1, gotować się-4, buzować-2
+      0 nosić w sercu-1, nosić w sobie-1, nosić w duszy-1, nieść-5
+      VISITED 6 obdarowywać-2, obdarzać-2, darzyć uczuciem-1, obdarzać uczuciem-2, darzyć-2
+      0 szarpać się-6
+      0 podlegać-4
+      0 wczuwać się-1, rozumieć-3
+      0 pałać-1, gorzeć-2, goreć-2
+      70 *doświadczać negatywnego uczucia-1
+        0 przewracać się w grobie-1
+        0 dostawać w kość-1
+        0 rozżalać się-1, rozgoryczać się-1
+        0 żałować-2, wyrzucać sobie-1
+        0 baranieć-1, głupieć-2, durnieć-2
+        0 zazdrościć-1
+        2 ziać-4
+          1 zionąć-3
+            0 wionąć-3
+        0 zamykać się-5
+        VISITED 0 wtulać głowę w ramiona-1, wciągać głowę w ramiona-1, wciskać głowę w ramiona-1, chować głowę w ramiona-1, wsuwać głowę w ramiona-1, kulić głowę w ramiona-1
+        3 rozpaczać-1
+          0 rwać włosy z głowy-1
+          0 desperować-1
+          0 tragizować-1, robić tragedię-1, dramatyzować-2
+        2 załamywać się-1, łamać się-2
+          0 podłamywać się-2
+          0 rozsypywać się-7
+        0 zawodzić się-1, rozczarowywać się-1
+        1 martwić się-2, boleć-2, cierpieć-3, smucić się-1
+          0 odchorowywać-2
+        2 *żywić do kogoś uczucie negatywne-1
+          0 gniewać się-2
+          0 nienawidzić-1
+        7 wstydzić się-2, odczuwać wstyd-1
+          0 krępować się-1
+          0 żenować się-1
+          3 peszyć się-1, płoszyć się-1, zawstydzać się-1, onieśmielać się-1
+            0 mieszać się-3, deprymować się-1, detonować się-1
+            0 tremować się-1
+            0 konsternować się-1
+          0 wstydzić się-3
+        0 nie śmieć spojrzeć w oczy-1, nie móc spojrzeć w oczy-1, bać się spojrzeć w oczy-2, wstydzić się-1, chcieć się zapaść pod ziemię-2, bać się pokazać na oczy-1
+        2 szkoda-1, żałować-3, żal-1
+          0 tęsknić-1
+          0 opłakiwać-1, płakać-3
+        0 gnębić się-1, martwić się-1, gryźć się-2, zamartwiać się-1, trapić się-1, troszczyć się-2, trwożyć się-2
+        3 niepokoić się-1, denerwować się-2
+          0 gorączkować się-1
+          0 stresować się-1
+          0 wrzeć-7
+        20 denerwować się-1
+          0 wychodzić z siebie-2
+          0 niecierpliwić się-1
+          1 tracić nerwy-1, tracić panowanie nad nerwami-1
+            0 rozstrajać się-2
+          0 wnerwiać się-1
+          1 oburzać się-1, bulwersować się-1, wzburzać się-1, obruszać się-2
+            0 gorszyć się-1
+          0 irytować się-1
+          6 złościć się-1
+            0 zaperzać się-2, zacietrzewiać się-1
+            0 wpieniać się-1
+            0 srożyć się-2, najeżać się-3
+            2 wściekać się-1
+              0 pienić się-3, pieklić się-2, spieniać się-3, toczyć pianę-1, toczyć pianę z ust-1, bić pianę-1
+              0 rozjuszać się-1
+          3 gniewać się-1
+            0 dąsać się-1, mieć muchy w nosie-1, boczyć się-1
+            0 naburmuszać się-1
+            0 obrażać się-1, pamiętać-5, zapamiętywać się-1, urażać się-1
+          0 frustrować się-1
+        7 bać się-1, lękać się-1, obawiać się-1, drżeć-2, mieć boja-1
+          0 trząść się jak galareta-1, trząść się jak osika-1, drżeć jak osika-1
+          0 mieć duszę na ramieniu-1
+          0 szczękać zębami-2, kłapać zębami-1, klapać zębami-1
+          0 trząść portkami-1, trząść dupą-1
+          0 trwożyć się-1, truchleć-1
+          0 histeryzować-1, panikować-1
+          0 tchórzyć-1, chować głowę w piasek-1
+      1 kochać się-4
+        0 podkochiwać się-1, durzyć się-1
+      44 *doświadczać pozytywnego uczucia-1
+        1 zadowalać się-1
+          0 zaspokajać się-1, nasycać się-3, sycić się-1
+        0 podbudowywać się-1
+        4 podziwiać-1
+          3 zachwycać się-1, achać-1, entuzjazmować się-1, fascynować się-1
+            1 unosić się-7
+              0 rozpływać się-3
+            0 padać na kolana-2
+        5 rozkoszować się-1, delektować się-1, lubować się-1
+          VISITED 0 kochać się-3
+          2 rozsmakowywać się-1, smakować-3
+            1 smakować-4
+              0 raczyć się-1, fetować się-1
+          0 nurzać się-1, pławić się-1, tarzać się-2
+        1 być zadowolonym-1, odczuwać zadowolenie-1
+          0 chlubić się-2, odczuwać dumę-1
+        0 wzruszać się-1, rozczulać się-1, roztkliwiać się-1, rozklejać się-1, rozrzewniać się-1, rozkrochmalać się-2
+        22 *żywić do kogoś uczucie pozytywne-1
+          6 obdarowywać-2, obdarzać-2, darzyć uczuciem-1, obdarzać uczuciem-2, darzyć-2
+            0 obsypywać-4, osypywać-4
+            0 przelewać-4
+            1 pieścić-1
+              0 ugłaskiwać-2
+            1 czulić się-1
+              0 gruchać-2
+          2 ufać-2, zawierzać-2, żywić wiarę-1, wierzyć-5
+            0 opierać się-4
+            0 dowierzać-1
+          5 szanować-1, poważać-1, liczyć się-1
+            0 chylić czoła-1, chylić czoło-1, chylić głowę-1
+            1 czcić-4
+              0 honorować-1
+            0 czcić-1
+            0 cenić-1, doceniać-1
+          2 lubić-2, sympatyzować-1, sprzyjać-1
+            VISITED 1 uwielbiać-1, wielbić-1, przepadać-1, ubóstwiać-1, szaleć-5
+          2 kochać-1, obdarzać uczuciem-1, darzyć uczuciem-2, darzyć miłością-1, obdarzać miłością-1
+            0 czuć miętę-1
+            0 wzdychać-2
+        3 lubić-3, gustować-1
+          0 kochać się-3
+          1 uwielbiać-1, wielbić-1, przepadać-1, ubóstwiać-1, szaleć-5
+            0 mieć we krwi-2
+        2 cieszyć się-1, radować się-1, weselić się-1
+          0 żyć dniem-1, żyć chwilą-1
+          0 zacierać ręce-1
+      15 chcieć-1, mieć chęć-1, mieć ochotę-1, życzyć sobie-1
+        2 żądać-1
+          0 wymagać-3
+          0 rościć-1
+        0 pisać się-1
+        0 wtulać głowę w ramiona-1, wciągać głowę w ramiona-1, wciskać głowę w ramiona-1, chować głowę w ramiona-1, wsuwać głowę w ramiona-1, kulić głowę w ramiona-1
+        2 garnąć się-2, ciągnąć-18
+          0 lgnąć-3
+          0 palić się-4, kwapić się-1
+        1 potrzebować-3
+          0 zależeć-3
+        4 pragnąć-1, łaknąć-1, pożądać-1, łakomić się-1
+          0 marzyć-2
+          0 musieć-2
+          0 pożądać-2, pragnąć-2
+          0 chorować-2
+      2 współczuć-1, żałować-1
+        0 ubolewać-2, użalać się-2
+        0 litować się-1
+      2 dziwić się-1, zdumiewać się-1, zadziwiać się-1, dziwować się-1
+        0 robić oczy-1
+        0 prosić-9
+  72 *CZASOWNIK - STAN NDK oznaczający stan fizyczny-1
+    0 czuwać-2
+    1 robić się-4
+      0 drukować się-1
+    0 znajdować się-5
+    0 trzymać się-2
+    9 chorować-1, cierpieć-1, niedomagać-1, szwankować-1, szwankować na zdrowiu-1
+      0 mieć hopla-1, mieć kota-1, mieć kręćka-1, mieć szmergla-1
+      0 niedosłyszeć-1
+      0 gorączkować-1
+      0 biegać-4
+      0 chorować psychicznie-1, chorować umysłowo-1, chorować na głowę-1, szwankować na umyśle-1
+      0 niedowidzieć-1
+      0 dorabiać się-2, doprawiać się-1
+      0 cienko prząść-1
+      0 cherlać-1, marnieć-1
+    2 czuć się-1
+      0 mieć się-1, miewać się-1
+      0 odnajdować się-3, odnajdywać się-2
+    0 odbijać się-2, odzwierciedlać się-2, przeglądać się-1
+    1 smażyć się-2
+      0 podsmażać się-1
+    1 gotować się-3
+      0 dusić się-2
+    1 piec się-1
+      0 opiekać się-1
+    0 drętwieć-2
+    10 wyglądać-3, prezentować się-1, przedstawiać się-3, wypadać-2
+      4 czesać się-3
+        0 golić się-2
+        0 farbować się-2
+        0 przeczesywać się-1
+        0 tapirować się-1
+      0 kwitnąć-4
+      2 ubierać się-2, nosić się-1
+        1 nosić-6, chodzić-14
+          0 chadzać-2
+      0 wychodzić-18
+    5 spać-1
+      0 spać jak niemowlę-1
+      0 nocować-1
+      2 drzemać-1
+        0 ucinać komara-1, przycinać komara-1
+        0 kimać-1
+    2 podtrzymywać-3, utrzymywać-2
+      0 łożyskować-1
+      0 trzymać-9
+    21 świecić-2, palić się-3
+      0 tlić się-2, tleć-2
+      0 przyświecać-3
+      0 fluorować-2, fluoryzować-1
+      11 oświetlać-1
+        0 zaglądać-3
+        0 opromieniać-3
+        0 doświetlać-1
+        0 iluminować-2
+        0 omiatać-2
+        0 przyświecać-2
+        0 podświetlać-1
+        2 rozjaśniać-1, rozświetlać-2, rozbielać-1, rozjarzać-2, rozpalać-3, rozpraszać-2, rozpromieniać-2, rozświecać-1, rozwidniać-1, przejaśniać-3
+          0 zapalać-3
+          0 rozdzierać-3
+        0 muskać-3
+      0 pełgać-1
+      0 żarzyć się-2
+      0 jarzyć się-2
+      0 fosforyzować-1
+      1 błyskać-1, migać-1, mrugać-1, drgać-2, migotać-1
+        0 pobłyskiwać-1
+    3 milczeć-1
+      0 sznurować usta-2
+      0 trzymać buzię na kłódkę-1, trzymać mordę na kłódkę-1, trzymać gębę na kłódkę-1
+      0 trzymać język za zębami-1
+  56 być-4, istnieć-1, egzystować-1
+    4 przebywać-4
+      1 otaczać się-1
+        0 obstawiać się-2
+      1 towarzyszyć-1, sekundować-2, asystować-1, akompaniować-2
+        0 eskortować-2
+    1 gościć-3
+      0 przepływać-5
+    0 tlić się-3
+    0 ziać-3
+    0 datować się-1
+    0 przedstawiać-3
+    2 żyć-1
+      1 rosnąć-7
+        0 plenić się-1
+    34 trwać-1
+      3 stać-12
+        2 wznosić się-1
+          0 wystrzelać-1
+          0 piętrzyć się-2, wypiętrzać się-2
+      10 być-2
+        1 przypadać-1, wypadać-3
+          0 zbiegać się-1, schodzić się-3
+        7 rozgrywać się-1, odgrywać się-1
+          5 toczyć się-1, iść-4, przebiegać-1
+            0 postępować-1
+            1 iść-12
+              0 grać-6
+            0 wrzeć-1
+            0 rozwijać się-3
+          0 odchodzić-5
+      2 ciągnąć się-6
+        0 ciągnąć się-8
+        0 dłużyć się-1, wlec się-2
+      0 dożywać-1
+      1 przeżywać-1
+        0 pozostawać-5
+      2 zachowywać się-3
+        0 ratować się-2
+        0 żyć-4
+      3 mijać-2, płynąć-5, biec-2, upływać-1, biegnąć-2, umykać-2
+        0 ekspirować-1
+        0 przepływać-4
+        0 przemykać-3
+      5 zachowywać się-2, przechowywać się-1, dochowywać się-1
+        2 konserwować się-1
+          0 marynować się-1
+          0 kwasić się-1, kisić się-2, ukwaszać się-1, zakiszać się-1, zakwaszać się-1
+        0 zostawać-4, pozostawać-4
+        0 zostawać-5, pozostawać-3
+    4 panować-1
+      0 grasować-2
+      0 huczeć-3
+      0 mieszkać-3
+      0 obowiązywać-2
+    1 obowiązywać-1, działać-1
+      0 stać-13
+  0 brakować-1, brak-1

@@ -1,0 +1,748 @@
+734 mienie-1, własność-1, majątek-1, dobytek-1, majętność-1, przynależność-1, stan posiadania-1
+  0 ostatnie cielę z obory-1
+  0 własność przemysłowa-1
+  1 własność intelektualna-1
+    0 prawa pokrewne-1
+  0 dorobek-1
+  0 mahr-1
+  0 szafunek-2
+  0 pospólność-1
+  0 spadkobierstwo-1
+  0 akcjonariat-1
+  0 szczebrzuch-1
+  9 rachunek-2, konto-3
+    0 konto-4
+    7 konto-1
+      0 rachunek bankowy-1
+      0 rachunek pomocniczy-1
+      0 superkonto-1
+      0 eurokonto-1
+      1 internetowe konto bankowe-1
+        0 portfel elektroniczny-1
+      0 rachunek bieżący-1
+  0 własnościowość-1
+  0 chudoba-1
+  0 masa spadkowa-1
+  0 przywianek-1
+  0 krwawica-1
+  0 alodium-1
+  VISITED 1 prebenda-1
+  1 gospodarstwo-2
+    0 gospodarstwo pracownicze-1
+  1 majątek osobisty-1
+    0 michnikowszczyzna-1
+  1 pasywa-1
+    0 rezerwa na zobowiązania-1
+  1 wiano-1, posag-1
+    0 wyprawa-6, wyprawka-2
+  8 aktywa-1, stan czynny-1
+    0 rezerwy walutowe-1
+    0 rezerwa walutowa-1
+    0 aktywa obrotowe-1, majątek obrotowy-1
+    4 aktywa trwałe-1, majątek trwały-1
+      0 środek trwały-1
+      0 inwestycja długoterminowa-1, finansowy majątek trwały-1
+      0 środki trwałe-1, rzeczowy majątek trwały-1
+      0 wartości niematerialne i prawne-1
+  0 majątek narodowy-1
+  4 inwentarz-2
+    0 inwentarz martwy-1
+    2 inwentarz żywy-1
+      0 przychówek-1
+      0 drobny inwentarz-1
+  0 skarbiec-2
+  0 ruchomość-1, rzecz ruchoma-1, majątek ruchomy-1
+  3 skarb-1
+    0 złote runo-2
+    1 kosztowności-1, drogocenności-1, złotości-2
+      0 precjoza-1
+  VISITED 50 papier wartościowy-1, walor-2
+  146 nieruchomość-1, rzecz nieruchoma-1, majątek nieruchomy-1
+    37 ziemia-9, grunt-2, nieruchomość gruntowa-1
+      2 sad-1
+        0 śliwnik-1
+        0 oliwnik-2
+      17 pole-2, łan-1, niwa-2, rola-4, pole uprawne-1
+        0 gradowisko-1
+        0 bronowisko-1
+        0 kapuścisko-1, kapuśnisko-1
+        1 kartoflisko-1
+          0 kopanisko-1
+        0 areał-1
+        0 nieużytek-1
+        0 odłóg-1, ugór-1
+        7 ściernisko-1, rżysko-1, ścierń-1
+          0 lnisko-1
+          0 konopisko-1
+          0 żytnisko-1
+          0 ryżowisko-1
+          0 pszeniczysko-1
+          0 jęczmienisko-1
+          0 grochowisko-1
+        0 szkoda-1
+      15 ogród-1
+        0 ogród różańcowy-1
+        0 ogród francuski-1, ogród barokowy-1, ogród w stylu francuskim-1, francuski ogród regularny-1
+        0 ogródek-1
+        0 raj-4
+        0 różanka-1, rozarium-1, rosarium-1
+        0 ogród wodny-1, hydroogród-1
+        0 ogród naturalistyczny-1
+        0 ogrójec-1, ogrojec-1
+        1 alpinarium-1
+          0 skalniak-1
+        0 ogród renesansowy-1
+        0 ogród zoologiczny-1, zoo-1, zwierzyniec-1
+        0 ogród warzywny-1, warzywnik-1, warzywniak-2
+        1 ogród botaniczny-1
+          0 arboretum-1, dendrarium-1
+    1 majątek ziemski-1
+      0 ordynacja-2, fideikomis-1
+    81 dom-1
+      0 dom kanadyjski-1, kanadyjczyk-2
+      0 dom mieszkalny-1
+      0 dom przysłupowy-1
+      14 dom wielorodzinny-1
+        0 famuła-1
+        0 insula-1
+        0 familok-1
+        0 apartamentowiec-1
+        0 czworak-1
+        5 blok-1
+          0 wielka płyta-3
+          0 galeriowiec-1
+          0 mrówkowiec-1
+          0 korytarzowiec-1
+          0 blokhauz-2
+        2 kamienica-1
+          0 czynszówka-1
+          0 kamieniczka-1
+      VISITED 1 chawira-1
+      0 fanza-1
+      0 fazenda-1
+      0 domiszcze-1
+      0 slums-1, slams-1
+      0 domostwo-2
+      3 internat-1, bursa-1
+        0 konwikt-2
+        0 półinternat-1
+        0 alumnat-1
+      1 leśniczówka-1
+        0 nadleśniczówka-1
+      0 gajówka-1
+      0 pastorówka-1
+      0 organistówka-1
+      0 kanonia-2
+      0 dom szeregowy-1, szeregowiec-2, szeregówka-1
+      0 domek fiński-1
+      0 wikariat-1, wikarówka-1
+      0 plebania-1, probostwo-1, proboszczówka-1
+      12 rezydencja-1
+        0 delicja-3
+        0 alkazar-1
+        3 zamek-1
+          0 bastylia-1
+          0 zamczysko-1
+          0 kasztel-2
+        5 pałac-1
+          0 alkazar-2
+          0 seraj-2
+          0 palatium-1
+          1 pałacyk-1
+            0 bagatela-3
+      3 domostwo-1, zagroda-1, obejście-4, gumno-1
+        0 hacjenda-1
+        0 chutor-2, futor-1
+        0 kureń-2, kurzeń-1
+      0 bungalow-1
+      0 dom na działce-1, dom letniskowy-1, letniak-1
+      2 domek-1
+        0 dacza-1
+        0 piętrówka-1, domek piętrowy-1
+      6 chata-1, chałupa-2
+        0 sakla-1
+        0 checza-1
+        0 kurna chata-1, dymna chata-1
+        1 lepianka-1, kleć-1
+          0 glinianka-1
+        0 półziemianka-1
+      0 dom jednorodzinny-1, budynek mieszkalny jednorodzinny-1
+      0 segment-1
+      0 bliźniak-3, dom bliźniaczy-1
+      3 dom wolnostojący-1
+        0 dom grecki-1
+        1 dom rzymski-1
+          0 pretorium-2
+      0 willa-1
+      0 akademik-1, dom studencki-1, dom akademicki-1
+      3 dwór-1
+        0 dworzyszcze-1
+        1 dworek-1
+          0 kałamarzyk-3
+    0 działka-1, ogródek działkowy-1
+    6 posiadłość-2
+      1 chawira-1
+        0 gargamel-1
+      VISITED 0 dominium-3, domena-4
+      2 poletko-1
+        0 poletko doświadczalne-2
+        0 kwadrat-8
+    18 majątek-2, posiadłość-1, włość-1, dobra-1
+      0 wolne sołectwo-1
+      0 senioria-1
+      0 dzierżawina-1
+      0 urbarium-3
+      0 lordostwo-4
+      0 dominium-3, domena-4
+      0 wójtostwo-1
+      0 ojcowizna-1
+      2 dwór-4
+        1 folwark-1
+          0 fundum-1
+      0 baronia-1
+      0 hrabstwo-2
+      0 lenno-2, feudum-1, lenność-2
+      0 komandoria-2, komandorstwo-1
+      0 latyfundium-1
+      0 królewszczyzna-1
+      0 dominium-2
+  524 kapitał-1, finanse-1, fundusze-1, fundusz-1
+    2 skarb-5
+      0 skarb nadworny-1
+      0 skarb koronny-1, skarb państwowy-1
+    0 rezerwa matematyczna-1
+    0 fundusz rozliczeniowy-1
+    0 fundusz prewencyjny-1
+    0 fundusz amortyzacyjny-1
+    0 fundusz dyspozycyjny-1
+    0 fundusz sołecki-1
+    0 fundusz remontowy-1
+    0 fundusz strukturalny-1
+    0 fundusz przedakcesyjny-1
+    0 kapitał początkowy-1
+    0 fundusz zasobowy-1
+    0 fundusz udziałowy-1
+    0 konflagrata-1
+    0 fundusz hedgingowy-1
+    0 kapitał naturalny-1
+    6 kapitał własny-1
+      0 kapitał założycielski-1, kapitał zakładowy-1, kapitał podstawowy-1, fundusz podstawowy-1
+      0 kapitał z aktualizacji wyceny-1
+      0 kapitał rezerwowy-1
+      0 kapitał zapasowy-1
+      0 kapitał samofinansowania-1
+      0 kapitał powierzony-1
+    7 wydatki-1
+      6 wydatki budżetowe-1, wydatki budżetu państwa-1
+        0 wydatki majątkowe-1, wydatki inwestycyjne-1
+        2 wydatki bieżące-1, wydatki konsumpcyjne-1
+          0 wydatki osobowe-1
+          0 wydatki rzeczowe-1
+        1 wydatki publiczne-1
+          0 wydatki socjalne-1
+    0 kieszeń-3
+    5 fundusz inwestycyjny-1
+      0 fundusz zalążkowy-1
+      0 fundusz dłużny-1
+      0 fundusz agresywny-1
+      0 fundusz mieszany-1
+      0 fundusz sekurytyzacyjny-1
+    0 fundusz powierniczy-1
+    0 fundusz płac-1
+    0 kapitał obcy-1
+    0 kapitał trwały-1
+    0 kapitał czynny-1
+    0 kapitał obrotowy-1
+    0 kapitał finansowy-1
+    0 kapitał akcyjny-1
+    0 fundusz socjalny-1
+    0 fundusz alimentacyjny-1
+    0 fundusz ubezpieczeniowy-1
+    54 inwestycja-1
+      0 inwestycja portfelowa-1
+      0 wydatek majątkowy-1, wydatek inwestycyjny-1
+      51 inwestycja krótkoterminowa-1, finansowy majątek obrotowy-1
+        50 papier wartościowy-1, walor-2
+          0 obligacja municypalna-1
+          0 obligacja skarbowa-1
+          0 bon pieniężny-1
+          0 świadectwo udziałowe-1
+          0 certyfikat depozytowy-1
+          0 certyfikat inwestycyjny-1
+          0 dewizy-1
+          0 konosament-1
+          0 list zastawny-1
+          5 weksel-1
+            0 weksel niezupełny-1
+            0 weksel skarbowy-1
+            0 weksel własny-1
+            0 trata-1, weksel trasowany-1, weksel ciągniony-1
+            0 rymesa-1
+          8 bon-1
+            0 bon uwłaszczeniowy-1
+            0 bon paliwowy-1
+            0 bon towarowy-1
+            0 bon reprywatyzacyjny-1
+            0 bon prywatyzacyjny-1
+            0 bon oświatowy-1
+            0 bon skarbowy-1
+            0 bon lokacyjny-1
+          9 banknot-1, bilet bankowy-1, asygnata-1
+            0 bilet zdawkowy-1
+            0 czerwoniak-1
+            0 tysiączłotówka-1
+            0 trzyrublówka-1
+            0 dziesięcioeurówka-1
+            VISITED 0 pięcioeurówka-1
+            1 młynarka-3
+              0 góral-4
+            0 czerwoniec-2
+          5 obligacja-1
+            0 obligacja restrukturyzacyjna-1
+            0 obligacja zamienna-1
+            0 obligacja komunalna-1
+            0 obligacja przychodowa-1
+            0 euroobligacja-1
+          VISITED 9 akcja-4
+    412 pieniądze-1, środki pieniężne-1
+      0 pieniąchy-1
+      0 złoty cielec-2
+      0 srebro-6
+      0 złoto-5
+      0 dutki-1
+      0 judaszowe srebrniki-1, judaszowskie srebrniki-1
+      0 brzęcząca moneta-1, grosiwo-1
+      0 gorący pieniądz-1
+      0 waluta-2
+      0 gotówka-1, gotowizna-1, żywa gotówka-1
+      2 oszczędności-1
+        0 oszczędności-2
+        0 zaskórniak-1
+      397 kwota-1, suma-1, sumka-2
+        0 margines wypłacalności-1
+        0 odliczenie-4
+        0 kokosy-1
+        0 obrót podatkowy-1
+        0 wartość godziwa-1
+        0 bańka-7
+        0 bank-4
+        0 dziesiątak-3, dycha-4
+        7 piątak-1, piątal-1
+          6 piątka-6
+            0 pięciodolarówka-1
+            0 pięcioeurówka-1
+            0 pięciopensówka-1
+            0 pięciocentówka-1
+            0 pięciozłotówka-1
+            0 pięciogroszówka-1
+        0 przekaz-6
+        44 zapłata-2
+          VISITED 36 wynagrodzenie-2, zarobek-1
+          6 odszkodowanie-1, rekompensata-1, wyrównanie-8, kompensata-1, wynagrodzenie-3, restytucja-3, indemnizacja-1
+            0 restytucja naturalna-1
+            0 remuneracja-1
+            0 reparacje-1
+            0 przestojowe-1
+            0 odstępne-1
+            0 nawiązka-1
+        0 przegrana-2
+        0 grosz-2
+        0 tysiąc-2, tysiak-1
+        0 reszta-2
+        0 ciężki grosz-1, ciężki pieniądz-1, drogie pieniądze-1, ciężka forsa-1
+        0 bajońska suma-1, sumy neapolitańskie-1
+        1 kieszonkowe-1
+          0 tygodniówka-3
+        0 apanaże-1
+        4 budżet-1
+          0 budżet domowy-1, budżet rodzinny-1
+          0 budżet państwa-1, budżet-2
+          0 budżet roczny-1
+          0 prowizorium budżetowe-2, budżet tymczasowy-1
+        5 przedpłata-1
+          0 prepaid-1, pre-paid-1
+          0 prenumerata-1
+          0 subskrypcja-1
+          1 abonament-1
+            0 radioabonament-1
+        1 potrącenie-4
+          0 dyskonto-1, eskonto-1
+        0 zaliczka-1, zadatek-2, akonto-1, forszus-1
+        0 nakład-3
+        0 grosze-1, marny grosz-1, psi grosz-1, psi pieniądz-1
+        185 wpływ-2, przychód-1
+          0 obrót-5
+          0 inkaso-2
+          182 dochód-1, zarobek-2
+            0 przychód krańcowy-1
+            0 dochód pasywny-1
+            0 dochód realny-1
+            0 dochód nominalny-1
+            0 dochód rozporządzalny-1
+            0 podatek inflacyjny-1
+            0 dochód własny-1
+            0 dochód osobisty-1
+            0 dochód gwarantowany-1
+            15 zysk-1, intrata-1, profit-2
+              0 zysk inflacyjny-1
+              0 zysk księgowy-1
+              0 zysk rezydualny-1
+              0 narzut-1
+              0 zysk operacyjny-1
+              0 przebitka-2
+              5 utarg-1
+                0 utarg całkowity-1
+                0 utarg miesięczny-1
+                0 utarg dzienny-1
+                0 utarg krańcowy-1
+                0 utarg przeciętny-1
+              2 marża-1
+                1 marża handlowa-1
+                  0 marża odsetkowa-1
+            0 prowent-1
+            0 apanaż-1
+            0 seniorat-4, senioraż-1, renta emisyjna-1, renta mennicza-1
+            0 lewizna-2
+            0 komin płacowy-1, komin zarobkowy-1
+            1 renta gruntowa-1
+              0 renta różniczkowa-1
+            1 prebenda-1
+              0 altaria-1
+            0 apanaże-2
+            0 dochód netto-1, zysk netto-1
+            0 dochód brutto-1, zysk brutto-1
+            0 odsetka-1
+            1 dywidenda-1
+              0 dywidenda obligatoryjna-1
+            0 renta-1
+            1 odsetki-1, procent-3, oprocentowanie-2
+              0 lichwa-1
+            36 wynagrodzenie-2, zarobek-1
+              0 wynagrodzenie bezosobowe-1
+              0 wynagrodzenie osobowe-1
+              0 nagroda roczna-1
+              0 kapanina-1
+              0 lafa-1
+              1 honorarium-1
+                0 wierszówka-1
+              0 bilansówka-1
+              VISITED 0 jurgielt-2
+              0 lekki kawałek chleba-2
+              0 ciężki kawałek chleba-2
+              0 tygodniówka-2
+              0 nadgodzina-1
+              0 dniówka-3
+              3 wyrównanie-9, kompensacja-1, kompensata-2
+                0 kliring pracy-1
+                0 indeksacja-1
+                0 rewaloryzacja-3
+              0 wynagrodzenie brutto-1, płaca brutto-1, brutto-2
+              0 wynagrodzenie netto-1, płaca netto-1, netto-3
+              1 żołd-1, lenung-1
+                0 jurgielt-1
+              0 tantiema-1
+              0 dzień roboczy-2, dniówka-2, roboczodniówka-1
+              1 prowizja-1
+                0 kurtaż-1
+              4 płaca-1, pensja-1, uposażenie-2, wypłata-2, pobory-1
+                0 płaca realna-1
+                0 koszty osobowe-1
+                0 gaża-1
+                0 płaca minimalna-1
+              3 odprawa-1
+                0 odprawa warunkowa-2
+                0 odprawa pośmiertna-1
+                0 odprawa bezwarunkowa-1
+              0 dieta-1
+            17 zapomoga-1, datek-2, pomoc-2, wsparcie-6
+              0 dodatek aktywizacyjny-1
+              0 pomoc horyzontalna-1
+              1 wsparcie finansowe-1
+                0 premia termomodernizacyjna-1
+              VISITED 0 becikowe-1, jednorazowa zapomoga z tytułu urodzenia się dziecka-1
+              0 wyprawka-1
+              10 zasiłek-1
+                0 zasiłek porodowy-1
+                0 zasiłek stały-1
+                0 zasiłek pogrzebowy-1
+                0 zasiłek okresowy-1
+                0 zasiłek chorobowy-1
+                0 zasiłek pielęgnacyjny-1
+                0 socjal-1
+                0 kuroniówka-2
+                0 zasiłek wychowawczy-1
+                0 zasiłek rodzinny-1
+            64 świadczenie-7
+              0 świadczenie wysokospecjalistyczne-1
+              0 świadczenie specjalistyczne-1
+              0 świadczenie pracownicze-1
+              8 świadczenie społeczne-1
+                0 zaliczka alimentacyjna-1
+                VISITED 0 ubezpieczenie społeczne-1
+                3 renta-2
+                  0 renta szkoleniowa-1
+                  0 renta inwalidzka-1
+                  0 renta strukturalna-1
+                1 emerytura-1, zaopatrzenie emerytalne-1
+                  0 emerytura pomostowa-1
+              0 becikowe-1, jednorazowa zapomoga z tytułu urodzenia się dziecka-1
+              0 benefit-1
+              0 alimenta-1
+              10 danina-1
+                0 olbora-1, orbora-1
+                VISITED 0 powołowe-1
+                0 świętojanka-2
+                0 odumarszczyzna-1
+                0 narzaz-1
+                0 hiberna-2
+                0 osep-1
+                0 świętopietrze-1
+                0 kontrybucja-1
+                0 haracz-2, trybut-1
+              0 pańszczyzna-2, renta odrobkowa-1
+              0 kontyngent-1
+              0 darmocha-2, daremszczyzna-1
+              VISITED 32 alimenty-1
+              1 stypendium-1
+                0 stypendium naukowe-1
+            19 dopłata-1, dodatek-1
+              0 ołówkowe-1, dodatek ołówkowy-1
+              0 dodatek motywacyjny-1
+              0 dodatek mieszkaniowy-1
+              0 dodatek wyrównawczy-1
+              0 dodatek służbowy-1
+              0 dodatek szkoleniowy-1
+              0 dodatek kompensacyjny-1
+              0 dodatek pielęgnacyjny-1
+              0 dopłata kompensacyjna-1
+              0 premia gwarancyjna-1
+              1 napiwek-1
+                0 bakczysz-1, bakszysz-1
+              0 dodatek rodzinny-1
+              0 dodatek funkcyjny-1
+              4 dotacja-1, dofinansowanie-2, subwencja-1, subsydium-1, dotowanie-2
+                0 subwencja ogólna-1
+                0 subsydium eksportowe-1
+                0 dopłata bezpośrednia-1
+                0 grant-1
+        113 opłata-1
+          0 rogatkowe-1
+          0 stempel-5
+          0 opłata bankowa-1
+          0 opłata wyrównawcza-1
+          0 opłata eksploatacyjna-1
+          0 korkowe-1
+          0 opłata miejscowa-1
+          0 opłata skarbowa-1
+          0 wkład mieszkaniowy-1
+          0 wkład budowlany-1
+          0 opłata ryczałtowa-1
+          0 opłata winietowa-1
+          0 opłata portowa-1
+          0 opłata lotniskowa-1
+          0 opłata adiacencka-1
+          0 opłata lokalna-1
+          0 opłata kancelaryjna-1
+          0 wpis stosunkowy-1
+          0 wpis stały-1
+          0 wpis ostateczny-1
+          0 opłata produktowa-1
+          0 pamiętne-1
+          0 annaty-1
+          0 jednane-1
+          1 fracht-2
+            0 fracht dystansowy-1
+          18 podatek-2
+            0 podatek liniowy-1
+            0 karta podatkowa-1
+            6 podatek pośredni-1
+              0 podatek obrotowy-1
+              0 podatek importowy-1
+              3 podatek konsumpcyjny-1
+                0 akcyza-1
+                1 VAT-2, vat-1, PTU-1, podatek od towarów i usług-1
+                  0 podatek należny-1
+            8 podatek bezpośredni-1
+              0 podatek od gier-1
+              0 podatek drogowy-1
+              0 podatek leśny-1
+              0 podatek wyrównawczy-1
+              0 podatek gruntowy-1, podatek rolny-1
+              2 podatek dochodowy-1
+                0 PIT-2, podatek od dochodów osobistych-1
+                0 CIT-1, podatek dochodowy od osób prawnych-1, podatek od przedsiębiorstw-1
+          0 hazuka-3
+          2 ubezpieczenie-6
+            0 ubezpieczenie społeczne-1
+            0 ubezpieczenie na życie-1
+          0 kominowe-1
+          0 taksa-1
+          0 taryfa-1
+          1 kaucja-1
+            0 wadium-1
+          0 haracz-1
+          1 okup-1, wykupne-1
+            0 kompozycja-6
+          0 czesne-1
+          0 wpisowe-1, wpis-1
+          44 podatek-1, opodatkowanie-2, danina-2
+            0 renta planistyczna-1
+            0 podatek od czynności cywilnoprawnych-1
+            0 podatek urbarialny-1
+            0 podatek Tobina-1
+            0 podatek solidarnościowy-1
+            0 podatek od luksusu-1
+            0 podatek kościelny-1
+            0 podatek ekologiczny-1, podatek na ochronę środowiska-1
+            0 podatek degresywny-1
+            0 podatek cedularny-1
+            0 podatek basenowy-1
+            0 janosikowe-1
+            0 podatek rzeczowy-1
+            0 podatek majątkowy-1
+            0 podatek tonażowy-1
+            0 rugowe-1
+            0 podatek Pigou-1
+            0 fordon-2
+            0 czopowe-1
+            0 samoopodatkowanie-1
+            0 powołowe-1
+            0 podatek katastralny-1, kataster-2, kadaster-2
+            0 szos-1
+            0 bykowe-1
+            0 łanowe-1
+            0 poradlne-1, podatek poradlny-1
+            0 dupla-1
+            0 zakat-1, zaka-1, zakāt-2
+            0 kwarta-4
+            1 pogłówne-1, podatek pogłówny-1
+              0 dżizja-1
+            0 kominowe-2, podatek kominowy-1
+            0 podymne-1, podworowe-1
+            0 kwadrupla-1
+            0 domiar-1, domiar podatkowy-1
+            0 ryczałt-2
+            0 regresja podatkowa-1
+            0 dziesięcina-1
+            1 popiwek-1
+              0 neopopiwek-1
+            0 podatek progresywny-1
+            VISITED 2 myto-1
+          6 cło-1
+            0 cło generalne-1
+            0 cło retorsyjne-1
+            0 cło ochronne-1, cło zaporowe-1, cło prohibicyjne-1
+            2 myto-1
+              0 pomierne-1
+              0 mostowe-1
+          4 czynsz-1
+            0 czynsz wolny-1
+            0 obiedne-1
+            0 dzierżawne-1, czynsz dzierżawny-1, dzierżawa-2
+            0 komorne-1
+        1 łapówka-1, łapówa-1, wziątka-1, korzyść majątkowa-2, szeleszczący argument-1, koperta-3, kopertówka-2, kopertówa-1
+          0 jurgielt-2
+        0 wpłata-2
+        12 udział-1, wkład-1
+          0 stopa zwrotu-1, stopa dochodu-1
+          0 aport-1
+          9 akcja-4
+            0 akcja imienna-1
+            0 akcja założycielska-1
+            0 akcja niema-1
+            0 akcja gotówkowa-1
+            0 akcja aportowa-1
+            0 akcja na okaziciela-1
+            0 akcja zwykła-1
+            0 akcja uprzywilejowana-1
+            0 złota akcja-1
+        59 należność-1
+          0 opłata półkowa-1
+          0 ekspozycje kredytowe-1
+          0 należność publicznoprawna-1
+          0 delacja-2
+          0 znaleźne-1
+          0 odstępne-2
+          4 dług-1, zadłużenie-2, kreska-7
+            0 dług publiczny-1
+            0 kredyt-3
+            0 saldo debetowe-1
+            0 debet-1
+          0 należność krótkoterminowa-1
+          0 należność długoterminowa-1
+          7 składka-1
+            0 zus-2
+            0 ubezpieczenie zdrowotne-1, zdrowotne-1
+            4 ubezpieczenie społeczne-2, społeczne-1
+              0 ubezpieczenie wypadkowe-1
+              0 ubezpieczenie chorobowe-1
+              0 ubezpieczenie rentowe-1
+              0 ubezpieczenie emerytalne-1
+          0 ryczałt-1
+          32 alimenty-1
+            31 stosunek zobowiązaniowy-1
+              0 akcept-1
+              29 kredyt-1
+                0 kredyt akceptacyjny-1
+                0 spłata balonowa-1, płatność balonowa-1, kredyt balonowy-1, rata balonowa-2
+                7 kredyt bankowy-1
+                  0 kredyt rolowany-1
+                  0 kredyt podporządkowany-1
+                  0 kredyt konsorcjalny-1
+                  1 kredyt obrotowy-1
+                    0 kredyt kasowy-1
+                  0 kredyt gotówkowy-1
+                  0 kredyt inwestycyjny-1
+                1 kredyt hipoteczny-1
+                  0 odwrócona hipoteka-1
+                0 kredyt stracony-1
+                0 kredyt redyskontowy-1
+                0 kredyt lombardowy-1
+                0 kredyt konsumencki-1
+                0 kredyt skupowy-1
+                2 kredyt preferencyjny-1
+                  0 kredyt suszowy-1
+                  0 kredyt studencki-1
+                0 kredyt kontraktowy-1
+                0 kredyt pomostowy-1
+                0 trzydziestka-8
+                0 mikrokredyt-1
+                0 remburs-1, kredyt rembursowy-1
+                0 kredyt rewolwingowy-1, rewolwing-1
+                0 kredyt państwowy-1
+                0 kredyt refinansowy-1
+                0 kredyt konsumpcyjny-1
+          2 rachunek-3, regestr-5
+            1 faktura-1
+              0 e-faktura-1
+          0 spłata-2
+        0 majątek-4, pieniądze-2
+        3 deficyt-2
+          0 deficyt ekonomiczny-1
+          0 deficyt cykliczny-1, saldo cykliczne-1
+          0 deficyt budżetowy-1, dziura budżetowa-1
+        1 rata-1
+          0 rata balonowa-1, spłata balonowa-2, płatność balonowa-2
+      0 drobne-1, bilon-1, moniaki-1, drobnica-4, drobniaki-1, klepaki-1
+    15 depozyt-1
+      0 depozyt międzybankowy-1
+      0 depozyt sądowy-1
+      2 depozyt bankowy-1
+        0 konto depozytowe-1
+        0 wkład oszczędnościowy-1
+      9 lokata-1
+        0 lokata rentierska-1
+        0 lokata terminowa-1
+        0 lokata progresywna-1
+        0 lokata dynamiczna-1
+        0 lokata dwuwalutowa-1
+        1 moneta bulionowa-1
+          0 krugerrand-1
+        1 wkład-2
+          0 wkład gruntowy-1
+  3 spadek-3, dziedzictwo-1, scheda-1
+    0 kaduk-1
+    0 patrymonium-1
+    0 spuścizna-1, puścizna-1
+  1 majątek-3, bogactwo-3, fortuna-1, dostatek-3
+    0 złoty deszcz-2

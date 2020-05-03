@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- Copyright 2009  Andrzej Zaborowski <balrogg@gmail.com> -->
+<!-- Code under GNU Public License version 2 or version 3 at your option. -->
+<head>
+<title>Tree viewer in javascript</title>
+<script type="application/javascript" src="viewer.js" />
+<script type="application/javascript" src="viewer_helpers.js" />
+<script type="application/javascript"><![CDATA[
+function init() {
+	if ((!window.location.hash || window.location.hash.length < 1) &&
+			(!window.location.search ||
+			 window.location.search.length < 1)) {
+		document.getElementById("viewer").innerHTML =
+			"No URL given to load";
+		return;
+	}
+
+	var viewer = new forestviewer(document.getElementById("viewer"));
+
+	viewer.helper = tree_helpers;
+	viewer.style = "simple";
+	viewer.variablewidth = true;
+	viewer.nativescroll = false;
+        viewer.display.style.position = "relative";
+
+	viewer.location = window.location.hash.length ?
+		window.location.hash.substr(1) :
+		window.location.search.substr(1);
+}
+]]></script>
+<link type="text/css" rel="stylesheet" href="viewer.css" />
+</head>
+<body onload="init()">
+  <p>Ala ma kota, Ola ma aligatora, Ela ma żmirłacza w kropki.</p>
+<div id="viewer" />
+<div id="generalinfo" />
+</body>
+</html>

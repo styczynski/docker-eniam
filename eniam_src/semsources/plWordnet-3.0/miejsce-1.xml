@@ -1,0 +1,3275 @@
+<node name="miejsce-1" size="2634">
+  <node name="magiczna górka-1" size="0"/>
+  <node name="koniec świata-2" size="0"/>
+  <node name="stanowisko pracy-1" size="0"/>
+  <node name="nisza ekologiczna-1" size="0"/>
+  <node name="widełki replikacyjne-1" size="0"/>
+  <node name="strefa ryftu-1" size="0"/>
+  <node name="lokacja-6" size="1">
+    <node name="instancja-4" size="0"/>
+  </node>
+  <node name="świeże powietrze-1" size="0"/>
+  <node name="dziki zachód-2" size="0"/>
+  <node name="małpi gaj-1" size="0"/>
+  <node name="przybytek-2" size="0"/>
+  <node name="podwale-1" size="0"/>
+  <node name="miejsce fikcyjne-1" size="0" abstract="true"/>
+  <node name="ciemnik-2" size="0"/>
+  <node name="ziemia-10" size="0"/>
+  <node name="wypuklina-1" size="0"/>
+  <node name="wypłuczysko-1" size="0"/>
+  <node name="wypalenisko-1" size="0"/>
+  <node name="zestrzał-2" size="0"/>
+  <node name="strąga-1" size="0"/>
+  <node name="wietnica-1" size="0"/>
+  <node name="wiatrowisko-1" size="0"/>
+  <node name="zapłotki-1" size="0"/>
+  <node name="płyta-5" size="0"/>
+  <node name="hipsternia-2" size="0"/>
+  <node name="zasadzka-2" size="0"/>
+  <node name="kryniczysko-1" size="0"/>
+  <node name="dżungla-2" size="0"/>
+  <node name="umieralnia-1" size="0"/>
+  <node name="przemalunek-2" size="0"/>
+  <node name="zakątek-2" size="0"/>
+  <node name="kasa-5" size="0"/>
+  <node name="miejsce wyróżniające się z całości obiektu-1" size="477" abstract="true">
+    <node name="anomalia magnetyczna-2" size="0"/>
+    <node name="forma ukształtowania terenu-1" size="108" abstract="true">
+      <node name="padół-3" size="0"/>
+      <node name="pagór mrozowy-1" size="0"/>
+      <node name="kociołek wietrzeniowy-1, kociołek skalny-1" size="0"/>
+      <node name="bruzda lodowcowa-1" size="0"/>
+      <node name="amfiteatr morenowy-1" size="0"/>
+      <node name="rzeźba staroglacjalna-1" size="0"/>
+      <node name="rzeźba młodoglacjalna-1" size="0"/>
+      <node name="rzeźba krasowa-1" size="0"/>
+      <node name="rzeźba glacifluwialna-1" size="0"/>
+      <node name="rzeźba glacjalna-1" size="0"/>
+      <node name="grzbiet podmorski-1" size="0"/>
+      <node name="żebro-4" size="0"/>
+      <node name="grzęda-6" size="0"/>
+      <node name="kolumna-10, filar-6" size="0"/>
+      <node name="skalica-1, skałka-3, tor-7" size="7">
+        <node name="baszta-2" size="0"/>
+        <node name="maczuga skalna-1" size="0"/>
+        <node name="kopa skalna-1" size="0"/>
+        <node name="materac skalny-1" size="0"/>
+        <node name="chłopek-2" size="0"/>
+        <node name="turniczka-1" size="0"/>
+        <node name="grzyb skalny-1" size="0"/>
+      </node>
+      <node name="obniżenie-5" size="36"/>
+      <node name="wzniesienie-5, wyniosłość-2" size="42"/>
+      <node name="zbocze-1, stok-1" size="6">
+        <node name="przeciwstok-1" size="0"/>
+        <node name="ściana-6" size="2">
+          <node name="czołówka-5" size="0"/>
+          <node name="urwisko-1, uskok-3" size="0"/>
+        </node>
+        <node name="upłaz-1" size="0"/>
+        <node name="skarpa-1" size="0"/>
+      </node>
+    </node>
+    <node name="plama-4" size="1">
+      <node name="plama barwna-1" size="0"/>
+    </node>
+    <node name="patelnia-2" size="0"/>
+    <node name="wyleżysko-1" size="0"/>
+    <node name="odsłonięcie-4" size="2">
+      <node name="wychodnia-1, wychód-3" size="0"/>
+      <node name="odkrywka-1" size="0"/>
+    </node>
+    <node name="przewężenie-1, zwężenie-3" size="5">
+      <node name="ucho igielne-2" size="0"/>
+      <node name="cieśń-1" size="3">
+        <node name="cieśń aorty-1" size="0"/>
+        <node name="cieśń macicy-1" size="0"/>
+        <node name="cieśń gardzieli-1" size="0"/>
+      </node>
+    </node>
+    <node name="stromizna-1, stromość-1" size="0"/>
+    <node name="nierówność-4" size="408">
+      <node name="zakop-1" size="0"/>
+      <node name="mulda-1" size="0"/>
+      <node name="wygięcie-4" size="0"/>
+      <node name="zgrubienie-2, zgrubiałość-1, gula-1, bulwa-3" size="43">
+        <node name="troczek zginaczy-1" size="0"/>
+        <node name="troczek prostowników-1" size="0"/>
+        <node name="warga-3" size="0"/>
+        <node name="pasemko Caspary'ego-1" size="0"/>
+        <node name="róża-8" size="0"/>
+        <node name="węzeł-4" size="26">
+          <node name="węzeł żeglarski-1" size="15">
+            <node name="węzeł masztowy-1" size="0"/>
+            <node name="stoper-5" size="0"/>
+            <node name="węzeł knagowy-1" size="0"/>
+            <node name="węzeł Huntera-1, związ Huntera-1" size="0"/>
+            <node name="węzeł szotowy-1" size="3">
+              <node name="węzeł bramszotowy-1" size="0"/>
+              <node name="węzeł tkacki-1" size="0"/>
+              <node name="węzeł flagowy-1" size="0"/>
+            </node>
+            <node name="węzeł złodziejski-1" size="0"/>
+            <node name="węzeł refowy-1" size="0"/>
+            <node name="węzeł prosty-1" size="0"/>
+            <node name="bosmanka-1, gałka bosmańska-1, skrajwęzeł rzutkowy-1" size="0"/>
+            <node name="kluczka-1" size="0"/>
+            <node name="węzeł płaski-1" size="1">
+              <node name="węzeł babski-1" size="0"/>
+            </node>
+          </node>
+          <node name="węzeł krzyżowy-1" size="1">
+            <node name="węzeł holowniczy-1" size="0"/>
+          </node>
+          <node name="półwyblinka-1" size="0"/>
+          <node name="wyblinka-2, ósemka pionierska-1" size="0"/>
+          <node name="węzeł ratowniczy-1, węzeł skrajny tatrzański-1" size="0"/>
+          <node name="supeł-1, węzeł zwykły-1, półsztyk-1, półwęzeł-1" size="0"/>
+          <node name="dziewiątka-6" size="0"/>
+          <node name="garda-1" size="0"/>
+          <node name="ósemka-10" size="1">
+            <node name="podwójna ósemka-1" size="0"/>
+          </node>
+        </node>
+        <node name="łuk brwiowy-1, łuk nadoczodołowy-1" size="0"/>
+        <node name="wyrośle-2, wyrośl-2" size="0"/>
+        <node name="ciałko rzęskowe-1, ciało rzęskowe-1" size="0"/>
+        <node name="wrzeciono-3" size="0"/>
+        <node name="zawęźlenie-3" size="0"/>
+        <node name="rozdęcie-3" size="0"/>
+        <node name="kolanko-2, węzeł-5" size="0"/>
+        <node name="guz-2" size="0"/>
+        <node name="gruzeł-1" size="0"/>
+        <node name="odcisk-1, nagniotek-1, odgniotek-1" size="1">
+          <node name="modzel-1" size="0"/>
+        </node>
+      </node>
+      <node name="występ-2, wypust-1" size="20">
+        <node name="kołnierz-2" size="0"/>
+        <node name="przedmurze-4" size="0"/>
+        <node name="żebro-3" size="0"/>
+        <node name="cypel-1" size="0"/>
+        <node name="gzyms-1" size="0"/>
+        <node name="pióro-2, wypust-3" size="0"/>
+        <node name="ryzalit-1" size="0"/>
+        <node name="terasa-1, taras-2" size="1">
+          <node name="płaśń-1, płaśnia-1" size="0"/>
+        </node>
+        <node name="nawis-1" size="1">
+          <node name="przewieszka-1, ściana przewieszona-1" size="0"/>
+        </node>
+        <node name="gwint-1" size="8">
+          <node name="gwint toczny-1" size="0"/>
+          <node name="gwint stożkowy-1" size="0"/>
+          <node name="gwint trapezowy-1" size="1">
+            <node name="gwint trapezowy metryczny-1" size="0"/>
+          </node>
+          <node name="gwint metryczny-1" size="0"/>
+          <node name="gwint pociągowy-1" size="0"/>
+          <node name="gwint prostokątny-1" size="0"/>
+          <node name="gwint złączny-1" size="0"/>
+        </node>
+      </node>
+      <node name="zagięcie-3, zgięcie-3, załamanie-5, przegięcie-5" size="8">
+        <node name="załom-1, uskok-4, załam-1" size="1">
+          <node name="odsadzka-1" size="0"/>
+        </node>
+        <node name="fałda-1, plisa-2, fałd-1" size="4">
+          <node name="zakładka-2" size="1">
+            <node name="zaszewka-1" size="0"/>
+          </node>
+          <node name="szczypanka-1" size="0"/>
+          <node name="kontrafałda-1" size="0"/>
+        </node>
+        <node name="załamek-1" size="0"/>
+      </node>
+      <node name="wypukłość-1, uwypuklenie-3" size="66">
+        <node name="guzowatość-2" size="0"/>
+        <node name="łuska-8" size="0"/>
+        <node name="żebro-6" size="0"/>
+        <node name="krosta-2, pryszcz-2" size="0"/>
+        <node name="uchyłek-1" size="0"/>
+        <node name="guzek-2" size="0"/>
+        <node name="krętarz-1" size="0"/>
+        <node name="brzusiec-1" size="0"/>
+        <node name="narośl-1" size="8">
+          <node name="ostroga piętowa-1" size="0"/>
+          <node name="dzikie mięso-1" size="0"/>
+          <node name="parch-3" size="0"/>
+          <node name="bulwka-1" size="0"/>
+          <node name="halluks-1, haluks-1, paluch koślawy-1" size="0"/>
+          <node name="polip-2" size="0"/>
+          <node name="galas-1, galasówka-2" size="1">
+            <node name="dębianka-2" size="0"/>
+          </node>
+        </node>
+        <node name="garb-1" size="1">
+          <node name="garbek-1" size="0"/>
+        </node>
+        <node name="wybrzuszenie-2" size="3">
+          <node name="wał dziąsłowy-1" size="0"/>
+          <node name="purchel-1" size="0"/>
+          <node name="entaza-1" size="0"/>
+        </node>
+        <node name="wzniesienie-5, wyniosłość-2" size="42">
+          <node name="żebro-4" size="0"/>
+          <node name="czasza-4" size="0"/>
+          <node name="nek-1, rdzeń wulkaniczny-1, pień wulkaniczny-1" size="0"/>
+          <node name="kępa-2" size="0"/>
+          <node name="wypiętrzenie-1" size="0"/>
+          <node name="wysoczyzna-1" size="1">
+            <node name="wysoczyzna morenowa-1" size="0"/>
+          </node>
+          <node name="ostaniec-1" size="3">
+            <node name="głowa cukru-1" size="0"/>
+            <node name="ostaniec deflacyjny-1" size="0"/>
+            <node name="mogot-1, ostaniec krasowy-1, hum-1" size="0"/>
+          </node>
+          <node name="wulkan błotny-1" size="0"/>
+          <node name="masyw-1" size="3">
+            <node name="masyw górski-1" size="0"/>
+            <node name="rozróg-1" size="0"/>
+            <node name="autochton-2" size="0"/>
+          </node>
+          <node name="wzgórze-1, pagórek-1, wzgórek-1, górka-1" size="8">
+            <node name="muton-1" size="1">
+              <node name="szkier-1, skjer-1, skier-1, szer-1" size="0"/>
+            </node>
+            <node name="oz-1" size="0"/>
+            <node name="kem-1" size="0"/>
+            <node name="drumlin-1" size="0"/>
+            <node name="wydma-1" size="2">
+              <node name="barchan-2" size="0"/>
+              <node name="diuna-1" size="0"/>
+            </node>
+          </node>
+          <node name="góra-1" size="16">
+            <node name="góra podwodna-1, góra podmorska-1" size="1">
+              <node name="gujot-1, guyot-1, podwodna stołowa góra-1" size="0"/>
+            </node>
+            <node name="kopa-1" size="0"/>
+            <node name="stoliwo-1" size="0"/>
+            <node name="wulkan-1" size="11">
+              <node name="stożek wulkaniczny-1" size="1">
+                <node name="stożek pasożytniczy-1, stożek przybyszowy-1" size="0"/>
+              </node>
+              <node name="wulkan drzemiący-1" size="0"/>
+              <node name="superwulkan-1" size="0"/>
+              <node name="wulkan eksplozywny-1" size="0"/>
+              <node name="wulkan tarczowy-1" size="0"/>
+              <node name="wulkan tufowy-1" size="0"/>
+              <node name="wygasły wulkan-1" size="0"/>
+              <node name="drzemiący wulkan-1" size="0"/>
+              <node name="stratowulkan-1, wulkan mieszany-1" size="0"/>
+              <node name="wulkan czynny-1" size="0"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node name="wybój-1" size="2">
+        <node name="wądół-1" size="0"/>
+        <node name="mulda-2" size="0"/>
+      </node>
+      <node name="wgłębienie-2, zagłębienie-2, wklęsłość-1, wklęśnięcie-2, wydrążenie-3, zaklęsłość-1, zaklęśnięcie-2" size="261">
+        <node name="niecka-1" size="2">
+          <node name="kotlina-1" size="1"/>
+        </node>
+        <node name="aedicula-3, edykuła-3, edykuł-3" size="0"/>
+        <node name="siodełko tureckie-1" size="0"/>
+        <node name="dołek osiowy-1" size="0"/>
+        <node name="banior-1, misa eworsyjna-1, kołbań-3" size="0"/>
+        <node name="ałas-1" size="0"/>
+        <node name="wytopisko-1" size="0"/>
+        <node name="perystom-1, peristom-1" size="0"/>
+        <node name="komora-7" size="0"/>
+        <node name="zachyłek-1" size="2">
+          <node name="zachyłek gruszkowaty-1" size="0"/>
+          <node name="zachyłek łonowy-1" size="0"/>
+        </node>
+        <node name="takyr-1, takir-1" size="0"/>
+        <node name="marmit-1, kocioł eworsyjny-1, kocioł wirowy-1, garnek podlodowcowy-1" size="0"/>
+        <node name="wkop-1" size="0"/>
+        <node name="jama-1" size="1">
+          <node name="zatoka-4" size="0"/>
+        </node>
+        <node name="dół-2" size="10">
+          <node name="sondaż-2" size="0"/>
+          <node name="wapiennik-5" size="0"/>
+          <node name="wądół-1" size="0"/>
+          <node name="grajdołek-1" size="0"/>
+          <node name="wykrot-1" size="0"/>
+          <node name="lej-1, krater-2, lejek-3, werteb-1" size="4">
+            <node name="krater meteorytowy-1, krater uderzeniowy-1" size="1">
+              <node name="astroblem-1" size="0"/>
+            </node>
+            <node name="lej krasowy-1, lejek krasowy-1, wertep krasowy-1, werteb krasowy-1" size="0"/>
+            <node name="wertep sufozyjny-1, lej sufozyjny-1, lejek sufozyjny-1, werteb sufozyjny-1, kocioł sufozyjny-1" size="0"/>
+          </node>
+        </node>
+        <node name="dół-3" size="2">
+          <node name="zębodół-1" size="0"/>
+          <node name="oczodół-1" size="0"/>
+        </node>
+        <node name="zawalisko-1" size="0"/>
+        <node name="aksilla-1, pachwina-2" size="0"/>
+        <node name="ploso-1" size="0"/>
+        <node name="szot-2, szott-1" size="0"/>
+        <node name="geosynklina-1" size="0"/>
+        <node name="kryptodepresja-1, zatopiona depresja-1" size="0"/>
+        <node name="podcięcie-5" size="0"/>
+        <node name="mszar-1" size="0"/>
+        <node name="kawerna-1" size="0"/>
+        <node name="wnęka-2, nisza-2, nyża-1" size="3">
+          <node name="nisza niwalna-1" size="0"/>
+          <node name="komin-1" size="0"/>
+          <node name="kocioł-3, cyrk lodowcowy-1, kar-1" size="0"/>
+        </node>
+        <node name="wręga-2, wręg-1" size="1">
+          <node name="wrężyna-1" size="0"/>
+        </node>
+        <node name="wcięcie-3" size="6">
+          <node name="żłobek-3" size="0"/>
+          <node name="talia-2, stan-5, pas-4, kibić-1" size="1">
+            <node name="talia osy-1" size="0"/>
+          </node>
+          <node name="nacięcie-4" size="2">
+            <node name="nacios-1" size="0"/>
+            <node name="karb-2" size="0"/>
+          </node>
+        </node>
+        <node name="zapadlisko-1, zapadlina-1" size="4">
+          <node name="zapadlisko tektoniczne-1" size="0"/>
+          <node name="rów tektoniczny-1, graben-1" size="2"/>
+        </node>
+        <node name="basen-3" size="3">
+          <node name="basen naftowy-1" size="0"/>
+          <node name="basen sedymentacyjny-1" size="0"/>
+          <node name="basen oceaniczny-1" size="0"/>
+        </node>
+        <node name="wgięcie-3, wgniecenie-3" size="0"/>
+        <node name="wilczy dół-1" size="0"/>
+        <node name="podołek-1" size="0"/>
+        <node name="wnęka-1" size="9">
+          <node name="kieszeń-2" size="0"/>
+          <node name="lodżia-1, loggia-1" size="0"/>
+          <node name="framuga-2" size="0"/>
+          <node name="blenda-1" size="0"/>
+          <node name="nisza-1" size="4">
+            <node name="aedicula-3, edykuła-3, edykuł-3" size="0"/>
+            <node name="arkosolium-1" size="0"/>
+            <node name="mihrab-1" size="0"/>
+            <node name="eksedra-1" size="0"/>
+          </node>
+        </node>
+        <node name="koleina-1" size="0"/>
+        <node name="bruzda-1, rowek-1, wrąb-1, wyżłobienie-4, żłobienie-6" size="15">
+          <node name="żłób-4" size="5">
+            <node name="dolina lodowcowa-1, żłób lodowcowy-1, żłób polodowcowy-1, dolina U-kształtna-1" size="4"/>
+          </node>
+          <node name="bruzda-3" size="0"/>
+          <node name="grawerka-3" size="0"/>
+          <node name="dołek-1" size="0"/>
+          <node name="zacios-1" size="0"/>
+          <node name="wpust-1, felc-1" size="0"/>
+          <node name="nut-1" size="0"/>
+          <node name="fuga-4" size="0"/>
+          <node name="bonia-2" size="0"/>
+          <node name="bonia-1" size="0"/>
+        </node>
+        <node name="krater-3, krater wulkaniczny-1" size="2">
+          <node name="krater pasożytniczy-1, krater boczny-1" size="0"/>
+          <node name="maar-1" size="0"/>
+        </node>
+        <node name="jaskinia-1, grota-1, pieczara-1" size="5">
+          <node name="grota ogrodowa-1" size="0"/>
+          <node name="schronisko-3" size="0"/>
+          <node name="jaskinia lodowa-1" size="0"/>
+          <node name="jaskinia lawowa-1" size="0"/>
+          <node name="awen-1, jaskinia krasowa-1" size="0"/>
+        </node>
+        <node name="obniżenie-5" size="36">
+          <node name="rów-2" size="4">
+            <node name="rów oceaniczny-1" size="0"/>
+            <node name="rów tektoniczny-1, graben-1" size="2">
+              <node name="aulakogen-1" size="0"/>
+              <node name="ryft-1" size="0"/>
+            </node>
+          </node>
+          <node name="przełączka-1" size="0"/>
+          <node name="lej depresyjny-1, stożek depresyjny-1" size="0"/>
+          <node name="depresja-3" size="2">
+            <node name="depresja śródziemnomorska-1" size="0"/>
+            <node name="polder-1" size="0"/>
+          </node>
+          <node name="dolina-1" size="23">
+            <node name="dolina marginalna-1" size="0"/>
+            <node name="dolina zawieszona-1, dolina wisząca-1, dolina podwieszona-1" size="0"/>
+            <node name="wadi-1, ued-1, wadis-1" size="0"/>
+            <node name="dolina lodowcowa-1, żłób lodowcowy-1, żłób polodowcowy-1, dolina U-kształtna-1" size="4">
+              <node name="dolina przegłębiona-1" size="0"/>
+              <node name="pradolina-2" size="0"/>
+              <node name="rynna-1" size="1">
+                <node name="rynna polodowcowa-1, rynna subglacjalna-1, dolina rynnowa-1" size="0"/>
+              </node>
+            </node>
+            <node name="dolina V-kształtna-1" size="3">
+              <node name="kanion podmorski-1" size="0"/>
+              <node name="wcios-1" size="0"/>
+              <node name="debrza-1, debrze-1, debra-1" size="0"/>
+            </node>
+            <node name="przegłębienie-2" size="0"/>
+            <node name="roztoka-1" size="0"/>
+            <node name="wąwóz-1" size="4">
+              <node name="holweg-1, głębocznica-1" size="0"/>
+              <node name="rozdół-1" size="0"/>
+              <node name="jar-1, parów-1, wądół-2" size="0"/>
+              <node name="kanion-1" size="0"/>
+            </node>
+            <node name="łożysko-2" size="1">
+              <node name="pradolina-1" size="0"/>
+            </node>
+            <node name="kotlina-1" size="1">
+              <node name="polje-1" size="0"/>
+            </node>
+          </node>
+          <node name="przełęcz-1" size="1">
+            <node name="siodło-3" size="0"/>
+          </node>
+        </node>
+        <node name="komora-8" size="5">
+          <node name="trawieniec-1" size="0"/>
+          <node name="przedżołądek-1" size="3">
+            <node name="księgi-1" size="0"/>
+            <node name="czepiec-3" size="0"/>
+            <node name="żwacz-2" size="0"/>
+          </node>
+        </node>
+        <node name="koryto-1" size="2">
+          <node name="koryto rzeki-1" size="1">
+            <node name="rzeczysko-1" size="0"/>
+          </node>
+        </node>
+        <node name="krater-1" size="0"/>
+        <node name="zbiornik-1" size="109">
+          <node name="kaczy dół-2" size="0"/>
+          <node name="zbiornik magmowy-1" size="0"/>
+          <node name="komora wulkaniczna-1" size="0"/>
+          <node name="płuczkarnia-1, płuczkarka-1" size="0"/>
+          <node name="planktoniarnia-1" size="0"/>
+          <node name="zbiornik sztuczny-1" size="7" abstract="true">
+            <node name="zlewnia-3" size="0"/>
+            <node name="basen-7" size="1">
+              <node name="brodzik-2" size="0"/>
+            </node>
+            <node name="odstojnik-1, osadnik-2" size="0"/>
+            <node name="studzienka ściekowa-1, wpust ściekowy-1" size="0"/>
+            <node name="szambo-1, kloaka-1, dół gnilny-1" size="0"/>
+            <node name="zbiornik retencyjny-1" size="0"/>
+          </node>
+          <node name="akwarium-1" size="1">
+            <node name="kula-7" size="0"/>
+          </node>
+          <node name="zbiornik wodny-1, akwen-1" size="93">
+            <node name="martwa woda-1" size="0"/>
+            <node name="zbiornik przepływowy-1" size="0"/>
+            <node name="kołbań-2" size="0"/>
+            <node name="praocean-1" size="0"/>
+            <node name="moczydło-1" size="0"/>
+            <node name="impluvium-1" size="0"/>
+            <node name="zimochów-1" size="0"/>
+            <node name="wodowisko-1" size="0"/>
+            <node name="cumowisko-1" size="0"/>
+            <node name="kąpielisko-2" size="3">
+              <node name="lido-2" size="0"/>
+              <node name="pływalnia-1, basen-1" size="1">
+                <node name="basen kryty-1" size="0"/>
+              </node>
+            </node>
+            <node name="awanport-1, przedporcie-1" size="0"/>
+            <node name="cofka-2" size="0"/>
+            <node name="delfinarium-1" size="0"/>
+            <node name="naturalny zbiornik wodny-1" size="0"/>
+            <node name="basen modelowy-1" size="0"/>
+            <node name="basen-4, basen portowy-1" size="3">
+              <node name="dok-1" size="2">
+                <node name="dok pływający-1" size="0"/>
+                <node name="suchy dok-1" size="0"/>
+              </node>
+            </node>
+            <node name="sadzawka-1" size="0"/>
+            <node name="sadzawka-2" size="0"/>
+            <node name="kałuża-1" size="0"/>
+            <node name="rozlewisko-1, rozlew-1, zalewisko-1" size="1">
+              <node name="młaka-2, młak-2" size="0"/>
+            </node>
+            <node name="staw-1" size="4">
+              <node name="staw osadowy-1" size="0"/>
+              <node name="tarlisko-2, ikrzysko-2" size="0"/>
+              <node name="glinianka-2" size="0"/>
+              <node name="oczko-2, oczko wodne-1" size="0"/>
+            </node>
+            <node name="ocean-1" size="0"/>
+            <node name="morze-1" size="2">
+              <node name="morze międzykontynentalne-1" size="0"/>
+              <node name="morze epikontynentalne-1" size="0"/>
+            </node>
+            <node name="jezioro-2" size="56">
+              <node name="jezioro ramienicowe-1" size="0"/>
+              <node name="jezioro polimiktyczne-1" size="0"/>
+              <node name="jezioro przybrzeżne-1" size="3">
+                <node name="jezioro limanowe-1, liman-1" size="0"/>
+                <node name="jezioro lagunowe-1" size="0"/>
+                <node name="jezioro deltowe-1" size="0"/>
+              </node>
+              <node name="jezioro biogeniczne-1" size="0"/>
+              <node name="jezioro lodowcowe-1, jezioro glacjalne-1" size="8">
+                <node name="jezioro drumlinowe-1" size="0"/>
+                <node name="jezioro przyozowe-1" size="0"/>
+                <node name="jezioro peryglacjalne-1, jezioro ekstraglacjalne-1" size="0"/>
+                <node name="jezioro episzelfowe-1" size="0"/>
+                <node name="jezioro supraglacjalne-1" size="0"/>
+                <node name="jezioro proglacjalne-1" size="0"/>
+                <node name="jezioro podlodowcowe-1, jezioro subglacjalne-1" size="0"/>
+                <node name="zastoisko-1, jezioro zastoiskowe-1" size="0"/>
+              </node>
+              <node name="jezioro pluwialne-1" size="0"/>
+              <node name="jezioro okresowe-1" size="0"/>
+              <node name="jezioro endoreiczne-1" size="0"/>
+              <node name="jezioro lobeliowe-1" size="0"/>
+              <node name="jezioro hipertroficzne-1" size="0"/>
+              <node name="jezioro saprotroficzne-1, jezioro przeżyźnione-1" size="0"/>
+              <node name="jezioro słodkie-1, jezioro słodkowodne-1" size="5">
+                <node name="jezioro oligotroficzne-1" size="1">
+                  <node name="jezioro episzelfowe-1" size="0"/>
+                </node>
+                <node name="jezioro mezotroficzne-1" size="0"/>
+                <node name="jezioro politroficzne-1" size="0"/>
+                <node name="jezioro eutroficzne-1" size="0"/>
+              </node>
+              <node name="jezioro gorzkie-1" size="0"/>
+              <node name="jezioro humotroficzne-1, jezioro humusowe-1" size="2">
+                <node name="jezioro polihumusowe-1, jezioro dystroficzne-1" size="1">
+                  <node name="suchar-3" size="0"/>
+                </node>
+              </node>
+              <node name="jezioro zaporowe-1" size="4">
+                <node name="jezioro wydmowe-1" size="0"/>
+                <node name="jezioro osuwiskowe-1" size="0"/>
+                <node name="jezioro morenowe-1" size="0"/>
+                <node name="zastoisko-1, jezioro zastoiskowe-1" size="0"/>
+              </node>
+              <node name="jezioro krasowe-1" size="1">
+                <node name="jezioro poljowe-1" size="0"/>
+              </node>
+              <node name="jezioro polodowcowe-1" size="9">
+                <node name="jezioro tektoniczno-polodowcowe-1" size="0"/>
+                <node name="jezioro wytopiskowe-1" size="2">
+                  <node name="jezioro ałasowe-1, jezioro termokrasowe-1" size="0"/>
+                  <node name="oczko polodowcowe-1, oczko wytopiskowe-1" size="0"/>
+                </node>
+                <node name="jezioro rynnowe-1" size="0"/>
+                <node name="jezioro morenowe-1" size="0"/>
+                <node name="jezioro karowe-1, jezioro cyrkowe-1" size="0"/>
+                <node name="jezioro fiordowe-1" size="0"/>
+                <node name="jezioro eworsyjne-1" size="0"/>
+              </node>
+              <node name="jezioro reliktowe-1" size="0"/>
+              <node name="jezioro tektoniczne-1, jezioro ryftowe-1" size="1">
+                <node name="jezioro zapadliskowe-1" size="0"/>
+              </node>
+              <node name="jezioro meteorytowe-1, jezioro kosmiczne-1" size="0"/>
+              <node name="jezioro wulkaniczne-1" size="0"/>
+              <node name="jezioro przepływowe-1" size="0"/>
+              <node name="jezioro słone-1" size="1">
+                <node name="szot-2, szott-1" size="0"/>
+              </node>
+              <node name="jezioro meandrowe-1" size="0"/>
+              <node name="starorzecze-1" size="0"/>
+            </node>
+          </node>
+        </node>
+        <node name="rów-1, wykop-1, kanał-1, przykop-1" size="12">
+          <node name="wilczy dół-2" size="0"/>
+          <node name="łotok-1" size="0"/>
+          <node name="odprowadzalnik-1" size="0"/>
+          <node name="doprowadzalnik-1" size="0"/>
+          <node name="aprosza-1" size="0"/>
+          <node name="przekop-1" size="0"/>
+          <node name="okop-1, rów-3" size="1">
+            <node name="koszokop-1" size="0"/>
+          </node>
+          <node name="transzeja-1" size="0"/>
+          <node name="rów melioracyjny-1" size="1">
+            <node name="lewada-2" size="0"/>
+          </node>
+          <node name="fosa-1" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="styk-1" size="5">
+      <node name="zbieg-1" size="3">
+        <node name="róg-12" size="0"/>
+        <node name="róg-9" size="0"/>
+        <node name="spływ-3" size="0"/>
+      </node>
+      <node name="kontakt-3" size="0"/>
+    </node>
+    <node name="rozgałęzienie-1, rozwidlenie-1" size="4">
+      <node name="bifurkacja-1" size="0"/>
+      <node name="rozjazd-1" size="0"/>
+      <node name="badyl-3" size="0"/>
+      <node name="widły-2" size="0"/>
+    </node>
+    <node name="zakręt-1, skręt-2" size="8">
+      <node name="kolano-2" size="0"/>
+      <node name="prawoskręt-2" size="0"/>
+      <node name="lewoskręt-2" size="0"/>
+      <node name="zakręt śmierci-1" size="0"/>
+      <node name="zakos-1" size="0"/>
+      <node name="wiraż-1" size="0"/>
+      <node name="meander-1" size="1">
+        <node name="meander-3" size="0"/>
+      </node>
+    </node>
+    <node name="kąt-1, róg-2" size="3">
+      <node name="wysokość astronomiczna-1" size="0"/>
+      <node name="róg halsowy-1" size="0"/>
+      <node name="kąt kursowy-1" size="0"/>
+    </node>
+  </node>
+  <node name="cień-6, chłód-5" size="2">
+    <node name="chłodnik-4, ciennik-1" size="0"/>
+    <node name="półcień-1" size="0"/>
+  </node>
+  <node name="raj-2, eldorado-1, kanada-2, mekka-1" size="1">
+    <node name="oaza podatkowa-1, raj podatkowy-1" size="0"/>
+  </node>
+  <node name="stanowisko-7" size="7">
+    <node name="stanowisko dokumentacyjne-1" size="0"/>
+    <node name="stanowisko archeologiczne-1" size="2">
+      <node name="tell-1, tall-1" size="0"/>
+      <node name="stanowisko antropologiczne-1" size="0"/>
+    </node>
+    <node name="stanowisko-2" size="1">
+      <node name="ambona-1" size="0"/>
+    </node>
+    <node name="stanowisko-1" size="0"/>
+  </node>
+  <node name="punkt-9" size="76">
+    <node name="pikieta-5" size="0"/>
+    <node name="miejsce obsługi podróżnych-1" size="0"/>
+    <node name="kiosk-4" size="3">
+      <node name="urzędomat-1" size="1">
+        <node name="skarbomat-1" size="0"/>
+      </node>
+      <node name="kiosk multimedialny-1" size="0"/>
+    </node>
+    <node name="mobilny punkt krwiodawstwa-1, ruchomy punkt krwiodawstwa-1" size="0"/>
+    <node name="lokal użytkowy-1" size="50"/>
+    <node name="stacja benzynowa-1, stacja-5" size="0"/>
+    <node name="punkt usługowy-1, lokal usługowy-1" size="11" abstract="true">
+      <node name="pralnia-2" size="0"/>
+      <node name="pogotowie-5" size="0"/>
+      <node name="fotolab-1, fotolaboratorium-1" size="0"/>
+      <node name="serwis-4" size="0"/>
+      <node name="ksero-3" size="0"/>
+      <node name="myjnia-1" size="1">
+        <node name="automyjnia-1" size="0"/>
+      </node>
+      <node name="solarium-1, solarka-2" size="0"/>
+      <node name="magiel-2" size="0"/>
+      <node name="wypożyczalnia-1" size="0"/>
+      <node name="totalizator-2, kolektura-1" size="0"/>
+    </node>
+    <node name="skup-1, punkt skupu-1" size="3">
+      <node name="zlewnia-2" size="0"/>
+      <node name="skup złomu-1" size="0"/>
+      <node name="skup makulatury-1" size="0"/>
+    </node>
+    <node name="kantor-1" size="0"/>
+  </node>
+  <node name="początek-1" size="9">
+    <node name="wejście-21" size="0"/>
+    <node name="rozbiegówka-1" size="0"/>
+    <node name="źródło-4, źródlisko-1, zdrój-2" size="5">
+      <node name="źródło geotermalne-1" size="0"/>
+      <node name="wywierzysko-2" size="0"/>
+      <node name="wysięk-2" size="0"/>
+      <node name="cieplica-1, gorące źródło-1, terma-2, źródło termalne-1, woda termalna-1" size="1">
+        <node name="gejzer-1" size="0"/>
+      </node>
+    </node>
+    <node name="start-1" size="0"/>
+  </node>
+  <node name="obszar-2" size="15">
+    <node name="polarna czapa lodowa-1" size="0"/>
+    <node name="strefa wolnocłowa-1" size="0"/>
+    <node name="czapka tektoniczna-1" size="0"/>
+    <node name="okno tektoniczne-1" size="0"/>
+    <node name="obszar pensejsmiczny-1" size="0"/>
+    <node name="obszar alimentacyjny-1" size="0"/>
+    <node name="pas radiacyjny-1" size="0"/>
+    <node name="magnetosfera ziemska-1" size="0"/>
+    <node name="ciernisko-1" size="0"/>
+    <node name="porośl-1" size="0"/>
+    <node name="sitowisko-1" size="0"/>
+    <node name="zasięg-1" size="1">
+      <node name="zasięg dysjunktywny-1" size="0"/>
+    </node>
+    <node name="szlak gradowy-1" size="0"/>
+    <node name="teren-4" size="0"/>
+  </node>
+  <node name="kraina-2" size="4">
+    <node name="świat fantazji-1" size="0"/>
+    <node name="kraina fikcyjna-1" size="2" abstract="true">
+      <node name="kraina mitologiczna-1" size="1" abstract="true">
+        <node name="Atlantyda-1" size="0"/>
+      </node>
+    </node>
+  </node>
+  <node name="kanał-3" size="0"/>
+  <node name="tunel-1" size="7"/>
+  <node name="siedlisko-1, ostoja-1, refugium-1" size="5">
+    <node name="remiza-3, remiza śródpolna-1" size="0"/>
+    <node name="mikrosiedlisko-1" size="1">
+      <node name="siedlisko-4" size="0"/>
+    </node>
+    <node name="wylęgarnia-1" size="0"/>
+    <node name="lęgowisko-1, gniazdowisko-1" size="0"/>
+  </node>
+  <node name="wylęgarnia-3" size="0"/>
+  <node name="zadupie-1, dziura-6, grajdoł-1, zapadły kąt-1, partykularz-1, kaczy dół-1" size="0"/>
+  <node name="pogorzelisko-1, popielisko-1, zgliszcze-1, spalenisko-1, pożarzysko-4" size="0"/>
+  <node name="pustelnia-2, eremitorium-1, erem-1" size="1">
+    <node name="aśrama-1, aszrama-1" size="0"/>
+  </node>
+  <node name="miejsce ze względu na przeznaczenie-1" size="851" abstract="true">
+    <node name="pikieta-5" size="0"/>
+    <node name="egzotarium-1" size="0"/>
+    <node name="bar tlenowy-1" size="0"/>
+    <node name="przelew-2" size="0"/>
+    <node name="park-5" size="1">
+      <node name="park dinozaurów-1" size="0"/>
+    </node>
+    <node name="ring wystawowy-1" size="0"/>
+    <node name="młyn-3" size="0"/>
+    <node name="gniazdo-7" size="0"/>
+    <node name="miejsce postojowe-1" size="0"/>
+    <node name="padok-4" size="0"/>
+    <node name="wyraj-4" size="0"/>
+    <node name="zimowisko-4" size="0"/>
+    <node name="zlewnia-3" size="0"/>
+    <node name="kulisa-5" size="0"/>
+    <node name="przeprawa-3" size="0"/>
+    <node name="wybieg-4" size="0"/>
+    <node name="cinerarium-1" size="0"/>
+    <node name="zbiornik-2" size="31">
+      <node name="zbiornik balastowy-1" size="0"/>
+      <node name="walczak-1" size="0"/>
+      <node name="naczynie wzbiorcze-1" size="0"/>
+      <node name="butla gazowa-1" size="0"/>
+      <node name="barat-1" size="0"/>
+      <node name="oczyszczalnik-3" size="0"/>
+      <node name="zasobnik-1" size="2"/>
+      <node name="rezerwuar-1" size="0"/>
+      <node name="desorber-1" size="0"/>
+      <node name="zsypnik-1" size="0"/>
+      <node name="pojemnik na deszczówkę-1, pojemnik na wode deszczową-1" size="0"/>
+      <node name="pływak-4" size="0"/>
+      <node name="tank-2" size="0"/>
+      <node name="baniak-1" size="1">
+        <node name="kanister-1" size="0"/>
+      </node>
+      <node name="kompostownik-1" size="0"/>
+      <node name="miska olejowa-1" size="0"/>
+      <node name="kałamarz-2" size="0"/>
+      <node name="popielnik-1" size="0"/>
+      <node name="butla-2, butla tlenowa-1" size="0"/>
+      <node name="bak-1" size="0"/>
+      <node name="baryłka-2" size="0"/>
+      <node name="kadź-2" size="0"/>
+      <node name="cysterna-2" size="0"/>
+      <node name="silos-1, silos budowlany-1" size="0"/>
+      <node name="śmietnik-1" size="3"/>
+    </node>
+    <node name="solarium-3" size="0"/>
+    <node name="rozmnoża-3" size="0"/>
+    <node name="przesyp-4" size="0"/>
+    <node name="odwszalnia-1" size="0"/>
+    <node name="kruszarnia-1" size="0"/>
+    <node name="nadscenie-1" size="0"/>
+    <node name="leżalnia-1" size="0"/>
+    <node name="nęcisko-1" size="0"/>
+    <node name="wyświetlarnia-1" size="0"/>
+    <node name="templum-3" size="0"/>
+    <node name="templum-1" size="0"/>
+    <node name="miejsce pochówku-1, miejsce wiecznego spoczynku-1" size="25">
+      <node name="grób-1, mogiła-1" size="17">
+        <node name="arkosolium-1" size="0"/>
+        <node name="kubikulum-1, cubiculum-1" size="0"/>
+        <node name="grobowiec-1" size="8">
+          <node name="grób galeriowy-1" size="0"/>
+          <node name="tolos-1" size="0"/>
+          <node name="kolumbarium-1" size="0"/>
+          <node name="dolmen-1" size="0"/>
+          <node name="cenotaf-1, kenotaf-1, kenotafium-1" size="0"/>
+          <node name="mastaba-1" size="0"/>
+          <node name="konfesja-1" size="0"/>
+          <node name="piramida-1" size="0"/>
+        </node>
+        <node name="grób ciałopalny-1" size="0"/>
+        <node name="sarkofag-1" size="0"/>
+        <node name="kurhan-1" size="0"/>
+        <node name="mauzoleum-1" size="0"/>
+        <node name="krypta-1" size="1"/>
+      </node>
+      <node name="cmentarz-1, nekropolia-2" size="6">
+        <node name="mizar-1, zireć-1" size="0"/>
+        <node name="cmentarzysko-1" size="0"/>
+        <node name="grzebowisko-1" size="0"/>
+        <node name="katakumby-1, katakumba-2" size="0"/>
+        <node name="nekropola-1, nekropolia-1, miasto umarłych-1" size="0"/>
+        <node name="kirkut-1, kierkut-1" size="0"/>
+      </node>
+    </node>
+    <node name="warnia-1" size="0"/>
+    <node name="golfowisko-1" size="0"/>
+    <node name="bekowisko-2" size="0"/>
+    <node name="trzaskowisko-2" size="0"/>
+    <node name="brzoskwiniarnia-1" size="0"/>
+    <node name="karciarnia-1" size="0"/>
+    <node name="kaczkarnia-1" size="0"/>
+    <node name="chody-1" size="0"/>
+    <node name="załadownia-1" size="0"/>
+    <node name="przeładownia-1" size="0"/>
+    <node name="bukowisko-2" size="0"/>
+    <node name="bobrowisko-2, bobrownia-1" size="0"/>
+    <node name="biesiadowisko-1" size="0"/>
+    <node name="wodowisko-1" size="0"/>
+    <node name="cumowisko-1" size="0"/>
+    <node name="wydzielona przestrzeń, w której żyją zwierzęta-1" size="50" abstract="true">
+      <node name="pingwinarium-1" size="0"/>
+      <node name="sokolarnia-1" size="0"/>
+      <node name="spęd-3" size="7">
+        <node name="szałasisko-1" size="0"/>
+        <node name="zagroda-2" size="5">
+          <node name="strąga-1" size="0"/>
+          <node name="kojec-3" size="0"/>
+          <node name="korral-1, corral-1" size="0"/>
+          <node name="kraal-2" size="0"/>
+          <node name="padok-1" size="0"/>
+        </node>
+      </node>
+      <node name="klatka-3" size="1">
+        <node name="kojec-1" size="0"/>
+      </node>
+      <node name="wybieg-2" size="1">
+        <node name="padok-2" size="0"/>
+      </node>
+      <node name="pomieszczenie, w którym żyją zwierzęta-1" size="35" abstract="true"/>
+    </node>
+    <node name="kieracisko-1" size="0"/>
+    <node name="stacja-2" size="3">
+      <node name="stacja postojowa-1" size="0"/>
+      <node name="stacja obsługiwana-1" size="0"/>
+      <node name="dworzec-1" size="0"/>
+    </node>
+    <node name="skład-2" size="0"/>
+    <node name="przejście-22, komunikacja-3" size="37">
+      <node name="szpaler-3" size="0"/>
+      <node name="parodos-2" size="0"/>
+      <node name="rękaw-2" size="0"/>
+      <node name="pasaż-1" size="0"/>
+      <node name="przelotnia-1" size="0"/>
+      <node name="tunel-1" size="7">
+        <node name="syfon-7" size="0"/>
+        <node name="rękaw-5" size="0"/>
+        <node name="rękaw-4" size="0"/>
+        <node name="jaskinia lawowa-1" size="0"/>
+        <node name="tunel aerodynamiczny-1" size="0"/>
+        <node name="tunel hydrotechniczny-1" size="0"/>
+        <node name="przejście podziemne-1" size="0"/>
+      </node>
+      <node name="womitorium-1" size="0"/>
+      <node name="kaponiera-2" size="0"/>
+      <node name="pasy-1, przejście dla pieszych-1, zebra-2" size="0"/>
+      <node name="opłotki-2" size="0"/>
+      <node name="przełaz-1" size="0"/>
+      <node name="ambit-1, obejście-5" size="0"/>
+      <node name="przesmyk-1, gardziel-2" size="0"/>
+      <node name="korytarz-2" size="11">
+        <node name="galeria bojowa-1" size="0"/>
+        <node name="chodnik obronny-1" size="0"/>
+        <node name="korytarz ekologiczny-1" size="0"/>
+        <node name="mina-4" size="0"/>
+        <node name="syfon-3" size="0"/>
+        <node name="poterna-1, potajnik-1" size="0"/>
+        <node name="dromos-1" size="0"/>
+        <node name="ponor-1" size="0"/>
+        <node name="podkop-1" size="2">
+          <node name="chodnik przeciwminowy-1" size="0"/>
+          <node name="chodnik minowy-1" size="0"/>
+        </node>
+      </node>
+      <node name="skrót-4" size="2">
+        <node name="tunel Morrisa-Thorne'a-1" size="0"/>
+        <node name="most Einsteina-Rosena-1" size="0"/>
+      </node>
+      <node name="chodnik-1" size="0"/>
+      <node name="granica-2, przejście graniczne-1" size="0"/>
+    </node>
+    <node name="fraternia-1" size="0"/>
+    <node name="sterylizatornia-1" size="0"/>
+    <node name="piecownia-1" size="0"/>
+    <node name="próg-3, próg rzeczny-1" size="3">
+      <node name="poroh-1" size="0"/>
+      <node name="szypot-1" size="0"/>
+      <node name="katarakta-2" size="0"/>
+    </node>
+    <node name="łabędziarnia-1" size="0"/>
+    <node name="rdzeniarnia-1" size="0"/>
+    <node name="odkład-1" size="0"/>
+    <node name="rykowisko-2" size="0"/>
+    <node name="tokowisko-1" size="1">
+      <node name="sadowisko-2" size="0"/>
+    </node>
+    <node name="harcówka-1" size="0"/>
+    <node name="podscenie-1, kanał-12, fosa orkiestrowa-1, kanał dla orkiestry-1" size="0"/>
+    <node name="polerownia-1" size="0"/>
+    <node name="korowalnia-1" size="0"/>
+    <node name="rafineria-2" size="0"/>
+    <node name="galwanizernia-1" size="0"/>
+    <node name="międzymurze-1" size="0"/>
+    <node name="światła-2" size="0"/>
+    <node name="igielnik-1" size="1">
+      <node name="poduszka na szpilki-1, poduszka na igły i szpilki-1" size="0"/>
+    </node>
+    <node name="skrzynka kontaktowa-1" size="0"/>
+    <node name="poligon-2, poligon doświadczalny-1" size="0"/>
+    <node name="pigalak-1" size="0"/>
+    <node name="krematorium-2, piec-3" size="0"/>
+    <node name="formiernia-1" size="0"/>
+    <node name="szparagarnia-1" size="0"/>
+    <node name="cerkwisko-1" size="0"/>
+    <node name="blich-1, blech-1" size="0"/>
+    <node name="tarlisko-1, ikrzysko-1" size="0"/>
+    <node name="domicyl-1" size="0"/>
+    <node name="gimnazjon-1, gimnazjum-3" size="0"/>
+    <node name="kołchoz-2" size="0"/>
+    <node name="żerowisko-1" size="1">
+      <node name="szkoda-1" size="0"/>
+    </node>
+    <node name="strzelnica-2" size="0"/>
+    <node name="zaświaty-1, tamten świat-1" size="11">
+      <node name="asfodelowa łąka-1" size="0"/>
+      <node name="podziemie-4" size="0"/>
+      <node name="szeol-1" size="0"/>
+      <node name="otchłań-2, limbus-2, limbo-1" size="0"/>
+      <node name="czyściec-1" size="0"/>
+      <node name="raj-3, niebo-2, niebiosy-2, niebiosa-4" size="4">
+        <node name="łono Abrahama-1" size="0"/>
+        <node name="kraina wiecznych łowów-1" size="0"/>
+        <node name="empireum-1" size="0"/>
+        <node name="Pola Elizejskie-1, Elizjum-1" size="0"/>
+      </node>
+      <node name="piekło-1, gehenna-2, pandemonium-2, orkus-2, hades-1, naraka-1" size="0"/>
+    </node>
+    <node name="spalarnia-1" size="0"/>
+    <node name="postój-2, etap-3" size="0"/>
+    <node name="krematorium-1, spopielarnia-1" size="0"/>
+    <node name="forum-4" size="5">
+      <node name="mównica-1" size="4"/>
+    </node>
+    <node name="podwyższenie-2, wzniesienie-4" size="25">
+      <node name="góry pierścieniowe-1" size="0"/>
+      <node name="podium-2" size="0"/>
+      <node name="trybuna-1" size="1">
+        <node name="kantoria-1" size="0"/>
+      </node>
+      <node name="wybieg-3" size="0"/>
+      <node name="górka rozrządowa-1" size="0"/>
+      <node name="katafalk-1, mary-1" size="0"/>
+      <node name="tumba-2" size="0"/>
+      <node name="słupek startowy-1" size="0"/>
+      <node name="podest-3" size="0"/>
+      <node name="podium-1" size="3">
+        <node name="kliros-1" size="0"/>
+        <node name="szafot-1" size="0"/>
+        <node name="proscenium-1, proskenion-1" size="0"/>
+      </node>
+      <node name="mównica-1" size="4">
+        <node name="dakka-1, dikka-1" size="0"/>
+        <node name="bima-1" size="0"/>
+        <node name="ambona-2, kazalnica-1" size="1">
+          <node name="minbar-1, mimbar-1" size="0"/>
+        </node>
+      </node>
+      <node name="scena-6" size="6">
+        <node name="otwarta scena-1" size="0"/>
+        <node name="scena szufladkowa-1, scena szufladowa-1" size="0"/>
+        <node name="scena pudełkowa-1" size="0"/>
+        <node name="scena obrotowa-1, obrotówka-1" size="0"/>
+        <node name="proscenium-1, proskenion-1" size="0"/>
+        <node name="estrada-1" size="0"/>
+      </node>
+    </node>
+    <node name="miejsce kultu-1" size="69" abstract="true">
+      <node name="stacja duszpasterska-1" size="0"/>
+      <node name="przybytek-3" size="50"/>
+      <node name="trzebnica-2, ofiarnia-1, ofiarnisko-1" size="0"/>
+      <node name="lararium-1" size="0"/>
+      <node name="zolnik-2" size="0"/>
+      <node name="betyl-1" size="0"/>
+      <node name="kalwaria-1" size="0"/>
+      <node name="kaplica wotywna-1" size="0"/>
+      <node name="figura-7" size="3">
+        <node name="świątek-2" size="0"/>
+        <node name="kapliczka-1" size="1">
+          <node name="aedicula-2, edykuła-2, edykuł-2" size="0"/>
+        </node>
+      </node>
+      <node name="ołtarz-2" size="0"/>
+      <node name="uroczysko-1" size="0"/>
+      <node name="krąg kamienny-1, kromlech-1" size="0"/>
+      <node name="sanktuarium-1" size="1">
+        <node name="bama-1" size="0"/>
+      </node>
+      <node name="kaplica-2" size="1"/>
+    </node>
+    <node name="schronienie-3" size="74">
+      <node name="arka Noego-2" size="0"/>
+      <node name="ogrzewalnia-1" size="0"/>
+      <node name="forteca-2, wieża z kości słoniowej-1, twierdza-2" size="0"/>
+      <node name="kuczka-1" size="0"/>
+      <node name="przytułek-3" size="0"/>
+      <node name="przytulisko-1" size="0"/>
+      <node name="baza noclegowa-1" size="20"/>
+      <node name="namiot-1" size="9">
+        <node name="kibitka-2" size="0"/>
+        <node name="Namiot Spotkania-1, Przybytek Mojżeszowy-1, przybytek-6" size="0"/>
+        <node name="namiot ścianowy-1, platforma ścianowa-1, portaledge-1" size="0"/>
+        <node name="tipi-1" size="0"/>
+        <node name="pretorium-1" size="0"/>
+        <node name="pałatka-2" size="0"/>
+        <node name="wigwam-1" size="0"/>
+        <node name="jurta-1" size="0"/>
+        <node name="cyrk-3" size="0"/>
+      </node>
+      <node name="szałas-2" size="1">
+        <node name="wigwam-1" size="0"/>
+      </node>
+      <node name="schron-2" size="1">
+        <node name="ziemianka-1" size="0"/>
+      </node>
+      <node name="samotnia-1, pustelnia-1" size="0"/>
+      <node name="kryjówka-1, ukrycie-4" size="3">
+        <node name="dziupla-3" size="0"/>
+        <node name="melina-2" size="0"/>
+        <node name="czatownia-1" size="0"/>
+      </node>
+      <node name="azyl-2, oaza-2, enklawa-2" size="1">
+        <node name="azyl dyplomatyczny-1" size="0"/>
+      </node>
+      <node name="gniazdo-1" size="22">
+        <node name="kotnik-1" size="0"/>
+        <node name="jama-2" size="0"/>
+        <node name="termitiera-1" size="0"/>
+        <node name="żeremie-1" size="0"/>
+        <node name="mrowisko-1" size="1">
+          <node name="formikarium-1" size="0"/>
+        </node>
+        <node name="legowisko-1, leże-1" size="6">
+          <node name="kołbań-1" size="0"/>
+          <node name="wężowisko-2" size="0"/>
+          <node name="gawra-1, budowisko-1" size="0"/>
+          <node name="komysz-1" size="0"/>
+          <node name="barłóg-2" size="0"/>
+          <node name="zimowisko-1" size="0"/>
+        </node>
+        <node name="ul-2" size="7"/>
+        <node name="nora-2" size="0"/>
+      </node>
+      <node name="obóz-2, obozowisko-1" size="2">
+        <node name="biwak-2" size="0"/>
+        <node name="stanica-3" size="0"/>
+      </node>
+      <node name="wiata-1" size="0"/>
+    </node>
+    <node name="terminal-2" size="0"/>
+    <node name="cel-1" size="1">
+      <node name="zsyłka-2" size="0"/>
+    </node>
+    <node name="przejazd-1" size="1">
+      <node name="przejazd kolejowy-1" size="0"/>
+    </node>
+    <node name="miejsce pracy-1, miejsce zatrudnienia-1, zakład pracy-1, praca-4, robota-1" size="100">
+      <node name="teren-7" size="0"/>
+      <node name="kopalnia-1" size="12">
+        <node name="kopalnia otworowa-1" size="0"/>
+        <node name="wapiennik-4" size="0"/>
+        <node name="rudnik-2" size="0"/>
+        <node name="wapniarka-1" size="0"/>
+        <node name="bursztyniarnia-2, kopalnia bursztynu-1" size="0"/>
+        <node name="piaskownia-1, piaskarnia-1" size="0"/>
+        <node name="biedaszyb-1" size="0"/>
+        <node name="żwirownia-1" size="0"/>
+        <node name="kamieniołom-1" size="0"/>
+        <node name="kopalnia węgla brunatnego-1" size="0"/>
+        <node name="kopalnia węgla kamiennego-1" size="0"/>
+        <node name="salina-1" size="0"/>
+      </node>
+      <node name="firma-5" size="3"/>
+      <node name="plan-6" size="0"/>
+      <node name="reżyserka-3, reżysernia-1" size="0"/>
+      <node name="plener-1" size="0"/>
+      <node name="atelier-1" size="0"/>
+      <node name="dział-2, wydział-3, pion-2, sekcja-3" size="48">
+        <node name="podwydział-1" size="0"/>
+        <node name="biuro łącznikowe-1" size="0"/>
+        <node name="kryminalistyka-2" size="0"/>
+        <node name="agencja-5" size="0"/>
+        <node name="rurownia-1" size="0"/>
+        <node name="decernat-1" size="0"/>
+        <node name="kruszarnia-1" size="0"/>
+        <node name="korektornia-1, korekta-4" size="0"/>
+        <node name="klejownia-3, klejarnia-1" size="0"/>
+        <node name="młynownia-4" size="0"/>
+        <node name="młynownia-2" size="0"/>
+        <node name="przygotowalnia-2" size="0"/>
+        <node name="pudełczarnia-1" size="0"/>
+        <node name="zecernia-1" size="0"/>
+        <node name="prototypownia-1" size="0"/>
+        <node name="niciarnia-1" size="0"/>
+        <node name="dekoratornia-2" size="0"/>
+        <node name="cewiarnia-1, przewijalnia-1, przewijarnia-1" size="0"/>
+        <node name="klejownia-2, klejarnia-2" size="0"/>
+        <node name="ekstraktownia-1" size="0"/>
+        <node name="tabletkarnia-1" size="0"/>
+        <node name="wydział lokalowy-1" size="0"/>
+        <node name="probiernia-2" size="0"/>
+        <node name="odłam-4" size="0"/>
+        <node name="paczkarnia-1, paczkownia-1" size="0"/>
+        <node name="stereotypownia-1, gisernia-2" size="0"/>
+        <node name="dział personalny-1, biuro personalne-1, dział osobowy-1, kadry-1" size="0"/>
+        <node name="ekspedycja-4, ekspedytura-1" size="0"/>
+        <node name="księgowość-2, rachuba-2" size="2">
+          <node name="dekretowanie-1" size="0"/>
+          <node name="kwestura-2" size="0"/>
+        </node>
+        <node name="oddział-6" size="3">
+          <node name="stacja sanitarna-1" size="0"/>
+          <node name="tłoczarnia-1" size="0"/>
+          <node name="prażalnia-1" size="0"/>
+        </node>
+        <node name="filia-1, oddział-4, agenda-2, ekspozytura-2" size="3">
+          <node name="obwód drogowy-1" size="0"/>
+          <node name="decernat-2" size="0"/>
+          <node name="komórka-5, ogniwo-4" size="0"/>
+        </node>
+        <node name="biuro-3" size="8">
+          <node name="biuro podawcze-1" size="0"/>
+          <node name="helpdesk-1" size="0"/>
+          <node name="sekretariat-2" size="0"/>
+          <node name="komendantura-1" size="0"/>
+          <node name="intendentura-1, zaopatrzenie-3" size="0"/>
+          <node name="sprawozdawczość-2" size="0"/>
+          <node name="kancelaria-2, palestra-3" size="1">
+            <node name="kancelaria tajna-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="gospodarstwo-1, gospodarka-2" size="26">
+        <node name="gospodarstwo leśne-1" size="0"/>
+        <node name="gospodarstwo niskotowarowe-1" size="0"/>
+        <node name="gospodarstwo rolne-1" size="7">
+          <node name="gospodarstwo małorolne-1" size="0"/>
+          <node name="gospodarstwo karłowate-1" size="0"/>
+          <node name="gospodarstwo towarowe-1" size="0"/>
+          <node name="gospodarstwo agroturystyczne-1" size="0"/>
+          <node name="farma-1" size="0"/>
+          <node name="ferma-1" size="1">
+            <node name="bażantarnia-1, bażanciarnia-1" size="0"/>
+          </node>
+        </node>
+        <node name="pstrągarnia-1" size="0"/>
+        <node name="gazdostwo-2, gazdówka-1" size="0"/>
+        <node name="kibuc-1" size="0"/>
+        <node name="sowchoz-1" size="0"/>
+        <node name="kołchoz-1" size="0"/>
+        <node name="punkt kopulacyjny-1, stacja kopulacyjna-1" size="0"/>
+        <node name="stadnina-1" size="0"/>
+        <node name="pasieka-1" size="0"/>
+        <node name="Państwowe Gospodarstwo Rolne-1, PGR-2, pegeer-1" size="0"/>
+        <node name="ranczo-1, rancho-1" size="0"/>
+        <node name="plantacja-1" size="5">
+          <node name="malinnik-2" size="0"/>
+          <node name="truskawkarnia-1" size="0"/>
+          <node name="fazenda-2, facenda-1" size="0"/>
+          <node name="chmielarnia-1, chmielnik-2" size="0"/>
+          <node name="winnica-1" size="0"/>
+        </node>
+      </node>
+      <node name="budowa-2" size="1">
+        <node name="hydrobudowa-1" size="0"/>
+      </node>
+    </node>
+    <node name="siedziba-2, siedlisko-3" size="108">
+      <node name="przybytek-3" size="50">
+        <node name="Namiot Spotkania-1, Przybytek Mojżeszowy-1, przybytek-6" size="0"/>
+        <node name="miejsce święte-1" size="2">
+          <node name="adyton-1" size="0"/>
+          <node name="święta góra-1" size="0"/>
+        </node>
+        <node name="wyrocznia-2" size="0"/>
+        <node name="świątynia-1" size="44">
+          <node name="świątynia etruska-1" size="0"/>
+          <node name="świątynia hypertralna-1" size="0"/>
+          <node name="jinja-1" size="0"/>
+          <node name="dagoba-1" size="0"/>
+          <node name="mandapa-2" size="0"/>
+          <node name="amfiprostylos-1" size="1">
+            <node name="tetrastylos-1, tetrastyl-1" size="0"/>
+          </node>
+          <node name="templum-2" size="0"/>
+          <node name="perypter-1, perypteros-1, peripteros-1" size="0"/>
+          <node name="prostyl-1, prostylos-1" size="0"/>
+          <node name="monopter-2, monopteros-2" size="0"/>
+          <node name="mitreum-1" size="0"/>
+          <node name="stupa-1" size="0"/>
+          <node name="zikkurat-1, ziggurat-1, zigurat-1, zikurat-1" size="0"/>
+          <node name="dipteros-1" size="0"/>
+          <node name="piramida-2" size="0"/>
+          <node name="gontyna-1, kącina-1, kontyna-1" size="0"/>
+          <node name="chram-1" size="0"/>
+          <node name="pagoda-1" size="0"/>
+          <node name="meczet-1" size="0"/>
+          <node name="panteon-1" size="0"/>
+          <node name="kościół-2, Dom Boży-2" size="19">
+            <node name="kościół ścienno-filarowy-1" size="0"/>
+            <node name="kościół filialny-1" size="0"/>
+            <node name="kościół parafialny-1" size="0"/>
+            <node name="parafia-3" size="0"/>
+            <node name="kościół salowy-1" size="0"/>
+            <node name="fara-1, kościół farny-1" size="0"/>
+            <node name="konkatedra-1, współkatedra-1, kościół konkatedralny-1" size="0"/>
+            <node name="kolegiata-1" size="0"/>
+            <node name="zbór-1, kircha-1" size="0"/>
+            <node name="kościół halowy-1" size="0"/>
+            <node name="cerkiew-2, cerkiew prawosławna-2" size="4">
+              <node name="cerkiew łemkowska-1" size="0"/>
+              <node name="cerkiew huculska-1" size="0"/>
+              <node name="cerkiew bojkowska-1" size="0"/>
+              <node name="sobór-2" size="0"/>
+            </node>
+            <node name="katedra-1" size="2">
+              <node name="prokatedra-1" size="0"/>
+              <node name="archikatedra-1" size="0"/>
+            </node>
+            <node name="bazylika-1" size="0"/>
+          </node>
+          <node name="kaplica-1" size="2">
+            <node name="kaplica przedpogrzebowa-1, kaplica przycmentarna-1" size="0"/>
+            <node name="oratorium-2" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="adres-3" size="0"/>
+      <node name="pałanka-3" size="0"/>
+      <node name="dwór-3" size="0"/>
+      <node name="domicyl-3" size="0"/>
+      <node name="siedziba bogów-1" size="1" abstract="true">
+        <node name="Helikon-1" size="0"/>
+      </node>
+      <node name="sadyba-1" size="0"/>
+      <node name="rezydencja-1" size="12">
+        <node name="delicja-3" size="0"/>
+        <node name="alkazar-1" size="0"/>
+        <node name="zamek-1" size="3">
+          <node name="bastylia-1" size="0"/>
+          <node name="zamczysko-1" size="0"/>
+          <node name="kasztel-2" size="0"/>
+        </node>
+        <node name="pałac-1" size="5">
+          <node name="alkazar-2" size="0"/>
+          <node name="seraj-2" size="0"/>
+          <node name="palatium-1" size="0"/>
+          <node name="pałacyk-1" size="1">
+            <node name="bagatela-3" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="dom-2, dach nad głową-1, własny kąt-1, kąt-3, lokum-1, chata-2, chałupa-3, dach-2" size="32">
+        <node name="biała sala-1" size="0"/>
+        <node name="igloo-1, iglu-1" size="0"/>
+        <node name="mieszkanie-4" size="27"/>
+        <node name="zakwaterowanie-4, kwatera-1, kwaterunek-2" size="1">
+          <node name="kwatera zastępcza-1" size="0"/>
+        </node>
+      </node>
+      <node name="dwór-1" size="3">
+        <node name="dworzyszcze-1" size="0"/>
+        <node name="dworek-1" size="1">
+          <node name="kałamarzyk-3" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="składowisko-1" size="10">
+      <node name="zsypisko-2" size="0"/>
+      <node name="śmietnik-2" size="0"/>
+      <node name="mogilnik-1" size="0"/>
+      <node name="wrakowisko-1" size="0"/>
+      <node name="deskowisko-1" size="0"/>
+      <node name="wylewisko-1" size="0"/>
+      <node name="złomowisko-1" size="1">
+        <node name="szrot-1" size="0"/>
+      </node>
+      <node name="gnojnik-1, gnojowisko-1, gnojownia-1" size="0"/>
+      <node name="śmietnisko-1, wysypisko-1, składowisko odpadów-1" size="0"/>
+    </node>
+    <node name="recepcja-1" size="0"/>
+    <node name="siedziba-1" size="185">
+      <node name="lokum-2" size="0"/>
+      <node name="klub-4" size="2">
+        <node name="fitness klub-1, fitness club-1" size="0"/>
+        <node name="resursa-2" size="0"/>
+      </node>
+      <node name="firma-5" size="3">
+        <node name="agencja-6" size="0"/>
+        <node name="wydawnictwo-3" size="0"/>
+        <node name="hurtownia-2" size="0"/>
+      </node>
+      <node name="bank-2" size="0"/>
+      <node name="kwatera główna-1" size="1">
+        <node name="horda-6, orda-3" size="0"/>
+      </node>
+      <node name="pretorium-1" size="0"/>
+      <node name="jurydyka-1" size="0"/>
+      <node name="pałac ślubów-1" size="0"/>
+      <node name="izba wytrzeźwień-1" size="0"/>
+      <node name="stacja-1" size="1">
+        <node name="stacja zborna-1" size="0"/>
+      </node>
+      <node name="rabinat-2" size="0"/>
+      <node name="synagoga-2" size="0"/>
+      <node name="poradnia-1" size="2">
+        <node name="telefon zaufania-1" size="0"/>
+        <node name="biuro matrymonialne-1" size="0"/>
+      </node>
+      <node name="sejm-3" size="0"/>
+      <node name="pogotowie-1" size="0"/>
+      <node name="prokuratura-2" size="0"/>
+      <node name="przedszkole-1" size="3"/>
+      <node name="redakcja-2" size="1">
+        <node name="słownik-2, słownikarnia-1" size="0"/>
+      </node>
+      <node name="spółdzielnia-3" size="0"/>
+      <node name="placówka-1" size="88">
+        <node name="placówka opiekuńczo-wychowawcza-1" size="14">
+          <node name="ośrodek kuratorski-1" size="0"/>
+          <node name="wioska dziecięca-1" size="0"/>
+          <node name="placówka resocjalizacyjna-1" size="0"/>
+          <node name="placówka socjalizacyjna-1" size="0"/>
+          <node name="placówka rodzinna-1" size="0"/>
+          <node name="placówka interwencyjna-1" size="0"/>
+          <node name="placówka wsparcia dziennego-1" size="0"/>
+          <node name="schronisko-2, azyl-3" size="0"/>
+          <node name="dom starców-1, przytułek-2" size="0"/>
+          <node name="hospicjum-1" size="0"/>
+          <node name="żłobek-2" size="0"/>
+          <node name="świetlica-2" size="0"/>
+          <node name="sierociniec-1, ochronka-1, dom dziecka-1" size="0"/>
+          <node name="dom poprawczy-1, zakład poprawczy-1, poprawczak-1" size="0"/>
+        </node>
+        <node name="placówka oświatowo-wychowawcza-1" size="47">
+          <node name="szkoła-2" size="42">
+            <node name="szkoła podwydziałowa-1" size="0"/>
+            <node name="Rej-3" size="0"/>
+            <node name="szkoła policealna-1" size="2">
+              <node name="szkoła pomaturalna-2" size="0"/>
+              <node name="studium-3" size="0"/>
+            </node>
+            <node name="budowlanka-2" size="0"/>
+            <node name="jazzówka-3" size="0"/>
+            <node name="college-1, koledż-1" size="0"/>
+            <node name="preparanda-1" size="0"/>
+            <node name="szkoła podstawowa-4, podstawówka-3" size="0"/>
+            <node name="szkoła specjalna-1" size="0"/>
+            <node name="handlówka-1, szkoła handlowa-1" size="0"/>
+            <node name="quadrivium-1, kwadrywium-2" size="0"/>
+            <node name="dziesięciolatka-2" size="0"/>
+            <node name="efebia-2" size="0"/>
+            <node name="medresa-1, madrasa-2" size="0"/>
+            <node name="podchorążówka-1" size="0"/>
+            <node name="szkoła ponadgimnazjalna-1" size="5">
+              <node name="liceum-4" size="3"/>
+              <node name="technikum-3" size="0"/>
+            </node>
+            <node name="szkoła wyższa-2, uczelnia-2" size="8">
+              <node name="latający uniwersytet-1" size="0"/>
+              <node name="uczelnia akademicka-1" size="0"/>
+              <node name="akademia-4" size="0"/>
+              <node name="filmówka-1, szkoła filmowa-1" size="0"/>
+              <node name="jesziwa-1, jesziba-1, akademia talmudyczna-1, jeszybot-1" size="0"/>
+              <node name="medresa-2, madrasa-1" size="0"/>
+              <node name="uniwersytet-1, uniwerek-1" size="0"/>
+              <node name="politechnika-1, polibuda-1" size="0"/>
+            </node>
+            <node name="szkoła ponadpodstawowa-2" size="13">
+              <node name="zawodówka-2, zasadnicza szkoła zawodowa-1" size="2">
+                <node name="samochodówka-2" size="0"/>
+                <node name="budowlanka-1" size="0"/>
+              </node>
+              <node name="szkoła średnia-2" size="8">
+                <node name="korpus kadetów-1" size="0"/>
+                <node name="liceum-4" size="3">
+                  <node name="liceum plastyczne-1" size="0"/>
+                  <node name="liceum ogólnokształcące-1, ogólniak-2, LO-1" size="0"/>
+                  <node name="liceum profilowane-1, profilak-1" size="0"/>
+                </node>
+                <node name="progimnazjum-1" size="0"/>
+                <node name="seminarium-2" size="0"/>
+                <node name="technikum-3" size="0"/>
+              </node>
+              <node name="gimnazjum-2" size="0"/>
+            </node>
+            <node name="kolegium-2" size="0"/>
+          </node>
+          <node name="przedszkole-1" size="3">
+            <node name="przedszkole integracyjne-1" size="0"/>
+            <node name="freblówka-1" size="0"/>
+            <node name="dzieciniec-1" size="0"/>
+          </node>
+        </node>
+        <node name="konserwatornia-2" size="0"/>
+        <node name="misja-4" size="0"/>
+        <node name="hanza-2, faktoria-2" size="0"/>
+        <node name="poczta-3" size="0"/>
+        <node name="placówka służby zdrowia-1, zakład opieki zdrowotnej-1" size="17">
+          <node name="izba chorych-1" size="0"/>
+          <node name="ośrodek zdrowia-1" size="0"/>
+          <node name="izolatorium-1" size="0"/>
+          <node name="sanatorium-1" size="2">
+            <node name="półsanatorium-1" size="0"/>
+            <node name="prewentorium-1, sanatorium zapobiegawcze-1" size="0"/>
+          </node>
+          <node name="przychodnia-1, lecznica-2" size="2">
+            <node name="poliklinika-1" size="0"/>
+            <node name="ambulatorium-1" size="0"/>
+          </node>
+          <node name="szpital-1, klinika-1, lecznica-1" size="7">
+            <node name="rewir-3" size="0"/>
+            <node name="szpitalik-1" size="0"/>
+            <node name="leprozorium-1, lazaret-2" size="0"/>
+            <node name="lazaret-1" size="0"/>
+            <node name="infirmeria-1" size="0"/>
+            <node name="szpital zakaźny-1" size="0"/>
+            <node name="szpital psychiatryczny-1, dom wariatów-2, wariatkowo-1, dom obłąkanych-1" size="0"/>
+          </node>
+        </node>
+        <node name="instytut-2" size="2">
+          <node name="obserwatorium-1" size="1">
+            <node name="obserwatorium astronomiczne-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="szkoła-1, buda-3" size="29">
+        <node name="prywatniak-2" size="0"/>
+        <node name="przemysłówka-4" size="0"/>
+        <node name="kantorat-1" size="0"/>
+        <node name="powiatówka-1" size="0"/>
+        <node name="wieczorówka-1" size="0"/>
+        <node name="alumnat-2" size="0"/>
+        <node name="szabasówka-1" size="0"/>
+        <node name="pensja-2" size="0"/>
+        <node name="konwikt-1" size="0"/>
+        <node name="tysiąclatka-1" size="0"/>
+        <node name="cheder-1" size="0"/>
+        <node name="zawodówka-1" size="0"/>
+        <node name="szkółka-1" size="0"/>
+        <node name="szkoła zawodowa-1" size="2">
+          <node name="gastronomik-3" size="0"/>
+          <node name="kolejówka-1" size="0"/>
+        </node>
+        <node name="technikum-1" size="0"/>
+        <node name="szkoła podstawowa-1, podstawówka-1" size="0"/>
+        <node name="uczelnia-1" size="8">
+          <node name="proseminarium-2" size="0"/>
+          <node name="akademia-1" size="0"/>
+          <node name="pedagogium-1" size="0"/>
+          <node name="konserwatorium-1" size="0"/>
+          <node name="politechnika-2, polibuda-2" size="0"/>
+          <node name="seminarium duchowne-1, seminarium-3" size="0"/>
+          <node name="uniwersytet-2, uniwerek-2, alma mater-1, wszechnica-1" size="1">
+            <node name="uniwersytet ludowy-1" size="0"/>
+          </node>
+        </node>
+        <node name="liceum-1" size="0"/>
+        <node name="gimnazjum-1" size="0"/>
+      </node>
+      <node name="administracja-3, zarząd-3, kierownictwo-3, dyrekcja-2" size="0"/>
+      <node name="ratusz-1, magistrat-1" size="0"/>
+      <node name="klasztor-1, konwent-1" size="6">
+        <node name="wihara-1" size="0"/>
+        <node name="stauropigia-1" size="0"/>
+        <node name="opactwo-1" size="0"/>
+        <node name="kartuzja-1" size="0"/>
+        <node name="ławra-2" size="0"/>
+        <node name="monaster-1, monastyr-1" size="0"/>
+      </node>
+      <node name="urząd-3" size="13">
+        <node name="podsekretariat-1" size="0"/>
+        <node name="urząd pracy-1" size="0"/>
+        <node name="namiestnictwo-3" size="0"/>
+        <node name="notariat-2" size="0"/>
+        <node name="pośredniak-1" size="0"/>
+        <node name="nadleśnictwo-3" size="0"/>
+        <node name="urząd skarbowy-1, fiskus-2, skarbówka-1" size="0"/>
+        <node name="ministerstwo-2" size="3">
+          <node name="ministerstwo środowiska-1" size="0"/>
+          <node name="Ministerstwo Obrony Narodowej-2, MON-1" size="0"/>
+          <node name="ministerstwo kultury-1" size="0"/>
+        </node>
+        <node name="sąd-3" size="0"/>
+        <node name="parlament-4" size="0"/>
+      </node>
+      <node name="sztab-1" size="0"/>
+      <node name="agencja-1, przedstawicielstwo-2, agenda-1, agentura-2, oddział-3, delegatura-1, ekspozytura-1" size="13">
+        <node name="posterunek-1" size="5">
+          <node name="checkpoint-1" size="0"/>
+          <node name="rogatka-2" size="0"/>
+          <node name="komisariat-1, komenda-2, policja-3" size="2">
+            <node name="gestapo-2" size="0"/>
+            <node name="cyrkuł-2" size="0"/>
+          </node>
+        </node>
+        <node name="filiał-1" size="0"/>
+        <node name="ataszat-1, attachat-2" size="0"/>
+        <node name="nuncjatura-2" size="0"/>
+        <node name="konsulat-3, urząd konsularny-1" size="0"/>
+        <node name="placówka-2" size="2">
+          <node name="konsulat-2" size="0"/>
+          <node name="ambasada-1" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="poczekalnia-1" size="1">
+      <node name="cechownia-2" size="0"/>
+    </node>
+    <node name="pojemnik-2" size="82">
+      <node name="zbieralnik pary-1" size="0"/>
+      <node name="łódka-3" size="0"/>
+      <node name="konwertor-3" size="0"/>
+      <node name="przechowalnik-1" size="0"/>
+      <node name="zasobnik-1" size="2">
+        <node name="magazynek-1" size="0"/>
+        <node name="ładownik-1" size="0"/>
+      </node>
+      <node name="mantelzak-1" size="0"/>
+      <node name="zsypnik-1" size="0"/>
+      <node name="kałamarz-3" size="0"/>
+      <node name="ossuarium-1" size="0"/>
+      <node name="koryto-2" size="0"/>
+      <node name="korytko-1" size="0"/>
+      <node name="prochownica-1" size="0"/>
+      <node name="kompostownik-1" size="0"/>
+      <node name="kapsuła-1" size="0"/>
+      <node name="melaśnik-1" size="0"/>
+      <node name="gazetnik-1" size="0"/>
+      <node name="mieszalnik-2" size="0"/>
+      <node name="mieszalnik-1" size="0"/>
+      <node name="skrzynia-3" size="0"/>
+      <node name="popielnik-1" size="0"/>
+      <node name="relikwiarz-1" size="2">
+        <node name="stauroteka-1" size="0"/>
+        <node name="pacyfikał-1" size="0"/>
+      </node>
+      <node name="ładownica-1" size="1">
+        <node name="bandażownica-2" size="0"/>
+      </node>
+      <node name="skrzynka-3" size="6">
+        <node name="skrzynka pocztowa-1" size="0"/>
+        <node name="skrytka pocztowa-1" size="1">
+          <node name="paczkomat-1" size="0"/>
+        </node>
+        <node name="kapsla-3" size="0"/>
+        <node name="skrzynka na listy-1" size="0"/>
+        <node name="kasetka-1, kaseta-2" size="0"/>
+      </node>
+      <node name="skrzynia-2" size="10">
+        <node name="paka-1" size="0"/>
+        <node name="sadz-1" size="0"/>
+        <node name="naczynie skipowe-1, skip-3" size="0"/>
+        <node name="rojnica-1" size="0"/>
+        <node name="kastra-1" size="0"/>
+        <node name="fola-1" size="0"/>
+        <node name="arka-1" size="0"/>
+        <node name="nosiłki-1" size="0"/>
+        <node name="urna-1, urna wyborcza-1" size="0"/>
+        <node name="kasa-4, sejf-1" size="0"/>
+      </node>
+      <node name="kubeł-2" size="0"/>
+      <node name="baryłka-2" size="0"/>
+      <node name="portfel-1" size="2">
+        <node name="portmonetka-1" size="1">
+          <node name="podkówka-1" size="0"/>
+        </node>
+      </node>
+      <node name="skarbonka-1" size="1">
+        <node name="puszka-7" size="0"/>
+      </node>
+      <node name="kadź-2" size="0"/>
+      <node name="kontener-1" size="1">
+        <node name="skip-2" size="0"/>
+      </node>
+      <node name="śmietnik-1" size="3">
+        <node name="kosz na śmieci-1, kosz-2, kubeł-3" size="0"/>
+        <node name="śmietniczka-2" size="0"/>
+        <node name="zsyp-2" size="0"/>
+      </node>
+      <node name="koszyk-1, kosz-1" size="8">
+        <node name="brudniak-1" size="0"/>
+        <node name="króbka-1" size="0"/>
+        <node name="guffa-3, kuff-1" size="0"/>
+        <node name="wereszka-1" size="0"/>
+        <node name="opałka-1" size="0"/>
+        <node name="kipa-4" size="0"/>
+        <node name="koszałka-1" size="0"/>
+        <node name="kobiałka-1, łubianka-1, kobiała-1" size="0"/>
+      </node>
+      <node name="pudełko-1" size="11">
+        <node name="mydelniczka-2" size="0"/>
+        <node name="humidor-1" size="0"/>
+        <node name="herbatnica-1" size="0"/>
+        <node name="puzdro-1" size="0"/>
+        <node name="puderniczka-1, pudernica-2" size="0"/>
+        <node name="bombonierka-1" size="0"/>
+        <node name="puzderko-1" size="0"/>
+        <node name="papierośnica-1, cygarnica-1" size="0"/>
+        <node name="szkatułka-1" size="0"/>
+        <node name="karton-1" size="0"/>
+        <node name="kasetka-1, kaseta-2" size="0"/>
+      </node>
+      <node name="trumna-1" size="2">
+        <node name="cztery deski-1" size="0"/>
+        <node name="sarkofag-1" size="0"/>
+      </node>
+    </node>
+    <node name="ekspozycja-2, wystawa-2" size="1">
+      <node name="panopticum-1, panoptikum-2" size="0"/>
+    </node>
+    <node name="wyjście-22" size="4">
+      <node name="wyłaz-1" size="0"/>
+      <node name="drzwi-2" size="1"/>
+      <node name="furta-1" size="0"/>
+    </node>
+    <node name="dyspozytornia-1, centrala-4" size="3">
+      <node name="telecentrum-1" size="0"/>
+      <node name="centrala telekomunikacyjna-1" size="0"/>
+      <node name="radio taxi-1" size="0"/>
+    </node>
+  </node>
+  <node name="przecięcie-6" size="10">
+    <node name="skrzyżowanie wzrokowe-1" size="0"/>
+    <node name="cezura-2" size="3">
+      <node name="średniówka-1, cezura-4, diereza-1" size="2">
+        <node name="średniówka żeńska-1" size="0"/>
+        <node name="średniówka męska-1" size="0"/>
+      </node>
+    </node>
+    <node name="skrzyżowanie-5, krzyżówka-4" size="4">
+      <node name="rozdroże-1, rozstaj-1" size="0"/>
+      <node name="skrzyżowanie równorzędne-1" size="0"/>
+      <node name="rondo-1" size="1">
+        <node name="rondo kompaktowe-1" size="0"/>
+      </node>
+    </node>
+  </node>
+  <node name="zacisze-1, ustronie-1" size="0"/>
+  <node name="głębina-1, toń-1, topiel-1, topielisko-2" size="1">
+    <node name="odmęt-1" size="0"/>
+  </node>
+  <node name="dostęp-2" size="23">
+    <node name="dojście-23" size="0"/>
+    <node name="wejście-17, próg-6" size="11">
+      <node name="wlot-1" size="1">
+        <node name="wwiew-1" size="0"/>
+      </node>
+      <node name="zejściówka-1" size="0"/>
+      <node name="właz-1" size="1">
+        <node name="studzienka-1" size="0"/>
+      </node>
+      <node name="portal-2" size="0"/>
+      <node name="drzwi-2" size="1">
+        <node name="carskie wrota-1" size="0"/>
+      </node>
+      <node name="furta-1" size="0"/>
+      <node name="bramka-2" size="0"/>
+      <node name="wjazd-2" size="0"/>
+    </node>
+    <node name="wjazd-1" size="9">
+      <node name="wjazd-3" size="0"/>
+      <node name="brama-1" size="7">
+        <node name="brama triumfalna-1" size="0"/>
+        <node name="propyleje-1, propileje-1" size="0"/>
+        <node name="gopura-1" size="0"/>
+        <node name="wrota-1, wierzeje-1, odrzwia-2" size="2">
+          <node name="porta-1, furta-2" size="0"/>
+          <node name="kołowrót-5" size="0"/>
+        </node>
+        <node name="bramka-3, furtka-1" size="0"/>
+      </node>
+    </node>
+  </node>
+  <node name="ubocze-1" size="2">
+    <node name="prowincja-2, zaścianek-1" size="0"/>
+    <node name="zakątek-1, kąt-4" size="0"/>
+  </node>
+  <node name="baza-1" size="43">
+    <node name="baza lotnicza-1" size="0"/>
+    <node name="baza transportowa-1" size="0"/>
+    <node name="kosmodrom-1, port kosmiczny-1" size="0"/>
+    <node name="zajezdnia-1" size="4">
+      <node name="wagonownia-1" size="0"/>
+      <node name="parowozownia-1" size="0"/>
+      <node name="elektrowozownia-1" size="0"/>
+      <node name="remiza-1, remiza strażacka-1" size="0"/>
+    </node>
+    <node name="baza noclegowa-1" size="20">
+      <node name="kemping-1, camping-1" size="1">
+        <node name="autocamping-1, autokemping-1" size="0"/>
+      </node>
+      <node name="nocleg-2" size="17">
+        <node name="kwatera prywatna-1" size="0"/>
+        <node name="noclegowisko-1" size="0"/>
+        <node name="hostel-1" size="0"/>
+        <node name="pensjonat-1" size="0"/>
+        <node name="noclegownia-1" size="0"/>
+        <node name="schronisko-1" size="3"/>
+        <node name="hotel-1" size="7">
+          <node name="condo hotel-1" size="0"/>
+          <node name="dom poselski-1" size="0"/>
+          <node name="hotel pracowniczy-1" size="0"/>
+          <node name="zajazd-1, gospoda-2" size="1">
+            <node name="karawanseraj-1, chan-2, chana-1" size="0"/>
+          </node>
+          <node name="hotel robotniczy-1" size="0"/>
+          <node name="motel-1" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="port-1" size="6">
+      <node name="gazoport-1" size="0"/>
+      <node name="przystań-1" size="2">
+        <node name="przystań morska-1" size="0"/>
+        <node name="marina-2" size="0"/>
+      </node>
+      <node name="port morski-1" size="1">
+        <node name="port macierzysty-1" size="0"/>
+      </node>
+    </node>
+    <node name="lotnisko-1" size="6">
+      <node name="szybowisko-1" size="0"/>
+      <node name="lotnisko miejskie-1" size="0"/>
+      <node name="port śmigłowcowy-1, heliport-1" size="0"/>
+      <node name="port lotniczy-1" size="0"/>
+      <node name="lądowisko-1" size="0"/>
+      <node name="lotnisko wojskowe-1" size="0"/>
+    </node>
+  </node>
+  <node name="ośrodek-2, centrum-3, ognisko-3" size="329">
+    <node name="gniazdo-2, matecznik-1" size="0"/>
+    <node name="ognisko magmowe-1" size="1">
+      <node name="ognisko wulkaniczne-1" size="0"/>
+    </node>
+    <node name="ośrodek akademicki-1" size="0"/>
+    <node name="stolica-2" size="1">
+      <node name="stolica regionu-1" size="0"/>
+    </node>
+    <node name="ośrodek władzy-1" size="0"/>
+    <node name="siedlisko-2" size="8">
+      <node name="ostoja-2" size="6">
+        <node name="bastion-2, opoka-5" size="0"/>
+        <node name="opoka-4" size="3">
+          <node name="pocieszyciel-1" size="2">
+            <node name="pokrzepiciel-2" size="0"/>
+            <node name="koiciel-1" size="0"/>
+          </node>
+        </node>
+        <node name="przedmurze-1" size="0"/>
+      </node>
+      <node name="przybytek-1, świątynia-2" size="0"/>
+    </node>
+    <node name="czakra-1, czakram-1, ćakra-1, ćakram-1" size="1">
+      <node name="trzecie oko-1" size="0"/>
+    </node>
+    <node name="źródło-2" size="306">
+      <node name="kopalnia-2" size="0"/>
+      <node name="źródło niekonwencjonalne-1" size="0"/>
+      <node name="źródło odnawialne-1" size="0"/>
+      <node name="wytwórnia-2" size="0"/>
+      <node name="źródło informacji-1" size="59">
+        <node name="źródło archeologiczne-1" size="1">
+          <node name="zolnik-2" size="0"/>
+        </node>
+        <node name="informator-2" size="36">
+          <node name="oświeciciel-1" size="0"/>
+          <node name="obwieściciel-1" size="3">
+            <node name="rozgłosiciel-1" size="0"/>
+            <node name="objawiciel-1, rewelator-1" size="0"/>
+            <node name="zwiastun-1" size="0"/>
+          </node>
+          <node name="przekaziciel-2" size="5">
+            <node name="sprawozdawca-2" size="0"/>
+            <node name="posłaniec-1, umyślny-1" size="3">
+              <node name="goniec-1" size="2">
+                <node name="pogoniec-2" size="0"/>
+                <node name="chłopiec na posyłki-1, chłopak na posyłki-1" size="0"/>
+              </node>
+            </node>
+          </node>
+          <node name="osobowe źródło informacji-1, OZI-1" size="1">
+            <node name="TW-3, tajny współpracownik-1" size="0"/>
+          </node>
+          <node name="agent-3, szpieg-1, wywiadowca-2, agent wywiadu-1" size="9">
+            <node name="kontrwywiadowca-1" size="0"/>
+            <node name="agent obcego wywiadu-1" size="0"/>
+            <node name="podwójny agent-1" size="0"/>
+            <node name="szpieg gospodarczy-1, szpieg przemysłowy-1" size="0"/>
+            <node name="superagent-1, superszpieg-1" size="1">
+              <node name="as wywiadu-1" size="0"/>
+            </node>
+            <node name="konfident-1" size="0"/>
+            <node name="rezydent wywiadu-1, rezydent-6" size="1">
+              <node name="agent wpływu-1" size="0"/>
+            </node>
+          </node>
+          <node name="donosiciel-1" size="12">
+            <node name="życzliwy-1" size="0"/>
+            <node name="delator-2" size="0"/>
+            <node name="sykofant-2" size="0"/>
+            <node name="sykofant-1" size="0"/>
+            <node name="szpieg-2, inwigilator-1" size="3">
+              <node name="szpiegus-1" size="0"/>
+              <node name="anioł stróż-2, ogon-2" size="0"/>
+              <node name="wtyka-1, wtyczka-2" size="0"/>
+            </node>
+            <node name="skarżypyta-1" size="0"/>
+            <node name="denuncjator-1, denuncjant-1" size="1">
+              <node name="delator-1" size="0"/>
+            </node>
+            <node name="konfident-1" size="0"/>
+          </node>
+          <node name="demaskator-1, demistyfikator-1" size="0"/>
+        </node>
+        <node name="media-2, czwarta władza-1, mass media-1, publikatory-1, środki masowego przekazu-1, mass-media-1" size="19">
+          <node name="medium społecznościowe-1" size="0"/>
+          <node name="radio-1, rozgłośnia-1, radiostacja-2, rozgłośnia radiowa-1, fale eteru-1" size="2">
+            <node name="radio internetowe-1" size="0"/>
+            <node name="radiowęzeł-1" size="0"/>
+          </node>
+          <node name="telewizja-1, TV-4, tv-2, mały ekran-2, srebrny ekran-1, szklany ekran-2, jedenasta muza-1" size="5">
+            <node name="telewizja repertuarowa-1" size="0"/>
+            <node name="sieć kablowa-1" size="0"/>
+            <node name="satelita-6, satka-1" size="0"/>
+            <node name="telewizja internetowa-2" size="0"/>
+            <node name="telewizja kablowa-2" size="0"/>
+          </node>
+          <node name="prasa-2" size="7">
+            <node name="propagandówka-1" size="0"/>
+            <node name="prasa bulwarowa-1" size="0"/>
+            <node name="prasa brukowa-1" size="0"/>
+            <node name="prasa kolorowa-1" size="0"/>
+            <node name="gadzinówka-1, prasa gadzinowa-1, gazeta gadzinowa-1, pismo gadzinowe-1" size="0"/>
+            <node name="bibuła-2" size="1">
+              <node name="samizdat-1" size="0"/>
+            </node>
+          </node>
+          <node name="internet-1, sieć-3, net-1, WWW-1" size="0"/>
+        </node>
+      </node>
+      <node name="róg obfitości-1, róg Amaltei-1" size="0"/>
+      <node name="krynica-2" size="0"/>
+      <node name="zarzewie-2" size="0"/>
+      <node name="ognisko-6" size="2">
+        <node name="przerzut-1" size="1">
+          <node name="metastaza-1, przerzut nowotworowy-1" size="0"/>
+        </node>
+      </node>
+      <node name="źródło dochodu-1" size="1">
+        <node name="bonanza-3, kura znosząca złote jaja-1, kura znosząca złote jajka-1, żyła złota-1, złote jabłko-1, złoty interes-1, kopalnia złota-1, dojna krowa-2, kokosowy interes-1" size="0"/>
+      </node>
+      <node name="żywicielka-2" size="0"/>
+      <node name="źródło pola-1" size="4">
+        <node name="biegun-1" size="3">
+          <node name="biegun geomagnetyczny-1" size="0"/>
+          <node name="biegun magnetyczny-1" size="0"/>
+          <node name="biegun elektryczny-1" size="0"/>
+        </node>
+      </node>
+      <node name="kolebka-1, ojczyzna-2, prakolebka-1" size="2">
+        <node name="wylęgarnia-2" size="0"/>
+        <node name="rozsadnik-2" size="0"/>
+      </node>
+      <node name="źródło energii-1" size="224" abstract="true">
+        <node name="geotermia-1" size="0"/>
+        <node name="promiennik-2" size="0"/>
+        <node name="biały węgiel-1" size="0"/>
+        <node name="źródło ciepła-1" size="42" abstract="true">
+          <node name="kuchnia-2" size="19">
+            <node name="piec kuchenny-1" size="3">
+              <node name="westfalka-1" size="0"/>
+              <node name="kuchnia na drewno-1, kuchnia opalana drewnem-1" size="0"/>
+              <node name="kuchnia węglowa-1" size="0"/>
+            </node>
+            <node name="kuchnia polowa-1, kuchnia wojskowa-1, garkuchnia-4" size="0"/>
+            <node name="kuchenka-1" size="13">
+              <node name="kuchnia angielska-1, kuchenka angielska-1" size="0"/>
+              <node name="termon-1" size="0"/>
+              <node name="kuchenka turystyczna-1" size="4">
+                <node name="kuchenka alkoholowa-1" size="1">
+                  <node name="maszynka spirytusowa-1" size="0"/>
+                </node>
+                <node name="kocher-1" size="0"/>
+                <node name="prymus-2" size="0"/>
+              </node>
+              <node name="kuchnia gazowa-1, gazówka-3" size="1">
+                <node name="maszynka gazowa-1" size="0"/>
+              </node>
+              <node name="kuchenka elektryczna-1" size="2">
+                <node name="przenośna kuchenka elektryczna-1" size="0"/>
+                <node name="maszynka elektryczna-2" size="0"/>
+              </node>
+              <node name="mikrofalówka-1, mikrowela-1, mikrofala-2, kuchenka mikrofalowa-1" size="0"/>
+            </node>
+          </node>
+          <node name="ognisko-1, ogień-9" size="2"/>
+          <node name="ogień-8, płomienie-1" size="0"/>
+          <node name="podgrzewacz-2" size="7">
+            <node name="szkandela-1" size="0"/>
+            <node name="bemar-1" size="0"/>
+            <node name="terma-1" size="0"/>
+            <node name="termofor-1" size="0"/>
+            <node name="grzałka-1" size="1">
+              <node name="świeca żarowa-1" size="0"/>
+            </node>
+            <node name="bojler-1" size="0"/>
+          </node>
+          <node name="palenisko-1" size="3">
+            <node name="piecowisko-1" size="0"/>
+            <node name="grill-3, barbecue-1" size="0"/>
+            <node name="kominek-2" size="0"/>
+          </node>
+          <node name="palnik-1" size="5">
+            <node name="palnik acetylenowo-tlenowy-1" size="0"/>
+            <node name="palnik Arganda-1" size="0"/>
+            <node name="lampa lutownicza-1" size="0"/>
+            <node name="palnik Langmuira-1" size="0"/>
+            <node name="palnik gazowy-1" size="0"/>
+          </node>
+        </node>
+        <node name="ogniwo elektryczne-1, ogniwo-1" size="18">
+          <node name="ogniwo paliwowe-1" size="1">
+            <node name="ogniwo wodorowe-1" size="0"/>
+          </node>
+          <node name="suche ogniwo Leclanchégo-1" size="0"/>
+          <node name="ogniwo galwaniczne-1" size="12">
+            <node name="ogniwo Bunsena-1" size="0"/>
+            <node name="ogniwo wzorcowe-1" size="0"/>
+            <node name="ogniwo korozyjne-1" size="0"/>
+            <node name="ogniwo mokre chemicznie-1" size="2">
+              <node name="ogniwo rtęciowo-cynkowe-1" size="1">
+                <node name="ogniwo Clarka-1" size="0"/>
+              </node>
+            </node>
+            <node name="ogniwo Leclanchégo-1" size="0"/>
+            <node name="ogniwo Westona-1" size="0"/>
+            <node name="ogniwo srebrowo-cynkowe-1, ogniwo srebrowe-1, ogniwo AgZn-1" size="0"/>
+            <node name="ogniwo Volty-1" size="2">
+              <node name="akumulator kwasowo-ołowiowy-1" size="1">
+                <node name="akumulator samochodowy-1" size="0"/>
+              </node>
+            </node>
+          </node>
+          <node name="fotoogniwo-1, ogniwo słoneczne-1, ogniwo fotowoltaiczne-1, ogniwo fotoelektryczne-1" size="0"/>
+          <node name="termopara-1, termoogniwo-1, termoelement-1, ogniwo termoelektryczne-1" size="0"/>
+        </node>
+        <node name="światło-10" size="162">
+          <node name="sztuczne źródło światła-1" size="97">
+            <node name="świetlik-3, światło chemiczne-1" size="1">
+              <node name="świetlik wędkarski-1, świetlik-5" size="0"/>
+            </node>
+            <node name="światło pozycyjne-1" size="0"/>
+            <node name="lampki świąteczne-1" size="1">
+              <node name="lampki choinkowe-1" size="0"/>
+            </node>
+            <node name="żarówka-1" size="1">
+              <node name="lampa Nernsta-1" size="0"/>
+            </node>
+            <node name="lampa-1" size="89">
+              <node name="lampa Wooda-1" size="0"/>
+              <node name="lampa olejna-1" size="0"/>
+              <node name="lampa punktowa-1, spot-4" size="3">
+                <node name="reflektor punktowy-1" size="2"/>
+              </node>
+              <node name="plafoniera-1" size="0"/>
+              <node name="kogut-4" size="0"/>
+              <node name="stroboskop-3, lampa stroboskopowa-1" size="0"/>
+              <node name="lampa uliczna-1" size="0"/>
+              <node name="światło wapienne-1, światło Drummonda-1" size="0"/>
+              <node name="lampa benzynowa-1, benzynówka-1" size="1">
+                <node name="lampa Davy'ego-2, wskaźnikowa lampa benzynowa-1" size="0"/>
+              </node>
+              <node name="lampa naftowa-1" size="0"/>
+              <node name="lampa gazowa-1" size="0"/>
+              <node name="lampa elektryczna-1" size="18">
+                <node name="skaner-4" size="0"/>
+                <node name="lampa łukowa-1" size="3">
+                  <node name="świeca Jabłoczkowa-1" size="0"/>
+                  <node name="łukowa lampa węglowa-1" size="0"/>
+                  <node name="ksenonowa lampa łukowa-1" size="0"/>
+                </node>
+                <node name="lampa wyładowcza-1" size="12">
+                  <node name="rura Crookesa-1, lampa Crookesa-1" size="0"/>
+                  <node name="gazowa lampa elektronowa-1" size="0"/>
+                  <node name="lampa kwarcowa-1, kwarcówka-1" size="0"/>
+                  <node name="lampa ksenonowa-1" size="0"/>
+                  <node name="lampa sodowa-1, sodówka-1" size="0"/>
+                  <node name="rtęciówka-1, lampa rtęciowa-1" size="1">
+                    <node name="wysokociśnieniowa lampa rtęciowa-1" size="0"/>
+                  </node>
+                  <node name="lampa metalohalogenkowa-1" size="0"/>
+                  <node name="lampa neonowa-1, neonówka-1" size="0"/>
+                  <node name="lampa fluorescencyjna-1, świetlówka-1" size="0"/>
+                  <node name="neon-2" size="0"/>
+                  <node name="jarzeniówka-1" size="0"/>
+                </node>
+              </node>
+              <node name="lampa wisząca-1" size="0"/>
+              <node name="lampa biurkowa-1" size="1">
+                <node name="bankierka-2" size="0"/>
+              </node>
+              <node name="lampa przykręcana-1" size="0"/>
+              <node name="lampa stojąca-1" size="3">
+                <node name="lampa stołowa-1" size="1">
+                  <node name="bankierka-2" size="0"/>
+                </node>
+                <node name="lampa podłogowa-1" size="0"/>
+              </node>
+              <node name="sztormówka-2" size="0"/>
+              <node name="ampla-2" size="0"/>
+              <node name="owoskop-1" size="0"/>
+              <node name="lampa karbidowa-1, karbidówka-1, karbidka-1" size="0"/>
+              <node name="kinkiet-2" size="0"/>
+              <node name="soluks-2, sollux-2" size="0"/>
+              <node name="żyrandol-1" size="1">
+                <node name="pająk-4" size="0"/>
+              </node>
+              <node name="lampka-2" size="5">
+                <node name="lampka maślana-1" size="0"/>
+                <node name="lampka wieczysta-1" size="0"/>
+                <node name="lampka nocna-1" size="1">
+                  <node name="lampka nocna dla dzieci-1, lampka dla dzieci-1" size="0"/>
+                </node>
+                <node name="kaganek-1, lampka oliwna-1" size="0"/>
+              </node>
+              <node name="latarnia-1" size="6"/>
+              <node name="latarka-1" size="3">
+                <node name="latarka czołowa-1" size="0"/>
+                <node name="latarka paluszkowa-1" size="0"/>
+                <node name="latareczka-1" size="0"/>
+              </node>
+              <node name="reflektor-1, światło-12" size="24">
+                <node name="światło dzienne-2" size="0"/>
+                <node name="lampa przeciwmgielna-1" size="2">
+                  <node name="lampa przeciwmgielna tylna-1, reflektor przeciwmgielny tylny-1, światło przeciwmgielne tylne-1" size="0"/>
+                  <node name="lampa przeciwmgielna przednia-1, reflektor przeciwmgielny przedni-1, światło przeciwmgielne przednie-1" size="0"/>
+                </node>
+                <node name="reflektor tylny-1, lampa tylna-1, światło tylne-1" size="0"/>
+                <node name="reflektor przedni-1, lampa przednia-1, światło przednie-1" size="0"/>
+                <node name="lampa sygnalizacyjna-1, reflektor sygnalizacyjny-1" size="0"/>
+                <node name="światło kotwiczne-1" size="0"/>
+                <node name="światła nawigacyjne-1" size="0"/>
+                <node name="światło awaryjne-1" size="0"/>
+                <node name="światło przeciwmgłowe-1, światło przeciwmgielne-2" size="0"/>
+                <node name="światło stopowe-1, stop-2" size="0"/>
+                <node name="światło długie-1, światło drogowe-1" size="0"/>
+                <node name="światło postojowe-1" size="0"/>
+                <node name="światło pozycyjne-2" size="0"/>
+                <node name="światło krótkie-1, światło mijania-1" size="0"/>
+                <node name="reflektor punktowy-1" size="2">
+                  <node name="lampa teatralna-1, lampa sceniczna-1" size="0"/>
+                  <node name="szperacz-1" size="0"/>
+                </node>
+                <node name="jupiter-1" size="0"/>
+                <node name="halogen-1, lampa halogenowa-1" size="0"/>
+                <node name="kierunkowskaz-1, migacz-2" size="2">
+                  <node name="kierunkowskaz lewy-1, migacz lewy-1" size="0"/>
+                  <node name="kierunkowskaz prawy-1, migacz prawy-1" size="0"/>
+                </node>
+              </node>
+              <node name="lampa błyskowa-1, flesz-1" size="0"/>
+            </node>
+          </node>
+          <node name="ogień-10" size="4">
+            <node name="sztuczne ognie-1, fajerwerki-1, raca-2, bengalskie ognie-1" size="2">
+              <node name="zimne ognie-1" size="0"/>
+              <node name="szmermel-1" size="0"/>
+            </node>
+            <node name="ogień olimpijski-1" size="0"/>
+          </node>
+          <node name="scyntylator-1" size="0"/>
+          <node name="księżyc-3" size="0"/>
+          <node name="słońce-3" size="0"/>
+          <node name="kaganiec-2" size="0"/>
+          <node name="ognisko-1, ogień-9" size="2">
+            <node name="najda-1" size="0"/>
+            <node name="sobótka-2" size="0"/>
+          </node>
+          <node name="ogień-8, płomienie-1" size="0"/>
+          <node name="głownia-1, żagiew-1" size="0"/>
+          <node name="znicz-1, lampka-1" size="0"/>
+          <node name="latarnia-1" size="6">
+            <node name="latarnia umarłych-1" size="0"/>
+            <node name="rewerber-2" size="0"/>
+            <node name="lampion-1" size="3">
+              <node name="lampion z dyni-1, dynia na Halloween-1" size="0"/>
+              <node name="fotofor-2" size="0"/>
+              <node name="chińska latarnia-1, chiński lampion-1" size="0"/>
+            </node>
+          </node>
+          <node name="pochodnia-1" size="2">
+            <node name="znicz olimpijski-1" size="0"/>
+            <node name="łuczywo-1" size="0"/>
+          </node>
+          <node name="gwiazda-1" size="38">
+            <node name="gwiazda preonowa-1" size="0"/>
+            <node name="gwiazda zdegenerowana-1" size="7">
+              <node name="gwiazda dziwna-1, gwiazda kwarkowa-1" size="1">
+                <node name="gwiazda elektrosłaba-1" size="0"/>
+              </node>
+              <node name="czarny karzeł-1" size="0"/>
+              <node name="gwiazda neutronowa-1" size="2">
+                <node name="pulsar-1" size="1">
+                  <node name="pulsar milisekundowy-1" size="0"/>
+                </node>
+              </node>
+              <node name="biały karzeł-1" size="0"/>
+            </node>
+            <node name="gwiazda symbiotyczna-1" size="0"/>
+            <node name="błękitny karzeł-2" size="0"/>
+            <node name="podkarzeł-1" size="1">
+              <node name="brązowy podkarzeł-1" size="0"/>
+            </node>
+            <node name="karzeł-4" size="5">
+              <node name="błękitny karzeł-1" size="0"/>
+              <node name="żółto-biały karzeł-1" size="0"/>
+              <node name="żółty karzeł-1" size="0"/>
+              <node name="pomarańczowy karzeł-1" size="0"/>
+              <node name="czerwony karzeł-1" size="0"/>
+            </node>
+            <node name="supernowa-1" size="4">
+              <node name="supernowa typu II-1" size="0"/>
+              <node name="supernowa typu Ic-1" size="0"/>
+              <node name="supernowa typu Ib-1" size="0"/>
+              <node name="supernowa typu Ia-1" size="0"/>
+            </node>
+            <node name="gwiazda stała-1" size="0"/>
+            <node name="olbrzym-5" size="3">
+              <node name="gwiazda Wolfa-Rayeta-1" size="0"/>
+              <node name="błękitny olbrzym-1" size="0"/>
+              <node name="czerwony olbrzym-1" size="0"/>
+            </node>
+            <node name="gwiazda zmienna-1" size="1">
+              <node name="cefeida-1, gwiazda typu δ Cephei-1, cefeida klasyczna-1" size="0"/>
+            </node>
+            <node name="gwiazda nowa-1, nowa klasyczna-1, nowa-1" size="0"/>
+            <node name="gwiazda betlejemska-1" size="0"/>
+            <node name="podolbrzym-1" size="0"/>
+            <node name="protogwiazda-1" size="0"/>
+            <node name="nadolbrzym-1" size="3">
+              <node name="błękitny nadolbrzym-1" size="0"/>
+              <node name="czerwony nadolbrzym-1" size="0"/>
+              <node name="cefeida-1, gwiazda typu δ Cephei-1, cefeida klasyczna-1" size="0"/>
+            </node>
+          </node>
+          <node name="sygnalizacja świetlna-1, światła sygnalizacyjne-1" size="0"/>
+          <node name="świeca-1, świeczka-1" size="5">
+            <node name="świeca roratnia-1, roratka-1" size="0"/>
+            <node name="akolitka-1" size="0"/>
+            <node name="paschał-1" size="0"/>
+            <node name="łojówka-1, świeca łojowa-1" size="0"/>
+            <node name="gromnica-1" size="0"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node name="centrala-2" size="2">
+      <node name="podcentrala-1" size="0"/>
+      <node name="sztab-1" size="0"/>
+    </node>
+    <node name="oś-3" size="0"/>
+  </node>
+  <node name="miejsce odosobnienia-1" size="25">
+    <node name="kratki-1, kraty-1" size="2">
+      <node name="zakład karny-1" size="1"/>
+    </node>
+    <node name="turma-3" size="0"/>
+    <node name="więzienie-2" size="4">
+      <node name="ergastulum-1" size="0"/>
+      <node name="turma-1, tiurma-1" size="0"/>
+      <node name="zakład karny-1" size="1">
+        <node name="kryminał-3" size="0"/>
+      </node>
+    </node>
+    <node name="odstaj-1" size="0"/>
+    <node name="rezerwat-2" size="0"/>
+    <node name="obóz-3" size="9">
+      <node name="stacja rozdzielcza-2" size="0"/>
+      <node name="internat-2" size="0"/>
+      <node name="obóz pracy-1" size="0"/>
+      <node name="łagier-1, gułag-1" size="0"/>
+      <node name="oflag-1" size="0"/>
+      <node name="stalag-1" size="0"/>
+      <node name="obóz koncentracyjny-1, koncentrak-1" size="2">
+        <node name="obóz zagłady-1" size="0"/>
+        <node name="lagier-1, kacet-1" size="0"/>
+      </node>
+    </node>
+    <node name="katownia-1, izba tortur-1, sala tortur-1" size="0"/>
+    <node name="zakład zamknięty-1, oddział zamknięty-1" size="0"/>
+    <node name="dom poprawczy-1, zakład poprawczy-1, poprawczak-1" size="0"/>
+    <node name="areszt-1" size="2">
+      <node name="odwach-2" size="0"/>
+      <node name="areszt śledczy-1" size="0"/>
+    </node>
+  </node>
+  <node name="ujście-4, ujście rzeki-1" size="3">
+    <node name="estuarium-1" size="0"/>
+    <node name="delta-1" size="1">
+      <node name="delta wsteczna-1" size="0"/>
+    </node>
+  </node>
+  <node name="położenie-9, lokalizacja-1, pozycja-6, usytuowanie-2, umiejscowienie-4, lokacja-5" size="28">
+    <node name="róża skoczkowa-1" size="0"/>
+    <node name="geolokalizacja-1" size="0"/>
+    <node name="przynależność-3" size="0"/>
+    <node name="konfiguracja-2" size="0"/>
+    <node name="położenie geograficzne-1" size="0"/>
+    <node name="przodozgięcie-1" size="0"/>
+    <node name="syzygia-1" size="0"/>
+    <node name="ekspozycja-8" size="0"/>
+    <node name="ekspozycja-7" size="0"/>
+    <node name="niskość-2" size="0"/>
+    <node name="naziemność-1" size="0"/>
+    <node name="pozycja-10" size="2">
+      <node name="pozycja bramkowa-1" size="0"/>
+      <node name="atak-8, ofensywa-5" size="0"/>
+    </node>
+    <node name="pozycja-5, stanowisko-4, punkt-4" size="12">
+      <node name="ława działowa-1" size="0"/>
+      <node name="posterunek-2" size="4">
+        <node name="posterunek ruchu-1" size="1">
+          <node name="posterunek pomocniczy-1" size="0"/>
+        </node>
+        <node name="grangarda-1" size="0"/>
+        <node name="posterunek odgałęźny-1" size="0"/>
+      </node>
+      <node name="przyczółek-1" size="0"/>
+      <node name="forpoczta-2" size="0"/>
+      <node name="punkt ogniowy-1, stanowisko ogniowe-1" size="3">
+        <node name="gniazdo ogniowe-1" size="0"/>
+        <node name="przeciwstraż-1, kontrgard-1, słoniczoło-1" size="0"/>
+        <node name="działobitnia-1" size="0"/>
+      </node>
+    </node>
+    <node name="aspekt-2" size="0"/>
+  </node>
+  <node name="lokal-1" size="84">
+    <node name="lokal socjalny-1" size="0"/>
+    <node name="lokal użytkowy-1" size="50">
+      <node name="sklep-1" size="49">
+        <node name="rybny-1" size="0"/>
+        <node name="sklep zoologiczny-1" size="0"/>
+        <node name="optyk-3" size="0"/>
+        <node name="płóciennica-3" size="0"/>
+        <node name="skateshop-1" size="0"/>
+        <node name="sodowiarnia-1" size="0"/>
+        <node name="delikatesy-1" size="0"/>
+        <node name="antykwariat-2" size="0"/>
+        <node name="galeria-1" size="1">
+          <node name="desa-1" size="0"/>
+        </node>
+        <node name="sex-shop-1, sex shop-1" size="0"/>
+        <node name="butik-1" size="0"/>
+        <node name="sklep za żółtymi firankami-1" size="0"/>
+        <node name="lumpeks-1, szmateks-1, ciucholand-1, lumpex-1, second-hand-1, second hand-1, secondhand-1" size="0"/>
+        <node name="dyskont-1" size="0"/>
+        <node name="sklep mięsny-1" size="2">
+          <node name="rzeźnik-4, jatka-1" size="0"/>
+          <node name="wędliniarnia-1" size="0"/>
+        </node>
+        <node name="pasmanteria-2" size="0"/>
+        <node name="zieleniak-1, warzywniak-1" size="1">
+          <node name="owocarnia-1" size="0"/>
+        </node>
+        <node name="konfekcja-3" size="0"/>
+        <node name="trafika-1" size="0"/>
+        <node name="sam-1" size="2">
+          <node name="megasam-1" size="0"/>
+          <node name="supersam-1" size="0"/>
+        </node>
+        <node name="perfumeria-1" size="0"/>
+        <node name="sklepik-1" size="0"/>
+        <node name="komis-1" size="1">
+          <node name="autokomis-1" size="0"/>
+        </node>
+        <node name="cukiernia-2, ciastkarnia-1" size="0"/>
+        <node name="monopol-2, sklep monopolowy-1" size="0"/>
+        <node name="piekarnia-2" size="0"/>
+        <node name="market-1" size="3">
+          <node name="megamarket-1" size="0"/>
+          <node name="supermarket-1" size="1">
+            <node name="hipermarket-1" size="0"/>
+          </node>
+        </node>
+        <node name="kiosk-1" size="0"/>
+        <node name="księgarnia-1" size="2">
+          <node name="księgarnia internetowa-1" size="0"/>
+          <node name="antykwariat-1" size="0"/>
+        </node>
+        <node name="sklep ogólnospożywczy-1" size="1">
+          <node name="garmażeria-1, garmażernia-1" size="0"/>
+        </node>
+        <node name="papierniczy-1" size="0"/>
+        <node name="kwiaciarnia-1" size="0"/>
+        <node name="drogeria-1" size="0"/>
+        <node name="salon-2" size="1">
+          <node name="autosalon-1" size="0"/>
+        </node>
+        <node name="apteka-1" size="0"/>
+      </node>
+    </node>
+    <node name="schronisko-1" size="3">
+      <node name="schronisko młodzieżowe-1" size="0"/>
+      <node name="stanica-1" size="0"/>
+      <node name="bacówka-1" size="0"/>
+    </node>
+    <node name="mieszkanie-4" size="27">
+      <node name="mieszkanie lokatorskie-1" size="0"/>
+      <node name="mieszkanie komunalne-1" size="0"/>
+      <node name="ekonomówka-1" size="0"/>
+      <node name="loft-1" size="0"/>
+      <node name="melina-3, meta-2" size="0"/>
+      <node name="stancja-1" size="0"/>
+      <node name="ciepłe gniazdko-1" size="0"/>
+      <node name="mieszkanie służbowe-1" size="11">
+        <node name="rządcówka-1" size="0"/>
+        <node name="leśniczówka-1" size="1">
+          <node name="nadleśniczówka-1" size="0"/>
+        </node>
+        <node name="gajówka-1" size="0"/>
+        <node name="dozorcówka-1" size="0"/>
+        <node name="agronomówka-1" size="0"/>
+        <node name="pastorówka-1" size="0"/>
+        <node name="organistówka-1" size="0"/>
+        <node name="kanonia-2" size="0"/>
+        <node name="wikariat-1, wikarówka-1" size="0"/>
+        <node name="plebania-1, probostwo-1, proboszczówka-1" size="0"/>
+      </node>
+      <node name="mieszkanie kwaterunkowe-1, kwaterunek-4" size="0"/>
+      <node name="pustostan-1" size="0"/>
+      <node name="sublokatorka-1" size="0"/>
+      <node name="nora-1" size="0"/>
+      <node name="kawalerka-1" size="0"/>
+      <node name="penthouse-1" size="0"/>
+      <node name="apartament-1" size="1">
+        <node name="stanza-2" size="0"/>
+      </node>
+    </node>
+  </node>
+  <node name="punkt-1" size="89">
+    <node name="pikieta-6" size="0"/>
+    <node name="trójstyk-1" size="0"/>
+    <node name="czwórstyk-1" size="0"/>
+    <node name="ziemia odniesienia-1" size="0"/>
+    <node name="punkt podsłoneczny-1" size="0"/>
+    <node name="punkt równonocny-1" size="0"/>
+    <node name="refleks-4" size="0"/>
+    <node name="punkt Lanza-1" size="0"/>
+    <node name="punkt zlewny-1" size="0"/>
+    <node name="punkt witalny-1" size="0"/>
+    <node name="punkt tonizujący-1" size="0"/>
+    <node name="punkt opatrunkowy-1" size="0"/>
+    <node name="punkt okostnowy-1" size="0"/>
+    <node name="punkt spustowy-1" size="0"/>
+    <node name="punkt motoryczny-1" size="0"/>
+    <node name="punkt sędziowski-1" size="0"/>
+    <node name="punkt potrójny-1" size="0"/>
+    <node name="punkt limfatyczny-1" size="0"/>
+    <node name="punkt filtracyjny-1" size="0"/>
+    <node name="kilometr zerowy-1" size="0"/>
+    <node name="węzeł potrójny-1" size="0"/>
+    <node name="biegun galaktyczny-1" size="0"/>
+    <node name="biegun niebieski-1" size="0"/>
+    <node name="punkt triangulacyjny-1" size="0"/>
+    <node name="punkt geodezyjny-3" size="0"/>
+    <node name="poziom morza-1" size="0"/>
+    <node name="biegun ciepła-1" size="0"/>
+    <node name="ślepe źródło-1" size="0"/>
+    <node name="punkt konstrukcyjny-1" size="0"/>
+    <node name="punkt graniczny-1" size="0"/>
+    <node name="punkt świetlny-1" size="0"/>
+    <node name="punkt pomiarowy-1" size="1">
+      <node name="punkt Laplace'a-1" size="0"/>
+    </node>
+    <node name="punkt asekuracyjny-1" size="4">
+      <node name="śruba lodowa-1" size="0"/>
+      <node name="ring-2" size="0"/>
+      <node name="spit-1, nit-4" size="0"/>
+      <node name="hak-5" size="0"/>
+    </node>
+    <node name="węzeł-13, węzeł fali-1" size="0"/>
+    <node name="barycentrum-1, środek ciężkości-1" size="0"/>
+    <node name="zero-3" size="0"/>
+    <node name="ognisko-5, fokus-1" size="0"/>
+    <node name="węzeł-7" size="1">
+      <node name="węzeł wstępujący-1" size="0"/>
+    </node>
+    <node name="węzeł-1" size="0"/>
+    <node name="apeks-1" size="0"/>
+    <node name="bulik-1" size="0"/>
+    <node name="apocentrum-1" size="2">
+      <node name="apogeum-2" size="0"/>
+      <node name="aphelium-1, afelium-1" size="0"/>
+    </node>
+    <node name="perycentrum-1" size="3">
+      <node name="peryastron-1, periastron-1" size="0"/>
+      <node name="punkt przysłoneczny-1, peryhelium-1, perihelium-1" size="0"/>
+      <node name="punkt przyziemny-1, perygeum-1, perigeum-1" size="0"/>
+    </node>
+    <node name="czarny punkt-1" size="0"/>
+    <node name="biegun zimna-1, biegun chłodu-1" size="0"/>
+    <node name="radiant-1" size="0"/>
+    <node name="antycentrum-1" size="0"/>
+    <node name="punkt odniesienia-1" size="1">
+      <node name="mira-1" size="0"/>
+    </node>
+    <node name="martwy punkt-1" size="0"/>
+    <node name="punkt wysokościowy-1" size="1">
+      <node name="reper-1" size="0"/>
+    </node>
+    <node name="środek-5, centrum-2, serce-4" size="13">
+      <node name="barycentrum-2, środek masy-1" size="0"/>
+      <node name="śródgłos-1" size="0"/>
+      <node name="półmetek-3" size="0"/>
+      <node name="hipocentrum-1" size="0"/>
+      <node name="śródlądzie-1" size="0"/>
+      <node name="ośrodek-4" size="6">
+        <node name="węzeł-11" size="3">
+          <node name="węzeł transportowy-1" size="0"/>
+          <node name="węzeł drogowy-1" size="0"/>
+          <node name="węzeł komunikacyjny-1" size="0"/>
+        </node>
+        <node name="oko cyklonu-1" size="0"/>
+        <node name="epicentrum-1" size="0"/>
+      </node>
+      <node name="jądro-5" size="0"/>
+    </node>
+    <node name="cel-5" size="3">
+      <node name="rzutek-1" size="0"/>
+      <node name="tarcza-5" size="1">
+        <node name="sylwetka-2" size="0"/>
+      </node>
+    </node>
+    <node name="stanowisko-6" size="7">
+      <node name="radiolokacyjna stacja wstępnego poszukiwania-1" size="0"/>
+      <node name="ładownia-2, ładowisko-2" size="0"/>
+      <node name="stacja rozrządowa-1" size="0"/>
+      <node name="przystanek-1" size="2">
+        <node name="przystanek na żądanie-1" size="0"/>
+        <node name="przystanek autobusowy-1" size="0"/>
+      </node>
+      <node name="peron-1" size="0"/>
+    </node>
+  </node>
+  <node name="pomieszczenie-3" size="466">
+    <node name="cytadela-3" size="0"/>
+    <node name="kabina-7" size="0"/>
+    <node name="łaźnia łańcuszkowa-1" size="0"/>
+    <node name="komora rozprężania-1" size="0"/>
+    <node name="komora minowa-1" size="0"/>
+    <node name="pomieszczenie przynależne-1" size="0"/>
+    <node name="aneks-3" size="0"/>
+    <node name="nowicjat-2" size="0"/>
+    <node name="garderoba-4" size="0"/>
+    <node name="świetlica-4" size="0"/>
+    <node name="izba-5" size="0"/>
+    <node name="piekarnia-3" size="0"/>
+    <node name="tepidarium-1" size="0"/>
+    <node name="wieczernik-1" size="1">
+      <node name="Wieczernik-3" size="0"/>
+    </node>
+    <node name="frigidarium-1" size="0"/>
+    <node name="octownia-1" size="0"/>
+    <node name="cella-1" size="0"/>
+    <node name="dyskretka-4" size="0"/>
+    <node name="ubłagalnia-1" size="0"/>
+    <node name="luk-1" size="0"/>
+    <node name="palarnia-1, fajczarnia-2" size="0"/>
+    <node name="opistodomos-1" size="0"/>
+    <node name="andron-1" size="0"/>
+    <node name="gyneceum-1, gineceum-1" size="0"/>
+    <node name="koza-13" size="0"/>
+    <node name="przegroda-2" size="0"/>
+    <node name="natryskownia-1" size="0"/>
+    <node name="procentownia-1" size="0"/>
+    <node name="wydawalnia-1" size="0"/>
+    <node name="odbieralnia-1" size="0"/>
+    <node name="pędzarnia-1, bimbrownia-1" size="0"/>
+    <node name="boks-4" size="1">
+      <node name="boks-2" size="0"/>
+    </node>
+    <node name="cela-2" size="0"/>
+    <node name="stajnia Augiasza-2" size="0"/>
+    <node name="naos-1" size="0"/>
+    <node name="leżakownia-1" size="0"/>
+    <node name="kiszka-3" size="0"/>
+    <node name="pakowalnia-1, pakownia-1" size="0"/>
+    <node name="skrajnik-1" size="0"/>
+    <node name="triclinium-1, triklinium-1, tryklinium-1" size="0"/>
+    <node name="postrzygalnia-1" size="0"/>
+    <node name="inhalatorium-1" size="0"/>
+    <node name="pomieszczenie gospodarcze-1" size="26" abstract="true">
+      <node name="kredens-3" size="0"/>
+      <node name="drożdżarnia-1, drożdżownia-2" size="0"/>
+      <node name="brudownik-1" size="0"/>
+      <node name="węglarnia-1" size="0"/>
+      <node name="kwaszarnia-1" size="0"/>
+      <node name="śrutownia-1" size="0"/>
+      <node name="przewiewnia-1" size="0"/>
+      <node name="solarnia-1" size="0"/>
+      <node name="ucieralnia-1" size="0"/>
+      <node name="obieralnia-1" size="0"/>
+      <node name="prasowalnia-1" size="0"/>
+      <node name="pralnia-1" size="0"/>
+      <node name="schowek-1, magazynek-2, kantorek-1, komórka-2, skrytka-1" size="5">
+        <node name="almaria-1, armaria-1" size="0"/>
+        <node name="podpiecek-1" size="0"/>
+        <node name="składzik-1" size="0"/>
+        <node name="pawlacz-1, antresola-2" size="0"/>
+        <node name="sejf-2" size="0"/>
+      </node>
+      <node name="kuchnia-1" size="3">
+        <node name="widna kuchnia-1" size="0"/>
+        <node name="ciemna kuchnia-1" size="0"/>
+        <node name="kambuz-1" size="0"/>
+      </node>
+      <node name="spiżarnia-1" size="2">
+        <node name="sernik-3" size="0"/>
+        <node name="pentra-1" size="0"/>
+      </node>
+      <node name="garaż-1" size="0"/>
+    </node>
+    <node name="pomieszczenie mieszkalne-1" size="48" abstract="true">
+      <node name="nadzorcówka-1" size="0"/>
+      <node name="wnętrze-2" size="0"/>
+      <node name="kubryk-1" size="0"/>
+      <node name="garderoba-1, ubieralnia-1, przygotowalnia-1, gotowalnia-1" size="0"/>
+      <node name="przedpokój-1" size="4">
+        <node name="przysionek-1" size="0"/>
+        <node name="sień-1, wiatrołap-1, łapacz-3" size="0"/>
+        <node name="hol-1, hall-1" size="1"/>
+      </node>
+      <node name="pokój-1" size="37">
+        <node name="cztery ściany-1" size="0"/>
+        <node name="pokój kąpielowy-1" size="0"/>
+        <node name="pokój gościnny-1" size="0"/>
+        <node name="tablinum-1" size="0"/>
+        <node name="stołownia-1" size="0"/>
+        <node name="trójka-8" size="0"/>
+        <node name="piątka-10" size="0"/>
+        <node name="dwójka-9" size="0"/>
+        <node name="pokój dziecinny-1" size="0"/>
+        <node name="biblioteka-4" size="0"/>
+        <node name="numer-8" size="0"/>
+        <node name="gabinet-2" size="0"/>
+        <node name="jedynka-3, pojedynka-2" size="0"/>
+        <node name="służbówka-1" size="0"/>
+        <node name="czwórka-10" size="0"/>
+        <node name="buduar-1" size="0"/>
+        <node name="komnata-1" size="0"/>
+        <node name="izdebka-1" size="0"/>
+        <node name="jadalnia-1, stołowy-1" size="4">
+          <node name="trapeza-2" size="0"/>
+          <node name="messa-1, mesa-1" size="0"/>
+          <node name="stołówka-1" size="0"/>
+          <node name="refektarz-1" size="0"/>
+        </node>
+        <node name="bawialnia-1" size="0"/>
+        <node name="sypialnia-1, alkowa-1" size="2">
+          <node name="cubiculum-2" size="0"/>
+          <node name="dormitorium-1, dormitarz-1" size="0"/>
+        </node>
+        <node name="duży pokój-1, pokój dzienny-1, living room-1, salon-1, living-room-1" size="1">
+          <node name="salonik-1" size="0"/>
+        </node>
+        <node name="izba-1" size="7">
+          <node name="izba czeladna-1" size="0"/>
+          <node name="babiniec-5" size="0"/>
+          <node name="sztuba-2" size="0"/>
+          <node name="komora-9" size="0"/>
+          <node name="bokówka-1" size="0"/>
+          <node name="wyżka-1" size="0"/>
+          <node name="alkierz-1" size="0"/>
+        </node>
+      </node>
+      <node name="łazienka-1, umywalnia-1" size="0"/>
+    </node>
+    <node name="wykończalnia-1, wykańczalnia-1" size="0"/>
+    <node name="kawiarenka internetowa-1, kafejka internetowa-1" size="0"/>
+    <node name="zamrażalnia-1" size="0"/>
+    <node name="komora-1" size="7">
+      <node name="komora ratownicza Davisa-1" size="0"/>
+      <node name="pułapka magnetyczna-1" size="0"/>
+      <node name="komora niskich ciśnień-1" size="0"/>
+      <node name="komora imersyjna-1" size="0"/>
+      <node name="komora gorąca-1" size="0"/>
+      <node name="komora gazowa-1" size="0"/>
+      <node name="fitotron-1" size="0"/>
+    </node>
+    <node name="hypogeum-1" size="0"/>
+    <node name="babiniec-1" size="0"/>
+    <node name="przymierzalnia-1" size="0"/>
+    <node name="forpik-1, skrajnik dziobowy-1" size="0"/>
+    <node name="nadbudówka-2" size="7">
+      <node name="kiosk-3" size="0"/>
+      <node name="dziobówka-1" size="0"/>
+      <node name="kapitanka-1" size="0"/>
+      <node name="pokładówka-1" size="0"/>
+      <node name="kasztel-1" size="0"/>
+      <node name="rufówka-1" size="0"/>
+      <node name="forkasztel-1" size="0"/>
+    </node>
+    <node name="pieczarkarnia-1" size="0"/>
+    <node name="zmywalnia-1" size="0"/>
+    <node name="kazamata-1" size="0"/>
+    <node name="antresola-1" size="0"/>
+    <node name="wędzarnia-1" size="0"/>
+    <node name="rozbieralnia-2" size="0"/>
+    <node name="sortownia-1, rozdzielnia-1" size="1">
+      <node name="brakownia-1, brakarnia-1" size="0"/>
+    </node>
+    <node name="lodownia-1, lodówka-3" size="0"/>
+    <node name="kompostownia-1" size="0"/>
+    <node name="samborze-1" size="0"/>
+    <node name="przebieralnia-1, rozbieralnia-1" size="0"/>
+    <node name="portiernia-1, portierka-1" size="0"/>
+    <node name="miejsce zebrań-1" size="4">
+      <node name="loża-5" size="0"/>
+      <node name="kuria-2" size="0"/>
+      <node name="kapitularz-1" size="0"/>
+      <node name="loża-3" size="0"/>
+    </node>
+    <node name="prosektorium-1" size="0"/>
+    <node name="pomieszczenie techniczne-1" size="73" abstract="true">
+      <node name="stacja elektroenergetyczna-1" size="0"/>
+      <node name="stacja zakładowa-1" size="0"/>
+      <node name="wymiennikownia-1" size="0"/>
+      <node name="krajalnia-1" size="0"/>
+      <node name="odpylnia-1" size="0"/>
+      <node name="kafarownia-1" size="0"/>
+      <node name="chlorownia-1" size="0"/>
+      <node name="traniarnia-1, tranownia-1" size="0"/>
+      <node name="garownia-1, gara-1" size="0"/>
+      <node name="pomiarownia-1" size="0"/>
+      <node name="trawiarnia-1" size="0"/>
+      <node name="operatornia-1" size="0"/>
+      <node name="konserwatornia-1" size="0"/>
+      <node name="blokownia-1" size="0"/>
+      <node name="akumulatornia-1" size="0"/>
+      <node name="znaczkownia-1, markownia-1, markiernia-1" size="0"/>
+      <node name="wózkownia-1, wózkarnia-1" size="0"/>
+      <node name="strugarnia-2" size="0"/>
+      <node name="kopiarnia-1" size="0"/>
+      <node name="agregatownia-1" size="0"/>
+      <node name="ampułkarnia-1, ampułczarnia-1" size="0"/>
+      <node name="kompletownia-1" size="0"/>
+      <node name="wytrawialnia-1" size="0"/>
+      <node name="opalarnia-1" size="0"/>
+      <node name="wychładzalnia-1" size="0"/>
+      <node name="przełączalnia-1" size="0"/>
+      <node name="parzelnia-1" size="0"/>
+      <node name="nagrywalnia-1" size="0"/>
+      <node name="czyszczalnia-2, czyszczarnia-2" size="0"/>
+      <node name="powielarnia-1" size="0"/>
+      <node name="newsroom-1, pokój wiadomości-1" size="0"/>
+      <node name="serwerownia-1" size="0"/>
+      <node name="zasobnia-1" size="0"/>
+      <node name="dojrzewalnia-1" size="1">
+        <node name="bananownia-1" size="0"/>
+      </node>
+      <node name="gręplarnia-1, zgrzeblarnia-1" size="0"/>
+      <node name="emaliernia-1" size="0"/>
+      <node name="fitotron-1" size="0"/>
+      <node name="kompresorownia-1" size="0"/>
+      <node name="lampiarnia-1, lampownia-1" size="0"/>
+      <node name="transformatornia-2" size="0"/>
+      <node name="aparatownia-1" size="7">
+        <node name="aparatownia telefonii wielokrotnej-1" size="0"/>
+        <node name="aparatownia wzmacniakowa-1" size="0"/>
+        <node name="aparatownia telekopiowa-1" size="0"/>
+        <node name="aparatownia ruchomego węzła łączności-1" size="0"/>
+        <node name="aparatownia radioodbiorcza-1" size="0"/>
+        <node name="aparatownia łączności dalekosiężnej-1" size="0"/>
+        <node name="aparatownia zdalnego sterowania-1" size="0"/>
+      </node>
+      <node name="narzędziownia-1" size="0"/>
+      <node name="slabing-2" size="0"/>
+      <node name="hydrofornia-1" size="0"/>
+      <node name="słodownia-1, mielcuch-1" size="0"/>
+      <node name="szlifiernia-1" size="0"/>
+      <node name="cechownia-1" size="0"/>
+      <node name="montażownia-1" size="0"/>
+      <node name="suszarnia-1" size="1">
+        <node name="suszarnia tunelowa-1" size="0"/>
+      </node>
+      <node name="pompownia-1, stacja pomp-1" size="0"/>
+      <node name="nastawnia-1" size="0"/>
+      <node name="mieszalnia-1" size="0"/>
+      <node name="lakiernia-1, lakierownia-1" size="0"/>
+      <node name="lokomotywownia-1" size="0"/>
+      <node name="wagonownia-1" size="0"/>
+      <node name="montownia-1, montażownia-2" size="2">
+        <node name="silnikownia-1" size="0"/>
+        <node name="blokownia-2" size="0"/>
+      </node>
+      <node name="maszynownia-1" size="0"/>
+      <node name="ciemnia-1" size="0"/>
+      <node name="remiza-1, remiza strażacka-1" size="0"/>
+      <node name="kotłownia-1" size="0"/>
+      <node name="hala maszyn-1" size="0"/>
+      <node name="budka suflera-1" size="0"/>
+    </node>
+    <node name="ogród zimowy-1" size="0"/>
+    <node name="klitka-1, kanciapa-1, klatka-2, dziupla-1" size="0"/>
+    <node name="gabinet luster-1" size="0"/>
+    <node name="przedsionek-1" size="6">
+      <node name="mandapa-1" size="0"/>
+      <node name="pronaos-1" size="0"/>
+      <node name="babiniec-2" size="0"/>
+      <node name="narteks-1" size="0"/>
+      <node name="kruchta-1" size="0"/>
+      <node name="konfesja-4" size="0"/>
+    </node>
+    <node name="skryptorium-1, scriptorium-1" size="0"/>
+    <node name="rozmównica-2" size="0"/>
+    <node name="rozmównica-1, parlatorium-1, konwersatorium-1" size="0"/>
+    <node name="ciemnica-2" size="0"/>
+    <node name="tunel chłodniczy-1" size="0"/>
+    <node name="łaźnia-1" size="5">
+      <node name="hammam-1" size="0"/>
+      <node name="parówka-1, łaźnia parowa-1" size="0"/>
+      <node name="termy-1, łaźnia rzymska-1" size="0"/>
+      <node name="mykwa-1, mikwa-1" size="0"/>
+      <node name="sauna-1" size="0"/>
+    </node>
+    <node name="wartownia-1, wartownica-1" size="2">
+      <node name="odwach-1" size="0"/>
+      <node name="kordegarda-1" size="0"/>
+    </node>
+    <node name="sterownia-1" size="0"/>
+    <node name="sanitariat-1" size="0"/>
+    <node name="nadbudówka-1, nadbudowa-1" size="3">
+      <node name="glorieta-2, glorietta-2" size="0"/>
+      <node name="pięterko-1" size="0"/>
+      <node name="belweder-2" size="0"/>
+    </node>
+    <node name="kokpit-1" size="0"/>
+    <node name="harem-1, seraj-1, zenana-1" size="0"/>
+    <node name="dyżurka-1" size="0"/>
+    <node name="świetlica-1" size="0"/>
+    <node name="czytelnia-1, lektorium-1" size="0"/>
+    <node name="ładownia-1, ładowisko-1" size="0"/>
+    <node name="zakrystia-1" size="1">
+      <node name="pastoforium-1" size="0"/>
+    </node>
+    <node name="skarbiec-1, skarbnica-2" size="2">
+      <node name="trezor-1" size="0"/>
+      <node name="sezam-2" size="0"/>
+    </node>
+    <node name="loża-1" size="2">
+      <node name="loża prasowa-1" size="0"/>
+      <node name="loża honorowa-1" size="0"/>
+    </node>
+    <node name="budka-2" size="3">
+      <node name="plichta-1" size="0"/>
+      <node name="brek-2" size="0"/>
+      <node name="budka suflera-1" size="0"/>
+    </node>
+    <node name="pomieszczenie, w którym żyją zwierzęta-1" size="35" abstract="true">
+      <node name="żurawnia-1" size="0"/>
+      <node name="kuropatwiarnia-1" size="0"/>
+      <node name="gęsiarnia-1" size="0"/>
+      <node name="indycznik-1" size="0"/>
+      <node name="wychowalnia-1" size="0"/>
+      <node name="kociarnia-1" size="0"/>
+      <node name="buchta-3" size="0"/>
+      <node name="owczarnia-1" size="0"/>
+      <node name="cielętnik-1" size="0"/>
+      <node name="grzebalisko-1" size="0"/>
+      <node name="holendernia-1, olendernia-1, obora dworska-1" size="0"/>
+      <node name="krowiarnia-1" size="0"/>
+      <node name="wiwarium-1, zwierzętarnia-1, vivarium-1" size="2">
+        <node name="insektarium-1" size="1">
+          <node name="formikarium-1" size="0"/>
+        </node>
+      </node>
+      <node name="małpiarnia-1" size="0"/>
+      <node name="lwiarnia-1" size="0"/>
+      <node name="herpetarium-1" size="0"/>
+      <node name="fokarium-1" size="0"/>
+      <node name="królikarnia-1, króliczarnia-1" size="0"/>
+      <node name="gołębnik-1" size="0"/>
+      <node name="ptaszarnia-1" size="1">
+        <node name="woliera-1" size="0"/>
+      </node>
+      <node name="kurnik-1" size="0"/>
+      <node name="terrarium-1" size="2">
+        <node name="serpentarium-1" size="0"/>
+        <node name="zimownik-1" size="0"/>
+      </node>
+      <node name="ul-2" size="7">
+        <node name="ul pniowy-1" size="0"/>
+        <node name="dzion-1" size="0"/>
+        <node name="słomiak-1" size="0"/>
+        <node name="barć-1" size="0"/>
+        <node name="ul ramowy-1" size="0"/>
+        <node name="ul figuralny-1" size="0"/>
+        <node name="koszka-1, kószka-1, bezdenka-1" size="0"/>
+      </node>
+    </node>
+    <node name="pracownia-1" size="33">
+      <node name="fab lab-1" size="0"/>
+      <node name="kostiumernia-2" size="0"/>
+      <node name="blachownia-1" size="0"/>
+      <node name="siodlarnia-2" size="0"/>
+      <node name="protezownia-1" size="0"/>
+      <node name="cieślarnia-1" size="0"/>
+      <node name="woskownia-1" size="0"/>
+      <node name="rzeźbiarnia-1" size="0"/>
+      <node name="kleślarnia-1, rysownia-1, kreślarnia-1" size="0"/>
+      <node name="medaliernia-1" size="0"/>
+      <node name="jubilernia-1" size="0"/>
+      <node name="dekoratornia-1" size="0"/>
+      <node name="bursztyniarnia-1" size="0"/>
+      <node name="modelatornia-1" size="0"/>
+      <node name="hafciarnia-1" size="0"/>
+      <node name="cerownia-2" size="0"/>
+      <node name="wzorcownia-1" size="0"/>
+      <node name="hamownia-1" size="0"/>
+      <node name="szwalnia-1" size="0"/>
+      <node name="modelarnia-1" size="0"/>
+      <node name="atelier-1" size="0"/>
+      <node name="laboratorium-1" size="6"/>
+      <node name="gabinet-1" size="5">
+        <node name="pokój nauczycielski-1" size="0"/>
+        <node name="gabinet odnowy-1" size="0"/>
+        <node name="zabiegówka-1, zabiegowy-1" size="0"/>
+        <node name="gabinet lekarski-1" size="1">
+          <node name="gabinet stomatologiczny-1" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="piwnica-1, podziemie-1" size="6">
+      <node name="podpiwniczenie-1" size="0"/>
+      <node name="loch-1" size="2">
+        <node name="ergastulum-1" size="0"/>
+        <node name="ciemnica-2" size="0"/>
+      </node>
+      <node name="krypta-1" size="1">
+        <node name="katakumby-2, katakumba-1" size="0"/>
+      </node>
+    </node>
+    <node name="kabina-1" size="13">
+      <node name="kabina-8" size="0"/>
+      <node name="kabina-4" size="0"/>
+      <node name="radiokabina-1" size="0"/>
+      <node name="solarium-2" size="0"/>
+      <node name="kabina prysznicowa-1, kabina-5" size="0"/>
+      <node name="batysfera-1" size="0"/>
+      <node name="kabinka-1, kokpit-2" size="0"/>
+      <node name="reżyserka-3, reżysernia-1" size="0"/>
+      <node name="rozmównica-3" size="0"/>
+      <node name="kajuta-1, kabina-3" size="2">
+        <node name="achterpik-1, skrajnik rufowy-1" size="0"/>
+        <node name="forpik-2" size="0"/>
+      </node>
+      <node name="szoferka-1, kabina-2" size="0"/>
+    </node>
+    <node name="biuro-2, kancelaria-1, gabinet-4" size="13">
+      <node name="biuro parlamentarne-1" size="0"/>
+      <node name="rządcówka-1" size="0"/>
+      <node name="telecentrum-1" size="0"/>
+      <node name="kantor-5" size="0"/>
+      <node name="sołtysówka-1" size="0"/>
+      <node name="biuro podróży-1" size="0"/>
+      <node name="dziekanat-2" size="0"/>
+      <node name="rejestracja-3, registratura-2" size="0"/>
+      <node name="ataszat-1, attachat-2" size="0"/>
+      <node name="prefektura-4" size="0"/>
+      <node name="rektorat-1" size="0"/>
+      <node name="sekretariat-1" size="0"/>
+      <node name="administracja-3, zarząd-3, kierownictwo-3, dyrekcja-2" size="0"/>
+    </node>
+    <node name="przedział-1" size="1">
+      <node name="coupé-4" size="0"/>
+    </node>
+    <node name="sala-2" size="14">
+      <node name="sala plenarna-1" size="0"/>
+      <node name="remiza-2" size="0"/>
+      <node name="hipostyl-1, hypostyl-1" size="0"/>
+      <node name="galeria-2" size="0"/>
+      <node name="antykamera-1" size="0"/>
+      <node name="rotunda-2" size="0"/>
+      <node name="audytorium-2" size="0"/>
+      <node name="salka-1" size="0"/>
+      <node name="aula-1" size="0"/>
+      <node name="sala gimnastyczna-1" size="0"/>
+      <node name="sala chorych-1" size="1">
+        <node name="izolatka-2, separatka-2" size="0"/>
+      </node>
+      <node name="klasa-2, pokój lekcyjny-1" size="1">
+        <node name="klasopracownia-1" size="0"/>
+      </node>
+    </node>
+    <node name="korytarz-1" size="4">
+      <node name="podcień-1, podcienie-1, podsienie-1" size="0"/>
+      <node name="krużganek-1" size="0"/>
+      <node name="hol-1, hall-1" size="1">
+        <node name="westybul-1" size="0"/>
+      </node>
+    </node>
+    <node name="studio-1" size="2">
+      <node name="podstudio-1" size="0"/>
+      <node name="studio nagrań-1" size="0"/>
+    </node>
+    <node name="szatnia-1" size="0"/>
+    <node name="magazyn-1, skład-4, składnica-1, zbiornica-1" size="27">
+      <node name="skład podatkowy-1" size="0"/>
+      <node name="żagielkoja-1" size="0"/>
+      <node name="kabelgat-1, komora linowa-1" size="0"/>
+      <node name="narzędziarnia-1" size="0"/>
+      <node name="kostiumernia-1" size="0"/>
+      <node name="materialnia-1" size="0"/>
+      <node name="laktarium-1" size="0"/>
+      <node name="zimochów-1" size="0"/>
+      <node name="repozytorium-1" size="1">
+        <node name="bank DNA-1, repozytorium DNA-1" size="0"/>
+      </node>
+      <node name="rudarnia-1" size="0"/>
+      <node name="paszarnia-1" size="0"/>
+      <node name="paczkarnia-2" size="0"/>
+      <node name="kartoflarnia-1" size="0"/>
+      <node name="prochownia-1" size="0"/>
+      <node name="kazamata-2" size="0"/>
+      <node name="lodownia-2" size="0"/>
+      <node name="pakamera-1" size="0"/>
+      <node name="skład konsygnacyjny-1, magazyn konsygnacyjny-1" size="0"/>
+      <node name="skład celny-1" size="0"/>
+      <node name="arsenał-1, zbrojownia-1" size="0"/>
+      <node name="chłodnia-1" size="2">
+        <node name="mroźnia-1" size="0"/>
+        <node name="lodownia-3" size="0"/>
+      </node>
+      <node name="spichlerz-1, spichrz-1" size="2">
+        <node name="świronek-1" size="0"/>
+        <node name="elewator-1" size="0"/>
+      </node>
+    </node>
+    <node name="toaleta-1, WC-1, ubikacja-1, klozet-2, w.c.-2, W.C.-1, dwa zera-1, wucet-1, przybytek-4, ustronne miejsce-1" size="5">
+      <node name="kingston-1" size="0"/>
+      <node name="szalet-1" size="0"/>
+      <node name="wychodek-1, wygódka-1, sławojka-1" size="0"/>
+      <node name="pisuar-2" size="0"/>
+      <node name="latryna-1" size="0"/>
+    </node>
+    <node name="zaplecze-1, tyły-1, kuluary-1" size="2">
+      <node name="zaplecze sanitarne-1" size="0"/>
+      <node name="zaplecze socjalne-1" size="0"/>
+    </node>
+    <node name="laboratorium-1" size="6">
+      <node name="fab lab-1" size="0"/>
+      <node name="laboratorium galenowe-1" size="0"/>
+      <node name="laboratorium biologiczne-1" size="1">
+        <node name="laboratorium referencyjne-1, laboratorium odwoławcze-1" size="0"/>
+      </node>
+      <node name="laboratorium fizyczne-1" size="0"/>
+      <node name="destylarnia-2" size="0"/>
+    </node>
+    <node name="przechowalnia-1, schowek-2" size="9">
+      <node name="narciarnia-1" size="0"/>
+      <node name="depozytorium-1" size="0"/>
+      <node name="spadochroniarnia-1" size="0"/>
+      <node name="działownia-1" size="0"/>
+      <node name="beczkarnia-2" size="0"/>
+      <node name="składzik-1" size="0"/>
+      <node name="bagażownia-1" size="0"/>
+      <node name="rupieciarnia-1, graciarnia-1, lamus-2" size="0"/>
+      <node name="rekwizytornia-1" size="0"/>
+    </node>
+    <node name="kaplica-2" size="1">
+      <node name="chór-10" size="0"/>
+    </node>
+    <node name="hala-1" size="3">
+      <node name="hala peronowa-1" size="0"/>
+      <node name="kadłubownia-1" size="0"/>
+      <node name="konwertorownia-1" size="0"/>
+    </node>
+    <node name="cela-1" size="3">
+      <node name="cela śmierci-1" size="0"/>
+      <node name="izolatka-1, separatka-1" size="0"/>
+      <node name="karcer-1" size="0"/>
+    </node>
+  </node>
+  <node name="skupisko-1" size="7">
+    <node name="okręg przemysłowy-1, dystrykt przemysłowy-1" size="0"/>
+    <node name="sztetł-1, sztetl-1" size="0"/>
+    <node name="przysiółek-2, przysiołek-1" size="1">
+      <node name="wysiółek-1" size="0"/>
+    </node>
+    <node name="siedlisko-4" size="0"/>
+    <node name="ośrodek-5" size="0"/>
+    <node name="zagłębie-1" size="0"/>
+  </node>
+  <node name="wnętrze-1, środek-3" size="3">
+    <node name="ośródka-1" size="0"/>
+    <node name="rdzeń-2" size="1">
+      <node name="dusza-9" size="0"/>
+    </node>
+  </node>
+  <node name="warsztat-1" size="29">
+    <node name="garncarnia-1" size="0"/>
+    <node name="płóciennica-2" size="0"/>
+    <node name="tokarnia-1" size="0"/>
+    <node name="blachownia-1" size="0"/>
+    <node name="majsternia-1" size="0"/>
+    <node name="bieżnikownia-1" size="0"/>
+    <node name="cholewkarnia-1" size="0"/>
+    <node name="skrzynkarnia-1" size="0"/>
+    <node name="beczkarnia-1" size="0"/>
+    <node name="muflarnia-1" size="0"/>
+    <node name="fryzernia-1, fryzarnia-1" size="0"/>
+    <node name="ścieralnia-1" size="0"/>
+    <node name="heblarnia-1" size="0"/>
+    <node name="gładzarnia-1" size="0"/>
+    <node name="smolarnia-1" size="0"/>
+    <node name="ślusarnia-1" size="0"/>
+    <node name="zakład szewski-1" size="0"/>
+    <node name="ludwisarnia-1, puszkarnia-1" size="0"/>
+    <node name="ciesielnia-1, zakład ciesielski-1" size="0"/>
+    <node name="cyzelernia-1" size="0"/>
+    <node name="szlifiernia-1" size="0"/>
+    <node name="introligatornia-1" size="0"/>
+    <node name="cechownia-1" size="0"/>
+    <node name="malarnia-1" size="0"/>
+    <node name="blacharnia-1" size="0"/>
+    <node name="tapicernia-1" size="0"/>
+    <node name="stolarnia-1" size="0"/>
+    <node name="autoserwis-1" size="0"/>
+    <node name="kuźnia-2" size="0"/>
+  </node>
+  <node name="pustkowie-1, bezludzie-1, pustka-2, odludzie-1, głusza-1" size="1">
+    <node name="zadupie-2, wygwizdów-1, wygwizdowo-1, przedpiekle-1" size="0"/>
+  </node>
+  <node name="koniec-1" size="147">
+    <node name="pętla-3" size="0"/>
+    <node name="końcówka-7" size="51">
+      <node name="trufla-4" size="0"/>
+      <node name="zakończenie-7" size="48">
+        <node name="nos-2" size="1">
+          <node name="stożek dziobowy-1" size="0"/>
+        </node>
+        <node name="sztych-3" size="0"/>
+        <node name="anemostat-1" size="0"/>
+        <node name="pływak-7" size="0"/>
+        <node name="kiść-4" size="0"/>
+        <node name="szpic-2" size="0"/>
+        <node name="ogon-3" size="0"/>
+        <node name="zwieńczenie-3" size="11">
+          <node name="sikhara-1, śikhara-1" size="0"/>
+          <node name="szczyt-5" size="2">
+            <node name="fronton-1, przyczółek-2" size="0"/>
+            <node name="kokosznik-2" size="0"/>
+          </node>
+          <node name="akroterion-1, naszczytnik-1" size="0"/>
+          <node name="hełm-2, dach hełmowy-1" size="1">
+            <node name="cebula-5" size="0"/>
+          </node>
+          <node name="grzebień-4" size="0"/>
+          <node name="iglica-2, igła-3" size="0"/>
+          <node name="kapitel-1, głowica-1" size="1">
+            <node name="makowica-1" size="0"/>
+          </node>
+        </node>
+        <node name="końcówka-4" size="2">
+          <node name="krokodylek-2" size="0"/>
+          <node name="wtyczka-1" size="0"/>
+        </node>
+        <node name="końcówka-2" size="11">
+          <node name="łapaczka-1" size="0"/>
+          <node name="talerz-4" size="0"/>
+          <node name="zgrzewadło-1" size="0"/>
+          <node name="wiertło-1, bor-2" size="3">
+            <node name="wiertło stopniowe-1" size="0"/>
+            <node name="środkowiec-1" size="0"/>
+            <node name="wiertło dentystyczne-1, wiertło stomatologiczne-1" size="0"/>
+          </node>
+          <node name="frez-1" size="0"/>
+          <node name="stalówka-2" size="1">
+            <node name="rondówka-1, rondo-7" size="0"/>
+          </node>
+          <node name="ssawka-2" size="0"/>
+        </node>
+        <node name="nok-1" size="0"/>
+        <node name="pawęż-1" size="0"/>
+        <node name="pęcherzyk płucny-1" size="0"/>
+        <node name="wyrostek robaczkowy-1, ślepa kiszka-1, wyrostek-3" size="0"/>
+        <node name="czubek-2, koniuszek-1, koniuszczek-1" size="3">
+          <node name="koniuszek serca-1" size="0"/>
+          <node name="koniuszek palca-1" size="0"/>
+          <node name="opuszka-1" size="0"/>
+        </node>
+        <node name="główka-1" size="0"/>
+        <node name="dziób-4" size="3">
+          <node name="dziobiec-1" size="0"/>
+          <node name="dziób-3" size="1">
+            <node name="taran-2" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="piętka-1, przylepka-1" size="0"/>
+    </node>
+    <node name="pięta-3" size="0"/>
+    <node name="finisz-1" size="0"/>
+    <node name="brzeg-1, skraj-1, kraniec-1" size="10">
+      <node name="faseta-3" size="0"/>
+      <node name="rąbek-1" size="0"/>
+      <node name="margines-3" size="0"/>
+      <node name="obrzeże-1" size="6"/>
+    </node>
+    <node name="wygłos-1" size="1">
+      <node name="wygłos absolutny-1" size="0"/>
+    </node>
+    <node name="wylot-1, wylot drogi-1" size="0"/>
+    <node name="kres-2" size="1">
+      <node name="ściana-10" size="0"/>
+    </node>
+    <node name="meta-1" size="0"/>
+    <node name="wierzchołek-1, szczyt-1, czubek-1, czub-1" size="11">
+      <node name="top-4" size="0"/>
+      <node name="grzbiet fali-1, grzebień fali-1" size="0"/>
+      <node name="zagłówek-2" size="0"/>
+      <node name="nosek-1" size="0"/>
+      <node name="szczyt-2, wierzchołek-2, kulminacja-1, grzbiet-2, wierzchnica-5" size="6">
+        <node name="turnica-1" size="0"/>
+        <node name="ośmiotysięcznik-1" size="0"/>
+        <node name="nunatak-1" size="0"/>
+        <node name="pięciotysięcznik-2" size="0"/>
+        <node name="turnia-1" size="1">
+          <node name="ambona-3, kazalnica-2" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="granica-1, linia-6" size="44">
+      <node name="linia podstawowa-1" size="0"/>
+      <node name="horyzont geograficzny-1" size="0"/>
+      <node name="oś-4" size="1">
+        <node name="oś strzałkowa-1" size="0"/>
+      </node>
+      <node name="granica miasta-1" size="1">
+        <node name="pomerium-1" size="0"/>
+      </node>
+      <node name="heliopauza-1" size="0"/>
+      <node name="linia-18" size="23">
+        <node name="izofona-2" size="0"/>
+        <node name="linia wiecznego śniegu-1, granica wiecznego śniegu-1" size="0"/>
+        <node name="likwidus-1" size="0"/>
+        <node name="wodnica-2, linia wodna-1" size="0"/>
+        <node name="linia-3" size="5">
+          <node name="linia obrony-1" size="0"/>
+          <node name="linia natarcia-1" size="0"/>
+          <node name="linia demarkacyjna-1" size="0"/>
+          <node name="linia frontu-1, front-4, rejon walk-1" size="1">
+            <node name="pobojowisko-1" size="0"/>
+          </node>
+        </node>
+        <node name="wybrzeże-2, brzeg-3, pobrzeże-1, nadbrzeże-1, linia brzegowa-1" size="12">
+          <node name="wybrzeże szkierowe-1" size="0"/>
+          <node name="prawobrzeże-1" size="0"/>
+          <node name="lewobrzeże-1" size="0"/>
+          <node name="rias-1" size="0"/>
+          <node name="międzywale-1" size="0"/>
+          <node name="riwiera-1" size="0"/>
+          <node name="nabrzeże-1" size="3">
+            <node name="bulwar-3" size="0"/>
+            <node name="molo-1" size="0"/>
+            <node name="keja-1" size="0"/>
+          </node>
+          <node name="plaża-1" size="0"/>
+          <node name="klif-1, faleza-1" size="0"/>
+        </node>
+      </node>
+      <node name="granica państwa-1" size="1">
+        <node name="zielona granica-1" size="0"/>
+      </node>
+      <node name="miedza-1" size="1">
+        <node name="halizna-3" size="0"/>
+      </node>
+      <node name="horyzont-2, widnokrąg-1" size="1">
+        <node name="horyzont radiowy-1" size="0"/>
+      </node>
+      <node name="obrzeże-1" size="6">
+        <node name="podbora-1" size="0"/>
+        <node name="oszyjek-1" size="0"/>
+        <node name="peryferie-3" size="0"/>
+        <node name="peryferie-1, przedmieście-1" size="2">
+          <node name="prowincja-5" size="0"/>
+          <node name="suburbium-1" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="krawędź-1, brzeg-2" size="25">
+      <node name="kresa-2" size="0"/>
+      <node name="faza-9" size="0"/>
+      <node name="lik-2" size="0"/>
+      <node name="kant-1, rant-1" size="0"/>
+      <node name="oblina-1, oflis-1" size="0"/>
+      <node name="okapnik-1" size="0"/>
+      <node name="faseta-1, ucios-1" size="0"/>
+      <node name="banda-5" size="0"/>
+      <node name="ostrze-1" size="9">
+        <node name="talerz-4" size="0"/>
+        <node name="rzezak-2" size="0"/>
+        <node name="ząb-2" size="2">
+          <node name="broniak-1, bronik-1" size="0"/>
+          <node name="tryb-4" size="0"/>
+        </node>
+        <node name="żyletka-1" size="0"/>
+        <node name="grot-1" size="1">
+          <node name="mikrolit-2, zbrojnik mikrolityczny-1" size="0"/>
+        </node>
+        <node name="brzeszczot-2" size="0"/>
+      </node>
+      <node name="rondo-3" size="0"/>
+      <node name="róg-1, narożnik-1, naroże-1" size="5">
+        <node name="ośle ucho-1" size="0"/>
+        <node name="faseta-2, faska-2" size="0"/>
+        <node name="długi róg-1" size="0"/>
+        <node name="krótki róg-1" size="0"/>
+        <node name="węgieł-1, winkiel-1" size="0"/>
+      </node>
+    </node>
+  </node>
+  <node name="zamknięcie-13, odosobnienie-3" size="0"/>
+</node>

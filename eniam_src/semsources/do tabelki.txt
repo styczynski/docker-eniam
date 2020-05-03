@@ -1,0 +1,27 @@
+lemat i składnia	pref. sel. na nadrz.	pref. sel. na podrz.	rola tematyczna	sens (algorytm)	numer w SJP	przykład
+koło:gen	?	CZAS	Time	koło_1	2	Koło szóstej już kasłała i miała gorączkę. Strzał padł koło jedenastej minuty meczu. Zadzwoniła koło szóstej. Wyzdrowiała koło niedzieli.
+około:gen	?	CZAS	Time	około_1	
+blisko:gen	?	PRZEDMIOT FIZYCZNY	Loc	blisko_1	a	Mieszka blisko stacji metra.
+koło:gen	?	PRZEDMIOT FIZYCZNY	Loc	koło_1		1	Usiądź koło mnie.
+niedaleko:gen	?	PRZEDMIOT FIZYCZNY	Loc	niedaleko_1		Mieszkali niedaleko parku.
+opodal:gen	?	PRZEDMIOT FIZYCZNY	Loc	opodal_1		Konie pasły się opodal lasu.
+pod:inst	?	PRZEDMIOT FIZYCZNY	Loc	pod_2		3	Spotkajmy się pod pomnikiem.
+obok:gen	?	PRZEDMIOT FIZYCZNY	Loc	obok_1		1	Położył łyżkę obok talerza. Usiadła obok syna.
+pod:acc		?	PRZEDMIOT FIZYCZNY	LocGoal	pod_2		3	Idziemy pod pomnik.
+koło:gen	?	LICZBA	Count	koło_1		Ma koło pięciu lat.
+blisko:gen	?	?	?	blisko_1	Obracał się blisko prezesa
+podczas:gen	?	CZAS	Time	podczas_1	
+w:loc	?	PRZEDMIOT FIZYCZNY	Loc	w_1	1	Kot śpi w szafie. Usiadł w fotelu.
+w:acc	?	PRZEDMIOT FIZYCZNY	LocGoal	w_1	2,4	Rankiem wyruszyli w góry. Piorun uderzył w stodołę.
+do:gen	?	PRZEDMIOT FIZYCZNY	LocGoal	do_1	3	Kot wszedł do szafy. Skoczył do wody.
+z:gen	?	PRZEDMIOT FIZYCZNY	LocSrc	z_1	1b	Wyszedł z banku.
+
+po:loc	?	ZDARZENIE	Time	po_1	6	Po doktoracie podjęła pracę w liceum.
+po:loc	?	ZDARZENIE	Time	po_1	6	Po doktoracie wciąż pracowała w liceum.
+po:loc	?	CZAS		Time	po_1	6	Zdrzemnął się po piątej.
+po:loc	?	PRZEDMIOT FIZYCZNY	Loc	po_1	3	Kot chodził po biurku. Zimą dzieci ślizgały się po zamarzniętym jeziorze.
+pod:acc	?	?	LocGoal	pod_1	1,2	Woda wlewała się pod wannę. Dziecko schowało się pod kołdrę.
+pod:acc	?	?	Count	pod_1	14	Ojciec miał już wtedy pod osiemdziesiątkę.
+pod:inst	?	?	Loc	pod_1	1	Kot spał pod biurkiem.
+pod:inst	?	?	Order	pod_1	16	Pod wiceministrem było pięciu dyrektorów departamentu.
+pod:inst	?	?	Cond	pod_1	8,17	Drzwi otworzyły się pod naporem tłumu. Kazano mu opuścić lokal pod groźbą eksmisji.

@@ -1,0 +1,20 @@
+LUDZIE	osoba-1	ludzie-1
+ISTOTY	LUDZIE	osoba-1	istota żywa-1	grupa istot-1
+PODMIOTY	LUDZIE	podmiot-3
+JADŁO	pokarm-1	napój-1
+WYTWÓR	przedmiot-1	wytwór-1
+DOBRA	JADŁO	WYTWÓR	mienie-1	przedmiot-1	wytwór-1
+KOMUNIKAT	informacja-1	wypowiedź-1
+KONCEPCJA	informacja-1	wytwór umysłu-1
+MIEJSCE	lokal-1	budowla-1	rejon-1	obszar-1	państwo-1	jednostka administracyjna-1	woda-4
+OTOCZENIE	powierzchnia-2	rzecz-4	wytwór-2	pomieszczenie-3
+POŁOŻENIE	MIEJSCE	OTOCZENIE	miejsce-1	przestrzeń-1	obiekt-2
+CZAS	chwila-1	czas-3	czas-8	godzina-3
+OBIEKTY	osoba-1	obiekt-2	zbiór-1
+CECHA	cecha-1
+CZYNNOŚĆ	czynność-1
+SYTUACJA	CZYNNOŚĆ	czynność-1	zdarzenie-2	okoliczność-1	ciąg zdarzeń-1
+KIEDY	CZAS	SYTUACJA
+CZEMU	CECHA	SYTUACJA	LUDZIE
+ILOŚĆ	ilość-1	rozmiar-1	rozmiar-2	jednostka-4	wielkość-6
+#ALL	PODMIOTY	ISTOTY	DOBRA	SYTUACJA

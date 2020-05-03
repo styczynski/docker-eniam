@@ -1,0 +1,15 @@
+Koncepcja reprezentacji semantycznej przyimków uzwzględniająca ich modyfikowalność.
+
+<!-- Z teksktu "metaopis" Kuba dostanie fragmenty dotyczące przyimków -->
+
+<!-- Dodać opis tłumaczenia na formy logiczne (reprezentację w FOL) -->
+
+Przypisanie przyimków złożonych (są w base_LU.tab) do synonimicznych sensów ze słownika.
+
+Podział sensów przyimków na grupy z wskazaniem sensów niesemantycznych wg. Walentego
+Wymień wszystkie sensy należące do każdej grupy
+aniżeli	Comp
+bez Attr/Poss
+blisko	Loc
+blisko	Temp
+Kandydaci na grupy przyimków: określające miejsce, czas, cechę, porównanie, przyczynę, skutek, ...

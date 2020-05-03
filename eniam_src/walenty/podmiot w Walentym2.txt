@@ -1,0 +1,80 @@
+Hej,
+
+W dniu 15 kwietnia 2016 15:44 użytkownik Elżbieta Hajnicz <hajnicz@ipipan.waw.pl> napisał:
+
+    Dnia 2016-04-15, pią o godzinie 13:01 +0200, Jakub Szymczak pisze:
+    > Hej,
+    >
+    > W dniu 14 kwietnia 2016 22:15 użytkownik Wojciech Jaworski
+    > <wjaworski@mimuw.edu.pl> napisał:
+    >         Cześć,
+    >
+    >         Mam kilka pytań odnośnie pozycji oznaczanych subj w Walentym:
+
+
+    >         Czasowniki skonfundować, ściąć, ścinać, wzruszać, zaprzątać,
+    >         zdegustować, zmrozić
+    >         mają subj typu cp i obj. Co się dzieje z takim podmiotem w
+    >         stronie biernej?
+
+
+    > Usunąłem obj.
+    A to czemu? Czy sformułowania typu:
+          * Jestem skonfundowana/zdegustowana, że tak mało wiem o
+            podmiotach.
+          * Jestem skonfundowana/zdegustowana, jak mało wiem o podmiotach.
+          * Jestem wzruszona/zmrożona, że mnie tak (nie) lubisz.
+
+
+Nie wygląda mi to na typową pasywizację. Nie działa w przypadku czasowników niedokonanych (dziwić, wzruszać), nie idzie z "zostać", a tylko z "być".
+Widzę jednak analogie przy korelatach:
+Wkurzyło mnie to, że... - Jestem wkurzony tym, że...
+Tak czy owak przy cp jako subj nie dawaliśmy obj.
+
+Pozdrawiam,
+Kuba
+ 
+
+
+
+    >         Co się dzieje z podmiotem typu cp, gdy czasownik jest w formie
+    >         odsłownika?
+    >
+    >
+    > Znika? W ogóle nie bardzo mi wychodzi ładne przerobienie takiego
+    > zdania z subj{cp(...)} na zdanie z odsłownikiem.
+    Chyba odsłowniki z natury rzeczy są bezpodmiotowe?
+    >
+    >
+    >         Co się dzieje z podmiotem typu or, gdy czasownik jest w formie
+    >         ger lub ppas?
+    Po pierwsze, filtrowanie pozycji subj{or}&obj{.*} pokazało, że takie
+    konstrukcje w formie biernej nie występują.
+    Po drugie, pierwsze z brzegu przykłady:
+          * - A nie mówiłam - cisnęło jej się na usta.
+          * "Hajda za wielorybem dookoła świata!" - dobiegało do niego z
+            oddali.
+    pokazało, że nie da się utworzyć gerundium.
+    > Może to or w takich przypadkach powinno być traktowane jako np(str).
+    > Ktoś powinien jeszcze zerknąć pod czasowniki z subj{or}.
+    >
+    >
+    >         Czy np(part) w podmiocie może być zrealizowane jako np(acc)?
+
+    > Raczej tylko nom albo gen. Ale tu też trzeba rzucić okiem, czy to
+    > np(part) jako subj ma w ogóle sens.
+    To chyba błąd? 'part' to rozchwianie między 'acc' a 'gen', więc jego
+    występowanie w podmiocie jest zaskakujące. Znalazłam 5 takich
+    czasowników. W pierwszym, 'najechać', chodzi o:
+          * Najechało się ludzi do miasta.
+          * Najechali się ludzie do miasta.
+    Czy to pierwsze jest podmiotem -- śmiem wątpić, ale niech się mądrzejsi
+    wypowiedzą. To jednak zupełnie co innego niż 'np(part)' jako 'obj' dla
+    takiego np. kupić; w szczególności da się powiedzieć:
+          * Kub chleba i tort.
+
+    Pozdrawiam
+
+    Ela
+
+

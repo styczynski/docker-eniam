@@ -1,0 +1,205 @@
+/*
+ * Code under GNU Public License version 2 or version 3 at your option.
+ */
+
+#generalinfo {
+	visibility:	hidden;
+	z-index:	100;
+	padding:	20px 40px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	font-size:	10pt;
+	font-family:	"Verdana";
+	line-height:	90%;
+	max-width:	40%;
+	min-width:	15%;
+	position:	absolute;
+}
+
+#generalinfo.general {
+	background:	#729fcf; /* Tango: Sky Blue */
+}
+
+#generalinfo.nonterminal {
+	background:	#fcaf3e; /* Tango: Orange */
+}
+
+#generalinfo.terminal {
+	background:	#cc0000; /* Tango: Scarlet Red */
+}
+
+.nodelabel {
+	font-family:	"Verdana";
+	font-size:	10pt;
+	overflow:	visible;
+}
+
+.middle {
+	display:	table-cell;
+	left:		50%;
+	position:	absolute;
+}
+
+.inner {
+	position:	relative;
+	left:		-50%;
+}
+
+.nodecontent {
+	border:		1px black solid;
+	text-align:	center;
+	padding:	2px 5px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.link {
+	cursor:		pointer;
+}
+
+span.rule {
+	position:	absolute;
+	left:		10px;
+	top:		100%;
+	font-size:	10px;
+	font-family:	Monospace;
+	line-height:	80%;
+	vertical-align:	bottom;
+	text-align:	right;
+	white-space:	nowrap;
+	background-color:	#eee;
+}
+
+span.rule-choice {
+	left:		55%;
+	top:		0%;
+	background-color:	inherit;
+}
+
+.nonterminal-node-active {
+	font-weight:	bold;
+	border-color:	red;
+}
+
+.terminal-node {
+	background:	#9ca7d4;
+}
+.unresolved-node {
+	background:	lavender;
+}
+.one-suggested-node {
+	background:	wheat;
+}
+.one-non-suggested-node {
+	background:	yellow;
+}
+.many-suggested-node {
+	background:	orange;
+}
+.user-suggested-node {
+	background:	greenyellow;
+}
+.user-non-suggested-node {
+	background:	skyblue;
+}
+
+.inactive-node {
+	background:	#888;
+}
+
+.terminal-node {
+	background:	#f99;
+}
+
+.highlighted-node {
+	border:		black 3px solid;
+	padding:	0px 3px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+
+.nodecircle {
+	background:	#000;
+	width:		10%;
+}
+
+.ruler {
+	font-size:	13px;
+	text-align:	center;
+	z-index:	10;
+	height:		54px;
+	background:	none; /* TODO: Non-opaque */
+}
+
+.lexeme {
+	border:		1px black solid;
+	white-space:	nowrap;
+	height:		52px;
+}
+
+.attrs-caption {
+	font-size:	6pt;
+	font-weight:	bold;
+}
+.attr-table, .attr-table tr, .attr-table td {
+	border-style:	hidden;
+	text-align:	left;
+}
+.attr-table div {
+	margin-top:	-0.25em;
+	margin-bottom:	-0.25em;
+	line-height:	120%;
+	font-size:	9pt;
+}
+
+.attr-name {
+	text-align:	right !important;
+	color:		black !important;
+}
+.attr-name div:after {
+	content:	":";
+}
+
+.attr-diff {
+	background:	rgba(255, 255, 255, 0.8);
+	color:		red;
+}
+
+.tip {
+	font-style:	italic;
+	font-size:	15pt;
+}
+
+pre {
+	color:		#555;
+	overflow:	auto;
+}
+
+.q {
+	color:		white;
+	font-size:	40pt;
+	font-weight:	bold;
+	font-family:	"Courier";
+}
+
+.head {
+	color:		black;
+	font-size:	10pt;
+	text-align:	center;
+}
+
+a.moreinfo, p.moreinfo {
+	font-size:	6pt;
+	text-decoration:none;
+	color:		black;
+	text-align:	right;
+	cursor:		pointer;
+}
+
+div.moreinfo {
+	line-height:	120%;
+}
+
+span.value {
+	font-weight:	bold;
+}

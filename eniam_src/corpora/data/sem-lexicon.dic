@@ -1,0 +1,208 @@
+
+np:
+  /(1+np*Hour*number*case*gender*person):Apoz
+  |(1+np*Hour*sg*nom*f*ter+prepnp*Hour*sem*T*T):PHas
+  /(1+np*TimeOfDay*sg*inst*T*ter+np*TimeOfDay*sg*loc*T*ter+prepnp*TimeOfDay*sem*T*T+advp*TimeOfDay*T):PHas
+  /(1+np*Day*number*case*gender*person):Apoz
+#  |(1+np*Day*number*case*gender*person+adj*number*case*gender):unk
+  |(1+np*Day*sg*gen*m3*ter):PHas
+  /(1+np*Month*sg*gen*T*T):PHas
+  |(1+np*Year*number*case*gender*person):Apoz
+  /(1+np*Year*sg*gen*T*T):PHas
+  |(1+np*HouseNumber*sg*nom*T*T):PHas
+  |(1+np*Street*T*nom*T*ter+prepnp*Street*sem*T*T):PHas
+  |(1+np*Quarter*T*nom*T*ter+prepnp*Quarter*sem*T*T):PHas
+  /(1+np*Person*number*case*T*person):PApoz
+#  |(1+np*FirstName*number*case*gender*person):unk
+  \(1+num*number*case*gender*person*congr*nsem+num*number*case*gender*person*rec*nsem):Count \(1+qub):adjunct /(1+inclusion):adjunct
+  \(1+measure*unumber*ucase*ugender*uperson):Measure
+  /(1+date+day+day-month+date-interval+day-interval+day-month-interval+year+year-interval+hour+hour-minute+hour-interval+hour-minute-interval+roman+roman-interval):Coref
+  |(1+year):unk /(1+obj-id):Coref
+  |(1+adjp*X*number*case*gender):unk
+  \(1+nie+advp*X*T):unk
+  /(1+np*Currency*number*gen*gender*person):Has
+  /(1+np*Currency*number*case*gender*person):Has
+  /(1+np*cat*number*case*gender*person):Apoz
+  /(1+np*cat*T*case*T*T):adjunct
+  \(1+np*cat*T*case*T*T):adjunct
+  \(1+np*Measure*unumber*ucase*ugender*uperson):Measure
+  |(1+adjp*TimeDescription*number*case*gender):unk
+  |(1+adjp*GenericDescription*number*case*gender):unk
+  |(1+advp*GenericDescription*T):unk
+  |(1+adjp*ServiceDescription*number*case*gender):unk
+  |(1+qub*T):unk
+  |(1+qub*OpAdNum):unk;
+
+num: \(1+qub):adjunct /(1+inclusion):adjunct;
+
+measure:
+  \(1+num*number*case*gender*person*congr*count+num*number*case*gender*person*rec*count):adjunct \(1+qub):adjunct /(1+inclusion):adjunct;
+
+#prepnp: \(1+advp*T):adjunct /(np*T*case*T*T+day-month+day+year+date+hour+hour-minute):unk \(1+qub):adjunct /(1+inclusion):adjunct;
+#prepadjp: \(1+advp*T):adjunct /(adjp*T*case*T+adjp*sg*dat*m1+adjp*T*postp*T+adjp*sg*nom*f+advp*T):unk \(1+qub):adjunct /(1+inclusion):adjunct;
+#compar: \(1+advp*T):adjunct /(np*T*case*T*T+prepnp*T*T+prepadjp*T*T):unk \(1+qub):adjunct /(1+inclusion):adjunct;
+prepnp: 
+  /(1+prepnp*coerced*sem*T*T):Merge
+  \(1+nie+advp*GenericDescription*T):adjunct 
+  \(1+advp*Attitude*T):adjunct 
+   \(1+qub):adjunct /(1+inclusion):adjunct 
+  /(1+np*cat*T*case*T*T):CORE
+  \(1+prepnp*Time*sem*plemma*case):unk
+  /(1+advp*cat*T):CORE;
+
+prepadjp: \(1+advp*T*T):adjunct \(1+qub):adjunct /(1+inclusion):adjunct;
+compar: 
+  /(1+prepnp*coerced*sem*T*T):Merge
+  \(1+advp*T*T):adjunct 
+  \(1+qub):adjunct 
+  /(1+inclusion):adjunct;
+
+colonp: /(np*cat*T*nom*T*ter+prepnp*cat*sem*T*T+advp*cat*T):CORE;
+
+adjp: 
+  \(1+qub):adjunct 
+  /(1+inclusion):adjunct 
+  \(1+adja):unk
+  /(1+adjp*cat*number*case*gender):adjunct
+  \(1+adjp*cat*number*case*gender):adjunct
+  \(1+jak):unk;
+
+adja: /hyphen:nosem;
+
+advp: 
+  \(1+qub):adjunct 
+  /(1+inclusion):adjunct 
+  \(1+adja):unk
+  |(1+np*Hour*sg*nom*f*ter+prepnp*Hour*sem*T*T):unk
+  |(1+np*TimeOfDay*sg*inst*T*ter+np*TimeOfDay*sg*loc*T*ter+prepnp*TimeOfDay*sem*T*T+advp*TimeOfDay*T):unk
+  /(1+compar*coerced*niż*T):unk
+  \(1+nie+advp*X*T):unk
+  \(1+prepnp*cat*sem*T*T):adjunct
+  /(1+prepnp*cat*sem*T*T):adjunct
+  \(1+advp*cat*T):adjunct
+  /(1+advp*cat*T):adjunct
+  \(1+jak):unk;
+
+#FIXME: sprawdzić czy 'or' czy 'or2'
+ip: 
+  |(1+adjp*Interrogative*number*nom*gender):unk 
+  |(1+np*Location*number*nom*gender*person):unk 
+  /(1+int):unk 
+  \(1+qub*GenericDescription):adjunct 
+  \(1+qub*T):adjunct 
+  /(1+inclusion):adjunct 
+  \(1+nie):nosem 
+  |(1+aux-imp):nosem
+  |(1+aux-fut*number*gender*person+aux-past*number*gender*person):nosem 
+  |(1+aglt*number*person):nosem 
+  |(1+by):nosem 
+  /(1+or):adjunct
+  \(1+ip*cat*number*gender*person):unk;
+
+aux-fut: null;
+aux-past: null;
+aglt: null;
+
+infp: 
+  /(1+int):unk 
+  \(1+qub*GenericDescription):adjunct 
+  \(1+qub*T):adjunct 
+  /(1+inclusion):adjunct 
+  \(1+nie):nosem
+  /(1+infp*cat*T):adjunct
+  \(1+infp*cat*T):adjunct;
+padvp: \(1+qub):adjunct /(1+inclusion):adjunct \(1+nie):nosem;
+
+cp: 
+  /(1+ip*T*T*T*T+infp*T*T):CORE
+  /(1+ip*cat*T*T*T+infp*cat*T):CORE
+  /(1+ip*Attitude*T*T*T):CORE
+  /(1+ip*State*number*gender*T):CORE
+  /(1+ip*Attitude*number*gender*T):CORE
+  /(1+np*ncat*number*case*gender*nperson):CORE
+  \(1+cp*int*plemma):unk;
+
+ncp: 
+  \(1+qub):adjunct 
+  /(1+inclusion):adjunct 
+  /cp*cat*ctype*plemma:unk;
+
+prepncp:
+  /ncp*cat*T*case*T*T*ctype*plemma:CORE;
+
+#lemma=i|lub|czy|bądź,pos=conj:
+#  QUANT[number=all_numbers,gender=all_genders,person=all_persons]
+#  (ip*number*gender*person/ip*T*T*T)\ip*T*T*T;
+#lemma=,|i|lub|czy|bądź,pos=conj: (advp*mod/prepnp*T*T)\prepnp*T*T;
+#lemma=,|i|lub|czy|bądź,pos=conj: QUANT[mode=0] (advp*mode/advp*mode)\prepnp*T*T;
+#lemma=,|i|lub|czy|bądź,pos=conj: QUANT[mode=0] (advp*mode/prepnp*T*T)\advp*mode;
+#lemma=,|i|lub|czy|bądź,pos=conj: (advp*mod/advp*T)\advp*T; #FIXME: przydałaby się wersja zachowująca mode
+#lemma=,|i|lub|czy|bądź,pos=conj:
+#  QUANT[plemma=0,case=all_cases]
+#  (prepnp*plemma*case/prepnp*plemma*case)\prepnp*plemma*case;
+#lemma=,|i|lub|czy|bądź,pos=conj:
+#  QUANT[number=all_numbers,case=all_cases,gender=all_genders,person=all_persons]
+#  (np*number*case*gender*person/np*T*case*T*T)\np*T*case*T*T;
+#lemma=,|i|lub|czy|bądź,pos=conj:
+#  QUANT[number=all_numbers,case=all_cases,gender=all_genders]
+#  (adjp*number*case*gender/adjp*number*case*gender)\adjp*number*case*gender;
+
+jak: null;
+
+lex-się-qub: null;
+nie: null;
+by: null;
+aux-imp: null;
+qub: null;
+interj: null;
+sinterj: null;
+hyphen: null;
+int: null;
+#lemma=„,pos=interp:       QUANT[number=0,case=0,gender=0,person=0] (np*number*case*gender*person/rquot)/np*number*case*gender*person; #SetAttr("QUOT",Val "+",Var "x"
+#lemma=«,pos=interp:       QUANT[number=0,case=0,gender=0,person=0] (np*number*case*gender*person/rquot2)/np*number*case*gender*person; #SetAttr("QUOT",Val "+",Var "x"
+#lemma=»,pos=interp:       QUANT[number=0,case=0,gender=0,person=0] (np*number*case*gender*person/rquot3)/np*number*case*gender*person; #SetAttr("QUOT",Val "+",Var "x"
+rquot: null;
+rquot2: null;
+rquot3: null;
+#lemma=(,pos=interp:       (inclusion/rparen)/(np*T*T*T*T+ip*T*T*T+adjp*T*T*T+prepnp*T*T); #SetAttr("INCLUSION",Val "+",
+#lemma=[,pos=interp:       (inclusion/rparen2)/(np*T*T*T*T+ip*T*T*T+adjp*T*T*T+prepnp*T*T); #SetAttr("INCLUSION",Val "+",
+rparen: null;
+rparen2: null;
+
+intp:
+  \(ip*cat*T*T*T+np*cat*T*nom*T*T+cp*cat*int*T):CORE;
+
+mp:
+  /(1+ip*cat*T*T*T+cp*cat*int*T+intp*cat+interj*cat):unk
+  /(1+np*cat*T*nom*T*T+intp*cat):unk;
+
+
+s: 
+  \?(ip*T*T*T*T+cp*T*int*T+cp*T*sub*T+mp*T+intp*T+interj*T+sinterj*T):null
+  \?(mp*Time*T*T+intp*Time+np*Time*sg*T*T*ter+prepnp*Time*sem*T*T+advp*Time*T+interj*T+sinterj*T):adjunct
+  \(1+prepnp*Time*nosem*na*acc):adjunct
+  \?(mp*Telephone*T*T+intp*Telephone+np*Telephone*sg*nom*T*ter+np*Email*sg*nom*T*ter):adjunct
+  \?(mp*Price*T*T+intp*Price+np*Price*sg*nom*T*ter+prepnp*Price*sem*T*T+interj*T+sinterj*T):adjunct
+  \?(mp*Rating*T*T+intp*Rating+np*Rating*T*nom*T*ter+prepnp*Rating*sem*T*T+interj*T+sinterj*T):adjunct
+  \(1+mp*Person*T*T+intp*Person+np*Person*sg*nom*T*ter):adjunct
+  \?(1mp*Location*T*T+intp*Location+np*Location*T*T*T*ter+prepnp*Location*sem*T*T+advp*Location*T+interj*T+sinterj*T):adjunct
+  \(1+mp*Service*T*T+intp*Service+np*Service*T*nom*T*ter):adjunct
+  \(1+prepnp*Name*nosem*na*acc):adjunct
+  \(1+mp*Animal*T*T+intp*Animal+np*Animal*sg*nom*T*ter+prepnp*Animal*nosem*z*inst):adjunct
+  \(1+advp*Confirmation*T):adjunct
+  \(1+adjp*RateDescription*T*T*T):adjunct;
+#  |?(fragment):null;
+
+<sentence>: /?s:unk;
+<paragraph>: \?<sentence>:unk;
+
+<root>: /(1+<paragraph>):unk /(1+s):unk /(1+<speaker-end>):unk /(1+or):unk /(1+np*T*nom*T*T):unk /(1+ip*T*T*T):unk;
+<merge>: |?(fragment):unk;
+<conll_root>: /(ip*T*T*T+cp*int*T+np*sg*voc*T*T+interj):unk;
+
+pro: null;
+
+or: null;
+<colon>: \<speaker>:unk /(1+<squery>):unk;
+or2: \?(ip*T*T*T*T+cp*int*T+np*sg*voc*T*T+interj):unk;
+<speaker-end>: null

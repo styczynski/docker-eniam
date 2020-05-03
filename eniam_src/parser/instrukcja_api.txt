@@ -1,0 +1,25 @@
+Instrukcja uruchamiania parsera składniowo semantycznego
+na maszynie 156.17.135.4
+
+1. Uruchamianie servera preprocesingu:
+cd /home/wojciechj/Dropbox/Clarin-pl/PreProcessing
+./pre >log.txt &
+
+2. Należy poczekać aż serwer wypisze "Ready!" w log.txt
+
+3. Przetwarzanie przykładowych zdań:
+cd /home/wojciechj/Dropbox/Clarin-pl/11LCG
+./parser.api results/web "Kot aranżuje."
+./parser.api results/web "Szpak frunie."
+./parser.api results/web "Ala ma kota."
+
+Parser przyjmuje dwa argumenty z linii poleceń:
+katalog, w którym ma zapisać wyniki parsowania oraz zdanie do przetworzenia.
+Katalog musi istnieć w chwili uruchomienia parsera.
+W zadanym katalogu parser tworzy plik "log" zawierający informację
+o czasach wykonania i ewentualnych błędach.
+Jeśli parsowanie się powiodło (druga linia "log" zaczyna się od "parsed:"),
+tworzone są pliki page_{n}.html, tree_{n}.png, tree_{n}.xml, formula_{n}.mml,
+gdzie {n} to liczba od 1 do 10. Pliki te zawierają reprezentację sparsowanego 
+zdania w postaci grafu oraz formuły logicznej.
+

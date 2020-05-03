@@ -1,0 +1,650 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[polish]{babel}
+\usepackage[nottoc]{tocbibind}
+
+\usepackage{lmodern}
+
+\usepackage{titlesec}
+\titlelabel{\thetitle.\quad}
+\usepackage[dotinlabels]{titletoc}
+\usepackage{indentfirst}
+
+\usepackage{xcolor}
+\definecolor{palatinateblue}{rgb}{0.15, 0.23, 0.89}
+\definecolor{americanrose}{rgb}{1.0, 0.01, 0.24}
+\definecolor{lightred}{rgb}{1.0, 0.7, 0.5}
+
+
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
+
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{longtable}
+
+\usepackage{listings}
+\lstset{
+    breaklines=true,
+    postbreak=\raisebox{0ex}[0ex][0ex]{\ensuremath{\color{lightred}\hookrightarrow\space}},
+    basicstyle=\small\ttfamily,
+    columns=fullflexible,
+    keepspaces=true,
+    frame=single,           % adds a frame around the code
+    backgroundcolor=\color{gray!10},
+    rulecolor=\color{black!30},
+    title=\lstname,
+    framextopmargin=2pt,
+    framexbottommargin=2pt,
+    tabsize=2,
+}
+\lstset{literate=
+  {á}{{\'a}}1 {é}{{\'e}}1 {í}{{\'i}}1 {ó}{{\'o}}1 {ú}{{\'u}}1
+  {Á}{{\'A}}1 {É}{{\'E}}1 {Í}{{\'I}}1 {Ó}{{\'O}}1 {Ú}{{\'U}}1
+  {à}{{\`a}}1 {è}{{\`e}}1 {ì}{{\`i}}1 {ò}{{\`o}}1 {ù}{{\`u}}1
+  {À}{{\`A}}1 {È}{{\'E}}1 {Ì}{{\`I}}1 {Ò}{{\`O}}1 {Ù}{{\`U}}1
+  {ä}{{\"a}}1 {ë}{{\"e}}1 {ï}{{\"i}}1 {ö}{{\"o}}1 {ü}{{\"u}}1
+  {Ä}{{\"A}}1 {Ë}{{\"E}}1 {Ï}{{\"I}}1 {Ö}{{\"O}}1 {Ü}{{\"U}}1
+  {â}{{\^a}}1 {ê}{{\^e}}1 {î}{{\^i}}1 {ô}{{\^o}}1 {û}{{\^u}}1
+  {Â}{{\^A}}1 {Ê}{{\^E}}1 {Î}{{\^I}}1 {Ô}{{\^O}}1 {Û}{{\^U}}1
+  {œ}{{\oe}}1 {Œ}{{\OE}}1 {æ}{{\ae}}1 {Æ}{{\AE}}1 {ß}{{\ss}}1
+  {ű}{{\H{u}}}1 {Ű}{{\H{U}}}1 {ő}{{\H{o}}}1 {Ő}{{\H{O}}}1
+  {ç}{{\c c}}1 {Ç}{{\c C}}1 {ø}{{\o}}1 {å}{{\r a}}1 {Å}{{\r A}}1
+  {€}{{\EUR}}1 {£}{{\pounds}}1 
+  {ą}{{\k{a}}}1 {Ą}{{\k{A}}}1 {ę}{{\k{e}}}1 {Ę}{{\k{E}}}1
+  {ó}{{\'o}}1 {Ó}{{\'O}}1 {ś}{{\'s}}1 {Ś}{{\'S}}1
+  {ł}{{\l{}}}1 {Ł}{{\L{}}}1 {ż}{{\.z}}1 {Ż}{{\.Z}}1
+  {ź}{{\'z}}1 {Ź}{{\'Z}}1 {ć}{{\'c}}1 {Ć}{{\'C}}1
+  {ń}{{\'n}}1 {Ń}{{\'N}}1
+}
+\lstdefinelanguage{Ini}
+{
+    morecomment=[s][\color{palatinateblue}\bfseries]{[}{]},
+    morecomment=[l]{\#},
+    morecomment=[l]{;},
+    commentstyle=\color{gray}\ttfamily,
+    morekeywords={},
+    otherkeywords={=,:},
+    keywordstyle={\color{americanrose}\bfseries}
+}
+
+
+\author{Paweł Kędzia, Michał Moczulski}
+\title{WoSeDon -- Instrukcja}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\section{Wstęp}
+WoSeDon to narzędzie przeznaczone do ujednoznaczniania znaczeń słów (ang. \textit{Word Sense Disambiguation}). Zaprojektowane zostało do działania dla języka polskiego, jednak po odpowiednim opakowaniu tagsetu, możliwe jest również działanie na innych językach. Głównym stosowanym algorytmem, który został zaimplementowany do rozstrzygania niejednoznaczności jest algorytm PageRank. Narzędzie zawiera różne modyfikacje owego algorytmu oraz umożliwia manipulację wieloma parametrami mającymi wpływ na jakość ujednoznaczniania znaczeń leksykalnych.
+Opracowane algorytmy opisane zostały w artykułach \cite{KedziaCS2015, Kedzia2014, PiaseckiGWC2016}.
+
+
+\section{Przygotowania}
+\textbf{Uwaga!} Poniższe przykłady podane są dla systemu Ubuntu Linux. W przypadku korzystania z innej dystrybucji, należy zastąpić je odpowiednimi dla danej dystrybucji.
+Zanim przystąpimy do instalacji samego WoSeDonu musimy upewnić się iż mamy zainstalowany bibliotekę ,,Graph Tool'' (https://graph-tool.skewed.de/) z bindingami do pythona. Znajduje się ona w repozytorium najnowszych wersji Ubuntu (testowane było na 14.4 oraz 15.4), jednak nie zawsze mamy możliwość z niej skorzystania.
+
+Jeśli rzeczywiście jej nie ma musimy zacząć od zdobycia wystarczająco nowego boosta. Graph-tool wymaga co najmniej wersji 1.54, która prawie na pewno nie znajduje się w repozytorium w którym nie ma graph-toola.
+
+\subsection{Instalacja boosta}
+Jeśli boosta we w miarę nowej wersji nie ma w naszym repozytuorium musimy ręcznie go pobrać i skompilować. Na szczęście nie jest to proces skomplikowany, aczkolwiek może trwać dość długo w zależności od parametrów maszyny, na której jest on kompilowany. Najprawdopodobniej wystarczy następujący ciąg poleceń:
+
+\begin{lstlisting}[language=bash]
+$ wget http://sourceforge.net/projects/boost/files/boost/1.58.0/boost_1_58_0.zip/download -O boost.zip
+$ unzip boost.zip
+$ cd boost_1_58_0/
+$ bash ./bootstrap.sh
+$ sudo ./b2 install
+\end{lstlisting}
+
+\subsection{Instalacja graph-toola}
+Pierwszym pomysłem jest wykonanie komendy:
+
+\begin{lstlisting}[language=bash]
+$ sudo pip install graph-tool
+\end{lstlisting}
+
+Jeśli to zadziała to dobrze. Zazwyczaj jednak to nie wystarcza i musimy sami tę bibliotekę zbudować. \textit{Być może} wystarczą następujące polecenia:
+
+\begin{lstlisting}[language=bash]
+$ sudo aptitude install clang-3.4 libexpat1-dev python-scipy python-numpy libcgal-dev libsparsehash-dev python-cairo python-matplotlib libgraphviz-dev
+$ wget https://downloads.skewed.de/graph-tool/graph-tool-2.11.tar.bz2
+$ tar xvjf graph-tool-2.11.tar.bz2
+$ cd graph-tool-2.11/
+$ CXX='clang++' ./configure --with-sparsehash-prefix=/usr/include/google/
+$ make
+$ sudo make install
+\end{lstlisting}
+
+Niestety po drodze będziemy często pytani o liczne zależności (niektóre ujawnią się dopiero przy próbie uruchomienia WoSeDona). Należy cierpliwie doinstalowywać brakujące pakiety. Może pojawić się konieczność zainstalowania kompilatora C++14. W przypadku Ubuntu~12 jedyną opcją jest clang-3.4. Biblioteka sparsehash w Ubuntu jest instalowana w niestandardowej lokalizacji o czym musimy skrypt configure \textit{explicite} poinformować.
+
+\subsection{Instalacja WoSeDona}
+Musimy jeszcze zainstalować libcorpus2. Instrukcja znajduje się w \cite{libc}. Sama instalacja WoSeDonu w porównaniu z instalacją graph-toola nie stanowi wyzwania:
+
+\begin{lstlisting}[language=bash]
+$ git clone git@nlp.pwr.wroc.pl:wosedon
+$ cd wosedon/PLWNGraphBuilder
+$ sudo python setup.py install
+$ cd ../wosedon
+$ sudo python setup.py install
+\end{lstlisting}
+
+
+\section{Uruchamianie}
+
+W rozdziale znajduje się przykład uruchamiania WoSeDona. Wraz z WoSeDonem dostarczone są grafy zbudowane dla Słowosieci, znajdują się w katalogu \texttt{wosedon/resources}.
+Jeżeli użytkownik chce zbudować graf z własnej wersji Słowosieci, musi użyć narzędzia PLWNGraphBuilder, który przyjmuje jako parametr ścieżkę do konfigu bazy danych.
+
+Przykład uruchomienia \texttt{PLWNGraphBuilder}:
+\begin{lstlisting}[language=bash]
+  PLWNGraphBuilder -b baza_danych.ini -o Plwn_graph
+\end{lstlisting}
+
+Po zbudowaniu grafów synsetów i jednostek leksykalnych (w przypadku kiedy użytkownik chce wykorzystać swoje grafy zamiast dostarczonych z aplikacją) można przystąpić do ujednoznaczniania.
+
+Przykłady uruchomienia narzędzia WoSeDon:
+
+\begin{lstlisting}[language=bash]
+$ wosedon -c wosedon.ini -m ../model -V -f plik.xml -o wynik.xml
+$ wosedon -c wosedon.ini -m ../model -VVV -f spis_plikow.txt -b
+\end{lstlisting}
+
+Spis wszystkich możliwych parametrów można poznać wydając polecenie \texttt{wosedon -{}-help}. Tutaj nastąpi opis tylko najważniejszych z nich.
+\\
+
+\noindent
+\begin{tabularx}{\textwidth}{@{} l X @{}}
+\toprule
+\texttt{-c wosedon.ini} & Ścieżka do pliku konfiguracyjnego (\textit{v.} sekcja~\ref{sec:konfiguracja}.). \\ \addlinespace
+\texttt{-m ../model} & Opcjonalne. Ścieżka do katalogu z modelem\footnote{Model to gotowy graf, przechowujący informacje o synsetach i relacjach między nimi, na którym będą puszczane algorytmy.}. Jeśli katalog jest pusty zostanie utworzony nowy model i zapisany w tym katalogu. Jeśli nie, duża część pliku konfiguracyjnego zostanie zignorowana a wczytany zostanie model z katalogu. \\ \addlinespace
+\texttt{-V} & Im więcej ,V' tym więcej WoSeDon będzie pisał. Domyślnie wypisuje tylko poważne błędy na stderr. Jedno ,V' spowoduje wypisywanie ostrzeżeń, również na stderr. Kolejne poziomy tego ustawienia wypisują zwykłe informacje na stdout. \\ \addlinespace
+\texttt{-f f.xml -o r.xml} & Ujednoznacznienie pliku ,,f.xml'' zostanie zapisane jako ,,r.xml". \\ \addlinespace
+\texttt{-f s.txt -b} & Alternatywnie wobec powyższego. Pliki wypisane linia po linii w pliku ,,s.txt'' zostaną ujednoznacznione i zapisane w plikach ,,{[}nazwa pliku{]}.wosedon.xml''. \\
+
+\bottomrule
+\end{tabularx}
+
+
+
+\section{Testy jednostkowe}
+W celu uruchomienia testów jednostkowych należy stojąc w katalogu \texttt{wosedon/wosedon} wydać polecenie:
+\begin{lstlisting}[language=bash]
+$ python -m unittest discover tests/
+\end{lstlisting}
+
+
+
+\section{Konfiguracja}
+\label{sec:konfiguracja}
+Plik konfiguracyjny jest zwykłym plikiem tekstowym w formacie .ini. Opisuje on sposób budowy modelu oraz algorytm ujednoznaczniania. Jeśli opcja przyjmuje wiele argumentów podajemy je oddzielone odstępami. Jeśli wymagana jest lista par podajemy ją w postaci \texttt{klucz1:wartosc1 klucz2:wartosc2}.
+
+Poniżej przedstawimy opis wszystkich możliwych ustawień z podziałem na sekcje pliku. Przykłady konfiguracji zostaną podane w sekcji \ref{sec:przyklady}, a także można je znaleźć w repozytorium WoSeDonu w katalogu \texttt{wosedon/cfg}.
+
+\subsection{\texttt{wosedon}}
+Ta sekcja zawiera najbardziej podstawowe opcje, determinuje co będzie ustawiane w pozostałych sekcjach.
+
+\paragraph{context}
+WoSeDon poszukuje znaczeń słów na podstawie kontekstu, czyli słów sąsiednich. Ta opcja mówi które słowa mają zostać uznane za sąsiednie. Możliwe są dwie wartości:
+\begin{itemize}
+	\item Document -- cały dokument
+	\item Sentence -- tylko obecne zdanie
+\end{itemize}
+
+
+\paragraph{gbuilders}
+Jakie grafy podać algorytmom. Wszystkie algorytmy wymagają by pierwszym był graf synsetów. Do niego można dołączyć (\textit{v.} mergers, \ref{par:mergers}) dowolny inny, ale na razie tylko jeden. Na chwilę obecną znane są następujące typy grafów:
+\begin{itemize}  %TODO czym jest WND?
+	\item SynsetGraphBuilder -- podstawowy graf synsetów, musi zostać użyty. Wierzchołkami jego są synsety, krawędziami zaś relacje międzysynsetowe ze Słowosieci, o nazwach w stylu ,,s11'' albo ,,s23''. Są to identyfikatory relacji z bazy poprzedzone literą ,s'.
+	\item LexicalUnitGraphBuilder -- również graf na podstawie Słowosieci, jego wierzchołkami są jednostki leksykalne a krawędziami relacje między nimi, o nazwach w stylu ,,l11'' albo ,,l23'' -- identyfikatory z bazy danych poprzedzone znakiem ,l'.
+	\item MSRGraphBuilder  -- graf zbudowany na podstawie plików \texttt{k-best}. Wierzchołki to jednostki leksykalne zaś krawędzie to ,,podobieństwo''. Jako że pliki te traktują każdą krawędź indywidualnie, jako nazwę posiadają krawędzie słowo puste.
+	\item BidirectionalMSRGraphBuilder  -- to samo co \texttt{MSRGraphBuilder} ale bierze pod uwagę wyłącznie symetryczne relacje.
+	\item WNDGraphBuilder  -- graf WordNet Domains. Zawiera wyłącznie krawędzie ,,isa''.
+	\item SUMOGraphBuilder -- graf opisujący relacje zawierania się znaczeń. Wierzchołkami są anglojęzyczne koncepty SUMO, relacją zaś może być: ,,instance'', ,,subclass'', ,,subrelation'' albo ,,subAttribute''.
+	\item CCLGraphBuilder -- graf informacji wyciągniętych z korpusu ,,Składnica znaczeń''. Wierzchołkami są synsety. Relacje mówią jak blisko występowały razem: ,,in\_sentence'', ,,in\_paragraph'' oraz ,,in\_document''.
+\end{itemize}
+
+
+\paragraph{mergers}
+\phantomsection\label{par:mergers}
+Opcja wskazuje jak połączyć grafy zbudowane przy pomocy \texttt{gbuilders}. Obecnie sensownym jest podanie jednego tylko \textit{merger} i to wyłącznie w przypadku gdy używane są dwa \textit{gbuilders}.
+
+Istnieją dwa podejścia do łączenia grafów. Można grafy \emph{łączyć}, tzn. utworzyć nowe krawędzie między wierzchołkami obu grafów. Drugą możliwością jest \emph{rzutować} jeden graf na drugi, tj. krawędziami z jednego grafu połączyć wierzchołki drugiego, po czym o całym pierwszym grafie zapomnieć.
+
+WoSeDon korzysta z obu tych podejść, co zawyża liczbę \textit{mergers}. Te rzutujące są istotnie wolniejsze od dołączających. Możliwe wartości to:
+\begin{itemize}
+	\item SynsetsLUMerger -- dołącza graf LU do grafu synsetów. Dodaje krawędzie ,,syn-lu''.
+	\item SynsetsLUMerger2 -- rzutuje graf LU na graf synsetów
+	\item SynsetsSUMOMerger -- dołącza graf SUMO do grafu synsetów. Wymaga odpowiedniego pliku z rzutowaniem. Dodaje krawędzie ,,syn-sumo''.
+	\item SynsetsSUMOMerger2 -- rzutuje graf SUMO na graf synsetów. Wymaga odpowiedniego pliku z rzutowaniem.
+	\item SynsetsWNDMerger -- dołącza graf WND do grafu synsetów. Wymaga odpowiedniego pliku z rzutowaniem. Dodaje krawędzie ,,syn-wnd''.
+	\item SynsetsWNDMerger2 -- rzutuje graf WND na graf synsetów. Wymaga odpowiedniego pliku z rzutowaniem.
+	\item SynsetsMSRMerger -- dołącza graf MSR do grafu synsetów. Dodaje krawędzie ,,syn-msr''.
+	\item SynsetsCCLMerger -- rzutuje graf CCL na graf synsetów
+\end{itemize}
+
+
+\paragraph{wsdalgorithm}
+%TODO to wszystko trzeba zbadać i lepiej opisać
+Wybór algorytmu do ujednoznaczniania. Większość z nich to różne warianty PageRanka (o czym poczytać można w \cite{pr}). Do wyboru są:
+\begin{itemize}
+	\item GTPersonalizedPR
+	\item GTPersonalizedPRNorm
+	\item GTPersonalizedPRNorm2
+	\item GTPersonalizedPRNormIt
+	\item GTPersPRNormModV
+	\item GTPersPRNormItModV
+	\item GTPersPRNormItModVRankNorm
+	\item GTPersonalizedPRNormReduction
+	\item GTPersonalizedPRNormTwoStep\footnote{Ważne jest aby w pliku konfiguracyjnym ustawić parametr ini\_nodes = sumo.} %TODO czy mogą/muszą być ustawione inne, w szczególności synsets?
+	\item GTPersonalizedW2WPR
+	\item GTPersonalizedW2WPRNorm
+	\item GTStaticPR
+	\item LeskAlg -- algorytm porównujący słowa z kontekstu ze słowami z definicji synsetu przy pomocy wybranej funkcji (\textit{v.} \ref{subsec:alg_opt}). Wykorzystuje plik \texttt{gloss\_file}.
+	\item PaintballWSD -- każdy węzeł otrzymuje początkowe pobudzenie i nie tracąc go przekazuje je dalej. Wykorzystuje tabelę impedancji. Więcej informacji można znaleźć w pracy \cite{pb}.
+	\item GTSUDOKURun2 %TODO co to jest?
+\end{itemize}
+
+
+\paragraph{rerankers}
+%TODO co to jest wariant?
+Algorytmy tworzą dla każdego słowa z kontekstu ranking synsetów dla niego. Synset o najlepszej pozycji w rankingu zostanie wybrany jako znaczenie słowa. Zanim to jednak nastąpi można użyć rerankera, który przebuduje ranking po swojemu, być może poprawiając wyniki. Obecnie dostępne są następujące rerankery (można podać wiele na raz, poodzielane spacją):
+\begin{itemize}
+	\item LemmaRankingNormalizer -- normalizuje ranking dla każdego lematu do przedziału $\langle0, 1\rangle$
+	\item NodeDegreeRanker -- wartość każdego synsetu mnoży przez stopień jego węzła w grafie
+	\item LemmaRankingFirstSelecter -- jeśli drugi wg rankingu synset jest mniej niż \texttt{percentage\_diff}(\textit{v.} \ref{sec:rerank_opt}) procent mniejszy od pierwszego, wybierany jest ten z nich, który posiada najmniejszy wariant.
+	\item LemmaRankingSelecter -- jw., ale z pierwszym porównywane są wszystkie pozostałe które różnią się od niego o mniej niż \texttt{percentage\_diff}
+	\item AContentReranker  %TODO co to jest?
+\end{itemize}
+
+
+\paragraph{use\_weights}
+\texttt{True} lub \texttt{False}. Jeśli \texttt{False} to każda krawędź otrzyma wagę 1. (włącznie z krawędziami MSR, które dostały już indywidualne wagi. W przeciwnym wypadku użyta zostanie opcja ,,weights'' by nadać krawędziom wagi, a każdy brak poskutkuje stosownym ostrzeżeniem.
+
+
+\paragraph{weights}
+Lista par oddzielonych spacjami, każda para jest w postaci ,,a:b''. Pierwszy element pary oznacza nazwę krawędzi której dotyczy (np. ,,s23'' albo ,,syn-lu''). Drugim elementem jest waga zapisana jako ułamek dziesiętny rozdzielony kropką. Każdy algorytm może swobodnie interpretować tę właściwość, jednak zazwyczaj preferują wagi mniejsze od 1, im wyższa waga tym ważniejsza krawędź. Każda krawędź nie uwzględniona w tym spisie otrzyma wagę 0.
+
+
+
+
+\subsection{\texttt{wosedon:resources}}
+W tej sekcji przede wszystkim znajdują się ścieżki do zasobów używanych przy budowie modeli albo w algorytmach. Większość zasobów powinna znajdować się w repozytorium WoSeDonu, w katalogu \texttt{wosedon/resources}, o którym więcej w sekcji \ref{sec:resources_dir}.
+
+\begin{longtable}{l l}
+\toprule
+Opcja & Opis \\
+\midrule
+sumo\_graph\_file & ścieżka do pliku z grafem SUMO \\ \addlinespace
+mapping\_sumo\_file & ścieżka do pliku z mapowaniem Słowosieci na SUMO \\ \addlinespace
+ccl\_graph\_file & ścieżka do pliku z grafem CCL \\
+wnd\_graph\_file & ścieżka do pliku z grafem WND \\ \addlinespace
+mapping\_wnd\_file & ścieżka do pliku z mapowaniem Słowosieci na WND \\ \addlinespace
+msr\_file & ścieżka do pliku z grafem MSR \\
+plwn\_graph\_file & ścieżka do pliku z grafem Słowosieci \\ \addlinespace
+gloss\_file & ścieżka do pliku ze słownymi definicjami synsetów \\ \addlinespace
+gloss\_rel\_file & nieużywany \\ \addlinespace
+impedance\_table & ścieżka do tabeli impendancji dla algorytmu Paintball \\ \addlinespace
+tagset & tagset korpusu który będziemy przetwarzać \\
+\bottomrule
+\end{longtable}
+
+
+\subsection{\texttt{wosedon:build\_options}}
+Są to wspólne ustawienia dla wszystkich budowniczych grafów, choć część wymienionych tu opcji jest rozpoznawana tylko przez budowniczych grafów ze Słowosieci, tzn. SynsetGraphBuilder oraz LexicalUnitGraphBuilder.
+
+Uwaga: te wszystkie opcje służą do budowy modelu. Jeśli wczytywany jest gotowy model wszystkie zostaną zignorowane.
+
+\paragraph{unique\_edges}
+Jeśli opcja ta przyjmuje wartość \texttt{True} z grafu zostaną usunięte powtarzające się krawędzie, tj. jeśli dwa wierzchołki są połączone wieloma krawędziami (nawet różnych typów) to pozostawiona zostanie tylko jedna. Nie ma możliwości ustalenia która.
+
+\paragraph{directed\_graphs}
+Gdy zostanie ustawiona na \texttt{False} każda krawędź grafu będzie uważana za nieskierowaną.
+
+\paragraph{syn\_rel\_ids}
+Opcja używana tylko przez SynsetGraphBuilder. Lista numerów relacji międzysynsetowych (pooddzielanych odstępami) które mają zostać \emph{zachowane}. Wszystkie pozostałe relacje zostaną usunięte z grafu. W przypadku gdy lista jest pusta zachowane zostaną wszystkie krawędzie. 
+
+\paragraph{lu\_rel\_ids}
+To samo co powyższe, ale dotyczy grafu jednostek leksykalnych i jest używane tylko przez LexicalUnitGraphBuilder.
+
+\paragraph{accept\_pos}
+Dotyczy wyłącznie grafów Słowosieci. Podobnie jak powyższe opcje specyfikuje które części mowy (w postaci liczby) powinny zostać zachowane. Wierzchołki o niewypisanych częściach mowy zostaną usunięte. Wybierać można spośród następujących części:
+
+\begin{longtable}{l l}
+\toprule
+Część mowy & Opis \\
+\midrule
+1 & czasownik \\
+2 & rzeczownik \\
+3 & przysłówek \\
+4 & przymiotnik \\
+5 & angielski czasownik \\
+6 & angielski rzeczownik \\
+7 & angielski przysłówek \\
+8 & angielski przymiotnik \\
+\bottomrule
+\end{longtable}
+
+\paragraph{add\_reversed\_edges}
+Opcja rozpoznawana tylko przez dwóch budowniczych grafów Słowosieci. Pozwala dodać podczas budowy przeciwne krawędzie dla pewnych relacji. Przyjmuje listę (rozdzieloną odstępami) par \texttt{a:b}, gdzie ,,a'' to identyfikator już istniejącej relacji Słowosieci zaś ,,b'' to identyfikator nowej relacji (koniecznie liczba całkowita), powstałej przez odwrócenie wszystkich krawędzi starej.
+
+Tego identyfikatora można i należy używać w pozostałych opcjach, w szczególności w \texttt{syn\_rel\_ids}. Nowa relacja może otrzymać identyfikator już będący w użyciu. W szczególności używając tego samego identyfikatora co relacja pierwotna można wybraną relację uczynić nieskierowaną.
+
+
+\paragraph{accept\_lexicon} %TODO co to jest?
+Dopuszczalne wartości to: Słowosieć\_2.2, Princeton\_3.0 oraz AContent\_1.0.
+
+
+
+\subsection{\texttt{wosedon:merge\_options}}
+Będą to wspólne ustawienia dla wszystkich mergerów. Sekcja ta na razie jest pusta. Uwaga: te wszystkie opcje będą służyły do budowy modelu. Jeśli wczytywany będzie gotowy model wszystkie zostaną zignorowane.
+
+
+
+\subsection{\texttt{wosedon:rerank\_options}}
+\label{sec:rerank_opt}
+Ta sekcja zawiera ustawienia rerankerów. Na razie istnieje tylko jedna opcja: \texttt{percentage\_diff}. Mówi ona o ile najwyżej procent dany synset może mieć niższy ranking od najlepszego, aby dalej rozważać jego kandydaturę.
+
+\subsection{\texttt{wosedon:wsd\_alg}}
+\label{subsec:alg_opt}
+Tu znaleźć można ustawienia wszystkich algorytmów. Oczywiście interpretacja poniższych wartości całkowicie zależy od wybranego algorytmu.
+
+\paragraph{damping\_factor}
+Najczęściej jest to liczba przez którą przemnażane są wszystkie wartości gdy przechodzą po dowolnej krawędzi. Czasem synonimem zmieniania tej wartości jest zmiana wszystkich wag tyle samo krotnie. Najczęściej używa się wartości 0,85.
+
+\paragraph{max\_iter} %TODO odkryć nieznane przyczyny
+Po ilu iteracjach algorytm powinien się zatrzymać. Z nieznanych przyczyn liczba ta bywa później mnożona przez 2.
+
+\paragraph{ini\_nodes} %TODO co to tak naprawdę robi? co trzeba inicjować a co można?
+Lista typów węzłów do zainicjowania, rozdzielana odstępami. Możliwe wartości to: synset, sumo, wnd oraz msr.
+
+\paragraph{lesk\_function}
+Funkcja której ma użyć algorytm Lesk. Możliwe opcje:
+
+\subparagraph{ExampleFunction} Przykładowa funkcja, nie warto używać.
+
+\subparagraph{Intersection} Liczy ile słów z definicji znajduje się w kontekście.
+
+\subparagraph{Cosine} Cosinus wektorowy między wektorem kontekstu a wektorem wierzchołka. Wektor kontekstu to dla każdego słowa liczba jego wystąpień w kontekście. 
+
+Wektor wierzchołka powstaje podobnie. Dla wierzchołka tworzymy worek słów, tj. każdemu słowu występujacemu w definicji przypisujemy liczbę 1. Następnie dodajemy do niego worki słów sąsiadów, przemnożone przez \texttt{damping\_factor} oraz wagę krawędzi wiodącej do tego sąsiada. Worki sąsiadów powstały podobnie, chodzimy po grafie BFS-em na odległość \texttt{max\_iter}.
+
+Taki worek tworzy nam nowy wektor wierzchołka.
+
+
+\paragraph{lesk\_filter}
+Filtr słów do leska. Lesk bierze pod uwagę tylko te słowa z definicji które zostaną przepuszczone przez filtr. Możliwe wartości:
+\begin{itemize}
+	\item No -- zabrania wszystkiego, prawdopodobnie bezużyteczny
+	\item Yes -- domyślna wartość, pozwala na wszystko
+	\item Words -- zabrania słów wypisanych w pliku
+	\item POS -- zabrania części mowy (w sensie tagsetu, nie liczb ze Słowosieci) wypisanych w pliku
+	\item WordsPOS -- zabrania słów o określonej części mowy wypisanych w pliku. Linia pliku powinna być w formacie ,,słowo; część mowy''. Oba człony mogą mieć wartość ,,*'', która pasuje do dowolnej wartości.
+\end{itemize}
+
+
+
+\subsection{\texttt{wosedon:lesk\_filter}}
+Ustawienia filtra dla Leska. Na razie istnieją tylko dwie opcje:
+\begin{itemize}
+	\item list\_file -- ścieżka do pliku z lista rzeczy do odfiltrowania
+	\item allow\_only -- odwraca filtr. Jeśli ustawione na \texttt{True}, tylko słowa znajdujące się w pliku będą dozwolone. W przeciwnym wypadku plik będzie zawierał definicje rzeczy zakazanych.
+\end{itemize}
+
+\section{Przykłady}
+\label{sec:przyklady}
+Oto kolejne przykłady najczęstszych zadań.
+
+\subsection{Najprostszy przypadek}
+Najprostsze i najbardziej standardowe ustawienia. Należy tu zwrócić szczególną uwagę na fakt, że nie odfiltrowujemy angielskich słów z bazy Słowosieci, co oznacza że WoSeDon ich użyje.
+
+%TODO czym jest to ini_nodes???
+\begin{lstlisting}[language=Ini]
+[wosedon]
+context = Document   ; zdanie jest zbyt małym kontekstem
+gbuilders = SynsetGraphBuilder   ; musimy użyć grafu synsetów
+wsdalgorithm = GTPersonalizedPRNorm2   ; najlepszy algorytm działający w sensownym czasie
+
+[wosedon:resources]
+plwn_graph_file = PLWN_06-07-2015/PLWN_graph   ; plik z grafem. Trzeba zwrócić uwagę na brak końcówki: '_syn.xml.gz' zostanie dodane przez program.
+tagset = nkjp   ; już chyba wszystko używa tego tagsetu
+
+[wosedon:build_options]
+directed_graphs = False   ; graf nieskierowany, dzięki temu mamy więcej połączeń w grafie i wyniki są lepsze
+
+[wosedon:merge_options]
+
+[wosedon:wsd_alg]
+damping_factor = 0.85   ; standardowe ustawienie
+max_iter = 15   ; standardowe ustawienie
+ini_nodes = synset
+
+\end{lstlisting}
+
+\subsection{Bez angielskiego, z sumo}
+Tak jak wyżej, ale tym razem dołączymy również graf SUMO, a także usuniemy angielską część grafu Słowosieci.
+
+\begin{lstlisting}[language=Ini]
+[wosedon]
+context = Document
+gbuilders = SynsetGraphBuilder SUMOGraphBuilder   ; dodajemy graf SUMO
+mergers = SynsetsSUMOMerger   ; dołączamy go stosownym mergerem
+wsdalgorithm = GTPersonalizedPRNorm2
+
+[wosedon:resources]
+sumo_graph_file = sumo_graph   ; plik z grafem sumo
+mapping_sumo_file = PLWN_06-07-2015/plwn2sumo_automap_rules_06-07-2015_resolved-rreduced-bulbuled-oknaked-corec-serdel-rubin.csv   ; mapowanie grafu sumo na Słowosieć
+plwn_graph_file = PLWN_06-07-2015/PLWN_graph
+tagset = nkjp
+
+[wosedon:build_options]
+directed_graphs = False
+accept_pos = 1 2 3 4   ; zostawiamy w grafie tylko polskie synsety, czyli te o polskich częściach mowy
+
+[wosedon:merge_options]
+
+[wosedon:wsd_alg]
+damping_factor = 0.85
+max_iter = 30   ; na wszelki wypadek
+ini_nodes = synset   ; nie inicjujemy wierzchołków sumo, potrafi to pogorszyć wyniki
+
+\end{lstlisting}
+
+\subsection{Krawędzie i wagi}
+Niektóre relacje we Słowosieci z różnych przyczyn są tylko w jedną stronę, ale nie w każdym przypadku jest to dobrze. Jeśli używamy grafu skierowanego możemy chcieć dodać relacje przeciwne do niektórych. Poza tym przypiszemy krawędziom wagi.
+
+W przykładzie tym należy zwrócić uwagę na fakt że opcje budowy dotyczą wewnętrznych spraw grafu, a zatem grafy Synsetów oraz LU używają na tym etapie swoich wewnętrznych identyfikatorów, czyli nazw relacji ze Słowosieci. Na końcu do wszystkich identyfikatorów (włącznie z tymi utworzonymi przez \texttt{add\_reversed\_edges}) dodają stosowny prefix.
+
+\begin{lstlisting}[language=Ini]
+[wosedon]
+context = Document
+gbuilders = SynsetGraphBuilder 
+wsdalgorithm = GTPersonalizedPRNorm2
+
+use_weights = true   ; będziemy używać wag
+weights = s11:0.7 s12:0.1 s30:0.5 s10000030:0.23   ; nadajemy wagi relacjom
+
+[wosedon:resources]
+plwn_graph_file = PLWN_06-07-2015/PLWN_graph
+tagset = nkjp
+
+[wosedon:build_options]
+unique_edges = True   ; tylko unikalne krawędzie
+directed_graphs = True   ; graf skierowany
+add_reversed_edges = 30:10000030   ; dodajemy relacje przeciwną do relacji '30'
+syn_rel_ids = 11 12 30 10000030   ; tylko te relacje nas interesują
+
+[wosedon:merge_options]
+
+[wosedon:wsd_alg]
+damping_factor = 0.85
+max_iter = 15
+ini_nodes = synset
+
+\end{lstlisting}
+
+\subsection{Lesk}
+Użyjemy algorytmu Lesk.
+
+\begin{lstlisting}[language=Ini]
+[wosedon]
+context = Document
+gbuilders = SynsetGraphBuilder
+wsdalgorithm = LeskAlg   ; wybieramy Leska
+
+[wosedon:resources]
+plwn_graph_file = PLWN_06-07-2015/PLWN_graph
+gloss_file = gloss_12-03-2015_Iobber_Defender_Npsemrel_Wsd_Sumo_Malt.xml   ; potrzebny jest plik z definicjami dla synsetów
+tagset = nkjp
+
+[wosedon:build_options]
+[wosedon:merge_options]
+
+[wosedon:wsd_alg]
+damping_factor = 0.85
+max_iter = 3   ; nie potrzeba dużo
+ini_nodes = synset
+lesk_function = Cosine   ; jedyna prawdziwa funkcja
+lesk_filter = Words    ; najprostszy filtr
+
+[wosedon:lesk_filter]
+list_file = poses   ; plik z listą słów do filtrowania
+allow_only = True   ; tylko słowa na liście są brane pod uwagę
+\end{lstlisting}
+
+
+
+\section{Inne narzędzia w repozytorium}
+
+\subsection{CclExtractor}
+Jest to narzędzie do tworzenia grafu CCL na podstawie korpusu w tym formacie.
+
+Instalacja:
+\begin{lstlisting}[language=bash]
+$ cd CclExtractor
+$ sudo python setup.py install
+\end{lstlisting}
+
+Opcje:
+\begin{itemize}
+	\item \texttt{-i} -- lista plików do przetworzenia
+	\item \texttt{-o} -- plik wynikowy
+	\item \texttt{-d} -- jeśli ustawione generowane będą krawędzie ,,in\_document'', co jest powolne i raczej bezużyteczne
+	\item \texttt{-p} -- jeśli ustawione generowane będą krawędzie ,,in\_paragraph''
+	\item \texttt{-s} -- jeśli ustawione generowane będą krawędzie ,,in\_sentence''
+	\item \texttt{-b} -- jeśli ustawione, dla każdej pary wierzchołków utworzona zostanie co najwyżej jedna krawędź, ta najlepszego znalezionego typu
+\end{itemize}
+
+Przykłady:
+\begin{lstlisting}[language=bash]
+$ CclExtractor -i a.ccl -o g.xml -d
+$ CclExtractor -i a.ccl b.ccl c.ccl -o g.xml -b -p -s
+\end{lstlisting}
+
+
+\subsection{PLWNGraphBuilder}  %TODO ustalić fakty
+Łączy się z bazą Słowosieci i tworzy na jej podstawie dwa grafy: synsetów oraz jednostek leksykalnych. Na chwilę obecną nie wydaje się działać.
+
+
+\subsection{Resolver}
+Skrypt przyjmuje jeden korpus ujednoznaczniony na dwa różne sposoby i łączy wyniki ujednoznacznienia. W pierwszej kolejności patrzy na pierwszą metodę. Jeśli wg niej któreś słowo jest niepewne, tzn. znaczenie o najwyższym rankingu nie różni się wiele od znaczeń o niższych rankingach, wszyscy potencjalni kandydaci są oceniani na nowo wynikami drugiej metody.
+
+Instalacja:
+\begin{lstlisting}[language=bash]
+$ cd Resolver
+$ sudo python setup.py install
+\end{lstlisting}
+
+Opcje:
+\begin{itemize}
+	\item \texttt{-f, -{}-file-list} -- ścieżka do pliku zawierającego ścieżki względne (wobec obu folderów wejściowych) do plików mających być przetwarzane
+	\item \texttt{-i, -{}-input-dir} -- pierwszy katalog wejściowy, z korpusem ujednoznacznionym główną metodą
+	\item \texttt{-j, -{}-input-dir2} -- drugi katalog wejściowy, z korpusem ujednoznacznionym pomocniczą metodą
+	\item \texttt{-o, -{}-output-dir} -- katalog w którym mają być składowane wyniki
+	\item \texttt{-d, -{}-diff} -- różnica względem najlepszego wyniku dla kandydatów wybieranych względem pomocniczego rankingu, jako ułamek dziesiętny rozdzielany kropką
+\end{itemize}
+
+Przykłady:
+\begin{lstlisting}[language=bash]
+$ Resolver -f lista.txt -i kpwr-GTPersonalizedPRNorm2/ -j kpwr-LeskAlg/ -o wyniki/ -d 0.3
+\end{lstlisting}
+
+
+\subsection{average\_path\_length.py}
+Skrypt z katalogu \texttt{tools/}, służy do sprawdzania średniej długości ścieżki w grafie oraz jego spójności. Robi to poprzez serię prób przejścia między dwoma losowo wybranymi (z powtórzeniami) wierzchołkami. Próby trwają tak długo aż zostaną przerwane przez użytkownika.
+
+Dotychczasowy wynik jest wypisywany na bieżąco: ,,trial'' oznacza numer obecnej próby, ,,average lenght'' średnią długość ścieżki, zaś ,,unconnected'' procent niepołączonych wierzchołków.
+
+Pierwszym parametrem jest ścieżka do pliku z grafem w formacie graph-toola, czyli np. model WoSeDonu. Drugi parametr jest opcjonalny, jeśli jest obecny potrafi zmienić skierowanie grafu.
+
+Przykłady:
+\begin{lstlisting}[language=bash]
+$ python average\_path\_length.py graph.xml
+$ python average\_path\_length.py graph.xml directed
+$ python average\_path\_length.py graph.xml undirected
+\end{lstlisting}
+
+
+\subsection{corpus\_statistic.py}  %TODO rozwinąć
+Narzędzie do zbierania statystyk na temat korpusu.
+
+\subsection{make\_xml\_file\_from\_gloss.py}  %TODO rozwinąć
+Generuje plik XML dla gloss z PLWN.
+
+
+\subsection{evaluation-kpwr.py, evaluation-sz.py} %TODO rozwinąć
+Skrypty (z katalogu \texttt{wosedon/wosedon}) do oceniania wyników działania WoSeDonu na korpusach odpowiednio ,,kpwr'' oraz ,,skladnica\_znaczen''.
+
+Przykład (dla składnicy wystarczy zmienić ,,kpwr'' na ,,sz''):
+\begin{lstlisting}[language=bash]
+evaluation-kpwr.py \
+  -i index_wsd.txt.wosedon \  # lista plikow wejsciowych
+  -r results/result.csv \     # trzy pliki wynikowe
+  -p results/precision.csv \
+  -rc results/recall.csv \
+  -d db_06-07-2015 \  # polaczenie z baza danych
+  -t nkjp             # tagset
+\end{lstlisting}
+
+
+\subsection{prec\_general.py}
+Podsumowuje plik precyzji (ten którego ścieżka jest wartością parametru -p skryptów evaluation-*) i wypisuje (na stdout) ogólną informację o precyzji dla rzeczowników, czasowników oraz średnią z obu. Przyjmuje tylko jedną opcję, \texttt{-p}, czyli plik precyzji. Przykład:
+
+\begin{lstlisting}[language=bash]
+prec_general.py -p results/precision.csv
+\end{lstlisting}
+
+
+\section{Zawartość resources}
+\label{sec:resources_dir}
+Katalog ten zawiera zasoby do wykorzystania w pliku konfiguracyjnym WoSeDoNu. Znajduje się tam wiele plików plików, tu wypiszemy tylko skąd brać te najlepsze. Wszystkie ścieżki są względne wobec katalogu \texttt{wosedon/resources}.
+
+\begin{itemize}
+	\item sumo\_graph\_file = \texttt{sumo\_graph}
+	\item mapping\_sumo\_file = \texttt{sumo\_mapping-26.05.2015-Serdel.csv}
+	\item wnd\_graph\_file = ???  %TODO uzupełnić
+	\item mapping\_wnd\_file = ???
+	\item msr\_file = ???
+	\item plwn\_graph\_file = \texttt{PLWN\_06-07-2015/PLWN\_graph}
+	\item impedance\_table = \texttt{inhibit\_chain\_syn0.csv}
+	\item gloss\_file, gloss\_rel\_file -- trzeba je rozpakować z archiwum \\
+		\texttt{PLWN\_12-03-2015/gloss\_12-03-2015.zip}, używamy plików \\ \texttt{gloss\_12-03-2015\_Iobber\_Defender\_Npsemrel\_Wsd\_Sumo\_Malt}.
+	\item połączenie z bazą danych -- \texttt{PLWN\_06-07-2015/db\_06-07-2015}, przy czym trzeba uważać, gdyż ,,serwer'' ma zmienne IP i może wystąpić konieczność ręcznej zmiany pliku
+
+\end{itemize}
+
+
+\bibliographystyle{plain}
+\bibliography{sample}
+
+\end{document}

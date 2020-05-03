@@ -1,0 +1,18 @@
+ENIAM do działania wymaga zainstalowanego pakietu graphviz.
+
+Po rozpakowaniu paczki należy uruchomić serwer:
+./parser -p 1234 -m 2> log.txt &
+Poczekać aż w log.txt pojawi się napis "Ready!".
+
+Uruchamianie api z zapisem wyniku do katalogu results/tt:
+./parser.api --port 1234 -r results/tt
+
+Api pobiera linie tekstu ze standardowego wejścia
+(po jednym akapicie w wersie).
+Pusta linia oznacza koniec tekstu.
+Następnie generuje wynik parsowania do wskazanego katalogu.
+Testować należy na razie na prostych zdaniach np.:
+"Kot aranżuje. Kot miauczy. Kot..."
+bo chwilowo przetwarzanie niektórych konstrukcji językowych jest wyłączone.
+
+Postać html'a generowanego w wyniku mogę dopasować w razie potrzeby.

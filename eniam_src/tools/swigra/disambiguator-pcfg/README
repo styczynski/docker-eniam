@@ -1,0 +1,11 @@
+Katalog zawiera pliki źródłowe dezambiguatora dla lasów składniowych w formacie Świgra/Składnica oraz:
+
+pcfg-grammar.pkl - gramatyka pcfg slużąca do dezambiguacji
+skrypt make-model.py służy do stworzenia nowej gamatyki
+
+skrypt disamb-tree.py służy do automatycznej anotacji ujednoznacznionego drzewa
+
+sposób użycia:
+
+    python disamb-tree.py sciezka/do/nazwa_pliku_wejsciowego.xml
+    skrypt utworzy plik sciezka/do/nazwa_pliku_wejscioweg-disamb.xml

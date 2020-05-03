@@ -1,0 +1,30 @@
+#! /bin/bash
+#
+# Author: Marcin Woliński
+# This file is in the public domain.
+
+swigradir=`dirname $0`
+
+if [ $# -eq 0 ]; then
+    pliki=*.forest
+else
+    pliki=$*
+fi
+
+
+for i in $pliki
+  do
+    dirname=`dirname $i`
+    rdzen=`basename $i .forest`
+    fullname=$dirname/$rdzen.forest
+    outname=$dirname/$rdzen.xml
+
+    echo $fullname ' ==> ' $outname
+    swipl -t halt -g "['$fullname','$swigradir/forest2xml'],f2x" >$outname
+    
+done
+
+### Local Variables: 
+### coding: utf-8
+### mode: shell-script
+### End: 

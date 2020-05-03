@@ -1,0 +1,50 @@
+(* w definicjach pól typy wartości są zawsze takie jak nazwy pól *)
+type piłka = {rozmiar; kolor; położenie; rodzaj; tworzywo; czas_stworzenia}
+(* mozna dodać "przeznaczenie" *)
+
+(* definicja wartościami cech zdefiniowanymi za pomocą typów *) 
+let moja_piłka = {rozmiar=duża; kolor=zielony; położenie=pod stołem; rodzaj=dmuchana; tworzywo=plastik; czas_stworzenia=2 lata temu}
+
+(* definicja wartościami cech zdefiniowanymi za pomocą instancji, albo singletonowych typów *) 
+let moja_piłka_exact = {rozmiar=średnica 30cm; kolor=0,190,0; położenie=92E,120N,123H; czas_stworzenia=2014-06-25 8:35 CEST}
+
+(* typy to zbiory indywiduów *)
+(* kolor to nazwa cechy a zielony to jej wartość *)
+type kolor = {r: int; g: int; b: int}
+type zieleń = subtype of kolor (* Słowosieć *)
+type zielony = zieleń
+
+type pod_stołem = subtype miejsce
+type miejsce = położenie
+
+let moj_stoł = {położenie=92E,120N,124H}
+let moje_pod obiekt = {obiekt.położenie with H=obiekt.położenie.H - 1}
+
+type kolor_piłki = subtype kolor
+type kolor_fun = obiekt -> kolor
+
+let moja_kolor_fun obiekt = obiekt.kolor
+
+let zielona_piłka = {piłka where kolor=zielony}
+let kolor_piłki = kolor_fun piłka = piłka.kolor = {kolor where piłka.kolor = this}
+
+zielony(z), piłka(p), attr(p,z)
+(* attr(p,z) zwraca true wtw. 
+     cecha p, która jest zgodna typem z z ma wartość zgodną z z, 
+     albo prościej: z jest cechą p
+   w drugim przypadku obiekty są zbiorami (wartości) cech a nie rekordami *)
+
+kolor(k), piłka(p),  poss(k,p)
+(* poss(k,p) zwraca true wtw.
+     cecha p, która jest zgodna typem z k ma wartość zgodną z k, 
+*)
+
+(* podobnie ojciec Stefana *)
+let ojciec osoba = osoba.ojciec
+
+Wyłuskiwanie cechy () vs nadawanie wartości cesze (zawężenie znaczenia podrzędnika).
+
+(* piłka Franciszka - sytuacja jest inna bo mamy tu relację poss, piłka może 
+mieć właściciela a właściciel piłkę *)
+
+

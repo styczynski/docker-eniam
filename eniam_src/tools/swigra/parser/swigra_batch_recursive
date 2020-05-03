@@ -1,0 +1,67 @@
+#! /bin/bash 
+# Wsadowe wywołanie parsera
+#
+# Author: Marcin Woliński
+# This file is in the public domain.
+
+swigradir=`dirname $0`
+parser=gfjp-bin
+
+while getopts :12 OPT; do
+    case $OPT in
+	1)
+	    parser=gfjp-bin
+	    ;;
+	2)
+	    parser=gfjp2-bin
+	    ;;
+	*)
+	    echo "usage: ${0##*/} [-12] "
+	    exit 2
+    esac
+done
+shift $(( OPTIND - 1 ))
+OPTIND=1
+
+echo >>log
+echo "====" `date` "====">>log
+
+exec 2>>log
+
+# ograniczenie czasu liczenia (w sekundach):
+#let timelimit=4*60*60 # 2002/12/18
+#let timelimit=8*60 # aprzyk9
+#let timelimit=12*60 # 
+#let timelimit=60*60 # 2003/11/07
+let timelimit=8*60
+
+#let timelimit=30   # KIPI
+
+ulimit -v 500000
+
+for d in */*/; do
+    (echo $d
+    cd $d
+    for i in *.doa
+    do
+	wynik=`basename $i .doa`.forest
+	if [[ -s $wynik && $wynik -nt $i ]]
+	then  continue 
+	fi
+	echo Making $wynik
+	(
+	    ulimit -t $timelimit
+    #	nice -n 19 swipl -x $swigradir/$parser -G0 -T20m -L10m -t halt -g "['$i']" >$wynik
+	    swipl -x $swigradir/$parser  -t halt -g "['$i']" >$wynik
+	    )
+    #    gzip $wynik
+    done
+    )
+done
+
+
+
+### Local Variables: 
+### coding: utf-8
+### mode: shell-script
+### End: 

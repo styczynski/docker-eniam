@@ -1,0 +1,237 @@
+Do zrobienia:
+
+- przeredagować (ulatexowić i unaukowić) poniższy tekst.
+
+- uzupełnić metatekstowość i nielokalne zmiany zależności semantycznych wskazując istotne aspekty tych zjawisk semantycznych i ilustrując je przykładami (przemyśleć pod kątem reprezentacji nieintersektywnych).
+
+- znaleźć odpowiedzi na zawarte w nim pytania (tenie na później)
+
+
+
+Wstępna lista zjawisk semantycznych, które podlegać będą szczegółowej analizie.
+
+
+
+1. Uogólniona intersektywność: zaczynamy od korzenia drzewa rozbioru składniowego
+
+i dodajemy kolejne węzły za każdym razem sprawdzając, czy ze znaczenia drzewa 
+
+rozszerzonego wynika znaczenie drzewa mniejszego./
+
+Zaczynamy od liści ucinając je po kolei i sprawdzając, czy znaczenie zdania staje się coraz bardziej ogólne (monotoniczna niemalejącość, nie istnieje model taki w którym przez tą procedurę wykonanaa w jakiejkolwiek kolejności uzyskamy zdanie fałszywe z prawdziwego)./
+
+Dodatkowym testem jest zgodnośc typu semantycznego frazy z typem semantycznym jej elementu głównego. Np.:
+
+"Kiepski prezydent" to "prezydent", ale "fałszywy prezydent" to nie prezydent.
+
+Z "Jaś biegnie" wynika "biegnie".
+
+Z "cztery jabłka" wynika "jabłka".
+
+Z "co najmniej cztery" nie wynika "cztery". (Uwaga Kuby jak to działa przy uwzglądnianiu 3 znaczeń dla cztary)
+
+Z "mieszkam nieopodal fontanny" nie wynika "mieszkam nieopodal". *
+
+
+
+* Uwaga, przyjmujemy, że jednobrzmiące leksemy przysłówkowe i przyimkowe 
+
+mają te same znaczenia, a różnią się jedynie tym, że argument
+
+jest dany jawnym lub nie.
+
+
+
+Jednostki odnoszące do relacji ekstensjonalnych???
+
+
+
+Do zrobienia: (
+
+Uwaga składniowa: zależności składniowe określamy w następujący sposób: zaczynamy od korzenia (zwykle czasownika w formie osobowej) a następnie znajdujemy leksemy które uzgadniają się z preferencjami selekcyjnymi jego argumentów. Uznajemy je za bezpośrednie podrzędniki. Czynność powtarzamy rekurencyjnie.
+
+
+
+Przykładowo w Walentym mamy wpis prepnp mówiący że czasownik ma podrzędnik będący frazą przyimkow-rzeczownikową. O tym czy bezpośrednim podrzędnikiem czasownika jest przyimek, czy rzeczownik decyduje to, czy preferencje selekcyjne argumentu uzgadniają się z typem semantycznym rzeczownika, czy też z typem semantycznym frazy przyimkowej.
+
+
+
+Podsumowując: mamy kryterium składniowe i semantyczne, w razie spełniania jednego kryterium wygrywa kryterium semantyczne, jeśli róznica polega na przesunięciu węzła w górę drzewa rozbioru.
+
+
+
+Budujemy drzewo składniowe wg. morfosyntaktycznych reguł polskiej składni. A następnie Jeśli nie jest spełnione kryterium zgodności roli tematycznej argumentu z typem semantycznym podrzędnika, naprawiamy to zamieniając w drzewie ten podrzędnik z jednym z jego synów (zakładamy, że spójnik podrzędny jest głową zadania podrzędnego). Taka zmiana ma miejsce w przypadku niesemantycznych przyimków, pojemników, liczebników, spójników podrzędnych)
+
+
+
+-----------------------------------------------------------------------------------------------------
+
+konsultacja telefoniczna:
+
+
+
+Ogólne pytanie: jak opisać semantykę połączenia nadrzędnika z podrzędnikiem
+
+- zależy to od pojęcia na górze i na dole
+
+- i od cech gramatycznych (np. podrzędnik narzędnikowy czasownika oznacza instrument)
+
+
+
+Ta semantyka jest wyrażalna tak: Zmienna dla instancji góry i dołu, więc dajemy koniunkcję obu i po trzecie, rolę je łączącą. Ten opis korzysta z konkretnych założeń o znaczeniu słów, które i tak przyjmujemy. Czyli uogólnienie neo-davidsonizmu na wszystkie relacje w zdaniu.
+
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+
+
+
+2. Cechy składniowo-semantyczne wzorowane na tych w Walentym:
+
+- Rola tematyczna łącząca słowo z nadrzędnikiem (gdy leksem ma ją do siebie przypisaną oraz jest uogólnienie intersektywny) *
+
+- Opis struktury składniowej argumentów, gdy słowa nie ma w Walentym
+
+- Preferencje selecyjne (i ew. role tematyczne) argumentów, gdy słowa nie ma w Walentym
+
+- Słowosieciowy sens słowa dla słów, których nie ma w Słowosieci
+
+
+
+Dla przyimków opis struktury składniowej obejmuje
+
+- liczba argumentów jawnych (por. 'między a', 'między i')
+
+- okalającość (między-a)
+
+- pozycyjność (por. postpozycyjne '[100 lat] temu')
+
+- przypadek wymagany przez przyimek (kopia z SGJP)
+
+
+
+ad *
+
+Rzeczowniki, które będąc frazą wolną w narzędniku nadają rolę tematyczną Instrument zwykle kiedy są przedmiotami fizycznymi, Manner, gdy są niefizyczne "Osiągnąłem to sprytem.", Tiem przy określeniach czasu np: "wiosna".
+
+Rzeczownikowa fraza wolna w celowniku (tekst Marii Dąbrowskiej)
+
+Przymiotniki, które mają rolę tematyczną inną niż Attribute.
+
+Przysłówki, które mają rolę tematyczną inną niż Manner.
+
+
+
+3. Niejawne argumenty:
+
+- okazjonalność
+
+- deiktyczność
+
+- komparacyjność
+
+- porządek
+
+- koreferencyjność
+
+- relacyjność (przymiotniki ale też liczebniki!)*
+
+
+
+* Przez relacyjność rozumiemy to, że aby określić znaczenie słowa (liczność, stopień natężenia cechy...), trzeba wiedzieć, jaki predykat jest modyfikowany przez dane słowo
+
+
+
+Leksemy mające ukryty argument komparatywny mogą przyjmować komparatywny argument przyimkowy.
+
+
+
+4. Podział liczebników ze względu na dokładność i 
+
+oznaczenie pojemników, czyli rzeczowników określających
+
+miarę swoich podrzędników, np: "łyżka cukru" (aby naprawić brak uogólnionej intersektywności liczebników i pojemników czynimy je podrzędnikami swoich tradycyjnych składniowych nadrzędników).
+
+
+
+Wyrażenia oznaczajce miarę (rola tematyczna Measure, pytanie ile?)
+
+
+
+5. Metatekstowość.
+
++ onomatopeje (bzz, bum)
+
++ ekspresywizmy (brawo, cholera, wrr)
+
+
+
+jak chcemy opisać metatekstowość, jakie ma cechy?
+
+temat, remat, implikatura konwencjonalna
+
+
+
+6. Opis przykładów, które nie są uogólnienie intersektywne.
+
+
+
+Bycie kwantyfikatorem / nielokalne zmienianie zależności semantycznych
+
+każdy
+
+prawdopodobnie
+
+może
+
+oczywiście
+
+tylko
+
+jeśli w znaczeniu logicznym, 
+
+
+
+Jeśli występuje nielokalne zmienianie zależności semantycznych, to nie ma uogólnionej intersektywności.
+
+powyższe stwierdzenie niedziała dla metatekstowego "oczywiście", czy jest prawdziwe po pominięciu metatekstowości?
+
+
+
+Reprezentacja semantyczna partykuł.
+
+
+
+7. Faktywność (napisać czym jest, czemu przysługuje, jakie pytania sobie z nią związane zadajemy)
+
+podrzędniki zdaniowe rzeczowników i czasowników z Walentego - faktywność przysługuje pozycji w ramie walencyjnej
+
+spójniki zdaniowe - faktywność przysługuje spójnikowi (zdaniu podrzędnemu). 
+
+faktywność fraz niefinitywnych (bezokolicznikowych, praet, ger, imps, ...), jak poradzić sobie z brakiem czasu gramatycznego
+
+
+
+8. Zdarzenia, procesy (zmiany stanu rzeczy w czasie)
+
+
+
+9. Relacje czasowe (role tematyczne Time i Duration, pytanie kiedy?) i przestrzenne (role tematyczne Location i Path, pytania gdzie?, skąd?, dokąd?, którędy?)
+
+
+
+10. Relacje przyczynowe, celowe, warunkowe i przyzwoleniowe (role Purpose i Condition)
+
+
+
+Czy rozróżnienie pomiędzy Purpose i Condition to rozróżnienie pomiędzy intencjonalnymi i nieintecjonalnymi okolicznościami wpływającymi na podjęcie akcji.
+
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Dodać w części wyraźnie oddzielonej możliwość przebadania też zjawisk elipsy i metonimii i podobnych - patrz. rozdz. ,,Typy znaczeń wariantowych'' w R. Grzegorczykowa ,,Wprowadzenie do semantyki językoznawczej'' ss. 44-47. Ta część raportu musi być opatrzona zastrzeżeniem, że będzie wykonana tylko w razie, gdy zostanie czasu i środków.

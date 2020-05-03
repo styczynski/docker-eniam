@@ -1,0 +1,16 @@
+lorem;Dolor sIt amet;instance
+Dolor sIt amet;quicumque;subclass
+Dolor sIt amet;quoque;instance
+Dolor sIt amet;quoque;subAttribute
+4;canis;subrelation
+5;ipsum;instance
+5;canis;subAttribute
+5;lorem;subclass
+5;5;subclass
+erat;lorem;subclass
+erat;erat;subrelation
+erat;quoque;subrelation
+quicumque;5;instance
+quicumque;5;subclass
+canis;0;subrelation
+0;canis;subAttribute

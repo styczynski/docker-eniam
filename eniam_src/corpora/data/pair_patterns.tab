@@ -1,0 +1,46 @@
+np:$n:$c:$g	_:subst:$n:$c:$g -> nummod -> _:num:$n:$c:$g:congr
+np:$n:$c:$g	_:subst:$n:gen:$g -> nummod -> _:num:$n:$c:$g:rec
+adjp:$n:$c:$g	_:adj:$n:$c:$g -> nummod -> _:num:$n:$c:$g:congr
+adjp:$n:$c:$g	_:adj:$n:gen:$g -> nummod -> _:num:$n:$c:$g:rec
+np:$n:$c:$g	_:brev -> nummod -> _:num:$n:$c:$g
+
+pp	_:subst.ger.num.ppron12.ppron3.adj:_:$c:_ -> case -> _:prep:$c
+pp	_:siebie:$c -> case -> _:prep:$c
+pp	_:brev -> case -> _:prep
+pp	na:prep -> fixed -> _:adv
+pp	_:adv -> case -> na:prep
+comprep:gen	_:prep:$c -> fixed -> _:subst:_:$c:_
+pp	_:subst.ger.num.ppron12.ppron3.adj:_:$c:_ -> case -> comprep:$c
+
+ip	_:subst:_:nom:_ -> cop -> to:pred
+ip	_:adj:$n:nom:_ -> cop -> być:fin.bedzie:$n:$p
+ip	_:adj:$n:nom:$g -> cop -> być:praet:$n:$g
+infp	_:adj:_:nom:_ -> cop -> być:inf
+ip	_:subst:$n:inst:_ -> cop -> być:fin.praet.bedzie:$n:_
+infp	_:subst:$n:inst:_ -> cop -> być:inf
+ip	_:subst:$n:nom:_ -> cop -> [ _:pred: -> aux -> _:fin:$n:ter ]
+ip	_:subst:$n:nom:$g -> cop -> [ _:pred: -> aux -> _:praet:$n:$g ]
+
+ip	_:pred -> aux -> _:fin.praet.bedzie
+ip	_:inf -> aux -> _:bedzie
+ip	_:praet:$n:_ -> aux -> _:bedzie:$n:_
+ip	_:ppas:$n:nom:_ -> aux:pass -> _:fin.bedzie:$n:_
+ip	_:ppas:$n:nom:$g -> aux:pass -> _:praet:$n:$g
+ip	_:ppas:$n:nom:$g -> aux -> _:praet:$n:$g
+infp	_:ppas:_:nom:_ -> aux:pass -> _:inf
+
+cp	_:praet.winien.fin.inf.bedzie.imps.pred -> mark -> _:comp
+cp	[ _:_ -> cop -> _:praet.fin ] -> mark -> _:comp:
+cp	[ _:_ -> aux:pass -> _:praet.fin.bedzie ] -> mark -> _:comp:
+#jako.jak.niż:prep:nom -> rev_mark -> _:subst.adj:_:nom:_
+sent	_:subst.adj:_:nom:_ -> mark -> _:prep:nom
+sent	_:adv:pos -> mark -> _:comp:
+
+conjp	jak:conj -> fixed -> i:conj
+comprep:$c	wraz:adv -> fixed -> z:prep:$c
+
+#sent	_:fin.praet.winien.imps -> punct -> .:interp
+#sent	_:fin.praet.winien.imps -> punct -> ?:interp
+#sent	[ _:_ -> cop -> _:fin.praet.winien ] -> punct -> .:interp
+#sent	[ _:_ -> cop -> _:fin.praet.winien ] -> punct -> ?:interp
+

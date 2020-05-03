@@ -1,0 +1,1421 @@
+<node name="działalność-1" size="1171">
+  <node name="firmanctwo-1" size="0"/>
+  <node name="zbiorowe odprowadzanie ścieków-1" size="0"/>
+  <node name="unieszkodliwianie odpadów-2" size="0"/>
+  <node name="żywy pomnik-1" size="0"/>
+  <node name="scena-9" size="0"/>
+  <node name="działalność brokerska-1" size="0"/>
+  <node name="kultura-8" size="0"/>
+  <node name="off-1" size="0"/>
+  <node name="pralnia brudnych pieniędzy-1" size="0"/>
+  <node name="życie-10" size="1">
+    <node name="życie prywatne-1, życie osobiste-1" size="0"/>
+  </node>
+  <node name="obrót prawny-1" size="0"/>
+  <node name="prewencja rentowa-1" size="0"/>
+  <node name="budownictwo-3" size="2">
+    <node name="budownictwo czynszowe-1" size="0"/>
+    <node name="budownictwo społeczne-1" size="0"/>
+  </node>
+  <node name="działalność statutowa-1" size="0"/>
+  <node name="misje-1" size="0"/>
+  <node name="biznes-5" size="7">
+    <node name="nekrobiznes-1" size="0"/>
+    <node name="agrobiznes-1" size="0"/>
+    <node name="pornobiznes-1, porno-biznes-1" size="0"/>
+    <node name="narkobiznes-1" size="0"/>
+    <node name="marketing-1" size="2">
+      <node name="merchandising-1" size="0"/>
+      <node name="marketing internetowy-1, e-marketing-1" size="0"/>
+    </node>
+  </node>
+  <node name="reformatorstwo-1" size="0"/>
+  <node name="najemnictwo-2" size="0"/>
+  <node name="celnictwo-1" size="0"/>
+  <node name="barateria-1" size="0"/>
+  <node name="szmalcownictwo-1" size="0"/>
+  <node name="kreacja-2" size="417">
+    <node name="twórczość-2" size="416">
+      <node name="programotwórczość-1" size="0"/>
+      <node name="ambalaż-1" size="0"/>
+      <node name="dokumentalizm-1, dokumentaryzm-1" size="0"/>
+      <node name="fantazjotwórstwo-1" size="0"/>
+      <node name="współtwórczość-1" size="0"/>
+      <node name="opiniotwórczość-1" size="0"/>
+      <node name="muza-4" size="21">
+        <node name="kinematografia-1, film-2, kino-2, duży ekran-1, dziesiąta muza-1" size="14"/>
+        <node name="telewizja-1, TV-4, tv-2, mały ekran-2, srebrny ekran-1, szklany ekran-2, jedenasta muza-1" size="5">
+          <node name="telewizja repertuarowa-1" size="0"/>
+          <node name="sieć kablowa-1" size="0"/>
+          <node name="satelita-6, satka-1" size="0"/>
+          <node name="telewizja internetowa-2" size="0"/>
+          <node name="telewizja kablowa-2" size="0"/>
+        </node>
+      </node>
+      <node name="wizjonerstwo-1" size="0"/>
+      <node name="wynalazczość-1" size="0"/>
+      <node name="fotografia-3" size="11">
+        <node name="fotografia cyfrowa-1" size="0"/>
+        <node name="fotografia otworkowa-1" size="0"/>
+        <node name="fotografia tradycyjna-1, fotografia analogowa-1" size="0"/>
+        <node name="przetłok-1" size="0"/>
+        <node name="chronofotografia-1" size="0"/>
+        <node name="fotografika-2, fotografia artystyczna-1" size="0"/>
+        <node name="aerofotografia-1, fotografia lotnicza-1, zdjęcia lotnicze-1" size="0"/>
+        <node name="astrofotografia-1, astrografia-2" size="0"/>
+        <node name="makrofotografia-1" size="0"/>
+        <node name="mikrofotografia-3" size="0"/>
+        <node name="stereofotografia-1" size="0"/>
+      </node>
+      <node name="twórczość związana z projektowaniem-1" size="3" abstract="true">
+        <node name="architektura wnętrz-1, wnętrzarstwo-1" size="0"/>
+        <node name="wzornictwo-1, design-1, dizajn-1" size="0"/>
+        <node name="stylizacja-3" size="0"/>
+      </node>
+      <node name="folklor-1" size="0"/>
+      <node name="pisarstwo-1" size="17"/>
+      <node name="sztuka-3" size="383">
+        <node name="opera-6" size="2">
+          <node name="opera buffa-1, opera komiczna-1" size="0"/>
+          <node name="dramat muzyczny-1" size="0"/>
+        </node>
+        <node name="street art-1" size="0"/>
+        <node name="sztuka ziemi-1" size="0"/>
+        <node name="scena-9" size="0"/>
+        <node name="sztuka sepulkralna-1" size="0"/>
+        <node name="sztuka współczesna-1" size="0"/>
+        <node name="prymitywizm-2, sztuka naiwna-1" size="2">
+          <node name="sztuka ludowa-1" size="1">
+            <node name="szopkarstwo-1" size="0"/>
+          </node>
+        </node>
+        <node name="fotografika-2, fotografia artystyczna-1" size="0"/>
+        <node name="kostiumografia-1" size="0"/>
+        <node name="sztuka performatywna-1" size="2">
+          <node name="aktorstwo-2" size="1">
+            <node name="arlekinada-3" size="0"/>
+          </node>
+        </node>
+        <node name="teatr-4, melpomena-2, scena-8" size="11">
+          <node name="musical-4" size="0"/>
+          <node name="kagura-1" size="2">
+            <node name="sato-kagura-1" size="0"/>
+            <node name="mikagura-1" size="0"/>
+          </node>
+          <node name="kabuki-1" size="0"/>
+          <node name="teatr muzyczny-3" size="0"/>
+          <node name="teatr radiowy-2" size="0"/>
+          <node name="pantomima-2, mim-3, pantomimika-1" size="0"/>
+          <node name="teatr telewizyjny-1, teatr telewizji-2" size="0"/>
+          <node name="lalkarstwo-1" size="1">
+            <node name="bunraku-1" size="0"/>
+          </node>
+        </node>
+        <node name="pokarm duchowy-1, pokarm dla ducha-1, strawa dla ducha-1, strawa duchowa-1" size="0"/>
+        <node name="szopenistyka-2, chopinistyka-2" size="0"/>
+        <node name="sztuka kulinarna-1, kulinaria-1, kuchmistrzostwo-1, kucharstwo-1, gastronomia-2" size="0"/>
+        <node name="prestidigitatorstwo-1, kuglarstwo-2, sztukmistrzostwo-1" size="1">
+          <node name="brzuchomówstwo-1" size="0"/>
+        </node>
+        <node name="masówka-1" size="0"/>
+        <node name="marynistyka-1" size="0"/>
+        <node name="batalistyka-1" size="0"/>
+        <node name="egzotyka-2" size="0"/>
+        <node name="typografia-3" size="0"/>
+        <node name="sztuka wideo-1, wideo-art-1, video-art-1" size="0"/>
+        <node name="kinematografia-1, film-2, kino-2, duży ekran-1, dziesiąta muza-1" size="14">
+          <node name="musical-3" size="0"/>
+          <node name="Allen-3" size="0"/>
+          <node name="Fellini-2" size="0"/>
+          <node name="Disney-4" size="0"/>
+          <node name="czarne kino-1" size="0"/>
+          <node name="kino prawdy-1" size="0"/>
+          <node name="kino familijne-1" size="0"/>
+          <node name="dokumentalistyka-1" size="0"/>
+          <node name="film sensacyjny-1, film akcji-1, kino akcji-1, nawalanka-4, dramat sensacyjny-1" size="5">
+            <node name="film szpiegowski-1" size="0"/>
+            <node name="film katastroficzny-1" size="1">
+              <node name="dramat katastroficzny-1" size="0"/>
+            </node>
+            <node name="dramat gangsterski-1" size="0"/>
+            <node name="film drogi-1, kino drogi-1" size="0"/>
+          </node>
+        </node>
+        <node name="plastyka-1, sztuka plastyczna-1" size="59">
+          <node name="animalistyka-1" size="0"/>
+          <node name="art brut-1" size="0"/>
+          <node name="rysunek-3" size="2">
+            <node name="ołówek-3" size="0"/>
+            <node name="kreślarstwo-1" size="0"/>
+          </node>
+          <node name="papieroplastyka-1" size="1">
+            <node name="origami-2" size="0"/>
+          </node>
+          <node name="metaloplastyka-1, toreutyka-1" size="0"/>
+          <node name="frotaż-1" size="0"/>
+          <node name="fotomontaż-2" size="0"/>
+          <node name="batik-1" size="0"/>
+          <node name="ikonografia-1" size="1">
+            <node name="ikonografia chrześcijańska-1" size="0"/>
+          </node>
+          <node name="rzemiosło artystyczne-1, sztuka użytkowa-1" size="38"/>
+          <node name="rzeźbiarstwo-1" size="0"/>
+          <node name="grafika-3" size="1">
+            <node name="grafika użytkowa-1" size="0"/>
+          </node>
+          <node name="malarstwo-1" size="3">
+            <node name="malarstwo olejne-1" size="0"/>
+            <node name="malarstwo naścienne-1, malarstwo ścienne-1" size="0"/>
+            <node name="pejzaż-4" size="0"/>
+          </node>
+        </node>
+        <node name="muzyka-1" size="218">
+          <node name="przytupas-1" size="0"/>
+          <node name="muzyka salonowa-1" size="0"/>
+          <node name="hardcore-1" size="0"/>
+          <node name="muzyka współczesna-1" size="0"/>
+          <node name="klezmer-2" size="0"/>
+          <node name="gamelan-2" size="0"/>
+          <node name="muzyka latynoamerykańska-1" size="4" abstract="true">
+            <node name="bachata-2" size="0"/>
+            <node name="bossa nova-2" size="0"/>
+            <node name="salsa-2" size="0"/>
+            <node name="samba-2" size="0"/>
+          </node>
+          <node name="czarna muzyka-1" size="11">
+            <node name="funk-1" size="0"/>
+            <node name="calypso-1, kalipso-2" size="0"/>
+            <node name="morna-1" size="0"/>
+            <node name="rhythm and blues-1, R&amp;B-1, R'n'B-1" size="0"/>
+            <node name="soul-1" size="0"/>
+            <node name="gospel-1, gospels-1" size="0"/>
+            <node name="rap-1" size="2"/>
+            <node name="blues-1" size="1"/>
+          </node>
+          <node name="muzak-1, muzyka tła-1" size="0"/>
+          <node name="muzyka wokalna-1" size="2" abstract="true">
+            <node name="belcanto-1" size="0"/>
+            <node name="fado-1" size="0"/>
+          </node>
+          <node name="muzyka konkretna-1" size="0"/>
+          <node name="muzyka programowa-1" size="0"/>
+          <node name="muzyka absolutna-1" size="0"/>
+          <node name="kocia muzyka-1" size="0"/>
+          <node name="muzyka kameralna-1, kameralistyka-1" size="1">
+            <node name="kwartet smyczkowy-3" size="0"/>
+          </node>
+          <node name="melodia-1" size="107">
+            <node name="utwór taneczny-1" size="77" abstract="true">
+              <node name="zorba-2" size="0"/>
+              <node name="sarabanda-3" size="0"/>
+              <node name="menuet-3" size="0"/>
+              <node name="one-step-2" size="0"/>
+              <node name="madison-2" size="0"/>
+              <node name="latino-2" size="4">
+                <node name="jive-2" size="0"/>
+                <node name="bachata-2" size="0"/>
+                <node name="cza-cza-2, cha-cha-2" size="0"/>
+                <node name="bossa nova-2" size="0"/>
+              </node>
+              <node name="cake-walk-2" size="0"/>
+              <node name="zbójnicki-2" size="0"/>
+              <node name="waloszek-2" size="0"/>
+              <node name="trepak-2" size="0"/>
+              <node name="sardana-2" size="0"/>
+              <node name="mietlorz-2" size="0"/>
+              <node name="lezginka-2" size="0"/>
+              <node name="lawonicha-2" size="0"/>
+              <node name="krzesany-3" size="0"/>
+              <node name="kołomyjka-3" size="0"/>
+              <node name="fandango-3" size="0"/>
+              <node name="drabant-3" size="0"/>
+              <node name="shimmy-2" size="0"/>
+              <node name="rigaudon-2" size="0"/>
+              <node name="zouk-1" size="0"/>
+              <node name="cenar-2" size="0"/>
+              <node name="kaczucza-2" size="0"/>
+              <node name="farandola-2" size="0"/>
+              <node name="lambada-2" size="0"/>
+              <node name="twist-2" size="1">
+                <node name="surf-2" size="0"/>
+              </node>
+              <node name="tango-2" size="1">
+                <node name="milonga-1" size="0"/>
+              </node>
+              <node name="paso doble-2" size="0"/>
+              <node name="galop-4" size="0"/>
+              <node name="trojak-3" size="0"/>
+              <node name="sztajer-2" size="0"/>
+              <node name="polka-3" size="1">
+                <node name="sztajer-4, sztajerek-2" size="0"/>
+              </node>
+              <node name="mazur-3, mazurek-5" size="0"/>
+              <node name="lendler-2" size="0"/>
+              <node name="kujawiak-3" size="0"/>
+              <node name="kozak-6, hopak-3" size="0"/>
+              <node name="kazaczok-2, kozak-9" size="0"/>
+              <node name="jig-3, gigue-2, giga-2, dżig-2" size="0"/>
+              <node name="hopak-2" size="0"/>
+              <node name="hajduk-5" size="0"/>
+              <node name="habanera-2" size="0"/>
+              <node name="czardasz-3" size="0"/>
+              <node name="chodzony-2" size="0"/>
+              <node name="bolero-4" size="0"/>
+              <node name="salsa-2" size="0"/>
+              <node name="tarantella-1, tarantela-1" size="0"/>
+              <node name="krakowiak-1" size="0"/>
+              <node name="chmiel-2" size="0"/>
+              <node name="hora-1" size="0"/>
+              <node name="samba-2" size="0"/>
+              <node name="rumba-2" size="0"/>
+              <node name="oberek-2" size="0"/>
+              <node name="mambo-2" size="0"/>
+              <node name="kankan-1" size="0"/>
+              <node name="fokstrot-2, foxtrot-2" size="3">
+                <node name="slow-fox-2" size="0"/>
+                <node name="quickstep-2" size="0"/>
+                <node name="karioka-2" size="0"/>
+              </node>
+              <node name="charleston-2" size="0"/>
+              <node name="lansjer-3" size="0"/>
+              <node name="pawana-1" size="0"/>
+              <node name="kadryl-2" size="0"/>
+              <node name="gawot-1" size="0"/>
+              <node name="kontredans-2" size="1">
+                <node name="anglez-3, angielczyk-3" size="0"/>
+              </node>
+              <node name="walc-1" size="3">
+                <node name="walc wiedeński-2" size="0"/>
+                <node name="walc angielski-2" size="0"/>
+                <node name="boston-2" size="0"/>
+              </node>
+              <node name="polonez-2" size="0"/>
+            </node>
+            <node name="podkład-3, tło-5" size="2">
+              <node name="akompaniament-2" size="1">
+                <node name="przygrywka-2" size="0"/>
+              </node>
+            </node>
+            <node name="przygrywka-1" size="0"/>
+            <node name="kurant-1" size="0"/>
+            <node name="linia melodyczna-1, linia kompozycyjna-1" size="6">
+              <node name="głos-8" size="3">
+                <node name="kontralt-3" size="0"/>
+                <node name="alt-5" size="0"/>
+                <node name="generałbas-1, bas cyfrowany-1, basso continuo-1" size="0"/>
+              </node>
+              <node name="kontrapunkt-2" size="0"/>
+              <node name="cantus firmus-1" size="0"/>
+            </node>
+            <node name="hejnał-1" size="0"/>
+            <node name="wariacja-2" size="6">
+              <node name="mazurek-6" size="0"/>
+              <node name="tarantella-3, tarantela-3" size="0"/>
+              <node name="padwan-3" size="0"/>
+              <node name="passacaglia-1" size="0"/>
+              <node name="sarabanda-2" size="0"/>
+              <node name="improwizacja-1" size="0"/>
+            </node>
+            <node name="motyw-5, temat-4" size="8">
+              <node name="tala-2" size="0"/>
+              <node name="zaśpiew-4" size="0"/>
+              <node name="epizod-4" size="0"/>
+              <node name="ostinato-1" size="1">
+                <node name="riff-1" size="0"/>
+              </node>
+              <node name="motyw przewodni-2" size="1">
+                <node name="leitmotiv-1, lejtmotyw-1" size="0"/>
+              </node>
+              <node name="song-1" size="0"/>
+            </node>
+          </node>
+          <node name="muzyka rozrywkowa-1" size="78">
+            <node name="freestyle-1" size="0"/>
+            <node name="pop-rock-1" size="0"/>
+            <node name="nawalanka-6" size="0"/>
+            <node name="bluegrass-1" size="0"/>
+            <node name="jazz-rock-1, jazz fusion-1" size="0"/>
+            <node name="ska-1" size="0"/>
+            <node name="disco-2" size="0"/>
+            <node name="dance-1" size="2">
+              <node name="eurodance-1" size="0"/>
+              <node name="techno-1" size="0"/>
+            </node>
+            <node name="rock and roll-2, rock'n'roll-1" size="2">
+              <node name="surf rock-1" size="0"/>
+              <node name="big-beat-1, bigbit-1" size="0"/>
+            </node>
+            <node name="soul-1" size="0"/>
+            <node name="reggae-1" size="3">
+              <node name="dancehall-1" size="0"/>
+              <node name="ragga-1" size="0"/>
+              <node name="dub-1" size="0"/>
+            </node>
+            <node name="sieczka-2, rąbanka-2" size="0"/>
+            <node name="gospel-1, gospels-1" size="0"/>
+            <node name="muzyka elektroniczna-1, elektronika-3" size="14">
+              <node name="electro-1" size="0"/>
+              <node name="dubstep-1" size="0"/>
+              <node name="house-1" size="0"/>
+              <node name="trance-1, trans-3" size="6">
+                <node name="euro trance-1" size="5">
+                  <node name="epic trance-1, uplifting trance-1" size="0"/>
+                  <node name="dream trance-1" size="0"/>
+                  <node name="symphonic trance-1" size="0"/>
+                  <node name="progressive trance-1" size="0"/>
+                  <node name="anthem trance-1" size="0"/>
+                </node>
+              </node>
+              <node name="techno-1" size="0"/>
+              <node name="chillout-1" size="0"/>
+              <node name="ambient-1" size="0"/>
+              <node name="industrial-1" size="0"/>
+            </node>
+            <node name="rap-1" size="2">
+              <node name="hip-hop-1, hiphop-1, hip hop-1" size="1">
+                <node name="hard core-3" size="0"/>
+              </node>
+            </node>
+            <node name="pop-1" size="2">
+              <node name="eurodance-1" size="0"/>
+              <node name="disco polo-1, muzyka chodnikowa-1, discopolo-1" size="0"/>
+            </node>
+            <node name="folk-1" size="7">
+              <node name="manele-1" size="0"/>
+              <node name="folk metal-1" size="0"/>
+              <node name="flamenco-2" size="1">
+                <node name="fandango-2" size="0"/>
+              </node>
+              <node name="celtyk-1" size="0"/>
+              <node name="muzyka dawna-1" size="0"/>
+              <node name="fado-1" size="0"/>
+            </node>
+            <node name="country-1" size="1">
+              <node name="country alternatywne-1" size="0"/>
+            </node>
+            <node name="blues-1" size="1">
+              <node name="boogie-woogie-2, boogie-1" size="0"/>
+            </node>
+            <node name="rock-1" size="18">
+              <node name="grunge-2" size="0"/>
+              <node name="art rock-1" size="0"/>
+              <node name="gotyk-4" size="0"/>
+              <node name="rock progresywny-1" size="0"/>
+              <node name="metal-1, heavy metal-1" size="10">
+                <node name="folk metal-1" size="0"/>
+                <node name="doom metal-1" size="0"/>
+                <node name="gothic metal-1" size="0"/>
+                <node name="nu metal-1, numetal-1" size="0"/>
+                <node name="power metal-1, speed metal-1" size="0"/>
+                <node name="white metal-1" size="1">
+                  <node name="gospel metal-1" size="0"/>
+                </node>
+                <node name="black metal-1" size="0"/>
+                <node name="thrash metal-1" size="0"/>
+                <node name="death metal-1" size="0"/>
+              </node>
+              <node name="hard rock-1" size="0"/>
+              <node name="punk rock-1, punkrock-1, punk-1" size="1">
+                <node name="hard core-2" size="0"/>
+              </node>
+            </node>
+            <node name="jazz-1, dżez-1" size="8">
+              <node name="free jazz-1" size="0"/>
+              <node name="yass-1, jass-1" size="0"/>
+              <node name="sweet-1" size="0"/>
+              <node name="bossa nova-2" size="0"/>
+              <node name="bebop-1, bop-1, bibop-1" size="1">
+                <node name="hard bop-1" size="0"/>
+              </node>
+              <node name="swing-1" size="0"/>
+              <node name="ragtime-1" size="0"/>
+            </node>
+          </node>
+          <node name="muzyka klasyczna-1, muzyka poważna-1" size="10">
+            <node name="Mahler-2" size="0"/>
+            <node name="Liszt-2" size="0"/>
+            <node name="Strawiński-1" size="0"/>
+            <node name="Wagner-1" size="0"/>
+            <node name="Mozart-1" size="0"/>
+            <node name="Haydn-1" size="0"/>
+            <node name="Chopin-2, Szopen-2" size="0"/>
+            <node name="Brahms-1" size="0"/>
+            <node name="Beethoven-1" size="0"/>
+            <node name="Bach-1" size="0"/>
+          </node>
+        </node>
+        <node name="literatura-1, piśmiennictwo-1" size="49">
+          <node name="literatura konspiracyjna-1" size="0"/>
+          <node name="literatura parenetyczna-1, parenetyka-1" size="0"/>
+          <node name="metaliteratura-1" size="0"/>
+          <node name="literatura popularnonaukowa-1" size="0"/>
+          <node name="hymnografia-1" size="0"/>
+          <node name="literatura zaangażowana-1" size="0"/>
+          <node name="literatura sowizdrzalska-1" size="0"/>
+          <node name="literatura produkcyjna-1" size="0"/>
+          <node name="literatura powszechna-1" size="0"/>
+          <node name="literatura popularna-1" size="1">
+            <node name="literatura wagonowa-1" size="0"/>
+          </node>
+          <node name="literatura okolicznościowa-1" size="0"/>
+          <node name="literatura narodowa-1" size="0"/>
+          <node name="literatura obozowa-1, literatura lagrowa-1" size="0"/>
+          <node name="literatura jarmarczna-1, literatura odpustowa-1" size="0"/>
+          <node name="literatura faktu-1" size="0"/>
+          <node name="literatura dydaktyczna-1" size="0"/>
+          <node name="literatura dworska-1" size="0"/>
+          <node name="publicystyka-1" size="3">
+            <node name="krytyka-5" size="0"/>
+            <node name="felietonistyka-2" size="0"/>
+            <node name="eseistyka-1" size="0"/>
+          </node>
+          <node name="teatr-7, dramatopisarstwo-1, dramaturgia-1, dramatyka-1, scenopisarstwo-1" size="5">
+            <node name="tragika-2" size="0"/>
+            <node name="teatr absurdu-1, antydramat-1" size="1">
+              <node name="dramat groteskowy-1" size="0"/>
+            </node>
+            <node name="teatr epicki-1" size="0"/>
+            <node name="teatr elżbietański-1" size="0"/>
+          </node>
+          <node name="proza-2, beletrystyka-1" size="2">
+            <node name="beletrystyka-2" size="0"/>
+            <node name="proza historiograficzna-1" size="0"/>
+          </node>
+          <node name="pisarstwo-1" size="17">
+            <node name="pióro-9" size="0"/>
+            <node name="przyczynkarstwo-1" size="0"/>
+            <node name="ostrużyny-2" size="0"/>
+            <node name="humorystyka-1" size="0"/>
+            <node name="romansopisarstwo-1" size="0"/>
+            <node name="sielankopisarstwo-1" size="0"/>
+            <node name="komediopisarstwo-1" size="0"/>
+            <node name="gawędziarstwo-2" size="0"/>
+            <node name="aforystyka-2" size="0"/>
+            <node name="bajkopisarstwo-1" size="0"/>
+            <node name="wierszopisarstwo-1" size="0"/>
+            <node name="podróżopisarstwo-1" size="0"/>
+            <node name="fraszkopisarstwo-1" size="0"/>
+            <node name="powieściopisarstwo-1" size="0"/>
+            <node name="epistolografia-1" size="0"/>
+            <node name="dramatopisarstwo-2, scenopisarstwo-2" size="0"/>
+            <node name="pamiętnikarstwo-1, wspominkarstwo-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="reżyseria-1, reżyserka-2" size="0"/>
+    </node>
+  </node>
+  <node name="sztuka walki-1" size="2">
+    <node name="capoeira-1" size="0"/>
+    <node name="taekwondo-1, taekwon-do-1" size="0"/>
+  </node>
+  <node name="antyterroryzm-1" size="0"/>
+  <node name="usługi społeczne-1, usługi niematerialne-1" size="0"/>
+  <node name="produkcja-3, wyrób-1, wytwórstwo-1" size="35">
+    <node name="reprodukcja rozszerzona-1" size="0"/>
+    <node name="lakiernictwo-3" size="0"/>
+    <node name="miodosytnictwo-1" size="0"/>
+    <node name="wypęd-1" size="0"/>
+    <node name="samozaopatrzenie-1" size="0"/>
+    <node name="perfumiarstwo-1" size="0"/>
+    <node name="fabrykacja-1" size="0"/>
+    <node name="prosumpcja-1" size="0"/>
+    <node name="manufaktura-2" size="1">
+      <node name="fordyzm-1" size="0"/>
+    </node>
+    <node name="termoplastyka-1" size="0"/>
+    <node name="wytop-1" size="2">
+      <node name="dymarstwo-1" size="0"/>
+      <node name="przetop-2" size="0"/>
+    </node>
+    <node name="łąkarstwo-1" size="0"/>
+    <node name="bimbrownictwo-1" size="0"/>
+    <node name="produkcja krajowa-1" size="0"/>
+    <node name="publikacja-2, edycja-2" size="3">
+      <node name="druk-6" size="0"/>
+      <node name="druk-2" size="0"/>
+      <node name="reedycja-1" size="0"/>
+    </node>
+    <node name="współprodukcja-1" size="0"/>
+    <node name="prefabrykacja-1" size="0"/>
+    <node name="kwiaciarstwo-1" size="1">
+      <node name="bukieciarstwo-1, florystyka-1" size="0"/>
+    </node>
+    <node name="koszykarstwo-1" size="0"/>
+    <node name="winiarstwo-1" size="0"/>
+    <node name="pończosznictwo-1" size="0"/>
+    <node name="przerób-1, przeróbka-4" size="7">
+      <node name="przetop-2" size="0"/>
+      <node name="przemiał-2" size="0"/>
+      <node name="utylizacja-1" size="4">
+        <node name="recykling-1, recycling-1, recyrkulacja-1, recyklizacja-1" size="0"/>
+        <node name="odzysk-1" size="2">
+          <node name="rekuperacja-1" size="0"/>
+          <node name="regeneracja-1" size="0"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node name="misja-5" size="0"/>
+  <node name="podziemie-3" size="0"/>
+  <node name="diakonia-1" size="1">
+    <node name="diakonat-1" size="0"/>
+  </node>
+  <node name="cmentarnictwo-1" size="0"/>
+  <node name="dyplomacja-2" size="0"/>
+  <node name="polityka-2" size="23">
+    <node name="polityka kadrowa-1" size="0"/>
+    <node name="strusia polityka-1" size="0"/>
+    <node name="rewizjonizm-2" size="1">
+      <node name="socjalszowinizm-1" size="0"/>
+    </node>
+    <node name="reakcjonizm-1" size="1">
+      <node name="czarna reakcja-1" size="0"/>
+    </node>
+    <node name="neokonserwatyzm-1" size="0"/>
+    <node name="konserwatyzm-2" size="1">
+      <node name="toryzm-1" size="0"/>
+    </node>
+    <node name="anarchizacja-1" size="0"/>
+    <node name="politykierstwo-1" size="0"/>
+    <node name="federalizm-2" size="0"/>
+    <node name="monarchizm-1, rojalizm-1" size="1">
+      <node name="konstytucjonalizm-1" size="0"/>
+    </node>
+    <node name="republikanizm-1" size="0"/>
+    <node name="internacjonalizm-1" size="1">
+      <node name="internacjonalizm proletariacki-1" size="0"/>
+    </node>
+    <node name="populizm-1" size="3">
+      <node name="bolszewizm-1" size="0"/>
+      <node name="demagogia-1" size="1">
+        <node name="hurrapatriotyzm-1, hurapatriotyzm-1" size="0"/>
+      </node>
+    </node>
+    <node name="egalitaryzm-1" size="0"/>
+    <node name="elitaryzm-1, elityzm-1" size="0"/>
+  </node>
+  <node name="obstrukcjonizm-1" size="0"/>
+  <node name="sekciarstwo-1" size="0"/>
+  <node name="działalność społeczna-1, społecznictwo-1" size="3">
+    <node name="społecznikostwo-1" size="0"/>
+    <node name="dobroczynność-1, charytatywność-1, filantropia-1, filantropijność-1" size="1">
+      <node name="hojność-1, szczodrość-1, szczodrobliwość-1" size="0"/>
+    </node>
+  </node>
+  <node name="prognostyka-1" size="0"/>
+  <node name="praktyki-1" size="65">
+    <node name="ład korporacyjny-1" size="0"/>
+    <node name="magia-2, czary-1" size="63">
+      <node name="apotropaizm-1" size="0"/>
+      <node name="nekromancja-2" size="0"/>
+      <node name="czarnoksięstwo-1" size="0"/>
+      <node name="czarownictwo-1, czarodziejstwo-1" size="0"/>
+      <node name="huna-2" size="0"/>
+      <node name="gusła-1" size="0"/>
+      <node name="taumaturgia-1" size="0"/>
+      <node name="czarna magia-2" size="0"/>
+      <node name="biała magia-1" size="0"/>
+      <node name="teurgia-1" size="0"/>
+      <node name="wróżbiarstwo-1, mantyka-2, dywinacja-1, wieszczbiarstwo-1" size="52">
+        <node name="tyromancja-1" size="0"/>
+        <node name="tuframancja-1" size="0"/>
+        <node name="tasenografia-1" size="0"/>
+        <node name="stareomancja-1" size="0"/>
+        <node name="skapulimancja-2" size="0"/>
+        <node name="sciomancja-1" size="0"/>
+        <node name="piromancja-1" size="0"/>
+        <node name="pecomancja-1" size="0"/>
+        <node name="owomancja-1, owoskopia-1" size="0"/>
+        <node name="onychomancja-1" size="0"/>
+        <node name="onomancja-1, onomatomancja-1" size="0"/>
+        <node name="omomancja-1" size="0"/>
+        <node name="omfalomancja-1" size="0"/>
+        <node name="oinomancja-1" size="0"/>
+        <node name="metoposkopia-1" size="0"/>
+        <node name="macharomancja-1" size="0"/>
+        <node name="logarytmancja-1" size="0"/>
+        <node name="litomancja-1" size="0"/>
+        <node name="lekanomancja-1" size="0"/>
+        <node name="krystalomancja-2" size="0"/>
+        <node name="koskinomancja-1" size="0"/>
+        <node name="kleromancja-1" size="0"/>
+        <node name="kleidomancja-1, klejdonomancja-1" size="0"/>
+        <node name="kledonismancja-1" size="0"/>
+        <node name="kattabomancja-1" size="0"/>
+        <node name="katoptromancja-1" size="0"/>
+        <node name="idolomancja-1" size="0"/>
+        <node name="hieromancja-2" size="0"/>
+        <node name="haruspicja-1, hepatoskopia-1" size="0"/>
+        <node name="gastromancja-1, garosmancja-1" size="0"/>
+        <node name="dafnomancja-1" size="0"/>
+        <node name="ceromancja-2" size="0"/>
+        <node name="bryzomancja-1" size="0"/>
+        <node name="brontoskopia-1" size="0"/>
+        <node name="astragalomancja-1" size="0"/>
+        <node name="alomancja-1" size="0"/>
+        <node name="aleuromancja-1" size="0"/>
+        <node name="alektromancja-1" size="0"/>
+        <node name="bibliomancja-1" size="0"/>
+        <node name="onejromancja-1" size="0"/>
+        <node name="ornitomancja-1" size="0"/>
+        <node name="aeromancja-1" size="0"/>
+        <node name="geomancja-2" size="0"/>
+        <node name="kartomancja-1" size="0"/>
+        <node name="numerologia-1" size="1">
+          <node name="gametria-1" size="0"/>
+        </node>
+        <node name="chiromancja-1" size="2">
+          <node name="chirognomia-1" size="0"/>
+          <node name="chirologia-1" size="0"/>
+        </node>
+        <node name="nekromancja-1" size="0"/>
+        <node name="jasnowidzenie-2" size="0"/>
+        <node name="astrologia-1" size="0"/>
+      </node>
+    </node>
+  </node>
+  <node name="wystawiennictwo-1" size="0"/>
+  <node name="szkodnictwo-1" size="0"/>
+  <node name="wymiar sprawiedliwości-1, Temida-1" size="0"/>
+  <node name="edytorstwo-2" size="0"/>
+  <node name="amatorstwo-2" size="0"/>
+  <node name="fonografia-1" size="0"/>
+  <node name="show-biznes-1, show-business-1" size="0"/>
+  <node name="sprawozdawczość-1" size="0"/>
+  <node name="apostolstwo-1" size="4">
+    <node name="apostolstwo świeckich-1" size="0"/>
+    <node name="misjonarstwo-1" size="1">
+      <node name="Wojciech-3" size="0"/>
+    </node>
+    <node name="duszpasterstwo-2, służba Boża-1" size="0"/>
+  </node>
+  <node name="profesjonalizm-2, zawodowstwo-2" size="1">
+    <node name="wyczynowość-1" size="0"/>
+  </node>
+  <node name="formalność-1" size="2">
+    <node name="oficjalność-2" size="1">
+      <node name="urzędowość-1" size="0"/>
+    </node>
+  </node>
+  <node name="orzecznictwo-1" size="1">
+    <node name="judykatura-1" size="0"/>
+  </node>
+  <node name="spółdzielczość-1, ruch spółdzielczy-1" size="0"/>
+  <node name="dziennikarstwo-2, dziennikarka-2, żurnalistyka-2" size="4">
+    <node name="dziennikarstwo obywatelskie-1" size="0"/>
+    <node name="dziennikarstwo gazetowe-1" size="0"/>
+    <node name="reporterstwo-1, reporterka-2" size="1">
+      <node name="fotoreporterka-2" size="0"/>
+    </node>
+  </node>
+  <node name="sport-1" size="266">
+    <node name="sport balonowy-1" size="0"/>
+    <node name="parkour-1" size="0"/>
+    <node name="sport samolotowy-1" size="0"/>
+    <node name="sport pożarniczy-1" size="0"/>
+    <node name="jazda-6" size="37">
+      <node name="jazda konna-1" size="7">
+        <node name="jeździectwo-1, hippika-1, hipika-1" size="6">
+          <node name="ujeżdżanie-4" size="0"/>
+          <node name="gonitwa-1" size="3">
+            <node name="gonitwa płotowa-1" size="0"/>
+            <node name="buzkaszi-1" size="0"/>
+            <node name="derby-2" size="0"/>
+          </node>
+          <node name="dżokejstwo-1" size="0"/>
+        </node>
+      </node>
+      <node name="skating-1, skateboard-1, skateboarding-1" size="0"/>
+      <node name="wrotkarstwo-1" size="6">
+        <node name="freestyle slalom-1" size="0"/>
+        <node name="wrotkarstwo hokejowe-1" size="0"/>
+        <node name="wrotkarstwo synchroniczne-1" size="0"/>
+        <node name="wrotkarstwo figurowe-1, wrotkarstwo artystyczne-1" size="0"/>
+        <node name="wrotkarstwo fitness-1" size="0"/>
+        <node name="wrotkarstwo rekreacyjne-1" size="0"/>
+      </node>
+      <node name="łyżwiarstwo-1" size="3"/>
+      <node name="narciarstwo-1" size="16"/>
+    </node>
+    <node name="parajeździectwo-2" size="0"/>
+    <node name="sport rakietowy-1" size="4">
+      <node name="speed badminton-1, speedminton-1" size="0"/>
+      <node name="squash-1" size="0"/>
+      <node name="tenis-1, tenis ziemny-1, biały sport-1" size="0"/>
+      <node name="badminton-1, kometka-1" size="0"/>
+    </node>
+    <node name="sport zespołowy-1, sport drużynowy-1" size="32">
+      <node name="rogaining-1" size="0"/>
+      <node name="siatkonoga-1" size="2">
+        <node name="footvolley-1" size="0"/>
+        <node name="futnet-1" size="0"/>
+      </node>
+      <node name="piłka-1, piłkarstwo-1" size="20"/>
+      <node name="baseball-1, bejsbol-2" size="0"/>
+      <node name="hokej-1" size="5"/>
+    </node>
+    <node name="trekking-1, treking-1" size="0"/>
+    <node name="sport elektroniczny-1, e-sport-1" size="0"/>
+    <node name="sport umysłowy-1" size="16">
+      <node name="go-1" size="0"/>
+      <node name="warcaby-1" size="1">
+        <node name="wybijanka-1" size="0"/>
+      </node>
+      <node name="szachy-1, królewska gra-1" size="12">
+        <node name="szachy błyskawiczne-1, blitz-1" size="0"/>
+        <node name="szachy szybkie-1, szachy aktywne-1" size="0"/>
+        <node name="problemistyka-1" size="0"/>
+        <node name="antyszachy-1" size="0"/>
+        <node name="szachy losowe-1, szachy Fischera-1, szachy 960-1" size="0"/>
+        <node name="szachy trzyosobowe-1" size="0"/>
+        <node name="szachy czteroosobowe-1" size="0"/>
+        <node name="żywe szachy-1" size="0"/>
+        <node name="szachy korespondencyjne-1" size="0"/>
+        <node name="szachy heksagonalne-1" size="1">
+          <node name="szachy heksagonalne Glińskiego-1, heksagonalne szachy polskie-1" size="0"/>
+        </node>
+        <node name="shōgi-1" size="0"/>
+      </node>
+    </node>
+    <node name="jumping-1" size="0"/>
+    <node name="lotnictwo sportowe-1" size="4">
+      <node name="lotniarstwo-1" size="1">
+        <node name="paralotniarstwo-1" size="0"/>
+      </node>
+      <node name="baloniarstwo-1" size="0"/>
+      <node name="szybownictwo-1" size="0"/>
+    </node>
+    <node name="podnoszenie ciężarów-1" size="0"/>
+    <node name="sport motorowy-1, motosport-1" size="9">
+      <node name="enduro-1" size="0"/>
+      <node name="off-road-1, offroad-1, off road-1" size="0"/>
+      <node name="drift-1" size="0"/>
+      <node name="motocross-1, motokros-1" size="0"/>
+      <node name="karting-1" size="0"/>
+      <node name="automobilizm-1" size="0"/>
+      <node name="autocross-1" size="0"/>
+      <node name="żużel-1, czarny sport-1" size="1">
+        <node name="speedrower-1" size="0"/>
+      </node>
+    </node>
+    <node name="skoki-1" size="6">
+      <node name="trójskok-1" size="0"/>
+      <node name="skok wzwyż-1" size="0"/>
+      <node name="skok w dal-1" size="0"/>
+      <node name="skok o tyczce-1, tyczka-5" size="0"/>
+      <node name="loty narciarskie-1" size="0"/>
+      <node name="base jumping-1" size="0"/>
+    </node>
+    <node name="sport ekstremalny-1" size="14" abstract="true">
+      <node name="hydrospeed-1" size="0"/>
+      <node name="survival-1, surwiwal-1, szkoła przetrwania-1" size="0"/>
+      <node name="skok na bungee-1" size="0"/>
+      <node name="spadochroniarstwo-1" size="0"/>
+      <node name="wspinaczka-1" size="9">
+        <node name="wspinaczka lodowa-1" size="0"/>
+        <node name="drytooling-1" size="0"/>
+        <node name="trawers-10" size="0"/>
+        <node name="bouldering-1, buldering-1" size="0"/>
+        <node name="tyrolka-1, kolejka tyrolska-1" size="0"/>
+        <node name="andynizm-1" size="0"/>
+        <node name="taternictwo-1" size="0"/>
+        <node name="himalaizm-1" size="0"/>
+        <node name="alpinizm-1, alpinistyka-1" size="0"/>
+      </node>
+    </node>
+    <node name="siedmiobój-1" size="1">
+      <node name="siedmiobój lekkoatletyczny-1" size="0"/>
+    </node>
+    <node name="sport kwalifikowany-1" size="0"/>
+    <node name="latanie-3" size="1">
+      <node name="latanie precyzyjne-1" size="0"/>
+    </node>
+    <node name="wielobój-1" size="14">
+      <node name="sześciobój-1" size="0"/>
+      <node name="czwórbój-1" size="0"/>
+      <node name="trójbój-1" size="3">
+        <node name="trójbój siłowy-1" size="0"/>
+        <node name="triatlon-1, triathlon-1, trójbój nowoczesny-1" size="1">
+          <node name="duatlon-1, duathlon-1" size="0"/>
+        </node>
+      </node>
+      <node name="dwubój-1" size="4">
+        <node name="kombinacja alpejska-1, narciarstwo alpejskie-1, dwubój klasyczny-1" size="0"/>
+        <node name="dwubój ciężarowy-1" size="0"/>
+        <node name="biatlon-1, biathlon-1, dwubój zimowy-1" size="1"/>
+      </node>
+      <node name="pięciobój-1" size="2">
+        <node name="pięciobój antyczny-1, pentatlon-1" size="0"/>
+        <node name="pięciobój nowoczesny-1" size="0"/>
+      </node>
+    </node>
+    <node name="strzelectwo-1" size="0"/>
+    <node name="wędkarstwo-1" size="2">
+      <node name="casting-2" size="0"/>
+      <node name="spinning-2" size="0"/>
+    </node>
+    <node name="łucznictwo-1" size="1">
+      <node name="kyūdō-1, kyudo-2" size="0"/>
+    </node>
+    <node name="lekkoatletyka-1, lekka atletyka-1" size="0"/>
+    <node name="kolarstwo-1" size="6">
+      <node name="speedrower-1" size="0"/>
+      <node name="kolarstwo torowe-1" size="2">
+        <node name="keirin-1" size="0"/>
+        <node name="scratch-1" size="0"/>
+      </node>
+      <node name="kolarstwo górskie-1" size="1">
+        <node name="cross-country-1" size="0"/>
+      </node>
+    </node>
+    <node name="sport walki-1" size="18">
+      <node name="szermierka-1, szermierstwo-1" size="3">
+        <node name="szpada-2" size="0"/>
+        <node name="szabla-2" size="0"/>
+        <node name="floret-2" size="0"/>
+      </node>
+      <node name="zapasy-1, zapaśnictwo-1" size="2">
+        <node name="sambo-1" size="0"/>
+        <node name="wrestling-1, booker-1" size="0"/>
+      </node>
+      <node name="taekwondo-1, taekwon-do-1" size="0"/>
+      <node name="sumo-1" size="0"/>
+      <node name="kung-fu-1, boks chiński-1" size="0"/>
+      <node name="kick-boxing-1, kick boxing-1, kickboxing-1" size="0"/>
+      <node name="kendo-1" size="0"/>
+      <node name="karate-1" size="1">
+        <node name="knockdown karate-1" size="0"/>
+      </node>
+      <node name="aikido-1" size="0"/>
+      <node name="ju-jitsu-1, jiu-jitsu-1, jujutsu-1, dżiu-dżitsu-1, jujitsu-1" size="1">
+        <node name="dżudo-1, judo-1" size="0"/>
+      </node>
+      <node name="boks-1, pięściarstwo-1" size="0"/>
+    </node>
+    <node name="sport wodny-1" size="20">
+      <node name="pływanie-8" size="0"/>
+      <node name="hydrospeed-1" size="0"/>
+      <node name="wakeboarding-1" size="0"/>
+      <node name="rafting-1" size="0"/>
+      <node name="windsurfing-1" size="0"/>
+      <node name="surfing-1" size="1">
+        <node name="kitesurfing-1, kiteboarding-1" size="0"/>
+      </node>
+      <node name="piłka wodna-1, waterpolo-1" size="0"/>
+      <node name="sport motorowodny-1, motorowodniactwo-1" size="0"/>
+      <node name="kanadyjkarstwo-1" size="0"/>
+      <node name="skiff-2, skif-2" size="0"/>
+      <node name="wioślarstwo-1" size="0"/>
+      <node name="nurkowanie-5" size="5">
+        <node name="nurkowanie wrakowe-1" size="0"/>
+        <node name="nurkowanie techniczne-1" size="0"/>
+        <node name="nurkowanie bezdechowe-1, freediving-1" size="0"/>
+        <node name="snorkeling-1" size="0"/>
+        <node name="płetwonurkowanie-1" size="0"/>
+      </node>
+      <node name="żeglarstwo-1" size="0"/>
+      <node name="kajakarstwo-1" size="0"/>
+    </node>
+    <node name="gra sportowa-1" size="69" abstract="true">
+      <node name="wolant-3" size="0"/>
+      <node name="ringo-1" size="0"/>
+      <node name="piłkarzyki-1, futbol stołowy-1, piłka stołowa-1" size="0"/>
+      <node name="polo-1" size="0"/>
+      <node name="softball-1" size="0"/>
+      <node name="bocce-1" size="0"/>
+      <node name="bowls-1" size="0"/>
+      <node name="netball-1" size="0"/>
+      <node name="racquetball-1" size="0"/>
+      <node name="minigolf-1" size="0"/>
+      <node name="piłka-1, piłkarstwo-1" size="20">
+        <node name="piłka palantowa-1, palant-2" size="0"/>
+        <node name="zbijak-1, zbijany-1" size="0"/>
+        <node name="ulama-1" size="0"/>
+        <node name="piłka halowa-1, futsal-1" size="0"/>
+        <node name="piłka wodna-1, waterpolo-1" size="0"/>
+        <node name="dwa ognie-1" size="0"/>
+        <node name="hazena-1, jordanka-1, czeska piłka ręczna-1" size="0"/>
+        <node name="rugby-1" size="0"/>
+        <node name="futbol amerykański-1, football-1" size="0"/>
+        <node name="piłka ręczna-1, szczypiorniak-1, ręka-7" size="0"/>
+        <node name="piłka nożna-1, futbol-1, soccer-1, noga-3" size="4">
+          <node name="freestyle-5" size="0"/>
+          <node name="enerdowski futbol-1, NRD-owski futbol-1" size="0"/>
+          <node name="football profesjonalny-1" size="0"/>
+          <node name="halówka-1" size="0"/>
+        </node>
+        <node name="koszykówka-1, koszykarstwo-2, piłka koszykowa-1, kosz-10" size="2">
+          <node name="streetball-1, koszykówka uliczna-1" size="0"/>
+          <node name="euroliga-1" size="0"/>
+        </node>
+        <node name="siatkówka-1, siatkarstwo-1, piłka siatkowa-1, siatka-7" size="1">
+          <node name="siatkówka plażowa-1, plażówka-3" size="0"/>
+        </node>
+      </node>
+      <node name="pelota-1, pilota-1, jai-alai-1" size="0"/>
+      <node name="kręglarstwo-1" size="1">
+        <node name="bowling-1" size="0"/>
+      </node>
+      <node name="ping-pong-1, tenis stołowy-1" size="0"/>
+      <node name="kwadrant-3" size="0"/>
+      <node name="baseball-1, bejsbol-2" size="0"/>
+      <node name="krokiet-2" size="0"/>
+      <node name="krykiet-1" size="0"/>
+      <node name="poker-1" size="1">
+        <node name="poker rozbierany-1, nagi poker-1" size="0"/>
+      </node>
+      <node name="bilard-1" size="19">
+        <node name="bilard artystyczny-1" size="0"/>
+        <node name="ruska piramida-1, rosyjski pool-1, bilard rosyjski-1, bilard petersburski-1" size="0"/>
+        <node name="tęcza-4" size="0"/>
+        <node name="rotacja-6" size="0"/>
+        <node name="piętnastka-6" size="0"/>
+        <node name="killer-2" size="0"/>
+        <node name="golf-6" size="0"/>
+        <node name="czternaście plus jeden-1" size="0"/>
+        <node name="karambol-2, bilard francuski-1" size="1">
+          <node name="karambol 3-bandowy-1" size="0"/>
+        </node>
+        <node name="dziesiątka-9" size="0"/>
+        <node name="dziewiątka-5" size="0"/>
+        <node name="ósemka-13" size="1">
+          <node name="ósemka angielska-1" size="0"/>
+        </node>
+        <node name="siódemka-6" size="0"/>
+        <node name="szóstka-9" size="0"/>
+        <node name="trójka-10" size="0"/>
+        <node name="bagatela-4" size="0"/>
+        <node name="snooker-1, bilard angielski-1" size="0"/>
+      </node>
+      <node name="brydż-1, bridż-1" size="1">
+        <node name="brydż sportowy-1" size="0"/>
+      </node>
+      <node name="hokej-1" size="5"/>
+    </node>
+    <node name="atletyka-1" size="0"/>
+    <node name="gimnastyka-2" size="7">
+      <node name="gimnastyka artystyczna-1" size="0"/>
+      <node name="gimnastyka przyrządowa-1" size="0"/>
+      <node name="akrobatyka-1, akrobacja-1" size="4">
+        <node name="kaskaderstwo-1, kaskaderka-2" size="0"/>
+        <node name="ekwilibrystyka-2" size="0"/>
+        <node name="woltyżerka-1, woltyż-1" size="1">
+          <node name="dżygitówka-1" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="golf-2" size="0"/>
+    <node name="sport zimowy-1" size="34">
+      <node name="skijöring-1, skikjöring-1" size="0"/>
+      <node name="skialpinizm-1" size="0"/>
+      <node name="curling-1" size="0"/>
+      <node name="bobsleje-1" size="0"/>
+      <node name="snowboard-1, snowboarding-1" size="0"/>
+      <node name="hokej-1" size="5">
+        <node name="hokej na rolkach-1" size="0"/>
+        <node name="unihokej-1, floorball-1" size="0"/>
+        <node name="hokej na lodzie-1, hokej-2" size="0"/>
+        <node name="hokej na trawie-1" size="0"/>
+        <node name="hokej rosyjski-1, bandy-1" size="0"/>
+      </node>
+      <node name="łyżwiarstwo-1" size="3">
+        <node name="łyżwiarstwo szybkie-1" size="1">
+          <node name="short-track-1, short track-1" size="0"/>
+        </node>
+        <node name="jazda figurowa-1, jazda figurowa na lodzie-1, łyżwiarstwo figurowe-1" size="0"/>
+      </node>
+      <node name="narciarstwo-1" size="16">
+        <node name="freestyle-2" size="0"/>
+        <node name="skitouring-1, ski-touring-1" size="0"/>
+        <node name="narciarstwo biegowe-1" size="0"/>
+        <node name="białe szaleństwo-1" size="0"/>
+        <node name="trójkombinacja-1" size="0"/>
+        <node name="bieg płaski-2" size="0"/>
+        <node name="carving-1, karwing-1" size="0"/>
+        <node name="kombinacja-2" size="2">
+          <node name="kombinacja klasyczna-1, kombinacja norweska-1" size="0"/>
+          <node name="kombinacja alpejska-1, narciarstwo alpejskie-1, dwubój klasyczny-1" size="0"/>
+        </node>
+        <node name="loty narciarskie-1" size="0"/>
+        <node name="slalom-1" size="4">
+          <node name="slalom równoległy-1" size="0"/>
+          <node name="slalom gigant-1, gigant-5" size="0"/>
+          <node name="slalom specjalny-1" size="0"/>
+          <node name="slalom supergigant-1, supergigant-1" size="0"/>
+        </node>
+      </node>
+      <node name="biatlon-1, biathlon-1, dwubój zimowy-1" size="1">
+        <node name="biathlon letni-1" size="0"/>
+      </node>
+    </node>
+  </node>
+  <node name="rzemiosło-1, rzemieślnictwo-1, majsterstwo-2" size="97">
+    <node name="rymarstwo-1" size="1">
+      <node name="siodlarstwo-1" size="0"/>
+    </node>
+    <node name="ceglarstwo-1" size="0"/>
+    <node name="szklarstwo-1" size="0"/>
+    <node name="kaletnictwo-1" size="0"/>
+    <node name="szczotkarstwo-1" size="0"/>
+    <node name="nożownictwo-2" size="0"/>
+    <node name="sitarstwo-1" size="0"/>
+    <node name="tokarstwo-1" size="0"/>
+    <node name="balwierstwo-1" size="0"/>
+    <node name="rusznikarstwo-1" size="0"/>
+    <node name="ludwisarstwo-1, puszkarstwo-2" size="0"/>
+    <node name="prasownictwo-1" size="0"/>
+    <node name="brukarstwo-1" size="0"/>
+    <node name="zabawkarstwo-1" size="0"/>
+    <node name="płóciennictwo-1" size="0"/>
+    <node name="płatnerstwo-1" size="0"/>
+    <node name="kołodziejstwo-1" size="0"/>
+    <node name="kotlarstwo-1" size="0"/>
+    <node name="grawerka-2, grawerstwo-1" size="0"/>
+    <node name="puszkarstwo-1" size="0"/>
+    <node name="lalkarstwo-2" size="0"/>
+    <node name="cholewkarstwo-1" size="0"/>
+    <node name="bednarstwo-1" size="0"/>
+    <node name="szmuklerstwo-1, pasamonictwo-1" size="0"/>
+    <node name="cyzelatorstwo-1" size="0"/>
+    <node name="cyzelunek-1, cyzelatura-1" size="0"/>
+    <node name="galwanizerstwo-1" size="0"/>
+    <node name="folusznictwo-1" size="0"/>
+    <node name="zegarmistrzostwo-1" size="0"/>
+    <node name="ślusarstwo-1, ślusarka-1" size="0"/>
+    <node name="lutnictwo-1" size="0"/>
+    <node name="kuśnierstwo-1" size="1">
+      <node name="kożusznictwo-1" size="0"/>
+    </node>
+    <node name="fryzjerstwo-1" size="1">
+      <node name="perukarstwo-1" size="0"/>
+    </node>
+    <node name="ciesiołka-1, ciesielstwo-1, ciesielka-1" size="0"/>
+    <node name="szkutnictwo-1" size="0"/>
+    <node name="tapicerstwo-1, tapicerka-2" size="0"/>
+    <node name="sukiennictwo-1" size="0"/>
+    <node name="dekarstwo-1" size="0"/>
+    <node name="szewstwo-1" size="0"/>
+    <node name="kowalstwo-1, kowalka-1" size="0"/>
+    <node name="mincerstwo-1, mincarstwo-1" size="0"/>
+    <node name="krawiectwo-1" size="7">
+      <node name="spodniarstwo-1" size="0"/>
+      <node name="rękawicznictwo-1" size="0"/>
+      <node name="gorseciarstwo-1" size="0"/>
+      <node name="czapnictwo-1, czapkarstwo-1" size="0"/>
+      <node name="bieliźniarstwo-2" size="0"/>
+      <node name="modniarstwo-1" size="1">
+        <node name="kapelusznictwo-1" size="0"/>
+      </node>
+    </node>
+    <node name="rzemiosło artystyczne-1, sztuka użytkowa-1" size="38">
+      <node name="metaloceramika-1" size="0"/>
+      <node name="sztycharstwo-1" size="0"/>
+      <node name="pozłotnictwo-1" size="0"/>
+      <node name="ceroplastyka-1, keroplastyka-1" size="0"/>
+      <node name="emalierstwo-1" size="0"/>
+      <node name="witrażownictwo-1" size="0"/>
+      <node name="iluminatorstwo-1" size="0"/>
+      <node name="bukieciarstwo-1, florystyka-1" size="0"/>
+      <node name="plecionkarstwo-1" size="0"/>
+      <node name="wikliniarstwo-1" size="0"/>
+      <node name="koronkarstwo-1, koronczarstwo-1" size="0"/>
+      <node name="epistolografia-2" size="0"/>
+      <node name="sztukatorstwo-1" size="0"/>
+      <node name="snycerstwo-1, snycerka-1" size="0"/>
+      <node name="pamiątkarstwo-1" size="0"/>
+      <node name="medalierstwo-1" size="0"/>
+      <node name="kuglerstwo-1" size="0"/>
+      <node name="hafciarstwo-1, haft-2" size="0"/>
+      <node name="ebenisteria-1" size="0"/>
+      <node name="ceramika-2" size="0"/>
+      <node name="jubilerstwo-1, jubilerka-1" size="2">
+        <node name="złotnictwo-1" size="0"/>
+        <node name="bursztyniarstwo-1, bursztynnictwo-1" size="0"/>
+      </node>
+      <node name="ornamentyka-3, zdobnictwo-1" size="9">
+        <node name="markieteria-1, markietaż-1" size="0"/>
+        <node name="pirografia-1" size="0"/>
+        <node name="intarsja-2" size="1">
+          <node name="intarsja sztukatorska-1" size="0"/>
+        </node>
+        <node name="inkrustacja-2" size="0"/>
+        <node name="emalia-2" size="0"/>
+        <node name="sgraffito-2" size="0"/>
+        <node name="dekoratorstwo-1" size="0"/>
+        <node name="iryzacja-1" size="0"/>
+      </node>
+      <node name="garncarstwo-1, garncarka-2" size="0"/>
+      <node name="liternictwo-1" size="0"/>
+      <node name="rękodzieło-1, rękodzielnictwo-1" size="2">
+        <node name="makrama-2" size="0"/>
+        <node name="robótka ręczna-1" size="0"/>
+      </node>
+    </node>
+    <node name="wędliniarstwo-1" size="0"/>
+    <node name="drukarstwo-1" size="0"/>
+    <node name="stolarka-2, stolarstwo-1" size="1">
+      <node name="stolarka otworowa-1" size="0"/>
+    </node>
+    <node name="murarstwo-1, murarka-2" size="0"/>
+    <node name="kamieniarstwo-1, kamieniarka-1" size="0"/>
+  </node>
+  <node name="ruch-1, ruch społeczny-1" size="95">
+    <node name="antifa-1" size="0"/>
+    <node name="sabataizm-1, sabatianizm-1" size="0"/>
+    <node name="ruch ludowy-1" size="0"/>
+    <node name="alternatywa-5" size="0"/>
+    <node name="progresywizm-2" size="0"/>
+    <node name="irredentyzm-2" size="0"/>
+    <node name="ruch samorządowy-1" size="0"/>
+    <node name="skandynawizm-1" size="0"/>
+    <node name="socjaldemokracja-2, socjaldemokratyzm-1" size="0"/>
+    <node name="kemalizm-1" size="0"/>
+    <node name="bałagulszczyzna-1" size="0"/>
+    <node name="antynazizm-1" size="0"/>
+    <node name="neohitleryzm-1" size="0"/>
+    <node name="neoanarchizm-1" size="0"/>
+    <node name="haskala-1" size="0"/>
+    <node name="panhellenizm-1" size="0"/>
+    <node name="bookcrossing-1" size="0"/>
+    <node name="pansofia-1" size="0"/>
+    <node name="antypsychiatria-1" size="0"/>
+    <node name="goszyzm-1" size="0"/>
+    <node name="panindianizm-1" size="0"/>
+    <node name="ruch chłopski-1" size="1">
+      <node name="hajdamaczyzna-1" size="0"/>
+    </node>
+    <node name="ruch robotniczy-1" size="0"/>
+    <node name="filhellenizm-1" size="0"/>
+    <node name="panamerykanizm-1" size="0"/>
+    <node name="ruch religijny-1" size="9">
+      <node name="afrochrześcijaństwo-1" size="0"/>
+      <node name="arminianizm-2" size="0"/>
+      <node name="ahmadija-1" size="0"/>
+      <node name="kimbangizm-1" size="0"/>
+      <node name="pataria mediolańska-1, pataria-1" size="0"/>
+      <node name="montanizm-1" size="0"/>
+      <node name="bogomilizm-1, bogomilstwo-1" size="0"/>
+      <node name="teozofia-2" size="0"/>
+      <node name="rastafarianizm-1" size="0"/>
+    </node>
+    <node name="ruch stachanowski-1" size="0"/>
+    <node name="młodoturcy-1" size="0"/>
+    <node name="abolicjonizm-2" size="0"/>
+    <node name="encyklopedyzm-3" size="0"/>
+    <node name="ekologia-1, ruch ekologiczny-1, ekologizm-1" size="0"/>
+    <node name="lokalizm-2" size="0"/>
+    <node name="konsumeryzm-1" size="0"/>
+    <node name="panarabizm-1" size="0"/>
+    <node name="olimpizm-1" size="0"/>
+    <node name="neoslawizm-1" size="0"/>
+    <node name="sytuacjonizm-2" size="0"/>
+    <node name="panafrykanizm-1" size="0"/>
+    <node name="iliryzm-1" size="0"/>
+    <node name="luddyzm-1" size="0"/>
+    <node name="milenaryzm-2, millenaryzm-1, chiliazm-2" size="0"/>
+    <node name="antykomunizm-1" size="0"/>
+    <node name="neokomunizm-1" size="0"/>
+    <node name="globalizm-1" size="0"/>
+    <node name="alterglobalizm-1" size="0"/>
+    <node name="antyglobalizm-1" size="0"/>
+    <node name="operacjonizm-1" size="0"/>
+    <node name="naturyzm-1" size="0"/>
+    <node name="ruch oporu-1" size="0"/>
+    <node name="wahabizm-1, wahhabizm-1" size="0"/>
+    <node name="prereformacja-1" size="0"/>
+    <node name="rusofilizm-1, rusofilstwo-1, moskalofilizm-1, moskalofilstwo-1" size="0"/>
+    <node name="bhakti-1" size="0"/>
+    <node name="gallikanizm-1" size="0"/>
+    <node name="irredenta-1, irredentyzm-1" size="1">
+      <node name="irredenta-2, irredentyzm-3" size="0"/>
+    </node>
+    <node name="agraryzm-2" size="1">
+      <node name="ruralizm-2" size="0"/>
+    </node>
+    <node name="czartyzm-1" size="0"/>
+    <node name="narodnictwo-1" size="0"/>
+    <node name="neofaszyzm-1, neonazizm-1" size="0"/>
+    <node name="antyfaszyzm-1" size="0"/>
+    <node name="ikonoklazm-1, obrazoburstwo-1" size="0"/>
+    <node name="abolicjonizm-1" size="0"/>
+    <node name="neorealizm-2" size="0"/>
+    <node name="kontrreformacja-1" size="0"/>
+    <node name="panslawizm-1, pansłowianizm-1" size="0"/>
+    <node name="jansenizm-1" size="0"/>
+    <node name="dzieci kwiaty-1, flower power-1, hippisi-1, ruch hippisowski-1, hipisi-1" size="0"/>
+    <node name="karbonaryzm-1, węglarstwo-1" size="0"/>
+    <node name="libertynizm-2, wolnomyślicielstwo-1" size="0"/>
+    <node name="masoneria-1, wolnomularstwo-1, farmazonia-1, mularstwo-1" size="0"/>
+    <node name="anarchizm-2" size="4">
+      <node name="anarchizm kolektywistyczny-1, anarchokolektywizm-1" size="0"/>
+      <node name="anarchoindywidualizm-1, anarchizm indywidualistyczny-1" size="0"/>
+      <node name="anarchosyndykalizm-1, anarchizm syndykalistyczny-1" size="0"/>
+      <node name="anarchizm komunistyczny-1, anarchokomunizm-1" size="0"/>
+    </node>
+    <node name="syjonizm-1" size="0"/>
+    <node name="pacyfizm-1" size="0"/>
+    <node name="reformacja-1" size="0"/>
+    <node name="humanizm-1" size="0"/>
+    <node name="ekumenizm-1, ruch ekumeniczny-1, ekumenia-1" size="0"/>
+    <node name="feminizm-1" size="2">
+      <node name="feminizm liberalny-1" size="0"/>
+      <node name="feminizm marksistowski-1" size="0"/>
+    </node>
+  </node>
+  <node name="polityka-4" size="59">
+    <node name="unionizm-1" size="0"/>
+    <node name="polityka społeczna-1, polityka socjalna-1" size="0"/>
+    <node name="polityka przestrzenna-1" size="0"/>
+    <node name="polityka przemysłowa-1" size="0"/>
+    <node name="polityka prywatyzacyjna-1" size="0"/>
+    <node name="polityka mieszkaniowa-1" size="0"/>
+    <node name="polityka lekowa-1" size="0"/>
+    <node name="polityka energetyczna-1" size="0"/>
+    <node name="antymilitaryzm-1" size="0"/>
+    <node name="antyimperializm-1" size="0"/>
+    <node name="antyliberalizm-1" size="0"/>
+    <node name="fidelizm-1" size="0"/>
+    <node name="peronizm-1" size="0"/>
+    <node name="thatcheryzm-1" size="0"/>
+    <node name="polakożerstwo-1" size="0"/>
+    <node name="korienizacja-1" size="0"/>
+    <node name="polityka spójności-1" size="1">
+      <node name="polityka regionalna-1" size="0"/>
+    </node>
+    <node name="opricznina-2" size="0"/>
+    <node name="appeasement-1" size="0"/>
+    <node name="realpolitik-1, polityka realna-1" size="0"/>
+    <node name="społecznie włączenie-1" size="0"/>
+    <node name="józefinizm-1" size="0"/>
+    <node name="polityka wewnętrzna-1" size="1">
+      <node name="multikulturalizm-3, wielokulturowość-3" size="0"/>
+    </node>
+    <node name="polityka zewnętrzna-1, polityka zagraniczna-1" size="1">
+      <node name="splendid isolation-1" size="0"/>
+    </node>
+    <node name="polityka otwarcia-1" size="0"/>
+    <node name="polityka asymilacyjna-1" size="0"/>
+    <node name="segregacjonizm-1" size="0"/>
+    <node name="protekcjonizm-1" size="0"/>
+    <node name="prohibicjonizm-1" size="0"/>
+    <node name="neutralizm-1" size="0"/>
+    <node name="aneksjonizm-1, polityka zaborów-1" size="0"/>
+    <node name="remilitaryzacja-1" size="0"/>
+    <node name="syndykalizm-1" size="0"/>
+    <node name="rewanżyzm-1" size="0"/>
+    <node name="reformizm-1" size="0"/>
+    <node name="neokolonializm-1" size="0"/>
+    <node name="interwencjonizm-1" size="0"/>
+    <node name="merkantylizm-1" size="2">
+      <node name="bulionizm-1" size="0"/>
+      <node name="kameralizm-1" size="0"/>
+    </node>
+    <node name="solidaryzm-1" size="0"/>
+    <node name="separatyzm-1, secesjonizm-1, separacjonizm-1" size="0"/>
+    <node name="rewizjonizm-1" size="0"/>
+    <node name="antykolonializm-1" size="0"/>
+    <node name="kolonializm-1" size="0"/>
+    <node name="izolacjonizm-1" size="0"/>
+    <node name="militaryzm-1" size="0"/>
+    <node name="etatyzm-1" size="0"/>
+    <node name="centralizm-1" size="0"/>
+    <node name="apartheid-1" size="0"/>
+    <node name="fiskalizm-1" size="0"/>
+    <node name="liberalizm-1" size="1">
+      <node name="libertalizm-1, libertarianizm-1" size="0"/>
+    </node>
+    <node name="ekspansjonizm-1" size="0"/>
+    <node name="stalinizm-1" size="0"/>
+    <node name="imperializm-1" size="0"/>
+  </node>
+  <node name="wywiad-4" size="2">
+    <node name="biały wywiad-1" size="0"/>
+    <node name="kontrwywiad-1" size="0"/>
+  </node>
+  <node name="technika-1" size="2">
+    <node name="technika analogowa-1" size="0"/>
+    <node name="technika cyfrowa-1" size="0"/>
+  </node>
+  <node name="kultura-1" size="18">
+    <node name="kultura materialna-1" size="0"/>
+    <node name="kultura fizyczna-1" size="0"/>
+    <node name="kultura ludowa-1" size="5">
+      <node name="kurpiowszczyzna-1" size="0"/>
+      <node name="kaszubszczyzna-1" size="0"/>
+      <node name="łemkowszczyzna-1" size="0"/>
+      <node name="góralszczyzna-1" size="0"/>
+      <node name="huculszczyzna-1" size="0"/>
+    </node>
+    <node name="mikrokultura-1" size="0"/>
+    <node name="cyberkultura-1" size="0"/>
+    <node name="kultura popularna-1, popkultura-1, kultura masowa-1" size="0"/>
+    <node name="kultura duchowa-1, kultura symboliczna-1" size="0"/>
+    <node name="kultura obrazkowa-1" size="0"/>
+    <node name="prakultura-1" size="0"/>
+    <node name="subkultura-1, podkultura-1" size="3">
+      <node name="techno-2" size="0"/>
+      <node name="hip-hop-2, hip hop-2" size="0"/>
+      <node name="grunge-1" size="0"/>
+    </node>
+  </node>
+  <node name="działalność gospodarcza-1" size="48">
+    <node name="oponiarstwo-1" size="0"/>
+    <node name="pozarolnicza działalność gospodarcza-1, pozarolnicza działalność-1" size="0"/>
+    <node name="przetwórczość-1" size="0"/>
+    <node name="obieg-3, cyrkulacja-1, rotacja-3" size="3">
+      <node name="obieg pieniądza-1" size="0"/>
+      <node name="obieg okrężny-1" size="0"/>
+      <node name="drugi obieg-1, obieg niezależny-1" size="0"/>
+    </node>
+    <node name="czerwona strefa-1" size="0"/>
+    <node name="biała strefa-1" size="0"/>
+    <node name="wytwórczość-1" size="0"/>
+    <node name="restauratorstwo-1" size="2">
+      <node name="karczmarstwo-1" size="0"/>
+      <node name="szynkarstwo-1" size="0"/>
+    </node>
+    <node name="usługi-1" size="11">
+      <node name="autoserwis-2, autonaprawa-1" size="0"/>
+      <node name="radio taxi-2" size="0"/>
+      <node name="hotelarstwo-1" size="0"/>
+      <node name="gastronomia-1" size="2">
+        <node name="mała gastronomia-2" size="0"/>
+        <node name="lodziarstwo-1" size="0"/>
+      </node>
+      <node name="doradztwo-1, poradnictwo-1" size="4">
+        <node name="doradztwo rolnicze-1" size="0"/>
+        <node name="doradztwo podatkowe-1" size="0"/>
+        <node name="konsulting-1, consulting-1" size="1">
+          <node name="e-konsulting-1" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="handel-1" size="22">
+      <node name="handel łańcuszkowy-1" size="0"/>
+      <node name="półhurt-1" size="0"/>
+      <node name="owocarstwo-2" size="0"/>
+      <node name="komis-2" size="0"/>
+      <node name="aptekarstwo-1" size="0"/>
+      <node name="handel elektroniczny-1, e-handel-1, e-commerce-1" size="1">
+        <node name="m-commerce-1" size="0"/>
+      </node>
+      <node name="akwizycja-2, komiwojażerka-1, komiwojażerstwo-1, domokrąstwo-1" size="0"/>
+      <node name="paskarstwo-1, pasek-4" size="0"/>
+      <node name="narkobiznes-1" size="0"/>
+      <node name="kolportaż-1, kolporterstwo-1" size="0"/>
+      <node name="handel żywym towarem-1" size="0"/>
+      <node name="handel naręczny-1" size="0"/>
+      <node name="księgarstwo-1" size="0"/>
+      <node name="detal-3" size="0"/>
+      <node name="hurt-1" size="0"/>
+      <node name="handel zagraniczny-1" size="0"/>
+      <node name="handel wewnętrzny-1" size="0"/>
+      <node name="wymiana-1, handel wymienny-1, handel zamienny-1" size="3">
+        <node name="barter-1, transakcja barterowa-1, umowa barterowa-1" size="0"/>
+        <node name="transakcja wiązana-1, umowa wiązana-1" size="0"/>
+        <node name="transakcja kompensacyjna-1" size="0"/>
+      </node>
+    </node>
+  </node>
+</node>

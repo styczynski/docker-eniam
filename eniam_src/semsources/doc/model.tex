@@ -1,0 +1,356 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{amsmath}
+
+\usepackage[T1]{fontenc}
+\usepackage[english, polish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usetikzlibrary{conceptgraph}
+
+\newcommand{\sg}{{\it sg} }
+\newcommand{\pl}{{\it pl} }
+\newcommand{\mass}{{\it mass} }
+\newcommand{\ind}{{\it indexical} }
+\newcommand{\corf}{{\it coreferential} }
+\newcommand{\deict}{{\it deictic} }
+\newcommand{\interr}{{\it interrogative} }
+
+\title{Model świata}
+\author{Wojciech Jaworski}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+Przymiotnik określający rzeczownik definiuje wartość, cechy a nazwa tej cechy wynika 
+z wartości i można ją określić na podstawie Słowosieci.
+
+Słowosieć definiuje typy bytów dla naszego modelu. 
+Wprowadza też ontologię najbardziej ogólnych pojęć, 
+w oparciu o które będziemy definiować język reprezentacji znaczenia.
+
+Zgodnie ze Słowosiecią 
+przymiotniki dzielimy na 
+jakościowe (jasny +orzecznik, +ość, prepozycja, +bardzo), relacyjne (brzegowy -orzecznik,-ość, pospozycja, -bardzo) i materiałowe (drewniany +orzecznik, -ość, prepozycja, -bardzo).
+
+
+Podstawowe typy bytów i ich główne podtypy wg. Słowosieci to (w nawiasach liczba hiponimów):
+\begin{itemize}
+\item istota 1 - człowiek, duch, zwierzę - każde żywe stworzenie lub byt myślący (19299)
+  \begin{itemize}
+  \item humanoid 1 (249)
+  \item istota fantastyczna 1 (198)
+  \item istota żywa 1 (12382)
+    \begin{itemize}
+    \item krewniak 2 (105)
+    \item stworzenie oceniane negatywnie 1 (662)
+    \item zwierzę 1 (11413)
+    \item istota nadprzyrodzona 1 (81)
+    \end{itemize}
+  \item osoba 4 (7642)
+    \begin{itemize}
+    \item człowiek 1 (7622)
+      \begin{itemize}
+      \item człowiek ze względu na płeć 1  (942)
+      \item przedstawiciel 3  (1618)
+      \item człowiek, który coś robi 1  (3381)
+      \item persona 1  (434)
+      \item człowiek posiadający jakieś nadprzyrodzone zdolności 1 (55)
+      \item człowiek, który coś zrobił 1  (264)
+      \item człowiek charakteryzowany ze względu na miejsce pobytu 1  (610)
+      \item człowiek ze względu na pochodzenie etniczne 1  (367)
+      \item człowiek ze względu na pełnioną funkcję 1  (1028)
+      \item człowiek charakteryzowany ze względu na kwalifikacje 1  (1340)
+      \item człowiek charakteryzowany pod względem wieku 1  (1010)
+      \item człowiek ze względu na relacje społeczne 1  (3060)
+      \item nazwa człowieka uwzględniająca jego cechy 1  (2695)
+      \item człowiek prowadzący określony tryb życia 1  (68)
+      \end{itemize}
+    \end{itemize}
+  \end{itemize}
+\item całość 1 - wszystkie części czegoś, ogół, komplet, wszystko (11185)
+  \begin{itemize}
+  \item zbiór 1 (9868)
+    \begin{itemize}
+    \item grupa istot 1 (4721)
+    \item zbiór rzeczy 1 (797)
+    \item zespół cech 1 (2030)
+    \item kompleks 3 (631)
+    \end{itemize}
+  \item układ 1 (984)
+  \item jednostka 1 (493)
+  \end{itemize}
+\item jakiś 1 (312) %kwantyfikatory itp?
+\item część 3 (4616)
+  \begin{itemize}
+  \item część ciała 1 (550)
+  \item miejsce wyróżniające się z całości obiektu 1 (478)
+  \item element 3 (1252)
+  \item składnik 1 (2005)
+  \end{itemize}
+\item podmiot 3 (1121)
+  \begin{itemize}
+  \item osoba prawna 1 (676)
+  \item osoba fizyczna 1 (110)
+  \item właściciel 1 (162)
+  \end{itemize}
+\item byt 1 (30)
+\item czyn 1  (1111)
+  \begin{itemize}
+  \item zabieg 1  (166)
+  \item umowa 1  (105)
+  \item niesprawiedliwość 2  (98)
+  \item praktyka 1  (405)
+  \item zagrywka 1  (115)
+  \item postępek 2  (142)
+  \end{itemize}
+\item  właściwość 2 (255)
+  \begin{itemize}
+  \item wielkość 6  (251)
+    \begin{itemize}
+    \item wielkość fizyczna 1  (227)
+    \end{itemize}
+  \end{itemize}
+\item ewenement 1  (110)
+  \begin{itemize}
+  \item osobliwość 1  (100)
+  \end{itemize}
+\item przedmiot 4  (132)
+  \begin{itemize}
+  \item  pośmiewisko 2 (60)
+  \item  adresat 1 (44)
+  \end{itemize}
+\item środek 1  (3464)
+  \begin{itemize}
+  \item środek płatniczy 1  (194)
+  \item środek lokomocji 1  (1048)
+  \item narzędzie 1  (2153)
+  \end{itemize}
+\item ilość 1  (2266)
+  \begin{itemize}
+  \item część 1  (1137)
+  \item zawartość 3 (237) %pojemniki
+  \item kwota 1  (398)
+  \item porcja 1 - ilość żywności itp przeznaczona do jednorazowego spożycia (253)
+  \end{itemize}
+\item ciąg 4  (2209)
+  \begin{itemize}
+  \item  ciąg wydarzeń 1  (2196)
+    \begin{itemize}
+    \item  proces 1 (2191)
+    \end{itemize}
+  \end{itemize}
+\item materia 3  (5105)
+  \begin{itemize}
+  \item ciało 5  (781)
+    \begin{itemize}
+    \item ciało lotne 1  (76)
+    \item ciecz 1  (577)
+    \item ciało stałe 1  (69)
+    \item ciało niebieskie 1  (71)
+    \end{itemize}
+  \item substancja 1  (4897)
+    \begin{itemize}
+    \item substancja określana ze względu na właściwości fizyczne lub chemiczne 1  (240)
+    \item substancja określana ze względu na rolę chemiczną 1  (351)
+    \item substancja określana ze względu na stan skupienia 1  (652)
+    \item substancja pochodzenia naturalnego 1  (97)
+    \item substancja określana ze względu na działanie lub funkcję 1  (1883)
+    \item  mieszanina 1 (608)
+    \item tworzywo 1  (1148)
+    \item substancja chemiczna 1  (1733)
+    \end{itemize}
+  \end{itemize}
+\item zależność 3 - związek pomiędzy rzeczami, gdy jedna warunkuje drugą (483)
+  \begin{itemize}
+  \item relacja 2  (420)
+    \begin{itemize}
+    \item związek 3 (256)
+    \end{itemize}
+  \end{itemize}
+\item rzecz 2  (192)
+  \begin{itemize}
+  \item sprawa 1  (85)
+  \item dowód 1  (102)
+  \end{itemize}
+\item środek 1  (3464)
+  \begin{itemize}
+  \item środek lokomocji 1  (1048)
+  \item narzędzie 1  (2153)
+  \end{itemize}
+\item CZASOWNIK 1  (21020)
+  \begin{itemize}
+  \item CZASOWNIK należący do określonego pola leksykalnego 1  (18337)
+    \begin{itemize}
+    \item CZASOWNIK oznaczający sytuację związaną z wytwarzaniem czegoś 1  (470)
+      \begin{itemize}
+      \item CZASOWNIK $\tensor(\text{PROCES}\with\text{DZIAŁANIE})\tensor(\text{NDK}\with\text{DK}\tensor$ oznaczający wytwarzanie czegoś 1
+      \end{itemize}
+    \item CZASOWNIK oznaczający sytuację związaną ze współżyciem w społeczeństwie 1  (3397)
+%   <node name="CZASOWNIK - DZIAŁANIE NDK oznaczający sytuację związaną (lub sytuacje związane) ze współżyciem w społeczeństwie 1" visited="true" size="137" abstract="true"/>
+%   <node name="CZASOWNIK - CZYNNOŚĆ NDK oznaczający sytuację związaną (lub sytuacje związane) ze współżyciem w społeczeństwie 1" visited="true" size="1308" abstract="true"/>
+%   <node name="CZASOWNIK - ZDARZENIE NDK oznaczający sytuację związaną ze współżyciem w społeczeństwie 1" visited="true" size="58" abstract="true"/>
+%       
+%   <node name="CZASOWNIK - WYPADEK oznaczający zmianę sytuacji związanych (lub sytuacje związane) ze współżyciem w społeczeństwie 1" visited="true" size="21" abstract="true"/>
+%   <node name="CZASOWNIK - PROCES NDK oznaczający zmianę sytuacji związanych (lub sytuacje związane) ze współżyciem w społeczeństwie 1" visited="true" size="13" abstract="true"/>
+%   <node name="CZASOWNIK - PROCES DK oznaczający zmianę sytuacji związanych (lub sytuacje związane) ze współżyciem w społeczeństwie 1" visited="true" size="19" abstract="true"/>
+%   <node name="CZASOWNIK - DZIAŁANIE DK oznaczający zmianę sytuacji związanych (lub sytuacje związane) ze współżyciem w społeczeństwie 1" visited="true" size="104" abstract="true"/>
+%   <node name="CZASOWNIK - AKT oznaczający zmianę sytuacji związanych (lub sytuacje związane) ze współżyciem w społeczeństwie 1" visited="true" size="897" abstract="true"/>
+%   
+%   <node name="CZASOWNIK - ZDARZENIE NDK oznaczający powodowanie zmiany sytuacji związanych (lub sytuacje związane) ze współżyciem w społeczeństwie 1" visited="true" size="7" abstract="true"/>
+%   <node name="CZASOWNIK - WYPADEK oznaczający spowodowanie zmiany sytuacji związanych (lub sytuacje związane) ze współżyciem w społeczeństwie 1" visited="true" size="190" abstract="true"/>
+%   <node name="CZASOWNIK - DZIAŁANIE DK oznaczający spowodowanie zmiany sytuacji związanych (lub sytuacje związane) ze współżyciem w społeczeństwie 1" visited="true" size="178" abstract="true"/>
+%   <node name="CZASOWNIK - CZYNNOŚĆ NDK oznaczający powodowanie zmiany sytuacji związanych (lub sytuacji związanych) ze współżyciem w społeczeństwie 1" visited="true" size="183" abstract="true"/>
+%   
+%   <node name="CZASOWNIK - PROCES DK oznaczający spowodowanie zmiany sytuacji związanych  ze współżyciem w społeczeństwie 1" visited="true" size="5" abstract="true"/>  
+%   <node name="CZASOWNIK - PROCES NDK oznaczający powodowanie zmiany sytuacji związanych ze współżyciem w społeczeństwie 1" visited="true" size="50" abstract="true"/>
+%   <node name="CZASOWNIK - DZIAŁANIE NDK oznaczający powodowanie zmiany sytuacji związanych ze współżyciem w społeczeństwie 1" visited="true" size="145" abstract="true"/>
+%   
+%   <node name="CZASOWNIK - PROCES NDK oznaczający zmianę w obrębie społeczeństwa 1" visited="true" size="33" abstract="true"/>
+%   <node name="CZASOWNIK - PROCES DK oznaczający zmianę w obrębie społeczeństwa 1" visited="true" size="24" abstract="true"/>
+%   
+%   <node name="CZASOWNIK - PROCES NDK oznaczający powodowanie zmian w obrębie społeczeństwa 1" visited="true" size="2" abstract="true"/>
+%   <node name="CZASOWNIK - PROCES DK oznaczający spowodowanie zmian w obrębie społeczeństwa 1" visited="true" size="2" abstract="true"/>
+%   <node name="CZASOWNIK - AKT oznaczający spowodowanie zmian w obrębie społeczeństwa 1" visited="true" size="130" abstract="true"/>    
+      \begin{itemize}
+      \item   ()
+      \item   ()
+      \item   ()
+      \item   ()
+      \end{itemize}
+    \item CZASOWNIK oznaczający sytuacje związane z relacjami abstrakcyjnymi 1  (1284)
+      \begin{itemize}
+      \item   ()
+      \item   ()
+      \item   ()
+      \item   ()
+      \end{itemize}
+    \item CZASOWNIK oznaczający sytuację związaną z położeniem (relacjami przestrzennymi) lub zmianą położenia (relacji przestrzennych) 1  (3563)
+      \begin{itemize}
+      \item   ()
+      \item   ()
+      \item   ()
+      \item   ()
+      \end{itemize}
+    \item CZASOWNIK oznaczający sytuację związaną z posiadaniem 1  (1122)
+      \begin{itemize}
+      \item   ()
+      \item   ()
+      \item   ()
+      \item   ()
+      \end{itemize}
+    \item CZASOWNIK oznaczający sytuację związaną ze stanem mentalnym lub emocjonalnym albo reakcją emocjonalno-fizjologiczną 1  (3235)
+      \begin{itemize}
+      \item   ()
+      \item   ()
+      \item   ()
+      \item   ()
+      \end{itemize}
+    \item CZASOWNIK oznaczający sytuację związaną ze zjawiskiem fizycznym 1  (2257)
+      \begin{itemize}
+      \item   ()
+      \item   ()
+      \item   ()
+      \item   ()
+      \end{itemize}
+    \item CZASOWNIK oznaczający sytuacje związane z łańcuchem przyczynowo-skutkowym 1  (3226)
+      \begin{itemize}
+      \item   ()
+      \item   ()
+      \item   ()
+      \item   ()
+      \end{itemize}
+    \item CZASOWNIK oznaczający sytuację związaną z następstwem czasowym zdarzeń 1  (419)
+      \begin{itemize}
+      \item   ()
+      \item   ()
+      \item   ()
+      \item   ()
+      \end{itemize}
+    \item CZASOWNIK oznaczający sytuację związaną z kontaktem fizycznym 1  (1971)
+      \begin{itemize}
+      \item   ()
+      \item   ()
+      \item   ()
+      \item   ()
+      \end{itemize}
+    \item CZASOWNIK oznaczający sytuację związaną z reakcją organizmu lub czynnością fizjologiczną 1  (555)
+      \begin{itemize}
+      \item   ()
+      \item   ()
+      \item   ()
+      \item   ()
+      \end{itemize}
+    \end{itemize}
+  \item CZASOWNIK STANOWY NDK 1  (822)
+    \begin{itemize}
+    \item CZASOWNIK - STAN NDK oznaczający stan psychiczny intelektualny 1  (54)
+    \item CZASOWNIK - STAN NDK oznaczający stan emocjonalny 1  (152)
+    \item CZASOWNIK - STAN NDK oznaczający stan fizyczny 1  (73)
+    \item być 3  (86)
+    \item CZASOWNIK - STAN NDK oznaczający położenie lub relacje przestrzenne 1  (66)
+    \item CZASOWNIK - STAN NDK oznaczający stan mentalny 1  (6)
+    \item CZASOWNIK - STAN NDK oznaczający sytuacje związane z percepcją lub odczuwaniem 1  (150)
+    \item znajdować się 2  (69)
+    \item istnieć 1  (57)
+    \item CZASOWNIK - STAN NDK oznaczający relacje ponadczasowe i abstrakcyjne 1  (128)
+    \end{itemize}
+  \item CZASOWNIK DYNAMICZNY (AKCJA) 1  (20231)
+    \begin{itemize}
+    \item CZASOWNIK DYNAMICZNY ZMIENNOSTANOWY 1  (14759)
+      \begin{itemize}
+      \item   ()
+      \item   ()
+      \item   ()
+      \item   ()
+      \end{itemize}
+    \item CZASOWNIK DYNAMICZNY NIEZMIENNOSTANOWY 1  (5926)
+       \begin{itemize}
+      \item   ()
+      \item   ()
+      \item   ()
+      \item   ()
+      \end{itemize}
+   \item robić 1  (5484)
+      \begin{itemize}
+      \item   ()
+      \item   ()
+      \item   ()
+      \item   ()
+      \end{itemize}
+    \end{itemize}
+  \end{itemize}
+\item   ()
+  \begin{itemize}
+  \item   ()
+  \item   ()
+  \item   ()
+  \item   ()
+  \end{itemize}
+\item   ()
+  \begin{itemize}
+  \item   ()
+  \item   ()
+  \item   ()
+  \item   ()
+  \end{itemize}
+\item 
+\item 
+\item 
+\item 
+\item 
+\item 
+\item 
+\end{itemize}
+
+
+
+\end{document}
+
+
+
+
+

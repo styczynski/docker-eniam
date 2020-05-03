@@ -1,0 +1,71 @@
+Skala porządkowa polega na tym, że mamy zbiór obiektów z określonym porządkiem, może być to np. porządek liniowy na zbiorze skończonym, albo hierarchia, w której każdy element podlego innemu tworząc drzewiastą zależność.
+
+Skala intencjonalna polega na tym, że mamy zbiór sytuacji (mogą być one wskazane podanie nazwy zjawiska mającego miejsce w danej sytuacji, np "mróz") oraz porządek zadany przez relację bycia przyczyną, celem, skutkiem.
+
+Rozpatrzmy przyimek "od" wiążący zdarzenie A wprowadzone przez czasownik nadrzędny wobec przyimka z obiektem X wprowadzonym przez rzeczownik podrzędny wobec przyimka. Spośród jego użyć można wyróżnić następujące:
+- w miarę postępów zdarzenia A rośnie jego odległość w przestrzeni fizycznej od punktu początkowego X (od morza dochodził szum fal).
+- w miarę postępów zdarzenia A rośnie jego odległość w czasie od punktu początkowego X (pracował od świtu).
+- w miarę postępów zdarzenia A rośnie jego odległość w na skali porządkowej od punktu początkowego X (sukienka jest w trzeciej szafie od lewej).
+- w miarę postępów zdarzenia A rośnie jego odległość w na skali intencjonalnej od punktu początkowego X (wargi spierzchły mi od mrozu)
+Powyższe użycia możemy uogólnić do sensu:
+od 1: w miarę postępów zdarzenia A rośnie jego odległość na skali S od punktu początkowego X. Skala S może być przestrzenna, czasowa, intencjonalna, porządkowa. Skala S określona jest przez rolę tematyczną. 
+Oprócz powyższego wyróżniamy jeszcze następujące sensy
+od 2: w wyniku zdarzenia A zasób przestaje być przypisany do obiektu X (Odklejała znaczki od kopert. Pieniądze pożyczyła od ojca.)
+od 3: przedmiot Y jest w relacji (bycia częścią, przyczynowej) z obiektem Y (Wyprasuj kołnierzyk od bluzki. Weź proszek od bólu głowy. Garnitur od ślubu.)
+od 4: cecha C przejawiana jest w stopniu większym niż przez obiekt X (kupiłem komputer droższy od twojego laptopa) 
+
+Przyimek "do" jest symetryczny względem przyimka "od":
+do 1: w miarę postępów zdarzenia A maleje jego odległość na skali S od punktu końcowego X. Skala S może być przestrzenna, czasowa, intencjonalna, porządkowa. Skala S określona jest przez rolę tematyczną. (Oddał buty do naprawy. Skoczył do wody. Spał do południa. Inflacja spadła do dziesięciu procent. Blacha rozpaliła się do czerwoności.
+do 2: w wyniku zdarzenia A zasób zostaje przypisany do obiektu X (Przyklejała znaczki do kopert.)
+do 3: przedmiot Y jest w relacji (celowej) z obiektem Y (filiżanka do kawy)
+Przyimek "ku" w swoim podstawowym sensie jest synonimem "do": 
+ku 1 = do 1 (Odwrócił się nagle i ruszył ku drzwiom. Nakręcono ten film ku przestrodze młodzieży. Ku radości maluchów spadł śnieg. Dni są coraz dłuższe i ma się ku wiośnie.)
+ku 2: przyimek występujący w zdaniu komunikującym, że ktoś jest zainteresowany inną osobą pod względem erotycznym (Nasze dzieci mają się ku sobie.)
+
+Przyimek "blisko" oraz synonimiczne z nim "koło", "niedaleko", "obok", "około", "opodal" mają następujące sensy:
+blisko 1: Akcja A związana jest z miejscem M znajdującym się w niewielkiej odległości od X na skali S niż miejsce. (blisko stacji metra, blisko daty wyjazdu, blisko 4 hektary) 
+koło 1 = blisko 1 (Usiądź koło mnie. Zadzwoniła koło szóstej.)
+niedaleko 1 = blisko 1 (Mieszkali niedaleko parku.)
+obok 1 = blisko 1 (Położył łyżkę obok talerza. Usiadła obok syna.)
+około 1 = blisko 1 
+opodal 1 = blisko 1 (Konie pasły się opodal lasu.)
+Skala S określona jest przez rolę tematyczną. A powyższe przyimki mają różne preferencje odnośnie tego z jakimi skalami są używane.
+
+Przyimek "obok" ma też drugi sens, które wiąże go z przyimkami "oprócz" i "poza":
+obok 2: przyimek komunikujący o współwystępowaniu przedmiotów lub faktów, o których jest mowa, z innymi przedmiotami i faktami (Obok działalności politycznej uprawiał dziennikarstwo.)
+oprócz 1: przyimek wyłączający z zakresu odniesienia zdania element, którego nazwa użyta jest po tym przyimku (Zwiedzili cały pałac oprócz ostatniego piętra.)
+oprócz 2 = obok 2: przyimek włączający do zakresu odniesienia zdania element, którego nazwa użyta jest po tym przyimku (Oprócz niego byli tam i inni.) 
+
+Przyimek "pod" ma dwa podstawowe sensy:
+pod 1: Akcja A związana jest z miejscem M mającym mniejszą wartość na skali S niż miejsce, w którym znajduje się X. Skala S określona jest przez rolę tematyczną. Jeśli skala jest przestrzenna, wyznacza kierunek w górę, a rola tematyczna może wyznaczać kierunek ruchu względem M. (Kot spał pod biurkiem. Woda wlewała się pod wannę. Dziecko schowało się pod kołdrę. Pod wieczór zaczęło padać. Ojciec miał już wtedy pod osiemdziesiątkę. Drzwi otworzyły się pod naporem tłumu. Pod wiceministrem było pięciu dyrektorów departamentu. Kazano mu opuścić lokal pod groźbą eksmisji.)
+pod 2 = blisko 1 (Spotkajmy się pod pomnikiem. Mieszkali pod Babią Górą. Katastrofa wydarzyła się pod Poznaniem. Proszę zanieść te bagaże pod szóstkę. Jej pierwsze obrazy były malowane pod Picassa.)
+Oraz szereg sensów pobocznych:
+pod 3 = przeciw 1 (Z trudem wiosłowali pod prąd.)
+pod 4: przyimek wraz z przyłączanym rzeczownikiem komunikujący o kierowaniu czymś, sprawowaniu władzy lub opieki nad kimś lub nad czymś (Rodzice oddali córkę pod opiekę babci.)
+pod 5: ARG przyimek występujący w zdaniu komunikującym, że jedna rzecz jest dopasowana lub dostosowana do drugiej (Kupiła torebkę pod kolor płaszcza.)
+pod 6: ARG przyimek wprowadzający nazwę zakąski, która towarzyszy piciu alkoholu lub określenie wznoszonego przez kogoś toastu (Pili pod śledzika. Pod nasze spotkanie!)
+pod 7: przyimek występujący w zdaniu komunikującym, że dana osoba lub dany obiekt mogą być rozpoznane za pomocą wymienionej nazwy (Policja zorganizowała akcję pod kryptonimem "Powroty".)
+pod 8: przyimek występujący w zdaniu komunikującym, że dana osoba za pomocą wypowiedzianych słów zobowiązała się do czegoś (Zeznawał pod przysięgą.)
+pod 9: przyimek wprowadzający nazwę czynności lub jej obiektu, podporządkowaną nadrzędnemu składnikowi zdania (Wniosek poddano pod głosowanie.)
+Przyimek "spod" w swoim podstawowym sensie jest synonimem "pod" zmieniającym rolę tematyczną na ablatywną.
+spod 1 = pod 1 (Wyciągnęła rękawiczki spod sterty ubrań.)
+spod 2 = pod 2 (Ich rodzina pochodziła spod Lwowa.)
+spod 3: ARG przyimek komunikujący, że ktoś spogląda pod czymś, co ma nad oczami (Żołnierze spoglądali na nas spod ciężkich hełmów.)
+spod 4 = pod 4: przyimek oznaczający wspólne podleganie jakiejś władzy lub wydobycie się z zakresu jakichś oddziaływań (Przestępca uwolnił się spod dozoru policji.) >produktywny wyciągnąć, uwolnić, wyjść, wymknąć, opieka, kuratela, władza, =? pod 1 ze skalą drabiny zależności społecznych
+spod 5: ARG przyimek przyłączający określenie przysługującego danej osobie znaku zodiaku (Syn jest spod Raka, a córka spod Lwa.)
+
+Zadanie: 
+- połącz powyższy tekst z dotychczasowym tekstem o przyimkach
+- zanalizuj pozostałe przyimki opisane w SJP w analogiczny sposób: 
+-- wskaż ich podstawowe sensy w sposób abstrachujący od skali i ułóż odpowiednie glosy, a następnie
+-- dla gloss z SJP, które nie pasują do wymyślonych w powyższym punkcie utwórz sensy poprzez przekopiowanie tych gloss wraz z przykładami i nadanie im numerów.
+-- każdy z sensów zaopatrz w przykłady, na razie mogą być przekopiowane z SJP
+-- wskaż synonimię i symetrię pomiędzy poszczególnymi sensami
+-- wszystkie glosy i przykłady przekopiowane z SJP oznacz symbolem "!"
+- po wykonaniu powyższego punktu 
+-- określ produktywność sensów: sens uznajemy za produktywny, jeśli choć jedno z synonimicznych użyć jest produktywne; nieproduktywne sensy oznacz symbolem ARG przy glosie
+-- podaj role tematyczne, które wiążą przyimki użyte w poszczególnych sensach z nadrzędnikami
+-- podaj ograniczenia leksykalne/semantyczne dla podrzędnika i nadrzędnika przyimka.
+- na koniec: przejrzyj (zaanotuj sensami) listę wystąpień przyimków wydobytą z Krzaków.
+
+

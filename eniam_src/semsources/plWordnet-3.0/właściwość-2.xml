@@ -1,0 +1,301 @@
+<node name="właściwość-2, atrybut-3" size="254">
+  <node name="wietrzność-2" size="0"/>
+  <node name="utlenialność-1" size="0"/>
+  <node name="wielkość-6" size="250">
+    <node name="moduł odległości-1" size="0"/>
+    <node name="iloczyn jonowy-1" size="0"/>
+    <node name="sygnał analityczny-1" size="0"/>
+    <node name="oklepiec-3" size="0"/>
+    <node name="rozdzielczość-1" size="0"/>
+    <node name="constans-1, wielkość stała-1, const.-1" size="0"/>
+    <node name="potencjał-2" size="13">
+      <node name="potencjał sedymentacji-1" size="0"/>
+      <node name="potencjał Galvaniego-1" size="0"/>
+      <node name="potencjał elektrody-1" size="0"/>
+      <node name="potencjał elektrochemiczny-1" size="0"/>
+      <node name="potencjał dyfuzyjny-1" size="0"/>
+      <node name="potencjał standardowy-1" size="0"/>
+      <node name="potencjał chemiczny-1" size="0"/>
+      <node name="potencjał błonowy-1" size="1">
+        <node name="potencjał czynnościowy-1, potencjał iglicowy-1" size="0"/>
+      </node>
+      <node name="potencjał elektrokinetyczny-1, potencjał ζ-1, potencjał zeta-1, potencjał dzeta-1" size="0"/>
+      <node name="potencjał elektrostatyczny-1, potencjał elektryczny-1, potencjał pola elektrycznego-1" size="1">
+        <node name="biopotencjał-1, potencjał bioelektryczny-1" size="0"/>
+      </node>
+      <node name="geopotencjał-1, potencjał siły ciężkości-1" size="0"/>
+    </node>
+    <node name="skalar-1, wielkość skalarna-1" size="0"/>
+    <node name="koordynata-1" size="0"/>
+    <node name="wielkość fizyczna-1" size="226">
+      <node name="gęstość powierzchniowa-1" size="0"/>
+      <node name="skuteczność świetlna-1" size="0"/>
+      <node name="przenikalność magnetyczna-1" size="0"/>
+      <node name="podatność elektryczna-1" size="0"/>
+      <node name="dobroć-2, dobroć układu-1" size="0"/>
+      <node name="przenikalność elektryczna-1" size="0"/>
+      <node name="pojemność elektryczna-1" size="0"/>
+      <node name="podatność magnetyczna-1" size="0"/>
+      <node name="gradient-2" size="0"/>
+      <node name="liczba kwantowa-1" size="1">
+        <node name="liczba barionowa-1" size="0"/>
+      </node>
+      <node name="przekrój czynny-1" size="0"/>
+      <node name="sprawność-6" size="0"/>
+      <node name="ekspozycja-10, dawka ekspozycyjna-1" size="0"/>
+      <node name="pseudoskalar-1" size="0"/>
+      <node name="parachora-1" size="0"/>
+      <node name="hiperładunek-1" size="0"/>
+      <node name="egzergia-1" size="0"/>
+      <node name="upływność-1" size="0"/>
+      <node name="gęstość-4" size="3">
+        <node name="gęstość krytyczna-1" size="0"/>
+        <node name="gęstość prądu elektrycznego-1" size="0"/>
+        <node name="gęstość Plancka-1" size="0"/>
+      </node>
+      <node name="faza-4, fazowość-2" size="0"/>
+      <node name="liczba masowa-1, A-6" size="0"/>
+      <node name="jasność-4" size="0"/>
+      <node name="masa-2" size="8">
+        <node name="masa Plancka-1" size="0"/>
+        <node name="tonaż-4" size="3">
+          <node name="tonaż-6" size="0"/>
+          <node name="tonaż-5" size="0"/>
+          <node name="tonaż-3" size="0"/>
+        </node>
+        <node name="masa krytyczna-1" size="0"/>
+        <node name="masa cząsteczkowa-1, ciężar cząsteczkowy-1" size="0"/>
+        <node name="masa atomowa-1, ciężar atomowy-1" size="0"/>
+      </node>
+      <node name="magnituda-1" size="0"/>
+      <node name="izospin-1" size="0"/>
+      <node name="dekrement tłumienia-1" size="0"/>
+      <node name="przewodność cieplna-1" size="0"/>
+      <node name="przepuszczalność-2" size="0"/>
+      <node name="polaryzowalność-1" size="0"/>
+      <node name="entalpia-1" size="0"/>
+      <node name="indukcyjność-2" size="0"/>
+      <node name="światłość-2" size="0"/>
+      <node name="skalarna wielkość fizyczna-1" size="91" abstract="true">
+        <node name="strumień-5" size="2">
+          <node name="strumień elektryczny-1" size="0"/>
+          <node name="strumień świetlny-1" size="0"/>
+        </node>
+        <node name="praca-7" size="2">
+          <node name="praca wyjścia-1" size="0"/>
+          <node name="przebieg-5" size="0"/>
+        </node>
+        <node name="ciepło-4" size="0"/>
+        <node name="moc-8" size="4">
+          <node name="moc elektryczna-1" size="0"/>
+          <node name="moc mechaniczna-1" size="0"/>
+          <node name="zdolność produkcyjna-1, moc produkcyjna-1" size="0"/>
+          <node name="moc czynna-1" size="0"/>
+        </node>
+        <node name="luminancja-1, jaskrawość-3, blask-3, jasność powierzchniowa-1, luminacja-1" size="0"/>
+        <node name="przewodność elektryczna-1, konduktancja-1" size="2">
+          <node name="susceptancja-1" size="0"/>
+          <node name="przewodność elektryczna pozorna-1, admitancja-1" size="0"/>
+        </node>
+        <node name="energia-3" size="31">
+          <node name="ciemna energia-1" size="0"/>
+          <node name="energia wymiany-1" size="0"/>
+          <node name="energia pierwotna-1" size="0"/>
+          <node name="energia wiązania-1" size="0"/>
+          <node name="energia wewnętrzna-1" size="0"/>
+          <node name="energia hydrauliczna-1" size="0"/>
+          <node name="energia elektrostatyczna-1" size="0"/>
+          <node name="energia dysocjacji-1" size="0"/>
+          <node name="energia aktywacji-1" size="0"/>
+          <node name="energia adsorpcji-1" size="0"/>
+          <node name="energia swobodna-1" size="0"/>
+          <node name="energia rozpadu-1" size="0"/>
+          <node name="energia oddziaływania-1" size="0"/>
+          <node name="energia magnetyczna-1" size="0"/>
+          <node name="energia jonizacji-1" size="0"/>
+          <node name="energia sprężystości-1" size="0"/>
+          <node name="energia termiczna-1, energia cieplna-1" size="0"/>
+          <node name="energia kinetyczna-1" size="0"/>
+          <node name="energia mechaniczna-1" size="0"/>
+          <node name="energia elektryczna-2" size="0"/>
+          <node name="hydroenergia-1" size="0"/>
+          <node name="energia jądrowa-1, energia atomowa-1" size="0"/>
+          <node name="elektryczność-2, energia elektryczna-1, światło-4, prąd-3, energia-4, elektryka-1" size="0"/>
+          <node name="irradiacja-4" size="0"/>
+          <node name="bioenergia-1" size="0"/>
+          <node name="energia potencjalna-1" size="0"/>
+          <node name="uciąg-1" size="0"/>
+          <node name="energia świetlna-1" size="0"/>
+          <node name="napęd-2" size="2">
+            <node name="napęd fotonowy-1" size="0"/>
+            <node name="napęd rakietowy-1" size="0"/>
+          </node>
+        </node>
+        <node name="temperatura-1" size="24">
+          <node name="punkt dymienia-1" size="0"/>
+          <node name="temperatura barwowa-1" size="0"/>
+          <node name="temperatura Néela-1" size="0"/>
+          <node name="temperatura Curie-1" size="0"/>
+          <node name="temperatura upału-1" size="0"/>
+          <node name="temperatura mrozu-1" size="0"/>
+          <node name="średnia temperatura roczna-1" size="0"/>
+          <node name="temperatura wrzenia-1" size="0"/>
+          <node name="temperatura skraplania-1" size="0"/>
+          <node name="temperatura krzepnięcia-1" size="0"/>
+          <node name="temperatura krytyczna-1" size="1">
+            <node name="temperatura mrozu-2" size="0"/>
+          </node>
+          <node name="temperatura bezwzględna-1, temperatura Kelvina-1" size="0"/>
+          <node name="temperatura pokojowa-1" size="0"/>
+          <node name="temperatura topnienia-1" size="0"/>
+          <node name="temperatura-4, ciepłota-1" size="3">
+            <node name="gorączka-1, temperatura-3" size="2">
+              <node name="febra-3" size="0"/>
+              <node name="maligna-1" size="0"/>
+            </node>
+          </node>
+          <node name="zimno-1" size="1">
+            <node name="mróz-1, zimnica-1, ziąb-1" size="0"/>
+          </node>
+          <node name="ciepło-3, ciepłość-2" size="0"/>
+          <node name="chłód-1" size="1">
+            <node name="rześkość-5, świeżość-2, rzeźwość-2" size="0"/>
+          </node>
+          <node name="mróz-1, zimnica-1, ziąb-1" size="0"/>
+        </node>
+        <node name="ciśnienie-1" size="17">
+          <node name="ciśnienie osmotyczne-1" size="0"/>
+          <node name="ciśnienie kierunkowe-1" size="0"/>
+          <node name="ciśnienie petrostatyczne-1" size="0"/>
+          <node name="ciśnienie normalne-1" size="0"/>
+          <node name="ciśnienie atmosferyczne-1" size="1">
+            <node name="ciśnienie barometryczne-1" size="0"/>
+          </node>
+          <node name="ciśnienie akustyczne-1" size="0"/>
+          <node name="ciśnienie hydrostatyczne-1" size="0"/>
+          <node name="ciśnienie cząstkowe-1, ciśnienie parcjalne-1" size="0"/>
+          <node name="ciśnienie-2, ciśnienie krwi-1" size="6">
+            <node name="obciążenie następcze-1" size="0"/>
+            <node name="ciśnienie żylne-1" size="0"/>
+            <node name="ciśnienie skurczowe-1" size="0"/>
+            <node name="ciśnienie rozkurczowe-1" size="1">
+              <node name="obciążenie wstępne-1" size="0"/>
+            </node>
+            <node name="ciśnienie tętnicze-1" size="0"/>
+          </node>
+          <node name="podciśnienie-1" size="0"/>
+        </node>
+      </node>
+      <node name="wektorowa wielkość fizyczna-1, wektor-3" size="50">
+        <node name="magnetyczny moment dipolowy-1" size="0"/>
+        <node name="elektryczny moment dipolowy-1" size="0"/>
+        <node name="indukcja magnetyczna-1, indukcja pola magnetycznego-1" size="0"/>
+        <node name="indukcja elektryczna-1" size="0"/>
+        <node name="prędkość-3, szybkość-2" size="16">
+          <node name="prędkość ucieczki-1" size="0"/>
+          <node name="prędkość orbitalna-1" size="0"/>
+          <node name="prędkość kosmiczna-1" size="0"/>
+          <node name="prędkość obrotowa-1" size="0"/>
+          <node name="prędkość graniczna-1, prędkość wypornościowa-1, graniczna prędkość wypornościowa-1" size="0"/>
+          <node name="dziewięćdziesiątka-4" size="0"/>
+          <node name="osiemdziesiątka-4" size="0"/>
+          <node name="sześćdziesiątka-5" size="0"/>
+          <node name="czterdziestka-6" size="0"/>
+          <node name="trzydziestka-6" size="0"/>
+          <node name="setka-13" size="0"/>
+          <node name="pięćdziesiątka-6" size="0"/>
+          <node name="prędkość światła w ośrodku materialnym-1" size="0"/>
+          <node name="prędkość światła-1, prędkość światła w próżni-1, c-12" size="0"/>
+          <node name="siedemdziesiątka-4" size="0"/>
+          <node name="prędkość względna-1" size="0"/>
+        </node>
+        <node name="przyśpieszenie-3, przyspieszenie-4" size="7">
+          <node name="przyśpieszenie kątowe-1" size="0"/>
+          <node name="przyśpieszenie dośrodkowe-1, przyśpieszenie normalne-1" size="0"/>
+          <node name="przyśpieszenie grawitacyjne-1" size="1">
+            <node name="przyśpieszenie ziemskie-1" size="0"/>
+          </node>
+          <node name="przyśpieszenie styczne-1" size="0"/>
+          <node name="przyśpieszenie odśrodkowe-1" size="0"/>
+          <node name="przyśpieszenie stałe-1" size="0"/>
+        </node>
+        <node name="siła-6" size="20">
+          <node name="siła magnetomotoryczna-1" size="0"/>
+          <node name="siła Lorentza-1" size="0"/>
+          <node name="siła elektrodynamiczna-1" size="0"/>
+          <node name="siła elektromotoryczna-1" size="0"/>
+          <node name="przesłuch zbieżny-1" size="0"/>
+          <node name="odrzut-5" size="2">
+            <node name="odrzut-4" size="1">
+              <node name="podrzut-3" size="0"/>
+            </node>
+          </node>
+          <node name="uciąg-3" size="0"/>
+          <node name="siła naciągu-1, naciąg-6" size="0"/>
+          <node name="napór-2" size="0"/>
+          <node name="ciąg-6" size="0"/>
+          <node name="rażenie-3" size="0"/>
+          <node name="uciąg-2" size="0"/>
+          <node name="wypór-1" size="0"/>
+          <node name="siła oporu-1, opór ruchu-1, opór-4, odpór-2" size="4">
+            <node name="opór drogowy-1" size="1">
+              <node name="opór wzniesienia-1" size="0"/>
+            </node>
+            <node name="opór aerodynamiczny-1" size="0"/>
+            <node name="tarcie-6" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="moment magnetyczny-1" size="0"/>
+      <node name="ładunek elektryczny-1" size="0"/>
+      <node name="częstotliwość-1, częstość-2" size="11">
+        <node name="rutynowość-1" size="0"/>
+        <node name="rytm-1" size="9">
+          <node name="tala-2" size="0"/>
+          <node name="kwintola-1" size="0"/>
+          <node name="duola-1" size="0"/>
+          <node name="beat-1, bit-3" size="1">
+            <node name="riddim-1" size="0"/>
+          </node>
+          <node name="triola-1" size="0"/>
+          <node name="rytm asymetryczny-1" size="1">
+            <node name="rytm swobodny-1" size="0"/>
+          </node>
+          <node name="swing-2" size="0"/>
+        </node>
+      </node>
+      <node name="natężenie-2" size="4">
+        <node name="natężenie oświetlenia-1, oświetlenie-5" size="0"/>
+        <node name="natężenie pola elektrycznego-1" size="0"/>
+        <node name="natężenie prądu elektrycznego-1" size="0"/>
+        <node name="koercja-1" size="0"/>
+      </node>
+      <node name="napięcie-2, woltaż-1, napięcie elektryczne-1" size="6">
+        <node name="napięcie dotykowe-1" size="0"/>
+        <node name="napięcie magnetyczne-1" size="0"/>
+        <node name="napięcie rozkładowe-1" size="0"/>
+        <node name="napięcie kontaktowe-1" size="0"/>
+        <node name="napięcie krokowe-1" size="0"/>
+        <node name="napięcie znamionowe-1" size="0"/>
+      </node>
+      <node name="moment-4" size="3">
+        <node name="moment pędu-1" size="1">
+          <node name="spin-1" size="0"/>
+        </node>
+        <node name="kręt-1" size="0"/>
+      </node>
+      <node name="ciężar-1, waga-2, ciężkość-2" size="8">
+        <node name="ołów-3, kamień-7" size="0"/>
+        <node name="unos-1" size="0"/>
+        <node name="wyporność-1" size="0"/>
+        <node name="gramatura-1" size="0"/>
+        <node name="ciężar pozorny-1" size="0"/>
+        <node name="waga brutto-1, brutto-1" size="0"/>
+        <node name="ciężar netto-1, masa netto-1, netto-1" size="0"/>
+        <node name="ciężar właściwy-1" size="0"/>
+      </node>
+    </node>
+    <node name="krzywizna-2" size="0"/>
+  </node>
+  <node name="parzystość-1" size="0"/>
+</node>

@@ -1,0 +1,26 @@
+% This is a demo grammar for Birnam.
+%
+% Author: Marcin Woliński
+% This file is in the public domain.
+
+expr(E) --> s(e1), expr(E1), "+", term(T), {E is E1 + T}.
+expr(E) --> s(e2), expr(E1), "-", term(T), {E is E1 - T}.
+expr(E) --> s(e3), term(E).
+
+term(T) --> s(t1), term(T1), "*", factor(F), {T is T1 * F}.
+term(T) --> s(t2), term(T1), "/", factor(F), {T is T1 / F}.
+term(T) --> s(t3), factor(T).
+
+factor(F) --> s(f1), number(F).
+factor(F) --> s(f2), "(", expr(F), ")".
+
+number(N) --> s(n1), digit(N).
+number(N) --> s(n2), number(N1), digit(D), {N is 10*N1+D}.
+
+digit(D) --> s(d1), [N], { N>= 0'0, N=< 0'9, D is N - 0'0 }.
+
+
+%%% Local Variables: 
+%%% coding: utf-8
+%%% mode: prolog
+%%% End: 

@@ -1,0 +1,71 @@
+#! /usr/bin/perl
+# Dostosowanie formatu słownika wymagań czasownikowych.
+#
+# Author: Marcin Woliński
+# This file is in the public domain.
+
+use strict;
+use locale;
+
+ 
+my $srcdict=shift;
+$srcdict = 's_czas_walenty' unless $srcdict;
+
+my $podmiot='subj(np(mian))';
+my (%slownik, %swislownik);
+
+open SLOW, ">slowczas.pl" || die;
+
+print SLOW <<EOS;
+% This file has been generated with genslowczas.  Do not modify.  
+% Modifications should be applied to the file $srcdict instead.\n
+%
+EOS
+
+open TAB, "<$srcdict" || die;
+while (<TAB>) {
+    s/refl/sie/g; # Na razie nie odróżniamy w parserze zwrotnego «się»
+		  # od morfologicznego.
+    if (/^%(?!%)/) {
+	print SLOW;
+    } elsif (/^%%/) {
+    } elsif (m/^([^\t %]+)( się)?\t([^\t%]+)\t([^\t%]*)(?: ?%.*)?\n/) {
+	my ($lemat, $sie, $wl, @wyms)=($1, ($2?'s':'n'), $3, split('\+',$4));
+
+	my $key="$lemat";
+	$slownik{$key}=[$lemat, 'n', ()]
+	    unless defined $slownik{$key};
+	unshift @wyms, 'sie'
+	    if $sie eq 's';
+	unshift @wyms, $podmiot
+	    if $wl eq 'V';
+	push @{$slownik{$key}->[2]}, [@wyms];
+    } else {
+	die "Error in $srcdict w. $.: $_";
+    }
+}
+
+foreach my $verb (sort keys %slownik) {
+    my ($lemat, $sie, $wyms) = @{$slownik{$verb}};
+    my $entry = "slowczas($lemat, $sie, [".
+      join(', ',map {"[".join(', ', @$_)."]"} @$wyms).
+      "]).\n";
+    $swislownik{$entry}=1;
+}
+
+print SLOW $_
+    foreach sort keys %swislownik;
+
+print SLOW <<EOS;
+%%% \x4Cocal Variables: 
+%%% coding: utf-8
+%%% mode: prolog
+%%% End: 
+EOS
+
+
+### Local Variables:
+### coding: utf-8
+### mode: perl
+### End:
+

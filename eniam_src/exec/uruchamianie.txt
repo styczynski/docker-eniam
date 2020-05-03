@@ -1,0 +1,10 @@
+Uruchamianie parsera w roli serwera sieciowego:
+export ENIAM_RESOURCE_PATH=resources/
+./parser -p 1234 -m 2> log.txt &
+
+Testowe uruchamianie klienta cgi:
+export ENIAM_RESOURCE_PATH=resources/
+echo "text0=Kot aranżuje." | ./parser3.cgi
+
+Uruchamianie api z zapisem wyniku do katalogu results/tt:
+./parser.api --port 1234 -r results/tt

@@ -1,0 +1,999 @@
+<node name="niezwykle-1" size="774">
+  <node name="oszałamiająco-2, oszołamiająco-1" size="0"/>
+  <node name="zjawiskowo-1" size="2">
+    <node name="olśniewająco-2" size="1">
+      <node name="oszałamiająco-1, oszołamiająco-2" size="0"/>
+    </node>
+  </node>
+  <node name="wymyślnie-1" size="5">
+    <node name="wyrafinowanie-1" size="0"/>
+    <node name="finezyjnie-1" size="0"/>
+    <node name="fantazyjnie-1" size="1">
+      <node name="fikuśnie-1, frymuśnie-1" size="0"/>
+    </node>
+    <node name="fantastycznie-8" size="0"/>
+  </node>
+  <node name="wyjątkowo-1" size="563">
+    <node name="nieprzeciętnie-1" size="0"/>
+    <node name="wykwintnie-1" size="2">
+      <node name="wyszukanie-2" size="1"/>
+    </node>
+    <node name="unikatowo-1, unikalnie-1" size="1">
+      <node name="bezprecedensowo-1" size="0"/>
+    </node>
+    <node name="świąteczno-2" size="0"/>
+    <node name="przewspaniale-3" size="3">
+      <node name="przesłodko-2" size="0"/>
+      <node name="przecudownie-1" size="0"/>
+      <node name="cudownie-2" size="0"/>
+    </node>
+    <node name="przewspaniale-5, przedobrze-1" size="1">
+      <node name="przepysznie-1" size="0"/>
+    </node>
+    <node name="przewspaniale-1" size="0"/>
+    <node name="ponadprzeciętnie-1" size="5"/>
+    <node name="niepowszednio-1" size="0"/>
+    <node name="szczególnie-1" size="141">
+      <node name="specjalnie-1" size="0"/>
+      <node name="podniośle-1" size="17">
+        <node name="patetycznie-2" size="1">
+          <node name="hieratycznie-2" size="0"/>
+        </node>
+        <node name="kaznodziejsko-2, po kaznodziejsku-1" size="0"/>
+        <node name="pontyfikalnie-2" size="0"/>
+        <node name="wzniośle-4" size="3">
+          <node name="monumentalnie-1" size="2">
+            <node name="ciężkawo-9" size="0"/>
+            <node name="ciężko-17" size="0"/>
+          </node>
+        </node>
+        <node name="uroczyście-1" size="2">
+          <node name="obrzędowo-1" size="1">
+            <node name="rytualnie-2" size="0"/>
+          </node>
+        </node>
+        <node name="laurowo-1" size="0"/>
+        <node name="pompatycznie-1" size="4">
+          <node name="bombastycznie-1" size="0"/>
+          <node name="szumnie-1" size="0"/>
+          <node name="koturnowo-1" size="0"/>
+          <node name="dęto-1" size="0"/>
+        </node>
+      </node>
+      <node name="gardłowo-1" size="0"/>
+      <node name="charakterystycznie-2" size="120"/>
+    </node>
+    <node name="ekstraordynaryjnie-1" size="0"/>
+    <node name="ekskluzywnie-1" size="0"/>
+    <node name="cudnie-1, cudownie-5, bosko-3, nieziemsko-1" size="1"/>
+    <node name="charakterystycznie-1, specyficznie-1" size="515">
+      <node name="idealistycznie-3" size="0"/>
+      <node name="po sasku-1" size="0"/>
+      <node name="genialnie-2" size="0"/>
+      <node name="znamiennie-2" size="0"/>
+      <node name="właściwie-7" size="506">
+        <node name="żołniersko-2" size="0"/>
+        <node name="odpowiednio-4" size="0"/>
+        <node name="rzeczownikowo-2" size="0"/>
+        <node name="po marksowsku-1" size="0"/>
+        <node name="po leśmianowsku-1" size="0"/>
+        <node name="po sądecku-1" size="0"/>
+        <node name="po jezuicku-1" size="0"/>
+        <node name="po etiopsku-2" size="0"/>
+        <node name="po filipińsku-1" size="0"/>
+        <node name="po franciszkańsku-1" size="0"/>
+        <node name="typowo-1" size="197">
+          <node name="regionalnie-2" size="0"/>
+          <node name="depresyjnie-2" size="0"/>
+          <node name="typowo dla określonego miejsca, czasu lub dla określonej sytuacji-1" size="29" abstract="true">
+            <node name="etnicznie-3" size="2">
+              <node name="ludowo-1, na ludowo-1" size="1"/>
+            </node>
+            <node name="hitlerowsko-1" size="0"/>
+            <node name="wakacyjnie-1" size="1">
+              <node name="ogórkowo-2" size="0"/>
+            </node>
+            <node name="wiosennie-2" size="0"/>
+            <node name="wiejsko-2" size="3">
+              <node name="rustykalnie-1" size="0"/>
+              <node name="ludowo-1, na ludowo-1" size="1">
+                <node name="cepeliowsko-1" size="0"/>
+              </node>
+            </node>
+            <node name="wiejsko-4, po wiejsku-2" size="0"/>
+            <node name="prowincjonalnie-2" size="0"/>
+            <node name="pogrzebowo-1" size="0"/>
+            <node name="miejsko-1, po miejsku-1" size="6"/>
+            <node name="jarmarcznie-2, odpustowo-1" size="0"/>
+            <node name="hulacko-2" size="0"/>
+            <node name="europejsko-3, po europejsku-1" size="1"/>
+            <node name="dyskotekowo-1" size="0"/>
+            <node name="brytyjsko-1, po brytyjsku-3" size="3"/>
+            <node name="barowo-1" size="0"/>
+          </node>
+          <node name="typowo dla określonej grupy osób-1" size="41" abstract="true">
+            <node name="hultajsko-2, po hultajsku-1" size="0"/>
+            <node name="po cepersku-1" size="0"/>
+            <node name="po hetmańsku-1" size="0"/>
+            <node name="mieszczańsko-2, po mieszczańsku-2" size="1">
+              <node name="plebejsko-2" size="0"/>
+            </node>
+            <node name="gogusiowato-1" size="0"/>
+            <node name="po kozacku-2" size="0"/>
+            <node name="dziewczęco-2" size="1">
+              <node name="dziewiczo-2" size="0"/>
+            </node>
+            <node name="hitlerowsko-1" size="0"/>
+            <node name="po małomieszczańsku-2, po drobnomieszczańsku-2" size="0"/>
+            <node name="po harwardzku-1" size="0"/>
+            <node name="faryzejsko-2, faryzeuszowsko-2, po faryzeuszowsku-1, po faryzejsku-1" size="0"/>
+            <node name="wiejsko-4, po wiejsku-2" size="0"/>
+            <node name="sybarycko-3" size="0"/>
+            <node name="prominencko-2" size="0"/>
+            <node name="wojskowo-1" size="2">
+              <node name="żołniersko-2" size="0"/>
+              <node name="militarnie-1" size="0"/>
+            </node>
+            <node name="miejsko-1, po miejsku-1" size="6">
+              <node name="po warszawsku-2" size="0"/>
+              <node name="po pilsku-1" size="0"/>
+              <node name="po ostrowsku-1" size="0"/>
+              <node name="po czelabińsku-1" size="0"/>
+              <node name="po krakowsku-2" size="0"/>
+              <node name="po słupsku-1" size="0"/>
+            </node>
+            <node name="męsko-1, po męsku-1" size="1">
+              <node name="chłopięco-2" size="0"/>
+            </node>
+            <node name="latynosko-1" size="0"/>
+            <node name="dziecięco-1, dziecinnie-1" size="2">
+              <node name="sieroco-2" size="0"/>
+              <node name="niemowlęco-2" size="0"/>
+            </node>
+            <node name="dresiarsko-1" size="0"/>
+            <node name="kobieco-1, damsko-1, po damsku-2" size="3">
+              <node name="po panieńsku-2" size="0"/>
+              <node name="po panieńsku-1" size="0"/>
+              <node name="babsko-1" size="0"/>
+            </node>
+            <node name="awanturniczo-3" size="1">
+              <node name="chuligańsko-1" size="0"/>
+            </node>
+            <node name="arystokratycznie-1, rasowo-3" size="0"/>
+            <node name="aryjsko-1" size="0"/>
+          </node>
+          <node name="filozoficznie-1" size="1">
+            <node name="kontemplacyjnie-3" size="0"/>
+          </node>
+          <node name="stereotypowo-2" size="0"/>
+          <node name="pluralistycznie-2" size="0"/>
+          <node name="materialistycznie-2" size="0"/>
+          <node name="romantycznie-5" size="0"/>
+          <node name="racjonalistycznie-2" size="0"/>
+          <node name="półprzemysłowo-2" size="0"/>
+          <node name="powieściowo-1" size="0"/>
+          <node name="polsko-1, nadwiślańsko-2, po polsku-3" size="1">
+            <node name="po mazursku-1" size="0"/>
+          </node>
+          <node name="mechanicznie-3" size="0"/>
+          <node name="fircykowato-2" size="0"/>
+          <node name="elficko-1" size="0"/>
+          <node name="dekadencko-2" size="0"/>
+          <node name="charakterystycznie-2" size="120">
+            <node name="kontynentalnie-1" size="2">
+              <node name="kontynentalnie-4" size="0"/>
+              <node name="kontynentalnie-3" size="0"/>
+            </node>
+            <node name="lodowato-5" size="0"/>
+            <node name="ślubnie-2" size="0"/>
+            <node name="stołecznie-1" size="0"/>
+            <node name="buddyjsko-2" size="0"/>
+            <node name="bigbitowo-2" size="0"/>
+            <node name="z europejska-1" size="0"/>
+            <node name="z cygańska-1" size="0"/>
+            <node name="z chłopska-1" size="0"/>
+            <node name="z celtycka-2" size="0"/>
+            <node name="z białoruska-2" size="0"/>
+            <node name="z arabska-2" size="0"/>
+            <node name="z anglosaska-1" size="0"/>
+            <node name="z angielska-2" size="0"/>
+            <node name="z amerykańska-2" size="0"/>
+            <node name="z mazurska-2" size="0"/>
+            <node name="z łacińska-2" size="0"/>
+            <node name="po dziennikarsku-2" size="0"/>
+            <node name="po akademicku-4" size="0"/>
+            <node name="anglosasko-3" size="0"/>
+            <node name="operowo-5" size="0"/>
+            <node name="kantowsko-1, po kantowsku-1" size="0"/>
+            <node name="operowo-3" size="0"/>
+            <node name="operowo-2" size="0"/>
+            <node name="po krasnoludzku-2" size="0"/>
+            <node name="po wielkopańsku-2" size="0"/>
+            <node name="podobnie-4" size="0"/>
+            <node name="trapersko-1" size="0"/>
+            <node name="bachowsko-1" size="0"/>
+            <node name="po kozacku-1" size="0"/>
+            <node name="po chorwacku-2" size="0"/>
+            <node name="po algiersku-1" size="0"/>
+            <node name="cenzorsko-2" size="0"/>
+            <node name="hitlerowsko-3" size="0"/>
+            <node name="ciężko-19" size="0"/>
+            <node name="łotrowsko-2, po łotrowsku-2" size="0"/>
+            <node name="lisio-2" size="0"/>
+            <node name="atlantycko-2" size="0"/>
+            <node name="bukolicznie-2" size="0"/>
+            <node name="żywicznie-2" size="0"/>
+            <node name="żydowsko-2, po żydowsku-2" size="0"/>
+            <node name="wyspiarsko-1" size="1">
+              <node name="wyspiarsko-3" size="0"/>
+            </node>
+            <node name="woluntarystycznie-2" size="0"/>
+            <node name="wolterowsko-2" size="0"/>
+            <node name="wolterowsko-1" size="0"/>
+            <node name="wężowo-1" size="0"/>
+            <node name="węgiersko-1, po węgiersku-2" size="0"/>
+            <node name="walterskotowsko-1, po walterkostowsku-1" size="0"/>
+            <node name="tołstojowsko-2" size="0"/>
+            <node name="świętoszkowato-1" size="0"/>
+            <node name="świętojańsko-1" size="0"/>
+            <node name="śródziemnomorsko-2" size="0"/>
+            <node name="szekspirowsko-1" size="0"/>
+            <node name="swingowo-1" size="0"/>
+            <node name="strukturalistycznie-1" size="0"/>
+            <node name="starczo-1, staro-1" size="0"/>
+            <node name="sowizdrzalsko-2" size="0"/>
+            <node name="sowizdrzalsko-1" size="0"/>
+            <node name="semicko-2" size="0"/>
+            <node name="semicko-1, po semicku-1" size="1">
+              <node name="żydowsko-1" size="0"/>
+            </node>
+            <node name="sekciarsko-1, z sekciarska-1, po sekciarsku-1" size="0"/>
+            <node name="schopenhauerowsko-1" size="0"/>
+            <node name="rybio-2" size="0"/>
+            <node name="rockowo-1" size="1">
+              <node name="punkrockowo-1" size="0"/>
+            </node>
+            <node name="psio-1" size="0"/>
+            <node name="proustowsko-1" size="0"/>
+            <node name="proletariacko-1, po proletariacku-1" size="0"/>
+            <node name="porcelanowo-2" size="0"/>
+            <node name="południowo-1" size="0"/>
+            <node name="platońsko-1, po platońsku-1" size="0"/>
+            <node name="patriarchalnie-3" size="0"/>
+            <node name="pastiszowo-2" size="0"/>
+            <node name="paranaukowo-1" size="0"/>
+            <node name="oratorsko-1" size="0"/>
+            <node name="operowo-1" size="0"/>
+            <node name="nowotworowo-1" size="0"/>
+            <node name="mrożkowsko-1" size="0"/>
+            <node name="mickiewiczowsko-1" size="0"/>
+            <node name="mannowsko-1" size="0"/>
+            <node name="mahlerowsko-1" size="0"/>
+            <node name="szelmowsko-1, łotrzykowsko-1, łobuzersko-2, po łobuzersku-1, po szelmowsku-1" size="0"/>
+            <node name="kogucio-1, po koguciemu-1" size="0"/>
+            <node name="jazzowo-1" size="0"/>
+            <node name="homerycko-1" size="0"/>
+            <node name="hollywoodzko-1, po hollywoodzku-1" size="0"/>
+            <node name="heglowsko-1, po heglowsku-1" size="0"/>
+            <node name="grecko-1, po grecku-2" size="0"/>
+            <node name="gogolowsko-1" size="0"/>
+            <node name="freudowsko-1, po freudowsku-1" size="0"/>
+            <node name="flaubertowsko-1" size="0"/>
+            <node name="faustowsko-1, faustycznie-1" size="0"/>
+            <node name="europejsko-3, po europejsku-1" size="1">
+              <node name="kontynentalnie-4" size="0"/>
+            </node>
+            <node name="encyklopedycznie-2" size="0"/>
+            <node name="einsteinowsko-1" size="0"/>
+            <node name="dziewczęco-1, dziewczyńsko-1, po dziewczyńsku-1" size="1">
+              <node name="pensjonarsko-1" size="0"/>
+            </node>
+            <node name="disneyowsko-1, disnejowsko-1" size="0"/>
+            <node name="conradowsko-1" size="0"/>
+            <node name="chopinowsko-1, szopenowsko-1, po chopinowsku-1, po szopenowsku-1" size="0"/>
+            <node name="brytyjsko-1, po brytyjsku-3" size="3">
+              <node name="wyspiarsko-3" size="0"/>
+              <node name="szkocko-1, po szkocku-3" size="0"/>
+              <node name="angielsko-1, po angielsku-3" size="0"/>
+            </node>
+            <node name="bigbitowo-1" size="0"/>
+            <node name="białorusko-4, po białorusku-2" size="0"/>
+            <node name="balzakowsko-1, po balzakowsku-1" size="0"/>
+            <node name="azjatycko-3, po azjatycku-2" size="2">
+              <node name="po wietnamsku-2" size="0"/>
+              <node name="japońsko-1, po japońsku-2" size="0"/>
+            </node>
+            <node name="austriacko-1, po austriacku-2" size="0"/>
+            <node name="australijsko-1, po australijsku-1" size="0"/>
+            <node name="arystotelesowsko-1, po arystotelesowsku-1" size="0"/>
+            <node name="archeologicznie-1" size="0"/>
+            <node name="anakreontycznie-1" size="0"/>
+            <node name="algiersko-1" size="0"/>
+            <node name="afrykańsko-1, po afrykańsku-1" size="0"/>
+          </node>
+          <node name="aspołecznie-2" size="1">
+            <node name="nietowarzysko-1" size="0"/>
+          </node>
+        </node>
+        <node name="po nowotarsku-1" size="0"/>
+        <node name="po pomorsku-2" size="0"/>
+        <node name="po leninowsku-1" size="0"/>
+        <node name="po muzułmańsku-1" size="0"/>
+        <node name="po azerbejdżańsku-1, po azersku-2" size="0"/>
+        <node name="po buriacku-2" size="0"/>
+        <node name="po szewsku-2" size="0"/>
+        <node name="po mazowiecku-1" size="0"/>
+        <node name="po włosku-2" size="0"/>
+        <node name="po inteligencku-1" size="0"/>
+        <node name="po faszystowsku-1" size="2">
+          <node name="faszystowsko-1, po faszystowsku-3" size="1">
+            <node name="hitlerowsko-2" size="0"/>
+          </node>
+        </node>
+        <node name="po kronikarsku-1" size="0"/>
+        <node name="po karaibsku-2" size="0"/>
+        <node name="po kanadyjsku-1" size="0"/>
+        <node name="po bałkańsku-1" size="0"/>
+        <node name="po benedyktyńsku-2" size="0"/>
+        <node name="po burżujsku-3" size="0"/>
+        <node name="po burżujsku-1" size="0"/>
+        <node name="po brazylijsku-1" size="0"/>
+        <node name="po manichejsku-1" size="0"/>
+        <node name="po radziwiłłowsku-1" size="0"/>
+        <node name="po epikurejsku-2" size="0"/>
+        <node name="po epikurejsku-1" size="0"/>
+        <node name="po kowalsku-1" size="0"/>
+        <node name="po toskańsku-2" size="0"/>
+        <node name="po tarnowsku-1" size="0"/>
+        <node name="po starosłowiańsku-2" size="2">
+          <node name="po staropolsku-2" size="0"/>
+          <node name="staropolsko-1, po staropolsku-3" size="0"/>
+        </node>
+        <node name="po banderowsku-1" size="0"/>
+        <node name="po skandynawsku-1" size="0"/>
+        <node name="po wołosku-2" size="0"/>
+        <node name="po łódzku-1" size="0"/>
+        <node name="po boksersku-2" size="0"/>
+        <node name="po kapłańsku-1" size="1">
+          <node name="po kapłańsku-2, po księżowsku-1" size="0"/>
+        </node>
+        <node name="po dziadowsku-3" size="0"/>
+        <node name="po huculsku-2" size="0"/>
+        <node name="po hrabiowsku-1" size="0"/>
+        <node name="po hollywoodzku-2, hollywoodzko-2" size="0"/>
+        <node name="po korsykańsku-2" size="0"/>
+        <node name="po lapońsku-2" size="0"/>
+        <node name="po górsku-2" size="0"/>
+        <node name="po górsku-1" size="0"/>
+        <node name="po husarsku-1" size="0"/>
+        <node name="po marokańsku-2" size="0"/>
+        <node name="po raciborsku-1" size="0"/>
+        <node name="po uczniowsku-1" size="0"/>
+        <node name="po anielsku-3" size="0"/>
+        <node name="po argentyńsku-1" size="0"/>
+        <node name="po wiktoriańsku-1" size="0"/>
+        <node name="po turańsku-1" size="0"/>
+        <node name="po katowsku-2" size="0"/>
+        <node name="po nepalsku-2" size="0"/>
+        <node name="po mołdawsku-2" size="0"/>
+        <node name="po irańsku-1" size="0"/>
+        <node name="po maltańsku-2" size="0"/>
+        <node name="po eskimosku-2" size="0"/>
+        <node name="po wenecku-1" size="0"/>
+        <node name="po robociarsku-3" size="0"/>
+        <node name="po malarsku-2" size="0"/>
+        <node name="po synowsku-1" size="0"/>
+        <node name="po żeglarsku-1" size="0"/>
+        <node name="po kubańsku-1" size="0"/>
+        <node name="po babilońsku-2" size="0"/>
+        <node name="po akademicku-1" size="0"/>
+        <node name="po piłkarsku-1" size="0"/>
+        <node name="po jaworsku-1" size="0"/>
+        <node name="po łemkowsku-2" size="0"/>
+        <node name="po hitlerowsku-1" size="0"/>
+        <node name="po swojsku-4" size="0"/>
+        <node name="chirurgicznie-3" size="0"/>
+        <node name="po zbójnicku-1" size="0"/>
+        <node name="po łacińsku-2" size="0"/>
+        <node name="po neapolitańsku-3" size="0"/>
+        <node name="po kijowsku-1" size="0"/>
+        <node name="po poznańsku-2" size="0"/>
+        <node name="po szwajcarsku-2" size="0"/>
+        <node name="sklerotycznie-2" size="0"/>
+        <node name="flakowato-4" size="0"/>
+        <node name="po harcersku-1" size="0"/>
+        <node name="po madziarsku-2" size="0"/>
+        <node name="po indonezyjsku-2" size="0"/>
+        <node name="po lwowsku-2" size="0"/>
+        <node name="po kowbojsku-1" size="0"/>
+        <node name="po sycylijsku-2" size="0"/>
+        <node name="po miechowsku-1" size="0"/>
+        <node name="po dworsku-2" size="0"/>
+        <node name="po uralsku-1" size="0"/>
+        <node name="po bawarsku-2" size="0"/>
+        <node name="po murzyńsku-1" size="0"/>
+        <node name="po kazachsku-2" size="0"/>
+        <node name="po polinezyjsku-2" size="0"/>
+        <node name="po macedońsku-2" size="0"/>
+        <node name="po sowiecku-2" size="0"/>
+        <node name="po sowiecku-1, po radziecku-1" size="0"/>
+        <node name="po tyrańsku-1" size="0"/>
+        <node name="po bosku-2" size="0"/>
+        <node name="po diabelsku-2" size="0"/>
+        <node name="po galicyjsku-1" size="0"/>
+        <node name="po szwabsku-3" size="0"/>
+        <node name="po indyjsku-1" size="0"/>
+        <node name="po cesarsku-2" size="0"/>
+        <node name="po napoleońsku-1" size="0"/>
+        <node name="po meksykańsku-3" size="0"/>
+        <node name="po kawaleryjsku-1" size="0"/>
+        <node name="po obywatelsku-2" size="0"/>
+        <node name="po uzbecku-2" size="0"/>
+        <node name="po prusku-3" size="0"/>
+        <node name="po prusku-2" size="0"/>
+        <node name="po studencku-1" size="0"/>
+        <node name="po parysku-1" size="0"/>
+        <node name="po germańsku-2" size="0"/>
+        <node name="po pogańsku-2" size="0"/>
+        <node name="po pogańsku-1" size="0"/>
+        <node name="desperacko-1, po desperacku-1" size="0"/>
+        <node name="po syryjsku-2" size="0"/>
+        <node name="po złodziejsku-2" size="0"/>
+        <node name="po piracku-1" size="0"/>
+        <node name="po bolszewicku-1" size="0"/>
+        <node name="po tajsku-2" size="0"/>
+        <node name="po estońsku-1" size="0"/>
+        <node name="po myśliwsku-1" size="0"/>
+        <node name="po bytomsku-1" size="0"/>
+        <node name="po zbójecku-1" size="0"/>
+        <node name="po słoweńsku-2" size="0"/>
+        <node name="po morsku-1" size="0"/>
+        <node name="po moskiewsku-1" size="0"/>
+        <node name="po dyletancku-3" size="0"/>
+        <node name="po komsomolsku-1" size="0"/>
+        <node name="po hindusku-2" size="0"/>
+        <node name="po kurdyjsku-2" size="0"/>
+        <node name="po marsjańsku-3" size="0"/>
+        <node name="po mieszczańsku-1" size="0"/>
+        <node name="po ormiańsku-2, po armeńsku-2" size="0"/>
+        <node name="po hawajsku-3" size="0"/>
+        <node name="po prostacku-1" size="0"/>
+        <node name="po łotewsku-2" size="0"/>
+        <node name="po marynarsku-1" size="0"/>
+        <node name="odwiecznie-2" size="1">
+          <node name="nieśmiertelnie-2" size="0"/>
+        </node>
+        <node name="sędziwie-2" size="0"/>
+        <node name="po flamandzku-2" size="0"/>
+        <node name="po albańsku-2" size="0"/>
+        <node name="po gruzińsku-2" size="0"/>
+        <node name="po ziemsku-1" size="0"/>
+        <node name="po warszawsku-2" size="0"/>
+        <node name="po mongolsku-2" size="0"/>
+        <node name="po pilsku-1" size="0"/>
+        <node name="po rzymsku-3" size="0"/>
+        <node name="po rzymsku-2" size="0"/>
+        <node name="po katalońsku-2" size="0"/>
+        <node name="po tybetańsku-2" size="0"/>
+        <node name="po islandzku-2" size="0"/>
+        <node name="po macierzyńsku-1" size="0"/>
+        <node name="po egipsku-2" size="0"/>
+        <node name="po koreańsku-1" size="0"/>
+        <node name="po kaszubsku-2" size="0"/>
+        <node name="po wietnamsku-2" size="0"/>
+        <node name="po cygańsku-2, po romsku-2" size="0"/>
+        <node name="po celtycku-2" size="0"/>
+        <node name="po słowiańsku-1" size="1">
+          <node name="po słowiańsku-2" size="0"/>
+        </node>
+        <node name="po malajsku-2" size="0"/>
+        <node name="po ostrowsku-1" size="0"/>
+        <node name="po bretońsku-2" size="0"/>
+        <node name="po czelabińsku-1" size="0"/>
+        <node name="po walijsku-2" size="0"/>
+        <node name="po serbsku-2" size="0"/>
+        <node name="po tatarsku-2" size="0"/>
+        <node name="po wiedeńsku-1" size="0"/>
+        <node name="po indiańsku-2" size="0"/>
+        <node name="po krakowsku-2" size="0"/>
+        <node name="po fińsku-2" size="0"/>
+        <node name="po chrześcijańsku-2" size="1">
+          <node name="po katolicku-1, katolicko-1" size="0"/>
+        </node>
+        <node name="po rumuńsku-2" size="0"/>
+        <node name="po słowacku-2" size="0"/>
+        <node name="po gospodarsku-3" size="2">
+          <node name="po gospodarsku-2" size="1">
+            <node name="po gazdowsku-1" size="0"/>
+          </node>
+        </node>
+        <node name="po czersku-1" size="0"/>
+        <node name="po norwesku-2" size="0"/>
+        <node name="po amatorsku-4" size="0"/>
+        <node name="po chłopsku-1" size="1">
+          <node name="chłopsko-2" size="0"/>
+        </node>
+        <node name="po duńsku-2" size="0"/>
+        <node name="po persku-2" size="0"/>
+        <node name="po łącku-1" size="0"/>
+        <node name="po żołniersku-3" size="2">
+          <node name="po oficersku-1" size="0"/>
+          <node name="po partyzancku-5" size="0"/>
+        </node>
+        <node name="po żołniersku-1" size="0"/>
+        <node name="po rycersku-1" size="0"/>
+        <node name="po radomsku-1" size="0"/>
+        <node name="po europejsku-3" size="0"/>
+        <node name="po góralsku-1" size="0"/>
+        <node name="po bratersku-3" size="0"/>
+        <node name="po litewsku-2" size="0"/>
+        <node name="po pańsku-2" size="0"/>
+        <node name="po świecku-1" size="0"/>
+        <node name="po szwedzku-2" size="0"/>
+        <node name="po portugalsku-2" size="0"/>
+        <node name="po czesku-2" size="0"/>
+        <node name="domowo-5" size="0"/>
+        <node name="po ukraińsku-2" size="0"/>
+        <node name="po przyjacielsku-2" size="1">
+          <node name="za pan brat-1" size="0"/>
+        </node>
+        <node name="po turecku-5" size="1">
+          <node name="po turecku-4" size="0"/>
+        </node>
+        <node name="po słupsku-1" size="0"/>
+        <node name="po hiszpańsku-2" size="0"/>
+        <node name="po śląsku-2" size="0"/>
+        <node name="po rosyjsku-2" size="0"/>
+        <node name="detalicznie-1" size="0"/>
+        <node name="hurtowo-3" size="0"/>
+        <node name="scholastycznie-2" size="0"/>
+        <node name="prozatorsko-1" size="0"/>
+        <node name="rachitycznie-4" size="0"/>
+        <node name="faryzejsko-3, faryzeuszowsko-3, po faryzeuszowsku-2, po faryzejsku-2" size="0"/>
+        <node name="ziemisto-2" size="1">
+          <node name="ziemisto-1" size="0"/>
+        </node>
+        <node name="tygrysio-1" size="0"/>
+        <node name="śródziemnomorsko-1" size="0"/>
+        <node name="szczeniacko-2" size="0"/>
+        <node name="swoiście-1" size="32">
+          <node name="rybio-2" size="0"/>
+          <node name="indywidualnie-2" size="25">
+            <node name="subiektywnie-1" size="10">
+              <node name="uznaniowo-2" size="0"/>
+              <node name="stronnie-1" size="0"/>
+              <node name="stronniczo-1" size="6">
+                <node name="po gospodarsku-4" size="0"/>
+                <node name="tendencyjnie-2" size="0"/>
+                <node name="nieneutralnie-1" size="3">
+                  <node name="ofensywnie-3, zaczepnie-2" size="2">
+                    <node name="zdobywczo-4" size="0"/>
+                    <node name="napastniczo-2" size="0"/>
+                  </node>
+                </node>
+              </node>
+              <node name="impresyjnie-1, impresywnie-1" size="0"/>
+            </node>
+            <node name="personalnie-1" size="0"/>
+            <node name="jednostkowo-2, osobniczo-1" size="2">
+              <node name="jednostronnie-4" size="0"/>
+              <node name="indywidualistycznie-1" size="0"/>
+            </node>
+            <node name="egocentrycznie-1" size="9">
+              <node name="egocentrycznie-2" size="6">
+                <node name="egoistycznie-1, samolubnie-1" size="4">
+                  <node name="samowolnie-1, swawolnie-2, woluntarystycznie-1" size="3">
+                    <node name="partyzancko-1, po partyzancku-1, po piracku-5" size="0"/>
+                    <node name="arbitralnie-1" size="1">
+                      <node name="uznaniowo-2" size="0"/>
+                    </node>
+                  </node>
+                </node>
+                <node name="ambicjonalnie-1" size="0"/>
+              </node>
+              <node name="narcystycznie-1" size="0"/>
+              <node name="ekshibicjonistycznie-2" size="0"/>
+            </node>
+            <node name="autorsko-1" size="0"/>
+          </node>
+          <node name="ciekawie-4, interesująco-2" size="4"/>
+        </node>
+        <node name="sędziwie-1" size="0"/>
+        <node name="scenicznie-3" size="0"/>
+        <node name="rodzicielsko-1" size="1">
+          <node name="po macierzyńsku-2" size="0"/>
+        </node>
+        <node name="przymiotnikowo-1" size="0"/>
+        <node name="polifonicznie-5" size="0"/>
+        <node name="paranoidalnie-1, paranoicznie-2" size="0"/>
+        <node name="organicznie-2" size="0"/>
+        <node name="ojcowsko-1, po ojcowsku-1" size="0"/>
+        <node name="niemiecko-3, po niemiecku-2, po germańsku-4" size="0"/>
+        <node name="nerwicowo-2, neurotycznie-3" size="1">
+          <node name="neurastenicznie-2" size="0"/>
+        </node>
+        <node name="masońsko-1, wolnomularsko-1" size="0"/>
+        <node name="maniakalnie-1" size="0"/>
+        <node name="prowincjonalnie-1, zaściankowo-1" size="0"/>
+        <node name="krytykancko-2" size="0"/>
+        <node name="konspiracyjnie-1, konspiratorsko-1" size="0"/>
+        <node name="komediowo-1" size="0"/>
+        <node name="knajacko-1" size="0"/>
+        <node name="irlandzko-1, po irlandzku-2" size="0"/>
+        <node name="immanentnie-1" size="2">
+          <node name="naturalnie-7" size="1">
+            <node name="organicznie-7" size="0"/>
+          </node>
+        </node>
+        <node name="holendersko-1, po holendersku-2" size="0"/>
+        <node name="profesjonalnie-2" size="9">
+          <node name="po krawiecku-1" size="0"/>
+          <node name="po szewsku-2" size="0"/>
+          <node name="po boksersku-1" size="0"/>
+          <node name="po dziennikarsku-1" size="0"/>
+          <node name="po malarsku-1" size="0"/>
+          <node name="po lekarsku-1" size="0"/>
+          <node name="po aktorsku-1" size="0"/>
+          <node name="po profesorsku-2" size="0"/>
+          <node name="wyczynowo-3" size="0"/>
+        </node>
+        <node name="dramatycznie-2" size="0"/>
+        <node name="dorośle-4" size="0"/>
+        <node name="chorwacko-1" size="0"/>
+        <node name="chińsko-1, po chińsku-2" size="0"/>
+        <node name="bułgarsko-1, po bułgarsku-2" size="0"/>
+        <node name="barbarzyńsko-1, po barbarzyńsku-1" size="1">
+          <node name="półdziko-1" size="0"/>
+        </node>
+        <node name="arabsko-1, po arabsku-2" size="0"/>
+        <node name="amerykańsko-1, po amerykańsku-1, po jankesku-1" size="6">
+          <node name="po kalifornijsku-1" size="0"/>
+          <node name="po nowojorsku-1" size="0"/>
+          <node name="po teksasku-1, po teksańsku-1" size="0"/>
+          <node name="po amerykańsku-3" size="1">
+            <node name="po amerykańsku-2" size="0"/>
+          </node>
+          <node name="hollywoodzko-1, po hollywoodzku-1" size="0"/>
+        </node>
+      </node>
+      <node name="wilgotno-4, wilgotnie-4" size="2">
+        <node name="stęchle-3" size="1">
+          <node name="trupio-3" size="0"/>
+        </node>
+      </node>
+      <node name="jesiennie-2" size="0"/>
+    </node>
+    <node name="autentycznie-2" size="0"/>
+    <node name="astralnie-1" size="0"/>
+  </node>
+  <node name="wybitnie-2" size="0"/>
+  <node name="przedziwnie-1" size="0"/>
+  <node name="pozaziemsko-1, zaziemsko-2" size="0"/>
+  <node name="oryginalnie-2" size="66">
+    <node name="zwariowanie-2" size="1"/>
+    <node name="wariacko-1, po wariacku-4" size="4"/>
+    <node name="nonkonformistycznie-1" size="0"/>
+    <node name="niekonwencjonalnie-1" size="25">
+      <node name="niestandardowo-2" size="23">
+        <node name="oryginalnie-3, świeżo-8" size="22">
+          <node name="nowatorsko-1, odkrywczo-1, po nowatorsku-1" size="11"/>
+          <node name="niebanalnie-1" size="1"/>
+          <node name="twórczo-2, kreatywnie-3" size="2">
+            <node name="wizjonersko-1" size="0"/>
+            <node name="konstruktywnie-1" size="0"/>
+          </node>
+          <node name="fantazyjnie-2" size="3">
+            <node name="brawurowo-2" size="0"/>
+            <node name="przekozacko-1" size="0"/>
+            <node name="kozacko-2" size="0"/>
+          </node>
+          <node name="awangardowo-1" size="1">
+            <node name="futurystycznie-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="abstrakcyjnie-1" size="0"/>
+    </node>
+    <node name="ekscentrycznie-1" size="28"/>
+    <node name="dziko-5" size="0"/>
+    <node name="abstrakcyjnie-4" size="1">
+      <node name="abstrakcjonistycznie-2" size="0"/>
+    </node>
+  </node>
+  <node name="odjazdowo-1, odlotowo-1" size="5">
+    <node name="hardcorowo-3" size="0"/>
+    <node name="psychodelicznie-2" size="0"/>
+    <node name="fazowo-1" size="0"/>
+    <node name="czadowo-1, czadersko-1" size="1">
+      <node name="zawodowo-5" size="0"/>
+    </node>
+  </node>
+  <node name="nieuleczalnie-1" size="0"/>
+  <node name="nietypowo-1" size="75">
+    <node name="dziko-10" size="0"/>
+    <node name="niepodobnie-2" size="0"/>
+    <node name="niestandardowo-1, nieklasycznie-3" size="72">
+      <node name="wyjątkowo-2" size="0"/>
+      <node name="odważnie-2" size="16">
+        <node name="śmiało-2" size="3">
+          <node name="ambitnie-2" size="0"/>
+          <node name="bezpruderyjnie-2" size="1">
+            <node name="frywolnie-1" size="0"/>
+          </node>
+        </node>
+        <node name="nowatorsko-1, odkrywczo-1, po nowatorsku-1" size="11">
+          <node name="eksperymentalnie-3" size="0"/>
+          <node name="wizjonersko-1" size="0"/>
+          <node name="przełomowo-2" size="2"/>
+          <node name="prekursorsko-1" size="1">
+            <node name="pioniersko-2" size="0"/>
+          </node>
+          <node name="innowacyjnie-1" size="3"/>
+          <node name="awangardowo-2" size="3"/>
+        </node>
+      </node>
+      <node name="inaczej-2" size="0"/>
+      <node name="nienormalnie-4" size="18">
+        <node name="po wariacku-3, wariacko-3" size="0"/>
+        <node name="zwariowanie-2" size="1"/>
+        <node name="wariacko-1, po wariacku-4" size="4">
+          <node name="po wariacku-5" size="0"/>
+          <node name="szaleńczo-4" size="1">
+            <node name="opętańczo-1, opętanie-2" size="0"/>
+          </node>
+          <node name="oszołomsko-1" size="0"/>
+        </node>
+        <node name="dziko-5" size="0"/>
+        <node name="chorobliwie-1, patologicznie-1" size="8">
+          <node name="niezdrowo-1" size="6"/>
+          <node name="maniakalnie-3" size="0"/>
+        </node>
+      </node>
+      <node name="niekonwencjonalnie-2" size="40"/>
+      <node name="miarowo-2, na miarę-1" size="0"/>
+    </node>
+  </node>
+  <node name="nietuzinkowo-1" size="0"/>
+  <node name="niesamowicie-1, niesłychanie-1" size="37">
+    <node name="cholerycznie-3" size="0"/>
+    <node name="ultranowocześnie-1" size="1">
+      <node name="futurystycznie-1" size="0"/>
+    </node>
+    <node name="niespotykanie-1" size="0"/>
+    <node name="diabelsko-6" size="0"/>
+    <node name="zdumiewająco-1" size="1">
+      <node name="oszałamiająco-1, oszołamiająco-2" size="0"/>
+    </node>
+    <node name="szatańsko-3, po szatańsku-3" size="2">
+      <node name="diabolicznie-3" size="0"/>
+      <node name="diabelsko-4, diabolicznie-2, diabelnie-1" size="0"/>
+    </node>
+    <node name="surrealistycznie-2" size="0"/>
+    <node name="psychodelicznie-2" size="0"/>
+    <node name="pioruńsko-1" size="0"/>
+    <node name="obłędnie-3" size="1">
+      <node name="orgiastycznie-2" size="0"/>
+    </node>
+    <node name="nieziemsko-2" size="1">
+      <node name="niemiłosiernie-2" size="0"/>
+    </node>
+    <node name="nieprzeniknienie-1" size="0"/>
+    <node name="niewiarygodnie-1, nieopisanie-1" size="6"/>
+    <node name="magicznie-2" size="3">
+      <node name="druidzko-1" size="0"/>
+      <node name="czarodziejsko-1" size="0"/>
+      <node name="apotropeicznie-1, apotropaicznie-1" size="0"/>
+    </node>
+    <node name="fazowo-1" size="0"/>
+    <node name="demonicznie-2" size="1"/>
+    <node name="czarcio-1" size="0"/>
+    <node name="kurewsko-2, cholernie-2" size="0"/>
+    <node name="baśniowo-1, bajkowo-1, bajecznie-1, czarodziejsko-2, magicznie-3" size="3">
+      <node name="podaniowo-2" size="0"/>
+      <node name="tolkienowsko-1" size="0"/>
+      <node name="elficko-2" size="0"/>
+    </node>
+  </node>
+  <node name="niepospolicie-1" size="42">
+    <node name="niekonwencjonalnie-2" size="40">
+      <node name="nieszablonowo-1" size="0"/>
+      <node name="innowacyjnie-1" size="3">
+        <node name="przełomowo-2" size="2">
+          <node name="rewolucyjnie-1" size="0"/>
+          <node name="pioniersko-2" size="0"/>
+        </node>
+      </node>
+      <node name="ekscentrycznie-1" size="28"/>
+      <node name="awangardowo-2" size="3">
+        <node name="futurystycznie-2" size="0"/>
+        <node name="konceptualnie-1" size="0"/>
+        <node name="ekspresjonistycznie-1" size="0"/>
+      </node>
+      <node name="alternatywnie-4" size="1">
+        <node name="pozamedycznie-1" size="0"/>
+      </node>
+    </node>
+    <node name="niebanalnie-1" size="1">
+      <node name="nieszablonowo-1" size="0"/>
+    </node>
+  </node>
+  <node name="nienaturalnie-1" size="1"/>
+  <node name="rzadko-2, nieczęsto-1, z rzadka-1" size="16">
+    <node name="podrzędnie-4" size="0"/>
+    <node name="wyszukanie-2" size="1">
+      <node name="elegancko-5" size="0"/>
+    </node>
+    <node name="sporadycznie-1" size="2">
+      <node name="okazjonalnie-2, okazyjnie-2" size="1">
+        <node name="gościnnie-2" size="0"/>
+      </node>
+    </node>
+    <node name="pojedynczo-1" size="6">
+      <node name="unikatowo-2" size="0"/>
+      <node name="samotnie-3" size="0"/>
+      <node name="poszczególnie-1" size="0"/>
+      <node name="jednokrotnie-1" size="2">
+        <node name="jednorazowo-2" size="0"/>
+        <node name="jednostkowo-1" size="0"/>
+      </node>
+    </node>
+    <node name="niepowszechnie-1" size="0"/>
+    <node name="maluśko-1" size="0"/>
+    <node name="incydentalnie-1" size="0"/>
+  </node>
+  <node name="nadzwyczajnie-2" size="14">
+    <node name="nieskończenie-4" size="0"/>
+    <node name="ponadprzeciętnie-1" size="5">
+      <node name="genialnie-2" size="0"/>
+      <node name="wybitnie-1" size="0"/>
+      <node name="niepoślednio-1" size="2">
+        <node name="wysoko-3" size="1">
+          <node name="daleko-13" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="niewiarygodnie-1, nieopisanie-1" size="6">
+      <node name="fantastycznie-4" size="5">
+        <node name="bombiasto-2, bombastycznie-2" size="0"/>
+        <node name="fenomenalnie-3, rewelacyjnie-1" size="0"/>
+        <node name="cudnie-1, cudownie-5, bosko-3, nieziemsko-1" size="1">
+          <node name="niebiańsko-1, rajsko-1" size="0"/>
+        </node>
+        <node name="bajecznie-2" size="0"/>
+      </node>
+    </node>
+    <node name="fenomenalnie-3, rewelacyjnie-1" size="0"/>
+  </node>
+  <node name="nadziemsko-1" size="0"/>
+  <node name="egzotycznie-2" size="0"/>
+  <node name="dziwnie-1, osobliwie-1" size="89">
+    <node name="dziko-10" size="0"/>
+    <node name="dziko-9" size="0"/>
+    <node name="dracznie-1" size="0"/>
+    <node name="nieswojo-2" size="0"/>
+    <node name="pretensjonalnie-3" size="0"/>
+    <node name="niewyraźnie-5" size="0"/>
+    <node name="zwariowanie-2" size="1">
+      <node name="durnowato-2" size="0"/>
+    </node>
+    <node name="tajemniczo-2, zagadkowo-2" size="4">
+      <node name="nieprzeniknienie-2" size="2">
+        <node name="pokerowo-2" size="0"/>
+        <node name="zagadkowo-1" size="0"/>
+      </node>
+      <node name="niepojęcie-2" size="0"/>
+    </node>
+    <node name="zwariowanie-1" size="0"/>
+    <node name="surrealistycznie-2" size="0"/>
+    <node name="niezrozumiale-2" size="9">
+      <node name="nierozumnie-3" size="0"/>
+      <node name="nieracjonalnie-2" size="0"/>
+      <node name="sztucznie-2" size="0"/>
+      <node name="niewytłumaczalnie-1" size="1">
+        <node name="fatalnie-2" size="0"/>
+      </node>
+      <node name="niepojęcie-2" size="0"/>
+      <node name="choro-2, nieprzyzwoicie-2" size="2">
+        <node name="paranoicznie-1, paranoidalnie-2" size="1">
+          <node name="schizofrenicznie-2" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="nienormalnie-2" size="13">
+      <node name="nienaturalnie-2" size="12">
+        <node name="sztywno-4, sztywnie-2" size="0"/>
+        <node name="po aktorsku-2" size="0"/>
+        <node name="sztucznie-1" size="3">
+          <node name="wymuszenie-1" size="1">
+            <node name="niedobrowolnie-1" size="0"/>
+          </node>
+          <node name="pokazowo-3" size="0"/>
+        </node>
+        <node name="pretensjonalnie-1" size="5">
+          <node name="nadęto-1" size="1">
+            <node name="dęto-1" size="0"/>
+          </node>
+          <node name="egzaltowanie-1" size="2">
+            <node name="snobistycznie-2" size="0"/>
+            <node name="pensjonarsko-2, po pensjonarsku-1" size="0"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node name="nienaturalnie-1" size="1">
+      <node name="garbato-3" size="0"/>
+    </node>
+    <node name="kuriozalnie-1" size="0"/>
+    <node name="fanaberyjnie-1" size="0"/>
+    <node name="ekscentrycznie-1" size="28">
+      <node name="ekstrawagancko-1" size="26">
+        <node name="krzykliwie-3, krzycząco-1" size="25">
+          <node name="jak choinka-1" size="0"/>
+          <node name="zdzirowato-2" size="0"/>
+          <node name="wydrowato-1" size="0"/>
+          <node name="jaskrawo-1, jaskrawie-1" size="21">
+            <node name="żrąco-2" size="0"/>
+            <node name="neonowo-1" size="2">
+              <node name="jaskraworóżowo-1" size="0"/>
+              <node name="kanarkowo-1, kanarkowożółto-1" size="0"/>
+            </node>
+            <node name="jaskrawopomarańczowo-1" size="0"/>
+            <node name="jaskrawoniebiesko-1" size="2">
+              <node name="chabrowo-1" size="0"/>
+              <node name="cyjanowo-1" size="0"/>
+            </node>
+            <node name="jaskrawożółto-1" size="3">
+              <node name="kanarkowo-1, kanarkowożółto-1" size="0"/>
+              <node name="czerwonożółto-1" size="0"/>
+              <node name="cytrynowo-2, cytrynowożółto-1" size="0"/>
+            </node>
+            <node name="jaskrawoczerwono-1" size="0"/>
+            <node name="śnieżnobiało-1, śnieżyście-3, śnieżysto-3, śnieżnie-3" size="0"/>
+            <node name="kredowo-1" size="0"/>
+            <node name="krasno-1" size="0"/>
+            <node name="karmazynowo-1" size="0"/>
+            <node name="jaskrawozielono-1" size="3">
+              <node name="groszkowo-1" size="0"/>
+              <node name="szmaragdowo-1" size="1">
+                <node name="jadeitowo-1" size="0"/>
+              </node>
+            </node>
+            <node name="jadowicie-3, jadowito-3, zjadliwie-3" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="cudacznie-1, cudacko-1" size="0"/>
+    </node>
+    <node name="dziwacznie-1" size="11">
+      <node name="pokracznie-2" size="0"/>
+      <node name="pokracznie-1" size="0"/>
+      <node name="niezdrowo-1" size="6">
+        <node name="obsesyjnie-1, maniacko-1, po maniacku-1" size="4">
+          <node name="narkotycznie-1" size="0"/>
+          <node name="pedantycznie-1" size="0"/>
+          <node name="opętańczo-2" size="1">
+            <node name="obłąkańczo-2" size="0"/>
+          </node>
+        </node>
+        <node name="choro-3" size="0"/>
+      </node>
+      <node name="karykaturalnie-1" size="0"/>
+      <node name="cudacznie-1, cudacko-1" size="0"/>
+    </node>
+    <node name="demonicznie-2" size="1">
+      <node name="diabelsko-4, diabolicznie-2, diabelnie-1" size="0"/>
+    </node>
+    <node name="ciekawie-4, interesująco-2" size="4">
+      <node name="kosmicznie-2" size="0"/>
+      <node name="wyraziście-3" size="0"/>
+      <node name="psychodelicznie-2" size="0"/>
+      <node name="freudowsko-2" size="0"/>
+    </node>
+  </node>
+  <node name="diabolicznie-3" size="0"/>
+  <node name="cudownie-3" size="2">
+    <node name="niepokalanie-3" size="0"/>
+    <node name="czarodziejsko-1" size="0"/>
+  </node>
+  <node name="bezprzykładnie-1, niebywale-1" size="0"/>
+</node>

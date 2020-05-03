@@ -1,0 +1,1188 @@
+1121 *CZASOWNIK oznaczający sytuację związaną z posiadaniem-1
+  1 *CZASOWNIK - ZDARZENIE NDK oznaczający powodowanie zmiany posiadania-1
+    0 uderzać-7
+  63 *CZASOWNIK - ZDARZENIE NDK oznaczający posiadanie lub sytuację związaną z posiadaniem-1
+    0 ponosić-1
+    1 wygrywać-3
+      0 losować-2
+    0 znajdować się-3
+    1 odnajdywać się-3, znajdować się-1, odnajdować się-1
+      0 odnajdować się-4, odnajdywać się-4
+    16 marnować-1, marnotrawić-1, tracić-3
+      0 zaprzepaszczać-1
+      VISITED 0 spłukiwać się-1, wyczyszczać się-3
+      0 szastać się-2
+      0 trawić-1
+      5 upadać-2
+        0 podupadać-2
+        0 bankrutować-1, plajtować-1
+        2 ubożeć-2, biednieć-1, popadać w niedostatek-1
+          0 dziadzieć-3
+          0 pauperyzować się-1
+      5 trwonić-1, roztrwaniać-1
+        0 przepuszczać-7
+        0 rozpraszać-8
+        0 przepijać-2
+        0 przerzynać-2
+        0 przejadać-1
+    VISITED 39 dostawać-2
+  1 *CZASOWNIK - PROCES NDK oznaczający powodowanie zmiany posiadania-1
+    0 wzbogacać-2, bogacić-2
+  59 *CZASOWNIK - CZYNNOŚĆ NDK oznaczający powodowanie zmiany posiadania lub sytuację związaną z posiadaniem-1
+    58 zabierać-1, odbierać-1, pozbawiać-1
+      VISITED 0 amputować-2
+      3 okradać-1, obrabiać-1
+        2 odzierać-2
+          0 golić-1
+          0 oskubywać-2, skubać-5, obskubywać-2
+      0 spychać-3
+      0 wyślizgiwać-2
+      0 wywłaszczać-1
+      0 ubezwłasnowolniać-1
+      5 nadbierać-1
+        0 odsypywać-1
+        3 odlewać-2, ulewać-1
+          1 zlewać-4
+            0 odlewać-3
+          0 obciągać-3
+      0 ogołacać-1, ogałacać-1, obskubywać-1, oskubywać-1
+      0 rozbrajać-1
+      0 wtrącać-1
+      0 odzierać-1
+      0 odstawiać-2
+      0 odsłaniać-2
+      0 odbierać-4
+      0 wyzuwać-1
+      0 ujmować-5
+      3 odejmować-1, ujmować-4
+        0 usypywać-2
+        1 zaczynać-6, napoczynać-2, naruszać-3
+          0 ujadać-2
+      2 zajmować-3, zatrzymywać-1, rekwirować-1
+        VISITED 0 aresztować-2, sekwestrować-1
+        0 konfiskować-1
+      0 kastrować-1
+      0 wyrywać-2
+      0 wydziedziczać-1
+      0 ruszać-7
+      0 dezaktywizować-1
+      0 odbijać-5
+      1 degradować-3
+        0 detronizować-1
+      17 przywłaszczać-1, zagarniać-1, zawłaszczać-1, sięgać po cudze-1, zagrabiać-2
+        VISITED 0 uzurpować-1
+        0 defraudować-1, sprzeniewierzać-1, malwersować-1
+        14 kraść-1, zgarniać-1, zwijać-4
+          0 ściągać-10
+          0 wynosić-3
+          0 podprowadzać-1
+          0 szabrować-1
+          0 podkradać-1, podbierać-1
+          0 wykradać-1
+          7 rabować-1, grabić-1, łupić-1
+            1 obrabowywać-1, ograbiać-1, obłupiać-1
+              0 rozbijać-9
+            4 rozkradać-1
+              VISITED 0 rozwłóczyć-2
+              0 rozszabrowywać-1
+              0 rozwlekać-4
+              0 rozgrabiać-1
+      0 dekompletować-1
+  471 *CZASOWNIK - CZYNNOŚĆ NDK oznaczający posiadanie lub sytuację związaną z posiadaniem-1
+    3 pozbywać się-1, wyzbywać się-1
+      VISITED 0 upłynniać-1
+      1 wyrzucać-6, wywalać-1
+        0 rozstawać się-3
+    1 ubezpieczać się-2
+      0 reasekurować się-1
+    1 pożyczać-1
+      0 kredytować-1, udzielać kredytu-1, dawać kredyt-1
+    27 wymieniać-2, zamieniać-1
+      0 przewalutowywać-1
+      0 wymieniać się-1, zamieniać się-2
+      2 spieniężać-1
+        1 realizować-2
+          0 dyskontować-3
+      0 kapitalizować-1
+      20 handlować-1, targować-1
+        0 frymarczyć-1
+        18 kupować-1, nabywać-1, zakupywać-1, sprawiać-2
+          0 kupować kota w worku-1
+          0 ubierać się-3
+          VISITED 0 odkupywać-4
+          0 skupować-1
+          0 wykupywać-1
+          1 wykupywać-2
+            0 wchłaniać-6
+          5 brać-9
+            4 najmować-1, wynajmować-2, odnajmować-2
+              1 dzierżawić-2, wydzierżawiać-2
+                0 poddzierżawiać-1
+              0 podnajmować-2
+              0 czarterować-2
+          0 dostawać-1
+          0 dokupować-1, dokupywać-1
+          VISITED 0 fundować-1, stawiać-3, sponsorować-1
+          0 odkupywać-2
+          VISITED 0 subskrybować-1
+    16 wyposażać-1, zaopatrywać-1
+      0 oprawiać-1
+      0 motoryzować-1
+      0 ekwipować-1
+      0 uposażać-1
+      0 uzbrajać-3, zbroić-3
+      0 uskrzydlać-2
+      0 obudowywać-5
+      0 unerwiać-1
+      0 aprowidować-1
+      0 rzucać-5
+      0 opatrywać-4
+      0 uzbrajać-2, zbroić-4
+      2 automatyzować-1
+        0 robotyzować-1
+        0 mechanizować-1
+      0 mundurować-1
+    109 uzyskiwać-1
+      0 cienko prząść-2, cienko śpiewać-2
+      0 ślizgać się-5
+      0 wytargowywać-1
+      0 zwalniać się-1
+      0 wyciskać-2
+      2 wydostawać-2, wydobywać-3
+        VISITED 0 wyciągać-2
+        VISITED 0 wyciągać-3
+      VISITED 0 habilitować się-1
+      1 dochodzić-14
+        0 windykować-1
+      0 wychodzić-10
+      VISITED 0 doktoryzować się-1
+      23 osiągać-1, dochodzić-10, dopinać celu-1, dopinać swego-1, odnosić-2, stawiać na swoim-1, dopinać-3
+        VISITED 0 łapać Pana Boga za nogi-1
+        0 dosługiwać się-1
+        0 sięgać-7
+        0 wdzierać się-4
+        0 odnajdować-4, odnajdywać-3
+        0 przebijać się-3
+        0 przeprowadzać-2
+        2 liczyć-1
+          0 zrzeszać-1, stowarzyszać-1
+          0 wynosić-6
+        1 wypracowywać-1, dopracowywać się-1
+          0 wysługiwać-1
+        VISITED 0 forsować-1, przeforsowywać-1, przepychać-1
+        0 okupywać-1, przypłacać-1, opłacać-1, płacić-2
+        0 święcić triumf-2, święcić sukces-2
+        0 przepychać się-2
+        1 wygrywać-2
+          0 triumfować-1, tryumfować-3
+        4 korzystać-2, zyskiwać-1, ciągnąć zyski-1, czerpać korzyści-1, dobrze wychodzić-1
+          0 dyskontować-1
+          0 jechać-5
+          0 targować-3
+          0 obławiać się-1
+      35 pozyskiwać-1, zdobywać-2, załatwiać-1
+        0 zyskiwać-4
+        VISITED 0 awansować-2
+        0 zgarniać-5
+        4 wyjednywać-1
+          VISITED 0 nobilitować się-1
+          2 wypraszać-1, upraszać-1
+            0 wypłakiwać-2
+            0 ubłagiwać-1, wybłagiwać-1
+        0 wyszarpywać-2
+        0 wygospodarowywać-1
+        4 zdobywać podstępem-1
+          2 wyłudzać-1
+            0 naciągać-5
+            0 wyciągać-2
+          0 wyciągać-3
+        5 załatwiać-4, organizować-4
+          0 wkręcać-2
+          1 kombinować-5
+            0 spekulować-3
+          VISITED 0 narajać-1, raić-1, nadawać-5
+          0 biegać-1, ganiać-1, uganiać się-1
+        1 kupować-4
+          0 kupować-7
+        0 rozrywać-3
+        0 załapywać-3
+        3 znajdować-1, znajdywać-1
+          0 trafiać-7
+          0 odnajdować-2, odnajdywać-2
+          0 odkrywać-3
+        0 wydeptywać-2
+        0 kosić-2
+        0 forsować-1, przeforsowywać-1, przepychać-1
+        2 przekupywać-1, podkupywać-1, opłacać się-2, okupywać się-1
+          0 korumpować-1, przemawiać do ręki-1, przemawiać do kieszeni-1
+          0 smarować-2
+      39 dostawać-2
+        0 brać w łapę-1, dostawać w łapę-1
+        1 otrzymywać-3
+          0 łapać Pana Boga za nogi-1
+        1 dziedziczyć-1
+          VISITED 0 sukcedować-1
+        33 otrzymywać-1
+          18 brać-14, pobierać-1
+            0 wypożyczać-2
+            0 liczyć-4
+            0 zdzierać-4
+            1 pożyczać-2
+              0 zaciągać kredyt-1, zadłużać się-1, zapożyczać się-1, zaciągać dług-1, zaciągać pożyczkę-1
+            0 obciążać kosztami-1, obarczać kosztami-1
+            3 zarabiać-1, zyskiwać-3
+              0 trzepać-10
+              0 wyciągać-12
+              0 dorabiać-3
+            0 kasować-2
+            VISITED 1 przejmować-1, przechwytywać-1
+            0 inkasować-1, pobierać-4
+            3 przyjmować-2
+              0 odbierać-5
+              0 odbierać-7
+              0 odbierać-6
+          14 brać-21
+            11 zajmować-6
+              1 osiedlać się-1, osiadać-1, osadzać się-3
+                0 wprowadzać się-2, sprowadzać się-2
+              8 mieszkać-2, rezydować-1, zamieszkiwać-1
+                0 rezydować-3
+                0 kwaterować-2
+                1 siedzieć-6
+                  0 gnieździć się-2
+                0 okrętować-1
+                1 pomieszkiwać-1
+                  0 koczować-1
+                0 sąsiadować-3
+            1 przejmować-1, przechwytywać-1
+              0 komunalizować-1
+          0 wynosić-5
+    272 przekazywać-1
+      0 zapisywać-2, testować-1
+      0 oddawać-6, dawać-15
+      0 transferować-1
+      5 oddawać-3
+        4 powierzać-1
+          0 wydawać za mąż-1, wydawać-12
+          0 polecać-3, poruczać-1, zawierzać-1
+          1 zostawiać-6, pozostawiać-6
+            0 zdawać-7
+      VISITED 0 odpisywać-1, przepisywać-1
+      0 zastawiać-2
+      1 przelewać-2, cedować-1
+        0 cedować weksel-1
+      171 dawać-5
+        6 darowywać-2, składać w darze-1
+          5 ofiarowywać-3, zaofiarowywać-3
+            1 fundować-2
+              VISITED 0 erygować-1
+            VISITED 1 ofiarować-1
+            0 ofiarowywać-2
+        38 dawać-13
+          22 udzielać-1
+            0 użyczać-2
+            1 wyświęcać-1
+              0 konsekrować-1
+            0 bierzmować-1, konfirmować-1, udzielać sakramentu bierzmowania-1
+            0 rozgrzeszać-2, udzielać rozgrzeszenia-1, dawać rozgrzeszenie-1
+            0 firmować-1
+            0 rozwodzić-1
+            14 radzić-1
+              0 konsultować-1
+              12 doradzać-1
+                5 podpowiadać-2
+                  0 podszeptywać-2
+                  0 dyktować-3
+                  1 podsuwać-4, sugerować-3, poddawać-2
+                    0 suponować-3
+                  0 naprowadzać-1, skierowywać-1, odsyłać-1
+                1 zalecać-2
+                  0 przepisywać-2, zapisywać-6, ordynować-1, aplikować-4
+                3 rekomendować-1, polecać-2, zalecać-1
+                  0 nastręczać-2
+                  0 przykazywać-1
+                  0 narajać-1, raić-1, nadawać-5
+          14 odpowiadać-2, dawać odpowiedź-1, odpierać-2, odrzekać-1, udzielać odpowiedzi-1
+            1 odmawiać-4
+              0 dawać kosza-1
+            0 odszeptywać-1
+            0 odpyskowywać-1, odpyskiwać-1
+            0 odkrzykiwać-1, odwrzaskiwać-1
+            0 oddzwaniać-1, odtelefonowywać-1
+            0 odburkiwać-1, odwarkiwać-1, odmrukiwać-1
+            0 odbąkiwać-1
+            0 odpalać-3
+            0 odpisywać-4, odpowiadać-9
+            0 kontratakować-2
+            1 ripostować-1
+              0 obcinać-5
+            0 odparowywać-4
+        0 wpychać-2, wmuszać-1, wtykać-2
+        1 dzielić się-2
+          0 przełamywać się-4, łamać się-3
+        0 kapać-3
+        0 fundować-1, stawiać-3, sponsorować-1
+        0 składać-1
+        0 odpalać-2
+        0 tkać-4
+        17 nadawać-2
+          0 wynosić na tron-1, powoływać na tron-1, wprowadzać na tron-1, osadzać na tronie-1, umieszczać na tronie-1
+          1 uwłaszczać-1
+            0 uwłaszczać-2
+          4 mianować-1
+            0 nobilitować-2
+            0 pasować-3
+            0 intronizować-1
+            0 koronować-2
+          3 zatwierdzać-1, sankcjonować-1, uprawomocniać-1
+            0 ratyfikować-1
+            0 autoryzować-3
+            0 legitymizować-1
+          1 nazywać-2, nadawać imię-1
+            0 chrzcić-3
+          2 promować-1
+            0 habilitować-1
+            0 doktoryzować-1
+        27 nagradzać-1
+          0 oklaskiwać-1, klaskać-1
+          0 odznaczać-1
+          0 koronować-1
+          1 wyróżniać-3
+            0 premiować-2
+          0 ozłacać-2
+          0 wieńczyć-3
+          19 chwalić-2, reklamować-1
+            5 pochlebiać-1, schlebiać-1, klakierować-1, przypochlebiać-1, przypochlebiać się-1
+              0 przymilać się-1
+              0 nadskakiwać-1
+              0 podlizywać się-1
+              0 podbijać bębenka-1
+              0 panegiryzować-1
+            1 zachwalać-1
+              0 reklamować-3, promować-2
+            0 komplementować-1
+            0 rozpływać się-3
+            8 wysławiać-1, błogosławić-1, gloryfikować-1, głosić chwałę-1, głosić sławę-1, opiewać-1, podnosić-10, sławić-1, śpiewać-4, wychwalać-1
+              0 wielbić-2, czcić-3, chwalić-1, adorować-1
+              0 wynosić pod niebiosa-1, wychwalać pod niebiosa-1
+              5 idealizować-1, apoteozować-1, gloryfikować-2
+                0 absolutyzować-1
+                0 heroizować-1
+                2 uwznioślać-1, sublimować-1, uduchawiać-1
+                  1 uszlachetniać-2
+                    0 uczłowieczać-1, humanizować-1
+        7 wynagradzać-1, nagradzać-2, kompensować-2, rekompensować-1
+          0 odkupywać-4
+          0 odbijać-14
+          0 premiować-1
+          3 zadośćczynić-1
+            0 zmazywać-3
+            0 pokutować-1, odpokutowywać-1, odprawiać pokutę-1
+            0 okupywać-2, odkupywać-3
+        13 karmić-1, żywić-1, odżywiać-1, wykarmiać-1
+          0 odkarmiać-1, odżywiać-3
+          0 stołować-1
+          2 paść-5, tuczyć-1
+            0 odkarmiać-2
+            0 podpasać-2, podtuczać-2
+          0 przekarmiać-1
+          0 zadawać-4
+          0 karmić-2, wykarmiać-2
+          3 paść-4, odpasać-2
+            0 podpasać-1, podtuczać-1
+            1 tuczyć-2
+              0 opasać-4
+          0 dokarmiać-1, dożywiać-1
+        15 rozdawać-1
+          0 sypać-4
+          13 rozdzielać-2, dzielić-5
+            0 rozdysponowywać-1
+            0 rozbierać-4
+            VISITED 10 wydzielać-2
+        VISITED 3 oddawać-4
+        2 wydawać-10
+          VISITED 1 wypłacać-1
+        30 przyznawać-2
+          0 obdzielać-2
+          0 zasądzać-1, przysądzać-1
+          15 przydzielać-1
+            0 rozpisywać-3
+            0 kwaterować-1, zakwaterowywać-1
+            0 alokować-1
+            0 okrętować-2
+            10 wydzielać-2
+              0 skąpić-1
+              0 cykać-2
+              0 racjonować-1
+              6 odmierzać-2
+                0 odważać-1
+                0 cyrklować-2
+                0 dozować-2, dawkować-3
+                0 dawkować-2
+                1 odliczać-3
+                  0 wyliczać-5
+          2 udzielać-2
+            0 licencjonować-2
+            0 urlopować-1
+          8 oceniać-3
+            1 klasyfikować-3
+              0 szufladkować-1, etykietować-1, etykietkować-1
+            0 punktować-1
+            0 klasyfikować-1
+            3 zaliczać-3
+              0 przekwalifikowywać-2
+              0 szeregować-2, zaszeregowywać-1
+              0 podciągać-4
+        1 podawać-3, dawać-14
+          0 wręczać-1
+        3 obdarowywać-1, obdarzać-1, darzyć-1
+          0 obsypywać-1, osypywać-2
+          1 obdzielać-1
+            0 nadzielać-1
+      4 wkładać-3, lokować-1, inwestować-1
+        0 pakować-3, pchać-5, ładować-4
+        0 wpompowywać-2, pompować-3
+        0 reinwestować-1
+        0 deponować-1
+      4 przesyłać-1, posyłać-2, wysyłać-1, słać-1
+        0 nadawać-4
+        0 podsyłać-1
+        0 telegrafować-1, depeszować-1
+        0 rozsyłać-1
+      81 oddawać-5, zwracać-2
+        0 odkopywać-2
+        0 odrzucać-5
+        0 odnosić-4
+        0 spłacać-1, oddłużać się-1
+        0 zdawać-4
+        67 zrzekać się-1
+          7 odstępować-1, ustępować-1
+            VISITED 0 indosować-1
+            0 użyczać-1, udzielać-3, dawać-12
+            VISITED 1 oddawać-7
+            3 oddawać-4
+              1 powierzać-3
+                0 upychać-3, wciskać-2
+              VISITED 0 puszczać-6
+          0 odpisywać-1, przepisywać-1
+          57 rezygnować-1
+            1 powstrzymywać się-1
+              0 powściągać się-1, miarkować się-1
+            1 poddawać się-3
+              0 rozkładać ręce-1
+            0 odchodzić-12
+            0 brać nogi za pas-2, dawać nogę-2
+            0 odżegnywać się-1
+            3 poddawać-3
+              0 poddawać partię-1
+              1 poddawać się-1, składać broń-1, pasować-4, ulegać-2
+                0 kapitulować-1
+            0 cofać się-2
+            1 darować-4, dawać sobie spokój-1, odpuszczać sobie-1, odpuszczać-4
+              0 machać ręką-1
+            4 darowywać-3
+              0 ułaskawiać-1
+              1 przepuszczać-2
+                0 puszczać płazem-1, popuszczać-1
+              0 oszczędzać-1
+            VISITED 0 rzucać-4, zarzucać-2
+            2 zwalniać się-2
+              1 odchodzić-14
+                0 rzucać-4, zarzucać-2
+            2 zostawiać-4, pozostawiać-5
+              0 całować w dupę-1
+              0 usadzać-1
+            1 rozstawać się-2
+              0 żegnać się-2, żegnać-3
+            15 zakończać-1, zakańczać-3
+              14 kończyć-3
+                0 palić mosty-1
+                12 zrywać-5
+                  0 rozchodzić się-5
+                  1 odżegnywać się-2, odcinać się-3
+                    0 umywać ręce-1
+                  2 rozstawać się-4, rozłączać się-2
+                    0 separować się-2
+                    0 rozwodzić się-2, brać rozwód-1, rozchodzić się-8
+                  5 izolować się-1, odizolowywać się-1, odosabniać się-1
+                    0 separować się-1, odseparowywać się-1
+                    0 zamykać się-3
+                    0 odgradzać się-1
+                    0 wyobcowywać się-1
+                    0 oddalać się-6, odsuwać się-3
+            0 rejterować-1, dezerterować-1
+            0 zwijać żagle-1, zwijać chorągiewkę-1
+            0 stawiać krzyżyk-1, kłaść krzyżyk-1, spisywać na straty-1
+            10 wycofywać się-2
+              0 dziękować-5
+              0 cofać się rakiem-1, wycofywać się rakiem-1
+              7 odstępować-3
+                0 sprzeniewierzać się-1
+                0 rozmyślać się-1
+                2 zdradzać-3
+                  0 zaprzedawać-1
+                  0 kupczyć-1
+                0 wychylać się-3
+                VISITED 0 wypisywać się-1, występować-5
+            0 wypisywać się-1, występować-5
+        9 sprzedawać-1, zbywać-1, przehandlowywać-1
+          0 komercjalizować-2
+          1 wyprzedawać-1
+            0 wyprzedawać się-1
+          0 spuszczać-1
+          0 licytować-1
+          0 upłynniać-1
+          1 oddawać-7
+            0 puszczać-6
+          0 odsprzedawać-1, odprzedawać-1
+    6 odzyskiwać-1
+      VISITED 0 rewindykować-1
+      1 odkupywać-1
+        0 wykupywać-3
+      1 znajdować-3, odszukiwać-1, odnajdować-1, odnajdywać-1, znajdywać-2
+        0 namierzać-1
+      0 odbierać-2
+    33 wydawać-3, wykładać-1
+      0 spłukiwać się-1, wyczyszczać się-3
+      0 puszczać-1
+      VISITED 0 wydatkować-1
+      1 wykosztowywać się-1, wyżyłowywać się-1
+        0 zdobywać się-2, wysadzać się-1
+      27 płacić-1
+        0 sponsorować-3
+        1 pokrywać-4
+          VISITED 0 refundować-1
+        1 wypłacać-1
+          0 honorować-3
+        0 zakładać-9
+        2 dawać-8
+          VISITED 0 zadatkować-1
+          0 składać się-2
+        1 wpłacać-1
+          0 przekazywać-4
+        1 przepłacać-1, płacić jak za zboże-1
+          0 nadpłacać-1
+        3 dopłacać-1
+          0 dokładać się-1
+          1 dofinansowywać-1, dawać dotację-1, doinwestowywać-1
+            0 subsydiować-1, subwencjonować-1, dotować-1
+        9 opłacać-2, finansować-1
+          0 współfinansować-1
+          0 sponsorować-2
+          3 świadczyć-4
+            2 łożyć-1
+              1 utrzymywać-9
+                0 utrzymywać-4
+          0 refinansować-1
+          1 regulować-6, uiszczać-1, wnosić-3, uiszczać się-1
+            0 rozliczać się-2, obliczać się-1, obrachowywać się-2, wyliczać się-1
+  78 *CZASOWNIK - DZIAŁANIE NDK oznaczający posiadanie lub sytuację związaną z posiadaniem-1
+    77 zużywać-1
+      0 oszczędzać-6
+      VISITED 0 wydatkować-2
+      0 wyrysowywać-2
+      0 wymalowywać-1
+      1 wypróżniać-2, opróżniać-1
+        0 wysączać-2
+      0 wydzwaniać-2
+      0 ograniczać się-1
+      0 spalać-1, palić-3
+      0 donaszać-1
+      0 dobiegać-5
+      0 zżerać-1
+      0 wypisywać-1
+      2 wyczerpywać-2
+        0 wykupywać-5
+        0 wypryskiwać-2
+      0 wybierać-3
+      0 wyszywać-2
+      0 spasać-1, skarmiać-1
+      0 rozładowywać-2
+      1 wypalać-1
+        0 opalać się-2
+      0 wypiekać-1
+      0 wykańczać-3, wykończać-4
+      52 niszczyć-3
+        0 dezelować-1
+        0 łachać-1
+        0 spierać-1
+        0 haratać-2
+        0 toczyć-6
+        0 staczać-5
+        0 odrapywać-1, obdrapywać-1
+        0 zjeżdżać-7
+        0 zajeżdżać-5
+        0 tępić-4
+        0 załamywać-3, zarywać-2
+        0 mechacić-1, kosmacić-1
+        0 nadżerać-3
+        1 wycierać-2
+          0 wyświecać-3
+        0 drzeć-2, zdzierać-2
+        0 deptać-1
+        0 wydeptywać-3, zadeptywać-1
+        0 rozmywać-2
+        10 rozrywać-1, rwać-1
+          0 rozsadzać-2
+          0 zrywać-3, przerywać-5
+          0 nadrywać-1
+          2 rozdzierać-1
+            0 naddzierać-1
+            0 przedzierać-1
+          3 drzeć-1
+            0 rozszarpywać-2
+            0 targać-4
+            0 strzępić-1, wystrzępiać-1
+        0 przecierać-2
+        2 przeżerać-1, wyżerać-2, przegryzać-4, zżerać-3, przetrawiać-3
+          1 korodować-2
+            0 podżerać-2
+        0 wypiekać-3, wypalać-3
+        0 wykruszać-1
+        15 rozwalać-1
+          0 zwalać-3
+          0 rozbebeszać-1, wybebeszać-2
+          12 rozbijać-1, gruchotać-1
+            0 kasować-5
+            5 tłuc-8, rozbijać-3, roztłukiwać-1
+              1 odtrącać-4
+                0 utrącać-3
+              2 tłuc-2
+                0 utłukiwać-2
+                0 rozbijać-6, roztłukiwać-2
+            2 łupać-2, rozłupywać-1
+              1 odłupywać-1
+                0 odstrzeliwać-2
+            0 druzgotać-1
+            0 roztrzaskiwać-1
+  0 *CZASOWNIK - DZIAŁANIE NDK oznaczający powodowanie zmiany posiadania lub sytuacji związanej z posiadaniem-1
+  69 *CZASOWNIK - DZIAŁANIE DK oznaczający zmianę posiadania lub sytuacji związanej z posiadaniem-1
+    68 zużyć-1
+      0 wydatkować-2
+      0 wyrysować-1
+      0 wymalować-1
+      1 opróżnić-2, wypróżnić-1
+        0 wysączyć-2
+      0 wydzwonić-1
+      0 ograniczyć się-1
+      0 spalić-2
+      0 donosić-4
+      0 zeżreć-1
+      0 wypisać-1
+      4 wyczerpać-2
+        0 wystrzelać-3
+        0 wypryskać-1
+        0 wysmarować-3
+        0 wykupić-5
+      0 wybrać-3
+      0 wyszyć-1
+      0 spaść-7, skarmić-1
+      0 rozładować-3
+      2 sfatygować-1
+        VISITED 0 wyświecić-1
+        0 rozklekotać-1
+      1 wypalić-2
+        0 opalić się-2
+      0 wykończyć-5
+      0 wypiec-1
+      41 zniszczyć-3
+        0 wyświechtać-1
+        0 zdezelować-1
+        0 zszargać-3, zaszargać-1
+        0 sprać-2
+        0 poorać-2, zajechać-4, zaorać-2
+        0 poharatać-2
+        0 wytłuc-1
+        0 zdewastować-1
+        0 stępić-2
+        0 odrapać-1, obdrapać-1
+        0 zjeździć-2
+        0 zaczytać-1
+        0 załamać-2, zarwać-1
+        0 zmechacić-1, skosmacić-1
+        0 nadeżreć-2
+        0 znosić-1
+        1 wytrzeć-1
+          0 wyświecić-1
+        0 podniszczyć-1
+        1 zedrzeć-1
+          0 podrzeć-2
+        0 zdeptać-1
+        0 wydeptać-2, zadeptać-1
+        1 rozmyć-2
+          0 zerodować-1
+        0 wypiec-3, wypalić-4
+        0 przetrzeć-1
+        13 rozerwać-1
+          0 rozsadzić-1
+          0 porozrywać-1
+          0 naderwać-1
+          VISITED 3 rozedrzeć-1
+          0 zerwać-1, przerwać-6
+          8 podrzeć-1, porwać-4, poszarpać-2
+            0 rozharatać-1
+            0 wystrzępić-1, postrzępić-1
+            0 potargać-3
+            0 rozszarpać-1
+            3 rozedrzeć-1
+              0 porozdzierać-1
+              0 nadedrzeć-1
+              0 przedrzeć-1
+  0 *CZASOWNIK - DZIAŁANIE DK oznaczający spowodowanie zmiany posiadania lub sytuację związaną z posiadaniem-1
+  1 *CZASOWNIK - WYPADEK oznaczający spowodowanie zmiany posiadania lub sytuację związaną z posiadaniem-1
+    0 uderzyć-5
+  1 *CZASOWNIK - PROCES DK oznaczający spowodowanie zmiany posiadania-1
+    0 wzbogacić-2
+  327 *CZASOWNIK - AKT oznaczający zmianę posiadania lub sytuację związaną z posiadaniem-1
+    3 pozbyć się-1, wyzbyć się-1
+      VISITED 0 upłynnić-1
+      1 wyrzucić-3, wywalić-1
+        0 rozstać się-4
+    1 pożyczyć-1
+      0 udzielić kredytu-1, dać kredyt-1, skredytować-1
+    148 uzyskać-1
+      2 zdobyć-2
+        0 puknąć-7
+        0 wyrównać-1
+      0 wykłócić się-1
+      VISITED 0 zainkasować-1, pobrać-1
+      0 wydębić-1
+      0 zwolnić się-2
+      VISITED 0 wycisnąć-2
+      0 habilitować się-1
+      1 dojść-2
+        0 zwindykować-1
+      3 wynegocjować-1
+        0 wytargować się-1
+        0 utargować-1, wytargować-2
+        0 renegocjować-1
+      0 wyjść-8
+      0 złapać-3
+      0 doktoryzować się-1
+      36 osiągnąć-1, dojść-3, dopiąć celu-1, dopiąć swego-1, odnieść-3, postawić na swoim-1, wskórać-1, zwojować-1, dopiąć-3
+        VISITED 0 złapać Pana Boga za nogi-1
+        0 wejść na głowę-1
+        0 wysiedzieć-1
+        0 dosłużyć się-1
+        0 wygórować-1
+        0 sięgnąć-6
+        0 zdziałać-1
+        6 uniknąć-1
+          0 odseparować się-1
+          1 uciec-3
+            0 schować głowę w piasek-1
+          2 wykręcić się-2, wykpić się-1, wymigać się-1, wywinąć się-2
+            1 wymówić się-1
+              0 wyłgać się-1
+        0 wedrzeć się-4
+        0 wycisnąć-2
+        0 odnaleźć-3
+        0 przebić się-1
+        0 przeprowadzić-1
+        0 wynieść-5
+        4 wypracować-1, dopracować się-1
+          0 wysłużyć-1
+          2 wzbogacić się-1, dorobić się-1, zbić majątek-1
+            0 ubić-4
+            0 obrosnąć w piórka-1
+        VISITED 0 przeforsować-1, przepchnąć-2
+        0 przepchać się-2
+        0 wygrać-2
+        0 okupić-1, opłacić-2, przypłacić-1, zapłacić-2
+        6 skorzystać-2, zyskać-1, dobrze wyjść-2
+          0 obłowić się-1
+          4 zarobić-1, zyskać-3
+            0 wyciągnąć-13
+            0 utargować-2
+            0 zapracować-2
+            0 dorobić-3
+      2 wydostać-2, wydobyć-3
+        VISITED 0 wyciągnąć-2
+        VISITED 0 wyciągnąć-7
+      68 pozyskać-1, zdobyć-1, postarać się-3, załatwić-1, wystarać się-1, dobić się-1
+        0 pociągnąć za sznurki-1
+        0 zyskać-4
+        0 awansować-2
+        0 zgarnąć-2
+        0 wytargować-1
+        5 wyjednać-1
+          0 nobilitować się-1
+          3 wyprosić-1, uprosić-1
+            0 wyjęczeć-2
+            0 wypłakać-2
+            0 ubłagać-1, wybłagać-1
+        2 zasłużyć-1
+          1 zapracować-1
+            0 zarobić-2
+        0 wyszarpać-2
+        0 wygospodarować-1
+        23 *zdobyć podstępem-1
+          2 wyłudzić-1
+            0 naciągnąć-6
+            0 wyciągnąć-2
+          0 wyciągnąć-7
+          VISITED 18 przywłaszczyć-1, zagarnąć-1, zawłaszczyć-1, sięgnąć po cudze-1, zagrabić-1
+        0 skosić-1
+        0 wysupłać-1
+        1 kupić-2
+          0 kupić-6
+        0 załapać-1
+        7 znaleźć-1
+          VISITED 3 wyszukać-1, wynaleźć-2
+          0 trafić-3
+          0 odnaleźć-4
+          0 odkryć-4
+        0 przeforsować-1, przepchnąć-2
+        2 przekupić-1, podkupić-1, opłacić się-2, okupić się-1
+          0 skorumpować-2, przemówić do ręki-1, przemówić do kieszeni-1
+          0 posmarować-2
+        2 posiąść-1
+          0 posiąść-4
+          0 rozerwać-2
+        2 zebrać-3, zgromadzić-2
+          0 znieść-4
+          VISITED 0 skupić-4
+        3 skombinować-1, wystarać się-2, załatwić-5, zorganizować-3, wykombinować-2, skołować-1
+          0 wkręcić-3
+          0 naraić-1, nadać-5
+          0 wydeptać-3, wychodzić-22, wylatać-2
+        0 wywalczyć-1, wywojować-1
+      VISITED 26 dostać-2
+    106 przekazać-1
+      0 upchnąć-3, upchać-2, wcisnąć-3
+      0 zapisać-2
+      0 przelać-2, scedować-1
+      0 przetransferować-1
+      0 oddać-4, dać-11
+      0 zdać-2
+      4 oddać-1
+        3 powierzyć-1
+          0 wydać za mąż-1, wydać-11
+          0 polecić-2, poruczyć-1, zawierzyć-1
+          0 zostawić-7, pozostawić-5
+      VISITED 0 przepisać-4, odpisać-4
+      0 zastawić-3
+      77 dać-4
+        0 sypnąć-4
+        0 sprezentować-1
+        0 wepchnąć-2, wepchać-2, wetknąć-2, wmusić-1
+        1 podzielić się-3
+          0 przełamać się-5
+        0 kapnąć-1
+        VISITED 0 zafundować-1, postawić-5, ufundować-1, zasponsorować-3
+        0 złożyć-4
+        0 odpalić-3
+        1 podać-2, dać-6
+          0 wręczyć-1
+        11 rozdać-1
+          10 rozdzielić-3, podzielić-7
+            0 rozlosować-1
+            0 rozdysponować-1
+            6 wydzielić-2
+              0 poskąpić-2
+              4 odmierzyć-2
+                0 odważyć-1
+                0 wycyrklować-2
+                1 odliczyć-3
+                  0 wyliczyć-5
+            0 rozebrać-2
+        3 obdarować-1, obdarzyć-1
+          1 obdzielić-1
+            0 nadzielić-1
+          0 obsypać-2, osypać-3
+        12 nakarmić-1, wykarmić-1, odżywić-2
+          0 odkarmić-1, odżywić-3
+          3 spaść-11, upaść-3, utuczyć-1
+            0 odkarmić-2
+            VISITED 0 opaść-4
+            0 podpaść-4, podtuczyć-1
+          0 przekarmić-1
+          0 zadać-4
+          0 wykarmić-2
+          3 odpaść-2
+            0 podtuczyć-2, podpaść-3
+            1 utuczyć-2
+              0 opaść-4
+          0 dokarmić-1, dożywić-1
+        5 podarować-1, darować-2, złożyć w darze-1
+          1 ufundować-2
+            0 erygować-1
+          1 ofiarować-1
+            0 ofiarować-4
+          0 zaofiarować-2
+        20 oddać-2
+          0 powierzyć-3
+          VISITED 0 puścić-7
+          7 zrzec się-1
+            0 przepisać-4, odpisać-4
+            5 odstąpić-1, ustąpić-1
+              0 indosować-1
+              0 użyczyć-1, udzielić-3, dać-9
+              VISITED 1 oddać-7
+              VISITED 0 odsprzedać-1, odprzedać-1
+          13 sprzedać-1, przehandlować-1
+            0 skomercjalizować-2
+            1 wyprzedać-1
+              0 wyprzedać się-1
+            VISITED 0 wyeksportować-1
+            0 spuścić-4
+            0 zlicytować-1
+            0 upłynnić-1
+            0 zbyć-1
+            0 opchnąć-1
+            1 oddać-7
+              0 puścić-7
+            0 skredytować-2
+            0 odsprzedać-1, odprzedać-1
+        2 wydać-10
+          VISITED 1 wypłacić-1
+        6 wynagrodzić-1, nagrodzić-2, zrekompensować-1
+          VISITED 0 odkupić-5
+          0 odbić-13
+          3 zadośćuczynić-1
+            0 zmazać-3
+            0 odpokutować-1, odprawić pokutę-1
+            0 okupić-2, odkupić-3
+      3 włożyć-4, zainwestować-1, ulokować-3
+        0 wpakować-2, władować-2
+        0 wpompować-2
+        0 zdeponować-1
+      6 oddać-5, zwrócić-3
+        0 odkopnąć-1
+        0 odrzucić-6
+        0 odnieść-2
+        VISITED 1 zrefinansować-1
+        0 spłacić-1, oddłużyć się-1
+      5 przesłać-1, wysłać-1, posłać-1
+        1 nadać-4
+          0 zatelegrafować-1, zadepeszować-1
+        0 wyeksportować-1
+        0 podesłać-3
+        0 rozesłać-2
+    27 wymienić-2, zamienić-2
+      0 przewalutować-1
+      0 wymienić się-1, zamienić się-2
+      2 spieniężyć-1
+        1 zrealizować-4
+          0 zdyskontować-2
+      0 skapitalizować-1
+      20 kupić-1, nabyć-1, zakupić-1, sprawić-2
+        0 kupić kota w worku-1
+        0 odkupić-5
+        0 nabrać-4
+        0 wykupić-2
+        1 wykupić-1
+          0 wchłonąć-4
+        5 wziąć-9
+          4 nająć-1, wynająć-2, odnająć-2
+            0 podnająć-1
+            1 wydzierżawić-2
+              0 poddzierżawić-1
+            0 wyczarterować-2
+        0 zafundować-2
+        0 dokupić-1
+        0 wylicytować-3
+        0 dostać-1
+        0 zafundować-1, postawić-5, ufundować-1, zasponsorować-3
+        0 odkupić-1
+        0 subskrybować-1
+        0 skupić-4
+    31 wydać-3, wyłożyć-3
+      VISITED 0 spłukać się-1, wyczyścić się-3
+      0 puścić-4
+      0 wydatkować-1
+      1 wykosztować się-1, wyżyłować się-1
+        0 zdobyć się-1, szarpnąć się-3, wysadzić się-1
+      25 zapłacić-1
+        0 zasponsorować-2
+        2 pokryć-6
+          0 refundować-1
+          VISITED 0 zrefundować-1
+        0 założyć-9
+        2 dać-5
+          0 zadatkować-1
+          0 złożyć się-5
+        1 wypłacić-1
+          0 uhonorować-2
+        3 dopłacić-1
+          0 dołożyć się-1
+          1 dofinansować-1, doinwestować-1, dać dotację-1
+            0 dokapitalizować-1
+        1 wpłacić-1
+          0 przekazać-4
+        1 przepłacić-1, zapłacić jak za zboże-1
+          0 nadpłacić-1
+        7 opłacić-1, sfinansować-1
+          0 zasponsorować-1
+          1 utrzymać-7
+            0 utrzymać-1, wyżywić-1
+          1 zrefinansować-1
+            0 zrefundować-1
+          1 uregulować-2, uiścić-1, wnieść-3, uiścić się-1
+            0 rozliczyć się-1, obliczyć się-1, obrachować się-2, policzyć się-1, wyliczyć się-1
+    16 odzyskać-1
+      0 rewindykować-1
+      11 znaleźć-2, odszukać-1, odnaleźć-1
+        3 wyszukać-1, wynaleźć-2
+          0 wygooglować-1, wyguglować-1
+          0 wyszperać-1
+          0 wypatrzyć-1
+        0 namierzyć-2
+        0 wytropić-2, wyśledzić-2
+        4 wytropić-1, wyśledzić-1
+          2 upolować-1
+            1 złowić-1
+              0 odłowić-1
+          0 zwietrzyć-2, wywęszyć-2, zwęszyć-2
+      VISITED 0 odebrać-2
+      1 odkupić-2
+        0 wykupić-3
+  87 *CZASOWNIK - AKT oznaczający spowodowanie zmiany stanu posiadania-1
+    0 ubezpieczyć się-1
+    70 zabrać-1, pozbawić-1, odebrać-1
+      0 amputować-2
+      6 okraść-1, obrobić-2
+        1 obrabować-1, ograbić-1, obłupić-2
+          0 rozbić-9
+        2 odrzeć-3
+          0 oskubać-1, obskubać-1
+          0 ogolić-2
+        0 wyczyścić-3
+      0 zepchnąć-3
+      0 wyślizgać-1
+      0 wywłaszczyć-1
+      0 ubezwłasnowolnić-1
+      5 nadebrać-1
+        0 odsypać-1
+        3 odlać-2, ulać-1
+          1 zlać-5
+            0 odlać-3
+          0 obciągnąć-4
+      0 ogołocić-1
+      0 uszczknąć-1
+      0 zdekompletować-1
+      0 rozbroić-1
+      0 odrzeć-1
+      0 odstawić-5
+      0 odsłonić-3
+      0 odebrać-2
+      0 odebrać-6
+      0 ująć-5
+      4 odjąć-1, ująć-4
+        0 usypać-1
+        2 zacząć-2, napocząć-2, naruszyć-3
+          0 nadjeść-1
+          0 ujeść-1
+      3 zająć-2, zatrzymać-1, zarekwirować-1
+        0 aresztować-2, sekwestrować-1
+        0 zasekwestrować-1
+        0 skonfiskować-1
+      0 wyzuć-1
+      0 wykastrować-1
+      0 wydziedziczyć-1
+      0 ruszyć-6
+      0 zdezaktywizować-1
+      0 odbić-1
+      0 odebrać-7
+      0 sprzątnąć-2
+      1 uwięzić-1
+        0 wtrącić-1
+      1 zdegradować-1
+        0 zdetronizować-1
+      0 zawiesić-6
+      18 przywłaszczyć-1, zagarnąć-1, zawłaszczyć-1, sięgnąć po cudze-1, zagrabić-1
+        0 nabrać-3, nabrać się-1
+        0 uzurpować-1
+        0 zdefraudować-1, sprzeniewierzyć-1, zmalwersować-1
+        VISITED 14 ukraść-1, skraść-1, zwinąć-4
+      0 wyrwać-3
+      14 ukraść-1, skraść-1, zwinąć-4
+        0 zgarnąć-5
+        0 ściągnąć-3
+        0 wynieść-1
+        0 podprowadzić-1, zachachmęcić-1
+        0 wyszabrować-1
+        0 podebrać-1
+        0 podkraść-1
+        0 wykraść-1
+        5 zrabować-1, złupić-1
+          4 rozkraść-1
+            0 rozwłóczyć-2
+            0 rozszabrować-1
+            0 rozwlec-3
+            0 rozgrabić-1
+    14 wyposażyć-1, zaopatrzyć-2
+      0 uposażyć-1
+      0 oprawić-5
+      0 zmotoryzować-1
+      0 wyekwipować-1
+      0 uzbroić-3
+      0 uskrzydlić-2
+      0 przeszklić-1
+      0 obudować-3
+      0 rzucić-6
+      0 uzbroić-2
+      2 zautomatyzować-1
+        0 zrobotyzować-1
+        0 zmechanizować-1
+      0 opatrzyć-5
+  57 *CZASOWNIK - WYPADEK oznaczający zmianę posiadania lub sytuację związaną z posiadaniem-1
+    6 ponieść-4
+      5 *ponieść konsekwencje złamania prawa lub normy społecznej-1
+        0 odcierpieć za swoje-1
+        0 zapracować-3
+        0 odpowiedzieć-5
+        0 wpaść-11
+        0 odpowiedzieć-6, ponieść odpowiedzialność-1, wypić piwo-1, odpokutować-2, połknąć żabę-1, zjeść żabę-1
+    1 wygrać-3
+      0 wylosować-2
+    9 zmarnotrawić-1, zmarnować-2, stracić-5
+      0 zaprzepaścić-1
+      0 spłukać się-1, wyczyścić się-3
+      0 przepić-2
+      5 roztrwonić-1
+        0 rozproszyć-9
+        1 przepuścić-9
+          0 przehulać-2
+        0 przerżnąć-3
+        0 przejeść-1
+    0 znaleźć się-3
+    1 odnaleźć się-1, znaleźć się-4
+      0 odnaleźć się-4
+    5 znaleźć-3
+      0 spotkać-5
+      3 zastać-1
+        0 pocałować klamkę-1
+        1 przyłapać-1, zdybać-1
+          0 nakryć-2
+    0 zabraknąć-1, zbraknąć-1, braknąć-1
+    0 przypaść-2, dostać się-4
+    26 dostać-2
+      0 wziąć w łapę-1, dostać w łapę-1
+      12 otrzymać-2
+        0 złapać Pana Boga za nogi-1
+        VISITED 10 wziąć-18
+      1 odziedziczyć-1
+        0 sukcedować-1
+      20 otrzymać-1
+        10 wziąć-18
+          4 zająć-8
+            3 zamieszkać-2, osiedlić się-1, osiąść-1, osadzić się-3
+              0 zakopać się-2
+              1 wprowadzić się-2
+                0 zakwaterować się-1
+          VISITED 1 przejąć-1, przechwycić-1
+          2 przyjąć-9
+            0 odebrać-4
+            0 odebrać-5
+        0 wynieść-4
+        9 wziąć-17, pobrać-2
+          0 wypożyczyć-2
+          0 zainkasować-1, pobrać-1
+          0 policzyć-4
+          0 zedrzeć-3
+          1 pożyczyć-2
+            0 zapożyczyć się-1, zadłużyć się-1, zaciągnąć dług-1, zaciągnąć kredyt-1, zaciągnąć pożyczkę-1
+          0 skasować-3
+          1 przejąć-1, przechwycić-1
+            0 skomunalizować-1

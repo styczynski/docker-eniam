@@ -1,0 +1,77 @@
+body {
+    background: #ffffff; 
+    font-family: Verdana, Arial, Helvetica, Sans-serif;
+    margin: 10px;
+}
+
+.nadtytul {
+    padding: 0 .5em;
+    font-size: large; 
+    color: #FFA500;
+}
+
+.tytul {
+    padding: 0 .5em;
+    font-size: 11pt; 
+    font-weight: bold; 
+    text-decoration: none; 
+    color: #26264f; 
+    text-align: right; 
+    margin: 10pt
+}
+
+.token {
+    padding: .4em ;
+    text-align: center;
+    background: #d4e1ff;
+}
+
+.zdanie {
+           padding: .4em ;
+           text-align: center;
+/*            background: #fadd8c; */
+/*	   border-top: .4em solid #54482d;*/
+	   border-top: .4em solid #FFA500;
+	   padding-top: 0;
+           }
+
+.arg {
+           padding: .4em ;
+           text-align: center;
+           background: #dac494;
+           }
+
+.vp {
+           padding: .4em ;
+           text-align: center;
+           background: #ffd987;
+           }
+
+.struct {
+           border-style: solid ;
+           border-width: thin ;
+           text-align: center;
+
+} 
+
+.cat {
+           font-size: 110%;
+           font-weight: bold;
+           text-align: center;
+} 
+
+.key {
+           font-size: 80%;
+           text-align: right;
+           background: white;
+           }
+
+.val {
+           text-align: left;
+           }
+
+.stats {
+    font-size: small ; 
+    border-style: solid ;
+    border-width: thin ;
+}

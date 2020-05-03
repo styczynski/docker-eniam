@@ -1,0 +1,1372 @@
+<node name="czyn-1, działanie-7, uczynek-1, postępek-1, akt-2" size="1110">
+  <node name="gra na zwłokę-1" size="0"/>
+  <node name="świński trucht-2" size="0"/>
+  <node name="czynność skurczowa-1" size="2">
+    <node name="czynność skurczowa serca-1" size="0"/>
+    <node name="czynność skurczowa macicy-1" size="0"/>
+  </node>
+  <node name="pranie mózgu-1" size="0"/>
+  <node name="czyn lubieżny-1" size="0"/>
+  <node name="czyn karalny-1" size="2">
+    <node name="czyn nierządny-1" size="1"/>
+  </node>
+  <node name="czyn niedozwolony-1" size="0"/>
+  <node name="opcja zerowa-1" size="0"/>
+  <node name="nieuprzejmość-2, niegrzeczność-4" size="13">
+    <node name="szczeniactwo-3" size="0"/>
+    <node name="obelga-1, zniewaga-1, obraza-1, policzek-2, znieważenie-2, afront-1, dotknięcie-6, dyshonor-1, ujma-1, poniżenie-3, dyzgust-3, epitet-3" size="11">
+      <node name="obraza majestatu-1" size="0"/>
+      <node name="środkowy palec-1" size="0"/>
+      <node name="ukąszenie heglowskie-1" size="0"/>
+      <node name="czynna zniewaga-1" size="0"/>
+      <node name="zwymyślanie-2" size="0"/>
+      <node name="wyzwisko-2" size="0"/>
+      <node name="profanacja-1, świętokradztwo-2" size="0"/>
+      <node name="zniesławienie-2" size="0"/>
+      <node name="szyderstwo-2" size="1">
+        <node name="persyflaż-2" size="0"/>
+      </node>
+      <node name="bluźnierstwo-2" size="0"/>
+    </node>
+  </node>
+  <node name="błąd-4, pomyłka-3" size="2">
+    <node name="błąd taktyczny-1" size="0"/>
+    <node name="błąd lekarski-1" size="0"/>
+  </node>
+  <node name="zdrada-3" size="2">
+    <node name="targowica-2" size="0"/>
+    <node name="kolaboracja-1" size="0"/>
+  </node>
+  <node name="zabór-2" size="1">
+    <node name="rekwizycja-1" size="0"/>
+  </node>
+  <node name="przykład-3" size="0"/>
+  <node name="nieostrożność-3" size="0"/>
+  <node name="uczciwość-3" size="0"/>
+  <node name="ekspulsja-3" size="0"/>
+  <node name="denaturalizacja-1" size="0"/>
+  <node name="podśmiechujki-1, podśmiewajki-1, prześmieszki-1" size="0"/>
+  <node name="urągliwość-1" size="0"/>
+  <node name="operacja-5" size="6">
+    <node name="skup weksli-1" size="0"/>
+    <node name="marszrutyzacja-1" size="0"/>
+    <node name="ruting-1, rutowanie-1, trasowanie-2" size="0"/>
+    <node name="realizacja-3" size="0"/>
+    <node name="dekompilacja-1" size="0"/>
+    <node name="defragmentacja-1" size="0"/>
+  </node>
+  <node name="wykluczenie-4" size="1">
+    <node name="ostracyzm-2" size="0"/>
+  </node>
+  <node name="zabieg-2" size="17">
+    <node name="gallizacja-1" size="0"/>
+    <node name="odnowa biologiczna-1" size="0"/>
+    <node name="latensyfikacja-1" size="0"/>
+    <node name="kurtyzacja-1" size="0"/>
+    <node name="mulczowanie-1" size="0"/>
+    <node name="zabieg stylistyczny-1" size="11" abstract="true">
+      <node name="transakcentacja-1" size="0"/>
+      <node name="anakolut-3" size="1">
+        <node name="anantopodon-1" size="0"/>
+      </node>
+      <node name="akataleksa-1" size="0"/>
+      <node name="kataleksa-1" size="0"/>
+      <node name="mityzacja-1" size="0"/>
+      <node name="monumentalizacja-1" size="0"/>
+      <node name="lipometria-1" size="0"/>
+      <node name="kontrast-3" size="0"/>
+      <node name="polifonia-3" size="0"/>
+      <node name="mitologizacja-1" size="0"/>
+    </node>
+  </node>
+  <node name="niegrzecznostka-1" size="0"/>
+  <node name="walka-3" size="1">
+    <node name="walka z wiatrakami-1" size="0"/>
+  </node>
+  <node name="spontan-1" size="0"/>
+  <node name="wygłup-1" size="0"/>
+  <node name="akcja-5" size="33">
+    <node name="kampania-5" size="0"/>
+    <node name="głosowanie-3" size="16">
+      <node name="balotaż-2" size="0"/>
+      <node name="balotaż-1" size="0"/>
+      <node name="reasumpcja-1" size="0"/>
+      <node name="wybory-1, elekcja-1" size="2">
+        <node name="wybory pośrednie-1" size="0"/>
+        <node name="eurowybory-1" size="0"/>
+      </node>
+      <node name="prawybory-1" size="0"/>
+      <node name="plebiscyt-1" size="2">
+        <node name="plebiscyt-3" size="0"/>
+        <node name="plebiscyt terytorialny-1" size="0"/>
+      </node>
+      <node name="referendum-1" size="5">
+        <node name="referendum ogólnokrajowe-1" size="1">
+          <node name="referendum ratyfikacyjne-1" size="0"/>
+        </node>
+        <node name="referendum lokalne-1" size="1">
+          <node name="referendum gminne-1" size="0"/>
+        </node>
+        <node name="prareferendum-1" size="0"/>
+      </node>
+    </node>
+    <node name="reklama-1, promocja-1, propaganda-2" size="9">
+      <node name="druk bezadresowy-1" size="0"/>
+      <node name="reklama porównawcza-1" size="0"/>
+      <node name="mailing-1" size="0"/>
+      <node name="telemarketing-1" size="0"/>
+      <node name="publicity-1" size="0"/>
+      <node name="kryptoreklama-1" size="0"/>
+      <node name="autoreklama-1" size="1">
+        <node name="dżingiel-1, dżingel-1" size="0"/>
+      </node>
+      <node name="sponsoring-1" size="0"/>
+    </node>
+    <node name="kampania-3" size="2">
+      <node name="kampania ziemniaczana-1" size="0"/>
+      <node name="burst-1" size="0"/>
+    </node>
+    <node name="prowokacja-2" size="1"/>
+  </node>
+  <node name="zakład-3" size="3">
+    <node name="zakład handicap-1" size="0"/>
+    <node name="zakład wzajemny-1" size="1">
+      <node name="dubla-1" size="0"/>
+    </node>
+  </node>
+  <node name="praktyka-1" size="404">
+    <node name="regifting-1" size="0"/>
+    <node name="shopping-1" size="0"/>
+    <node name="parda-1" size="0"/>
+    <node name="imitacja-2, imitatorstwo-1" size="22">
+      <node name="dyssymulacja-1, dysymulacja-2" size="0"/>
+      <node name="naśladownictwo-1" size="7">
+        <node name="lakonizm-2" size="0"/>
+        <node name="echopraksja-1" size="0"/>
+        <node name="echomimia-1" size="0"/>
+        <node name="kuwada-1" size="0"/>
+        <node name="bajronizm-3" size="0"/>
+        <node name="epigonizm-1, epigoństwo-1" size="0"/>
+        <node name="mimetyzm-2, mimetyczność-1" size="0"/>
+      </node>
+      <node name="stylizacja-2" size="10">
+        <node name="mimetyzm formalny-1" size="0"/>
+        <node name="prozaizacja-1" size="0"/>
+        <node name="poetyzacja-1" size="0"/>
+        <node name="liryzacja-1" size="0"/>
+        <node name="eseizacja-1" size="0"/>
+        <node name="epizacja-1" size="0"/>
+        <node name="egzotyzacja-1" size="0"/>
+        <node name="dramatyzacja-1" size="0"/>
+        <node name="archaizacja-1" size="0"/>
+        <node name="dialektyzacja-1" size="0"/>
+      </node>
+      <node name="symulacja-1, pozoranctwo-1, pozoracja-1, symulanctwo-1" size="1">
+        <node name="kwadratura-3" size="0"/>
+      </node>
+    </node>
+    <node name="dysymulacja-1" size="0"/>
+    <node name="obrzezanie-4, klitoridektomia-1" size="0"/>
+    <node name="praktyka religijna-1" size="27" abstract="true">
+      <node name="kultywacja-2" size="0"/>
+      <node name="kierownictwo duchowe-1" size="0"/>
+      <node name="bardo-1" size="0"/>
+      <node name="sannjasa-1" size="0"/>
+      <node name="koncelebra-1" size="0"/>
+      <node name="szahada-1" size="0"/>
+      <node name="koszer-4, kaszrut-1" size="0"/>
+      <node name="eremityzm-1" size="0"/>
+      <node name="cenobityzm-1" size="0"/>
+      <node name="anachoretyzm-1" size="0"/>
+      <node name="tonsura-2" size="0"/>
+      <node name="czarczaf-1, kwef-2, jaszmak-1" size="0"/>
+      <node name="post-2" size="1">
+        <node name="saum-1" size="0"/>
+      </node>
+      <node name="ascetyzm-3, asceza-3" size="1">
+        <node name="samobiczowanie-1" size="0"/>
+      </node>
+      <node name="pokuta-1" size="2">
+        <node name="aspersja-1, asperges-1" size="0"/>
+        <node name="ekspiacja-1" size="0"/>
+      </node>
+      <node name="rekolekcje-1" size="2">
+        <node name="misje-2" size="0"/>
+        <node name="oaza-3" size="0"/>
+      </node>
+      <node name="komunia-1, eucharystia-1, komunia święta-1, Wieczerza Pańska-1" size="2">
+        <node name="pierwsza komunia-1" size="0"/>
+        <node name="wiatyk-1" size="0"/>
+      </node>
+      <node name="adoracja-2" size="1">
+        <node name="pudźa-1, pudża-1" size="0"/>
+      </node>
+    </node>
+    <node name="szkoła-5, tendencja-1, prąd-4, nurt-1, trend-1, kierunek-2" size="347">
+      <node name="realizm prawniczy-1" size="0"/>
+      <node name="witalizm-3" size="0"/>
+      <node name="kongregacjonalizm-1, independentyzm-1" size="0"/>
+      <node name="młodogramatycy-1" size="0"/>
+      <node name="nerwizm-1" size="0"/>
+      <node name="britpop-1, brit pop-1" size="0"/>
+      <node name="autobiografizm-1" size="0"/>
+      <node name="linearyzm-1" size="0"/>
+      <node name="syntetyzm-1" size="0"/>
+      <node name="wadźrajana-1, wadżrajana-1, tantrajana-1, mantrajana-1" size="0"/>
+      <node name="tendencja rozwojowa-1, trend rozwojowy-1" size="4">
+        <node name="trend-3" size="1">
+          <node name="trend drugorzędowy-1" size="0"/>
+        </node>
+        <node name="trend horyzontalny-1, trend boczny-1" size="0"/>
+        <node name="megatrend rozwojowy-1, megatrend-1" size="0"/>
+      </node>
+      <node name="indukcjonizm-1" size="0"/>
+      <node name="dedukcjonizm-1, hipotetyzm-1" size="0"/>
+      <node name="hinajana-1" size="0"/>
+      <node name="normatywizm-2" size="0"/>
+      <node name="lefebryzm-1" size="0"/>
+      <node name="monarchianizm-1" size="3">
+        <node name="sabelianizm-1" size="0"/>
+        <node name="modalizm-2" size="0"/>
+        <node name="adopcjanizm-1" size="0"/>
+      </node>
+      <node name="normatywizm-1, normatywistyczna szkoła prawa-1" size="0"/>
+      <node name="mechanicyzm-1" size="0"/>
+      <node name="kierunek w pedagogice-1" size="7" abstract="true">
+        <node name="neohumanizm-1" size="0"/>
+        <node name="personalność-1" size="0"/>
+        <node name="egzemplaryzm-1" size="0"/>
+        <node name="naturalizm-6, pedagogika naturalistyczna-1" size="0"/>
+        <node name="włoska szkoła skrzypcowa-1" size="0"/>
+        <node name="pajdocentryzm-1" size="0"/>
+        <node name="antypedagogika-1" size="0"/>
+      </node>
+      <node name="ponowoczesność-1, postmodernizm-1" size="0"/>
+      <node name="jatrochemia-1, chemiatria-1" size="0"/>
+      <node name="therawada-1" size="0"/>
+      <node name="kierunek w naukach o kulturze (antropologia, etnologia, etnografia itd.)-1" size="3" abstract="true">
+        <node name="funkcjonalizm-4" size="0"/>
+        <node name="historyzm-2" size="0"/>
+        <node name="dyfuzjonizm-1" size="0"/>
+      </node>
+      <node name="kierunek w architekturze-1" size="6" abstract="true">
+        <node name="retrowersja-1" size="0"/>
+        <node name="palladianizm-1" size="0"/>
+        <node name="high-tech-1, hi-tech-1" size="0"/>
+        <node name="mudejar-1" size="0"/>
+        <node name="churrigueryzm-1" size="0"/>
+        <node name="dekonstruktywizm-2" size="0"/>
+      </node>
+      <node name="strukturalizm-1" size="1">
+        <node name="glossematyka-1" size="0"/>
+      </node>
+      <node name="kierunek w psychologii-1" size="11" abstract="true">
+        <node name="egzystencjalizm-2" size="0"/>
+        <node name="neobehawioryzm-1" size="0"/>
+        <node name="jungizm-1" size="0"/>
+        <node name="ekologizm-2" size="0"/>
+        <node name="aktualizm-2" size="0"/>
+        <node name="introspektywizm-1, introspekcjonizm-1" size="0"/>
+        <node name="funkcjonalizm-2" size="0"/>
+        <node name="behawioryzm-1" size="0"/>
+        <node name="psychoanaliza-2" size="2">
+          <node name="adleryzm-1" size="0"/>
+          <node name="freudyzm-1" size="0"/>
+        </node>
+      </node>
+      <node name="hermeneutyka-1" size="0"/>
+      <node name="egzystencjalizm-1" size="0"/>
+      <node name="kierunek w socjologii-1" size="14" abstract="true">
+        <node name="neoewolucjonizm-1" size="2">
+          <node name="ewolucjonizm uniwersalny-1" size="0"/>
+          <node name="ewolucjonizm multilinearny-1" size="0"/>
+        </node>
+        <node name="antynaturalizm-3" size="0"/>
+        <node name="organicyzm-2" size="0"/>
+        <node name="ekonomizm-1, materializm ekonomiczny-1" size="0"/>
+        <node name="konstruktywizm społeczny-1, konstrukcjonizm społeczny-1" size="0"/>
+        <node name="interakcjonizm symboliczny-1" size="0"/>
+        <node name="socjologizm-1" size="0"/>
+        <node name="ewolucjonizm-2" size="1">
+          <node name="ewolucjonizm kulturowy-1" size="0"/>
+        </node>
+        <node name="funkcjonalizm-3" size="0"/>
+        <node name="naturalizm-3" size="0"/>
+        <node name="darwinizm społeczny-1" size="0"/>
+      </node>
+      <node name="kierunek w polityce-1" size="25" abstract="true">
+        <node name="pasywizm-2" size="0"/>
+        <node name="niwelizm-1" size="0"/>
+        <node name="neogaullizm-1" size="0"/>
+        <node name="napoleonizm-1" size="0"/>
+        <node name="piłsudczyzna-1" size="0"/>
+        <node name="lewica-2" size="1">
+          <node name="skrajna lewica-1, radykalna lewica-1, ultralewica-1, ekstremizm lewicowy-1, rewolucyjna lewica-1" size="0"/>
+        </node>
+        <node name="frankizm-1" size="0"/>
+        <node name="maccartyzm-1, makkartyzm-1" size="0"/>
+        <node name="centryzm-1" size="0"/>
+        <node name="jakobinizm-1" size="0"/>
+        <node name="gaullizm-1" size="0"/>
+        <node name="ultramontanizm-1" size="0"/>
+        <node name="neomerkantylizm-1" size="0"/>
+        <node name="czartyzm-1" size="0"/>
+        <node name="aktywizm-2" size="0"/>
+        <node name="instytucjonalizm-1" size="0"/>
+        <node name="bonapartyzm-1" size="0"/>
+        <node name="leseferyzm-1" size="0"/>
+        <node name="neoliberalizm-1" size="0"/>
+        <node name="anarchizm-2" size="4">
+          <node name="anarchizm kolektywistyczny-1, anarchokolektywizm-1" size="0"/>
+          <node name="anarchoindywidualizm-1, anarchizm indywidualistyczny-1" size="0"/>
+          <node name="anarchosyndykalizm-1, anarchizm syndykalistyczny-1" size="0"/>
+          <node name="anarchizm komunistyczny-1, anarchokomunizm-1" size="0"/>
+        </node>
+      </node>
+      <node name="kierunek w ekonomii-1" size="11" abstract="true">
+        <node name="szkoła austriacka-1" size="0"/>
+        <node name="neomaltuzjanizm-1" size="0"/>
+        <node name="neokeynesizm-1" size="0"/>
+        <node name="neoklasycyzm-2" size="0"/>
+        <node name="marginalizm-1" size="0"/>
+        <node name="keynesizm-1" size="0"/>
+        <node name="monetaryzm-1" size="0"/>
+        <node name="paternalizm-2" size="0"/>
+        <node name="fizjokratyzm-1" size="0"/>
+        <node name="neoliberalizm-2" size="0"/>
+        <node name="liberalizm gospodarczy-1" size="0"/>
+      </node>
+      <node name="kierunek w sztuce-1" size="156" abstract="true">
+        <node name="sztuka konkretna-1" size="0"/>
+        <node name="postawangarda-1" size="0"/>
+        <node name="antyrealizm-1" size="0"/>
+        <node name="piktorializm-1" size="0"/>
+        <node name="racjonalizm-3" size="0"/>
+        <node name="doloryzm-1" size="0"/>
+        <node name="neoekspresjonizm-1" size="0"/>
+        <node name="psychodelia-1" size="0"/>
+        <node name="antynaturalizm-1" size="0"/>
+        <node name="kubofuturyzm-1" size="0"/>
+        <node name="trecento-1" size="0"/>
+        <node name="nurt w kinematografii-1" size="0" abstract="true"/>
+        <node name="romantyzm-3" size="0"/>
+        <node name="oniryzm-1" size="0"/>
+        <node name="transawangarda-1" size="0"/>
+        <node name="historyzm-1" size="0"/>
+        <node name="konceptualizacja-2" size="0"/>
+        <node name="ponowoczesność-1, postmodernizm-1" size="0"/>
+        <node name="barok-1" size="1">
+          <node name="churrigueryzm-1" size="0"/>
+        </node>
+        <node name="folkloryzm-1" size="0"/>
+        <node name="cyberpunk-1" size="1">
+          <node name="steampunk-1, steam punk-1" size="0"/>
+        </node>
+        <node name="nabizm-1" size="0"/>
+        <node name="sentymentalizm-2" size="0"/>
+        <node name="formizm-1" size="0"/>
+        <node name="antyteatr-1" size="0"/>
+        <node name="produktywizm-1" size="0"/>
+        <node name="protorenesans-1" size="0"/>
+        <node name="pseudogotyk-1" size="0"/>
+        <node name="iluzjonizm-3" size="0"/>
+        <node name="geometryzacja-1" size="0"/>
+        <node name="konwencjonalizm-2" size="0"/>
+        <node name="figuratywizm-1" size="0"/>
+        <node name="preromantyzm-1" size="0"/>
+        <node name="postimpresjonizm-1" size="0"/>
+        <node name="neorenesans-1" size="0"/>
+        <node name="neobarok-1" size="0"/>
+        <node name="surrealizm-1, nadrealizm-1" size="0"/>
+        <node name="prerafaelityzm-1" size="0"/>
+        <node name="neoromantyzm-1" size="0"/>
+        <node name="neoklasycyzm-1" size="0"/>
+        <node name="neogotyk-1" size="0"/>
+        <node name="manieryzm-1" size="0"/>
+        <node name="kubizm-1" size="0"/>
+        <node name="kreacjonizm-1" size="0"/>
+        <node name="impresjonizm-1" size="2">
+          <node name="puentylizm-1, pointylizm-1" size="0"/>
+          <node name="dywizjonizm-1" size="0"/>
+        </node>
+        <node name="antyestetyzm-1" size="0"/>
+        <node name="estetyzm-1, artystostwo-1" size="0"/>
+        <node name="eklektyzm-1" size="0"/>
+        <node name="dadaizm-1, antysztuka-1" size="0"/>
+        <node name="biedermeier-1" size="0"/>
+        <node name="popart-1, pop-art-1" size="1">
+          <node name="funk-2, funk art-1" size="0"/>
+        </node>
+        <node name="modernizm-1, moderna-2" size="3">
+          <node name="styl międzynarodowy-1" size="0"/>
+          <node name="Młoda Polska-1" size="0"/>
+          <node name="funkcjonalizm-1" size="0"/>
+        </node>
+        <node name="dekadentyzm-1, fin de siècle-1" size="0"/>
+        <node name="secesja-1" size="0"/>
+        <node name="formalizm-2" size="1"/>
+        <node name="abstrakcjonizm-1" size="13">
+          <node name="abstrakcja organiczna-1" size="0"/>
+          <node name="abstrakcja liryczna-1" size="0"/>
+          <node name="abstrakcja geometryczna-1" size="0"/>
+          <node name="taszyzm-1" size="0"/>
+          <node name="sztuka kinetyczna-1" size="0"/>
+          <node name="suprematyzm-1" size="0"/>
+          <node name="orfizm-1, kubizm orficzny-1" size="0"/>
+          <node name="op-art-1, wizualizm-1" size="0"/>
+          <node name="neoplastycyzm-1" size="0"/>
+          <node name="minimal art-1" size="0"/>
+          <node name="informel-1" size="0"/>
+          <node name="action-painting-1" size="0"/>
+          <node name="konstruktywizm-1" size="0"/>
+        </node>
+        <node name="klasycyzm-1" size="2">
+          <node name="empire-1" size="0"/>
+          <node name="dyrektoriat-4" size="0"/>
+        </node>
+        <node name="naturalizm-1" size="1">
+          <node name="weryzm-2" size="0"/>
+        </node>
+        <node name="kierunek w malarstwie-1" size="13" abstract="true">
+          <node name="precyzjonizm-1" size="0"/>
+          <node name="skiagrafia-2" size="0"/>
+          <node name="rajonizm-1, łuczyzm-1" size="0"/>
+          <node name="wortycyzm-1" size="0"/>
+          <node name="mizerabilizm-1" size="0"/>
+          <node name="unizm-1" size="0"/>
+          <node name="caravaggionizm-1" size="0"/>
+          <node name="neoimpresjonizm-1" size="0"/>
+          <node name="artyficjelizm-1, artyficjalizm-1" size="0"/>
+          <node name="neofowizm-1" size="0"/>
+          <node name="spacjalizm-1" size="0"/>
+          <node name="kapizm-1, koloryzm-1" size="0"/>
+          <node name="fowizm-1" size="0"/>
+        </node>
+        <node name="kierunek w muzyce-1" size="8" abstract="true">
+          <node name="sonoryzm-1" size="0"/>
+          <node name="prymitywizm-5" size="0"/>
+          <node name="minimalizm-3" size="0"/>
+          <node name="bruityzm-1, maszynizm-1" size="0"/>
+          <node name="galant-2" size="0"/>
+          <node name="serializm-1" size="0"/>
+          <node name="aleatoryzm-1" size="0"/>
+          <node name="neoromantyzm-2, postromantyzm-2" size="0"/>
+        </node>
+        <node name="konceptualizm-1" size="0"/>
+        <node name="kierunek w literaturze-1" size="29" abstract="true">
+          <node name="antypetrarkizm-1" size="0"/>
+          <node name="petrarkizm-1" size="0"/>
+          <node name="pozytywizm-2" size="0"/>
+          <node name="franciszkanizm-2" size="0"/>
+          <node name="byronizm-1, bajronizm-2" size="0"/>
+          <node name="imażynizm-1" size="0"/>
+          <node name="alegoryzm-1" size="0"/>
+          <node name="ultraizm-1" size="0"/>
+          <node name="przybyszewszczyzna-1" size="0"/>
+          <node name="unanimizm-1" size="0"/>
+          <node name="walterscotyzm-1" size="0"/>
+          <node name="banalizm-1" size="0"/>
+          <node name="tremendyzm-1" size="0"/>
+          <node name="lingwizm-1" size="0"/>
+          <node name="eufuizm-1" size="0"/>
+          <node name="urbanizm-1" size="0"/>
+          <node name="akmeizm-1, adamizm-1, klaryzm-1" size="0"/>
+          <node name="imagizm-1, imaginizm-1" size="0"/>
+          <node name="osjanizm-1" size="0"/>
+          <node name="słowianofilstwo-2" size="0"/>
+          <node name="konceptyzm-1" size="0"/>
+          <node name="gotycyzm-2" size="0"/>
+          <node name="kreolizm-1" size="0"/>
+          <node name="pseudoklasycyzm-1" size="0"/>
+          <node name="marynizm-1, marinizm-1" size="0"/>
+          <node name="turpizm-1" size="0"/>
+          <node name="parnasizm-1" size="0"/>
+          <node name="gongoryzm-1, kultyzm-1" size="0"/>
+          <node name="rokoko-1" size="0"/>
+        </node>
+        <node name="awangarda-1, awangardyzm-1" size="3">
+          <node name="industrial-1" size="0"/>
+          <node name="futuryzm-1" size="0"/>
+          <node name="ekspresjonizm-1" size="0"/>
+        </node>
+        <node name="akademizm-1" size="0"/>
+        <node name="realizm-1" size="6">
+          <node name="realizm fotograficzny-1, hiperrealizm-1, superrealizm-1, fotorealizm-2" size="0"/>
+          <node name="realizm krytyczny-1" size="0"/>
+          <node name="realizm magiczny-1" size="0"/>
+          <node name="realizm naiwny-1" size="0"/>
+          <node name="realizm socjalistyczny-1, socrealizm-1" size="0"/>
+          <node name="mały realizm-1" size="0"/>
+        </node>
+        <node name="symbolizm-1" size="0"/>
+        <node name="gotyk-1, styl gotycki-1, gotycyzm-1" size="5">
+          <node name="gotyk wenecki-1" size="0"/>
+          <node name="gotyk brabancki-1" size="0"/>
+          <node name="gotyk płomienisty-1" size="0"/>
+          <node name="gotyk skaldyjski-1" size="0"/>
+          <node name="styl izabeliński-1" size="0"/>
+        </node>
+      </node>
+      <node name="kierunek w filozofii-1" size="77" abstract="true">
+        <node name="radykalizm filozoficzny-1" size="0"/>
+        <node name="nomologia-1" size="0"/>
+        <node name="etologia-2" size="0"/>
+        <node name="njaja-1" size="0"/>
+        <node name="jogaczara-1" size="0"/>
+        <node name="mimansa-1" size="0"/>
+        <node name="komunitaryzm-1, komunitarianizm-1" size="0"/>
+        <node name="marcjonizm-1" size="0"/>
+        <node name="perypatetyka-1" size="0"/>
+        <node name="egzemplaryzm-2" size="0"/>
+        <node name="tantryzm-1" size="0"/>
+        <node name="nastika-1" size="0"/>
+        <node name="astika-1" size="0"/>
+        <node name="antynaturalizm-2" size="0"/>
+        <node name="emotywizm-1" size="0"/>
+        <node name="ontologizm-1" size="0"/>
+        <node name="mistyka-3, mistycyzm-2" size="2">
+          <node name="antropozofia-1" size="0"/>
+          <node name="kabała-1" size="0"/>
+        </node>
+        <node name="wedanta-1" size="1">
+          <node name="adwajta-1, adwajtawedanta-1" size="0"/>
+        </node>
+        <node name="kierunek lub koncepcja w filozofii, nazwane po autorze, prekursorze danego nurtu-1" size="26" abstract="true">
+          <node name="erazmianizm-1" size="0"/>
+          <node name="albertyzm-1" size="0"/>
+          <node name="ockhamizm-1" size="0"/>
+          <node name="skotyzm-1" size="0"/>
+          <node name="popperyzm-1" size="1">
+            <node name="falsyfikacjonizm-1" size="0"/>
+          </node>
+          <node name="pitagoreizm-1" size="0"/>
+          <node name="awerroizm-1" size="0"/>
+          <node name="nietzscheanizm-1" size="0"/>
+          <node name="heglizm-1" size="1"/>
+          <node name="konfucjanizm-1" size="1">
+            <node name="neokonfucjanizm-1" size="0"/>
+          </node>
+          <node name="platonizm-1" size="1"/>
+          <node name="tomizm-1" size="1">
+            <node name="neotomizm-1" size="0"/>
+          </node>
+          <node name="kantyzm-1, idealizm transcendentalny-1" size="2"/>
+          <node name="kartezjanizm-1" size="0"/>
+          <node name="franciszkanizm-1" size="0"/>
+          <node name="epikureizm-1" size="0"/>
+          <node name="bergsonizm-1" size="0"/>
+          <node name="augustynizm-1" size="0"/>
+          <node name="arystotelizm-1, perypatetyzm-1" size="0"/>
+        </node>
+        <node name="starożytny kierunek filozoficzny-1" size="13" abstract="true">
+          <node name="filozofia przyrody-1" size="4">
+            <node name="pitagoreizm-1" size="0"/>
+            <node name="konwencjonalizm-1" size="0"/>
+            <node name="eleatyzm-1, szkoła elejska-1, eleaci-1" size="0"/>
+            <node name="atomizm-1, atomistyka-1" size="0"/>
+          </node>
+          <node name="sceptycyzm-2" size="0"/>
+          <node name="cynizm-2" size="0"/>
+          <node name="cyrenaizm-1" size="0"/>
+          <node name="sofistyka-3" size="0"/>
+          <node name="platonizm-1" size="1">
+            <node name="neoplatonizm-1" size="0"/>
+          </node>
+          <node name="stoicyzm-1" size="0"/>
+          <node name="epikureizm-1" size="0"/>
+        </node>
+        <node name="ponowoczesność-1, postmodernizm-1" size="0"/>
+        <node name="scholastyka-1" size="2">
+          <node name="awerroizm-1" size="0"/>
+          <node name="neoscholastyka-1" size="0"/>
+        </node>
+        <node name="legizm-1" size="0"/>
+        <node name="neorealizm-1, filozofia analityczna-1" size="0"/>
+        <node name="formalizm-2" size="1">
+          <node name="technicyzm-2" size="0"/>
+        </node>
+        <node name="pozytywizm-1" size="0"/>
+        <node name="alchemia-1" size="0"/>
+        <node name="joga-1, jogizm-1" size="0"/>
+        <node name="gnostycyzm-1, gnoza-1" size="1">
+          <node name="antropozofia-1" size="0"/>
+        </node>
+        <node name="fenomenologia-1" size="0"/>
+        <node name="idealizm-1" size="11">
+          <node name="fikcjonalizm-1" size="0"/>
+          <node name="heglizm-1" size="1">
+            <node name="neoheglizm-1" size="0"/>
+          </node>
+          <node name="spirytualizm-1, duchowość-2" size="0"/>
+          <node name="immaterializm-1" size="0"/>
+          <node name="kantyzm-1, idealizm transcendentalny-1" size="2">
+            <node name="neokantyzm-1" size="1">
+              <node name="neokrytycyzm-1" size="0"/>
+            </node>
+          </node>
+          <node name="idealizm obiektywny-1" size="0"/>
+          <node name="idealizm subiektywny-1, subiektywizm-1" size="1">
+            <node name="irrealizm-2" size="0"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node name="brutalizm-2" size="0"/>
+  <node name="głupstwo-2, głupota-2" size="4">
+    <node name="kiełbie we łbie-1" size="0"/>
+    <node name="idiotyzm-1, idioctwo-1, kretyństwo-1" size="1">
+      <node name="nieporozumienie-3" size="0"/>
+    </node>
+    <node name="szaleństwo-2, wariactwo-1" size="0"/>
+  </node>
+  <node name="kontrakcja-1, przeciwdziałanie-2" size="2">
+    <node name="kontrmanewr-1" size="0"/>
+    <node name="kontrrewolucja-1" size="0"/>
+  </node>
+  <node name="uszczypliwość-1, złośliwość-2" size="8">
+    <node name="prześmiechy-1" size="0"/>
+    <node name="przytyk-1, przycinek-1, przymówka-1" size="1">
+      <node name="docinek-1, ucinka-2, ucinek-1" size="0"/>
+    </node>
+    <node name="szyderstwo-1" size="0"/>
+    <node name="sarkazm-1" size="0"/>
+    <node name="drwina-1, prześmiewka-1, kpina-2" size="1">
+      <node name="docinek-1, ucinka-2, ucinek-1" size="0"/>
+    </node>
+    <node name="ironia-1, ironiczność-1" size="1">
+      <node name="autoironia-1" size="0"/>
+    </node>
+  </node>
+  <node name="zabicie-9" size="25">
+    <node name="samobójstwo-1, zamach samobójczy-2" size="4">
+      <node name="złoty strzał-1" size="0"/>
+      <node name="samospalenie-1, autodafe-1" size="0"/>
+      <node name="harakiri-1, seppuku-1" size="0"/>
+      <node name="zamach samobójczy-1" size="0"/>
+    </node>
+    <node name="odstrzał-1" size="2">
+      <node name="odstrzał selekcyjny-1" size="0"/>
+      <node name="odstrzał redukcyjny-1" size="0"/>
+    </node>
+    <node name="ubój-1, rzeź-2" size="2">
+      <node name="szechita-1" size="0"/>
+      <node name="świniobicie-1" size="0"/>
+    </node>
+    <node name="eutanazja-1" size="1">
+      <node name="ortotanazja-1" size="0"/>
+    </node>
+    <node name="zabójstwo-1, mord-1, morderstwo-1" size="11"/>
+  </node>
+  <node name="zabieg-1" size="165">
+    <node name="aspiracja-5" size="0"/>
+    <node name="ablacja-4" size="0"/>
+    <node name="embolizacja-1" size="0"/>
+    <node name="orchidopeksja-1" size="0"/>
+    <node name="waporyzacja-2" size="0"/>
+    <node name="wenesekcja-1" size="0"/>
+    <node name="zapping-2, zappowanie-1" size="0"/>
+    <node name="sztuczne zapłodnienie-2" size="3">
+      <node name="zapłodnienie heterologiczne-1" size="0"/>
+      <node name="zapłodnienie homologiczne-1" size="0"/>
+      <node name="zapłodnienie in vitro-1, zapłodnienie pozaustrojowe-1" size="0"/>
+    </node>
+    <node name="zabieg kosmetyczny-1" size="33" abstract="true">
+      <node name="abdominoplastyka-1" size="0"/>
+      <node name="botoks-2" size="0"/>
+      <node name="dermabrazja-1" size="0"/>
+      <node name="mikrodermabrazja-1" size="0"/>
+      <node name="epilacja-1" size="0"/>
+      <node name="termoforeza-1" size="0"/>
+      <node name="balejaż-1, balayage-1" size="0"/>
+      <node name="liposukcja-1, lipoplastyka-1, odsysanie tłuszczu-1" size="0"/>
+      <node name="peeling-1, piling-1, złuszczanie naskórka-1, eksfoliacja-1" size="0"/>
+      <node name="pedicure-1, pedikiur-1" size="0"/>
+      <node name="manicure-1, manikiur-1" size="0"/>
+      <node name="makijaż-2" size="0"/>
+      <node name="depilacja-1" size="0"/>
+      <node name="demakijaż-1" size="0"/>
+      <node name="lifting-1" size="0"/>
+      <node name="kąpiel-1" size="14"/>
+      <node name="masaż-1, mięsienie-1" size="4"/>
+    </node>
+    <node name="ubezpłodnienie-1" size="2">
+      <node name="sterylizacja-2" size="0"/>
+      <node name="kastracja-1" size="0"/>
+    </node>
+    <node name="zabieg leczniczy-1" size="92" abstract="true">
+      <node name="upust krwi-1" size="0"/>
+      <node name="manewr Pringle’a-1" size="0"/>
+      <node name="paracenteza-1" size="0"/>
+      <node name="appendektomia-1" size="0"/>
+      <node name="abrazja-3, łyżeczkowanie-2" size="1">
+        <node name="aborcja-1, przerwanie ciąży-1, skrobanka-1, spędzenie płodu-1" size="0"/>
+      </node>
+      <node name="abrazja-2" size="0"/>
+      <node name="mezoterapia-1" size="0"/>
+      <node name="wentylacja zastępcza-1" size="2">
+        <node name="wentylacja mechaniczna-1" size="0"/>
+        <node name="usta-usta-1, metoda usta-usta-1, sztuczne oddychanie metodą usta-usta-1" size="0"/>
+      </node>
+      <node name="frykcja-1" size="0"/>
+      <node name="wariolacja-1, wariolizacja-1" size="0"/>
+      <node name="litotrypsja-1" size="0"/>
+      <node name="świecowanie uszu-1, świecowanie-1, konchowanie uszu-1, konchowanie-1" size="0"/>
+      <node name="krwioupust-1, flebotomia-1, puszczanie krwi-1, upuszczanie krwi-1" size="0"/>
+      <node name="anestezja-1" size="3">
+        <node name="neuroleptoanalgezja-1" size="0"/>
+        <node name="blokada-6" size="0"/>
+        <node name="narkoza-1" size="0"/>
+      </node>
+      <node name="szczepienie-4" size="3">
+        <node name="skaryfikacja-2" size="0"/>
+        <node name="wakcynacja-1" size="1">
+          <node name="rewakcynacja-1" size="0"/>
+        </node>
+      </node>
+      <node name="immobilizacja-2" size="0"/>
+      <node name="podszywka-1" size="0"/>
+      <node name="borowina-2" size="0"/>
+      <node name="opatrunek-2" size="0"/>
+      <node name="elektryzacja-3" size="0"/>
+      <node name="resuscytacja-1" size="0"/>
+      <node name="angioplastyka-1" size="0"/>
+      <node name="kardiowersja-1" size="0"/>
+      <node name="lobotomia-1, leukotomia-1, leukotomia przedczołowa-1" size="0"/>
+      <node name="masaż serca-1" size="0"/>
+      <node name="defibrylacja-1" size="0"/>
+      <node name="cystotomia-1" size="0"/>
+      <node name="elektrotomia-1" size="0"/>
+      <node name="tamponada-1" size="0"/>
+      <node name="perfuzja-1, krążenie pozaustrojowe-1" size="0"/>
+      <node name="soluks-1, sollux-1" size="0"/>
+      <node name="punkcja-1, nakłucie-4" size="1">
+        <node name="amniopunkcja-1, amniocenteza-1" size="0"/>
+      </node>
+      <node name="przyżeganie-1, kauteryzacja-1, koagulacja-2" size="2">
+        <node name="moksybucja-1" size="0"/>
+        <node name="elektrokoagulacja-1" size="0"/>
+      </node>
+      <node name="paliatyw-2" size="0"/>
+      <node name="lewatywa-1, enema-1, klizma-1" size="0"/>
+      <node name="jonoforeza-1, jontoforeza-1" size="0"/>
+      <node name="intubacja-1" size="0"/>
+      <node name="inhalacja-1" size="1">
+        <node name="nebulizacja-1" size="0"/>
+      </node>
+      <node name="infuzja-1, wlew-1, wlewka-1" size="0"/>
+      <node name="fluoryzacja-1" size="0"/>
+      <node name="elektrostymulacja-1" size="2">
+        <node name="elektrowstrząs-1" size="0"/>
+        <node name="elektrowstrząsy-1" size="0"/>
+      </node>
+      <node name="ekstrakcja-2" size="0"/>
+      <node name="ekskawacja-1" size="0"/>
+      <node name="drenaż-1, sączkowanie-3" size="2">
+        <node name="drenaż limfatyczny-1" size="0"/>
+        <node name="cystostomia-1" size="0"/>
+      </node>
+      <node name="bańki-1" size="0"/>
+      <node name="biopsja-1" size="0"/>
+      <node name="dializa-1" size="3">
+        <node name="dializa pozaustrojowa-1" size="0"/>
+        <node name="dializa otrzewnowa-1" size="0"/>
+        <node name="hemodializa-1" size="0"/>
+      </node>
+      <node name="naświetlanie-3" size="0"/>
+      <node name="irygacja-1" size="0"/>
+      <node name="transfuzja-1, transfuzja krwi-1, przetaczanie krwi-1" size="2">
+        <node name="transfuzja dopłodowa-1" size="0"/>
+        <node name="autotransfuzja-1, transfuzja autologiczna-1" size="0"/>
+      </node>
+      <node name="reanimacja-1, ożywianie-5, reanimowanie-2, przywracanie ... do życia-1" size="0"/>
+      <node name="kąpiel-1" size="14">
+        <node name="kąpiel lecznicza-1" size="4">
+          <node name="kąpiel gazowa-1, gazówka-1" size="0"/>
+          <node name="kąpiel kwasowęglowa-1, kwasowęglówka-1" size="0"/>
+          <node name="kąpiel powietrzna-1" size="0"/>
+          <node name="nasiadówka-2, kąpiel nasiadowa-1" size="0"/>
+        </node>
+        <node name="parówka-4" size="0"/>
+        <node name="jacuzzi-2" size="0"/>
+        <node name="sauna-2" size="1">
+          <node name="ceremonia zapachowa-1" size="0"/>
+        </node>
+        <node name="kąpiel borowinowa-1" size="0"/>
+        <node name="kąpiel słoneczna-1" size="0"/>
+        <node name="prysznic-2, natrysk-2, tusz-6" size="0"/>
+        <node name="bicz wodny-2" size="1"/>
+      </node>
+      <node name="kroplówka-2" size="0"/>
+      <node name="masaż-1, mięsienie-1" size="4">
+        <node name="automasaż-1" size="0"/>
+        <node name="hydromasaż-1" size="0"/>
+        <node name="bicz wodny-2" size="1">
+          <node name="bicz szkocki-1" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="aborcja-1, przerwanie ciąży-1, skrobanka-1, spędzenie płodu-1" size="0"/>
+    <node name="operacja-1" size="42">
+      <node name="lobektomia-1" size="0"/>
+      <node name="kraniotomia-1" size="0"/>
+      <node name="hemisferektomia-1" size="0"/>
+      <node name="adenotomia-1" size="0"/>
+      <node name="sympatektomia-1" size="0"/>
+      <node name="komisurotomia-2" size="0"/>
+      <node name="komisurotomia-1" size="0"/>
+      <node name="koronaroplastyka-1" size="0"/>
+      <node name="frenuloplastyka-1" size="0"/>
+      <node name="frenulektomia-1" size="0"/>
+      <node name="frenotomia-1" size="0"/>
+      <node name="wagotomia-1" size="0"/>
+      <node name="kalozotomia-1" size="0"/>
+      <node name="laminektomia-1" size="0"/>
+      <node name="dekortykacja-1" size="0"/>
+      <node name="histerektomia-1" size="0"/>
+      <node name="laryngektomia-1" size="0"/>
+      <node name="stomia-2" size="2">
+        <node name="kolostomia-2" size="0"/>
+        <node name="gastrostomia-1" size="0"/>
+      </node>
+      <node name="torakoplastyka-1" size="0"/>
+      <node name="resekcja-1, ekstyrpacja-1" size="0"/>
+      <node name="tracheotomia-1" size="0"/>
+      <node name="wszczepienie-1, implantacja-1" size="0"/>
+      <node name="trepanacja-1" size="0"/>
+      <node name="replantacja-1" size="0"/>
+      <node name="operacja plastyczna-1, plastyka-4" size="1">
+        <node name="autoplastyka-1" size="0"/>
+      </node>
+      <node name="lifting-1" size="0"/>
+      <node name="cesarskie cięcie-1, cesarka-1" size="0"/>
+      <node name="bajpas-1, by-pass-2, bypass-1" size="0"/>
+      <node name="przeszczep-2, transplantacja-1, przeszczepienie-4" size="7">
+        <node name="przeszczep rodzinny-1" size="0"/>
+        <node name="przeszczep izogeniczny-1, izotransplantacja-1, przeszczep syngeniczny-1" size="0"/>
+        <node name="przeszczep ksenogeniczny-1, ksenotransplantacja-1, przeszczep heterologiczny-1, przeszczep ksenogenny-1" size="0"/>
+        <node name="autotransplantacja-1, autoprzeszczep-1" size="0"/>
+        <node name="przeszczep alogeniczny-1, allotransplantacja-1, przeszczep allogeniczny-1" size="2">
+          <node name="keratoplastyka-1, przeszczepienie rogówki-1" size="1">
+            <node name="keratoplastyka drążąca-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="amputacja-1" size="2">
+        <node name="amputacja fizjologiczna-1" size="0"/>
+        <node name="mastektomia-1" size="0"/>
+      </node>
+    </node>
+  </node>
+  <node name="tchórzostwo-2" size="2">
+    <node name="dezercja-1, rejterada-2" size="0"/>
+    <node name="fugas chrustas-1" size="0"/>
+  </node>
+  <node name="grzeczność-2, przysługa-1, uprzejmość-2" size="3">
+    <node name="niedźwiedzia przysługa-1" size="0"/>
+    <node name="podwózka-1" size="1">
+      <node name="okazja-3" size="0"/>
+    </node>
+  </node>
+  <node name="improwizacja-2" size="0"/>
+  <node name="posunięcie-4, manewr-3, zagrywka-1, zagranie-16, pociągnięcie-11, numer-4" size="114">
+    <node name="dobry numer-1" size="0"/>
+    <node name="wiązanie-18" size="0"/>
+    <node name="zagranie-14, zagrywka-4" size="10">
+      <node name="pas-8" size="0"/>
+      <node name="abcug-2" size="0"/>
+      <node name="wpustka-1" size="0"/>
+      <node name="impas-3" size="0"/>
+      <node name="mały trefl-1" size="0"/>
+      <node name="małe karo-1" size="0"/>
+      <node name="mały pik-1" size="0"/>
+      <node name="mały kier-1" size="0"/>
+      <node name="przebitka-6" size="0"/>
+      <node name="blef-2, bluff-2" size="0"/>
+    </node>
+    <node name="ruch-9" size="61">
+      <node name="półruch-1" size="0"/>
+      <node name="tempo-4" size="0"/>
+      <node name="wymiana-5" size="0"/>
+      <node name="debiut-3, otwarcie szachowe-1" size="52">
+        <node name="debiut półotwarty-1" size="7">
+          <node name="debiut Nimzowitscha-1" size="0"/>
+          <node name="obrona Pirca-1" size="0"/>
+          <node name="obrona Alechina-1" size="0"/>
+          <node name="obrona skandynawska-1" size="0"/>
+          <node name="obrona Caro-Kann-1" size="0"/>
+          <node name="obrona francuska-1" size="0"/>
+          <node name="obrona sycylijska-1" size="0"/>
+        </node>
+        <node name="debiut zamknięty-1" size="17">
+          <node name="otwarcie Rétiego-1" size="0"/>
+          <node name="obrona Grünfelda-1" size="0"/>
+          <node name="partia katalońska-1" size="0"/>
+          <node name="obrona holenderska-1" size="0"/>
+          <node name="obrona Nimzowitscha-1" size="0"/>
+          <node name="partia angielska-1" size="0"/>
+          <node name="obrona hetmańsko-indyjska-1" size="0"/>
+          <node name="obrona królewsko-indyjska-1" size="0"/>
+          <node name="gambit hetmański-1" size="8"/>
+        </node>
+        <node name="debiut otwarty-1" size="19">
+          <node name="obrona Philidora-1" size="2">
+            <node name="kontrgambit Lopeza-1" size="0"/>
+            <node name="kontrgambit Philidora-1" size="0"/>
+          </node>
+          <node name="partia wiedeńska-1" size="0"/>
+          <node name="partia szkocka-1" size="0"/>
+          <node name="obrona rosyjska-1, partia rosyjska-1" size="0"/>
+          <node name="obrona dwóch skoczków-1" size="0"/>
+          <node name="gambit królewski-2" size="9"/>
+          <node name="partia włoska-1" size="0"/>
+          <node name="partia hiszpańska-1" size="0"/>
+        </node>
+        <node name="gambit-2" size="26">
+          <node name="gambit wołżański-1" size="0"/>
+          <node name="gambit królewski-2" size="9">
+            <node name="gambit Masona-1" size="0"/>
+            <node name="gambit Villemsona-1" size="0"/>
+            <node name="gambit gońca-1" size="0"/>
+            <node name="nieprzyjęty gambit królewski-1" size="0"/>
+            <node name="kontrgambit Falkbeera-1" size="0"/>
+            <node name="wariant z szybkim d5-1" size="0"/>
+            <node name="gambit Kieseritzky'ego-1" size="0"/>
+            <node name="obrona klasyczna-1" size="0"/>
+            <node name="gambit skoczka-1, gambit skoczkowy-1" size="0"/>
+          </node>
+          <node name="kontrgambit-1" size="7">
+            <node name="kontrgambit Gianutio-1" size="0"/>
+            <node name="kontrgambit Lembergera-1" size="0"/>
+            <node name="kontrgambit Winawera-1" size="0"/>
+            <node name="kontrgambit Lopeza-1" size="0"/>
+            <node name="kontrgambit Philidora-1" size="0"/>
+            <node name="kontrgambit Falkbeera-1" size="0"/>
+            <node name="kontrgambit Albina-1" size="0"/>
+          </node>
+          <node name="gambit hetmański-1" size="8">
+            <node name="obrona austriacka-1" size="0"/>
+            <node name="kontrgambit Albina-1" size="0"/>
+            <node name="obrona Czigorina-1" size="0"/>
+            <node name="obrona słowiańska-1" size="0"/>
+            <node name="gambit przyjęty-1" size="0"/>
+            <node name="gambit nieprzyjęty-1" size="2">
+              <node name="obrona bałtycka-1, obrona Keresa-1" size="0"/>
+              <node name="obrona Marshalla-1" size="0"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node name="roszada-1" size="2">
+        <node name="duża roszada-1, długa roszada-1" size="0"/>
+        <node name="mała roszada-1" size="0"/>
+      </node>
+      <node name="mat-2, szach-mat-1, szach i mat-1" size="1">
+        <node name="widełki skoczkowe-1" size="0"/>
+      </node>
+    </node>
+    <node name="krok-3" size="0"/>
+    <node name="fortel-1, sztuczka-1, trik-1, trick-1, wybieg-1, chwyt-1" size="37">
+      <node name="efekciarstwo-1" size="0"/>
+      <node name="podstęp-1" size="25">
+        <node name="ustawka-2" size="0"/>
+        <node name="gierka-1" size="1">
+          <node name="intryga-1" size="0"/>
+        </node>
+        <node name="chytrostka-1" size="0"/>
+        <node name="blef-1, bluff-1" size="1"/>
+        <node name="prowokacja-1" size="0"/>
+        <node name="spisek-1, zmowa-1" size="3">
+          <node name="zmowa-2" size="2"/>
+        </node>
+        <node name="zasadzka-1" size="4">
+          <node name="zasiadka-1" size="0"/>
+          <node name="koń trojański-2" size="0"/>
+          <node name="sieć-8" size="1">
+            <node name="pajęczyna-3" size="0"/>
+          </node>
+        </node>
+        <node name="manipulacja-1" size="8">
+          <node name="spekulacja-4" size="0"/>
+          <node name="gerrymandering-1" size="0"/>
+          <node name="ingracjacja-1" size="0"/>
+          <node name="socjotechnika-1, inżynieria społeczna-1, inżynieria socjalna-1" size="0"/>
+          <node name="kazuistyka-1" size="0"/>
+          <node name="sofistyka-1" size="0"/>
+          <node name="demagogia-1" size="1">
+            <node name="hurrapatriotyzm-1, hurapatriotyzm-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="cios w plecy-1" size="0"/>
+      <node name="zmyłka-1" size="2">
+        <node name="blef-1, bluff-1" size="1">
+          <node name="podpucha-1" size="0"/>
+        </node>
+      </node>
+      <node name="kombinacja-3" size="3">
+        <node name="kombinatoryka-2, kombinatoryka stosowana-1" size="0"/>
+        <node name="machinacja-1" size="0"/>
+        <node name="kombinacja klasyczna-2, kombinacja norweska-2, kombinacja alpejska-2" size="0"/>
+      </node>
+      <node name="unik-2" size="0"/>
+      <node name="kruczek-1" size="0"/>
+      <node name="haczyk-2" size="0"/>
+      <node name="prowokacja-2" size="1">
+        <node name="podpucha-1" size="0"/>
+      </node>
+    </node>
+  </node>
+  <node name="postępek-2, zło-2" size="141">
+    <node name="gwałt-4" size="0"/>
+    <node name="zbrodnia-2" size="0"/>
+    <node name="zdradziectwo-2" size="0"/>
+    <node name="żakostwo-1" size="0"/>
+    <node name="niestosowność-1" size="0"/>
+    <node name="hucpa-1, zuchwalstwo-2, bezczelność-2, szelmostwo-2, wałek-4, przekręt-1, chucpa-1" size="2">
+      <node name="geszeft-1" size="0"/>
+      <node name="kant-2" size="0"/>
+    </node>
+    <node name="podłość-2, nikczemność-2, bezeceństwo-1, łajdactwo-2, draństwo-1, świństwo-1, hultajstwo-1, łotrostwo-2, niegodziwość-2, chamstwo-2" size="4">
+      <node name="parszywość-1" size="0"/>
+      <node name="obrzydliwość-3, wstrętność-1, przebrzydłość-1" size="0"/>
+      <node name="szubrawstwo-1" size="0"/>
+      <node name="zberezeństwo-1, zbereżeństwo-1" size="0"/>
+    </node>
+    <node name="zawłaszczenie-3" size="1">
+      <node name="uzurpacja-1, uzurpatorstwo-1" size="0"/>
+    </node>
+    <node name="proceder-1" size="4">
+      <node name="szulerka-2, szulerstwo-1" size="0"/>
+      <node name="nierząd-1, prostytucja-1, seksbiznes-1, najstarszy zawód świata-1" size="1">
+        <node name="sponsoring-2" size="0"/>
+      </node>
+      <node name="żebractwo-1, żebry-1, żebranina-1" size="0"/>
+    </node>
+    <node name="wybryk-1, eksces-1, wyskok-1, odskok-3" size="0"/>
+    <node name="obmowa-2" size="0"/>
+    <node name="niedyskrecja-1" size="0"/>
+    <node name="grzech-1, przewina-1" size="11">
+      <node name="grzech śmiertelny-1, grzech ciężki-1" size="0"/>
+      <node name="popijawa-1, pijaństwo-2" size="0"/>
+      <node name="grzech powszedni-1, niewierność-4" size="0"/>
+      <node name="grzech pierworodny-1" size="0"/>
+      <node name="kazirodztwo-1" size="0"/>
+      <node name="krzywoprzysięstwo-1" size="0"/>
+      <node name="świętokradztwo-1" size="0"/>
+      <node name="zdrada-2, niewierność-2" size="1">
+        <node name="skok w bok-1" size="0"/>
+      </node>
+      <node name="rozpusta-2, nieczystość-1" size="0"/>
+      <node name="bluźnierstwo-1, blasfemia-1" size="0"/>
+    </node>
+    <node name="wykroczenie-2" size="10">
+      <node name="spalony-1, offside-1, ofsajd-1" size="0"/>
+      <node name="kroki-2" size="0"/>
+      <node name="ręka-5" size="0"/>
+      <node name="delikt-1" size="1">
+        <node name="delikt konstytucyjny-1" size="0"/>
+      </node>
+      <node name="uchybienie-2" size="1">
+        <node name="nieformalność-1" size="0"/>
+      </node>
+      <node name="faul-1" size="2">
+        <node name="nakładka-2" size="0"/>
+        <node name="podcięcie-7" size="0"/>
+      </node>
+    </node>
+    <node name="przestępstwo-1" size="95"/>
+  </node>
+  <node name="umowa-1" size="104">
+    <node name="umowa hotelowa-1" size="0"/>
+    <node name="dożywocie-2" size="0"/>
+    <node name="umowa bukingowa-1" size="0"/>
+    <node name="umowa przyrzeczona-1" size="0"/>
+    <node name="umowa międzynarodowa-1" size="0"/>
+    <node name="umowa dżentelmeńska-1" size="0"/>
+    <node name="opcja walutowa-1" size="0"/>
+    <node name="umowa przedwstępna-1" size="0"/>
+    <node name="umowa koncesyjna-1" size="0"/>
+    <node name="umowa partnerska-1" size="0"/>
+    <node name="umowa agencyjna-1" size="0"/>
+    <node name="umowa kompensacyjna-1" size="0"/>
+    <node name="umowa kontraktacji-1" size="0"/>
+    <node name="umowa bilateralna-1" size="0"/>
+    <node name="konsygnacja-1" size="0"/>
+    <node name="subkontrakt-1" size="0"/>
+    <node name="umowa społeczna-1" size="0"/>
+    <node name="prekarium-1" size="0"/>
+    <node name="umowa cywilnoprawna-1" size="4">
+      <node name="kontrakt menedżerski-1, kontrakt menadżerski-1" size="0"/>
+      <node name="umowa o dzieło-1" size="0"/>
+      <node name="umowa śmieciowa-1" size="0"/>
+      <node name="umowa zlecenia-1, umowa zlecenie-1" size="0"/>
+    </node>
+    <node name="zmowa-2" size="2">
+      <node name="zmowa cenowa-1" size="0"/>
+      <node name="kartel-1" size="0"/>
+    </node>
+    <node name="depozyt-2" size="0"/>
+    <node name="litkup-1" size="0"/>
+    <node name="swap-1" size="3">
+      <node name="swap walutowo-procentowy-1" size="0"/>
+      <node name="swap procentowy-1, IRS-1" size="0"/>
+      <node name="swap walutowy-1" size="0"/>
+    </node>
+    <node name="zakład-5" size="0"/>
+    <node name="zasada-5" size="0"/>
+    <node name="umowa adhezyjna-1" size="0"/>
+    <node name="deport-1" size="0"/>
+    <node name="report-1" size="0"/>
+    <node name="pul-2" size="0"/>
+    <node name="intercyza-1" size="0"/>
+    <node name="umowa o pracę-1" size="2">
+      <node name="angaż-1" size="1">
+        <node name="engagement-1" size="0"/>
+      </node>
+    </node>
+    <node name="protokół handlowy-1" size="0"/>
+    <node name="układ zbiorowy-1, umowa zbiorowa-1" size="0"/>
+    <node name="dzierżawa-1" size="10">
+      <node name="użytkowanie wieczyste-2" size="0"/>
+      <node name="emfiteuza-1" size="0"/>
+      <node name="poddzierżawa-1" size="0"/>
+      <node name="tenuta-1" size="0"/>
+      <node name="ajencja-2" size="0"/>
+      <node name="leasing-1" size="4">
+        <node name="leasing lombardowy-1" size="0"/>
+        <node name="leasing zwrotny-1" size="0"/>
+        <node name="leasing finansowy-1, leasing kapitałowy-1" size="0"/>
+        <node name="leasing operacyjny-1" size="0"/>
+      </node>
+    </node>
+    <node name="poręczenie-3" size="10">
+      <node name="zabezpieczenie-8" size="7">
+        <node name="hipoteka kaucyjna-1" size="0"/>
+        <node name="winkulacja-1" size="0"/>
+        <node name="hipoteka-3" size="3">
+          <node name="hipoteka przymusowa-1" size="0"/>
+          <node name="hipoteka ustawowa-1" size="0"/>
+          <node name="hipoteka morska-1" size="0"/>
+        </node>
+        <node name="wadium-1" size="0"/>
+      </node>
+      <node name="awal-1" size="0"/>
+      <node name="kaucja-1" size="1">
+        <node name="wadium-1" size="0"/>
+      </node>
+    </node>
+    <node name="układ-4, traktat-2" size="17">
+      <node name="transakcja wiązana-2" size="0"/>
+      <node name="ponadzakładowy układ zbiorowy pracy-1" size="0"/>
+      <node name="komplanacja-1" size="0"/>
+      <node name="konwencja-4" size="1">
+        <node name="konwencja turystyczna-1" size="0"/>
+      </node>
+      <node name="pokój-5" size="0"/>
+      <node name="preliminarium pokojowe-1" size="0"/>
+      <node name="pakt-1" size="0"/>
+      <node name="konkordat-1" size="0"/>
+      <node name="rozejm-1, zawieszenie broni-1" size="1">
+        <node name="fryszt-1" size="0"/>
+      </node>
+      <node name="unia-1" size="2">
+        <node name="unia monetarna-1, unia walutowa-1" size="0"/>
+        <node name="unia celna-1" size="0"/>
+      </node>
+      <node name="sojusz-2, alians-1" size="2">
+        <node name="symmachia-1" size="0"/>
+        <node name="sprzymierzenie-2" size="0"/>
+      </node>
+    </node>
+    <node name="ubezpieczenie-5, asekuracja-1, umowa ubezpieczenia-1" size="11">
+      <node name="ubezpieczenie majątkowe-1" size="3">
+        <node name="ubezpieczenie odpowiedzialności cywilnej-1, OC-1" size="0"/>
+        <node name="ubezpieczenie komunikacyjne-1" size="1">
+          <node name="autocasco-1, AC-4" size="0"/>
+        </node>
+      </node>
+      <node name="ubezpieczenie wzajemne-1" size="0"/>
+      <node name="koasekuracja-1" size="0"/>
+      <node name="cargo-1" size="0"/>
+      <node name="aerocasco-1" size="0"/>
+      <node name="zielona karta-2" size="0"/>
+      <node name="reasekuracja-1" size="1">
+        <node name="retrocesja-1" size="0"/>
+      </node>
+    </node>
+    <node name="rezerwacja-1" size="1">
+      <node name="overbooking-1" size="0"/>
+    </node>
+    <node name="kontrakt-1, porozumienie-3" size="5">
+      <node name="kontrakt terytorialny-1, kontrakt regionalny-1" size="1">
+        <node name="kontrakt wojewódzki-1" size="0"/>
+      </node>
+      <node name="trójlojalizm-1" size="0"/>
+      <node name="stypulacja-1" size="0"/>
+      <node name="trójporozumienie-1, triumwirat-3" size="0"/>
+    </node>
+  </node>
+  <node name="żart-1, figiel-1, psota-1, psikus-1" size="8">
+    <node name="zgryw-1, zgrywa-1" size="0"/>
+    <node name="kpina-1, drwina-2" size="0"/>
+    <node name="półżart-1" size="0"/>
+    <node name="troll-3" size="0"/>
+    <node name="psi figiel-1" size="0"/>
+    <node name="prima aprilis-1" size="0"/>
+    <node name="gag-1" size="0"/>
+    <node name="kawał-5, dowcip-2, numer-9" size="0"/>
+  </node>
+  <node name="sztuka-7" size="0"/>
+  <node name="niesprawiedliwość-2" size="97">
+    <node name="nieuczciwość-2, nieprzyzwoitość-5" size="0"/>
+    <node name="przestępstwo-1" size="95">
+      <node name="przestępstwo kryminalne-1" size="0"/>
+      <node name="przestępstwo pospolite-1" size="1">
+        <node name="zagarnięcie mienia-1" size="0"/>
+      </node>
+      <node name="sutenerstwo-1" size="0"/>
+      <node name="przywłaszczenie-2" size="1">
+        <node name="malwersacja-1, defraudacja-1" size="0"/>
+      </node>
+      <node name="spekulacja-3" size="5">
+        <node name="lichwa-2, lichwiarstwo-1" size="0"/>
+        <node name="ażiotaż-1" size="0"/>
+        <node name="grynderstwo-1" size="0"/>
+        <node name="oscylator-2" size="0"/>
+        <node name="paskarstwo-1, pasek-4" size="0"/>
+      </node>
+      <node name="nieumyślne spowodowanie śmierci-1" size="0"/>
+      <node name="afera-1" size="0"/>
+      <node name="hacking-1, hakerstwo-1, hackerstwo-1, cracking-1" size="0"/>
+      <node name="kuplerstwo-1" size="0"/>
+      <node name="zdrada stanu-1" size="0"/>
+      <node name="plagiatorstwo-1" size="0"/>
+      <node name="pajęczarstwo-1" size="2">
+        <node name="radiopajęczarstwo-1" size="0"/>
+        <node name="telepajęczarstwo-1" size="0"/>
+      </node>
+      <node name="uzurpacja-1, uzurpatorstwo-1" size="0"/>
+      <node name="stręczycielstwo-1" size="0"/>
+      <node name="pedofilia-1" size="0"/>
+      <node name="pomocnictwo-1" size="0"/>
+      <node name="kłusownictwo-1" size="0"/>
+      <node name="zbiegostwo-1" size="1">
+        <node name="dezercja-2" size="0"/>
+      </node>
+      <node name="paserstwo-1, paserka-1" size="0"/>
+      <node name="czyn nierządny-1" size="1">
+        <node name="gwałt-2" size="0"/>
+      </node>
+      <node name="wymuszenie-2" size="1">
+        <node name="wymuszenie rozbójnicze-1" size="0"/>
+      </node>
+      <node name="fałszerstwo-1, falsyfikacja-1" size="0"/>
+      <node name="zbrodnia-1" size="12">
+        <node name="zbrodnia nazistowska-1, zbrodnia hitlerowska-1" size="0"/>
+        <node name="zbrodnia komunistyczna-1, zbrodnia stalinowska-1" size="0"/>
+        <node name="mord-2, masakra-1, rzeź-1, rzeźnia-2, krwawa łaźnia-1, wyżynka-2" size="6">
+          <node name="rzeź niewiniątek-3" size="0"/>
+          <node name="pogrom-2, czystka-1" size="1">
+            <node name="czystka etniczna-1" size="0"/>
+          </node>
+          <node name="egzekucja-1" size="0"/>
+          <node name="ludobójstwo-1, eksterminacja-1" size="1">
+            <node name="holocaust-1, szoah-1, Szoah-2, holokaust-1, zagłada-2, Zagłada-3" size="0"/>
+          </node>
+        </node>
+        <node name="zbrodnia wojenna-1" size="0"/>
+        <node name="zbrodnia przeciw pokojowi-1" size="0"/>
+        <node name="zbrodnia przeciw ludzkości-1, zbrodnia przeciwko ludzkości-1" size="0"/>
+      </node>
+      <node name="włamanie-2" size="0"/>
+      <node name="wyłudzenie-2" size="0"/>
+      <node name="szpiegostwo-1" size="0"/>
+      <node name="przemyt-1, kontrabanda-1, szmugiel-1, przemytnictwo-1" size="1">
+        <node name="przemyt mrówkowy-1, przemyt plecakowy-1, przemyt mrówczany-1" size="0"/>
+      </node>
+      <node name="porwanie-8" size="3">
+        <node name="rapt-2" size="0"/>
+        <node name="kidnaping-1, kidnaperstwo-1" size="0"/>
+        <node name="uprowadzenie-2" size="0"/>
+      </node>
+      <node name="pranie brudnych pieniędzy-1, pranie pieniędzy-1" size="0"/>
+      <node name="piractwo-1, piractwo intelektualne-1" size="1">
+        <node name="wideopiractwo-1" size="0"/>
+      </node>
+      <node name="napad-1, napaść-1" size="11">
+        <node name="napad rabunkowy-1" size="0"/>
+        <node name="inwazja-1, agresja-3, najazd-1, nachód-1" size="7">
+          <node name="zajazd-2" size="0"/>
+          <node name="szturm-1, nawała-2, nawałnica-3" size="0"/>
+          <node name="oblężenie-1" size="0"/>
+          <node name="podbój-1" size="3">
+            <node name="zawojowanie-4, debelacja-1, debellacja-1" size="0"/>
+            <node name="kolonizacja-1" size="0"/>
+            <node name="konkwista-1" size="0"/>
+          </node>
+        </node>
+        <node name="wtargnięcie-3" size="0"/>
+        <node name="skok-3" size="0"/>
+      </node>
+      <node name="korupcja-2, łapownictwo-1, przekupstwo-1, łapówkarstwo-1" size="2">
+        <node name="łapownictwo czynne-1" size="0"/>
+        <node name="łapownictwo bierne-1" size="0"/>
+      </node>
+      <node name="zabójstwo-1, mord-1, morderstwo-1" size="11">
+        <node name="trucicielstwo-1" size="0"/>
+        <node name="matkobójstwo-1" size="0"/>
+        <node name="skrytobójstwo-1" size="0"/>
+        <node name="ojcobójstwo-1" size="0"/>
+        <node name="mężobójstwo-1" size="0"/>
+        <node name="królobójstwo-1" size="0"/>
+        <node name="carobójstwo-1" size="0"/>
+        <node name="dzieciobójstwo-1" size="1">
+          <node name="synobójstwo-1" size="0"/>
+        </node>
+        <node name="bratobójstwo-1, zbrodnia kainowa-1" size="0"/>
+        <node name="otrucie-2" size="0"/>
+      </node>
+      <node name="nadużycie-3" size="1">
+        <node name="solicytacja-2" size="0"/>
+      </node>
+      <node name="kradzież-1, złodziejstwo-1" size="6">
+        <node name="juma-1" size="0"/>
+        <node name="skimming-1" size="0"/>
+        <node name="koniokradztwo-1" size="0"/>
+        <node name="doliniarstwo-1" size="0"/>
+        <node name="grabież-1, rabunek-1, łupiestwo-1" size="1">
+          <node name="szaber-2, szabrownictwo-1" size="0"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node name="sprawka-1, występek-1, wszeteczeństwo-1" size="0"/>
+  <node name="dobrodziejstwo-1" size="3">
+    <node name="funda-1" size="0"/>
+    <node name="jałmużnictwo-2" size="0"/>
+    <node name="gest-3" size="0"/>
+  </node>
+  <node name="ucieczka-1" size="7">
+    <node name="pierzch-1" size="0"/>
+    <node name="gigant-6" size="0"/>
+    <node name="myk-1" size="0"/>
+    <node name="hidżra-1, hedżra-1, hegira-1" size="0"/>
+    <node name="dezercja-1, rejterada-2" size="0"/>
+    <node name="fugas chrustas-1" size="0"/>
+    <node name="wagary-1" size="0"/>
+  </node>
+  <node name="grzech-2, przewinienie-2" size="9">
+    <node name="nietakt-1, gafa-1, uchybienie-4, niedelikatność-1, niezręczność-2" size="8">
+      <node name="durność-3, idiotyczność-3" size="0"/>
+      <node name="kłopotliwość-1, problematyczność-1, problemowość-1" size="6">
+        <node name="zasiedziałość-1" size="0"/>
+        <node name="niezręczność-4" size="0"/>
+        <node name="grząskość-2" size="0"/>
+        <node name="wstydliwość-2" size="0"/>
+        <node name="śliskość-2" size="0"/>
+        <node name="drażliwość-2" size="0"/>
+      </node>
+    </node>
+  </node>
+</node>

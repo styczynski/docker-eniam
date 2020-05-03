@@ -1,0 +1,260 @@
+<node name="zachowanie-8" size="200">
+  <node name="ludyzm-1, zachowanie ludyczne-1" size="0"/>
+  <node name="reakcja-1, odzew-1" size="198">
+    <node name="dolina niesamowitości-1" size="0"/>
+    <node name="reakcja sprawcza-1" size="0"/>
+    <node name="reakcja sprawcza-2" size="0"/>
+    <node name="reakcja fizjologiczna-1" size="4">
+      <node name="reakcja orientacyjna-1" size="0"/>
+      <node name="reakcja obronna-1" size="2">
+        <node name="gumoza-1" size="0"/>
+        <node name="autotomia-1" size="0"/>
+      </node>
+    </node>
+    <node name="reakcja alarmowa-1" size="0"/>
+    <node name="hejt-1, hejterstwo-1" size="0"/>
+    <node name="zlewka-5, olewka-1" size="0"/>
+    <node name="uraz-2" size="3">
+      <node name="drzazga-2" size="1">
+        <node name="zadra-1" size="0"/>
+      </node>
+      <node name="trauma-1, uraz psychiczny-1" size="0"/>
+    </node>
+    <node name="foch-1" size="0"/>
+    <node name="uderzenie-17" size="0"/>
+    <node name="emotywność-2" size="0"/>
+    <node name="drgnienie-4" size="0"/>
+    <node name="płacz-2, łzy-1" size="0"/>
+    <node name="wrażenie-1, odczucie-7" size="75">
+      <node name="przeżycie-7" size="55">
+        <node name="uczta-2" size="0"/>
+        <node name="szok-2" size="1">
+          <node name="wstrząs-2" size="0"/>
+        </node>
+        <node name="przykrość-1, nieprzyjemność-1" size="8">
+          <node name="strzał-3" size="0"/>
+          <node name="gorzka pigułka-1" size="0"/>
+          <node name="nieznośność-1, dokuczliwość-1" size="5">
+            <node name="hałaśliwość-1" size="1">
+              <node name="zgrzytliwość-1" size="0"/>
+            </node>
+            <node name="dotkliwość-1" size="0"/>
+            <node name="uporczywość-1" size="0"/>
+            <node name="natręctwo-2, natarczywość-1, nachalność-1, namolność-1, nachalstwo-1" size="0"/>
+          </node>
+        </node>
+        <node name="przejście-21" size="0"/>
+        <node name="przyjemność-1, uciecha-2, frajda-1" size="9">
+          <node name="miód-4" size="0"/>
+          <node name="rozkosz-2" size="0"/>
+          <node name="rozkosz-1" size="1">
+            <node name="słodycz-4, pieszczota-2" size="0"/>
+          </node>
+          <node name="satysfakcja-1, spełnienie-3, duma-6, zadowolenie-2, ukontentowanie-2" size="4">
+            <node name="szał dupy-1" size="0"/>
+            <node name="pełnia-1" size="0"/>
+            <node name="nasycenie-7" size="0"/>
+            <node name="samozadowolenie-1" size="0"/>
+          </node>
+        </node>
+        <node name="cierpienie-5, ból-1, katusza-1, męczarnia-1, męka-1, gehenna-1, udręka-1, udręczenie-2, tortura-1" size="31">
+          <node name="męki piekielne-1" size="0"/>
+          <node name="droga krzyżowa-2" size="0"/>
+          <node name="koszula Dejaniry-1, szata Dejaniry-1, suknia Dejaniry-1" size="0"/>
+          <node name="katorga-1" size="0"/>
+          <node name="korona cierniowa-2, krzyż-5, golgota-1" size="0"/>
+          <node name="umartwienie-1, mortyfikacja-1" size="1">
+            <node name="samoumartwienie-1" size="0"/>
+          </node>
+          <node name="męczeństwo-1, martyrologia-1, męczennictwo-1" size="1">
+            <node name="ukrzyżowanie-2" size="0"/>
+          </node>
+          <node name="dolegliwość-2" size="12">
+            <node name="łoże boleści-2" size="0"/>
+            <node name="tortury-1, kaźń-1, męki-1, męka-3, tortura-2" size="10">
+              <node name="męki Tantala-1" size="0"/>
+              <node name="rota-8" size="0"/>
+              <node name="wahadło-2" size="0"/>
+              <node name="rhinokopia-1" size="0"/>
+              <node name="praszczęta-1" size="0"/>
+              <node name="mankurt-1" size="0"/>
+              <node name="konwejer-1, konwojer-2" size="0"/>
+              <node name="tortura wodna-1" size="2">
+                <node name="toca-1" size="0"/>
+                <node name="chińska tortura wodna-1" size="0"/>
+              </node>
+            </node>
+          </node>
+          <node name="choroba ducha-1" size="8">
+            <node name="trauma-1, uraz psychiczny-1" size="0"/>
+            <node name="załamanie-3, depresja-1" size="6">
+              <node name="dystymia-1" size="0"/>
+              <node name="subdepresja-1" size="0"/>
+              <node name="melancholia-2" size="0"/>
+              <node name="dół-4, dołek-2" size="0"/>
+              <node name="amok-1" size="0"/>
+              <node name="depresja cykliczna-1" size="0"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node name="impresja-1" size="0"/>
+      <node name="rozczulenie-2" size="0"/>
+      <node name="podmuch-3, wiew-2, powiew-2" size="1">
+        <node name="powab-2" size="0"/>
+      </node>
+      <node name="samotność-2" size="0"/>
+      <node name="przesyt-2" size="0"/>
+      <node name="przejęcie-4" size="2">
+        <node name="zaaferowanie-1" size="0"/>
+        <node name="wzruszenie-2, rozrzewnienie-2, rozczulenie-3" size="0"/>
+      </node>
+      <node name="efekt-3" size="5">
+        <node name="konkieta-1" size="0"/>
+        <node name="furora-1" size="0"/>
+        <node name="wydźwięk-1, wymowa-1, tenor-4" size="2">
+          <node name="łagodność-3" size="1">
+            <node name="nierygorystyczność-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="szczęście-1, szczęśliwość-1" size="3">
+        <node name="ananda-1" size="0"/>
+        <node name="idylla-2, sielanka-2" size="0"/>
+        <node name="błogość-1, błogostan-1, rozmarzenie-2" size="0"/>
+      </node>
+    </node>
+    <node name="rezonans-3" size="1">
+      <node name="rezonans stochastyczny-1" size="0"/>
+    </node>
+    <node name="przypływ-2, fala-3, napad-3, napływ-5" size="11">
+      <node name="śmiechawa-1, śmiechówa-1, śmichawa-1" size="0"/>
+      <node name="śmiechawka-1, śmiechówka-1" size="1">
+        <node name="wścik dupy-2, wściek dupy-2" size="0"/>
+      </node>
+      <node name="prąd-6" size="0"/>
+      <node name="poryw-1, atak-3, wybuch-2, erupcja-2" size="6">
+        <node name="kryzys katatymiczny-1" size="0"/>
+        <node name="wylew-5" size="0"/>
+        <node name="szał-3, szaleństwo-3, amok-3" size="2">
+          <node name="małpi rozum-1" size="0"/>
+          <node name="frenezja-1" size="0"/>
+        </node>
+        <node name="złość-2" size="0"/>
+      </node>
+    </node>
+    <node name="histeria-3" size="0"/>
+    <node name="retorsja-1" size="0"/>
+    <node name="postrach-1" size="0"/>
+    <node name="rewanż-2, odpłata-1" size="2">
+      <node name="rewizyta-1" size="0"/>
+      <node name="retorsja-2" size="0"/>
+    </node>
+    <node name="uśmiech-2" size="4">
+      <node name="uśmiech sardoniczny-2" size="0"/>
+      <node name="banan-3, rogal-2" size="0"/>
+      <node name="półuśmiech-1" size="0"/>
+      <node name="uśmieszek-1" size="0"/>
+    </node>
+    <node name="śmiech-2" size="6">
+      <node name="homerycki śmiech-1, homeryczny śmiech-1" size="0"/>
+      <node name="paragelia-1" size="0"/>
+      <node name="śmiech przez łzy-1" size="0"/>
+      <node name="rechot-2" size="0"/>
+      <node name="chichot-2, chich-1" size="1">
+        <node name="chichotek-2" size="0"/>
+      </node>
+    </node>
+    <node name="śmiech-3" size="1">
+      <node name="polewka-2, polew-2, beka-4, zwała-1, zlew-2, zlewka-3, padaka-2" size="0"/>
+    </node>
+    <node name="zemsta-1, odwet-1, pomsta-1, rozrachunek-3, porachunek-1" size="5">
+      <node name="odgrywka-1" size="0"/>
+      <node name="represalia-1" size="0"/>
+      <node name="rewanżyzm-1" size="0"/>
+      <node name="dintojra-1" size="0"/>
+      <node name="wendeta-1, wróżda-1, vendetta-1" size="0"/>
+    </node>
+    <node name="sprzeciw-1, opór-1, protest-1, odpór-1, opozycja-2" size="18">
+      <node name="ofensywa-3" size="0"/>
+      <node name="rogata dusza-2" size="0"/>
+      <node name="twitterowa rewolucja-1" size="0"/>
+      <node name="oburzenie-2" size="0"/>
+      <node name="kontestacja-1" size="0"/>
+      <node name="emigracja wewnętrzna-1" size="0"/>
+      <node name="bierny opór-1" size="0"/>
+      <node name="veto-1, weto-1" size="0"/>
+      <node name="nonkonformizm-1" size="0"/>
+      <node name="diatryba-1" size="0"/>
+      <node name="buntowniczość-1" size="1">
+        <node name="wywrotowość-1" size="0"/>
+      </node>
+      <node name="votum separatum-1, zdanie odrębne-1" size="0"/>
+      <node name="obstrukcja-2" size="1">
+        <node name="obstrukcja parlamentarna-1" size="0"/>
+      </node>
+      <node name="bunt-1" size="2">
+        <node name="herezja-2, obrazoburstwo-2" size="1">
+          <node name="profanacja-1, świętokradztwo-2" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="odpowiedź-1, respons-1, reakcja-2, odzew-2, oddźwięk-1, odrzeczenie-1" size="43">
+      <node name="lajk-1, like-1" size="0"/>
+      <node name="duplika-1" size="0"/>
+      <node name="replika-2" size="0"/>
+      <node name="riposta-1, kontra-1" size="0"/>
+      <node name="odzew-3" size="1">
+        <node name="szmer-4" size="0"/>
+      </node>
+      <node name="pozwolenie-5, przyzwolenie-2, zgoda-1, zezwolenie-4" size="36">
+        <node name="aprobacja-2" size="0"/>
+        <node name="milcząca zgoda-1" size="0"/>
+        <node name="exequatur-1" size="0"/>
+        <node name="permisja-1" size="0"/>
+        <node name="licencja-3" size="0"/>
+        <node name="voucher-1" size="0"/>
+        <node name="ketman-1" size="0"/>
+        <node name="placet-1" size="0"/>
+        <node name="hazuka-1" size="0"/>
+        <node name="indult-1" size="0"/>
+        <node name="patent-1" size="5">
+          <node name="patent żeglarski-1" size="2">
+            <node name="żeglarz jachtowy-1" size="0"/>
+            <node name="patent sternika-1" size="0"/>
+          </node>
+          <node name="patent flagowy-1" size="0"/>
+          <node name="patent konsularny-1, list komisyjny-1, list prowizyjny-1" size="0"/>
+        </node>
+        <node name="autoryzacja-1" size="0"/>
+        <node name="homologacja-1" size="0"/>
+        <node name="akredytacja-1" size="0"/>
+        <node name="akceptacja-1, aprobata-2" size="2">
+          <node name="wotum zaufania-2" size="0"/>
+          <node name="imprimatur-1" size="0"/>
+        </node>
+        <node name="dyspensa-1" size="0"/>
+        <node name="upoważnienie-2" size="2">
+          <node name="delegacja-2" size="1">
+            <node name="delegacja ustawowa-1" size="0"/>
+          </node>
+        </node>
+        <node name="licencja-2" size="7">
+          <node name="format-5" size="0"/>
+          <node name="patronat-3" size="0"/>
+          <node name="licencja otwarta-1" size="0"/>
+          <node name="licencja przymusowa-1" size="0"/>
+          <node name="sublicencja-1" size="0"/>
+          <node name="franczyza-1, franchising-1" size="1">
+            <node name="franczyza konwersyjna-1" size="0"/>
+          </node>
+        </node>
+        <node name="koncesja-1, pozwolenie-4" size="2">
+          <node name="patent-5" size="1">
+            <node name="patent konsularny-1, list komisyjny-1, list prowizyjny-1" size="0"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</node>

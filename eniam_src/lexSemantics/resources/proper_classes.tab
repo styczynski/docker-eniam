@@ -1,0 +1,79 @@
+człon nazwiska	antroponim-1 -0.5	osoba-1 0.
+człon nazwy firmy	firma-4 0.
+środek lokomocji	nazwa własna-1 -0.5	wytwór-1 0.
+człon nazwiska (herb)	antroponim-1 -0.5	osoba-1 0.
+patronimicum	antroponim-1 -0.5	osoba-1 0.
+oprogramowanie	wytwór-1 0.
+język programowania	wytwór-1 0.
+marka	wytwór-1 0.
+krój pisma	pismo-6 0.
+pseudonim	pseudonim-1 -0.5	osoba-1 0.
+budowla	budowla-1 0.
+członek rodu	antroponim-1 -0.5	osoba-1 0.
+przydomek	przydomek-1 -0.5	osoba-1 0.
+święto	święto-1 0.	święto-2 -0.3
+własna	nazwa własna-1 -0.5	istota-1 0.	podmiot-3 -0.3
+astr.	nazwa własna-1 -0.5	znak zodiaku-1 -0.3	ciało niebieskie-1 0.
+tytuł	tytuł-2 0.
+firma	firma-4 0.
+instytucja	nazwa własna-1 -0.5	instytucja-1 0.	instytucja-2 -0.3
+organizacja	nazwa własna-1 -0.5	organizacja-1 0.
+geograficzna	toponim-1 -0.5	obszar-1 0.
+imię	imię-4 -0.5	osoba-1 0.
+nazwisko	nazwisko-1 -0.5	osoba-1 0.
+wydarzenie	wydarzenie-1 0.
+etnonim	etnonim-1 -0.5	człowiek ze względu na pochodzenie etniczne-1 0.
+wytwór	wytwór-1 0.
+osoba	osoba-1 0.
+określenie dodatkowe	antroponim-1 -0.5	osoba-1 0.
+obj-id	tytuł-2 0.
+miesiąc	miesiąc-1 0.
+dzień tygodnia	dzień-1 0.
+inicjał	inicjał-1 -0.5	osoba-1 0.
+pora roku	pora roku-1 0.
+rok	rok-2 0.
+godzina	godzina-4 0.
+dzień	dzień-1 0.
+minuta	minuta-4 0.
+data	data-1 0.
+interwał	interwał-2 0.
+rezultat	rezultat-1 0.
+url	adres-1 0.
+email	adres-1 0.
+aleje	aleja-1 0.
+aleja	aleja-1 0.
+ulica	ulica-1 0.
+most	most-1 0.
+plac	plac-1 0.
+rondo	rondo-1 0.
+wiadukt	wiadukt-1 0.
+szosa	szosa-1 0.
+trakt	trakt-2 0.
+trasa	trasa-1 0.
+#część miasta	część miasta-1 0.
+część miasta	osiedle-1 0.
+część miejscowości	osiedle-1 0.
+delegatura	dzielnica-1 0.
+dzielnica	dzielnica-1 0.
+kolonia	kolonia-1 0.
+miasto	miasto-1 0.
+osada	osada-1 0.
+osada leśna	osada-1 0.
+osiedle	osiedle-1 0.
+przysiółek	przysiółek-1 0.
+#schronisko turystyczne	schronisko turystyczne-1 0.
+schronisko turystyczne	schronisko-1 0.
+wieś	wieś-1 0.
+gmina miejska	gmina miejska-1 0.
+gmina miejska, miasto stołeczne	gmina miejska-1 0.
+gmina miejsko-wiejska	gmina miejsko-wiejska-1 0.
+gmina wiejska	gmina wiejska-1 0.
+miasto na prawach powiatu	miasto-1 0.
+miasto stołeczne, na prawach powiatu	miasto stołeczne-1 0.
+obszar wiejski	obszar wiejski-1 0.
+powiat	powiat-1 0.
+województwo	województwo-1 0.
+
+
+
+

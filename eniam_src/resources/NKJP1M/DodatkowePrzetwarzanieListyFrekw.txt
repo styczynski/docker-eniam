@@ -1,0 +1,23 @@
+Do celów stworzenia listy reguł okazało się konieczne ponowne przejrzenie i
+oznaczenie listy frekwencyjnej, żeby uniknąć nadmiernej ilości fałszywych
+pozytywów, jeśli chodzi o niepokryte słowa.
+
+Do podstawowej listy frekwencyjnej zostały wprowadzone dodatkowe oznaczenia
+PLTAN wszędzie, gdzie lematyzacja NKJP wchodzi w konflikt z SGJP przez użycie
+liczby mnogiej jako podstawowej.
+
+Podobnie oznaczono jako TAGD (niezgodność tagowania) wypadki, kiedy takowy
+konflikt powstaje przez lematyzację imiesłowów do jej postaci przymiotnikowej,
+a nie czasownikowej.
+
+Wykryto także więcej zwyczajnych TAGE (błędów tagowania), przede wszystkim kiedy
+przymiotniki były lematyzowane do formy podstawowej innej niż przyjęta męska.
+
+Automatycznie poprawiono błędy na podstawie opracowanej listy poprawek (dokonuje
+tego skrypt resources/NKJP1M/get_correct.py). W ten sposób powstaje oczyszczona
+wersja listy frekwencyjnej oznaczona jako "_corrected". Zostają też z niej
+usunięte wpisy o lematyzacji niezgodnej z SGJP albo trudnych do automatycznego
+poprawienia (oznaczenia: PHON, TAGD, TAGE, TERR i ich warianty z ERR). Usuwamy
+także błędy "powszechne" (CERR), zawierające zwykle warianty graficzne trudne do
+ujęcia w reguły ("s t ą d"). Dopiero wersja _corrected posłużyła do wytworzenia
+listy słów niepokrytych (skrypt doreguł.sh w resources/NKJP1M/).

@@ -1,0 +1,89 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{amsmath}
+
+\usepackage[T1]{fontenc}
+\usepackage[english, polish]{babel}
+\usepackage[utf8]{inputenc}
+
+\title{Zasoby potrzebne do generowania reprezentacji semantycznej}
+\author{Wojciech Jaworski}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+Rzutowanie Słowosieci na SUMO
+
+\section{Wyrażenia wielosłowne}
+Wyrażenia wielosłowne rozpoznawane będą za pomocą programu Mewex (jeśli on da się zastosować), oraz istniejących list
+takich wyrażeń (SEJF, SEJFIK, SAWA) uzupełnionych o wielosłowne sensy ze Słowosieci
+i ew. pojęcia z dbPedii.
+Frazeologizmy (wyrażenia wielosłowne o luźnym szyku) pobrane zostaną z Walentego.
+
+% Dezambiguacja wyrażeń wielosłownych odbywać się będzie zgodnie z obserwacją, 
+% że 
+
+\section{Nazwy własne}
+Nazwy własne rozpoznawane będą za pomocą programu ..., oraz listy wydobytej z SGJP i Polimorfa.
+Rozpoznawane są też heurystycznie na podstawie wystąpienia w tekście słów zaczynających się od wielkiej litery.
+
+NELexicon 2.0
+
+Liner2
+
+\section{Sensy słów}
+Sensy słów wykrywane są za pomocą Słowosieci i dezambiguowane za pomocą programu WoSeDon oraz na podstawie spełniania preferencji selekcyjnych z Walentego.
+
+\section{Role tematyczne}
+Argumenty czasownika: Walenty
+
+Wykrywanie ról semantycznych wewnątrz frazy NP: NPSemRel, MLNpSemRel
+
+\section{Relacja przestrzenne}
+Rozpoznawanie wyrażeń przestrzeennych (SpatialPL)
+
+\section{Relacja czasowe}
+Wykrywane za pomocą programu Timex, oraz rozpoznawane przez gramatykę
+
+\section{Zdarzenia, stany, procesy}
+Rozpoznawane za pomocą Słowosieci i programu ...
+
+Wykrywanie czasowników z podmiotem domyślnym (Minos)
+
+Rozpoznawanie wyznaczników sytuacji (EventsPL)
+
+\section{Liczebniki}
+Liczebniki określane są relacją Count albo Measure, a liczebniki główne dodatkowo opisane są za pomocą 
+zapisanej za pomocą cyfr arabskich liczby wyrażającej ich znaczenie.
+Oprócz tego wskazane są typy niejawnych argumentów semantycznych dla poszczególnych leksemów.
+%TODO dać Kubie do sprawdzenia
+
+\section{Przyimki}
+
+\section{Spójniki podrzędne i zaimki względne}
+
+\section{Spójniki współrzędne}
+
+\section{Kubliki}
+
+\section{Wykrzykniki}
+
+\begin{itemize}
+\item lista jednostek leksykalnych przeznaczonych do szczegółowej analizy (załączona do tego dokumentu)
+\item lista leksemów okazjonalnych, deiktycznych, koreferencyjnych
+\item lista modyfikatorów nieintersektywnych
+\item lista pojemników, jednostek miar, rzeczoników znumeralizowanych itp.
+\item lista kwantyfikatorów i okresleń częstości
+\item lista rzeczowników wyrażających nazwy cech
+\item lista niefaktywnych argumentów czasowników
+\item lista 
+\item lista 
+\item lista przyimków i spójników podrzędnych z rolami tematycznymi
+
+
+\end{itemize}
+
+\end{document}

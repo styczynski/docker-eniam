@@ -1,0 +1,415 @@
+
+#	burk
+- q czwórnasób
+- q dwójnasób
+- q dziesięćnasób
+- m propos
+- q trójnasób
+
+#	comp		
+- q im
+- q jakby
+- q jakkolwiek
+- q jakoby
+- q jeśli
+- q jeśliby
+- q jeżeli
+- q jeżeliby
+- q skoro
+
+#	conj
+- m a
+- m ale
+- m czyli
+- m ergo
+- m jednak
+- m lecz
+- m mianowicie
+- m natomiast
+- m przeto
+- m tedy
+- m toteż
+- q tylko
+- m więc
+- m wszakże
+- m zamiast
+- m zatem
+- m zaś
+- m zwłaszcza
+
+# interj
+- m ajuści
+- m akurat
+- m ale
+- m ależ
+- m ano
+- m basta
+- m bynajmniej
+- m czyżby
+- m dobra
+- m dokładnie
+- m doprawdy
+- m dosyć
+- m dość
+- m klituś-bajduś
+- m naprawdę
+- m nieprawdaż
+- m no [potwierdzające]
+- m oczywiście
+- m OK
+- m okay
+- m okej
+- m owszem
+- m pewnie [potwierdzające]
+- m prawda [potwierdzające]
+- m skąd
+- m skądże
+- m spoko [wyrażanie zgody]
+- m tak [potwierdzające]
+- m właśnie [potwierdzające]
+
+# num
+- q gros
+- q mniej
+- q najmniej
+- q najwięcej
+- q oba
+- q obydwa
+- q tyle
+- q więcej
+
+# prep
+- q aniżeli
+- q bez
+- q co
+- q jak
+- q jako
+- m mimo
+- q niby
+- q niczym
+- q niźli
+- q niż
+- q niżeli
+- q niżli
+- q oprócz
+- q per
+- q po
+- q pomimo
+- q poza
+- q prócz
+- q wedle
+- q według
+- q wobec [porównawcze]
+- q wyjąwszy
+
+# qub
+- +
+	ż	
+- +
+	że	
+- a
+	:q	
+- aby
+	:q	
+- akurat
+	:q	
+- alboż
+		
+- ale
+	:q	
+- ależ
+	:q	
+- ani
+	:q	
+- aż
+	:q	
+- blisko
+	:q	
+- bo
+	:q	
+- bodaj
+		
+- bodajby
+		
+- bodajże
+		
+- bogać
+		gwar.
+- by
+	:q	
+- byle
+	:q	
+- byleby
+	:q	
+- bynajmniej
+	:q	książk.
+- bądź
+	:q	
+- chociaż
+	:q	
+- chociażby
+	:q	
+- choć
+	:q	
+- choćby
+	:q	
+- chyba
+		
+- ci
+		
+- co
+	:q	
+- coś
+	:q	
+- czy
+	:q	
+- czyliż
+		
+- czyż
+	:q	
+- czyżby
+	:q	książk.
+- dalibóg
+	:q	książk.
+- dopiero
+		
+- dopieroż
+		
+- dosyć
+	:q	
+- dość
+	:q	
+- dyć
+		gwar.
+- gdyby
+	:q	
+- gdzie
+	:q	
+- gdzieś
+	:q	
+- i
+	:q	
+- ino
+		gwar.
+- istotnie
+	:q	
+- jakby
+	:q	
+- jakoby
+	:q	książk.
+- jakżeż
+		
+- jednak
+	:q	
+- jednakoż
+		
+- jednakże
+		
+- jedynie
+		
+- jeno
+		książk.
+- jeszcze
+		
+- jeszczeż
+		
+- już
+		
+- jużci
+		
+- jużciż
+		
+- jużeż
+		
+- koło
+	:q	
+- lada
+	:q	
+- ledwie
+	:q	
+- ledwo
+	:q	
+- maksimum
+	:q	
+- minimum
+	:q	
+- minus
+	:q	
+- może
+	:q	
+- nadto
+		
+- najmniej
+	:q	
+- najpewniej
+		
+- najwidoczniej
+		
+- najwyżej
+		
+- naprawdę
+	:q	
+- nareszcie
+		
+- nawet
+		
+- ni
+	:q	
+- niby
+	:q	
+- nie
+	:q	
+- niech
+		
+- niechaj
+		
+- niechajże
+		
+- niechby
+		
+- niechże
+		
+- niejako
+		
+- niemal
+		
+- niemalże
+		
+- niemniej
+		
+- nieomal
+		
+- nieomalże
+		
+- niespełna
+		
+- niestety
+		
+- no
+	:q	
+- notabene
+		
+- nuż
+		
+- oby
+		form.
+- obyż
+		książk.
+- około
+	:q	
+- omalże
+		
+- ot
+		
+- oto
+	:q	
+- otóż
+		
+- pewnie
+	:q	
+- pewno
+	:q	
+- plus
+	:q	
+- podobnież
+		pot.
+- podobno
+		
+- podobnoś
+		rzad.
+- ponad
+	:q	
+- ponadto
+		
+- poniekąd
+		
+- prawie
+		
+- przecież
+		
+- przeszło
+		
+- przynajmniej
+		
+- raczej
+		
+- również
+		
+- skądinąd
+	:q	
+- snadź
+		
+- snać
+		
+- tak
+	:q	
+- także
+		
+- tam
+	:q	
+- taże
+		gwar.
+- też
+		
+- to
+	:q	
+- toż
+		
+- tuż
+	:q	
+- tylko
+	:q	
+- tylkoż
+		
+- tylo
+		gwar.
+- tyż
+		gwar.
+- widocznie
+	:q	
+- wprawdzie
+		
+- wprost
+	:q	
+- wreszcie
+		
+- wręcz
+	:q	
+- wszak
+		
+- wszakoż
+		
+- wszakże
+	:q	
+- wszelako
+		książk.
+- wszelakoż
+		
+- za
+	:q	
+- zaledwie
+	:q	
+- zapewne
+		
+- zaprawdę
+		
+- zaraz
+	:q	
+- zarazem
+		
+- zgoła
+		
+- znowu
+		
+- znowuż
+		
+- znów
+		
+- zresztą
+		
+- zwłaszcza
+	:q	
+- że
+	:q	
+- żeby
+	:q	

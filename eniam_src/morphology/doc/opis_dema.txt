@@ -1,0 +1,35 @@
+ENIAMmorphology: analizator morfologiczny i guessser dla języka polskiego.
+Dla zadanej formy znajduje możliwe lematyzacje oraz interpretacje morfosyntaktyczne.
+Wskazuje, które z nich znajdują się w SGJP w wersji z 2017.07.30.
+Program analizuje słowa obce zaopatrzone w polskie końcówki fleksyjne, akronimy oraz niektóre formy gwarowe.
+
+Program na wejściu otrzymuje pojedynczą formę. 
+Forma nie może być liczbą zapisaną za pomocą cyfr, znakiem interpunkcyjnym, ani inną sekwencją znaków
+nie reprezentującą słowa za pomocą reguł ortograficznych.
+Nie może ona posiadać aglutynatu, ani sufiksu trybu przypuszczającego.
+Nie są analizowane również formy typu '2-gi'
+
+Na wyjściu generowana jest tabela, w której kolejnych wersach znajdują się możliwe interpretacje zadanej formy.
+Kolejne kolumny tabeli zawierają: 
+- lemat, 
+- interpretację morfosyntaktyczną, 
+- frekwencję (liczbę form z SGJP, które lematyzują się w taki sam sposób)
+- status, możliwe wartości to 
+ - LemmaVal: znajduje się w SGJP
+ - LemmaAlt: wyjątek - znajduje się w SGJP, nie jest objęty przez reguły morfologiczne zaimplementowane w modelu
+ - LemmNotVal: interpretacja zgodna z modelem, nie zawarta w SGJP
+ - TokNotFound: nie znaleziono interpretacji
+- star, wartość pusta dla reguł produktywnych, pozostałe możliwe wartości to
+ - *: interpretacja nieproduktywna
+ - A: obca ortografia na styku tematu i końcówki
+ - B: obca ortografia w lemacie 
+ - C: akronim
+ - D: forma gwarowa
+- atrybuty opisujące reguły morfologiczne wykorzystane do uzyskania interpretacji.
+
+Interpretacje, w których star=B są wysoce niejednoznaczne, 
+ponieważ polegają na odgadnięciu obcej końcówki tematu,
+która nie jest widoczna w zadanej formie.
+Atrybuty w ostatnim wersie tabeli są podawane po to, by 
+umożliwić budowanie tagerów wykorzystujących cechy morfologiczne.
+

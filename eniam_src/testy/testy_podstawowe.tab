@@ -1,0 +1,196 @@
+Frunę.	fin:pres.fut
+Jestem.	fin:pres
+Będę.	bedzie
+Frunąłem.	praet:indicative:past:pri
+Frunął.	praet:indicative:past:ter
+Będę frunął.	praet:indicative:fut:pri
+Frunąłby.	praet:conditional:fut:pri
+Frunąłbym.	praet:conditional:fut:pri
+Bym frunął.	praet:conditional:fut:pri
+Powinien.	winien:indicative:pres:ter controlee:infp:pro
+Powinieneś.	winien:indicative:pres:sec
+Powinien był.	winien:indicative:past:ter
+Powinieneś był.	winien:indicative:past:sec
+Powinienby.	winien:conditional:past:ter
+Powinienbyś.	winien:conditional:past:sec
+Fruwaj.	impt:imperative:fut
+Fruwajcie.	impt:imperative:fut
+Niechaj fruną.	impt:imperative:fut
+Niechże fruniemy.	impt:imperative:fut
+Można.	pred:indicative:pres
+Można było.	pred:indicative:past
+Można będzie.	pred:indicative:fut
+Nie frunę.	negacja
+Boisz się.	się w leksemie
+Myję się.	refl
+Myję siebie.	siebie
+Szpak frunie.	subst:sg:common:count
+Szpaki fruną.	subst:pl:common:count
+Woda frunie.	subst:sg:common:mass
+Wody fruną.	subst:pl:common:mass
+Coś frunie.	subst:pronoun
+Witold frunie.	subst:proper
+Witoldy fruną.	depr
+Krupówki fruną.	subst:plurale tantum
+Cokolwiek frunie.	subst:any
+Co frunie.	subst:int.rel
+Ja frunę.	pron12
+Ja frunąłem.	pron12
+Wy fruniecie.	pron12
+Oni fruną.	pron3
+Ono frunie.	pron3
+Witoldzie.	subst:voc
+Frunę!	!
+Frunę?	?
+Szpak frunie na drzewo.	prepnp sem
+Aranżuję na fortepian.	prepnp nosem
+Aranżuję na dwa fortepiany.	prepnp num nosem
+Aranżuję na pięć fortepianów.	prepnp num nosem
+Aranżuję na sześć chmar fortepianów.	prepnp num measure nosem
+Szpak frunie jak krowa.	comparnp
+Szpak frunie jak pod górę.	comparpp
+Frunę przez nią.	pron3:praep
+Witold frasuje się o nie.	pron3:praep
+Frunęli dwaj chłopcy.	num:congr
+Frunęło dwóch chłopców.	num:rec
+Frunęło dwu chłopców.	num:rec
+Frunęło 2 chłopców.	natnum:rec
+Frunęli 2 chłopcy.	natnum:congr
+Frunęło 2,1 chłopca.	realnum
+1555 rok frunie.	year
+1.11.1555 roku frunie.	date
+1.11.1555 frunie.	date
+1.11. br. frunie.	day-month
+22 stycznia frunie.	day
+O 15:39 frunie.	hour-minute
+Godzina 12 frunie.	hour
+2. szpak frunie.	ordnum
+Rys. 1.1.3 frunie.	obj-id brev
+Szpak frunie przez dwa lasy.	prepnump
+Odsprzedano po dwa szpaki.	prepnump distrp
+Chmara szpaków frunie.	subst:measure
+Fioletowy szpak frunie.	adj:pos
+Stary brzydki brudny fioletowy szpak frunie.	adj:pos multi
+Intensywnie fioletowy szpak szybciej frunie.	adv:pos
+Starszy szpak frunie.	adj:com
+Najstarszy szpak frunie.	adj:sup
+Bardzo fioletowy szpak frunie.	adj:pos
+Bardziej fioletowy szpak frunie.	adj:com
+Najbardziej fioletowy szpak frunie.	adj:sup
+Szpak frunie z fioletowego.	prepadjp
+Szpak aranżuje po polsku.	adjp
+Szpak aranżuje po kreciemu.
+Biało-fioletowy szpak frunie.	adja
+Jaś musi spać.	E
+Szpak jest zdrów.	adjc, controlee:adj
+Pierwszy szpak frunie.	adj:order
+Inny szpak frunie.	adj:coreferential
+Dawny szpak frunie.	adj:indexical.comparative
+Ten szpak frunie.	adj:coreferential.deictic
+Jakiś szpak frunie.	adj
+Jakiś frunie.
+Taki szpak frunie.
+Mój szpak frunie.	adj:indexical:poss
+Jaki szpak frunie.
+Każdy szpak frunie.	quant
+Po wystartowaniu szpak frunie.	ger:aff
+Po niewystartowaniu szpak nie frunie.	ger:sg:neg
+Po niewystartowaniach szpak nie frunie.	ger:pl:neg
+Chwalący szpak frunie.	pact
+Przehulany przez rosomaka szpak frunie.	ppas
+Startując szpak frunie.	pcon
+Startując, szpak frunie.	pcon
+Wystartowawszy szpak frunie.	pant
+Wystartowawszy, szpak frunie.	pant
+Powinien frunąć.	controlee:infp
+Szpak chce frunąć.	controlee:infp
+Szpak chce chcieć frunąć.	controlee:infp
+Szpak jest przehulany.	controlee:ppas
+Szpak jest prezydentem.	controlee:np
+Witold jął się pióra.	lex SUBST
+Wiele wody upłynęło.	lex NUM
+Ciche dni fruną.	lex ADJ
+Barani łeb bryka.	lex ADJ
+Uśmiechaliśmy się blado.	lex ADV
+Bębni na maszynie do pisania.	lex GER
+Biegał z wywieszonym ozorem.	lex PPAS
+Oczekiwał z bijącym sercem.	lex PACT
+Daję się lubić.	lex INF:norefl
+Można się ugotować.	lex INF:refl
+Nie ma gdzie się podziać.	lex INF:refl ADV
+Abdykujesz na rzecz rosomaka.	comprepnp
+Brykasz na progu rosomaka.	comprepnp
+Brykasz niezależnie od rosomaka.	comprepnp
+Frunę, kiszę.	clause multi
+Frunę. Kiszę.	sentence multi
+Witoldzie, fruń!	clause multi
+Komu kisisz?	relator:subst
+Kto kisi?	relator:subst
+Kogo kisi?	relator:subst
+Co kisi?	relator:subst
+Wiem, komu kisisz.	relator:subst
+Do kogo brykasz?	relator:subst
+Któremu rosomakowi kisisz?	relator:adj
+Do którego rosomaka brykasz?	relator:adj
+Bryka rosomak, któremu kisisz.	relator:adj
+Iloma rosomakami kisisz?
+Ile szpaków frunie?	relator:num
+Z iloma rosomakami brykasz?
+Na ile dziewczyn fruniesz?
+Do ilu rosomaków brykasz?	relator:num
+Kiedy kisisz?	relator:adv
+Jak szybko brykasz?	relator:adv
+Na myśl o czym brykasz?	relator:subst
+Czy fruniesz?	relator:qub
+Fruniesz, gdy kisisz.	relator:adv
+Frunąłbyś, gdybyś kisił.	relator:qub
+Fruniesz, chociaż kisisz.	comp
+Dość szybki szpak frunie.	qub
+Absorbuje mnie to, że frunę.	ncp
+Szpak i rosomak fruną.	conj
+Szpak lub rosomak fruną.	conj
+Pierwszy lub drugi szpak frunie.	conj
+Fruń pod łóżko lub pod szafę.	conj
+Fruń pod łóżko lub nad morze.	conj
+Fruń pod łóżko lub tutaj.	conj
+Fruń tutaj lub pod łóżko.	conj
+Fruń teraz lub nigdy.	conj
+Szpak frunie i bryka.	conj
+- Frunę.	or
+- Frunę. Kiszę.	or
+- Frunę - powiedział szpak.	or
+- Frunę! - powiedział szpak.	or
+- Frunę - powiedział szpak. - Kiszę.	or
+- Ten szpak - powiedział - frunie.	or
+Szpak powiedział:	or
+Szpak powiedział: frunę.	or
+Szpak powiedział: „Frunę”.	or
+Szpak powiedział: „Frunę. Kiszę.”	or
+Szpak powiedział: - Frunę.	or
+Szpak powiedział: - Frunę. - i bryknął.	or
+Szpak powiedział: - Frunę. - i dodał: - Brykam.	or
+Szpak bada sprawę: - Frunę - powiada - i brykam.	or
+SZPAK: Frunę.	or
+SZPAK: - Frunę.	or
+Całka Cauchy'ego frunie w TE-cie.	akronim
+Frunie (szpak).	inclusion
+Frunie „szpak”.	cudzysłowy
+„Frunę.”
+„Frunę.	dummy
+Frunę.”	dummy
+Można będzie kupować samochody.	amb
+Książka leży po prawej stronie łóżka.	amb
+20 czerwca br. przyjęła.	amb
+W czerwcu br. przyjęła.	amb
+Kot aranżuje.	selpref (tu działa dezambiguacja selpref)
+Kot miauczy.	selpref
+Kot śpiewa.	selpref
+Szpak aranżuje.	selpref
+Szpak fruwa.	selpref
+Szpak śpiewa.	selpref
+Człowiek aranżuje.	selpref
+Jaś załadował bagażnik jabłkami.	role
+Jaś załadował bagażnik koparką.	arole
+Jaś załadował bagażnik wieczorem.	lrole
+Pięciu Kotów szybko aranżuje na drzewie.
+Po wypadku nie przerwałem pracy.	quant

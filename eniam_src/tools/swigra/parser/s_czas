@@ -1,0 +1,532 @@
+% Słownik wymagań czasownikowych
+%
+% Copyright (C) 1997-2006 Marcin Woliński
+%
+% This program is free software; you can redistribute it and/or modify
+% it under the terms of the GNU General Public License version 3 as
+% published by the Free Software Foundation.
+%
+% This program is distributed in the hope that it will be useful,
+% but WITHOUT ANY WARRANTY; without even the implied warranty of
+% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+% GNU General Public License for more details.
+%
+% You should have received a copy of the GNU General Public License
+% along with this program; if not, write to the Free Software
+% Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, 
+% MA 02110-1301, USA 
+%
+% In addition, as a special exception, the copyright holder gives
+% permission to link the code of this program with the Morfeusz library
+% (see http://www.nlp.ipipan.waw.pl/~wolinski/morfeusz), and distribute
+% linked combinations including the two. You must obey the GNU General
+% Public License in all respects for all of the code used other than
+% Morfeusz. If you modify this file, you may extend this exception to
+% your version of the file, but you are not obligated to do so. If you
+% do not wish to do so, delete this exception statement from your
+% version.
+%
+bać się	V	np(dop)
+bać się	V	infp(_)
+bać się	V	sentp(że)
+bać się	V	sentp(aby)
+bać się	V	sentp(czy)
+bać się	V	prepnp(o,bier)
+bawić	V	np(bier)+np(narz)
+bawić się	V	prepnp(z,narz)+prepnp(w,bier)
+bawić się	V	prepnp(z,narz)+np(narz)
+bić	V	np(bier)
+bić się	V	prepnp('z',narz)
+błądzić	V	
+błyskać	V	np(narz)
+błyskać się	V	
+bogacić się	V	
+brak	Q	np(cel)+np(dop)
+bratać się	V	prepnp('z',narz)
+bronić	V	np(bier)+prepnp('przed',narz)
+bronić się	V	prepnp('przed',narz)
+być	V	adjp(dop)
+być	V	adjp(mian)
+być	V	adjp(narz)
+być	V	advp
+być	V	np(gen)
+być	V	np(dat)
+być	V	np(inst)
+być	V	prepnp('jak',mian)
+być	V	prepnp('przed',narz)
+być	V	prepnp('przy',miej)
+być	V	prepnp('u',dop)
+być	V	prepnp('w',miej)
+być	V	prepnp('z',narz)
+bywać	V	adjp(dop)
+bywać	V	adjp(mian)
+bywać	V	adjp(narz)
+bywać	V	advp
+bywać	V	np(gen)
+bywać	V	np(dat)
+bywać	V	np(inst)
+bywać	V	prepnp('jak',mian)
+bywać	V	prepnp('przed',narz)
+bywać	V	prepnp('przy',miej)
+bywać	V	prepnp('u',dop)
+bywać	V	prepnp('w',miej)
+bywać	V	prepnp('z',narz)
+cenić	V	np(bier)
+chcieć	Q	infp(_)
+chcieć	V	infp(_)
+chcieć	V	sentp('żeby')
+chodzić	Q	np(cel)+prepnp('o',bier)
+chodzić	V	prepnp('po',miej)
+chorować	V	prepnp('na',bier)
+chrapać	V	
+ciekawić	V	np(bier)
+ciekawić się	V	
+cierpieć	V	prepnp('na',bier)
+cieszyć się	V	sentp('że')
+czas	Q	infp(_)
+czekać	V	sentp('aż1')
+czuwać	V	prepnp('nad',narz)
+czytać	V	np(bier)+np(cel)
+czytać	V	sentp('że')
+dać	V	infp(_)+np(cel)
+dać	V	np(bier)+np(cel)
+dać się	V	np(cel)+infp(_)
+dawać	V	np(bier)+np(cel)
+dawać się	V	np(cel)
+dojść	V	prepnp('do',dop)
+dorabiać	V	np(bier)+np(cel)
+dorabiać się	V	np(dop)
+doradzać	V	np(bier)+np(cel)
+dorobić	V	np(bier)+np(cel)
+dorobić się	V	np(dop)
+dostać	V	np(bier)+prepnp('od',dop)
+dostać	V	np(dop)
+dopatrywać się	V	np(dop)
+dowiedzieć się	V	np(dop)
+dziwić	V	np(bier)
+dziwić się	V	np(cel)
+dziwić się	V	np(narz)
+gorzeć	Q	
+grać	V	prepnp('w',bier)
+grzmieć	V	
+gwoździć	V	np(bier)+np(narz)
+istnieć	V	
+iść	Q	advp
+iść	Q	np(cel)+prepnp('o',bier)
+iść	V	advp
+iść	V	np(narz)
+iść	V	prepnp('do',dop)+prepnp('z',narz)
+iść	V	prepnp('o',bier)
+iść	V	prepnp('po',bier)
+iścić	V	np(bier)
+jechać	V	prepnp('do',dop)
+jeść	V	np(bier)+np(cel)
+jeździć	V	prepnp('do',dop)
+kazać	V	np(bier)+np(cel)
+kłócić się	V	prepnp('z',narz)
+kochać	V	np(bier)
+kochać się	V	prepnp('z',narz)
+kupić	V	np(bier)+np(cel)
+lać	V	np(bier)+np(cel)
+lać się	V	
+latać	V	np(narz)
+leczyć	V	np(bier)+prepnp('z',dop)
+leżeć	V	prepnp('na',miej)
+lubić	V	np(bier)
+lubić	V	infp(_)
+lubić się	V	
+maić	V	np(bier)
+maić się	V	
+mamić	V	np(bier)+np(narz)
+mamić się	V	np(narz)
+martwić	V	np(narz)
+martwić	V	prepnp('o',bier)
+martwić się	V	np(narz)
+marzyć	V	prepnp('o',miej)
+marzyć się	V	np(cel)
+miąć	V	np(bier)
+miąć się	V	np(bier)
+mieć	V	np(bier)
+mieć	V	infp(_)
+mieć się	V	advp
+mielić	V	np(bier)
+mielić się	V	
+mieszkać	V	
+mieść	V	np(bier)
+milczeć	V	
+można	Q	infp(_)
+móc	V	infp(_)
+mówić	V	prepnp('o',miej)
+mówić	V	sentp(_)
+musieć	V	infp(_)
+mylić	V	np(bier)+prepnp('z',narz)
+mylić się	V	
+myśleć	V	prepnp('o',miej)
+nadejść	V	
+nakupić	V	np(bier)+np(cel)
+należeć	Q	infp(_)
+należeć	V	prepnp('do',dop)
+namówić	V	np(bier)+prepnp('do',dop)
+namówić się	V	
+napisać	V	np(bier)
+nazwać	V	np(bier)
+nazwać się	V	
+nienawidzić	V	np(dop)
+nienawidzić się	V	
+nizać	V	np(bier)
+nudzić	V	np(bier)+np(narz)
+nudzić się	V	np(narz)
+obawiać się	V	np(dop)
+obchodzić	V	np(bier)
+obchodzić się	V	np(narz)
+obejść	V	np(bier)
+obejść się	V	np(narz)
+obiecać	V	np(bier)+np(cel)
+obiecać się	V	np(cel)
+obywać się	V	np(narz)
+oddać	V	np(bier)+np(cel)
+odebrać	V	np(bier)+np(cel)
+odejść	V	
+odezwać się	V	
+odgadnąć	V	np(bier)
+odpoczywać	V	
+odwiedzić	V	np(bier)
+odwiedzić się	V	
+oszczędzać	V	np(bier)+prepnp('na',bier)
+oszczędzać	V	np(dop)+np(cel)
+oszczędzać się	V	
+otrzymać	V	np(bier)
+padać	Q	
+pamiętać	V	np(bier)
+patrzeć	V	prepnp('na',bier)
+patrzeć się	V	prepnp('na',bier)
+patrzyć	V	prepnp('na',bier)
+patrzyć się	V	prepnp('na',bier)
+pęknąć	V	
+pić	V	np(bier)+np(cel)
+pilnować	V	np(bier)
+pilnować się	V	
+płakać	V	
+pobrać	V	np(bier)+np(cel)
+pobrać się	V	
+pocałować	V	np(bier)
+pochodzić	V	
+pochodzić	V	prepnp('z',dop)
+poczekać	V	prepnp('na',bier)
+poczytać	V	np(bier)+np(cel)
+podjąć	V	np(bier)+np(narz)
+podjąć	V	np(bier)+np(narz)
+podjąć się	V	np(dop)
+podobać się	V	np(dop)
+pogrzebać	V	np(bier)
+pogrzebać się	V	
+polecić	V	np(bier)+np(cel)
+polecić się	V	np(cel)
+polecieć	V	
+pomagać	V	np(cel)+prepnp('w',miej)
+pomóc	V	np(cel)+prepnp('w',miej)
+posiedzieć	V	
+postraszyć	V	np(bier)+np(narz)
+potwierdzić	V	np(bier)
+potwierdzić się	V	
+powątpiewać	V	sentp('że')
+powątpiewać	V	sentp('jakoby')
+powątpiewać	V	prepnp('w',bier)
+powiedzieć	V	np(bier)+np(cel)
+powiedzieć	V	sentp(_)
+powtórzyć	V	np(bier)+np(cel)
+powtórzyć się	V	
+poznać	V	np(bier)+prepnp('z',narz)
+poznać się	V	prepnp('z',narz)
+pozwolić	V	np(cel)+sentp('żeby')
+pozwolić	V	np(cel)+prepnp('na',bier)
+pożyczać	V	np(bier)+np(cel)
+pożyczać	V	np(bier)+prepnp('od',dop)
+pożyczyć	V	np(bier)+np(cel)
+pożyczyć	V	np(bier)+prepnp('od',dop)
+pójść	V	advp
+pójść	V	infp(_)
+pójść	V	prepnp('po',bier)
+pójść	V	prepnp('z',narz)
+pracować	V	
+prosić	V	np(bier)+prepnp('o',bier)
+prosić się	V	prepnp('o',bier)
+prowadzić	V	np(bier)
+prowadzić się	V	advp
+przeciekać	V	
+przeczytać	V	np(bier)+np(cel)
+przeczytać	V	sentp('że')
+przeganiać	V	np(bier)
+przeganiać się	V	
+przegapić	V	np(bier)
+przeglądać	V	np(bier)
+przeglądać się	V	
+przejechać	V	np(bier)
+przejechać się	V	
+przewertować	V	np(bier)
+przewidywać	V	np(bier)
+przewidywać	V	sentp('że')
+przewidzieć	V	np(bier)
+przewidzieć	V	sentp('że')
+przybywać	V	
+przychodzić	V	
+przyglądać się	V	np(cel)
+przyjechać	V	
+przyjść	V	infp(_)
+przyjść	V	np(cel)+prepnp('do',dop)
+przyjść	V	prepnp('do',dop)
+przyjść	V	prepnp('od',dop)
+przyjść	V	prepnp('z',narz)
+przynieść	V	np(bier)+np(cel)
+przysyłać	V	np(bier)+np(cel)
+pytać	V	np(bier)+prepnp('o',bier)
+pytać	V	np(bier)+sentp(pz)
+pytać się	V	np(dop)+prepnp('o',bier)
+pytać się	V	np(bier)+prepnp('o',bier)
+radzić	V	sentp(_)
+radzić się	V	np(dop)
+rąbać	V	np(bier)+np(narz)
+remontować	V	np(bier)
+remontować się	V	
+rozdziać	V	np(bier)
+rozdziać się	V	
+rozpuścić	V	np(bier)
+rozpuścić się	V	
+rzec	V	np(bier)
+rzec	V	sentp('że')
+sadzać	V	np(bier)
+sądzić	V	sentp('że')
+siedzieć	V	
+skakać	V	
+składać	V	np(bier)+prepnp('na',acc)
+składać się	V	prepnp('na',acc)
+skończyć	V	np(bier)
+skończyć się	V	
+spać	V	
+spalić	V	np(bier)
+spalić się	V	
+spierać	V	np(bier)
+spierać się	V	
+spodziewać się	V	np(dop)
+spotkać	V	np(bier)+prepnp('z',narz)
+spotkać się	V	prepnp('z',narz)
+spotykać	V	np(bier)
+spotykać się	V	prepnp('z',narz)
+spóźniać się	V	
+spróbować	V	infp(_)
+spróbować	V	np(dop)
+sprzątnąć	V	np(bier)
+sprzedać	V	np(bier)+np(cel)
+sprzedać się	V	np(cel)
+spytać	V	np(bier)+prepnp('o',bier)
+spytać się	V	np(dop)+prepnp('o',bier)
+spytać się	V	np(bier)+prepnp('o',bier)
+stać	V	
+stać się	V	
+starać się	V	prepnp('o',bier)
+starczyć	Q	np(dop)+np(cel)
+stracić	V	np(bier)
+straszyć	V	np(bier)+np(narz)
+straszyć się	V	np(narz)
+studiować	V	np(bier)
+szkoda	Q	sentp(_)
+śledzić	V	np(bier)
+śpieszyć się	V	prepnp('na',bier)
+śpiewać	V	
+świecić	V	
+świecić się	V	
+świtać	V	
+tańczyć	V	np(bier)
+to	Q	
+tupać	V	np(narz)
+twierdzić	V	sentp('jakoby')
+twierdzić	V	sentp('że')
+uciekać	V	
+uciekać się	V	prepnp('do',dop)
+ucieszyć	V	np(bier)+np(narz)
+ucieszyć się	V	prepnp('z',dop)
+udać	V	np(bier)
+udać się	V	prepnp('do',dop)
+udawać	V	np(bier)
+udawać	V	adjp(bier)
+udawać się	V	prepnp('do',dop)
+ufać	V	np(cel)
+umieć	V	np(bier)
+umieć	V	infp(_)
+umrzeć	V	
+upominać	V	np(bier)
+upominać się	V	prepnp('o',bier)
+urządzać	V	np(bier)
+urządzać się	V	
+urządzić	V	np(bier)
+urządzić się	V	
+usnąć	V	
+utrzymywać	V	sentp('jakoby')
+utrzymywać	V	sentp('że')
+utrzymywać się	V	prepnp('z',dop)
+uważać	V	prepnp('na',bier)
+uważać	V	np(bier)+prepnp('za',bier)
+uważać się	V	prepnp('za',bier)
+uwierzyć	V	np(cel)
+uwierzyć	V	prepnp('w',bier)
+uwierzyć	V	sentp('że')
+uzyskać	V	np(bier)
+wagarować	V	
+warto	Q	infp(_)
+wątpić	V	sentp(_)
+wbić	V	np(bier)+np(cel)
+wbić się	V	np(cel)
+wegetować	V	
+wejść	V	
+wertować	V	np(bier)
+wiać	V	
+wiadomo	Q	sentp(_)
+widzieć	V	np(bier)
+widzieć się	V	prepnp('z',narz)
+wiedzieć	V	sentp('że')
+wieść	V	np(bier)
+wieść się	Q	np(cel)+advp
+włączyć	V	np(bier)+np(cel)
+włączyć się	V	
+woleć	V	sentp('mie3')
+wołać	V	np(bier)
+wpuścić	V	np(bier)
+wracać	V	prepnp('do',dop)
+wracać się	V	prepnp('do',dop)
+wrócić	V	prepnp('do',dop)
+wrócić się	V	prepnp('do',dop)
+wstąpić	V	prepnp('do',dop)
+wybaczyć	V	np(bier)+np(cel)
+wybrać	V	np(bier)
+wychodzić	V	
+wydać	V	np(bier)+np(cel)
+wydawać	V	np(bier)+np(cel)
+wydawać się	Q	sentp('jakby')
+wydawać się	Q	sentp('że')
+wyglądać	V	advp
+wygrać	V	np(bier)+prepnp('w',bier)
+wyjechać	V	
+wyjść	V	
+wypaść	V	advp
+wypaść	V	
+wypominać	V	np(bier)+np(cel)
+wypraszać	V	np(bier)+prepnp('od',dop)
+wypraszać się	V	np(dop)
+wyręczać	V	np(bier)
+wyręczać się	V	np(narz)
+wysiąść	V	
+wystąpić	V	
+wytoczyć	V	np(bier)
+wytoczyć się	V	
+wytrzymać	V	np(bier)
+wziąć	V	np(bier)+np(cel)
+zabić	V	np(bier)
+zabić się	V	
+zabraknąć	Q	np(dop)
+zachować	V	np(bier)+np(cel)
+zachować się	V	advp
+zachowywać	V	np(bier)+np(cel)
+zachowywać się	V	advp
+zachwycać	V	np(bier)
+zachwycać się	V	np(narz)
+zacząć	V	infp(_)
+zacząć się	V	
+zaczekać	V	sentp('aż1')
+zadzwonić	V	np(narz)
+zadzwonić	V	prepnp('do',dop)
+zainteresować	V	np(bier)+np(narz)
+zainteresować się	V	np(narz)
+zakupić	V	np(bier)+np(cel)
+zamknąć	V	np(bier)
+zamknąć się	V	
+zamordować	V	np(bier)
+zamordować się	V	
+zapomnieć	V	infp(_)
+zapraszać	V	np(bier)+prepnp('do',dop)
+zapraszać się	V	prepnp('do',dop)
+zaprosić	V	np(bier)+prepnp('do',dop)
+zaprzestać	V	np(dop)
+zapytać	V	np(bier)+prepnp('o',bier)
+zapytać się	V	np(dop)+prepnp('o',bier)
+zapytać się	V	np(bier)+prepnp('o',bier)
+zasłużyć	V	prepnp('na',bier)
+zasłużyć się	V	
+zastanawiać	V	np(bier)
+zastanawiać się	V	
+zaśpiewać	V	np(bier)
+zaśpiewać się	V	
+zataić	V	np(bier)
+zatrzymać	V	np(bier)
+zatrzymać się	V	
+zauważyć	V	np(bier)
+zauważyć	V	sentp('że')
+zawdzięczać	V	np(bier)+np(cel)
+zawierać	V	np(bier)
+zawierać się	V	prepnp('w',miej)
+zawołać	V	np(bier)
+zazdrościć	V	np(dop)+np(cel)
+zażądać	V	np(dop)
+zbić	V	np(bier)
+zbić się	V	
+zbierać	V	np(bier)+np(cel)
+zbierać się	V	sentp('żeby')
+zbierać się	Q	np(cel)+prepnp('na',bier)
+zdać	V	np(bier)
+zdać się	V	np(cel)+prepnp('na',bier)
+zdarzać się	V	np(cel)
+zdarzać się	Q	np(cel)+sentp('że')
+zdawać	V	np(bier)
+zdawać się	Q	np(cel)+sentp('że')
+zdążyć	V	prepnp('na',bier)
+zdenerwować	V	np(bier)
+zdenerwować się	V	
+zezwolić	V	prepnp('na',bier)
+zginąć	V	
+zgodzić się	V	
+zgubić	V	np(bier)+np(cel)
+zgubić się	V	np(cel)
+zjawiać się	V	np(cel)
+zjeść	V	np(bier)+np(cel)
+zmęczyć	V	np(bier)
+zmęczyć się	V	
+zmienić	V	np(bier)+np(cel)
+zmienić się	V	
+zmniejszać	V	np(bier)
+zmniejszać się	V	
+zmyć	V	np(bier)
+zmyć się	V	
+znać	Q	prepnp(po,miej)+np(bier)
+znać	Q	prepnp(po,miej)+sentp(że)
+znać	V	np(bier)
+znać się	V	prepnp(z,narz)
+znać się	V	prepnp(na,miej)
+znaleźć	V	np(bier)
+znaleźć się	V	
+znieść	V	np(bier)
+znieść się	V	
+znosić	V	np(bier)
+znosić się	V	
+zobaczyć	V	np(bier)
+zobaczyć się	V	prepnp('z',narz)
+zostać	V	np(narz)
+zostać	V	prepnp(w,miej)
+zostać się	V	
+zostawać	V	adjp(mian)
+zostawać	V	advp
+zostawać się	V	
+zostawić	V	np(bier)
+zrobić	V	np(bier)
+zrobić się	V	
+zważyć	V	np(bier)
+zważyć	V	sentp('że')
+zważyć się	V	
+zwijać się	V	
+zwolnić	V	np(bier)+advp
+zwolnić się	V	prepnp('z',dop)
+życzyć	V	np(bier)+np(cel)
+żyć	V	
+%%%
+%%% Local Variables: 
+%%% coding: utf-8
+%%% mode: prolog
+%%% End: 

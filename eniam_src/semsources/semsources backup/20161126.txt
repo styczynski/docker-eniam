@@ -1,0 +1,32 @@
+Lista zawiera leksemy, które będą poddane szczegółowej analizie. Są to przede wszystkim leksemy nieopisane w istniejących zasobach.
+
+Ostateczna wersja listy (w kamieniu milowym) ma służyć jako dookreślenie pojęć wykorzystywanych do metaopisu.
+
+NIELOKALNOŚĆ
+
+po jednym przykładzie (na papierze) z uzytym słowem nielokalnym, (poniżej) , drzewko ze strukturą zależnościową (mogą być dependencies na poziomym zdaniu), forma logiczna (więc niech zdanie będzie miało do 4 słów). W reprezentacji skup się (rozbijaj tylko) na tej części, któa jest nieintersektywna. Części nieinteresujące zostaw jako tekst.
+
+% \subsection{Opis przykładów, które nie są uogólnienie intersektywne albo mają funkcję niedenotatywną} % (fold)
+% każdy
+% prawdopodobnie
+% może
+% oczywiście
+% tylko
+% jeśli w znaczeniu logicznym, 
+% Reprezentacja semantyczna partykuł.
+% % subsection opis_przykładów_które_nie_są_uogólnienie_intersektywne (end)
+i temporalne?, lub?, ale, więc,
+chociaż? ponieważ? - rola Condition
+aż, już, 
+codziennie
+jedyny
+halo, brawo, brr, miau, "że tak powiem"
+
+lokalne ale nie intersektywne:
+co najmniej, były, nieopodal
+
+
+% Jeśli występuje nielokalne zmienianie zależności semantycznych, to nie ma uogólnionej intersektywności.
+% powyższe stwierdzenie niedziała dla metatekstowego "oczywiście", czy jest prawdziwe po pominięciu metatekstowości?
+
+Te przykłądy spróbujemy zgeneralizować.

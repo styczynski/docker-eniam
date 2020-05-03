@@ -1,0 +1,503 @@
+489 dziedzina-1, domena-2, dział-1, dyscyplina-2, teren-3, gałąź-3, obszar-3, niwa-3, sfera-2, płaszczyzna-4
+  0 fotowoltaika-1
+  0 adres-6
+  0 trójkąt bermudzki-1
+  0 gałąź prawa-1
+  0 platforma-4
+  0 ekologia ewolucyjna-1
+  0 metafizyka klasyczna-1
+  5 pseudonauka-1
+    0 patafizyka-1
+    0 homotoksykologia-1
+    0 geomancja-1
+    0 fizjonomika-1, fizjognomika-1
+    0 radiestezja-1, różdżkarstwo-1
+  0 administracja wojskowa-1
+  0 teoria nazw-1
+  2 sektor-3
+    0 sektor prywatny-1
+    0 sektor publiczny-1
+  0 kultura fizyczna-1
+  0 radioelektryka-1
+  0 grafologia-3
+  0 pojęciowość-1
+  0 profanum-1
+  0 morfochronologia-1
+  0 imagineskopia-1
+  0 nisza-3
+  0 kryptozoologia-1
+  0 sztuki piękne-2
+  0 terra incognita-2
+  0 teleelektronika-1
+  0 teleelektryka-1
+  16 dziedzina informatyki-1
+    0 informatyka medyczna-1
+    0 teleinformatyka-1
+    4 grafika-6, grafika komputerowa-2
+      0 grafika wektorowa-1
+      0 grafika rastrowa-1
+      0 grafika fraktalna-1
+      0 animacja komputerowa-1
+    8 programowanie-2
+      0 programowanie aspektowe-1
+      0 programowanie genetyczne-1
+      0 programowanie ewolucyjne-1
+      0 kompilacja skrośna-1
+      0 kompilacja warunkowa-1
+      0 programowanie imperatywne-1
+      0 programowanie agentowe-1
+      0 programowanie obiektowe-1
+  0 przedproże-3, przedpole-2
+  0 strategia-2
+  0 hydrologia-1, hydrografia-1
+  0 nawigacja-2
+  2 galwanotechnika-1
+    0 galwanostegia-1
+    0 galwanoplastyka-1
+  20 *dział matematyki-1
+    0 analiza wypukła-1
+    0 logika matematyczna-1
+    0 stochastyka-1
+    0 matematyka dyskretna-1
+    0 trygonometria-1
+    3 topologia-1
+      0 topologia ilorazowa-1
+      0 topologia produktowa-1
+      0 topologia mnogościowa-1
+    0 analiza matematyczna-1
+    0 rachunek prawdopodobieństwa-1, probabilistyka-1, teoria prawdopodobieństwa-1
+    3 arytmetyka-2
+      0 arytmetyka Presburgera-1
+      0 arytmetyka binarna-1
+      0 arytmetyka modularna-1
+    3 geometria-1
+      0 geometria syntetyczna-1, geometria czysta-1
+      0 geometria nieprzemienna-1
+      0 grafika inżynierska-1, geometria wykreślna-1
+    0 algebra-1
+  4 paranauka-1
+    0 bioenergetyka-2
+    0 paleoastronautyka-1
+    0 ufologia-1
+    0 parapsychologia-1, psychotronika-1, metapsychologia-1
+  0 pirotechnika-1
+  1 specjalizacja-1, specjalność-1
+    0 socjoekonomika-1
+  47 branża-1
+    0 horeca-1
+    0 reklama-3, promocja-8
+    44 gałąź przemysłu-1
+      12 przemysł lekki-1
+        2 włókiennictwo-1, przemysł włókienniczy-1, przemysł tekstylny-1
+          0 przemysł bawełniany-1
+          0 lniarstwo-1
+        2 odzieżówka-1, przemysł odzieżowy-1
+          0 pończosznictwo-1
+          0 bieliźniarstwo-1
+        0 obuwnictwo-1
+        0 przemysł tytoniowy-1
+        2 przemysł skórzany-1
+          0 garbarstwo-1, skórnictwo-1
+          0 futrzarstwo-1
+        0 przemysł spożywczy-1
+      11 przemysł przetwórczy-1, przetwórstwo-1
+        3 przemysł drzewny-1
+          0 tartacznictwo-1
+          1 meblarstwo-1
+            0 ebenisteria-1
+        2 przemysł chemiczny-1
+          0 przemysł siarkowy-1
+          0 przemysł farmaceutyczny-1
+        0 masarstwo-1
+        0 ogrzewnictwo-2
+        0 smolarstwo-1
+        0 papiernictwo-1
+      18 przemysł ciężki-1
+        1 przemysł petrochemiczny-1, przemysł rafineryjny-1
+          0 przemysł naftowy-1
+        5 przemysł elektromaszynowy-1
+          0 przemysł stoczniowy-1, przemysł okrętowy-1
+          0 przemysł ciągnikowy-1
+          0 przemysł lotniczy-1
+          0 przemysł motoryzacyjny-1
+          0 przemysł precyzyjny-1
+        0 zbrojeniówka-1, przemysł zbrojeniowy-1, przemysł obronny-1
+        3 metalurgia-1
+          0 hydrometalurgia-1
+          0 hydroelektrometalurgia-1
+          0 elektrometalurgia-1
+        3 górnictwo-1, przemysł górniczy-1
+          0 górnictwo morskie-1
+          0 górnictwo węglowe-1, przemysł węglowy-1
+          0 górnictwo naftowe-1
+        0 hutnictwo-1, przemysł hutniczy-1
+  20 *dział filozofii-1
+    0 filozofia prawa-1
+    0 filozofia polityczna-1
+    0 filozofia religii-1
+    0 historia filozofii-1
+    0 logika filozoficzna-1
+    0 filozofia nauki-1
+    0 teodycea-2
+    0 moralistyka-2
+    0 historiozofia-1, filozofia historii-1
+    0 antropologia filozoficzna-1
+    0 aksjologia-1
+    5 teoria poznania-1, gnoseologia-1, epistemologia-1, gnozeologia-1, filozofia poznania-1
+      0 noetyka-1
+      0 epistemologizm-1
+      0 ontologizm-2
+      0 perspektywizm-1
+      0 immanentyzm-1
+    0 ontologia-1, metafizyka-1
+    0 estetyka-1
+    0 etyka-1
+  2 pole-6, działka-6
+    0 pole relacji-1
+    0 poletko doświadczalne-1
+  332 nauka-1
+    0 interlingwistyka-1
+    0 metrologia historyczna-1
+    0 metodologia nauk-1
+    1 dyscyplina naukowa-1
+      0 logika prawnicza-1
+    0 nauki geologiczne-1
+    0 nauki geograficzne-1
+    0 nauki pomocnicze-1
+    0 mniemanologia stosowana-1
+    0 neuroteologia-1
+    0 hipnologia-1
+    0 chronobiologia-1
+    0 choreologia-1
+    0 hymnologia-1
+    0 rękopisoznawstwo-1
+    0 magnetostatyka-1
+    0 opakowalnictwo-1
+    0 informacja naukowa-1, informatologia-1
+    0 ekofilozofia-1
+    0 docymologia-1
+    0 polemologia-1
+    0 paremiologia-1
+    0 nauka ideograficzna-1
+    0 systematyka-3
+    0 proksemika-1
+    0 kraniologia-1
+    0 teoria komunikacji-1
+    1 nauka leśna-1
+      0 nasiennictwo leśne-1
+    53 *nauka interdyscyplinarna-1, dziedzina interdyscyplinarna-1
+      0 astropolityka-1
+      0 medioznawstwo-1
+      0 synergetyka-1
+      VISITED 0 slawistyka-3, słowianoznawstwo-2
+      0 niemcoznawstwo-1
+      0 wschodoznawstwo-1
+      0 socjocybernetyka-1
+      0 hagiologia-1
+      0 torfoznawstwo-1
+      0 biodynamika-1
+      0 penitencjarystyka-1
+      0 olfaktologia-1
+      0 addyktologia-1
+      0 psychoneuroimmunologia-1
+      0 biomatematyka-1, biologia matematyczna-1
+      0 aerobiologia-1
+      0 suicydologia-1
+      0 zoosocjologia-1, socjologia zwierząt-1
+      0 neuronauka-1
+      0 socjobiologia-1
+      0 paleopatologia-1
+      VISITED 0 biometeorologia-2, bioklimatologia-1
+      0 przetwarzanie języka naturalnego-1
+      0 farmakoekonomika-1
+      0 neurogeriatria-1
+      VISITED 0 bionika-1, biomimetyka-1, biomimikra-1, inżynieria bioniczna-1
+      0 bioinformatyka-1
+      0 agrofizyka-1
+      0 meteorytyka-1
+      0 kinezjologia-1
+      0 metamatematyka-1
+      0 futurologia-1
+      0 marketing-2
+      0 sozologia-1
+      0 agrometeorologia-1
+      0 tanatologia-1
+      0 fizyka medyczna-1
+      0 nukleonika-1
+      0 religiologia-1
+      0 neurobiologia-1
+      0 fizjologia patologiczna-1, fizjopatologia-1, patofizjologia-1
+      0 translatoryka-1, przekładoznawstwo-1
+      0 metalografia-1
+      0 gemmologia-1
+      0 paleobiogeografia-1
+      0 biopsychologia-1
+      0 sztuczne życie-1
+      0 geopolityka-1
+      0 ergonomia-1, ergonomika-1
+      0 biogeografia-1
+      0 gerontologia-1
+      0 kryptologia-1, kryptografia-2
+      VISITED 0 antropologia-1
+    37 nauka medyczna-1
+      0 tyflologia-1
+      0 foniatria-2
+      0 krionika-1
+      0 teratologia-1
+      0 estezjologia-1
+      0 kazuistyka-3
+      0 dietetyka-1
+      0 rentgenologia-1
+      0 farmacja-1, lekoznawstwo-1
+      27 sztuka leczenia-1, nauka o zdrowiu-1, leczenie-4
+        0 dolorologia-1, algezjologia-1
+        0 ajurweda-1, ayurveda-1
+        0 znachorstwo-1
+        0 fitopatologia-1, leczenie roślin-1
+        14 paramedycyna-1, medycyna alternatywna-1, medycyna niekonwencjonalna-1, medycyna naturalna-1
+          0 naturopatia-1
+          0 irydologia-1
+          0 zawłoki-1
+          0 hydrokolonoterapia-1
+          0 medycyna osteopatyczna-1, osteopatia-2
+          0 wellness-1
+          0 rebirthing-1
+          0 kręgarstwo-1, chiropraktyka-1, osteoterapia-1
+          0 aromaterapia-1, aromatoterapia-1
+          0 bioenergoterapia-1, energoterapia-1
+          1 homeopatia-1
+            0 izopatia-1, izoterapia-1
+          0 akupresura-1
+          0 akupunktura-1
+        6 medycyna-1
+          0 medycyna pracy-1
+          0 medycyna personalna-1
+          0 telemedycyna-1
+          0 medycyna paliatywna-1
+          0 medycyna weterynaryjna-1
+          0 medycyna rodzinna-1
+        0 weterynaria-1, leczenie zwierząt-1, nauka o zdrowiu zwierząt-1
+    0 sadownictwo-2
+    1 statystyka-1
+      0 statystyka Fermiego-Diraca-1
+    0 muzyka-2
+    43 nauka społeczna-1
+      0 ekologia mediów-1
+      VISITED 0 ludoznawstwo-1
+      0 penologia-1
+      0 socjopsychologia-1
+      0 socjopatologia-1
+      0 prasoznawstwo-1
+      0 wiktymologia-1
+      22 nauka ekonomiczna-1
+        VISITED 1 nauka o zarządzaniu-1, zarządzanie-4
+        5 finanse-2
+          0 ubezpieczenia-1
+          0 finanse przedsiębiorstw-1
+          0 finanse gospodarstw domowych-1
+          0 finanse publiczne-1
+          0 bankowość-1
+        0 towaroznawstwo-1
+        12 ekonomia-1
+          1 ekonomia podażowa-1, ekonomia podaży-1, ekonomia strony podażowej-1
+            0 reaganomika-1
+          0 ekonomia polityczna-1
+          0 ekonomia menedżerska-1
+          0 ekonomia konstytucyjna-1
+          0 ekonomia humanistyczna-1
+          0 ekonomia finansowa-1
+          0 międzynarodowe stosunki gospodarcze-1
+          0 ekonomia społeczna-1
+          2 ekonomia rozwoju-1
+            0 ekonomia normatywna-1
+            0 ekonomia pozytywna-1
+      0 politologia-1, nauki polityczne-1
+      0 europeistyka-1
+      0 kryminologia-1
+      0 kryminalistyka-1
+      1 socjologia-1
+        0 socjologia miasta-1
+      1 psychologia-1
+        0 psychoakustyka-1
+      1 pedagogika-1, wychowanie-3
+        0 pedagogika opiekuńcza-1
+      VISITED 0 geografia-1
+      VISITED 0 antropologia-1
+      0 nauka prawa-1, jurysprudencja-1, prawo-4, prawoznawstwo-1, prawnictwo-3
+    58 *nauka techniczna-1
+      0 akustoelektronika-1
+      0 technika cieplna-1
+      0 technika świetlna-1
+      0 inżynieria energetyczna-1
+      0 inżynieria mechaniczna-1
+      0 energoelektryka-1
+      0 ruralistyka-2
+      0 cyfronika-1
+      0 mikrotechnologia-1
+      0 poligrafika-1
+      0 mechanika-2
+      0 mechatronika-1
+      0 bionika-1, biomimetyka-1, biomimikra-1, inżynieria bioniczna-1
+      0 elektroakustyka-1
+      0 technoklimatologia-1
+      0 fototechnika-1
+      2 termika-2
+        0 ogrzewnictwo-1, grzejnictwo-1
+        0 chłodnictwo-1
+      0 maszynoznawstwo-1
+      0 mennictwo-1
+      0 lotnictwo-4, aeronautyka-1
+      0 awionika-1
+      0 radiotechnika-1
+      0 materiałoznawstwo-1
+      0 hydrotechnika-1
+      VISITED 0 elektrotechnika-1
+      0 atomistyka-2
+      6 budownictwo-1
+        0 akustyka architektoniczna-1
+        0 budownictwo wodne-1
+        0 budownictwo lądowe-1
+        0 mostownictwo-1
+        0 urbanistyka-1
+        0 drogownictwo-1
+      VISITED 1 automatyka-1
+      0 hutnictwo-2
+      VISITED 0 elektronika-1
+      6 energetyka-1
+        0 energetyka odnawialna-2
+        0 termoenergetyka-2, energetyka cieplna-2
+        0 energetyka jądrowa-2
+        0 elektroenergetyka-1
+        0 ciepłownictwo-2
+        0 petrochemia-1
+      8 inżynieria-1
+        0 permakultura-1
+        0 inżynieria wiedzy-1
+        0 inżynieria biomateriałów-1
+        1 inżynieria materiałowa-1
+          0 inżynieria tkankowa-1
+        0 inżynieria wojskowa-1
+        1 inżynieria lądowa-1
+          0 geotechnika-1
+      1 górnictwo-2, kopalnictwo-1
+        0 naftownictwo-1, nafciarstwo-1
+      0 rolnictwo-1
+    62 nauka humanistyczna-1, humanistyka-1, humaniora-1
+      0 slawistyka-3, słowianoznawstwo-2
+      0 kulturologia-1
+      0 ludoznawstwo-1
+      0 kinezyka-1
+      0 kostiumologia-1
+      0 narratologia-1
+      1 nauka o zarządzaniu-1, zarządzanie-4
+        0 tayloryzm-1
+      0 mitologia-2
+      0 naukoznawstwo-1, metanauka-1
+      0 muzeologia-1
+      0 muzykologia-1
+      0 kulturoznawstwo-1
+      0 etnologia-1
+      0 bibliologia-1, biblioznawstwo-1, księgoznawstwo-1
+      0 hellenistyka-1, grecystyka-1
+      0 literaturoznawstwo-1, nauka o literaturze-1, wiedza o literaturze-1
+      2 religioznawstwo-1
+        0 judaistyka-1
+        0 islamistyka-1
+      0 retoryka-2
+      4 teologia-1
+        0 pelagianizm-1
+        0 liturgika-1
+        1 teologia chrześcijańska-1
+          0 teologia moralna-1
+      0 dziennikarstwo-1, żurnalistyka-1
+      0 archeologia-1
+      0 antropologia-1
+      1 językoznawstwo-1, lingwistyka-1
+        0 językoznawstwo taksonomiczne-1
+      17 filologia-1
+        0 tekstologia-1
+        0 kroatystyka-1, filologia chorwacka-1
+        0 białorutenistyka-1, filologia białoruska-1
+        0 rusycystyka-1, filologia rosyjska-1
+        0 polonistyka-2, filologia polska-2
+        0 hispanistyka-1, filologia hiszpańska-1
+        0 romanistyka-2, filologia romańska-2
+        0 germanistyka-2, filologia niemiecka-2, filologia germańska-3
+        0 anglistyka-2, filologia angielska-2
+        0 neofilologia-1
+        0 indoeuropeistyka-1
+        0 indianistyka-1
+        0 filologia klasyczna-1
+        0 etruskologia-1
+        0 celtologia-1
+        0 amerykanistyka-1
+        0 orientalistyka-2, filologia orientalna-1
+      2 historia-1
+        0 historia powszechna-1
+        0 protohistoria-1
+      9 filozofia-1
+        0 Platon-2
+        0 Schopenhauer-2
+        0 Heraklit-1
+        0 Bergson-2
+        0 Kant-4
+        0 Hegel-2
+        0 Arystoteles-2
+        0 Heidegger-2
+        0 filozofia indyjska-1
+    53 nauka matematyczno-przyrodnicza-1, nauka ścisła-1
+      0 aeronomia-1
+      32 nauka przyrodnicza-1, przyrodoznawstwo-1
+        0 biologia syntetyczna-1
+        0 neurochemia-1
+        0 gospodarka wodna-2
+        0 astrografia-1
+        0 geodynamika-1
+        0 biocenologia-1, biocenotyka-1, synekologia-1
+        0 grawimetria-1
+        0 eutenika-1
+        1 geofizyka-1
+          0 aktynometria-1
+        0 oceanologia-1, oceanografia-1
+        VISITED 8 geologia-1
+        0 geografia-1
+        VISITED 6 geodezja-1
+        0 chemia-1
+        0 astronomia-1
+        0 biologia-1
+        0 fizyka-1, nauka o materii-1
+      0 biometeorologia-2, bioklimatologia-1
+      0 aerologia-1
+      0 algorytmika-1
+      0 chronometria-1, metrologia czasu-1
+      0 paleomagnetyzm-1
+      0 biometria-1
+      0 geomorfologia-1
+      1 metrologia-1, miernictwo-1
+        0 morfometria-1
+      0 cybernetyka-1
+      0 astronautyka-1, kosmonautyka-1
+      0 elektrotechnika-1
+      1 automatyka-1
+        0 automatyka przemysłowa-1
+      0 meteorologia-1
+      1 informatyka-1
+        0 informatyka kwantowa-1
+      8 geologia-1
+        0 geologia naftowa-1
+        0 geologia złóż-1
+        0 geologia inżynierska-1
+        0 geologia planetarna-1
+        0 geologia regionalna-1
+        0 geologia historyczna-1
+        0 geologia dynamiczna-1
+        0 geologia podstawowa-1
+      6 geodezja-1
+        0 geodezja inżynieryjno-przemysłowa-1
+        1 geodezja wyższa-1
+          0 geodezja satelitarna-1
+        0 geodezja niższa-1, geodezja ogólna-1
+        0 geodezja leśna-1
+        0 geodezja górnicza-1
+      0 elektronika-1
+      0 matematyka-1

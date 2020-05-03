@@ -1,0 +1,59 @@
+1	Ponownie	ponownie	adv	adv	pos	2	adjunct	_	_
+2	musiał	musieć	praet	praet	sg|m1|imperf	0	pred	_	_
+3	użyć	użyć	inf	inf	perf	2	comp_inf	_	_
+4	ręcznika	ręcznik	subst	subst	sg|gen|m3	3	obj	_	_
+5	.	.	interp	interp	_	2	punct	_	_
+
+1	-	-	interp	interp	_	4	punct	_	_
+2	Obcokrajowiec	obcokrajowiec	subst	subst	sg|nom|m1	4	subj	_	_
+3	też	też	qub	qub	_	4	adjunct	_	_
+4	ma	mieć	fin	fin	sg|ter|imperf	0	pred	_	_
+5	szanse	szansa	subst	subst	pl|acc|f	4	obj_th	_	_
+6	?	?	interp	interp	_	4	punct	_	_
+
+# trees/NKJP_1M_1202900095/morph_3-p/morph_3.46-s.xml.trees
+1	-	-	interp	interp		0	_	_	_
+2	Słoń	słoń	subst	subst	sg|nom|m2	4	_	_	_
+3	-	-	interp	interp		0	_	_	_
+4	powiedział	powiedzieć	praet	praet	sg|m1|perf	0	_	_	_
+5	Pinio	Pinio	subst	subst	sg|nom|m1	4	_	_	_
+6	.	.	interp	interp		0	_	_	_
+
+# trees/NKJP_1M_2002000114/morph_2-p/morph_2.72-s.xml.trees
+1	-	-	interp	interp		0	_	_	_
+2	Nie	nie	qub	qub		3	_	_	_
+3	mogę	móc	fin	fin	sg|pri|imperf	7	_	_	_
+4	ci	ty	ppron12	ppron12	sg|dat|m1|sec|nakc	5	_	_	_
+5	powiedzieć	powiedzieć	inf	inf	perf	3	_	_	_
+6	-	-	interp	interp		0	_	_	_
+7	zachrypiał	zachrypieć	praet	praet	sg|m1|perf	0	_	_	_
+8	.	.	interp	interp		0	_	_	_
+
+# trees/NKJP_1M_2002000028/morph_5-p/morph_5.40-s.xml.trees
+1	-	-	interp	interp		0	_	_	_
+2	Właśnie	właśnie	qub	qub		4	_	_	_
+3	to	to	subst	subst	sg|acc|n	4	_	_	_
+4	robię	robić	fin	fin	sg|pri|imperf	6	_	_	_
+5	-	-	interp	interp		0	_	_	_
+6	odpowiedział	odpowiedzieć	praet	praet	sg|m1|perf	0	_	_	_
+7	twardo	twardo	adv	adv	pos	6	_	_	_
+8	.	.	interp	interp		0	_	_	_
+
+# trees/NKJP_1M_1202000001/morph_3-p/morph_3.9-s.xml.trees
+1	CKM	CKM	subst	subst	sg|nom|n	0	_	_	_
+2	:				interp	0	_	_	_
+3	Jak	jak	adv	adv	pos	5	_	_	_
+4	mężczyzna	mężczyzna	subst	subst	sg|nom|m1	5	_	_	_
+5	powinien	powinien	winien	winien	sg|m1|imperf	1	_	_	_
+6	na	na	prep	prep	acc	8	_	_	_
+7	ciebie	ty	ppron12	ppron12	sg|acc|f|sec|akc	6	_	_	_
+8	patrzeć	patrzeć	inf	inf	imperf	5	_	_	_
+9	?	?	interp	interp		0	_	_	_
+
+# trees/NKJP_1M_2001000023/morph_1-p/morph_1.61-s.xml.trees
+1	Pochylił	pochylić	praet	praet	sg|m1|perf	0	_	_	_
+2	em	być	aglt	aglt	sg|pri|imperf|wok	1	_	_	_
+3	się	się	qub	qub		1	_	_	_
+4	nad	nad	prep	prep	inst|nwok	1	_	_	_
+5	nim	on	ppron3	ppron3	sg|inst|m1|ter|akc|praep	4	_	_	_
+6	:				interp	0	_	_	_

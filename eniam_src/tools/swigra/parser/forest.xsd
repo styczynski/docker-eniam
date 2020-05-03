@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="forest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="text"/>
+        <xs:element ref="startnode"/>
+        <xs:element ref="stats"/>
+        <xs:element ref="answer-data"/>
+        <xs:element maxOccurs="unbounded" ref="node"/>
+      </xs:sequence>
+      <xs:attribute name="grammar_no" use="required" type="xs:integer"/>
+      <xs:attribute name="sent_id" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="text" type="xs:string"/>
+  <xs:element name="startnode">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:NCName">
+          <xs:attribute name="from" use="required" type="xs:integer"/>
+          <xs:attribute name="to" use="required" type="xs:integer"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="stats">
+    <xs:complexType>
+      <xs:attribute name="cputime" use="required" type="xs:decimal"/>
+      <xs:attribute name="inferences" use="required" type="xs:integer"/>
+      <xs:attribute name="nodes" use="required" type="xs:integer"/>
+      <xs:attribute name="trees" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="answer-data">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="base-answer"/>
+        <xs:element maxOccurs="unbounded" ref="extra-answer"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="base-answer">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="comment">
+          <xs:attribute name="type" use="required" type="xs:NCName"/>
+          <xs:attribute name="username" use="required" type="xs:NCName"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="extra-answer">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="comment">
+          <xs:attribute name="type" use="required" type="xs:NCName"/>
+          <xs:attribute name="username" use="required" type="xs:NCName"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="node">
+    <xs:complexType>
+      <xs:choice>
+        <xs:element ref="terminal"/>
+        <xs:sequence>
+          <xs:element ref="nonterminal"/>
+          <xs:element maxOccurs="unbounded" ref="children"/>
+        </xs:sequence>
+      </xs:choice>
+      <xs:attribute name="chosen" use="required" type="xs:boolean"/>
+      <xs:attribute name="from" use="required" type="xs:integer"/>
+      <xs:attribute name="nid" use="required" type="xs:integer"/>
+      <xs:attribute name="subtrees" use="required" type="xs:integer"/>
+      <xs:attribute name="to" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="terminal">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="orth"/>
+        <xs:element ref="base"/>
+        <xs:element ref="f"/>
+      </xs:sequence>
+      <xs:attribute name="disamb" use="required" type="xs:boolean"/>
+      <xs:attribute name="interp_id" use="required" type="xs:NCName"/>
+      <xs:attribute name="nps" use="required" type="xs:boolean"/>
+      <xs:attribute name="token_id" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="orth" type="xs:string"/>
+  <xs:element name="base" type="xs:string"/>
+  <xs:element name="nonterminal">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="category"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="f"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="category" type="xs:NCName"/>
+  <xs:element name="children">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="child"/>
+      </xs:sequence>
+      <xs:attribute name="chosen" type="xs:boolean"/>
+      <xs:attribute name="rule" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="child">
+    <xs:complexType>
+      <xs:attribute name="from" use="required" type="xs:integer"/>
+      <xs:attribute name="head" use="required" type="xs:boolean"/>
+      <xs:attribute name="nid" use="required" type="xs:integer"/>
+      <xs:attribute name="to" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="comment">
+    <xs:sequence>
+      <xs:element ref="comment"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="comment" type="xs:string"/>
+  <xs:element name="f">
+    <xs:complexType mixed="true">
+      <xs:attribute name="type" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

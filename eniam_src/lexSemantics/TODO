@@ -1,0 +1,62 @@
+- sprawdzić czy disambiguate_senses nie wycina argumentów, ktore mogą być realizowane przez przyimki
+- dodać do walencji preferencje selekcyjne nadrzędników symboli: dzień, godzina, rysunek itp.
+- sprawdzić czy walencja nazw własnych jest dobrze zrobiona.
+- trzeba zrobić słownik nazw własnych
+- trzeba poprawić selekcję preferencji selecyjnych: jeśli podrzędnikiem jest zaimek nie muszą jawnie występować wśród sensów.
+
+- za pomocą Maybe można zrobić konkatenowane leksykalizacje
+
+- sprawdzić jakie mogą być modyfikatory dla subst proper 
+
+- błędy w realizacjach
+xp(abl[prepadjp(z,gen)]
+na korzyść - na niekorzyść
+xp(mod[prepnp(jako,str)]) -> xp(mod[compar(jako)])
+xp(mod[prepadjp(jako,str)]) -> xp(mod[compar(jako)])
+na sposób - zgłoszone
+
+cyrk advp(misc) [54480]
+banalnie - pred
+subst	woda	lex(880,woda,subst)	{lex(święcony,ADJ(agr,gen,agr,pos))}
+
+uciąć: pewny: _: : perf: subj{np(str)} + obj{lex(np(str),sg,'gałąź',ratr1({lex(cp(rel[który]),aff,'siedzieć',,ratr(subj{np(str)}+{lex(adjp(agr),agr,agr,pos,'sam',natr)}+{lex(prepadjp(na,loc),sg,f,pos,'który',natr)}))}))}
+
+np(str) -> adjp(agr)
+przychodzić: pewny: _: : imperf: subj{lex(np(str),sg,'godzina',ratr1({lex(np(str),agr,'zły',natr)}))} + {prepnp(na,acc)}
+
+Czym jest podmiot podniesiony w poniższych ramach i jak się zachowuje w stronie biernej?
+obladzać: pewny: _: : imperf: subj{E} + obj{np(str)} + {np(dat)}
+oblodzić: pewny: _: : perf: subj{E} + obj{np(str)} + {np(dat)}
+
+Czy 'zły' nie powinien być tu przymiotnikiem?
+przychodzić: pewny: _: : imperf: subj{lex(np(str),sg,'godzina',ratr1({lex(np(str),agr,'zły',natr)}))} + {prepnp(na,acc)}
+przyjść: pewny: _: : perf: subj{lex(np(str),sg,'godzina',ratr1({lex(np(str),agr,'zły',natr)}))} + {prepnp(na,acc)}
+
+Czy zamiast adjp(str) -> adjp(agr)
+kreślić: pewny: _: : imperf: subj{np(str)} + obj{np(str)} + {lex(np(inst),pl,XOR('barwa','kolor'),ratr({adjp(str)}))}
+malować: pewny: _: : imperf: subj{np(str)} + obj{np(str)} + {lex(np(inst),pl,XOR('barwa','kolor'),ratr({adjp(str)}))}
+namalować: pewny: _: : perf: subj{np(str)} + obj{np(str)} + {lex(np(inst),pl,XOR('barwa','kolor'),ratr({adjp(str)}))}
+odmalować: pewny: _: : perf: subj{np(str)} + obj{np(str)} + {lex(np(inst),pl,XOR('barwa','kolor'),ratr({adjp(str)}))}
+odmalowywać: pewny: _: : imperf: subj{np(str)} + obj{np(str)} + {lex(np(inst),pl,XOR('barwa','kolor'),ratr({adjp(str)}))}
+zajrzeć: pewny: _: : perf: subj{lex(np(str),sg,XOR('bieda','głód','nędza','śmierć'),atr({adjp(str)}))} + {np(dat)} + {lex(prepnp(w,acc),pl,'oko',natr)}
+chwycić: pewny: _: : perf: subj{np(str)} + {lex(np(inst),pl,'usta',atr({adjp(str)}))} + {lex(np(str),sg,'powietrze',atr({adjp(agr)}))}
+chwytać: pewny: _: : imperf: subj{np(str)} + {lex(np(inst),pl,'usta',atr({adjp(str)}))} + {lex(np(str),sg,'powietrze',atr({adjp(agr)}))}
+łapać: pewny: _: : imperf: subj{np(str)} + obj{lex(np(str),sg,'powietrze',atr({adjp(agr)}))} + {lex(np(inst),pl,'usta',atr({adjp(str)}))}
+złapać: pewny: _: : perf: subj{np(str)} + obj{lex(np(str),sg,'powietrze',atr({adjp(agr)}))} + {lex(np(inst),pl,'usta',atr({adjp(str)}))}
+
+
+Jak się zachowuje podmiot zdaniowy w stronie biernej? - o to już pytałem
+podciąć: pewny: _: : perf: subj{cp(gdy)} + obj{lex(np(str),pl,'skrzydło',natr)} + {np(dat)}
+podciąć: pewny: _: : perf: subj{cp(jak)} + obj{lex(np(str),pl,'skrzydło',natr)} + {np(dat)}
+podciąć: pewny: _: : perf: subj{cp(kiedy)} + obj{lex(np(str),pl,'skrzydło',natr)} + {np(dat)}
+podcinać: pewny: _: : imperf: subj{cp(gdy)} + obj{lex(np(str),pl,'skrzydło',natr)} + {np(dat)}
+podcinać: pewny: _: : imperf: subj{cp(jak)} + obj{lex(np(str),pl,'skrzydło',natr)} + {np(dat)}
+podcinać: pewny: _: : imperf: subj{cp(kiedy)} + obj{lex(np(str),pl,'skrzydło',natr)} + {np(dat)}
+sprawiać: pewny: _: : imperf: subj{np(str);cp(że);ncp(str,że)} + obj{np(str)} + {np(dat)}
+sprawić: pewny: _: : perf: subj{np(str);cp(że);ncp(str,że)} + obj{np(str)} + {np(dat)}
+zaskakiwać: pewny: _: : imperf: subj{np(str);cp(int);cp(że);ncp(str,int);ncp(str,że)} + obj{np(str)}
+zaskoczyć: pewny: _: : perf: subj{np(str);cp(int);cp(że);ncp(str,int);ncp(str,że)} + obj{np(str)}
+zwracać: pewny: _: : imperf: subj{cp(int)} + obj{lex(np(str),sg,'uwaga',atr({possp}))}
+zwracać: pewny: _: : imperf: subj{cp(że)} + obj{lex(np(str),sg,'uwaga',atr({possp}))}
+zwrócić: pewny: _: : perf: subj{cp(int)} + obj{lex(np(str),sg,'uwaga',atr({possp}))}
+zwrócić: pewny: _: : perf: subj{cp(że)} + obj{lex(np(str),sg,'uwaga',atr({possp}))}

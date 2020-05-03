@@ -1,0 +1,256 @@
+254 właściwość-2, atrybut-3
+  0 wietrzność-2
+  0 utlenialność-1
+  250 wielkość-6
+    0 moduł odległości-1
+    0 iloczyn jonowy-1
+    0 sygnał analityczny-1
+    0 oklepiec-3
+    0 rozdzielczość-1
+    0 constans-1, wielkość stała-1, const.-1
+    13 potencjał-2
+      0 potencjał sedymentacji-1
+      0 potencjał Galvaniego-1
+      0 potencjał elektrody-1
+      0 potencjał elektrochemiczny-1
+      0 potencjał dyfuzyjny-1
+      0 potencjał standardowy-1
+      0 potencjał chemiczny-1
+      1 potencjał błonowy-1
+        0 potencjał czynnościowy-1, potencjał iglicowy-1
+      0 potencjał elektrokinetyczny-1, potencjał ζ-1, potencjał zeta-1, potencjał dzeta-1
+      1 potencjał elektrostatyczny-1, potencjał elektryczny-1, potencjał pola elektrycznego-1
+        0 biopotencjał-1, potencjał bioelektryczny-1
+      0 geopotencjał-1, potencjał siły ciężkości-1
+    0 skalar-1, wielkość skalarna-1
+    0 koordynata-1
+    226 wielkość fizyczna-1
+      0 gęstość powierzchniowa-1
+      0 skuteczność świetlna-1
+      0 przenikalność magnetyczna-1
+      0 podatność elektryczna-1
+      0 dobroć-2, dobroć układu-1
+      0 przenikalność elektryczna-1
+      0 pojemność elektryczna-1
+      0 podatność magnetyczna-1
+      0 gradient-2
+      1 liczba kwantowa-1
+        0 liczba barionowa-1
+      0 przekrój czynny-1
+      0 sprawność-6
+      0 ekspozycja-10, dawka ekspozycyjna-1
+      0 pseudoskalar-1
+      0 parachora-1
+      0 hiperładunek-1
+      0 egzergia-1
+      0 upływność-1
+      3 gęstość-4
+        0 gęstość krytyczna-1
+        0 gęstość prądu elektrycznego-1
+        0 gęstość Plancka-1
+      0 faza-4, fazowość-2
+      0 liczba masowa-1, A-6
+      0 jasność-4
+      8 masa-2
+        0 masa Plancka-1
+        3 tonaż-4
+          0 tonaż-6
+          0 tonaż-5
+          0 tonaż-3
+        0 masa krytyczna-1
+        0 masa cząsteczkowa-1, ciężar cząsteczkowy-1
+        0 masa atomowa-1, ciężar atomowy-1
+      0 magnituda-1
+      0 izospin-1
+      0 dekrement tłumienia-1
+      0 przewodność cieplna-1
+      0 przepuszczalność-2
+      0 polaryzowalność-1
+      0 entalpia-1
+      0 indukcyjność-2
+      0 światłość-2
+      91 *skalarna wielkość fizyczna-1
+        2 strumień-5
+          0 strumień elektryczny-1
+          0 strumień świetlny-1
+        2 praca-7
+          0 praca wyjścia-1
+          0 przebieg-5
+        0 ciepło-4
+        4 moc-8
+          0 moc elektryczna-1
+          0 moc mechaniczna-1
+          0 zdolność produkcyjna-1, moc produkcyjna-1
+          0 moc czynna-1
+        0 luminancja-1, jaskrawość-3, blask-3, jasność powierzchniowa-1, luminacja-1
+        2 przewodność elektryczna-1, konduktancja-1
+          0 susceptancja-1
+          0 przewodność elektryczna pozorna-1, admitancja-1
+        31 energia-3
+          0 ciemna energia-1
+          0 energia wymiany-1
+          0 energia pierwotna-1
+          0 energia wiązania-1
+          0 energia wewnętrzna-1
+          0 energia hydrauliczna-1
+          0 energia elektrostatyczna-1
+          0 energia dysocjacji-1
+          0 energia aktywacji-1
+          0 energia adsorpcji-1
+          0 energia swobodna-1
+          0 energia rozpadu-1
+          0 energia oddziaływania-1
+          0 energia magnetyczna-1
+          0 energia jonizacji-1
+          0 energia sprężystości-1
+          0 energia termiczna-1, energia cieplna-1
+          0 energia kinetyczna-1
+          0 energia mechaniczna-1
+          0 energia elektryczna-2
+          0 hydroenergia-1
+          0 energia jądrowa-1, energia atomowa-1
+          0 elektryczność-2, energia elektryczna-1, światło-4, prąd-3, energia-4, elektryka-1
+          0 irradiacja-4
+          0 bioenergia-1
+          0 energia potencjalna-1
+          0 uciąg-1
+          0 energia świetlna-1
+          2 napęd-2
+            0 napęd fotonowy-1
+            0 napęd rakietowy-1
+        24 temperatura-1
+          0 punkt dymienia-1
+          0 temperatura barwowa-1
+          0 temperatura Néela-1
+          0 temperatura Curie-1
+          0 temperatura upału-1
+          0 temperatura mrozu-1
+          0 średnia temperatura roczna-1
+          0 temperatura wrzenia-1
+          0 temperatura skraplania-1
+          0 temperatura krzepnięcia-1
+          1 temperatura krytyczna-1
+            0 temperatura mrozu-2
+          0 temperatura bezwzględna-1, temperatura Kelvina-1
+          0 temperatura pokojowa-1
+          0 temperatura topnienia-1
+          3 temperatura-4, ciepłota-1
+            2 gorączka-1, temperatura-3
+              0 febra-3
+              0 maligna-1
+          1 zimno-1
+            VISITED 0 mróz-1, zimnica-1, ziąb-1
+          0 ciepło-3, ciepłość-2
+          1 chłód-1
+            0 rześkość-5, świeżość-2, rzeźwość-2
+          0 mróz-1, zimnica-1, ziąb-1
+        17 ciśnienie-1
+          0 ciśnienie osmotyczne-1
+          0 ciśnienie kierunkowe-1
+          0 ciśnienie petrostatyczne-1
+          0 ciśnienie normalne-1
+          1 ciśnienie atmosferyczne-1
+            0 ciśnienie barometryczne-1
+          0 ciśnienie akustyczne-1
+          0 ciśnienie hydrostatyczne-1
+          0 ciśnienie cząstkowe-1, ciśnienie parcjalne-1
+          6 ciśnienie-2, ciśnienie krwi-1
+            0 obciążenie następcze-1
+            0 ciśnienie żylne-1
+            0 ciśnienie skurczowe-1
+            1 ciśnienie rozkurczowe-1
+              0 obciążenie wstępne-1
+            0 ciśnienie tętnicze-1
+          0 podciśnienie-1
+      50 wektorowa wielkość fizyczna-1, wektor-3
+        0 magnetyczny moment dipolowy-1
+        0 elektryczny moment dipolowy-1
+        0 indukcja magnetyczna-1, indukcja pola magnetycznego-1
+        0 indukcja elektryczna-1
+        16 prędkość-3, szybkość-2
+          0 prędkość ucieczki-1
+          0 prędkość orbitalna-1
+          0 prędkość kosmiczna-1
+          0 prędkość obrotowa-1
+          0 prędkość graniczna-1, prędkość wypornościowa-1, graniczna prędkość wypornościowa-1
+          0 dziewięćdziesiątka-4
+          0 osiemdziesiątka-4
+          0 sześćdziesiątka-5
+          0 czterdziestka-6
+          0 trzydziestka-6
+          0 setka-13
+          0 pięćdziesiątka-6
+          0 prędkość światła w ośrodku materialnym-1
+          0 prędkość światła-1, prędkość światła w próżni-1, c-12
+          0 siedemdziesiątka-4
+          0 prędkość względna-1
+        7 przyśpieszenie-3, przyspieszenie-4
+          0 przyśpieszenie kątowe-1
+          0 przyśpieszenie dośrodkowe-1, przyśpieszenie normalne-1
+          1 przyśpieszenie grawitacyjne-1
+            0 przyśpieszenie ziemskie-1
+          0 przyśpieszenie styczne-1
+          0 przyśpieszenie odśrodkowe-1
+          0 przyśpieszenie stałe-1
+        20 siła-6
+          0 siła magnetomotoryczna-1
+          0 siła Lorentza-1
+          0 siła elektrodynamiczna-1
+          0 siła elektromotoryczna-1
+          0 przesłuch zbieżny-1
+          2 odrzut-5
+            1 odrzut-4
+              0 podrzut-3
+          0 uciąg-3
+          0 siła naciągu-1, naciąg-6
+          0 napór-2
+          0 ciąg-6
+          0 rażenie-3
+          0 uciąg-2
+          0 wypór-1
+          4 siła oporu-1, opór ruchu-1, opór-4, odpór-2
+            1 opór drogowy-1
+              0 opór wzniesienia-1
+            0 opór aerodynamiczny-1
+            0 tarcie-6
+      0 moment magnetyczny-1
+      0 ładunek elektryczny-1
+      11 częstotliwość-1, częstość-2
+        0 rutynowość-1
+        9 rytm-1
+          0 tala-2
+          0 kwintola-1
+          0 duola-1
+          1 beat-1, bit-3
+            0 riddim-1
+          0 triola-1
+          1 rytm asymetryczny-1
+            0 rytm swobodny-1
+          0 swing-2
+      4 natężenie-2
+        0 natężenie oświetlenia-1, oświetlenie-5
+        0 natężenie pola elektrycznego-1
+        0 natężenie prądu elektrycznego-1
+        0 koercja-1
+      6 napięcie-2, woltaż-1, napięcie elektryczne-1
+        0 napięcie dotykowe-1
+        0 napięcie magnetyczne-1
+        0 napięcie rozkładowe-1
+        0 napięcie kontaktowe-1
+        0 napięcie krokowe-1
+        0 napięcie znamionowe-1
+      3 moment-4
+        1 moment pędu-1
+          0 spin-1
+        0 kręt-1
+      8 ciężar-1, waga-2, ciężkość-2
+        0 ołów-3, kamień-7
+        0 unos-1
+        0 wyporność-1
+        0 gramatura-1
+        0 ciężar pozorny-1
+        0 waga brutto-1, brutto-1
+        0 ciężar netto-1, masa netto-1, netto-1
+        0 ciężar właściwy-1
+    0 krzywizna-2
+  0 parzystość-1

@@ -1,0 +1,19 @@
+- Frunę.	or
+- Frunę. Kiszę.	or
+- Frunę - powiedział szpak.	or
+- Frunę! - powiedział szpak.	or -sem
+- Frunę - powiedział szpak. - Kiszę.	or -amb
+- Ten szpak - powiedział - frunie.	or -
+Szpak powiedział:	or
+Szpak powiedział: frunę.	or -amb
+Szpak powiedział: „Frunę”.	or -amb
+Szpak powiedział: „Frunę. Kiszę.”	or
+Szpak powiedział: - Frunę.	or -vis
+Szpak powiedział: - Frunę. - i bryknął.	or -
+Szpak powiedział: - Frunę. - i dodał: - Brykam.	or -
+Szpak bada sprawę: - Frunę - powiada - i brykam.	or -
+SZPAK: Frunę.	or -popr
+SZPAK: - Frunę.	or -amb
+Frunę. Kiszę.	sentence multi
+W XX w. Szpak frunie.	sentence amb multi -amb
+Ala ma kota. Ela ma psa. Kaziu ma żółwika. Blablabla... selekcja parserów

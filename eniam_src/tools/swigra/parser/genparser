@@ -1,0 +1,63 @@
+#! /bin/bash
+#
+# Author: Marcin Woliński
+# This file is in the public domain.
+
+export swigradir=`dirname $0`
+
+parser=swigra2_batch_nkjp
+grammar=gfjp2
+
+while getopts :12g: OPT; do
+    case $OPT in
+	1) 
+	    parser=swigra_batch
+	    grammar=gfjp
+	    ;;
+	2)
+	    grammar=gfjp2
+# z gotowymi interpretacjami z NKJP:
+	    parser=swigra2_batch_nkjp
+# z Morfeuszem:
+#	    parser=swigra2_batch
+	    ;;
+	g)
+	    grammar=$OPTARG
+	    parser=$OPTARG_modules
+	    ;;
+	*)
+	echo "usage: ${0##*/} [-12] [-g grammar]"
+	exit 2
+    esac
+done
+shift $(( OPTIND - 1 ))
+OPTIND=1
+
+
+if [ $# -gt 0 ]; then
+  echo "usage: ${0##*/} [-12] [-g grammar]"
+  exit 1
+fi
+
+./birnam_dcg2pl $grammar.dcg
+#./genslowczas
+./genslow s_rzecz >slowrzecz.pl
+./genslow s_przym >slowprzym.pl
+./genslow s_wykrz >slowwykrz.pl
+
+echo Building $parser parser:
+cat <<EOF >mkprsr-$$.pl
+:-[$parser].
+:-qsave_program('$grammar-bin').
+:-halt.
+EOF
+
+#sicstus -l mkprsr-$$.pl
+swipl --traditional -F none -s mkprsr-$$.pl
+
+rm mkprsr-$$.pl
+
+### Local Variables: 
+### coding: utf-8
+### mode: shell-script
+### End: 

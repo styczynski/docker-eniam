@@ -1,0 +1,3065 @@
+0	1	Setki	setka	subst:pl:acc:f	nazwa pospolita		0.0000		
+0	1	Setki	setka	subst:pl:nom:f	nazwa pospolita		1.0000		disamb
+0	1	Setki	setka	subst:pl:voc:f	nazwa pospolita		0.0000		
+0	1	Setki	setka	subst:sg:gen:f	nazwa pospolita		0.0000		
+1	2	malowideł	malowidło	subst:pl:gen:n:ncol	nazwa pospolita		1.0000		disamb
+2	3	naskalnych	naskalny	adj:pl:acc:m1:pos			0.0000		
+2	3	naskalnych	naskalny	adj:pl:gen:f:pos			0.0000		
+2	3	naskalnych	naskalny	adj:pl:gen:m1:pos			0.0000		
+2	3	naskalnych	naskalny	adj:pl:gen:m2:pos			0.0000		
+2	3	naskalnych	naskalny	adj:pl:gen:m3:pos			0.0000		
+2	3	naskalnych	naskalny	adj:pl:gen:n:pos			1.0000		disamb
+2	3	naskalnych	naskalny	adj:pl:loc:f:pos			0.0000		
+2	3	naskalnych	naskalny	adj:pl:loc:m1:pos			0.0000		
+2	3	naskalnych	naskalny	adj:pl:loc:m2:pos			0.0000		
+2	3	naskalnych	naskalny	adj:pl:loc:m3:pos			0.0000		
+2	3	naskalnych	naskalny	adj:pl:loc:n:pos			0.0000		
+3	4	,	,	interp			1.0000		disamb
+4	5	z	z	prep:acc:nwok			0.0000		
+4	5	z	z	prep:gen:nwok			1.0000		disamb
+4	5	z	z	prep:inst:nwok			0.0000		
+5	6	których	który	adj:pl:acc:m1:pos			0.0000		
+5	6	których	który	adj:pl:gen:f:pos			0.2603		
+5	6	których	który	adj:pl:gen:m1:pos			0.1536		
+5	6	których	który	adj:pl:gen:m2:pos			0.0013		
+5	6	których	który	adj:pl:gen:m3:pos			0.5777		disamb
+5	6	których	który	adj:pl:gen:n:pos			0.0071		
+5	6	których	który	adj:pl:loc:f:pos			0.0000		
+5	6	których	który	adj:pl:loc:m1:pos			0.0000		
+5	6	których	który	adj:pl:loc:m2:pos			0.0000		
+5	6	których	który	adj:pl:loc:m3:pos			0.0000		
+5	6	których	który	adj:pl:loc:n:pos			0.0000		
+6	7	najstarsze	najstarszy	depr:pl:acc:m2	nazwa pospolita		0.0000		
+6	7	najstarsze	najstarszy	depr:pl:nom:m2	nazwa pospolita		0.0012		
+6	7	najstarsze	najstarszy	depr:pl:voc:m2	nazwa pospolita		0.0000		
+6	7	najstarsze	stary	adj:pl:acc:f:sup			0.0000		
+6	7	najstarsze	stary	adj:pl:acc:m2:sup			0.0000		
+6	7	najstarsze	stary	adj:pl:acc:m3:sup			0.0000		
+6	7	najstarsze	stary	adj:pl:acc:n:sup			0.0000		
+6	7	najstarsze	stary	adj:pl:nom:f:sup			0.4576		
+6	7	najstarsze	stary	adj:pl:nom:m2:sup			0.1572		
+6	7	najstarsze	stary	adj:pl:nom:m3:sup			0.3792		disamb
+6	7	najstarsze	stary	adj:pl:nom:n:sup			0.0024		
+6	7	najstarsze	stary	adj:pl:voc:f:sup			0.0000		
+6	7	najstarsze	stary	adj:pl:voc:m2:sup			0.0000		
+6	7	najstarsze	stary	adj:pl:voc:m3:sup			0.0000		
+6	7	najstarsze	stary	adj:pl:voc:n:sup			0.0000		
+6	7	najstarsze	stary	adj:sg:acc:n:sup			0.0000		
+6	7	najstarsze	stary	adj:sg:nom:n:sup			0.0024		
+6	7	najstarsze	stary	adj:sg:voc:n:sup			0.0000		
+7	8	mogą	móc	fin:pl:ter:imperf			1.0000		disamb
+8	9	mieć	miecić	impt:sg:sec:imperf		daw.	0.0000		
+8	9	mieć	mieć	inf:imperf			1.0000		disamb
+8	9	mieć	mieść	impt:sg:sec:imperf			0.0000		
+9	10	nawet	nawet	qub			1.0000		disamb
+10	11	kilkanaście	kilkanaście	num:pl:acc:f:rec:ncol			0.0000		
+10	11	kilkanaście	kilkanaście	num:pl:acc:m2:rec:ncol			0.0000		
+10	11	kilkanaście	kilkanaście	num:pl:acc:m3:rec:ncol			1.0000		disamb
+10	11	kilkanaście	kilkanaście	num:pl:acc:n:rec:ncol			0.0000		
+10	11	kilkanaście	kilkanaście	num:pl:nom:f:rec:ncol			0.0000		
+10	11	kilkanaście	kilkanaście	num:pl:nom:m2:rec:ncol			0.0000		
+10	11	kilkanaście	kilkanaście	num:pl:nom:m3:rec:ncol			0.0000		
+10	11	kilkanaście	kilkanaście	num:pl:nom:n:rec:ncol			0.0000		
+10	11	kilkanaście	kilkanaście	num:pl:voc:f:rec:ncol			0.0000		
+10	11	kilkanaście	kilkanaście	num:pl:voc:m2:rec:ncol			0.0000		
+10	11	kilkanaście	kilkanaście	num:pl:voc:m3:rec:ncol			0.0000		
+10	11	kilkanaście	kilkanaście	num:pl:voc:n:rec:ncol			0.0000		
+11	12	tysięcy	tysiąc	subst:pl:gen:m3	nazwa pospolita		1.0000		disamb
+11	12	tysięcy	tysiąc	subst:pl:gen:m2	nazwa pospolita	karc.	0.0000		
+12	13	lat	lato	subst:pl:gen:n:ncol	nazwa pospolita		0.0000		
+12	13	lat	rok	subst:pl:gen:m3	nazwa pospolita		1.0000		disamb
+13	14	,	,	interp			1.0000		disamb
+14	15	odkrył	odkryć	praet:sg:m1:perf			1.0000		disamb
+14	15	odkrył	odkryć	praet:sg:m2:perf			0.0000		
+14	15	odkrył	odkryć	praet:sg:m3:perf			0.0000		
+15	16	polski	polski	adj:sg:acc:m3:pos			0.0000		
+15	16	polski	polski	adj:sg:nom:m1:pos			1.0000		disamb
+15	16	polski	polski	adj:sg:nom:m2:pos			0.0000		
+15	16	polski	polski	adj:sg:nom:m3:pos			0.0000		
+15	16	polski	polski	adj:sg:voc:m1:pos			0.0000		
+15	16	polski	polski	adj:sg:voc:m2:pos			0.0000		
+15	16	polski	polski	adj:sg:voc:m3:pos			0.0000		
+15	16	polski	polski	subst:sg:acc:m3	nazwa pospolita		0.0000		
+15	16	polski	polski	subst:sg:nom:m3	nazwa pospolita		0.0000		
+15	16	polski	polski	subst:sg:voc:m3	nazwa pospolita		0.0000		
+16	17	archeolog	archeolog	subst:sg:nom:m1	nazwa pospolita		1.0000		disamb
+17	18	na	na	interj			0.0000		
+17	18	na	na	prep:acc			0.0000		
+17	18	na	na	prep:loc			1.0000		disamb
+18	19	terenie	teren	subst:sg:loc:m3	nazwa pospolita		1.0000		disamb
+18	19	terenie	teren	subst:sg:voc:m3	nazwa pospolita		0.0000		
+19	20	rezerwatu	rezerwat	subst:sg:gen:m3	nazwa pospolita		1.0000		disamb
+20	21	Swaga	Swaga	adj:sg:nom:f:com			0.0000		
+20	21	Swaga	Swaga	adj:sg:nom:f:pos			0.0000		
+20	21	Swaga	Swaga	subst:sg:acc:n:ncol			0.0000		
+20	21	Swaga	Swaga	subst:sg:gen:m1			0.0000		
+20	21	Swaga	Swaga	subst:sg:gen:m2			0.0000		
+20	21	Swaga	Swaga	subst:sg:gen:m3			0.0000		
+20	21	Swaga	Swaga	subst:sg:nom:f			0.0000		
+20	21	Swaga	Swaga	subst:sg:nom:m1			0.0000		
+20	21	Swaga	Swaga	subst:sg:nom:m3			1.0000		disamb
+20	21	Swaga	Swaga	subst:sg:nom:n:ncol			0.0000		
+20	21	Swaga	Swaga	ign			0.0000		
+21	22	Swaga	Swaga	adj:sg:nom:f:pos			0.0000		
+21	22	Swaga	Swaga	subst:pl:loc:n:ncol			0.0000		
+21	22	Swaga	Swaga	subst:sg:acc:n:ncol			0.0000		
+21	22	Swaga	Swaga	subst:sg:gen:m1			0.0000		
+21	22	Swaga	Swaga	subst:sg:gen:m2			0.0000		
+21	22	Swaga	Swaga	subst:sg:gen:m3			0.0000		
+21	22	Swaga	Swaga	subst:sg:nom:f			0.0001		
+21	22	Swaga	Swaga	subst:sg:nom:m1			0.0000		
+21	22	Swaga	Swaga	subst:sg:nom:m3			0.9999		disamb
+21	22	Swaga	Swaga	subst:sg:nom:n:ncol			0.0000		
+21	22	Swaga	Swaga	ign			0.0000		
+22	23	w	w	prep:acc:nwok			0.0000		
+22	23	w	w	prep:loc:nwok			1.0000		disamb
+23	24	Tanzanii	Tanzania	subst:pl:gen:f	nazwa geograficzna	hom.	0.0000		
+23	24	Tanzanii	Tanzania	subst:sg:dat:f	nazwa geograficzna		0.0000		
+23	24	Tanzanii	Tanzania	subst:sg:gen:f	nazwa geograficzna		0.0000		
+23	24	Tanzanii	Tanzania	subst:sg:loc:f	nazwa geograficzna		1.0000		disamb
+24	25	.	.	interp			1.0000	eos	disamb
+25	26	Wśród	wśród	prep:gen			1.0000		disamb
+26	27	najciekawszych	ciekawy	adj:pl:acc:m1:sup			0.0000		
+26	27	najciekawszych	ciekawy	adj:pl:gen:f:sup			0.0000		
+26	27	najciekawszych	ciekawy	adj:pl:gen:m1:sup			0.0000		
+26	27	najciekawszych	ciekawy	adj:pl:gen:m2:sup			0.0000		
+26	27	najciekawszych	ciekawy	adj:pl:gen:m3:sup			0.9999		disamb
+26	27	najciekawszych	ciekawy	adj:pl:gen:n:sup			0.0000		
+26	27	najciekawszych	ciekawy	adj:pl:loc:f:sup			0.0000		
+26	27	najciekawszych	ciekawy	adj:pl:loc:m1:sup			0.0000		
+26	27	najciekawszych	ciekawy	adj:pl:loc:m2:sup			0.0000		
+26	27	najciekawszych	ciekawy	adj:pl:loc:m3:sup			0.0001		
+26	27	najciekawszych	ciekawy	adj:pl:loc:n:sup			0.0000		
+27	28	są	być	fin:pl:ter:imperf			1.0000		disamb
+28	29	wizerunki	wizerunek	subst:pl:acc:m3	nazwa pospolita		0.0000		
+28	29	wizerunki	wizerunek	subst:pl:nom:m3	nazwa pospolita		1.0000		disamb
+28	29	wizerunki	wizerunek	subst:pl:voc:m3	nazwa pospolita		0.0000		
+29	30	przedstawiające	przedstawiać	pact:pl:acc:f:imperf:aff			0.0000		
+29	30	przedstawiające	przedstawiać	pact:pl:acc:m2:imperf:aff			0.0000		
+29	30	przedstawiające	przedstawiać	pact:pl:acc:m3:imperf:aff			0.0001		
+29	30	przedstawiające	przedstawiać	pact:pl:acc:n:imperf:aff			0.0000		
+29	30	przedstawiające	przedstawiać	pact:pl:nom:f:imperf:aff			0.0000		
+29	30	przedstawiające	przedstawiać	pact:pl:nom:m2:imperf:aff			0.0000		
+29	30	przedstawiające	przedstawiać	pact:pl:nom:m3:imperf:aff			0.9999		disamb
+29	30	przedstawiające	przedstawiać	pact:pl:nom:n:imperf:aff			0.0000		
+29	30	przedstawiające	przedstawiać	pact:pl:voc:f:imperf:aff			0.0000		
+29	30	przedstawiające	przedstawiać	pact:pl:voc:m2:imperf:aff			0.0000		
+29	30	przedstawiające	przedstawiać	pact:pl:voc:m3:imperf:aff			0.0000		
+29	30	przedstawiające	przedstawiać	pact:pl:voc:n:imperf:aff			0.0000		
+29	30	przedstawiające	przedstawiać	pact:sg:acc:n:imperf:aff			0.0000		
+29	30	przedstawiające	przedstawiać	pact:sg:nom:n:imperf:aff			0.0000		
+29	30	przedstawiające	przedstawiać	pact:sg:voc:n:imperf:aff			0.0000		
+30	31	meteory	meteor	subst:pl:acc:m3	nazwa pospolita	astron.	1.0000		disamb
+30	31	meteory	meteor	subst:pl:nom:m3	nazwa pospolita	astron.	0.0000		
+30	31	meteory	meteor	subst:pl:voc:m3	nazwa pospolita	astron.	0.0000		
+31	32	lub	lub	conj			1.0000		disamb
+31	32	lub	lubić	impt:sg:sec:imperf			0.0000		
+32	33	komety	kometa	subst:pl:acc:f	nazwa pospolita		1.0000		disamb
+32	33	komety	kometa	subst:pl:nom:f	nazwa pospolita		0.0000		
+32	33	komety	kometa	subst:pl:voc:f	nazwa pospolita		0.0000		
+32	33	komety	kometa	subst:sg:gen:f	nazwa pospolita		0.0000		
+33	34	.	.	interp			1.0000	eos	disamb
+0	1	W	w	prep:acc:nwok			0.0000		
+0	1	W	w	prep:loc:nwok			1.0000		disamb
+1	2	rezerwacie	rezerwat	subst:sg:loc:m3	nazwa pospolita		1.0000		disamb
+1	2	rezerwacie	rezerwat	subst:sg:voc:m3	nazwa pospolita		0.0000		
+2	3	Swaga	Swaga	adj:sg:nom:f:pos			0.0000		
+2	3	Swaga	Swaga	subst:sg:acc:n:ncol			0.0000		
+2	3	Swaga	Swaga	subst:sg:gen:m1			0.0000		
+2	3	Swaga	Swaga	subst:sg:gen:m3			0.0000		
+2	3	Swaga	Swaga	subst:sg:loc:m3			0.0000		
+2	3	Swaga	Swaga	subst:sg:nom:f			0.0527		
+2	3	Swaga	Swaga	subst:sg:nom:m1			0.0004		
+2	3	Swaga	Swaga	subst:sg:nom:m3			0.9469		disamb
+2	3	Swaga	Swaga	subst:sg:nom:n:col			0.0000		
+2	3	Swaga	Swaga	subst:sg:nom:n:ncol			0.0000		
+2	3	Swaga	Swaga	ign			0.0000		
+3	4	Swaga	Swaga	adj:sg:nom:f:pos			0.0000		
+3	4	Swaga	Swaga	subst:pl:loc:n:ncol			0.0000		
+3	4	Swaga	Swaga	subst:sg:acc:n:ncol			0.0000		
+3	4	Swaga	Swaga	subst:sg:gen:m1			0.0000		
+3	4	Swaga	Swaga	subst:sg:gen:m2			0.0000		
+3	4	Swaga	Swaga	subst:sg:gen:m3			0.0000		
+3	4	Swaga	Swaga	subst:sg:nom:f			0.0527		
+3	4	Swaga	Swaga	subst:sg:nom:m1			0.0004		
+3	4	Swaga	Swaga	subst:sg:nom:m3			0.9469		disamb
+3	4	Swaga	Swaga	subst:sg:nom:n:ncol			0.0000		
+3	4	Swaga	Swaga	ign			0.0000		
+4	5	w	w	prep:acc:nwok			0.0000		
+4	5	w	w	prep:loc:nwok			1.0000		disamb
+5	6	regionie	region	subst:sg:loc:m3	nazwa pospolita		1.0000		disamb
+5	6	regionie	region	subst:sg:voc:m3	nazwa pospolita		0.0000		
+6	7	Kondoa	Kondoa	adv:pos			0.0000		
+6	7	Kondoa	Kondoa	subst:pl:nom:m1			0.0001		
+6	7	Kondoa	Kondoa	subst:sg:gen:m3			0.0000		
+6	7	Kondoa	Kondoa	subst:sg:gen:n:col			0.0000		
+6	7	Kondoa	Kondoa	subst:sg:gen:n:ncol			0.0000		
+6	7	Kondoa	Kondoa	subst:sg:nom:f			0.1489		
+6	7	Kondoa	Kondoa	subst:sg:nom:m1			0.5433		disamb
+6	7	Kondoa	Kondoa	subst:sg:nom:m3			0.1353		
+6	7	Kondoa	Kondoa	subst:sg:nom:n:col			0.1724		
+6	7	Kondoa	Kondoa	subst:sg:nom:n:ncol			0.1724		
+6	7	Kondoa	Kondoa	ign			0.0000		
+7	8	w	w	prep:acc:nwok			0.0000		
+7	8	w	w	prep:loc:nwok			1.0000		disamb
+8	9	centralnej	centralny	adj:sg:dat:f:pos			0.0000		
+8	9	centralnej	centralny	adj:sg:gen:f:pos			0.0000		
+8	9	centralnej	centralny	adj:sg:loc:f:pos			1.0000		disamb
+9	10	Tanzanii	Tanzania	subst:pl:gen:f	nazwa geograficzna	hom.	0.0000		
+9	10	Tanzanii	Tanzania	subst:sg:dat:f	nazwa geograficzna		0.0000		
+9	10	Tanzanii	Tanzania	subst:sg:gen:f	nazwa geograficzna		0.0000		
+9	10	Tanzanii	Tanzania	subst:sg:loc:f	nazwa geograficzna		1.0000		disamb
+10	11	żyją	żyć	fin:pl:ter:imperf			1.0000		disamb
+11	12	m.in	między_innymi	brev:pun			1.0000		disamb
+12	13	.	.	interp			1.0000		disamb
+13	14	lwy	lew	subst:pl:acc:m2	nazwa pospolita	zool.	0.0134		
+13	14	lwy	lew	subst:pl:nom:m2	nazwa pospolita	zool.	0.9866		disamb
+13	14	lwy	lew	subst:pl:voc:m2	nazwa pospolita	zool.	0.0000		
+14	15	,	,	interp			1.0000		disamb
+15	16	słonie	słoń	subst:pl:acc:m2	nazwa pospolita		1.0000		disamb
+15	16	słonie	słoń	subst:pl:nom:m2	nazwa pospolita		0.0000		
+15	16	słonie	słoń	subst:pl:voc:m2	nazwa pospolita		0.0000		
+16	17	i	i	interj			0.0000		
+16	17	i	i	conj			1.0000		disamb
+16	17	i	i	qub			0.0000		
+17	18	żyrafy	żyrafa	subst:pl:acc:f	nazwa pospolita	zool.	1.0000		disamb
+17	18	żyrafy	żyrafa	subst:pl:nom:f	nazwa pospolita	zool.	0.0000		
+17	18	żyrafy	żyrafa	subst:pl:voc:f	nazwa pospolita	zool.	0.0000		
+17	18	żyrafy	żyrafa	subst:sg:gen:f	nazwa pospolita	zool.	0.0000		
+18	19	.	.	interp			1.0000	eos	disamb
+19	20	Miejsce	miejsce	subst:sg:acc:n:ncol	nazwa pospolita		0.0000		
+19	20	Miejsce	miejsce	subst:sg:nom:n:ncol	nazwa pospolita		1.0000		disamb
+19	20	Miejsce	miejsce	subst:sg:voc:n:ncol	nazwa pospolita		0.0000		
+20	21	to	ten	adj:sg:acc:n:pos			0.0000		
+20	21	to	ten	adj:sg:nom:n:pos			1.0000		disamb
+20	21	to	ten	adj:sg:voc:n:pos			0.0000		
+20	21	to	to	pred			0.0000		
+20	21	to	to	comp			0.0000		
+20	21	to	to	qub			0.0000		
+20	21	to	to	subst:sg:acc:n:ncol			0.0000		
+20	21	to	to	subst:sg:nom:n:ncol			0.0000		
+21	22	leży	leż	subst:pl:gen:f	nazwa pospolita		0.0000		
+21	22	leży	leż	subst:sg:dat:f	nazwa pospolita		0.0000		
+21	22	leży	leż	subst:sg:gen:f	nazwa pospolita		0.0000		
+21	22	leży	leż	subst:sg:loc:f	nazwa pospolita		0.0000		
+21	22	leży	leż	subst:sg:voc:f	nazwa pospolita		0.0000		
+21	22	leży	leża	subst:sg:dat:f	nazwa pospolita	przest.	0.0000		
+21	22	leży	leża	subst:sg:gen:f	nazwa pospolita	przest.	0.0000		
+21	22	leży	leża	subst:sg:loc:f	nazwa pospolita	przest.	0.0000		
+21	22	leży	leże	subst:pl:gen:n:ncol	nazwa pospolita		0.0000		
+21	22	leży	leżeć	fin:sg:ter:imperf			1.0000		disamb
+22	23	z	z	prep:acc:nwok			0.0662		
+22	23	z	z	prep:gen:nwok			0.9338		disamb
+22	23	z	z	prep:inst:nwok			0.0000		
+23	24	dala	dala	burk			1.0000		disamb
+24	25	od	od	prep:gen:nwok			1.0000		disamb
+24	25	od	oda	subst:pl:gen:f	nazwa pospolita		0.0000		
+25	26	większych	duży	adj:pl:acc:m1:com			0.0000		
+25	26	większych	duży	adj:pl:gen:f:com			0.0000		
+25	26	większych	duży	adj:pl:gen:m1:com			0.0000		
+25	26	większych	duży	adj:pl:gen:m2:com			0.0000		
+25	26	większych	duży	adj:pl:gen:m3:com			0.0000		
+25	26	większych	duży	adj:pl:gen:n:com			1.0000		disamb
+25	26	większych	duży	adj:pl:loc:f:com			0.0000		
+25	26	większych	duży	adj:pl:loc:m1:com			0.0000		
+25	26	większych	duży	adj:pl:loc:m2:com			0.0000		
+25	26	większych	duży	adj:pl:loc:m3:com			0.0000		
+25	26	większych	duży	adj:pl:loc:n:com			0.0000		
+25	26	większych	wielki	adj:pl:acc:m1:com			0.0000		
+25	26	większych	wielki	adj:pl:gen:f:com			0.0000		
+25	26	większych	wielki	adj:pl:gen:m1:com			0.0000		
+25	26	większych	wielki	adj:pl:gen:m2:com			0.0000		
+25	26	większych	wielki	adj:pl:gen:m3:com			0.0000		
+25	26	większych	wielki	adj:pl:gen:n:com			1.0000		disamb
+25	26	większych	wielki	adj:pl:loc:f:com			0.0000		
+25	26	większych	wielki	adj:pl:loc:m1:com			0.0000		
+25	26	większych	wielki	adj:pl:loc:m2:com			0.0000		
+25	26	większych	wielki	adj:pl:loc:m3:com			0.0000		
+25	26	większych	wielki	adj:pl:loc:n:com			0.0000		
+26	27	miast	miast	conj		daw.	0.0000		
+26	27	miast	miast	prep:gen		daw.	0.0000		
+26	27	miast	miasto	subst:pl:gen:n:ncol	nazwa pospolita		1.0000		disamb
+27	28	i	i	interj			0.0000		
+27	28	i	i	conj			1.0000		disamb
+27	28	i	i	qub			0.0000		
+28	29	nie	nie	interj			0.0000		
+28	29	nie	nie	conj			0.0000		
+28	29	nie	nie	qub			1.0000		disamb
+28	29	nie	on	ppron3:pl:acc:f:ter:akc:praep			0.0000		
+28	29	nie	on	ppron3:pl:acc:f:ter:nakc:praep			0.0000		
+28	29	nie	on	ppron3:pl:acc:m2:ter:akc:praep			0.0000		
+28	29	nie	on	ppron3:pl:acc:m2:ter:nakc:praep			0.0000		
+28	29	nie	on	ppron3:pl:acc:m3:ter:akc:praep			0.0000		
+28	29	nie	on	ppron3:pl:acc:m3:ter:nakc:praep			0.0000		
+28	29	nie	on	ppron3:pl:acc:n:ter:akc:praep			0.0000		
+28	29	nie	on	ppron3:pl:acc:n:ter:nakc:praep			0.0000		
+28	29	nie	on	ppron3:sg:acc:n:ter:akc:praep			0.0000		
+28	29	nie	on	ppron3:sg:acc:n:ter:nakc:praep			0.0000		
+29	30	jest	być	fin:sg:ter:imperf			1.0000		disamb
+30	31	zamieszkane	zamieszkany	adj:pl:acc:f:pos			0.0000		
+30	31	zamieszkane	zamieszkany	adj:pl:acc:m2:pos			0.0000		
+30	31	zamieszkane	zamieszkany	adj:pl:acc:m3:pos			0.0000		
+30	31	zamieszkane	zamieszkany	adj:pl:acc:n:pos			0.0000		
+30	31	zamieszkane	zamieszkany	adj:pl:nom:f:pos			0.0000		
+30	31	zamieszkane	zamieszkany	adj:pl:nom:m2:pos			0.0000		
+30	31	zamieszkane	zamieszkany	adj:pl:nom:m3:pos			0.0000		
+30	31	zamieszkane	zamieszkany	adj:pl:nom:n:pos			0.0000		
+30	31	zamieszkane	zamieszkany	adj:pl:voc:f:pos			0.0000		
+30	31	zamieszkane	zamieszkany	adj:pl:voc:m2:pos			0.0000		
+30	31	zamieszkane	zamieszkany	adj:pl:voc:m3:pos			0.0000		
+30	31	zamieszkane	zamieszkany	adj:pl:voc:n:pos			0.0000		
+30	31	zamieszkane	zamieszkany	adj:sg:acc:n:pos			0.0000		
+30	31	zamieszkane	zamieszkany	adj:sg:nom:n:pos			1.0000		disamb
+30	31	zamieszkane	zamieszkany	adj:sg:voc:n:pos			0.0000		
+30	31	zamieszkane	zamieszkać	ppas:pl:acc:f:perf:aff			0.0000		
+30	31	zamieszkane	zamieszkać	ppas:pl:acc:m2:perf:aff			0.0000		
+30	31	zamieszkane	zamieszkać	ppas:pl:acc:m3:perf:aff			0.0000		
+30	31	zamieszkane	zamieszkać	ppas:pl:acc:n:perf:aff			0.0000		
+30	31	zamieszkane	zamieszkać	ppas:pl:nom:f:perf:aff			0.0000		
+30	31	zamieszkane	zamieszkać	ppas:pl:nom:m2:perf:aff			0.0000		
+30	31	zamieszkane	zamieszkać	ppas:pl:nom:m3:perf:aff			0.0000		
+30	31	zamieszkane	zamieszkać	ppas:pl:nom:n:perf:aff			0.0000		
+30	31	zamieszkane	zamieszkać	ppas:pl:voc:f:perf:aff			0.0000		
+30	31	zamieszkane	zamieszkać	ppas:pl:voc:m2:perf:aff			0.0000		
+30	31	zamieszkane	zamieszkać	ppas:pl:voc:m3:perf:aff			0.0000		
+30	31	zamieszkane	zamieszkać	ppas:pl:voc:n:perf:aff			0.0000		
+30	31	zamieszkane	zamieszkać	ppas:sg:acc:n:perf:aff			0.0000		
+30	31	zamieszkane	zamieszkać	ppas:sg:nom:n:perf:aff			0.0000		
+30	31	zamieszkane	zamieszkać	ppas:sg:voc:n:perf:aff			0.0000		
+31	32	,	,	interp			1.0000		disamb
+32	33	nie	nie	interj			0.0000		
+32	33	nie	nie	conj			0.0000		
+32	33	nie	nie	qub			1.0000		disamb
+32	33	nie	on	ppron3:pl:acc:f:ter:akc:praep			0.0000		
+32	33	nie	on	ppron3:pl:acc:f:ter:nakc:praep			0.0000		
+32	33	nie	on	ppron3:pl:acc:m2:ter:akc:praep			0.0000		
+32	33	nie	on	ppron3:pl:acc:m2:ter:nakc:praep			0.0000		
+32	33	nie	on	ppron3:pl:acc:m3:ter:akc:praep			0.0000		
+32	33	nie	on	ppron3:pl:acc:m3:ter:nakc:praep			0.0000		
+32	33	nie	on	ppron3:pl:acc:n:ter:akc:praep			0.0000		
+32	33	nie	on	ppron3:pl:acc:n:ter:nakc:praep			0.0000		
+32	33	nie	on	ppron3:sg:acc:n:ter:akc:praep			0.0000		
+32	33	nie	on	ppron3:sg:acc:n:ter:nakc:praep			0.0000		
+33	34	dociera	docierać	fin:sg:ter:imperf			1.0000		disamb
+34	35	tam	tam	adv			1.0000		disamb
+34	35	tam	tam	qub			0.0000		
+34	35	tam	tama	subst:pl:gen:f	nazwa pospolita		0.0000		
+35	36	zbyt	zbyt	adv			1.0000		disamb
+35	36	zbyt	zbyt	subst:sg:acc:m3	nazwa pospolita		0.0000		
+35	36	zbyt	zbyt	subst:sg:nom:m3	nazwa pospolita		0.0000		
+36	37	wiele	wiele	adv			0.0002		
+36	37	wiele	wiele	num:pl:acc:f:rec			0.0000		
+36	37	wiele	wiele	num:pl:acc:m2:rec			0.0000		
+36	37	wiele	wiele	num:pl:acc:m3:rec			0.0000		
+36	37	wiele	wiele	num:pl:acc:n:rec			0.0000		
+36	37	wiele	wiele	num:pl:nom:f:rec			0.9998		disamb
+36	37	wiele	wiele	num:pl:nom:m2:rec			0.0000		
+36	37	wiele	wiele	num:pl:nom:m3:rec			0.0000		
+36	37	wiele	wiele	num:pl:nom:n:rec			0.0000		
+36	37	wiele	wiele	num:pl:voc:f:rec			0.0000		
+36	37	wiele	wiele	num:pl:voc:m2:rec			0.0000		
+36	37	wiele	wiele	num:pl:voc:m3:rec			0.0000		
+36	37	wiele	wiele	num:pl:voc:n:rec			0.0000		
+36	37	wiele	wiele	num:sg:acc:f:rec		rzad.	0.0000		
+36	37	wiele	wiele	num:sg:acc:m1:rec		rzad.	0.0000		
+36	37	wiele	wiele	num:sg:acc:m2:rec		rzad.	0.0000		
+36	37	wiele	wiele	num:sg:acc:m3:rec		rzad.	0.0000		
+36	37	wiele	wiele	num:sg:acc:n:rec		rzad.	0.0000		
+36	37	wiele	wiele	num:sg:gen:f:rec		rzad.	0.0000		
+36	37	wiele	wiele	num:sg:gen:m1:rec		rzad.	0.0000		
+36	37	wiele	wiele	num:sg:gen:m2:rec		rzad.	0.0000		
+36	37	wiele	wiele	num:sg:gen:m3:rec		rzad.	0.0000		
+36	37	wiele	wiele	num:sg:gen:n:rec		rzad.	0.0000		
+36	37	wiele	wiele	num:sg:nom:f:rec		rzad.	0.0000		
+36	37	wiele	wiele	num:sg:nom:m1:rec		rzad.	0.0000		
+36	37	wiele	wiele	num:sg:nom:m2:rec		rzad.	0.0000		
+36	37	wiele	wiele	num:sg:nom:m3:rec		rzad.	0.0000		
+36	37	wiele	wiele	num:sg:nom:n:rec		rzad.	0.0000		
+37	38	wycieczek	wycieczka	subst:pl:gen:f	nazwa pospolita		1.0000		disamb
+38	39	zagranicznych	zagraniczny	adj:pl:acc:m1:pos			0.0000		
+38	39	zagranicznych	zagraniczny	adj:pl:gen:f:pos			1.0000		disamb
+38	39	zagranicznych	zagraniczny	adj:pl:gen:m1:pos			0.0000		
+38	39	zagranicznych	zagraniczny	adj:pl:gen:m2:pos			0.0000		
+38	39	zagranicznych	zagraniczny	adj:pl:gen:m3:pos			0.0000		
+38	39	zagranicznych	zagraniczny	adj:pl:gen:n:pos			0.0000		
+38	39	zagranicznych	zagraniczny	adj:pl:loc:f:pos			0.0000		
+38	39	zagranicznych	zagraniczny	adj:pl:loc:m1:pos			0.0000		
+38	39	zagranicznych	zagraniczny	adj:pl:loc:m2:pos			0.0000		
+38	39	zagranicznych	zagraniczny	adj:pl:loc:m3:pos			0.0000		
+38	39	zagranicznych	zagraniczny	adj:pl:loc:n:pos			0.0000		
+39	40	.	.	interp			1.0000	eos	disamb
+40	41	Właśnie	właśnie	adv			1.0000		disamb
+40	41	Właśnie	właśnie	interj			0.0000		
+41	42	tam	tam	adv			1.0000		disamb
+41	42	tam	tam	qub			0.0000		
+41	42	tam	tama	subst:pl:gen:f	nazwa pospolita		0.0000		
+42	43	-	-	interp			1.0000		disamb
+43	44	wśród	wśród	prep:gen			1.0000		disamb
+44	45	skalnych	skalny	adj:pl:acc:m1:pos			0.0000		
+44	45	skalnych	skalny	adj:pl:gen:f:pos			0.0000		
+44	45	skalnych	skalny	adj:pl:gen:m1:pos			0.0000		
+44	45	skalnych	skalny	adj:pl:gen:m2:pos			0.0000		
+44	45	skalnych	skalny	adj:pl:gen:m3:pos			0.0000		
+44	45	skalnych	skalny	adj:pl:gen:n:pos			1.0000		disamb
+44	45	skalnych	skalny	adj:pl:loc:f:pos			0.0000		
+44	45	skalnych	skalny	adj:pl:loc:m1:pos			0.0000		
+44	45	skalnych	skalny	adj:pl:loc:m2:pos			0.0000		
+44	45	skalnych	skalny	adj:pl:loc:m3:pos			0.0000		
+44	45	skalnych	skalny	adj:pl:loc:n:pos			0.0000		
+45	46	schronisk	schronisko	subst:pl:gen:n:ncol	nazwa pospolita		1.0000		disamb
+46	47	i	i	interj			0.0000		
+46	47	i	i	conj			1.0000		disamb
+46	47	i	i	qub			0.0000		
+47	48	nawisów	nawis	subst:pl:gen:m3	nazwa pospolita		1.0000		disamb
+48	49	-	-	interp			1.0000		disamb
+49	50	archeolog	archeolog	subst:sg:nom:m1	nazwa pospolita		1.0000		disamb
+50	51	z	z	prep:acc:nwok			0.0000		
+50	51	z	z	prep:gen:nwok			1.0000		disamb
+50	51	z	z	prep:inst:nwok			0.0000		
+51	52	Instytutu	instytut	subst:sg:gen:m3	nazwa pospolita		1.0000		disamb
+52	53	Religioznawstwa	religioznawstwo	subst:pl:acc:n:ncol	nazwa pospolita		0.0000		
+52	53	Religioznawstwa	religioznawstwo	subst:pl:nom:n:ncol	nazwa pospolita		0.0000		
+52	53	Religioznawstwa	religioznawstwo	subst:pl:voc:n:ncol	nazwa pospolita		0.0000		
+52	53	Religioznawstwa	religioznawstwo	subst:sg:gen:n:ncol	nazwa pospolita		1.0000		disamb
+53	54	Uniwersytetu	uniwersytet	subst:sg:gen:m3	nazwa pospolita		1.0000		disamb
+54	55	Jagiellońskiego	jagielloński	adj:sg:acc:m1:pos			0.0000		
+54	55	Jagiellońskiego	jagielloński	adj:sg:acc:m2:pos			0.0000		
+54	55	Jagiellońskiego	jagielloński	adj:sg:gen:m1:pos			0.0000		
+54	55	Jagiellońskiego	jagielloński	adj:sg:gen:m2:pos			0.0000		
+54	55	Jagiellońskiego	jagielloński	adj:sg:gen:m3:pos			1.0000		disamb
+54	55	Jagiellońskiego	jagielloński	adj:sg:gen:n:pos			0.0000		
+55	56	w	w	prep:acc:nwok			0.0000		
+55	56	w	w	prep:loc:nwok			1.0000		disamb
+56	57	Krakowie	Krak	subst:pl:nom:m1	imię		0.0000		
+56	57	Krakowie	Krak	subst:pl:voc:m1	imię		0.0000		
+56	57	Krakowie	Krak	subst:pl:nom:m1	nazwisko		0.0000		
+56	57	Krakowie	Krak	subst:pl:voc:m1	nazwisko		0.0000		
+56	57	Krakowie	Kraka	subst:pl:nom:m1	nazwisko		0.0000		
+56	57	Krakowie	Kraka	subst:pl:voc:m1	nazwisko		0.0000		
+56	57	Krakowie	Kraków	subst:sg:loc:m3	nazwa geograficzna		1.0000		disamb
+56	57	Krakowie	Kraków	subst:sg:voc:m3	nazwa geograficzna		0.0000		
+57	58	,	,	interp			1.0000		disamb
+58	59	Maciej	Maciej	subst:sg:nom:m1	imię		0.0236		
+58	59	Maciej	Maciej	subst:sg:nom:m1	nazwisko		0.0236		
+58	59	Maciej	Maciej	subst:pl:acc:f	nazwisko		0.0000		
+58	59	Maciej	Maciej	subst:pl:dat:f	nazwisko		0.0000		
+58	59	Maciej	Maciej	subst:pl:gen:f	nazwisko		0.0000		
+58	59	Maciej	Maciej	subst:pl:inst:f	nazwisko		0.0000		
+58	59	Maciej	Maciej	subst:pl:loc:f	nazwisko		0.0000		
+58	59	Maciej	Maciej	subst:pl:nom:f	nazwisko		0.0000		
+58	59	Maciej	Maciej	subst:pl:voc:f	nazwisko		0.0000		
+58	59	Maciej	Maciej	subst:sg:acc:f	nazwisko		0.0000		
+58	59	Maciej	Maciej	subst:sg:dat:f	nazwisko		0.0000		
+58	59	Maciej	Maciej	subst:sg:gen:f	nazwisko		0.0024		
+58	59	Maciej	Maciej	subst:sg:inst:f	nazwisko		0.0000		
+58	59	Maciej	Maciej	subst:sg:loc:f	nazwisko		0.9739		disamb
+58	59	Maciej	Maciej	subst:sg:nom:f	nazwisko		0.0000		
+58	59	Maciej	Maciej	subst:sg:voc:f	nazwisko		0.0000		
+58	59	Maciej	Macieja	subst:pl:gen:f	nazwisko	char.	0.0000		
+59	60	Grzelczyk	Grzelczyk	subst:sg:nom:m1	nazwisko		1.0000		disamb
+59	60	Grzelczyk	Grzelczyk	subst:pl:acc:f	nazwisko		0.0000		
+59	60	Grzelczyk	Grzelczyk	subst:pl:dat:f	nazwisko		0.0000		
+59	60	Grzelczyk	Grzelczyk	subst:pl:gen:f	nazwisko		0.0000		
+59	60	Grzelczyk	Grzelczyk	subst:pl:inst:f	nazwisko		0.0000		
+59	60	Grzelczyk	Grzelczyk	subst:pl:loc:f	nazwisko		0.0000		
+59	60	Grzelczyk	Grzelczyk	subst:pl:nom:f	nazwisko		0.0000		
+59	60	Grzelczyk	Grzelczyk	subst:pl:voc:f	nazwisko		0.0000		
+59	60	Grzelczyk	Grzelczyk	subst:sg:acc:f	nazwisko		0.0000		
+59	60	Grzelczyk	Grzelczyk	subst:sg:dat:f	nazwisko		0.0000		
+59	60	Grzelczyk	Grzelczyk	subst:sg:gen:f	nazwisko		0.0000		
+59	60	Grzelczyk	Grzelczyk	subst:sg:inst:f	nazwisko		0.0000		
+59	60	Grzelczyk	Grzelczyk	subst:sg:loc:f	nazwisko		0.0000		
+59	60	Grzelczyk	Grzelczyk	subst:sg:nom:f	nazwisko		0.0000		
+59	60	Grzelczyk	Grzelczyk	subst:sg:voc:f	nazwisko		0.0000		
+60	61	natrafił	natrafić	praet:sg:m1:perf			1.0000		disamb
+60	61	natrafił	natrafić	praet:sg:m2:perf			0.0000		
+60	61	natrafił	natrafić	praet:sg:m3:perf			0.0000		
+61	62	na	na	interj			0.0000		
+61	62	na	na	prep:acc			1.0000		disamb
+61	62	na	na	prep:loc			0.0000		
+62	63	"	"	interp			1.0000		disamb
+63	64	zagłębie	zagłębie	subst:sg:acc:n:ncol	nazwa pospolita		0.9927		disamb
+63	64	zagłębie	zagłębie	subst:sg:nom:n:ncol	nazwa pospolita		0.0073		
+63	64	zagłębie	zagłębie	subst:sg:voc:n:ncol	nazwa pospolita		0.0000		
+64	65	"	"	interp			1.0000		disamb
+65	66	malowideł	malowidło	subst:pl:gen:n:ncol	nazwa pospolita		1.0000		disamb
+66	67	naskalnych	naskalny	adj:pl:acc:m1:pos			0.0000		
+66	67	naskalnych	naskalny	adj:pl:gen:f:pos			0.0000		
+66	67	naskalnych	naskalny	adj:pl:gen:m1:pos			0.0000		
+66	67	naskalnych	naskalny	adj:pl:gen:m2:pos			0.0000		
+66	67	naskalnych	naskalny	adj:pl:gen:m3:pos			0.0000		
+66	67	naskalnych	naskalny	adj:pl:gen:n:pos			1.0000		disamb
+66	67	naskalnych	naskalny	adj:pl:loc:f:pos			0.0000		
+66	67	naskalnych	naskalny	adj:pl:loc:m1:pos			0.0000		
+66	67	naskalnych	naskalny	adj:pl:loc:m2:pos			0.0000		
+66	67	naskalnych	naskalny	adj:pl:loc:m3:pos			0.0000		
+66	67	naskalnych	naskalny	adj:pl:loc:n:pos			0.0000		
+67	68	.	.	interp			1.0000	eos	disamb
+0	1	"	"	interp			1.0000		disamb
+1	2	Tylko	Tylka	subst:sg:voc:f	imię		0.0000		
+1	2	Tylko	Tylka	subst:sg:voc:m1	nazwisko		0.0000		
+1	2	Tylko	Tylka	subst:sg:voc:f	nazwisko		0.0000		
+1	2	Tylko	Tylko	subst:sg:nom:m1	nazwisko		0.0159		
+1	2	Tylko	Tylko	subst:sg:voc:m1	nazwisko		0.0000		
+1	2	Tylko	Tylko	subst:pl:acc:f	nazwisko		0.0000		
+1	2	Tylko	Tylko	subst:pl:dat:f	nazwisko		0.0000		
+1	2	Tylko	Tylko	subst:pl:gen:f	nazwisko		0.0000		
+1	2	Tylko	Tylko	subst:pl:inst:f	nazwisko		0.0000		
+1	2	Tylko	Tylko	subst:pl:loc:f	nazwisko		0.0000		
+1	2	Tylko	Tylko	subst:pl:nom:f	nazwisko		0.0000		
+1	2	Tylko	Tylko	subst:pl:voc:f	nazwisko		0.0000		
+1	2	Tylko	Tylko	subst:sg:acc:f	nazwisko		0.0000		
+1	2	Tylko	Tylko	subst:sg:dat:f	nazwisko		0.0000		
+1	2	Tylko	Tylko	subst:sg:gen:f	nazwisko		0.0000		
+1	2	Tylko	Tylko	subst:sg:inst:f	nazwisko		0.0000		
+1	2	Tylko	Tylko	subst:sg:loc:f	nazwisko		0.0000		
+1	2	Tylko	Tylko	subst:sg:nom:f	nazwisko		0.0000		
+1	2	Tylko	Tylko	subst:sg:voc:f	nazwisko		0.0000		
+1	2	Tylko	tylko	conj			0.8707		disamb
+1	2	Tylko	tylko	qub			0.1134		
+2	3	w	w	prep:acc:nwok			0.0000		
+2	3	w	w	prep:loc:nwok			1.0000		disamb
+3	4	czasie	czas	subst:sg:loc:m3	nazwa pospolita		1.0000		disamb
+3	4	czasie	czas	subst:sg:voc:m3	nazwa pospolita		0.0000		
+4	5	tegorocznych	tegoroczny	adj:pl:acc:m1:pos			0.0000		
+4	5	tegorocznych	tegoroczny	adj:pl:gen:f:pos			0.0000		
+4	5	tegorocznych	tegoroczny	adj:pl:gen:m1:pos			0.0000		
+4	5	tegorocznych	tegoroczny	adj:pl:gen:m2:pos			0.0000		
+4	5	tegorocznych	tegoroczny	adj:pl:gen:m3:pos			0.0000		
+4	5	tegorocznych	tegoroczny	adj:pl:gen:n:pos			1.0000		disamb
+4	5	tegorocznych	tegoroczny	adj:pl:loc:f:pos			0.0000		
+4	5	tegorocznych	tegoroczny	adj:pl:loc:m1:pos			0.0000		
+4	5	tegorocznych	tegoroczny	adj:pl:loc:m2:pos			0.0000		
+4	5	tegorocznych	tegoroczny	adj:pl:loc:m3:pos			0.0000		
+4	5	tegorocznych	tegoroczny	adj:pl:loc:n:pos			0.0000		
+5	6	badań	badanie	subst:pl:gen:n:ncol	nazwa pospolita		1.0000		disamb
+5	6	badań	badać	ger:pl:gen:n:imperf:aff			0.0000		
+6	7	zlokalizował	zlokalizować	praet:sg:m1:perf			1.0000		disamb
+6	7	zlokalizował	zlokalizować	praet:sg:m2:perf			0.0000		
+6	7	zlokalizował	zlokalizować	praet:sg:m3:perf			0.0000		
+7	8	em	być	aglt:sg:pri:imperf:wok			1.0000		disamb
+8	9	ponad	ponad	prep:acc:nwok			0.0000		
+8	9	ponad	ponad	prep:inst:nwok			0.0000		
+8	9	ponad	ponad	qub			1.0000		disamb
+9	10	50	50	dig			1.0000		disamb
+10	11	miejsc	miejsce	subst:pl:gen:n:ncol	nazwa pospolita		1.0000		disamb
+11	12	,	,	interp			1.0000		disamb
+12	13	w	w	prep:acc:nwok			0.0000		
+12	13	w	w	prep:loc:nwok			1.0000		disamb
+13	14	których	który	adj:pl:acc:m1:pos			0.0000		
+13	14	których	który	adj:pl:gen:f:pos			0.0000		
+13	14	których	który	adj:pl:gen:m1:pos			0.0000		
+13	14	których	który	adj:pl:gen:m2:pos			0.0000		
+13	14	których	który	adj:pl:gen:m3:pos			0.0000		
+13	14	których	który	adj:pl:gen:n:pos			0.0000		
+13	14	których	który	adj:pl:loc:f:pos			0.0002		
+13	14	których	który	adj:pl:loc:m1:pos			0.0000		
+13	14	których	który	adj:pl:loc:m2:pos			0.0000		
+13	14	których	który	adj:pl:loc:m3:pos			0.0001		
+13	14	których	który	adj:pl:loc:n:pos			0.9997		disamb
+14	15	znajdują	znajdować	fin:pl:ter:imperf			1.0000		disamb
+14	15	znajdują	znajdywać	fin:pl:ter:imperf		rzad.	1.0000		disamb
+15	16	się	się	qub			1.0000		disamb
+16	17	dziesiątki	dziesiątek	subst:pl:acc:m3	nazwa pospolita		0.0000		
+16	17	dziesiątki	dziesiątek	subst:pl:nom:m3	nazwa pospolita		0.4119		
+16	17	dziesiątki	dziesiątek	subst:pl:voc:m3	nazwa pospolita		0.0000		
+16	17	dziesiątki	dziesiątka	subst:pl:acc:f	nazwa pospolita		0.0000		
+16	17	dziesiątki	dziesiątka	subst:pl:nom:f	nazwa pospolita		0.5881		disamb
+16	17	dziesiątki	dziesiątka	subst:pl:voc:f	nazwa pospolita		0.0000		
+16	17	dziesiątki	dziesiątka	subst:sg:gen:f	nazwa pospolita		0.0000		
+17	18	,	,	interp			1.0000		disamb
+18	19	a	a	interj			0.0000		
+18	19	a	a	conj			1.0000		disamb
+18	19	a	a	prep:nom			0.0000		
+18	19	a	a	qub			0.0000		
+19	20	czasami	czas	subst:pl:inst:m3	nazwa pospolita		1.0000		disamb
+20	21	nawet	nawet	qub			1.0000		disamb
+21	22	setki	setka	subst:pl:acc:f	nazwa pospolita		0.3588		
+21	22	setki	setka	subst:pl:nom:f	nazwa pospolita		0.6412		disamb
+21	22	setki	setka	subst:pl:voc:f	nazwa pospolita		0.0000		
+21	22	setki	setka	subst:sg:gen:f	nazwa pospolita		0.0000		
+22	23	malowideł	malowidło	subst:pl:gen:n:ncol	nazwa pospolita		1.0000		disamb
+23	24	w	w	prep:acc:nwok			0.0000		
+23	24	w	w	prep:loc:nwok			1.0000		disamb
+24	25	różnym	różny	adj:pl:dat:f:pos			0.0000		
+24	25	różnym	różny	adj:pl:dat:m1:pos			0.0000		
+24	25	różnym	różny	adj:pl:dat:m2:pos			0.0000		
+24	25	różnym	różny	adj:pl:dat:m3:pos			0.0000		
+24	25	różnym	różny	adj:pl:dat:n:pos			0.0000		
+24	25	różnym	różny	adj:sg:inst:m1:pos			0.0000		
+24	25	różnym	różny	adj:sg:inst:m2:pos			0.0000		
+24	25	różnym	różny	adj:sg:inst:m3:pos			0.0000		
+24	25	różnym	różny	adj:sg:inst:n:pos			0.0000		
+24	25	różnym	różny	adj:sg:loc:m1:pos			0.0000		
+24	25	różnym	różny	adj:sg:loc:m2:pos			0.0000		
+24	25	różnym	różny	adj:sg:loc:m3:pos			1.0000		disamb
+24	25	różnym	różny	adj:sg:loc:n:pos			0.0000		
+25	26	wieku	wiek	subst:sg:gen:m3	nazwa pospolita		0.0000		
+25	26	wieku	wiek	subst:sg:loc:m3	nazwa pospolita		1.0000		disamb
+25	26	wieku	wiek	subst:sg:voc:m3	nazwa pospolita		0.0000		
+25	26	wieku	wieko	subst:sg:dat:n:ncol	nazwa pospolita		0.0000		
+25	26	wieku	wieko	subst:sg:loc:n:ncol	nazwa pospolita		0.0000		
+26	27	"	"	interp			1.0000		disamb
+27	28	-	-	interp			1.0000		disamb
+28	29	powiedział	powiedzieć	praet:sg:m1:perf			1.0000		disamb
+28	29	powiedział	powiedzieć	praet:sg:m2:perf			0.0000		
+28	29	powiedział	powiedzieć	praet:sg:m3:perf			0.0000		
+29	30	PAP	PAP	subst:pl:acc:f	nazwa firmy		0.0000		
+29	30	PAP	PAP	subst:pl:dat:f	nazwa firmy		0.0000		
+29	30	PAP	PAP	subst:pl:gen:f	nazwa firmy		0.0000		
+29	30	PAP	PAP	subst:pl:inst:f	nazwa firmy		0.0000		
+29	30	PAP	PAP	subst:pl:loc:f	nazwa firmy		0.0000		
+29	30	PAP	PAP	subst:pl:nom:f	nazwa firmy		0.0000		
+29	30	PAP	PAP	subst:pl:voc:f	nazwa firmy		0.0000		
+29	30	PAP	PAP	subst:sg:acc:f	nazwa firmy		0.2926		
+29	30	PAP	PAP	subst:sg:acc:m3	nazwa firmy		0.0000		
+29	30	PAP	PAP	subst:sg:dat:f	nazwa firmy		0.5520		disamb
+29	30	PAP	PAP	subst:sg:gen:f	nazwa firmy		0.0000		
+29	30	PAP	PAP	subst:sg:inst:f	nazwa firmy		0.0000		
+29	30	PAP	PAP	subst:sg:loc:f	nazwa firmy		0.0000		
+29	30	PAP	PAP	subst:sg:nom:f	nazwa firmy		0.1555		
+29	30	PAP	PAP	subst:sg:nom:m3	nazwa firmy		0.0000		
+29	30	PAP	PAP	subst:sg:voc:f	nazwa firmy		0.0000		
+29	30	PAP	papa	subst:pl:gen:f	nazwa pospolita		0.0000		
+30	31	Grzelczyk	Grzelczyk	subst:sg:nom:m1	nazwisko		0.9822		disamb
+30	31	Grzelczyk	Grzelczyk	subst:pl:acc:f	nazwisko		0.0000		
+30	31	Grzelczyk	Grzelczyk	subst:pl:dat:f	nazwisko		0.0000		
+30	31	Grzelczyk	Grzelczyk	subst:pl:gen:f	nazwisko		0.0000		
+30	31	Grzelczyk	Grzelczyk	subst:pl:inst:f	nazwisko		0.0000		
+30	31	Grzelczyk	Grzelczyk	subst:pl:loc:f	nazwisko		0.0000		
+30	31	Grzelczyk	Grzelczyk	subst:pl:nom:f	nazwisko		0.0000		
+30	31	Grzelczyk	Grzelczyk	subst:pl:voc:f	nazwisko		0.0000		
+30	31	Grzelczyk	Grzelczyk	subst:sg:acc:f	nazwisko		0.0014		
+30	31	Grzelczyk	Grzelczyk	subst:sg:dat:f	nazwisko		0.0000		
+30	31	Grzelczyk	Grzelczyk	subst:sg:gen:f	nazwisko		0.0164		
+30	31	Grzelczyk	Grzelczyk	subst:sg:inst:f	nazwisko		0.0000		
+30	31	Grzelczyk	Grzelczyk	subst:sg:loc:f	nazwisko		0.0000		
+30	31	Grzelczyk	Grzelczyk	subst:sg:nom:f	nazwisko		0.0000		
+30	31	Grzelczyk	Grzelczyk	subst:sg:voc:f	nazwisko		0.0000		
+31	32	.	.	interp			1.0000	eos	disamb
+0	1	Znalezisko	znalezisko	subst:sg:acc:n:ncol	nazwa pospolita		0.0000		
+0	1	Znalezisko	znalezisko	subst:sg:nom:n:ncol	nazwa pospolita		1.0000		disamb
+0	1	Znalezisko	znalezisko	subst:sg:voc:n:ncol	nazwa pospolita		0.0000		
+1	2	jest	być	fin:sg:ter:imperf			1.0000		disamb
+2	3	o	o	interj			0.0000		
+2	3	o	o	prep:acc			1.0000		disamb
+2	3	o	o	prep:loc			0.0000		
+3	4	tyle	tyle	adv			1.0000		disamb
+3	4	tyle	tyle	num:pl:acc:f:rec			0.0000		
+3	4	tyle	tyle	num:pl:acc:m2:rec			0.0000		
+3	4	tyle	tyle	num:pl:acc:m3:rec			0.0000		
+3	4	tyle	tyle	num:pl:acc:n:rec			0.0000		
+3	4	tyle	tyle	num:pl:nom:f:rec			0.0000		
+3	4	tyle	tyle	num:pl:nom:m2:rec			0.0000		
+3	4	tyle	tyle	num:pl:nom:m3:rec			0.0000		
+3	4	tyle	tyle	num:pl:nom:n:rec			0.0000		
+3	4	tyle	tyle	num:pl:voc:f:rec			0.0000		
+3	4	tyle	tyle	num:pl:voc:m2:rec			0.0000		
+3	4	tyle	tyle	num:pl:voc:m3:rec			0.0000		
+3	4	tyle	tyle	num:pl:voc:n:rec			0.0000		
+3	4	tyle	tyle	num:sg:acc:f:rec		rzad.	0.0000		
+3	4	tyle	tyle	num:sg:acc:m1:rec		rzad.	0.0000		
+3	4	tyle	tyle	num:sg:acc:m2:rec		rzad.	0.0000		
+3	4	tyle	tyle	num:sg:acc:m3:rec		rzad.	0.0000		
+3	4	tyle	tyle	num:sg:acc:n:rec		rzad.	0.0000		
+3	4	tyle	tyle	num:sg:gen:f:rec		rzad.	0.0000		
+3	4	tyle	tyle	num:sg:gen:m1:rec		rzad.	0.0000		
+3	4	tyle	tyle	num:sg:gen:m2:rec		rzad.	0.0000		
+3	4	tyle	tyle	num:sg:gen:m3:rec		rzad.	0.0000		
+3	4	tyle	tyle	num:sg:gen:n:rec		rzad.	0.0000		
+3	4	tyle	tyle	num:sg:nom:f:rec		rzad.	0.0000		
+3	4	tyle	tyle	num:sg:nom:m1:rec		rzad.	0.0000		
+3	4	tyle	tyle	num:sg:nom:m2:rec		rzad.	0.0000		
+3	4	tyle	tyle	num:sg:nom:m3:rec		rzad.	0.0000		
+3	4	tyle	tyle	num:sg:nom:n:rec		rzad.	0.0000		
+3	4	tyle	tyli	adj:pl:acc:f:pos		gwar.	0.0000		
+3	4	tyle	tyli	adj:pl:acc:m2:pos		gwar.	0.0000		
+3	4	tyle	tyli	adj:pl:acc:m3:pos		gwar.	0.0000		
+3	4	tyle	tyli	adj:pl:acc:n:pos		gwar.	0.0000		
+3	4	tyle	tyli	adj:pl:nom:f:pos		gwar.	0.0000		
+3	4	tyle	tyli	adj:pl:nom:m2:pos		gwar.	0.0000		
+3	4	tyle	tyli	adj:pl:nom:m3:pos		gwar.	0.0000		
+3	4	tyle	tyli	adj:pl:nom:n:pos		gwar.	0.0000		
+3	4	tyle	tyli	adj:pl:voc:f:pos		gwar.	0.0000		
+3	4	tyle	tyli	adj:pl:voc:m2:pos		gwar.	0.0000		
+3	4	tyle	tyli	adj:pl:voc:m3:pos		gwar.	0.0000		
+3	4	tyle	tyli	adj:pl:voc:n:pos		gwar.	0.0000		
+3	4	tyle	tyli	adj:sg:acc:n:pos		gwar.	0.0000		
+3	4	tyle	tyli	adj:sg:nom:n:pos		gwar.	0.0000		
+3	4	tyle	tyli	adj:sg:voc:n:pos		gwar.	0.0000		
+3	4	tyle	tył	subst:sg:loc:m3	nazwa pospolita		0.0000		
+3	4	tyle	tył	subst:sg:voc:m3	nazwa pospolita		0.0000		
+4	5	zaskakujące	zaskakiwać	pact:pl:acc:f:imperf:aff			0.0000		
+4	5	zaskakujące	zaskakiwać	pact:pl:acc:m2:imperf:aff			0.0000		
+4	5	zaskakujące	zaskakiwać	pact:pl:acc:m3:imperf:aff			0.0000		
+4	5	zaskakujące	zaskakiwać	pact:pl:acc:n:imperf:aff			0.0000		
+4	5	zaskakujące	zaskakiwać	pact:pl:nom:f:imperf:aff			0.0000		
+4	5	zaskakujące	zaskakiwać	pact:pl:nom:m2:imperf:aff			0.0000		
+4	5	zaskakujące	zaskakiwać	pact:pl:nom:m3:imperf:aff			0.0000		
+4	5	zaskakujące	zaskakiwać	pact:pl:nom:n:imperf:aff			0.0000		
+4	5	zaskakujące	zaskakiwać	pact:pl:voc:f:imperf:aff			0.0000		
+4	5	zaskakujące	zaskakiwać	pact:pl:voc:m2:imperf:aff			0.0000		
+4	5	zaskakujące	zaskakiwać	pact:pl:voc:m3:imperf:aff			0.0000		
+4	5	zaskakujące	zaskakiwać	pact:pl:voc:n:imperf:aff			0.0000		
+4	5	zaskakujące	zaskakiwać	pact:sg:acc:n:imperf:aff			0.0000		
+4	5	zaskakujące	zaskakiwać	pact:sg:nom:n:imperf:aff			0.0000		
+4	5	zaskakujące	zaskakiwać	pact:sg:voc:n:imperf:aff			0.0000		
+4	5	zaskakujące	zaskakujący	adj:pl:acc:f:pos			0.0000		
+4	5	zaskakujące	zaskakujący	adj:pl:acc:m2:pos			0.0000		
+4	5	zaskakujące	zaskakujący	adj:pl:acc:m3:pos			0.0000		
+4	5	zaskakujące	zaskakujący	adj:pl:acc:n:pos			0.0000		
+4	5	zaskakujące	zaskakujący	adj:pl:nom:f:pos			0.0000		
+4	5	zaskakujące	zaskakujący	adj:pl:nom:m2:pos			0.0000		
+4	5	zaskakujące	zaskakujący	adj:pl:nom:m3:pos			0.0000		
+4	5	zaskakujące	zaskakujący	adj:pl:nom:n:pos			0.0000		
+4	5	zaskakujące	zaskakujący	adj:pl:voc:f:pos			0.0000		
+4	5	zaskakujące	zaskakujący	adj:pl:voc:m2:pos			0.0000		
+4	5	zaskakujące	zaskakujący	adj:pl:voc:m3:pos			0.0000		
+4	5	zaskakujące	zaskakujący	adj:pl:voc:n:pos			0.0000		
+4	5	zaskakujące	zaskakujący	adj:sg:acc:n:pos			0.0000		
+4	5	zaskakujące	zaskakujący	adj:sg:nom:n:pos			1.0000		disamb
+4	5	zaskakujące	zaskakujący	adj:sg:voc:n:pos			0.0000		
+5	6	,	,	interp			1.0000		disamb
+6	7	że	że	comp			1.0000		disamb
+6	7	że	że	qub			0.0000		
+7	8	dokonano	dokonać	imps:perf			1.0000		disamb
+8	9	go	go	subst:pl:acc:n:ncol	nazwa pospolita	gry	0.0000		
+8	9	go	go	subst:pl:dat:n:ncol	nazwa pospolita	gry	0.0000		
+8	9	go	go	subst:pl:gen:n:ncol	nazwa pospolita	gry	0.0000		
+8	9	go	go	subst:pl:inst:n:ncol	nazwa pospolita	gry	0.0000		
+8	9	go	go	subst:pl:loc:n:ncol	nazwa pospolita	gry	0.0000		
+8	9	go	go	subst:pl:nom:n:ncol	nazwa pospolita	gry	0.0000		
+8	9	go	go	subst:pl:voc:n:ncol	nazwa pospolita	gry	0.0000		
+8	9	go	go	subst:sg:acc:n:ncol	nazwa pospolita	gry	0.0000		
+8	9	go	go	subst:sg:dat:n:ncol	nazwa pospolita	gry	0.0000		
+8	9	go	go	subst:sg:gen:n:ncol	nazwa pospolita	gry	0.0000		
+8	9	go	go	subst:sg:inst:n:ncol	nazwa pospolita	gry	0.0000		
+8	9	go	go	subst:sg:loc:n:ncol	nazwa pospolita	gry	0.0000		
+8	9	go	go	subst:sg:nom:n:ncol	nazwa pospolita	gry	0.0000		
+8	9	go	go	subst:sg:voc:n:ncol	nazwa pospolita	gry	0.0000		
+8	9	go	on	ppron3:sg:acc:m1:ter:nakc:npraep			0.9902		disamb
+8	9	go	on	ppron3:sg:acc:m2:ter:nakc:npraep			0.0000		
+8	9	go	on	ppron3:sg:acc:m3:ter:nakc:npraep			0.0098		
+8	9	go	on	ppron3:sg:gen:m1:ter:nakc:npraep			0.0000		
+8	9	go	on	ppron3:sg:gen:m2:ter:nakc:npraep			0.0000		
+8	9	go	on	ppron3:sg:gen:m3:ter:nakc:npraep			0.0000		
+8	9	go	on	ppron3:sg:gen:n:ter:nakc:npraep			0.0000		
+9	10	w	w	prep:acc:nwok			0.0000		
+9	10	w	w	prep:loc:nwok			1.0000		disamb
+10	11	Swaga	Swaga	subst:pl:loc:n:col			0.0000		
+10	11	Swaga	Swaga	subst:pl:loc:n:ncol			0.0000		
+10	11	Swaga	Swaga	subst:pl:loc:n:pt			0.0000		
+10	11	Swaga	Swaga	subst:sg:acc:m1			0.0000		
+10	11	Swaga	Swaga	subst:sg:acc:n:ncol			0.0000		
+10	11	Swaga	Swaga	subst:sg:gen:m1			0.0000		
+10	11	Swaga	Swaga	subst:sg:loc:f			0.6974		disamb
+10	11	Swaga	Swaga	subst:sg:loc:m3			0.3026		
+10	11	Swaga	Swaga	subst:sg:loc:n:col			0.0000		
+10	11	Swaga	Swaga	subst:sg:loc:n:ncol			0.0000		
+10	11	Swaga	Swaga	ign			0.0000		
+11	12	Swaga	Swaga	subst:sg:acc:m1			0.0000		
+11	12	Swaga	Swaga	subst:sg:acc:n:ncol			0.0000		
+11	12	Swaga	Swaga	subst:sg:gen:m1			0.0000		
+11	12	Swaga	Swaga	subst:sg:gen:m3			0.0000		
+11	12	Swaga	Swaga	subst:sg:loc:m3			0.9915		disamb
+11	12	Swaga	Swaga	subst:sg:loc:n:ncol			0.0000		
+11	12	Swaga	Swaga	subst:sg:nom:f			0.0000		
+11	12	Swaga	Swaga	subst:sg:nom:m1			0.0000		
+11	12	Swaga	Swaga	subst:sg:nom:m3			0.0085		
+11	12	Swaga	Swaga	subst:sg:nom:n:col			0.0000		
+11	12	Swaga	Swaga	ign			0.0000		
+12	13	-	-	interp			1.0000		disamb
+13	14	rezerwacie	rezerwat	subst:sg:loc:m3	nazwa pospolita		0.9998		disamb
+13	14	rezerwacie	rezerwat	subst:sg:voc:m3	nazwa pospolita		0.0002		
+14	15	w	w	prep:acc:nwok			0.0000		
+14	15	w	w	prep:loc:nwok			1.0000		disamb
+15	16	rejonie	rejon	subst:sg:loc:m3	nazwa pospolita		1.0000		disamb
+15	16	rejonie	rejon	subst:sg:voc:m3	nazwa pospolita		0.0000		
+16	17	Kondoa	Kondoa	subst:pl:nom:m1			0.0000		
+16	17	Kondoa	Kondoa	subst:sg:gen:m2			0.0000		
+16	17	Kondoa	Kondoa	subst:sg:gen:m3			1.0000		disamb
+16	17	Kondoa	Kondoa	subst:sg:gen:n:col			0.0000		
+16	17	Kondoa	Kondoa	subst:sg:gen:n:ncol			0.0000		
+16	17	Kondoa	Kondoa	subst:sg:nom:f			0.0000		
+16	17	Kondoa	Kondoa	subst:sg:nom:m1			0.0000		
+16	17	Kondoa	Kondoa	subst:sg:nom:m3			0.0000		
+16	17	Kondoa	Kondoa	subst:sg:nom:n:col			0.0000		
+16	17	Kondoa	Kondoa	subst:sg:nom:n:ncol			0.0000		
+16	17	Kondoa	Kondoa	ign			0.0000		
+17	18	,	,	interp			1.0000		disamb
+18	19	położonym	położyć	ppas:pl:dat:f:perf:aff			0.0000		
+18	19	położonym	położyć	ppas:pl:dat:m1:perf:aff			0.0000		
+18	19	położonym	położyć	ppas:pl:dat:m2:perf:aff			0.0000		
+18	19	położonym	położyć	ppas:pl:dat:m3:perf:aff			0.0000		
+18	19	położonym	położyć	ppas:pl:dat:n:perf:aff			0.0000		
+18	19	położonym	położyć	ppas:sg:inst:m1:perf:aff			0.0000		
+18	19	położonym	położyć	ppas:sg:inst:m2:perf:aff			0.0000		
+18	19	położonym	położyć	ppas:sg:inst:m3:perf:aff			0.7691		disamb
+18	19	położonym	położyć	ppas:sg:inst:n:perf:aff			0.0000		
+18	19	położonym	położyć	ppas:sg:loc:m1:perf:aff			0.0000		
+18	19	położonym	położyć	ppas:sg:loc:m2:perf:aff			0.0000		
+18	19	położonym	położyć	ppas:sg:loc:m3:perf:aff			0.2309		
+18	19	położonym	położyć	ppas:sg:loc:n:perf:aff			0.0000		
+19	20	zaledwie	zaledwie	comp			0.0000		
+19	20	zaledwie	zaledwie	qub			1.0000		disamb
+20	21	kilkadziesiąt	kilkadziesiąt	num:pl:acc:f:rec:ncol			0.0000		
+20	21	kilkadziesiąt	kilkadziesiąt	num:pl:acc:m2:rec:ncol			0.0000		
+20	21	kilkadziesiąt	kilkadziesiąt	num:pl:acc:m3:rec:ncol			0.9003		disamb
+20	21	kilkadziesiąt	kilkadziesiąt	num:pl:acc:n:rec:ncol			0.0000		
+20	21	kilkadziesiąt	kilkadziesiąt	num:pl:nom:f:rec:ncol			0.0000		
+20	21	kilkadziesiąt	kilkadziesiąt	num:pl:nom:m2:rec:ncol			0.0000		
+20	21	kilkadziesiąt	kilkadziesiąt	num:pl:nom:m3:rec:ncol			0.0997		
+20	21	kilkadziesiąt	kilkadziesiąt	num:pl:nom:n:rec:ncol			0.0000		
+20	21	kilkadziesiąt	kilkadziesiąt	num:pl:voc:f:rec:ncol			0.0000		
+20	21	kilkadziesiąt	kilkadziesiąt	num:pl:voc:m2:rec:ncol			0.0000		
+20	21	kilkadziesiąt	kilkadziesiąt	num:pl:voc:m3:rec:ncol			0.0000		
+20	21	kilkadziesiąt	kilkadziesiąt	num:pl:voc:n:rec:ncol			0.0000		
+21	22	kilometrów	kilometr	subst:pl:gen:m3	nazwa pospolita		1.0000		disamb
+22	23	od	od	prep:gen:nwok			1.0000		disamb
+22	23	od	oda	subst:pl:gen:f	nazwa pospolita		0.0000		
+23	24	innego	inny	adj:sg:acc:m1:pos			0.0000		
+23	24	innego	inny	adj:sg:acc:m2:pos			0.0000		
+23	24	innego	inny	adj:sg:gen:m1:pos			0.0000		
+23	24	innego	inny	adj:sg:gen:m2:pos			0.0000		
+23	24	innego	inny	adj:sg:gen:m3:pos			0.0000		
+23	24	innego	inny	adj:sg:gen:n:pos			1.0000		disamb
+23	24	innego	inny	subst:sg:acc:m1	nazwa pospolita		0.0000		
+23	24	innego	inny	subst:sg:gen:m1	nazwa pospolita		0.0000		
+24	25	miejsca	miejsce	subst:pl:acc:n:ncol	nazwa pospolita		0.0000		
+24	25	miejsca	miejsce	subst:pl:nom:n:ncol	nazwa pospolita		0.0000		
+24	25	miejsca	miejsce	subst:pl:voc:n:ncol	nazwa pospolita		0.0000		
+24	25	miejsca	miejsce	subst:sg:gen:n:ncol	nazwa pospolita		1.0000		disamb
+25	26	.	.	interp			1.0000		disamb
+26	27	.	.	interp			1.0000		disamb
+27	28	.	.	interp			1.0000		disamb
+28	29	bogatego	bogaty	adj:sg:acc:m1:pos			0.0000		
+28	29	bogatego	bogaty	adj:sg:acc:m2:pos			0.0000		
+28	29	bogatego	bogaty	adj:sg:gen:m1:pos			0.0000		
+28	29	bogatego	bogaty	adj:sg:gen:m2:pos			0.0000		
+28	29	bogatego	bogaty	adj:sg:gen:m3:pos			0.0000		
+28	29	bogatego	bogaty	adj:sg:gen:n:pos			0.9971		disamb
+28	29	bogatego	bogaty	subst:sg:acc:m1	nazwa pospolita		0.0028		
+28	29	bogatego	bogaty	subst:sg:gen:m1	nazwa pospolita		0.0001		
+29	30	w	w	prep:acc:nwok			1.0000		disamb
+29	30	w	w	prep:loc:nwok			0.0000		
+30	31	malowidła	malowidło	subst:pl:acc:n:ncol	nazwa pospolita		1.0000		disamb
+30	31	malowidła	malowidło	subst:pl:nom:n:ncol	nazwa pospolita		0.0000		
+30	31	malowidła	malowidło	subst:pl:voc:n:ncol	nazwa pospolita		0.0000		
+30	31	malowidła	malowidło	subst:sg:gen:n:ncol	nazwa pospolita		0.0000		
+31	32	naskalne	naskalny	adj:pl:acc:f:pos			0.0000		
+31	32	naskalne	naskalny	adj:pl:acc:m2:pos			0.0000		
+31	32	naskalne	naskalny	adj:pl:acc:m3:pos			0.0000		
+31	32	naskalne	naskalny	adj:pl:acc:n:pos			1.0000		disamb
+31	32	naskalne	naskalny	adj:pl:nom:f:pos			0.0000		
+31	32	naskalne	naskalny	adj:pl:nom:m2:pos			0.0000		
+31	32	naskalne	naskalny	adj:pl:nom:m3:pos			0.0000		
+31	32	naskalne	naskalny	adj:pl:nom:n:pos			0.0000		
+31	32	naskalne	naskalny	adj:pl:voc:f:pos			0.0000		
+31	32	naskalne	naskalny	adj:pl:voc:m2:pos			0.0000		
+31	32	naskalne	naskalny	adj:pl:voc:m3:pos			0.0000		
+31	32	naskalne	naskalny	adj:pl:voc:n:pos			0.0000		
+31	32	naskalne	naskalny	adj:sg:acc:n:pos			0.0000		
+31	32	naskalne	naskalny	adj:sg:nom:n:pos			0.0000		
+31	32	naskalne	naskalny	adj:sg:voc:n:pos			0.0000		
+32	33	.	.	interp			1.0000	eos	disamb
+33	34	Właśnie	właśnie	adv			1.0000		disamb
+33	34	Właśnie	właśnie	interj			0.0000		
+34	35	z	z	prep:acc:nwok			0.0000		
+34	35	z	z	prep:gen:nwok			1.0000		disamb
+34	35	z	z	prep:inst:nwok			0.0000		
+35	36	tego	ten	adj:sg:acc:m1:pos			0.0000		
+35	36	tego	ten	adj:sg:acc:m2:pos			0.0000		
+35	36	tego	ten	adj:sg:gen:m1:pos			0.0000		
+35	36	tego	ten	adj:sg:gen:m2:pos			0.0000		
+35	36	tego	ten	adj:sg:gen:m3:pos			1.0000		disamb
+35	36	tego	ten	adj:sg:gen:n:pos			0.0000		
+35	36	tego	to	subst:sg:gen:n:ncol			0.0000		
+36	37	powodu	powód	subst:sg:gen:m3	nazwa pospolita		1.0000		disamb
+37	38	w	w	prep:acc:nwok			0.0000		
+37	38	w	w	prep:loc:nwok			1.0000		disamb
+38	39	2006	2006	dig			1.0000		disamb
+39	40	r	R	brev:pun			1.0000		disamb
+39	40	r	rocznik	brev:pun			1.0000		disamb
+39	40	r	rodzaj	brev:pun		jęz.	1.0000		disamb
+39	40	r	rok	brev:pun			1.0000		disamb
+40	41	.	.	interp			1.0000		disamb
+41	42	trafiło	trafić	praet:sg:n:perf			1.0000		disamb
+42	43	ono	on	adj:sg:acc:n:pos		daw.	0.0000		
+42	43	ono	on	adj:sg:nom:n:pos		daw.	0.0001		
+42	43	ono	on	adj:sg:voc:n:pos		daw.	0.0000		
+42	43	ono	on	ppron3:sg:nom:n:ter:akc:npraep			0.9999		disamb
+42	43	ono	on	ppron3:sg:nom:n:ter:akc:praep			0.0000		
+42	43	ono	on	ppron3:sg:nom:n:ter:nakc:npraep			0.0000		
+42	43	ono	on	ppron3:sg:nom:n:ter:nakc:praep			0.0000		
+43	44	na	na	interj			0.0000		
+43	44	na	na	prep:acc			1.0000		disamb
+43	44	na	na	prep:loc			0.0000		
+44	45	Listę	lista	subst:sg:acc:f	nazwa pospolita		1.0000		disamb
+45	46	Światowego	Światowy	subst:sg:acc:m1	nazwisko		0.0000		
+45	46	Światowego	Światowy	subst:sg:gen:m1	nazwisko		0.0000		
+45	46	Światowego	światowy	adj:sg:acc:m1:pos			0.0000		
+45	46	Światowego	światowy	adj:sg:acc:m2:pos			0.0000		
+45	46	Światowego	światowy	adj:sg:gen:m1:pos			0.0000		
+45	46	Światowego	światowy	adj:sg:gen:m2:pos			0.0000		
+45	46	Światowego	światowy	adj:sg:gen:m3:pos			0.0000		
+45	46	Światowego	światowy	adj:sg:gen:n:pos			1.0000		disamb
+46	47	Dziedzictwa	dziedzictwo	subst:pl:acc:n:ncol	nazwa pospolita		0.0000		
+46	47	Dziedzictwa	dziedzictwo	subst:pl:nom:n:ncol	nazwa pospolita		0.0000		
+46	47	Dziedzictwa	dziedzictwo	subst:pl:voc:n:ncol	nazwa pospolita		0.0000		
+46	47	Dziedzictwa	dziedzictwo	subst:sg:gen:n:ncol	nazwa pospolita		1.0000		disamb
+47	48	UNESCO	UNESCO	subst:pl:acc:f	nazwa organizacji		0.0000		
+47	48	UNESCO	UNESCO	subst:pl:acc:n:ncol	nazwa organizacji		0.0000		
+47	48	UNESCO	UNESCO	subst:pl:dat:f	nazwa organizacji		0.0000		
+47	48	UNESCO	UNESCO	subst:pl:dat:n:ncol	nazwa organizacji		0.0000		
+47	48	UNESCO	UNESCO	subst:pl:gen:f	nazwa organizacji		0.0000		
+47	48	UNESCO	UNESCO	subst:pl:gen:n:ncol	nazwa organizacji		0.0000		
+47	48	UNESCO	UNESCO	subst:pl:inst:f	nazwa organizacji		0.0000		
+47	48	UNESCO	UNESCO	subst:pl:inst:n:ncol	nazwa organizacji		0.0000		
+47	48	UNESCO	UNESCO	subst:pl:loc:f	nazwa organizacji		0.0000		
+47	48	UNESCO	UNESCO	subst:pl:loc:n:ncol	nazwa organizacji		0.0000		
+47	48	UNESCO	UNESCO	subst:pl:nom:f	nazwa organizacji		0.0000		
+47	48	UNESCO	UNESCO	subst:pl:nom:n:ncol	nazwa organizacji		0.0000		
+47	48	UNESCO	UNESCO	subst:pl:voc:f	nazwa organizacji		0.0000		
+47	48	UNESCO	UNESCO	subst:pl:voc:n:ncol	nazwa organizacji		0.0000		
+47	48	UNESCO	UNESCO	subst:sg:acc:f	nazwa organizacji		0.0000		
+47	48	UNESCO	UNESCO	subst:sg:acc:n:ncol	nazwa organizacji		0.0000		
+47	48	UNESCO	UNESCO	subst:sg:dat:f	nazwa organizacji		0.0000		
+47	48	UNESCO	UNESCO	subst:sg:dat:n:ncol	nazwa organizacji		0.0000		
+47	48	UNESCO	UNESCO	subst:sg:gen:f	nazwa organizacji		1.0000		disamb
+47	48	UNESCO	UNESCO	subst:sg:gen:n:ncol	nazwa organizacji		0.0000		
+47	48	UNESCO	UNESCO	subst:sg:inst:f	nazwa organizacji		0.0000		
+47	48	UNESCO	UNESCO	subst:sg:inst:n:ncol	nazwa organizacji		0.0000		
+47	48	UNESCO	UNESCO	subst:sg:loc:f	nazwa organizacji		0.0000		
+47	48	UNESCO	UNESCO	subst:sg:loc:n:ncol	nazwa organizacji		0.0000		
+47	48	UNESCO	UNESCO	subst:sg:nom:f	nazwa organizacji		0.0000		
+47	48	UNESCO	UNESCO	subst:sg:nom:n:ncol	nazwa organizacji		0.0000		
+47	48	UNESCO	UNESCO	subst:sg:voc:f	nazwa organizacji		0.0000		
+47	48	UNESCO	UNESCO	subst:sg:voc:n:ncol	nazwa organizacji		0.0000		
+48	49	.	.	interp			1.0000	eos	disamb
+0	1	Według	według	prep:gen			1.0000		disamb
+1	2	szacunków	szacunek	subst:pl:gen:m3	nazwa pospolita		1.0000		disamb
+2	3	Grzelczyka	Grzelczyk	subst:sg:acc:m1	nazwisko		0.0000		
+2	3	Grzelczyka	Grzelczyk	subst:sg:gen:m1	nazwisko		1.0000		disamb
+3	4	w	w	prep:acc:nwok			0.0000		
+3	4	w	w	prep:loc:nwok			1.0000		disamb
+4	5	rezerwacie	rezerwat	subst:sg:loc:m3	nazwa pospolita		1.0000		disamb
+4	5	rezerwacie	rezerwat	subst:sg:voc:m3	nazwa pospolita		0.0000		
+5	6	Swaga	Swaga	adj:sg:nom:f:com			0.0000		
+5	6	Swaga	Swaga	adj:sg:nom:f:pos			0.0000		
+5	6	Swaga	Swaga	subst:sg:gen:m1			0.0000		
+5	6	Swaga	Swaga	subst:sg:gen:m3			0.0000		
+5	6	Swaga	Swaga	subst:sg:gen:n:col			0.0000		
+5	6	Swaga	Swaga	subst:sg:loc:m3			0.0001		
+5	6	Swaga	Swaga	subst:sg:nom:f			0.0003		
+5	6	Swaga	Swaga	subst:sg:nom:m3			0.9996		disamb
+5	6	Swaga	Swaga	subst:sg:nom:n:col			0.0000		
+5	6	Swaga	Swaga	subst:sg:nom:n:ncol			0.0000		
+5	6	Swaga	Swaga	ign			0.0000		
+6	7	Swaga	Swaga	adj:sg:nom:f:pos			0.0000		
+6	7	Swaga	Swaga	subst:pl:loc:n:ncol			0.0000		
+6	7	Swaga	Swaga	subst:sg:acc:n:ncol			0.0000		
+6	7	Swaga	Swaga	subst:sg:gen:m1			0.0000		
+6	7	Swaga	Swaga	subst:sg:gen:m2			0.0000		
+6	7	Swaga	Swaga	subst:sg:gen:m3			0.0001		
+6	7	Swaga	Swaga	subst:sg:gen:n:col			0.0000		
+6	7	Swaga	Swaga	subst:sg:nom:f			0.0001		
+6	7	Swaga	Swaga	subst:sg:nom:m1			0.0000		
+6	7	Swaga	Swaga	subst:sg:nom:m3			0.9998		disamb
+6	7	Swaga	Swaga	ign			0.0000		
+7	8	malowideł	malowidło	subst:pl:gen:n:ncol	nazwa pospolita		1.0000		disamb
+8	9	może	może	interj			0.0000		
+8	9	może	może	qub			0.0000		
+8	9	może	móc	fin:sg:ter:imperf			1.0000		disamb
+9	10	być	bycie	subst:pl:gen:n:ncol	nazwa pospolita		0.0000		
+9	10	być	być	ger:pl:gen:n:imperf:aff			0.0000		
+9	10	być	być	inf:imperf			1.0000		disamb
+10	11	równie	rówień	subst:pl:acc:f	nazwa pospolita	gwar.	0.0000		
+10	11	równie	rówień	subst:pl:nom:f	nazwa pospolita	gwar.	0.0000		
+10	11	równie	rówień	subst:pl:voc:f	nazwa pospolita	gwar.	0.0000		
+10	11	równie	równia	subst:pl:acc:f	nazwa pospolita		0.0000		
+10	11	równie	równia	subst:pl:nom:f	nazwa pospolita		0.0000		
+10	11	równie	równia	subst:pl:voc:f	nazwa pospolita		0.0000		
+10	11	równie	równie	adv:pos			1.0000		disamb
+11	12	dużo	dużo	adv:pos			1.0000		disamb
+11	12	dużo	dużo	num:pl:acc:f:rec			0.0000		
+11	12	dużo	dużo	num:pl:acc:m1:rec			0.0000		
+11	12	dużo	dużo	num:pl:acc:m2:rec			0.0000		
+11	12	dużo	dużo	num:pl:acc:m3:rec			0.0000		
+11	12	dużo	dużo	num:pl:acc:n:rec			0.0000		
+11	12	dużo	dużo	num:pl:gen:f:rec			0.0000		
+11	12	dużo	dużo	num:pl:gen:m1:rec			0.0000		
+11	12	dużo	dużo	num:pl:gen:m2:rec			0.0000		
+11	12	dużo	dużo	num:pl:gen:m3:rec			0.0000		
+11	12	dużo	dużo	num:pl:gen:n:rec			0.0000		
+11	12	dużo	dużo	num:pl:nom:f:rec			0.0000		
+11	12	dużo	dużo	num:pl:nom:m1:rec			0.0000		
+11	12	dużo	dużo	num:pl:nom:m2:rec			0.0000		
+11	12	dużo	dużo	num:pl:nom:m3:rec			0.0000		
+11	12	dużo	dużo	num:pl:nom:n:rec			0.0000		
+11	12	dużo	dużo	num:sg:acc:f:rec			0.0000		
+11	12	dużo	dużo	num:sg:acc:m1:rec			0.0000		
+11	12	dużo	dużo	num:sg:acc:m2:rec			0.0000		
+11	12	dużo	dużo	num:sg:acc:m3:rec			0.0000		
+11	12	dużo	dużo	num:sg:acc:n:rec			0.0000		
+11	12	dużo	dużo	num:sg:gen:f:rec			0.0000		
+11	12	dużo	dużo	num:sg:gen:m1:rec			0.0000		
+11	12	dużo	dużo	num:sg:gen:m2:rec			0.0000		
+11	12	dużo	dużo	num:sg:gen:m3:rec			0.0000		
+11	12	dużo	dużo	num:sg:gen:n:rec			0.0000		
+11	12	dużo	dużo	num:sg:nom:f:rec			0.0000		
+11	12	dużo	dużo	num:sg:nom:m1:rec			0.0000		
+11	12	dużo	dużo	num:sg:nom:m2:rec			0.0000		
+11	12	dużo	dużo	num:sg:nom:m3:rec			0.0000		
+11	12	dużo	dużo	num:sg:nom:n:rec			0.0000		
+12	13	.	.	interp			1.0000	eos	disamb
+0	1	Pod	pod	prep:acc:nwok			0.0000		
+0	1	Pod	pod	prep:inst:nwok			1.0000		disamb
+1	2	względem	wzgląd	subst:sg:inst:m3	nazwa pospolita		1.0000		disamb
+1	2	względem	względem	prep:gen			0.0000		
+2	3	stylu	styl	subst:sg:gen:m3	nazwa pospolita		1.0000		disamb
+2	3	stylu	styl	subst:sg:loc:m3	nazwa pospolita		0.0000		
+2	3	stylu	styl	subst:sg:voc:m3	nazwa pospolita		0.0000		
+2	3	stylu	stylo	subst:sg:dat:n:ncol	nazwa pospolita	przest.,techn.	0.0000		
+2	3	stylu	stylo	subst:sg:loc:n:ncol	nazwa pospolita	przest.,techn.	0.0000		
+3	4	nowo	nowo	adv:pos			1.0000		disamb
+4	5	znalezione	znaleźć	ppas:pl:acc:f:perf:aff			0.0000		
+4	5	znalezione	znaleźć	ppas:pl:acc:m2:perf:aff			0.0000		
+4	5	znalezione	znaleźć	ppas:pl:acc:m3:perf:aff			0.0179		
+4	5	znalezione	znaleźć	ppas:pl:acc:n:perf:aff			0.9821		disamb
+4	5	znalezione	znaleźć	ppas:pl:nom:f:perf:aff			0.0000		
+4	5	znalezione	znaleźć	ppas:pl:nom:m2:perf:aff			0.0000		
+4	5	znalezione	znaleźć	ppas:pl:nom:m3:perf:aff			0.0000		
+4	5	znalezione	znaleźć	ppas:pl:nom:n:perf:aff			0.0000		
+4	5	znalezione	znaleźć	ppas:pl:voc:f:perf:aff			0.0000		
+4	5	znalezione	znaleźć	ppas:pl:voc:m2:perf:aff			0.0000		
+4	5	znalezione	znaleźć	ppas:pl:voc:m3:perf:aff			0.0000		
+4	5	znalezione	znaleźć	ppas:pl:voc:n:perf:aff			0.0000		
+4	5	znalezione	znaleźć	ppas:sg:acc:n:perf:aff			0.0000		
+4	5	znalezione	znaleźć	ppas:sg:nom:n:perf:aff			0.0000		
+4	5	znalezione	znaleźć	ppas:sg:voc:n:perf:aff			0.0000		
+5	6	malowidła	malowidło	subst:pl:acc:n:ncol	nazwa pospolita		1.0000		disamb
+5	6	malowidła	malowidło	subst:pl:nom:n:ncol	nazwa pospolita		0.0000		
+5	6	malowidła	malowidło	subst:pl:voc:n:ncol	nazwa pospolita		0.0000		
+5	6	malowidła	malowidło	subst:sg:gen:n:ncol	nazwa pospolita		0.0000		
+6	7	przypominają	przypominać	fin:pl:ter:imperf			1.0000		disamb
+7	8	te	te	subst:pl:acc:n:ncol	nazwa pospolita		0.0000		
+7	8	te	te	subst:pl:dat:n:ncol	nazwa pospolita		0.0000		
+7	8	te	te	subst:pl:gen:n:ncol	nazwa pospolita		0.0000		
+7	8	te	te	subst:pl:inst:n:ncol	nazwa pospolita		0.0000		
+7	8	te	te	subst:pl:loc:n:ncol	nazwa pospolita		0.0000		
+7	8	te	te	subst:pl:nom:n:ncol	nazwa pospolita		0.0000		
+7	8	te	te	subst:pl:voc:n:ncol	nazwa pospolita		0.0000		
+7	8	te	te	subst:sg:acc:n:ncol	nazwa pospolita		0.0000		
+7	8	te	te	subst:sg:dat:n:ncol	nazwa pospolita		0.0000		
+7	8	te	te	subst:sg:gen:n:ncol	nazwa pospolita		0.0000		
+7	8	te	te	subst:sg:inst:n:ncol	nazwa pospolita		0.0000		
+7	8	te	te	subst:sg:loc:n:ncol	nazwa pospolita		0.0000		
+7	8	te	te	subst:sg:nom:n:ncol	nazwa pospolita		0.0000		
+7	8	te	te	subst:sg:voc:n:ncol	nazwa pospolita		0.0000		
+7	8	te	ten	adj:pl:acc:f:pos			0.0000		
+7	8	te	ten	adj:pl:acc:m2:pos			0.0000		
+7	8	te	ten	adj:pl:acc:m3:pos			0.0000		
+7	8	te	ten	adj:pl:acc:n:pos			0.0330		
+7	8	te	ten	adj:pl:nom:f:pos			0.0000		
+7	8	te	ten	adj:pl:nom:m2:pos			0.0000		
+7	8	te	ten	adj:pl:nom:m3:pos			0.0000		
+7	8	te	ten	adj:pl:nom:n:pos			0.9670		disamb
+7	8	te	ten	adj:pl:voc:f:pos			0.0000		
+7	8	te	ten	adj:pl:voc:m2:pos			0.0000		
+7	8	te	ten	adj:pl:voc:m3:pos			0.0000		
+7	8	te	ten	adj:pl:voc:n:pos			0.0000		
+7	8	te	ty	ppron12:sg:voc:f:sec		niepopr.,pot.	0.0000		
+7	8	te	ty	ppron12:sg:voc:m1:sec		niepopr.,pot.	0.0000		
+7	8	te	ty	ppron12:sg:voc:m2:sec		niepopr.,pot.	0.0000		
+7	8	te	ty	ppron12:sg:voc:m3:sec		niepopr.,pot.	0.0000		
+7	8	te	ty	ppron12:sg:voc:n:sec		niepopr.,pot.	0.0000		
+8	9	z	z	prep:acc:nwok			0.0000		
+8	9	z	z	prep:gen:nwok			1.0000		disamb
+8	9	z	z	prep:inst:nwok			0.0000		
+9	10	listy	list	subst:pl:acc:m3	nazwa pospolita		0.0000		
+9	10	listy	list	subst:pl:nom:m3	nazwa pospolita		0.0000		
+9	10	listy	list	subst:pl:voc:m3	nazwa pospolita		0.0000		
+9	10	listy	lista	subst:pl:acc:f	nazwa pospolita		0.0000		
+9	10	listy	lista	subst:pl:nom:f	nazwa pospolita		0.0000		
+9	10	listy	lista	subst:pl:voc:f	nazwa pospolita		0.0000		
+9	10	listy	lista	subst:sg:gen:f	nazwa pospolita		1.0000		disamb
+10	11	UNESCO	UNESCO	subst:pl:acc:f	nazwa organizacji		0.0000		
+10	11	UNESCO	UNESCO	subst:pl:acc:n:ncol	nazwa organizacji		0.0000		
+10	11	UNESCO	UNESCO	subst:pl:dat:f	nazwa organizacji		0.0000		
+10	11	UNESCO	UNESCO	subst:pl:dat:n:ncol	nazwa organizacji		0.0000		
+10	11	UNESCO	UNESCO	subst:pl:gen:f	nazwa organizacji		0.0000		
+10	11	UNESCO	UNESCO	subst:pl:gen:n:ncol	nazwa organizacji		0.0000		
+10	11	UNESCO	UNESCO	subst:pl:inst:f	nazwa organizacji		0.0000		
+10	11	UNESCO	UNESCO	subst:pl:inst:n:ncol	nazwa organizacji		0.0000		
+10	11	UNESCO	UNESCO	subst:pl:loc:f	nazwa organizacji		0.0000		
+10	11	UNESCO	UNESCO	subst:pl:loc:n:ncol	nazwa organizacji		0.0000		
+10	11	UNESCO	UNESCO	subst:pl:nom:f	nazwa organizacji		0.0000		
+10	11	UNESCO	UNESCO	subst:pl:nom:n:ncol	nazwa organizacji		0.0000		
+10	11	UNESCO	UNESCO	subst:pl:voc:f	nazwa organizacji		0.0000		
+10	11	UNESCO	UNESCO	subst:pl:voc:n:ncol	nazwa organizacji		0.0000		
+10	11	UNESCO	UNESCO	subst:sg:acc:f	nazwa organizacji		0.0167		
+10	11	UNESCO	UNESCO	subst:sg:acc:n:ncol	nazwa organizacji		0.0000		
+10	11	UNESCO	UNESCO	subst:sg:dat:f	nazwa organizacji		0.0000		
+10	11	UNESCO	UNESCO	subst:sg:dat:n:ncol	nazwa organizacji		0.0000		
+10	11	UNESCO	UNESCO	subst:sg:gen:f	nazwa organizacji		0.9833		disamb
+10	11	UNESCO	UNESCO	subst:sg:gen:n:ncol	nazwa organizacji		0.0000		
+10	11	UNESCO	UNESCO	subst:sg:inst:f	nazwa organizacji		0.0000		
+10	11	UNESCO	UNESCO	subst:sg:inst:n:ncol	nazwa organizacji		0.0000		
+10	11	UNESCO	UNESCO	subst:sg:loc:f	nazwa organizacji		0.0000		
+10	11	UNESCO	UNESCO	subst:sg:loc:n:ncol	nazwa organizacji		0.0000		
+10	11	UNESCO	UNESCO	subst:sg:nom:f	nazwa organizacji		0.0000		
+10	11	UNESCO	UNESCO	subst:sg:nom:n:ncol	nazwa organizacji		0.0000		
+10	11	UNESCO	UNESCO	subst:sg:voc:f	nazwa organizacji		0.0000		
+10	11	UNESCO	UNESCO	subst:sg:voc:n:ncol	nazwa organizacji		0.0000		
+11	12	.	.	interp			1.0000	eos	disamb
+12	13	Wykonano	wykonać	imps:perf			1.0000		disamb
+13	14	je	jeść	fin:sg:ter:imperf			0.0000		
+13	14	je	on	ppron3:pl:acc:f:ter:akc:npraep			0.8887		disamb
+13	14	je	on	ppron3:pl:acc:f:ter:nakc:npraep			0.0001		
+13	14	je	on	ppron3:pl:acc:m2:ter:akc:npraep			0.0000		
+13	14	je	on	ppron3:pl:acc:m2:ter:nakc:npraep			0.0001		
+13	14	je	on	ppron3:pl:acc:m3:ter:akc:npraep			0.0013		
+13	14	je	on	ppron3:pl:acc:m3:ter:nakc:npraep			0.0001		
+13	14	je	on	ppron3:pl:acc:n:ter:akc:npraep			0.0129		
+13	14	je	on	ppron3:pl:acc:n:ter:nakc:npraep			0.0001		
+13	14	je	on	ppron3:sg:acc:n:ter:akc:npraep			0.0966		
+13	14	je	on	ppron3:sg:acc:n:ter:nakc:npraep			0.0000		
+14	15	czerwonym	czerwona	subst:pl:dat:f	nazwa pospolita		0.0000		
+14	15	czerwonym	czerwone	subst:pl:dat:n:ncol	nazwa pospolita		0.0000		
+14	15	czerwonym	czerwone	subst:sg:inst:n:ncol	nazwa pospolita		0.0000		
+14	15	czerwonym	czerwone	subst:sg:loc:n:ncol	nazwa pospolita		0.0000		
+14	15	czerwonym	czerwony	adj:pl:dat:f:pos			0.0000		
+14	15	czerwonym	czerwony	adj:pl:dat:m1:pos			0.0000		
+14	15	czerwonym	czerwony	adj:pl:dat:m2:pos			0.0000		
+14	15	czerwonym	czerwony	adj:pl:dat:m3:pos			0.0000		
+14	15	czerwonym	czerwony	adj:pl:dat:n:pos			0.0000		
+14	15	czerwonym	czerwony	adj:sg:inst:m1:pos			0.0000		
+14	15	czerwonym	czerwony	adj:sg:inst:m2:pos			0.0967		
+14	15	czerwonym	czerwony	adj:sg:inst:m3:pos			0.6241		disamb
+14	15	czerwonym	czerwony	adj:sg:inst:n:pos			0.2792		
+14	15	czerwonym	czerwony	adj:sg:loc:m1:pos			0.0000		
+14	15	czerwonym	czerwony	adj:sg:loc:m2:pos			0.0000		
+14	15	czerwonym	czerwony	adj:sg:loc:m3:pos			0.0000		
+14	15	czerwonym	czerwony	adj:sg:loc:n:pos			0.0000		
+14	15	czerwonym	czerwony	subst:pl:dat:m1	nazwa pospolita		0.0000		
+14	15	czerwonym	czerwony	subst:sg:inst:m1	nazwa pospolita		0.0000		
+14	15	czerwonym	czerwony	subst:sg:loc:m1	nazwa pospolita		0.0000		
+15	16	lub	lub	conj			1.0000		disamb
+15	16	lub	lubić	impt:sg:sec:imperf			0.0000		
+16	17	białym	biały	adj:pl:dat:f:pos			0.0000		
+16	17	białym	biały	adj:pl:dat:m1:pos			0.0000		
+16	17	białym	biały	adj:pl:dat:m2:pos			0.0000		
+16	17	białym	biały	adj:pl:dat:m3:pos			0.0000		
+16	17	białym	biały	adj:pl:dat:n:pos			0.0000		
+16	17	białym	biały	adj:sg:inst:m1:pos			0.0000		
+16	17	białym	biały	adj:sg:inst:m2:pos			0.0000		
+16	17	białym	biały	adj:sg:inst:m3:pos			1.0000		disamb
+16	17	białym	biały	adj:sg:inst:n:pos			0.0000		
+16	17	białym	biały	adj:sg:loc:m1:pos			0.0000		
+16	17	białym	biały	adj:sg:loc:m2:pos			0.0000		
+16	17	białym	biały	adj:sg:loc:m3:pos			0.0000		
+16	17	białym	biały	adj:sg:loc:n:pos			0.0000		
+16	17	białym	biały	subst:pl:dat:m1	nazwa pospolita		0.0000		
+16	17	białym	biały	subst:sg:inst:m1	nazwa pospolita		0.0000		
+16	17	białym	biały	subst:sg:loc:m1	nazwa pospolita		0.0000		
+17	18	barwnikiem	barwnik	subst:sg:inst:m3	nazwa pospolita		1.0000		disamb
+18	19	.	.	interp			1.0000	eos	disamb
+19	20	Malowidła	malowidło	subst:pl:acc:n:ncol	nazwa pospolita		0.0000		
+19	20	Malowidła	malowidło	subst:pl:nom:n:ncol	nazwa pospolita		1.0000		disamb
+19	20	Malowidła	malowidło	subst:pl:voc:n:ncol	nazwa pospolita		0.0000		
+19	20	Malowidła	malowidło	subst:sg:gen:n:ncol	nazwa pospolita		0.0000		
+20	21	czerwone	czerwona	subst:pl:acc:f	nazwa pospolita		0.0000		
+20	21	czerwone	czerwona	subst:pl:nom:f	nazwa pospolita		0.0000		
+20	21	czerwone	czerwona	subst:pl:voc:f	nazwa pospolita		0.0000		
+20	21	czerwone	czerwone	subst:pl:acc:n:ncol	nazwa pospolita		0.0000		
+20	21	czerwone	czerwone	subst:pl:nom:n:ncol	nazwa pospolita		0.0000		
+20	21	czerwone	czerwone	subst:pl:voc:n:ncol	nazwa pospolita		0.0000		
+20	21	czerwone	czerwone	subst:sg:acc:n:ncol	nazwa pospolita		0.0000		
+20	21	czerwone	czerwone	subst:sg:nom:n:ncol	nazwa pospolita		0.0000		
+20	21	czerwone	czerwone	subst:sg:voc:n:ncol	nazwa pospolita		0.0000		
+20	21	czerwone	czerwony	adj:pl:acc:f:pos			0.0000		
+20	21	czerwone	czerwony	adj:pl:acc:m2:pos			0.0000		
+20	21	czerwone	czerwony	adj:pl:acc:m3:pos			0.0000		
+20	21	czerwone	czerwony	adj:pl:acc:n:pos			0.0000		
+20	21	czerwone	czerwony	adj:pl:nom:f:pos			0.0009		
+20	21	czerwone	czerwony	adj:pl:nom:m2:pos			0.0001		
+20	21	czerwone	czerwony	adj:pl:nom:m3:pos			0.0010		
+20	21	czerwone	czerwony	adj:pl:nom:n:pos			0.9980		disamb
+20	21	czerwone	czerwony	adj:pl:voc:f:pos			0.0000		
+20	21	czerwone	czerwony	adj:pl:voc:m2:pos			0.0000		
+20	21	czerwone	czerwony	adj:pl:voc:m3:pos			0.0000		
+20	21	czerwone	czerwony	adj:pl:voc:n:pos			0.0000		
+20	21	czerwone	czerwony	adj:sg:acc:n:pos			0.0000		
+20	21	czerwone	czerwony	adj:sg:nom:n:pos			0.0000		
+20	21	czerwone	czerwony	adj:sg:voc:n:pos			0.0000		
+20	21	czerwone	czerwony	depr:pl:acc:m2	nazwa pospolita		0.0000		
+20	21	czerwone	czerwony	depr:pl:nom:m2	nazwa pospolita		0.0000		
+20	21	czerwone	czerwony	depr:pl:voc:m2	nazwa pospolita		0.0000		
+21	22	uważane	uważać	ppas:pl:acc:f:imperf:aff			0.0000		
+21	22	uważane	uważać	ppas:pl:acc:m2:imperf:aff			0.0000		
+21	22	uważane	uważać	ppas:pl:acc:m3:imperf:aff			0.0000		
+21	22	uważane	uważać	ppas:pl:acc:n:imperf:aff			0.0000		
+21	22	uważane	uważać	ppas:pl:nom:f:imperf:aff			0.0000		
+21	22	uważane	uważać	ppas:pl:nom:m2:imperf:aff			0.0000		
+21	22	uważane	uważać	ppas:pl:nom:m3:imperf:aff			0.9406		disamb
+21	22	uważane	uważać	ppas:pl:nom:n:imperf:aff			0.0594		
+21	22	uważane	uważać	ppas:pl:voc:f:imperf:aff			0.0000		
+21	22	uważane	uważać	ppas:pl:voc:m2:imperf:aff			0.0000		
+21	22	uważane	uważać	ppas:pl:voc:m3:imperf:aff			0.0000		
+21	22	uważane	uważać	ppas:pl:voc:n:imperf:aff			0.0000		
+21	22	uważane	uważać	ppas:sg:acc:n:imperf:aff			0.0000		
+21	22	uważane	uważać	ppas:sg:nom:n:imperf:aff			0.0000		
+21	22	uważane	uważać	ppas:sg:voc:n:imperf:aff			0.0000		
+22	23	są	być	fin:pl:ter:imperf			1.0000		disamb
+23	24	przez	przez	prep:acc:nwok			1.0000		disamb
+24	25	archeologów	archeolog	subst:pl:acc:m1	nazwa pospolita		1.0000		disamb
+24	25	archeologów	archeolog	subst:pl:gen:m1	nazwa pospolita		0.0000		
+25	26	za	za	prep:acc			1.0000		disamb
+25	26	za	za	prep:gen			0.0000		
+25	26	za	za	prep:inst			0.0000		
+25	26	za	za	qub			0.0000		
+26	27	starsze	starsza	subst:pl:acc:f	nazwa pospolita		0.0004		
+26	27	starsze	starsza	subst:pl:nom:f	nazwa pospolita		0.0000		
+26	27	starsze	starsza	subst:pl:voc:f	nazwa pospolita		0.0000		
+26	27	starsze	starszy	depr:pl:acc:m2	nazwa pospolita		0.0000		
+26	27	starsze	starszy	depr:pl:nom:m2	nazwa pospolita		0.0000		
+26	27	starsze	starszy	depr:pl:voc:m2	nazwa pospolita		0.0000		
+26	27	starsze	stary	adj:pl:acc:f:com			0.3225		
+26	27	starsze	stary	adj:pl:acc:m2:com			0.3585		disamb
+26	27	starsze	stary	adj:pl:acc:m3:com			0.0654		
+26	27	starsze	stary	adj:pl:acc:n:com			0.2387		
+26	27	starsze	stary	adj:pl:nom:f:com			0.0018		
+26	27	starsze	stary	adj:pl:nom:m2:com			0.0020		
+26	27	starsze	stary	adj:pl:nom:m3:com			0.0004		
+26	27	starsze	stary	adj:pl:nom:n:com			0.0013		
+26	27	starsze	stary	adj:pl:voc:f:com			0.0000		
+26	27	starsze	stary	adj:pl:voc:m2:com			0.0000		
+26	27	starsze	stary	adj:pl:voc:m3:com			0.0000		
+26	27	starsze	stary	adj:pl:voc:n:com			0.0000		
+26	27	starsze	stary	adj:sg:acc:n:com			0.0090		
+26	27	starsze	stary	adj:sg:nom:n:com			0.0001		
+26	27	starsze	stary	adj:sg:voc:n:com			0.0000		
+27	28	,	,	interp			1.0000		disamb
+28	29	wykonane	wykonać	ppas:pl:acc:f:perf:aff			0.0021		
+28	29	wykonane	wykonać	ppas:pl:acc:m2:perf:aff			0.0000		
+28	29	wykonane	wykonać	ppas:pl:acc:m3:perf:aff			0.0000		
+28	29	wykonane	wykonać	ppas:pl:acc:n:perf:aff			0.0104		
+28	29	wykonane	wykonać	ppas:pl:nom:f:perf:aff			0.0000		
+28	29	wykonane	wykonać	ppas:pl:nom:m2:perf:aff			0.0000		
+28	29	wykonane	wykonać	ppas:pl:nom:m3:perf:aff			0.0000		
+28	29	wykonane	wykonać	ppas:pl:nom:n:perf:aff			0.0001		
+28	29	wykonane	wykonać	ppas:pl:voc:f:perf:aff			0.0000		
+28	29	wykonane	wykonać	ppas:pl:voc:m2:perf:aff			0.0000		
+28	29	wykonane	wykonać	ppas:pl:voc:m3:perf:aff			0.0000		
+28	29	wykonane	wykonać	ppas:pl:voc:n:perf:aff			0.0000		
+28	29	wykonane	wykonać	ppas:sg:acc:n:perf:aff			0.9817		disamb
+28	29	wykonane	wykonać	ppas:sg:nom:n:perf:aff			0.0057		
+28	29	wykonane	wykonać	ppas:sg:voc:n:perf:aff			0.0000		
+29	30	przez	przez	prep:acc:nwok			1.0000		disamb
+30	31	ludność	ludność	subst:sg:acc:f	nazwa pospolita		0.9954		disamb
+30	31	ludność	ludność	subst:sg:nom:f	nazwa pospolita		0.0046		
+31	32	zbieracko	zbieracki	adja			1.0000		disamb
+32	33	-	-	interp			1.0000		disamb
+33	34	łowiecką	łowiecki	adj:sg:acc:f:pos			0.9995		disamb
+33	34	łowiecką	łowiecki	adj:sg:inst:f:pos			0.0005		
+34	35	być	bycie	subst:pl:gen:n:ncol	nazwa pospolita		0.0000		
+34	35	być	być	ger:pl:gen:n:imperf:aff			0.0000		
+34	35	być	być	inf:imperf			1.0000		disamb
+35	36	może	może	interj			0.0000		
+35	36	może	może	qub			0.0000		
+35	36	może	móc	fin:sg:ter:imperf			1.0000		disamb
+36	37	nawet	nawet	qub			1.0000		disamb
+37	38	kilkanaście	kilkanaście	num:pl:acc:f:rec:ncol			0.0000		
+37	38	kilkanaście	kilkanaście	num:pl:acc:m2:rec:ncol			0.0000		
+37	38	kilkanaście	kilkanaście	num:pl:acc:m3:rec:ncol			0.1019		
+37	38	kilkanaście	kilkanaście	num:pl:acc:n:rec:ncol			0.0000		
+37	38	kilkanaście	kilkanaście	num:pl:nom:f:rec:ncol			0.0000		
+37	38	kilkanaście	kilkanaście	num:pl:nom:m2:rec:ncol			0.0000		
+37	38	kilkanaście	kilkanaście	num:pl:nom:m3:rec:ncol			0.8981		disamb
+37	38	kilkanaście	kilkanaście	num:pl:nom:n:rec:ncol			0.0000		
+37	38	kilkanaście	kilkanaście	num:pl:voc:f:rec:ncol			0.0000		
+37	38	kilkanaście	kilkanaście	num:pl:voc:m2:rec:ncol			0.0000		
+37	38	kilkanaście	kilkanaście	num:pl:voc:m3:rec:ncol			0.0000		
+37	38	kilkanaście	kilkanaście	num:pl:voc:n:rec:ncol			0.0000		
+38	39	tysięcy	tysiąc	subst:pl:gen:m3	nazwa pospolita		1.0000		disamb
+38	39	tysięcy	tysiąc	subst:pl:gen:m2	nazwa pospolita	karc.	0.0000		
+39	40	lat	lato	subst:pl:gen:n:ncol	nazwa pospolita		0.0000		
+39	40	lat	rok	subst:pl:gen:m3	nazwa pospolita		1.0000		disamb
+40	41	temu	temu	prep:acc			1.0000		disamb
+40	41	temu	ten	adj:sg:dat:m1:pos			0.0000		
+40	41	temu	ten	adj:sg:dat:m2:pos			0.0000		
+40	41	temu	ten	adj:sg:dat:m3:pos			0.0000		
+40	41	temu	ten	adj:sg:dat:n:pos			0.0000		
+40	41	temu	to	subst:sg:dat:n:ncol			0.0000		
+41	42	.	.	interp			1.0000	eos	disamb
+42	43	Białe	Biała	subst:pl:acc:f	człon nazwy geograficznej		0.0000		
+42	43	Białe	Biała	subst:pl:nom:f	człon nazwy geograficznej		0.0000		
+42	43	Białe	Biała	subst:pl:voc:f	człon nazwy geograficznej		0.0000		
+42	43	Białe	Biała	subst:pl:acc:f	nazwisko		0.0000		
+42	43	Białe	Biała	subst:pl:nom:f	nazwisko		0.0000		
+42	43	Białe	Biała	subst:pl:voc:f	nazwisko		0.0000		
+42	43	Białe	Biały	depr:pl:acc:m2	nazwisko		0.0000		
+42	43	Białe	Biały	depr:pl:nom:m2	nazwisko		0.0000		
+42	43	Białe	Biały	depr:pl:voc:m2	nazwisko		0.0000		
+42	43	Białe	biały	adj:pl:acc:f:pos			0.0004		
+42	43	Białe	biały	adj:pl:acc:m2:pos			0.0000		
+42	43	Białe	biały	adj:pl:acc:m3:pos			0.0000		
+42	43	Białe	biały	adj:pl:acc:n:pos			0.0001		
+42	43	Białe	biały	adj:pl:nom:f:pos			0.8195		disamb
+42	43	Białe	biały	adj:pl:nom:m2:pos			0.0000		
+42	43	Białe	biały	adj:pl:nom:m3:pos			0.0002		
+42	43	Białe	biały	adj:pl:nom:n:pos			0.1782		
+42	43	Białe	biały	adj:pl:voc:f:pos			0.0000		
+42	43	Białe	biały	adj:pl:voc:m2:pos			0.0000		
+42	43	Białe	biały	adj:pl:voc:m3:pos			0.0000		
+42	43	Białe	biały	adj:pl:voc:n:pos			0.0000		
+42	43	Białe	biały	adj:sg:acc:n:pos			0.0000		
+42	43	Białe	biały	adj:sg:nom:n:pos			0.0016		
+42	43	Białe	biały	adj:sg:voc:n:pos			0.0000		
+42	43	Białe	biały	depr:pl:acc:m2	nazwa pospolita		0.0000		
+42	43	Białe	biały	depr:pl:nom:m2	nazwa pospolita		0.0000		
+42	43	Białe	biały	depr:pl:voc:m2	nazwa pospolita		0.0000		
+43	44	mogą	móc	fin:pl:ter:imperf			1.0000		disamb
+44	45	mieć	miecić	impt:sg:sec:imperf		daw.	0.0000		
+44	45	mieć	mieć	inf:imperf			1.0000		disamb
+44	45	mieć	mieść	impt:sg:sec:imperf			0.0000		
+45	46	od	od	prep:gen:nwok			1.0000		disamb
+45	46	od	oda	subst:pl:gen:f	nazwa pospolita		0.0000		
+46	47	kilkuset	kilkaset	num:pl:acc:m1:rec			0.0000		
+46	47	kilkuset	kilkaset	num:pl:dat:f:congr			0.0000		
+46	47	kilkuset	kilkaset	num:pl:dat:m1:congr			0.0000		
+46	47	kilkuset	kilkaset	num:pl:dat:m2:congr			0.0000		
+46	47	kilkuset	kilkaset	num:pl:dat:m3:congr			0.0000		
+46	47	kilkuset	kilkaset	num:pl:dat:n:congr			0.0000		
+46	47	kilkuset	kilkaset	num:pl:gen:f:congr			0.0000		
+46	47	kilkuset	kilkaset	num:pl:gen:m1:congr			0.0000		
+46	47	kilkuset	kilkaset	num:pl:gen:m2:congr			0.0000		
+46	47	kilkuset	kilkaset	num:pl:gen:m3:congr			1.0000		disamb
+46	47	kilkuset	kilkaset	num:pl:gen:n:congr			0.0000		
+46	47	kilkuset	kilkaset	num:pl:inst:f:congr			0.0000		
+46	47	kilkuset	kilkaset	num:pl:inst:m1:congr			0.0000		
+46	47	kilkuset	kilkaset	num:pl:inst:m2:congr			0.0000		
+46	47	kilkuset	kilkaset	num:pl:inst:m3:congr			0.0000		
+46	47	kilkuset	kilkaset	num:pl:inst:n:congr			0.0000		
+46	47	kilkuset	kilkaset	num:pl:loc:f:congr			0.0000		
+46	47	kilkuset	kilkaset	num:pl:loc:m1:congr			0.0000		
+46	47	kilkuset	kilkaset	num:pl:loc:m2:congr			0.0000		
+46	47	kilkuset	kilkaset	num:pl:loc:m3:congr			0.0000		
+46	47	kilkuset	kilkaset	num:pl:loc:n:congr			0.0000		
+46	47	kilkuset	kilkaset	num:pl:nom:m1:rec			0.0000		
+46	47	kilkuset	kilkaset	num:pl:voc:m1:rec			0.0000		
+47	48	do	do	prep:gen			1.0000		disamb
+47	48	do	do	subst:pl:acc:n:ncol	nazwa pospolita	muz.	0.0000		
+47	48	do	do	subst:pl:dat:n:ncol	nazwa pospolita	muz.	0.0000		
+47	48	do	do	subst:pl:gen:n:ncol	nazwa pospolita	muz.	0.0000		
+47	48	do	do	subst:pl:inst:n:ncol	nazwa pospolita	muz.	0.0000		
+47	48	do	do	subst:pl:loc:n:ncol	nazwa pospolita	muz.	0.0000		
+47	48	do	do	subst:pl:nom:n:ncol	nazwa pospolita	muz.	0.0000		
+47	48	do	do	subst:pl:voc:n:ncol	nazwa pospolita	muz.	0.0000		
+47	48	do	do	subst:sg:acc:n:ncol	nazwa pospolita	muz.	0.0000		
+47	48	do	do	subst:sg:dat:n:ncol	nazwa pospolita	muz.	0.0000		
+47	48	do	do	subst:sg:gen:n:ncol	nazwa pospolita	muz.	0.0000		
+47	48	do	do	subst:sg:inst:n:ncol	nazwa pospolita	muz.	0.0000		
+47	48	do	do	subst:sg:loc:n:ncol	nazwa pospolita	muz.	0.0000		
+47	48	do	do	subst:sg:nom:n:ncol	nazwa pospolita	muz.	0.0000		
+47	48	do	do	subst:sg:voc:n:ncol	nazwa pospolita	muz.	0.0000		
+48	49	kilkudziesięciu	kilkadziesiąt	num:pl:acc:m1:rec:ncol			0.0000		
+48	49	kilkudziesięciu	kilkadziesiąt	num:pl:dat:f:congr:ncol			0.0000		
+48	49	kilkudziesięciu	kilkadziesiąt	num:pl:dat:m1:congr:ncol			0.0000		
+48	49	kilkudziesięciu	kilkadziesiąt	num:pl:dat:m2:congr:ncol			0.0000		
+48	49	kilkudziesięciu	kilkadziesiąt	num:pl:dat:m3:congr:ncol			0.0000		
+48	49	kilkudziesięciu	kilkadziesiąt	num:pl:dat:n:congr:ncol			0.0000		
+48	49	kilkudziesięciu	kilkadziesiąt	num:pl:gen:f:congr:ncol			0.0000		
+48	49	kilkudziesięciu	kilkadziesiąt	num:pl:gen:m1:congr:ncol			0.0000		
+48	49	kilkudziesięciu	kilkadziesiąt	num:pl:gen:m2:congr:ncol			0.0000		
+48	49	kilkudziesięciu	kilkadziesiąt	num:pl:gen:m3:congr:ncol			1.0000		disamb
+48	49	kilkudziesięciu	kilkadziesiąt	num:pl:gen:n:congr:ncol			0.0000		
+48	49	kilkudziesięciu	kilkadziesiąt	num:pl:inst:f:congr:ncol			0.0000		
+48	49	kilkudziesięciu	kilkadziesiąt	num:pl:inst:m1:congr:ncol			0.0000		
+48	49	kilkudziesięciu	kilkadziesiąt	num:pl:inst:m2:congr:ncol			0.0000		
+48	49	kilkudziesięciu	kilkadziesiąt	num:pl:inst:m3:congr:ncol			0.0000		
+48	49	kilkudziesięciu	kilkadziesiąt	num:pl:inst:n:congr:ncol			0.0000		
+48	49	kilkudziesięciu	kilkadziesiąt	num:pl:loc:f:congr:ncol			0.0000		
+48	49	kilkudziesięciu	kilkadziesiąt	num:pl:loc:m1:congr:ncol			0.0000		
+48	49	kilkudziesięciu	kilkadziesiąt	num:pl:loc:m2:congr:ncol			0.0000		
+48	49	kilkudziesięciu	kilkadziesiąt	num:pl:loc:m3:congr:ncol			0.0000		
+48	49	kilkudziesięciu	kilkadziesiąt	num:pl:loc:n:congr:ncol			0.0000		
+48	49	kilkudziesięciu	kilkadziesiąt	num:pl:nom:m1:rec:ncol			0.0000		
+48	49	kilkudziesięciu	kilkadziesiąt	num:pl:voc:m1:rec:ncol			0.0000		
+49	50	lat	lato	subst:pl:gen:n:ncol	nazwa pospolita		0.0000		
+49	50	lat	rok	subst:pl:gen:m3	nazwa pospolita		1.0000		disamb
+50	51	.	.	interp			1.0000	eos	disamb
+0	1	"	"	interp			1.0000		disamb
+1	2	Czerwone	Czerwona	subst:pl:acc:f	nazwisko		0.0000		
+1	2	Czerwone	Czerwona	subst:pl:nom:f	nazwisko		0.0000		
+1	2	Czerwone	Czerwona	subst:pl:voc:f	nazwisko		0.0000		
+1	2	Czerwone	Czerwony	depr:pl:acc:m2	nazwisko		0.0000		
+1	2	Czerwone	Czerwony	depr:pl:nom:m2	nazwisko		0.0000		
+1	2	Czerwone	Czerwony	depr:pl:voc:m2	nazwisko		0.0000		
+1	2	Czerwone	czerwona	subst:pl:acc:f	nazwa pospolita		0.0000		
+1	2	Czerwone	czerwona	subst:pl:nom:f	nazwa pospolita		0.0000		
+1	2	Czerwone	czerwona	subst:pl:voc:f	nazwa pospolita		0.0000		
+1	2	Czerwone	czerwone	subst:pl:acc:n:ncol	nazwa pospolita		0.0000		
+1	2	Czerwone	czerwone	subst:pl:nom:n:ncol	nazwa pospolita		0.0000		
+1	2	Czerwone	czerwone	subst:pl:voc:n:ncol	nazwa pospolita		0.0000		
+1	2	Czerwone	czerwone	subst:sg:acc:n:ncol	nazwa pospolita		0.0000		
+1	2	Czerwone	czerwone	subst:sg:nom:n:ncol	nazwa pospolita		0.0000		
+1	2	Czerwone	czerwone	subst:sg:voc:n:ncol	nazwa pospolita		0.0000		
+1	2	Czerwone	czerwony	adj:pl:acc:f:pos			0.0000		
+1	2	Czerwone	czerwony	adj:pl:acc:m2:pos			0.0000		
+1	2	Czerwone	czerwony	adj:pl:acc:m3:pos			0.0000		
+1	2	Czerwone	czerwony	adj:pl:acc:n:pos			0.0000		
+1	2	Czerwone	czerwony	adj:pl:nom:f:pos			0.0000		
+1	2	Czerwone	czerwony	adj:pl:nom:m2:pos			0.0000		
+1	2	Czerwone	czerwony	adj:pl:nom:m3:pos			0.0000		
+1	2	Czerwone	czerwony	adj:pl:nom:n:pos			1.0000		disamb
+1	2	Czerwone	czerwony	adj:pl:voc:f:pos			0.0000		
+1	2	Czerwone	czerwony	adj:pl:voc:m2:pos			0.0000		
+1	2	Czerwone	czerwony	adj:pl:voc:m3:pos			0.0000		
+1	2	Czerwone	czerwony	adj:pl:voc:n:pos			0.0000		
+1	2	Czerwone	czerwony	adj:sg:acc:n:pos			0.0000		
+1	2	Czerwone	czerwony	adj:sg:nom:n:pos			0.0000		
+1	2	Czerwone	czerwony	adj:sg:voc:n:pos			0.0000		
+1	2	Czerwone	czerwony	depr:pl:acc:m2	nazwa pospolita		0.0000		
+1	2	Czerwone	czerwony	depr:pl:nom:m2	nazwa pospolita		0.0000		
+1	2	Czerwone	czerwony	depr:pl:voc:m2	nazwa pospolita		0.0000		
+2	3	malowidła	malowidło	subst:pl:acc:n:ncol	nazwa pospolita		0.0000		
+2	3	malowidła	malowidło	subst:pl:nom:n:ncol	nazwa pospolita		1.0000		disamb
+2	3	malowidła	malowidło	subst:pl:voc:n:ncol	nazwa pospolita		0.0000		
+2	3	malowidła	malowidło	subst:sg:gen:n:ncol	nazwa pospolita		0.0000		
+3	4	są	być	fin:pl:ter:imperf			1.0000		disamb
+4	5	szczególnie	szczególnie	adv:pos			1.0000		disamb
+5	6	urozmaicone	urozmaicić	ppas:pl:acc:f:perf:aff			0.0000		
+5	6	urozmaicone	urozmaicić	ppas:pl:acc:m2:perf:aff			0.0000		
+5	6	urozmaicone	urozmaicić	ppas:pl:acc:m3:perf:aff			0.0000		
+5	6	urozmaicone	urozmaicić	ppas:pl:acc:n:perf:aff			0.0000		
+5	6	urozmaicone	urozmaicić	ppas:pl:nom:f:perf:aff			0.0225		
+5	6	urozmaicone	urozmaicić	ppas:pl:nom:m2:perf:aff			0.0000		
+5	6	urozmaicone	urozmaicić	ppas:pl:nom:m3:perf:aff			0.9775		disamb
+5	6	urozmaicone	urozmaicić	ppas:pl:nom:n:perf:aff			0.0000		
+5	6	urozmaicone	urozmaicić	ppas:pl:voc:f:perf:aff			0.0000		
+5	6	urozmaicone	urozmaicić	ppas:pl:voc:m2:perf:aff			0.0000		
+5	6	urozmaicone	urozmaicić	ppas:pl:voc:m3:perf:aff			0.0000		
+5	6	urozmaicone	urozmaicić	ppas:pl:voc:n:perf:aff			0.0000		
+5	6	urozmaicone	urozmaicić	ppas:sg:acc:n:perf:aff			0.0000		
+5	6	urozmaicone	urozmaicić	ppas:sg:nom:n:perf:aff			0.0000		
+5	6	urozmaicone	urozmaicić	ppas:sg:voc:n:perf:aff			0.0000		
+6	7	:	:	interp			1.0000		disamb
+7	8	oprócz	oprócz	prep:gen			1.0000		disamb
+8	9	wizerunków	wizerunek	subst:pl:gen:m3	nazwa pospolita		1.0000		disamb
+9	10	zwierząt	zwierzę	subst:pl:gen:n:col	nazwa pospolita		1.0000		disamb
+9	10	zwierząt	zwierzę	subst:pl:gen:n:ncol	nazwa pospolita		1.0000		disamb
+10	11	są	być	fin:pl:ter:imperf			1.0000		disamb
+11	12	tam	tam	adv			0.9951		disamb
+11	12	tam	tam	qub			0.0049		
+11	12	tam	tama	subst:pl:gen:f	nazwa pospolita		0.0000		
+12	13	również	również	qub			1.0000		disamb
+13	14	przedstawienia	przedstawienie	subst:pl:acc:n:ncol	nazwa pospolita		0.0000		
+13	14	przedstawienia	przedstawienie	subst:pl:nom:n:ncol	nazwa pospolita		0.0000		
+13	14	przedstawienia	przedstawienie	subst:pl:voc:n:ncol	nazwa pospolita		0.0000		
+13	14	przedstawienia	przedstawienie	subst:sg:gen:n:ncol	nazwa pospolita		0.0000		
+13	14	przedstawienia	przedstawić	ger:pl:acc:n:perf:aff			0.0000		
+13	14	przedstawienia	przedstawić	ger:pl:nom:n:perf:aff			0.0010		
+13	14	przedstawienia	przedstawić	ger:sg:gen:n:perf:aff			0.9990		disamb
+14	15	meteorów	meteor	subst:pl:gen:m3	nazwa pospolita	astron.	1.0000		disamb
+15	16	lub	lub	conj			1.0000		disamb
+15	16	lub	lubić	impt:sg:sec:imperf			0.0000		
+16	17	komet	kometa	subst:pl:gen:f	nazwa pospolita		1.0000		disamb
+17	18	.	.	interp			1.0000	eos	disamb
+18	19	Nie	nie	interj			0.0000		
+18	19	Nie	nie	conj			0.0006		
+18	19	Nie	nie	qub			0.9994		disamb
+18	19	Nie	on	ppron3:pl:acc:f:ter:akc:praep			0.0000		
+18	19	Nie	on	ppron3:pl:acc:f:ter:nakc:praep			0.0000		
+18	19	Nie	on	ppron3:pl:acc:m2:ter:akc:praep			0.0000		
+18	19	Nie	on	ppron3:pl:acc:m2:ter:nakc:praep			0.0000		
+18	19	Nie	on	ppron3:pl:acc:m3:ter:akc:praep			0.0000		
+18	19	Nie	on	ppron3:pl:acc:m3:ter:nakc:praep			0.0000		
+18	19	Nie	on	ppron3:pl:acc:n:ter:akc:praep			0.0000		
+18	19	Nie	on	ppron3:pl:acc:n:ter:nakc:praep			0.0000		
+18	19	Nie	on	ppron3:sg:acc:n:ter:akc:praep			0.0000		
+18	19	Nie	on	ppron3:sg:acc:n:ter:nakc:praep			0.0000		
+19	20	tylko	tylko	conj			0.0000		
+19	20	tylko	tylko	qub			1.0000		disamb
+20	21	w	w	prep:acc:nwok			0.0000		
+20	21	w	w	prep:loc:nwok			1.0000		disamb
+21	22	archeologii	archeologia	subst:pl:gen:f	nazwa pospolita	hom.	0.0000		
+21	22	archeologii	archeologia	subst:sg:dat:f	nazwa pospolita		0.0000		
+21	22	archeologii	archeologia	subst:sg:gen:f	nazwa pospolita		0.0000		
+21	22	archeologii	archeologia	subst:sg:loc:f	nazwa pospolita		1.0000		disamb
+22	23	Afryki	Afryka	subst:pl:acc:f	nazwa geograficzna		0.0000		
+22	23	Afryki	Afryka	subst:pl:nom:f	nazwa geograficzna		0.0000		
+22	23	Afryki	Afryka	subst:pl:voc:f	nazwa geograficzna		0.0000		
+22	23	Afryki	Afryka	subst:sg:gen:f	nazwa geograficzna		1.0000		disamb
+23	24	jest	być	fin:sg:ter:imperf			1.0000		disamb
+24	25	to	ten	adj:sg:acc:n:pos			0.0000		
+24	25	to	ten	adj:sg:nom:n:pos			0.0000		
+24	25	to	ten	adj:sg:voc:n:pos			0.0000		
+24	25	to	to	pred			1.0000		disamb
+24	25	to	to	comp			0.0000		
+24	25	to	to	qub			0.0000		
+24	25	to	to	subst:sg:acc:n:ncol			0.0000		
+24	25	to	to	subst:sg:nom:n:ncol			0.0000		
+25	26	rzadkość	rzadkość	subst:sg:acc:f	nazwa pospolita		0.0000		
+25	26	rzadkość	rzadkość	subst:sg:nom:f	nazwa pospolita		1.0000		disamb
+26	27	”	”	interp			1.0000		disamb
+27	28	-	-	interp			1.0000		disamb
+28	29	zauważa	zauważać	fin:sg:ter:imperf			1.0000		disamb
+29	30	naukowiec	naukowiec	subst:sg:nom:m1	nazwa pospolita		1.0000		disamb
+30	31	.	.	interp			1.0000	eos	disamb
+31	32	Są	być	fin:pl:ter:imperf			1.0000		disamb
+32	33	też	tenże	adj:pl:acc:f:pos			0.0000		
+32	33	też	tenże	adj:pl:acc:m2:pos			0.0000		
+32	33	też	tenże	adj:pl:acc:m3:pos			0.0000		
+32	33	też	tenże	adj:pl:acc:n:pos			0.0000		
+32	33	też	tenże	adj:pl:nom:f:pos			0.9979		disamb
+32	33	też	tenże	adj:pl:nom:m2:pos			0.0000		
+32	33	też	tenże	adj:pl:nom:m3:pos			0.0000		
+32	33	też	tenże	adj:pl:nom:n:pos			0.0000		
+32	33	też	tenże	adj:pl:voc:f:pos			0.0000		
+32	33	też	tenże	adj:pl:voc:m2:pos			0.0000		
+32	33	też	tenże	adj:pl:voc:m3:pos			0.0000		
+32	33	też	tenże	adj:pl:voc:n:pos			0.0000		
+32	33	też	też	qub			0.0021		
+33	34	postaci	postać	subst:pl:acc:f	nazwa pospolita		0.0000		
+33	34	postaci	postać	subst:pl:gen:f	nazwa pospolita		0.0000		
+33	34	postaci	postać	subst:pl:nom:f	nazwa pospolita		1.0000		disamb
+33	34	postaci	postać	subst:pl:voc:f	nazwa pospolita		0.0000		
+33	34	postaci	postać	subst:sg:dat:f	nazwa pospolita		0.0000		
+33	34	postaci	postać	subst:sg:gen:f	nazwa pospolita		0.0000		
+33	34	postaci	postać	subst:sg:loc:f	nazwa pospolita		0.0000		
+33	34	postaci	postać	subst:sg:voc:f	nazwa pospolita		0.0000		
+34	35	z	z	prep:acc:nwok			0.0000		
+34	35	z	z	prep:gen:nwok			0.0000		
+34	35	z	z	prep:inst:nwok			1.0000		disamb
+35	36	charakterystycznymi	charakterystyczny	adj:pl:inst:f:pos			0.0000		
+35	36	charakterystycznymi	charakterystyczny	adj:pl:inst:m1:pos			0.0000		
+35	36	charakterystycznymi	charakterystyczny	adj:pl:inst:m2:pos			0.0000		
+35	36	charakterystycznymi	charakterystyczny	adj:pl:inst:m3:pos			0.0000		
+35	36	charakterystycznymi	charakterystyczny	adj:pl:inst:n:pos			1.0000		disamb
+36	37	przedstawieniami	przedstawienie	subst:pl:inst:n:ncol	nazwa pospolita		1.0000		disamb
+36	37	przedstawieniami	przedstawić	ger:pl:inst:n:perf:aff			0.0000		
+37	38	głów	głowa	subst:pl:gen:f	nazwa pospolita		1.0000		disamb
+37	38	głów	głowić	impt:sg:sec:imperf			0.0000		
+38	39	,	,	interp			1.0000		disamb
+39	40	które	który	adj:pl:acc:f:pos			0.0000		
+39	40	które	który	adj:pl:acc:m2:pos			0.0000		
+39	40	które	który	adj:pl:acc:m3:pos			0.0000		
+39	40	które	który	adj:pl:acc:n:pos			0.0000		
+39	40	które	który	adj:pl:nom:f:pos			0.9999		disamb
+39	40	które	który	adj:pl:nom:m2:pos			0.0001		
+39	40	które	który	adj:pl:nom:m3:pos			0.0000		
+39	40	które	który	adj:pl:nom:n:pos			0.0000		
+39	40	które	który	adj:pl:voc:f:pos			0.0000		
+39	40	które	który	adj:pl:voc:m2:pos			0.0000		
+39	40	które	który	adj:pl:voc:m3:pos			0.0000		
+39	40	które	który	adj:pl:voc:n:pos			0.0000		
+39	40	które	który	adj:sg:acc:n:pos			0.0000		
+39	40	które	który	adj:sg:nom:n:pos			0.0000		
+39	40	które	który	adj:sg:voc:n:pos			0.0000		
+40	41	przywodzą	przywodzić	fin:pl:ter:imperf			1.0000		disamb
+41	42	na	na	interj			0.0000		
+41	42	na	na	prep:acc			1.0000		disamb
+41	42	na	na	prep:loc			0.0000		
+42	43	myśl	myśl	subst:sg:acc:f	nazwa pospolita		1.0000		disamb
+42	43	myśl	myśl	subst:sg:nom:f	nazwa pospolita		0.0000		
+42	43	myśl	myśleć	impt:sg:sec:imperf			0.0000		
+42	43	myśl	myślić	impt:sg:sec:imperf		daw.	0.0000		
+43	44	baobaby	baobab	subst:pl:acc:m3	nazwa pospolita	bot.	0.5949		disamb
+43	44	baobaby	baobab	subst:pl:nom:m3	nazwa pospolita	bot.	0.4051		
+43	44	baobaby	baobab	subst:pl:voc:m3	nazwa pospolita	bot.	0.0000		
+44	45	.	.	interp			1.0000	eos	disamb
+45	46	"	"	interp			1.0000		disamb
+46	47	Być	Być	subst:sg:nom:m1	nazwisko		0.0003		
+46	47	Być	Być	subst:pl:acc:f	nazwisko		0.0000		
+46	47	Być	Być	subst:pl:dat:f	nazwisko		0.0000		
+46	47	Być	Być	subst:pl:gen:f	nazwisko		0.0000		
+46	47	Być	Być	subst:pl:inst:f	nazwisko		0.0000		
+46	47	Być	Być	subst:pl:loc:f	nazwisko		0.0000		
+46	47	Być	Być	subst:pl:nom:f	nazwisko		0.0000		
+46	47	Być	Być	subst:pl:voc:f	nazwisko		0.0000		
+46	47	Być	Być	subst:sg:acc:f	nazwisko		0.0000		
+46	47	Być	Być	subst:sg:dat:f	nazwisko		0.0000		
+46	47	Być	Być	subst:sg:gen:f	nazwisko		0.0000		
+46	47	Być	Być	subst:sg:inst:f	nazwisko		0.0000		
+46	47	Być	Być	subst:sg:loc:f	nazwisko		0.0000		
+46	47	Być	Być	subst:sg:nom:f	nazwisko		0.0000		
+46	47	Być	Być	subst:sg:voc:f	nazwisko		0.0000		
+46	47	Być	bycie	subst:pl:gen:n:ncol	nazwa pospolita		0.0000		
+46	47	Być	być	ger:pl:gen:n:imperf:aff			0.0000		
+46	47	Być	być	inf:imperf			0.9997		disamb
+47	48	może	może	interj			0.0000		
+47	48	może	może	qub			0.0000		
+47	48	może	móc	fin:sg:ter:imperf			1.0000		disamb
+48	49	mamy	mama	subst:pl:acc:f	nazwa pospolita		0.0000		
+48	49	mamy	mama	subst:pl:nom:f	nazwa pospolita		0.0000		
+48	49	mamy	mama	subst:pl:voc:f	nazwa pospolita		0.0000		
+48	49	mamy	mama	subst:sg:gen:f	nazwa pospolita		0.0000		
+48	49	mamy	mieć	fin:pl:pri:imperf			1.0000		disamb
+49	50	do	do	prep:gen			1.0000		disamb
+49	50	do	do	subst:pl:acc:n:ncol	nazwa pospolita	muz.	0.0000		
+49	50	do	do	subst:pl:dat:n:ncol	nazwa pospolita	muz.	0.0000		
+49	50	do	do	subst:pl:gen:n:ncol	nazwa pospolita	muz.	0.0000		
+49	50	do	do	subst:pl:inst:n:ncol	nazwa pospolita	muz.	0.0000		
+49	50	do	do	subst:pl:loc:n:ncol	nazwa pospolita	muz.	0.0000		
+49	50	do	do	subst:pl:nom:n:ncol	nazwa pospolita	muz.	0.0000		
+49	50	do	do	subst:pl:voc:n:ncol	nazwa pospolita	muz.	0.0000		
+49	50	do	do	subst:sg:acc:n:ncol	nazwa pospolita	muz.	0.0000		
+49	50	do	do	subst:sg:dat:n:ncol	nazwa pospolita	muz.	0.0000		
+49	50	do	do	subst:sg:gen:n:ncol	nazwa pospolita	muz.	0.0000		
+49	50	do	do	subst:sg:inst:n:ncol	nazwa pospolita	muz.	0.0000		
+49	50	do	do	subst:sg:loc:n:ncol	nazwa pospolita	muz.	0.0000		
+49	50	do	do	subst:sg:nom:n:ncol	nazwa pospolita	muz.	0.0000		
+49	50	do	do	subst:sg:voc:n:ncol	nazwa pospolita	muz.	0.0000		
+50	51	czynienia	czynienie	subst:pl:acc:n:ncol	nazwa pospolita		0.0000		
+50	51	czynienia	czynienie	subst:pl:nom:n:ncol	nazwa pospolita		0.0000		
+50	51	czynienia	czynienie	subst:pl:voc:n:ncol	nazwa pospolita		0.0000		
+50	51	czynienia	czynienie	subst:sg:gen:n:ncol	nazwa pospolita		0.0001		
+50	51	czynienia	czynić	ger:pl:acc:n:imperf:aff			0.0000		
+50	51	czynienia	czynić	ger:pl:nom:n:imperf:aff			0.0000		
+50	51	czynienia	czynić	ger:sg:gen:n:imperf:aff			0.9999		disamb
+51	52	z	z	prep:acc:nwok			0.0000		
+51	52	z	z	prep:gen:nwok			0.0000		
+51	52	z	z	prep:inst:nwok			1.0000		disamb
+52	53	wizerunkami	wizerunek	subst:pl:inst:m3	nazwa pospolita		1.0000		disamb
+53	54	związanymi	związać	ppas:pl:inst:f:perf:aff			0.0000		
+53	54	związanymi	związać	ppas:pl:inst:m1:perf:aff			0.0000		
+53	54	związanymi	związać	ppas:pl:inst:m2:perf:aff			0.0000		
+53	54	związanymi	związać	ppas:pl:inst:m3:perf:aff			1.0000		disamb
+53	54	związanymi	związać	ppas:pl:inst:n:perf:aff			0.0000		
+54	55	z	z	prep:acc:nwok			0.0000		
+54	55	z	z	prep:gen:nwok			0.0000		
+54	55	z	z	prep:inst:nwok			1.0000		disamb
+55	56	mitologią	mitologia	subst:sg:inst:f	nazwa pospolita		1.0000		disamb
+56	57	-	-	interp			1.0000		disamb
+57	58	baobaby	baobab	subst:pl:acc:m3	nazwa pospolita	bot.	0.0000		
+57	58	baobaby	baobab	subst:pl:nom:m3	nazwa pospolita	bot.	1.0000		disamb
+57	58	baobaby	baobab	subst:pl:voc:m3	nazwa pospolita	bot.	0.0000		
+58	59	odgrywały	odgrywać	praet:pl:f:imperf			0.0009		
+58	59	odgrywały	odgrywać	praet:pl:m2:imperf			0.0256		
+58	59	odgrywały	odgrywać	praet:pl:m3:imperf			0.9734		disamb
+58	59	odgrywały	odgrywać	praet:pl:n:imperf			0.0001		
+59	60	ważną	ważny	adj:sg:acc:f:pos			1.0000		disamb
+59	60	ważną	ważny	adj:sg:inst:f:pos			0.0000		
+60	61	rolę	rola	subst:sg:acc:f	nazwa pospolita		1.0000		disamb
+61	62	przy	przy	prep:loc			1.0000		disamb
+62	63	stworzeniu	stworzenie	subst:sg:dat:n:ncol	nazwa pospolita		0.0000		
+62	63	stworzeniu	stworzenie	subst:sg:loc:n:ncol	nazwa pospolita		0.5762		disamb
+62	63	stworzeniu	stworzyć	ger:sg:dat:n:perf:aff			0.0000		
+62	63	stworzeniu	stworzyć	ger:sg:loc:n:perf:aff			0.4238		
+63	64	ludzkości	ludzkość	subst:pl:acc:f	nazwa pospolita		0.0000		
+63	64	ludzkości	ludzkość	subst:pl:gen:f	nazwa pospolita		0.0000		
+63	64	ludzkości	ludzkość	subst:pl:nom:f	nazwa pospolita		0.0000		
+63	64	ludzkości	ludzkość	subst:pl:voc:f	nazwa pospolita		0.0000		
+63	64	ludzkości	ludzkość	subst:sg:dat:f	nazwa pospolita		0.0000		
+63	64	ludzkości	ludzkość	subst:sg:gen:f	nazwa pospolita		1.0000		disamb
+63	64	ludzkości	ludzkość	subst:sg:loc:f	nazwa pospolita		0.0000		
+63	64	ludzkości	ludzkość	subst:sg:voc:f	nazwa pospolita		0.0000		
+64	65	wśród	wśród	prep:gen			1.0000		disamb
+65	66	wierzeń	wierzenie	subst:pl:gen:n:ncol	nazwa pospolita		0.0007		
+65	66	wierzeń	wierzyć	ger:pl:gen:n:imperf:aff			0.9993		disamb
+66	67	lokalnej	lokalny	adj:sg:dat:f:pos			0.0000		
+66	67	lokalnej	lokalny	adj:sg:gen:f:pos			1.0000		disamb
+66	67	lokalnej	lokalny	adj:sg:loc:f:pos			0.0000		
+67	68	ludności	ludność	subst:pl:acc:f	nazwa pospolita		0.0000		
+67	68	ludności	ludność	subst:pl:gen:f	nazwa pospolita		0.0000		
+67	68	ludności	ludność	subst:pl:nom:f	nazwa pospolita		0.0000		
+67	68	ludności	ludność	subst:pl:voc:f	nazwa pospolita		0.0000		
+67	68	ludności	ludność	subst:sg:dat:f	nazwa pospolita		0.0000		
+67	68	ludności	ludność	subst:sg:gen:f	nazwa pospolita		1.0000		disamb
+67	68	ludności	ludność	subst:sg:loc:f	nazwa pospolita		0.0000		
+67	68	ludności	ludność	subst:sg:voc:f	nazwa pospolita		0.0000		
+68	69	”	”	interp			1.0000		disamb
+69	70	-	-	interp			1.0000		disamb
+70	71	opowiada	opowiadać	fin:sg:ter:imperf			1.0000		disamb
+71	72	archeolog	archeolog	subst:sg:nom:m1	nazwa pospolita		1.0000		disamb
+72	73	.	.	interp			1.0000	eos	disamb
+0	1	Malowidła	malowidło	subst:pl:acc:n:ncol	nazwa pospolita		0.0000		
+0	1	Malowidła	malowidło	subst:pl:nom:n:ncol	nazwa pospolita		1.0000		disamb
+0	1	Malowidła	malowidło	subst:pl:voc:n:ncol	nazwa pospolita		0.0000		
+0	1	Malowidła	malowidło	subst:sg:gen:n:ncol	nazwa pospolita		0.0000		
+1	2	młodsze	młodsza	subst:pl:acc:f	nazwa pospolita	przest.	0.0000		
+1	2	młodsze	młodsza	subst:pl:nom:f	nazwa pospolita	przest.	0.0000		
+1	2	młodsze	młodsza	subst:pl:voc:f	nazwa pospolita	przest.	0.0000		
+1	2	młodsze	młody	adj:pl:acc:f:com			0.0000		
+1	2	młodsze	młody	adj:pl:acc:m2:com			0.0000		
+1	2	młodsze	młody	adj:pl:acc:m3:com			0.0000		
+1	2	młodsze	młody	adj:pl:acc:n:com			0.0000		
+1	2	młodsze	młody	adj:pl:nom:f:com			0.0074		
+1	2	młodsze	młody	adj:pl:nom:m2:com			0.0000		
+1	2	młodsze	młody	adj:pl:nom:m3:com			0.0000		
+1	2	młodsze	młody	adj:pl:nom:n:com			0.9926		disamb
+1	2	młodsze	młody	adj:pl:voc:f:com			0.0000		
+1	2	młodsze	młody	adj:pl:voc:m2:com			0.0000		
+1	2	młodsze	młody	adj:pl:voc:m3:com			0.0000		
+1	2	młodsze	młody	adj:pl:voc:n:com			0.0000		
+1	2	młodsze	młody	adj:sg:acc:n:com			0.0000		
+1	2	młodsze	młody	adj:sg:nom:n:com			0.0000		
+1	2	młodsze	młody	adj:sg:voc:n:com			0.0000		
+2	3	-	-	interp			1.0000		disamb
+3	4	białe	biały	adj:pl:acc:f:pos			0.0000		
+3	4	białe	biały	adj:pl:acc:m2:pos			0.0000		
+3	4	białe	biały	adj:pl:acc:m3:pos			0.0000		
+3	4	białe	biały	adj:pl:acc:n:pos			0.0000		
+3	4	białe	biały	adj:pl:nom:f:pos			0.0074		
+3	4	białe	biały	adj:pl:nom:m2:pos			0.0000		
+3	4	białe	biały	adj:pl:nom:m3:pos			0.0000		
+3	4	białe	biały	adj:pl:nom:n:pos			0.9925		disamb
+3	4	białe	biały	adj:pl:voc:f:pos			0.0000		
+3	4	białe	biały	adj:pl:voc:m2:pos			0.0000		
+3	4	białe	biały	adj:pl:voc:m3:pos			0.0000		
+3	4	białe	biały	adj:pl:voc:n:pos			0.0000		
+3	4	białe	biały	adj:sg:acc:n:pos			0.0000		
+3	4	białe	biały	adj:sg:nom:n:pos			0.0000		
+3	4	białe	biały	adj:sg:voc:n:pos			0.0000		
+3	4	białe	biały	depr:pl:acc:m2	nazwa pospolita		0.0000		
+3	4	białe	biały	depr:pl:nom:m2	nazwa pospolita		0.0000		
+3	4	białe	biały	depr:pl:voc:m2	nazwa pospolita		0.0000		
+4	5	-	-	interp			1.0000		disamb
+5	6	ukazują	ukazować	fin:pl:ter:imperf		daw.	1.0000		disamb
+5	6	ukazują	ukazywać	fin:pl:ter:imperf			1.0000		disamb
+6	7	wyłącznie	wyłącznie	adv:pos			1.0000		disamb
+7	8	zwierzęta	zwierzę	subst:pl:acc:n:col	nazwa pospolita		0.9675		disamb
+7	8	zwierzęta	zwierzę	subst:pl:acc:n:ncol	nazwa pospolita		0.9675		disamb
+7	8	zwierzęta	zwierzę	subst:pl:nom:n:col	nazwa pospolita		0.0325		
+7	8	zwierzęta	zwierzę	subst:pl:nom:n:ncol	nazwa pospolita		0.0325		
+7	8	zwierzęta	zwierzę	subst:pl:voc:n:col	nazwa pospolita		0.0000		
+7	8	zwierzęta	zwierzę	subst:pl:voc:n:ncol	nazwa pospolita		0.0000		
+8	9	,	,	interp			1.0000		disamb
+9	10	głównie	głównia	subst:pl:acc:f	nazwa pospolita	daw.	0.0000		
+9	10	głównie	głównia	subst:pl:nom:f	nazwa pospolita	daw.	0.0000		
+9	10	głównie	głównia	subst:pl:voc:f	nazwa pospolita	daw.	0.0000		
+9	10	głównie	głównie	adv:pos			1.0000		disamb
+10	11	żyrafy	żyrafa	subst:pl:acc:f	nazwa pospolita	zool.	0.9998		disamb
+10	11	żyrafy	żyrafa	subst:pl:nom:f	nazwa pospolita	zool.	0.0000		
+10	11	żyrafy	żyrafa	subst:pl:voc:f	nazwa pospolita	zool.	0.0000		
+10	11	żyrafy	żyrafa	subst:sg:gen:f	nazwa pospolita	zool.	0.0002		
+11	12	i	i	interj			0.0000		
+11	12	i	i	conj			1.0000		disamb
+11	12	i	i	qub			0.0000		
+12	13	słonie	słoń	subst:pl:acc:m2	nazwa pospolita		1.0000		disamb
+12	13	słonie	słoń	subst:pl:nom:m2	nazwa pospolita		0.0000		
+12	13	słonie	słoń	subst:pl:voc:m2	nazwa pospolita		0.0000		
+13	14	;	;	interp			1.0000		disamb
+14	15	często	często	adv:pos			1.0000		disamb
+15	16	w	w	prep:acc:nwok			0.0000		
+15	16	w	w	prep:loc:nwok			1.0000		disamb
+16	17	ciąży	ciąża	subst:sg:dat:f	nazwa pospolita		0.0000		
+16	17	ciąży	ciąża	subst:sg:gen:f	nazwa pospolita		0.0000		
+16	17	ciąży	ciąża	subst:sg:loc:f	nazwa pospolita		1.0000		disamb
+16	17	ciąży	ciążyć	fin:sg:ter:imperf			0.0000		
+17	18	,	,	interp			1.0000		disamb
+18	19	a	a	interj			0.0000		
+18	19	a	a	conj			1.0000		disamb
+18	19	a	a	prep:nom			0.0000		
+18	19	a	a	qub			0.0000		
+19	20	czasem	czas	subst:sg:inst:m3	nazwa pospolita		1.0000		disamb
+20	21	nawet	nawet	qub			1.0000		disamb
+21	22	w	w	prep:acc:nwok			0.0000		
+21	22	w	w	prep:loc:nwok			1.0000		disamb
+22	23	czasie	czas	subst:sg:loc:m3	nazwa pospolita		1.0000		disamb
+22	23	czasie	czas	subst:sg:voc:m3	nazwa pospolita		0.0000		
+23	24	porodu	poród	subst:sg:gen:m3	nazwa pospolita		1.0000		disamb
+24	25	.	.	interp			1.0000	eos	disamb
+25	26	Być	Być	subst:sg:nom:m1	nazwisko		0.0000		
+25	26	Być	Być	subst:pl:acc:f	nazwisko		0.0000		
+25	26	Być	Być	subst:pl:dat:f	nazwisko		0.0000		
+25	26	Być	Być	subst:pl:gen:f	nazwisko		0.0000		
+25	26	Być	Być	subst:pl:inst:f	nazwisko		0.0000		
+25	26	Być	Być	subst:pl:loc:f	nazwisko		0.0000		
+25	26	Być	Być	subst:pl:nom:f	nazwisko		0.0000		
+25	26	Być	Być	subst:pl:voc:f	nazwisko		0.0000		
+25	26	Być	Być	subst:sg:acc:f	nazwisko		0.0000		
+25	26	Być	Być	subst:sg:dat:f	nazwisko		0.0000		
+25	26	Być	Być	subst:sg:gen:f	nazwisko		0.0000		
+25	26	Być	Być	subst:sg:inst:f	nazwisko		0.0000		
+25	26	Być	Być	subst:sg:loc:f	nazwisko		0.0000		
+25	26	Być	Być	subst:sg:nom:f	nazwisko		0.0000		
+25	26	Być	Być	subst:sg:voc:f	nazwisko		0.0000		
+25	26	Być	bycie	subst:pl:gen:n:ncol	nazwa pospolita		0.0000		
+25	26	Być	być	ger:pl:gen:n:imperf:aff			0.0000		
+25	26	Być	być	inf:imperf			1.0000		disamb
+26	27	może	może	interj			0.0000		
+26	27	może	może	qub			0.0000		
+26	27	może	móc	fin:sg:ter:imperf			1.0000		disamb
+27	28	rysunki	rysunek	subst:pl:acc:m3	nazwa pospolita		0.0234		
+27	28	rysunki	rysunek	subst:pl:nom:m3	nazwa pospolita		0.9766		disamb
+27	28	rysunki	rysunek	subst:pl:voc:m3	nazwa pospolita		0.0000		
+27	28	rysunki	rysunki	subst:pl:acc:n:pt	nazwa pospolita		0.0000		
+27	28	rysunki	rysunki	subst:pl:nom:n:pt	nazwa pospolita		0.0000		
+27	28	rysunki	rysunki	subst:pl:voc:n:pt	nazwa pospolita		0.0000		
+28	29	te	te	subst:pl:acc:n:ncol	nazwa pospolita		0.0000		
+28	29	te	te	subst:pl:dat:n:ncol	nazwa pospolita		0.0000		
+28	29	te	te	subst:pl:gen:n:ncol	nazwa pospolita		0.0000		
+28	29	te	te	subst:pl:inst:n:ncol	nazwa pospolita		0.0000		
+28	29	te	te	subst:pl:loc:n:ncol	nazwa pospolita		0.0000		
+28	29	te	te	subst:pl:nom:n:ncol	nazwa pospolita		0.0000		
+28	29	te	te	subst:pl:voc:n:ncol	nazwa pospolita		0.0000		
+28	29	te	te	subst:sg:acc:n:ncol	nazwa pospolita		0.0000		
+28	29	te	te	subst:sg:dat:n:ncol	nazwa pospolita		0.0000		
+28	29	te	te	subst:sg:gen:n:ncol	nazwa pospolita		0.0000		
+28	29	te	te	subst:sg:inst:n:ncol	nazwa pospolita		0.0000		
+28	29	te	te	subst:sg:loc:n:ncol	nazwa pospolita		0.0000		
+28	29	te	te	subst:sg:nom:n:ncol	nazwa pospolita		0.0000		
+28	29	te	te	subst:sg:voc:n:ncol	nazwa pospolita		0.0000		
+28	29	te	ten	adj:pl:acc:f:pos			0.0000		
+28	29	te	ten	adj:pl:acc:m2:pos			0.0000		
+28	29	te	ten	adj:pl:acc:m3:pos			0.9993		disamb
+28	29	te	ten	adj:pl:acc:n:pos			0.0000		
+28	29	te	ten	adj:pl:nom:f:pos			0.0000		
+28	29	te	ten	adj:pl:nom:m2:pos			0.0000		
+28	29	te	ten	adj:pl:nom:m3:pos			0.0007		
+28	29	te	ten	adj:pl:nom:n:pos			0.0000		
+28	29	te	ten	adj:pl:voc:f:pos			0.0000		
+28	29	te	ten	adj:pl:voc:m2:pos			0.0000		
+28	29	te	ten	adj:pl:voc:m3:pos			0.0000		
+28	29	te	ten	adj:pl:voc:n:pos			0.0000		
+28	29	te	ty	ppron12:sg:voc:f:sec		niepopr.,pot.	0.0000		
+28	29	te	ty	ppron12:sg:voc:m1:sec		niepopr.,pot.	0.0000		
+28	29	te	ty	ppron12:sg:voc:m2:sec		niepopr.,pot.	0.0000		
+28	29	te	ty	ppron12:sg:voc:m3:sec		niepopr.,pot.	0.0000		
+28	29	te	ty	ppron12:sg:voc:n:sec		niepopr.,pot.	0.0000		
+29	30	odgrywały	odgrywać	praet:pl:f:imperf			0.0000		
+29	30	odgrywały	odgrywać	praet:pl:m2:imperf			0.0000		
+29	30	odgrywały	odgrywać	praet:pl:m3:imperf			1.0000		disamb
+29	30	odgrywały	odgrywać	praet:pl:n:imperf			0.0000		
+30	31	ważną	ważny	adj:sg:acc:f:pos			1.0000		disamb
+30	31	ważną	ważny	adj:sg:inst:f:pos			0.0000		
+31	32	rolę	rola	subst:sg:acc:f	nazwa pospolita		1.0000		disamb
+32	33	w	w	prep:acc:nwok			0.0000		
+32	33	w	w	prep:loc:nwok			1.0000		disamb
+33	34	czasie	czas	subst:sg:loc:m3	nazwa pospolita		1.0000		disamb
+33	34	czasie	czas	subst:sg:voc:m3	nazwa pospolita		0.0000		
+34	35	rytuałów	rytuał	subst:pl:gen:m3	nazwa pospolita		1.0000		disamb
+35	36	związanych	związać	ppas:pl:acc:m1:perf:aff			0.0000		
+35	36	związanych	związać	ppas:pl:gen:f:perf:aff			0.0000		
+35	36	związanych	związać	ppas:pl:gen:m1:perf:aff			0.0000		
+35	36	związanych	związać	ppas:pl:gen:m2:perf:aff			0.0000		
+35	36	związanych	związać	ppas:pl:gen:m3:perf:aff			1.0000		disamb
+35	36	związanych	związać	ppas:pl:gen:n:perf:aff			0.0000		
+35	36	związanych	związać	ppas:pl:loc:f:perf:aff			0.0000		
+35	36	związanych	związać	ppas:pl:loc:m1:perf:aff			0.0000		
+35	36	związanych	związać	ppas:pl:loc:m2:perf:aff			0.0000		
+35	36	związanych	związać	ppas:pl:loc:m3:perf:aff			0.0000		
+35	36	związanych	związać	ppas:pl:loc:n:perf:aff			0.0000		
+36	37	z	z	prep:acc:nwok			0.0000		
+36	37	z	z	prep:gen:nwok			0.0000		
+36	37	z	z	prep:inst:nwok			1.0000		disamb
+37	38	płodnością	płodność	subst:sg:inst:f	nazwa pospolita		1.0000		disamb
+38	39	-	-	interp			1.0000		disamb
+39	40	modlono	modlić	imps:imperf			1.0000		disamb
+40	41	się	się	qub			1.0000		disamb
+41	42	o	o	interj			0.0000		
+41	42	o	o	prep:acc			1.0000		disamb
+41	42	o	o	prep:loc			0.0000		
+42	43	to	ten	adj:sg:acc:n:pos			0.0000		
+42	43	to	ten	adj:sg:nom:n:pos			0.0000		
+42	43	to	ten	adj:sg:voc:n:pos			0.0000		
+42	43	to	to	pred			0.0000		
+42	43	to	to	comp			0.0000		
+42	43	to	to	qub			0.0000		
+42	43	to	to	subst:sg:acc:n:ncol			1.0000		disamb
+42	43	to	to	subst:sg:nom:n:ncol			0.0000		
+43	44	,	,	interp			1.0000		disamb
+44	45	żeby	żeby	comp			1.0000		disamb
+44	45	żeby	żeby	qub			0.0000		
+45	46	zwierzęta	zwierzę	subst:pl:acc:n:col	nazwa pospolita		0.2527		
+45	46	zwierzęta	zwierzę	subst:pl:acc:n:ncol	nazwa pospolita		0.2527		
+45	46	zwierzęta	zwierzę	subst:pl:nom:n:col	nazwa pospolita		0.7473		disamb
+45	46	zwierzęta	zwierzę	subst:pl:nom:n:ncol	nazwa pospolita		0.7473		disamb
+45	46	zwierzęta	zwierzę	subst:pl:voc:n:col	nazwa pospolita		0.0000		
+45	46	zwierzęta	zwierzę	subst:pl:voc:n:ncol	nazwa pospolita		0.0000		
+46	47	,	,	interp			1.0000		disamb
+47	48	na	na	interj			0.0000		
+47	48	na	na	prep:acc			1.0000		disamb
+47	48	na	na	prep:loc			0.0000		
+48	49	które	który	adj:pl:acc:f:pos			0.3754		
+48	49	które	który	adj:pl:acc:m2:pos			0.0000		
+48	49	które	który	adj:pl:acc:m3:pos			0.0153		
+48	49	które	który	adj:pl:acc:n:pos			0.0001		
+48	49	które	który	adj:pl:nom:f:pos			0.0000		
+48	49	które	który	adj:pl:nom:m2:pos			0.0000		
+48	49	które	który	adj:pl:nom:m3:pos			0.0000		
+48	49	które	który	adj:pl:nom:n:pos			0.0000		
+48	49	które	który	adj:pl:voc:f:pos			0.0000		
+48	49	które	który	adj:pl:voc:m2:pos			0.0000		
+48	49	które	który	adj:pl:voc:m3:pos			0.0000		
+48	49	które	który	adj:pl:voc:n:pos			0.0000		
+48	49	które	który	adj:sg:acc:n:pos			0.6092		disamb
+48	49	które	który	adj:sg:nom:n:pos			0.0000		
+48	49	które	który	adj:sg:voc:n:pos			0.0000		
+49	50	na	na	interj			0.0000		
+49	50	na	na	prep:acc			1.0000		disamb
+49	50	na	na	prep:loc			0.0000		
+50	51	co	co	comp			0.0000		
+50	51	co	co	prep:acc			0.9999		disamb
+50	51	co	co	prep:nom			0.0000		
+50	51	co	co	prep:gen		przest.	0.0000		
+50	51	co	co	qub			0.0001		
+50	51	co	co	subst:sg:acc:n:ncol		z_d.	0.0000		
+50	51	co	co	subst:sg:gen:n:ncol		rzad.	0.0000		
+50	51	co	co	subst:sg:nom:n:ncol		z_d.	0.0000		
+51	52	dzień	dzienia	subst:pl:gen:f	nazwa pospolita	char.,daw.	0.0000		
+51	52	dzień	dzienie	subst:pl:gen:n:ncol	nazwa pospolita	daw.	0.0000		
+51	52	dzień	dzienić	impt:sg:sec:imperf		daw.	0.0000		
+51	52	dzień	dzień	subst:sg:acc:m3	nazwa pospolita		1.0000		disamb
+51	52	dzień	dzień	subst:sg:nom:m3	nazwa pospolita		0.0000		
+51	52	dzień	dzień	subst:sg:acc:f	nazwa pospolita	daw.,pszcz.	0.0000		
+51	52	dzień	dzień	subst:sg:nom:f	nazwa pospolita	daw.,pszcz.	0.0000		
+52	53	polowano	polować	imps:imperf			1.0000		disamb
+53	54	,	,	interp			1.0000		disamb
+54	55	pomyślnie	pomyślnie	adv:pos			1.0000		disamb
+55	56	się	się	qub			1.0000		disamb
+56	57	rozmnażały	rozmnażać	praet:pl:f:imperf			0.9992		disamb
+56	57	rozmnażały	rozmnażać	praet:pl:m2:imperf			0.0000		
+56	57	rozmnażały	rozmnażać	praet:pl:m3:imperf			0.0008		
+56	57	rozmnażały	rozmnażać	praet:pl:n:imperf			0.0000		
+57	58	i	i	interj			0.0000		
+57	58	i	i	conj			1.0000		disamb
+57	58	i	i	qub			0.0000		
+58	59	tym	ten	adj:pl:dat:f:pos			0.0000		
+58	59	tym	ten	adj:pl:dat:m1:pos			0.0000		
+58	59	tym	ten	adj:pl:dat:m2:pos			0.0000		
+58	59	tym	ten	adj:pl:dat:m3:pos			0.0000		
+58	59	tym	ten	adj:pl:dat:n:pos			0.0000		
+58	59	tym	ten	adj:sg:inst:m1:pos			0.0000		
+58	59	tym	ten	adj:sg:inst:m2:pos			0.0000		
+58	59	tym	ten	adj:sg:inst:m3:pos			0.0000		
+58	59	tym	ten	adj:sg:inst:n:pos			0.0000		
+58	59	tym	ten	adj:sg:loc:m1:pos			0.0000		
+58	59	tym	ten	adj:sg:loc:m2:pos			0.0000		
+58	59	tym	ten	adj:sg:loc:m3:pos			0.0000		
+58	59	tym	ten	adj:sg:loc:n:pos			0.0000		
+58	59	tym	to	subst:sg:inst:n:ncol			1.0000		disamb
+58	59	tym	to	subst:sg:loc:n:ncol			0.0000		
+58	59	tym	tym	adv			0.0000		
+58	59	tym	tym	conj			0.0000		
+59	60	samym	sam	adj:pl:dat:f:pos			0.0000		
+59	60	samym	sam	adj:pl:dat:m1:pos			0.0000		
+59	60	samym	sam	adj:pl:dat:m2:pos			0.0000		
+59	60	samym	sam	adj:pl:dat:m3:pos			0.0000		
+59	60	samym	sam	adj:pl:dat:n:pos			0.0000		
+59	60	samym	sam	adj:sg:inst:m1:pos			0.0001		
+59	60	samym	sam	adj:sg:inst:m2:pos			0.0000		
+59	60	samym	sam	adj:sg:inst:m3:pos			0.0028		
+59	60	samym	sam	adj:sg:inst:n:pos			0.9971		disamb
+59	60	samym	sam	adj:sg:loc:m1:pos			0.0000		
+59	60	samym	sam	adj:sg:loc:m2:pos			0.0000		
+59	60	samym	sam	adj:sg:loc:m3:pos			0.0000		
+59	60	samym	sam	adj:sg:loc:n:pos			0.0000		
+60	61	zapewniały	zapewniać	praet:pl:f:imperf			0.0074		
+60	61	zapewniały	zapewniać	praet:pl:m2:imperf			0.0000		
+60	61	zapewniały	zapewniać	praet:pl:m3:imperf			0.9924		disamb
+60	61	zapewniały	zapewniać	praet:pl:n:imperf			0.0002		
+61	62	dostatek	dostatek	subst:sg:acc:m3	nazwa pospolita		0.5625		disamb
+61	62	dostatek	dostatek	subst:sg:nom:m3	nazwa pospolita		0.4375		
+62	63	również	również	qub			1.0000		disamb
+63	64	polującym	polować	pact:pl:dat:f:imperf:aff			0.2848		
+63	64	polującym	polować	pact:pl:dat:m1:imperf:aff			0.3289		disamb
+63	64	polującym	polować	pact:pl:dat:m2:imperf:aff			0.0000		
+63	64	polującym	polować	pact:pl:dat:m3:imperf:aff			0.0000		
+63	64	polującym	polować	pact:pl:dat:n:imperf:aff			0.0000		
+63	64	polującym	polować	pact:sg:inst:m1:imperf:aff			0.1970		
+63	64	polującym	polować	pact:sg:inst:m2:imperf:aff			0.0000		
+63	64	polującym	polować	pact:sg:inst:m3:imperf:aff			0.0000		
+63	64	polującym	polować	pact:sg:inst:n:imperf:aff			0.0045		
+63	64	polującym	polować	pact:sg:loc:m1:imperf:aff			0.1806		
+63	64	polującym	polować	pact:sg:loc:m2:imperf:aff			0.0000		
+63	64	polującym	polować	pact:sg:loc:m3:imperf:aff			0.0000		
+63	64	polującym	polować	pact:sg:loc:n:imperf:aff			0.0041		
+64	65	-	-	interp			1.0000		disamb
+65	66	sugeruje	sugerować	fin:sg:ter:imperf			1.0000		disamb
+66	67	Grzelczyk	Grzelczyk	subst:sg:nom:m1	nazwisko		0.9803		disamb
+66	67	Grzelczyk	Grzelczyk	subst:pl:acc:f	nazwisko		0.0003		
+66	67	Grzelczyk	Grzelczyk	subst:pl:dat:f	nazwisko		0.0000		
+66	67	Grzelczyk	Grzelczyk	subst:pl:gen:f	nazwisko		0.0000		
+66	67	Grzelczyk	Grzelczyk	subst:pl:inst:f	nazwisko		0.0000		
+66	67	Grzelczyk	Grzelczyk	subst:pl:loc:f	nazwisko		0.0000		
+66	67	Grzelczyk	Grzelczyk	subst:pl:nom:f	nazwisko		0.0001		
+66	67	Grzelczyk	Grzelczyk	subst:pl:voc:f	nazwisko		0.0000		
+66	67	Grzelczyk	Grzelczyk	subst:sg:acc:f	nazwisko		0.0160		
+66	67	Grzelczyk	Grzelczyk	subst:sg:dat:f	nazwisko		0.0000		
+66	67	Grzelczyk	Grzelczyk	subst:sg:gen:f	nazwisko		0.0000		
+66	67	Grzelczyk	Grzelczyk	subst:sg:inst:f	nazwisko		0.0000		
+66	67	Grzelczyk	Grzelczyk	subst:sg:loc:f	nazwisko		0.0000		
+66	67	Grzelczyk	Grzelczyk	subst:sg:nom:f	nazwisko		0.0033		
+66	67	Grzelczyk	Grzelczyk	subst:sg:voc:f	nazwisko		0.0000		
+67	68	.	.	interp			1.0000	eos	disamb
+0	1	"	"	interp			1.0000		disamb
+1	2	Do	do	prep:gen			1.0000		disamb
+1	2	Do	do	subst:pl:acc:n:ncol	nazwa pospolita	muz.	0.0000		
+1	2	Do	do	subst:pl:dat:n:ncol	nazwa pospolita	muz.	0.0000		
+1	2	Do	do	subst:pl:gen:n:ncol	nazwa pospolita	muz.	0.0000		
+1	2	Do	do	subst:pl:inst:n:ncol	nazwa pospolita	muz.	0.0000		
+1	2	Do	do	subst:pl:loc:n:ncol	nazwa pospolita	muz.	0.0000		
+1	2	Do	do	subst:pl:nom:n:ncol	nazwa pospolita	muz.	0.0000		
+1	2	Do	do	subst:pl:voc:n:ncol	nazwa pospolita	muz.	0.0000		
+1	2	Do	do	subst:sg:acc:n:ncol	nazwa pospolita	muz.	0.0000		
+1	2	Do	do	subst:sg:dat:n:ncol	nazwa pospolita	muz.	0.0000		
+1	2	Do	do	subst:sg:gen:n:ncol	nazwa pospolita	muz.	0.0000		
+1	2	Do	do	subst:sg:inst:n:ncol	nazwa pospolita	muz.	0.0000		
+1	2	Do	do	subst:sg:loc:n:ncol	nazwa pospolita	muz.	0.0000		
+1	2	Do	do	subst:sg:nom:n:ncol	nazwa pospolita	muz.	0.0000		
+1	2	Do	do	subst:sg:voc:n:ncol	nazwa pospolita	muz.	0.0000		
+2	3	dziś	dziś	adv			0.0000		
+2	3	dziś	dziś	subst:pl:acc:n:ncol	nazwa pospolita		0.0000		
+2	3	dziś	dziś	subst:pl:dat:n:ncol	nazwa pospolita		0.0000		
+2	3	dziś	dziś	subst:pl:gen:n:ncol	nazwa pospolita		0.0000		
+2	3	dziś	dziś	subst:pl:inst:n:ncol	nazwa pospolita		0.0000		
+2	3	dziś	dziś	subst:pl:loc:n:ncol	nazwa pospolita		0.0000		
+2	3	dziś	dziś	subst:pl:nom:n:ncol	nazwa pospolita		0.0000		
+2	3	dziś	dziś	subst:pl:voc:n:ncol	nazwa pospolita		0.0000		
+2	3	dziś	dziś	subst:sg:acc:n:ncol	nazwa pospolita		0.0000		
+2	3	dziś	dziś	subst:sg:dat:n:ncol	nazwa pospolita		0.0000		
+2	3	dziś	dziś	subst:sg:gen:n:ncol	nazwa pospolita		1.0000		disamb
+2	3	dziś	dziś	subst:sg:inst:n:ncol	nazwa pospolita		0.0000		
+2	3	dziś	dziś	subst:sg:loc:n:ncol	nazwa pospolita		0.0000		
+2	3	dziś	dziś	subst:sg:nom:n:ncol	nazwa pospolita		0.0000		
+2	3	dziś	dziś	subst:sg:voc:n:ncol	nazwa pospolita		0.0000		
+3	4	przy	przy	prep:loc			1.0000		disamb
+4	5	tego	ten	adj:sg:acc:m1:pos			0.0000		
+4	5	tego	ten	adj:sg:acc:m2:pos			0.0000		
+4	5	tego	ten	adj:sg:gen:m1:pos			0.0000		
+4	5	tego	ten	adj:sg:gen:m2:pos			0.0000		
+4	5	tego	ten	adj:sg:gen:m3:pos			1.0000		disamb
+4	5	tego	ten	adj:sg:gen:n:pos			0.0000		
+4	5	tego	to	subst:sg:gen:n:ncol			0.0000		
+5	6	typu	typ	subst:sg:gen:m3	nazwa pospolita		1.0000		disamb
+6	7	malowidłach	malowidło	subst:pl:loc:n:ncol	nazwa pospolita		1.0000		disamb
+7	8	odprawiane	odprawiać	ppas:pl:acc:f:imperf:aff			0.0000		
+7	8	odprawiane	odprawiać	ppas:pl:acc:m2:imperf:aff			0.0000		
+7	8	odprawiane	odprawiać	ppas:pl:acc:m3:imperf:aff			0.0000		
+7	8	odprawiane	odprawiać	ppas:pl:acc:n:imperf:aff			0.0000		
+7	8	odprawiane	odprawiać	ppas:pl:nom:f:imperf:aff			0.0000		
+7	8	odprawiane	odprawiać	ppas:pl:nom:m2:imperf:aff			0.0000		
+7	8	odprawiane	odprawiać	ppas:pl:nom:m3:imperf:aff			1.0000		disamb
+7	8	odprawiane	odprawiać	ppas:pl:nom:n:imperf:aff			0.0000		
+7	8	odprawiane	odprawiać	ppas:pl:voc:f:imperf:aff			0.0000		
+7	8	odprawiane	odprawiać	ppas:pl:voc:m2:imperf:aff			0.0000		
+7	8	odprawiane	odprawiać	ppas:pl:voc:m3:imperf:aff			0.0000		
+7	8	odprawiane	odprawiać	ppas:pl:voc:n:imperf:aff			0.0000		
+7	8	odprawiane	odprawiać	ppas:sg:acc:n:imperf:aff			0.0000		
+7	8	odprawiane	odprawiać	ppas:sg:nom:n:imperf:aff			0.0000		
+7	8	odprawiane	odprawiać	ppas:sg:voc:n:imperf:aff			0.0000		
+8	9	są	być	fin:pl:ter:imperf			1.0000		disamb
+9	10	rytuały	rytuał	subst:pl:acc:m3	nazwa pospolita		0.0000		
+9	10	rytuały	rytuał	subst:pl:nom:m3	nazwa pospolita		1.0000		disamb
+9	10	rytuały	rytuał	subst:pl:voc:m3	nazwa pospolita		0.0000		
+10	11	,	,	interp			1.0000		disamb
+11	12	w	w	prep:acc:nwok			0.0000		
+11	12	w	w	prep:loc:nwok			1.0000		disamb
+12	13	czasie	czas	subst:sg:loc:m3	nazwa pospolita		1.0000		disamb
+12	13	czasie	czas	subst:sg:voc:m3	nazwa pospolita		0.0000		
+13	14	których	który	adj:pl:acc:m1:pos			0.0000		
+13	14	których	który	adj:pl:gen:f:pos			0.9592		disamb
+13	14	których	który	adj:pl:gen:m1:pos			0.0000		
+13	14	których	który	adj:pl:gen:m2:pos			0.0000		
+13	14	których	który	adj:pl:gen:m3:pos			0.0398		
+13	14	których	który	adj:pl:gen:n:pos			0.0010		
+13	14	których	który	adj:pl:loc:f:pos			0.0000		
+13	14	których	który	adj:pl:loc:m1:pos			0.0000		
+13	14	których	który	adj:pl:loc:m2:pos			0.0000		
+13	14	których	który	adj:pl:loc:m3:pos			0.0000		
+13	14	których	który	adj:pl:loc:n:pos			0.0000		
+14	15	miejscowa	miejscowa	subst:sg:nom:f	nazwa pospolita		0.0000		
+14	15	miejscowa	miejscowa	subst:sg:voc:f	nazwa pospolita		0.0000		
+14	15	miejscowa	miejscowy	adj:sg:nom:f:pos			1.0000		disamb
+14	15	miejscowa	miejscowy	adj:sg:voc:f:pos			0.0000		
+15	16	ludność	ludność	subst:sg:acc:f	nazwa pospolita		0.0000		
+15	16	ludność	ludność	subst:sg:nom:f	nazwa pospolita		1.0000		disamb
+16	17	modli	modlić	fin:sg:ter:imperf			1.0000		disamb
+17	18	się	się	qub			1.0000		disamb
+18	19	o	o	interj			0.0000		
+18	19	o	o	prep:acc			1.0000		disamb
+18	19	o	o	prep:loc			0.0000		
+19	20	deszcz	deszcz	subst:sg:acc:m3	nazwa pospolita		0.9999		disamb
+19	20	deszcz	deszcz	subst:sg:nom:m3	nazwa pospolita		0.0001		
+20	21	.	.	interp			1.0000	eos	disamb
+21	22	Choć	choć	comp			1.0000		disamb
+21	22	Choć	choć	qub			0.0000		
+22	23	same	sam	adj:pl:acc:f:pos			0.0000		
+22	23	same	sam	adj:pl:acc:m2:pos			0.0000		
+22	23	same	sam	adj:pl:acc:m3:pos			0.0000		
+22	23	same	sam	adj:pl:acc:n:pos			0.0001		
+22	23	same	sam	adj:pl:nom:f:pos			0.0000		
+22	23	same	sam	adj:pl:nom:m2:pos			0.0000		
+22	23	same	sam	adj:pl:nom:m3:pos			0.0000		
+22	23	same	sam	adj:pl:nom:n:pos			0.9999		disamb
+22	23	same	sam	adj:pl:voc:f:pos			0.0000		
+22	23	same	sam	adj:pl:voc:m2:pos			0.0000		
+22	23	same	sam	adj:pl:voc:m3:pos			0.0000		
+22	23	same	sam	adj:pl:voc:n:pos			0.0000		
+23	24	malowidła	malowidło	subst:pl:acc:n:ncol	nazwa pospolita		0.0001		
+23	24	malowidła	malowidło	subst:pl:nom:n:ncol	nazwa pospolita		0.9999		disamb
+23	24	malowidła	malowidło	subst:pl:voc:n:ncol	nazwa pospolita		0.0000		
+23	24	malowidła	malowidło	subst:sg:gen:n:ncol	nazwa pospolita		0.0000		
+24	25	nie	nie	interj			0.0000		
+24	25	nie	nie	conj			0.0000		
+24	25	nie	nie	qub			1.0000		disamb
+24	25	nie	on	ppron3:pl:acc:f:ter:akc:praep			0.0000		
+24	25	nie	on	ppron3:pl:acc:f:ter:nakc:praep			0.0000		
+24	25	nie	on	ppron3:pl:acc:m2:ter:akc:praep			0.0000		
+24	25	nie	on	ppron3:pl:acc:m2:ter:nakc:praep			0.0000		
+24	25	nie	on	ppron3:pl:acc:m3:ter:akc:praep			0.0000		
+24	25	nie	on	ppron3:pl:acc:m3:ter:nakc:praep			0.0000		
+24	25	nie	on	ppron3:pl:acc:n:ter:akc:praep			0.0000		
+24	25	nie	on	ppron3:pl:acc:n:ter:nakc:praep			0.0000		
+24	25	nie	on	ppron3:sg:acc:n:ter:akc:praep			0.0000		
+24	25	nie	on	ppron3:sg:acc:n:ter:nakc:praep			0.0000		
+25	26	są	być	fin:pl:ter:imperf			1.0000		disamb
+26	27	już	już	qub			1.0000		disamb
+27	28	wykonywane	wykonywać	ppas:pl:acc:f:imperf:aff			0.0000		
+27	28	wykonywane	wykonywać	ppas:pl:acc:m2:imperf:aff			0.0000		
+27	28	wykonywane	wykonywać	ppas:pl:acc:m3:imperf:aff			0.0000		
+27	28	wykonywane	wykonywać	ppas:pl:acc:n:imperf:aff			0.0000		
+27	28	wykonywane	wykonywać	ppas:pl:nom:f:imperf:aff			0.9998		disamb
+27	28	wykonywane	wykonywać	ppas:pl:nom:m2:imperf:aff			0.0002		
+27	28	wykonywane	wykonywać	ppas:pl:nom:m3:imperf:aff			0.0000		
+27	28	wykonywane	wykonywać	ppas:pl:nom:n:imperf:aff			0.0000		
+27	28	wykonywane	wykonywać	ppas:pl:voc:f:imperf:aff			0.0000		
+27	28	wykonywane	wykonywać	ppas:pl:voc:m2:imperf:aff			0.0000		
+27	28	wykonywane	wykonywać	ppas:pl:voc:m3:imperf:aff			0.0000		
+27	28	wykonywane	wykonywać	ppas:pl:voc:n:imperf:aff			0.0000		
+27	28	wykonywane	wykonywać	ppas:sg:acc:n:imperf:aff			0.0000		
+27	28	wykonywane	wykonywać	ppas:sg:nom:n:imperf:aff			0.0000		
+27	28	wykonywane	wykonywać	ppas:sg:voc:n:imperf:aff			0.0000		
+28	29	"	"	interp			1.0000		disamb
+29	30	-	-	interp			1.0000		disamb
+30	31	zaznacza	zaznaczać	fin:sg:ter:imperf			1.0000		disamb
+31	32	naukowiec	naukowiec	subst:sg:nom:m1	nazwa pospolita		1.0000		disamb
+32	33	.	.	interp			1.0000	eos	disamb
+33	34	Według	według	prep:gen			1.0000		disamb
+34	35	niego	on	ppron3:sg:acc:m1:ter:akc:praep			0.0000		
+34	35	niego	on	ppron3:sg:acc:m2:ter:akc:praep			0.0000		
+34	35	niego	on	ppron3:sg:acc:m3:ter:akc:praep			0.0000		
+34	35	niego	on	ppron3:sg:gen:m1:ter:akc:praep			0.9991		disamb
+34	35	niego	on	ppron3:sg:gen:m2:ter:akc:praep			0.0000		
+34	35	niego	on	ppron3:sg:gen:m3:ter:akc:praep			0.0000		
+34	35	niego	on	ppron3:sg:gen:n:ter:akc:praep			0.0009		
+34	35	niego	on	ppron3:sg:gen:n:ter:nakc:praep			0.0000		
+35	36	twórcy	twórca	subst:pl:nom:m1	nazwa pospolita		0.0000		
+35	36	twórcy	twórca	subst:pl:voc:m1	nazwa pospolita		0.0000		
+35	36	twórcy	twórca	subst:sg:dat:m1	nazwa pospolita		0.0000		
+35	36	twórcy	twórca	subst:sg:gen:m1	nazwa pospolita		1.0000		disamb
+35	36	twórcy	twórca	subst:sg:loc:m1	nazwa pospolita		0.0000		
+36	37	białych	biały	adj:pl:acc:m1:pos			0.0000		
+36	37	białych	biały	adj:pl:gen:f:pos			0.0001		
+36	37	białych	biały	adj:pl:gen:m1:pos			0.0000		
+36	37	białych	biały	adj:pl:gen:m2:pos			0.0000		
+36	37	białych	biały	adj:pl:gen:m3:pos			0.0000		
+36	37	białych	biały	adj:pl:gen:n:pos			0.9999		disamb
+36	37	białych	biały	adj:pl:loc:f:pos			0.0000		
+36	37	białych	biały	adj:pl:loc:m1:pos			0.0000		
+36	37	białych	biały	adj:pl:loc:m2:pos			0.0000		
+36	37	białych	biały	adj:pl:loc:m3:pos			0.0000		
+36	37	białych	biały	adj:pl:loc:n:pos			0.0000		
+36	37	białych	biały	subst:pl:acc:m1	nazwa pospolita		0.0000		
+36	37	białych	biały	subst:pl:gen:m1	nazwa pospolita		0.0000		
+36	37	białych	biały	subst:pl:loc:m1	nazwa pospolita		0.0000		
+37	38	malowideł	malowidło	subst:pl:gen:n:ncol	nazwa pospolita		1.0000		disamb
+38	39	traktowali	traktować	praet:pl:m1:imperf			1.0000		disamb
+39	40	wcześniejsze	wczesny	adj:pl:acc:f:com			0.0049		
+39	40	wcześniejsze	wczesny	adj:pl:acc:m2:com			0.0001		
+39	40	wcześniejsze	wczesny	adj:pl:acc:m3:com			0.0000		
+39	40	wcześniejsze	wczesny	adj:pl:acc:n:com			0.0000		
+39	40	wcześniejsze	wczesny	adj:pl:nom:f:com			0.9250		disamb
+39	40	wcześniejsze	wczesny	adj:pl:nom:m2:com			0.0256		
+39	40	wcześniejsze	wczesny	adj:pl:nom:m3:com			0.0031		
+39	40	wcześniejsze	wczesny	adj:pl:nom:n:com			0.0030		
+39	40	wcześniejsze	wczesny	adj:pl:voc:f:com			0.0000		
+39	40	wcześniejsze	wczesny	adj:pl:voc:m2:com			0.0000		
+39	40	wcześniejsze	wczesny	adj:pl:voc:m3:com			0.0000		
+39	40	wcześniejsze	wczesny	adj:pl:voc:n:com			0.0000		
+39	40	wcześniejsze	wczesny	adj:sg:acc:n:com			0.0002		
+39	40	wcześniejsze	wczesny	adj:sg:nom:n:com			0.0381		
+39	40	wcześniejsze	wczesny	adj:sg:voc:n:com			0.0000		
+40	41	,	,	interp			1.0000		disamb
+41	42	czerwone	czerwona	subst:pl:acc:f	nazwa pospolita		0.0000		
+41	42	czerwone	czerwona	subst:pl:nom:f	nazwa pospolita		0.0000		
+41	42	czerwone	czerwona	subst:pl:voc:f	nazwa pospolita		0.0000		
+41	42	czerwone	czerwone	subst:pl:acc:n:ncol	nazwa pospolita		0.0000		
+41	42	czerwone	czerwone	subst:pl:nom:n:ncol	nazwa pospolita		0.0000		
+41	42	czerwone	czerwone	subst:pl:voc:n:ncol	nazwa pospolita		0.0000		
+41	42	czerwone	czerwone	subst:sg:acc:n:ncol	nazwa pospolita		0.0000		
+41	42	czerwone	czerwone	subst:sg:nom:n:ncol	nazwa pospolita		0.0000		
+41	42	czerwone	czerwone	subst:sg:voc:n:ncol	nazwa pospolita		0.0000		
+41	42	czerwone	czerwony	adj:pl:acc:f:pos			0.0001		
+41	42	czerwone	czerwony	adj:pl:acc:m2:pos			0.0000		
+41	42	czerwone	czerwony	adj:pl:acc:m3:pos			0.0000		
+41	42	czerwone	czerwony	adj:pl:acc:n:pos			0.0000		
+41	42	czerwone	czerwony	adj:pl:nom:f:pos			0.9274		disamb
+41	42	czerwone	czerwony	adj:pl:nom:m2:pos			0.0000		
+41	42	czerwone	czerwony	adj:pl:nom:m3:pos			0.0000		
+41	42	czerwone	czerwony	adj:pl:nom:n:pos			0.0016		
+41	42	czerwone	czerwony	adj:pl:voc:f:pos			0.0000		
+41	42	czerwone	czerwony	adj:pl:voc:m2:pos			0.0000		
+41	42	czerwone	czerwony	adj:pl:voc:m3:pos			0.0000		
+41	42	czerwone	czerwony	adj:pl:voc:n:pos			0.0000		
+41	42	czerwone	czerwony	adj:sg:acc:n:pos			0.0000		
+41	42	czerwone	czerwony	adj:sg:nom:n:pos			0.0708		
+41	42	czerwone	czerwony	adj:sg:voc:n:pos			0.0000		
+41	42	czerwone	czerwony	depr:pl:acc:m2	nazwa pospolita		0.0000		
+41	42	czerwone	czerwony	depr:pl:nom:m2	nazwa pospolita		0.0000		
+41	42	czerwone	czerwony	depr:pl:voc:m2	nazwa pospolita		0.0000		
+42	43	,	,	interp			1.0000		disamb
+43	44	z	z	prep:acc:nwok			0.0000		
+43	44	z	z	prep:gen:nwok			0.0000		
+43	44	z	z	prep:inst:nwok			1.0000		disamb
+44	45	szacunkiem	szacunek	subst:sg:inst:m3	nazwa pospolita		1.0000		disamb
+45	46	,	,	interp			1.0000		disamb
+46	47	gdyż	gdyż	comp			1.0000		disamb
+47	48	nigdy	nigdy	adv			1.0000		disamb
+48	49	ich	on	ppron3:pl:acc:m1:ter:akc:npraep			0.0000		
+48	49	ich	on	ppron3:pl:acc:m1:ter:nakc:npraep			0.0000		
+48	49	ich	on	ppron3:pl:gen:f:ter:akc:npraep			0.8708		disamb
+48	49	ich	on	ppron3:pl:gen:f:ter:nakc:npraep			0.0000		
+48	49	ich	on	ppron3:pl:gen:m1:ter:akc:npraep			0.1288		
+48	49	ich	on	ppron3:pl:gen:m1:ter:nakc:npraep			0.0000		
+48	49	ich	on	ppron3:pl:gen:m2:ter:akc:npraep			0.0004		
+48	49	ich	on	ppron3:pl:gen:m2:ter:nakc:npraep			0.0000		
+48	49	ich	on	ppron3:pl:gen:m3:ter:akc:npraep			0.0001		
+48	49	ich	on	ppron3:pl:gen:m3:ter:nakc:npraep			0.0000		
+48	49	ich	on	ppron3:pl:gen:n:ter:akc:npraep			0.0000		
+48	49	ich	on	ppron3:pl:gen:n:ter:nakc:npraep			0.0000		
+49	50	nie	nie	interj			0.0000		
+49	50	nie	nie	conj			0.0000		
+49	50	nie	nie	qub			1.0000		disamb
+49	50	nie	on	ppron3:pl:acc:f:ter:akc:praep			0.0000		
+49	50	nie	on	ppron3:pl:acc:f:ter:nakc:praep			0.0000		
+49	50	nie	on	ppron3:pl:acc:m2:ter:akc:praep			0.0000		
+49	50	nie	on	ppron3:pl:acc:m2:ter:nakc:praep			0.0000		
+49	50	nie	on	ppron3:pl:acc:m3:ter:akc:praep			0.0000		
+49	50	nie	on	ppron3:pl:acc:m3:ter:nakc:praep			0.0000		
+49	50	nie	on	ppron3:pl:acc:n:ter:akc:praep			0.0000		
+49	50	nie	on	ppron3:pl:acc:n:ter:nakc:praep			0.0000		
+49	50	nie	on	ppron3:sg:acc:n:ter:akc:praep			0.0000		
+49	50	nie	on	ppron3:sg:acc:n:ter:nakc:praep			0.0000		
+50	51	zamalowywali	zamalowywać	praet:pl:m1:imperf			1.0000		disamb
+51	52	,	,	interp			1.0000		disamb
+52	53	nie	nie	interj			0.0000		
+52	53	nie	nie	conj			0.0010		
+52	53	nie	nie	qub			0.9990		disamb
+52	53	nie	on	ppron3:pl:acc:f:ter:akc:praep			0.0000		
+52	53	nie	on	ppron3:pl:acc:f:ter:nakc:praep			0.0000		
+52	53	nie	on	ppron3:pl:acc:m2:ter:akc:praep			0.0000		
+52	53	nie	on	ppron3:pl:acc:m2:ter:nakc:praep			0.0000		
+52	53	nie	on	ppron3:pl:acc:m3:ter:akc:praep			0.0000		
+52	53	nie	on	ppron3:pl:acc:m3:ter:nakc:praep			0.0000		
+52	53	nie	on	ppron3:pl:acc:n:ter:akc:praep			0.0000		
+52	53	nie	on	ppron3:pl:acc:n:ter:nakc:praep			0.0000		
+52	53	nie	on	ppron3:sg:acc:n:ter:akc:praep			0.0000		
+52	53	nie	on	ppron3:sg:acc:n:ter:nakc:praep			0.0000		
+53	54	niszczyli	niszczyć	praet:pl:m1:imperf			1.0000		disamb
+54	55	,	,	interp			1.0000		disamb
+55	56	a	a	interj			0.0000		
+55	56	a	a	conj			1.0000		disamb
+55	56	a	a	prep:nom			0.0000		
+55	56	a	a	qub			0.0000		
+56	57	przygotowując	przygotowywać	pcon:imperf			1.0000		disamb
+57	58	nowe	nowa	subst:pl:acc:f	nazwa pospolita		0.0000		
+57	58	nowe	nowa	subst:pl:nom:f	nazwa pospolita		0.0000		
+57	58	nowe	nowa	subst:pl:voc:f	nazwa pospolita		0.0000		
+57	58	nowe	nowy	adj:pl:acc:f:pos			0.1361		
+57	58	nowe	nowy	adj:pl:acc:m2:pos			0.0000		
+57	58	nowe	nowy	adj:pl:acc:m3:pos			0.0882		
+57	58	nowe	nowy	adj:pl:acc:n:pos			0.0193		
+57	58	nowe	nowy	adj:pl:nom:f:pos			0.0011		
+57	58	nowe	nowy	adj:pl:nom:m2:pos			0.0000		
+57	58	nowe	nowy	adj:pl:nom:m3:pos			0.0007		
+57	58	nowe	nowy	adj:pl:nom:n:pos			0.0002		
+57	58	nowe	nowy	adj:pl:voc:f:pos			0.0000		
+57	58	nowe	nowy	adj:pl:voc:m2:pos			0.0000		
+57	58	nowe	nowy	adj:pl:voc:m3:pos			0.0000		
+57	58	nowe	nowy	adj:pl:voc:n:pos			0.0000		
+57	58	nowe	nowy	adj:sg:acc:n:pos			0.7483		disamb
+57	58	nowe	nowy	adj:sg:nom:n:pos			0.0061		
+57	58	nowe	nowy	adj:sg:voc:n:pos			0.0000		
+57	58	nowe	nowy	depr:pl:acc:m2	nazwa pospolita		0.0000		
+57	58	nowe	nowy	depr:pl:nom:m2	nazwa pospolita		0.0000		
+57	58	nowe	nowy	depr:pl:voc:m2	nazwa pospolita		0.0000		
+58	59	-	-	interp			1.0000		disamb
+59	60	zachowywali	zachowywać	praet:pl:m1:imperf			1.0000		disamb
+60	61	pewną	pewien	adj:sg:acc:f:pos			1.0000		disamb
+60	61	pewną	pewien	adj:sg:inst:f:pos			0.0000		
+60	61	pewną	pewny	adj:sg:acc:f:pos			1.0000		disamb
+60	61	pewną	pewny	adj:sg:inst:f:pos			0.0000		
+60	61	pewną	pewny	adj:sg:acc:f:pos			1.0000		disamb
+60	61	pewną	pewny	adj:sg:inst:f:pos			0.0000		
+61	62	odległość	odległość	subst:sg:acc:f	nazwa pospolita		1.0000		disamb
+61	62	odległość	odległość	subst:sg:nom:f	nazwa pospolita		0.0000		
+62	63	.	.	interp			1.0000	eos	disamb
+63	64	"	"	interp			1.0000		disamb
+64	65	Zapewne	zapewne	qub			1.0000		disamb
+65	66	dlatego	dlatego	adv			1.0000		disamb
+66	67	,	,	interp			1.0000		disamb
+67	68	że	że	comp			1.0000		disamb
+67	68	że	że	qub			0.0000		
+68	69	uważano	uważać	imps:imperf			1.0000		disamb
+69	70	,	,	interp			1.0000		disamb
+70	71	iż	iż	comp			1.0000		disamb
+71	72	wykonali	wykonać	praet:pl:m1:perf			1.0000		disamb
+72	73	je	jeść	fin:sg:ter:imperf			0.0000		
+72	73	je	on	ppron3:pl:acc:f:ter:akc:npraep			0.9760		disamb
+72	73	je	on	ppron3:pl:acc:f:ter:nakc:npraep			0.0002		
+72	73	je	on	ppron3:pl:acc:m2:ter:akc:npraep			0.0006		
+72	73	je	on	ppron3:pl:acc:m2:ter:nakc:npraep			0.0002		
+72	73	je	on	ppron3:pl:acc:m3:ter:akc:npraep			0.0038		
+72	73	je	on	ppron3:pl:acc:m3:ter:nakc:npraep			0.0002		
+72	73	je	on	ppron3:pl:acc:n:ter:akc:npraep			0.0137		
+72	73	je	on	ppron3:pl:acc:n:ter:nakc:npraep			0.0002		
+72	73	je	on	ppron3:sg:acc:n:ter:akc:npraep			0.0051		
+72	73	je	on	ppron3:sg:acc:n:ter:nakc:npraep			0.0001		
+73	74	przodkowie	przodek	subst:pl:nom:m1	nazwa pospolita		1.0000		disamb
+73	74	przodkowie	przodek	subst:pl:voc:m1	nazwa pospolita		0.0000		
+74	75	"	"	interp			1.0000		disamb
+75	76	-	-	interp			1.0000		disamb
+76	77	dodaje	dodawać	fin:sg:ter:imperf			1.0000		disamb
+77	78	.	.	interp			1.0000	eos	disamb
+0	1	Naukowiec	naukowiec	subst:sg:nom:m1	nazwa pospolita		1.0000		disamb
+1	2	ustalił	ustalić	praet:sg:m1:perf			1.0000		disamb
+1	2	ustalił	ustalić	praet:sg:m2:perf			0.0000		
+1	2	ustalił	ustalić	praet:sg:m3:perf			0.0000		
+1	2	ustalił	ustalić	praet:sg:m1:perf			1.0000		disamb
+1	2	ustalił	ustalić	praet:sg:m2:perf			0.0000		
+1	2	ustalił	ustalić	praet:sg:m3:perf			0.0000		
+2	3	,	,	interp			1.0000		disamb
+3	4	że	że	comp			1.0000		disamb
+3	4	że	że	qub			0.0000		
+4	5	ze	z	prep:acc:wok			0.0000		
+4	5	ze	z	prep:gen:wok			1.0000		disamb
+4	5	ze	z	prep:inst:wok			0.0000		
+5	6	wszystkich	wszyscy	subst:pl:acc:m1:pt			0.0000		
+5	6	wszystkich	wszyscy	subst:pl:gen:m1:pt			0.0000		
+5	6	wszystkich	wszyscy	subst:pl:loc:m1:pt			0.0000		
+5	6	wszystkich	wszystek	adj:pl:acc:m1:pos			0.0000		
+5	6	wszystkich	wszystek	adj:pl:gen:f:pos			0.0000		
+5	6	wszystkich	wszystek	adj:pl:gen:m1:pos			0.0014		
+5	6	wszystkich	wszystek	adj:pl:gen:m2:pos			0.0000		
+5	6	wszystkich	wszystek	adj:pl:gen:m3:pos			0.0000		
+5	6	wszystkich	wszystek	adj:pl:gen:n:pos			0.9986		disamb
+5	6	wszystkich	wszystek	adj:pl:loc:f:pos			0.0000		
+5	6	wszystkich	wszystek	adj:pl:loc:m1:pos			0.0000		
+5	6	wszystkich	wszystek	adj:pl:loc:m2:pos			0.0000		
+5	6	wszystkich	wszystek	adj:pl:loc:m3:pos			0.0000		
+5	6	wszystkich	wszystek	adj:pl:loc:n:pos			0.0000		
+6	7	schronisk	schronisko	subst:pl:gen:n:ncol	nazwa pospolita		1.0000		disamb
+7	8	skalnych	skalny	adj:pl:acc:m1:pos			0.0005		
+7	8	skalnych	skalny	adj:pl:gen:f:pos			0.0000		
+7	8	skalnych	skalny	adj:pl:gen:m1:pos			0.5100		
+7	8	skalnych	skalny	adj:pl:gen:m2:pos			0.0000		
+7	8	skalnych	skalny	adj:pl:gen:m3:pos			0.0000		
+7	8	skalnych	skalny	adj:pl:gen:n:pos			0.4894		disamb
+7	8	skalnych	skalny	adj:pl:loc:f:pos			0.0000		
+7	8	skalnych	skalny	adj:pl:loc:m1:pos			0.0000		
+7	8	skalnych	skalny	adj:pl:loc:m2:pos			0.0000		
+7	8	skalnych	skalny	adj:pl:loc:m3:pos			0.0000		
+7	8	skalnych	skalny	adj:pl:loc:n:pos			0.0000		
+8	9	pokrytymi	pokryć	ppas:pl:inst:f:perf:aff			0.1484		
+8	9	pokrytymi	pokryć	ppas:pl:inst:m1:perf:aff			0.0674		
+8	9	pokrytymi	pokryć	ppas:pl:inst:m2:perf:aff			0.1476		
+8	9	pokrytymi	pokryć	ppas:pl:inst:m3:perf:aff			0.1473		
+8	9	pokrytymi	pokryć	ppas:pl:inst:n:perf:aff			0.4893		disamb
+9	10	malowidłami	malowidło	subst:pl:inst:n:ncol	nazwa pospolita		1.0000		disamb
+10	11	rozpościerał	rozpościerać	praet:sg:m1:imperf			0.0019		
+10	11	rozpościerał	rozpościerać	praet:sg:m2:imperf			0.0000		
+10	11	rozpościerał	rozpościerać	praet:sg:m3:imperf			0.9981		disamb
+11	12	się	się	qub			1.0000		disamb
+12	13	dobry	dobry	adj:sg:acc:m3:pos			0.0000		
+12	13	dobry	dobry	adj:sg:nom:m1:pos			0.0000		
+12	13	dobry	dobry	adj:sg:nom:m2:pos			0.0000		
+12	13	dobry	dobry	adj:sg:nom:m3:pos			1.0000		disamb
+12	13	dobry	dobry	adj:sg:voc:m1:pos			0.0000		
+12	13	dobry	dobry	adj:sg:voc:m2:pos			0.0000		
+12	13	dobry	dobry	adj:sg:voc:m3:pos			0.0000		
+12	13	dobry	dobry	subst:sg:nom:m1	nazwa pospolita		0.0000		
+12	13	dobry	dobry	subst:sg:voc:m1	nazwa pospolita		0.0000		
+12	13	dobry	dobry	subst:sg:acc:m3	nazwa pospolita	szkol.	0.0000		
+12	13	dobry	dobry	subst:sg:nom:m3	nazwa pospolita	szkol.	0.0000		
+12	13	dobry	dobry	subst:sg:voc:m3	nazwa pospolita	szkol.	0.0000		
+13	14	widok	widok	subst:sg:acc:m3	nazwa pospolita		0.0000		
+13	14	widok	widok	subst:sg:nom:m3	nazwa pospolita		1.0000		disamb
+14	15	na	na	interj			0.0000		
+14	15	na	na	prep:acc			1.0000		disamb
+14	15	na	na	prep:loc			0.0000		
+15	16	okolicę	okolica	subst:sg:acc:f	nazwa pospolita		1.0000		disamb
+16	17	i	i	interj			0.0000		
+16	17	i	i	conj			1.0000		disamb
+16	17	i	i	qub			0.0000		
+17	18	ścieżkę	ścieżka	subst:sg:acc:f	nazwa pospolita		1.0000		disamb
+18	19	,	,	interp			1.0000		disamb
+19	20	która	który	adj:sg:nom:f:pos			1.0000		disamb
+19	20	która	który	adj:sg:voc:f:pos			0.0000		
+20	21	do	do	prep:gen			1.0000		disamb
+20	21	do	do	subst:pl:acc:n:ncol	nazwa pospolita	muz.	0.0000		
+20	21	do	do	subst:pl:dat:n:ncol	nazwa pospolita	muz.	0.0000		
+20	21	do	do	subst:pl:gen:n:ncol	nazwa pospolita	muz.	0.0000		
+20	21	do	do	subst:pl:inst:n:ncol	nazwa pospolita	muz.	0.0000		
+20	21	do	do	subst:pl:loc:n:ncol	nazwa pospolita	muz.	0.0000		
+20	21	do	do	subst:pl:nom:n:ncol	nazwa pospolita	muz.	0.0000		
+20	21	do	do	subst:pl:voc:n:ncol	nazwa pospolita	muz.	0.0000		
+20	21	do	do	subst:sg:acc:n:ncol	nazwa pospolita	muz.	0.0000		
+20	21	do	do	subst:sg:dat:n:ncol	nazwa pospolita	muz.	0.0000		
+20	21	do	do	subst:sg:gen:n:ncol	nazwa pospolita	muz.	0.0000		
+20	21	do	do	subst:sg:inst:n:ncol	nazwa pospolita	muz.	0.0000		
+20	21	do	do	subst:sg:loc:n:ncol	nazwa pospolita	muz.	0.0000		
+20	21	do	do	subst:sg:nom:n:ncol	nazwa pospolita	muz.	0.0000		
+20	21	do	do	subst:sg:voc:n:ncol	nazwa pospolita	muz.	0.0000		
+21	22	nich	on	ppron3:pl:acc:m1:ter:akc:praep			0.0000		
+21	22	nich	on	ppron3:pl:acc:m1:ter:nakc:praep			0.0000		
+21	22	nich	on	ppron3:pl:gen:f:ter:akc:praep			0.9971		disamb
+21	22	nich	on	ppron3:pl:gen:f:ter:nakc:praep			0.0000		
+21	22	nich	on	ppron3:pl:gen:m1:ter:akc:praep			0.0019		
+21	22	nich	on	ppron3:pl:gen:m1:ter:nakc:praep			0.0000		
+21	22	nich	on	ppron3:pl:gen:m2:ter:akc:praep			0.0005		
+21	22	nich	on	ppron3:pl:gen:m2:ter:nakc:praep			0.0000		
+21	22	nich	on	ppron3:pl:gen:m3:ter:akc:praep			0.0004		
+21	22	nich	on	ppron3:pl:gen:m3:ter:nakc:praep			0.0000		
+21	22	nich	on	ppron3:pl:gen:n:ter:akc:praep			0.0000		
+21	22	nich	on	ppron3:pl:gen:n:ter:nakc:praep			0.0000		
+21	22	nich	on	ppron3:pl:loc:f:ter:akc:npraep			0.0000		
+21	22	nich	on	ppron3:pl:loc:f:ter:akc:praep			0.0000		
+21	22	nich	on	ppron3:pl:loc:f:ter:nakc:npraep			0.0000		
+21	22	nich	on	ppron3:pl:loc:f:ter:nakc:praep			0.0000		
+21	22	nich	on	ppron3:pl:loc:m1:ter:akc:npraep			0.0000		
+21	22	nich	on	ppron3:pl:loc:m1:ter:akc:praep			0.0000		
+21	22	nich	on	ppron3:pl:loc:m1:ter:nakc:npraep			0.0000		
+21	22	nich	on	ppron3:pl:loc:m1:ter:nakc:praep			0.0000		
+21	22	nich	on	ppron3:pl:loc:m2:ter:akc:npraep			0.0000		
+21	22	nich	on	ppron3:pl:loc:m2:ter:akc:praep			0.0000		
+21	22	nich	on	ppron3:pl:loc:m2:ter:nakc:npraep			0.0000		
+21	22	nich	on	ppron3:pl:loc:m2:ter:nakc:praep			0.0000		
+21	22	nich	on	ppron3:pl:loc:m3:ter:akc:npraep			0.0000		
+21	22	nich	on	ppron3:pl:loc:m3:ter:akc:praep			0.0000		
+21	22	nich	on	ppron3:pl:loc:m3:ter:nakc:npraep			0.0000		
+21	22	nich	on	ppron3:pl:loc:m3:ter:nakc:praep			0.0000		
+21	22	nich	on	ppron3:pl:loc:n:ter:akc:npraep			0.0000		
+21	22	nich	on	ppron3:pl:loc:n:ter:akc:praep			0.0000		
+21	22	nich	on	ppron3:pl:loc:n:ter:nakc:npraep			0.0000		
+21	22	nich	on	ppron3:pl:loc:n:ter:nakc:praep			0.0000		
+22	23	wiodła	wieść	praet:sg:f:imperf		form.	1.0000		disamb
+23	24	.	.	interp			1.0000	eos	disamb
+0	1	Skupisko	skupisko	subst:sg:acc:n:ncol	nazwa pospolita		0.0000		
+0	1	Skupisko	skupisko	subst:sg:nom:n:ncol	nazwa pospolita		1.0000		disamb
+0	1	Skupisko	skupisko	subst:sg:voc:n:ncol	nazwa pospolita		0.0000		
+1	2	malowideł	malowidło	subst:pl:gen:n:ncol	nazwa pospolita		1.0000		disamb
+2	3	znalezionych	znaleźć	ppas:pl:acc:m1:perf:aff			0.0000		
+2	3	znalezionych	znaleźć	ppas:pl:gen:f:perf:aff			0.0000		
+2	3	znalezionych	znaleźć	ppas:pl:gen:m1:perf:aff			0.0000		
+2	3	znalezionych	znaleźć	ppas:pl:gen:m2:perf:aff			0.0000		
+2	3	znalezionych	znaleźć	ppas:pl:gen:m3:perf:aff			0.0000		
+2	3	znalezionych	znaleźć	ppas:pl:gen:n:perf:aff			1.0000		disamb
+2	3	znalezionych	znaleźć	ppas:pl:loc:f:perf:aff			0.0000		
+2	3	znalezionych	znaleźć	ppas:pl:loc:m1:perf:aff			0.0000		
+2	3	znalezionych	znaleźć	ppas:pl:loc:m2:perf:aff			0.0000		
+2	3	znalezionych	znaleźć	ppas:pl:loc:m3:perf:aff			0.0000		
+2	3	znalezionych	znaleźć	ppas:pl:loc:n:perf:aff			0.0000		
+3	4	przez	przez	prep:acc:nwok			1.0000		disamb
+4	5	Macieja	Maciej	subst:sg:acc:m1	imię		1.0000		disamb
+4	5	Macieja	Maciej	subst:sg:gen:m1	imię		0.0000		
+4	5	Macieja	Maciej	subst:sg:acc:m1	nazwisko		1.0000		disamb
+4	5	Macieja	Maciej	subst:sg:gen:m1	nazwisko		0.0000		
+4	5	Macieja	Macieja	subst:sg:nom:m1	nazwisko		0.0000		
+4	5	Macieja	Macieja	subst:sg:nom:f	nazwisko		0.0000		
+5	6	Grzelczyka	Grzelczyk	subst:sg:acc:m1	nazwisko		0.0082		
+5	6	Grzelczyka	Grzelczyk	subst:sg:gen:m1	nazwisko		0.9918		disamb
+6	7	było	być	praet:sg:n:imperf			1.0000		disamb
+7	8	dotychczas	dotychczas	adv			1.0000		disamb
+8	9	w	w	prep:acc:nwok			0.0000		
+8	9	w	w	prep:loc:nwok			1.0000		disamb
+9	10	świecie	świat	subst:sg:loc:m3	nazwa pospolita		1.0000		disamb
+9	10	świecie	świat	subst:sg:voc:m3	nazwa pospolita		0.0000		
+10	11	naukowym	naukowy	adj:pl:dat:f:pos			0.0000		
+10	11	naukowym	naukowy	adj:pl:dat:m1:pos			0.0000		
+10	11	naukowym	naukowy	adj:pl:dat:m2:pos			0.0000		
+10	11	naukowym	naukowy	adj:pl:dat:m3:pos			0.0000		
+10	11	naukowym	naukowy	adj:pl:dat:n:pos			0.0000		
+10	11	naukowym	naukowy	adj:sg:inst:m1:pos			0.0000		
+10	11	naukowym	naukowy	adj:sg:inst:m2:pos			0.0000		
+10	11	naukowym	naukowy	adj:sg:inst:m3:pos			0.0000		
+10	11	naukowym	naukowy	adj:sg:inst:n:pos			0.0000		
+10	11	naukowym	naukowy	adj:sg:loc:m1:pos			0.0000		
+10	11	naukowym	naukowy	adj:sg:loc:m2:pos			0.0000		
+10	11	naukowym	naukowy	adj:sg:loc:m3:pos			0.0051		
+10	11	naukowym	naukowy	adj:sg:loc:n:pos			0.9949		disamb
+11	12	zupełnie	zupełnie	adv:pos			1.0000		disamb
+12	13	nieznane	nieznane	subst:pl:acc:n:ncol	nazwa pospolita		0.0000		
+12	13	nieznane	nieznane	subst:pl:nom:n:ncol	nazwa pospolita		0.0000		
+12	13	nieznane	nieznane	subst:pl:voc:n:ncol	nazwa pospolita		0.0000		
+12	13	nieznane	nieznane	subst:sg:acc:n:ncol	nazwa pospolita		0.0000		
+12	13	nieznane	nieznane	subst:sg:nom:n:ncol	nazwa pospolita		0.0000		
+12	13	nieznane	nieznane	subst:sg:voc:n:ncol	nazwa pospolita		0.0000		
+12	13	nieznane	nieznany	adj:pl:acc:f:pos			0.0000		
+12	13	nieznane	nieznany	adj:pl:acc:m2:pos			0.0000		
+12	13	nieznane	nieznany	adj:pl:acc:m3:pos			0.0000		
+12	13	nieznane	nieznany	adj:pl:acc:n:pos			0.0000		
+12	13	nieznane	nieznany	adj:pl:nom:f:pos			0.0000		
+12	13	nieznane	nieznany	adj:pl:nom:m2:pos			0.0000		
+12	13	nieznane	nieznany	adj:pl:nom:m3:pos			0.0051		
+12	13	nieznane	nieznany	adj:pl:nom:n:pos			0.0000		
+12	13	nieznane	nieznany	adj:pl:voc:f:pos			0.0000		
+12	13	nieznane	nieznany	adj:pl:voc:m2:pos			0.0000		
+12	13	nieznane	nieznany	adj:pl:voc:m3:pos			0.0000		
+12	13	nieznane	nieznany	adj:pl:voc:n:pos			0.0000		
+12	13	nieznane	nieznany	adj:sg:acc:n:pos			0.0000		
+12	13	nieznane	nieznany	adj:sg:nom:n:pos			0.9949		disamb
+12	13	nieznane	nieznany	adj:sg:voc:n:pos			0.0000		
+12	13	nieznane	znać	ppas:pl:acc:f:imperf:neg			0.0000		
+12	13	nieznane	znać	ppas:pl:acc:m2:imperf:neg			0.0000		
+12	13	nieznane	znać	ppas:pl:acc:m3:imperf:neg			0.0000		
+12	13	nieznane	znać	ppas:pl:acc:n:imperf:neg			0.0000		
+12	13	nieznane	znać	ppas:pl:nom:f:imperf:neg			0.0000		
+12	13	nieznane	znać	ppas:pl:nom:m2:imperf:neg			0.0000		
+12	13	nieznane	znać	ppas:pl:nom:m3:imperf:neg			0.0000		
+12	13	nieznane	znać	ppas:pl:nom:n:imperf:neg			0.0000		
+12	13	nieznane	znać	ppas:pl:voc:f:imperf:neg			0.0000		
+12	13	nieznane	znać	ppas:pl:voc:m2:imperf:neg			0.0000		
+12	13	nieznane	znać	ppas:pl:voc:m3:imperf:neg			0.0000		
+12	13	nieznane	znać	ppas:pl:voc:n:imperf:neg			0.0000		
+12	13	nieznane	znać	ppas:sg:acc:n:imperf:neg			0.0000		
+12	13	nieznane	znać	ppas:sg:nom:n:imperf:neg			0.0000		
+12	13	nieznane	znać	ppas:sg:voc:n:imperf:neg			0.0000		
+13	14	.	.	interp			1.0000	eos	disamb
+14	15	"	"	interp			1.0000		disamb
+15	16	W	w	prep:acc:nwok			0.0000		
+15	16	W	w	prep:loc:nwok			1.0000		disamb
+16	17	połowie	połowa	subst:sg:dat:f	nazwa pospolita		0.0000		
+16	17	połowie	połowa	subst:sg:loc:f	nazwa pospolita		1.0000		disamb
+16	17	połowie	połów	subst:sg:loc:m3	nazwa pospolita		0.0000		
+16	17	połowie	połów	subst:sg:voc:m3	nazwa pospolita		0.0000		
+17	18	XX	XX	romandig			1.0000		disamb
+18	19	w	W	brev:pun			1.0000		disamb
+18	19	w	w	prep:acc:nwok			0.0000		
+18	19	w	w	prep:loc:nwok			0.0000		
+18	19	w	wiek	brev:pun			1.0000		disamb
+18	19	w	wielki	brev:pun			1.0000		disamb
+18	19	w	wiersz	brev:pun			1.0000		disamb
+18	19	w	wieś	brev:pun			1.0000		disamb
+18	19	w	wyspa	brev:pun		geogr.	1.0000		disamb
+19	20	.	.	interp			1.0000		disamb
+20	21	badacze	badacz	depr:pl:acc:m2	nazwa pospolita		0.0000		
+20	21	badacze	badacz	depr:pl:nom:m2	nazwa pospolita		0.0000		
+20	21	badacze	badacz	depr:pl:voc:m2	nazwa pospolita		0.0000		
+20	21	badacze	badacz	subst:pl:nom:m1	nazwa pospolita		1.0000		disamb
+20	21	badacze	badacz	subst:pl:voc:m1	nazwa pospolita		0.0000		
+21	22	bali	bal	subst:pl:gen:m3	nazwa pospolita		0.0000		
+21	22	bali	bać	praet:pl:m1:imperf			1.0000		disamb
+22	23	się	się	qub			1.0000		disamb
+23	24	zapuszczać	zapuszczać	inf:imperf			1.0000		disamb
+24	25	w	w	prep:acc:nwok			1.0000		disamb
+24	25	w	w	prep:loc:nwok			0.0000		
+25	26	głąb	głąb	subst:sg:acc:m3	nazwa pospolita		0.0001		
+25	26	głąb	głąb	subst:sg:nom:m2	nazwa pospolita		0.0000		
+25	26	głąb	głąb	subst:sg:nom:m3	nazwa pospolita		0.0000		
+25	26	głąb	głąb	subst:sg:acc:f	nazwa pospolita	przest.	0.9999		disamb
+25	26	głąb	głąb	subst:sg:nom:f	nazwa pospolita	przest.	0.0000		
+25	26	głąb	głąb	subst:sg:nom:m1	nazwa pospolita	pogard.,pot.	0.0000		
+25	26	głąb	głąb	subst:sg:nom:m2	nazwa pospolita	pogard.,pot.	0.0000		
+25	26	głąb	głębić	impt:sg:sec:imperf			0.0000		
+26	27	buszu	busz	subst:sg:gen:m3	nazwa pospolita		1.0000		disamb
+26	27	buszu	busz	subst:sg:loc:m3	nazwa pospolita		0.0000		
+26	27	buszu	busz	subst:sg:voc:m3	nazwa pospolita		0.0000		
+27	28	,	,	interp			1.0000		disamb
+28	29	gdzie	gdzie	adv			1.0000		disamb
+28	29	gdzie	gdzie	qub			0.0000		
+29	30	teraz	teraz	adv			1.0000		disamb
+30	31	znajduje	znajdować	fin:sg:ter:imperf			1.0000		disamb
+30	31	znajduje	znajdywać	fin:sg:ter:imperf		rzad.	1.0000		disamb
+31	32	się	się	qub			1.0000		disamb
+32	33	rezerwat	rezerwat	subst:sg:acc:m3	nazwa pospolita		0.0000		
+32	33	rezerwat	rezerwat	subst:sg:nom:m3	nazwa pospolita		1.0000		disamb
+33	34	Swaga	Swaga	adj:sg:nom:f:pos			0.0000		
+33	34	Swaga	Swaga	subst:pl:gen:m1:pt			0.0000		
+33	34	Swaga	Swaga	subst:sg:gen:m1			0.0000		
+33	34	Swaga	Swaga	subst:sg:gen:m2			0.0000		
+33	34	Swaga	Swaga	subst:sg:gen:m3			0.0000		
+33	34	Swaga	Swaga	subst:sg:nom:f			0.0000		
+33	34	Swaga	Swaga	subst:sg:nom:m1			0.0000		
+33	34	Swaga	Swaga	subst:sg:nom:m3			1.0000		disamb
+33	34	Swaga	Swaga	subst:sg:nom:n:col			0.0000		
+33	34	Swaga	Swaga	subst:sg:nom:n:ncol			0.0000		
+33	34	Swaga	Swaga	ign			0.0000		
+34	35	Swaga	Swaga	adj:sg:nom:f:pos			0.0000		
+34	35	Swaga	Swaga	subst:sg:acc:n:ncol			0.0000		
+34	35	Swaga	Swaga	subst:sg:gen:m1			0.0000		
+34	35	Swaga	Swaga	subst:sg:gen:m2			0.0000		
+34	35	Swaga	Swaga	subst:sg:gen:m3			0.0000		
+34	35	Swaga	Swaga	subst:sg:gen:n:col			0.0000		
+34	35	Swaga	Swaga	subst:sg:nom:f			0.0000		
+34	35	Swaga	Swaga	subst:sg:nom:m1			0.0000		
+34	35	Swaga	Swaga	subst:sg:nom:m3			1.0000		disamb
+34	35	Swaga	Swaga	subst:sg:nom:n:col			0.0000		
+34	35	Swaga	Swaga	ign			0.0000		
+35	36	,	,	interp			1.0000		disamb
+36	37	ze	z	prep:acc:wok			0.0000		
+36	37	ze	z	prep:gen:wok			1.0000		disamb
+36	37	ze	z	prep:inst:wok			0.0000		
+37	38	względu	wzgląd	subst:sg:gen:m3	nazwa pospolita		1.0000		disamb
+38	39	na	na	interj			0.0000		
+38	39	na	na	prep:acc			1.0000		disamb
+38	39	na	na	prep:loc			0.0000		
+39	40	występującą	występować	pact:sg:acc:f:imperf:aff			1.0000		disamb
+39	40	występującą	występować	pact:sg:inst:f:imperf:aff			0.0000		
+40	41	tam	tam	adv			0.9999		disamb
+40	41	tam	tam	qub			0.0001		
+40	41	tam	tama	subst:pl:gen:f	nazwa pospolita		0.0000		
+41	42	muchę	mucha	subst:sg:acc:f	nazwa pospolita		1.0000		disamb
+42	43	tse-tse	tse-tse	subst:pl:acc:f	nazwa pospolita		0.0000		
+42	43	tse-tse	tse-tse	subst:pl:dat:f	nazwa pospolita		0.0000		
+42	43	tse-tse	tse-tse	subst:pl:gen:f	nazwa pospolita		0.0000		
+42	43	tse-tse	tse-tse	subst:pl:inst:f	nazwa pospolita		0.0000		
+42	43	tse-tse	tse-tse	subst:pl:loc:f	nazwa pospolita		0.0000		
+42	43	tse-tse	tse-tse	subst:pl:nom:f	nazwa pospolita		0.0000		
+42	43	tse-tse	tse-tse	subst:pl:voc:f	nazwa pospolita		0.0000		
+42	43	tse-tse	tse-tse	subst:sg:acc:f	nazwa pospolita		0.0008		
+42	43	tse-tse	tse-tse	subst:sg:dat:f	nazwa pospolita		0.0000		
+42	43	tse-tse	tse-tse	subst:sg:gen:f	nazwa pospolita		0.9992		disamb
+42	43	tse-tse	tse-tse	subst:sg:inst:f	nazwa pospolita		0.0000		
+42	43	tse-tse	tse-tse	subst:sg:loc:f	nazwa pospolita		0.0000		
+42	43	tse-tse	tse-tse	subst:sg:nom:f	nazwa pospolita		0.0000		
+42	43	tse-tse	tse-tse	subst:sg:voc:f	nazwa pospolita		0.0000		
+43	44	,	,	interp			1.0000		disamb
+44	45	która	który	adj:sg:nom:f:pos			1.0000		disamb
+44	45	która	który	adj:sg:voc:f:pos			0.0000		
+45	46	zarażała	zarażać	praet:sg:f:imperf			1.0000		disamb
+46	47	śmiertelną	śmiertelna	subst:sg:acc:f	nazwa pospolita		0.0000		
+46	47	śmiertelną	śmiertelna	subst:sg:inst:f	nazwa pospolita		0.0000		
+46	47	śmiertelną	śmiertelny	adj:sg:acc:f:pos			0.0352		
+46	47	śmiertelną	śmiertelny	adj:sg:inst:f:pos			0.9648		disamb
+47	48	śpiączką	śpiączka	subst:sg:inst:f	nazwa pospolita		1.0000		disamb
+48	49	afrykańską	afrykański	adj:sg:acc:f:pos			0.0000		
+48	49	afrykańską	afrykański	adj:sg:inst:f:pos			1.0000		disamb
+49	50	.	.	interp			1.0000	eos	disamb
+50	51	Jednak	jednak	conj			0.9653		disamb
+50	51	Jednak	jednak	qub			0.0347		
+51	52	przypuszczali	przypuszczać	praet:pl:m1:imperf			1.0000		disamb
+52	53	,	,	interp			1.0000		disamb
+53	54	że	że	comp			1.0000		disamb
+53	54	że	że	qub			0.0000		
+54	55	i	i	interj			0.0000		
+54	55	i	i	conj			0.0546		
+54	55	i	i	qub			0.9454		disamb
+55	56	tam	tam	adv			0.8312		disamb
+55	56	tam	tam	qub			0.1688		
+55	56	tam	tama	subst:pl:gen:f	nazwa pospolita		0.0000		
+56	57	mogą	móc	fin:pl:ter:imperf			1.0000		disamb
+57	58	się	się	qub			1.0000		disamb
+58	59	znajdować	znajdować	inf:imperf			1.0000		disamb
+59	60	malowidła	malowidło	subst:pl:acc:n:ncol	nazwa pospolita		1.0000		disamb
+59	60	malowidła	malowidło	subst:pl:nom:n:ncol	nazwa pospolita		0.0000		
+59	60	malowidła	malowidło	subst:pl:voc:n:ncol	nazwa pospolita		0.0000		
+59	60	malowidła	malowidło	subst:sg:gen:n:ncol	nazwa pospolita		0.0000		
+60	61	.	.	interp			1.0000	eos	disamb
+61	62	Nikt	nikt	subst:sg:nom:m1			1.0000		disamb
+62	63	nie	nie	interj			0.0000		
+62	63	nie	nie	conj			0.0055		
+62	63	nie	nie	qub			0.9945		disamb
+62	63	nie	on	ppron3:pl:acc:f:ter:akc:praep			0.0000		
+62	63	nie	on	ppron3:pl:acc:f:ter:nakc:praep			0.0000		
+62	63	nie	on	ppron3:pl:acc:m2:ter:akc:praep			0.0000		
+62	63	nie	on	ppron3:pl:acc:m2:ter:nakc:praep			0.0000		
+62	63	nie	on	ppron3:pl:acc:m3:ter:akc:praep			0.0000		
+62	63	nie	on	ppron3:pl:acc:m3:ter:nakc:praep			0.0000		
+62	63	nie	on	ppron3:pl:acc:n:ter:akc:praep			0.0000		
+62	63	nie	on	ppron3:pl:acc:n:ter:nakc:praep			0.0000		
+62	63	nie	on	ppron3:sg:acc:n:ter:akc:praep			0.0000		
+62	63	nie	on	ppron3:sg:acc:n:ter:nakc:praep			0.0000		
+63	64	sądził	sądzić	praet:sg:m1:imperf			1.0000		disamb
+63	64	sądził	sądzić	praet:sg:m2:imperf			0.0000		
+63	64	sądził	sądzić	praet:sg:m3:imperf			0.0000		
+64	65	,	,	interp			1.0000		disamb
+65	66	że	że	comp			1.0000		disamb
+65	66	że	że	qub			0.0000		
+66	67	będzie	być	bedzie:sg:ter:imperf			1.0000		disamb
+67	68	ich	on	ppron3:pl:acc:m1:ter:akc:npraep			0.0000		
+67	68	ich	on	ppron3:pl:acc:m1:ter:nakc:npraep			0.0000		
+67	68	ich	on	ppron3:pl:gen:f:ter:akc:npraep			0.0000		
+67	68	ich	on	ppron3:pl:gen:f:ter:nakc:npraep			0.0000		
+67	68	ich	on	ppron3:pl:gen:m1:ter:akc:npraep			1.0000		disamb
+67	68	ich	on	ppron3:pl:gen:m1:ter:nakc:npraep			0.0000		
+67	68	ich	on	ppron3:pl:gen:m2:ter:akc:npraep			0.0000		
+67	68	ich	on	ppron3:pl:gen:m2:ter:nakc:npraep			0.0000		
+67	68	ich	on	ppron3:pl:gen:m3:ter:akc:npraep			0.0000		
+67	68	ich	on	ppron3:pl:gen:m3:ter:nakc:npraep			0.0000		
+67	68	ich	on	ppron3:pl:gen:n:ter:akc:npraep			0.0000		
+67	68	ich	on	ppron3:pl:gen:n:ter:nakc:npraep			0.0000		
+68	69	tak	tak	adv:pos			1.0000		disamb
+68	69	tak	tak	interj			0.0000		
+68	69	tak	tak	qub			0.0000		
+68	69	tak	taka	subst:pl:gen:f	nazwa pospolita		0.0000		
+69	70	wiele	wiele	adv			0.0046		
+69	70	wiele	wiele	num:pl:acc:f:rec			0.0000		
+69	70	wiele	wiele	num:pl:acc:m2:rec			0.0000		
+69	70	wiele	wiele	num:pl:acc:m3:rec			0.0000		
+69	70	wiele	wiele	num:pl:acc:n:rec			0.0000		
+69	70	wiele	wiele	num:pl:nom:f:rec			0.9952		disamb
+69	70	wiele	wiele	num:pl:nom:m2:rec			0.0000		
+69	70	wiele	wiele	num:pl:nom:m3:rec			0.0000		
+69	70	wiele	wiele	num:pl:nom:n:rec			0.0002		
+69	70	wiele	wiele	num:pl:voc:f:rec			0.0000		
+69	70	wiele	wiele	num:pl:voc:m2:rec			0.0000		
+69	70	wiele	wiele	num:pl:voc:m3:rec			0.0000		
+69	70	wiele	wiele	num:pl:voc:n:rec			0.0000		
+69	70	wiele	wiele	num:sg:acc:f:rec		rzad.	0.0000		
+69	70	wiele	wiele	num:sg:acc:m1:rec		rzad.	0.0000		
+69	70	wiele	wiele	num:sg:acc:m2:rec		rzad.	0.0000		
+69	70	wiele	wiele	num:sg:acc:m3:rec		rzad.	0.0000		
+69	70	wiele	wiele	num:sg:acc:n:rec		rzad.	0.0000		
+69	70	wiele	wiele	num:sg:gen:f:rec		rzad.	0.0000		
+69	70	wiele	wiele	num:sg:gen:m1:rec		rzad.	0.0000		
+69	70	wiele	wiele	num:sg:gen:m2:rec		rzad.	0.0000		
+69	70	wiele	wiele	num:sg:gen:m3:rec		rzad.	0.0000		
+69	70	wiele	wiele	num:sg:gen:n:rec		rzad.	0.0000		
+69	70	wiele	wiele	num:sg:nom:f:rec		rzad.	0.0000		
+69	70	wiele	wiele	num:sg:nom:m1:rec		rzad.	0.0000		
+69	70	wiele	wiele	num:sg:nom:m2:rec		rzad.	0.0000		
+69	70	wiele	wiele	num:sg:nom:m3:rec		rzad.	0.0000		
+69	70	wiele	wiele	num:sg:nom:n:rec		rzad.	0.0000		
+70	71	"	"	interp			1.0000		disamb
+71	72	-	-	interp			1.0000		disamb
+72	73	podkreśla	podkreślać	fin:sg:ter:imperf			1.0000		disamb
+73	74	Grzelczyk	Grzelczyk	subst:sg:nom:m1	nazwisko		0.0000		
+73	74	Grzelczyk	Grzelczyk	subst:pl:acc:f	nazwisko		0.0000		
+73	74	Grzelczyk	Grzelczyk	subst:pl:dat:f	nazwisko		0.0000		
+73	74	Grzelczyk	Grzelczyk	subst:pl:gen:f	nazwisko		0.0000		
+73	74	Grzelczyk	Grzelczyk	subst:pl:inst:f	nazwisko		0.0000		
+73	74	Grzelczyk	Grzelczyk	subst:pl:loc:f	nazwisko		0.0000		
+73	74	Grzelczyk	Grzelczyk	subst:pl:nom:f	nazwisko		0.0000		
+73	74	Grzelczyk	Grzelczyk	subst:pl:voc:f	nazwisko		0.0000		
+73	74	Grzelczyk	Grzelczyk	subst:sg:acc:f	nazwisko		0.9332		disamb
+73	74	Grzelczyk	Grzelczyk	subst:sg:dat:f	nazwisko		0.0000		
+73	74	Grzelczyk	Grzelczyk	subst:sg:gen:f	nazwisko		0.0000		
+73	74	Grzelczyk	Grzelczyk	subst:sg:inst:f	nazwisko		0.0001		
+73	74	Grzelczyk	Grzelczyk	subst:sg:loc:f	nazwisko		0.0000		
+73	74	Grzelczyk	Grzelczyk	subst:sg:nom:f	nazwisko		0.0667		
+73	74	Grzelczyk	Grzelczyk	subst:sg:voc:f	nazwisko		0.0000		
+74	75	.	.	interp			1.0000	eos	disamb
+0	1	W	w	prep:acc:nwok			0.0000		
+0	1	W	w	prep:loc:nwok			1.0000		disamb
+1	2	czasie	czas	subst:sg:loc:m3	nazwa pospolita		1.0000		disamb
+1	2	czasie	czas	subst:sg:voc:m3	nazwa pospolita		0.0000		
+2	3	poszukiwań	poszukiwanie	subst:pl:gen:n:ncol	nazwa pospolita		1.0000		disamb
+2	3	poszukiwań	poszukiwać	ger:pl:gen:n:imperf:aff			0.0000		
+3	4	pomocna	pomocny	adj:sg:nom:f:pos			0.9951		disamb
+3	4	pomocna	pomocny	adj:sg:voc:f:pos			0.0049		
+4	5	okazała	okazać	praet:sg:f:perf			1.0000		disamb
+4	5	okazała	okazały	adj:sg:nom:f:pos			0.0000		
+4	5	okazała	okazały	adj:sg:voc:f:pos			0.0000		
+5	6	się	się	qub			1.0000		disamb
+6	7	technologia	technologia	subst:sg:nom:f	nazwa pospolita		1.0000		disamb
+7	8	.	.	interp			1.0000	eos	disamb
+8	9	"	"	interp			1.0000		disamb
+9	10	Mniej	mało	adv:com			1.0000		disamb
+9	10	Mniej	mniej	num:pl:acc:f:rec			0.0000		
+9	10	Mniej	mniej	num:pl:acc:m1:rec			0.0000		
+9	10	Mniej	mniej	num:pl:acc:m2:rec			0.0000		
+9	10	Mniej	mniej	num:pl:acc:m3:rec			0.0000		
+9	10	Mniej	mniej	num:pl:acc:n:rec			0.0000		
+9	10	Mniej	mniej	num:pl:gen:f:rec			0.0000		
+9	10	Mniej	mniej	num:pl:gen:m1:rec			0.0000		
+9	10	Mniej	mniej	num:pl:gen:m2:rec			0.0000		
+9	10	Mniej	mniej	num:pl:gen:m3:rec			0.0000		
+9	10	Mniej	mniej	num:pl:gen:n:rec			0.0000		
+9	10	Mniej	mniej	num:pl:nom:f:rec			0.0000		
+9	10	Mniej	mniej	num:pl:nom:m1:rec			0.0000		
+9	10	Mniej	mniej	num:pl:nom:m2:rec			0.0000		
+9	10	Mniej	mniej	num:pl:nom:m3:rec			0.0000		
+9	10	Mniej	mniej	num:pl:nom:n:rec			0.0000		
+9	10	Mniej	mniej	num:sg:acc:f:rec			0.0000		
+9	10	Mniej	mniej	num:sg:acc:m1:rec			0.0000		
+9	10	Mniej	mniej	num:sg:acc:m2:rec			0.0000		
+9	10	Mniej	mniej	num:sg:acc:m3:rec			0.0000		
+9	10	Mniej	mniej	num:sg:acc:n:rec			0.0000		
+9	10	Mniej	mniej	num:sg:gen:f:rec			0.0000		
+9	10	Mniej	mniej	num:sg:gen:m1:rec			0.0000		
+9	10	Mniej	mniej	num:sg:gen:m2:rec			0.0000		
+9	10	Mniej	mniej	num:sg:gen:m3:rec			0.0000		
+9	10	Mniej	mniej	num:sg:gen:n:rec			0.0000		
+9	10	Mniej	mniej	num:sg:nom:f:rec			0.0000		
+9	10	Mniej	mniej	num:sg:nom:m1:rec			0.0000		
+9	10	Mniej	mniej	num:sg:nom:m2:rec			0.0000		
+9	10	Mniej	mniej	num:sg:nom:m3:rec			0.0000		
+9	10	Mniej	mniej	num:sg:nom:n:rec			0.0000		
+10	11	więcej	dużo	adv:com			1.0000		disamb
+10	11	więcej	więcej	num:pl:acc:f:rec			0.0000		
+10	11	więcej	więcej	num:pl:acc:m1:rec			0.0000		
+10	11	więcej	więcej	num:pl:acc:m2:rec			0.0000		
+10	11	więcej	więcej	num:pl:acc:m3:rec			0.0000		
+10	11	więcej	więcej	num:pl:acc:n:rec			0.0000		
+10	11	więcej	więcej	num:pl:gen:f:rec			0.0000		
+10	11	więcej	więcej	num:pl:gen:m1:rec			0.0000		
+10	11	więcej	więcej	num:pl:gen:m2:rec			0.0000		
+10	11	więcej	więcej	num:pl:gen:m3:rec			0.0000		
+10	11	więcej	więcej	num:pl:gen:n:rec			0.0000		
+10	11	więcej	więcej	num:pl:nom:f:rec			0.0000		
+10	11	więcej	więcej	num:pl:nom:m1:rec			0.0000		
+10	11	więcej	więcej	num:pl:nom:m2:rec			0.0000		
+10	11	więcej	więcej	num:pl:nom:m3:rec			0.0000		
+10	11	więcej	więcej	num:pl:nom:n:rec			0.0000		
+10	11	więcej	więcej	num:sg:acc:f:rec			0.0000		
+10	11	więcej	więcej	num:sg:acc:m1:rec			0.0000		
+10	11	więcej	więcej	num:sg:acc:m2:rec			0.0000		
+10	11	więcej	więcej	num:sg:acc:m3:rec			0.0000		
+10	11	więcej	więcej	num:sg:acc:n:rec			0.0000		
+10	11	więcej	więcej	num:sg:gen:f:rec			0.0000		
+10	11	więcej	więcej	num:sg:gen:m1:rec			0.0000		
+10	11	więcej	więcej	num:sg:gen:m2:rec			0.0000		
+10	11	więcej	więcej	num:sg:gen:m3:rec			0.0000		
+10	11	więcej	więcej	num:sg:gen:n:rec			0.0000		
+10	11	więcej	więcej	num:sg:nom:f:rec			0.0000		
+10	11	więcej	więcej	num:sg:nom:m1:rec			0.0000		
+10	11	więcej	więcej	num:sg:nom:m2:rec			0.0000		
+10	11	więcej	więcej	num:sg:nom:m3:rec			0.0000		
+10	11	więcej	więcej	num:sg:nom:n:rec			0.0000		
+11	12	połowa	połowa	subst:sg:nom:f	nazwa pospolita		1.0000		disamb
+12	13	z	z	prep:acc:nwok			0.0000		
+12	13	z	z	prep:gen:nwok			1.0000		disamb
+12	13	z	z	prep:inst:nwok			0.0000		
+13	14	malowideł	malowidło	subst:pl:gen:n:ncol	nazwa pospolita		1.0000		disamb
+14	15	jest	być	fin:sg:ter:imperf			1.0000		disamb
+15	16	niemal	niemal	qub			1.0000		disamb
+16	17	niedostrzegalna	niedostrzegalny	adj:sg:nom:f:pos			1.0000		disamb
+16	17	niedostrzegalna	niedostrzegalny	adj:sg:voc:f:pos			0.0000		
+16	17	niedostrzegalna	niedostrzegalny	adj:sg:nom:f:pos			1.0000		disamb
+16	17	niedostrzegalna	niedostrzegalny	adj:sg:voc:f:pos			0.0000		
+17	18	gołym	goły	adj:pl:dat:f:pos			0.0000		
+17	18	gołym	goły	adj:pl:dat:m1:pos			0.0000		
+17	18	gołym	goły	adj:pl:dat:m2:pos			0.0000		
+17	18	gołym	goły	adj:pl:dat:m3:pos			0.0000		
+17	18	gołym	goły	adj:pl:dat:n:pos			0.0000		
+17	18	gołym	goły	adj:sg:inst:m1:pos			0.0000		
+17	18	gołym	goły	adj:sg:inst:m2:pos			0.0000		
+17	18	gołym	goły	adj:sg:inst:m3:pos			0.0000		
+17	18	gołym	goły	adj:sg:inst:n:pos			1.0000		disamb
+17	18	gołym	goły	adj:sg:loc:m1:pos			0.0000		
+17	18	gołym	goły	adj:sg:loc:m2:pos			0.0000		
+17	18	gołym	goły	adj:sg:loc:m3:pos			0.0000		
+17	18	gołym	goły	adj:sg:loc:n:pos			0.0000		
+18	19	okiem	oko	subst:sg:inst:n:ncol	nazwa pospolita		1.0000		disamb
+18	19	okiem	oko	subst:sg:inst:n:col	nazwa pospolita	anat.	1.0000		disamb
+19	20	.	.	interp			1.0000	eos	disamb
+20	21	Dopiero	dopiero	qub			1.0000		disamb
+21	22	zastosowanie	zastosowanie	subst:sg:acc:n:ncol	nazwa pospolita		0.0000		
+21	22	zastosowanie	zastosowanie	subst:sg:nom:n:ncol	nazwa pospolita		0.0000		
+21	22	zastosowanie	zastosowanie	subst:sg:voc:n:ncol	nazwa pospolita		0.0000		
+21	22	zastosowanie	zastosować	ger:sg:acc:n:perf:aff			0.0003		
+21	22	zastosowanie	zastosować	ger:sg:nom:n:perf:aff			0.9997		disamb
+22	23	odpowiedniego	odpowiedni	adj:sg:acc:m1:pos			0.0000		
+22	23	odpowiedniego	odpowiedni	adj:sg:acc:m2:pos			0.0000		
+22	23	odpowiedniego	odpowiedni	adj:sg:gen:m1:pos			0.0000		
+22	23	odpowiedniego	odpowiedni	adj:sg:gen:m2:pos			0.0000		
+22	23	odpowiedniego	odpowiedni	adj:sg:gen:m3:pos			1.0000		disamb
+22	23	odpowiedniego	odpowiedni	adj:sg:gen:n:pos			0.0000		
+23	24	filtru	filtr	subst:sg:gen:m3	nazwa pospolita		1.0000		disamb
+24	25	w	w	prep:acc:nwok			0.0000		
+24	25	w	w	prep:loc:nwok			1.0000		disamb
+25	26	aparacie	aparat	subst:sg:loc:m3	nazwa pospolita		1.0000		disamb
+25	26	aparacie	aparat	subst:sg:voc:m3	nazwa pospolita		0.0000		
+25	26	aparacie	aparat	subst:sg:loc:m1	nazwa pospolita	pot.	0.0000		
+25	26	aparacie	aparat	subst:sg:voc:m1	nazwa pospolita	pot.	0.0000		
+26	27	umożliwia	umożliwiać	fin:sg:ter:imperf			1.0000		disamb
+27	28	ich	on	ppron3:pl:acc:m1:ter:akc:npraep			0.0000		
+27	28	ich	on	ppron3:pl:acc:m1:ter:nakc:npraep			0.0000		
+27	28	ich	on	ppron3:pl:gen:f:ter:akc:npraep			0.0056		
+27	28	ich	on	ppron3:pl:gen:f:ter:nakc:npraep			0.0000		
+27	28	ich	on	ppron3:pl:gen:m1:ter:akc:npraep			0.9939		disamb
+27	28	ich	on	ppron3:pl:gen:m1:ter:nakc:npraep			0.0000		
+27	28	ich	on	ppron3:pl:gen:m2:ter:akc:npraep			0.0000		
+27	28	ich	on	ppron3:pl:gen:m2:ter:nakc:npraep			0.0000		
+27	28	ich	on	ppron3:pl:gen:m3:ter:akc:npraep			0.0002		
+27	28	ich	on	ppron3:pl:gen:m3:ter:nakc:npraep			0.0000		
+27	28	ich	on	ppron3:pl:gen:n:ter:akc:npraep			0.0002		
+27	28	ich	on	ppron3:pl:gen:n:ter:nakc:npraep			0.0000		
+28	29	dostrzeżenie	dostrzec	ger:sg:acc:n:perf:aff			1.0000		disamb
+28	29	dostrzeżenie	dostrzec	ger:sg:nom:n:perf:aff			0.0000		
+29	30	"	"	interp			1.0000		disamb
+30	31	-	-	interp			1.0000		disamb
+31	32	mówi	mówić	fin:sg:ter:imperf			1.0000		disamb
+32	33	badacz	badacz	subst:sg:nom:m1	nazwa pospolita		1.0000		disamb
+33	34	.	.	interp			1.0000	eos	disamb
+0	1	Grzelczyk	Grzelczyk	subst:sg:nom:m1	nazwisko		0.8936		disamb
+0	1	Grzelczyk	Grzelczyk	subst:pl:acc:f	nazwisko		0.0128		
+0	1	Grzelczyk	Grzelczyk	subst:pl:dat:f	nazwisko		0.0000		
+0	1	Grzelczyk	Grzelczyk	subst:pl:gen:f	nazwisko		0.0000		
+0	1	Grzelczyk	Grzelczyk	subst:pl:inst:f	nazwisko		0.0000		
+0	1	Grzelczyk	Grzelczyk	subst:pl:loc:f	nazwisko		0.0000		
+0	1	Grzelczyk	Grzelczyk	subst:pl:nom:f	nazwisko		0.0015		
+0	1	Grzelczyk	Grzelczyk	subst:pl:voc:f	nazwisko		0.0000		
+0	1	Grzelczyk	Grzelczyk	subst:sg:acc:f	nazwisko		0.0824		
+0	1	Grzelczyk	Grzelczyk	subst:sg:dat:f	nazwisko		0.0000		
+0	1	Grzelczyk	Grzelczyk	subst:sg:gen:f	nazwisko		0.0000		
+0	1	Grzelczyk	Grzelczyk	subst:sg:inst:f	nazwisko		0.0000		
+0	1	Grzelczyk	Grzelczyk	subst:sg:loc:f	nazwisko		0.0000		
+0	1	Grzelczyk	Grzelczyk	subst:sg:nom:f	nazwisko		0.0097		
+0	1	Grzelczyk	Grzelczyk	subst:sg:voc:f	nazwisko		0.0000		
+1	2	planuje	planować	fin:sg:ter:imperf			1.0000		disamb
+1	2	planuje	planować	fin:sg:ter:imperf		lotn.	1.0000		disamb
+2	3	wrócić	wrócić	inf:perf		przest.	1.0000		disamb
+2	3	wrócić	wrócić	inf:perf			1.0000		disamb
+3	4	do	do	prep:gen			1.0000		disamb
+3	4	do	do	subst:pl:acc:n:ncol	nazwa pospolita	muz.	0.0000		
+3	4	do	do	subst:pl:dat:n:ncol	nazwa pospolita	muz.	0.0000		
+3	4	do	do	subst:pl:gen:n:ncol	nazwa pospolita	muz.	0.0000		
+3	4	do	do	subst:pl:inst:n:ncol	nazwa pospolita	muz.	0.0000		
+3	4	do	do	subst:pl:loc:n:ncol	nazwa pospolita	muz.	0.0000		
+3	4	do	do	subst:pl:nom:n:ncol	nazwa pospolita	muz.	0.0000		
+3	4	do	do	subst:pl:voc:n:ncol	nazwa pospolita	muz.	0.0000		
+3	4	do	do	subst:sg:acc:n:ncol	nazwa pospolita	muz.	0.0000		
+3	4	do	do	subst:sg:dat:n:ncol	nazwa pospolita	muz.	0.0000		
+3	4	do	do	subst:sg:gen:n:ncol	nazwa pospolita	muz.	0.0000		
+3	4	do	do	subst:sg:inst:n:ncol	nazwa pospolita	muz.	0.0000		
+3	4	do	do	subst:sg:loc:n:ncol	nazwa pospolita	muz.	0.0000		
+3	4	do	do	subst:sg:nom:n:ncol	nazwa pospolita	muz.	0.0000		
+3	4	do	do	subst:sg:voc:n:ncol	nazwa pospolita	muz.	0.0000		
+4	5	Tanzanii	Tanzania	subst:pl:gen:f	nazwa geograficzna	hom.	0.0000		
+4	5	Tanzanii	Tanzania	subst:sg:dat:f	nazwa geograficzna		0.0000		
+4	5	Tanzanii	Tanzania	subst:sg:gen:f	nazwa geograficzna		1.0000		disamb
+4	5	Tanzanii	Tanzania	subst:sg:loc:f	nazwa geograficzna		0.0000		
+5	6	w	w	prep:acc:nwok			0.0000		
+5	6	w	w	prep:loc:nwok			1.0000		disamb
+6	7	najbliższym	bliski	adj:pl:dat:f:sup			0.0000		
+6	7	najbliższym	bliski	adj:pl:dat:m1:sup			0.0000		
+6	7	najbliższym	bliski	adj:pl:dat:m2:sup			0.0000		
+6	7	najbliższym	bliski	adj:pl:dat:m3:sup			0.0000		
+6	7	najbliższym	bliski	adj:pl:dat:n:sup			0.0000		
+6	7	najbliższym	bliski	adj:sg:inst:m1:sup			0.0000		
+6	7	najbliższym	bliski	adj:sg:inst:m2:sup			0.0000		
+6	7	najbliższym	bliski	adj:sg:inst:m3:sup			0.0000		
+6	7	najbliższym	bliski	adj:sg:inst:n:sup			0.0000		
+6	7	najbliższym	bliski	adj:sg:loc:m1:sup			0.0000		
+6	7	najbliższym	bliski	adj:sg:loc:m2:sup			0.0000		
+6	7	najbliższym	bliski	adj:sg:loc:m3:sup			1.0000		disamb
+6	7	najbliższym	bliski	adj:sg:loc:n:sup			0.0000		
+7	8	czasie	czas	subst:sg:loc:m3	nazwa pospolita		1.0000		disamb
+7	8	czasie	czas	subst:sg:voc:m3	nazwa pospolita		0.0000		
+8	9	i	i	interj			0.0000		
+8	9	i	i	conj			1.0000		disamb
+8	9	i	i	qub			0.0000		
+9	10	kontynuować	kontynuować	inf:imperf			1.0000		disamb
+10	11	dokumentację	dokumentacja	subst:sg:acc:f	nazwa pospolita		1.0000		disamb
+11	12	sztuki	sztuk	subst:pl:acc:m3	nazwa pospolita	daw.	0.0000		
+11	12	sztuki	sztuk	subst:pl:nom:m3	nazwa pospolita	daw.	0.0000		
+11	12	sztuki	sztuk	subst:pl:voc:m3	nazwa pospolita	daw.	0.0000		
+11	12	sztuki	sztuka	subst:pl:acc:f	nazwa pospolita		0.0000		
+11	12	sztuki	sztuka	subst:pl:nom:f	nazwa pospolita		0.0000		
+11	12	sztuki	sztuka	subst:pl:voc:f	nazwa pospolita		0.0000		
+11	12	sztuki	sztuka	subst:sg:gen:f	nazwa pospolita		1.0000		disamb
+12	13	naskalnej	naskalny	adj:sg:dat:f:pos			0.0000		
+12	13	naskalnej	naskalny	adj:sg:gen:f:pos			1.0000		disamb
+12	13	naskalnej	naskalny	adj:sg:loc:f:pos			0.0000		
+13	14	wśród	wśród	prep:gen			1.0000		disamb
+14	15	schronisk	schronisko	subst:pl:gen:n:ncol	nazwa pospolita		1.0000		disamb
+15	16	skalnych	skalny	adj:pl:acc:m1:pos			0.0000		
+15	16	skalnych	skalny	adj:pl:gen:f:pos			0.0000		
+15	16	skalnych	skalny	adj:pl:gen:m1:pos			0.0001		
+15	16	skalnych	skalny	adj:pl:gen:m2:pos			0.0000		
+15	16	skalnych	skalny	adj:pl:gen:m3:pos			0.0000		
+15	16	skalnych	skalny	adj:pl:gen:n:pos			0.9999		disamb
+15	16	skalnych	skalny	adj:pl:loc:f:pos			0.0000		
+15	16	skalnych	skalny	adj:pl:loc:m1:pos			0.0000		
+15	16	skalnych	skalny	adj:pl:loc:m2:pos			0.0000		
+15	16	skalnych	skalny	adj:pl:loc:m3:pos			0.0000		
+15	16	skalnych	skalny	adj:pl:loc:n:pos			0.0000		
+16	17	.	.	interp			1.0000	eos	disamb
+17	18	Polega	polegać	fin:sg:ter:imperf			1.0000		disamb
+18	19	ona	on	adj:sg:nom:f:pos		daw.	0.0000		
+18	19	ona	on	adj:sg:voc:f:pos		daw.	0.0000		
+18	19	ona	on	ppron3:sg:nom:f:ter:akc:npraep			1.0000		disamb
+18	19	ona	on	ppron3:sg:nom:f:ter:akc:praep			0.0000		
+18	19	ona	on	ppron3:sg:nom:f:ter:nakc:npraep			0.0000		
+18	19	ona	on	ppron3:sg:nom:f:ter:nakc:praep			0.0000		
+19	20	m.in	między_innymi	brev:pun			1.0000		disamb
+20	21	.	.	interp			1.0000		disamb
+21	22	na	na	interj			0.0000		
+21	22	na	na	prep:acc			0.0000		
+21	22	na	na	prep:loc			1.0000		disamb
+22	23	wykonaniu	wykonanie	subst:sg:dat:n:ncol	nazwa pospolita		0.0000		
+22	23	wykonaniu	wykonanie	subst:sg:loc:n:ncol	nazwa pospolita		1.0000		disamb
+22	23	wykonaniu	wykonać	ger:sg:dat:n:perf:aff			0.0000		
+22	23	wykonaniu	wykonać	ger:sg:loc:n:perf:aff			0.0000		
+23	24	trójwymiarowych	trójwymiarowy	adj:pl:acc:m1:pos			0.0000		
+23	24	trójwymiarowych	trójwymiarowy	adj:pl:gen:f:pos			1.0000		disamb
+23	24	trójwymiarowych	trójwymiarowy	adj:pl:gen:m1:pos			0.0000		
+23	24	trójwymiarowych	trójwymiarowy	adj:pl:gen:m2:pos			0.0000		
+23	24	trójwymiarowych	trójwymiarowy	adj:pl:gen:m3:pos			0.0000		
+23	24	trójwymiarowych	trójwymiarowy	adj:pl:gen:n:pos			0.0000		
+23	24	trójwymiarowych	trójwymiarowy	adj:pl:loc:f:pos			0.0000		
+23	24	trójwymiarowych	trójwymiarowy	adj:pl:loc:m1:pos			0.0000		
+23	24	trójwymiarowych	trójwymiarowy	adj:pl:loc:m2:pos			0.0000		
+23	24	trójwymiarowych	trójwymiarowy	adj:pl:loc:m3:pos			0.0000		
+23	24	trójwymiarowych	trójwymiarowy	adj:pl:loc:n:pos			0.0000		
+24	25	panoram	panorama	subst:pl:gen:f	nazwa pospolita		1.0000		disamb
+25	26	sferycznych	sferyczny	adj:pl:acc:m1:pos			0.0000		
+25	26	sferycznych	sferyczny	adj:pl:gen:f:pos			0.9999		disamb
+25	26	sferycznych	sferyczny	adj:pl:gen:m1:pos			0.0000		
+25	26	sferycznych	sferyczny	adj:pl:gen:m2:pos			0.0000		
+25	26	sferycznych	sferyczny	adj:pl:gen:m3:pos			0.0001		
+25	26	sferycznych	sferyczny	adj:pl:gen:n:pos			0.0000		
+25	26	sferycznych	sferyczny	adj:pl:loc:f:pos			0.0000		
+25	26	sferycznych	sferyczny	adj:pl:loc:m1:pos			0.0000		
+25	26	sferycznych	sferyczny	adj:pl:loc:m2:pos			0.0000		
+25	26	sferycznych	sferyczny	adj:pl:loc:m3:pos			0.0000		
+25	26	sferycznych	sferyczny	adj:pl:loc:n:pos			0.0000		
+26	27	360	360	dig			1.0000		disamb
+27	28	stopni	stopień	subst:pl:gen:m3	nazwa pospolita		1.0000		disamb
+28	29	.	.	interp			1.0000	eos	disamb
+29	30	Docelowo	docelowo	adv:pos			1.0000		disamb
+30	31	trafią	trafić	fin:pl:ter:perf			1.0000		disamb
+31	32	one	on	adj:pl:acc:f:pos		daw.	0.0000		
+31	32	one	on	adj:pl:acc:m2:pos		daw.	0.0000		
+31	32	one	on	adj:pl:acc:m3:pos		daw.	0.0000		
+31	32	one	on	adj:pl:acc:n:pos		daw.	0.0000		
+31	32	one	on	adj:pl:nom:f:pos		daw.	0.0000		
+31	32	one	on	adj:pl:nom:m2:pos		daw.	0.0000		
+31	32	one	on	adj:pl:nom:m3:pos		daw.	0.0000		
+31	32	one	on	adj:pl:nom:n:pos		daw.	0.0000		
+31	32	one	on	adj:pl:voc:f:pos		daw.	0.0000		
+31	32	one	on	adj:pl:voc:m2:pos		daw.	0.0000		
+31	32	one	on	adj:pl:voc:m3:pos		daw.	0.0000		
+31	32	one	on	adj:pl:voc:n:pos		daw.	0.0000		
+31	32	one	on	ppron3:pl:nom:f:ter:akc:npraep			0.0014		
+31	32	one	on	ppron3:pl:nom:f:ter:akc:praep			0.0123		
+31	32	one	on	ppron3:pl:nom:f:ter:nakc:npraep			0.0001		
+31	32	one	on	ppron3:pl:nom:f:ter:nakc:praep			0.0002		
+31	32	one	on	ppron3:pl:nom:m2:ter:akc:npraep			0.0002		
+31	32	one	on	ppron3:pl:nom:m2:ter:akc:praep			0.0000		
+31	32	one	on	ppron3:pl:nom:m2:ter:nakc:npraep			0.0001		
+31	32	one	on	ppron3:pl:nom:m2:ter:nakc:praep			0.0002		
+31	32	one	on	ppron3:pl:nom:m3:ter:akc:npraep			0.6562		disamb
+31	32	one	on	ppron3:pl:nom:m3:ter:akc:praep			0.0008		
+31	32	one	on	ppron3:pl:nom:m3:ter:nakc:npraep			0.0001		
+31	32	one	on	ppron3:pl:nom:m3:ter:nakc:praep			0.0002		
+31	32	one	on	ppron3:pl:nom:n:ter:akc:npraep			0.3278		
+31	32	one	on	ppron3:pl:nom:n:ter:akc:praep			0.0000		
+31	32	one	on	ppron3:pl:nom:n:ter:nakc:npraep			0.0001		
+31	32	one	on	ppron3:pl:nom:n:ter:nakc:praep			0.0002		
+32	33	do	do	prep:gen			1.0000		disamb
+32	33	do	do	subst:pl:acc:n:ncol	nazwa pospolita	muz.	0.0000		
+32	33	do	do	subst:pl:dat:n:ncol	nazwa pospolita	muz.	0.0000		
+32	33	do	do	subst:pl:gen:n:ncol	nazwa pospolita	muz.	0.0000		
+32	33	do	do	subst:pl:inst:n:ncol	nazwa pospolita	muz.	0.0000		
+32	33	do	do	subst:pl:loc:n:ncol	nazwa pospolita	muz.	0.0000		
+32	33	do	do	subst:pl:nom:n:ncol	nazwa pospolita	muz.	0.0000		
+32	33	do	do	subst:pl:voc:n:ncol	nazwa pospolita	muz.	0.0000		
+32	33	do	do	subst:sg:acc:n:ncol	nazwa pospolita	muz.	0.0000		
+32	33	do	do	subst:sg:dat:n:ncol	nazwa pospolita	muz.	0.0000		
+32	33	do	do	subst:sg:gen:n:ncol	nazwa pospolita	muz.	0.0000		
+32	33	do	do	subst:sg:inst:n:ncol	nazwa pospolita	muz.	0.0000		
+32	33	do	do	subst:sg:loc:n:ncol	nazwa pospolita	muz.	0.0000		
+32	33	do	do	subst:sg:nom:n:ncol	nazwa pospolita	muz.	0.0000		
+32	33	do	do	subst:sg:voc:n:ncol	nazwa pospolita	muz.	0.0000		
+33	34	ogólnodostępnej	ogólnodostępny	adj:sg:dat:f:pos			0.0000		
+33	34	ogólnodostępnej	ogólnodostępny	adj:sg:gen:f:pos			1.0000		disamb
+33	34	ogólnodostępnej	ogólnodostępny	adj:sg:loc:f:pos			0.0000		
+34	35	bazy	baza	subst:pl:acc:f	nazwa pospolita		0.0000		
+34	35	bazy	baza	subst:pl:nom:f	nazwa pospolita		0.0000		
+34	35	bazy	baza	subst:pl:voc:f	nazwa pospolita		0.0000		
+34	35	bazy	baza	subst:sg:gen:f	nazwa pospolita		1.0000		disamb
+35	36	na	na	interj			0.0000		
+35	36	na	na	prep:acc			0.0000		
+35	36	na	na	prep:loc			1.0000		disamb
+36	37	stronie	strona	subst:sg:dat:f	nazwa pospolita		0.0000		
+36	37	stronie	strona	subst:sg:loc:f	nazwa pospolita		1.0000		disamb
+37	38	internetowej	internetowy	adj:sg:dat:f:pos			0.0000		
+37	38	internetowej	internetowy	adj:sg:gen:f:pos			0.0000		
+37	38	internetowej	internetowy	adj:sg:loc:f:pos			1.0000		disamb
+38	39	.	.	interp			1.0000	eos	disamb

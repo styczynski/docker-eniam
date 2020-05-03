@@ -1,0 +1,1385 @@
+\documentclass{beamer}
+\usepackage[polish]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+%\usepackage{amsthm}
+\usepackage[mathscr]{eucal}
+\usepackage{graphicx}
+\usepackage[T1]{tipa}
+\usepackage{longtable}
+\usepackage{multicol}
+
+%\usepackage{amssymb}
+\usepackage{bussproofs}
+\usepackage{cmll}
+\usepackage{xcolor}
+
+\newcommand{\form}{{\it form}}
+
+\DeclareUnicodeCharacter{3B5}{\ensuremath{\varepsilon}}
+\DeclareUnicodeCharacter{3C9}{\ensuremath{\omega}}
+\DeclareUnicodeCharacter{3BA}{\ensuremath{\kappa}}
+\DeclareUnicodeCharacter{3B4}{\ensuremath{\delta}}
+\DeclareUnicodeCharacter{2B2}{\textipa{\super{j}}}
+\DeclareUnicodeCharacter{2032}{\ensuremath{'}}
+\DeclareUnicodeCharacter{1EF}{\textipa{\v{Z}}}
+
+% for themes, etc.
+%\mode<presentation>
+%{ \usetheme{Boadilla} }
+%\definecolor{mycolor}{rgb}{0.4,0.2,0.5}
+%\usecolortheme[named=mycolor]{structure}
+
+\mode<presentation>
+{ \usetheme{Boadilla} }
+%\definecolor{mycolor}{rgb}{0.0,0.4,0.0}
+\definecolor{mycolor}{rgb}{0.31,0.2,0.6}
+\definecolor{mycolor2}{rgb}{1.0,1.0,1.0}
+\usecolortheme[named=mycolor]{structure}
+ \pgfdeclareverticalshading{beamer@headfade}{\paperwidth}
+  {
+    color(0cm)=(mycolor2);
+    color(1.25cm)=(mycolor)
+  }
+\addtoheadtemplate{\pgfuseshading{beamer@headfade}\vskip-1.25cm}{}
+
+\usepackage{times}  
+
+\newcommand{\tensor}{\bullet}
+\newcommand{\forward}{\operatorname{/}}
+\newcommand{\backward}{\operatorname{\backslash}}
+\newcommand{\both}{\mid}
+\newcommand{\plus}{\oplus}
+\newcommand{\zero}{0}
+\newcommand{\one}{1}
+\newcommand{\maybe}{?}
+
+
+\author{Wojciech Jaworski, Szymon Rutkowski}
+\title[Wielowarstwowy regułowy model fleksji języka polskiego]{Wielowarstwowy regułowy model fleksji języka polskiego}
+\institute[MIM UW, IPI PAN]{Instytut Informatyki Uniwersytetu Warszawskiego\\ $\cdot$\\
+Instytut Podstaw Informatyki Polskiej Akademii Nauk}
+\date{15 października 2018}
+
+% note: do NOT include a \maketitle line; also note that this title
+% material goes BEFORE the \begin{document}
+
+% have this if you'd like a recurring outline
+\AtBeginSection[]  % "Beamer, do the following at the start of every section"
+{
+\begin{frame}<beamer> 
+\frametitle{Spis treści} % make a frame titled óutline"
+\tableofcontents[currentsection]  % show TOC and highlight current section
+\end{frame}
+}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}
+\frametitle{Model}
+\begin{itemize}
+\item Model reprezentuje zasady morfologiczne języka polskiego
+jako zestaw operacji wykonywanych na obserwowanej formie słowa
+prowadzących do przekształcenia jej w lemat i zestaw cech morfoskładniowych.
+\item Celem jest stworzenie reprezentacji polskiej fleksji, która
+\begin{itemize}
+\item jest zwarta i zrozumiała dla człowieka,
+\item odzwierciedla strukturę języka,
+\item jest precyzyjna w sposób umożliwiający jej bezpośrednią implementację
+w postaci {\it odgadywacza} (ang. {\it guesser}) oraz generatora form.
+\end{itemize}
+\item Model został opracowany na podstawie Słownika Gramatycznego Języka Polskiego 
+w wersji z 30.07.2017.
+%Guesser jest to program, który ma za zadanie przypisywanie („odgadywanie”) 
+%cech morfosyntaktycznych segmentu na podstawie jego formy, to znaczy przede wszystkim rozpoznawalnych afiksów. 
+%Widząc, powiedzmy, napis \textit{burachnajami}, można od razu wziąć pod uwagę, 
+%że formą podstawową wyrazu jest \textit{burachnaj}, a do niej dodano końcówkę narzędnika liczby mnogiej \textit{-ami}.
+%Różni się on od {\it analizatora morfologicznego} \cite{Morfeusz} tym, że jego działanie nie jest ograniczone do 
+%zamkniętego zbioru słów pochodzących z dostarczonego programowi słownika gramatycznego.
+%Próbie interpretacji może zostać poddany dowolny napis.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Zakres analizy}
+\begin{itemize}
+\item Tworząc model skupiliśmy się na produktywnej części polskiej fleksji,
+by uchwycić odmianę słów nowych, nieznanych, nie należących do słownika.
+\item Model nie obejmuje nieregularnych czasowników oraz niewielkiej liczby słów 
+należących do innych części mowy o nieregularnej odmianie.
+\begin{itemize}
+\item Wynika to stąd, że znany zamknięty zbiór słów można 
+zawrzeć w słowniczku załączonym do modelu. 
+\end{itemize}
+\item Model nie analizuje również form które nie mają widocznych cech fleksyjnych
+takich jak 
+\begin{itemize}
+\item znaki interpunkcyjne,
+\item liczby, daty, itp.  zapisane cyframi,
+\item skróty.
+\end{itemize}
+\item Model obejmuje 
+\begin{itemize}
+\item odmianę akronimów,
+\item odmianę słów o niepolskiej ortografii,
+\item niektóre formy gwarowe.
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Niejednoznaczność}
+\begin{itemize}
+\item Zadania lematyzacji i anotacji morfosyntaktycznej 
+nie da się wykonać w sposób jednoznaczny jedynie na podstawie 
+obserwacji pojedynczej, wyrwanej z kontekstu formy.
+\item Guesser określa z pomocą swoich reguł jedynie zbiór możliwych interpretacji.
+\item Mogą stanowić one dane wejściowe dla {\it taggera}
+przeprowadzającego dezambiguację morfosyntaktyczną na podstawie modeli statystycznych.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Warstwy}
+\begin{enumerate}
+\item Warstwa \textbf{ortograficzno-fonetyczna} abstrahuje od polskiej ortografii przez przekonwertowanie formy segmentu do wewnętrznej reprezentacji, odzwierciedlającej prawidłowości morfonologiczne języka.
+\item Warstwa \textbf{analityczna} generuje lemat oraz określa występujące afiksy.
+\item Warstwa \textbf{interpretacji} nadaje segmentowi interpretację morfosyntaktyczną na podstawie wykrytych afiksów.
+\item Warstwa korygująca wygenerowane formy i lematy zawierające wygłos.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}
+\frametitle{Warstwa ortograficzno-fonetyczna}
+%dla standardowej ortografii
+\begin{itemize}
+\item Zadania warstwy ortograficzno-fonetycznej to:
+\begin{itemize}
+\item wprowadzenie zasady {\it jeden znak --- jeden dźwięk},
+\item wprowadzenie operatora palatalizacji,
+\item ujednolicenie ortografii, przykładowo:
+\begin{itemize}
+\item w słowie „Franz” piszemy przez „z” na końcu, \\czytamy „c” i odmieniamy tak, jak słowa kończące się na „c”
+\item w słowie „ZOZ” piszemy przez „z” na końcu, \\czytamy „z” i odmieniamy tak, jak słowa kończące się na „z”
+\item w słowie „NFZ” piszemy przez „z” na końcu, \\czytamy „zet” i odmieniamy tak, jak słowa kończące się na „t”
+\end{itemize}
+\end{itemize}
+\item Konwersja jest odwracalna, ale nie jest jednoznaczna.
+\item Celem przeprowadzenia tej konwersji jest uproszczenie kolejnych reguł, które mogą korzystać z uogólnień dokonanych już przez tę warstwę.
+\end{itemize}
+\end{frame}
+%marznąć - wyjątek
+
+\begin{frame}
+\frametitle{}
+\begin{itemize}
+\item W polskim zapisie ortograficznym formy zawierające ten sam rdzeń często różnią się.
+\item Widać to na przykład w ciągu wyrazów: \textit{pani}, \textit{pań}, \textit{panie}.
+\item Za pomocą reguł 
+\begin{center}
+\begin{tabular}{l|l}
+reguła & prawy kontekst \\
+\hline
+n$'$ $\leftarrow$ ni & a ą e ę o ó u\\
+n$'$ $\leftarrow$ n & i {\it sylabotwórcze}\\
+n$'$ $\leftarrow$ ń & {\it spółgłoska lub wygłos}\\
+\end{tabular}
+\end{center}
+
+można je przekształcić do postaci: \texttt{pan$'$i}, \texttt{pan$'$}, \texttt{pan$'$e},\\
+gdzie dobrze widoczny jest wspólny rdzeń (\texttt{pan$'$}).
+\item Domyślna reguła przepisuje znak wejściowy bez zmian; uruchamia się ona, kiedy żadna z innych reguł nie znajduje zastosowania.
+\item Stosowalność reguł wymaga
+\begin{itemize}
+\item dopasowania ciągu znaków podlegającego przekształceniu, 
+\item dopasowania prawego kontekstu (ciągu znaków następującego bezpośrednio po ciągu przekształcanym).
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Wybrane reguły ortograficzno-fonetyczne}
+\begin{center}
+\begin{tabular}{l|l|l|l}
+reguła & reguła & reguła & prawy kontekst \\
+\hline
+b$'$ $\leftarrow$ bi & p$'$ $\leftarrow$ pi & m$'$ $\leftarrow$ mi & a ą e ę o ó u\\
+b$'$ $\leftarrow$ b & p$'$ $\leftarrow$ p & m$'$ $\leftarrow$ m & i {\it sylabotwórcze}\\
+\hline
+v$'$ $\leftarrow$ wi & f$'$ $\leftarrow$ fi &  & a ą e ę o ó u\\
+v$'$ $\leftarrow$ w & f$'$ $\leftarrow$ f &  & i {\it sylabotwórcze}\\
+v $\leftarrow$ w &  & x $\leftarrow$ ch & {\it litera inna niż } i \\
+\hline
+d$'$ $\leftarrow$ dzi & t$'$ $\leftarrow$ ci & n$'$ $\leftarrow$ ni & a ą e ę o ó u\\
+d$'$ $\leftarrow$ dz & t$'$ $\leftarrow$ c & n$'$ $\leftarrow$ n & i {\it sylabotwórcze}\\
+d$'$ $\leftarrow$ dź & t$'$ $\leftarrow$ ć & n$'$ $\leftarrow$ ń & {\it spółgłoska lub wygłos}\\
+\hline
+z$'$ $\leftarrow$ zi & s$'$ $\leftarrow$ si &  & a ą e ę o ó u\\
+z$'$ $\leftarrow$ z & s$'$ $\leftarrow$ s &  & i {\it sylabotwórcze}\\
+z$'$ $\leftarrow$ ź & s$'$ $\leftarrow$ ś &  & {\it spółgłoska lub wygłos}\\
+\hline
+\textipa{\v{Z}} $\leftarrow$ dż & č $\leftarrow$ cz & \textipa{Z} $\leftarrow$ dz & {\it litera inna niż } i\\
+\hline
+ž $\leftarrow$ ż & š $\leftarrow$ sz & ř $\leftarrow$ rz & {\it litera inna niż } i\\
+\hline
+g$'$ $\leftarrow$ gi & k$'$ $\leftarrow$ ki &  & a ą e ę o ó u\\
+g$'$ $\leftarrow$ g & k$'$ $\leftarrow$ k &  & i {\it sylabotwórcze}\\
+\end{tabular}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\frametitle{Podział głosek}
+\begin{itemize}
+\item Głoski dzielimy na funkcjonalnie miękkie i funkcjonalnie twarde.
+\item Funkcjonalnie twarde to takie, które można zmiękczyć,\\ należą do nich:
+\begin{center}
+b, x, d, f, g, h, k, ł, m, n, p, r, s, t, v, z
+\end{center}
+\item Funkcjonalnie miękkie to takie, których zmiękczyć się nie da,\\ należą do nich:
+\begin{center}
+b$'$, t$'$, d$'$, f$'$, m$'$, n$'$, p$'$, s$'$, v$'$, z$'$, l, c, č, \textipa{Z}, \textipa{\v{Z}}, ř, š, ž
+\end{center}
+\item Dalszą analizę będziemy wykonywać osobno dla słów mających funkcjonalnie twardą ostatnią głoskę rdzenia (np. {\it pan}, {\it gwiazda})
+i tych, które mają ją funkcjonalnie miękką (np. {\it pani}, {\it kość}).
+\item Mają one bowiem różne paradygmaty odmiany ze względu na możliwość wystąpienia sufiksów zmiękczających.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Sufiksy i alternacje}
+W poniższej tabeli znajdują się wybrane formy rzeczowników {\it gwiazda}, {\it sąsiad}, {\it szpieg} i {\it waga} oraz przymiotników {\it rudy} i {\it nagi} uporządkowane według końcówek.
+
+\begin{center}
+\begin{tabular}{l|l|l|l|l|l|l}
+-a & gwiazda & sąsiada & ruda & szpiega & waga & naga \\
+-om & gwiazdom & sąsiadom &  & szpiegom & wagom &  \\
+%ów &  & sąsiadów &  & szpiegów &  &  \\
+%owi &  & sąsiadowi &  & szpiegowi &  &  \\
+-ą & gwiazdą &  & rudą &  & wagą & nagą \\
+%ę & gwiazdę &  &  &  & wagę &  \\
+%o & gwiazdo &  &  &  & wago &  \\
+%u &  &  &  & szpiegu &  &  \\
+-e &  &  & rude & & & nag{\color{red}i}e \\
+%ego &  &  & rudego & & & nagiego \\
+%ej &  &  & rudej & & & nagiej \\
+-em &  & sąsiadem & & szpieg{\color{red}i}em &  &  \\
+%emu &  &  & rudemu & & & nagiemu \\
+-y & gwiazdy & sąsiady & rudy & szpieg{\color{red}i} & wag{\color{red}i} & nag{\color{red}i} \\
+%ych &  &  & rudych &  &  & nagich \\
+%ym &  &  & rudym &  &  & nagim \\
+%ymi &  &  & rudymi &  &  & nagimi \\
+-i &  & sąsi{\color{red}edz}i & ru{\color{red}dz}i & szpie{\color{red}dzy} &  & na{\color{red}dzy} \\
+-ie & gwi{\color{red}eźdz}ie & sąsi{\color{red}edz}ie &  &  & wa{\color{red}dz}e &  \\
+- & gwiazd & sąsiad &  & szpieg & wag &  \\
+\end{tabular}
+\end{center}
+Na czerwono zaznaczone są alternacje rdzenia i zmiany końcówki.
+\end{frame}
+
+\begin{frame}
+\frametitle{Sufiksy i alternacje}
+Zastosowanie reguł warstwy ortograficzno-fonetycznej upraszcza alternacje.
+
+\begin{center}
+\begin{tabular}{l|l|l|l|l|l|l}
+-a & gv$'$azda & sąs$'$ada & ruda & szp$'$ega & waga & naga \\
+-om & gv$'$azdom & sąs$'$adom &  & szp$'$egom & wagom &  \\
+-ą & gv$'$azdą &  & rudą &  & wagą & nagą \\
+-e &  &  & rude & & & nag{\color{red}$'$}e \\
+-em &  & sąs$'$adem & & szp$'$eg{\color{red}$'$}em &  &  \\
+-y & gv$'$azdy & sąs$'$ady & rudy & szp$'$eg{\color{red}$'$i} & wag{\color{red}$'$i} & nag{\color{red}$'$i} \\
+-$'$i &  & sąs$'${\color{red}e}d$'$i & rud$'$i & szp$'$e{\color{red}\textipa{Z}y} &  & na{\color{red}\textipa{Z}y} \\
+-$'$e & gv$'${\color{red}ez$'$}d$'$e & sąs$'${\color{red}e}d$'$e &  &  & wa{\color{red}\textipa{Z}}e &  \\
+-$\varepsilon$ & gv$'$azd & sąs$'$ad &  & szp$'$eg & wag &  \\
+\end{tabular}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\frametitle{Rodzaje sufiksów}
+\begin{itemize}
+\item Ze względu na występujące alternacje końcówki możemy podzielić na 
+\begin{itemize}
+\item neutralne: -a, -ami, -ach, -om, -o, -u 
+\item zmiękczające głoski g i k: -e, -ego, -ej, -em, -emu
+\item -y występujące czasami jako -i: -y, -ych, -ym, -ymi
+\item zmiękczające -$'$i
+\item zmiękczające -$'$e
+\item wygłos -$\varepsilon$
+\end{itemize}
+\item W przypadku głoski g występują dwa rodzaje zmiękczenia: zamiana na g$'$ oraz zamiana na \textipa{Z}.
+\item Z uwagi na to, że w formie adj:pl:nom:m1:pos w przypadku głoski g następuje zamiana na \textipa{Z}y, a w przypadku 
+innych głosek mamy tu typową palatalizację, uznajemy \textipa{Z}y za efekt działania zmiękczającego -$'$i.
+\item Analogicznie postępujemy w przypadku paradygmatów rzeczownikowych zmiękczającego -$'$i oraz zmiękczającego -$'$e.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Grupy alternacyjne}
+Dla każdej końcówki możemy wypisać występujące przy nich alternacje:
+
+\begin{longtable}{r|rrrrrr}
+ & \boldmath$\alpha${\rm y} & \boldmath$\alpha${\rm e} & \boldmath$\alpha$ & \boldmath$\alpha${\rm i} & \boldmath$\alpha${\rm ie} & \boldmath$\alpha\varepsilon$\\
+\hline
+d & dy $\rightarrow$ d & de $\rightarrow$ d & d $\rightarrow$ d & ed$'$i $\rightarrow$ ad & ed$'$e $\rightarrow$ ad & d $\rightarrow$ d\\
+ &  &  &  &  & ez$'$d$'$e $\rightarrow$ azd & \\
+\hline
+g & g$'$i $\rightarrow$ g & g$'$e $\rightarrow$ g & g $\rightarrow$ g & \textipa{Z}y $\rightarrow$ g & \textipa{Z}e $\rightarrow$ g & g $\rightarrow$ g\\
+\end{longtable}
+\begin{itemize}
+\item W nagłówku tabeli umieszczone są nazwy grup alternacji.
+\item Nazwy składają się z 
+\begin{itemize}
+\item symbolu \boldmath$\alpha$ oznaczającego głoskę funkcjonalnie twardą oraz
+\item jednej lub dwu liter oznaczających sufiks.
+\end{itemize}
+\item Zaznaczone w nazwie litery sufiksu są włączone do alternacji.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Tabela alternacji dla głosek funkcjonalnie twardych}
+\begin{scriptsize}\begin{longtable}{r|rrrrrr}
+ & \boldmath$\alpha${\rm y} & \boldmath$\alpha${\rm e} & \boldmath$\alpha$ & \boldmath$\alpha${\rm i} & \boldmath$\alpha${\rm ie} & \boldmath$\alpha\varepsilon$\\
+\hline
+x & xy $\rightarrow$ x & xe $\rightarrow$ x & x $\rightarrow$ x & s$'$i $\rightarrow$ x & še $\rightarrow$ x & x $\rightarrow$ x\\
+ &  &  &  &  &  & ex $\rightarrow$ x\\
+% &  &  &  &  &  & x $\rightarrow$ ks\\
+\hline
+d & dy $\rightarrow$ d & de $\rightarrow$ d & d $\rightarrow$ d & d$'$i $\rightarrow$ d & d$'$e $\rightarrow$ d & d $\rightarrow$ d\\
+ &  &  &  & ed$'$i $\rightarrow$ ad & z$'$d$'$e $\rightarrow$ zd & ed $\rightarrow$ d\\
+ &  &  &  &  & ed$'$e $\rightarrow$ ad & ód $\rightarrow$ od\\
+ &  &  &  &  & ed$'$e $\rightarrow$ od & ąd $\rightarrow$ ęd\\
+ &  &  &  &  & ez$'$d$'$e $\rightarrow$ azd & \\
+\hline
+f & fy $\rightarrow$ f & fe $\rightarrow$ f & f $\rightarrow$ f & f$'$i $\rightarrow$ f & f$'$e $\rightarrow$ f & f $\rightarrow$ f\\
+\hline
+h & hy $\rightarrow$ h & he $\rightarrow$ h & h $\rightarrow$ h & z$'$i $\rightarrow$ h & še $\rightarrow$ h & h $\rightarrow$ h\\
+ &  &  &  &  & že $\rightarrow$ h & \\
+\hline
+m & my $\rightarrow$ m & me $\rightarrow$ m & m $\rightarrow$ m & m$'$i $\rightarrow$ m & m$'$e $\rightarrow$ m & m $\rightarrow$ m\\
+ &  &  &  & s$'$m$'$i $\rightarrow$ sm & s$'$m$'$e $\rightarrow$ sm & em $\rightarrow$ m\\
+\hline
+r & ry $\rightarrow$ r & re $\rightarrow$ r & r $\rightarrow$ r & řy $\rightarrow$ r & ře $\rightarrow$ r & r $\rightarrow$ r\\
+ &  &  &  &  & eře $\rightarrow$ ar & er $\rightarrow$ r\\
+ &  &  &  &  & etře $\rightarrow$ atr & $'$er $\rightarrow$ r\\
+ &  &  &  &  & ře $\rightarrow$ rr & ór $\rightarrow$ or\\
+ &  &  &  &  &  & $\star$cer $\rightarrow$ kr\\
+ &  &  &  &  &  & óbr $\rightarrow$ obr\\
+ &  &  &  &  &  & óstr $\rightarrow$ ostr\\
+\hline
+k & k$'$i $\rightarrow$ k & k$'$e $\rightarrow$ k & k $\rightarrow$ k & cy $\rightarrow$ k & ce $\rightarrow$ k & k $\rightarrow$ k\\
+ &  &  &  &  &  & ek $\rightarrow$ k\\
+ &  &  &  &  &  & ąk $\rightarrow$ ęk\\
+\hline
+\dots & \dots
+\end{longtable}\end{scriptsize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Reguły analityczne}
+\begin{itemize}
+\item Możemy teraz zdefiniować reguły opisujące zmiany następujące podczas dodawania sufiksu do rdzenia.
+\item Każda reguła składa się z opisu modyfikacji wykonywanych na przetwarzanej formie oraz zbioru definiowanych atrybutów.
+\item Reguły te są parametryzowane przez grupy alternacyjne.
+\item Przykładowa reguła ucinająca końcówkę „ego” u przymiotników:
+\begin{center}
+\begin{tabular}{ll}
+$-$\boldmath$\alpha${\rm e} go & flex:=ego palat:=n cat:=adj\\
+\end{tabular}
+\end{center}
+\item Po zastąpieniu $\boldmath\alpha{\rm e}$ przez kolejne alternacje należące do tej grupy otrzymujemy reguły
+\begin{center}
+\begin{tabular}{ll}
+dego $\rightarrow$ d & flex:=ego palat:=n con:=d cat:=adj\\
+g$'$ego $\rightarrow$ g & flex:=ego palat:=n con:=g cat:=adj
+\end{tabular}
+\end{center}
+zamieniające {\it rudego} na {\it rud} oraz {\it nag$'$ego} na {\it nag}.
+\item Wartość atrybutu con jest dodawana podczas rozwijania reguły na podstawie wybranej alternacji.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Reguły ucinające sufiks formy i dodające sufiks lematu rzeczownika z głoską funkcjonalnie twardą}
+\begin{scriptsize}\[
+\left[\begin{array}{ll}
+-\text{\boldmath$\alpha${\rm y}} & \text{flex}:=\text{y}, \downarrow, \text{noun}\\
+%-\text{\boldmath$\alpha${\rm y}x} & \text{flex}:=\text{ych}, \downarrow, \text{noun}\\
+%-\text{\boldmath$\alpha${\rm y}m} & \text{flex}:=\text{ym}, \downarrow, \text{noun}\\
+%-\text{\boldmath$\alpha${\rm y}m$'$i} & \text{flex}:=\text{ymi}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha${\rm e}} & \text{flex}:=\text{e}, \downarrow, \text{noun}\\
+%-\text{\boldmath$\alpha${\rm e}go} & \text{flex}:=\text{ego}, \downarrow, \text{noun}\\
+%-\text{\boldmath$\alpha${\rm e}j} & \text{flex}:=\text{ej}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha${\rm e} m} & \text{flex}:=\text{em}, \downarrow, \text{noun}\\
+%-\text{\boldmath$\alpha${\rm e}mu} & \text{flex}:=\text{emu}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha$ a} & \text{flex}:=\text{a}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha$ ax} & \text{flex}:=\text{ach}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha$ am$'$i} & \text{flex}:=\text{ami}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha$ ą} & \text{flex}:=\text{ą}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha$ ę} & \text{flex}:=\text{ę}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha$ o} & \text{flex}:=\text{o}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha$ om} & \text{flex}:=\text{om}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha$ ov$'$i} & \text{flex}:=\text{owi}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha$ ov$'$e} & \text{flex}:=\text{owie}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha$ óv} & \text{flex}:=\text{ów}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha$ u} & \text{flex}:=\text{u}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha$ um} & \text{flex}:=\text{um}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha${\rm i}} & \text{flex}:=\text{i}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha${\rm ie}} & \text{flex}:=\text{ie}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha\varepsilon$} & \text{flex}:=\text{$\varepsilon$}, \downarrow, \text{noun}\\
+\star-\text{\boldmath$\alpha\varepsilon$ m$'$i} & \text{flex}:=\text{ami}, \downarrow, \text{noun}\\
+\end{array}\right] \otimes \left[\begin{array}{ll}
++\text{\boldmath$\alpha${\rm y}} & \text{lemma}:=\text{y}\\
++\text{\boldmath$\alpha${\rm e}} & \text{lemma}:=\text{e}\\
++\text{\boldmath$\alpha$ a} & \text{lemma}:=\text{a}\\
++\text{\boldmath$\alpha$ o} & \text{lemma}:=\text{o}\\
++\text{\boldmath$\alpha$ ov$'$e} & \text{lemma}:=\text{owie}\\
++\text{\boldmath$\alpha$ um} & \text{lemma}:=\text{um}\\
+\star+\text{\boldmath$\alpha$ us} & \text{lemma}:=\text{us}\\
++\text{\boldmath$\alpha${\rm i}} & \text{lemma}:=\text{i}\\
++\text{\boldmath$\alpha\varepsilon$} & \text{lemma}:=\text{$\varepsilon$}
+\end{array}\right]
+\]\end{scriptsize}\\
+Reguły dla końcówek ych, ym, ymi, ego, ej, emu zostały pominięte.\\
+Symbol $+$ oznacza, że reguła przykleja sufiks.\\
+\end{frame}
+
+\begin{frame}
+\frametitle{Rozpakowywanie reguł}
+Rozpatrzmy alternacje
+\begin{scriptsize}\begin{longtable}{r|rrrrrr}
+ & \boldmath$\alpha${\rm y} & \boldmath$\alpha${\rm e} & \boldmath$\alpha$ & \boldmath$\alpha${\rm i} & \boldmath$\alpha${\rm ie} & \boldmath$\alpha\varepsilon$\\
+\hline
+d & dy $\rightarrow$ d & de $\rightarrow$ d & d $\rightarrow$ d & ed$'$i $\rightarrow$ ad & ed$'$e $\rightarrow$ ad & d $\rightarrow$ d\\
+ &  &  &  &  & ez$'$d$'$e $\rightarrow$ azd & \\
+\hline
+g & g$'$i $\rightarrow$ g & g$'$e $\rightarrow$ g & g $\rightarrow$ g & \textipa{Z}y $\rightarrow$ g & \textipa{Z}e $\rightarrow$ g & g $\rightarrow$ g\\
+\end{longtable}\end{scriptsize}
+oraz reguły analityczne
+\begin{scriptsize}\[
+\left[\begin{array}{ll}
+-\text{\boldmath$\alpha$ a} & \text{flex}:=\text{a}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha${\rm e} m} & \text{flex}:=\text{em}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha${\rm ie}} & \text{flex}:=\text{ie}, \downarrow, \text{noun}\\
+\end{array}\right] \otimes \left[\begin{array}{ll}
++\text{\boldmath$\alpha$ a} & \text{lemma}:=\text{a}\\
++\text{\boldmath$\alpha\varepsilon$} & \text{lemma}:=\text{$\varepsilon$}
+\end{array}\right]
+\]\end{scriptsize}
+Po rozwinięciu alternacji otrzymamy reguły:
+\begin{scriptsize}\[
+\left[\begin{array}{ll}
+\text{da $\rightarrow$ d} & \text{flex}:=\text{a}, \downarrow, \text{con}:=\text{d}, \text{noun}\\
+\text{ga $\rightarrow$ g} & \text{flex}:=\text{a}, \downarrow, \text{con}:=\text{g}, \text{noun}\\
+\text{dem $\rightarrow$ d} & \text{flex}:=\text{em}, \downarrow, \text{con}:=\text{d}, \text{noun}\\
+\text{g$'$em $\rightarrow$ g} & \text{flex}:=\text{em}, \downarrow, \text{con}:=\text{g}, \text{noun}\\
+\text{ed$'$e $\rightarrow$ ad} & \text{flex}:=\text{ie}, \downarrow, \text{con}:=\text{d}, \text{noun}\\
+\text{ez$'$d$'$e $\rightarrow$ azd} & \text{flex}:=\text{ie}, \downarrow, \text{con}:=\text{d}, \text{noun}\\
+\text{\textipa{Z}e $\rightarrow$ g} & \text{flex}:=\text{ie}, \downarrow, \text{con}:=\text{g}, \text{noun}\\
+\end{array}\right] \otimes \left[\begin{array}{ll}
+\text{d $\rightarrow$ da} & \text{lemma}:=\text{a}\\
+\text{g $\rightarrow$ ga} & \text{lemma}:=\text{a}\\
+\text{d $\rightarrow$ d} & \text{lemma}:=\text{$\varepsilon$}\\
+\text{g $\rightarrow$ g} & \text{lemma}:=\text{$\varepsilon$}
+\end{array}\right]
+\]\end{scriptsize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Rozpakowywanie reguł cd.}
+\begin{scriptsize}\[
+\left[\begin{array}{ll}
+\text{da $\rightarrow$ d} & \text{flex}:=\text{a}, \downarrow, \text{con}:=\text{d}, \text{noun}\\
+\text{ga $\rightarrow$ g} & \text{flex}:=\text{a}, \downarrow, \text{con}:=\text{g}, \text{noun}\\
+\text{dem $\rightarrow$ d} & \text{flex}:=\text{em}, \downarrow, \text{con}:=\text{d}, \text{noun}\\
+\text{g$'$em $\rightarrow$ g} & \text{flex}:=\text{em}, \downarrow, \text{con}:=\text{g}, \text{noun}\\
+\text{ed$'$e $\rightarrow$ ad} & \text{flex}:=\text{ie}, \downarrow, \text{con}:=\text{d}, \text{noun}\\
+\text{ez$'$d$'$e $\rightarrow$ azd} & \text{flex}:=\text{ie}, \downarrow, \text{con}:=\text{d}, \text{noun}\\
+\text{\textipa{Z}e $\rightarrow$ g} & \text{flex}:=\text{ie}, \downarrow, \text{con}:=\text{g}, \text{noun}\\
+\end{array}\right] \otimes \left[\begin{array}{ll}
+\text{d $\rightarrow$ da} & \text{lemma}:=\text{a}\\
+\text{g $\rightarrow$ ga} & \text{lemma}:=\text{a}\\
+\text{d $\rightarrow$ d} & \text{lemma}:=\text{$\varepsilon$}\\
+\text{g $\rightarrow$ g} & \text{lemma}:=\text{$\varepsilon$}
+\end{array}\right]
+\]\end{scriptsize}
+Teraz łączymy reguły z pierwszej kolumny z tymi z kolumny drugiej:
+\begin{scriptsize}\[
+\begin{array}{ll}
+\text{da $\rightarrow$ da} & \text{flex}:=\text{a}, \downarrow, \text{con}:=\text{d}, \text{lemma}:=\text{a}, \text{noun}\\
+\text{ga $\rightarrow$ ga} & \text{flex}:=\text{a}, \downarrow, \text{con}:=\text{g}, \text{lemma}:=\text{a}, \text{noun}\\
+\text{dem $\rightarrow$ da} & \text{flex}:=\text{em}, \downarrow, \text{con}:=\text{d}, \text{lemma}:=\text{a}, \text{noun}\\
+\text{g$'$em $\rightarrow$ ga} & \text{flex}:=\text{em}, \downarrow, \text{con}:=\text{g}, \text{lemma}:=\text{a}, \text{noun}\\
+\text{ed$'$e $\rightarrow$ ada} & \text{flex}:=\text{ie}, \downarrow, \text{con}:=\text{d}, \text{lemma}:=\text{a}, \text{noun}\\
+\text{ez$'$d$'$e $\rightarrow$ azda} & \text{flex}:=\text{ie}, \downarrow, \text{con}:=\text{d}, \text{lemma}:=\text{a}, \text{noun}\\
+\text{\textipa{Z}e $\rightarrow$ ga} & \text{flex}:=\text{ie}, \downarrow, \text{con}:=\text{g}, \text{lemma}:=\text{a}, \text{noun}\\
+\text{da $\rightarrow$ d} & \text{flex}:=\text{a}, \downarrow, \text{con}:=\text{d}, \text{lemma}:=\text{$\varepsilon$}, \text{noun}\\
+\text{ga $\rightarrow$ g} & \text{flex}:=\text{a}, \downarrow, \text{con}:=\text{g}, \text{lemma}:=\text{$\varepsilon$}, \text{noun}\\
+\text{dem $\rightarrow$ d} & \text{flex}:=\text{em}, \downarrow, \text{con}:=\text{d}, \text{lemma}:=\text{$\varepsilon$}, \text{noun}\\
+\text{g$'$em $\rightarrow$ g} & \text{flex}:=\text{em}, \downarrow, \text{con}:=\text{g}, \text{lemma}:=\text{$\varepsilon$}, \text{noun}\\
+\text{ed$'$e $\rightarrow$ ad} & \text{flex}:=\text{ie}, \downarrow, \text{con}:=\text{d}, \text{lemma}:=\text{$\varepsilon$}, \text{noun}\\
+\text{ez$'$d$'$e $\rightarrow$ azd} & \text{flex}:=\text{ie}, \downarrow, \text{con}:=\text{d}, \text{lemma}:=\text{$\varepsilon$}, \text{noun}\\
+\text{\textipa{Z}e $\rightarrow$ g} & \text{flex}:=\text{ie}, \downarrow, \text{con}:=\text{g}, \text{lemma}:=\text{$\varepsilon$}, \text{noun}\\
+\end{array}
+\]\end{scriptsize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Rozpakowywanie reguł cd.}
+\begin{scriptsize}\[
+\begin{array}{ll}
+\text{da $\rightarrow$ da} & \text{flex}:=\text{a}, \downarrow, \text{con}:=\text{d}, \text{lemma}:=\text{a}, \text{noun}\\
+\text{ga $\rightarrow$ ga} & \text{flex}:=\text{a}, \downarrow, \text{con}:=\text{g}, \text{lemma}:=\text{a}, \text{noun}\\
+\text{dem $\rightarrow$ da} & \text{flex}:=\text{em}, \downarrow, \text{con}:=\text{d}, \text{lemma}:=\text{a}, \text{noun}\\
+\text{g$'$em $\rightarrow$ ga} & \text{flex}:=\text{em}, \downarrow, \text{con}:=\text{g}, \text{lemma}:=\text{a}, \text{noun}\\
+\text{ed$'$e $\rightarrow$ ada} & \text{flex}:=\text{ie}, \downarrow, \text{con}:=\text{d}, \text{lemma}:=\text{a}, \text{noun}\\
+\text{ez$'$d$'$e $\rightarrow$ azda} & \text{flex}:=\text{ie}, \downarrow, \text{con}:=\text{d}, \text{lemma}:=\text{a}, \text{noun}\\
+\text{\textipa{Z}e $\rightarrow$ ga} & \text{flex}:=\text{ie}, \downarrow, \text{con}:=\text{g}, \text{lemma}:=\text{a}, \text{noun}\\
+\text{da $\rightarrow$ d} & \text{flex}:=\text{a}, \downarrow, \text{con}:=\text{d}, \text{lemma}:=\text{$\varepsilon$}, \text{noun}\\
+\text{ga $\rightarrow$ g} & \text{flex}:=\text{a}, \downarrow, \text{con}:=\text{g}, \text{lemma}:=\text{$\varepsilon$}, \text{noun}\\
+\text{dem $\rightarrow$ d} & \text{flex}:=\text{em}, \downarrow, \text{con}:=\text{d}, \text{lemma}:=\text{$\varepsilon$}, \text{noun}\\
+\text{g$'$em $\rightarrow$ g} & \text{flex}:=\text{em}, \downarrow, \text{con}:=\text{g}, \text{lemma}:=\text{$\varepsilon$}, \text{noun}\\
+\text{ed$'$e $\rightarrow$ ad} & \text{flex}:=\text{ie}, \downarrow, \text{con}:=\text{d}, \text{lemma}:=\text{$\varepsilon$}, \text{noun}\\
+\text{ez$'$d$'$e $\rightarrow$ azd} & \text{flex}:=\text{ie}, \downarrow, \text{con}:=\text{d}, \text{lemma}:=\text{$\varepsilon$}, \text{noun}\\
+\text{\textipa{Z}e $\rightarrow$ g} & \text{flex}:=\text{ie}, \downarrow, \text{con}:=\text{g}, \text{lemma}:=\text{$\varepsilon$}, \text{noun}\\
+\end{array}
+\]\end{scriptsize}
+Rozpakowane reguły możemy użyć do lematyzacji form:
+\begin{scriptsize}\[
+\begin{array}{ll}
+\text{gv$'$azda $\rightarrow$ gv$'$azda} & \text{flex}:=\text{a}, \downarrow, \text{con}:=\text{d}, \text{lemma}:=\text{a}, \text{noun}\\
+\text{gv$'$azda $\rightarrow$ gv$'$azd} & \text{flex}:=\text{a}, \downarrow, \text{con}:=\text{d}, \text{lemma}:=\text{$\varepsilon$}, \text{noun}\\
+\text{szp$'$eg$'$em $\rightarrow$ szp$'$ega} & \text{flex}:=\text{em}, \downarrow, \text{con}:=\text{g}, \text{lemma}:=\text{a}, \text{noun}\\
+\text{szp$'$eg$'$em $\rightarrow$ szp$'$eg} & \text{flex}:=\text{em}, \downarrow, \text{con}:=\text{g}, \text{lemma}:=\text{$\varepsilon$}, \text{noun}\\
+\text{gv$'$ez$'$d$'$e $\rightarrow$ gv$'$azda} & \text{flex}:=\text{ie}, \downarrow, \text{con}:=\text{d}, \text{lemma}:=\text{a}, \text{noun}\\
+\text{gv$'$ez$'$d$'$e $\rightarrow$ gv$'$azd} & \text{flex}:=\text{ie}, \downarrow, \text{con}:=\text{d}, \text{lemma}:=\text{$\varepsilon$}, \text{noun}\\
+\text{wa\textipa{Z}e $\rightarrow$ waga} & \text{flex}:=\text{ie}, \downarrow, \text{con}:=\text{g}, \text{lemma}:=\text{a}, \text{noun}\\
+\text{wa\textipa{Z}e $\rightarrow$ wag} & \text{flex}:=\text{ie}, \downarrow, \text{con}:=\text{g}, \text{lemma}:=\text{$\varepsilon$}, \text{noun}\\
+\end{array}
+\]\end{scriptsize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Warstwa interpretacji}
+\begin{itemize}
+\item Warstwa interpretacji zawiera reguły przypisujące interpretację morfosyntaktyczną na podstawie wartości atrybutów.
+\item Warstwa ta dokonuje selekcji kandydatów powstałych w wyniku działania warstwy analitycznej (wprowadzając jednocześnie kolejną niejednoznaczność).
+\begin{scriptsize}\[
+\begin{array}{lll}
+\text{flex}:=\text{a}, \downarrow, \text{lemma}:=\text{a}, \text{noun} & \rightarrow & \text{subst:sg:nom:m1.m2.f}\\
+\text{flex}:=\text{a}, \downarrow, \text{lemma}:=\text{a}, \text{noun} & \rightarrow & \text{subst:pl:nom.acc.voc:n:pt}\\
+\text{flex}:=\text{a}, \downarrow, \text{lemma}:=\text{$\varepsilon$}, \text{noun} & \rightarrow & \text{subst:sg:gen.acc:m1.m2}\\
+\text{flex}:=\text{a}, \downarrow, \text{lemma}:=\text{$\varepsilon$}, \text{noun} & \rightarrow & \text{subst:sg:gen:m3}\\
+\text{flex}:=\text{em}, \downarrow, \text{lemma}:=\text{$\varepsilon$}, \text{noun} & \rightarrow & \text{subst:sg:inst:m1.m2.m3}\\
+\end{array} 
+\]\end{scriptsize}
+\item Dla rzeczowników jest to najmniej ustrukturalizowana warstwa.
+\item W przypadku czasowników, przymiotników i przysłówków to odwzorowanie jest dość jednoznaczne.
+\item Reguły interpretacji zostały wytworzone półautomatycznie na podstawie SGJP.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Działanie warstwy interpretacji}
+Reguły interpretacji
+\begin{scriptsize}\[
+\begin{array}{lll}
+\text{flex}:=\text{a}, \downarrow, \text{lemma}:=\text{a}, \text{noun} & \rightarrow & \text{subst:sg:nom:m1.m2.f}\\
+\text{flex}:=\text{a}, \downarrow, \text{lemma}:=\text{a}, \text{noun} & \rightarrow & \text{subst:pl:nom.acc.voc:n:pt}\\
+\text{flex}:=\text{a}, \downarrow, \text{lemma}:=\text{$\varepsilon$}, \text{noun} & \rightarrow & \text{subst:sg:gen.acc:m1.m2}\\
+\text{flex}:=\text{a}, \downarrow, \text{lemma}:=\text{$\varepsilon$}, \text{noun} & \rightarrow & \text{subst:sg:gen:m3}\\
+\text{flex}:=\text{em}, \downarrow, \text{lemma}:=\text{$\varepsilon$}, \text{noun} & \rightarrow & \text{subst:sg:inst:m1.m2.m3}\\
+\end{array} 
+\]\end{scriptsize}
+przypiszą formom
+\begin{scriptsize}\[
+\begin{array}{ll}
+\text{gv$'$azda $\rightarrow$ gv$'$azda} & \text{flex}:=\text{a}, \downarrow, \text{con}:=\text{d}, \text{lemma}:=\text{a}, \text{noun}\\
+\text{gv$'$azda $\rightarrow$ gv$'$azd} & \text{flex}:=\text{a}, \downarrow, \text{con}:=\text{d}, \text{lemma}:=\text{$\varepsilon$}, \text{noun}\\
+\text{szp$'$eg$'$em $\rightarrow$ szp$'$ega} & \text{flex}:=\text{em}, \downarrow, \text{con}:=\text{g}, \text{lemma}:=\text{a}, \text{noun}\\
+\text{szp$'$eg$'$em $\rightarrow$ szp$'$eg} & \text{flex}:=\text{em}, \downarrow, \text{con}:=\text{g}, \text{lemma}:=\text{$\varepsilon$}, \text{noun}\\
+\end{array}
+\]\end{scriptsize}
+następujące interpretacje morfosyntaktyczne:
+\begin{scriptsize}\[
+\begin{array}{ll}
+\text{gv$'$azda $\rightarrow$ gv$'$azda} & \text{subst:sg:nom:m1.m2.f}\\
+\text{gv$'$azda $\rightarrow$ gv$'$azda} & \text{subst:pl:nom.acc.voc:n:pt}\\
+\text{gv$'$azda $\rightarrow$ gv$'$azd} & \text{subst:sg:gen.acc:m1.m2}\\
+\text{gv$'$azda $\rightarrow$ gv$'$azd} & \text{subst:sg:gen:m3}\\
+\text{szp$'$eg$'$em $\rightarrow$ szp$'$eg} & \text{subst:sg:inst:m1.m2.m3}\\
+\end{array}
+\]\end{scriptsize}
+
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Quasi-paradygmaty odmiany}
+\begin{itemize}
+\item Reguły przypisujące interpretacje można pogrupować ze względu na wartość atrybutu lemma i rodzaj rzeczownika generowany przez regułę. 
+\item Uzyskujemy w ten sposób „quasi-paradygmaty” odmiany rzeczowników.
+\item Należy jednak pamiętać, że dany lemat nie jest do takich ,,paradygmatów'' sztywno przypisany:
+\begin{itemize}
+\item nie musi on mieć form pochodzących tylko z jednego paradygmatu i
+\item nie musi mieć wszystkich form występujących w danym paradygmacie.
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Rzeczowniki z wygłosem w lemacie}
+\vspace{-3mm}
+\begin{scriptsize}
+\begin{multicols}{2}
+cat=noun lemma=$\varepsilon$ gender:=f\\
+\begin{tabular}{l|l}
+sg:nom.acc & $\varepsilon\uparrow$\\
+sg:gen.dat.loc.voc|pl:gen & y$\uparrow$\\
+sg:inst & ą$\uparrow$\\
+pl:nom.acc.voc & y$\uparrow$ e$\uparrow$\\
+pl:dat & om$\uparrow$\\
+pl:inst & ami$\uparrow$\\
+pl:loc & ach$\uparrow$\\
+\end{tabular}\\
+cat=noun lemma=$\varepsilon$ gender:=m1\\
+\begin{tabular}{l|l}
+sg:nom & $\varepsilon$\\
+sg:gen & $\star$y\\
+sg:gen.acc & a\\
+sg:dat & owi $\star$u\\
+sg:dat.loc & $\star$y\\
+sg:acc & $\star$y\\
+sg:inst & em $\star$ą\\
+sg:loc & $\star$u $\star$ie\\
+sg:loc.voc & u$\uparrow$ u$\downarrow\rightarrow$ ie$\downarrow\leftarrow$\\
+sg:voc & cze$\uparrow$ $\star$y $\star$ie\\
+pl:nom.voc & y$\uparrow$ i$\downarrow$ e$\uparrow$ owie $\star$ie\\
+pl:gen.acc & ów y$\uparrow$\\
+pl:dat & om\\
+pl:inst & ami\\
+pl:loc & ach\\
+depr & y$\downarrow$ e$\uparrow$\\
+\end{tabular}\\
+cat=noun lemma=$\varepsilon$ gender:=m2\\
+\begin{tabular}{l|l}
+sg:nom & $\varepsilon$\\
+sg:gen.acc & a\\
+sg:dat & owi $\star$u\\
+sg:inst & em\\
+sg:loc.voc & u$\uparrow$ u$\downarrow\rightarrow$ ie$\downarrow\leftarrow$\\
+pl:nom.acc.voc & y$\downarrow$ e$\uparrow$ $\star$e\\
+pl:gen & ów y$\uparrow$\\
+pl:dat & om\\
+pl:inst & ami\\
+pl:loc & ach\\
+\end{tabular}\\
+cat=noun lemma=$\varepsilon$ gender:=m3\\
+\begin{tabular}{l|l}
+sg:nom.acc & $\varepsilon$\\
+sg:gen & u a\\
+sg:dat & $\star$u$\downarrow$ owi\\
+sg:inst & em\\
+sg:loc & $\star$ie\\
+sg:loc.voc & u$\uparrow$ u$\downarrow\rightarrow$ ie$\downarrow\leftarrow$\\
+sg:voc & $\star$ie\\
+pl:nom.acc.voc & y$\downarrow$ e$\uparrow$ $\star$e $\star$a\\
+pl:gen & ów y$\uparrow$\\
+pl:dat & om\\
+pl:inst & ami\\
+pl:loc & ach\\
+\end{tabular}\\
+\end{multicols}\end{scriptsize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Rzeczowniki z kończące się na „a” w lemacie}
+\vspace{-3mm}
+\begin{scriptsize}
+\begin{multicols}{2}
+cat=noun lemma=a gender:=f\\
+\begin{tabular}{l|l}
+sg:nom & a\\
+sg:gen & y $\star\varepsilon$\\
+sg:gen.dat.loc & ej\\
+sg:dat.loc & y$\uparrow$ ie$\downarrow$\\
+sg:acc & ę ą\\
+sg:inst & ą\\
+sg:voc & u$\uparrow$ o a\\
+pl:nom.acc.voc & y$\downarrow$ e\\
+pl:gen & $\varepsilon$ y$\uparrow$\\
+pl:gen.loc & ych\\
+pl:dat & ym om\\
+pl:inst & ymi ami\\
+pl:loc & ach\\
+\end{tabular}\\
+\vfill\null
+\columnbreak
+cat=noun lemma=a gender:=m1\\
+\begin{tabular}{l|l}
+sg:nom & a\\
+sg:gen & y $\star$ego\\
+sg:gen.acc & $\star$ego\\
+sg:dat & $\star$emu\\
+sg:dat.loc & y$\uparrow$ ie$\downarrow$\\
+sg:acc & ę\\
+sg:inst & ą $\star$ym\\
+sg:loc & $\star$ym\\
+sg:voc & o $\star$u\\
+pl:nom.voc & y$\uparrow$ i$\downarrow$ owie $\star$e\\
+pl:gen.acc & ów $\star\varepsilon$\\
+pl:dat & om\\
+pl:inst & ami\\
+pl:loc & ach\\
+depr & y e\\
+\end{tabular}
+\end{multicols}\end{scriptsize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Lista nieobecności}
+\begin{itemize}
+\item Głoski funcjonalnie miękkie.
+\item Leksemy typu „-cja”, „-pia”, „-dia”, „-rium”.
+%leksemy z tematem kończącym się na samogłoskę
+\item Słowa pisane z użyciem obcej ortografii. 
+% nie ma alternacji głębszych niż przy ostatniej głosce więc to co jest wcześniej można zapisać w dowolny sposób co jest wykorzystywane by zagwarantować odwracalność ujednolicenia ortografii, podobnie akronimy
+\item Odmiana akronimów
+%NFZ-ecie, ZOZ-ie - w warstwie fonetycznej translacja jest odwracalna ale niejednoznaczna.
+\item Odmiana (stopniowanie) przymiotników i przysłówków
+\item Odmiana czasowników
+%i ich grupy
+\item Postprocessing wygłosu
+\item Formy gwarowe
+\end{itemize}
+\end{frame}
+%pani, i pozotałe grupy std noun odmiany m1 m3, n - zarówno funkcjonalnie miękkie jak i funkcjonalnie twarde
+%pokazać przekształcenia fonetyczne
+%pokazać występujące w nich alternacje
+%zestaw wszystkich końcówek rzeczownikowych
+%działanie reguł interpretacyjnych dla tych słów
+
+\begin{frame}
+\frametitle{Reguły operacyjne}
+\begin{itemize}
+\item Model składa się z
+\begin{itemize}
+\item 723 reguł warstwy ortograficzno-fonetycznej
+\item 748 alternacji
+\item 367 reguł analitycznych
+\item 960 reguł przypisujących interpretację
+\end{itemize}
+\item W celu wytworzenia wydajnego systemu reguły te zostały złączone ze sobą:
+\begin{itemize}
+\item do każdej możliwej sekwencji reguł analitycznych
+\item zostały dopasowane reguły przypisujące interpretację;
+\item następnie zostały przekonwertowane na standardową ortografię.
+\end{itemize}
+\item W wyniku tego procesu powstało ok. 10 000 000 reguł operacyjnych.
+\item Następnie została dokonana selekcja reguł polegająca na wyborze tych, których użycie jest poświadczone w SGJP uzupełnionym o przykładowe formy gwarowe i dodatkowe odmienione akronimy. 
+\item Reguł operacyjnych jest 31122.
+%\item jest ich dużo ale są generowane automatycznie, dzięki czemu zgodne z modelem i poprawne.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Reguły operacyjne}
+Liczbę reguł z podziałem na ich typy i części mowy:
+\begin{center}
+
+\begin{tabular}{l|r|r|r|r|r}
+                              &  noun &  adj & adv &  verb &  suma \\
+\hline
+	           produktywne    &  7534 & 1501 & 150 &  9107 & 18292 \\
+\hline
+	\textbf{*} nieproduktywne &   209 &  389 & --- &  3701 &  4299 \\
+\hline
+	\textbf{A} obce           &  1275 &  --- & --- &   --- &  1275 \\
+\hline
+	\textbf{B} obce           &   206 &  --- & --- &   --- &   206 \\
+\hline
+	\textbf{C} akronimy       &   557 &  --- & --- &   --- &   557 \\
+\hline
+	\textbf{D} gwarowe        &  2639 &  380 & --- &  3474 &  6493 \\
+\hline
+	         suma             & 12420 & 2270 & 150 & 16282 & 31122 \\
+\end{tabular}
+\end{center}
+\begin{itemize}
+\item Grupa ,,obcych A'' dotyczy słów o obcej ortografii, w których pierwotna postać rdzenia jest zawarta w obserwowanej formie.
+\item W wypadku ,,obcych B'' pierwotna postać rdzenia nie jest zawarta w obserwowanej formie i musi zostać odgadnięta (np. dopełniacz \textit{Chiraka} od lematu \textit{Chirac}).
+\item Wszystkim regułom towarzyszą informacje o frekwencji --- liczba form ze słownika lematyzowalnych za pomocą danej reguły. 
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Pokrycie modelu}
+\begin{itemize}
+\item Reguły produkcyjne opisują fleksję
+\begin{itemize}
+\item $\frac{143643}{143643+343}$ = 99,76\% lematów rzeczownikowych,
+\item $\frac{66426}{66426+26}$ = 99,96\% lematów przymiotnikowych,
+\item $\frac{25839}{25839+422}$ = 98,39\% lematów przysłówkowych,
+\item $\frac{28571}{28571+1229}$ = 95,88\% lematów czasownikowych.
+\end{itemize}
+\item Po usunięciu lematów czasownikowych, które powstały poprzez dodanie prefiksu wartość wzrasta do $\frac{13852}{13852+167}$ = 98,81\%.
+\item Takie wartości wskazują, że opisywany model w sposób poprawny i pełny opisuje zawartą w SGJP fleksję języka polskiego.
+\item Leksemy niepokryte przez model odmieniają się w sposób nieregularny -- powinny one stanowić zamknięty zbiór.
+\item Jest to szczególnie istotne przy czasownikach,
+gdzie 167 nieregularnych rdzeni generuje, po uzupełnieniu o prefiksy, 1229 nieregularnych leksemów.
+\item W przypadku przysłówków, na 422 niepokryte przez model leksemy składają się zasadniczo przysłówki niestopniowalne i niepochodzące od przymiotników.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Dezambiguacja}
+\begin{itemize}
+\item Rezultaty zwracane przez model są zazwyczaj wysoce niejednoznaczne.
+\item W celu ich ujednoznacznienia można podjąć następujące kroki
+\begin{itemize}
+\item konfrontacja wyniku z SGJP
+\item weryfikacja za pomocą listy znanych lematów
+\item dezambiguacja statystyczna wykonywana przez tager
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Konfrontacja z SGJP}
+\begin{itemize}
+\item Reguły produkcyjne mają swoje identyfikatory. 
+\item Na podstawie SGJP została wytworzona lista rdzeni wraz przypisanymi im identyfikatorami reguł właściwych dla danego rdzenia.
+\item Interpretacje potwierdzone przez listę zostają opatrzone statusem „LemmaVal”.
+\item Formy z SJGP niepokryte przez model zostały umieszczone w osobnym słowniczku.
+\item Interpretacje uzyskane za pomocą tego słowniczka są opatrzone statusem „LemmaAlt”.
+\item Pozostałe interpretacje są oznaczone jako „LemmNotVal”.
+\item Jeśli odgadywacz nie znajdzie żadnej interpretacji dla danej formy zwracają ze statusem „TokNotFound”.
+\item W ten sposób odgadywacz uzyskuje pełne pokrycie na SGJP i funkcjonalność analizatora morfologicznego.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Bazy form podstawowych słów}
+\begin{itemize}
+\item SGJP
+\begin{itemize}
+\item  ponad 333000 lematów
+\end{itemize}
+\item SAWA
+\item TERYT
+\begin{itemize}
+\item 304 powiaty
+\item 38889 miejscowości
+\item 24508 części miejscowości 
+\item 42871 ulice (11272 z nich mają osobowego patrona)
+\end{itemize}
+\item nazwiska-polskie.pl
+\begin{itemize}
+\item ponad 220000 nazwisk
+\end{itemize}
+\item Wikipedia/DBpedia
+\item Geonames - nazwy geograficzne
+\item KRS - nazwy organizacji
+\end{itemize}
+\end{frame}
+%Słownictwo specjalistyczne (biologiczne, chemiczne) itd. 
+
+
+
+\begin{frame}
+\frametitle{Algorytm dezambiguacji symbolicznej}
+\begin{itemize}
+\item Algorytm polega na przypisaniu interpretacjom priorytetów i wyborze tych interpretacji, które mają najmniejszy priorytet.
+\item Kryteria wyboru priorytetu:
+\end{itemize}
+\begin{center}\begin{scriptsize}
+\begin{tabular}{|l|l|c|c|c|c|c|c|c|c|}
+\hline
+1 & lemat jest na liście znanych lematów & \multicolumn{6}{c|}{+} & \multicolumn{2}{c|}{-} \\
+\hline
+2 & lemat jest w SGJP & \multicolumn{3}{c|}{+} & \multicolumn{3}{c|}{-} & \multicolumn{2}{c|}{} \\
+\hline
+3 & lematyzacja przeprowadzona zgodnie z SGJP & + & \multicolumn{2}{|c|}{-} & \multicolumn{3}{c|}{} & + & - \\
+\hline
+4 & tag „no-sgjp” & & + & - & \multicolumn{3}{|c|}{} & & \\
+\hline
+5 & forma nieodmienna & & & & \multicolumn{2}{c|}{+} & - & & \\
+\hline
+6 & tag „poss-ndm” & & & & + & - & & & \\
+\hline
+ & priorytet & 1 & 1 & R & 1 & R & 1 & 2 & R \\
+\hline
+\end{tabular}\end{scriptsize}
+\end{center}
+\begin{itemize}
+\item Interpretacje z priorytetem oznaczonym „R” są odrzucane, gdy spełniony jest przynajmniej jeden z warunków:
+\begin{itemize}
+\item forma została wydzielona z tekstu przy z odciętym aglutynatem,
+\item forma została zlematyzowana ze zmienioną  wielkością liter,
+\item forma została zlematyzowana za pomocą reguły typu {\bf B}.
+\end{itemize}
+\item Jeśli interpretacja z priorytetem oznaczonym „R” nie zostaje odrzucona otrzymuje priorytet 3.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Struktura form słownych w NKJP1M}
+\begin{scriptsize}
+\begin{tabular}{l|rrrr}
+ & Liczba & Liczba & Procent & Procent\\
+ & unikalnych & form & unikalnych & form\\
+ & form & & form & \\
+\hline
+%SGJP-EXACT & 132264 & 813399 & 72,2056\% & 66,9479\%\\
+%SGJP-LMM-UNCAPITAL & 21320 & 80045 & 11,6390\% & 6,5882\%\\
+%SGJP-LMM-CAPITAL & 194 & 295 & 0,1059\% & 0,0243\%\\
+%SGJP-LMM-LOWER & 899 & 9058 & 0,4908\% & 0,7455\%\\
+%SGJP-BTH-LOWER & 1888 & 3716 & 1,0307\% & 0,3059\%\\
+%SGJP łącznie
+lematyzowane przez SGJP & 156565 & 906513 & 85,4720\% & 74,6117\%\\
+%SYMB
+symbole & 5796 & 250926 & 3,1642\% & 20,6528\%\\
+\hline
+%CORR
+poprawne spoza SGJP & 16581 & 42195 & 9,0519\% & 3,4729\%\\
+%COMPD
+formy z dywizem i apostrofem & 659 & 783 & 0,3598\% & 0,0644\%\\
+%PLTAN
+pt lematyzowane do sg przez SGJP & 168 & 461 & 0,0917\% & 0,0379\%\\
+%TAGD
+tag inny niż proponowany przez SGJP & 1151 & 11020 & 0,6284\% & 0,9070\%\\
+%DIAL
+formy gwarowe bądź archaiczne & 132 & 166 & 0,0721\% & 0,0137\%\\
+\hline
+%CERR
+powszechny błąd & 156 & 393 & 0,0852\% & 0,0323\%\\
+%PHON
+zapis fonetyczny & 166 & 191 & 0,0906\% & 0,0157\%\\
+%ERR
+literówka & 1415 & 1728 & 0,7725\% & 0,1422\%\\
+%TAGE
+niepoprawny tag & 383 & 593 & 0,2091\% & 0,0488\%\\
+%TERR 
+błąd tokenizacji & 5 & 5 & 0,0027\% & 0,0004\%\\
+\hline
+cały korpus & 183177 & 1214974 & 100,0000\% & 100,0000\%\\
+\end{tabular}
+\end{scriptsize}
+\begin{itemize}
+\item Pierwsze dwie kategorie oraz ostatnie pięć nie stanowi ciekawych danych do testowania odgadywacza.
+\item Pozostałe pięć kategorii wykorzystaliśmy do przeprowadzenia walidacji.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Walidacja}
+\begin{itemize}
+\item Odgadywacz został porównany z następującymi programami:
+\begin{itemize}
+\item Analizator morfologiczny SAM (1996)
+\item TaKIPI (2007)
+\end{itemize}
+\item Wygrywa to porównanie niejako walkowerem z uwagi na to że:
+\begin{itemize}
+\item SAM korzysta z innego tagsetu niż wszystkie obecne narzędzia (m.in. nie rozróżnia fleksemów form czasownika i segmentów nieodmiennych.
+\item TaKIPI wymaga Morfeusza w wersji SIaT (rzuca wyjątek, gdy biblioteka libmorfeusz zwróci tag morfosyntaktyczny comp, interj, brev lub burk).
+\item SAM generuje segmentation fault dla niektórych segmentów, np.: „Samotrzeciej”, „samoprzyznaniem”, „samorozwiązania”, „samorozwiązanie”, „zekowaniem”.
+\item TaKIPI zmienia wielkość liter przy lematyzacji, np. lematyzuje „XVII-wieczny” jako „xvii-wieczny”.
+\item SAM zmienia wielkość liter i usuwa myślniki przy lematyzacji, np. lematyzuje „XVII-wieczny” jako „xviiwieczny”.
+
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Walidacja: formy poprawne spoza SGJP}
+%\textbf{nasze/walid\_xCORR.tab}
+\begin{center}\begin{scriptsize}
+\begin{tabular}{l|rrrr}
+ & Liczba & Liczba & Procent & Procent\\
+ & unikalnych & form & unikalnych & form\\
+ & form & & form & \\
+\hline
+OK & 14747 & 38816 & 88,9338\% & 91,9898\% \\
+OK CC & 207 & 231 & 1,2483\% & 0,5474\% \\
+GOODPOS & 151 & 177 & 0,9106\% & 0,4195\% \\
+GOODPOS CC & 364 & 474 & 2,1952\% & 1,1233\% \\
+LEMMA & 790 & 1383 & 4,7642\% & 3,2776\% \\
+LEMMA CC & 181 & 935 & 1,0915\% & 2,2158\% \\
+FAIL & 142 & 180 & 0,8564\% & 0,4266\% \\
+\hline
+cały korpus & 16582 & 42196 & 100,0000\% & 100,0000\%\\
+\end{tabular}
+\end{scriptsize}\end{center}
+Oznaczenia:
+\begin{itemize}
+\item OK --- przykład poprawnie przetworzony
+\item GOODPOS --- zgodność lematu i części mowy
+\item LEMMA --- zgodność lematu
+\item FAIL --- brak zgodności
+\item CC --- ignorowanie wielkości liter przy porównywaniu lematów
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Walidacja: formy z dywizem i apostrofem}
+%\textbf{nasze/walid\_xCOMPD.tab}
+\begin{center}\begin{scriptsize}
+\begin{tabular}{l|rrrr}
+ & Liczba & Liczba & Procent & Procent\\
+ & unikalnych & form & unikalnych & form\\
+ & form & & form & \\
+\hline
+OK & 459 & 576 & 69,6510\% & 73,5632\% \\
+OK CC & 3 & 3 & 0,4552\% & 0,3831\% \\
+GOODPOS & 15 & 15 & 2,2762\% & 1,9157\% \\
+GOODPOS CC & 2 & 2 & 0,3035\% & 0,2554\% \\
+LEMMA & 23 & 23 & 3,4901\% & 2,9374\% \\
+FAIL & 157 & 164 & 23,8240\% & 20,9451\% \\
+\hline
+cały korpus & 659 & 783 & 100,0000\% & 100,0000\%\\
+\end{tabular}
+\end{scriptsize}\end{center}
+Oznaczenia:
+\begin{itemize}
+\item OK --- przykład poprawnie przetworzony
+\item GOODPOS --- zgodność lematu i części mowy
+\item LEMMA --- zgodność lematu
+\item FAIL --- brak zgodności
+\item CC --- ignorowanie wielkości liter przy porównywaniu lematów
+\end{itemize}
+
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Walidacja: pt lematyzowane do sg przez SGJP}
+%\textbf{nasze/walid\_xPLTAN.tab}
+\begin{center}\begin{scriptsize}
+\begin{tabular}{l|rrrr}
+ & Liczba & Liczba & Procent & Procent\\
+ & unikalnych & form & unikalnych & form\\
+ & form & & form & \\
+\hline
+OK & 130 & 371 & 77,3810\% & 80,4772\% \\
+GOODPOS & 13 & 13 & 7,7381\% & 2,8200\% \\
+GOODPOS CC & 8 & 57 & 4,7619\% & 12,3644\% \\
+LEMMA CC & 2 & 2 & 1,1905\% & 0,4338\% \\
+FAIL & 15 & 18 & 8,9286\% & 3,9046\% \\
+\hline
+cały korpus & 168 & 461 & 100,0000\% & 100,0000\%\\
+\end{tabular}
+\end{scriptsize}\end{center}
+Oznaczenia:
+\begin{itemize}
+\item OK --- przykład poprawnie przetworzony
+\item GOODPOS --- zgodność lematu i części mowy
+\item LEMMA --- zgodność lematu
+\item FAIL --- brak zgodności
+\item CC --- ignorowanie wielkości liter przy porównywaniu lematów
+\end{itemize}
+
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Walidacja: tag inny niż proponowany przez SGJP}
+%\textbf{nasze/walid\_xTAGD.tab}
+\begin{center}\begin{scriptsize}
+\begin{tabular}{l|rrrr}
+ & Liczba & Liczba & Procent & Procent\\
+ & unikalnych & form & unikalnych & form\\
+ & form & & form & \\
+\hline
+OK & 537 & 6261 & 46,6551\% & 56,8149\% \\
+OK CC & 25 & 45 & 2,1720\% & 0,4083\% \\
+GOODPOS & 61 & 157 & 5,2997\% & 1,4247\% \\
+GOODPOS CC & 14 & 46 & 1,2163\% & 0,4174\% \\
+LEMMA & 332 & 3512 & 28,8445\% & 31,8693\% \\
+LEMMA CC & 105 & 708 & 9,1225\% & 6,4247\% \\
+FAIL & 77 & 291 & 6,6898\% & 2,6407\% \\
+\hline
+cały korpus & 1151 & 11020 & 100,0000\% & 100,0000\%\\
+\end{tabular}
+\end{scriptsize}\end{center}
+Oznaczenia:
+\begin{itemize}
+\item OK --- przykład poprawnie przetworzony
+\item GOODPOS --- zgodność lematu i części mowy
+\item LEMMA --- zgodność lematu
+\item FAIL --- brak zgodności
+\item CC --- ignorowanie wielkości liter przy porównywaniu lematów
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Walidacja: formy gwarowe bądź archaiczne}
+%\textbf{nasze/walid\_xDIAL.tab}
+\begin{center}\begin{scriptsize}
+\begin{tabular}{l|rrrr}
+ & Liczba & Liczba & Procent & Procent\\
+ & unikalnych & form & unikalnych & form\\
+ & form & & form & \\
+\hline
+OK & 25 & 28 & 18,9394\% & 16,8675\% \\
+GOODPOS & 5 & 5 & 3,7879\% & 3,0120\% \\
+GOODPOS CC & 1 & 1 & 0,7576\% & 0,6024\% \\
+LEMMA & 8 & 10 & 6,0606\% & 6,0241\% \\
+LEMMA CC & 1 & 1 & 0,7576\% & 0,6024\% \\
+FAIL & 92 & 121 & 69,6970\% & 72,8916\% \\
+\hline
+cały korpus & 132 & 166 & 100,0000\% & 100,0000\%\\
+\end{tabular}
+\end{scriptsize}\end{center}
+Oznaczenia:
+\begin{itemize}
+\item OK --- przykład poprawnie przetworzony
+\item GOODPOS --- zgodność lematu i części mowy
+\item LEMMA --- zgodność lematu
+\item FAIL --- brak zgodności
+\item CC --- ignorowanie wielkości liter przy porównywaniu lematów
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Porównanie odgadywaczy: formy poprawne spoza SGJP}
+\begin{center}\begin{scriptsize}
+\begin{tabular}{l|rrr|rrr}
+& \multicolumn{3}{c|}{Procent unikalnych form} &
+\multicolumn{3}{c}{Procent form} \\
+\hline
+& ENIAM & TaKIPI & SAM & ENIAM & TaKIPI & SAM \\
+\hline
+OK & 88,93\% & 5,07\% & 0,00\% & 91,99\% & 48,12\% & 0,00\% \\
+OK CC & 1,25\% & 13,10\% & 0,00\% & 0,55\% & 6,70\% & 0,00\% \\
+GOODPOS & 0,91\% & 6,46\% & 8,45\% & 0,42\% & 2,96\% & 3,80\% \\
+GOODPOS\_NONINFL & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% \\
+GOODPOS\_VERB & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% \\
+GOODPOS CC & 2,20\% & 27,66\% & 54,06\% & 1,12\% & 13,85\% & 26,39\% \\
+GOODPOS\_NONINFL CC & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% \\
+GOODPOS\_VERB CC & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% \\
+LEMMA & 4,76\% & 6,69\% & 5,44\% & 3,28\% & 3,53\% & 5,93\% \\
+LEMMA CC & 1,09\% & 7,18\% & 1,32\% & 2,22\% & 3,36\% & 0,56\% \\
+FAIL & 0,86\% & 33,23\% & 30,69\% & 0,43\% & 21,23\% & 63,30\% \\
+CRASH & 0,00\% & 0,00\% & 0,03\% & 0,00\% & 0,00\% & 0,01\% \\
+\end{tabular}
+\end{scriptsize}\end{center}
+\begin{scriptsize}\begin{itemize}
+\item OK --- przykład poprawnie przetworzony
+\item GOODPOS --- zgodność lematu i części mowy
+\item GOODPOS\_NONINFL --- zgodność lematu i tego, że część mowy jest nieodmienna
+\item GOODPOS\_VERB --- zgodność lematu i tego, że część mowy jest czasownikiem
+\item LEMMA --- zgodność lematu
+\item FAIL --- brak zgodności
+\item CRASH --- runtime error
+\item CC --- ignorowanie wielkości liter przy porównywaniu lematów
+\end{itemize}\end{scriptsize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Porównanie odgadywaczy: formy z dywizem i apostrofem}
+\begin{center}\begin{scriptsize}
+\begin{tabular}{l|rrr|rrr}
+& \multicolumn{3}{c|}{Procent unikalnych form} &
+\multicolumn{3}{c}{Procent form} \\
+\hline
+& ENIAM & TaKIPI & SAM & ENIAM & TaKIPI & SAM \\
+\hline
+OK & 69,65\% & 19,42\% & 0,00\% & 73,56\% & 18,26\% & 0,00\% \\
+OK CC & 0,46\% & 3,49\% & 0,00\% & 0,38\% & 3,70\% & 0,00\% \\
+GOODPOS & 2,28\% & 21,24\% & 0,61\% & 1,92\% & 21,58\% & 0,51\% \\
+GOODPOS\_NONINFL & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% \\
+GOODPOS\_VERB & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% \\
+GOODPOS CC & 0,30\% & 3,34\% & 7,28\% & 0,26\% & 2,94\% & 6,39\% \\
+GOODPOS\_NONINFL CC & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% \\
+GOODPOS\_VERB CC & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% \\
+LEMMA & 3,49\% & 0,91\% & 0,00\% & 2,94\% & 0,77\% & 0,00\% \\
+LEMMA CC & 0,00\% & 0,15\% & 0,00\% & 0,00\% & 0,13\% & 0,00\% \\
+FAIL & 23,82\% & 46,43\% & 92,11\% & 20,95\% & 48,40\% & 93,10\% \\
+CRASH & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% \\
+\end{tabular}
+\end{scriptsize}\end{center}
+\begin{scriptsize}\begin{itemize}
+\item OK --- przykład poprawnie przetworzony
+\item GOODPOS --- zgodność lematu i części mowy
+\item GOODPOS\_NONINFL --- zgodność lematu i tego, że część mowy jest nieodmienna
+\item GOODPOS\_VERB --- zgodność lematu i tego, że część mowy jest czasownikiem
+\item LEMMA --- zgodność lematu
+\item FAIL --- brak zgodności
+\item CRASH --- runtime error
+\item CC --- ignorowanie wielkości liter przy porównywaniu lematów
+\end{itemize}\end{scriptsize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Porównanie odgadywaczy: pt lematyzowane do sg przez SGJP}
+\begin{center}\begin{scriptsize}
+\begin{tabular}{l|rrr|rrr}
+& \multicolumn{3}{c|}{Procent unikalnych form} &
+\multicolumn{3}{c}{Procent form} \\
+\hline
+& ENIAM & TaKIPI & SAM & ENIAM & TaKIPI & SAM \\
+\hline
+OK & 77,38\% & 1,19\% & 0,00\% & 80,48\% & 0,43\% & 0,00\% \\
+OK CC & 0,00\% & 0,60\% & 0,00\% & 0,00\% & 0,22\% & 0,00\% \\
+GOODPOS & 7,74\% & 0,60\% & 25,00\% & 2,82\% & 0,22\% & 13,23\% \\
+GOODPOS\_NONINFL & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% \\
+GOODPOS\_VERB & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% \\
+GOODPOS CC & 4,76\% & 0,00\% & 25,00\% & 12,36\% & 0,00\% & 11,50\% \\
+GOODPOS\_NONINFL CC & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% \\
+GOODPOS\_VERB CC & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% \\
+LEMMA & 0,00\% & 1,19\% & 0,60\% & 0,00\% & 0,43\% & 0,22\% \\
+LEMMA CC & 1,19\% & 0,00\% & 0,00\% & 0,43\% & 0,00\% & 0,00\% \\
+FAIL & 8,93\% & 96,43\% & 49,40\% & 3,90\% & 98,70\% & 75,05\% \\
+CRASH & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% \\
+\end{tabular}
+\end{scriptsize}\end{center}
+\begin{scriptsize}\begin{itemize}
+\item OK --- przykład poprawnie przetworzony
+\item GOODPOS --- zgodność lematu i części mowy
+\item GOODPOS\_NONINFL --- zgodność lematu i tego, że część mowy jest nieodmienna
+\item GOODPOS\_VERB --- zgodność lematu i tego, że część mowy jest czasownikiem
+\item LEMMA --- zgodność lematu
+\item FAIL --- brak zgodności
+\item CRASH --- runtime error
+\item CC --- ignorowanie wielkości liter przy porównywaniu lematów
+\end{itemize}\end{scriptsize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Porównanie odgadywaczy: tag inny niż proponowany przez SGJP}
+\begin{center}\begin{scriptsize}
+\begin{tabular}{l|rrr|rrr}
+& \multicolumn{3}{c|}{Procent unikalnych form} &
+\multicolumn{3}{c}{Procent form} \\
+\hline
+& ENIAM & TaKIPI & SAM & ENIAM & TaKIPI & SAM \\
+\hline
+OK & 46,66\% & 9,73\% & 0,00\% & 56,81\% & 27,30\% & 0,00\% \\
+OK CC & 2,17\% & 0,00\% & 0,00\% & 0,41\% & 0,00\% & 0,00\% \\
+GOODPOS & 5,30\% & 13,12\% & 13,03\% & 1,42\% & 8,08\% & 1,77\% \\
+GOODPOS\_NONINFL & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% \\
+GOODPOS\_VERB & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% \\
+GOODPOS CC & 1,22\% & 0,09\% & 0,00\% & 0,42\% & 0,01\% & 0,00\% \\
+GOODPOS\_NONINFL CC & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% \\
+GOODPOS\_VERB CC & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% \\
+LEMMA & 28,84\% & 35,27\% & 41,79\% & 31,87\% & 54,49\% & 64,95\% \\
+LEMMA CC & 9,12\% & 0,00\% & 0,87\% & 6,42\% & 0,00\% & 0,59\% \\
+FAIL & 6,69\% & 41,70\% & 44,31\% & 2,64\% & 10,11\% & 32,70\% \\
+CRASH & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% \\
+\end{tabular}
+\end{scriptsize}\end{center}
+\begin{scriptsize}\begin{itemize}
+\item OK --- przykład poprawnie przetworzony
+\item GOODPOS --- zgodność lematu i części mowy
+\item GOODPOS\_NONINFL --- zgodność lematu i tego, że część mowy jest nieodmienna
+\item GOODPOS\_VERB --- zgodność lematu i tego, że część mowy jest czasownikiem
+\item LEMMA --- zgodność lematu
+\item FAIL --- brak zgodności
+\item CRASH --- runtime error
+\item CC --- ignorowanie wielkości liter przy porównywaniu lematów
+\end{itemize}\end{scriptsize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Porównanie odgadywaczy: formy gwarowe bądź archaiczne}
+\begin{center}\begin{scriptsize}
+\begin{tabular}{l|rrr|rrr}
+& \multicolumn{3}{c|}{Procent unikalnych form} &
+\multicolumn{3}{c}{Procent form} \\
+\hline
+& ENIAM & TaKIPI & SAM & ENIAM & TaKIPI & SAM \\
+\hline
+OK & 18,94\% & 2,27\% & 0,00\% & 16,87\% & 1,81\% & 0,00\% \\
+OK CC & 0,00\% & 0,76\% & 0,00\% & 0,00\% & 0,60\% & 0,00\% \\
+GOODPOS & 3,79\% & 4,55\% & 4,55\% & 3,01\% & 4,82\% & 4,82\% \\
+GOODPOS\_NONINFL & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% \\
+GOODPOS\_VERB & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% \\
+GOODPOS CC & 0,76\% & 0,76\% & 0,00\% & 0,60\% & 1,20\% & 0,00\% \\
+GOODPOS\_NONINFL CC & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% \\
+GOODPOS\_VERB CC & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% \\
+LEMMA & 6,06\% & 1,52\% & 5,30\% & 6,02\% & 1,20\% & 4,22\% \\
+LEMMA CC & 0,76\% & 0,00\% & 0,76\% & 0,60\% & 0,00\% & 1,20\% \\
+FAIL & 69,70\% & 90,15\% & 89,39\% & 72,89\% & 90,36\% & 89,76\% \\
+CRASH & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% & 0,00\% \\
+\end{tabular}
+\end{scriptsize}\end{center}
+\begin{scriptsize}\begin{itemize}
+\item OK --- przykład poprawnie przetworzony
+\item GOODPOS --- zgodność lematu i części mowy
+\item GOODPOS\_NONINFL --- zgodność lematu i tego, że część mowy jest nieodmienna
+\item GOODPOS\_VERB --- zgodność lematu i tego, że część mowy jest czasownikiem
+\item LEMMA --- zgodność lematu
+\item FAIL --- brak zgodności
+\item CRASH --- runtime error
+\item CC --- ignorowanie wielkości liter przy porównywaniu lematów
+\end{itemize}\end{scriptsize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Wersja demonstracyjna}
+\begin{itemize}
+\item Przedstawiony w artykule model został zaimplementowany i 
+stanowi fragment kategorialnego parsera składniowo-semantycznego „ENIAM”.
+\item Internetowa wersja demonstracyjna guessera dostępna jest pod adresem:\\ {\tt http://eniam.nlp.ipipan.waw.pl/morphology.html}.
+\item Internetowa wersja demonstracyjna generatora form dostępna jest pod adresem:\\ {\tt http://eniam.nlp.ipipan.waw.pl/morphology2.html}.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Kod źródłowy i zasoby}
+\begin{itemize}
+\item Kod źródłowy, dane modelu i otagowana lista frekwencyjna NKJP1M znajdują się w repozytorium:\\ {\tt http://git.nlp.ipipan.waw.pl/\\wojciech.jaworski/ENIAM}
+\item Odpowiednio w 
+\begin{itemize}
+\item katalogu {\tt morphology},
+\item katalogu {\tt morphology/data} i
+\item pliku {\tt resources/NKJP1M/\\NKJP1M-tagged-frequency-26.07.2017.tab}
+\end{itemize}
+\item Definicja tagsetu listy frekwencyjnej znajduje się w pliku {\tt resources/NKJP1M/\\NKJP-tagged-frequency-tagset.txt}
+\end{itemize}
+\end{frame}
+
+\end{document}
+
+
+\begin{frame}
+\frametitle{}
+\begin{itemize}
+\item 
+\item 
+\item 
+\end{itemize}
+\end{frame}
+
+lematyzacja (w szczególności odgadywanie lematu) ma sens wtedy, gdy jest pod ręką zasób, który coś o lemacie mówi - np. nadaje mu kategorię semantyczną. Bez tego lemat wnosi tyle samo informacji do dalszego przetwarzania co forma obserwowana w tekście.”
+
+
+
+prezentacja interfejsu
+
+
+
+\begin{frame}
+\frametitle{}
+\begin{itemize}
+\item przykład z terytu nazwiska odmienionego na różne sposoby i tego, że odgadywacz wykrywa poprawną formę podstawową
+\item lematyzacja jest potrzebna żeby była forma kanoniczna
+\item różne sposoby odmiany w bazie TERYT sugerują, że inny użytkownicy języka mogą słowo odmieniać na różne sposoby.
+\end{itemize}
+\end{frame}
+
+guesser nie zmienia wielkości liter, 
+natomiast można mu podawać różne wersje tokenu i obserwować wyniki.
+
+czasowniki są żadkie stanowią jedynie x% form spoza SGJP, y% form w korpusie.
+

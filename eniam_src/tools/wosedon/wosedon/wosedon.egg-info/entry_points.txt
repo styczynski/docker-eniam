@@ -1,0 +1,6 @@
+[console_scripts]
+posedon = wosedon.run_wosedon_pos:main
+wosedon = wosedon.run_wosedon:main
+wosedon-eval = wosedon.evaluation:main
+wosedon-gen-prec = wosedon.prec_general:main
+

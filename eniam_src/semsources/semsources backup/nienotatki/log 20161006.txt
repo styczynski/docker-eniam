@@ -1,0 +1,11 @@
+lista0 = (num|prep|qub|interj|burk|comp|conj) w trzeciej kolumnie
+len == 2001
+lista1 = lista0 - (daw\.|przest\.|reg\.)
+len == 1683
+lista2 = set(lista1)
+len == 1039
+lista3 = sczyszczenie "num." (numizmatyka)
+len == 1028
+lista4 = ponownie set(lista3)
+len == 1020; ścisły nadzbiór semlex.tab i ścisły nadzbiór semlex2.tab po sczyszczeniu z nich śmieci
+semlex3.tab = lista4

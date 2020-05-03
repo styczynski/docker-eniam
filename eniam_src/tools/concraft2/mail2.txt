@@ -1,0 +1,40 @@
+> Domniemuję, że concfraft był trenowany na jakiejś wersji NKJP. Jest tam przyjęta zasada, że liczby zapisane cyframi są oznaczane jako num, albo adj (gdy oznaczają lata, dni itp). Natomiast Morfeusz liczby zapisane cyframi oznacza jako dig. Czy z tego co napisałeś wynika, że warto morfeuszowe dig zastępować przez num/adj przed tagowaniem?
+
+Nie, ponieważ dla celów wytrenowania concrafta milionowy NKJP został scalony z
+wynikami analizy morfeuszowej. Witek Kieraś powinien wiedzieć więcej na ten
+temat, ponieważ to on (m.in.) brał/bierze udział w przygotowaniu odpowiedniej
+wersji NKJP. Nawiasem mówiąc, coś jeszcze w tej materii się najwyraźniej dzieje,
+Witek napisał mi że wkrótce będzie gotowa nowa wersja tych danych.
+
+> Pytanie uzupełniające: czy w korpusie uczącym słowo „dziecko” było otagowane jako subst:sg:nom:n, subst:sg:nom:n1, czy subst:sg:nom:n:col?
+
+Jako _:n:col.
+
+Najnowsze dane służące do wytrenowania modelu concrafta sa na mozarcie w pliku
+/home/wkieras/tager/dane/train.dag (w najbliższym czasie mają się jeszcze nieco zmienić).
+
+>         - jak concraft zachowa się przy danych z guessera? Cechują się one dużo
+>         większą różnorodnością lematów i znaczników fleksyjnych przypisanych do
+>         każdej formy?
+>
+>
+>     Tak jak napisałem wyżej, concraft nie lematyzuje, więc różnorodność lematów
+>     nie ma dla niego znaczenia (nie bierze nawet lematów pod uwagę, chociaż
+>     mógłby).
+>
+>     Jeśli chodzi o znaczniki, to concraft ma własny moduł zgadywania.  Czy
+>     dobrze rozumiem, że chcesz uruchamiać concrafta na danych po zgadywaniu?
+>
+> Tak
+
+Na teraz najprościej byłoby usunąć znaczniki 'ign' -- concraft zgaduje tylko
+dla słów zawierających 'ign' wśród potencjalnych interpretacji.  Oczywiście w
+ten sposób traci się informację, że słowo było nieznane w pierwszej kolejności.
+
+Na dłuższą metę, mogę dodać odpowiednią opcję która pozwoli całkowicie wyłączyć
+zgadywanie dla słów nieznanych.
+
+A jak działa Twój zgadywacz?  Zwraca on jedną interpretację dla każdego słowa
+nieznanego, czy może kilka? Zwraca może jakieś prawdopodobieństwa?
+
+

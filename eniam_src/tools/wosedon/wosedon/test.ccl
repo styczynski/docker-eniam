@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cesAna SYSTEM "xcesAnaIPI.dtd">
+<chunkList xmlns:xlink="http://www.w3.org/1999/xlink">
+ <chunk id="ch1" type="p">
+  <sentence>
+   <tok>
+    <orth>Ala</orth>
+    <lex><base>al</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <lex><base>al</base><ctag>subst:sg:acc:m1</ctag></lex>
+    <lex><base>ala</base><ctag>subst:sg:nom:f</ctag></lex>
+   </tok>
+   <tok>
+    <orth>ma</orth>
+    <lex><base>mieć</base><ctag>fin:sg:ter:imperf</ctag></lex>
+    <lex><base>mój</base><ctag>adj:sg:nom:f:pos</ctag></lex>
+   </tok>
+   <tok>
+    <orth>kota</orth>
+    <lex><base>kot</base><ctag>subst:sg:gen:m2</ctag></lex>
+    <lex><base>kot</base><ctag>subst:sg:acc:m2</ctag></lex>
+    <lex><base>kota</base><ctag>subst:sg:nom:f</ctag></lex>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex><base>.</base><ctag>interp</ctag></lex>
+   </tok>
+  </sentence>
+ </chunk>
+</chunkList>
+

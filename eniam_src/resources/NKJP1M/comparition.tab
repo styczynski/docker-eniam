@@ -1,0 +1,1141 @@
+...ewski	...ewski	subst:sg:nom:m1	1	UNK-->SYMB
+1-majowy	1-majowy	adj:sg:nom:m3:pos	1	CERR-->CORR
+1-o	1-o	subst:sg:nom:n	1	CORR-->TAGE
+10	dziesięć	num:pl:acc:m3:rec	1	COMPD-->SYMB	ERR-->TAGE
+12-godzinnej	12-godzinnej	adj:sg:loc:f:pos	1	CORR-->TAGE
+126 p	126p	subst:sg:nom:m2	1	CORR-->ERR
+15-letnia	15-letnia	adj:sg:nom:f:pos	1	CORR-->TAGE
+19-letnia	19-letnia	adj:sg:nom:f:pos	1	CORR-->TAGE
+19-letniego	19-letniego	adj:sg:gen:m1:pos	1	CORR-->TAGE
+2-giej	2-gi	adj:sg:gen:f:pos	1	CORR-->TAGE
+2-o	2-o	subst:sg:nom:n	1	CORR-->TAGE
+20-letnia	20-letnia	adj:sg:nom:f:pos	1	CORR-->TAGE
+22-letnia	22-letnia	adj:sg:nom:f:pos	1	CORR-->TAGE
+25-letnia	25-letnia	adj:sg:nom:f:pos	1	CORR-->TAGE
+29-letniego	29-letniego	adj:sg:gen:m1:pos	1	CORR-->TAGE
+3,5-kilogramowe	3,5-kilogramowe	adj:sg:acc:n:pos	1	CORR-->TAGE
+3-go	3-go	adj:pl:gen:m3:pos	1	CERR-->CERR-TAGE
+3-letnia	3-letnia	adj:sg:nom:f:pos	1	CORR-->TAGE
+3-letnią	3-letnia	adj:sg:inst:f:pos	1	CORR-->TAGE
+3-stopniowe	3-stopniowe	adj:pl:nom:f:pos	1	CERR-->TAGE
+30-ci	30-ci	num:pl:acc:m3:rec	1	CERR-->CERR-TAGE
+30-letniego	30-letn	adj:sg:gen:m1:pos	1	CORR-->TAGE
+30-proc	trzydziestoprocentowy	adj:sg:gen:f:pos	1	CORR-->TAGE
+33-letni	trzydziestotrzyletni	adj:sg:nom:m1:pos	1	CORR-->TAGE
+36-letniego	36-letniego	adj:sg:acc:m1:pos	1	CORR-->TAGE
+3mamy	trzymać	fin:pl:pri:imperf	1	UNK-->SYMB
+40-letni	czterdziestoletni	adj:sg:nom:m1:pos	1	CORR-->TAGE
+50-ych	50-y	adj:pl:gen:m3:pos	1	CERR-->CERR-TAGE
+6-letnią	6-letnia	adj:sg:acc:f:pos	1	CORR-->TAGE
+60546.fizjks@iftia.univ.gda.pl	60546.fizjks@iftia.univ.gda.pl	subst:sg:nom:m3	1	PN-->SYMB
+80-tą	80-ty	adj:sg:acc:f:pos	1	CERR-->CERR-TAGE
+9-tego	9-tego	adj:pl:gen:m3:pos	1	CERR-->CERR-TAGE
+9b16v3$pmh$1@news.onet.pl	9b16v3$pmh$1@news.onet.pl	subst:sg:nom:m3	1	PN-->SYMB
+A	a	prep:gen	1	UNK-->CW	CORR-->TAGD
+A	à	prep:gen	2	UNK-->CW
+A.K.M	A.K.M	subst:sg:nom:m3	1	PN-->ACRO
+AA	AA	subst:sg:gen:n	4	NCH-->ACRO
+AA	AA	subst:sg:nom:m1	8	SYMB-->ACRO
+AA	AA	subst:sg:nom:m3	1	NCH-->ACRO
+AAP	AAP	subst:sg:acc:f	1	NCH-->ACRO
+ABB	ABB	subst:sg:nom:n	1	NCH-->ACRO
+ABC	ABC	subst:sg:nom:n	5	NCH-->ACRO
+AC	AC	subst:sg:gen:n	2	NCH-->ACRO
+AE	AE	brev:npun	1	SYMB-->ACRO	CORR-->TAGE
+AF	AF	brev:npun	1	SYMB-->ACRO	CORR-->TAGE
+AFP	AFP	subst:sg:gen:f	1	NCH-->ACRO
+AFP	AFP	subst:sg:nom:f	3	NCH-->ACRO
+AGD	AGD	adj:sg:gen:m3:pos	2	SYMB-->ACRO	CORR-->TAGE
+AGD	AGD	subst:pl:gen:n	1	NCH-->ACRO
+AGD	AGD	subst:pl:nom:n	2	NCH-->ACRO
+AGFY	AGFA	subst:sg:gen:f	1	PN-->ACRO
+AIDS	AIDS	subst:sg:gen:m3	1	NCH-->ACRO
+AIDS	AIDS	subst:sg:inst:m3	1	NCH-->ACRO
+AIDS	AIDS	subst:sg:nom:n	1	NCH-->ACRO
+AK	AK	subst:sg:gen:f	12	NCH-->ACRO
+AL	AL	subst:sg:gen:f	1	NCH-->ACRO
+AM	AM	subst:sg:gen:f	5	NCH-->ACRO
+AM	AM	subst:sg:nom:f	3	NCH-->ACRO
+AN]SPY-1	AN]SPY-1	subst:sg:nom:n	2	CORR-->ERR
+AP	AP	subst:sg:gen:f	1	NCH-->ACRO
+AP	AP	subst:sg:nom:f	1	NCH-->ACRO
+AP	AP	subst:sg:nom:n	1	NCH-->ACRO
+AR	AR	subst:sg:gen:f	3	NCH-->ACRO
+ARiMR	ARiMR	subst:sg:gen:f	2	NCH-->ACRO
+AS	AS	subst:sg:acc:m3	1	NCH-->ACRO
+AS	AS	subst:sg:gen:n	1	NCH-->ACRO
+AS	AS	subst:sg:nom:n	3	NCH-->ACRO
+AS	Action Script	brev:npun	1	SYMB-->ACRO	CORR-->TAGE
+ASP	ASP	subst:sg:gen:f	5	NCH-->ACRO
+ASP	ASP	subst:sg:loc:f	1	NCH-->ACRO
+ATK	ATK	subst:sg:gen:f	1	NCH-->ACRO
+AW	AW	brev:npun	2	SYMB-->ACRO	CORR-->TAGE
+AWS	AWS	subst:pl:gen:f	1	NCH-->ACRO
+AWS	AWS	subst:sg:acc:f	4	NCH-->ACRO
+AWS	AWS	subst:sg:gen:f	76	NCH-->ACRO
+AWS	AWS	subst:sg:inst:f	2	NCH-->ACRO
+AWS	AWS	subst:sg:loc:f	4	NCH-->ACRO
+AWS	AWS	subst:sg:nom:f	32	NCH-->ACRO
+AWS'u	AWS	subst:sg:gen:m3	1	ERR-->CERR
+AWS-	AWS-	subst:sg:nom:f	1	CORR-->ERR
+Ad	ad	prep:nom	4	UNK-->CW	CORR-->TAGD
+Armji	armia	subst:sg:gen:f	1	UNK-->CW	CORR-->DIAL
+BBC	BBC	subst:sg:gen:n	2	NCH-->ACRO
+BBC	BBC	subst:sg:loc:n	1	NCH-->ACRO
+BBC	BBC	subst:sg:nom:n	3	NCH-->ACRO
+BCh	BCh	subst:pl:gen:n	1	NCH-->ACRO
+BFG	BFG	subst:sg:loc:m3	1	NCH-->ACRO
+BG	BG	subst:sg:gen:m3	1	NCH-->ACRO
+BHP	BHP	subst:sg:gen:n	3	NCH-->ACRO
+BIG	BIG	subst:sg:gen:m3	4	EXT-->ACRO
+BL	BL	brev:npun	2	SYMB-->ACRO	CORR-->TAGE
+BMW	BMW	subst:pl:nom:n	1	NCH-->ACRO
+BMW	BMW	subst:sg:acc:n	1	NCH-->ACRO
+BMW	BMW	subst:sg:gen:n	1	NCH-->ACRO
+BMW	BMW	subst:sg:inst:n	3	NCH-->ACRO
+BMW	BMW	subst:sg:loc:n	1	NCH-->ACRO
+BMW	BMW	subst:sg:nom:n	7	NCH-->ACRO
+BP	BP	subst:sg:gen:f	1	NCH-->ACRO
+BP	BP	subst:sg:gen:m3	1	NCH-->ACRO
+BP	BP	subst:sg:gen:n	1	NCH-->ACRO
+BP	BP	subst:sg:loc:m3	1	NCH-->ACRO
+BP	BP	subst:sg:nom:n	1	NCH-->ACRO
+BPH	BPH	subst:sg:gen:m3	4	NCH-->ACRO
+BRE	BRE	subst:sg:gen:m3	1	NCH-->ACRO
+BSE	BSE	subst:sg:acc:n	1	NCH-->ACRO
+BSE	BSE	subst:sg:gen:n	2	NCH-->ACRO
+BSE	BSE	subst:sg:nom:n	1	NCH-->ACRO
+Bertrand'a	Bertrand	subst:sg:gen:m1	1	ERR-->CERR
+Blitzkrieg'u	blitzkrieg	subst:sg:gen:m3	1	CW-->COMPD
+Boga	Boga	subst:sg:acc:m1	1	UNK-->CW
+Borax@polbox.com	Borax@polbox.com	subst:sg:nom:m3	1	PN-->SYMB
+Bregovic'a	Bregovic	subst:sg:gen:m1	1	ERR-->CERR
+Bush'a	Bush	subst:sg:gen:m1	1	ERR-->CERR
+CAP	CAP	subst:sg:nom:n	1	PN-->ACRO
+CBOS	CBOS	subst:sg:acc:n	1	NCH-->ACRO
+CBOS	CBOS	subst:sg:gen:n	6	NCH-->ACRO
+CBOS	CBOS	subst:sg:nom:n	1	NCH-->ACRO
+CD	CD	subst:sg:loc:m3	2	NCH-->ACRO
+CD	CD	subst:sg:loc:n	1	NCH-->ACRO
+CD	CD	subst:sg:nom:n	5	NCH-->ACRO
+CD-R	CD-R	subst:sg:gen:m3	1	PN-->ACRO
+CD-R	CD-R	subst:sg:nom:m3	2	PN-->ACRO
+CDU	CDU	subst:sg:dat:f	1	NCH-->ACRO
+CDU	CDU	subst:sg:gen:f	1	NCH-->ACRO
+CDU	CDU	subst:sg:nom:f	2	NCH-->ACRO
+CET	CET	subst:sg:nom:m3	11	NCH-->ACRO
+CIA	CIA	subst:sg:gen:f	10	NCH-->ACRO
+CIA	CIA	subst:sg:gen:n	3	NCH-->ACRO
+CIA	CIA	subst:sg:nom:f	3	NCH-->ACRO
+CIS	CIS	subst:sg:acc:m3	1	NCH-->ACRO
+CIS	CIS	subst:sg:nom:m3	2	NCH-->ACRO
+CIT	CIT	subst:sg:gen:m3	1	NCH-->ACRO
+CKM	CKM	subst:sg:nom:m3	89	NCH-->ACRO
+CNN	CNN	subst:sg:gen:f	2	NCH-->ACRO
+CNN	CNN	subst:sg:nom:f	1	NCH-->ACRO
+CPN	CPN	subst:sg:gen:f	1	NCH-->ACRO
+CPN	CPN	subst:sg:loc:f	1	NCH-->ACRO
+CS	CS	brev:npun	5	SYMB-->ACRO	CORR-->TAGE
+CSU	CSU	subst:sg:gen:f	1	NCH-->ACRO
+CSU	CSU	subst:sg:nom:f	2	NCH-->ACRO
+CUP	CUP	subst:sg:gen:m3	2	SYMB-->ACRO	CORR-->TAGE
+CV	CV	subst:sg:gen:n	1	NCH-->ACRO
+ChRL	ChRL	subst:sg:gen:f	1	NCH-->ACRO
+ChRL	ChRL	subst:sg:loc:f	1	NCH-->ACRO
+ChZT	ChZT	subst:sg:gen:n	2	PN-->ACRO
+Charles'a	Charles	subst:sg:acc:m1	1	ERR-->CERR
+Charles'a	Charles	subst:sg:gen:m1	1	ERR-->CERR
+Chomsky’ego	Chomsky	subst:sg:acc:m1	1	NCH-->COMPD
+Coster'a	Coster	subst:sg:acc:m1	1	ERR-->CERR
+Courvoisier'em	Courvoisier	subst:sg:inst:m3	1	ERR-->CERR
+Czytelniku	Czytelnik	subst:sg:loc:m2	2	UNK-->CW	CORR-->TAGE
+DANA	DANA	subst:sg:nom:f	1	NCH-->ACRO
+DCIoS	Dominikańskie Centrum Informacji o Sektach	brev:npun	1	SYMB-->ACRO	CORR-->TAGE
+DDC	DCC	subst:sg:nom:m3	1	PN-->ACRO
+DEL	DEL	subst:sg:gen:n	1	PN-->ACRO
+DNA	DNA	subst:sg:dat:m3	1	NCH-->ACRO
+DNA	DNA	subst:sg:gen:n	8	NCH-->ACRO
+DNA	DNA	subst:sg:nom:m3	1	NCH-->ACRO
+DTP	DTP	subst:sg:nom:n	1	NCH-->ACRO
+DVD	DVD	subst:sg:acc:n	3	NCH-->ACRO
+DVD	DVD	subst:sg:gen:n	3	NCH-->ACRO
+DVD	DVD	subst:sg:loc:n	3	NCH-->ACRO
+DVD	DVD	subst:sg:nom:n	5	NCH-->ACRO
+DVD-ROM	DVD-ROM	subst:sg:loc:m3	1	PN-->ACRO
+Dan	dać	ppas:sg:nom:m3:perf:aff	1	UNK-->CW	CORR-->DIAL
+Demokraci.pl	Demokraci.pl	subst:pl:nom:m1	1	PN-->WEB
+Dewey’a	Dewey	subst:sg:acc:m1	1	ERR-->CERR
+DivXa	DivX	subst:sg:gen:m2	1	PN-->ACRO
+EAM’u	EAM	subst:sg:gen:m3	1	ERR-->CERR
+ECU	ECU	subst:pl:gen:n	2	NCH-->ACRO
+ECU	ECU	subst:sg:gen:n	2	NCH-->ACRO
+EEG	EEG	subst:sg:nom:n	1	NCH-->ACRO
+ETA	ETA	subst:sg:gen:f	1	NCH-->ACRO
+EWG	EWG	subst:sg:gen:f	3	NCH-->ACRO
+Ekhem	ekhem	qub	1	UNK-->CW
+Elyta	elita	subst:sg:nom:f	1	UNK-->NEOL
+FAO	FAO	subst:sg:gen:f	1	NCH-->ACRO
+FBI	FBI	subst:sg:acc:n	1	NCH-->ACRO
+FBI	FBI	subst:sg:gen:n	4	NCH-->ACRO
+FBI	FBI	subst:sg:inst:n	2	NCH-->ACRO
+FBI	FBI	subst:sg:nom:n	1	NCH-->ACRO
+FC	FC	subst:sg:gen:n	3	NCH-->ACRO
+FC	FC	subst:sg:inst:n	1	NCH-->ACRO
+FDP	FDP	subst:sg:nom:f	1	NCH-->ACRO
+FIFe	FIFe	subst:sg:acc:n	1	PN-->ACRO
+FSO	FSO	subst:sg:gen:f	2	NCH-->ACRO
+FSO	FSO	subst:sg:gen:n	1	NCH-->ACRO
+FSO	FSO	subst:sg:loc:f	1	NCH-->ACRO
+FSO	FSO	subst:sg:nom:f	2	NCH-->ACRO
+FSO	FSO	subst:sg:nom:n	1	NCH-->ACRO
+Fatah	FATAH	subst:sg:nom:m3	1	PN-->ACRO
+Flash'a	Flash	subst:sg:gen:m3	1	ERR-->CERR
+GAMA	GAMA	subst:sg:nom:f	1	NCH-->ACRO
+GIMPA	GIMP	subst:sg:gen:m2	1	PN-->ACRO
+GKKFiS	GKKFiS	subst:sg:gen:f	1	PN-->ACRO
+GL	GL	subst:sg:nom:f	3	NCH-->ACRO
+GPU	GPU	subst:sg:gen:n	2	NCH-->ACRO
+Gawex-ie	Gawex	subst:sg:loc:m3	1	ERR-->CERR
+Graecas	Graecas	adv	1	UNK-->EXT
+HBO	HBO	subst:sg:loc:n	1	NCH-->ACRO
+HDZ	HDZ	subst:sg:nom:f	1	NCH-->ACRO
+Harry’ego	Harry	subst:sg:gen:m1	1	NCH-->COMPD
+Hosty-i	hostia	subst:sg:loc:f	1	UNK-->CW	CORR-->DIAL
+I-szy	I-szy	adj:sg:nom:m3:pos	1	CERR-->CERR-TAGE
+IKEA	IKEA	subst:sg:nom:f	1	NCH-->ACRO
+IKEI	IKEA	subst:sg:gen:f	1	PN-->ACRO
+IP	IP	subst:sg:nom:n	1	NCH-->ACRO
+IQ	IQ	subst:sg:inst:n	1	NCH-->ACRO
+IRA	IRA	subst:sg:acc:f	1	NCH-->ACRO
+IRA	IRA	subst:sg:gen:f	3	NCH-->ACRO
+IRA	IRA	subst:sg:inst:f	1	NCH-->ACRO
+IRA	IRA	subst:sg:nom:f	5	NCH-->ACRO
+ISO	ISO	subst:sg:gen:n	1	NCH-->ACRO
+ISO	ISO	subst:sg:nom:n	1	NCH-->ACRO
+IV-ligowcy	IV-ligowiec	subst:pl:nom:m1	1	CERR-->CORR
+Ira	IRA	subst:sg:nom:f	1	PN-->ACRO
+J@zz	Jazz	subst:sg:nom:m3	1	UNK-->PN
+JKM	Janusz Korwin-Mikke	brev:npun	1	SYMB-->ACRO	CORR-->TAGE
+JS	JS	brev:npun	2	SYMB-->ACRO	CORR-->TAGE
+Jamny	Jamna	subst:sg:gen:f	1	COMPD-->PN
+Jo	ja	ppron12:sg:nom:m1:pri	1	UNK-->CW	CORR-->DIAL
+KAI	KAI	subst:sg:gen:f	1	NCH-->ACRO
+KBW	KBW	subst:sg:gen:m3	2	NCH-->ACRO
+KBWE	KBWE	subst:sg:gen:f	2	NCH-->ACRO
+KC	KC	subst:sg:gen:m3	20	NCH-->ACRO
+KC	KC	subst:sg:loc:m3	1	NCH-->ACRO
+KE	KE	subst:sg:gen:f	1	NCH-->ACRO
+KEP	KEP	subst:sg:nom:f	1	NCH-->ACRO
+KG	KG	subst:sg:gen:f	2	NCH-->ACRO
+KGB	KGB	subst:sg:gen:m3	1	NCH-->ACRO
+KGB	KGB	subst:sg:gen:n	1	NCH-->ACRO
+KGB	KGB	subst:sg:nom:n	1	NCH-->ACRO
+KGHM	KGHM	subst:sg:gen:m3	2	NCH-->ACRO
+KIER	kier	adj:sg:nom:f:pos	3	UNK-->CW	CORR-->ERR
+KK	KK	brev:pun	2	SYMB-->ACRO	CORR-->TAGE
+KK	Kościół Katolicki	brev:npun	3	SYMB-->ACRO	CORR-->TAGE
+KLD	KLD	subst:sg:gen:m3	1	NCH-->ACRO
+KP	KP	subst:sg:gen:m3	1	NCH-->ACRO
+KPP	KPP	subst:sg:acc:f	1	NCH-->ACRO
+KPP	KPP	subst:sg:gen:f	3	NCH-->ACRO
+KPP	KPP	subst:sg:loc:f	2	NCH-->ACRO
+KPP	KPP	subst:sg:nom:f	2	NCH-->ACRO
+KPZR	KPZR	subst:sg:gen:f	5	NCH-->ACRO
+KPZR	KPZR	subst:sg:inst:f	2	NCH-->ACRO
+KRLD	KRLD	subst:sg:gen:f	1	NCH-->ACRO
+KRRiT	KRRiT	subst:sg:gen:f	5	NCH-->ACRO
+KRRiTV	KRRiTV	subst:sg:gen:f	5	PN-->ACRO
+KRRiTV	KRRiTV	subst:sg:nom:f	3	PN-->ACRO
+KRUS	KRUS	subst:sg:gen:f	1	NCH-->ACRO
+KRUS	KRUS	subst:sg:loc:f	1	NCH-->ACRO
+KW	KW	subst:sg:gen:f	1	NCH-->ACRO
+KW	KW	subst:sg:gen:m3	3	NCH-->ACRO
+KWP	KWP	subst:sg:gen:f	3	NCH-->ACRO
+Kalendas	Kalendas	adv	1	UNK-->EXT	ERR-->CORR
+Karcmy	karczma	subst:sg:gen:f	1	UNK-->CW	CORR-->DIAL
+Kidery	KIdera	subst:sg:gen:m1	1	CORR-->TAGE
+Kiler-ów	Kiler	subst:sg:gen:m1	1	ERR-->CERR
+Ko	Koracz	subst:sg:gen:m1	1	COMPD-->PN	CORR-->ERR
+Kogel-mogel	kogel-mogel	subst:sg:nom:m3	1	UNK-->CW
+Koleji	kolej	subst:pl:gen:f	1	UNK-->CW	CORR-->DIAL
+KoniecPZPN.pl	KoniecPZPN.pl	subst:sg:nom:m3	1	PN-->WEB
+Kużden	kużden	adj:sg:nom:m1:pos	1	UNK-->CW	CORR-->DIAL
+LO	LO	subst:sg:gen:n	7	NCH-->ACRO
+LO	LO	subst:sg:loc:n	6	NCH-->ACRO
+LOK	LOK	subst:sg:acc:f	1	NCH-->ACRO
+LOK	LOK	subst:sg:gen:f	1	NCH-->ACRO
+LOTR-a	LOTR-a	subst:sg:gen:m3	1	CORR-->TAGE
+LP	LP	subst:sg:nom:n	1	NCH-->ACRO
+LPR	LPR	subst:sg:acc:f	1	NCH-->ACRO
+LPR	LPR	subst:sg:gen:f	9	NCH-->ACRO
+LPR	LPR	subst:sg:loc:f	1	NCH-->ACRO
+LPR	LPR	subst:sg:nom:f	5	NCH-->ACRO
+LSD	LSD	subst:sg:inst:n	1	NCH-->ACRO
+LiD	LiD	subst:sg:gen:f	2	PN-->ACRO
+LiD	LiD	subst:sg:nom:f	4	PN-->ACRO
+M-skiego	M-ski	subst:sg:acc:m1	1	PN-->SYMB
+M-skiego	M-ski	subst:sg:gen:m1	1	PN-->SYMB
+MAO	MAO	subst:sg:nom:m3	1	PN-->ACRO
+MDK	MDK	subst:sg:gen:m3	3	NCH-->ACRO
+MDK	MDK	subst:sg:loc:m3	1	NCH-->ACRO
+MENiS	MENiS	subst:sg:acc:n	1	PN-->ACRO
+MENiS	MENiS	subst:sg:loc:n	1	PN-->ACRO
+MFW	MFW	subst:sg:gen:m3	4	NCH-->ACRO
+MFW	MFW	subst:sg:gen:n	1	NCH-->ACRO
+MGPiPS	MGPiPS	subst:sg:acc:n	1	PN-->ACRO
+MIDI	MIDI	subst:sg:nom:n	1	NCH-->ACRO
+MIG	MIG	subst:sg:nom:m3	1	NCH-->ACRO
+MKOl	MKOl	subst:sg:gen:m3	1	NCH-->ACRO
+MMS-a	MMS-a	subst:sg:gen:m2	1	CORR-->TAGE
+MO	MO	subst:sg:acc:f	1	NCH-->ACRO
+MO	MO	subst:sg:gen:f	3	NCH-->ACRO
+MO	MO	subst:sg:nom:f	2	NCH-->ACRO
+MOP	MOP	subst:sg:gen:f	1	NCH-->ACRO
+MP	MP	subst:sg:nom:n	1	NCH-->ACRO
+MPK	MPK	subst:sg:gen:n	3	NCH-->ACRO
+MPK	MPK	subst:sg:nom:n	3	NCH-->ACRO
+MPO	MPO	subst:sg:loc:n	1	NCH-->ACRO
+MSP	MSP	subst:pl:gen:n	1	NCH-->ACRO
+MSW	MSW	subst:sg:acc:n	1	NCH-->ACRO
+MSW	MSW	subst:sg:gen:m3	5	NCH-->ACRO
+MSW	MSW	subst:sg:gen:n	10	NCH-->ACRO
+MSW	MSW	subst:sg:loc:n	1	NCH-->ACRO
+MSWiA	MSWiA	subst:sg:gen:n	15	NCH-->ACRO
+MSWiA	MSWiA	subst:sg:loc:n	3	NCH-->ACRO
+MSWiA	MSWiA	subst:sg:nom:n	1	NCH-->ACRO
+MSZ	MSZ	subst:sg:gen:m3	6	NCH-->ACRO
+MSZ	MSZ	subst:sg:loc:m3	2	NCH-->ACRO
+MTV	MTV	subst:sg:nom:f	1	NCH-->ACRO
+MW	MW	subst:sg:gen:f	1	NCH-->ACRO
+MZK	MZK	subst:pl:acc:m3	1	NCH-->ACRO
+MZK	MZK	subst:sg:gen:m3	3	NCH-->ACRO
+MZK	MZK	subst:sg:gen:n	2	NCH-->ACRO
+MZK	MZK	subst:sg:loc:m3	2	NCH-->ACRO
+MZiOS	MZiOS	subst:sg:gen:n	1	PN-->ACRO
+Matrix'a	Matrix	subst:sg:gen:m3	1	ERR-->CERR
+Matrix'ie	Matrix	subst:sg:loc:m3	1	ERR-->CERR
+Miau.pl	Miau.pl	subst:sg:nom:m3	1	PN-->WEB
+Michel'a	Michel	subst:sg:gen:m1	1	ERR-->CERR
+Moskowskije	moskowskij	adj:pl:acc:f:pos	1	UNK-->EXT
+Mozgolencia@interia.pl	Mozgolencia@interia.pl	subst:sg:nom:m3	1	PN-->SYMB
+Moż(rz)e	morze	subst:sg:nom:n	1	UNK-->NEOL
+MŚ	MŚ	subst:pl:gen:n	1	NCH-->ACRO
+MŚ	MŚ	subst:pl:inst:n	1	NCH-->ACRO
+MŚ	MŚ	subst:pl:loc:n	1	NCH-->ACRO
+MŚ	MŚ	subst:pl:nom:n	1	NCH-->ACRO
+NASA	NASA	subst:sg:nom:f	2	NCH-->ACRO
+NATO	NATO	subst:sg:acc:f	3	NCH-->ACRO
+NATO	NATO	subst:sg:acc:n	1	NCH-->ACRO
+NATO	NATO	subst:sg:gen:f	43	NCH-->ACRO
+NATO	NATO	subst:sg:gen:n	11	NCH-->ACRO
+NATO	NATO	subst:sg:inst:f	3	NCH-->ACRO
+NATO	NATO	subst:sg:inst:n	1	NCH-->ACRO
+NATO	NATO	subst:sg:loc:f	8	NCH-->ACRO
+NATO	NATO	subst:sg:loc:n	1	NCH-->ACRO
+NATO	NATO	subst:sg:nom:f	6	NCH-->ACRO
+NATO	NATO	subst:sg:nom:n	3	NCH-->ACRO
+NBC	NBC	subst:sg:gen:n	1	NCH-->ACRO
+NBP	NBP	subst:sg:dat:m3	1	NCH-->ACRO
+NBP	NBP	subst:sg:gen:m3	22	NCH-->ACRO
+NFI	NFI	subst:pl:acc:m3	1	NCH-->ACRO
+NFI	NFI	subst:pl:gen:m3	1	NCH-->ACRO
+NFI	NFI	subst:sg:gen:m3	2	NCH-->ACRO
+NIK	NIK	subst:sg:gen:m3	3	NCH-->ACRO
+NKWD	NKWD	subst:sg:acc:n	1	NCH-->ACRO
+NKWD	NKWD	subst:sg:gen:n	6	NCH-->ACRO
+NKWD	NKWD	subst:sg:nom:n	2	NCH-->ACRO
+NO	NO	subst:sg:gen:n	1	NCH-->ACRO
+NO	NO	subst:sg:nom:m3	1	PN-->SYMB
+NOM	NOM	subst:sg:nom:m3	1	NCH-->ACRO
+NOXa	NOX	subst:sg:gen:m3	1	PN-->ACRO
+NRD	NRD	subst:sg:acc:f	1	NCH-->ACRO
+NRD	NRD	subst:sg:gen:f	6	NCH-->ACRO
+NRD	NRD	subst:sg:loc:f	4	NCH-->ACRO
+NRD	NRD	subst:sg:nom:f	1	NCH-->ACRO
+NRD	NRD	subst:sg:nom:n	1	NCH-->ACRO
+NRF	NRF	subst:sg:gen:f	1	NCH-->ACRO
+NSA	NSA	subst:sg:dat:m3	1	NCH-->ACRO
+NSA	NSA	subst:sg:gen:m3	6	NCH-->ACRO
+NSA	NSA	subst:sg:nom:m3	2	NCH-->ACRO
+NSDAP	NSDAP	subst:sg:gen:f	3	NCH-->ACRO
+NSDAP	NSDAP	subst:sg:nom:f	2	NCH-->ACRO
+NSZZ	NSZZ	subst:sg:gen:m3	16	NCH-->ACRO
+NSZZ	NSZZ	subst:sg:inst:m3	1	NCH-->ACRO
+NSZZ	NSZZ	subst:sg:loc:m3	1	NCH-->ACRO
+Narodoma	Nardom	subst:sg:gen:m1	1	COMPD-->PN
+Niemce	Niemiec	depr:pl:acc:m2	2	UNK-->CW	CORR-->DIAL
+Nu	nu	qub	5	UNK-->CW
+OBI	OBI	subst:sg:nom:n	2	NCH-->ACRO
+OC	OC	subst:sg:nom:n	4	NCH-->ACRO
+OE	OE	subst:sg:acc:m3	1	PN-->ACRO
+OECD	OECD	subst:sg:acc:f	1	NCH-->ACRO
+OECD	OECD	subst:sg:gen:f	3	NCH-->ACRO
+OFE	OFE	subst:sg:gen:m3	1	NCH-->ACRO
+OJ	OJ	brev:npun	2	SYMB-->ACRO	CORR-->TAGE
+ONR'em	ONR	subst:sg:inst:m3	1	ERR-->CERR
+ONZ	ONZ	subst:sg:gen:m3	1	NCH-->ACRO
+OPS	OPS	subst:sg:nom:m3	2	NCH-->ACRO
+OPZZ	OPZZ	subst:sg:acc:n	1	NCH-->ACRO
+OPZZ	OPZZ	subst:sg:gen:n	3	NCH-->ACRO
+OPZZ	OPZZ	subst:sg:nom:n	3	NCH-->ACRO
+ORP	ORP	subst:sg:gen:m3	1	NCH-->ACRO
+OSP	OSP	subst:sg:gen:f	16	NCH-->ACRO
+OSP	OSP	subst:sg:nom:f	5	NCH-->ACRO
+OneStat.com	OneStat.com	subst:sg:nom:m3	1	PN-->WEB
+Onet.eu	Onet.eu	subst:sg:nom:m3	1	PN-->WEB
+Onet.pl	Onet.pl	subst:sg:nom:m3	1	PN-->WEB
+OŚKi	OŚKa	subst:sg:gen:f	1	NCH-->ACRO
+P-ski	P-ski	subst:sg:nom:m1	1	PN-->SYMB
+PA	PA	subst:sg:acc:n	1	NCH-->ACRO
+PAKA	PAKA	subst:sg:nom:m3	1	PN-->ACRO
+PAN	PAN	subst:sg:dat:f	1	NCH-->ACRO
+PAN	PAN	subst:sg:gen:f	13	NCH-->ACRO
+PAP	PAP	subst:sg:dat:f	3	NCH-->ACRO
+PAP	PAP	subst:sg:gen:f	4	NCH-->ACRO
+PAP	PAP	subst:sg:nom:f	18	NCH-->ACRO
+PBK	PBK	subst:sg:gen:m3	1	NCH-->ACRO
+PBS	PBS	subst:sg:nom:f	1	NCH-->ACRO
+PC	PC	subst:sg:gen:m3	1	NCH-->ACRO
+PC	PC	subst:sg:gen:n	2	NCH-->ACRO
+PC	PC	subst:sg:inst:n	1	NCH-->ACRO
+PC	PC	subst:sg:nom:n	2	NCH-->ACRO
+PCK	PCK	subst:sg:gen:m3	3	NCH-->ACRO
+PCW	PCW	subst:sg:gen:n	1	NCH-->ACRO
+PDS	PDS	subst:sg:gen:f	2	NCH-->ACRO
+PDS	PDS	subst:sg:inst:f	2	NCH-->ACRO
+PDS	PDS	subst:sg:nom:f	1	NCH-->ACRO
+PDT	PDT	subst:sg:gen:m3	1	NCH-->ACRO
+PEN	PEN	subst:sg:gen:m3	2	NCH-->ACRO
+PEN	PEN	subst:sg:loc:m3	2	NCH-->ACRO
+PG	PG	subst:sg:acc:n	2	NCH-->ACRO
+PG	PG	subst:sg:gen:n	1	NCH-->ACRO
+PHARE	PHARE	subst:sg:gen:m3	3	NCH-->ACRO
+PHARE	PHARE	subst:sg:nom:m3	5	NCH-->ACRO
+PHU	PHU	subst:sg:nom:n	2	SYMB-->ACRO	CORR-->TAGE
+PIP	PIP	subst:sg:acc:f	1	NCH-->ACRO
+PIP	PIP	subst:sg:gen:f	3	NCH-->ACRO
+PIPu	PIP	subst:sg:gen:m3	1	PN-->ACRO
+PIS	PiS	subst:sg:nom:m3	1	PN-->ACRO
+PK	PK	brev:npun	1	SYMB-->ACRO	CORR-->TAGE
+PKB	PKB	subst:sg:gen:m3	11	NCH-->ACRO
+PKD	PKD	subst:sg:gen:f	1	NCH-->ACRO
+PKN	PKN	subst:sg:gen:m3	3	NCH-->ACRO
+PKN	PKN	subst:sg:inst:m3	1	NCH-->ACRO
+PKO	PKO	subst:sg:acc:f	1	NCH-->ACRO
+PKO	PKO	subst:sg:gen:f	2	NCH-->ACRO
+PKO	PKO	subst:sg:loc:f	2	NCH-->ACRO
+PKO	PKO	subst:sg:nom:f	3	NCH-->ACRO
+PKO	PKO	subst:sg:nom:n	2	NCH-->ACRO
+PKP	PKP	subst:pl:acc:n	1	NCH-->ACRO
+PKP	PKP	subst:pl:dat:n	1	NCH-->ACRO
+PKP	PKP	subst:pl:gen:n	15	NCH-->ACRO
+PKP	PKP	subst:pl:inst:n	1	NCH-->ACRO
+PKP	PKP	subst:pl:loc:n	1	NCH-->ACRO
+PKP	PKP	subst:pl:nom:n	2	NCH-->ACRO
+PKP	PKP	subst:sg:gen:n	1	NCH-->ACRO
+PKP	PKP	subst:sg:nom:n	4	NCH-->ACRO
+PKS	PKS	subst:sg:gen:m3	2	NCH-->ACRO
+PKS	PKS	subst:sg:loc:m3	1	NCH-->ACRO
+PLIK	PLIK	subst:sg:nom:m3	1	NCH-->ACRO
+PLISSSS	please	fin:sg:pri:imperf	1	UNK-->NEOL
+PNB	PNB	subst:sg:gen:m3	2	NCH-->ACRO
+PO	PO	subst:sg:acc:f	3	NCH-->ACRO
+PO	PO	subst:sg:gen:f	25	NCH-->ACRO
+PO	PO	subst:sg:inst:f	3	NCH-->ACRO
+PO	PO	subst:sg:loc:f	1	NCH-->ACRO
+PO	PO	subst:sg:nom:f	18	NCH-->ACRO
+POD	POD	subst:sg:gen:m3	2	SYMB-->ACRO	CORR-->TAGE
+POKE	POKE	subst:sg:nom:n	1	PN-->ACRO
+POLAND	Poland	subst:sg:nom:m3	1	PN-->EXT
+PPP	PPP	subst:sg:gen:f	1	NCH-->ACRO
+PPP	PPP	subst:sg:nom:f	1	NCH-->ACRO
+PPR	PPR	subst:sg:gen:f	7	NCH-->ACRO
+PPTiT	PPTiP	subst:sg:gen:m3	1	PN-->ACRO
+PR	PR	subst:sg:gen:n	3	NCH-->ACRO
+PRKCh	PRKCh	subst:sg:gen:f	2	PN-->ACRO
+PRL	PRL	subst:sg:acc:f	3	NCH-->ACRO
+PRL	PRL	subst:sg:gen:f	30	NCH-->ACRO
+PRL	PRL	subst:sg:inst:f	1	NCH-->ACRO
+PRL	PRL	subst:sg:loc:f	3	NCH-->ACRO
+PRL	PRL	subst:sg:nom:f	3	NCH-->ACRO
+PRLu	PRL	subst:sg:loc:m3	1	PN-->ACRO
+PSL	PSL	subst:sg:acc:n	3	NCH-->ACRO
+PSL	PSL	subst:sg:gen:n	28	NCH-->ACRO
+PSL	PSL	subst:sg:inst:n	5	NCH-->ACRO
+PSL	PSL	subst:sg:loc:n	1	NCH-->ACRO
+PSL	PSL	subst:sg:nom:n	33	NCH-->ACRO
+PSLe	PSL	subst:pl:nom:n	1	PN-->ACRO
+PTK	PTK	subst:sg:nom:f	1	NCH-->ACRO
+PTTK	PTTK	subst:sg:gen:n	6	NCH-->ACRO
+PTTK	PTTK	subst:sg:nom:n	2	NCH-->ACRO
+PW	PW	subst:sg:gen:f	1	NCH-->ACRO
+PWSFTViT	PWSFTViT	subst:sg:gen:f	1	PN-->ACRO
+PZPR	PZPR	subst:sg:gen:f	37	NCH-->ACRO
+PZPR	PZPR	subst:sg:inst:f	1	NCH-->ACRO
+PZPR	PZPR	subst:sg:loc:f	4	NCH-->ACRO
+PZPR	PZPR	subst:sg:nom:f	2	NCH-->ACRO
+PZU	PZU	subst:sg:acc:m3	1	NCH-->ACRO
+PZU	PZU	subst:sg:gen:m3	21	NCH-->ACRO
+PZU	PZU	subst:sg:gen:n	3	NCH-->ACRO
+PZU	PZU	subst:sg:inst:m3	1	NCH-->ACRO
+PZU	PZU	subst:sg:loc:m3	3	NCH-->ACRO
+PZU	PZU	subst:sg:nom:m3	2	NCH-->ACRO
+PZU	PZU	subst:sg:nom:n	2	NCH-->ACRO
+PiK	PiK	subst:sg:nom:m2	1	NCH-->ACRO
+PiS	PiS	subst:sg:acc:n	3	NCH-->ACRO
+PiS	PiS	subst:sg:gen:f	2	NCH-->ACRO
+PiS	PiS	subst:sg:gen:n	49	NCH-->ACRO
+PiS	PiS	subst:sg:inst:n	3	NCH-->ACRO
+PiS	PiS	subst:sg:loc:n	1	NCH-->ACRO
+PiS	PiS	subst:sg:nom:f	1	NCH-->ACRO
+PiS	PiS	subst:sg:nom:n	28	NCH-->ACRO
+PiSuar	PiSuar	subst:sg:nom:m3	1	NCH-->NEOL
+PiSuaru	PiSuar	subst:sg:gen:m3	1	NCH-->NEOL
+Portalupomorza.pl	Portalpomorza.pl	subst:sg:gen:m3	1	PN-->WEB
+Powno	pewno	qub	1	UNK-->NEOL
+Pozdro	pozdro	subst:sg:nom:n	2	UNK-->NEOL
+Pozdroofka	pozdrówka	subst:sg:nom:f	1	UNK-->NEOL
+RAPu	RAP	subst:sg:gen:m3	1	NCH-->ACRO
+RCA	RCA	subst:sg:nom:n	1	NCH-->ACRO
+RE	RE	subst:sg:gen:f	1	NCH-->ACRO
+RM	RM	subst:sg:gen:f	1	NCH-->ACRO
+RM	Radio Maryja	brev:npun	2	SYMB-->ACRO	CORR-->TAGE
+RMF	RMF	subst:sg:gen:n	6	NCH-->ACRO
+RMF	RMF	subst:sg:nom:n	4	NCH-->ACRO
+ROPiejących	ropieć	pact:pl:gen:m1:imperf:aff	1	NCH-->NEOL
+ROPuch	ROPucha	subst:pl:gen:f	1	NCH-->NEOL
+RP	RP	subst:sg:acc:f	1	NCH-->ACRO
+RP	RP	subst:sg:gen:f	69	NCH-->ACRO
+RP	RP	subst:sg:loc:f	4	NCH-->ACRO
+RP	RP	subst:sg:nom:f	1	NCH-->ACRO
+RPA	RPA	subst:sg:gen:f	9	NCH-->ACRO
+RPA	RPA	subst:sg:loc:f	2	NCH-->ACRO
+RTV	RTV	subst:pl:gen:n	1	NCH-->ACRO
+RTV	RTV	subst:sg:gen:n	2	NCH-->ACRO
+RTV	RTV	subst:sg:nom:n	1	NCH-->ACRO
+RWE	RWE	subst:sg:gen:n	2	NCH-->ACRO
+RZ	RZ	brev:npun	2	SYMB-->ACRO	CORR-->TAGE
+Reader'a	Reader	subst:sg:gen:m3	1	ERR-->CERR
+Redakcja.pl	Redakcja.pl	subst:sg:nom:f	1	PN-->WEB
+Redaktor	Redaktor	subst:sg:nom:m2	2	UNK-->CW	CORR-->TAGE
+Rh	Rh	subst:sg:nom:n	2	NCH-->SYMB
+Ricoeur'a	Ricoeur	subst:sg:gen:m1	1	ERR-->CERR
+Rolls-Royce'a	Rolls-Royce	subst:sg:acc:m2	1	PN-->COMPD
+Rozumisz	rozumieć	fin:sg:sec:imperf	1	UNK-->CW	ERR-->DIAL
+Russel'a	Russel	subst:sg:gen:m1	1	PN-->COMPD
+S.A	S.A	subst:sg:dat:f	1	PN-->ACRO
+S.A.	S.A.	subst:sg:nom:f	1	NCH-->ACRO
+SA	SA	subst:sg:acc:f	1	NCH-->ACRO
+SA	SA	subst:sg:gen:f	16	NCH-->ACRO
+SA	SA	subst:sg:loc:f	2	NCH-->ACRO
+SA	SA	subst:sg:nom:f	53	NCH-->ACRO
+SA	SA	subst:sg:nom:n	1	NCH-->ACRO
+SAAB	SAAB	subst:sg:nom:m2	1	NCH-->ACRO
+SARS	SARS	subst:sg:gen:m3	1	NCH-->ACRO
+SB	SB	subst:sg:acc:f	1	NCH-->ACRO
+SB	SB	subst:sg:gen:f	14	NCH-->ACRO
+SB	SB	subst:sg:inst:f	6	NCH-->ACRO
+SB	SB	subst:sg:loc:f	1	NCH-->ACRO
+SB	SB	subst:sg:nom:f	1	NCH-->ACRO
+SD	SD	subst:sg:gen:n	2	NCH-->ACRO
+SD	SD	subst:sg:nom:n	1	NCH-->ACRO
+SDP	SDP	subst:sg:gen:n	4	NCH-->ACRO
+SETI@Home	SETI@Home	subst:sg:nom:m3	1	PN-->SYMB
+SEZAM	SEZAM	subst:sg:nom:m3	1	NCH-->ACRO
+SG	SG	subst:sg:gen:f	1	NCH-->ACRO
+SGGW	SGGW	subst:sg:gen:f	1	NCH-->ACRO
+SGH	SGH	subst:sg:loc:f	1	NCH-->ACRO
+SIMów	SIM	subst:pl:gen:m1	1	PN-->ACRO
+SLD	SLD	subst:sg:acc:n	1	NCH-->ACRO
+SLD	SLD	subst:sg:gen:m3	116	NCH-->ACRO
+SLD	SLD	subst:sg:inst:m3	7	NCH-->ACRO
+SLD	SLD	subst:sg:loc:m3	6	NCH-->ACRO
+SLD	SLD	subst:sg:nom:n	2	NCH-->ACRO
+SM	SM	subst:sg:gen:f	1	NCH-->ACRO
+SNIE	SNIE	subst:sg:nom:n	3	UNK-->SYMB
+SOK	SOK	subst:sg:gen:f	1	NCH-->ACRO
+SP	SP	subst:sg:gen:f	3	NCH-->ACRO
+SP	SP	subst:sg:loc:f	4	NCH-->ACRO
+SP	SP	subst:sg:nom:f	13	NCH-->ACRO
+SPD	SPD	subst:sg:dat:f	1	NCH-->ACRO
+SPD	SPD	subst:sg:gen:f	3	NCH-->ACRO
+SPD	SPD	subst:sg:nom:f	3	NCH-->ACRO
+SPOŁEM	Społem	subst:sg:nom:n	1	ACRO-->PN
+SS	SS	subst:sg:gen:f	4	NCH-->ACRO
+SS	SS	subst:sg:gen:n	2	NCH-->ACRO
+Sat-Kom-ie	Sat-Kom	subst:sg:loc:m3	1	ERR-->CERR
+SdPl	SdPl	subst:sg:gen:f	1	PN-->ACRO
+SdRP	SdRP	subst:sg:acc:f	1	NCH-->ACRO
+SdRP	SdRP	subst:sg:gen:f	18	NCH-->ACRO
+SdRP	SdRP	subst:sg:loc:f	2	NCH-->ACRO
+SdRP	SdRP	subst:sg:nom:f	2	NCH-->ACRO
+Sms-y	sms	subst:pl:acc:m2	1	NCH-->COMPD
+Solidarność.pl	Solidarność.pl	subst:sg:nom:f	2	PN-->WEB
+Sportingbet.com	Sportingbet.com	subst:sg:nom:m3	1	PN-->WEB
+Strzechom	strzecha	subst:sg:inst:f	1	UNK-->CW	CORR-->DIAL
+Stłuces	stłuc	fin:sg:sec:perf	1	UNK-->CW	ERR-->DIAL
+Stłyj	stryj	subst:sg:nom:m1	1	UNK-->CW
+Sztukamy	stukać	fin:pl:pri:imperf	1	UNK-->CW	ERR-->DIAL
+TAG	TAG	subst:sg:nom:m3	5	NCH-->ACRO
+TAGERa	TAGER	subst:sg:gen:m3	1	PN-->ACRO
+TAGERze	TAGER	subst:sg:loc:m3	1	PN-->ACRO
+TAGa	TAG	subst:sg:acc:m3	1	PN-->ACRO
+TAGa	TAG	subst:sg:gen:m3	2	PN-->ACRO
+TAGowi	TAG	subst:sg:dat:m3	1	NCH-->ACRO
+TAGu	TAG	subst:sg:loc:m3	1	NCH-->ACRO
+TK	TK	brev:npun	1	SYMB-->ACRO	CORR-->TAGE
+TK	TK	subst:sg:gen:m3	2	NCH-->ACRO
+TKKF	TKKF	subst:sg:gen:n	3	NCH-->ACRO
+TKZetu	TKZ	subst:sg:gen:m3	1	PN-->ACRO
+TL	Trybuna Ludu	brev:npun	2	SYMB-->ACRO	CORR-->TAGE
+TNT	TNT	subst:sg:gen:n	1	NCH-->ACRO
+TO	to	pred	1	UNK-->CW
+TOPR	TOPR	subst:sg:acc:n	1	NCH-->ACRO
+TOPR	TOPR	subst:sg:gen:n	5	NCH-->ACRO
+TOZ	TOZ	subst:sg:gen:n	1	NCH-->ACRO
+TOZ	TOZ	subst:sg:nom:n	1	NCH-->ACRO
+TP	TP	subst:sg:acc:f	1	NCH-->ACRO
+TP	TP	subst:sg:dat:f	1	NCH-->ACRO
+TP	TP	subst:sg:gen:f	7	NCH-->ACRO
+TP	TP	subst:sg:inst:f	1	NCH-->ACRO
+TP	TP	subst:sg:nom:f	5	NCH-->ACRO
+TR	TR	brev:pun	2	SYMB-->ACRO	CORR-->TAGE
+TUŚ	TUŚ	subst:sg:nom:n	3	PN-->ACRO
+TV	TV	subst:sg:acc:f	1	NCH-->ACRO
+TV	TV	subst:sg:gen:f	7	NCH-->ACRO
+TV	TV	subst:sg:loc:f	5	NCH-->ACRO
+TV	TV	subst:sg:nom:f	3	NCH-->ACRO
+TVN	TVN	subst:sg:acc:f	1	NCH-->ACRO
+TVN	TVN	subst:sg:gen:f	1	NCH-->ACRO
+TVN	TVN	subst:sg:gen:m3	4	NCH-->ACRO
+TVN	TVN	subst:sg:loc:f	1	NCH-->ACRO
+TVN	TVN	subst:sg:nom:f	1	NCH-->ACRO
+TVP	TVP	subst:sg:acc:f	1	NCH-->ACRO
+TVP	TVP	subst:sg:gen:f	28	NCH-->ACRO
+TVP	TVP	subst:sg:inst:f	1	NCH-->ACRO
+TVP	TVP	subst:sg:loc:f	8	NCH-->ACRO
+TVP	TVP	subst:sg:nom:f	10	NCH-->ACRO
+Tarbes	Tarbens	subst:sg:gen:n	1	TARGE-->TAGE
+Taż	toż	qub	1	UNK-->CW	CORR-->DIAL
+Te	te	qub	1	UNK-->CW	CORR-->TAGD
+Truppenamt'u	Truppenamt	subst:sg:gen:m3	1	ERR-->CERR
+UB	UB	subst:sg:gen:m3	3	NCH-->ACRO
+UB	UB	subst:sg:loc:m3	1	NCH-->ACRO
+UE	UE	subst:sg:dat:f	2	NCH-->ACRO
+UE	UE	subst:sg:gen:f	34	NCH-->ACRO
+UE	UE	subst:sg:inst:f	3	NCH-->ACRO
+UE	UE	subst:sg:loc:f	10	NCH-->ACRO
+UE	UE	subst:sg:nom:f	10	NCH-->ACRO
+UFO	UFO	subst:sg:gen:n	1	NCH-->ACRO
+UFO	ufo	subst:sg:gen:n	1	NCH-->ACRO
+UJ	UJ	subst:sg:gen:m3	2	NCH-->ACRO
+UKSW	UKSW	subst:sg:gen:m3	1	NCH-->ACRO
+UMK	UMK	subst:sg:gen:m3	1	NCH-->ACRO
+UN	UN	subst:sg:gen:m3	1	NCH-->ACRO
+UNESCO	UNESCO	subst:sg:acc:f	1	NCH-->ACRO
+UNESCO	UNESCO	subst:sg:gen:f	1	NCH-->ACRO
+UNESCO	UNESCO	subst:sg:nom:f	1	NCH-->ACRO
+UNRRA	UNRRA	subst:sg:gen:f	1	NCH-->ACRO
+UP	UP	subst:sg:gen:f	6	NCH-->ACRO
+UP	UP	subst:sg:nom:f	7	NCH-->ACRO
+UPA	UPA	subst:sg:acc:f	1	NCH-->ACRO
+UPA	UPA	subst:sg:gen:f	1	NCH-->ACRO
+UPR	UPR	subst:sg:gen:f	1	NCH-->ACRO
+UPR	UPR	subst:sg:nom:f	1	NCH-->ACRO
+URTiP	URTiP	subst:sg:gen:m3	5	PN-->ACRO
+USA	USA	subst:pl:acc:n	7	NCH-->ACRO
+USA	USA	subst:pl:gen:n	63	NCH-->ACRO
+USA	USA	subst:pl:inst:n	5	NCH-->ACRO
+USA	USA	subst:pl:loc:n	57	NCH-->ACRO
+USA	USA	subst:pl:nom:n	29	NCH-->ACRO
+USB	USB	subst:sg:nom:n	1	NCH-->ACRO
+USC	USC	subst:sg:gen:m3	1	NCH-->ACRO
+USC	USC	subst:sg:loc:m3	1	NCH-->ACRO
+USD	USD	subst:sg:gen:m2	5	PN-->SYMB
+USG	USG	subst:sg:nom:n	1	NCH-->ACRO
+UW	UW	subst:sg:acc:f	3	NCH-->ACRO
+UW	UW	subst:sg:dat:f	1	NCH-->ACRO
+UW	UW	subst:sg:gen:f	19	NCH-->ACRO
+UW	UW	subst:sg:gen:m3	5	NCH-->ACRO
+UW	UW	subst:sg:inst:f	4	NCH-->ACRO
+UW	UW	subst:sg:nom:f	24	NCH-->ACRO
+UŁ	UŁ	subst:sg:gen:m3	7	NCH-->ACRO
+VAN	van	subst:sg:nom:f	1	ACRO-->PN
+VAT	VAT	subst:sg:gen:m3	11	NCH-->ACRO
+VAT	VAT	subst:sg:loc:m3	1	NCH-->ACRO
+VGA	VGA	subst:sg:nom:f	1	NCH-->ACRO
+VHS	VHS	subst:sg:gen:m3	1	NCH-->ACRO
+VW	VW	subst:sg:gen:m3	1	NCH-->ACRO
+WB	WB	brev:npun	1	SYMB-->ACRO	CORR-->TAGE
+WBK	WBK	subst:sg:gen:m3	3	NCH-->ACRO
+WBK	WBK	subst:sg:loc:m3	1	NCH-->ACRO
+WC	WC	subst:sg:nom:n	1	NCH-->ACRO
+WG	WG	brev:npun	1	SYMB-->ACRO	CORR-->TAGE
+WHO	WHO	subst:sg:gen:n	1	NCH-->ACRO
+WKU	WKU	subst:sg:dat:f	2	NCH-->ACRO
+WOSu	WOS	subst:sg:gen:m3	1	PN-->ACRO
+WOŚP	WOŚP	subst:sg:dat:f	1	NCH-->ACRO
+WOŚP	WOŚP	subst:sg:gen:f	5	NCH-->ACRO
+WOŚP	WOŚP	subst:sg:nom:f	1	NCH-->ACRO
+WP	WP	subst:sg:gen:n	3	NCH-->ACRO
+WRN	WRN	subst:sg:gen:f	3	NCH-->ACRO
+WRON	WRON	subst:sg:gen:f	1	NCH-->ACRO
+WSI	WSI	subst:pl:dat:n	1	NCH-->ACRO
+WSI	WSI	subst:pl:gen:n	3	NCH-->ACRO
+WSI	WSI	subst:pl:inst:n	1	NCH-->ACRO
+WSI	WSI	subst:pl:nom:n	1	NCH-->ACRO
+WSI	WSI	subst:sg:gen:n	3	NCH-->ACRO
+WSI	WSI	subst:sg:nom:n	2	NCH-->ACRO
+WSW	WSW	subst:sg:gen:n	1	NCH-->ACRO
+WSiP	WSiP	subst:pl:gen:n	1	NCH-->ACRO
+WTC	WTC	subst:sg:loc:n	1	NCH-->ACRO
+WTO	WTO	subst:sg:gen:n	1	NCH-->ACRO
+WWW	WWW	subst:sg:gen:f	3	NCH-->ACRO
+WWW	WWW	subst:sg:nom:f	1	NCH-->ACRO
+WWW	www	subst:sg:gen:n	1	NCH-->ACRO
+XIX	XIX	adj:sg:loc:m3:pos	21	PN-->SYMB
+Xiądz	ksiądz	subst:sg:nom:m1	1	UNK-->CW	CORR-->DIAL
+Y-usiu	Y-usia	subst:sg:voc:f	1	UNK-->PN
+ZCHN	ZChN	subst:sg:nom:m3	1	PN-->ACRO
+ZChN	ZChN	subst:sg:gen:n	6	NCH-->ACRO
+ZChN	ZChN	subst:sg:nom:n	2	NCH-->ACRO
+ZEWA	ZEW	subst:sg:gen:m1	1	PN-->ACRO
+ZHP	ZHP	subst:sg:dat:m3	1	NCH-->ACRO
+ZHP	ZHP	subst:sg:gen:m3	2	NCH-->ACRO
+ZK	ZK	brev:pun	2	SYMB-->ACRO	CORR-->TAGE
+ZK	ZK	subst:sg:gen:m3	1	NCH-->ACRO
+ZLP	ZLP	subst:sg:gen:m3	1	NCH-->ACRO
+ZMP	ZMP	subst:sg:gen:m3	2	NCH-->ACRO
+ZNP	ZNP	subst:sg:loc:m3	1	NCH-->ACRO
+ZOMO	ZOMO	subst:sg:gen:n	2	NCH-->ACRO
+ZOMO	ZOMO	subst:sg:loc:n	1	NCH-->ACRO
+ZSL	ZSL	subst:sg:gen:n	1	NCH-->ACRO
+ZSP	ZSP	subst:sg:gen:m3	2	NCH-->ACRO
+ZSRR	ZSRR	subst:sg:dat:m3	2	NCH-->ACRO
+ZSRR	ZSRR	subst:sg:gen:m3	34	NCH-->ACRO
+ZSRR	ZSRR	subst:sg:inst:m3	2	NCH-->ACRO
+ZSRR	ZSRR	subst:sg:loc:m3	9	NCH-->ACRO
+ZSSR	ZSSR	subst:sg:inst:m3	3	NCH-->ACRO
+ZSSR	ZSSR	subst:sg:loc:m3	1	NCH-->ACRO
+ZUSie	ZUS	subst:sg:loc:m3	1	PN-->ACRO
+ZUSu	ZUS	subst:sg:gen:m3	1	PN-->ACRO
+Zdrhhaajcy	zdrajca	subst:pl:nom:m1	1	UNK-->CW
+ZooMarketu	Zoomarket	subst:sg:gen:m3	1	CORR-->TAGE
+Zusu	ZUS	subst:sg:gen:m3	1	PN-->ACRO
+`a	`a	qub	1	COMPD-->CW
+a	a	adv	1	UNK-->CW	CORR-->TAGD
+a	a	ppas:sg:nom:f:perf:aff	1	UNK-->CW
+a	a	prep:gen	1	UNK-->CW	CORR-->TAGD
+a	uderzyć	ppas:sg:nom:f:perf:aff	1	UNK-->CW
+a	à	prep:gen	1	UNK-->CW
+ad	ad	adv	1	UNK-->CW	CORR-->TAGD
+akcjonarjuszów	akcjonariusz	subst:pl:gen:m1	1	UNK-->CW	CORR-->DIAL
+am	AM	subst:sg:nom:m3	1	PN-->ACRO
+anty(radio)aktywność	anty(radio)aktywność	subst:sg:acc:f	1	PN-->NEOL
+arcy	arcy	qub	1	UNK-->CW	CORR-->TAGD
+astronkowska@prezydent.pl	astronkowska@prezydent.pl	subst:sg:nom:m3	1	PN-->SYMB
+atom2004meister@gmail.com	atom2004meister@gmail.com	subst:sg:acc:m3	1	PN-->SYMB
+auto	auto	qub	1	UNK-->CW	CORR-->TAGD
+autokasko	autokasko	subst:sg:gen:n	1	UNK-->CW	CORR-->PHON
+balwiarz	balwiarz	subst:sg:nom:m1	1	UNK-->CW	CORR-->ERR
+bamburyło	bamburyło	subst:sg:nom:m1	1	UNK-->NEOL
+bart@1under.com	bart@1under.com	subst:sg:nom:m3	1	PN-->SYMB
+baru	baru	subst:sg:acc:m1	1	UNK-->CW
+barzo	barzo	adv:pos	1	UNK-->CW	CORR-->DIAL
+bburski@friko6.onet.pl	bburski@friko6.onet.pl	subst:sg:nom:m3	1	PN-->SYMB
+beat@polbox.com	beat@polbox.com	subst:sg:nom:m3	1	PN-->SYMB
+bene	bene	burk	1	UNK-->CW	CORR-->TAGD
+bene	bene	qub	1	UNK-->CW	CORR-->TAGD
+bewupa	bewup	subst:sg:acc:m2	1	SPEC-->NEOL
+bewupa	bewupe	subst:sg:gen:m3	1	SPEC-->NEOL
+bewupów	bewupe	subst:pl:gen:m3	1	SPEC-->NEOL
+bhp	bhp	subst:sg:gen:n	1	NCH-->ACRO
+biglamer@net.pl	biglamer@net.pl	subst:sg:nom:m3	1	PN-->SYMB
+bmw	bmw	subst:pl:nom:n	1	NCH-->ACRO
+bralczyk@gazeta.pl	bralczyk@gazeta.pl	subst:sg:nom:m3	1	PN-->SYMB
+brendy	brendy	subst:sg:nom:n	1	UNK-->CW	CORR-->PHON
+bskowron@poczta.onet.pl	bskowron@poczta.onet.pl	subst:sg:nom:m3	1	PN-->SYMB
+buti	buti	subst:pl:nom:n	3	UNK-->CW	CORR-->DIAL
+by	by	aglt:sg:ter:imperf:nwok	1	UNK-->CW
+by	by	prep:acc	1	UNK-->CW	CORR-->TAGE
+bydzie	być	fin:sg:ter:imperf	1	UNK-->CW	CORR-->DIAL
+causa	causa	adj:sg:acc:m1:pos	1	UNK-->CW	CORR-->TAGE
+ceremonja	ceremonja	subst:sg:nom:f	1	UNK-->CW	CORR-->DIAL
+cetera	cetera	qub	2	UNK-->CW	CORR-->TAGE
+chciem	chcieć	fin:sg:pri:imperf	1	UNK-->CW	ERR-->DIAL
+chocioż	chociaż	qub	1	UNK-->CW	CORR-->DIAL
+chrismarg@poczta.onet.pl	chrismarg@poczta.onet.pl	subst:sg:nom:m3	1	PN-->SYMB
+chłopoczyna	chłopoczyna	subst:sg:nom:m1	1	UNK-->CW	CORR-->DIAL
+chłopok	chłopak	subst:sg:nom:m1	1	UNK-->CW	CORR-->DIAL
+chłopoka	chłopak	subst:sg:gen:m1	1	UNK-->CW	CORR-->DIAL
+crudo	crudo	adv	1	UNK-->EXT
+czata	czat	subst:sg:acc:m2	1	UNK-->CW	CORR-->ERR
+czegoś	czegoś	adv	2	UNK-->CW	ERR-->TAGE
+czekulady	czekolada	subst:sg:gen:f	1	UNK-->CW	ERR-->DIAL
+czinkłeczento	cinquecento	subst:sg:acc:n	1	ACRO-->PN
+czy	trzy	num:pl:nom:n:congr	1	UNK-->CW
+d***kratycznych	demokratyczny	adj:pl:gen:m3:pos	1	UNK-->SYMB
+dali	daleko	adv:com	1	UNK-->CW	CORR-->DIAL
+definitione	definitione	adv	2	UNK-->EXT
+demokratów.pl	demokraci.pl	subst:sg:gen:m3	1	PN-->WEB
+dj	DJ	subst:sg:nom:m1	1	PN-->ACRO
+dj'ami	dj	subst:pl:inst:m1	1	ERR-->CERR
+dobirze	dobrać	fin:sg:ter:perf	1	UNK-->CW	CORR-->DIAL
+doktór	doktor	subst:sg:nom:m1	3	UNK-->CW	CORR-->DIAL
+doktór	doktór	subst:sg:nom:f	1	UNK-->CW	CORR-->DIAL
+dowiedziec	dowiedzieć	inf:perf	1	UNK-->CW
+drugiemu	drugi	subst:sg:dat:m1	1	UNK-->CW	CORR-->TAGD
+dulary	dolar	subst:pl:nom:m2	1	UNK-->CW	CORR-->DIAL
+dumo	duma	subst:sg:inst:f	1	UNK-->CW	ERR-->DIAL
+dworzu	dwór	subst:sg:loc:m3	1	UNK-->CW	CORR-->DIAL
+dzisiej	dzisiaj	adv	1	UNK-->CW	ERR-->DIAL
+e(a)m	być	aglt:sg:pri:imperf:wok	1	UNK-->NEOL
+e-	e-	subst:sg:nom:m3	1	UNK-->SYMB
+et	et	conj	1	UNK-->EXT
+et	et	qub	2	UNK-->EXT
+ex	ex	adv	3	UNK-->EXT
+expose	exposé	subst:sg:loc:n	1	UNK-->CW	CORR-->CERR
+expressis	expressis	adv	1	UNK-->EXT
+extenso	extenso	adv	1	UNK-->EXT
+facto	facto	qub	7	UNK-->EXT
+factum	factum	adv	1	UNK-->EXT
+factum	factum	adv:pos	1	UNK-->EXT
+fajfusy	fajfus	subst:pl:nom:m2	1	UNK-->CW
+flimy	flim	depr:pl:nom:m2	1	UNK-->CW	CORR-->DIAL
+forum.miau.pl	forum.miau.pl	subst:sg:gen:m3	1	PN-->SYMB
+gadajo	gadać	fin:pl:ter:imperf	1	UNK-->CW	CORR-->DIAL
+gazeta.pl	gazeta.pl	subst:sg:nom:f	1	PN-->WEB
+godo	gadać	fin:sg:ter:imperf	1	UNK-->CW	CORR-->DIAL
+goury@o2.pl	goury@o2.pl	subst:sg:nom:m3	1	PN-->SYMB
+gościu	gościu	subst:sg:nom:m1	3	UNK-->NEOL
+greka@hydepark.pl	greka@hydepark.pl	subst:sg:nom:m3	1	PN-->SYMB
+guhru@bbs.chip.pl	guhru@bbs.chip.pl	subst:sg:nom:m3	1	PN-->SYMB
+gzecny	grzeczny	adj:sg:nom:m1:pos	1	UNK-->CW	ERR-->DIAL
+górol	góral	subst:sg:nom:m1	1	UNK-->CW	CORR-->DIAL
+górolki	góralka	subst:pl:nom:f	1	UNK-->CW	CORR-->DIAL
+gównojady	gównojad	depr:pl:nom:m2	1	UNK-->CW
+głobe	głowa	subst:sg:acc:f	1	UNK-->CW	ERR-->DIAL
+głównie	głównia	qub	3	UNK-->CW
+haka	hak	subst:sg:acc:m2	1	UNK-->CW
+hierbatkie	herbatka	subst:sg:acc:f	1	UNK-->CW	ERR-->DIAL
+honoris	honoris	adj:sg:acc:m1:pos	1	UNK-->EXT
+http://arch2.rzeczpospolita.pl:80/a/rz/1997/02/19970208/199702080126.html	http://arch2.rzeczpospolita.pl:80/a/rz/1997/02/19970208/199702080126.html	subst:sg:nom:m3	1	PN-->SYMB
+http://czateria.interia.pl/gosc?cid=645	http://czateria.interia.pl/gosc?cid=645	subst:sg:nom:m3	1	PN-->SYMB
+http://fakty.interia.pl/news?inf=431656	http://fakty.interia.pl/news?inf=431656	subst:sg:nom:m3	1	PN-->SYMB
+http://fandom.art.pl/konwenty/k2k.htm	http://fandom.art.pl/konwenty/k2k.htm	subst:sg:nom:m3	1	PN-->SYMB
+http://info.onet.pl/596713,11,item.html	http://info.onet.pl/596713,11,item.html	subst:sg:nom:m3	1	PN-->SYMB
+http://info.onet.pl/647811,12,item.html	http://info.onet.pl/647811,12,item.html	subst:sg:nom:m3	1	PN-->SYMB
+http://libuda.wrzuta.pl/audio/3b5aXRh9az/	http://libuda.wrzuta.pl/audio/3b5aXRh9az/	subst:sg:nom:m3	1	PN-->SYMB
+http://marcin.webcorp.pl	http://marcin.webcorp.pl	subst:sg:nom:m3	1	PN-->SYMB
+http://republika.pl/szczurkot/FAQ/index.html	http://republika.pl/szczurkot/FAQ/index.html	subst:sg:nom:m3	1	PN-->SYMB
+http://wiadomosci.wp.pl/wiadomosc.html?wid=1692934	http://wiadomosci.wp.pl/wiadomosc.html?wid=1692934	subst:sg:nom:m3	1	PN-->SYMB
+http://www.amazon.co.uk	http://www.amazon.co.uk	subst:sg:nom:m3	1	PN-->SYMB
+http://www.apsik.co.uk	http://www.apsik.co.uk	subst:sg:nom:m3	1	PN-->SYMB
+http://www.ditkom.com.pl	http://www.ditkom.com.pl	subst:sg:nom:m3	1	PN-->SYMB
+http://www.focal.org/books/hitler/HW.pdf	http://www.focal.org/books/hitler/HW.pdf	subst:sg:nom:m3	1	PN-->SYMB
+http://www.fpp.co.uk/books/Dresden/DRESDEN.pdf	http://www.fpp.co.uk/books/Dresden/DRESDEN.pdf	subst:sg:nom:m3	1	PN-->SYMB
+http://www.fpp.co.uk/books/Goebbels/Goebbels.pdf	http://www.fpp.co.uk/books/Goebbels/Goebbels.pdf	subst:sg:nom:m3	1	PN-->SYMB
+http://www.fpp.co.uk/books/Nuremberg/NUREMBERG.pdf	http://www.fpp.co.uk/books/Nuremberg/NUREMBERG.pdf	subst:sg:nom:m3	1	PN-->SYMB
+http://www.georgehart.com/pavilion.html	http://www.georgehart.com/pavilion.html	subst:sg:nom:m3	1	PN-->SYMB
+http://www.hodie-world.com/excerpts.html	http://www.hodie-world.com/excerpts.html	subst:sg:nom:m3	1	PN-->SYMB
+http://www.jeri.gwflota.com/main/	http://www.jeri.gwflota.com/main/	subst:sg:nom:m3	1	PN-->SYMB
+http://www.li.net/~george/pavilion.html	http://www.li.net/~george/pavilion.html	subst:sg:nom:m3	1	PN-->SYMB
+http://www.mtl.pl/bart	http://www.mtl.pl/bart	subst:sg:nom:m3	1	PN-->SYMB
+http://www.olechowski.pl/	http://www.olechowski.pl	subst:sg:loc:m3	1	PN-->SYMB
+http://www.ptfbank.pl/108.xml	http://www.ptfbank.pl/108.xml	subst:sg:nom:n	1	PN-->SYMB
+http://www.pza.org.pl/taternik/992polnocnamiegusza.htm	http://www.pza.org.pl/taternik/992polnocnamiegusza.htm	subst:sg:nom:m3	1	PN-->SYMB
+http://www.radiomaryja.pl.eu.org/	http://www.radiomaryja.pl.eu.org/	subst:sg:nom:m3	1	PN-->SYMB
+http://www.trzcionk.alpha.net.pl/niusy/	http://www.trzcionk.alpha.net.pl/niusy/	subst:sg:nom:m3	1	PN-->SYMB
+http://www.usenet.pl/doc/news-pl-faq.htpl#ogonki	http://www.usenet.pl/doc/news-pl-faq.htpl#ogonki	subst:sg:nom:m3	1	PN-->SYMB
+http://www.webfabrika.com.pl/fronda/	http://www.webfabrika.com.pl/fronda/	subst:sg:nom:m3	1	PN-->SYMB
+http://www.youtube.com/watch?v=Gwr-20zqTCA	http://www.youtube.com/watch?v=Gwr-20zqTCA	subst:sg:nom:m3	1	PN-->SYMB
+http://wyborcza.pl/1,75478,7072995,Na_ZUS_nie_plac	http://wyborcza.pl/1,75478,7072995,Na_ZUS_nie_plac	subst:sg:nom:m3	1	PN-->SYMB
+hyum	hyum	interj	1	UNK-->CW
+iego	on	ppron3:sg:gen:m1:ter:akc:npraep	1	UNK-->CW	CORR-->DIAL
+iks	x	subst:sg:acc:n	1	UNK-->CW
+in	in	adv	3	UNK-->EXT
+in	in	prep:acc	1	UNK-->EXT
+in	in	qub	1	UNK-->EXT
+in	in	subst:sg:acc:m3	1	UNK-->EXT
+in	in	subst:sg:nom:m3	3	UNK-->EXT
+izaa83@interia.pl	izaa83@interia.pl	subst:sg:nom:m3	1	PN-->SYMB
+izopropylonaftalenosulfonowy	izopropylonaftalenosulfonowy	adj:sg:nom:m3:pos	2	PN-->SYMB
+je	być	fin:sg:ter:imperf	4	UNK-->CW	CORR-->DIAL
+jedno-	jednopokojowy	adj:pl:gen:n:pos	1	COMPD-->CW
+jejch	jej	ppron3:sg:gen:f:ter:akc:npraep	1	UNK-->CW	CORR-->DIAL
+jenże	jenże	adj:sg:nom:m1:pos	1	UNK-->CW	CORR-->DIAL
+jeścio	jeszcze	qub	1	UNK-->CW	ERR-->DIAL
+ji	on	ppron3:sg:dat:f:ter:akc:npraep	1	UNK-->CW	CORR-->DIAL
+jo	ja	ppron12:sg:nom:m1:pri:nakc	1	UNK-->CW	CORR-->DIAL
+jo	jo	qub	6	UNK-->CW
+karcmy	karczma	subst:sg:gen:f	1	UNK-->CW	CORR-->DIAL
+kobietademon@gmail.com	kobietademon@gmail.com	subst:sg:acc:m3	1	PN-->SYMB
+kolacyą	kolacya	subst:sg:inst:f	1	UNK-->CW	CORR-->DIAL
+kolizyom	kolizja	subst:pl:dat:f	1	UNK-->CW	ERR-->DIAL
+kolo	kolo	subst:sg:nom:m1	2	UNK-->NEOL
+ksiadz@friko.onet.pl	ksiadz@friko.onet.pl	subst:sg:nom:m3	1	PN-->SYMB
+którem	który	adj:sg:inst:n:pos	1	UNK-->CW	CORR-->DIAL
+którem	który	adj:sg:loc:f:pos	1	UNK-->CW	CORR-->DIAL
+którem	który	adj:sg:loc:m3:pos	1	UNK-->CW	CORR-->DIAL
+kudy	kudy	adv	1	UNK-->CW	CORR-->DIAL
+lachociągi	lachociąg	depr:pl:nom:m2	1	UNK-->NEOL
+latina-pl-subskrypcja@hydepark.pl	latina-pl-subskrypcja@hydepark.pl	subst:sg:nom:m3	1	PN-->SYMB
+latina-pl@hydepark.pl	latina-pl@hydepark.pl	subst:sg:nom:m3	1	PN-->SYMB
+lebron26@vp.pl	lebron26@vp.pl	subst:sg:nom:m3	1	PN-->SYMB
+lejtki	lejtek	depr:pl:nom:m2	1	UNK-->NEOL
+lekramuje	lekramować	fin:sg:pri:imperf	1	UNK-->NEOL
+leszcze	leszcz	subst:pl:nom:m1	1	UNK-->CW
+lile@vp.pl	lile@vp.pl	subst:sg:nom:m3	1	PN-->SYMB
+lilijami	lilia	subst:pl:inst:f	1	UNK-->CW	ERR-->DIAL
+m	 być	aglt:sg:pri:imperf:nwok	1	CORR-->TAGE
+m	być	aglt:pl:pri:imperf:nwok	4	UNK-->CW	CERR-->CORR
+m	m	aglt:sg:pri:imperf:nwok	5	UNK-->CW	CORR-->TAGE
+maksa	maks	subst:sg:acc:m1	1	UNK-->NEOL
+marcinj@webcorp.pl	marcinj@webcorp.pl	subst:sg:nom:m3	1	PN-->SYMB
+marcoos_87@wp.pl	marcoos_87@wp.pl	subst:sg:nom:m3	1	PN-->SYMB
+małem	mały	adj:sg:loc:n:pos	1	UNK-->CW	CORR-->DIAL
+meter	metr	subst:sg:acc:m3	1	UNK-->CW	ERR-->DIAL
+mhroczna	mroczny	adj:sg:nom:f:pos	1	UNK-->CW
+mielizną	mielizna	subst:sg:acc:f	1	UNK-->CW	CORR-->ERR
+mieszczuchy	mieszczuch	subst:pl:acc:m2	1	UNK-->CW
+mimo	mima	prep:acc	2	UNK-->CW	CORR-->TAGE
+mioł	mieć	praet:sg:m1:imperf	1	UNK-->CW	CORR-->DIAL
+miszko	mieszkać	fin:sg:ter:imperf	1	UNK-->CW	CORR-->DIAL
+mlask	mlask	subst:sg:nom:n	1	UNK-->CW	CORR-->TAGE
+mniedziela@prezydent.pl	mniedziela@prezydent.pl	subst:sg:nom:m3	1	PN-->SYMB
+mniej	mało	qub	1	UNK-->CW
+mom	mieć	fin:sg:pri:imperf	1	UNK-->CW	CORR-->DIAL
+mosz	mieć	fin:sg:sec:imperf	1	UNK-->CW	CORR-->DIAL
+mrcheat@gazeta.pl	mrcheat@gazeta.pl	subst:sg:nom:m3	1	PN-->SYMB
+myś	musieć	praet:sg:m1:imperf	1	UNK-->CW
+mąż	mąż	subst:sg:acc:m1	15	UNK-->CW
+najbliższym	najbliższy	subst:pl:dat:m1	1	UNK-->CW	CORR-->TAGD
+najmundrsze	mądry	adj:pl:nom:m2:sup	1	UNK-->CW	ERR-->DIAL
+namądrzyłem	namądrzyć	praet:sg:m1:perf	1	UNK-->NEOL
+nasza-klasa.pl	nasza-klasa.pl	subst:sg:nom:m3	1	PN-->WEB
+nato	NATO	subst:sg:loc:f	2	PN-->ACRO
+nazwiskamy	nazwisko	subst:pl:inst:n	1	UNK-->CW	CORR-->DIAL
+nazwoł	nazwać	praet:sg:m1:perf	1	UNK-->CW	CORR-->DIAL
+nazywo	nazywać	fin:sg:ter:imperf	1	UNK-->CW	CORR-->DIAL
+news:9ntb5p$jst$1@h1.uw.edu.pl	news:9ntb5p$jst$1@h1.uw.edu.pl	subst:sg:nom:m3	1	PN-->SYMB
+news:pl.news.czytniki	news:pl.news.czytniki	subst:sg:acc:m3	1	PN-->SYMB
+news:pl.rec.kuchnia	news:pl.rec.kuchnia	subst:sg:nom:m3	2	PN-->SYMB
+news:pl.sci.psychologia	news:pl.sci.psychologia	subst:sg:nom:m3	1	PN-->SYMB
+niem	on	ppron3:sg:loc:m1:ter:akc:praep	1	UNK-->CW	CORR-->DIAL
+nieprzyjacioły	nieprzyjaciel	subst:pl:acc:m3	1	UNK-->CW	CORR-->DIAL
+niezgłębion	niezgłębiony	adj:pl:acc:n:pos	1	UNK-->CW	CORR-->DIAL
+no	na	prep:acc	1	UNK-->CW	CORR-->DIAL
+non	non	adv	6	UNK-->CW	CORR-->TAGD
+nota	nota	burk	1	UNK-->CW	CORR-->TAGD
+nota	nota	qub	1	UNK-->CW	CORR-->TAGD
+o	o	qub	1	UNK-->CW
+ocy	oko	subst:pl:acc:n	1	UNK-->CW	ERR-->DIAL
+odczepnego	odczepny	subst:sg:acc:m1	1	UNK-->CW	CORR-->TAGE
+oddali	oddali	burk	5	UNK-->CW	CORR-->TAGD
+off-owych	offowy	adj:pl:gen:m3:pos	1	COMPD-->CW
+ona___@op.pl	ona___@op.pl	subst:sg:nom:m3	1	PN-->SYMB
+onanji	onanja	subst:sg:gen:f	1	UNK-->CW	CORR-->DIAL
+oneż	on	ppron3:pl:nom:f:ter:akc:npraep	1	UNK-->CW	CORR-->DIAL
+opinję	opinia	subst:sg:acc:f	1	UNK-->CW	CORR-->DIAL
+or	or	interj	1	UNK-->EXT
+p	p	interj	4	UNK-->CW
+pH	pH	subst:sg:gen:n	1	NCH-->SYMB
+palcyma	palec	subst:sg:inst:m3	1	UNK-->CW	ERR-->DIAL
+paollo@free.poltronic.net	paollo@free.poltronic.net	subst:sg:nom:m3	1	PN-->SYMB
+paróweczkie	paróweczka	subst:sg:acc:f	1	UNK-->CW	ERR-->DIAL
+per	per	adv	1	UNK-->CW	CORR-->TAGD
+pesel	PESEL	subst:sg:acc:m3	1	PN-->ACRO
+pewien	pewny	adjp	14	UNK-->CW	CORR-->TAGD
+phóbowałam	próbować	praet:sg:f:imperf:agl	1	UNK-->CW
+pijarowych	PR-owy	adj:pl:loc:m3:pos	1	UNK-->NEOL
+pięcio-	pięciolatek	subst:sg:gen:m1	1	COMPD-->CW
+piłkarzyki	piłkarzyk	subst:pl:nom:m2	1	UNK-->CW
+pl.sci.filozofia	pl.sci.filozofia	subst:sg:loc:m3	1	PN-->WEB
+pl.soc.cośtam	pl.soc.cośtam	subst:sg:loc:m3	1	PN-->WEB
+pl.soc.religia	pl.soc.religia	subst:sg:nom:m3	1	PN-->WEB
+podom	podać	fin:sg:pri:perf	1	UNK-->CW	CORR-->DIAL
+polujo	polować	fin:pl:ter:imperf	1	UNK-->CW	CORR-->DIAL
+portalpomorza.pl	portalpomorza.pl	subst:sg:gen:m3	1	PN-->WEB
+porypańców	porypaniec	subst:pl:gen:m1	1	UNK-->NEOL
+posiołka	posiołok	subst:sg:gen:m3	1	UNK-->CW	CORR-->TAGE
+posrednictwo@pro.onet.pl	posrednictwo@pro.onet.pl	subst:sg:nom:m3	1	PN-->SYMB
+post	post	adv	1	UNK-->CW	CORR-->TAGD
+post	post	adv:pos	1	UNK-->CW	CORR-->TAGD
+powiedzioł	powiedzieć	praet:sg:m1:perf	1	UNK-->CW	CORR-->DIAL
+pozwoloć	pozwolić	inf:perf	1	UNK-->CW	CORR-->DIAL
+primo	primo	subst:sg:nom:n	2	UNK-->EXT
+priori	priori	adv	1	UNK-->EXT
+pro	pro	adv	2	UNK-->CW	CORR-->TAGD
+profita	profit	subst:pl:nom:m3	1	UNK-->CW	CORR-->DIAL
+propos	propos	qub	3	UNK-->EXT
+protest	protest	subst:pl:loc:m3	1	UNK-->CW	CORR-->ERR
+protest	protest	subst:pl:nom:m3	1	UNK-->CW	CORR-->TAGD
+przychały	przyjechać	fin:pl:ter:imperf	1	UNK-->CW	ERR-->DIAL
+przychylnem	przychylny	adj:sg:inst:n:pos	1	UNK-->CW	CORR-->DIAL
+pupile	pupil	subst:pl:acc:m2	1	UNK-->CW
+pyto	pytać	fin:sg:pri:imperf	1	UNK-->CW	CORR-->DIAL
+pół	pół	subst:pl:acc:n	1	UNK-->CW	CORR-->TAGE
+pół	pół	subst:sg:acc:f	1	UNK-->CW	CORR-->TAGE
+quo	quo	subst:sg:dat:n	1	UNK-->EXT
+rad_rez@poczta.onet.pl	rad_rez@poczta.onet.pl	subst:sg:nom:m3	1	PN-->SYMB
+radościo	radość	subst:sg:inst:f	1	UNK-->CW	CORR-->DIAL
+redakcja.pl	redakcja.pl	subst:sg:nom:f	1	PN-->WEB
+redakcja@glospasleka.pl	redakcja@glospasleka.pl	subst:sg:nom:m3	1	PN-->SYMB
+rock'u	rock	subst:sg:gen:m2	1	CW-->COMPD
+rozumicie	rozumiecie	fin:pl:sec:imperf	1	UNK-->CW	ERR-->DIAL
+ry(d)zykować	ryzykować	inf:imperf	1	UNK-->NEOL
+sPiSiałym	sPiSiały	adj:pl:dat:n:pos	1	ERR-->CORR
+sajta	sajt	subst:sg:acc:m2	1	UNK-->NEOL
+saldo	saldo	adv	1	UNK-->CW	CORR-->TAGD
+savoir-vivre’u	savoir-vivre	subst:sg:gen:m3	2	NCH-->COMPD
+sbajdas@interia.pl	sbajdas@interia.pl	subst:sg:acc:m3	1	PN-->SYMB
+science-fiction	science-fiction	subst:sg:gen:n	1	UNK-->EXT
+scyre	szczery	adj:pl:nom:f:pos	1	UNK-->CW	CORR-->DIAL
+se	se	interj	5	UNK-->CW
+sensu	sensu	qub	1	UNK-->CW	CORR-->TAGE
+siama	sam	adj:sg:nom:f:pos	3	UNK-->CW	ERR-->DIAL
+skejpa	skejp	subst:sg:acc:m2	1	ERR-->PHON
+slawek.sa@gazeta.pl	slawek.sa@gazeta.pl	subst:sg:nom:m3	1	PN-->SYMB
+slowniki.onet.pl	slowniki.onet.pl	subst:sg:nom:m3	1	PN-->WEB
+sms-a	sms	subst:sg:acc:m2	1	NCH-->COMPD
+sms-a	sms	subst:sg:gen:m2	1	NCH-->COMPD
+sms-y	SMS	subst:pl:acc:m3	1	NCH-->COMPD
+som	być	fin:pl:ter:imperf	1	UNK-->CW	ERR-->DIAL
+sonka_86@wp.pl	sonka_86@wp.pl	subst:sg:nom:m3	1	PN-->SYMB
+sovieticusa	sovieticus	subst:sg:gen:m1	1	UNK-->NEOL
+spytoł	spytać	praet:sg:m1:perf	1	UNK-->CW	CORR-->DIAL
+status	status	subst:sg:dat:n	1	UNK-->EXT
+store.britannica.com	store.britannica.com	subst:sg:nom:m3	1	PN-->SYMB
+stricte	stricte	adv	1	UNK-->EXT
+stricto	stricto	qub	1	UNK-->EXT
+suxx	suck	fin:sg:ter:imperf	1	UNK-->NEOL
+synapse@friko2.onet.pl	synapse@friko2.onet.pl	subst:sg:nom:m3	1	PN-->SYMB
+szit	szit	interj	1	UNK-->EXT	CORR-->PHON
+szybko.pl	szybko.pl	subst:sg:gen:m3	1	PN-->WEB
+służącem	służący	subst:sg:inst:m1	1	UNK-->CW	CORR-->DIAL
+tatem	tato	subst:sg:inst:m1	1	UNK-->CW	CORR-->DIAL
+taż	toż	qub	1	UNK-->CW	CORR-->DIAL
+te	te	interj	3	UNK-->CW
+te	te	qub	1	UNK-->CW	CORR-->TAGD
+techend trejt loj kropka bloks pot kom	techandtradelaw.blogspot.com	subst:sg:nom:m3	1	PN-->WEB
+tego	tego	qub	1	UNK-->CW	CORR-->TAGD
+tej	tej	interj	1	UNK-->CW	CORR-->TAGD
+tem	to	subst:sg:loc:n	1	UNK-->CW	CORR-->DIAL
+ten	ten	interj	19	UNK-->CW	CORR-->TAGD
+ten	ten	qub	5	UNK-->CW	CORR-->TAGD
+tera	teraz	adv	5	UNK-->CW	ERR-->DIAL
+tera	teraz	adv:pos	1	UNK-->CW	CORR-->DIAL
+tero	teraz	adv	2	UNK-->CW	CORR-->DIAL
+tero	to	subst:sg:gen:n	1	UNK-->CW	TAGE-->DIAL
+teścia	teść	subst:sg:gen:m2	1	UNK-->CW	CORR-->TAGD
+thx	thx	fin:sg:pri:imperf	1	UNK-->NEOL
+toto	toto	qub	1	UNK-->CW	CORR-->TAGD
+toto	toto	subst:sg:acc:n	1	UNK-->CORR
+trader.pl	trader.pl	subst:sg:nom:m3	1	PN-->WEB
+trakcie	trakcie	burk	1	UNK-->CW	TAGD-->TAGE
+trocha	trochę	adv	1	UNK-->CW	CORR-->DIAL
+troszkie	troszkę	adv	1	UNK-->CW	CORR-->DIAL
+troszkie	troszkę	num:pl:acc:f:rec	1	UNK-->CW	ERR-->DIAL
+trąbnąłem	trąbnąć	praet:sg:m1:perf:nagl	1	UNK-->CW
+tv	TV	subst:sg:loc:f	1	NCH-->ACRO
+tv	tv	subst:sg:nom:f	1	NCH-->ACRO
+twem	twój	adj:sg:loc:n:pos	1	UNK-->CW	CORR-->DIAL
+tyn	ten	adj:sg:acc:m3:pos	2	UNK-->CW	CORR-->DIAL
+tyn	ten	adj:sg:nom:m1:pos	4	UNK-->CW	CORR-->DIAL
+tyz	też	qub	1	UNK-->CW	CORR-->DIAL
+tyż	też	qub	3	UNK-->CW	CERR-->DIAL
+tłumokomi	tłumok	subst:pl:inst:m1	2	UNK-->CW	CORR-->DIAL
+u	u	subst:sg:nom:n	1	UNK-->CW
+umi	umieć	fin:sg:ter:imperf	1	UNK-->CW	CORR-->DIAL
+umyślis	umyślić	fin:sg:sec:perf	1	UNK-->CW	ERR-->DIAL
+uprzejmem	uprzejmy	adj:sg:inst:n:pos	1	UNK-->CW	CORR-->DIAL
+urok	urok	subst:sg:acc:m2	1	UNK-->CW
+uwagą	uwaga	subst:sg:acc:f	1	UNK-->CW	CORR-->ERR
+ułomka	ułomek	subst:sg:acc:m1	1	UNK-->CW
+uśmiejes	uśmiać	fin:sg:sec:perf	1	UNK-->CW	ERR-->DIAL
+verbis	verbis	adv	1	UNK-->EXT
+vojtus@poczta.onet.pl	vojtus@poczta.onet.pl	subst:sg:nom:m3	1	PN-->SYMB
+w w w polskie radio euro kropka pe el	www.polskieradioeuro.pl	subst:sg:acc:m3	1	PN-->SYMB
+wicka	wicek	subst:sg:gen:m1	1	UNK-->CW
+wielgie	wielki	adj:pl:acc:m3:pos	1	UNK-->CW	CORR-->DIAL
+wierszów	wiersz	subst:pl:gen:m3	1	UNK-->CW	CORR-->DIAL
+windykacja.pl	windykacja.pl	subst:sg:nom:m3	1	PN-->WEB
+windykacji.pl	windykacja.pl	subst:sg:loc:m3	1	PN-->WEB
+wisz	widzieć	fin:sg:sec:imperf	1	UNK-->CW	CERR-->DIAL
+wisz	wiedzieć	fin:sg:sec:imperf	9	UNK-->CW	CERR-->DIAL
+wnuki	wnuk	subst:pl:acc:m2	1	UNK-->CW
+wolt	wolt	subst:pl:gen:m3	1	UNK-->CW	CORR-->CERR
+wrzuta.pl	wrzuta.pl	subst:sg:nom:m3	1	PN-->WEB
+wstłętne	wstrętny	adj:sg:nom:n:pos	1	UNK-->CW
+wszystkę	wszystek	adj:sg:acc:f:pos	1	UNK-->CW	CORR-->DIAL
+www	WWW	subst:sg:gen:f	2	NCH-->ACRO
+www	www	subst:sg:nom:n	2	NCH-->ACRO
+www. catclub-sopot.pl	www.catclub-sopot.pl	subst:sg:nom:m3	1	PN-->SYMB
+www.archiwalia.gov.pl	www.archiwalia.gov.pl	subst:sg:nom:m3	1	PN-->SYMB
+www.blogspot.com	www.blogspot.com	subst:sg:nom:m3	1	PN-->SYMB
+www.colours.cz	www.colours.cz	subst:sg:loc:m3	1	PN-->SYMB
+www.englishinbritain.com	www.englishinbritain.com	subst:sg:nom:m3	1	PN-->SYMB
+www.eures.praca.gov.pl	www.eures.praca.gov.pl	subst:sg:nom:m3	1	PN-->SYMB
+www.europetnet.com	www.europetnet.com	subst:sg:nom:m3	1	PN-->SYMB
+www.felispolonia.pl	www.felispolonia.pl	subst:sg:nom:m3	1	PN-->SYMB
+www.freshdevices.com	www.freshdevices.com	subst:sg:nom:m3	1	PN-->SYMB
+www.gadki.lublin.pl/east/z/index.html	www.gadki.lublin.pl/east/z/index.html	subst:sg:nom:m3	1	PN-->SYMB
+www.gorock.stalowka.net	www.gorock.stalowka.net	subst:sg:nom:m3	1	PN-->SYMB
+www.hydepark.pl	www.hydepark.pl	subst:sg:nom:m3	1	PN-->SYMB
+www.identyfikacja.pl	www.identyfikacja.pl	subst:sg:nom:m3	1	PN-->SYMB
+www.kfn.strona.pl	www.kfn.strona.pl	subst:sg:loc:m3	1	PN-->SYMB
+www.manggha.krakow.pl	www.manggha.krakow.pl	subst:sg:nom:m3	1	PN-->SYMB
+www.mbnet.com.pl	www.mbnet.com.pl	subst:sg:nom:m3	1	PN-->SYMB
+www.mdk-raciborz.pl	www.mdk-raciborz.pl	subst:sg:nom:m3	1	PN-->SYMB
+www.motywsmierci.glt.pl	www.motywsmierci.glt.pl	subst:sg:nom:m3	1	PN-->SYMB
+www.mp.pl/szkolenia	www.mp.pl/szkolenia	subst:sg:nom:m3	1	PN-->SYMB
+www.msz.gov.pl	www.msz.gov.pl	subst:sg:nom:m3	1	PN-->SYMB
+www.punkserwis.org	www.punkserwis.org	subst:sg:nom:m3	1	PN-->SYMB
+www.sleazydream.com	www.slezydream.com	subst:sg:nom:m3	1	PN-->SYMB
+www.suc.org	www.suc.org	subst:sg:nom:m3	1	PN-->SYMB
+www.womenonwaves.org	www.womenonwaves.org	subst:sg:nom:m3	1	PN-->SYMB
+www.zamek-pszczyna.pl	www.zamek-pszczyna.pl	subst:sg:nom:m3	1	PN-->SYMB
+www.zsme.pl	www.zsme.pl	subst:sg:nom:m3	1	PN-->SYMB
+www.zyrardow.pl	www.zyrardow.pl	subst:sg:nom:m3	1	PN-->SYMB
+wykałaczkie	wykałaczka	subst:sg:acc:f	1	UNK-->CW	ERR-->DIAL
+włeszcie	wreszcie	adv	1	UNK-->CW
+xiański	chrześcijański	adj:sg:nom:m2:pos	1	UNK-->SYMB
+xtianką	chrześcijanka	subst:sg:inst:f	1	UNK-->SYMB
+yh	yh	qub	1	UNK-->CW	CORR-->TAGD
+zaczym	zaczym	conj	1	UNK-->CW	CORR-->TAGD
+zadychał	zadychać	praet:sg:m1:perf:nagl	1	UNK-->CW
+zaro	zaraz	adv	1	UNK-->CW	CORR-->DIAL
+zbywan@pgnig.com.pl	zbywan@pgnig.com.pl	subst:sg:nom:m3	1	PN-->SYMB
+zbywan@polbox.com	zbywan@polbox.com	subst:sg:nom:m3	1	PN-->SYMB
+zeta	zet	subst:pl:gen:m2	1	UNK-->CW
+znan	znany	adjc	2	UNK-->CW	CORR-->DIAL
+zoboczyć	zobaczyć	imps:perf	1	UNK-->CW	CORR-->DIAL
+zoduski	zaduszki	subst:pl:nom:n	1	UNK-->CW	CORR-->DIAL
+zupełnem	zupełny	adj:sg:loc:m3:pos	1	UNK-->CW	CORR-->DIAL
+ĆD	Ćwiczenia Duchowe	brev:npun	4	SYMB-->ACRO	CORR-->TAGE
+ładość	radość	subst:sg:nom:f	1	UNK-->CW
+łał	łał	subst:sg:nom:n	2	UNK-->CW	CORR-->TAGD
+ło	o	interj	2	UNK-->CW
+ło	ło	interj	5	UNK-->CW
+łod	od	prep:gen	1	UNK-->CW	ERR-->DIAL
+łon	on	ppron3:sg:nom:m1:ter:akc:npraep	4	UNK-->CW	CORR-->DIAL
+ŚAM	ŚAM	subst:sg:gen:f	1	NCH-->ACRO
+ś	być	aglt:sg:sec:imperf:wok	2	UNK-->CW
+ś	ś	aglt:sg:sec:imperf:nwok	5	UNK-->CW	CORR-->TAGE
+ście	BYĆ	aglt:pl:pri:imperf:nwok	1	UNK-->CW	CORR-->TAGE
+ście	być	aglt:pl:pri:imperf:nwok	1	UNK-->CW
+ślunsku	śląski	adjp	1	UNK-->CW	CORR-->DIAL
+śmy	być	aglt:pl:pri:imperf:wok	1	UNK-->CW
+śmy	być	aglt:pl:sec:imperf:nwok	3	UNK-->CW
+śmy	śmy	aglt:pl:pri:imperf:nwok	7	UNK-->CW	CORR-->TAGE
+śta	być	aglt:pl:sec:imperf:nwok	1	UNK-->CW	CORR-->DIAL
+świeżem	świeży	adj:sg:loc:n:pos	1	UNK-->CW	CORR-->DIAL
+święto	święty	adj:sg:acc:f:pos	1	UNK-->CW	CORR-->ERR
+ŻW	ŻW	subst:sg:acc:n	1	NCH-->ACRO
+ŻW	ŻW	subst:sg:loc:n	1	NCH-->ACRO
+ŻW	ŻW	subst:sg:nom:n	2	NCH-->ACRO
+ż	ż	qub	4	UNK-->CW
+żadnem	żaden	adj:sg:loc:m3:pos	1	UNK-->CW	CORR-->DIAL
+żebrok	żebrak	subst:sg:nom:m1	1	UNK-->CW	CORR-->DIAL
+żywiemy	żywieć	fin:pl:pri:imperf	1	UNK-->CW	CORR-->DIAL
+˝oczywiste˝	oczywiste	adj:sg:nom:n:pos	1	UNK-->CW	CORR-->ERR

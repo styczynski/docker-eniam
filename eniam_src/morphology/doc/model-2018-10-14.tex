@@ -1,0 +1,3545 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[polish]{babel}
+% \usepackage{tikz}
+% \usetikzlibrary{conceptgraph}
+\usepackage{amsthm}
+\usepackage[T1]{tipa}
+\usepackage{longtable}
+\usepackage{multicol}
+
+\parindent 0pt
+\parskip 4pt
+
+\newcommand{\form}{{\it form}}
+
+\DeclareUnicodeCharacter{3B5}{\ensuremath{\varepsilon}}
+\DeclareUnicodeCharacter{3C9}{\ensuremath{\omega}}
+\DeclareUnicodeCharacter{3BA}{\ensuremath{\kappa}}
+\DeclareUnicodeCharacter{3B4}{\ensuremath{\delta}}
+\DeclareUnicodeCharacter{2B2}{\textipa{\super{j}}}
+\DeclareUnicodeCharacter{2032}{\ensuremath{'}}
+\DeclareUnicodeCharacter{1EF}{\textipa{\v{Z}}}
+
+\renewcommand*{\thefootnote}{(\roman{footnote})}
+
+\title{Model fleksji języka polskiego}
+\author{Wojciech Jaworski, Szymon Rutkowski}
+\date{}
+
+\begin{document}
+\maketitle
+
+Niniejszy artykuł opisuje zasady morfologiczne języka polskiego
+jako zestaw wykonywanych na obserwowanej formie słowa operacji
+prowadzących do przekształcenia jej w lemat i zestaw cech morfoskładniowych.
+Reguły opracowane zostały na podstawie Słownika Gramatycznego Języka Polskiego 
+w wersji z 30.07.2017 \cite{SGJP}.
+
+Celem jest stworzenie reprezentacji polskiej fleksji, która
+z jednej strony jest zwarta i zrozumiała dla człowieka, 
+a z drugiej będzie precyzyjna w sposób umożliwiający jej bezpośrednią implementację
+w postaci {\it guessera}. 
+Guesser jest to program, który ma za zadanie przypisywanie („odgadywanie”) 
+cech morfosyntaktycznych segmentu na podstawie jego formy, to znaczy przede wszystkim rozpoznawalnych afiksów. 
+Widząc, powiedzmy, napis \textit{burachnajami}, można od razu wziąć pod uwagę, 
+że formą podstawową wyrazu jest \textit{burachnaj}, a do niej dodano końcówkę narzędnika liczby mnogiej \textit{-ami}.
+Różni się on od {\it analizatora morfologicznego} \cite{Morfeusz} tym, że jego działanie nie jest ograniczone do 
+zamkniętego zbioru słów pochodzących z dostarczonego programowi słownika gramatycznego.
+Próbie interpretacji może zostać poddany dowolny napis.
+
+Przedstawiony w artykule model został zaimplementowany i 
+stał się fragmentem kategorialnego parsera składniowo-semantycznego „ENIAM” \cite{ENIAM}.
+Internetowa wersja demonstracyjna guessera dostępna jest w Internecie\footnote{ {\tt http://eniam.nlp.ipipan.waw.pl/morphology.html}}.
+
+Tworząc model skupiliśmy się na produktywnej części polskiej fleksji,
+by uchwycić odmianę słów nowych, nieznanych, nie należących do słownika.
+Model nie obejmuje nieregularnych czasowników oraz niewielkiej liczby słów 
+należących do innych części mowy o nieregularnej odmianie.
+Wynika to stąd, że znany zamknięty zbiór słów można 
+zawrzeć w słowniczku załączonym do modelu. 
+
+Zadania lematyzacji i anotacji morfosyntaktycznej oczywiście 
+nie da się wykonać w sposób jednoznaczny jedynie na podstawie 
+obserwacji pojedynczej, wyrwanej z kontekstu formy.
+Dlatego guesser określa z pomocą swoich reguł jedynie zbiór możliwych interpretacji.
+Mogą stanowić one dane wejściowe dla {\it taggera} \cite{Concraft}, czyli programu
+przeprowadzającego dezambiguację morfosyntaktyczną na podstawie modeli statystycznych.
+
+W literaturze pojawiały się dotąd próby ujmowania polskiej fleksji w systemy reguł przystosowane dla komputerów,
+ale zwykle nie powstawały one z myślą o klasyfikacji słów nieznanych.
+Przykładem może być tutaj praca Teresy Rokickiej \cite{rok}.
+Ukoronowaniem tego rodzaju wysiłków są wzory paradygmatyczne Słownika Gramatycznego Języka Polskiego.
+
+Bezpośrednie przechowywanie reguł fleksyjnych jest zwykle mało ekonomiczne, także w przedstawianiu wiedzy lingwistycznej, ponieważ struktura takich reguł jest powtarzalna.
+Na przykład o alternacje głosek następujące na granicy morfemów zachowują się zazwyczaj podobnie niezależnie od konkretnej końcówki.
+Ukazuje to, jak problem, przed którym staje guesser, angażuje różne poziomy systemu języka:
+fonologiczny, ortograficzny, morfonologiczny, morfologiczny.
+
+Model rozdziela konceptualnie owe poziomy %%%Celem modelu jest opisanie w zwarty sposób produktywnych reguł morfologicznych wykorzystywanych we fleksji języka polskiego.
+poprzez wyróżnienie trzech warstw reguł: ortograficzno-fonetycznej, analitycznej i intepretacji.
+Można o nich myśleć jako o kolejnych warstwach wykonujących swoje zadania ,,po kolei''. W takim ujęciu:
+\begin{itemize}
+	\item zadaniem warstwy \textbf{ortograficzno-fonetycznej} jest wyabstrahowanie od polskiej ortografii przez przekonwertowanie formy segmentu do wewnętrznej reprezentacji, odzwierciedlającej prawidłowości morfonologiczne języka;
+	\item warstwa \textbf{analityczna} generuje lemat oraz określa występujące afiksy;
+	\item wreszcie warstwa \textbf{interpretacji} nadaje segmentowi interpretację morfosyntaktyczną na podstawie wykrytych afiksów.
+\end{itemize}
+
+\section{Warstwa ortograficzno-fonetyczna}\label{sec_phon}
+
+\begin{table}
+  \centering
+  \begin{tabular}{l|l|l|l|l|l}
+1 & 2 & 3 & 4 & 5 & przykład \\
+	  d$'$ $\leftarrow$ dzi & d$'$ $\leftarrow$ dz &  & \textipa{Z} $\leftarrow$ dz & d$'$ $\leftarrow$ dź & \textit{gwieździe} \\
+	  k$'$ $\leftarrow$ ki & k$'$ $\leftarrow$ k & k$'$j $\leftarrow$ ki &  &  & \textit{wielkim} \\
+	  m$'$ $\leftarrow$ mi & m$'$ $\leftarrow$ m & m$'$j $\leftarrow$ mi &  &  & \textit{miara} \\
+	  n$'$ $\leftarrow$ ni & n$'$ $\leftarrow$ n & n$'$j $\leftarrow$ ni &  & n$'$ $\leftarrow$ ń & \textit{panią} \\
+	  r\textipa{\super{j}} $\leftarrow$ ri & r\textipa{\super{j}} $\leftarrow$ r & rj $\leftarrow$ ri & ř $\leftarrow$ rz &  & \textit{rzeka}  \\
+	  t$'$ $\leftarrow$ ci & t$'$ $\leftarrow$ c &  &  & t$'$ $\leftarrow$ ć & \textit{kwiecie} \\
+	  v$'$ $\leftarrow$ wi & v$'$ $\leftarrow$ w & vj $\leftarrow$ wi & v $\leftarrow$ w &  & \textit{wierzą}\\
+	  ž\textipa{\super{j}} $\leftarrow$ żi & ž\textipa{\super{j}} $\leftarrow$ ż & žj $\leftarrow$ żi & ž $\leftarrow$ ż &  & \textit{ażiotaż} \\
+  \end{tabular}
+	\caption{Wybrane reguły ortograficzno-fonetyczne.
+	Odpowiednie przekształcenia są realizowane zawsze przy obecności odpowiedniego prawego kontekstu, który jest wspólny dla każdej kolumny.
+	\textit{Kolumna 1.} wymaga jednego z następujących ciągów bezpośrednio po prawej ($\varepsilon$ oznacza koniec segmentu): a ą e ę o ó u; \textit{kolumna 2.}: ib ic ić id if ig ih ii ij ik il ił im in iń ip ir is iś it iw iz iź iż i- i$\varepsilon$; \textit{kolumna 3.}: a$\varepsilon$ ach$\varepsilon$ ami$\varepsilon$ ą$\varepsilon$ e$\varepsilon$ ę$\varepsilon$ i$\varepsilon$ o$\varepsilon$ om$\varepsilon$ on$\varepsilon$ um$\varepsilon$; \textit{kolumna 4.}: a ą b c ć d e ę f g h k l ł m n ń o ó p r s ś t u w y z ź ż - $\varepsilon$; \textit{kolumna 5.}:  b c ć d f g h k l ł m n ń p r s ś t w z ź ż - $\varepsilon$.\label{table:orto}}
+\end{table}
+\begin{table}
+  \centering
+  \begin{tabular}{c|c|c}
+	  wyraz & przekształcenie & użyte reguły / prawy kontekst \\
+	  \hline
+	  \textit{wielkimi} & \texttt{v$'$elk$'$im$'$i} & v$'$ $\leftarrow$ wi/e, k$'$ $\leftarrow$ k/im, m$'$ $\leftarrow$ m/i$\varepsilon$ \\
+	  \textit{panią} & \texttt{pan$'$ą} & n$'$ $\leftarrow$ ni/ą \\
+	  \textit{kwiecie} & \texttt{kv$'$et$'$e} & v$'$ $\leftarrow$ wi/e, t$'$ $\leftarrow$ ci/e \\
+	  \textit{przemierzyli} & \texttt{přem$'$eřyli} & ř $\leftarrow$ rz/e, m$'$ $\leftarrow$ mi/e, ř $\leftarrow$ rz/y  \\
+  \end{tabular}
+	\caption{Przykłady przekształceń przy użyciu reguł ortograficzno-fonetycznych.\label{table:ortoprz}}
+\end{table}
+
+Warstwa ortograficzno-fonetyczna odpowiada za przekształcenie formy ortograficznej segmentu, otrzymanej na wejściu, na specjalnie zaprojektowaną reprezentację wewnętrzną.
+Przypomina ona uproszczony zapis fonetyczny, chociaż zachowuje rozróżnienia (takich jak 'u'-'ó', 'ch'-'h', 'rz'-'ż') istotne dla przewidywania alternacji występujących w tematach wyrazów.
+Celem przeprowadzenia tej konwersji jest uproszczenie kolejnych reguł, które mogą korzystać z uogólnień dokonanych już przez tę warstwę.
+
+Reguły opracowano ręcznie na podstawie danych ze Słownika Gramatyczny Języka Polskiego.
+Pełen ich spis znajduje się w Dodatku (\textbf{6.1}).
+
+W polskim zapisie ortograficznym formy zawierające ten sam rdzeń często różnią się.
+Widać to na przykład w ciągu wyrazów: \textit{pani}, \textit{pań}, \textit{panie}.
+Nasze reguły przekształcają je do postaci: \texttt{pan$'$i}, \texttt{pan$'$}, \texttt{pan$'$e}, gdzie dobrze widoczny jest wspólny rdzeń (\texttt{pan$'$}).
+Odpowiednie reguły przedstawia Tablica ~\ref{table:orto}.
+
+Fonologiczne przekształcenia tematu mogą być bardziej skomplikowane.
+Widać to w wyrazach \textit{niedźwiadek}, \textit{niedźwiedzica}, \textit{niedźwiedź}. Obejmują je reguły dla 'd'.
+Pokrewieństwa tych rzeczowników nie wykorzystujemy bezpośrednio w modelu (ze względu na przynależność do różnych części mowy i odmienne lematyzacje), ale jesteśmy w stanie dostrzec wspólność ich tematów.
+Dalsze przykłady przedstawia Tablica ~\ref{table:ortoprz}.
+
+Domyślna reguła przepisuje znak wejściowy bez zmian; uruchamia się ona, kiedy żadna z innych reguł nie znajduje zastosowania. Stosowalność reguł wymaga po pierwsze dopasowania ciągu znaków podlegającego przekształceniu, po drugie dopasowania prawego kontekstu (ciągu znaków następującego bezpośrednio po ciągu przekształcanym).
+
+Znak '$'$' służy jako stały operator palatalizacji, do którego redukują się zarówno polskie diakrytyki z ,,kreską'', jak i zapisy ze zmiękczającym 'i'.
+Dzięki temu nie muszą istnieć reguły szczegółowe obsługujące każdy z tych przypadków oddzielnie.
+Z kolei operator '\textipa{\super{j}}' służy wyrażeniu zmiękczającej roli 'i' tam, gdzie nie powoduje ono pełnej palatalizacji, np. formy \textit{tiara} i \textit{Diana}
+zostaną zapisane jako \texttt{t\textipa{\super{j}}ara} i \texttt{D\textipa{\super{j}}ana}.
+Analogicznie traktujemy zjawiska występujące w ostatnich zgłoskach wyrazów takich jak \textit{palatalizacja}, \textit{inwazja} czy \textit{Leokadia}.
+
+Jeśli pominąć operator palatalizacji  '$'$', zapis wynikowy realizuje zasadę jeden znak--jeden dźwięk.
+Istotnym wymaganiem, jakie stawiamy naszym regułom, jest odwracalność: z sekwencji liter powstającej
+na skutek stosowania reguł zawsze da się wydedukować pierwotną postać.
+
+W wypadku słów o rdzeniu zapisywanym według obcej ortografii, które mimo wszystko odmieniają się według zasad polskiej fleksji
+(np. nazwisko prezydenta \textit{Giscarda d'Estainga}), prowadzi to do zastosowania specjalnych znaczników w nawiasach klamrowych.
+Na przykład reguła
+
+\begin{equation}
+\{ng\}n \leftarrow ng
+\end{equation}
+
+(stosowana przy dowolnym prawym kontekście) pozwala uwzględnić wymowę 'ng' jako 'n' przy operacjach regułowych. Dzięki temu wydedukowany później rdzeń zbiegnie się z tym uzyskanym z formy miejscownika \textit{d’Estainie}, raportowanej przez Słownik Gramatyczny Języka Polskiego. Jednocześnie jednak kolejne warstwy reguł pozostają ,,świadome'' powiązania 'ng' z 'n', przez co możliwy jest powrót do oryginalnej formy rdzenia. Oczywiście, na mocy pustej reguły ,,domyślnej'', model będzie brał \textit{także} pod uwagę możliwość 'ng' będącego po prostu 'ng', tak jak w słowie \textit{mustang}.
+
+Bardziej typowy przykład przedstawia słowo \textit{Franz}, które dzięki regule
+
+\begin{equation}
+\{z\}c \leftarrow z
+\end{equation}
+
+(również stosowanej przy dowolnym prawym kontekście) zostanie przekształcone do formy \texttt{Fran\{z\}c}.
+Dzięki temu słowo to będzie mogło się odmieniać tak jak \textit{pajac}, a nie jak \textit{markiz} --
+stąd w miejscowniku i wołaczu liczby pojedynczej nie pojawi się forma \textit{Franzie}, tylko \textit{Francu}.
+Ponieważ w praktyce reguły dotyczące afiksów działają tylko przy początku i końcu wyrazów, element \texttt{\{z\}} nie wywiera wpływu na ich działanie i służy jako techniczne przypomnienie o początkowej formie wyrazu.
+
+Część słów o obcej ortografii wymusza niestety złamanie zasady prostej odwracalności i oddzielne formułowanie specjalnych reguł odwrotnych.
+Służą one późniejszemu przejściu od zapisu konwencjonalnego, ustalanego na podstawie stosowania reguł, do zapisu ortograficznego lematu ,,odgadniętego'' przez guesser. Spis owych reguł, obejmujących szczególne przypadki, znajduje się również w Dodatku (\textbf{6.2}).
+
+\section{Warstwa analityczna}
+
+\begin{table}
+\vspace*{-1cm}
+\hspace*{-2cm}
+  \centering
+  \begin{tabular}{r|rrrrrrrr}
+& \boldmath$\alpha'${\bf y} & \boldmath$\alpha'$ & \boldmath$\alpha'\varepsilon$ & \boldmath$\alpha${\bf y} & \boldmath$\alpha${\bf e} & \boldmath$\alpha\varepsilon$ & \boldmath$\beta${\bf li} \\
+\hline
+& & & & & & & li $\rightarrow$ \\
+\hline
+a & & & & & & & $\star$eli $\rightarrow$ a \\
+\hline
+d$'$, d & d$'$i $\rightarrow$ d$'$ & d$'$ $\rightarrow$ d$'$ & d$'$ $\rightarrow$ d$'$ & dy $\rightarrow$ d & de $\rightarrow$ d & d $\rightarrow$ d & $\star$edli $\rightarrow$ ad  \\
+
+& & & ód$'$ $\rightarrow$ od$'$ & & & ed $\rightarrow$ d & \\
+
+& & & ąd$'$ $\rightarrow$ ęd$'$ & & & ód $\rightarrow$ od & \\
+
+& & & óz$'$d$'$ $\rightarrow$ oz$'$d$'$ & & & ąd $\rightarrow$ ęd & \\
+
+& & & & & & & \\
+\hline
+
+k, k$'$ & & k$'$ $\rightarrow$ k$'$ & & k$'$i $\rightarrow$ k & k$'$e $\rightarrow$ k & k $\rightarrow$ k & \\
+
+& & & & & & ek $\rightarrow$ k & \\
+
+& & & & & & ąk $\rightarrow$ ęk & \\
+\hline
+
+m$'$, m & m$'$i $\rightarrow$ m$'$ & m$'$ $\rightarrow$ m$'$ & m $\rightarrow$ m$'$ & my $\rightarrow$ m & me $\rightarrow$ m & m $\rightarrow$ m & \\
+
+& & & & & & em $\rightarrow$ m & \\
+\hline
+
+n$'$, n & n$'$i $\rightarrow$ n$'$ & n$'$ $\rightarrow$ n$'$ & n$'$ $\rightarrow$ n$'$ & ny $\rightarrow$ n & ne $\rightarrow$ n & n $\rightarrow$ n & \\
+
+& & & en$'$ $\rightarrow$ n$'$ & & & en $\rightarrow$ n & \\
+
+& & & $'$en$'$ $\rightarrow$ n$'$ & & & $'$en $\rightarrow$ n & \\
+
+& & & $\star$d$'$en$'$ $\rightarrow$ edn$'$ & & & & \\
+
+& & & & & & & \\
+
+& & & & & & & \\
+\hline
+
+ř, r & řy $\rightarrow$ ř & ř $\rightarrow$ ř & ř $\rightarrow$ ř & ry $\rightarrow$ r & re $\rightarrow$ r & r $\rightarrow$ r & \\
+
+& & & eř $\rightarrow$ ř & & & er $\rightarrow$ r & \\
+
+& & & $'$eř $\rightarrow$ ř & & & $'$er $\rightarrow$ r & \\
+
+& & & óř $\rightarrow$ oř & & & ór $\rightarrow$ or & \\
+
+& & & ójř $\rightarrow$ ojř & & & $\star$cer $\rightarrow$ kr & \\
+
+& & & & & & óbr $\rightarrow$ obr & \\
+
+& & & & & & óstr $\rightarrow$ ostr & \\
+\hline
+
+t$'$, t & t$'$i $\rightarrow$ t$'$ & t$'$ $\rightarrow$ t$'$ & t$'$ $\rightarrow$ t$'$ & ty $\rightarrow$ t & te $\rightarrow$ t & t $\rightarrow$ t & $\star$etli $\rightarrow$ ot \\
+
+& & & ót$'$ $\rightarrow$ ot$'$ & & & et $\rightarrow$ t & \\
+
+& & & et$'$ $\rightarrow$ t$'$ & & & ót $\rightarrow$ ot & \\
+
+& & & $'$et$'$ $\rightarrow$ t$'$ & & & ąt $\rightarrow$ ęt & \\
+
+& & & & & & & \\
+\hline
+
+v$'$, v & v$'$i $\rightarrow$ v$'$ & v$'$ $\rightarrow$ v$'$ & v $\rightarrow$ v$'$ & vy $\rightarrow$ v & ve $\rightarrow$ v & v $\rightarrow$ v & \\
+
+& & & ev $\rightarrow$ v$'$ & & & ev $\rightarrow$ v & \\
+
+& & & $'$ev $\rightarrow$ v$'$ & & & $'$ev $\rightarrow$ v & \\
+
+& & & óv $\rightarrow$ ov$'$ & & & óv $\rightarrow$ ov & \\
+
+& & & & & \\
+
+& & & & & & & \\
+\hline
+
+ž & žy $\rightarrow$ ž & ž $\rightarrow$ ž & ž $\rightarrow$ ž & & & & \\
+
+& & & ež $\rightarrow$ ž & & & & \\
+
+& & & óž $\rightarrow$ ož & & & & \\
+
+& & & ąž $\rightarrow$ ęž & & & & \\
+\hline
+\end{tabular}
+\caption{Wybrane grupy alternacyjne (tytuł kolumny stanowi oznaczenie danej grupy). Po lewej stronie każdej reguły znajduje się ciag obecny w wyrazie przetworzonym przez reguły ortograficzno-fonetyczne, po prawej ciąg obecny w lemacie przewidywanym przez model. Reguły analityczne dotyczą zawsze całej grupy alternacyjnej (a więc całej kolumny). Symbol $\star$ oznacza, że reguła jest nieproduktywna, czyli działa na zamkniętej grupie słów.\label{table:altern}}
+\end{table}
+
+Warstwa analityczna działa na ciągach wyjściowych z warstwy ortograficzno-fonetycznej.
+To na tym etapie nasz system reguł wykonuje większość swojej faktycznej pracy.
+Wydziela on afiksy i rdzeń oraz określa parametry, które ulegną potem mechanicznej intepretacji w kolejnej warstwie.
+Wynikiem pracy warstwy analitycznej jest także uzyskanie formy lematu w konwencjonalnym zapisie ortograficzno-fonetycznym. Z niej później zostanie uzyskana forma podstawowa słowa w zwyczajnej ortografii.
+
+Reguły analityczne korzystają z dodatkowej abstrakcji \textbf{grup alternacyjnych}. Tworzą je grupy podreguł zawierających po lewej stronie (przekształcanej) ciąg znaków występujący w formie, a po prawej (docelowej) stronie ciąg występujący w lemacie.
+Poszczególne podreguły odnoszą się do konkretnych zjawisk alternacji w języku polskim
+-- alternację rozumiemy tutaj jako wymianę głosek występujących przy końcu rdzenia.
+
+Każda taka grupa podreguł jest wydzielana ze względu na przyjmowanie afiksów w podobny sposób i traktowana łącznie przez właściwe reguły analityczne.
+
+\begin{figure}
+	\centering
+	\textbf{'v$'$elk$'$im$'$i'}
+\begin{scriptsize}\[
+\left[\begin{array}{ll}
+\star-\text{žkolv$'$ek} & \text{suf}:=\text{žkolv$'$ek}\\
+\star-\text{žekolv$'$ek} & \text{suf}:=\text{žkolv$'$ek}\\
+\star-\text{s$'$kolv$'$ek} & \text{suf}:=\text{s$'$kolv$'$ek}\\
+\star-\text{kolv$'$ek} & \text{suf}:=\text{kolv$'$ek}\\
+\star-\text{ž} & \text{suf}:=\text{ž}\\
+\star-\text{že} & \text{suf}:=\text{ž}\\
+\star-\text{ž} & \text{suf}:=\text{že}\\
+\star-\text{že} & \text{suf}:=\text{že}\\
+\star-\text{s$'$t$'$is$'$} & \text{suf}:=\text{s$'$t$'$is$'$}\\
+\star-\text{t$'$is$'$} & \text{suf}:=\text{t$'$is$'$}\\
+\star-\text{s$'$} & \text{suf}:=\text{s$'$}\\
+\star-\text{s$'$t$'$i} & \text{suf}:=\text{s$'$t$'$i}\\
+\star-\text{s$'$ik} & \text{suf}:=\text{sik}\\
+\star-\text{s$'$i} & \text{suf}:=\text{si}\\
+	\underline{-\varepsilon} & 
+\end{array}\right] \otimes \left[\begin{array}{ll}
+-\text{\boldmath$\alpha${\bf y}} & \text{flex}:=\text{y}, \downarrow, \text{adj}\\
+-\text{\boldmath$\alpha${\bf y}x} & \text{flex}:=\text{ych}, \downarrow, \text{adj}\\
+-\text{\boldmath$\alpha${\bf y}m} & \text{flex}:=\text{ym}, \downarrow, \text{adj}\\
+	\underline{-\text{\boldmath$\alpha${\bf y}m$'$i}} & \underline{\text{flex}:=\text{ymi}, \downarrow, \text{adj}}\\
+-\text{\boldmath$\alpha${\bf e}} & \text{flex}:=\text{e}, \downarrow, \text{adj}\\
+-\text{\boldmath$\alpha${\bf e}go} & \text{flex}:=\text{ego}, \downarrow, \text{adj}\\
+-\text{\boldmath$\alpha${\bf e}j} & \text{flex}:=\text{ej}, \downarrow, \text{adj}\\
+-\text{\boldmath$\alpha${\bf e}mu} & \text{flex}:=\text{emu}, \downarrow, \text{adj}\\
+-\text{\boldmath$\alpha$a} & \text{flex}:=\text{a}, \downarrow, \text{adj}\\
+-\text{\boldmath$\alpha$ą} & \text{flex}:=\text{ą}, \downarrow, \text{adj}\\
+-\text{\boldmath$\alpha$o} & \text{flex}:=\text{o}, \downarrow, \text{adj}\\
+-\text{\boldmath$\alpha$u} & \text{flex}:=\text{u}, \downarrow, \text{adj}\\
+-\text{\boldmath$\alpha${\bf i}} & \text{flex}:=\text{i}, \downarrow, \text{adj}\\
+\star-\text{\boldmath$\alpha\varepsilon$} & \text{flex}:=\text{$\varepsilon$}, \downarrow, \text{adj}\\
+D-\text{\boldmath$\alpha${\bf e}m} & \text{flex}:=\text{ym}, \downarrow, \text{adj}\\
+D-\text{\boldmath$\alpha${\bf e}mi} & \text{flex}:=\text{ymi}, \downarrow, \text{adj}\\
+	& (...)
+\end{array}\right] \otimes \left[\begin{array}{ll}
+	\underline{+\text{\boldmath$\alpha${\bf y}}} & \underline{\text{lemma}:=\text{y}}\\
+\star+\text{\boldmath$\alpha\varepsilon$} & \text{lemma}:=\text{$\varepsilon$}
+\end{array}\right]
+\]\end{scriptsize}
+
+	\textbf{'pan$'$ą'}
+\begin{scriptsize}\[
+\left[\begin{array}{ll}
+-\text{\boldmath$\alpha'${\bf y}} & \text{flex}:=\text{y}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'${\bf y}x} & \text{flex}:=\text{ych}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'${\bf y}m} & \text{flex}:=\text{ym}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'${\bf y}m$'$i} & \text{flex}:=\text{ymi}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'$e} & \text{flex}:=\text{e}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'$ego} & \text{flex}:=\text{ego}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'$ej} & \text{flex}:=\text{ej}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'$em} & \text{flex}:=\text{em}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'$emu} & \text{flex}:=\text{emu}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'$a} & \text{flex}:=\text{a}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'$ax} & \text{flex}:=\text{ach}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'$am$'$i} & \text{flex}:=\text{ami}, \uparrow, \text{noun}\\
+	\underline{-\text{\boldmath$\alpha'$ą}} & \text{flex}:=\text{ą}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'$ę} & \text{flex}:=\text{ę}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'$o} & \text{flex}:=\text{o}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'$om} & \text{flex}:=\text{om}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'$ov$'$i} & \text{flex}:=\text{owi}, \uparrow, \text{noun}\\
+	& (...)  
+\end{array}\right] \otimes \left[\begin{array}{ll}
+\underline{+\text{\boldmath$\alpha'${\bf y}}} & \text{lemma}:=\text{y}\\
++\text{\boldmath$\alpha'$e} & \text{lemma}:=\text{e}\\
++\text{\boldmath$\alpha'$a} & \text{lemma}:=\text{a}\\
++\text{\boldmath$\alpha'$o} & \text{lemma}:=\text{o}\\
++\text{\boldmath$\alpha'$ov$'$e} & \text{lemma}:=\text{owie}\\
++\text{\boldmath$\alpha'$um} & \text{lemma}:=\text{um}\\
++\text{\boldmath$\alpha'\varepsilon$} & \text{lemma}:=\text{$\varepsilon$}
+\end{array}\right]
+\]\end{scriptsize}
+
+	\textbf{'přem$'$eřyli'}
+\begin{scriptsize}\[\hspace{-2cm}
+\left[\begin{array}{ll}
+	\underline{\varepsilon-} & \underline{\text{pref}:=\text{$\varepsilon$}}\\
+\text{n$'$e}- & \text{pref}:=\text{nie}
+\end{array}\right] \otimes \left[\begin{array}{ll}
+-\varepsilon & \text{flex}:=\text{$\varepsilon$}, \text{flex2}:=\text{$\varepsilon$}\\
+-\text{my} & \text{flex}:=\text{my}, \text{flex2}:=\text{$\varepsilon$}\\
+-\text{t$'$e} & \text{flex}:=\text{cie}, \text{flex2}:=\text{$\varepsilon$}\\
+-\text{š} & \text{flex}:=\text{sz}, \text{flex2}:=\text{$\varepsilon$}\\
+ & (...) \\
+-\text{\boldmath$\beta${\bf ł}šy} & \text{flex}:=\text{szy}, \text{flex2}:=\text{ł}\\
+-\text{\boldmath$\beta${\bf ł}} & \text{flex}:=\text{$\varepsilon$}, \text{flex2}:=\text{ł}\\
+-\text{ł} & \text{flex}:=\text{$\varepsilon$}, \text{flex2}:=\text{ł}\\
+-\text{ła} & \text{flex}:=\text{a}, \text{flex2}:=\text{ł}\\
+-\text{ło} & \text{flex}:=\text{o}, \text{flex2}:=\text{ł}\\
+-\text{ły} & \text{flex}:=\text{y}, \text{flex2}:=\text{ł}\\
+\underline{-\text{\boldmath$\beta${\bf li}}} & \text{flex}:=\text{i}, \text{flex2}:=\text{ł}\\
+-\text{tyx} & \text{flex}:=\text{ych}, \text{flex2}:=\text{t}\\
+-\text{tym} & \text{flex}:=\text{ym}, \text{flex2}:=\text{t}\\
+-\text{tym$'$i} & \text{flex}:=\text{ymi}, \text{flex2}:=\text{t}\\
+-\text{te} & \text{flex}:=\text{e}, \text{flex2}:=\text{t}\\
+-\text{ty} & \text{flex}:=\text{y}, \text{flex2}:=\text{t}\\
+-\text{tą} & \text{flex}:=\text{ą}, \text{flex2}:=\text{t}\\
+	& (...)
+\end{array}\right] \otimes \left[\begin{array}{ll}
+ \underline{-\text{\boldmath$\alpha'${\bf y}}} & \text{group}:=\text{y}, \text{verb}\\
+-\text{\boldmath$\alpha'$e} & \text{group}:=\text{e}, \text{verb}\\
+-\text{\boldmath$\alpha'$eje} & \text{group}:=\text{eje}, \text{verb}\\
+-\text{\boldmath$\alpha'$ej} & \text{group}:=\text{ej}, \text{verb}\\
+-\text{\boldmath$\alpha'${\bf y}j} & \text{group}:=\text{yj}, \text{verb}\\
+-\text{\boldmath$\alpha'\varepsilon$} & \text{group}:=\text{$\varepsilon$}, \text{verb}\\
+-\text{\boldmath$\alpha'$a} & \text{group}:=\text{a}, \text{verb}\\
+D-\text{\boldmath$\alpha'$o} & \text{group}:=\text{a}, \text{verb}
+\end{array}\right] \otimes \left[\begin{array}{ll}
+ \underline{+\text{\boldmath$\alpha$'{\bf y}}\text{t$'$}} & \text{lemma}:=\text{palat-ć}\\
++\text{\boldmath$\alpha$'}\text{et$'$} & \text{lemma}:=\text{palat-eć}
+\end{array}\right]
+\]\end{scriptsize}
+	\caption{Przykłady reguł analitycznych stosowanych do form uzyskanych z reguł warstwy ortograficzno-fonetycznej. Wykorzystane reguły są podkreślone.\label{figure:analitprz}}
+	\end{figure}
+
+Patrząc niejako z lotu ptaka, można dostrzec następujący układ grup alternacyjnych.
+\begin{itemize}
+	\item Spółgłoski (funkcjonalnie) miękkie, gdzie mieszczą się zarówno zwyczajne palatalizacje, jak 's$'$' (z 's'),
+		jak i spółgłoski pełniące analogiczną formę dla spółgłosek twardych z powodów historycznych (tak jak 't$'$' dla 't', powstające z 'ci' lub 'ć' na mocy reguł ortograficzno-fonetycznych).
+		Zbiór ten tworzą grupy alternacyjne o symbolach zawierających $\boldsymbol{\alpha'}$ (znak $'$ zwraca uwagę na zmiękczenie).
+	\item Spółgłoski (funkcjonalnie) twarde, zazwyczaj posiadające swoje (funkcjonalne) zmiękczenia. Mieszczą się tutaj grupy alternacyjne o symbolu $\boldsymbol{\alpha}$ bez zmiękczenia. Wiele leksemów wymienia w swoich różnych formach spółgłoski funkcjonalnie miękkie na twarde (por. np. mianownik \textit{niebo}, miejscownik \textit{niebie}).
+	\item Podczas gdy powyższe grupy opisują zjawiska występujące we właściwie wszystkich częściach mowy polszczyzny, istnieją też grupy dotyczące zjawisk specyficznych.
+		Podreguła \textit{el $\rightarrow$ ał} pozwala nam przejść od formy \textit{bielszy} do lematu \textit{biały}.
+		Ma ona oznaczenie grupy alternacyjnej $\boldsymbol{\kappa}$, odnoszące się do stopniowania przymiotników, podobnie jak $\boldsymbol{\lambda}$. $\boldsymbol{\xi}$ dotyczy odmiany przysłówków.
+		Pozostałe grupy alternacyjne w większości dotyczą specyficznej odmiany czasowników.
+\end{itemize}
+
+Podobny podział wśród polskich spółgłosek przy zachowaniach fleksyjnych zauważał Jan Tokarski \cite{tok1}\cite{tok2}, ale tego rodzaju obserwacji dokonywano w polskim językoznawstwie już co najmniej w początkach XIX wieku \cite{mrozny}; pewnym źródłem inspiracji był dla nas system opublikowany w Internecie przez Grzegorza Jagodzińskiego \cite{jagoda}.
+
+Przykładowy wybór grup alternacyjnych przedstawia Tabela ~\ref{table:altern}.
+Pełna lista grup alternacyjnych znajduje się w Dodatku (\textbf{6.3}). Jej zawartość została wygenerowana na podstawie SGJP w wersji z 30.07.2017.
+	
+Sposób opisu alternacji staje się jaśniejszy, kiedy weźmiemy pod uwagę ich zastosowanie jako budulec właściwych reguł analitycznych.
+Poniższa reguła znajduje i usuwa sufiks składający się z wyniku zastosowania alternacji \boldmath$\alpha'$ oraz ciągu \textit{ego},
+przypisując całemu segmentowi parametry wypisane z prawej strony.
+
+\[
+	-\text{\boldmath$\alpha'$ego} \>\>\> \text{flex}:=\text{ego}, \uparrow, \text{adj}
+\]
+
+Przykładami pasujących sufiksów są te zawarte w wyrazach \textit{bliźniego} czy \textit{Idziego}.
+
+Reguły są zasadniczo zbudowane z oznaczenia grupy alternacyjnej i afiksu oraz wyszczególnienia przypiswanych atrybutów.
+Reguła może ucinać prefiks (postać \textbf{x-}), ucinać sufiks (postać \textbf{-x}) lub dodawać sufiks (postać \textbf{+x}).
+Znak minus oznacza, że przekształcenie opisane w grupie alternacyjnej odbywa się zgodnie z kierunkiem strzałki (a więc w formie musi się znajdować zbitka znajdująca się z lewej strony i zostaje ona zamieniona na tę po prawej).
+Plus oznacza przekształcenie odwrotne.
+
+Każdy wyraz, żeby jego identyfikacja się udała, musi pasować do jakiegoś schematu grup reguł analitycznych wykonywanych po kolei, od lewej do prawej.
+Wybór schematów pasujących do kilku przykładowych wyrazów przedstawia Rysunek ~\ref{figure:analitprz}. Wewnątrz schematu grupy są zawarte w dużych nawiasach kwadratowych.
+
+Zwróćmy uwagę, jak model poradziłby sobie z uzyskanym wcześniej ciągiem \texttt{v$'$elk$'$im$'$i} (\textit{wielkimi}).
+Wśród pierwszej grupy reguł w schemacie, najbardziej po lewej, segment zostaje uchwycony przez ,,pustą'' regułę wykrywającą znacznik końca wyrazu ($\varepsilon$).
+Z drugiej grupy pasuje następująca reguła analityczna:
+
+\[
+-\text{\boldmath$\alpha${\bf y}m$'$i} \>\>\> \text{flex}:=\text{ymi}, \downarrow, \text{adj}
+\]
+
+Jest tak, ponieważ reguła \textit{k$'$i $\rightarrow$ k} należy do grupy alternacyjnej \boldmath$\alpha${\bf y}
+-- przy sprawdzaniu stosowalności reguły analitycznej jej symbol (w tym wypadku \boldmath$\alpha${\bf y}) wskazuje na miejsce zadziałania alternacji.
+Reguła ucina sufiks, zastosowuje zawartą w nim regułę alternacyjną i przypisuje segmentowi atrybuty podane po prawej stronie.
+Teraz ma więc on postać \texttt{v$'$elk} i parametry \texttt{flex:=ymi, adj}.
+
+Obecność alternacji \boldmath$\alpha${\bf y} na końcu powoduje również zastosowanie reguły z ostatniej grupy (najbardziej na prawo w schemacie):
+
+\[
++\text{\boldmath$\alpha${\bf y}} \>\>\> \text{lemma}:=\text{y}
+\]
+
+Ponieważ jest to grupa ze znakiem $+$ (dodająca sufiks), reguły alternacyjne działają w przeciwną stronę.
+Odwrócona reguła \textit{k$'$i $\leftarrow$ k} przekształca segment do postaci \texttt{v$'$elk'i}.
+Jest to hipoteza modelu co do lematu (i okazuje się ona słuszna: lemat \textit{wielki}).
+
+Nieco podobnie w wypadku segmentu \texttt{pan$'$ą} osiągamy (zgodnie z odpowiednim schematem z Rysunku ~\ref{figure:analitprz})
+najpierw postać \texttt{pan$'$} na mocy reguły alternacyjnej \textit{n$'$ $\rightarrow$ n$'$}
+   i analitycznej
+	[ $-\text{\boldmath$\alpha'$ą}$ $\>\>\>$ $\text{flex}:=\text{ą}, \uparrow, \text{noun}$ ].
+Do uzyskania poprawnego lematu \texttt{pan$'$i} służy następnie reguła
+\[
+	+\text{\boldmath$\alpha'${\bf y}} \>\>\> \text{lemma}:=\text{y}
+	\]
+	dzięki odwróceniu alternacji \textit{n$'$i $\rightarrow$ n$'$} należącej do grupy $\text{\boldmath$\alpha'${\bf y}}$.
+
+Nieco bardziej skomplikowany proces analizy morfologicznej prześledzić można na przykładzie segmentu \texttt{přem$'$eřyli} (\textit{przemierzyli}). Na pierwszym etapie przykładamy regułę 
+
+\[
+-\text{\boldmath$\beta${\bf li}} \>\>\> \text{flex}:=\text{i}, \text{flex2}:=\text{ł}
+  \]
+
+  -- o obecności alternacji \textbf{$\beta${\bf li}} (nb. jest to w całości wytłuszczony symbol alternacji!) decyduje reguła \textit{li $\rightarrow$ }, gdzie po prawej stronie znajduje się pusty napis. Wynikiem jest forma \texttt{přem$'$eřy}.
+  Następna reguła w schemacie, posługująca się alternacją \textit{řy $\rightarrow$ ř} należącą do grupy $\alpha'${\bf y},
+  wykrywa przynależność czasownika do jednej z grup morfologicznych i przypisuje segmentowi parametry \texttt{group:=y, verb}. Możemy wówczas przejść do określenia postaci podstawowej lematu, za co odpowiada reguła
+
+\[
++\boldmath\alpha'{\bf y}\text{t$'$} \>\>\> \text{lemma}:=\text{palat-ć}.
+  \]
+
+Przywraca ona dłuższą zbitkę \texttt{řy} i dodaje końcówkę \texttt{t$'$}, prowadząc do formy \texttt{přem$'$eřyt$'$} (\textit{przemierzyć}). Wynik to zatem znowu forma podstawowa opatrzona zbiorem parametrów, które posłużą następnej warstwie do rekonstrukcji oznaczeń morfosyntaktycznych.
+
+\section{Lematy kończące się wygłosem}
+Kiedy przewidywany lemat kończy się wygłosem, często występują dodatkowe zjawiska, które kształtują jego ostateczną postać.
+Na przykład gdy przewidujemy lemat \textit{męż}, w istocie pojawi się on jako \textit{mąż}: 'ę' wymieni się tutaj na 'ą'
+w ostatniej samogłosce wyrazu.
+
+Z myślą o tego typu przypadkach wytworzyliśmy dodatkowy zestaw reguł dla rzeczowników, których lemat kończy się wygłosem, a nie samogłoską.
+Próbują one przewidzieć, jakie dodatkowe zjawiska mogą wystąpić na końcu takiego lematu.
+Z materiału dostępnego w SGJP wydobyliśmy listę zamieszczoną w Dodatku (\textbf{6.5}).
+Zawiera ona zaobserwowane formy wygłosowe rzeczownika parametryzowane przez dwie ostatnie głoski tematu.
+
+Dla wygenerowanych przez model lematów sprawdzamy, czy nie pasują one do jakichś pozycji z listy. Jeżeli tak, opcje zasugerowane przez owe pozycje są podawane jako odpowiedź modelu.
+Jeśli żadna wersja lematu nie pasuje, selekcja nie jest wykonywana (pozostawiamy sam lemat wyjściowy).
+
+\begin{table}
+  \centering
+  \begin{tabular}{p{7cm}|l|l|l}
+interpretacja & cat & flex & lemma\\
+\hline
+adj:sg:inst.loc:m1.m2.m3.n:pos adj:pl:dat:m1.m2.m3.f.n:pos & adj & ym & y\\
+adj:pl:nom.voc:m1:pos & adj & i & y\\
+adj:pl:gen.loc:m1.m2.m3.f.n:pos adj:pl:acc:m1:pos & adj & ych & y\\
+adj:pl:inst:m1.m2.m3.f.n:pos & adj & ymi & y\\
+adjp & adj & u & y\\
+adja & adj & o & y\\
+\hline
+\end{tabular}
+\caption{Próbka reguł warstwy intepretacji. Pierwsza kolumna zawiera zapis otagowania morfosyntaktycznego, a pozostałe wymagane dla nich wartości parametrów o nazwach podanych w tytule kolumny (czasami, jak w wypadku \texttt{adj:pl:gen.loc:m1.m2.m3.f.n:pos} i \texttt{adj:pl:acc:m1:pos}, takie same zestawy atrybutów mogą pasować do kilku zbiorów tagów).\label{table:interp}}
+\end{table}
+
+\section{Warstwa interpretacji}
+
+Warstwa interpretacji przypisuje segmentowi interpretację morfosyntaktyczną (oznaczenie z tagsetu SGJP \cite{sgjp}) na podstawie wartości atrybutów
+określonych przez warstwę analityczną.
+Pełen spis tych reguł znajduje się w Dodatku (\textbf{6.6}).
+
+Niewielką próbkę przedstawia poza tym Tabela ~\ref{table:interp}. Jak pamiętamy, dla segmentu \textit{wielkimi} uzyskaliśmy hipotezę lematu \texttt{v$'$elk'i} (\textit{wielki}) oraz zestaw atrybutów \texttt{flex:=ymi, adj, lemma:=ymi}. Wartość \texttt{adj} wskazuje na parametr \texttt{cat} (dla niektórych parametrów o zamkniętym zbiorze wartości pomijamy często ich nazwę, bo jest określona jednoznacznie). Jak wskazuje Tabela ~\ref{table:interp}, pozwala to wywnioskować otagowanie \texttt{adj:pl:inst:m1.m2.m3.f.n:pos}.
+
+Atrybuty dostarczają strukturalnej informacji o morfologii, które mogą być wykorzystane do dalszej dezambiguacji morfosyntaktycznej.
+
+Wszystkie możliwe przypisywane parametry to:
+\begin{description}
+\item{\texttt{cat:}} kategoria (legalne wartości to \texttt{noun}, \texttt{adj}, \texttt{adj:grad}, \texttt{adv}, \texttt{verb}, \texttt{ndm});
+\item{\texttt{flex:}} końcówka fleksyjna;
+\item{\texttt{flex2:}} afiks wyznaczający fleksem czasownikowy;
+\item{\texttt{group:}} afiks związany ze schematem odmiany czasownika;
+\item{\texttt{grad:}} afiks stopnia wyższego;
+\item{\texttt{pref:}} prefiks (\texttt{naj}, \texttt{nie} lub pusty);
+\item{\texttt{lemma:}} końcówka lematu;
+\item{\texttt{con:}} ostatnia głoska tematu formy;
+\item{\texttt{con2:}} rozróżnienie grupy alternacyjnej formy, gdy \texttt{con} nie określa jej jednoznacznie;
+\item{\texttt{lcon:}} ostatnia głoska tematu lematu (równa \texttt{con});
+\item{\texttt{lcon2:}} rozróżnienie grupy alternacyjnej lematu, gdy \texttt{lcon} nie określa jej jednoznacznie;
+\item{\texttt{agl:}} określenie grupy alternacyjnej imiesłowu biernego, czasownika w czasie przeszłym, imiesłowu uprzedniego;
+\item{\texttt{agl2:}} rozróżnienie grupy alternacyjnej we wspomnianych wypadkach, jeżeli \texttt{lcon} nie określa jej jednoznacznie;
+\item{\texttt{palat:}} atrybut zdefiniowany tylko dla rzeczowników i przymiotników w stopniu równym; ma wartość \texttt{t}, gdy \texttt{con} jest funkcjonalnie miękkie i \texttt{n}, gdy \texttt{con} jest funkcjonalnie twarde;
+\item{\texttt{velar:}} atrybut zdefiniowany tylko dla rzeczowników z \texttt{palat:=n} oraz \texttt{flex:=ie} bądź \texttt{flex:=u}; ma wartość \texttt{t}, gdy \texttt{con} $\in \{$\texttt{x}, \texttt{h}, \texttt{g}, \texttt{k}$\}$ oraz i \texttt{n} w przeciwnym wypadku;
+\item{\texttt{orth:}} atrybut zdefiniowany tylko dla reguł z udziałem obcej ortografii, wymagających odgadnięcia dokładnego zapisu lematu; wartością jest dodany przez regułę sufiks o obcej ortografii.
+\end{description}
+Atrybuty nieokreślone dla danego wyrazu lub reguły mają wartości puste.
+
+Reguły przypisujące interpretacje zestawom atrybutów układają się w quasi-paradygmaty odmiany,
+gdzie np. wartości atrybutów \texttt{cat}, \texttt{lemma}, \texttt{gender} pozostają stałe,
+a zmienia się tylko \texttt{flex} (wskazujący na konkretny przypadek czy osobę).
+Należy jednak pamiętać, że dany lemat nie jest do takich ,,paradygmatów'' sztywno przypisany;
+nie musi on mieć form pochodzących tylko z jednego paradygmatu
+i nie musi mieć wszystkich form występujących w danym paradygmacie.
+
+Nie próbujemy przewidywać aspektu czasowników.
+
+\section{Generowanie reguł}
+W ramach technicznej optymalizacji na podstawe powyższego modelu, formułującego \textbf{reguły szczegółowe}, generowane są ujednolicone \textbf{reguły operacyjne}.
+Reguły te wykonują pracę wszystkich opisanych warstw za jednym zamachem.
+Operują one bezpośrednio na otrzymywanej formie: ucinają sufiks i ewentualnie prefiks, przypisują sufiks formy bazowej-lematu oraz nadają interpretację morfosyntaktyczną.
+W ten sposób dokonują lematyzacji i interpretacji morfosyntaktycznej dla słów spełniających wymagania całego ciągu reguł z kolejnych warstw.
+
+Reguł tych uzyskujemy łącznie 30983. Zostały wygenerowane na podstawie słownika uzupełnionego o przykładowe formy gwarowe i dodatkowe odmienione akronimy.
+
+Poniższa tabela przedstawia liczbę reguł z podziałem na ich typy i części mowy:
+\begin{center}
+\begin{tabular}{l|r|r|r|r|r}
+                              &  noun &  adj & adv &  verb &  suma \\
+\hline
+	           produktywne    &  7534 & 1501 & 150 &  9107 & 18292 \\
+\hline
+	\textbf{*} nieproduktywne &   209 &  389 & --- &  3701 &  4299 \\
+\hline
+	\textbf{A} obce           &  1275 &  --- & --- &   --- &  1275 \\
+\hline
+	\textbf{B} obce           &   206 &  --- & --- &   --- &   206 \\
+\hline
+	\textbf{C} akronimy       &   557 &  --- & --- &   --- &   557 \\
+\hline
+	\textbf{D} gwarowe        &  2639 &  380 & --- &  3474 &  6493 \\
+\hline
+	         suma             & 12420 & 2270 & 150 & 16282 & 31122 \\
+\end{tabular}
+\end{center}
+Grupa ,,obcych A'' dotyczy słów o obcej ortografii, w których pierwotna postać rdzenia jest zawarta w obserwowanej formie.
+W wypadku ,,obcych B'' pierwotna postać rdzenia nie jest zawarta w obserwowanej formie i musi zostać odgadnięta (np. dopełniacz \textit{Chiraka} od lematu \textit{Chirac}).
+Powoduje to, że reguły typu B wprowadzają znaczną niejednoznaczność.
+
+Wszystkim regułom towarzyszą informacje o frekwencji, wskazujące liczbę form ze słownika lematyzowalnych za pomocą danej reguły. Umożliwia to w praktyce wykorzystywanie informacji, jak bardzo jest ona ,,pospolita''.
+
+% WORKNOTE Na czym to jest sprawdzane? Na SGJP? -> Tak
+
+%Wykomentowane są wartości wyliczone bezpośrednio z modelu (bez generowania freq_rules)
+%Reguły dla rzeczowników poprawnie opisują fleksję 142366/(142366+1257)=99,12\% lematów rzeczownikowych.
+Reguły dla rzeczowników poprawnie opisują fleksję $\frac{143643}{143643+343}$ = 99,76\% lematów rzeczownikowych. %FIXME: uaktualnić
+%Reguły dla przymiotników poprawnie opisują fleksję 66390/(66390+26) = 99,96\% lematów przymiotnikowych.
+Reguły dla przymiotników poprawnie opisują fleksję $\frac{66426}{66426+26}$ = 99,96\% lematów przymiotnikowych.
+%Reguły dla przysłówków poprawnie opisują fleksję 25816/(25816+421) = 98,40\% lematów przysłówkowych. 
+Reguły dla przysłówków poprawnie opisują fleksję $\frac{25839}{25839+422}$ = 98,39\% lematów przysłówkowych. 
+%Reguły dla czasowników poprawnie opisują fleksję 28558/(28558+1238) = 95,85\% lematów czasownikowych,
+%a gdy usuniemy lematy, które powstały poprzez dodanie prefiksu wartość ta wzrasta do 13848/(13848+171) = 98,78\%.
+Reguły dla czasowników poprawnie opisują fleksję $\frac{28571}{28571+1229}$ = 95,88\% lematów czasownikowych,
+a gdy usuniemy lematy, które powstały poprzez dodanie prefiksu wartość ta wzrasta do $\frac{13852}{13852+167}$ = 98,81\%.
+Takie wartości wskazują, że opisywany model w sposób poprawny i pełny opisuje zawartą w SGJP fleksję języka polskiego.
+
+Leksemy niepokryte przez model odmieniają się w sposób nieregularny -- powinny one stanowić zamknięty zbiór.
+Jest to szczególnie istotne przy czasownikach,
+gdzie 167 nieregularnych rdzeni generuje, po uzupełnieniu o prefiksy, 1229 nieregularnych leksemów.
+W przypadku przysłówków,
+na 422 niepokryte przez model leksemy składają się zasadniczo przysłówki niestopniowalne i niepochodzące od przymiotników.
+% \begin{scriptsize}
+
+\section{Podsumowanie}
+
+Przedstawiony model stanowi naszym zdaniem istotny krok
+w organizowaniu empirycznej wiedzy na temat polskiej morfonologii
+i w wykorzystywaniu tej wiedzy przez komputer.
+Struktura warstwowa pozwala na znaczną oszczędność i powiększenie, na ile to możliwe, jasności opisu złożonych zjawisk.
+Warstwa ortograficzno-fonetyczna usuwa niespójności wynikające ze sposobu zapisu wyrazów,
+warstwa analityczna wykrywa alternacje i wydziela końcówki,
+zaś warstwa interpretacji przegląda zebrane informacje i przyporządkowuje segmentowi ustandardyzowane tagi.
+
+System reguł pozwala w formalny sposób wytworzyć zbiór potencjalnych interpretacji słowa, który często okazuje się duży.
+Następnym zadaniem, przed którym staje program komputerowy albo użytkownik języka, jest wybranie tej interpretacji,
+jaką ostatecznie zdecyduje się przypisać wyrazowi. Jest to już jednak odmienny problem, wymagający znajomości
+przynajmniej najbliższego kontekstu frazy.
+Wykracza tym samym poza zakres zainteresowań modelu fleksji.
+
+\begin{thebibliography}{1}
+	\bibitem{jagoda} http://grzegorj.private.pl/gram/pl/wymiany.html (dostęp 9.05.2018)
+	\bibitem{ENIAM} Wojciech Jaworski, Jakub Kozakoszczak 2016: \textit{ENIAM: Categorial Syntactic-Semantic Parser for Polish},
+		w \textit{Proceedings of COLING 2016, the 26th International Conference on Computational Linguistics},
+		s. 243-247.
+	\bibitem{Morfeusz} Witold Kieraś, Marcin Woliński 2017: \textit{Morfeusz 2 – analizator i generator fleksyjny dla języka polskiego},
+		,,Język Polski'', 2017, 97, 1, s. 75-83.
+	\bibitem{mrozny} Józef Mroziński 1822: \textit{Pierwsze zasady grammatyki języka polskiego}. Warszawa. (s. 30-31)
+	\bibitem{rok} Teresa Rokicka 2002: \textit{Komputerowy model alternacji tematu fleksyjnego polskich fleksemów odmiennych}. Kraków.
+	\bibitem{SGJP} Zygmunt Saloni, Marcin Woliński, Robert Wołosz, Włodzimierz Gruszczyński, Danuta Skowrońska,
+		\textit{Grammatical Dictionary of Polish — online version},
+		http://sgjp.pl (dostęp: 16.07.2018).
+	\bibitem{tok1} Jan Tokarski 1951: \textit{Czasownik polski}. Warszawa. (s. 53)
+	\bibitem{tok2} Jan Tokarski 2001: \textit{Fleksja polska}. Warszawa. (s. 60)
+	\bibitem{Concraft} Jakub Waszczuk 2012: \textit{Harnessing the CRF complexity with domain-specific constraints. The case of morphosyntactic tagging of a highly inflected language},
+		w \textit{Proceedings of the 24th International Conference on Computational Linguistics (COLING 2012)},
+		s. 2789–2804.
+\end{thebibliography}
+
+\section{Dodatek}
+\subsection{Pełne reguły warstwy ortograficzno-fonetycznej}
+
+W poniższej tabeli oznaczenia kolumn identyfikują prawy kontekst; oznacza to, że regułę z danej kolumny można zastosować, gdy po rozpoznawanej sekwencji znaków znajduje się:
+
+\begin{enumerate}
+\item a ą e ę o ó u
+\item ib ic ić id if ig ih ii ij ik il ił im in iń ip ir is iś it iw iz iź iż i- i$\varepsilon$
+\item a$\varepsilon$ ach$\varepsilon$ ami$\varepsilon$ ą$\varepsilon$ e$\varepsilon$ ę$\varepsilon$ i$\varepsilon$ o$\varepsilon$ om$\varepsilon$ on$\varepsilon$ um$\varepsilon$
+\item a ą b c ć d e ę f g h k l ł m n ń o ó p r s ś t u w y z ź ż - $\varepsilon$
+\item b c ć d f g h k l ł m n ń p r s ś t w z ź ż - $\varepsilon$
+\item i
+\end{enumerate}
+
+Symbol $\varepsilon$ oznacza koniec segmentu.
+
+\begin{center}
+\begin{longtable}{l|l|l|l|l|l}
+1 & 2 & 3 & 4 & 5 & 6 \\
+\hline
+ &  &  &  &  & a\textipa{\super{j}} $\leftarrow$ a\\
+b$'$ $\leftarrow$ bi & b$'$ $\leftarrow$ b & bj $\leftarrow$ bi &  &  & \\
+d$'$ $\leftarrow$ dzi & d$'$ $\leftarrow$ dz &  & \textipa{Z} $\leftarrow$ dz & d$'$ $\leftarrow$ dź & \\
+d\textipa{\super{j}} $\leftarrow$ di & d\textipa{\super{j}} $\leftarrow$ d & dj $\leftarrow$ di &  &  & \\
+ &  &  &  &  & e\textipa{\super{j}} $\leftarrow$ e\\
+f$'$ $\leftarrow$ fi & f$'$ $\leftarrow$ f & fj $\leftarrow$ fi &  &  & \\
+g$'$ $\leftarrow$ gi & g$'$ $\leftarrow$ g & g$'$j $\leftarrow$ gi &  &  & \\
+h\textipa{\super{j}} $\leftarrow$ hi & h\textipa{\super{j}} $\leftarrow$ h &  &  &  & \\
+ &  &  &  &  & i\textipa{\super{j}} $\leftarrow$ i\\
+k$'$ $\leftarrow$ ki & k$'$ $\leftarrow$ k & k$'$j $\leftarrow$ ki &  &  & \\
+l\textipa{\super{j}} $\leftarrow$ li &  & lj $\leftarrow$ li &  &  & \\
+m$'$ $\leftarrow$ mi & m$'$ $\leftarrow$ m & m$'$j $\leftarrow$ mi &  &  & \\
+n$'$ $\leftarrow$ ni & n$'$ $\leftarrow$ n & n$'$j $\leftarrow$ ni &  & n$'$ $\leftarrow$ ń & \\
+ &  &  &  &  & o\textipa{\super{j}} $\leftarrow$ o\\
+p$'$ $\leftarrow$ pi & p$'$ $\leftarrow$ p & pj $\leftarrow$ pi &  &  & \\
+r\textipa{\super{j}} $\leftarrow$ ri & r\textipa{\super{j}} $\leftarrow$ r & rj $\leftarrow$ ri & ř $\leftarrow$ rz &  & \\
+s$'$ $\leftarrow$ si & s$'$ $\leftarrow$ s &  &  & s$'$ $\leftarrow$ ś & \\
+t$'$ $\leftarrow$ ci & t$'$ $\leftarrow$ c &  &  & t$'$ $\leftarrow$ ć & \\
+t\textipa{\super{j}} $\leftarrow$ ti & t\textipa{\super{j}} $\leftarrow$ t & tj $\leftarrow$ ti &  &  & \\
+ &  &  &  &  & u\textipa{\super{j}} $\leftarrow$ u\\
+v$'$ $\leftarrow$ wi & v$'$ $\leftarrow$ w & vj $\leftarrow$ wi & v $\leftarrow$ w &  & \\
+x\textipa{\super{j}} $\leftarrow$ chi & x\textipa{\super{j}} $\leftarrow$ ch & x\textipa{\super{j}}j $\leftarrow$ chi & x $\leftarrow$ ch &  & \\
+ &  &  &  &  & y\textipa{\super{j}} $\leftarrow$ y\\
+z$'$ $\leftarrow$ zi & z$'$ $\leftarrow$ z &  &  & z$'$ $\leftarrow$ ź & \\
+ &  &  &  &  & ó\textipa{\super{j}} $\leftarrow$ ó\\
+č\textipa{\super{j}} $\leftarrow$ czi & č\textipa{\super{j}} $\leftarrow$ cz &  & č $\leftarrow$ cz &  & \\
+š\textipa{\super{j}} $\leftarrow$ szi & š\textipa{\super{j}} $\leftarrow$ sz &  & š $\leftarrow$ sz &  & \\
+ž\textipa{\super{j}} $\leftarrow$ żi & ž\textipa{\super{j}} $\leftarrow$ ż & žj $\leftarrow$ żi & ž $\leftarrow$ ż &  & \\
+\textipa{\v{Z}}\textipa{\super{j}} $\leftarrow$ dżi & \textipa{\v{Z}}\textipa{\super{j}} $\leftarrow$ dż & \textipa{\v{Z}}j $\leftarrow$ dżi & \textipa{\v{Z}} $\leftarrow$ dż &  & \\
+\end{longtable}
+\end{center}
+
+Oto kolejne cztery reguły przydatne w wypadku sekwencji 'rz' i 'ei':
+\begin{center}
+\begin{tabular}{l|l}
+reguła & prawy kontekst \\
+\hline
+r	 $\leftarrow$ r	& zi \\
+mar	 $\leftarrow$ mar	& z\\
+m$'$er	 $\leftarrow$ mier	& z\\
+n$'$e	 $\leftarrow$ nie	& i\\
+\end{tabular}
+\end{center}
+
+Kolejne reguły dotyczą \textbf{słów obcych}, przede wszystkim nazw własnych. W ich wypadku interpretacja nazw kolumn przedstawia się następująco:
+
+\begin{enumerate}
+\item a ą e ę o ó u
+\item ib ic ić id if ig ih ii ij ik il ił im in iń ip ir is iś it iw iz iź iż i- iε iv ix iq
+\item a ą b c ć d e ę f g h k l ł m n ń o ó p r s ś t u w y z ź ż - ε v x q
+\item iε
+\end{enumerate}
+
+\begin{center}
+\begin{longtable}{l|l|l|l|l|l}
+	1 & 2 & 3 & 4 \\
+\hline
+\{ay\}aj $\leftarrow $ay & \{dh\}dʲ $\leftarrow $dh & \{dh\}d $\leftarrow $dh & \{ni\}n′ $\leftarrow $ni \\
+\{ey\}ej $\leftarrow $ey & \{gh\}g′ $\leftarrow $gh & \{gh\}g $\leftarrow $gh & \{ri\}rʲ $\leftarrow $ri \\
+\{oy\}oj $\leftarrow $oy & \{kh\}k′ $\leftarrow $kh & \{kh\}k $\leftarrow $kh & \{ny\}n′ $\leftarrow $ny \\
+\{ai\}aj $\leftarrow $ai & \{nh\}n′ $\leftarrow $nh & \{nh\}n $\leftarrow $nh &   \\
+\{dh\}dʲ $\leftarrow $dhi & \{th\}tʲ $\leftarrow $th & \{th\}t $\leftarrow $th &   \\
+\{gh\}g′ $\leftarrow $ghi &   &   &   \\
+\{kh\}k′ $\leftarrow $khi &   &   &   \\
+\{nh\}n′ $\leftarrow $nhi &   &   &   \\
+\{th\}tʲ $\leftarrow $thi &   &   &   \\
+\end{longtable}
+\end{center}
+
+Następujące reguły mają zastosowanie przy dowolnym prawym kontekście:
+\begin{multicols}{3}\begin{itemize}
+\item \{ch\}š $\leftarrow$ ch
+\item \{q\}k $\leftarrow$ q
+\item \{ng\}n $\leftarrow$ ng
+\item \{tch\}č $\leftarrow$ tch
+\item \{sh\}š $\leftarrow$ sh
+\item \{w\}ł $\leftarrow$ w
+\item \{leigh\}l $\leftarrow$ leigh
+\item \{au\}ał $\leftarrow$ au
+\item \{sch\}š $\leftarrow$ sch
+\item \{tsch\}č $\leftarrow$ tsch
+\item \{z\}c $\leftarrow$ z
+\end{itemize}\end{multicols}
+
+Następujące reguły mają zastosowanie jedynie na końcu segmentu:
+\begin{multicols}{3}\begin{itemize}
+\item \{zs\}ž $\leftarrow$ zs
+\item \{cs\}č $\leftarrow$ cs
+\item \{ay\}aj $\leftarrow$ ay
+\item \{ey\}ej $\leftarrow$ ey
+\item \{oy\}oj $\leftarrow$ oy
+\item \{ai\}aj $\leftarrow$ ai
+\item \{dieu\}dʲe $\leftarrow$ dieu
+\item \{dieu\}dʲi $\leftarrow$ dieu
+\item \{quieu\}k′e $\leftarrow$ quieu
+\item \{quieu\}k′i $\leftarrow$ quieu
+\item \{lieu\}lʲe $\leftarrow$ lieu
+\item \{lieu\}lʲi $\leftarrow$ lieu
+\item \{rie\}rʲe $\leftarrow$ rie
+\item \{rie\}rʲi $\leftarrow$ rie
+\item \{gie\}ǯʲe $\leftarrow$ gie
+\item \{gie\}ǯʲi $\leftarrow$ gie
+\item \{kie\}k′e $\leftarrow$ kie
+\item \{kie\}k′i $\leftarrow$ kie
+\item \{tie\}tʲe $\leftarrow$ tie
+\item \{tie\}tʲi $\leftarrow$ tie
+\item \{pie\}p′e $\leftarrow$ pie
+\item \{pie\}p′i $\leftarrow$ pie
+\item \{die\}dʲe $\leftarrow$ die
+\item \{die\}dʲi $\leftarrow$ die
+\item \{bee\}b′e $\leftarrow$ bee
+\item \{bee\}b′i $\leftarrow$ bee
+\item \{chais\}še $\leftarrow$ chais
+\item \{lais\}le $\leftarrow$ lais
+\item \{nais\}ne $\leftarrow$ nais
+\item \{rès\}re $\leftarrow$ rès
+\item \{rés\}re $\leftarrow$ rés
+\item \{ré\}re $\leftarrow$ ré
+\item \{mée\}me $\leftarrow$ mée
+\item \{ge\}g′e $\leftarrow$ ge
+\item \{ke\}k′e $\leftarrow$ ke
+\item \{by\}b′i $\leftarrow$ by
+\item \{dy\}dʲi $\leftarrow$ dy
+\item \{dí\}dʲi $\leftarrow$ dí
+\item \{phy\}f′i $\leftarrow$ phy
+\item \{guy\}g′i $\leftarrow$ guy
+\item \{ky\}k′i $\leftarrow$ ky
+\item \{my\}m′i $\leftarrow$ my
+\item \{li\}li $\leftarrow$ li
+\item \{ly\}li $\leftarrow$ ly
+\item \{ry\}rʲi $\leftarrow$ ry
+\item \{sy\}sʲi $\leftarrow$ sy
+\item \{cy\}sʲi $\leftarrow$ cy
+\item \{şi\}sʲi $\leftarrow$ şi
+\item \{thy\}tʲi $\leftarrow$ thy
+\item \{de\}d $\leftarrow$ de
+\item \{fe\}f $\leftarrow$ fe
+\item \{phe\}f $\leftarrow$ phe
+\item \{ge\}ǯ $\leftarrow$ ge
+\item \{ges\}ǯ $\leftarrow$ ges
+\item \{gue\}g $\leftarrow$ gue
+\item \{gues\}g $\leftarrow$ gues
+\item \{ke\}k $\leftarrow$ ke
+\item \{que\}k $\leftarrow$ que
+\item \{ques\}k $\leftarrow$ ques
+\item \{le\}l $\leftarrow$ le
+\item \{les\}l $\leftarrow$ les
+\item \{me\}m $\leftarrow$ me
+\item \{ne\}n $\leftarrow$ ne
+\item \{gne\}n′ $\leftarrow$ gne
+\item \{re\}r $\leftarrow$ re
+\item \{rue\}r $\leftarrow$ rue
+\item \{se\}s $\leftarrow$ se
+\item \{ce\}s $\leftarrow$ ce
+\item \{che\}š $\leftarrow$ che
+\item \{te\}t $\leftarrow$ te
+\item \{the\}t $\leftarrow$ the
+\item \{ve\}v $\leftarrow$ ve
+\item \{we\}ł $\leftarrow$ we
+\item \{se\}z $\leftarrow$ se
+\item \{ge\}ž $\leftarrow$ ge
+\item \{oe\}oł $\leftarrow$ oe
+\end{itemize}\end{multicols}
+% \end{scriptsize}
+
+\subsection{Reguły ortograficzno-fonetyczne -- odwrotne}
+\begin{longtable}{l|p{10cm}}
+reguła & prawy kontekst \\
+\hline
+\{A\}a $\rightarrow$ A & \\
+a $\rightarrow$ A & $\varepsilon$\\
+\{B\}b $\rightarrow$ B & \\
+\{C\}k $\rightarrow$ C & \\
+\{C\}c $\rightarrow$ C & \\
+\{D\}d $\rightarrow$ D & \\
+\{E\}e $\rightarrow$ E & \\
+\{F\}f $\rightarrow$ F & \\
+\{G\}g $\rightarrow$ G & \\
+\{H\}h $\rightarrow$ H & \\
+\{I\}j $\rightarrow$ I & \\
+\{j\}jot $\rightarrow$ J & \\
+\{J\}jot $\rightarrow$ J & \\
+\{J\}j $\rightarrow$ J & \\
+\{K\}k $\rightarrow$ K & \\
+\{L\}l $\rightarrow$ L & \\
+\{M\}m $\rightarrow$ M & \\
+\{N\}n $\rightarrow$ N & \\
+\{O\}o $\rightarrow$ O & \\
+\{P\}p $\rightarrow$ P & \\
+\{R\}r $\rightarrow$ R & \\
+\{S\}s $\rightarrow$ S & \\
+\{T\}t $\rightarrow$ T & \\
+\{U\}u $\rightarrow$ U & \\
+\{v\}v $\rightarrow$ V & \\
+\{V\}v $\rightarrow$ V & \\
+\{W\}v $\rightarrow$ W & \\
+\{x\}ks $\rightarrow$ X & \\
+\{X\}ks $\rightarrow$ X & \\
+\{Y\}y $\rightarrow$ Y & \\
+\{Z\}zet $\rightarrow$ Z & \\
+\{Z\}z $\rightarrow$ Z & \\
+a $\rightarrow$ a & j\\
+a $\rightarrow$ a & $\varepsilon$\\
+a $\rightarrow$ ah & $\varepsilon$\\
+\{ai\}aj $\rightarrow$ ai & $\varepsilon$\\
+\{ai\}aj $\rightarrow$ ai & a e o u \{eu\} ó ą ę\\
+\{au\}ał $\rightarrow$ au & \\
+\{ay\}aj $\rightarrow$ ay & $\varepsilon$\\
+\{ay\}aj $\rightarrow$ ay & a e o u \{eu\} ó ą ę\\
+aja $\rightarrow$ ayah & $\varepsilon$\\
+b $\rightarrow$ b & $\varepsilon$\\
+\{bee\}b$'$i $\rightarrow$ bee & $\varepsilon$\\
+\{bee\}b$'$e $\rightarrow$ bee & $\varepsilon$\\
+b $\rightarrow$ bes & $\varepsilon$\\
+\{by\}b$'$i $\rightarrow$ by & $\varepsilon$\\
+k $\rightarrow$ c & a\\
+k $\rightarrow$ c & o\\
+k $\rightarrow$ c & $\varepsilon$\\
+kk $\rightarrow$ cc & o\\
+s $\rightarrow$ ce & $\varepsilon$\\
+\{ce\}s $\rightarrow$ ce & $\varepsilon$\\
+\{ch\}š $\rightarrow$ ch & \\
+\{chais\}še $\rightarrow$ chais & $\varepsilon$\\
+\{che\}š $\rightarrow$ che & $\varepsilon$\\
+k $\rightarrow$ cq & $\varepsilon$\\
+k $\rightarrow$ cques & $\varepsilon$\\
+\{cs\}č $\rightarrow$ cs & $\varepsilon$\\
+kt $\rightarrow$ ct & $\varepsilon$\\
+\{cy\}s\textipa{\super{j}}i $\rightarrow$ cy & $\varepsilon$\\
+d $\rightarrow$ d & a\\
+d $\rightarrow$ d & $\varepsilon$\\
+d $\rightarrow$ de & $\varepsilon$\\
+\{de\}d $\rightarrow$ de & $\varepsilon$\\
+d $\rightarrow$ dh & a\\
+\{dh\}d\textipa{\super{j}} $\rightarrow$ dh & i- ib ic id if ig ih ii ij ik il im in ip ir is it iv iw ix iz i\{ ić ič ił iń iř iś iš iź iž i\textipa{\v{Z}} i\textipa{Z} i\textipa{\super{j}} i$\varepsilon$\\
+\{dh\}d $\rightarrow$ dh & - a b c d e f g h i k l m n o p r s t u v w x y z \{ ó ą ć č ę ł ń ř ś š ź ž \textipa{\v{Z}} \textipa{Z} $\varepsilon$\\
+d $\rightarrow$ dh & $\varepsilon$\\
+\{dh\}d\textipa{\super{j}} $\rightarrow$ dhi & a e o u \{eu\} ó ą ę\\
+\{die\}d\textipa{\super{j}}i $\rightarrow$ die & $\varepsilon$\\
+\{die\}d\textipa{\super{j}}e $\rightarrow$ die & $\varepsilon$\\
+\{dieu\}d\textipa{\super{j}}i $\rightarrow$ dieu & $\varepsilon$\\
+\{dieu\}d\textipa{\super{j}}e $\rightarrow$ dieu & $\varepsilon$\\
+\{dy\}d\textipa{\super{j}}i $\rightarrow$ dy & $\varepsilon$\\
+\{dí\}d\textipa{\super{j}}i $\rightarrow$ dí & $\varepsilon$\\
+e $\rightarrow$ e & j\\
+ej $\rightarrow$ ey & $\varepsilon$\\
+\{ey\}ej $\rightarrow$ ey & $\varepsilon$\\
+\{ey\}ej $\rightarrow$ ey & a e o u \{eu\} ó ą ę\\
+f $\rightarrow$ f & $\varepsilon$\\
+f $\rightarrow$ fe & $\varepsilon$\\
+\{fe\}f $\rightarrow$ fe & $\varepsilon$\\
+g $\rightarrow$ g & a\\
+g $\rightarrow$ g & $\varepsilon$\\
+g$'$e $\rightarrow$ ge & $\varepsilon$\\
+\{ge\}ž $\rightarrow$ ge & $\varepsilon$\\
+\{ge\}\textipa{\v{Z}} $\rightarrow$ ge & $\varepsilon$\\
+\{ge\}g$'$e $\rightarrow$ ge & $\varepsilon$\\
+g$'$el $\rightarrow$ gel & $\varepsilon$\\
+\{ges\}\textipa{\v{Z}} $\rightarrow$ ges & $\varepsilon$\\
+g $\rightarrow$ gh & a\\
+\{gh\}g$'$ $\rightarrow$ gh & i- ib ic id if ig ih ii ij ik il im in ip ir is it iv iw ix iz i\{ ić ič ił iń iř iś iš iź iž i\textipa{\v{Z}} i\textipa{Z} i\textipa{\super{j}} i$\varepsilon$\\
+\{gh\}g $\rightarrow$ gh & - a b c d e f g h i k l m n o p r s t u v w x y z \{ ó ą ć č ę ł ń ř ś š ź ž \textipa{\v{Z}} \textipa{Z} $\varepsilon$\\
+\{gh\}g$'$ $\rightarrow$ ghi & a e o u \{eu\} ó ą ę\\
+\{gie\}\textipa{\v{Z}}\textipa{\super{j}}i $\rightarrow$ gie & $\varepsilon$\\
+\{gie\}\textipa{\v{Z}}\textipa{\super{j}}e $\rightarrow$ gie & $\varepsilon$\\
+\{gne\}n$'$ $\rightarrow$ gne & $\varepsilon$\\
+g $\rightarrow$ gue & $\varepsilon$\\
+\{gue\}g $\rightarrow$ gue & $\varepsilon$\\
+g $\rightarrow$ gues & $\varepsilon$\\
+\{gues\}g $\rightarrow$ gues & $\varepsilon$\\
+\{guy\}g$'$i $\rightarrow$ guy & $\varepsilon$\\
+k $\rightarrow$ k & \\
+k $\rightarrow$ k & $\varepsilon$\\
+k $\rightarrow$ ke & $\varepsilon$\\
+k$'$e $\rightarrow$ ke & $\varepsilon$\\
+\{ke\}k $\rightarrow$ ke & $\varepsilon$\\
+\{ke\}k$'$e $\rightarrow$ ke & $\varepsilon$\\
+k $\rightarrow$ kh & a\\
+\{kh\}k$'$ $\rightarrow$ kh & i- ib ic id if ig ih ii ij ik il im in ip ir is it iv iw ix iz i\{ ić ič ił iń iř iś iš iź iž i\textipa{\v{Z}} i\textipa{Z} i\textipa{\super{j}} i$\varepsilon$\\
+\{kh\}k $\rightarrow$ kh & - a b c d e f g h i k l m n o p r s t u v w x y z \{ ó ą ć č ę ł ń ř ś š ź ž \textipa{\v{Z}} \textipa{Z} $\varepsilon$\\
+\{kh\}k$'$ $\rightarrow$ khi & a e o u \{eu\} ó ą ę\\
+k$'$i $\rightarrow$ kie & $\varepsilon$\\
+\{kie\}k$'$i $\rightarrow$ kie & $\varepsilon$\\
+\{kie\}k$'$e $\rightarrow$ kie & $\varepsilon$\\
+k$'$i $\rightarrow$ kij & $\varepsilon$\\
+k$'$i $\rightarrow$ koj & $\varepsilon$\\
+ks $\rightarrow$ kx & $\varepsilon$\\
+k$'$i $\rightarrow$ ky & $\varepsilon$\\
+\{ky\}k$'$i $\rightarrow$ ky & $\varepsilon$\\
+k$'$i $\rightarrow$ kyj & $\varepsilon$\\
+\{lj\}lj $\rightarrow$ lj & a\\
+\{lj\}lj $\rightarrow$ lj & e\\
+l $\rightarrow$ l & i\\
+\{lais\}le $\rightarrow$ lais & $\varepsilon$\\
+\{le\}l $\rightarrow$ le & $\varepsilon$\\
+\{leigh\}l $\rightarrow$ leigh & \\
+\{les\}l $\rightarrow$ les & $\varepsilon$\\
+\{li\}li $\rightarrow$ li & $\varepsilon$\\
+\{lieu\}l\textipa{\super{j}}i $\rightarrow$ lieu & $\varepsilon$\\
+\{lieu\}l\textipa{\super{j}}e $\rightarrow$ lieu & $\varepsilon$\\
+li $\rightarrow$ ly & $\varepsilon$\\
+\{ly\}li $\rightarrow$ ly & $\varepsilon$\\
+m $\rightarrow$ m & $\varepsilon$\\
+m $\rightarrow$ me & $\varepsilon$\\
+\{me\}m $\rightarrow$ me & $\varepsilon$\\
+\{my\}m$'$i $\rightarrow$ my & $\varepsilon$\\
+\{mée\}me $\rightarrow$ mée & $\varepsilon$\\
+n $\rightarrow$ n & a\\
+n $\rightarrow$ n & $\varepsilon$\\
+\{nais\}ne $\rightarrow$ nais & $\varepsilon$\\
+n $\rightarrow$ ne & $\varepsilon$\\
+\{ne\}n $\rightarrow$ ne & $\varepsilon$\\
+n $\rightarrow$ nes & $\varepsilon$\\
+\{ng\}n $\rightarrow$ ng & \\
+n $\rightarrow$ ng & $\varepsilon$\\
+n $\rightarrow$ nh & a\\
+\{nh\}n$'$ $\rightarrow$ nh & i- ib ic id if ig ih ii ij ik il im in ip ir is it iv iw ix iz i\{ ić ič ił iń iř iś iš iź iž i\textipa{\v{Z}} i\textipa{Z} i\textipa{\super{j}} i$\varepsilon$\\
+\{nh\}n $\rightarrow$ nh & - a b c d e f g h i k l m n o p r s t u v w x y z \{ ó ą ć č ę ł ń ř ś š ź ž \textipa{\v{Z}} \textipa{Z} $\varepsilon$\\
+n $\rightarrow$ nh & $\varepsilon$\\
+\{nh\}n$'$ $\rightarrow$ nhi & a e o u \{eu\} ó ą ę\\
+\{ni\}n$'$ $\rightarrow$ ni & i$\varepsilon$\\
+\{ny\}n$'$ $\rightarrow$ ny & i$\varepsilon$\\
+o $\rightarrow$ o & j\\
+\{oe\}oł $\rightarrow$ oe & $\varepsilon$\\
+\{oy\}oj $\rightarrow$ oy & $\varepsilon$\\
+\{oy\}oj $\rightarrow$ oy & a e o u \{eu\} ó ą ę\\
+oja $\rightarrow$ oya & $\varepsilon$\\
+\{pj\}pj $\rightarrow$ pj & e\\
+f $\rightarrow$ ph & $\varepsilon$\\
+f $\rightarrow$ phe & $\varepsilon$\\
+\{phe\}f $\rightarrow$ phe & $\varepsilon$\\
+\{phy\}f$'$i $\rightarrow$ phy & $\varepsilon$\\
+\{pie\}p$'$i $\rightarrow$ pie & $\varepsilon$\\
+\{pie\}p$'$e $\rightarrow$ pie & $\varepsilon$\\
+\{q\}k $\rightarrow$ q & \\
+k $\rightarrow$ q & $\varepsilon$\\
+k $\rightarrow$ que & $\varepsilon$\\
+\{que\}k $\rightarrow$ que & $\varepsilon$\\
+k $\rightarrow$ ques & $\varepsilon$\\
+\{ques\}k $\rightarrow$ ques & $\varepsilon$\\
+\{quieu\}k$'$i $\rightarrow$ quieu & $\varepsilon$\\
+\{quieu\}k$'$e $\rightarrow$ quieu & $\varepsilon$\\
+r $\rightarrow$ r & a\\
+r $\rightarrow$ r & $\varepsilon$\\
+r $\rightarrow$ re & $\varepsilon$\\
+\{re\}r $\rightarrow$ re & $\varepsilon$\\
+r $\rightarrow$ res & $\varepsilon$\\
+r $\rightarrow$ rh & a\\
+r $\rightarrow$ rh & $\varepsilon$\\
+\{ri\}r\textipa{\super{j}} $\rightarrow$ ri & i$\varepsilon$\\
+\{rie\}r\textipa{\super{j}}i $\rightarrow$ rie & $\varepsilon$\\
+\{rie\}r\textipa{\super{j}}e $\rightarrow$ rie & $\varepsilon$\\
+r $\rightarrow$ rs & $\varepsilon$\\
+\{rue\}r $\rightarrow$ rue & $\varepsilon$\\
+\{ry\}r\textipa{\super{j}}i $\rightarrow$ ry & $\varepsilon$\\
+\{rès\}re $\rightarrow$ rès & $\varepsilon$\\
+\{ré\}re $\rightarrow$ ré & $\varepsilon$\\
+\{rés\}re $\rightarrow$ rés & $\varepsilon$\\
+s $\rightarrow$ s & k$'$i\\
+s $\rightarrow$ s & $\varepsilon$\\
+\{sch\}š $\rightarrow$ sch & \\
+s $\rightarrow$ se & $\varepsilon$\\
+\{se\}z $\rightarrow$ se & $\varepsilon$\\
+\{se\}s $\rightarrow$ se & $\varepsilon$\\
+\{sh\}š $\rightarrow$ sh & \\
+\{sy\}s\textipa{\super{j}}i $\rightarrow$ sy & $\varepsilon$\\
+sk$'$i $\rightarrow$ szky & $\varepsilon$\\
+t $\rightarrow$ t & a\\
+t $\rightarrow$ t & $\varepsilon$\\
+\{tch\}č $\rightarrow$ tch & \\
+t $\rightarrow$ te & $\varepsilon$\\
+\{te\}t $\rightarrow$ te & $\varepsilon$\\
+t $\rightarrow$ tes & $\varepsilon$\\
+t $\rightarrow$ th & a\\
+\{th\}t\textipa{\super{j}} $\rightarrow$ th & i- ib ic id if ig ih ii ij ik il im in ip ir is it iv iw ix iz i\{ ić ič ił iń iř iś iš iź iž i\textipa{\v{Z}} i\textipa{Z} i\textipa{\super{j}} i$\varepsilon$\\
+\{th\}t $\rightarrow$ th & - a b c d e f g h i k l m n o p r s t u v w x y z \{ ó ą ć č ę ł ń ř ś š ź ž \textipa{\v{Z}} \textipa{Z} $\varepsilon$\\
+t $\rightarrow$ th & $\varepsilon$\\
+s $\rightarrow$ th & $\varepsilon$\\
+t $\rightarrow$ the & $\varepsilon$\\
+\{the\}t $\rightarrow$ the & $\varepsilon$\\
+t $\rightarrow$ thes & $\varepsilon$\\
+\{th\}t\textipa{\super{j}} $\rightarrow$ thi & a e o u \{eu\} ó ą ę\\
+\{thy\}t\textipa{\super{j}}i $\rightarrow$ thy & $\varepsilon$\\
+\{tie\}t\textipa{\super{j}}i $\rightarrow$ tie & $\varepsilon$\\
+\{tie\}t\textipa{\super{j}}e $\rightarrow$ tie & $\varepsilon$\\
+\{tsch\}č $\rightarrow$ tsch & \\
+t $\rightarrow$ tt & $\varepsilon$\\
+\{v\}v$'$ $\rightarrow$ v & i- ib ic id if ig ih ii ij ik il im in ip ir is it iv iw ix iz i\{ ić ič ił iń iř iś iš iź iž i\textipa{\v{Z}} i\textipa{Z} i\textipa{\super{j}} i$\varepsilon$\\
+\{v\}v $\rightarrow$ v & - a b c d e f g h i k l m n o p r s t u v w x y z \{ ó ą ć č ę ł ń ř ś š ź ž \textipa{\v{Z}} \textipa{Z} $\varepsilon$\\
+\{v\}v $\rightarrow$ ve & $\varepsilon$\\
+\{ve\}v $\rightarrow$ ve & $\varepsilon$\\
+\{v\}vj $\rightarrow$ vi & am$'$i$\varepsilon$ ax$\varepsilon$ a$\varepsilon$ e$\varepsilon$ i$\varepsilon$ om$\varepsilon$ on$\varepsilon$ o$\varepsilon$ um$\varepsilon$ ą$\varepsilon$ ę$\varepsilon$\\
+\{v\}v$'$ $\rightarrow$ vi & a e o u \{eu\} ó ą ę\\
+\{w\}ł $\rightarrow$ w & \\
+\{we\}ł $\rightarrow$ we & $\varepsilon$\\
+ks $\rightarrow$ x & a\\
+\{x\}ks$'$ $\rightarrow$ x & i- ib ic id if ig ih ii ij ik il im in ip ir is it iv iw ix iz i\{ ić ič ił iń iř iś iš iź iž i\textipa{\v{Z}} i\textipa{Z} i\textipa{\super{j}} i$\varepsilon$\\
+\{x\}ks $\rightarrow$ x & - a b c d e f g h i k l m n o p r s t u v w x y z \{ ó ą ć č ę ł ń ř ś š ź ž \textipa{\v{Z}} \textipa{Z} $\varepsilon$\\
+ks $\rightarrow$ x & $\varepsilon$\\
+\{x\}ks$'$ $\rightarrow$ xi & a e o u \{eu\} ó ą ę\\
+\{z\}zet $\rightarrow$ z & \\
+\{z\}c $\rightarrow$ z & \\
+\{zs\}ž $\rightarrow$ zs & $\varepsilon$\\
+\{Ć\}t$'$ $\rightarrow$ Ć & \\
+\{Ł\}ł $\rightarrow$ Ł & \\
+\{ři\}r\textipa{\super{j}}i $\rightarrow$ ři & $\varepsilon$\\
+\{Ś\}s$'$ $\rightarrow$ Ś & \\
+\{şi\}s\textipa{\super{j}}i $\rightarrow$ şi & $\varepsilon$\\
+\{ż\}žet $\rightarrow$ Ż & \\
+\{Ż\}žet $\rightarrow$ Ż & \\
+\{Ż\}ž $\rightarrow$ Ż & \\
+\end{longtable}
+
+\subsection{Grupy alternacyjne warstwy analitycznej}
+
+\begin{longtable}{r|rrr}
+ & \boldmath$\alpha'${\bf y} & \boldmath$\alpha'$ & \boldmath$\alpha'\varepsilon$\\
+\hline
+b$'$ & b$'$i $\rightarrow$ b$'$ & b$'$ $\rightarrow$ b$'$ & b $\rightarrow$ b$'$\\
+ &  &  & ąb $\rightarrow$ ęb$'$\\
+ &  &  & ób $\rightarrow$ ob$'$\\
+\hline
+d$'$ & d$'$i $\rightarrow$ d$'$ & d$'$ $\rightarrow$ d$'$ & d$'$ $\rightarrow$ d$'$\\
+ &  &  & ód$'$ $\rightarrow$ od$'$\\
+ &  &  & ąd$'$ $\rightarrow$ ęd$'$\\
+ &  &  & óz$'$d$'$ $\rightarrow$ oz$'$d$'$\\
+\hline
+f$'$ & f$'$i $\rightarrow$ f$'$ & f$'$ $\rightarrow$ f$'$ & f $\rightarrow$ f$'$\\
+\hline
+m$'$ & m$'$i $\rightarrow$ m$'$ & m$'$ $\rightarrow$ m$'$ & m $\rightarrow$ m$'$\\
+\hline
+n$'$ & n$'$i $\rightarrow$ n$'$ & n$'$ $\rightarrow$ n$'$ & n$'$ $\rightarrow$ n$'$\\
+ &  &  & en$'$ $\rightarrow$ n$'$\\
+ &  &  & $'$en$'$ $\rightarrow$ n$'$\\
+ &  &  & $\star$d$'$en$'$ $\rightarrow$ edn$'$\\
+\hline
+p$'$ & p$'$i $\rightarrow$ p$'$ & p$'$ $\rightarrow$ p$'$ & p $\rightarrow$ p$'$\\
+\hline
+s$'$ & s$'$i $\rightarrow$ s$'$ & s$'$ $\rightarrow$ s$'$ & s$'$ $\rightarrow$ s$'$\\
+ &  &  & $'$es$'$ $\rightarrow$ s$'$\\
+\hline
+t$'$ & t$'$i $\rightarrow$ t$'$ & t$'$ $\rightarrow$ t$'$ & t$'$ $\rightarrow$ t$'$\\
+ &  &  & ót$'$ $\rightarrow$ ot$'$\\
+ &  &  & et$'$ $\rightarrow$ t$'$\\
+ &  &  & $'$et$'$ $\rightarrow$ t$'$\\
+\hline
+v$'$ & v$'$i $\rightarrow$ v$'$ & v$'$ $\rightarrow$ v$'$ & v $\rightarrow$ v$'$\\
+ &  &  & ev $\rightarrow$ v$'$\\
+ &  &  & $'$ev $\rightarrow$ v$'$\\
+ &  &  & óv $\rightarrow$ ov$'$\\
+\hline
+z$'$ & z$'$i $\rightarrow$ z$'$ & z$'$ $\rightarrow$ z$'$ & z$'$ $\rightarrow$ z$'$\\
+ &  &  & óz$'$ $\rightarrow$ oz$'$\\
+ &  &  & ąz$'$ $\rightarrow$ ęz$'$\\
+\hline
+l & li $\rightarrow$ l & l $\rightarrow$ l & l $\rightarrow$ l\\
+ &  &  & el $\rightarrow$ l\\
+ &  &  & $'$el $\rightarrow$ l\\
+ &  &  & ól $\rightarrow$ ol\\
+ &  &  & ódl $\rightarrow$ odl\\
+\hline
+c & cy $\rightarrow$ c & c $\rightarrow$ c & c $\rightarrow$ c\\
+ &  &  & ec $\rightarrow$ c\\
+ &  &  & $'$ec $\rightarrow$ c\\
+ &  &  & řec $\rightarrow$ rc\\
+ &  &  & $\star$n$'$ec $\rightarrow$ $'$en$'$c\\
+\hline
+č & čy $\rightarrow$ č & č $\rightarrow$ č & č $\rightarrow$ č\\
+ &  &  & eč $\rightarrow$ č\\
+ &  &  & óč $\rightarrow$ oč\\
+\hline
+\textipa{Z} & \textipa{Z}y $\rightarrow$ \textipa{Z} & \textipa{Z} $\rightarrow$ \textipa{Z} & \textipa{Z} $\rightarrow$ \textipa{Z}\\
+ &  &  & ó\textipa{Z} $\rightarrow$ o\textipa{Z}\\
+\hline
+\textipa{\v{Z}} & \textipa{\v{Z}}y $\rightarrow$ \textipa{\v{Z}} & \textipa{\v{Z}} $\rightarrow$ \textipa{\v{Z}} & \textipa{\v{Z}} $\rightarrow$ \textipa{\v{Z}}\\
+\hline
+ř & řy $\rightarrow$ ř & ř $\rightarrow$ ř & ř $\rightarrow$ ř\\
+ &  &  & eř $\rightarrow$ ř\\
+ &  &  & $'$eř $\rightarrow$ ř\\
+ &  &  & óř $\rightarrow$ oř\\
+ &  &  & ójř $\rightarrow$ ojř\\
+\hline
+š & šy $\rightarrow$ š & š $\rightarrow$ š & š $\rightarrow$ š\\
+ &  &  & eš $\rightarrow$ š\\
+\hline
+ž & žy $\rightarrow$ ž & ž $\rightarrow$ ž & ž $\rightarrow$ ž\\
+ &  &  & ež $\rightarrow$ ž\\
+ &  &  & óž $\rightarrow$ ož\\
+ &  &  & ąž $\rightarrow$ ęž\\
+\hline
+\textipa{\super{j}} & \textipa{\super{j}}i $\rightarrow$ \textipa{\super{j}} & \textipa{\super{j}} $\rightarrow$ \textipa{\super{j}} & \\
+ & \textipa{\super{j}}i $\rightarrow$ j &  & \\
+\hline
+j & ji $\rightarrow$ j & j $\rightarrow$ j & j $\rightarrow$ j\\
+ &  &  & ój $\rightarrow$ oj\\
+ &  &  & yj $\rightarrow$ j\\
+ &  &  & ij $\rightarrow$ j\\
+ &  &  & $'$ij $\rightarrow$ j\\
+\hline
+g$'$ &  & g$'$ $\rightarrow$ g$'$ & \\
+\hline
+k$'$ &  & k$'$ $\rightarrow$ k$'$ & \\
+\hline
+a & a\textipa{\super{j}}i $\rightarrow$ a & a $\rightarrow$ a & \\
+\hline
+e & e\textipa{\super{j}}i $\rightarrow$ e & e $\rightarrow$ e & \\
+\hline
+\end{longtable}
+
+\begin{longtable}{r|rrrrrr}
+ & \boldmath$\alpha${\bf y} & \boldmath$\alpha${\bf e} & \boldmath$\alpha$ & \boldmath$\alpha${\bf i} & \boldmath$\alpha${\bf ie} & \boldmath$\alpha\varepsilon$\\
+\hline
+b & by $\rightarrow$ b & be $\rightarrow$ b & b $\rightarrow$ b & b$'$i $\rightarrow$ b & b$'$e $\rightarrow$ b & b $\rightarrow$ b\\
+ &  &  &  &  &  & eb $\rightarrow$ b\\
+ &  &  &  &  &  & ób $\rightarrow$ ob\\
+ &  &  &  &  &  & ąb $\rightarrow$ ęb\\
+ &  &  &  &  &  & ós$'$b $\rightarrow$ os$'$b\\
+ &  &  &  &  &  & óz$'$b $\rightarrow$ oz$'$b\\
+\hline
+x & xy $\rightarrow$ x & xe $\rightarrow$ x & x $\rightarrow$ x & s$'$i $\rightarrow$ x & še $\rightarrow$ x & x $\rightarrow$ x\\
+ &  &  &  &  &  & ex $\rightarrow$ x\\
+% &  &  &  &  &  & x $\rightarrow$ ks\\
+\hline
+d & dy $\rightarrow$ d & de $\rightarrow$ d & d $\rightarrow$ d & d$'$i $\rightarrow$ d & d$'$e $\rightarrow$ d & d $\rightarrow$ d\\
+ &  &  &  & ed$'$i $\rightarrow$ ad & z$'$d$'$e $\rightarrow$ zd & ed $\rightarrow$ d\\
+ &  &  &  &  & ed$'$e $\rightarrow$ ad & ód $\rightarrow$ od\\
+ &  &  &  &  & ed$'$e $\rightarrow$ od & ąd $\rightarrow$ ęd\\
+ &  &  &  &  & ez$'$d$'$e $\rightarrow$ azd & \\
+\hline
+f & fy $\rightarrow$ f & fe $\rightarrow$ f & f $\rightarrow$ f & f$'$i $\rightarrow$ f & f$'$e $\rightarrow$ f & f $\rightarrow$ f\\
+\hline
+h & hy $\rightarrow$ h & he $\rightarrow$ h & h $\rightarrow$ h & z$'$i $\rightarrow$ h & še $\rightarrow$ h & h $\rightarrow$ h\\
+ &  &  &  &  & že $\rightarrow$ h & \\
+\hline
+ł & ły $\rightarrow$ ł & łe $\rightarrow$ ł & ł $\rightarrow$ ł & li $\rightarrow$ ł & le $\rightarrow$ ł & ł $\rightarrow$ ł\\
+ &  &  &  & eli $\rightarrow$ oł & s$'$le $\rightarrow$ sł & eł $\rightarrow$ ł\\
+ &  &  &  & s$'$li $\rightarrow$ sł & z$'$le $\rightarrow$ zł & $'$eł $\rightarrow$ ł\\
+ &  &  &  & z$'$li $\rightarrow$ zł & ele $\rightarrow$ ał & el $\rightarrow$ oł\\
+ &  &  &  &  & ele $\rightarrow$ oł & ół $\rightarrow$ oł\\
+ &  &  &  &  & etle $\rightarrow$ atł & $'$oł $\rightarrow$ ł\\
+ &  &  &  &  & lle $\rightarrow$ łł & řeł $\rightarrow$ rł\\
+\hline
+m & my $\rightarrow$ m & me $\rightarrow$ m & m $\rightarrow$ m & m$'$i $\rightarrow$ m & m$'$e $\rightarrow$ m & m $\rightarrow$ m\\
+ &  &  &  & s$'$m$'$i $\rightarrow$ sm & s$'$m$'$e $\rightarrow$ sm & em $\rightarrow$ m\\
+\hline
+n & ny $\rightarrow$ n & ne $\rightarrow$ n & n $\rightarrow$ n & n$'$i $\rightarrow$ n & n$'$e $\rightarrow$ n & n $\rightarrow$ n\\
+ &  &  &  & en$'$i $\rightarrow$ on & en$'$e $\rightarrow$ on & en $\rightarrow$ n\\
+ &  &  &  & $\star$cen$'$i $\rightarrow$ t$'$on & s$'$n$'$e $\rightarrow$ sn & $'$en $\rightarrow$ n\\
+ &  &  &  & $\star$\textipa{Z}en$'$i $\rightarrow$ d$'$on & z$'$n$'$e $\rightarrow$ zn & \\
+ &  &  &  & s$'$n$'$i $\rightarrow$ sn &  & \\
+ &  &  &  & z$'$n$'$i $\rightarrow$ zn &  & \\
+\hline
+p & py $\rightarrow$ p & pe $\rightarrow$ p & p $\rightarrow$ p & p$'$i $\rightarrow$ p & p$'$e $\rightarrow$ p & p $\rightarrow$ p\\
+ &  &  &  &  &  & ep $\rightarrow$ p\\
+ &  &  &  &  &  & $'$ep $\rightarrow$ p\\
+ &  &  &  &  &  & óp $\rightarrow$ op\\
+\hline
+r & ry $\rightarrow$ r & re $\rightarrow$ r & r $\rightarrow$ r & řy $\rightarrow$ r & ře $\rightarrow$ r & r $\rightarrow$ r\\
+ &  &  &  &  & eře $\rightarrow$ ar & er $\rightarrow$ r\\
+ &  &  &  &  & etře $\rightarrow$ atr & $'$er $\rightarrow$ r\\
+ &  &  &  &  & ře $\rightarrow$ rr & ór $\rightarrow$ or\\
+ &  &  &  &  &  & $\star$cer $\rightarrow$ kr\\
+ &  &  &  &  &  & óbr $\rightarrow$ obr\\
+ &  &  &  &  &  & óstr $\rightarrow$ ostr\\
+\hline
+s & sy $\rightarrow$ s & se $\rightarrow$ s & s $\rightarrow$ s & s$'$i $\rightarrow$ s & s$'$e $\rightarrow$ s & s $\rightarrow$ s\\
+ &  &  &  &  & es$'$e $\rightarrow$ as & $'$es $\rightarrow$ s\\
+\hline
+t & ty $\rightarrow$ t & te $\rightarrow$ t & t $\rightarrow$ t & t$'$i $\rightarrow$ t & t$'$e $\rightarrow$ t & t $\rightarrow$ t\\
+ &  &  &  & s$'$t$'$i $\rightarrow$ st & et$'$e $\rightarrow$ at & et $\rightarrow$ t\\
+ &  &  &  & et$'$i $\rightarrow$ ot & et$'$e $\rightarrow$ ot & ót $\rightarrow$ ot\\
+ &  &  &  &  & s$'$t$'$e $\rightarrow$ st & ąt $\rightarrow$ ęt\\
+ &  &  &  &  & es$'$t$'$e $\rightarrow$ ast & \\
+\hline
+v & vy $\rightarrow$ v & ve $\rightarrow$ v & v $\rightarrow$ v & v$'$i $\rightarrow$ v & v$'$e $\rightarrow$ v & v $\rightarrow$ v\\
+ &  &  &  &  &  & ev $\rightarrow$ v\\
+ &  &  &  &  &  & $'$ev $\rightarrow$ v\\
+ &  &  &  &  &  & óv $\rightarrow$ ov\\
+\hline
+z & zy $\rightarrow$ z & ze $\rightarrow$ z & z $\rightarrow$ z & z$'$i $\rightarrow$ z & z$'$e $\rightarrow$ z & z $\rightarrow$ z\\
+ &  &  &  &  &  & ez $\rightarrow$ z\\
+ &  &  &  &  &  & $'$ez $\rightarrow$ z\\
+ &  &  &  &  &  & óz $\rightarrow$ oz\\
+ &  &  &  &  &  & ąz $\rightarrow$ ęz\\
+\hline
+g & g$'$i $\rightarrow$ g & g$'$e $\rightarrow$ g & g $\rightarrow$ g & \textipa{Z}y $\rightarrow$ g & \textipa{Z}e $\rightarrow$ g & g $\rightarrow$ g\\
+ &  &  &  &  &  & eg $\rightarrow$ g\\
+ &  &  &  &  &  & óg $\rightarrow$ og\\
+ &  &  &  &  &  & órg $\rightarrow$ org\\
+ &  &  &  &  &  & ąg $\rightarrow$ ęg\\
+\hline
+k & k$'$i $\rightarrow$ k & k$'$e $\rightarrow$ k & k $\rightarrow$ k & cy $\rightarrow$ k & ce $\rightarrow$ k & k $\rightarrow$ k\\
+ &  &  &  &  &  & ek $\rightarrow$ k\\
+ &  &  &  &  &  & ąk $\rightarrow$ ęk\\
+\hline
+o & oy $\rightarrow$ o & oe $\rightarrow$ o & o $\rightarrow$ o &  & o\textipa{\super{j}}i $\rightarrow$ o & o\textipa{\super{j}}i $\rightarrow$ o\\
+\hline
+u & uy $\rightarrow$ u & ue $\rightarrow$ u & u $\rightarrow$ u &  & u\textipa{\super{j}}i $\rightarrow$ u & u\textipa{\super{j}}i $\rightarrow$ u\\
+\hline
+\end{longtable}
+
+\begin{longtable}{r|rrr}
+ & \boldmath$\kappa'$ & \boldmath$\lambda'$ & \boldmath$\xi'$\\
+\hline
+m$'$ &  &  & m$'$ $\rightarrow$ m$'$\\
+\hline
+n$'$ & n$'$ $\rightarrow$ n$'$ & n$'$ $\rightarrow$ n$'$ & n$'$ $\rightarrow$ n$'$\\
+\hline
+p$'$ & p $\rightarrow$ p$'$ &  & p$'$ $\rightarrow$ p$'$\\
+\hline
+c & ęt $\rightarrow$ ąc &  & ęc $\rightarrow$ ąc\\
+\hline
+č &  &  & č $\rightarrow$ č\\
+\hline
+ž & ž $\rightarrow$ ž &  & ž $\rightarrow$ ž\\
+\hline
+\end{longtable}
+
+\begin{longtable}{r|rrr}
+ & \boldmath$\kappa$ & \boldmath$\lambda$ & \boldmath$\xi$\\
+\hline
+b & b $\rightarrow$ b &  & \\
+\hline
+x & x $\rightarrow$ x &  & \\
+\hline
+d & d $\rightarrow$ d & d$'$ $\rightarrow$ d & \\
+ & ed $\rightarrow$ ad &  & \\
+\hline
+h & h $\rightarrow$ h &  & \\
+\hline
+ł & l $\rightarrow$ ł & l $\rightarrow$ ł & \\
+ & $\star$el $\rightarrow$ oł & s$'$l $\rightarrow$ sł & \\
+ & el $\rightarrow$ ał & z$'$l $\rightarrow$ zł & \\
+\hline
+m & m $\rightarrow$ m & m$'$ $\rightarrow$ m & \\
+\hline
+n & n$'$ $\rightarrow$ n & n$'$ $\rightarrow$ n & $'$en$'$ $\rightarrow$ on\\
+ & en$'$ $\rightarrow$ an & s$'$n$'$ $\rightarrow$ sn & \\
+ & en$'$ $\rightarrow$ on & z$'$n$'$ $\rightarrow$ zn & \\
+ & $'$en$'$ $\rightarrow$ on &  & \\
+\hline
+p & p $\rightarrow$ p &  & \\
+\hline
+r & r $\rightarrow$ r & ř $\rightarrow$ r & \\
+ & $\star$ędr $\rightarrow$ ądr &  & \\
+\hline
+t & t $\rightarrow$ t & t$'$ $\rightarrow$ t & \\
+ &  & s$'$t$'$ $\rightarrow$ st & \\
+\hline
+v & v $\rightarrow$ v & v$'$ $\rightarrow$ v & \\
+\hline
+g & ž $\rightarrow$ g &  & ž $\rightarrow$ g\\
+\hline
+k & b $\rightarrow$ bk & t$'$ $\rightarrow$ k & c $\rightarrow$ kk\\
+ & b $\rightarrow$ bok & $\star$ž $\rightarrow$ ekk & c $\rightarrow$ tk\\
+ & d $\rightarrow$ dk &  & t$'$ $\rightarrow$ k\\
+ & k $\rightarrow$ k &  & t$'$ $\rightarrow$ tk\\
+ & k $\rightarrow$ kk &  & č $\rightarrow$ k\\
+ & el $\rightarrow$ ałk &  & \textipa{Z} $\rightarrow$ dk\\
+ & $\star$l $\rightarrow$ lek &  & d$'$ $\rightarrow$ dk\\
+ & n$'$ $\rightarrow$ nk &  & ž $\rightarrow$ žk\\
+ & p $\rightarrow$ pk &  & n$'$ $\rightarrow$ nk\\
+ & r $\rightarrow$ rok &  & b$'$ $\rightarrow$ bok\\
+ & ž $\rightarrow$ sk &  & l $\rightarrow$ lek\\
+ & ž $\rightarrow$ sok &  & ř $\rightarrow$ rok\\
+ & ęž $\rightarrow$ ąsk &  & ęz$'$ $\rightarrow$ ąsk\\
+ & t $\rightarrow$ tk &  & ž $\rightarrow$ ekk\\
+ & t $\rightarrow$ ck &  & ž $\rightarrow$ sk\\
+ & ž $\rightarrow$ žk &  & ž $\rightarrow$ sok\\
+\hline
+\end{longtable}
+
+\begin{longtable}{r|rrrrrr}
+ & {\bf š} & {\bf ši} & {\bf č} & \boldmath$\iota$ & \boldmath$\nu$ & {\bf a}\\
+\hline
+c &  &  & č $\rightarrow$ c &  &  & \\
+\hline
+š & š $\rightarrow$ š & s$'$i $\rightarrow$ š &  &  &  & \\
+\hline
+a &  &  &  & a $\rightarrow$ a & a $\rightarrow$ a & a $\rightarrow$ a\\
+\hline
+e &  &  &  &  &  & $\star$e $\rightarrow$ e\\
+\hline
+i &  &  &  & i $\rightarrow$ i &  & \\
+\hline
+o &  &  &  &  & o $\rightarrow$ o & \\
+ &  &  &  &  & e $\rightarrow$ o & \\
+ &  &  &  &  & ce $\rightarrow$ t$'$o & \\
+\hline
+y &  &  &  & y $\rightarrow$ y &  & \\
+\hline
+\end{longtable}
+
+\begin{longtable}{r|rrrrrrr}
+ & \boldmath$\beta${\bf ł} & \boldmath$\beta${\bf li} & \boldmath$\beta${\bf t}$'$ & \boldmath$\gamma\varepsilon$ & \boldmath$\gamma$ & \boldmath$\eta$ & \boldmath$\zeta$\\
+\hline
+ &  & li $\rightarrow$  &  &  &  &  & \\
+\hline
+l &  &  &  & l $\rightarrow$ l & l $\rightarrow$ l & l $\rightarrow$ l & \\
+\hline
+c &  &  &  &  &  & c $\rightarrow$ c & \\
+\hline
+č &  &  &  &  &  & č $\rightarrow$ č & \\
+\hline
+ř &  &  &  &  &  & ř $\rightarrow$ ř & \\
+\hline
+ž & žł $\rightarrow$ ž &  &  &  &  & ž $\rightarrow$ ž & \\
+\hline
+j &  &  &  & aj $\rightarrow$ aj & aj $\rightarrow$ aj & j $\rightarrow$ j & \\
+\hline
+a &  & $\star$eli $\rightarrow$ a &  &  &  &  & \\
+\hline
+b & bł $\rightarrow$ b &  & s$'$t$'$ $\rightarrow$ b & b $\rightarrow$ b & b$'$ $\rightarrow$ b & b $\rightarrow$ b & \\
+ & ąbł $\rightarrow$ ęb &  &  &  &  &  & \\
+\hline
+x & xł $\rightarrow$ x &  &  &  & $\star$š $\rightarrow$ x & x $\rightarrow$ x & \\
+ & $\star$exł $\rightarrow$ x &  &  &  &  &  & \\
+\hline
+d & dł $\rightarrow$ d & $\star$edli $\rightarrow$ ad & s$'$t$'$ $\rightarrow$ d & ž\textipa{\v{Z}} $\rightarrow$ zd & ž\textipa{\v{Z}} $\rightarrow$ zd & d $\rightarrow$ d & \textipa{Z} $\rightarrow$ d$'$\\
+ & adł $\rightarrow$ ed &  & es$'$t$'$ $\rightarrow$ ad &  &  &  & ž\textipa{\v{Z}} $\rightarrow$ z$'$d$'$\\
+ & ódł $\rightarrow$ od &  & es$'$t$'$ $\rightarrow$ od &  &  &  & \\
+ & ądł $\rightarrow$ ęd &  & ós$'$t$'$ $\rightarrow$ od &  &  &  & \\
+ &  &  & ąs$'$t$'$ $\rightarrow$ ęd &  &  &  & \\
+\hline
+f &  &  &  &  &  & f $\rightarrow$ f & \\
+\hline
+h & hł $\rightarrow$ h &  &  &  &  & h $\rightarrow$ h & \\
+\hline
+ł & łł $\rightarrow$ ł &  &  &  & $\star$s$'$l $\rightarrow$ sł &  & \\
+\hline
+m &  &  &  & m $\rightarrow$ m & m$'$ $\rightarrow$ m & m $\rightarrow$ m & \\
+\hline
+n &  &  &  &  &  &  & n $\rightarrow$ n$'$\\
+\hline
+p & pł $\rightarrow$ p &  &  & p $\rightarrow$ p & p$'$ $\rightarrow$ p & p $\rightarrow$ p & \\
+\hline
+r & rł $\rightarrow$ r &  &  & ř $\rightarrow$ r & ř $\rightarrow$ r & r $\rightarrow$ r & \\
+ &  &  &  & óř $\rightarrow$ or &  &  & \\
+\hline
+s & sł $\rightarrow$ s & $\star$s$'$li $\rightarrow$ s & s$'$t$'$ $\rightarrow$ s & š $\rightarrow$ s & š $\rightarrow$ s & s$'$ $\rightarrow$ s & š $\rightarrow$ s$'$\\
+ & ósł $\rightarrow$ os & $\star$es$'$li $\rightarrow$ os & es$'$t$'$ $\rightarrow$ os &  &  & s $\rightarrow$ s & \\
+ & ąsł $\rightarrow$ ęs &  & ąs$'$t$'$ $\rightarrow$ ęs &  &  &  & \\
+ &  &  & ós$'$t$'$ $\rightarrow$ os &  &  &  & \\
+\hline
+t & tł $\rightarrow$ t & $\star$etli $\rightarrow$ ot & s$'$t$'$ $\rightarrow$ t & č $\rightarrow$ t & c $\rightarrow$ t & t $\rightarrow$ t & č $\rightarrow$ t$'$\\
+ & ótł $\rightarrow$ ot &  & es$'$t$'$ $\rightarrow$ ot & šč $\rightarrow$ st & č $\rightarrow$ t &  & c $\rightarrow$ t$'$\\
+ &  &  &  &  & šč $\rightarrow$ st &  & šč $\rightarrow$ s$'$t$'$\\
+\hline
+v &  &  &  &  & $\star$v$'$ $\rightarrow$ v & v $\rightarrow$ v & \\
+ &  &  &  &  & $\star$v $\rightarrow$ v &  & \\
+\hline
+z & zł $\rightarrow$ z & $\star$z$'$li $\rightarrow$ z & z$'$t$'$ $\rightarrow$ z & ž $\rightarrow$ z & ž $\rightarrow$ z & z$'$ $\rightarrow$ z & ž $\rightarrow$ z$'$\\
+ & ózł $\rightarrow$ oz & $\star$ez$'$li $\rightarrow$ az & ez$'$t$'$ $\rightarrow$ az &  &  & z $\rightarrow$ z & \\
+ & ązł $\rightarrow$ ęz & $\star$ez$'$li $\rightarrow$ oz & ez$'$t$'$ $\rightarrow$ oz &  &  &  & \\
+ &  &  & ąz$'$t$'$ $\rightarrow$ ęz &  &  &  & \\
+\hline
+g & gł $\rightarrow$ g &  & c $\rightarrow$ g & ž $\rightarrow$ g & ž $\rightarrow$ g & g $\rightarrow$ g & \\
+ & ógł $\rightarrow$ og &  & óc $\rightarrow$ og & ž\textipa{\v{Z}} $\rightarrow$ zg & ž\textipa{\v{Z}} $\rightarrow$ zg &  & \\
+ & ągł $\rightarrow$ ęg &  & ąc $\rightarrow$ ęg &  &  &  & \\
+ & ązgł $\rightarrow$ ęzg &  &  &  &  &  & \\
+\hline
+k & kł $\rightarrow$ k &  & c $\rightarrow$ k & č $\rightarrow$ k & č $\rightarrow$ k & k $\rightarrow$ k & \\
+ & ókł $\rightarrow$ ok &  & ąc $\rightarrow$ ęk & šč $\rightarrow$ sk & šč $\rightarrow$ sk &  & \\
+ & ąkł $\rightarrow$ ęk &  &  &  &  &  & \\
+\hline
+\end{longtable}
+
+\subsection{Reguły warstwy analitycznej}
+Dla oszczędności miejsca nie podajemy nazw atrybutów, gdzie wartości atrybutów jednoznacznie na nie wskazują.
+W ten sposób w domyśle pozostają nazwy atrybutów:
+\begin{itemize}
+\item cat mającego wartości ndm, adj, adj:grad, adv, noun, verb
+\item palat mającego wartości $\uparrow$ (dla funkcjonalnie miękkich) i $\downarrow$ (dla funkcjonalnie twardych)
+\item velar mającego wartości $\leftarrow$ (dla b,d,f,ł,m,n,p,r,s,t,v,z,o,u) i $\rightarrow$ (dla x,h,g,k)
+\end{itemize}
+
+Oznaczenie $\star$ odnosi się do odmian, które uznaliśmy za nieproduktywne (niewystępujące poza zamkniętą listą lematów). Oznaczenie $D$ odnosi się do odmian gwarowych i w inny sposób niestandardowych, które zostały dodane z powodu ich obecności w podkorpusie milionowym Narodowego Korpusu Języka Polskiego.
+
+\begin{scriptsize}\[
+\left[\begin{array}{ll}
+-\varepsilon & \text{ndm}
+\end{array}\right]
+\]\end{scriptsize}
+
+\begin{scriptsize}\[
+\left[\begin{array}{ll}
+\star-\text{žkolv$'$ek} & \text{suf}:=\text{žkolv$'$ek}\\
+\star-\text{žekolv$'$ek} & \text{suf}:=\text{žkolv$'$ek}\\
+\star-\text{s$'$kolv$'$ek} & \text{suf}:=\text{s$'$kolv$'$ek}\\
+\star-\text{kolv$'$ek} & \text{suf}:=\text{kolv$'$ek}\\
+\star-\text{ž} & \text{suf}:=\text{ž}\\
+\star-\text{že} & \text{suf}:=\text{ž}\\
+\star-\text{ž} & \text{suf}:=\text{že}\\
+\star-\text{že} & \text{suf}:=\text{že}\\
+\star-\text{s$'$t$'$is$'$} & \text{suf}:=\text{s$'$t$'$is$'$}\\
+\star-\text{t$'$is$'$} & \text{suf}:=\text{t$'$is$'$}\\
+\star-\text{s$'$} & \text{suf}:=\text{s$'$}\\
+\star-\text{s$'$t$'$i} & \text{suf}:=\text{s$'$t$'$i}\\
+\star-\text{s$'$ik} & \text{suf}:=\text{sik}\\
+\star-\text{s$'$i} & \text{suf}:=\text{si}\\
+-\varepsilon & 
+\end{array}\right] \otimes \left[\begin{array}{ll}
+-\text{\boldmath$\alpha'${\bf y}} & \text{flex}:=\text{y}, \uparrow, \text{adj}\\
+-\text{\boldmath$\alpha'${\bf y}x} & \text{flex}:=\text{ych}, \uparrow, \text{adj}\\
+-\text{\boldmath$\alpha'${\bf y}m} & \text{flex}:=\text{ym}, \uparrow, \text{adj}\\
+-\text{\boldmath$\alpha'${\bf y}m$'$i} & \text{flex}:=\text{ymi}, \uparrow, \text{adj}\\
+-\text{\boldmath$\alpha'$e} & \text{flex}:=\text{e}, \uparrow, \text{adj}\\
+-\text{\boldmath$\alpha'$ego} & \text{flex}:=\text{ego}, \uparrow, \text{adj}\\
+-\text{\boldmath$\alpha'$ej} & \text{flex}:=\text{ej}, \uparrow, \text{adj}\\
+-\text{\boldmath$\alpha'$emu} & \text{flex}:=\text{emu}, \uparrow, \text{adj}\\
+-\text{\boldmath$\alpha'$a} & \text{flex}:=\text{a}, \uparrow, \text{adj}\\
+-\text{\boldmath$\alpha'$ą} & \text{flex}:=\text{ą}, \uparrow, \text{adj}\\
+-\text{\boldmath$\alpha'$o} & \text{flex}:=\text{o}, \uparrow, \text{adj}\\
+\star-\text{\boldmath$\alpha'\varepsilon$} & \text{flex}:=\text{$\varepsilon$}, \uparrow, \text{adj}\\
+-\text{{\bf ši}} & \text{flex}:=\text{i}, \text{palat}:=\text{sz}, \text{adj}\\
+D-\text{\boldmath$\alpha'$em} & \text{flex}:=\text{ym}, \uparrow, \text{adj}\\
+D-\text{\boldmath$\alpha'$emi} & \text{flex}:=\text{ymi}, \uparrow, \text{adj}\\
+D-\text{\boldmath$\alpha'$o} & \text{flex}:=\text{ą}, \uparrow, \text{adj}\\
+D-\text{\boldmath$\alpha'$om} & \text{flex}:=\text{ą}, \uparrow, \text{adj}
+\end{array}\right] \otimes \left[\begin{array}{ll}
++\text{\boldmath$\alpha'${\bf y}} & \text{lemma}:=\text{y}\\
+\star+\text{\boldmath$\alpha'\varepsilon$} & \text{lemma}:=\text{$\varepsilon$}
+\end{array}\right]
+\]\end{scriptsize}
+
+\begin{scriptsize}\[
+\left[\begin{array}{ll}
+\star-\text{žkolv$'$ek} & \text{suf}:=\text{žkolv$'$ek}\\
+\star-\text{žekolv$'$ek} & \text{suf}:=\text{žkolv$'$ek}\\
+\star-\text{s$'$kolv$'$ek} & \text{suf}:=\text{s$'$kolv$'$ek}\\
+\star-\text{kolv$'$ek} & \text{suf}:=\text{kolv$'$ek}\\
+\star-\text{ž} & \text{suf}:=\text{ž}\\
+\star-\text{že} & \text{suf}:=\text{ž}\\
+\star-\text{ž} & \text{suf}:=\text{že}\\
+\star-\text{že} & \text{suf}:=\text{že}\\
+\star-\text{s$'$t$'$is$'$} & \text{suf}:=\text{s$'$t$'$is$'$}\\
+\star-\text{t$'$is$'$} & \text{suf}:=\text{t$'$is$'$}\\
+\star-\text{s$'$} & \text{suf}:=\text{s$'$}\\
+\star-\text{s$'$t$'$i} & \text{suf}:=\text{s$'$t$'$i}\\
+\star-\text{s$'$ik} & \text{suf}:=\text{sik}\\
+\star-\text{s$'$i} & \text{suf}:=\text{si}\\
+-\varepsilon & 
+\end{array}\right] \otimes \left[\begin{array}{ll}
+-\text{\boldmath$\alpha${\bf y}} & \text{flex}:=\text{y}, \downarrow, \text{adj}\\
+-\text{\boldmath$\alpha${\bf y}x} & \text{flex}:=\text{ych}, \downarrow, \text{adj}\\
+-\text{\boldmath$\alpha${\bf y}m} & \text{flex}:=\text{ym}, \downarrow, \text{adj}\\
+-\text{\boldmath$\alpha${\bf y}m$'$i} & \text{flex}:=\text{ymi}, \downarrow, \text{adj}\\
+-\text{\boldmath$\alpha${\bf e}} & \text{flex}:=\text{e}, \downarrow, \text{adj}\\
+-\text{\boldmath$\alpha${\bf e}go} & \text{flex}:=\text{ego}, \downarrow, \text{adj}\\
+-\text{\boldmath$\alpha${\bf e}j} & \text{flex}:=\text{ej}, \downarrow, \text{adj}\\
+-\text{\boldmath$\alpha${\bf e}mu} & \text{flex}:=\text{emu}, \downarrow, \text{adj}\\
+-\text{\boldmath$\alpha$a} & \text{flex}:=\text{a}, \downarrow, \text{adj}\\
+-\text{\boldmath$\alpha$ą} & \text{flex}:=\text{ą}, \downarrow, \text{adj}\\
+-\text{\boldmath$\alpha$o} & \text{flex}:=\text{o}, \downarrow, \text{adj}\\
+-\text{\boldmath$\alpha$u} & \text{flex}:=\text{u}, \downarrow, \text{adj}\\
+-\text{\boldmath$\alpha${\bf i}} & \text{flex}:=\text{i}, \downarrow, \text{adj}\\
+\star-\text{\boldmath$\alpha\varepsilon$} & \text{flex}:=\text{$\varepsilon$}, \downarrow, \text{adj}\\
+D-\text{\boldmath$\alpha${\bf e}m} & \text{flex}:=\text{ym}, \downarrow, \text{adj}\\
+D-\text{\boldmath$\alpha${\bf e}mi} & \text{flex}:=\text{ymi}, \downarrow, \text{adj}\\
+D-\text{\boldmath$\alpha$o} & \text{flex}:=\text{ą}, \downarrow, \text{adj}\\
+D-\text{\boldmath$\alpha$om} & \text{flex}:=\text{ą}, \downarrow, \text{adj}
+\end{array}\right] \otimes \left[\begin{array}{ll}
++\text{\boldmath$\alpha${\bf y}} & \text{lemma}:=\text{y}\\
+\star+\text{\boldmath$\alpha\varepsilon$} & \text{lemma}:=\text{$\varepsilon$}
+\end{array}\right]
+\]\end{scriptsize}
+
+\begin{scriptsize}\[
+\left[\begin{array}{ll}
+\varepsilon- & \text{pref}:=\text{$\varepsilon$}\\
+\text{naj}- & \text{pref}:=\text{naj}
+\end{array}\right] \otimes \left[\begin{array}{ll}
+-\text{{\bf š}y} & \text{flex}:=\text{y}, \text{adj:grad}\\
+-\text{{\bf š}yx} & \text{flex}:=\text{ych}, \text{adj:grad}\\
+-\text{{\bf š}ym} & \text{flex}:=\text{ym}, \text{adj:grad}\\
+-\text{{\bf š}ym$'$i} & \text{flex}:=\text{ymi}, \text{adj:grad}\\
+-\text{{\bf š}e} & \text{flex}:=\text{e}, \text{adj:grad}\\
+-\text{{\bf š}ego} & \text{flex}:=\text{ego}, \text{adj:grad}\\
+-\text{{\bf š}ej} & \text{flex}:=\text{ej}, \text{adj:grad}\\
+-\text{{\bf š}emu} & \text{flex}:=\text{emu}, \text{adj:grad}\\
+-\text{{\bf š}a} & \text{flex}:=\text{a}, \text{adj:grad}\\
+-\text{{\bf š}ą} & \text{flex}:=\text{ą}, \text{adj:grad}\\
+-\text{{\bf ši}} & \text{flex}:=\text{i}, \text{adj:grad}\\
+D-\text{{\bf š}em} & \text{flex}:=\text{ym}, \text{adj:grad}\\
+D-\text{{\bf š}emi} & \text{flex}:=\text{ymi}, \text{adj:grad}\\
+D-\text{{\bf š}o} & \text{flex}:=\text{ą}, \text{adj:grad}\\
+D-\text{{\bf š}om} & \text{flex}:=\text{ą}, \text{adj:grad}
+\end{array}\right] \otimes \left[\begin{array}{ll}
+-\text{\boldmath$\kappa'$š} & \text{grad}:=\text{sz}\\
+-\text{\boldmath$\lambda'$ejš} & \text{grad}:=\text{iejsz}
+\end{array}\right] \otimes \left[\begin{array}{ll}
++\text{\boldmath$\alpha'${\bf y}} & \text{lemma}:=\text{y}\\
+\star+\text{\boldmath$\alpha'\varepsilon$} & \text{lemma}:=\text{$\varepsilon$}
+\end{array}\right]
+\]\end{scriptsize}
+
+\begin{scriptsize}\[
+\left[\begin{array}{ll}
+\varepsilon- & \text{pref}:=\text{$\varepsilon$}\\
+\text{naj}- & \text{pref}:=\text{naj}
+\end{array}\right] \otimes \left[\begin{array}{ll}
+-\text{{\bf š}y} & \text{flex}:=\text{y}, \text{adj:grad}\\
+-\text{{\bf š}yx} & \text{flex}:=\text{ych}, \text{adj:grad}\\
+-\text{{\bf š}ym} & \text{flex}:=\text{ym}, \text{adj:grad}\\
+-\text{{\bf š}ym$'$i} & \text{flex}:=\text{ymi}, \text{adj:grad}\\
+-\text{{\bf š}e} & \text{flex}:=\text{e}, \text{adj:grad}\\
+-\text{{\bf š}ego} & \text{flex}:=\text{ego}, \text{adj:grad}\\
+-\text{{\bf š}ej} & \text{flex}:=\text{ej}, \text{adj:grad}\\
+-\text{{\bf š}emu} & \text{flex}:=\text{emu}, \text{adj:grad}\\
+-\text{{\bf š}a} & \text{flex}:=\text{a}, \text{adj:grad}\\
+-\text{{\bf š}ą} & \text{flex}:=\text{ą}, \text{adj:grad}\\
+-\text{{\bf ši}} & \text{flex}:=\text{i}, \text{adj:grad}\\
+D-\text{{\bf š}em} & \text{flex}:=\text{ym}, \text{adj:grad}\\
+D-\text{{\bf š}emi} & \text{flex}:=\text{ymi}, \text{adj:grad}\\
+D-\text{{\bf š}o} & \text{flex}:=\text{ą}, \text{adj:grad}\\
+D-\text{{\bf š}om} & \text{flex}:=\text{ą}, \text{adj:grad}
+\end{array}\right] \otimes \left[\begin{array}{ll}
+-\text{\boldmath$\kappa$š} & \text{grad}:=\text{sz}\\
+-\text{\boldmath$\lambda$ejš} & \text{grad}:=\text{iejsz}
+\end{array}\right] \otimes \left[\begin{array}{ll}
++\text{\boldmath$\alpha${\bf y}} & \text{lemma}:=\text{y}\\
+\star+\text{\boldmath$\alpha\varepsilon$} & \text{lemma}:=\text{$\varepsilon$}
+\end{array}\right]
+\]\end{scriptsize}
+
+\begin{scriptsize}\[
+\left[\begin{array}{ll}
+\varepsilon- & \text{pref}:=\text{$\varepsilon$}\\
+\text{naj}- & \text{pref}:=\text{naj}
+\end{array}\right] \otimes \left[\begin{array}{ll}
+-\text{\boldmath$\alpha'$o} & \text{flex}:=\text{o}, \text{adv}\\
+-\text{\boldmath$\xi'$ej} & \text{flex}:=\text{iej}, \text{adv}
+\end{array}\right] \otimes \left[\begin{array}{ll}
++\text{\boldmath$\alpha'$o} & \text{lemma}:=\text{o}
+\end{array}\right]
+\]\end{scriptsize}
+
+\begin{scriptsize}\[
+\left[\begin{array}{ll}
+\varepsilon- & \text{pref}:=\text{$\varepsilon$}\\
+\text{naj}- & \text{pref}:=\text{naj}
+\end{array}\right] \otimes \left[\begin{array}{ll}
+-\text{\boldmath$\alpha$o} & \text{flex}:=\text{o}, \text{adv}\\
+-\text{\boldmath$\alpha${\bf ie}$_1$} & \text{flex}:=\text{ie}, \text{adv}\\
+-\text{\boldmath$\alpha${\bf ie}$_2$} & \text{flex}:=\text{ie}, \text{adv}\\
+-\text{\boldmath$\xi$ej} & \text{flex}:=\text{iej}, \text{adv}\\
+-\text{\boldmath$\alpha${\bf ie}$_1$j} & \text{flex}:=\text{iej}, \text{adv}\\
+-\text{\boldmath$\alpha${\bf ie}$_2$j} & \text{flex}:=\text{iej}, \text{adv}
+\end{array}\right] \otimes \left[\begin{array}{ll}
++\text{\boldmath$\alpha$o} & \text{lemma}:=\text{o}\\
++\text{\boldmath$\alpha${\bf ie}$_1$} & \text{lemma}:=\text{ie}\\
++\text{\boldmath$\alpha${\bf ie}$_2$} & \text{lemma}:=\text{ie}
+\end{array}\right]
+\]\end{scriptsize}
+
+\begin{scriptsize}\[
+\left[\begin{array}{ll}
+-\text{\boldmath$\alpha'${\bf y}} & \text{flex}:=\text{y}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'${\bf y}x} & \text{flex}:=\text{ych}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'${\bf y}m} & \text{flex}:=\text{ym}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'${\bf y}m$'$i} & \text{flex}:=\text{ymi}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'$e} & \text{flex}:=\text{e}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'$ego} & \text{flex}:=\text{ego}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'$ej} & \text{flex}:=\text{ej}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'$em} & \text{flex}:=\text{em}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'$emu} & \text{flex}:=\text{emu}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'$a} & \text{flex}:=\text{a}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'$ax} & \text{flex}:=\text{ach}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'$am$'$i} & \text{flex}:=\text{ami}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'$ą} & \text{flex}:=\text{ą}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'$ę} & \text{flex}:=\text{ę}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'$o} & \text{flex}:=\text{o}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'$om} & \text{flex}:=\text{om}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'$ov$'$i} & \text{flex}:=\text{owi}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'$ov$'$e} & \text{flex}:=\text{owie}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'$óv} & \text{flex}:=\text{ów}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'$u} & \text{flex}:=\text{u}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'$um} & \text{flex}:=\text{um}, \uparrow, \text{noun}\\
+-\text{\boldmath$\alpha'\varepsilon$} & \text{flex}:=\text{$\varepsilon$}, \uparrow, \text{noun}\\
+\star-\text{\boldmath$\alpha'\varepsilon$m$'$i} & \text{flex}:=\text{ami}, \uparrow, \text{noun}\\
+-\text{{\bf č}e} & \text{flex}:=\text{cze}, \uparrow, \text{noun}\\
+D-\text{\boldmath$\alpha'$em} & \text{flex}:=\text{ym}, \uparrow, \text{noun}\\
+D-\text{\boldmath$\alpha'$em$'$i} & \text{flex}:=\text{ymi}, \uparrow, \text{noun}\\
+D-\text{\boldmath$\alpha'${\bf y}ma} & \text{flex}:=\text{ami}, \uparrow, \text{noun}\\
+D-\text{\boldmath$\alpha'$om} & \text{flex}:=\text{ą}, \text{noun}\\
+D-\text{\boldmath$\alpha'$o} & \text{flex}:=\text{ą}, \text{noun}\\
+D-\text{\boldmath$\alpha'$e} & \text{flex}:=\text{ę}, \text{noun}\\
+D-\text{\boldmath$\alpha'$om$'$i} & \text{flex}:=\text{ami}, \uparrow, \text{noun}\\
+D-\text{\boldmath$\alpha'$amy} & \text{flex}:=\text{ami}, \uparrow, \text{noun}\\
+D-\text{\boldmath$\alpha'$ox} & \text{flex}:=\text{ach}, \uparrow, \text{noun}
+\end{array}\right] \otimes \left[\begin{array}{ll}
++\text{\boldmath$\alpha'${\bf y}} & \text{lemma}:=\text{y}\\
++\text{\boldmath$\alpha'$e} & \text{lemma}:=\text{e}\\
++\text{\boldmath$\alpha'$a} & \text{lemma}:=\text{a}\\
++\text{\boldmath$\alpha'$o} & \text{lemma}:=\text{o}\\
++\text{\boldmath$\alpha'$ov$'$e} & \text{lemma}:=\text{owie}\\
++\text{\boldmath$\alpha'$um} & \text{lemma}:=\text{um}\\
++\text{\boldmath$\alpha'\varepsilon$} & \text{lemma}:=\text{$\varepsilon$}
+\end{array}\right]
+\]\end{scriptsize}
+
+\begin{scriptsize}\[
+\left[\begin{array}{ll}
+-\text{\boldmath$\alpha${\bf y}} & \text{flex}:=\text{y}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha${\bf y}x} & \text{flex}:=\text{ych}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha${\bf y}m} & \text{flex}:=\text{ym}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha${\bf y}m$'$i} & \text{flex}:=\text{ymi}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha${\bf e}} & \text{flex}:=\text{e}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha${\bf e}go} & \text{flex}:=\text{ego}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha${\bf e}j} & \text{flex}:=\text{ej}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha${\bf e}m} & \text{flex}:=\text{em}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha${\bf e}mu} & \text{flex}:=\text{emu}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha$a} & \text{flex}:=\text{a}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha$ax} & \text{flex}:=\text{ach}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha$am$'$i} & \text{flex}:=\text{ami}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha$ą} & \text{flex}:=\text{ą}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha$ę} & \text{flex}:=\text{ę}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha$o} & \text{flex}:=\text{o}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha$om} & \text{flex}:=\text{om}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha$ov$'$i} & \text{flex}:=\text{owi}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha$ov$'$e} & \text{flex}:=\text{owie}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha$óv} & \text{flex}:=\text{ów}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha_1$u} & \text{flex}:=\text{u}, \downarrow, \leftarrow, \text{noun}\\
+-\text{\boldmath$\alpha_2$u} & \text{flex}:=\text{u}, \downarrow, \rightarrow, \text{noun}\\
+-\text{\boldmath$\alpha$um} & \text{flex}:=\text{um}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha${\bf i}} & \text{flex}:=\text{i}, \downarrow, \text{noun}\\
+-\text{\boldmath$\alpha${\bf ie}$_1$} & \text{flex}:=\text{ie}, \downarrow, \leftarrow, \text{noun}\\
+-\text{\boldmath$\alpha${\bf ie}$_2$} & \text{flex}:=\text{ie}, \downarrow, \rightarrow, \text{noun}\\
+-\text{\boldmath$\alpha\varepsilon$} & \text{flex}:=\text{$\varepsilon$}, \downarrow, \text{noun}\\
+\star-\text{\boldmath$\alpha\varepsilon$m$'$i} & \text{flex}:=\text{ami}, \downarrow, \text{noun}\\
+D-\text{\boldmath$\alpha${\bf e}m} & \text{flex}:=\text{ym}, \downarrow, \text{noun}\\
+D-\text{\boldmath$\alpha${\bf e}m$'$i} & \text{flex}:=\text{ymi}, \downarrow, \text{noun}\\
+D-\text{\boldmath$\alpha$om} & \text{flex}:=\text{ą}, \text{noun}\\
+D-\text{\boldmath$\alpha$o} & \text{flex}:=\text{ą}, \text{noun}\\
+D-\text{\boldmath$\alpha${\bf e}} & \text{flex}:=\text{ę}, \text{noun}\\
+D-\text{\boldmath$\alpha$om$'$i} & \text{flex}:=\text{ami}, \downarrow, \text{noun}\\
+D-\text{\boldmath$\alpha$amy} & \text{flex}:=\text{ami}, \downarrow, \text{noun}\\
+D-\text{\boldmath$\alpha$ox} & \text{flex}:=\text{ach}, \downarrow, \text{noun}\\
+D-\text{\boldmath$\alpha${\bf y}ma} & \text{flex}:=\text{ami}, \downarrow, \text{noun}
+\end{array}\right] \otimes \left[\begin{array}{ll}
++\text{\boldmath$\alpha${\bf y}} & \text{lemma}:=\text{y}\\
++\text{\boldmath$\alpha${\bf e}} & \text{lemma}:=\text{e}\\
++\text{\boldmath$\alpha$a} & \text{lemma}:=\text{a}\\
++\text{\boldmath$\alpha$o} & \text{lemma}:=\text{o}\\
++\text{\boldmath$\alpha$ov$'$e} & \text{lemma}:=\text{owie}\\
++\text{\boldmath$\alpha$um} & \text{lemma}:=\text{um}\\
+\star+\text{\boldmath$\alpha$us} & \text{lemma}:=\text{us}\\
++\text{\boldmath$\alpha${\bf i}} & \text{lemma}:=\text{i}\\
++\text{\boldmath$\alpha\varepsilon$} & \text{lemma}:=\text{$\varepsilon$}
+\end{array}\right]
+\]\end{scriptsize}
+
+\begin{scriptsize}\[
+\left[\begin{array}{ll}
+-\text{\boldmath$\alpha'$ę} & \text{flex}:=\text{ę}, \text{noun}\\
+-\text{\boldmath$\alpha'$ęt$'$a} & \text{flex}:=\text{ęcia}, \text{noun}\\
+-\text{\boldmath$\alpha'$ęt$'$u} & \text{flex}:=\text{ęciu}, \text{noun}\\
+-\text{\boldmath$\alpha'$ęt$'$em} & \text{flex}:=\text{ęciem}, \text{noun}\\
+-\text{\boldmath$\alpha'$ęta} & \text{flex}:=\text{ęta}, \text{noun}\\
+-\text{\boldmath$\alpha'$ąt} & \text{flex}:=\text{ąt}, \text{noun}\\
+-\text{\boldmath$\alpha'$ętom} & \text{flex}:=\text{ętom}, \text{noun}\\
+-\text{\boldmath$\alpha'$ętam$'$i} & \text{flex}:=\text{ętam$'$i}, \text{noun}\\
+-\text{\boldmath$\alpha'$ętax} & \text{flex}:=\text{ętach}, \text{noun}
+\end{array}\right] \otimes \left[\begin{array}{ll}
++\text{\boldmath$\alpha'$ę} & \text{lemma}:=\text{ę}
+\end{array}\right]
+\]\end{scriptsize}
+
+\begin{scriptsize}\[
+\left[\begin{array}{ll}
+-\text{an$'$e} & \text{flex}:=\text{anie}, \text{noun}\\
+-\text{an} & \text{flex}:=\text{an}, \text{noun}\\
+-\text{anom} & \text{flex}:=\text{anom}, \text{noun}\\
+-\text{anóv} & \text{flex}:=\text{anów}, \text{noun}\\
+-\text{anam$'$i} & \text{flex}:=\text{anami}, \text{noun}\\
+-\text{anax} & \text{flex}:=\text{anach}, \text{noun}\\
+-\text{any} & \text{flex}:=\text{any}, \text{noun}
+\end{array}\right] \otimes \left[\begin{array}{ll}
++\text{an$'$in} & \text{lemma}:=\text{anin}
+\end{array}\right]
+\]\end{scriptsize}
+
+\begin{scriptsize}\[
+\left[\begin{array}{ll}
+-\text{m$'$ę} & \text{flex}:=\text{mię}, \text{noun}\\
+-\text{m$'$en$'$a} & \text{flex}:=\text{mienia}, \text{noun}\\
+-\text{m$'$en$'$u} & \text{flex}:=\text{mieniu}, \text{noun}\\
+-\text{m$'$en$'$em} & \text{flex}:=\text{mieniem}, \text{noun}\\
+-\text{m$'$ona} & \text{flex}:=\text{miona}, \text{noun}\\
+-\text{m$'$on} & \text{flex}:=\text{mion}, \text{noun}\\
+-\text{m$'$onom} & \text{flex}:=\text{mionom}, \text{noun}\\
+-\text{m$'$onam$'$i} & \text{flex}:=\text{mionami}, \text{noun}\\
+-\text{m$'$onax} & \text{flex}:=\text{mionach}, \text{noun}
+\end{array}\right] \otimes \left[\begin{array}{ll}
++\text{m$'$ę} & \text{lemma}:=\text{mię}
+\end{array}\right]
+\]\end{scriptsize}
+
+\begin{scriptsize}\[
+\left[\begin{array}{ll}
+-\text{o} & \text{flex}:=\text{o}, \text{noun}\\
+-\text{ona} & \text{flex}:=\text{ona}, \text{noun}\\
+-\text{onov$'$i} & \text{flex}:=\text{onowi}, \text{noun}\\
+-\text{onem} & \text{flex}:=\text{onem}, \text{noun}\\
+-\text{on$'$e} & \text{flex}:=\text{onie}, \text{noun}\\
+-\text{onov$'$e} & \text{flex}:=\text{onowie}, \text{noun}\\
+-\text{ony} & \text{flex}:=\text{ony}, \text{noun}\\
+-\text{onóv} & \text{flex}:=\text{onów}, \text{noun}\\
+-\text{onom} & \text{flex}:=\text{onom}, \text{noun}\\
+-\text{onam$'$i} & \text{flex}:=\text{onami}, \text{noun}\\
+-\text{onax} & \text{flex}:=\text{onach}, \text{noun}
+\end{array}\right] \otimes \left[\begin{array}{ll}
++\text{o} & \text{lemma}:=\text{o(n)}
+\end{array}\right]
+\]\end{scriptsize}
+
+\begin{scriptsize}\[
+\left[\begin{array}{ll}
+-\text{stvo} & \text{flex}:=\text{stwo}, \text{noun}\\
+-\text{stva} & \text{flex}:=\text{stwa}, \text{noun}\\
+-\text{stvu} & \text{flex}:=\text{stwu}, \text{noun}\\
+-\text{stvo} & \text{flex}:=\text{stwo}, \text{noun}\\
+-\text{stvem} & \text{flex}:=\text{stwem}, \text{noun}
+\end{array}\right] \otimes \left[\begin{array}{ll}
++\text{stwo} & \text{lemma}:=\text{stwo}
+\end{array}\right]
+\]\end{scriptsize}
+
+\begin{scriptsize}\[
+\left[\begin{array}{ll}
+-\text{\boldmath$\iota$n$'$i} & \text{flex}:=\text{ni}, \text{noun}\\
+-\text{\boldmath$\iota$n$'$ą} & \text{flex}:=\text{nią}, \text{noun}\\
+-\text{\boldmath$\iota$n$'$ę} & \text{flex}:=\text{nię}, \text{noun}\\
+-\text{\boldmath$\iota$n$'$e} & \text{flex}:=\text{nie}, \text{noun}\\
+-\text{\boldmath$\iota$n$'$} & \text{flex}:=\text{ń}, \text{noun}\\
+-\text{\boldmath$\iota$n$'$ax} & \text{flex}:=\text{niach}, \text{noun}\\
+-\text{\boldmath$\iota$n$'$om} & \text{flex}:=\text{niom}, \text{noun}\\
+-\text{\boldmath$\iota$n$'$am$'$i} & \text{flex}:=\text{niami}, \text{noun}
+\end{array}\right] \otimes \left[\begin{array}{ll}
++\text{n$'$i} & \text{lemma}:=\text{ni}
+\end{array}\right]
+\]\end{scriptsize}
+
+\begin{scriptsize}\[\hspace{-2cm}
+\left[\begin{array}{ll}
+\varepsilon- & \text{pref}:=\text{$\varepsilon$}\\
+\text{n$'$e}- & \text{pref}:=\text{nie}
+\end{array}\right] \otimes \left[\begin{array}{ll}
+-\varepsilon & \text{flex}:=\text{$\varepsilon$}, \text{flex2}:=\text{$\varepsilon$}\\
+-\text{my} & \text{flex}:=\text{my}, \text{flex2}:=\text{$\varepsilon$}\\
+-\text{t$'$e} & \text{flex}:=\text{cie}, \text{flex2}:=\text{$\varepsilon$}\\
+-\text{š} & \text{flex}:=\text{sz}, \text{flex2}:=\text{$\varepsilon$}\\
+D-\text{m} & \text{flex}:=\text{my}, \text{flex2}:=\text{$\varepsilon$}\\
+D-\text{s} & \text{flex}:=\text{sz}, \text{flex2}:=\text{$\varepsilon$}\\
+-\text{\boldmath$\beta${\bf ł}šy} & \text{flex}:=\text{szy}, \text{flex2}:=\text{ł}\\
+-\text{\boldmath$\beta${\bf ł}} & \text{flex}:=\text{$\varepsilon$}, \text{flex2}:=\text{ł}\\
+-\text{ł} & \text{flex}:=\text{$\varepsilon$}, \text{flex2}:=\text{ł}\\
+-\text{ła} & \text{flex}:=\text{a}, \text{flex2}:=\text{ł}\\
+-\text{ło} & \text{flex}:=\text{o}, \text{flex2}:=\text{ł}\\
+-\text{ły} & \text{flex}:=\text{y}, \text{flex2}:=\text{ł}\\
+-\text{\boldmath$\beta${\bf li}} & \text{flex}:=\text{i}, \text{flex2}:=\text{ł}\\
+-\text{tyx} & \text{flex}:=\text{ych}, \text{flex2}:=\text{t}\\
+-\text{tym} & \text{flex}:=\text{ym}, \text{flex2}:=\text{t}\\
+-\text{tym$'$i} & \text{flex}:=\text{ymi}, \text{flex2}:=\text{t}\\
+-\text{te} & \text{flex}:=\text{e}, \text{flex2}:=\text{t}\\
+-\text{ty} & \text{flex}:=\text{y}, \text{flex2}:=\text{t}\\
+-\text{tą} & \text{flex}:=\text{ą}, \text{flex2}:=\text{t}\\
+-\text{ta} & \text{flex}:=\text{a}, \text{flex2}:=\text{t}\\
+-\text{to} & \text{flex}:=\text{o}, \text{flex2}:=\text{t}\\
+-\text{tego} & \text{flex}:=\text{ego}, \text{flex2}:=\text{t}\\
+-\text{temu} & \text{flex}:=\text{emu}, \text{flex2}:=\text{t}\\
+-\text{tej} & \text{flex}:=\text{ej}, \text{flex2}:=\text{t}\\
+-\text{t$'$i} & \text{flex}:=\text{i}, \text{flex2}:=\text{t}\\
+D-\text{to} & \text{flex}:=\text{ą}, \text{flex2}:=\text{t}\\
+D-\text{tom} & \text{flex}:=\text{ą}, \text{flex2}:=\text{t}\\
+D-\text{tem} & \text{flex}:=\text{ym}, \text{flex2}:=\text{t}\\
+D-\text{tem$'$i} & \text{flex}:=\text{ymi}, \text{flex2}:=\text{t}\\
+-\text{t$'$om} & \text{flex}:=\text{om}, \text{flex2}:=\text{ć}\\
+-\text{t$'$am$'$i} & \text{flex}:=\text{ami}, \text{flex2}:=\text{ć}\\
+-\text{t$'$ax} & \text{flex}:=\text{ach}, \text{flex2}:=\text{ć}\\
+-\text{t$'$e} & \text{flex}:=\text{e}, \text{flex2}:=\text{ć}\\
+-\text{t$'$a} & \text{flex}:=\text{a}, \text{flex2}:=\text{ć}\\
+-\text{t$'$u} & \text{flex}:=\text{u}, \text{flex2}:=\text{ć}\\
+-\text{t$'$em} & \text{flex}:=\text{em}, \text{flex2}:=\text{ć}\\
+-\text{t$'$} & \text{flex}:=\text{$\varepsilon$}, \text{flex2}:=\text{ć}\\
+D-\text{t$'$om$'$i} & \text{flex}:=\text{ami}, \text{flex2}:=\text{ć}\\
+D-\text{t$'$amy} & \text{flex}:=\text{ami}, \text{flex2}:=\text{ć}\\
+D-\text{t$'$ox} & \text{flex}:=\text{ach}, \text{flex2}:=\text{ć}\\
+\star-\text{\boldmath$\beta${\bf t}$'$} & \text{flex}:=\text{$\varepsilon$}, \text{flex2}:=\text{ć}\\
+-\text{všy} & \text{flex}:=\text{szy}, \text{flex2}:=\text{w}
+\end{array}\right] \otimes \left[\begin{array}{ll}
+-\text{a} & \text{group}:=\text{a}, \text{verb}\\
+-\text{u} & \text{group}:=\text{u}, \text{verb}\\
+-\text{\boldmath$\alpha${\bf y}} & \text{group}:=\text{y}, \text{verb}\\
+-\text{uje} & \text{group}:=\text{uje}, \text{verb}\\
+-\text{eje} & \text{group}:=\text{eje}, \text{verb}\\
+-\text{aje} & \text{group}:=\text{aje}, \text{verb}\\
+-\text{\boldmath$\alpha${\bf y}je} & \text{group}:=\text{yje}, \text{verb}\\
+-\text{uj} & \text{group}:=\text{uj}, \text{verb}\\
+-\text{ej} & \text{group}:=\text{ej}, \text{verb}\\
+-\text{aj} & \text{group}:=\text{aj}, \text{verb}\\
+-\text{\boldmath$\alpha${\bf y}j} & \text{group}:=\text{yj}, \text{verb}\\
+D-\text{o} & \text{group}:=\text{a}, \text{verb}\\
+D-\text{oje} & \text{group}:=\text{aje}, \text{verb}\\
+D-\text{oj} & \text{group}:=\text{aj}, \text{verb}\\
+-\text{\boldmath$\gamma\varepsilon$} & \text{group}:=\text{J$\varepsilon$}, \text{verb}\\
+-\text{\boldmath$\gamma$e} & \text{group}:=\text{Je}, \text{verb}\\
+-\text{\boldmath$\gamma$} & \text{group}:=\text{J}, \text{verb}
+\end{array}\right] \otimes \left[\begin{array}{ll}
++\text{ovat$'$} & \text{lemma}:=\text{ować}\\
++\text{yvat$'$} & \text{lemma}:=\text{ywać}\\
++\text{avat$'$} & \text{lemma}:=\text{awać}\\
++\text{at$'$} & \text{lemma}:=\text{ać}\\
++\text{ut$'$} & \text{lemma}:=\text{uć}\\
++\text{yt$'$} & \text{lemma}:=\text{yć}
+\end{array}\right]
+\]\end{scriptsize}
+
+\begin{scriptsize}\[\hspace{-2cm}
+\left[\begin{array}{ll}
+\varepsilon- & \text{pref}:=\text{$\varepsilon$}\\
+\text{n$'$e}- & \text{pref}:=\text{nie}
+\end{array}\right] \otimes \left[\begin{array}{ll}
+-\text{{\bf a}m} & \text{flex}:=\text{m}, \text{flex2}:=\text{$\varepsilon$}\\
+-\text{ą} & \text{flex}:=\text{ą}, \text{flex2}:=\text{$\varepsilon$}\\
+-\text{ę} & \text{flex}:=\text{ę}, \text{flex2}:=\text{$\varepsilon$}\\
+D-\text{o} & \text{flex}:=\text{ą}, \text{flex2}:=\text{$\varepsilon$}\\
+D-\text{om} & \text{flex}:=\text{ą}, \text{flex2}:=\text{$\varepsilon$}\\
+D-\text{e} & \text{flex}:=\text{ę}, \text{flex2}:=\text{$\varepsilon$}\\
+-\text{nyx} & \text{flex}:=\text{ych}, \text{flex2}:=\text{n}\\
+-\text{nym} & \text{flex}:=\text{ym}, \text{flex2}:=\text{n}\\
+-\text{nym$'$i} & \text{flex}:=\text{ymi}, \text{flex2}:=\text{n}\\
+-\text{ne} & \text{flex}:=\text{e}, \text{flex2}:=\text{n}\\
+-\text{ny} & \text{flex}:=\text{y}, \text{flex2}:=\text{n}\\
+-\text{ną} & \text{flex}:=\text{ą}, \text{flex2}:=\text{n}\\
+-\text{na} & \text{flex}:=\text{a}, \text{flex2}:=\text{n}\\
+-\text{no} & \text{flex}:=\text{o}, \text{flex2}:=\text{n}\\
+-\text{nego} & \text{flex}:=\text{ego}, \text{flex2}:=\text{n}\\
+-\text{nemu} & \text{flex}:=\text{emu}, \text{flex2}:=\text{n}\\
+-\text{nej} & \text{flex}:=\text{ej}, \text{flex2}:=\text{n}\\
+-\text{\boldmath$\nu$n$'$i} & \text{flex}:=\text{i}, \text{flex2}:=\text{n}\\
+D-\text{no} & \text{flex}:=\text{ą}, \text{flex2}:=\text{n}\\
+D-\text{nom} & \text{flex}:=\text{ą}, \text{flex2}:=\text{n}\\
+D-\text{nem} & \text{flex}:=\text{ym}, \text{flex2}:=\text{n}\\
+D-\text{nem$'$i} & \text{flex}:=\text{ymi}, \text{flex2}:=\text{n}\\
+-\text{n$'$om} & \text{flex}:=\text{om}, \text{flex2}:=\text{ń}\\
+-\text{n$'$am$'$i} & \text{flex}:=\text{ami}, \text{flex2}:=\text{ń}\\
+-\text{n$'$ax} & \text{flex}:=\text{ach}, \text{flex2}:=\text{ń}\\
+-\text{n$'$e} & \text{flex}:=\text{e}, \text{flex2}:=\text{ń}\\
+-\text{n$'$a} & \text{flex}:=\text{a}, \text{flex2}:=\text{ń}\\
+-\text{n$'$u} & \text{flex}:=\text{u}, \text{flex2}:=\text{ń}\\
+-\text{n$'$em} & \text{flex}:=\text{em}, \text{flex2}:=\text{ń}\\
+-\text{n$'$} & \text{flex}:=\text{$\varepsilon$}, \text{flex2}:=\text{ń}\\
+D-\text{n$'$om$'$i} & \text{flex}:=\text{ami}, \text{flex2}:=\text{ń}\\
+D-\text{n$'$amy} & \text{flex}:=\text{ami}, \text{flex2}:=\text{ń}\\
+D-\text{n$'$ox} & \text{flex}:=\text{ach}, \text{flex2}:=\text{ń}\\
+-\text{ącyx} & \text{flex}:=\text{ych}, \text{flex2}:=\text{ąc}\\
+-\text{ącym} & \text{flex}:=\text{ym}, \text{flex2}:=\text{ąc}\\
+-\text{ącym$'$i} & \text{flex}:=\text{ymi}, \text{flex2}:=\text{ąc}\\
+-\text{ące} & \text{flex}:=\text{e}, \text{flex2}:=\text{ąc}\\
+-\text{ąco} & \text{flex}:=\text{o}, \text{flex2}:=\text{ąc}\\
+-\text{ący} & \text{flex}:=\text{y}, \text{flex2}:=\text{ąc}\\
+-\text{ącą} & \text{flex}:=\text{ą}, \text{flex2}:=\text{ąc}\\
+-\text{ąca} & \text{flex}:=\text{a}, \text{flex2}:=\text{ąc}\\
+-\text{ącego} & \text{flex}:=\text{ego}, \text{flex2}:=\text{ąc}\\
+-\text{ącemu} & \text{flex}:=\text{emu}, \text{flex2}:=\text{ąc}\\
+-\text{ącej} & \text{flex}:=\text{ej}, \text{flex2}:=\text{ąc}\\
+-\text{ąc} & \text{flex}:=\text{$\varepsilon$}, \text{flex2}:=\text{ąc}\\
+D-\text{ącom} & \text{flex}:=\text{ą}, \text{flex2}:=\text{ąc}\\
+D-\text{ąco} & \text{flex}:=\text{ą}, \text{flex2}:=\text{ąc}\\
+D-\text{ącem} & \text{flex}:=\text{ym}, \text{flex2}:=\text{ąc}\\
+D-\text{ącem$'$i} & \text{flex}:=\text{ymi}, \text{flex2}:=\text{ąc}
+\end{array}\right] \otimes \left[\begin{array}{ll}
+-\text{a} & \text{group}:=\text{a}, \text{verb}\\
+-\text{u} & \text{group}:=\text{u}, \text{verb}\\
+-\text{\boldmath$\alpha${\bf y}} & \text{group}:=\text{y}, \text{verb}\\
+-\text{uje} & \text{group}:=\text{uje}, \text{verb}\\
+-\text{eje} & \text{group}:=\text{eje}, \text{verb}\\
+-\text{aje} & \text{group}:=\text{aje}, \text{verb}\\
+-\text{\boldmath$\alpha${\bf y}je} & \text{group}:=\text{yje}, \text{verb}\\
+-\text{uj} & \text{group}:=\text{uj}, \text{verb}\\
+-\text{ej} & \text{group}:=\text{ej}, \text{verb}\\
+-\text{aj} & \text{group}:=\text{aj}, \text{verb}\\
+-\text{\boldmath$\alpha${\bf y}j} & \text{group}:=\text{yj}, \text{verb}\\
+D-\text{o} & \text{group}:=\text{a}, \text{verb}\\
+D-\text{oje} & \text{group}:=\text{aje}, \text{verb}\\
+D-\text{oj} & \text{group}:=\text{aj}, \text{verb}\\
+-\text{\boldmath$\gamma\varepsilon$} & \text{group}:=\text{J$\varepsilon$}, \text{verb}\\
+-\text{\boldmath$\gamma$e} & \text{group}:=\text{Je}, \text{verb}\\
+-\text{\boldmath$\gamma$} & \text{group}:=\text{J}, \text{verb}
+\end{array}\right] \otimes \left[\begin{array}{ll}
++\text{ovat$'$} & \text{lemma}:=\text{ować}\\
++\text{yvat$'$} & \text{lemma}:=\text{ywać}\\
++\text{avat$'$} & \text{lemma}:=\text{awać}\\
++\text{at$'$} & \text{lemma}:=\text{ać}\\
++\text{ut$'$} & \text{lemma}:=\text{uć}\\
++\text{yt$'$} & \text{lemma}:=\text{yć}
+\end{array}\right]
+\]\end{scriptsize}
+
+\begin{scriptsize}\[\hspace{-2cm}
+\left[\begin{array}{ll}
+\varepsilon- & \text{pref}:=\text{$\varepsilon$}\\
+\text{n$'$e}- & \text{pref}:=\text{nie}
+\end{array}\right] \otimes \left[\begin{array}{ll}
+-\varepsilon & \text{flex}:=\text{$\varepsilon$}, \text{flex2}:=\text{$\varepsilon$}\\
+-\text{my} & \text{flex}:=\text{my}, \text{flex2}:=\text{$\varepsilon$}\\
+-\text{t$'$e} & \text{flex}:=\text{cie}, \text{flex2}:=\text{$\varepsilon$}\\
+-\text{š} & \text{flex}:=\text{sz}, \text{flex2}:=\text{$\varepsilon$}\\
+D-\text{m} & \text{flex}:=\text{my}, \text{flex2}:=\text{$\varepsilon$}\\
+D-\text{s} & \text{flex}:=\text{sz}, \text{flex2}:=\text{$\varepsilon$}\\
+-\text{\boldmath$\beta${\bf ł}šy} & \text{flex}:=\text{szy}, \text{flex2}:=\text{ł}\\
+-\text{\boldmath$\beta${\bf ł}} & \text{flex}:=\text{$\varepsilon$}, \text{flex2}:=\text{ł}\\
+-\text{ł} & \text{flex}:=\text{$\varepsilon$}, \text{flex2}:=\text{ł}\\
+-\text{ła} & \text{flex}:=\text{a}, \text{flex2}:=\text{ł}\\
+-\text{ło} & \text{flex}:=\text{o}, \text{flex2}:=\text{ł}\\
+-\text{ły} & \text{flex}:=\text{y}, \text{flex2}:=\text{ł}\\
+-\text{\boldmath$\beta${\bf li}} & \text{flex}:=\text{i}, \text{flex2}:=\text{ł}\\
+-\text{tyx} & \text{flex}:=\text{ych}, \text{flex2}:=\text{t}\\
+-\text{tym} & \text{flex}:=\text{ym}, \text{flex2}:=\text{t}\\
+-\text{tym$'$i} & \text{flex}:=\text{ymi}, \text{flex2}:=\text{t}\\
+-\text{te} & \text{flex}:=\text{e}, \text{flex2}:=\text{t}\\
+-\text{ty} & \text{flex}:=\text{y}, \text{flex2}:=\text{t}\\
+-\text{tą} & \text{flex}:=\text{ą}, \text{flex2}:=\text{t}\\
+-\text{ta} & \text{flex}:=\text{a}, \text{flex2}:=\text{t}\\
+-\text{to} & \text{flex}:=\text{o}, \text{flex2}:=\text{t}\\
+-\text{tego} & \text{flex}:=\text{ego}, \text{flex2}:=\text{t}\\
+-\text{temu} & \text{flex}:=\text{emu}, \text{flex2}:=\text{t}\\
+-\text{tej} & \text{flex}:=\text{ej}, \text{flex2}:=\text{t}\\
+-\text{t$'$i} & \text{flex}:=\text{i}, \text{flex2}:=\text{t}\\
+D-\text{to} & \text{flex}:=\text{ą}, \text{flex2}:=\text{t}\\
+D-\text{tom} & \text{flex}:=\text{ą}, \text{flex2}:=\text{t}\\
+D-\text{tem} & \text{flex}:=\text{ym}, \text{flex2}:=\text{t}\\
+D-\text{tem$'$i} & \text{flex}:=\text{ymi}, \text{flex2}:=\text{t}\\
+-\text{t$'$om} & \text{flex}:=\text{om}, \text{flex2}:=\text{ć}\\
+-\text{t$'$am$'$i} & \text{flex}:=\text{ami}, \text{flex2}:=\text{ć}\\
+-\text{t$'$ax} & \text{flex}:=\text{ach}, \text{flex2}:=\text{ć}\\
+-\text{t$'$e} & \text{flex}:=\text{e}, \text{flex2}:=\text{ć}\\
+-\text{t$'$a} & \text{flex}:=\text{a}, \text{flex2}:=\text{ć}\\
+-\text{t$'$u} & \text{flex}:=\text{u}, \text{flex2}:=\text{ć}\\
+-\text{t$'$em} & \text{flex}:=\text{em}, \text{flex2}:=\text{ć}\\
+-\text{t$'$} & \text{flex}:=\text{$\varepsilon$}, \text{flex2}:=\text{ć}\\
+D-\text{t$'$om$'$i} & \text{flex}:=\text{ami}, \text{flex2}:=\text{ć}\\
+D-\text{t$'$amy} & \text{flex}:=\text{ami}, \text{flex2}:=\text{ć}\\
+D-\text{t$'$ox} & \text{flex}:=\text{ach}, \text{flex2}:=\text{ć}\\
+\star-\text{\boldmath$\beta${\bf t}$'$} & \text{flex}:=\text{$\varepsilon$}, \text{flex2}:=\text{ć}\\
+-\text{všy} & \text{flex}:=\text{szy}, \text{flex2}:=\text{w}
+\end{array}\right] \otimes \left[\begin{array}{ll}
+-\text{\boldmath$\alpha'${\bf y}} & \text{group}:=\text{y}, \text{verb}\\
+-\text{\boldmath$\alpha'$e} & \text{group}:=\text{e}, \text{verb}\\
+-\text{\boldmath$\alpha'$eje} & \text{group}:=\text{eje}, \text{verb}\\
+-\text{\boldmath$\alpha'$ej} & \text{group}:=\text{ej}, \text{verb}\\
+-\text{\boldmath$\alpha'${\bf y}j} & \text{group}:=\text{yj}, \text{verb}\\
+-\text{\boldmath$\alpha'\varepsilon$} & \text{group}:=\text{$\varepsilon$}, \text{verb}\\
+-\text{\boldmath$\alpha'$a} & \text{group}:=\text{a}, \text{verb}\\
+D-\text{\boldmath$\alpha'$o} & \text{group}:=\text{a}, \text{verb}
+\end{array}\right] \otimes \left[\begin{array}{ll}
++\boldmath\alpha'{\bf y}\text{t$'$} & \text{lemma}:=\text{palat-ć}\\
++\boldmath\alpha'\text{et$'$} & \text{lemma}:=\text{palat-eć}
+\end{array}\right]
+\]\end{scriptsize}
+
+\begin{scriptsize}\[\hspace{-2cm}
+\left[\begin{array}{ll}
+\varepsilon- & \text{pref}:=\text{$\varepsilon$}\\
+\text{n$'$e}- & \text{pref}:=\text{nie}
+\end{array}\right] \otimes \left[\begin{array}{ll}
+-\text{{\bf a}m} & \text{flex}:=\text{m}, \text{flex2}:=\text{$\varepsilon$}\\
+-\text{ą} & \text{flex}:=\text{ą}, \text{flex2}:=\text{$\varepsilon$}\\
+-\text{ę} & \text{flex}:=\text{ę}, \text{flex2}:=\text{$\varepsilon$}\\
+D-\text{o} & \text{flex}:=\text{ą}, \text{flex2}:=\text{$\varepsilon$}\\
+D-\text{om} & \text{flex}:=\text{ą}, \text{flex2}:=\text{$\varepsilon$}\\
+D-\text{e} & \text{flex}:=\text{ę}, \text{flex2}:=\text{$\varepsilon$}\\
+-\text{nyx} & \text{flex}:=\text{ych}, \text{flex2}:=\text{n}\\
+-\text{nym} & \text{flex}:=\text{ym}, \text{flex2}:=\text{n}\\
+-\text{nym$'$i} & \text{flex}:=\text{ymi}, \text{flex2}:=\text{n}\\
+-\text{ne} & \text{flex}:=\text{e}, \text{flex2}:=\text{n}\\
+-\text{ny} & \text{flex}:=\text{y}, \text{flex2}:=\text{n}\\
+-\text{ną} & \text{flex}:=\text{ą}, \text{flex2}:=\text{n}\\
+-\text{na} & \text{flex}:=\text{a}, \text{flex2}:=\text{n}\\
+-\text{no} & \text{flex}:=\text{o}, \text{flex2}:=\text{n}\\
+-\text{nego} & \text{flex}:=\text{ego}, \text{flex2}:=\text{n}\\
+-\text{nemu} & \text{flex}:=\text{emu}, \text{flex2}:=\text{n}\\
+-\text{nej} & \text{flex}:=\text{ej}, \text{flex2}:=\text{n}\\
+-\text{\boldmath$\nu$n$'$i} & \text{flex}:=\text{i}, \text{flex2}:=\text{n}\\
+D-\text{no} & \text{flex}:=\text{ą}, \text{flex2}:=\text{n}\\
+D-\text{nom} & \text{flex}:=\text{ą}, \text{flex2}:=\text{n}\\
+D-\text{nem} & \text{flex}:=\text{ym}, \text{flex2}:=\text{n}\\
+D-\text{nem$'$i} & \text{flex}:=\text{ymi}, \text{flex2}:=\text{n}\\
+-\text{n$'$om} & \text{flex}:=\text{om}, \text{flex2}:=\text{ń}\\
+-\text{n$'$am$'$i} & \text{flex}:=\text{ami}, \text{flex2}:=\text{ń}\\
+-\text{n$'$ax} & \text{flex}:=\text{ach}, \text{flex2}:=\text{ń}\\
+-\text{n$'$e} & \text{flex}:=\text{e}, \text{flex2}:=\text{ń}\\
+-\text{n$'$a} & \text{flex}:=\text{a}, \text{flex2}:=\text{ń}\\
+-\text{n$'$u} & \text{flex}:=\text{u}, \text{flex2}:=\text{ń}\\
+-\text{n$'$em} & \text{flex}:=\text{em}, \text{flex2}:=\text{ń}\\
+-\text{n$'$} & \text{flex}:=\text{$\varepsilon$}, \text{flex2}:=\text{ń}\\
+D-\text{n$'$om$'$i} & \text{flex}:=\text{ami}, \text{flex2}:=\text{ń}\\
+D-\text{n$'$amy} & \text{flex}:=\text{ami}, \text{flex2}:=\text{ń}\\
+D-\text{n$'$ox} & \text{flex}:=\text{ach}, \text{flex2}:=\text{ń}\\
+-\text{ącyx} & \text{flex}:=\text{ych}, \text{flex2}:=\text{ąc}\\
+-\text{ącym} & \text{flex}:=\text{ym}, \text{flex2}:=\text{ąc}\\
+-\text{ącym$'$i} & \text{flex}:=\text{ymi}, \text{flex2}:=\text{ąc}\\
+-\text{ące} & \text{flex}:=\text{e}, \text{flex2}:=\text{ąc}\\
+-\text{ąco} & \text{flex}:=\text{o}, \text{flex2}:=\text{ąc}\\
+-\text{ący} & \text{flex}:=\text{y}, \text{flex2}:=\text{ąc}\\
+-\text{ącą} & \text{flex}:=\text{ą}, \text{flex2}:=\text{ąc}\\
+-\text{ąca} & \text{flex}:=\text{a}, \text{flex2}:=\text{ąc}\\
+-\text{ącego} & \text{flex}:=\text{ego}, \text{flex2}:=\text{ąc}\\
+-\text{ącemu} & \text{flex}:=\text{emu}, \text{flex2}:=\text{ąc}\\
+-\text{ącej} & \text{flex}:=\text{ej}, \text{flex2}:=\text{ąc}\\
+-\text{ąc} & \text{flex}:=\text{$\varepsilon$}, \text{flex2}:=\text{ąc}\\
+D-\text{ącom} & \text{flex}:=\text{ą}, \text{flex2}:=\text{ąc}\\
+D-\text{ąco} & \text{flex}:=\text{ą}, \text{flex2}:=\text{ąc}\\
+D-\text{ącem} & \text{flex}:=\text{ym}, \text{flex2}:=\text{ąc}\\
+D-\text{ącem$'$i} & \text{flex}:=\text{ymi}, \text{flex2}:=\text{ąc}
+\end{array}\right] \otimes \left[\begin{array}{ll}
+-\text{\boldmath$\alpha'$} & \text{group}:=\text{J}, \text{verb}\\
+-\text{\boldmath$\alpha'$ej} & \text{group}:=\text{J}, \text{verb}\\
+-\text{\boldmath$\zeta$} & \text{group}:=\text{J}, \text{verb}\\
+-\text{\boldmath$\alpha'$e} & \text{group}:=\text{Je}, \text{verb}\\
+-\text{\boldmath$\zeta$e} & \text{group}:=\text{Je}, \text{verb}\\
+-\text{\boldmath$\alpha'$a} & \text{group}:=\text{Ja}, \text{verb}\\
+-\text{\boldmath$\alpha'$o} & \text{group}:=\text{Jo}, \text{verb}\\
+-\text{\boldmath$\zeta$o} & \text{group}:=\text{Jo}, \text{verb}
+\end{array}\right] \otimes \left[\begin{array}{ll}
++\text{t$'$} & \text{lemma}:=\text{palat-ć}\\
++\text{et$'$} & \text{lemma}:=\text{palat-eć}
+\end{array}\right]
+\]\end{scriptsize}
+
+\begin{scriptsize}\[\hspace{-2cm}
+\left[\begin{array}{ll}
+\varepsilon- & \text{pref}:=\text{$\varepsilon$}\\
+\text{n$'$e}- & \text{pref}:=\text{nie}
+\end{array}\right] \otimes \left[\begin{array}{ll}
+-\varepsilon & \text{flex}:=\text{$\varepsilon$}, \text{flex2}:=\text{$\varepsilon$}\\
+-\text{my} & \text{flex}:=\text{my}, \text{flex2}:=\text{$\varepsilon$}\\
+-\text{t$'$e} & \text{flex}:=\text{cie}, \text{flex2}:=\text{$\varepsilon$}\\
+-\text{š} & \text{flex}:=\text{sz}, \text{flex2}:=\text{$\varepsilon$}\\
+D-\text{m} & \text{flex}:=\text{my}, \text{flex2}:=\text{$\varepsilon$}\\
+D-\text{s} & \text{flex}:=\text{sz}, \text{flex2}:=\text{$\varepsilon$}\\
+-\text{\boldmath$\beta${\bf ł}šy} & \text{flex}:=\text{szy}, \text{flex2}:=\text{ł}\\
+-\text{\boldmath$\beta${\bf ł}} & \text{flex}:=\text{$\varepsilon$}, \text{flex2}:=\text{ł}\\
+-\text{ł} & \text{flex}:=\text{$\varepsilon$}, \text{flex2}:=\text{ł}\\
+-\text{ła} & \text{flex}:=\text{a}, \text{flex2}:=\text{ł}\\
+-\text{ło} & \text{flex}:=\text{o}, \text{flex2}:=\text{ł}\\
+-\text{ły} & \text{flex}:=\text{y}, \text{flex2}:=\text{ł}\\
+-\text{\boldmath$\beta${\bf li}} & \text{flex}:=\text{i}, \text{flex2}:=\text{ł}\\
+-\text{tyx} & \text{flex}:=\text{ych}, \text{flex2}:=\text{t}\\
+-\text{tym} & \text{flex}:=\text{ym}, \text{flex2}:=\text{t}\\
+-\text{tym$'$i} & \text{flex}:=\text{ymi}, \text{flex2}:=\text{t}\\
+-\text{te} & \text{flex}:=\text{e}, \text{flex2}:=\text{t}\\
+-\text{ty} & \text{flex}:=\text{y}, \text{flex2}:=\text{t}\\
+-\text{tą} & \text{flex}:=\text{ą}, \text{flex2}:=\text{t}\\
+-\text{ta} & \text{flex}:=\text{a}, \text{flex2}:=\text{t}\\
+-\text{to} & \text{flex}:=\text{o}, \text{flex2}:=\text{t}\\
+-\text{tego} & \text{flex}:=\text{ego}, \text{flex2}:=\text{t}\\
+-\text{temu} & \text{flex}:=\text{emu}, \text{flex2}:=\text{t}\\
+-\text{tej} & \text{flex}:=\text{ej}, \text{flex2}:=\text{t}\\
+-\text{t$'$i} & \text{flex}:=\text{i}, \text{flex2}:=\text{t}\\
+D-\text{to} & \text{flex}:=\text{ą}, \text{flex2}:=\text{t}\\
+D-\text{tom} & \text{flex}:=\text{ą}, \text{flex2}:=\text{t}\\
+D-\text{tem} & \text{flex}:=\text{ym}, \text{flex2}:=\text{t}\\
+D-\text{tem$'$i} & \text{flex}:=\text{ymi}, \text{flex2}:=\text{t}\\
+-\text{t$'$om} & \text{flex}:=\text{om}, \text{flex2}:=\text{ć}\\
+-\text{t$'$am$'$i} & \text{flex}:=\text{ami}, \text{flex2}:=\text{ć}\\
+-\text{t$'$ax} & \text{flex}:=\text{ach}, \text{flex2}:=\text{ć}\\
+-\text{t$'$e} & \text{flex}:=\text{e}, \text{flex2}:=\text{ć}\\
+-\text{t$'$a} & \text{flex}:=\text{a}, \text{flex2}:=\text{ć}\\
+-\text{t$'$u} & \text{flex}:=\text{u}, \text{flex2}:=\text{ć}\\
+-\text{t$'$em} & \text{flex}:=\text{em}, \text{flex2}:=\text{ć}\\
+-\text{t$'$} & \text{flex}:=\text{$\varepsilon$}, \text{flex2}:=\text{ć}\\
+D-\text{t$'$om$'$i} & \text{flex}:=\text{ami}, \text{flex2}:=\text{ć}\\
+D-\text{t$'$amy} & \text{flex}:=\text{ami}, \text{flex2}:=\text{ć}\\
+D-\text{t$'$ox} & \text{flex}:=\text{ach}, \text{flex2}:=\text{ć}\\
+\star-\text{\boldmath$\beta${\bf t}$'$} & \text{flex}:=\text{$\varepsilon$}, \text{flex2}:=\text{ć}\\
+-\text{všy} & \text{flex}:=\text{szy}, \text{flex2}:=\text{w}
+\end{array}\right] \otimes \left[\begin{array}{ll}
+-\text{\boldmath$\eta$n$'$e} & \text{group}:=\text{nie}, \text{verb}\\
+-\text{\boldmath$\eta$ną} & \text{group}:=\text{ną}, \text{verb}\\
+-\text{\boldmath$\eta$n$'$ę} & \text{group}:=\text{nię}, \text{verb}\\
+-\text{\boldmath$\eta$nę} & \text{group}:=\text{nę}, \text{verb}\\
+-\text{\boldmath$\eta$n$'$ij} & \text{group}:=\text{nij}, \text{verb}\\
+-\text{\boldmath$\eta$n} & \text{group}:=\text{n}, \text{verb}\\
+-\text{\boldmath$\eta$} & \text{group}:=\text{$\varepsilon$}, \text{verb}
+\end{array}\right] \otimes \left[\begin{array}{ll}
++\text{\boldmath$\eta$nąt$'$} & \text{lemma}:=\text{nąć}\\
+\star+\text{\boldmath$\beta${\bf t}$'$} & \text{lemma}:=\text{$\varepsilon$ć}
+\end{array}\right]
+\]\end{scriptsize}
+
+\begin{scriptsize}\[\hspace{-2cm}
+\left[\begin{array}{ll}
+\varepsilon- & \text{pref}:=\text{$\varepsilon$}\\
+\text{n$'$e}- & \text{pref}:=\text{nie}
+\end{array}\right] \otimes \left[\begin{array}{ll}
+-\text{{\bf a}m} & \text{flex}:=\text{m}, \text{flex2}:=\text{$\varepsilon$}\\
+-\text{ą} & \text{flex}:=\text{ą}, \text{flex2}:=\text{$\varepsilon$}\\
+-\text{ę} & \text{flex}:=\text{ę}, \text{flex2}:=\text{$\varepsilon$}\\
+D-\text{o} & \text{flex}:=\text{ą}, \text{flex2}:=\text{$\varepsilon$}\\
+D-\text{om} & \text{flex}:=\text{ą}, \text{flex2}:=\text{$\varepsilon$}\\
+D-\text{e} & \text{flex}:=\text{ę}, \text{flex2}:=\text{$\varepsilon$}\\
+-\text{nyx} & \text{flex}:=\text{ych}, \text{flex2}:=\text{n}\\
+-\text{nym} & \text{flex}:=\text{ym}, \text{flex2}:=\text{n}\\
+-\text{nym$'$i} & \text{flex}:=\text{ymi}, \text{flex2}:=\text{n}\\
+-\text{ne} & \text{flex}:=\text{e}, \text{flex2}:=\text{n}\\
+-\text{ny} & \text{flex}:=\text{y}, \text{flex2}:=\text{n}\\
+-\text{ną} & \text{flex}:=\text{ą}, \text{flex2}:=\text{n}\\
+-\text{na} & \text{flex}:=\text{a}, \text{flex2}:=\text{n}\\
+-\text{no} & \text{flex}:=\text{o}, \text{flex2}:=\text{n}\\
+-\text{nego} & \text{flex}:=\text{ego}, \text{flex2}:=\text{n}\\
+-\text{nemu} & \text{flex}:=\text{emu}, \text{flex2}:=\text{n}\\
+-\text{nej} & \text{flex}:=\text{ej}, \text{flex2}:=\text{n}\\
+-\text{\boldmath$\nu$n$'$i} & \text{flex}:=\text{i}, \text{flex2}:=\text{n}\\
+D-\text{no} & \text{flex}:=\text{ą}, \text{flex2}:=\text{n}\\
+D-\text{nom} & \text{flex}:=\text{ą}, \text{flex2}:=\text{n}\\
+D-\text{nem} & \text{flex}:=\text{ym}, \text{flex2}:=\text{n}\\
+D-\text{nem$'$i} & \text{flex}:=\text{ymi}, \text{flex2}:=\text{n}\\
+-\text{n$'$om} & \text{flex}:=\text{om}, \text{flex2}:=\text{ń}\\
+-\text{n$'$am$'$i} & \text{flex}:=\text{ami}, \text{flex2}:=\text{ń}\\
+-\text{n$'$ax} & \text{flex}:=\text{ach}, \text{flex2}:=\text{ń}\\
+-\text{n$'$e} & \text{flex}:=\text{e}, \text{flex2}:=\text{ń}\\
+-\text{n$'$a} & \text{flex}:=\text{a}, \text{flex2}:=\text{ń}\\
+-\text{n$'$u} & \text{flex}:=\text{u}, \text{flex2}:=\text{ń}\\
+-\text{n$'$em} & \text{flex}:=\text{em}, \text{flex2}:=\text{ń}\\
+-\text{n$'$} & \text{flex}:=\text{$\varepsilon$}, \text{flex2}:=\text{ń}\\
+D-\text{n$'$om$'$i} & \text{flex}:=\text{ami}, \text{flex2}:=\text{ń}\\
+D-\text{n$'$amy} & \text{flex}:=\text{ami}, \text{flex2}:=\text{ń}\\
+D-\text{n$'$ox} & \text{flex}:=\text{ach}, \text{flex2}:=\text{ń}\\
+-\text{ącyx} & \text{flex}:=\text{ych}, \text{flex2}:=\text{ąc}\\
+-\text{ącym} & \text{flex}:=\text{ym}, \text{flex2}:=\text{ąc}\\
+-\text{ącym$'$i} & \text{flex}:=\text{ymi}, \text{flex2}:=\text{ąc}\\
+-\text{ące} & \text{flex}:=\text{e}, \text{flex2}:=\text{ąc}\\
+-\text{ąco} & \text{flex}:=\text{o}, \text{flex2}:=\text{ąc}\\
+-\text{ący} & \text{flex}:=\text{y}, \text{flex2}:=\text{ąc}\\
+-\text{ącą} & \text{flex}:=\text{ą}, \text{flex2}:=\text{ąc}\\
+-\text{ąca} & \text{flex}:=\text{a}, \text{flex2}:=\text{ąc}\\
+-\text{ącego} & \text{flex}:=\text{ego}, \text{flex2}:=\text{ąc}\\
+-\text{ącemu} & \text{flex}:=\text{emu}, \text{flex2}:=\text{ąc}\\
+-\text{ącej} & \text{flex}:=\text{ej}, \text{flex2}:=\text{ąc}\\
+-\text{ąc} & \text{flex}:=\text{$\varepsilon$}, \text{flex2}:=\text{ąc}\\
+D-\text{ącom} & \text{flex}:=\text{ą}, \text{flex2}:=\text{ąc}\\
+D-\text{ąco} & \text{flex}:=\text{ą}, \text{flex2}:=\text{ąc}\\
+D-\text{ącem} & \text{flex}:=\text{ym}, \text{flex2}:=\text{ąc}\\
+D-\text{ącem$'$i} & \text{flex}:=\text{ymi}, \text{flex2}:=\text{ąc}
+\end{array}\right] \otimes \left[\begin{array}{ll}
+-\text{\boldmath$\eta$n$'$e} & \text{group}:=\text{nie}, \text{verb}\\
+-\text{\boldmath$\eta$ną} & \text{group}:=\text{ną}, \text{verb}\\
+-\text{\boldmath$\eta$n$'$ę} & \text{group}:=\text{nię}, \text{verb}\\
+-\text{\boldmath$\eta$nę} & \text{group}:=\text{nę}, \text{verb}\\
+-\text{\boldmath$\eta$n$'$ij} & \text{group}:=\text{nij}, \text{verb}\\
+-\text{\boldmath$\eta$n} & \text{group}:=\text{n}, \text{verb}\\
+-\text{\boldmath$\eta$} & \text{group}:=\text{$\varepsilon$}, \text{verb}
+\end{array}\right] \otimes \left[\begin{array}{ll}
++\text{\boldmath$\eta$nąt$'$} & \text{lemma}:=\text{nąć}\\
+\star+\text{\boldmath$\beta${\bf t}$'$} & \text{lemma}:=\text{$\varepsilon$ć}
+\end{array}\right]
+\]\end{scriptsize}
+
+\subsection{Reguły dla rzeczowników z lematami wygłosowymi}
+
+Tytuły kolumn oznaczają tutaj przedostatnią głoskę, zaś wierszy -- ostatnią.
+
+\begin{longtable}{p{4mm}|p{4mm}p{4mm}p{4mm}p{4mm}p{4mm}p{4mm}p{4mm}p{4mm}p{4mm}}
+ & a & ą & e & ę & i & o & ó & u & y\\
+\hline
+b & ab & ąb & eb & ąb & ib & ob & ób & ub & yb\\
+ &  &  &  & ęb &  & ób &  &  & \\
+\hline
+bi & ab & ąb & eb & ąb &  & ób &  & ub & \\
+\hline
+c & ac & ąc & ec & ęc & ic & oc &  & uc & yc\\
+\hline
+ch & ach & ąch & ech & ęch & ich & och & óch & uch & ych\\
+\hline
+ci & ać & ąć & eć & ęć & ić & oć &  & uć & yc\\
+ &  &  &  &  &  & óć &  &  & yć\\
+\hline
+cz & acz & ącz & ecz & ęcz & icz & ocz & ócz & ucz & ycz\\
+\hline
+dz & adz & ądz & edz & ędz & idz & ódz &  & udz & ydz\\
+\hline
+dzi & adź &  & edź & ądź & idź & odź & ódź & udź & \\
+ &  &  &  & ędź &  & ódź &  &  & \\
+\hline
+dż & adż &  & edż &  & idż & odż &  & udż & ydż\\
+\hline
+f & af &  & ef &  & if & of &  & uf & yf\\
+\hline
+g & ag & ąg & eg & ąg & ig & og &  & ug & yg\\
+ &  &  &  & ęg &  & óg &  &  & \\
+\hline
+gi & ag &  &  & ęg & ig & óg &  & ug & \\
+\hline
+h & ah &  &  &  &  & oh &  & uh & \\
+\hline
+j & aj &  & ej &  & ij & oj & ój & uj & yj\\
+ &  &  &  &  &  & ój &  &  & \\
+\hline
+k & ak & ąk & ek & ąk & ik & ok & ók & uk & yk\\
+ &  &  &  & ęk &  &  &  &  & \\
+\hline
+ki &  &  &  & ąk & ik & ok &  & uk & yk\\
+ &  &  &  & ęk &  &  &  &  & \\
+\hline
+l & al &  & el &  & il & ol & ól & ul & yl\\
+ &  &  &  &  &  & ól &  &  & \\
+\hline
+ł & ał &  & eł &  & ił & oł & ół & uł & ył\\
+ &  &  &  &  &  & ół &  &  & \\
+\hline
+m & am &  & em &  & im & om &  & um & ym\\
+\hline
+mi &  &  & em &  & im & om &  &  & ym\\
+\hline
+n & an &  & en &  & in & on &  & un & yn\\
+\hline
+ni & ań &  & eń &  & iń & oń &  & uń & yń\\
+\hline
+p & ap &  & ep & ęp & ip & op &  & up & yp\\
+ &  &  &  &  &  & óp &  &  & \\
+\hline
+pi & ap & ąp & ep &  & ip & op &  & up & \\
+\hline
+q & aq &  &  &  &  &  &  &  & \\
+\hline
+r & ar &  & er &  & ir & or & ór & ur & yr\\
+ &  &  &  &  &  & ór &  &  & \\
+\hline
+rz & arz &  & erz &  &  & orz & órz & urz & yrz\\
+ &  &  &  &  &  & órz &  &  & \\
+\hline
+s & as & ąs & es & ąs & is & os &  & us & ys\\
+ &  &  &  & ęs &  &  &  &  & \\
+\hline
+si & aś & ąś & eś & ęś & iś & oś &  & uś & yś\\
+\hline
+sz & asz &  & esz &  & isz & osz & ósz & usz & ysz\\
+\hline
+t & at & ąt & et & ąt & it & ot & ót & ut & yt\\
+ &  &  &  & ęt &  & ót &  &  & \\
+\hline
+u & au &  &  &  &  &  &  &  & \\
+\hline
+v & av &  &  &  & iv &  &  &  & \\
+\hline
+w & aw &  & ew &  & iw & ow &  & uw & yw\\
+ &  &  &  &  &  & ów &  &  & \\
+\hline
+wi & aw &  & ew &  &  & ów &  &  & \\
+\hline
+y & ay &  & ey &  &  & oy &  &  & \\
+\hline
+z & az & ąz & ez & ąz & iz & oz &  & uz & yz\\
+ &  &  &  & ęz &  & óz &  &  & \\
+\hline
+zi & aź &  & eź & ąź & iź & oź & óź & uź & yź\\
+ &  &  &  & ęź &  & óź &  &  & \\
+\hline
+ż & aż & ąż & eż & ąż & iż & oż & óż & uż & yż\\
+ &  &  &  & ęż &  & óż &  &  & \\
+\hline
+\end{longtable}
+
+\begin{longtable}{p{4mm}|p{4mm}p{4mm}p{4mm}p{4mm}p{4mm}p{4mm}p{4mm}p{4mm}p{4mm}p{4mm}p{4mm}p{4mm}p{4mm}p{4mm}}
+ & c & ć & cz & dz & dź & dż & j & l & ń & rz & sz & ś & ź & ż\\
+\hline
+b &  & ćb & czb &  & dźb &  & jb & lb & ńb & rzb &  & śb & źb & żb\\
+\hline
+c & cc & ciec & czec &  & dziec &  & jc & lc & ńc & rzec & szec & siec & ziec & żec\\
+ &  &  &  &  &  &  & jec & lec & niec &  &  &  &  & \\
+\hline
+ch &  &  &  &  &  &  &  & lch &  & rzch & szech &  &  & \\
+\hline
+ci &  &  &  &  &  &  &  & lć & ńć &  &  & ść &  & \\
+\hline
+cz &  &  &  &  &  &  & jcz & lcz & ńcz &  & szcz &  &  & \\
+\hline
+dzi &  &  &  &  &  &  &  & ldź & ńdź &  &  &  &  & \\
+\hline
+dż &  &  &  &  &  & dżdż &  &  &  &  &  &  &  & \\
+\hline
+f &  &  &  &  &  &  & jf & lf &  &  &  &  &  & \\
+\hline
+g &  &  &  &  &  &  & jg & lg &  & rzg &  &  &  & \\
+\hline
+h &  &  &  &  &  &  &  & lh &  &  &  &  &  & \\
+\hline
+k & ck & ciek & czek & dzk & dziek & dżek & jk & lk & niek & rzek & szek & siek & ziek & żek\\
+ & cek &  &  & dzek &  &  & jek & lek &  &  &  &  &  & \\
+\hline
+ki & cek & ciek & czek &  &  &  & jek & lek & niek &  & szek & siek &  & żek\\
+\hline
+l & cel &  & czel & dzel &  &  & jl & ll &  &  & szel & śl &  & żel\\
+\hline
+ł & ceł &  &  &  &  &  & jeł &  &  &  &  &  &  & żeł\\
+\hline
+m &  & ćm & czm &  & dźm &  & jm & lm &  & rzm & szem & śm &  & żm\\
+ &  & ciem & czem &  &  &  & jem &  &  & rzem &  &  &  & żem\\
+\hline
+n &  &  & czn &  &  &  & jn & ln &  & rzn & szn & śn & zien & żn\\
+ &  &  & czen &  &  &  & jen & len &  &  & szen & sien &  & żen\\
+\hline
+ni &  &  & czeń &  &  &  & jń & lń &  & rzeń & szeń & śń & źń & żeń\\
+ &  &  &  &  &  &  & jen &  &  &  &  & sien & zień & \\
+ &  &  &  &  &  &  &  &  &  &  &  & sień &  & \\
+\hline
+p & cp &  &  &  &  &  & jp & lp &  &  &  &  &  & \\
+\hline
+q & cq &  &  &  &  &  &  &  &  &  &  &  &  & \\
+\hline
+r & cr &  &  &  &  & dżr & jr &  &  &  &  &  &  & \\
+ &  &  &  &  &  &  & jer &  &  &  &  &  &  & \\
+\hline
+s & cs &  &  &  &  &  & js & ls &  &  &  &  &  & \\
+\hline
+sz &  &  &  &  &  &  & jsz & lsz &  &  &  &  &  & ższ\\
+\hline
+t & ct &  & czt &  &  &  & jt & lt &  & rzt & szt &  &  & \\
+ & cet &  & czet &  &  &  &  &  &  &  &  &  &  & \\
+\hline
+v &  &  &  &  &  &  &  & lv &  &  &  &  &  & \\
+\hline
+w &  & ćw &  &  &  &  & jw & lw &  & rzw & szw &  &  & żw\\
+ &  &  &  &  &  &  &  & lew &  &  & szew &  &  & żew\\
+\hline
+wi &  &  &  &  &  &  &  & lew &  &  &  &  &  & \\
+\hline
+y &  &  &  &  &  &  &  & ly &  &  &  &  &  & \\
+\hline
+z &  &  &  &  &  &  & jz & lz &  &  &  &  &  & \\
+\hline
+ż &  &  &  &  &  &  &  & lż &  &  &  &  &  & \\
+\hline
+\end{longtable}
+
+\begin{longtable}{p{2mm}|p{2mm}p{4mm}p{2mm}p{1mm}p{3mm}p{2mm}p{3mm}p{2mm}p{4mm}p{3mm}p{3mm}p{2mm}p{2mm}p{2mm}p{1mm}p{1mm}p{1mm}p{4mm}}
+ & b & ch & d & f & g & h & k & ł & m & n & p & r & s & t & v & w & x & z\\
+\hline
+b &  &  &  &  &  &  &  & łb & mb &  &  & rb & sb &  &  & wb &  & zb\\
+ &  &  &  &  &  &  &  & łeb &  &  &  & reb &  &  &  &  &  & \\
+\hline
+bi &  &  &  &  &  &  &  & łb &  &  &  &  &  &  &  &  &  & \\
+\hline
+c & biec &  & dc & fiec &  &  &  &  & miec & nc & pc & rc & sc & ciec &  & wc &  & ziec\\
+ &  &  & dec &  &  &  &  &  &  & niec & pec & rzec & sec &  &  & wiec &  & \\
+ &  &  & dziec &  &  &  &  &  &  &  & piec &  & siec &  &  &  &  & \\
+\hline
+ch &  &  &  &  &  &  & kch &  & mech & nch &  & rch & sch & tch &  &  &  & \\
+\hline
+ci & bć & chć &  & fć & gieć &  & kć & łć & mć & nć & pć & rć &  &  &  & wć &  & \\
+ &  & cheć &  &  &  &  & kieć & łeć &  &  & peć &  &  &  &  &  &  & \\
+\hline
+cz &  &  & decz &  &  &  &  & łcz &  & ncz &  & rcz &  &  &  &  &  & \\
+\hline
+dz &  &  &  &  &  &  &  &  &  & ndz &  & rdz &  &  &  &  &  & \\
+\hline
+dzi &  &  &  &  & gdź &  &  &  & mdź & ndź &  & rdź &  &  &  &  &  & \\
+\hline
+dż &  &  &  &  &  &  &  &  &  & ndż &  &  &  &  &  &  &  & \\
+\hline
+f &  &  &  & ff &  &  &  &  & mf & nf & pf & rf &  &  &  &  &  & \\
+\hline
+g &  &  &  &  & gg &  &  & łg & mg & ng &  & rg &  &  &  &  &  & zg\\
+ &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & zeg\\
+\hline
+gi &  &  &  &  &  &  &  &  &  & ng &  &  &  &  &  &  &  & \\
+\hline
+h &  &  & dh &  & gh &  & kh &  &  & nh & ph & rh & sh & th &  &  &  & \\
+\hline
+k & bek & chek & dek & fek &  &  & kk & łk & mek & nk & pek & rk & sk & tek & vek & wk &  & zek\\
+ &  &  &  &  &  &  &  & łek &  & nek &  & rek & sek &  &  & wek &  & \\
+\hline
+ki & bek &  & dek &  &  &  &  & łk &  & nek & pek & rek & sek & tek &  & wek &  & \\
+ &  &  &  &  &  &  &  & łek &  &  &  &  &  &  &  &  &  & \\
+\hline
+l & bl & chel & del & fl & gel & hl & kl &  & ml & nel & pl & rl & sel & tl & vel & wl & xel & zel\\
+ & bel &  &  & fel & giel & hel & kel &  & mel &  & pel &  &  & tel &  & wel &  & \\
+ &  &  &  &  &  &  & kiel &  &  &  &  &  &  &  &  &  &  & \\
+\hline
+ł & bł & cheł & deł &  & gł &  & kieł & łł & mł &  & peł & reł & sł & cieł &  & weł &  & zł\\
+ & beł &  &  &  & gieł &  &  &  &  &  &  & rzeł & seł & teł &  &  &  & zeł\\
+ &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & zieł\\
+\hline
+m &  & chm & dm &  & gm & hm &  & łm & mm &  &  & rm & sm & tm &  &  &  & zm\\
+ &  &  & dem &  &  &  &  &  &  &  &  &  & sem &  &  &  &  & \\
+\hline
+n & bn & chn & dn & fn & gn & hn & kn & łn & mn & nn & pn & rn & sn & tn &  & wn &  & zn\\
+ & ben & chen & den &  & gien & hen & kien & łen & men & nien & pien & ren & sen & cien &  & wien &  & zen\\
+ &  &  &  &  &  &  &  &  & mien &  &  &  & sien &  &  &  &  & \\
+\hline
+ni &  & chen & deń &  & gien &  & kien & łń & mń &  & pń & rń &  & cień &  & wien &  & \\
+ &  & cheń & dzien &  & gień &  &  &  &  &  & pień & reń &  & teń &  & wień &  & \\
+ &  &  & dzień &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \\
+\hline
+p & bp &  &  &  &  &  & kiep & łp & mp &  & pp & rp & sp &  &  &  &  & \\
+ &  &  &  &  &  &  &  &  &  &  &  &  & sep &  &  &  &  & \\
+\hline
+pi &  &  &  &  &  &  &  & łp & mp &  &  & rp &  &  &  &  &  & \\
+\hline
+r & br & chr & dr & fr & gr & hr & kr &  & mr & nr & pr & rr &  & tr &  & wr &  & \\
+ & ber & cher & der & fer & ger &  & kier &  & mer &  & per &  &  & ter &  & wer &  & \\
+ &  &  &  &  & gier &  &  &  &  &  &  &  &  &  &  &  &  & \\
+\hline
+rz & brz & chrz &  &  & gierz &  & kierz &  &  &  & prz &  &  & trz &  &  &  & \\
+ & berz &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \\
+\hline
+s & bs &  & ds &  &  &  & ks &  & ms & ns & ps & rs & ss & ts &  & ws &  & zs\\
+ &  &  &  &  &  &  & x &  &  &  & pies &  &  &  &  & wies &  & \\
+\hline
+si &  &  &  &  &  &  &  &  &  &  &  & rś &  &  &  & wieś &  & \\
+\hline
+sz &  &  &  &  &  &  & ksz & łsz & msz & nsz &  & rsz &  &  &  & wesz &  & \\
+\hline
+t &  & cht & dt & ft & gt & ht & kt & łt &  & nt & pt & rt & st & tt &  &  &  & \\
+ &  &  &  &  &  &  &  &  &  &  &  &  & set &  &  &  &  & \\
+\hline
+w &  & chw & dw &  & gw &  & kw & łw &  & nw &  & rw &  & tw &  &  &  & zw\\
+ &  & chew & dew &  &  &  & kiew &  &  &  &  & rew &  & tew &  &  &  & zew\\
+\hline
+wi &  & chew &  &  & giew &  & kiew & łw &  & new &  & rw &  & tew &  &  &  & zew\\
+ &  &  &  &  &  &  &  &  &  &  &  & rew &  &  &  &  &  & \\
+\hline
+y &  &  &  &  & gy &  &  &  &  &  &  &  &  &  &  &  &  & \\
+\hline
+z & bz &  &  &  & gz &  &  & łz & mz & nz &  &  &  & tz &  &  &  & zz\\
+ & bez &  &  &  & giez &  &  & łez &  &  &  &  &  &  &  &  &  & \\
+\hline
+ż &  &  &  &  & gż &  &  & łż & mż & nż &  & rż &  &  &  &  &  & \\
+ &  &  &  &  &  &  &  & łeż & meż &  &  & reż &  &  &  &  &  & \\
+\hline
+\end{longtable}
+
+\subsection{Reguły warstwy interpretacji}
+
+\begin{longtable}{p{7cm}|l|l|l}
+interpretacja & cat & flex & lemma\\
+\hline
+adj:sg:nom.acc.voc:n:pos adj:pl:nom.acc.voc:m2.m3.f.n:pos & adj & e & y\\
+adj:sg:nom.voc:m1.m2.m3:pos adj:sg:acc:m3:pos adj:pl:nom.voc:m1:pos & adj & y & y\\
+adj:sg:nom.voc:m1.m2.m3:pos adj:sg:acc:m3:pos & adj & y & y\\
+adj:sg:nom.voc:f:pos & adj & a & y\\
+adj:sg:gen.dat.loc:f:pos & adj & ej & y\\
+adj:sg:gen:m1.m2.m3.n:pos adj:sg:acc:m1.m2:pos & adj & ego & y\\
+adj:sg:dat:m1.m2.m3.n:pos & adj & emu & y\\
+adj:sg:acc.inst:f:pos & adj & ą & y\\
+adj:sg:inst.loc:m1.m2.m3.n:pos adj:pl:dat:m1.m2.m3.f.n:pos & adj & ym & y\\
+adj:pl:nom.voc:m1:pos & adj & i & y\\
+adj:pl:gen.loc:m1.m2.m3.f.n:pos adj:pl:acc:m1:pos & adj & ych & y\\
+adj:pl:inst:m1.m2.m3.f.n:pos & adj & ymi & y\\
+adjp & adj & u & y\\
+adja & adj & o & y\\
+$\star$adj:sg:nom:m1.m2.m3:pos adj:sg:acc:m3:pos & adj & $\varepsilon$ & y\\
+$\star$adjc & adj & $\varepsilon$ & y\\
+$\star$adj:sg:nom.acc.voc:n:pos adja & adj & o & $\varepsilon$\\
+$\star$adj:sg:nom.acc.voc:n:pos & adj & o & $\varepsilon$\\
+$\star$adj:sg:nom.acc.voc:n:pos adj:pl:nom.acc.voc:m2.m3.f.n:pos & adj & e & $\varepsilon$\\
+$\star$adj:sg:nom.voc:m1.m2.m3:pos adj:sg:acc:m3:pos & adj & $\varepsilon$ & $\varepsilon$\\
+$\star$adj:sg:nom.voc:m1.m2.m3:pos adj:sg:acc:m3:pos & adj & y & $\varepsilon$\\
+$\star$adj:sg:nom.voc:f:pos & adj & a & $\varepsilon$\\
+$\star$adj:sg:nom:m1.m2.m3:pos adj:sg:acc:m3:pos & adj & $\varepsilon$ & $\varepsilon$\\
+$\star$adj:sg:nom:m1.m2.m3:pos & adj & $\varepsilon$ & $\varepsilon$\\
+$\star$adj:sg:nom:n:pos adj:pl:nom:m2.m3.f.n:pos & adj & e & $\varepsilon$\\
+$\star$adj:sg:nom:f:pos & adj & a & $\varepsilon$\\
+$\star$adj:sg:gen.dat.loc:f:pos & adj & ej & $\varepsilon$\\
+$\star$adj:sg:gen:m1.m2.m3.n:pos adj:sg:acc:m1.m2:pos & adj & ego & $\varepsilon$\\
+$\star$adj:sg:dat:m1.m2.m3.n:pos & adj & emu & $\varepsilon$\\
+$\star$adj:sg:acc.inst:f:pos & adj & ą & $\varepsilon$\\
+$\star$adj:sg:inst.loc:m1.m2.m3.n:pos adj:pl:dat:m1.m2.m3.f.n:pos & adj & ym & $\varepsilon$\\
+$\star$adj:pl:nom.acc.voc:m2.m3.f.n:pos & adj & e & $\varepsilon$\\
+$\star$adj:pl:nom.voc:m1:pos & adj & y & $\varepsilon$\\
+$\star$adj:pl:nom.voc:m1:pos & adj & i & $\varepsilon$\\
+$\star$adj:pl:nom:m1:pos & adj & i & $\varepsilon$\\
+$\star$adj:pl:gen.loc:m1.m2.m3.f.n:pos adj:pl:acc:m1:pos & adj & ych & $\varepsilon$\\
+$\star$adj:pl:inst:m1.m2.m3.f.n:pos & adj & ymi & $\varepsilon$\\
+$\star$adj:sg.pl:nom.gen.dat.acc.inst.loc.voc & adj & $\varepsilon$ & $\varepsilon$ \\
+	\quad \quad :m1.m2.m3.f.n:pos adja & & & \\
+$\star$adj:sg.pl:nom.gen.dat.acc.inst.loc.voc & adj & $\varepsilon$ & $\varepsilon$\\
+	\quad \quad :m1.m2.m3.f.n:pos & & & \\
+\end{longtable}
+\begin{longtable}{p{7cm}|l|l|l|l}
+interpretacja & cat & pref & flex & lemma\\
+\hline
+adj:sg:acc.inst:f:com & adj:grad & $\varepsilon$ & ą & y\\
+adj:pl:inst:m1.m2.m3.f.n:com & adj:grad & $\varepsilon$ & ymi & y\\
+adj:sg:inst.loc:m1.m2.m3.n:com adj:pl:dat:m1.m2.m3.f.n:com & adj:grad & $\varepsilon$ & ym & y\\
+adj:pl:gen.loc:m1.m2.m3.f.n:com adj:pl:acc:m1:com & adj:grad & $\varepsilon$ & ych & y\\
+adj:sg:nom.voc:m1.m2.m3:com adj:sg:acc:m3:com & adj:grad & $\varepsilon$ & y & y\\
+adj:pl:nom.voc:m1:com & adj:grad & $\varepsilon$ & i & y\\
+adj:sg:dat:m1.m2.m3.n:com & adj:grad & $\varepsilon$ & emu & y\\
+adj:sg:gen.dat.loc:f:com & adj:grad & $\varepsilon$ & ej & y\\
+adj:sg:gen:m1.m2.m3.n:com adj:sg:acc:m1.m2:com & adj:grad & $\varepsilon$ & ego & y\\
+adj:sg:nom.acc.voc:n:com adj:pl:nom.acc.voc:m2.m3.f.n:com & adj:grad & $\varepsilon$ & e & y\\
+adj:sg:nom.voc:f:com & adj:grad & $\varepsilon$ & a & y\\
+adj:sg:acc.inst:f:sup & adj:grad & naj & ą & y\\
+adj:pl:inst:m1.m2.m3.f.n:sup & adj:grad & naj & ymi & y\\
+adj:sg:inst.loc:m1.m2.m3.n:sup adj:pl:dat:m1.m2.m3.f.n:sup & adj:grad & naj & ym & y\\
+adj:pl:gen.loc:m1.m2.m3.f.n:sup adj:pl:acc:m1:sup & adj:grad & naj & ych & y\\
+adj:sg:nom.voc:m1.m2.m3:sup adj:sg:acc:m3:sup & adj:grad & naj & y & y\\
+adj:pl:nom.voc:m1:sup & adj:grad & naj & i & y\\
+adj:sg:dat:m1.m2.m3.n:sup & adj:grad & naj & emu & y\\
+adj:sg:gen.dat.loc:f:sup & adj:grad & naj & ej & y\\
+adj:sg:gen:m1.m2.m3.n:sup adj:sg:acc:m1.m2:sup & adj:grad & naj & ego & y\\
+adj:sg:nom.acc.voc:n:sup adj:pl:nom.acc.voc:m2.m3.f.n:sup & adj:grad & naj & e & y\\
+adj:sg:nom.voc:f:sup & adj:grad & naj & a & y\\
+\end{longtable}
+
+\begin{longtable}{p{7cm}|l|l|l}
+interpretacja & cat & flex & lemma\\
+\hline
+adv:pos & adv & o & o\\
+adv:com & adv & iej & o\\
+adv:com & adv & iej & ie\\
+adv:pos & adv & ie & ie\\
+adv:sup & adv & iej & o\\
+adv:sup & adv & iej & ie\\
+\end{longtable}
+\begin{longtable}{p{7cm}|l}
+interpretacja & cat\\
+\hline
+subst:sg.pl:nom.gen.dat.acc.inst.loc.voc:n:ncol & ndm\\
+subst:sg.pl:nom.gen.dat.acc.inst.loc.voc:m3 & ndm\\
+subst:sg.pl:nom.gen.dat.acc.inst.loc.voc:m2 & ndm\\
+$\star$subst:sg.pl:nom.gen.dat.acc.inst.loc.voc:m1 & ndm\\
+subst:sg.pl:nom.gen.dat.acc.inst.loc.voc:m1 & ndm\\
+	\quad \quad |depr:pl:nom.acc.voc:m2 & \\
+subst:sg.pl:nom.gen.dat.acc.inst.loc.voc:f & ndm\\
+$\star$subst:pl:nom.gen.dat.acc.inst.loc.voc:n:pt & ndm\\
+$\star$adj:sg.pl:nom.gen.dat.acc.inst.loc.voc & ndm\\
+	\quad \quad :m1.m2.m3.f.n:pos adja & \\
+$\star$adj:sg.pl:nom.gen.dat.acc.inst.loc.voc & ndm\\
+	\quad \quad :m1.m2.m3.f.n:pos & \\
+\end{longtable}
+
+\begin{longtable}{p{7cm}|l|l|l|l}
+interpretacja & cat & pref & flex & flex2\\
+\hline
+$\star$fin:sg:pri & verb & $\varepsilon$ & ę & $\varepsilon$\\
+$\star$fin:sg:sec & verb & $\varepsilon$ & sz & $\varepsilon$\\
+$\star$fin:sg:ter & verb & $\varepsilon$ & $\varepsilon$ & $\varepsilon$\\
+$\star$fin:pl:pri & verb & $\varepsilon$ & my & $\varepsilon$\\
+$\star$fin:pl:sec & verb & $\varepsilon$ & cie & $\varepsilon$\\
+$\star$fin:pl:ter & verb & $\varepsilon$ & ą & $\varepsilon$\\
+$\star$fin:sg:pri & verb & $\varepsilon$ & ę & n\\
+$\star$fin:pl:ter & verb & $\varepsilon$ & ą & n\\
+$\star$fin:sg:pri & verb & $\varepsilon$ & m & $\varepsilon$\\
+$\star$impt:sg:sec & verb & $\varepsilon$ & $\varepsilon$ & $\varepsilon$\\
+$\star$impt:pl:pri & verb & $\varepsilon$ & my & $\varepsilon$\\
+$\star$impt:pl:sec & verb & $\varepsilon$ & cie & $\varepsilon$\\
+$\star$pcon:imperf & verb & $\varepsilon$ & $\varepsilon$ & ąc\\
+$\star$pacta & verb & $\varepsilon$ & o & ąc\\
+$\star$pact:sg:nom.acc.voc:n:imperf:aff pact:pl:nom.acc.voc:m2.m3.f.n:imperf:aff & verb & $\varepsilon$ & e & ąc\\
+$\star$pact:sg:nom.acc.voc:n:imperf:neg pact:pl:nom.acc.voc:m2.m3.f.n:imperf:neg & verb & nie & e & ąc\\
+$\star$pact:sg:nom.voc:m1.m2.m3:imperf:aff pact:sg:acc:m3:imperf:aff pact:pl:nom.voc:m1:imperf:aff & verb & $\varepsilon$ & y & ąc\\
+$\star$pact:sg:nom.voc:f:imperf:aff & verb & $\varepsilon$ & a & ąc\\
+$\star$pact:sg:nom.voc:m1.m2.m3:imperf:neg pact:sg:acc:m3:imperf:neg pact:pl:nom.voc:m1:imperf:neg & verb & nie & y & ąc\\
+$\star$pact:sg:nom.voc:f:imperf:neg & verb & nie & a & ąc\\
+$\star$pact:sg:gen.dat.loc:f:imperf:aff & verb & $\varepsilon$ & ej & ąc\\
+$\star$pact:sg:gen.dat.loc:f:imperf:neg & verb & nie & ej & ąc\\
+$\star$pact:sg:gen:m1.m2.m3.n:imperf:aff pact:sg:acc:m1.m2:imperf:aff & verb & $\varepsilon$ & ego & ąc\\
+$\star$pact:sg:gen:m1.m2.m3.n:imperf:neg pact:sg:acc:m1.m2:imperf:neg & verb & nie & ego & ąc\\
+$\star$pact:sg:dat:m1.m2.m3.n:imperf:aff & verb & $\varepsilon$ & emu & ąc\\
+$\star$pact:sg:dat:m1.m2.m3.n:imperf:neg & verb & nie & emu & ąc\\
+$\star$pact:sg:acc.inst:f:imperf:aff & verb & $\varepsilon$ & ą & ąc\\
+$\star$pact:sg:acc.inst:f:imperf:neg & verb & nie & ą & ąc\\
+$\star$pact:sg:inst.loc:m1.m2.m3.n:imperf:aff pact:pl:dat:m1.m2.m3.f.n:imperf:aff & verb & $\varepsilon$ & ym & ąc\\
+$\star$pact:sg:inst.loc:m1.m2.m3.n:imperf:neg pact:pl:dat:m1.m2.m3.f.n:imperf:neg & verb & nie & ym & ąc\\
+$\star$pact:pl:gen.loc:m1.m2.m3.f.n:imperf:aff pact:pl:acc:m1:imperf:aff & verb & $\varepsilon$ & ych & ąc\\
+$\star$pact:pl:gen.loc:m1.m2.m3.f.n:imperf:neg pact:pl:acc:m1:imperf:neg & verb & nie & ych & ąc\\
+$\star$pact:pl:inst:m1.m2.m3.f.n:imperf:aff & verb & $\varepsilon$ & ymi & ąc\\
+$\star$pact:pl:inst:m1.m2.m3.f.n:imperf:neg & verb & nie & ymi & ąc\\
+$\star$inf & verb & $\varepsilon$ & $\varepsilon$ & ć\\
+$\star$pant & verb & $\varepsilon$ & szy & w\\
+$\star$pant & verb & $\varepsilon$ & szy & ł\\
+$\star$imps & verb & $\varepsilon$ & o & t\\
+$\star$imps & verb & $\varepsilon$ & o & n\\
+$\star$praet:sg:m1.m2.m3:nagl & verb & $\varepsilon$ & $\varepsilon$ & ł\\
+$\star$praet:sg:m1.m2.m3:agl & verb & $\varepsilon$ & $\varepsilon$ & ł\\
+$\star$praet:sg:m1.m2.m3 & verb & $\varepsilon$ & $\varepsilon$ & ł\\
+$\star$praet:pl:m2.m3.f.n & verb & $\varepsilon$ & y & ł\\
+$\star$praet:sg:n & verb & $\varepsilon$ & o & ł\\
+$\star$praet:pl:m1 & verb & $\varepsilon$ & i & ł\\
+$\star$praet:sg:f & verb & $\varepsilon$ & a & ł\\
+$\star$ger:pl:gen:n:aff & verb & $\varepsilon$ & $\varepsilon$ & ć\\
+$\star$ger:sg:dat.loc:n:aff & verb & $\varepsilon$ & u & ć\\
+$\star$ger:pl:dat:n:aff & verb & $\varepsilon$ & om & ć\\
+$\star$ger:sg:inst:n:aff & verb & $\varepsilon$ & em & ć\\
+$\star$ger:sg:nom.acc:n:aff & verb & $\varepsilon$ & e & ć\\
+$\star$ger:pl:inst:n:aff & verb & $\varepsilon$ & ami & ć\\
+$\star$ger:pl:loc:n:aff & verb & $\varepsilon$ & ach & ć\\
+$\star$ger:sg:gen:n:aff ger:pl:nom.acc:n:aff & verb & $\varepsilon$ & a & ć\\
+$\star$ger:pl:gen:n:neg & verb & nie & $\varepsilon$ & ć\\
+$\star$ger:sg:dat.loc:n:neg & verb & nie & u & ć\\
+$\star$ger:pl:dat:n:neg & verb & nie & om & ć\\
+$\star$ger:sg:inst:n:neg & verb & nie & em & ć\\
+$\star$ger:sg:nom.acc:n:neg & verb & nie & e & ć\\
+$\star$ger:pl:inst:n:neg & verb & nie & ami & ć\\
+$\star$ger:pl:loc:n:neg & verb & nie & ach & ć\\
+$\star$ger:sg:gen:n:neg ger:pl:nom.acc:n:neg & verb & nie & a & ć\\
+$\star$ger:pl:gen:n:aff & verb & $\varepsilon$ & $\varepsilon$ & ń\\
+$\star$ger:sg:dat.loc:n:aff & verb & $\varepsilon$ & u & ń\\
+$\star$ger:pl:dat:n:aff & verb & $\varepsilon$ & om & ń\\
+$\star$ger:sg:inst:n:aff & verb & $\varepsilon$ & em & ń\\
+$\star$ger:sg:nom.acc:n:aff & verb & $\varepsilon$ & e & ń\\
+$\star$ger:pl:inst:n:aff & verb & $\varepsilon$ & ami & ń\\
+$\star$ger:pl:loc:n:aff & verb & $\varepsilon$ & ach & ń\\
+$\star$ger:sg:gen:n:aff ger:pl:nom.acc:n:aff & verb & $\varepsilon$ & a & ń\\
+$\star$ger:pl:gen:n:neg & verb & nie & $\varepsilon$ & ń\\
+$\star$ger:sg:dat.loc:n:neg & verb & nie & u & ń\\
+$\star$ger:pl:dat:n:neg & verb & nie & om & ń\\
+$\star$ger:sg:inst:n:neg & verb & nie & em & ń\\
+$\star$ger:sg:nom.acc:n:neg & verb & nie & e & ń\\
+$\star$ger:pl:inst:n:neg & verb & nie & ami & ń\\
+$\star$ger:pl:loc:n:neg & verb & nie & ach & ń\\
+$\star$ger:sg:gen:n:neg ger:pl:nom.acc:n:neg & verb & nie & a & ń\\
+$\star$ppas:sg:nom.acc.voc:n:aff ppas:pl:nom.acc.voc:m2.m3.f.n:aff & verb & $\varepsilon$ & e & t\\
+$\star$ppas:sg:nom.acc.voc:n:neg ppas:pl:nom.acc.voc:m2.m3.f.n:neg & verb & nie & e & t\\
+$\star$ppas:sg:nom.voc:m1.m2.m3:aff ppas:sg:acc:m3:aff & verb & $\varepsilon$ & y & t\\
+$\star$ppas:sg:nom.voc:f:aff & verb & $\varepsilon$ & a & t\\
+$\star$ppas:sg:nom.voc:m1.m2.m3:neg ppas:sg:acc:m3:neg & verb & nie & y & t\\
+$\star$ppas:sg:nom.voc:f:neg & verb & nie & a & t\\
+$\star$ppas:sg:gen.dat.loc:f:aff & verb & $\varepsilon$ & ej & t\\
+$\star$ppas:sg:gen.dat.loc:f:neg & verb & nie & ej & t\\
+$\star$ppas:sg:gen:m1.m2.m3.n:aff ppas:sg:acc:m1.m2:aff & verb & $\varepsilon$ & ego & t\\
+$\star$ppas:sg:gen:m1.m2.m3.n:neg ppas:sg:acc:m1.m2:neg & verb & nie & ego & t\\
+$\star$ppas:sg:dat:m1.m2.m3.n:aff & verb & $\varepsilon$ & emu & t\\
+$\star$ppas:sg:dat:m1.m2.m3.n:neg & verb & nie & emu & t\\
+$\star$ppas:sg:acc.inst:f:aff & verb & $\varepsilon$ & ą & t\\
+$\star$ppas:sg:acc.inst:f:neg & verb & nie & ą & t\\
+$\star$ppas:sg:inst.loc:m1.m2.m3.n:aff ppas:pl:dat:m1.m2.m3.f.n:aff & verb & $\varepsilon$ & ym & t\\
+$\star$ppas:sg:inst.loc:m1.m2.m3.n:neg ppas:pl:dat:m1.m2.m3.f.n:neg & verb & nie & ym & t\\
+$\star$ppas:pl:nom.voc:m1:aff & verb & $\varepsilon$ & i & t\\
+$\star$ppas:pl:nom.voc:m1:neg & verb & nie & i & t\\
+$\star$ppas:pl:gen.loc:m1.m2.m3.f.n:aff ppas:pl:acc:m1:aff & verb & $\varepsilon$ & ych & t\\
+$\star$ppas:pl:gen.loc:m1.m2.m3.f.n:neg ppas:pl:acc:m1:neg & verb & nie & ych & t\\
+$\star$ppas:pl:inst:m1.m2.m3.f.n:aff & verb & $\varepsilon$ & ymi & t\\
+$\star$ppas:pl:inst:m1.m2.m3.f.n:neg & verb & nie & ymi & t\\
+$\star$ppas:sg:nom.acc.voc:n:aff ppas:pl:nom.acc.voc:m2.m3.f.n:aff & verb & $\varepsilon$ & e & n\\
+$\star$ppas:sg:nom.acc.voc:n:neg ppas:pl:nom.acc.voc:m2.m3.f.n:neg & verb & nie & e & n\\
+$\star$ppas:sg:nom.voc:m1.m2.m3:aff ppas:sg:acc:m3:aff & verb & $\varepsilon$ & y & n\\
+$\star$ppas:sg:nom.voc:f:aff & verb & $\varepsilon$ & a & n\\
+$\star$ppas:sg:nom.voc:m1.m2.m3:neg ppas:sg:acc:m3:neg & verb & nie & y & n\\
+$\star$ppas:sg:nom.voc:f:neg & verb & nie & a & n\\
+$\star$ppas:sg:gen.dat.loc:f:aff & verb & $\varepsilon$ & ej & n\\
+$\star$ppas:sg:gen.dat.loc:f:neg & verb & nie & ej & n\\
+$\star$ppas:sg:gen:m1.m2.m3.n:aff ppas:sg:acc:m1.m2:aff & verb & $\varepsilon$ & ego & n\\
+$\star$ppas:sg:gen:m1.m2.m3.n:neg ppas:sg:acc:m1.m2:neg & verb & nie & ego & n\\
+$\star$ppas:sg:dat:m1.m2.m3.n:aff & verb & $\varepsilon$ & emu & n\\
+$\star$ppas:sg:dat:m1.m2.m3.n:neg & verb & nie & emu & n\\
+$\star$ppas:sg:acc.inst:f:aff & verb & $\varepsilon$ & ą & n\\
+$\star$ppas:sg:acc.inst:f:neg & verb & nie & ą & n\\
+$\star$ppas:sg:inst.loc:m1.m2.m3.n:aff ppas:pl:dat:m1.m2.m3.f.n:aff & verb & $\varepsilon$ & ym & n\\
+$\star$ppas:sg:inst.loc:m1.m2.m3.n:neg ppas:pl:dat:m1.m2.m3.f.n:neg & verb & nie & ym & n\\
+$\star$ppas:pl:nom.voc:m1:aff & verb & $\varepsilon$ & i & n\\
+$\star$ppas:pl:nom.voc:m1:neg & verb & nie & i & n\\
+$\star$ppas:pl:gen.loc:m1.m2.m3.f.n:aff ppas:pl:acc:m1:aff & verb & $\varepsilon$ & ych & n\\
+$\star$ppas:pl:gen.loc:m1.m2.m3.f.n:neg ppas:pl:acc:m1:neg & verb & nie & ych & n\\
+$\star$ppas:pl:inst:m1.m2.m3.f.n:aff & verb & $\varepsilon$ & ymi & n\\
+$\star$ppas:pl:inst:m1.m2.m3.f.n:neg & verb & nie & ymi & n\\
+\end{longtable}
+\begin{longtable}{p{7cm}|l|l|l|l|l|l}
+interpretacja & cat & pref & group & flex & flex2 & lemma\\
+\hline
+fin:sg:pri & verb & $\varepsilon$ & a & m & $\varepsilon$ & ać\\
+fin:sg:sec & verb & $\varepsilon$ & a & sz & $\varepsilon$ & ać\\
+fin:sg:ter & verb & $\varepsilon$ & a & $\varepsilon$ & $\varepsilon$ & ać\\
+fin:pl:pri & verb & $\varepsilon$ & a & my & $\varepsilon$ & ać\\
+fin:pl:sec & verb & $\varepsilon$ & a & cie & $\varepsilon$ & ać\\
+fin:pl:ter & verb & $\varepsilon$ & aj & ą & $\varepsilon$ & ać\\
+impt:sg:sec & verb & $\varepsilon$ & aj & $\varepsilon$ & $\varepsilon$ & ać\\
+impt:pl:pri & verb & $\varepsilon$ & aj & my & $\varepsilon$ & ać\\
+impt:pl:sec & verb & $\varepsilon$ & aj & cie & $\varepsilon$ & ać\\
+pcon:imperf & verb & $\varepsilon$ & aj & $\varepsilon$ & ąc & ać\\
+pacta & verb & $\varepsilon$ & aj & o & ąc & ać\\
+pact:sg:nom.acc.voc:n:imperf:aff pact:pl:nom.acc.voc:m2.m3.f.n:imperf:aff & verb & $\varepsilon$ & aj & e & ąc & ać\\
+pact:sg:nom.acc.voc:n:imperf:neg pact:pl:nom.acc.voc:m2.m3.f.n:imperf:neg & verb & nie & aj & e & ąc & ać\\
+pact:sg:nom.voc:m1.m2.m3:imperf:aff pact:sg:acc:m3:imperf:aff pact:pl:nom.voc:m1:imperf:aff & verb & $\varepsilon$ & aj & y & ąc & ać\\
+pact:sg:nom.voc:f:imperf:aff & verb & $\varepsilon$ & aj & a & ąc & ać\\
+pact:sg:nom.voc:m1.m2.m3:imperf:neg pact:sg:acc:m3:imperf:neg pact:pl:nom.voc:m1:imperf:neg & verb & nie & aj & y & ąc & ać\\
+pact:sg:nom.voc:f:imperf:neg & verb & nie & aj & a & ąc & ać\\
+pact:sg:gen.dat.loc:f:imperf:aff & verb & $\varepsilon$ & aj & ej & ąc & ać\\
+pact:sg:gen.dat.loc:f:imperf:neg & verb & nie & aj & ej & ąc & ać\\
+pact:sg:gen:m1.m2.m3.n:imperf:aff pact:sg:acc:m1.m2:imperf:aff & verb & $\varepsilon$ & aj & ego & ąc & ać\\
+pact:sg:gen:m1.m2.m3.n:imperf:neg pact:sg:acc:m1.m2:imperf:neg & verb & nie & aj & ego & ąc & ać\\
+pact:sg:dat:m1.m2.m3.n:imperf:aff & verb & $\varepsilon$ & aj & emu & ąc & ać\\
+pact:sg:dat:m1.m2.m3.n:imperf:neg & verb & nie & aj & emu & ąc & ać\\
+pact:sg:acc.inst:f:imperf:aff & verb & $\varepsilon$ & aj & ą & ąc & ać\\
+pact:sg:acc.inst:f:imperf:neg & verb & nie & aj & ą & ąc & ać\\
+pact:sg:inst.loc:m1.m2.m3.n:imperf:aff pact:pl:dat:m1.m2.m3.f.n:imperf:aff & verb & $\varepsilon$ & aj & ym & ąc & ać\\
+pact:sg:inst.loc:m1.m2.m3.n:imperf:neg pact:pl:dat:m1.m2.m3.f.n:imperf:neg & verb & nie & aj & ym & ąc & ać\\
+pact:pl:gen.loc:m1.m2.m3.f.n:imperf:aff pact:pl:acc:m1:imperf:aff & verb & $\varepsilon$ & aj & ych & ąc & ać\\
+pact:pl:gen.loc:m1.m2.m3.f.n:imperf:neg pact:pl:acc:m1:imperf:neg & verb & nie & aj & ych & ąc & ać\\
+pact:pl:inst:m1.m2.m3.f.n:imperf:aff & verb & $\varepsilon$ & aj & ymi & ąc & ać\\
+pact:pl:inst:m1.m2.m3.f.n:imperf:neg & verb & nie & aj & ymi & ąc & ać\\
+inf & verb & $\varepsilon$ & a & $\varepsilon$ & ć & ać\\
+pant & verb & $\varepsilon$ & a & szy & w & ać\\
+imps & verb & $\varepsilon$ & a & o & n & ać\\
+praet:sg:m1.m2.m3 & verb & $\varepsilon$ & a & $\varepsilon$ & ł & ać\\
+praet:pl:m2.m3.f.n & verb & $\varepsilon$ & a & y & ł & ać\\
+praet:sg:n & verb & $\varepsilon$ & a & o & ł & ać\\
+praet:pl:m1 & verb & $\varepsilon$ & a & i & ł & ać\\
+praet:sg:f & verb & $\varepsilon$ & a & a & ł & ać\\
+ppas:sg:nom.acc.voc:n:aff ppas:pl:nom.acc.voc:m2.m3.f.n:aff & verb & $\varepsilon$ & a & e & n & ać\\
+ppas:sg:nom.acc.voc:n:neg ppas:pl:nom.acc.voc:m2.m3.f.n:neg & verb & nie & a & e & n & ać\\
+ppas:sg:nom.voc:m1.m2.m3:aff ppas:sg:acc:m3:aff & verb & $\varepsilon$ & a & y & n & ać\\
+ppas:sg:nom.voc:f:aff & verb & $\varepsilon$ & a & a & n & ać\\
+ppas:sg:nom.voc:m1.m2.m3:neg ppas:sg:acc:m3:neg & verb & nie & a & y & n & ać\\
+ppas:sg:nom.voc:f:neg & verb & nie & a & a & n & ać\\
+ppas:sg:gen.dat.loc:f:aff & verb & $\varepsilon$ & a & ej & n & ać\\
+ppas:sg:gen.dat.loc:f:neg & verb & nie & a & ej & n & ać\\
+ppas:sg:gen:m1.m2.m3.n:aff ppas:sg:acc:m1.m2:aff & verb & $\varepsilon$ & a & ego & n & ać\\
+ppas:sg:gen:m1.m2.m3.n:neg ppas:sg:acc:m1.m2:neg & verb & nie & a & ego & n & ać\\
+ppas:sg:dat:m1.m2.m3.n:aff & verb & $\varepsilon$ & a & emu & n & ać\\
+ppas:sg:dat:m1.m2.m3.n:neg & verb & nie & a & emu & n & ać\\
+ppas:sg:acc.inst:f:aff & verb & $\varepsilon$ & a & ą & n & ać\\
+ppas:sg:acc.inst:f:neg & verb & nie & a & ą & n & ać\\
+ppas:sg:inst.loc:m1.m2.m3.n:aff ppas:pl:dat:m1.m2.m3.f.n:aff & verb & $\varepsilon$ & a & ym & n & ać\\
+ppas:sg:inst.loc:m1.m2.m3.n:neg ppas:pl:dat:m1.m2.m3.f.n:neg & verb & nie & a & ym & n & ać\\
+ppas:pl:nom.voc:m1:aff & verb & $\varepsilon$ & a & i & n & ać\\
+ppas:pl:nom.voc:m1:neg & verb & nie & a & i & n & ać\\
+ppas:pl:gen.loc:m1.m2.m3.f.n:aff ppas:pl:acc:m1:aff & verb & $\varepsilon$ & a & ych & n & ać\\
+ppas:pl:gen.loc:m1.m2.m3.f.n:neg ppas:pl:acc:m1:neg & verb & nie & a & ych & n & ać\\
+ppas:pl:inst:m1.m2.m3.f.n:aff & verb & $\varepsilon$ & a & ymi & n & ać\\
+ppas:pl:inst:m1.m2.m3.f.n:neg & verb & nie & a & ymi & n & ać\\
+ger:pl:gen:n:aff & verb & $\varepsilon$ & a & $\varepsilon$ & ń & ać\\
+ger:sg:dat.loc:n:aff & verb & $\varepsilon$ & a & u & ń & ać\\
+ger:pl:dat:n:aff & verb & $\varepsilon$ & a & om & ń & ać\\
+ger:sg:inst:n:aff & verb & $\varepsilon$ & a & em & ń & ać\\
+ger:sg:nom.acc:n:aff & verb & $\varepsilon$ & a & e & ń & ać\\
+ger:pl:inst:n:aff & verb & $\varepsilon$ & a & ami & ń & ać\\
+ger:pl:loc:n:aff & verb & $\varepsilon$ & a & ach & ń & ać\\
+ger:sg:gen:n:aff ger:pl:nom.acc:n:aff & verb & $\varepsilon$ & a & a & ń & ać\\
+ger:pl:gen:n:neg & verb & nie & a & $\varepsilon$ & ń & ać\\
+ger:sg:dat.loc:n:neg & verb & nie & a & u & ń & ać\\
+ger:pl:dat:n:neg & verb & nie & a & om & ń & ać\\
+ger:sg:inst:n:neg & verb & nie & a & em & ń & ać\\
+ger:sg:nom.acc:n:neg & verb & nie & a & e & ń & ać\\
+ger:pl:inst:n:neg & verb & nie & a & ami & ń & ać\\
+ger:pl:loc:n:neg & verb & nie & a & ach & ń & ać\\
+ger:sg:gen:n:neg ger:pl:nom.acc:n:neg & verb & nie & a & a & ń & ać\\
+\end{longtable}
+\begin{longtable}{p{7cm}|l|l|l|l|l|l}
+interpretacja & cat & pref & group & flex & flex2 & lemma\\
+\hline
+fin:sg:sec & verb & $\varepsilon$ & nie & sz & $\varepsilon$ & nąć\\
+fin:sg:ter & verb & $\varepsilon$ & nie & $\varepsilon$ & $\varepsilon$ & nąć\\
+fin:pl:pri & verb & $\varepsilon$ & nie & my & $\varepsilon$ & nąć\\
+fin:pl:sec & verb & $\varepsilon$ & nie & cie & $\varepsilon$ & nąć\\
+fin:sg:pri & verb & $\varepsilon$ & n & ę & $\varepsilon$ & nąć\\
+fin:pl:ter & verb & $\varepsilon$ & n & ą & $\varepsilon$ & nąć\\
+impt:sg:sec & verb & $\varepsilon$ & nij & $\varepsilon$ & $\varepsilon$ & nąć\\
+impt:pl:pri & verb & $\varepsilon$ & nij & my & $\varepsilon$ & nąć\\
+impt:pl:sec & verb & $\varepsilon$ & nij & cie & $\varepsilon$ & nąć\\
+pcon:imperf & verb & $\varepsilon$ & n & $\varepsilon$ & ąc & nąć\\
+pacta & verb & $\varepsilon$ & n & o & ąc & nąć\\
+pact:sg:nom.acc.voc:n:imperf:aff pact:pl:nom.acc.voc:m2.m3.f.n:imperf:aff & verb & $\varepsilon$ & n & e & ąc & nąć\\
+pact:sg:nom.acc.voc:n:imperf:neg pact:pl:nom.acc.voc:m2.m3.f.n:imperf:neg & verb & nie & n & e & ąc & nąć\\
+pact:sg:nom.voc:m1.m2.m3:imperf:aff pact:sg:acc:m3:imperf:aff pact:pl:nom.voc:m1:imperf:aff & verb & $\varepsilon$ & n & y & ąc & nąć\\
+pact:sg:nom.voc:f:imperf:aff & verb & $\varepsilon$ & n & a & ąc & nąć\\
+pact:sg:nom.voc:m1.m2.m3:imperf:neg pact:sg:acc:m3:imperf:neg pact:pl:nom.voc:m1:imperf:neg & verb & nie & n & y & ąc & nąć\\
+pact:sg:nom.voc:f:imperf:neg & verb & nie & n & a & ąc & nąć\\
+pact:sg:gen.dat.loc:f:imperf:aff & verb & $\varepsilon$ & n & ej & ąc & nąć\\
+pact:sg:gen.dat.loc:f:imperf:neg & verb & nie & n & ej & ąc & nąć\\
+pact:sg:gen:m1.m2.m3.n:imperf:aff pact:sg:acc:m1.m2:imperf:aff & verb & $\varepsilon$ & n & ego & ąc & nąć\\
+pact:sg:gen:m1.m2.m3.n:imperf:neg pact:sg:acc:m1.m2:imperf:neg & verb & nie & n & ego & ąc & nąć\\
+pact:sg:dat:m1.m2.m3.n:imperf:aff & verb & $\varepsilon$ & n & emu & ąc & nąć\\
+pact:sg:dat:m1.m2.m3.n:imperf:neg & verb & nie & n & emu & ąc & nąć\\
+pact:sg:acc.inst:f:imperf:aff & verb & $\varepsilon$ & n & ą & ąc & nąć\\
+pact:sg:acc.inst:f:imperf:neg & verb & nie & n & ą & ąc & nąć\\
+pact:sg:inst.loc:m1.m2.m3.n:imperf:aff pact:pl:dat:m1.m2.m3.f.n:imperf:aff & verb & $\varepsilon$ & n & ym & ąc & nąć\\
+pact:sg:inst.loc:m1.m2.m3.n:imperf:neg pact:pl:dat:m1.m2.m3.f.n:imperf:neg & verb & nie & n & ym & ąc & nąć\\
+pact:pl:gen.loc:m1.m2.m3.f.n:imperf:aff pact:pl:acc:m1:imperf:aff & verb & $\varepsilon$ & n & ych & ąc & nąć\\
+pact:pl:gen.loc:m1.m2.m3.f.n:imperf:neg pact:pl:acc:m1:imperf:neg & verb & nie & n & ych & ąc & nąć\\
+pact:pl:inst:m1.m2.m3.f.n:imperf:aff & verb & $\varepsilon$ & n & ymi & ąc & nąć\\
+pact:pl:inst:m1.m2.m3.f.n:imperf:neg & verb & nie & n & ymi & ąc & nąć\\
+inf & verb & $\varepsilon$ & ną & $\varepsilon$ & ć & nąć\\
+pant & verb & $\varepsilon$ & ną & szy & w & nąć\\
+imps & verb & $\varepsilon$ & nię & o & t & nąć\\
+praet:sg:m1.m2.m3 & verb & $\varepsilon$ & ną & $\varepsilon$ & ł & nąć\\
+praet:pl:m2.m3.f.n & verb & $\varepsilon$ & nę & y & ł & nąć\\
+praet:sg:n & verb & $\varepsilon$ & nę & o & ł & nąć\\
+praet:pl:m1 & verb & $\varepsilon$ & nę & i & ł & nąć\\
+praet:sg:f & verb & $\varepsilon$ & nę & a & ł & nąć\\
+ppas:sg:nom.acc.voc:n:aff ppas:pl:nom.acc.voc:m2.m3.f.n:aff & verb & $\varepsilon$ & nię & e & t & nąć\\
+ppas:sg:nom.acc.voc:n:neg ppas:pl:nom.acc.voc:m2.m3.f.n:neg & verb & nie & nię & e & t & nąć\\
+ppas:sg:nom.voc:m1.m2.m3:aff ppas:sg:acc:m3:aff & verb & $\varepsilon$ & nię & y & t & nąć\\
+ppas:sg:nom.voc:f:aff & verb & $\varepsilon$ & nię & a & t & nąć\\
+ppas:sg:nom.voc:m1.m2.m3:neg ppas:sg:acc:m3:neg & verb & nie & nię & y & t & nąć\\
+ppas:sg:nom.voc:f:neg & verb & nie & nię & a & t & nąć\\
+ppas:sg:gen.dat.loc:f:aff & verb & $\varepsilon$ & nię & ej & t & nąć\\
+ppas:sg:gen.dat.loc:f:neg & verb & nie & nię & ej & t & nąć\\
+ppas:sg:gen:m1.m2.m3.n:aff ppas:sg:acc:m1.m2:aff & verb & $\varepsilon$ & nię & ego & t & nąć\\
+ppas:sg:gen:m1.m2.m3.n:neg ppas:sg:acc:m1.m2:neg & verb & nie & nię & ego & t & nąć\\
+ppas:sg:dat:m1.m2.m3.n:aff & verb & $\varepsilon$ & nię & emu & t & nąć\\
+ppas:sg:dat:m1.m2.m3.n:neg & verb & nie & nię & emu & t & nąć\\
+ppas:sg:acc.inst:f:aff & verb & $\varepsilon$ & nię & ą & t & nąć\\
+ppas:sg:acc.inst:f:neg & verb & nie & nię & ą & t & nąć\\
+ppas:sg:inst.loc:m1.m2.m3.n:aff ppas:pl:dat:m1.m2.m3.f.n:aff & verb & $\varepsilon$ & nię & ym & t & nąć\\
+ppas:sg:inst.loc:m1.m2.m3.n:neg ppas:pl:dat:m1.m2.m3.f.n:neg & verb & nie & nię & ym & t & nąć\\
+ppas:pl:nom.voc:m1:aff & verb & $\varepsilon$ & nię & i & t & nąć\\
+ppas:pl:nom.voc:m1:neg & verb & nie & nię & i & t & nąć\\
+ppas:pl:gen.loc:m1.m2.m3.f.n:aff ppas:pl:acc:m1:aff & verb & $\varepsilon$ & nię & ych & t & nąć\\
+ppas:pl:gen.loc:m1.m2.m3.f.n:neg ppas:pl:acc:m1:neg & verb & nie & nię & ych & t & nąć\\
+ppas:pl:inst:m1.m2.m3.f.n:aff & verb & $\varepsilon$ & nię & ymi & t & nąć\\
+ppas:pl:inst:m1.m2.m3.f.n:neg & verb & nie & nię & ymi & t & nąć\\
+ger:pl:gen:n:aff & verb & $\varepsilon$ & nię & $\varepsilon$ & ć & nąć\\
+ger:sg:dat.loc:n:aff & verb & $\varepsilon$ & nię & u & ć & nąć\\
+ger:pl:dat:n:aff & verb & $\varepsilon$ & nię & om & ć & nąć\\
+ger:sg:inst:n:aff & verb & $\varepsilon$ & nię & em & ć & nąć\\
+ger:sg:nom.acc:n:aff & verb & $\varepsilon$ & nię & e & ć & nąć\\
+ger:pl:inst:n:aff & verb & $\varepsilon$ & nię & ami & ć & nąć\\
+ger:pl:loc:n:aff & verb & $\varepsilon$ & nię & ach & ć & nąć\\
+ger:sg:gen:n:aff ger:pl:nom.acc:n:aff & verb & $\varepsilon$ & nię & a & ć & nąć\\
+ger:pl:gen:n:neg & verb & nie & nię & $\varepsilon$ & ć & nąć\\
+ger:sg:dat.loc:n:neg & verb & nie & nię & u & ć & nąć\\
+ger:pl:dat:n:neg & verb & nie & nię & om & ć & nąć\\
+ger:sg:inst:n:neg & verb & nie & nię & em & ć & nąć\\
+ger:sg:nom.acc:n:neg & verb & nie & nię & e & ć & nąć\\
+ger:pl:inst:n:neg & verb & nie & nię & ami & ć & nąć\\
+ger:pl:loc:n:neg & verb & nie & nię & ach & ć & nąć\\
+ger:sg:gen:n:neg ger:pl:nom.acc:n:neg & verb & nie & nię & a & ć & nąć\\
+$\star$inf & verb & $\varepsilon$ & $\varepsilon$ & $\varepsilon$ & ć & nąć\\
+$\star$pant & verb & $\varepsilon$ & $\varepsilon$ & szy & ł & nąć\\
+$\star$praet:sg:m1.m2.m3:nagl & verb & $\varepsilon$ & $\varepsilon$ & $\varepsilon$ & ł & nąć\\
+$\star$praet:sg:m1.m2.m3:agl & verb & $\varepsilon$ & $\varepsilon$ & $\varepsilon$ & ł & nąć\\
+praet:sg:m1.m2.m3 & verb & $\varepsilon$ & $\varepsilon$ & $\varepsilon$ & ł & nąć\\
+praet:pl:m2.m3.f.n & verb & $\varepsilon$ & $\varepsilon$ & y & ł & nąć\\
+praet:sg:n & verb & $\varepsilon$ & $\varepsilon$ & o & ł & nąć\\
+praet:pl:m1 & verb & $\varepsilon$ & $\varepsilon$ & i & ł & nąć\\
+praet:sg:f & verb & $\varepsilon$ & $\varepsilon$ & a & ł & nąć\\
+\end{longtable}
+\begin{longtable}{p{7cm}|l|l|l|l|l|l}
+interpretacja & cat & pref & group & flex & flex2 & lemma\\
+\hline
+fin:sg:sec & verb & $\varepsilon$ & uje & sz & $\varepsilon$ & ować\\
+fin:sg:ter & verb & $\varepsilon$ & uje & $\varepsilon$ & $\varepsilon$ & ować\\
+fin:pl:pri & verb & $\varepsilon$ & uje & my & $\varepsilon$ & ować\\
+fin:pl:sec & verb & $\varepsilon$ & uje & cie & $\varepsilon$ & ować\\
+fin:sg:pri & verb & $\varepsilon$ & uj & ę & $\varepsilon$ & ować\\
+fin:pl:ter & verb & $\varepsilon$ & uj & ą & $\varepsilon$ & ować\\
+impt:sg:sec & verb & $\varepsilon$ & uj & $\varepsilon$ & $\varepsilon$ & ować\\
+impt:pl:pri & verb & $\varepsilon$ & uj & my & $\varepsilon$ & ować\\
+impt:pl:sec & verb & $\varepsilon$ & uj & cie & $\varepsilon$ & ować\\
+pcon:imperf & verb & $\varepsilon$ & uj & $\varepsilon$ & ąc & ować\\
+pacta & verb & $\varepsilon$ & uj & o & ąc & ować\\
+pact:sg:nom.acc.voc:n:imperf:aff pact:pl:nom.acc.voc:m2.m3.f.n:imperf:aff & verb & $\varepsilon$ & uj & e & ąc & ować\\
+pact:sg:nom.acc.voc:n:imperf:neg pact:pl:nom.acc.voc:m2.m3.f.n:imperf:neg & verb & nie & uj & e & ąc & ować\\
+pact:sg:nom.voc:m1.m2.m3:imperf:aff pact:sg:acc:m3:imperf:aff pact:pl:nom.voc:m1:imperf:aff & verb & $\varepsilon$ & uj & y & ąc & ować\\
+pact:sg:nom.voc:f:imperf:aff & verb & $\varepsilon$ & uj & a & ąc & ować\\
+pact:sg:nom.voc:m1.m2.m3:imperf:neg pact:sg:acc:m3:imperf:neg pact:pl:nom.voc:m1:imperf:neg & verb & nie & uj & y & ąc & ować\\
+pact:sg:nom.voc:f:imperf:neg & verb & nie & uj & a & ąc & ować\\
+pact:sg:gen.dat.loc:f:imperf:aff & verb & $\varepsilon$ & uj & ej & ąc & ować\\
+pact:sg:gen.dat.loc:f:imperf:neg & verb & nie & uj & ej & ąc & ować\\
+pact:sg:gen:m1.m2.m3.n:imperf:aff pact:sg:acc:m1.m2:imperf:aff & verb & $\varepsilon$ & uj & ego & ąc & ować\\
+pact:sg:gen:m1.m2.m3.n:imperf:neg pact:sg:acc:m1.m2:imperf:neg & verb & nie & uj & ego & ąc & ować\\
+pact:sg:dat:m1.m2.m3.n:imperf:aff & verb & $\varepsilon$ & uj & emu & ąc & ować\\
+pact:sg:dat:m1.m2.m3.n:imperf:neg & verb & nie & uj & emu & ąc & ować\\
+pact:sg:acc.inst:f:imperf:aff & verb & $\varepsilon$ & uj & ą & ąc & ować\\
+pact:sg:acc.inst:f:imperf:neg & verb & nie & uj & ą & ąc & ować\\
+pact:sg:inst.loc:m1.m2.m3.n:imperf:aff pact:pl:dat:m1.m2.m3.f.n:imperf:aff & verb & $\varepsilon$ & uj & ym & ąc & ować\\
+pact:sg:inst.loc:m1.m2.m3.n:imperf:neg pact:pl:dat:m1.m2.m3.f.n:imperf:neg & verb & nie & uj & ym & ąc & ować\\
+pact:pl:gen.loc:m1.m2.m3.f.n:imperf:aff pact:pl:acc:m1:imperf:aff & verb & $\varepsilon$ & uj & ych & ąc & ować\\
+pact:pl:gen.loc:m1.m2.m3.f.n:imperf:neg pact:pl:acc:m1:imperf:neg & verb & nie & uj & ych & ąc & ować\\
+pact:pl:inst:m1.m2.m3.f.n:imperf:aff & verb & $\varepsilon$ & uj & ymi & ąc & ować\\
+pact:pl:inst:m1.m2.m3.f.n:imperf:neg & verb & nie & uj & ymi & ąc & ować\\
+\end{longtable}
+\begin{longtable}{p{7cm}|l|l|l|l|l|l}
+interpretacja & cat & pref & group & flex & flex2 & lemma\\
+\hline
+fin:sg:sec & verb & $\varepsilon$ & eje & sz & $\varepsilon$ & palat-eć\\
+fin:sg:ter & verb & $\varepsilon$ & eje & $\varepsilon$ & $\varepsilon$ & palat-eć\\
+fin:pl:pri & verb & $\varepsilon$ & eje & my & $\varepsilon$ & palat-eć\\
+fin:pl:sec & verb & $\varepsilon$ & eje & cie & $\varepsilon$ & palat-eć\\
+$\star$fin:sg:sec & verb & $\varepsilon$ & y & sz & $\varepsilon$ & palat-eć\\
+$\star$fin:sg:ter & verb & $\varepsilon$ & y & $\varepsilon$ & $\varepsilon$ & palat-eć\\
+$\star$fin:pl:pri & verb & $\varepsilon$ & y & my & $\varepsilon$ & palat-eć\\
+$\star$fin:pl:sec & verb & $\varepsilon$ & y & cie & $\varepsilon$ & palat-eć\\
+fin:sg:pri & verb & $\varepsilon$ & J & ę & $\varepsilon$ & palat-eć\\
+fin:pl:ter & verb & $\varepsilon$ & J & ą & $\varepsilon$ & palat-eć\\
+impt:sg:sec & verb & $\varepsilon$ & ej & $\varepsilon$ & $\varepsilon$ & palat-eć\\
+impt:pl:pri & verb & $\varepsilon$ & ej & my & $\varepsilon$ & palat-eć\\
+impt:pl:sec & verb & $\varepsilon$ & ej & cie & $\varepsilon$ & palat-eć\\
+$\star$impt:sg:sec & verb & $\varepsilon$ & yj & $\varepsilon$ & $\varepsilon$ & palat-eć\\
+$\star$impt:pl:pri & verb & $\varepsilon$ & yj & my & $\varepsilon$ & palat-eć\\
+$\star$impt:pl:sec & verb & $\varepsilon$ & yj & cie & $\varepsilon$ & palat-eć\\
+$\star$impt:sg:sec & verb & $\varepsilon$ & $\varepsilon$ & $\varepsilon$ & $\varepsilon$ & palat-eć\\
+$\star$impt:pl:pri & verb & $\varepsilon$ & $\varepsilon$ & my & $\varepsilon$ & palat-eć\\
+$\star$impt:pl:sec & verb & $\varepsilon$ & $\varepsilon$ & cie & $\varepsilon$ & palat-eć\\
+pcon:imperf & verb & $\varepsilon$ & J & $\varepsilon$ & ąc & palat-eć\\
+pacta & verb & $\varepsilon$ & J & o & ąc & palat-eć\\
+pact:sg:nom.acc.voc:n:imperf:aff pact:pl:nom.acc.voc:m2.m3.f.n:imperf:aff & verb & $\varepsilon$ & J & e & ąc & palat-eć\\
+pact:sg:nom.acc.voc:n:imperf:neg pact:pl:nom.acc.voc:m2.m3.f.n:imperf:neg & verb & nie & J & e & ąc & palat-eć\\
+pact:sg:nom.voc:m1.m2.m3:imperf:aff pact:sg:acc:m3:imperf:aff pact:pl:nom.voc:m1:imperf:aff & verb & $\varepsilon$ & J & y & ąc & palat-eć\\
+pact:sg:nom.voc:f:imperf:aff & verb & $\varepsilon$ & J & a & ąc & palat-eć\\
+pact:sg:nom.voc:m1.m2.m3:imperf:neg pact:sg:acc:m3:imperf:neg pact:pl:nom.voc:m1:imperf:neg & verb & nie & J & y & ąc & palat-eć\\
+pact:sg:nom.voc:f:imperf:neg & verb & nie & J & a & ąc & palat-eć\\
+pact:sg:gen.dat.loc:f:imperf:aff & verb & $\varepsilon$ & J & ej & ąc & palat-eć\\
+pact:sg:gen.dat.loc:f:imperf:neg & verb & nie & J & ej & ąc & palat-eć\\
+pact:sg:gen:m1.m2.m3.n:imperf:aff pact:sg:acc:m1.m2:imperf:aff & verb & $\varepsilon$ & J & ego & ąc & palat-eć\\
+pact:sg:gen:m1.m2.m3.n:imperf:neg pact:sg:acc:m1.m2:imperf:neg & verb & nie & J & ego & ąc & palat-eć\\
+pact:sg:dat:m1.m2.m3.n:imperf:aff & verb & $\varepsilon$ & J & emu & ąc & palat-eć\\
+pact:sg:dat:m1.m2.m3.n:imperf:neg & verb & nie & J & emu & ąc & palat-eć\\
+pact:sg:acc.inst:f:imperf:aff & verb & $\varepsilon$ & J & ą & ąc & palat-eć\\
+pact:sg:acc.inst:f:imperf:neg & verb & nie & J & ą & ąc & palat-eć\\
+pact:sg:inst.loc:m1.m2.m3.n:imperf:aff pact:pl:dat:m1.m2.m3.f.n:imperf:aff & verb & $\varepsilon$ & J & ym & ąc & palat-eć\\
+pact:sg:inst.loc:m1.m2.m3.n:imperf:neg pact:pl:dat:m1.m2.m3.f.n:imperf:neg & verb & nie & J & ym & ąc & palat-eć\\
+pact:pl:gen.loc:m1.m2.m3.f.n:imperf:aff pact:pl:acc:m1:imperf:aff & verb & $\varepsilon$ & J & ych & ąc & palat-eć\\
+pact:pl:gen.loc:m1.m2.m3.f.n:imperf:neg pact:pl:acc:m1:imperf:neg & verb & nie & J & ych & ąc & palat-eć\\
+pact:pl:inst:m1.m2.m3.f.n:imperf:aff & verb & $\varepsilon$ & J & ymi & ąc & palat-eć\\
+pact:pl:inst:m1.m2.m3.f.n:imperf:neg & verb & nie & J & ymi & ąc & palat-eć\\
+inf & verb & $\varepsilon$ & e & $\varepsilon$ & ć & palat-eć\\
+pant & verb & $\varepsilon$ & a & szy & w & palat-eć\\
+imps & verb & $\varepsilon$ & Ja & o & n & palat-eć\\
+praet:sg:m1.m2.m3 & verb & $\varepsilon$ & a & $\varepsilon$ & ł & palat-eć\\
+praet:pl:m2.m3.f.n & verb & $\varepsilon$ & a & y & ł & palat-eć\\
+praet:sg:n & verb & $\varepsilon$ & a & o & ł & palat-eć\\
+praet:pl:m1 & verb & $\varepsilon$ & a & i & ł & palat-eć\\
+praet:sg:f & verb & $\varepsilon$ & a & a & ł & palat-eć\\
+ger:pl:gen:n:aff & verb & $\varepsilon$ & Je & $\varepsilon$ & ń & palat-eć\\
+ger:sg:dat.loc:n:aff & verb & $\varepsilon$ & Je & u & ń & palat-eć\\
+ger:pl:dat:n:aff & verb & $\varepsilon$ & Je & om & ń & palat-eć\\
+ger:sg:inst:n:aff & verb & $\varepsilon$ & Je & em & ń & palat-eć\\
+ger:sg:nom.acc:n:aff & verb & $\varepsilon$ & Je & e & ń & palat-eć\\
+ger:pl:inst:n:aff & verb & $\varepsilon$ & Je & ami & ń & palat-eć\\
+ger:pl:loc:n:aff & verb & $\varepsilon$ & Je & ach & ń & palat-eć\\
+ger:sg:gen:n:aff ger:pl:nom.acc:n:aff & verb & $\varepsilon$ & Je & a & ń & palat-eć\\
+ger:pl:gen:n:neg & verb & nie & Je & $\varepsilon$ & ń & palat-eć\\
+ger:sg:dat.loc:n:neg & verb & nie & Je & u & ń & palat-eć\\
+ger:pl:dat:n:neg & verb & nie & Je & om & ń & palat-eć\\
+ger:sg:inst:n:neg & verb & nie & Je & em & ń & palat-eć\\
+ger:sg:nom.acc:n:neg & verb & nie & Je & e & ń & palat-eć\\
+ger:pl:inst:n:neg & verb & nie & Je & ami & ń & palat-eć\\
+ger:pl:loc:n:neg & verb & nie & Je & ach & ń & palat-eć\\
+ger:sg:gen:n:neg ger:pl:nom.acc:n:neg & verb & nie & Je & a & ń & palat-eć\\
+$\star$ppas:sg:nom.acc.voc:n:aff ppas:pl:nom.acc.voc:m2.m3.f.n:aff & verb & $\varepsilon$ & Ja & e & n & palat-eć\\
+$\star$ppas:sg:nom.acc.voc:n:neg ppas:pl:nom.acc.voc:m2.m3.f.n:neg & verb & nie & Ja & e & n & palat-eć\\
+$\star$ppas:sg:nom.voc:m1.m2.m3:aff ppas:sg:acc:m3:aff & verb & $\varepsilon$ & Ja & y & n & palat-eć\\
+$\star$ppas:sg:nom.voc:f:aff & verb & $\varepsilon$ & Ja & a & n & palat-eć\\
+$\star$ppas:sg:nom.voc:m1.m2.m3:neg ppas:sg:acc:m3:neg & verb & nie & Ja & y & n & palat-eć\\
+$\star$ppas:sg:nom.voc:f:neg & verb & nie & Ja & a & n & palat-eć\\
+$\star$ppas:sg:gen.dat.loc:f:aff & verb & $\varepsilon$ & Ja & ej & n & palat-eć\\
+$\star$ppas:sg:gen.dat.loc:f:neg & verb & nie & Ja & ej & n & palat-eć\\
+$\star$ppas:sg:gen:m1.m2.m3.n:aff ppas:sg:acc:m1.m2:aff & verb & $\varepsilon$ & Ja & ego & n & palat-eć\\
+$\star$ppas:sg:gen:m1.m2.m3.n:neg ppas:sg:acc:m1.m2:neg & verb & nie & Ja & ego & n & palat-eć\\
+$\star$ppas:sg:dat:m1.m2.m3.n:aff & verb & $\varepsilon$ & Ja & emu & n & palat-eć\\
+$\star$ppas:sg:dat:m1.m2.m3.n:neg & verb & nie & Ja & emu & n & palat-eć\\
+$\star$ppas:sg:acc.inst:f:aff & verb & $\varepsilon$ & Ja & ą & n & palat-eć\\
+$\star$ppas:sg:acc.inst:f:neg & verb & nie & Ja & ą & n & palat-eć\\
+$\star$ppas:sg:inst.loc:m1.m2.m3.n:aff ppas:pl:dat:m1.m2.m3.f.n:aff & verb & $\varepsilon$ & Ja & ym & n & palat-eć\\
+$\star$ppas:sg:inst.loc:m1.m2.m3.n:neg ppas:pl:dat:m1.m2.m3.f.n:neg & verb & nie & Ja & ym & n & palat-eć\\
+$\star$ppas:pl:nom.voc:m1:aff & verb & $\varepsilon$ & Ja & i & n & palat-eć\\
+$\star$ppas:pl:nom.voc:m1:neg & verb & nie & Ja & i & n & palat-eć\\
+$\star$ppas:pl:gen.loc:m1.m2.m3.f.n:aff ppas:pl:acc:m1:aff & verb & $\varepsilon$ & Ja & ych & n & palat-eć\\
+$\star$ppas:pl:gen.loc:m1.m2.m3.f.n:neg ppas:pl:acc:m1:neg & verb & nie & Ja & ych & n & palat-eć\\
+$\star$ppas:pl:inst:m1.m2.m3.f.n:aff & verb & $\varepsilon$ & Ja & ymi & n & palat-eć\\
+$\star$ppas:pl:inst:m1.m2.m3.f.n:neg & verb & nie & Ja & ymi & n & palat-eć\\
+\end{longtable}
+\begin{longtable}{p{7cm}|l|l|l|l|l|l}
+interpretacja & cat & pref & group & flex & flex2 & lemma\\
+\hline
+fin:sg:sec & verb & $\varepsilon$ & y & sz & $\varepsilon$ & palat-ć\\
+fin:sg:ter & verb & $\varepsilon$ & y & $\varepsilon$ & $\varepsilon$ & palat-ć\\
+fin:pl:pri & verb & $\varepsilon$ & y & my & $\varepsilon$ & palat-ć\\
+fin:pl:sec & verb & $\varepsilon$ & y & cie & $\varepsilon$ & palat-ć\\
+fin:sg:pri & verb & $\varepsilon$ & J & ę & $\varepsilon$ & palat-ć\\
+fin:pl:ter & verb & $\varepsilon$ & J & ą & $\varepsilon$ & palat-ć\\
+impt:sg:sec & verb & $\varepsilon$ & yj & $\varepsilon$ & $\varepsilon$ & palat-ć\\
+impt:pl:pri & verb & $\varepsilon$ & yj & my & $\varepsilon$ & palat-ć\\
+impt:pl:sec & verb & $\varepsilon$ & yj & cie & $\varepsilon$ & palat-ć\\
+impt:sg:sec & verb & $\varepsilon$ & $\varepsilon$ & $\varepsilon$ & $\varepsilon$ & palat-ć\\
+impt:pl:pri & verb & $\varepsilon$ & $\varepsilon$ & my & $\varepsilon$ & palat-ć\\
+impt:pl:sec & verb & $\varepsilon$ & $\varepsilon$ & cie & $\varepsilon$ & palat-ć\\
+pcon:imperf & verb & $\varepsilon$ & J & $\varepsilon$ & ąc & palat-ć\\
+pacta & verb & $\varepsilon$ & J & o & ąc & palat-ć\\
+pact:sg:nom.acc.voc:n:imperf:aff pact:pl:nom.acc.voc:m2.m3.f.n:imperf:aff & verb & $\varepsilon$ & J & e & ąc & palat-ć\\
+pact:sg:nom.acc.voc:n:imperf:neg pact:pl:nom.acc.voc:m2.m3.f.n:imperf:neg & verb & nie & J & e & ąc & palat-ć\\
+pact:sg:nom.voc:m1.m2.m3:imperf:aff pact:sg:acc:m3:imperf:aff pact:pl:nom.voc:m1:imperf:aff & verb & $\varepsilon$ & J & y & ąc & palat-ć\\
+pact:sg:nom.voc:f:imperf:aff & verb & $\varepsilon$ & J & a & ąc & palat-ć\\
+pact:sg:nom.voc:m1.m2.m3:imperf:neg pact:sg:acc:m3:imperf:neg pact:pl:nom.voc:m1:imperf:neg & verb & nie & J & y & ąc & palat-ć\\
+pact:sg:nom.voc:f:imperf:neg & verb & nie & J & a & ąc & palat-ć\\
+pact:sg:gen.dat.loc:f:imperf:aff & verb & $\varepsilon$ & J & ej & ąc & palat-ć\\
+pact:sg:gen.dat.loc:f:imperf:neg & verb & nie & J & ej & ąc & palat-ć\\
+pact:sg:gen:m1.m2.m3.n:imperf:aff pact:sg:acc:m1.m2:imperf:aff & verb & $\varepsilon$ & J & ego & ąc & palat-ć\\
+pact:sg:gen:m1.m2.m3.n:imperf:neg pact:sg:acc:m1.m2:imperf:neg & verb & nie & J & ego & ąc & palat-ć\\
+pact:sg:dat:m1.m2.m3.n:imperf:aff & verb & $\varepsilon$ & J & emu & ąc & palat-ć\\
+pact:sg:dat:m1.m2.m3.n:imperf:neg & verb & nie & J & emu & ąc & palat-ć\\
+pact:sg:acc.inst:f:imperf:aff & verb & $\varepsilon$ & J & ą & ąc & palat-ć\\
+pact:sg:acc.inst:f:imperf:neg & verb & nie & J & ą & ąc & palat-ć\\
+pact:sg:inst.loc:m1.m2.m3.n:imperf:aff pact:pl:dat:m1.m2.m3.f.n:imperf:aff & verb & $\varepsilon$ & J & ym & ąc & palat-ć\\
+pact:sg:inst.loc:m1.m2.m3.n:imperf:neg pact:pl:dat:m1.m2.m3.f.n:imperf:neg & verb & nie & J & ym & ąc & palat-ć\\
+pact:pl:gen.loc:m1.m2.m3.f.n:imperf:aff pact:pl:acc:m1:imperf:aff & verb & $\varepsilon$ & J & ych & ąc & palat-ć\\
+pact:pl:gen.loc:m1.m2.m3.f.n:imperf:neg pact:pl:acc:m1:imperf:neg & verb & nie & J & ych & ąc & palat-ć\\
+pact:pl:inst:m1.m2.m3.f.n:imperf:aff & verb & $\varepsilon$ & J & ymi & ąc & palat-ć\\
+pact:pl:inst:m1.m2.m3.f.n:imperf:neg & verb & nie & J & ymi & ąc & palat-ć\\
+inf & verb & $\varepsilon$ & y & $\varepsilon$ & ć & palat-ć\\
+pant & verb & $\varepsilon$ & y & szy & w & palat-ć\\
+imps & verb & $\varepsilon$ & Jo & o & n & palat-ć\\
+praet:sg:m1.m2.m3 & verb & $\varepsilon$ & y & $\varepsilon$ & ł & palat-ć\\
+praet:pl:m2.m3.f.n & verb & $\varepsilon$ & y & y & ł & palat-ć\\
+praet:sg:n & verb & $\varepsilon$ & y & o & ł & palat-ć\\
+praet:pl:m1 & verb & $\varepsilon$ & y & i & ł & palat-ć\\
+praet:sg:f & verb & $\varepsilon$ & y & a & ł & palat-ć\\
+ger:pl:gen:n:aff & verb & $\varepsilon$ & Je & $\varepsilon$ & ń & palat-ć\\
+ger:sg:dat.loc:n:aff & verb & $\varepsilon$ & Je & u & ń & palat-ć\\
+ger:pl:dat:n:aff & verb & $\varepsilon$ & Je & om & ń & palat-ć\\
+ger:sg:inst:n:aff & verb & $\varepsilon$ & Je & em & ń & palat-ć\\
+ger:sg:nom.acc:n:aff & verb & $\varepsilon$ & Je & e & ń & palat-ć\\
+ger:pl:inst:n:aff & verb & $\varepsilon$ & Je & ami & ń & palat-ć\\
+ger:pl:loc:n:aff & verb & $\varepsilon$ & Je & ach & ń & palat-ć\\
+ger:sg:gen:n:aff ger:pl:nom.acc:n:aff & verb & $\varepsilon$ & Je & a & ń & palat-ć\\
+ger:pl:gen:n:neg & verb & nie & Je & $\varepsilon$ & ń & palat-ć\\
+ger:sg:dat.loc:n:neg & verb & nie & Je & u & ń & palat-ć\\
+ger:pl:dat:n:neg & verb & nie & Je & om & ń & palat-ć\\
+ger:sg:inst:n:neg & verb & nie & Je & em & ń & palat-ć\\
+ger:sg:nom.acc:n:neg & verb & nie & Je & e & ń & palat-ć\\
+ger:pl:inst:n:neg & verb & nie & Je & ami & ń & palat-ć\\
+ger:pl:loc:n:neg & verb & nie & Je & ach & ń & palat-ć\\
+ger:sg:gen:n:neg ger:pl:nom.acc:n:neg & verb & nie & Je & a & ń & palat-ć\\
+ppas:sg:nom.acc.voc:n:aff ppas:pl:nom.acc.voc:m2.m3.f.n:aff & verb & $\varepsilon$ & Ja & e & n & palat-ć\\
+ppas:sg:nom.acc.voc:n:neg ppas:pl:nom.acc.voc:m2.m3.f.n:neg & verb & nie & Ja & e & n & palat-ć\\
+ppas:sg:nom.voc:m1.m2.m3:aff ppas:sg:acc:m3:aff & verb & $\varepsilon$ & Ja & y & n & palat-ć\\
+ppas:sg:nom.voc:f:aff & verb & $\varepsilon$ & Ja & a & n & palat-ć\\
+ppas:sg:nom.voc:m1.m2.m3:neg ppas:sg:acc:m3:neg & verb & nie & Ja & y & n & palat-ć\\
+ppas:sg:nom.voc:f:neg & verb & nie & Ja & a & n & palat-ć\\
+ppas:sg:gen.dat.loc:f:aff & verb & $\varepsilon$ & Ja & ej & n & palat-ć\\
+ppas:sg:gen.dat.loc:f:neg & verb & nie & Ja & ej & n & palat-ć\\
+ppas:sg:gen:m1.m2.m3.n:aff ppas:sg:acc:m1.m2:aff & verb & $\varepsilon$ & Ja & ego & n & palat-ć\\
+ppas:sg:gen:m1.m2.m3.n:neg ppas:sg:acc:m1.m2:neg & verb & nie & Ja & ego & n & palat-ć\\
+ppas:sg:dat:m1.m2.m3.n:aff & verb & $\varepsilon$ & Ja & emu & n & palat-ć\\
+ppas:sg:dat:m1.m2.m3.n:neg & verb & nie & Ja & emu & n & palat-ć\\
+ppas:sg:acc.inst:f:aff & verb & $\varepsilon$ & Ja & ą & n & palat-ć\\
+ppas:sg:acc.inst:f:neg & verb & nie & Ja & ą & n & palat-ć\\
+ppas:sg:inst.loc:m1.m2.m3.n:aff ppas:pl:dat:m1.m2.m3.f.n:aff & verb & $\varepsilon$ & Ja & ym & n & palat-ć\\
+ppas:sg:inst.loc:m1.m2.m3.n:neg ppas:pl:dat:m1.m2.m3.f.n:neg & verb & nie & Ja & ym & n & palat-ć\\
+ppas:pl:nom.voc:m1:aff & verb & $\varepsilon$ & Ja & i & n & palat-ć\\
+ppas:pl:nom.voc:m1:neg & verb & nie & Ja & i & n & palat-ć\\
+ppas:pl:gen.loc:m1.m2.m3.f.n:aff ppas:pl:acc:m1:aff & verb & $\varepsilon$ & Ja & ych & n & palat-ć\\
+ppas:pl:gen.loc:m1.m2.m3.f.n:neg ppas:pl:acc:m1:neg & verb & nie & Ja & ych & n & palat-ć\\
+ppas:pl:inst:m1.m2.m3.f.n:aff & verb & $\varepsilon$ & Ja & ymi & n & palat-ć\\
+ppas:pl:inst:m1.m2.m3.f.n:neg & verb & nie & Ja & ymi & n & palat-ć\\
+ppas:sg:nom.acc.voc:n:aff ppas:pl:nom.acc.voc:m2.m3.f.n:aff & verb & $\varepsilon$ & Jo & e & n & palat-ć\\
+ppas:sg:nom.acc.voc:n:neg ppas:pl:nom.acc.voc:m2.m3.f.n:neg & verb & nie & Jo & e & n & palat-ć\\
+ppas:sg:nom.voc:m1.m2.m3:aff ppas:sg:acc:m3:aff & verb & $\varepsilon$ & Jo & y & n & palat-ć\\
+ppas:sg:nom.voc:f:aff & verb & $\varepsilon$ & Jo & a & n & palat-ć\\
+ppas:sg:nom.voc:m1.m2.m3:neg ppas:sg:acc:m3:neg & verb & nie & Jo & y & n & palat-ć\\
+ppas:sg:nom.voc:f:neg & verb & nie & Jo & a & n & palat-ć\\
+ppas:sg:gen.dat.loc:f:aff & verb & $\varepsilon$ & Jo & ej & n & palat-ć\\
+ppas:sg:gen.dat.loc:f:neg & verb & nie & Jo & ej & n & palat-ć\\
+ppas:sg:gen:m1.m2.m3.n:aff ppas:sg:acc:m1.m2:aff & verb & $\varepsilon$ & Jo & ego & n & palat-ć\\
+ppas:sg:gen:m1.m2.m3.n:neg ppas:sg:acc:m1.m2:neg & verb & nie & Jo & ego & n & palat-ć\\
+ppas:sg:dat:m1.m2.m3.n:aff & verb & $\varepsilon$ & Jo & emu & n & palat-ć\\
+ppas:sg:dat:m1.m2.m3.n:neg & verb & nie & Jo & emu & n & palat-ć\\
+ppas:sg:acc.inst:f:aff & verb & $\varepsilon$ & Jo & ą & n & palat-ć\\
+ppas:sg:acc.inst:f:neg & verb & nie & Jo & ą & n & palat-ć\\
+ppas:sg:inst.loc:m1.m2.m3.n:aff ppas:pl:dat:m1.m2.m3.f.n:aff & verb & $\varepsilon$ & Jo & ym & n & palat-ć\\
+ppas:sg:inst.loc:m1.m2.m3.n:neg ppas:pl:dat:m1.m2.m3.f.n:neg & verb & nie & Jo & ym & n & palat-ć\\
+ppas:pl:nom.voc:m1:aff & verb & $\varepsilon$ & Jo & i & n & palat-ć\\
+ppas:pl:nom.voc:m1:neg & verb & nie & Jo & i & n & palat-ć\\
+ppas:pl:gen.loc:m1.m2.m3.f.n:aff ppas:pl:acc:m1:aff & verb & $\varepsilon$ & Jo & ych & n & palat-ć\\
+ppas:pl:gen.loc:m1.m2.m3.f.n:neg ppas:pl:acc:m1:neg & verb & nie & Jo & ych & n & palat-ć\\
+ppas:pl:inst:m1.m2.m3.f.n:aff & verb & $\varepsilon$ & Jo & ymi & n & palat-ć\\
+ppas:pl:inst:m1.m2.m3.f.n:neg & verb & nie & Jo & ymi & n & palat-ć\\
+\end{longtable}
+\begin{longtable}{p{7cm}|l|l|l|l|l|l}
+interpretacja & cat & pref & group & flex & flex2 & lemma\\
+\hline
+fin:sg:sec & verb & $\varepsilon$ & uje & sz & $\varepsilon$ & ywać\\
+fin:sg:ter & verb & $\varepsilon$ & uje & $\varepsilon$ & $\varepsilon$ & ywać\\
+fin:pl:pri & verb & $\varepsilon$ & uje & my & $\varepsilon$ & ywać\\
+fin:pl:sec & verb & $\varepsilon$ & uje & cie & $\varepsilon$ & ywać\\
+fin:sg:pri & verb & $\varepsilon$ & uj & ę & $\varepsilon$ & ywać\\
+fin:pl:ter & verb & $\varepsilon$ & uj & ą & $\varepsilon$ & ywać\\
+impt:sg:sec & verb & $\varepsilon$ & uj & $\varepsilon$ & $\varepsilon$ & ywać\\
+impt:pl:pri & verb & $\varepsilon$ & uj & my & $\varepsilon$ & ywać\\
+impt:pl:sec & verb & $\varepsilon$ & uj & cie & $\varepsilon$ & ywać\\
+pcon:imperf & verb & $\varepsilon$ & uj & $\varepsilon$ & ąc & ywać\\
+pacta & verb & $\varepsilon$ & uj & o & ąc & ywać\\
+pact:sg:nom.acc.voc:n:imperf:aff pact:pl:nom.acc.voc:m2.m3.f.n:imperf:aff & verb & $\varepsilon$ & uj & e & ąc & ywać\\
+pact:sg:nom.acc.voc:n:imperf:neg pact:pl:nom.acc.voc:m2.m3.f.n:imperf:neg & verb & nie & uj & e & ąc & ywać\\
+pact:sg:nom.voc:m1.m2.m3:imperf:aff pact:sg:acc:m3:imperf:aff pact:pl:nom.voc:m1:imperf:aff & verb & $\varepsilon$ & uj & y & ąc & ywać\\
+pact:sg:nom.voc:f:imperf:aff & verb & $\varepsilon$ & uj & a & ąc & ywać\\
+pact:sg:nom.voc:m1.m2.m3:imperf:neg pact:sg:acc:m3:imperf:neg pact:pl:nom.voc:m1:imperf:neg & verb & nie & uj & y & ąc & ywać\\
+pact:sg:nom.voc:f:imperf:neg & verb & nie & uj & a & ąc & ywać\\
+pact:sg:gen.dat.loc:f:imperf:aff & verb & $\varepsilon$ & uj & ej & ąc & ywać\\
+pact:sg:gen.dat.loc:f:imperf:neg & verb & nie & uj & ej & ąc & ywać\\
+pact:sg:gen:m1.m2.m3.n:imperf:aff pact:sg:acc:m1.m2:imperf:aff & verb & $\varepsilon$ & uj & ego & ąc & ywać\\
+pact:sg:gen:m1.m2.m3.n:imperf:neg pact:sg:acc:m1.m2:imperf:neg & verb & nie & uj & ego & ąc & ywać\\
+pact:sg:dat:m1.m2.m3.n:imperf:aff & verb & $\varepsilon$ & uj & emu & ąc & ywać\\
+pact:sg:dat:m1.m2.m3.n:imperf:neg & verb & nie & uj & emu & ąc & ywać\\
+pact:sg:acc.inst:f:imperf:aff & verb & $\varepsilon$ & uj & ą & ąc & ywać\\
+pact:sg:acc.inst:f:imperf:neg & verb & nie & uj & ą & ąc & ywać\\
+pact:sg:inst.loc:m1.m2.m3.n:imperf:aff pact:pl:dat:m1.m2.m3.f.n:imperf:aff & verb & $\varepsilon$ & uj & ym & ąc & ywać\\
+pact:sg:inst.loc:m1.m2.m3.n:imperf:neg pact:pl:dat:m1.m2.m3.f.n:imperf:neg & verb & nie & uj & ym & ąc & ywać\\
+pact:pl:gen.loc:m1.m2.m3.f.n:imperf:aff pact:pl:acc:m1:imperf:aff & verb & $\varepsilon$ & uj & ych & ąc & ywać\\
+pact:pl:gen.loc:m1.m2.m3.f.n:imperf:neg pact:pl:acc:m1:imperf:neg & verb & nie & uj & ych & ąc & ywać\\
+pact:pl:inst:m1.m2.m3.f.n:imperf:aff & verb & $\varepsilon$ & uj & ymi & ąc & ywać\\
+pact:pl:inst:m1.m2.m3.f.n:imperf:neg & verb & nie & uj & ymi & ąc & ywać\\
+\end{longtable}
+
+Poniższe tablice w lewej kolumnie zawierają interpretację, w prawej wartości atrybutu \texttt{flex}, \texttt{palat} i \texttt{velar},
+a w nagłówku opis pozostałych atrybutów. Brak określenia wartości dla \texttt{palat} lub \texttt{velar} oznacza, że wartość może być dowolna.
+
+\begin{multicols}{2}
+cat=noun lemma=a gender:=f\\
+\begin{tabular}{l|l}
+sg:nom & a\\
+sg:gen & y $\star\varepsilon$\\
+sg:gen.dat.loc & ej\\
+sg:dat.loc & y$\uparrow$ ie$\downarrow$\\
+sg:acc & ę ą\\
+sg:inst & ą\\
+sg:voc & u$\uparrow$ o a\\
+pl:nom.acc.voc & y$\downarrow$ e\\
+pl:gen & $\varepsilon$ y$\uparrow$\\
+pl:gen.loc & ych\\
+pl:dat & ym om\\
+pl:inst & ymi ami\\
+pl:loc & ach\\
+\end{tabular}\\
+
+cat=noun lemma=a gender:=m1\\
+\begin{tabular}{l|l}
+sg:nom & a\\
+sg:gen & y $\star$ego\\
+sg:gen.acc & $\star$ego\\
+sg:dat & $\star$emu\\
+sg:dat.loc & y$\uparrow$ ie$\downarrow$\\
+sg:acc & ę\\
+sg:inst & ą $\star$ym\\
+sg:loc & $\star$ym\\
+sg:voc & o $\star$u\\
+pl:nom.voc & y$\uparrow$ i$\downarrow$ owie $\star$e\\
+pl:gen.acc & ów $\star\varepsilon$\\
+pl:dat & om\\
+pl:inst & ami\\
+pl:loc & ach\\
+depr & y e\\
+\end{tabular}\\
+
+cat=noun lemma=a gender:=m2\\
+\begin{tabular}{l|l}
+sg:nom & a\\
+sg:gen & y\\
+sg:dat.loc & y$\uparrow$ ie$\downarrow$\\
+sg:acc & ę\\
+sg:inst & ą\\
+sg:voc & o\\
+pl:nom.acc.voc & y$\downarrow$ e$\uparrow$\\
+pl:gen & ów y\\
+pl:dat & om\\
+pl:inst & ami\\
+pl:loc & ach\\
+\end{tabular}\\
+
+cat=noun lemma=a gender:=n:ncol\\
+\begin{tabular}{l|l}
+sg:nom.acc.voc & $\star$a\\
+sg:gen & $\star$a\\
+sg:dat & $\star$a\\
+sg:inst & $\star$a\\
+sg:loc & $\star$a\\
+\end{tabular}\\
+
+cat=noun lemma=a gender:=n:pt\\
+\begin{tabular}{l|l}
+pl:nom.acc.voc & a\\
+pl:gen & $\varepsilon$ ów y$\uparrow$\\
+pl:dat & om\\
+pl:inst & ami\\
+pl:loc & ach\\
+\end{tabular}\\
+
+cat=noun lemma=anin gender:=m1\\
+\begin{tabular}{l|l}
+pl:nom.voc & anie\\
+pl:gen.acc & anów an\\
+pl:dat & anom\\
+pl:inst & anami\\
+pl:loc & anach\\
+depr & any\\
+\end{tabular}\\
+
+cat=noun lemma=e gender:=m1\\
+\begin{tabular}{l|l}
+sg:nom.voc|depr & e\\
+sg:gen.acc & ego\\
+sg:dat & emu\\
+sg:inst.loc & em\\
+pl:nom.voc & owie\\
+pl:gen.acc & ów\\
+pl:dat & om\\
+pl:inst & ami\\
+pl:loc & ach\\
+\end{tabular}\\
+
+cat=noun lemma=e gender:=n:ncol\\
+\begin{tabular}{l|l}
+sg:nom.acc.voc & e\\
+sg:gen & ego\\
+sg:gen|pl:nom.acc.voc & a$\uparrow$\\
+sg:dat & emu\\
+sg:dat.loc & u$\uparrow$\\
+sg:inst & em$\uparrow$\\
+sg:inst.loc & em$\downarrow$ ym\\
+pl:nom.acc.voc & e\\
+pl:gen & $\varepsilon\uparrow$ $\star$ów y$\uparrow$\\
+pl:gen.loc & ych\\
+pl:dat & ym om$\uparrow$\\
+pl:inst & ymi ami$\uparrow$\\
+pl:loc & ach$\uparrow$\\
+\end{tabular}\\
+
+cat=noun lemma=e gender:=n:pt\\
+\begin{tabular}{l|l}
+pl:nom.acc.voc & e\\
+pl:gen & $\varepsilon\uparrow$ ów$\uparrow$ ych$\downarrow$ y$\uparrow$\\
+pl:dat & ym om\\
+pl:inst & ymi ami\\
+pl:loc & ych ach\\
+\end{tabular}\\
+
+cat=noun lemma=mię gender:=n:ncol\\
+\begin{tabular}{l|l}
+sg:nom.acc.voc & mię\\
+sg:gen & mienia\\
+sg:dat.loc & mieniu\\
+sg:inst & mieniem\\
+pl:nom.acc.voc & miona\\
+pl:gen & mion\\
+pl:dat & mionom\\
+pl:inst & mionami\\
+pl:loc & mionach\\
+\end{tabular}\\
+
+cat=noun lemma=ni gender:=f\\
+\begin{tabular}{l|l}
+sg:nom.gen.dat.loc.voc & ni\\
+sg:acc & nię $\star$nią\\
+sg:inst & nią\\
+pl:nom.acc.voc & nie\\
+pl:gen & ń\\
+pl:dat & niom\\
+pl:inst & niami\\
+pl:loc & niach\\
+\end{tabular}\\
+
+cat=noun lemma=o gender:=m1\\
+\begin{tabular}{l|l}
+sg:nom & o\\
+sg:gen & y$\downarrow$ $\star$a\\
+sg:gen.acc & a\\
+sg:dat & u$\downarrow$ owi ie$\downarrow$\\
+sg:acc & ę$\downarrow$\\
+sg:inst & ą$\downarrow$ em\\
+sg:loc & u$\uparrow$ u$\downarrow\rightarrow$ ie$\downarrow$\\
+sg:voc & u$\uparrow$ u$\downarrow\rightarrow$ o\\
+pl:nom.voc & owie a$\downarrow$\\
+pl:gen.acc & ów\\
+pl:dat & om\\
+pl:inst & ami\\
+pl:loc & ach\\
+depr & y$\downarrow$ o e$\uparrow$ a$\downarrow$\\
+\end{tabular}\\
+
+cat=noun lemma=o gender:=m1:pt\\
+\begin{tabular}{l|l}
+pl:nom.voc & o\\
+pl:gen.acc & a\\
+pl:dat.loc & u\\
+pl:inst & em\\
+\end{tabular}\\
+
+cat=noun lemma=o gender:=m2\\
+\begin{tabular}{l|l}
+sg:nom & o\\
+sg:gen.acc & a\\
+sg:dat & owi\\
+sg:inst & em\\
+sg:loc & u$\uparrow$ u$\downarrow\rightarrow$ ie$\downarrow\leftarrow$\\
+sg:voc & u o\\
+pl:nom.acc.voc & y$\downarrow$ e$\uparrow$ a$\downarrow$\\
+pl:gen & ów\\
+pl:dat & om\\
+pl:inst & ami\\
+pl:loc & ach\\
+\end{tabular}\\
+
+cat=noun lemma=o gender:=m3\\
+\begin{tabular}{l|l}
+sg:nom.acc & $\star$o\\
+sg:gen & $\star$a\\
+sg:dat & $\star$owi\\
+sg:inst & $\star$em\\
+sg:loc & $\star$u\\
+sg:voc & $\star$u\\
+pl:nom.acc.voc & $\star$e\\
+pl:gen & $\star$ów\\
+pl:dat & $\star$om\\
+pl:inst & $\star$ami\\
+pl:loc & $\star$ach\\
+\end{tabular}\\
+
+cat=noun lemma=o gender:=n:ncol\\
+\begin{tabular}{l|l}
+sg:nom.acc.voc & o\\
+sg:gen & a\\
+sg:dat & u\\
+sg:inst & em\\
+sg:loc & u$\uparrow$ u$\downarrow\rightarrow$ ie$\downarrow\leftarrow$\\
+pl:nom.acc.voc & a\\
+pl:gen & $\varepsilon$ ów $\star$y\\
+pl:dat & om\\
+pl:inst & ami\\
+pl:loc & ach\\
+\end{tabular}\\
+
+cat=noun lemma=o(n) gender:=m1\\
+\begin{tabular}{l|l}
+sg:gen.acc & ona\\
+sg:dat & onowi\\
+sg:inst & onem\\
+sg:loc.voc & onie\\
+pl:nom.voc & onowie\\
+pl:gen.acc & onów\\
+pl:dat & onom\\
+pl:inst & onami\\
+pl:loc & onach\\
+depr & ony\\
+\end{tabular}\\
+
+cat=noun lemma=stwo gender:=m1:pt\\
+\begin{tabular}{l|l}
+pl:nom.voc & stwo\\
+pl:gen.acc & stwa\\
+pl:dat.loc & stwu\\
+pl:inst & stwem\\
+\end{tabular}\\
+
+cat=noun lemma=um gender:=n:ncol\\
+\begin{tabular}{l|l}
+sg:nom.gen.dat.acc.inst.loc.voc & um\\
+pl:nom.acc.voc & a\\
+pl:gen & ów\\
+pl:dat & om\\
+pl:inst & ami\\
+pl:loc & ach\\
+\end{tabular}\\
+
+cat=noun lemma=us gender:=m3\\
+\begin{tabular}{l|l}
+sg:gen & u\\
+sg:dat & owi\\
+sg:inst & em\\
+sg:loc.voc & ie\\
+pl:nom.acc.voc & y\\
+pl:gen & ów\\
+pl:dat & om\\
+pl:inst & ami\\
+pl:loc & ach\\
+\end{tabular}\\
+
+cat=noun lemma=y gender:=m1\\
+\begin{tabular}{l|l}
+sg:nom.voc & y\\
+sg:gen.acc & ego\\
+sg:dat & emu\\
+sg:inst.loc|pl:dat & ym\\
+pl:nom.voc & y$\uparrow$ owie i$\downarrow$ $\star$y\\
+pl:gen.acc.loc & ych\\
+pl:inst & ymi\\
+depr & e\\
+\end{tabular}\\
+
+cat=noun lemma=y gender:=m2\\
+\begin{tabular}{l|l}
+sg:nom.voc & y\\
+sg:gen.acc & ego\\
+sg:dat & emu\\
+sg:inst.loc|pl:dat & ym\\
+pl:nom.acc.voc & e\\
+pl:gen.acc.loc & ych\\
+pl:inst & ymi\\
+\end{tabular}\\
+
+cat=noun lemma=y gender:=m3\\
+\begin{tabular}{l|l}
+sg:nom.acc.voc & y\\
+sg:gen & ego\\
+sg:dat & emu\\
+sg:inst.loc|pl:dat & ym\\
+pl:nom.acc.voc & e\\
+pl:gen.loc & ych\\
+pl:inst & ymi\\
+\end{tabular}\\
+
+cat=noun lemma=y gender:=n:pt\\
+\begin{tabular}{l|l}
+pl:nom.acc.voc & y\\
+pl:gen & $\varepsilon\downarrow$ ów y$\uparrow$\\
+pl:dat & om\\
+pl:inst & ami\\
+pl:loc & ach\\
+\end{tabular}\\
+
+cat=noun lemma=ę gender:=n:col\\
+\begin{tabular}{l|l}
+sg:nom.acc.voc & ę\\
+sg:gen & ęcia\\
+sg:dat.loc & ęciu\\
+sg:inst & ęciem\\
+pl:nom.acc.voc & ęta\\
+pl:gen & ąt\\
+pl:dat & ętom\\
+pl:inst & ętami\\
+pl:loc & ętach\\
+\end{tabular}\\
+
+cat=noun lemma=$\varepsilon$ gender:=f\\
+\begin{tabular}{l|l}
+sg:nom.acc & $\varepsilon\uparrow$\\
+sg:gen.dat.loc.voc|pl:gen & y$\uparrow$\\
+sg:inst & ą$\uparrow$\\
+pl:nom.acc.voc & y$\uparrow$ e$\uparrow$\\
+pl:dat & om$\uparrow$\\
+pl:inst & ami$\uparrow$\\
+pl:loc & ach$\uparrow$\\
+\end{tabular}\\
+cat=noun lemma=$\varepsilon$ gender:=m1\\
+\begin{tabular}{l|l}
+sg:nom & $\varepsilon$\\
+sg:gen & $\star$y\\
+sg:gen.acc & a\\
+sg:dat & owi $\star$u\\
+sg:dat.loc & $\star$y\\
+sg:acc & $\star$y\\
+sg:inst & em $\star$ą\\
+sg:loc & $\star$u $\star$ie\\
+sg:loc.voc & u$\uparrow$ u$\downarrow\rightarrow$ ie$\downarrow\leftarrow$\\
+sg:voc & cze$\uparrow$ $\star$y $\star$ie\\
+pl:nom.voc & y$\uparrow$ i$\downarrow$ e$\uparrow$ owie $\star$ie\\
+pl:gen.acc & ów y$\uparrow$\\
+pl:dat & om\\
+pl:inst & ami\\
+pl:loc & ach\\
+depr & y$\downarrow$ e$\uparrow$\\
+\end{tabular}\\
+cat=noun lemma=$\varepsilon$ gender:=m2\\
+\begin{tabular}{l|l}
+sg:nom & $\varepsilon$\\
+sg:gen.acc & a\\
+sg:dat & owi $\star$u\\
+sg:inst & em\\
+sg:loc.voc & u$\uparrow$ u$\downarrow\rightarrow$ ie$\downarrow\leftarrow$\\
+pl:nom.acc.voc & y$\downarrow$ e$\uparrow$ $\star$e\\
+pl:gen & ów y$\uparrow$\\
+pl:dat & om\\
+pl:inst & ami\\
+pl:loc & ach\\
+\end{tabular}\\
+cat=noun lemma=$\varepsilon$ gender:=m3\\
+\begin{tabular}{l|l}
+sg:nom.acc & $\varepsilon$\\
+sg:gen & u a\\
+sg:dat & $\star$u$\downarrow$ owi\\
+sg:inst & em\\
+sg:loc & $\star$ie\\
+sg:loc.voc & u$\uparrow$ u$\downarrow\rightarrow$ ie$\downarrow\leftarrow$\\
+sg:voc & $\star$ie\\
+pl:nom.acc.voc & y$\downarrow$ e$\uparrow$ $\star$e $\star$a\\
+pl:gen & ów y$\uparrow$\\
+pl:dat & om\\
+pl:inst & ami\\
+pl:loc & ach\\
+\end{tabular}\\
+\end{multicols}
+\end{document}

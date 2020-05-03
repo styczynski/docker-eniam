@@ -1,0 +1,1173 @@
+1120 podmiot-3
+  0 zarządca kompensacji-1
+  0 osoba zagraniczna-1
+  0 osoba trzecia-2
+  0 nierezydent-1
+  1 rezydent-4
+    0 rezydent długoterminowy-1
+  0 osoba podejrzana-1
+  0 interesariusz-1
+  0 podejrzany-1
+  22 strona-10
+    0 advocatus diaboli-2, adwokat diabła-2
+    0 ława oskarżonych-1
+    0 apelant-1
+    0 procesowicz-1
+    0 podsądny-1, oskarżony-1
+    8 oskarżyciel-1
+      VISITED 0 oskarżyciel prywatny-1
+      5 oskarżyciel publiczny-1
+        4 prokurator-1
+          0 podprokurator-1
+          1 prokurator generalny-1
+            0 instygator-1
+          0 wiceprokurator-1
+      0 oskarżyciel posiłkowy-1
+    0 pozwany-1
+    2 powód-3
+      0 powód cywilny-1
+      0 oskarżyciel prywatny-1
+    4 adwokat-1, obrońca-2, obrona-2
+      0 paraklet-1
+      0 dziekan-5
+      0 adwokat z urzędu-1, obrońca z urzędu-1
+      0 kauzyperda-1, adwokacina-1
+  0 przejemca-1
+  1 wystawca-2
+    0 trasant-1
+  675 osoba prawna-1
+    674 instytucja-1
+      0 inkubator przedsiębiorczości-1
+      0 opieka społeczna-2
+      0 grób pobielany-2
+      0 jednostka naukowa-1
+      0 instytucja obowiązana-1
+      0 miasteczko wodne-1
+      0 dom maklerski-1
+      0 landszafta-1
+      0 laktarium-1
+      1 kasa-6
+        0 kasa bracka-1
+      2 kuźnia-3
+        0 pepiniera-2
+        VISITED 0 uniwersytet-1, uniwerek-1
+      0 kantor-6
+      3 stacja-3
+        2 radio-1, rozgłośnia-1, radiostacja-2, rozgłośnia radiowa-1, fale eteru-1
+          0 radio internetowe-1
+          0 radiowęzeł-1
+      0 fundusz-2
+      1 agencja-4
+        0 agencja kosmiczna-1
+      0 wywiadownia gospodarcza-1, wywiadownia-1
+      9 biuro-1
+        0 biuro techniczne-1
+        0 biuro adresowe-1
+        0 biuro konstrukcyjne-1
+        0 biuro rachunkowe-1
+        0 biuro maklerskie-1
+        VISITED 0 kantor-7
+        1 biuro podróży-2
+          0 touroperator-1
+        0 gabinet polityczny-1
+      0 parabank-1
+      0 opera-5
+      0 nakładca-2
+      1 wydawca-2
+        0 koedytor-2, współwydawca-2
+      VISITED 0 antrepryza-1
+      0 druidyzm-2
+      36 dom-3
+        0 dom samotnej matki-1
+        0 dom pogodnej starości-1
+        0 dom przedpogrzebowy-1
+        0 schronisko-2, azyl-3
+        VISITED 1 dom gry-1, kasyno-2, salon gry-1
+        0 dom starców-1, przytułek-2
+        VISITED 0 dom kultury-1
+        0 sierociniec-1, ochronka-1, dom dziecka-1
+        0 dom zdrojowy-1
+        2 dom towarowy-1
+          1 pedet-1
+            0 cedet-1
+        0 dom publiczny-1, agencja towarzyska-1
+        0 dom poprawczy-1, zakład poprawczy-1, poprawczak-1
+        19 kościół-2, Dom Boży-2
+          0 kościół ścienno-filarowy-1
+          0 kościół filialny-1
+          0 kościół parafialny-1
+          0 parafia-3
+          0 kościół salowy-1
+          0 fara-1, kościół farny-1
+          0 konkatedra-1, współkatedra-1, kościół konkatedralny-1
+          0 kolegiata-1
+          0 zbór-1, kircha-1
+          0 kościół halowy-1
+          4 cerkiew-2, cerkiew prawosławna-2
+            0 cerkiew łemkowska-1
+            0 cerkiew huculska-1
+            0 cerkiew bojkowska-1
+            0 sobór-2
+          2 katedra-1
+            0 prokatedra-1
+            0 archikatedra-1
+          0 bazylika-1
+        VISITED 0 szpital psychiatryczny-1, dom wariatów-2, wariatkowo-1, dom obłąkanych-1
+      2 poczta-1
+        0 poczta lotnicza-1
+        0 poczta polowa-1
+      0 emitent-1
+      0 zakład-2
+      81 instytucja-2
+        2 świetlica-3
+          0 świetlica środowiskowa-1
+          0 świetlica-2
+        0 misja dyplomatyczna-1
+        1 jednostka pomocnicza-1
+          0 samorząd pomocniczy-1
+        0 hofrat-1
+        1 kuchnia-6
+          0 garkuchnia-2
+        0 inkwizycja-2
+        0 ubezpieczalnia-1, kasa chorych-1
+        VISITED 0 skarb państwa-1, fiskus-1
+        44 służba-2
+          0 służba hydrologiczna-1
+          0 służba meteorologiczna-1
+          18 służba publiczna-1
+            0 straż łowiecka-1
+            0 służba radiokomunikacyjna-1
+            0 służba porządkowa-1
+            0 służba sanitarna-1
+            0 straż gminna-1
+            0 służba celna-2
+            0 straż rybacka-2
+            0 służba więzienna-3
+            0 straż leśna-3, służba leśna-3
+            0 policja municypalna-1
+            0 straż miejska-1
+            5 pogotowie-2
+              0 pogotowie energetyczne-1
+              0 pogotowie opiekuńcze-1
+              0 pogotowie techniczne-1
+              0 pogotowie ratunkowe-1
+              0 pogotowie gazowe-1
+            0 straż pożarna-1, straż-4
+          0 demobil-2
+          1 wywiad-3
+            0 wywiad skarbowy-1
+          0 służba kościelna-1
+          17 *służby wewnętrzne państwa-1
+            0 straż graniczna-1
+            0 służby specjalne-1, specsłużby-1, tajne służby-1
+            0 służba bezpieczeństwa-1, bezpieka-1
+            13 policja-2
+              0 policja sądowa-1
+              0 policja polityczna-1
+              0 policja obyczajowa-1, obyczajówka-1
+              0 granatowa policja-1
+              0 policja dochodzeniowa-1, dochodzeniówka-1
+              0 gestapo-1
+              0 Europol-1
+              0 ochrana-1
+              0 Interpol-1
+              1 milicja-1
+                0 milicja obywatelska-1
+              0 żandarmeria-1
+              0 drogówka-1, policja drogowa-1
+          0 służba zdrowia-1
+        23 sąd-2
+          0 sąd drugiej instancji-1
+          0 sąd pierwszej instancji-1, sąd I instancji-1
+          0 sąd rejestrowy-1
+          0 sąd rodzinny-1
+          0 sąd opiekuńczy-1
+          0 e-sąd-1
+          0 dintojra-2
+          0 ziemstwo-1, sąd ziemski-1
+          0 sąd przysięgłych-1
+          0 sąd kapturowy-1
+          0 sąd skorupkowy-1, ostracyzm-1
+          0 sąd rewizyjny-2
+          0 sąd doraźny-2
+          2 sąd wojskowy-2
+            0 sąd wojenny-2
+            0 sąd polowy-2
+          0 sąd polubowny-2
+          0 sąd okręgowy-2
+          1 sąd apelacyjny-2
+            0 rota-1
+          0 sąd grodzki-2
+          1 trybunał-2
+            0 sąd kaperski-1
+      0 impresariat-1
+      0 filharmonia-1
+      0 dom kultury-1
+      0 cyrk-2
+      0 balet-3
+      1 wesołe miasteczko-1, lunapark-1
+        0 park rozrywki-1
+      42 szkoła-2
+        0 szkoła podwydziałowa-1
+        0 Rej-3
+        2 szkoła policealna-1
+          0 szkoła pomaturalna-2
+          0 studium-3
+        0 budowlanka-2
+        0 jazzówka-3
+        0 college-1, koledż-1
+        0 preparanda-1
+        0 szkoła podstawowa-4, podstawówka-3
+        0 szkoła specjalna-1
+        0 handlówka-1, szkoła handlowa-1
+        0 quadrivium-1, kwadrywium-2
+        0 dziesięciolatka-2
+        0 efebia-2
+        0 medresa-1, madrasa-2
+        0 podchorążówka-1
+        5 szkoła ponadgimnazjalna-1
+          VISITED 3 liceum-4
+          VISITED 0 technikum-3
+        8 szkoła wyższa-2, uczelnia-2
+          0 latający uniwersytet-1
+          0 uczelnia akademicka-1
+          0 akademia-4
+          0 filmówka-1, szkoła filmowa-1
+          0 jesziwa-1, jesziba-1, akademia talmudyczna-1, jeszybot-1
+          0 medresa-2, madrasa-1
+          0 uniwersytet-1, uniwerek-1
+          0 politechnika-1, polibuda-1
+        13 szkoła ponadpodstawowa-2
+          2 zawodówka-2, zasadnicza szkoła zawodowa-1
+            0 samochodówka-2
+            0 budowlanka-1
+          8 szkoła średnia-2
+            0 korpus kadetów-1
+            3 liceum-4
+              0 liceum plastyczne-1
+              0 liceum ogólnokształcące-1, ogólniak-2, LO-1
+              0 liceum profilowane-1, profilak-1
+            0 progimnazjum-1
+            0 seminarium-2
+            0 technikum-3
+          0 gimnazjum-2
+        0 kolegium-2
+      0 inkwizycja-1
+      0 lombard-1
+      1 ubezpieczyciel-1, zakład ubezpieczeń-1
+        0 reasekurator-1
+      389 podmiot gospodarczy-1, jednostka gospodarcza-1, agent gospodarczy-1
+        0 sprzedawca-2
+        0 sieciówka-1
+        0 gospodarstwo krajowe-1
+        0 spółdzielnia mieszkaniowa-1
+        0 gospodarstwo domowe-2
+        0 cenotwórca-1
+        0 cenobiorca-1
+        5 dostawca-1
+          0 deweloper-2
+          0 kolporter-1
+          0 poddostawca-1
+          0 dystrybutor-1
+          0 provider-1
+        2 wykonawca-3
+          0 podwykonawca-1
+          0 zleceniobiorca-1
+        0 koncesjonariusz-1
+        1 monopol-1, monopolista-1
+          0 trust-1
+        VISITED 0 armator-1
+        22 spółka-1
+          0 spółka parterowa-1
+          1 korporacja-2
+            0 radio taxi-4
+          0 podmiot powiązany-1, spółka powiązana-1
+          1 spółka holdingowa-1
+            0 spółka córka-1
+          12 spółka handlowa-1
+            5 spółka osobowa-1
+              0 lwia spółka-1
+              0 spółka komandytowo-akcyjna-1
+              0 spółka partnerska-1
+              0 spółka komandytowa-1, komandytarium-1
+              0 spółka jawna-1
+            5 spółka kapitałowa-1
+              0 spółka jednoosobowa-1
+              2 spółka akcyjna-1, S.A.-1
+                0 spółka publiczna-1
+                0 spółka giełdowa-1
+              0 sp. z o.o.-1, spółka z ograniczoną odpowiedzialnością-1
+          0 jednoosobowa spółka skarbu państwa-1
+          0 spółka cicha-1
+          0 spółka cywilna-1, s.c.-1
+        VISITED 4 inwestor-1
+        340 firma-1, interes-3, biznes-2, business-1, przedsiębiorstwo-1
+          0 touroperator-2
+          1 instytucja kredytowa-1
+            0 bank korespondent-1
+          0 gigant-8
+          0 dom aukcyjny-1
+          0 działalność gospodarcza-2
+          0 firma-wydmuszka-1, firma wydmuszka-1
+          0 przedsiębiorstwo uzdrowiskowe-1
+          0 firma krzak-1
+          0 dom mody-1
+          0 firma zwrotowa-1
+          1 pośrednik-3
+            0 faktor-5
+          2 konkurencja-6
+            0 konkurencja monopolistyczna-1
+            0 konkurencja doskonała-1
+          0 geszeft-2
+          235 zakład-1
+            20 zakład komunalny-1, zakład usług komunalnych-1
+              0 rakarnia-1
+              0 odsalarnia-1
+              0 wodociągi-1
+              0 gazownia-1
+              0 siłownia-2
+              0 ciepłownia-1
+              10 elektrownia-1
+                0 elektrownia maretermiczna-1
+                0 elektrownia wiatrowa-1
+                0 hydroelektrownia-1
+                0 elektrownia pływowa-1
+                0 elektrownia geotermiczna-1
+                0 elektrownia cieplna-1
+                0 elektrownia atomowa-1, elektrownia jądrowa-1, atomówka-2
+                0 elektrownia słoneczna-1, helioelektrownia-1
+                1 elektrownia wodna-1
+                  0 elektrownia wodna przepływowa-1
+              0 elektrociepłownia-1
+              1 oczyszczalnia ścieków-1
+                0 biologiczna oczyszczalnia-1
+            127 zakład przemysłowy-1
+              0 zakład energetyczny-1
+              0 czesalnia-1
+              0 czekoladziarnia-1, czekoladownia-1
+              0 prasownia-1
+              0 kotlarnia-1
+              0 nasycalnia-1
+              0 sieciarnia-1
+              0 topialnia-2
+              0 młynownia-1
+              0 gipsownia-1, gipsiarnia-1
+              0 bielarnia-1, bielnik-2
+              0 koksownica-1
+              0 wyłuszczarnia-2
+              0 topialnia-1, wytapialnia-1
+              0 drutownia-1
+              0 wapiennik-2
+              0 spawalnia-1
+              0 ocynkownia-1
+              0 fermentownia-1
+              0 odsiarczalnia-1
+              0 salina-2
+              0 gazoliniarnia-1
+              0 chmielarnia-2, chmielnik-1
+              0 torfownia-1, torfiarnia-1
+              0 drzeworytnia-1
+              0 fryszerka-1, fryszernia-1
+              4 przetwórnia-1
+                0 syropiarnia-1
+                0 palarnia-2
+                0 łuszczarnia-1
+                VISITED 0 roszarnia-1
+              0 przędzalnia-1
+              0 farbiarnia-1
+              0 destylarnia-1
+              1 odlewnia-1, odlewarnia-1
+                0 brązownia-1
+              65 wytwórnia-1, zakład produkcyjny-1
+                0 młyn zbożowy-1
+                0 szop-2
+                0 saletrzarnia-1
+                0 drożdżownia-1
+                0 octownia-1
+                0 betonownia-1, węzeł betoniarski-1
+                0 wytwórnia płytowa-1, wytwórnia fonograficzna-1, wydawnictwo płytowe-1
+                0 zbrojarnia-1
+                0 potażarnia-1, potaszarnia-1
+                0 rurarnia-1
+                0 gonciarnia-1
+                0 gazobetonownia-1
+                0 pożywkarnia-1
+                0 dekstryniarnia-1
+                0 szamotownia-1
+                0 marynaciarnia-1
+                0 klejownia-1
+                0 wapniarnia-1
+                0 serowarnia-1
+                0 okleiniarnia-1
+                0 makaroniarnia-1
+                0 klinkiernia-1
+                0 perukarnia-1
+                0 wytwórnia leków-1, zakład farmaceutyczny-1
+                0 deszczułkarnia-1
+                0 pędzarnia-1, bimbrownia-1
+                0 słodownia-2
+                0 wytwórnia filmowa-1
+                1 papiernia-1
+                  0 czerpalnia-1, czerpalnia papieru-1
+                0 kaflarnia-1
+                0 cegielnia-1
+                0 asfaltownia-1
+                0 forniernia-1
+                0 terpentyniarnia-1
+                0 brykietownia-1, brykieciarnia-1
+                0 płatkarnia-1
+                1 browarnia-1, browar-1
+                  VISITED 0 minibrowar-1
+                0 konserwiarnia-1, konserwarnia-1
+                0 gwoździarnia-1
+                0 dachówczarnia-1
+                0 prochownia-2
+                0 roszarnia-1
+                0 krochmalnia-1
+                0 kaszarnia-1
+                0 rozlewnia-1
+                0 olejarnia-1
+                1 masarnia-1
+                  0 bekoniarnia-1
+                0 betoniarnia-1
+                0 winiarnia-2
+                0 mennica-1
+                0 lodziarnia-2
+                2 warzelnia-1
+                  0 warzelnia soli-1
+                  0 żupa-1
+                0 tartak-1
+                1 rzeźnia-1, ubojnia-1
+                  VISITED 0 rzeźnik-4, jatka-1
+                0 piekarnia-1
+                VISITED 1 mleczarnia-1, zakład mleczarski-1
+                0 gorzelnia-1
+                0 drukarnia-1
+              0 konfekcja-4
+              0 truciciel-2, emitor-1, zatruwacz-1
+              1 mleczarnia-1, zakład mleczarski-1
+                0 masłownia-1
+              23 fabryka-1
+                0 celulozownia-1
+                0 młynownia-3
+                0 parkieciarnia-1
+                0 kortownia-1
+                0 koronkarnia-1
+                0 dziewiarnia-2
+                0 meblarnia-1
+                0 montownia-2
+                0 proszkownia-1
+                0 agrorafineria-1
+                0 śrubiarnia-1
+                0 koksownia-1
+                0 cementownia-1
+                0 kuźnia-1
+                0 kombinat-1
+                0 cukrownia-1
+                0 stocznia-1
+                0 huta szkła-1
+                1 rafineria-1
+                  0 rafineria ropy naftowej-1
+                1 huta-1
+                  0 cynkownia-1
+                0 garbarnia-1
+            86 *zakład usługowy-1
+              0 maglownia-1, maglarnia-1
+              11 *punkt usługowy-1, lokal usługowy-1
+                0 pralnia-2
+                0 pogotowie-5
+                0 fotolab-1, fotolaboratorium-1
+                0 serwis-4
+                0 ksero-3
+                1 myjnia-1
+                  0 automyjnia-1
+                0 solarium-1, solarka-2
+                0 magiel-2
+                0 wypożyczalnia-1
+                0 totalizator-2, kolektura-1
+              0 zakład pogrzebowy-1
+              1 fryzjer-2, fryzjernia-1
+                0 golarnia-1
+              2 salon-3
+                0 salon piękności-1
+                0 kosmetyczka-2
+              66 *zakład gastronomiczny-1
+                0 traktiernia-1
+                0 szaszłykarnia-1
+                0 trattoria-1
+                1 bufet-3
+                  0 kantyna-1
+                0 stołówka-2
+                11 lokal-2
+                  0 karaoke-2
+                  1 dom gry-1, kasyno-2, salon gry-1
+                    0 szulernia-1
+                  0 tancbuda-1
+                  1 klub nocny-1
+                    0 klub go go-1, klub go-go-1
+                  1 dyskoteka-1
+                    0 technoklub-1
+                  2 klub-3
+                    0 jazz-klub-1, klub jazzowy-1
+                    VISITED 0 klubokawiarnia-1, klub-kawiarnia-1
+                0 szantan-1
+                0 probiernia-1
+                0 pizzeria-1
+                0 tingel-tangel-1
+                0 mała gastronomia-1
+                0 pijalnia-1
+                0 winiarnia-1
+                2 knajpa-1
+                  0 burgerownia-1
+                  0 piwnica-2
+                2 smażalnia-1
+                  0 naleśnikarnia-1
+                  0 plackarnia-1
+                1 jadłodajnia-1
+                  0 garkuchnia-1
+                0 szynk-1
+                1 cukiernia-1
+                  0 cukierenka-1
+                1 zajazd-1, gospoda-2
+                  0 karawanseraj-1, chan-2, chana-1
+                0 kasyno-1
+                0 rożen-2
+                2 gospoda-1, karczma-1, oberża-1, arenda-3, harenda-2
+                  0 osteria-1
+                  0 ryokan-1
+                2 restauracja-1
+                  0 chińczyk-4
+                  0 tawerna-1
+                4 kawiarnia-1, kafejka-1, kafeteria-1, kawiarenka-1
+                  0 czekoladziarnia-2
+                  0 klubokawiarnia-1, klub-kawiarnia-1
+                  0 lodziarnia-1
+                  0 herbaciarnia-1
+                15 bar-1
+                  2 bar szybkiej obsługi-1
+                    0 fast food-2
+                    0 bar mleczny-1
+                  0 drink-bar-1
+                  0 paszteciarnia-1
+                  0 cocktailbar-1, koktajlbar-1, cocktail-bar-1
+                  0 saloon-1
+                  0 snack-bar-1
+                  2 piwiarnia-1
+                    0 minibrowar-1
+                    VISITED 0 multitap-1, multi-tap-1
+                  1 mordownia-1, speluna-1, melina-1
+                    0 spelunka-1
+                  1 pub-1, knajpa-2
+                    0 multitap-1, multi-tap-1
+                  0 bistro-1
+          7 agencja-3
+            0 agencja ratingowa-1
+            0 agencja płatnicza-1
+            0 agencja prasowa-1
+            0 agencja modelek-1, agencja modelingowa-1, agencja modelingu-1
+            0 agencja detektywistyczna-1
+            0 agencja reklamowa-1
+            0 agencja ochrony-1, agencja ochroniarska-1
+          0 firma-córka-1
+          0 firma-matka-1
+          0 spin-off-2
+          0 antrepryza-1
+          1 miniprzedsiębiorstwo-1
+            0 mikroprzedsiębiorstwo-1
+          0 biznes elektroniczny-1, e-biznes-1, e-business-1
+          0 przedsiębiorstwo mieszane-1
+          0 inicjatywa prywatna-1
+          8 przewoźnik-1
+            5 linia-19, linie-1
+              0 linia lotnicza-1
+              0 linie oceaniczne-1
+              0 linie lotnicze-1
+              0 PKS-1, Pekaes-2, Przedsiębiorstwo Komunikacji Samochodowej-1
+              0 kolej-3
+            1 spedytor-1
+              VISITED 0 załadowca-1
+          2 manufaktura-1
+            0 persjarnia-1
+            0 kuźnica-1, hamernia-1, młotownia-2
+          0 small business-1
+          0 hurtownia-1
+          0 wydawnictwo-2, oficyna-1, oficyna wydawnicza-1, dom wydawniczy-1
+          3 koncern-1
+            0 czebol-1
+            1 konglomerat-1
+              0 keiretsu-1
+          49 sklep-1
+            0 rybny-1
+            0 sklep zoologiczny-1
+            0 optyk-3
+            0 płóciennica-3
+            0 skateshop-1
+            0 sodowiarnia-1
+            0 delikatesy-1
+            0 antykwariat-2
+            1 galeria-1
+              0 desa-1
+            0 sex-shop-1, sex shop-1
+            0 butik-1
+            0 sklep za żółtymi firankami-1
+            0 lumpeks-1, szmateks-1, ciucholand-1, lumpex-1, second-hand-1, second hand-1, secondhand-1
+            0 dyskont-1
+            2 sklep mięsny-1
+              0 rzeźnik-4, jatka-1
+              0 wędliniarnia-1
+            0 pasmanteria-2
+            1 zieleniak-1, warzywniak-1
+              0 owocarnia-1
+            0 konfekcja-3
+            0 trafika-1
+            2 sam-1
+              0 megasam-1
+              0 supersam-1
+            0 perfumeria-1
+            0 sklepik-1
+            1 komis-1
+              0 autokomis-1
+            0 cukiernia-2, ciastkarnia-1
+            0 monopol-2, sklep monopolowy-1
+            0 piekarnia-2
+            3 market-1
+              0 megamarket-1
+              1 supermarket-1
+                0 hipermarket-1
+            0 kiosk-1
+            2 księgarnia-1
+              0 księgarnia internetowa-1
+              0 antykwariat-1
+            1 sklep ogólnospożywczy-1
+              0 garmażeria-1, garmażernia-1
+            0 papierniczy-1
+            0 kwiaciarnia-1
+            0 drogeria-1
+            1 salon-2
+              0 autosalon-1
+            0 apteka-1
+          1 holding-1
+            0 grupa kapitałowa-1
+      2 przychodnia-1, lecznica-2
+        0 poliklinika-1
+        0 ambulatorium-1
+      5 teatr-3, scena-4
+        0 teatr ogródkowy-1
+        0 kabaret-2
+        0 teatr lalek-1
+        1 teatr muzyczny-1
+          0 operetka-3
+      1 telewizja-4, stacja telewizyjna-1
+        0 telewizja publiczna-1
+      2 placówka naukowa-1
+        1 akademia-2
+          0 akademia nauk-1
+      7 szpital-1, klinika-1, lecznica-1
+        0 rewir-3
+        0 szpitalik-1
+        0 leprozorium-1, lazaret-2
+        0 lazaret-1
+        0 infirmeria-1
+        0 szpital zakaźny-1
+        0 szpital psychiatryczny-1, dom wariatów-2, wariatkowo-1, dom obłąkanych-1
+      7 ośrodek-1
+        0 ośrodek wypoczynkowy-1
+        0 ośrodek metodyczny-1
+        0 dyspozytura-1
+        0 ośrodek władzy-2
+        0 centrum-4
+        1 ognisko-7
+          0 ognisko muzyczne-1
+      7 nadzór-1, kontrola-2, inspekcja-1, dozór-1
+        0 inspekcja handlowa-2
+        0 inspekcja weterynaryjna-1
+        0 nadzór pedagogiczny-2
+        2 nadzór bankowy-1
+          0 nadzór wieloinstytucjonalny-1
+          0 nadzór jednoinstytucjonalny-1
+        0 protektorat-4, patronat-2
+      0 instytut-1
+      1 giełda-1
+        0 giełda papierów wartościowych-1, parkiet-1, giełda-3
+      10 muzeum-1
+        0 ekomuzeum-1
+        0 muzeum archidiecezjalne-1
+        0 rezerwat archeologiczny-1
+        0 panopticum-3, panoptikum-4
+        0 gabinet figur woskowych-1, panopticum-2, panoptikum-3
+        0 lapidarium-1
+        2 galeria-3
+          0 fotogaleria-1
+          0 pinakoteka-1
+        0 skansen-1, park etnograficzny-1
+      2 rząd-1, gabinet-3, Rada Ministrów-1
+        0 rząd mniejszościowy-1, gabinet mniejszościowy-1
+        0 rząd koalicyjny-1
+      0 fundacja-1
+      4 biblioteka-1, książnica-1, skarbnica wiedzy-1
+        0 biblioteka repertuarowa-1
+        1 biblioteka naukowa-1
+          0 biblioteka sejmowa-1
+        0 biblioteka ruchoma-1
+      9 bank-1
+        0 bank hipoteczny-1
+        0 bank komercyjny-1
+        0 bank depozytariusz-1
+        0 bank inwestycyjny-1
+        0 bank zrzeszający-1
+        0 bank domicylowy-1
+        0 bank spółdzielczy-1
+        1 bank centralny-1
+          0 bank emisyjny-1
+      0 archiwum-3
+  109 osoba fizyczna-1
+    0 słup-6
+    3 świadczeniobiorca-1
+      0 rencista-1
+      1 emeryt-1
+        0 emerytowany pracownik-1
+    2 świadek-3
+      0 fałszywy świadek-1
+      0 świadek koronny-1
+    VISITED 100 przedsiębiorca-1
+  1 depozytariusz-1, przechowawca-1
+    VISITED 0 fideikomisarz-1, ordynat-1
+  9 wytwórca-1, producent-1
+    0 papiernik-1
+    0 konfekcjoner-1
+    0 licencjobiorca-1
+    VISITED 0 koproducent-1
+    4 przetwórca-1
+      0 rozlewca-1
+      0 fileciarz-1
+      1 wędliniarz-1, masarz-1
+        0 kiełbaśnik-1
+  0 koncesjodawca-1
+  32 usługodawca-1
+    1 kwaterodawca-1
+      VISITED 0 hotelarz-1
+    VISITED 0 składownik-1, przedsiębiorca składowy-1
+    28 dostawca-2, dostarczyciel-1
+      2 rozwoziciel-1
+        VISITED 0 wodziarz-2, woziwoda-1, czerpacz-1
+        VISITED 0 majdaniarz-2
+      0 nosiwoda-1
+      5 roznosiciel-2
+        1 rozlepiacz-1
+          0 afiszer-1
+        0 ulotkarz-1
+        VISITED 0 gazeciarz-1
+        VISITED 0 mleczarz-2
+      0 węglarz-1
+      VISITED 3 dystrybutor-2
+      7 doręczyciel-1, oddawca-1
+        0 kurier-3
+        0 kurier-1
+        3 posłaniec-1, umyślny-1
+          2 goniec-1
+            0 pogoniec-2
+            0 chłopiec na posyłki-1, chłopak na posyłki-1
+        0 listonosz-1
+      5 zaopatrzeniowiec-1
+        0 aprowizator-1
+        2 intendent-1
+          0 ochmistrz-1
+          0 kwatermistrz-1
+        0 kwatermistrz-2
+  70 usługobiorca-1
+    69 klient-1
+      0 kundman-2
+      VISITED 0 talonowicz-1
+      8 reflektant-1, amator-4
+        VISITED 0 licytant-1
+        6 kupiec-2
+          5 nabywca-1, kupujący-1
+            0 biorca cen-1
+            0 nowonabywca-1
+            0 leasingobiorca-1
+            0 franczyzobiorca-1, franchisobiorca-1
+            0 cesjonariusz-1
+      0 naganiacz-4
+      0 wkładca-1
+      0 kolejkowicz-1
+      0 sponsor-2
+      1 subskrybent-1
+        VISITED 0 prenumerator-1
+      0 czytelnik-2
+      0 nadawca-2, adresant-1
+      VISITED 14 konsument-1, spożywca-1
+      0 deponent-1
+      1 abonent-1
+        0 prenumerator-1
+      0 petent-1, interesant-1, suplikant-1, delikwent-2
+      3 pasażer-1
+        0 współpasażer-1, towarzysz podróży-1
+        0 gapowicz-1
+        0 autostopowicz-1
+      7 pacjent-1
+        0 tester-3
+        0 połamaniec-1
+        VISITED 0 kuracjusz-1
+        0 rekonwalescent-1, ozdrowieniec-1
+        0 biorca-1
+        1 dawca-2
+          0 krwiodawca-1
+      29 gość-4
+        0 noclegowicz-1
+        1 letnik-1
+          0 agroturysta-1
+        13 bywalec-1
+          1 zabawowicz-1, balowicz-1
+            0 imprezowicz-1, balangowicz-2
+          3 światowiec-1, człowiek światowy-1
+            0 salonowiec-2, lew salonowy-1
+            1 kosmopolita-1, obywatel świata-1
+              0 obieżyświat-1, globtroter-1
+          5 hulaka-1, hulajdusza-1
+            0 jarmarkowicz-1
+            0 bon vivant-1, bon viveur-1
+            0 lampart-2
+            VISITED 0 opój-1, pijus-1, pijanica-1, opijus-1
+            0 utracjusz-1, birbant-1
+          0 klubowicz-2
+        10 konsument-2
+          VISITED 8 pijący-1
+          0 stołówkowicz-1
+        1 pensjonariusz-1
+          0 kuracjusz-1
+  0 profitent-1, beneficjent-1
+  7 członek-1, stowarzyszony-1
+    1 plemiennik-1
+      0 współplemieniec-1, współplemiennik-1
+    0 członek założyciel-1
+    0 ligowiec-2
+    0 koalicjant-1
+    1 spółdzielca-1
+      0 kołchoźnik-1
+  4 gwarant-1, poręczyciel-1, ręczyciel-1
+    1 żyrant-1
+      0 indosant-1
+    0 awalista-1
+    0 trasat-1
+  0 bankrut-2
+  0 świadczeniodawca-1
+  1 oferent-1
+    0 licytant-1
+  10 wierzyciel-1
+    0 kolokator-1
+    0 zastawnik-1
+    0 obligatariusz-1
+    0 remitent-1
+    1 współwierzyciel-1
+      0 wierzyciel solidarny-1
+    0 cedent-1
+    1 pożyczkodawca-1
+      0 lichwiarz-1
+    0 kredytodawca-1
+  6 spadkobierca-1, sukcesor-2
+    0 fideikomisariusz-1
+    1 współspadkobierca-1
+      VISITED 0 współdziedzic-1
+    0 fideikomisarz-1, ordynat-1
+    0 zapisobiorca-1, legatariusz-1, zapisobierca-1
+    1 dziedzic-2
+      0 współdziedzic-1
+  5 przedstawicielstwo-3
+    0 agencja-5
+    0 nuncjatura-4
+    2 agencja-2
+      0 agencja rządowa-1
+      0 konsulat-3, urząd konsularny-1
+  7 strona-4
+    0 ofensywa-6
+    0 czarne-1
+    0 białe-1
+    0 obraziciel-2
+    0 kapitulant-1
+    1 interwenient-1, interwent-1
+      0 interwenient uboczny-1
+  3 nadawca-1
+    1 pirat-5
+      0 pajęczarz-2
+    0 mówiący-1
+  79 użytkownik-1
+    0 unikalny użytkownik-1
+    0 posiadacz zależny-1
+    23 eksploatator-2
+      22 wydobywca-1
+        21 górnik-1
+          0 przodowy-1, przodkowy-1
+          0 podsadzkarz-1
+          0 filarowiec-1
+          0 metaniarz-1
+          0 chodnikowiec-1
+          0 przystawca-1
+          0 górnik odkrywkowy-1, kopacz-4
+          1 strzałowy-1
+            VISITED 0 rębacz strzałowy-1
+          0 ładowacz-2
+          1 rębacz-1, kopacz-2
+            0 rębacz strzałowy-1
+          2 nadgórnik-1
+            1 sztygar-1
+              0 nadsztygar-1, starszy sztygar-1
+          0 wiertniczy-1, wiertacz-1
+          0 miedziownik-1, miedziowiec-2
+          VISITED 0 naftowiec-1, nafciarz-1
+          0 gwarek-1
+          1 wozak-1
+            0 tacznik-1
+          0 szybowy-1
+      0 naftowiec-1, nafciarz-1
+    3 pajęczarz-1
+      0 radiopajęczarz-1
+      0 telepajęczarz-1
+      0 phreaker-1, phreak-1
+    0 eksploatator-3
+    1 współużytkownik-1
+      0 współużytkownik wieczysty-1
+    VISITED 0 komórkowiec-2
+    14 konsument-1, spożywca-1
+      0 tabaczarz-1, tabacznik-1, tabakier-1
+      8 pijący-1
+        0 pijany-1
+        0 opój-1, pijus-1, pijanica-1, opijus-1
+        0 piwosz-1, piwiarz-2
+        4 alkoholik-1, pijak-1
+          0 ćma barowa-1
+          0 dypsomaniak-1, dypsoman-1
+          1 menel-1, sztajmes-1, żul-1, lump-2
+            0 kundman-1
+      0 kawosz-1, kawiarz-1
+      2 palacz-2
+        0 papierośnik-1
+        0 fajczarz-1
+    7 internauta-1
+      0 pokemon-1
+      1 forumowicz-1
+        0 troll-2
+      0 czatownik-3
+      0 spamer-1
+      0 moderator-1
+      0 bloger-1, blogger-1, blogowicz-1
+    15 dzierżawca-1
+      0 połownik-1
+      0 poddzierżawca-1
+      2 czynszownik-1
+        0 emfiteuta-1
+        0 okupnik-1
+      0 starosta niegrodowy-1, tenutariusz-1
+      0 kolon-1
+      0 celnik-3
+      6 ajent-1, agent-6
+        0 agent nieruchomości-1
+        3 przedstawiciel ubezpieczeniowy-1, agent ubezpieczeniowy-1, ubezpieczeniowiec-1
+          1 likwidator szkód-1
+            0 dyspaszer-1
+          0 aktuariusz-1
+        VISITED 0 przedstawiciel handlowy-1
+    5 najemca-1, wynajemca-2
+      1 podnajemca-1
+        VISITED 0 sublokator-1
+      3 lokator-2
+        0 dziki lokator-1
+        0 sublokator-1
+        0 walet-2
+  26 płatnik-1
+    0 płatnik składek-1
+    0 alimentator-1, alimenciarz-1
+    0 trybutariusz-1
+    0 czynszownik-2
+    8 pracodawca-1
+      0 służbodawca-1
+      0 pan-7
+      0 mocodawca-1
+      4 zleceniodawca-1
+        0 reklamodawca-1
+        0 załadowca-1
+        0 ogłoszeniodawca-1
+        0 komitent-2
+    4 podatnik-1
+      0 kartowicz-1
+      0 mały podatnik-1
+      0 vatowiec-1
+      0 ryczałtowiec-2
+    7 dłużnik-1
+      0 współdłużnik-1
+      1 zastawca-1
+        VISITED 0 komitent-1
+      0 akceptant-1
+      0 dłużnik solidarny-1
+      0 kredytobiorca-1
+      0 pożyczkobiorca-1
+  161 właściciel-1, posiadacz-1
+    0 magnat-2
+    0 posiadacz samoistny-1
+    0 piwiarz-1
+    0 propinator-1
+    0 parcelant-2
+    0 podawca-1
+    0 browarnik-1
+    11 zmotoryzowany-1
+      4 samochodziarz-4
+        0 automobilista-2
+        0 automobilista-1, samochodziarz-3
+        0 taksówkarz-1, taksiarz-1, taryfiarz-1
+        0 szofer-1
+      0 niedzielny kierowca-1
+      4 motocyklista-1
+        0 jeździec Apokalipsy-1
+        0 harleyowiec-1
+        1 żużlowiec-1
+          0 torowiec-1
+    0 talonowicz-1
+    VISITED 0 manufakturzysta-1
+    1 wynajemca-1
+      0 kamienicznik-1
+    VISITED 0 kiniarz-1
+    1 licencjodawca-2
+      0 franczyzodawca-1, franchisodawca-1
+    VISITED 0 leasingodawca-1
+    0 komórkowiec-2
+    0 antreprener-1
+    0 cegielnik-2
+    0 pan-5
+    0 lokator-1
+    0 episjer-1
+    0 aptekarz-2
+    0 komitent-1
+    0 farbiarz-2
+    VISITED 5 restaurator-1
+    0 skarb państwa-1, fiskus-1
+    0 posesjonat-1, posesjonata-1
+    0 okaziciel-1
+    0 wystawca-1, eksponent-1
+    107 kapitalista-1
+      0 kapitalista-3
+      VISITED 0 obszarnik-1
+      0 burżuj-1
+      2 finansista-2
+        1 bankier-1
+          0 bankster-1
+      100 przedsiębiorca-1
+        0 średni przedsiębiorca-1
+        0 mikroprzedsiębiorca-1
+        0 mały przedsiębiorca-1
+        0 biznesmen-1, businessman-1, człowiek interesu-1
+        0 konfekcjoner-3
+        0 wekslarz-1
+        2 giełdziarz-1, giełdowiec-1, gracz giełdowy-1
+          0 foreksowiec-1
+          0 trader-1
+        0 manufakturzysta-1
+        0 składownik-1, przedsiębiorca składowy-1
+        0 kiniarz-1
+        3 prywaciarz-1, inicjatywa prywatna-2, prywatniak-1
+          2 badylarz-1
+            0 cebularz-2
+            0 pieczarkarz-1
+        0 nakładca-1
+        5 restaurator-1
+          2 knajpiarz-1
+            0 szynkarz-1, arendarz-2
+            0 karczmarz-1, oberżysta-1
+          0 kantyniarz-1
+          0 kafejkarz-1
+        0 hotelarz-1
+        0 kontrahent-1
+        0 armator-1
+        1 fabrykant-1, przemysłowiec-1, fabrykator-1
+          0 powoźnik-2
+        1 wydawca-1, edytor-2
+          VISITED 0 współwydawca-1, koedytor-1
+        10 wspólnik-1, partner-2
+          0 komplementariusz-1
+          0 jawny wspólnik-1
+          0 cichy wspólnik-1
+          0 koproducent-1
+          0 współwydawca-1, koedytor-1
+          VISITED 4 współwłaściciel-1, współposiadacz-1
+        55 handlowiec-1
+          31 sprzedawca-1, ekspedient-1, sklepowy-1
+            0 modniarz-1
+            0 wodziarz-2, woziwoda-1, czerpacz-1
+            0 krupiarz-1
+            0 koronkarz-1
+            0 odsprzedawca-1, odprzedawca-1
+            0 nagabywacz-1
+            0 telemarketer-1
+            0 leasingodawca-1
+            0 drogista-1, drogerzysta-1
+            0 gazeciarz-1
+            0 lodziarz-1
+            2 zieleniarz-1
+              0 jarzyniarz-1
+              0 owocarz-1
+            0 jubiler-2
+            0 kasjer-2
+            1 antykwariusz-1
+              0 bukinista-1
+            0 przedstawiciel handlowy-1
+            1 winiarz-2
+              0 kiper-2
+            1 kwiaciarz-1
+              0 bukieciarz-1, florysta-2
+            0 rzeźnik-2
+            0 optyk-2
+            0 mleczarz-2
+            0 licytator-1, aukcjoner-1
+            0 księgarz-1
+            0 aptekarz-1
+            VISITED 1 sklepikarz-1
+          1 importer-1
+            0 laweciarz-1
+          0 hurtownik-1
+          0 eksporter-1
+          2 detalista-1
+            1 sklepikarz-1
+              0 kioskarz-1
+          0 radca handlowy-2
+          16 pośrednik-1
+            2 broker-1
+              1 makler-1
+                0 kulisjer-1
+            0 broker-2
+            0 komprador-1
+            0 faktor-4
+            0 kantor-7
+            0 komisant-1, komisjoner-1
+            0 komisant-2, konsygnatariusz-1
+            1 bukmacher-1, bookmacher-1
+              0 typer-1
+            3 dystrybutor-2
+              0 dealer-2, diler-2
+              1 kolporter-2
+                0 majdaniarz-2
+            0 dealer-1, diler-1
+        4 inwestor-1
+          0 byk-10
+          0 współinwestor-2
+          VISITED 0 inwestor strategiczny-1
+          0 developer-1, deweloper-1
+    3 pan domu-1, gospodarz-1
+      0 pan i władca-1
+      0 amfitrion-1
+      0 gazda-1
+    4 współwłaściciel-1, współposiadacz-1
+      3 akcjonariusz-1, udziałowiec-1
+        0 współudziałowiec-1
+        0 komandytariusz-1
+        0 inwestor strategiczny-1
+    12 ziemianin-2, obywatel ziemski-1, właściciel ziemski-1
+      0 horodniczy-1
+      0 zagrodowiec-1
+      0 zagonowiec-1
+      0 latyfundysta-1
+      0 junkier-3
+      5 feudał-1
+        1 senior-4
+          0 suzeren-1
+        2 lennik-1, wasal-2, hołdownik-2
+          0 par-3
+          0 baron-3
+      0 obszarnik-1

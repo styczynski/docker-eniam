@@ -1,0 +1,109 @@
+% A somewhat ad-hoc dictionary of valence frames for nouns
+%
+% Version 0
+%
+% Copyright © 2010 by Marcin Woliński
+%
+%
+% This program is free software; you can redistribute it and/or modify
+% it under the terms of the GNU General Public License version 3 as
+% published by the Free Software Foundation.
+%
+% This program is distributed in the hope that it will be useful,
+% but WITHOUT ANY WARRANTY; without even the implied warranty of
+% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+% GNU General Public License for more details.
+%
+% You should have received a copy of the GNU General Public License
+% along with this program; if not, write to the Free Software
+% Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, 
+% MA 02110-1301, USA 
+%
+%
+chęć	infp(_)
+czas	sentp(żeby)
+dowód	sentp(że)
+dowód	sentp(na,bier,że)
+efekt	sentp(że)
+efekt	sentp(dop,że)
+fakt	sentp(że)
+idea	sentp(że)
+idea	sentp(żeby)
+idea	sentp(pz)
+handel	np(narz)
+koncepcja	sentp(że)
+koncepcja	sentp(żeby)
+koncepcja	sentp(pz)
+koncepcja	sentp(na,bier,że)
+koncepcja	sentp(na,bier,żeby)
+koncepcja	sentp(na,bier,pz)
+koncept	sentp(że)
+koncept	sentp(żeby)
+koncept	sentp(pz)
+koncept	sentp(na,bier,że)
+koncept	sentp(na,bier,żeby)
+koncept	sentp(na,bier,pz)
+książka	prepadjp(po,pop)
+lament	prepadjp(po,pop)
+list	prepadjp(po,pop)
+lot	np(narz)
+modlitwa	prepadjp(po,pop)
+myśl	sentp(że)
+myśl	sentp(żeby)
+nadzieja	infp(_)
+nadzieja	sentp(że)
+nadzieja	sentp(żeby)
+nadzieja	sentp(na,bier,że)
+obawa	sentp(że)
+obowiązek	infp(_)
+% być może bezokolicznik tylko przy „mieć okazję”
+okazja	infp(_)
+okazja	sentp(żeby)
+odpowiedź	prepadjp(po,pop)
+piosenka	prepadjp(po,pop)
+poczucie	sentp(że)
+podstawa	sentp(żeby)
+podstawa	sentp(do,dop,żeby)
+podróż	np(narz)
+pomoc	np(cel)
+pomysł	sentp(że)
+pomysł	sentp(żeby)
+pomysł	sentp(pz)
+pomysł	sentp(na,bier,że)
+pomysł	sentp(na,bier,żeby)
+pomysł	sentp(na,bier,pz)
+powód	sentp(żeby)
+pozór	sentp(że)
+prawdopodobieństwo	sentp(że)
+prawo	infp(_)
+prezentacja	np(dop)+np(cel)
+przesłanka	sentp(że)
+przesłanka	sentp(żeby)
+przejazd	np(narz)
+przejażdżka	np(narz)
+przelot	np(narz)
+publikacja	sentp(o,miej,że)
+pytanie	sentp(pz)
+rezultat	sentp(że)
+rezultat	sentp(dop,że)
+różnica	sentp(że)
+skutek	sentp(że)
+skutek	sentp(dop,że)
+staranie	sentp(żeby)
+sytuacja	sentp(gdy)
+szansa	infp(_)
+szansa	sentp(że)
+szansa	sentp(żeby)
+tekst	prepadjp(po,pop)
+utwór	prepadjp(po,pop)
+wątpliwość	sentp(pz)
+wniosek	sentp(że)
+wrażenie	sentp(że)
+wynik	sentp(że)
+wynik	sentp(dop,że)
+wysiłek	sentp(żeby)
+zamiar	infp(_)
+% „zarzut znęcania się” – niedzierżawczy dopełniacz chyba warto zaznaczyć?:
+zarzut	np(dop)
+złudzenie	sentp(że)
+znak	sentp(że)

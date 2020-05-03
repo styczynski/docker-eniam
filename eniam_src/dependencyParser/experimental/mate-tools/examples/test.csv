@@ -1,0 +1,14 @@
+1	We	w	w	prep	prep	acc|wok	acc|wok	_	_	_	_	_	_
+2	wtorek	wtorek	wtorek	subst	subst	sg|acc|m3	sg|acc|m3	_	_	_	_	_	_
+3	prezydent	prezydent	prezydent	subst	subst	sg|nom|m1	sg|nom|m1	_	_	_	_	_	_
+4	Robert	Robert	Robert	subst	subst	sg|nom|m1	sg|nom|m1	_	_	_	_	_	_
+5	Choma	Choma	Choma	subst	subst	sg|nom|m1	sg|nom|m1	_	_	_	_	_	_
+6	skierował	skierować	skierować	praet	praet	sg|m1|perf	sg|m1|perf	_	_	_	_	_	_
+7	sprawę	sprawa	sprawa	subst	subst	sg|acc|f	sg|acc|f	_	_	_	_	_	_
+8	do	do	do	prep	prep	gen	gen	_	_	_	_	_	_
+9	rzecznika	rzecznik	rzecznik	subst	subst	sg|gen|m1	sg|gen|m1	_	_	_	_	_	_
+10	dyscyplinarnego	dyscyplinarny	dyscyplinarny	adj	adj	sg|gen|m1|pos	sg|gen|m1|pos	_	_	_	_	_	_
+11	UM	UM	UM	subst	subst	sg|gen|m3	sg|gen|m3	_	_	_	_	_	_
+12	Danuty	Danuta	Danuta	subst	subst	sg|gen|f	sg|gen|f	_	_	_	_	_	_
+13	Wiech	Wiech	Wiech	subst	subst	sg|gen|f	sg|gen|f	_	_	_	_	_	_
+14	.	.	.	interp	interp	_	_	_	_	_	_	_	_

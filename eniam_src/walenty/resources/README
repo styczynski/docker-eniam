@@ -1,0 +1,12 @@
+Files in this folder were created on the basis of 
+Walenty: a valence dictionary of Polish (http://zil.ipipan.waw.pl/Walenty)
+
+Walenty is licensed under the following license:
+
+(C) Copyright 2012–2018 by the Institute of Computer Science, Polish Academy of Sciences (IPI PAN)
+This work is distributed under a CC BY-SA license: http://creativecommons.org/licenses/by-sa/4.0/
+Walenty is a valence dictionary of Polish developed at the Institute of Computer Science, Polish Academy of Sciences (IPI PAN). It currently contains 90326 schemata and 17920 frames for 16044 lemmata.
+The original formalism of Walenty was established by Filip Skwarski, Elżbieta Hajnicz, Agnieszka Patejuk, Adam Przepiórkowski, Marcin Woliński, Marek Świdziński, and Magdalena Zawisławska. It has been further developed by Elżbieta Hajnicz, Agnieszka Patejuk, Adam Przepiórkowski, and Marcin Woliński. The semantic layer has been developed by Elżbieta Hajnicz and Anna Andrzejczuk.
+The original seed of Walenty was provided by the automatic conversion, manually reviewed by Filip Skwarski, of the verbal valence dictionary used by the Świgra2 parser (6396 schemata for 1462 lemmata), which was in turn based on SDPV, the Syntactic Dictionary of Polish Verbs by Marek Świdziński (4148 schemata for 1064 lemmata). Afterwards, Walenty has been developed independently by adding new entries, syntactic schemata, in particular phraseological ones, and semantic frames.
+Walenty has been edited and compiled using the Slowal tool (http://zil.ipipan.waw.pl/Slowal) created by Bartłomiej Nitoń and Tomasz Bartosiak.
+

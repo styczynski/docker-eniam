@@ -1,0 +1,609 @@
+<node name="zależność-3, powiązanie-6" size="482">
+  <node name="relacja-5" size="39">
+    <node name="relacje Greena-1" size="0"/>
+    <node name="porządek liniowy-1" size="1">
+      <node name="sortowanie topologiczne-1" size="0"/>
+    </node>
+    <node name="relacja pusta-1" size="0"/>
+    <node name="relacja przechodnia-1" size="0"/>
+    <node name="relacja pełna-1, relacja totalna-1" size="0"/>
+    <node name="relacja odwrotna-1" size="0"/>
+    <node name="relacja antysymetryczna-1" size="0"/>
+    <node name="izomorfizm porządków-1" size="0"/>
+    <node name="izomorfizm-4" size="0"/>
+    <node name="relacja dwuargumentowa-1, relacja binarna-1, relacja dwuczłonowa-1" size="6">
+      <node name="relacja trychotomiczna-1" size="0"/>
+      <node name="relacja równoważności-1" size="1">
+        <node name="homeomorfizm grafów-1" size="0"/>
+      </node>
+      <node name="preferencja-2" size="0"/>
+      <node name="relacja symetryczna-1" size="0"/>
+      <node name="relacja zwrotna-1" size="0"/>
+    </node>
+    <node name="inkluzja-1" size="0"/>
+    <node name="relacja logiczna-1" size="20">
+      <node name="funktor-1" size="12">
+        <node name="funktor zdaniotwórczy-1" size="1">
+          <node name="funktor intensjonalny-1" size="0"/>
+        </node>
+        <node name="konektyw-1, spójnik-2, spójnik logiczny-1" size="7">
+          <node name="binegacja-1" size="0"/>
+          <node name="dysjunkcja-3" size="0"/>
+          <node name="negacja-2" size="0"/>
+          <node name="koniunkcja-4" size="0"/>
+          <node name="implikacja-3" size="2">
+            <node name="implikacja logiczna-1" size="0"/>
+            <node name="implikacja materialna-1" size="0"/>
+          </node>
+        </node>
+        <node name="proto-kwantyfikator-1" size="0"/>
+        <node name="predykat-1" size="0"/>
+      </node>
+      <node name="antylogizm-1" size="0"/>
+      <node name="operator-4" size="3">
+        <node name="operator unitarny-1" size="0"/>
+        <node name="dysjunkcyjny operator binarny-1" size="0"/>
+        <node name="mutacja-6" size="0"/>
+      </node>
+      <node name="sprzeczność-2" size="0"/>
+      <node name="odwrotność-1, przeciwieństwo-3" size="0"/>
+    </node>
+  </node>
+  <node name="linia emisyjna-1" size="1">
+    <node name="linia wodoru 21 cm-1" size="0"/>
+  </node>
+  <node name="asocjatywność-2, asocjacja-5" size="0"/>
+  <node name="sieć troficzna-1, sieć pokarmowa-1" size="0"/>
+  <node name="relacje Saxena-1" size="0"/>
+  <node name="konwergencja beta-1" size="0"/>
+  <node name="deficyty bliźniacze-1" size="0"/>
+  <node name="neutralizm-2" size="0"/>
+  <node name="powiązanie kapitałowe-1" size="0"/>
+  <node name="akcesoryjność-1" size="0"/>
+  <node name="nieautomatyczność-1" size="2">
+    <node name="powtarzalność-2" size="1">
+      <node name="samopowtarzalność-1" size="0"/>
+    </node>
+  </node>
+  <node name="łańcuch pokarmowy-1" size="0"/>
+  <node name="charakterystyka-1" size="0"/>
+  <node name="fotoperiodyzm-1" size="0"/>
+  <node name="tonalność-1" size="0"/>
+  <node name="przyczynowość-1, kauzalność-1" size="0"/>
+  <node name="determinizm-2" size="1">
+    <node name="predeterminizm-1" size="0"/>
+  </node>
+  <node name="adekwatność-1" size="0"/>
+  <node name="względność-1, relatywność-1" size="0"/>
+  <node name="układ-5" size="4"/>
+  <node name="relacja-2" size="419">
+    <node name="motywacja-3" size="0"/>
+    <node name="kooperacja-2" size="0"/>
+    <node name="relacja przeciwsymetryczna-1" size="0"/>
+    <node name="konfiguracja-3" size="0"/>
+    <node name="współistotność-1, homouzja-1" size="0"/>
+    <node name="stosunek społeczny-1" size="0"/>
+    <node name="spójność społeczna-1" size="0"/>
+    <node name="porządek-6" size="9">
+      <node name="równowaga-1, stabilizacja-2" size="6">
+        <node name="metastabilność-1" size="0"/>
+        <node name="równowaga Lindahla-1" size="0"/>
+        <node name="równowaga stacjonarna-1" size="0"/>
+        <node name="równowaga cząstkowa-1" size="0"/>
+        <node name="równowaga termodynamiczna-1" size="0"/>
+        <node name="izostazja-1" size="0"/>
+      </node>
+      <node name="proporcja-2, harmonia-2" size="1">
+        <node name="symetria-2" size="0"/>
+      </node>
+    </node>
+    <node name="nierównoznaczność-1" size="0"/>
+    <node name="stosunek-1" size="31">
+      <node name="dystans-5" size="0"/>
+      <node name="pozycja walutowa-1" size="0"/>
+      <node name="wilgotność względna-1" size="0"/>
+      <node name="kontrast-2" size="0"/>
+      <node name="bilans-3" size="1">
+        <node name="bilans energetyczny-1" size="0"/>
+      </node>
+      <node name="energochłonność-1" size="0"/>
+      <node name="proporcja-1" size="23">
+        <node name="nerwicowość-1" size="0"/>
+        <node name="korektywność-1" size="0"/>
+        <node name="odpadowość-1" size="0"/>
+        <node name="jeziorność-1" size="0"/>
+        <node name="stechiometria-3" size="0"/>
+        <node name="skolaryzacja-1" size="0"/>
+        <node name="spręż-1, stopień sprężania-1" size="0"/>
+        <node name="chorobowość-1" size="0"/>
+        <node name="krętość-1" size="0"/>
+        <node name="makroproporcja-1" size="0"/>
+        <node name="hematokryt-1" size="0"/>
+        <node name="przełożenie-9" size="1">
+          <node name="nadbieg-1" size="0"/>
+        </node>
+        <node name="menzura-1" size="0"/>
+        <node name="menzura-2" size="0"/>
+        <node name="wyleczalność-1" size="0"/>
+        <node name="stopa narzutu-1" size="0"/>
+        <node name="szkodowość-1" size="0"/>
+        <node name="spłacalność-1" size="0"/>
+        <node name="zachorowalność-1, zapadalność-1" size="0"/>
+        <node name="kapitałochłonność-1" size="0"/>
+        <node name="uzysk-1" size="0"/>
+        <node name="parytet-1" size="0"/>
+      </node>
+    </node>
+    <node name="paternalizm-1" size="0"/>
+    <node name="odpowiedniość-1" size="1">
+      <node name="współmierność-1" size="0"/>
+    </node>
+    <node name="opozycja-3, przeciwstawność-1" size="4">
+      <node name="opozycja prywatywna-1" size="0"/>
+      <node name="opozycja ekwipolentna-1, opozycja równorzędna-1" size="0"/>
+      <node name="opozycja binarna-1" size="0"/>
+      <node name="opozycja fonologiczna-1" size="0"/>
+    </node>
+    <node name="podobieństwo-1, analogia-3, analogiczność-1, bliskość-1, konwergencja-1, zbieżność-1, zgodność-2, powinowactwo-1, pokrewieństwo-1, paralelizm-1, pobratymstwo-1" size="35">
+      <node name="jednoimienność-1" size="0"/>
+      <node name="bliższość-2" size="0"/>
+      <node name="homomorfizm-2" size="0"/>
+      <node name="homologia-3" size="0"/>
+      <node name="kongruencja-5" size="0"/>
+      <node name="pseudomorfoza-2, pseudomorfizm-1" size="1">
+        <node name="paramorfoza-1" size="0"/>
+      </node>
+      <node name="bliźniaczość-3" size="0"/>
+      <node name="zbliżoność-1, pokrewność-1" size="0"/>
+      <node name="wspólny mianownik-1" size="0"/>
+      <node name="równokształtność-1" size="0"/>
+      <node name="porównywalność-1" size="1">
+        <node name="konkurencyjność-1" size="0"/>
+      </node>
+      <node name="równość-2" size="8">
+        <node name="izotonia-1" size="0"/>
+        <node name="równoprawność-1" size="0"/>
+        <node name="równoważność-1, ekwiwalencja-1, ekwiwalentność-1, równowartościowość-1" size="1">
+          <node name="komplementarność-1" size="0"/>
+        </node>
+        <node name="równorzędność-1" size="0"/>
+        <node name="jednakowość-1, identyczność-1, tożsamość-1" size="2">
+          <node name="enharmonia-1" size="0"/>
+          <node name="nierozróżnialność-1" size="0"/>
+        </node>
+      </node>
+      <node name="jednomyślność-1, jednogłośność-1" size="11">
+        <node name="zgoda-3, konsensus-1, consensus-1, jednota-2, konsens-1" size="8">
+          <node name="aklamacja-1" size="0"/>
+          <node name="porozumienie-2" size="6">
+            <node name="dialog-2" size="0"/>
+            <node name="ugoda-1" size="0"/>
+            <node name="pomost-4, most-3" size="0"/>
+            <node name="consensus-2, konsensus-2, konsens-2" size="0"/>
+            <node name="kompromis-1" size="1">
+              <node name="zgniły kompromis-1" size="0"/>
+            </node>
+          </node>
+        </node>
+        <node name="solidarność-1" size="1">
+          <node name="solidarność jajników-1" size="0"/>
+        </node>
+      </node>
+      <node name="wspólnota-3" size="0"/>
+    </node>
+    <node name="relacja leksykalna-1" size="10">
+      <node name="paronimia-1" size="0"/>
+      <node name="homografia-1" size="0"/>
+      <node name="homofonia-1" size="0"/>
+      <node name="meronimia-1" size="0"/>
+      <node name="holonimia-1" size="0"/>
+      <node name="hiponimia-1" size="0"/>
+      <node name="homonimia-1, homonimiczność-1" size="0"/>
+      <node name="hiperonimia-1" size="0"/>
+      <node name="synonimia-1, synonimiczność-1, równoznaczność-1, bliskoznaczność-1" size="0"/>
+      <node name="antonimia-1" size="0"/>
+    </node>
+    <node name="stosunek prawny-1" size="36">
+      <node name="stosunek umowny-1" size="0"/>
+      <node name="stosunek cywilnoprawny-1" size="0"/>
+      <node name="stosunek zobowiązaniowy-1" size="31">
+        <node name="akcept-1" size="0"/>
+        <node name="kredyt-1" size="29">
+          <node name="kredyt akceptacyjny-1" size="0"/>
+          <node name="spłata balonowa-1, płatność balonowa-1, kredyt balonowy-1, rata balonowa-2" size="0"/>
+          <node name="kredyt bankowy-1" size="7">
+            <node name="kredyt rolowany-1" size="0"/>
+            <node name="kredyt podporządkowany-1" size="0"/>
+            <node name="kredyt konsorcjalny-1" size="0"/>
+            <node name="kredyt obrotowy-1" size="1">
+              <node name="kredyt kasowy-1" size="0"/>
+            </node>
+            <node name="kredyt gotówkowy-1" size="0"/>
+            <node name="kredyt inwestycyjny-1" size="0"/>
+          </node>
+          <node name="kredyt hipoteczny-1" size="1">
+            <node name="odwrócona hipoteka-1" size="0"/>
+          </node>
+          <node name="kredyt stracony-1" size="0"/>
+          <node name="kredyt redyskontowy-1" size="0"/>
+          <node name="kredyt lombardowy-1" size="0"/>
+          <node name="kredyt konsumencki-1" size="0"/>
+          <node name="kredyt skupowy-1" size="0"/>
+          <node name="kredyt preferencyjny-1" size="2">
+            <node name="kredyt suszowy-1" size="0"/>
+            <node name="kredyt studencki-1" size="0"/>
+          </node>
+          <node name="kredyt kontraktowy-1" size="0"/>
+          <node name="kredyt pomostowy-1" size="0"/>
+          <node name="trzydziestka-8" size="0"/>
+          <node name="mikrokredyt-1" size="0"/>
+          <node name="remburs-1, kredyt rembursowy-1" size="0"/>
+          <node name="kredyt rewolwingowy-1, rewolwing-1" size="0"/>
+          <node name="kredyt państwowy-1" size="0"/>
+          <node name="kredyt refinansowy-1" size="0"/>
+          <node name="kredyt konsumpcyjny-1" size="0"/>
+        </node>
+      </node>
+      <node name="stosunek służbowy-1" size="0"/>
+      <node name="internacjonalizacja-1" size="0"/>
+    </node>
+    <node name="związek-3, więź-2, afiliacja-1, filiacja-1, przełożenie-8" size="255">
+      <node name="przełożenie dynamiczne-1" size="0"/>
+      <node name="konotacja-4" size="0"/>
+      <node name="nić-3" size="0"/>
+      <node name="zbieg okoliczności-1, splot wydarzeń-1" size="13">
+        <node name="węzeł-6" size="1">
+          <node name="węzeł gordyjski-1" size="0"/>
+        </node>
+        <node name="przypadek-1, zrządzenie losu-1, traf-1, kazus-1, casus-1" size="10">
+          <node name="strzał-2" size="1">
+            <node name="strzał w dziesiątkę-1" size="0"/>
+          </node>
+          <node name="wypadek losowy-1" size="0"/>
+          <node name="pech-1, niefart-1" size="3">
+            <node name="twarde lądowanie-1" size="0"/>
+            <node name="zezowate szczęście-1, garbate szczęście-1" size="0"/>
+            <node name="ironia-3" size="0"/>
+          </node>
+          <node name="szczęście-2, fuks-2, fart-1, łut szczęścia-1, uśmiech losu-1, błogosławieństwo-3" size="2">
+            <node name="miękkie lądowanie-2" size="0"/>
+            <node name="manna z nieba-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="czasowość-2, temporalność-1" size="4">
+        <node name="sezonowość-1" size="3">
+          <node name="zimowość-1" size="0"/>
+          <node name="jesienność-1" size="0"/>
+          <node name="wiosenność-1" size="0"/>
+        </node>
+      </node>
+      <node name="wszechzwiązek-1" size="0"/>
+      <node name="związek przyczynowy-1" size="119">
+        <node name="konsekwencja-2, następstwo-2, implikacja-1, pokłosie-1" size="118">
+          <node name="posoborowie-1" size="0"/>
+          <node name="stan natury-1" size="0"/>
+          <node name="detencja-1" size="1">
+            <node name="detencja sądowa-1" size="0"/>
+          </node>
+          <node name="wadliwość-2" size="0"/>
+          <node name="unieważnienie-2" size="8">
+            <node name="kompensacja-2" size="0"/>
+            <node name="dezaktualizacja-1" size="0"/>
+            <node name="delegalizacja-1" size="0"/>
+            <node name="abolicja-1" size="0"/>
+            <node name="separacja-2" size="1">
+              <node name="akantoliza-1" size="0"/>
+            </node>
+            <node name="rozwód-1" size="1">
+              <node name="talak-1" size="0"/>
+            </node>
+          </node>
+          <node name="kara-3" size="6">
+            <node name="pouczenie-4, upomnienie-2, napomnienie-2, przygana-1" size="5">
+              <node name="moralizacja-1" size="0"/>
+              <node name="uwaga-4" size="0"/>
+              <node name="pareneza-1" size="0"/>
+              <node name="reprymenda-1, bura-1, połajanka-1, ochrzan-1, ruga-1" size="0"/>
+              <node name="nagana-1" size="0"/>
+            </node>
+          </node>
+          <node name="reperkusja-1" size="0"/>
+          <node name="rykoszet-1" size="0"/>
+          <node name="dziedziczność-2" size="1">
+            <node name="atawizm-1" size="0"/>
+          </node>
+          <node name="skutek prawny-1" size="1">
+            <node name="ewikcja-1" size="0"/>
+          </node>
+          <node name="deportacja-1" size="2">
+            <node name="readmisja-2" size="0"/>
+            <node name="ekstradycja-1" size="0"/>
+          </node>
+          <node name="kara-2, rygor-2, sankcja-1, sprawiedliwość-2" size="68">
+            <node name="wyrok-3" size="17">
+              <node name="kara główna-1" size="0"/>
+              <node name="kara śmierci-1, kara główna-2" size="6">
+                <node name="kwalifikowana kara śmierci-1, kara kwalifikowana-1, śmierć kwalifikowana-1" size="0"/>
+                <node name="stos-4" size="0"/>
+                <node name="krzyż-6" size="0"/>
+                <node name="garota-2, garrota-1" size="0"/>
+                <node name="dekapitacja-1, ścięcie-10" size="0"/>
+                <node name="stryczek-2" size="0"/>
+              </node>
+              <node name="pozbawienie wolności-1" size="8">
+                <node name="więzienie-3, odsiadka-1" size="0"/>
+                <node name="areszt-4" size="5">
+                  <node name="areszt deportacyjny-1" size="0"/>
+                  <node name="areszt wojskowy-1" size="0"/>
+                  <node name="areszt prewencyjny-1" size="0"/>
+                  <node name="areszt domowy-1" size="0"/>
+                  <node name="areszt tymczasowy-1" size="0"/>
+                </node>
+                <node name="dożywocie-1" size="0"/>
+              </node>
+            </node>
+            <node name="galery-1" size="0"/>
+            <node name="rzeź niewiniątek-2" size="0"/>
+            <node name="bicz boży-1" size="0"/>
+            <node name="depozycja-2" size="0"/>
+            <node name="kara łączna-1" size="0"/>
+            <node name="kara umowna-1" size="0"/>
+            <node name="kara porządkowa-1" size="0"/>
+            <node name="ogień piekielny-1" size="0"/>
+            <node name="koza-16" size="0"/>
+            <node name="pokuta-2" size="0"/>
+            <node name="koszarniak-1" size="0"/>
+            <node name="decymacja-1" size="0"/>
+            <node name="kara nagany-1, nagana-3" size="0"/>
+            <node name="kartka-3" size="4">
+              <node name="żółta kartka-3" size="0"/>
+              <node name="czarna kartka-1" size="0"/>
+              <node name="czerwona kartka-1" size="0"/>
+              <node name="żółta kartka-1" size="0"/>
+            </node>
+            <node name="dyskwalifikacja-3" size="0"/>
+            <node name="interdykt-1" size="0"/>
+            <node name="kocówa-1" size="0"/>
+            <node name="zawieszenie-7" size="0"/>
+            <node name="suspensa-1" size="0"/>
+            <node name="śmierć cywilna-1" size="0"/>
+            <node name="proskrypcja-1" size="0"/>
+            <node name="cenzura-2" size="1">
+              <node name="ekskomunika-1" size="0"/>
+            </node>
+            <node name="chłosta-1" size="2">
+              <node name="rózgi-1" size="0"/>
+              <node name="pręgierz-2" size="0"/>
+            </node>
+            <node name="poprawczak-2" size="0"/>
+            <node name="konfiskata-1, przepadek-1, przepad-2, konfiskacja-1" size="0"/>
+            <node name="degradacja-3" size="0"/>
+            <node name="klątwa-1, anatema-1" size="2">
+              <node name="cherem-1" size="0"/>
+              <node name="ekskomunika-1" size="0"/>
+            </node>
+            <node name="sankcja-2" size="4">
+              <node name="restrykcja importowa-1" size="0"/>
+              <node name="embargo-1" size="0"/>
+              <node name="blokada-2" size="1">
+                <node name="blokada ekonomiczna-1" size="0"/>
+              </node>
+            </node>
+            <node name="wygnanie-2, banicja-1" size="4">
+              <node name="zesłanie-3" size="2">
+                <node name="zsyłka-3" size="0"/>
+                <node name="katorga-3" size="0"/>
+              </node>
+              <node name="ekspatriacja-1" size="0"/>
+            </node>
+            <node name="potop-1" size="0"/>
+            <node name="kara pieniężna-1" size="3">
+              <node name="główszczyzna-1" size="0"/>
+              <node name="mandat-1, mandat karny-1" size="0"/>
+              <node name="grzywna-1" size="0"/>
+            </node>
+          </node>
+          <node name="wina-1, odpowiedzialność-2" size="8">
+            <node name="przewinienie dyscyplinarne-1" size="0"/>
+            <node name="odpowiedzialność dyscyplinarna-1" size="0"/>
+            <node name="wina kwalifikowana-1" size="0"/>
+            <node name="wina-3" size="0"/>
+            <node name="wina nieumyślna-1" size="0"/>
+            <node name="wina umyślna-1" size="0"/>
+            <node name="wina tragiczna-1, hamartia-2" size="0"/>
+            <node name="współwina-1" size="0"/>
+          </node>
+          <node name="nagroda-2, zapłata-3" size="9">
+            <node name="zadośćuczynienie-2" size="8">
+              <node name="rekompensata-2, naprawa-2, satysfakcja-2" size="0"/>
+              <node name="odszkodowanie-1, rekompensata-1, wyrównanie-8, kompensata-1, wynagrodzenie-3, restytucja-3, indemnizacja-1" size="6">
+                <node name="restytucja naturalna-1" size="0"/>
+                <node name="remuneracja-1" size="0"/>
+                <node name="reparacje-1" size="0"/>
+                <node name="przestojowe-1" size="0"/>
+                <node name="odstępne-1" size="0"/>
+                <node name="nawiązka-1" size="0"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node name="korelacja-1, współzależność-1" size="0"/>
+      <node name="związek wyrazowy-1" size="10">
+        <node name="zwrot-5" size="0"/>
+        <node name="okazjonalizm-1" size="0"/>
+        <node name="kolokacja-3" size="0"/>
+        <node name="związek frazeologiczny-1, frazeologizm-1" size="2">
+          <node name="mitologizm-1" size="0"/>
+          <node name="biblizm-1" size="0"/>
+        </node>
+        <node name="fraza-1" size="0"/>
+        <node name="zestawienie-6" size="1">
+          <node name="atrybucja-4" size="0"/>
+        </node>
+        <node name="idiom-1, idiomatyzm-1, idiomat-1" size="0"/>
+      </node>
+      <node name="więź-1, związek-4, więzy-1, wspólnota-2, relacja-3, stosunki-1, węzeł-10" size="82">
+        <node name="stosunek pracy-1" size="0"/>
+        <node name="wspólnota gruntowa-1" size="0"/>
+        <node name="dobrosąsiedztwo-1" size="0"/>
+        <node name="kumostwo-2" size="0"/>
+        <node name="kumostwo-1" size="0"/>
+        <node name="więź społeczna-1" size="0"/>
+        <node name="miłość-2" size="5">
+          <node name="biofilia-1" size="0"/>
+          <node name="miłość bliźniego-1" size="0"/>
+          <node name="agape-1" size="0"/>
+          <node name="patriotyzm-1, miłość do ojczyzny-1" size="1">
+            <node name="hurrapatriotyzm-1, hurapatriotyzm-1" size="0"/>
+          </node>
+        </node>
+        <node name="braterstwo-2" size="0"/>
+        <node name="wspólnotowość-1" size="0"/>
+        <node name="układ-5" size="4">
+          <node name="konfiguracja-3" size="0"/>
+          <node name="komeraż-2" size="0"/>
+          <node name="klientelizm-1" size="0"/>
+          <node name="kolesiostwo-1" size="0"/>
+        </node>
+        <node name="przysposobienie-3, adopcja-1" size="0"/>
+        <node name="partnerstwo-1" size="1">
+          <node name="partnerstwo publiczno-prywatne-1" size="0"/>
+        </node>
+        <node name="znajomość-1" size="9">
+          <node name="znajomości-1, koligacje-1, koneksje-1, stosunki-3" size="2">
+            <node name="dojście-24, przystęp-2" size="1"/>
+          </node>
+          <node name="zażyłość-1, zbliżenie-5, bliskość-2, poufność-2" size="3">
+            <node name="braterskość-1, przyjacielskość-1, bratniość-1" size="0"/>
+            <node name="poufałość-2, familiarność-1, spoufalenie-1" size="1">
+              <node name="intymność-2" size="0"/>
+            </node>
+          </node>
+          <node name="koleżeństwo-2, kumplostwo-1" size="0"/>
+          <node name="komitywa-1" size="0"/>
+        </node>
+        <node name="koligacja-1" size="37">
+          <node name="rodzicielstwo-1" size="2">
+            <node name="ojcostwo-1" size="0"/>
+            <node name="macierzyństwo-1" size="0"/>
+          </node>
+          <node name="pokrewieństwo-2, więzy krwi-1, parantela-2, pobratymstwo-3" size="12">
+            <node name="woda po kisielu-1" size="0"/>
+            <node name="krew-3" size="0"/>
+            <node name="lineaż-1" size="0"/>
+            <node name="bliższość-1" size="0"/>
+            <node name="stryjostwo-1" size="0"/>
+            <node name="awunkulat-1" size="0"/>
+            <node name="agnacja-1" size="0"/>
+            <node name="kognacja-1" size="0"/>
+            <node name="kuzynostwo-3" size="0"/>
+            <node name="filiacja-3" size="0"/>
+            <node name="stopień pokrewieństwa-1" size="0"/>
+            <node name="krewniactwo-1" size="0"/>
+          </node>
+          <node name="związek-5" size="20">
+            <node name="związek partnerski-2" size="0"/>
+            <node name="związek homoseksualny-1" size="0"/>
+            <node name="koicja-1" size="0"/>
+            <node name="białe małżeństwo-1" size="0"/>
+            <node name="konkubinat-1, kohabitacja-2, związek partnerski-1" size="0"/>
+            <node name="narzeczeństwo-1" size="0"/>
+            <node name="romans-2" size="2">
+              <node name="przygoda-3, miłostka-1" size="0"/>
+              <node name="skok w bok-1" size="0"/>
+            </node>
+            <node name="małżeństwo-3, związek małżeński-1, węzeł małżeński-1" size="10">
+              <node name="małżeństwo morganatyczne-1" size="0"/>
+              <node name="hierogamia-1" size="0"/>
+              <node name="małżeństwo mieszane-1" size="0"/>
+              <node name="mezalians-1" size="0"/>
+              <node name="biandria-1, dwumęstwo-1" size="0"/>
+              <node name="poligamia-1, wielożeństwo-1" size="3">
+                <node name="poliginia-1, poligynia-1" size="0"/>
+                <node name="poliandria-1, wielomęstwo-1" size="0"/>
+                <node name="bigamia-1, dwużeństwo-1" size="0"/>
+              </node>
+              <node name="monogamia-1, jednożeństwo-1" size="0"/>
+            </node>
+          </node>
+        </node>
+        <node name="towarzystwo-4" size="0"/>
+        <node name="powinowactwo-2, spowinowacenie-2" size="1">
+          <node name="szwagrostwo-2" size="0"/>
+        </node>
+        <node name="przyjaźń-1" size="0"/>
+        <node name="miłość-1" size="7">
+          <node name="afekt-1, uczucie-4" size="5">
+            <node name="miłość-4" size="2">
+              <node name="głębsze uczucie-1" size="0"/>
+              <node name="namiętność-3" size="0"/>
+            </node>
+            <node name="zakochanie-1, zadurzenie-1" size="1">
+              <node name="strzała Amora-1, strzała Erosa-1, strzała Kupidyna-1" size="0"/>
+            </node>
+          </node>
+          <node name="wszechmiłość-1" size="0"/>
+        </node>
+      </node>
+      <node name="kontakt-1, styczność-1" size="18">
+        <node name="bliskie spotkanie-1, bliskie spotkanie trzeciego stopnia-2" size="0"/>
+        <node name="powiązanie-7" size="4">
+          <node name="dojście-24, przystęp-2" size="1">
+            <node name="chody-4" size="0"/>
+          </node>
+          <node name="związek-6, mariaż-1" size="1">
+            <node name="zjednoczenie-2, komunia-3, przymierze-2" size="0"/>
+          </node>
+        </node>
+        <node name="łączność-4" size="4">
+          <node name="łączność współdziałania-1" size="0"/>
+          <node name="łączność powiadamiania-1" size="0"/>
+          <node name="łączność dowodzenia-1" size="0"/>
+          <node name="kierunek łączności-1" size="0"/>
+        </node>
+        <node name="połączenie-7, linia-11, telefon-3" size="6">
+          <node name="głuchy telefon-2" size="0"/>
+          <node name="strzałka-7, strzała-3, sygnał-7, sygnałek-1" size="0"/>
+          <node name="pomyłka-2" size="0"/>
+          <node name="międzymiastowa-1, zamiejscowa-1, telefon zamiejscowy-1" size="0"/>
+          <node name="gorąca linia-1" size="0"/>
+          <node name="telefon grzecznościowy-1" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="niezależność-3, samodzielność-1" size="21">
+      <node name="ponadpartyjność-1" size="0"/>
+      <node name="bezpartyjność-1" size="0"/>
+      <node name="samowystarczalność-1" size="1">
+        <node name="autarkia-2, autarkizm-1, samowystarczalność gospodarcza-1" size="0"/>
+      </node>
+      <node name="emancypacja-1" size="0"/>
+      <node name="odrębność-1, osobność-1, zamkniętość-1, hermetyczność-2" size="13">
+        <node name="samoistność-2" size="1">
+          <node name="autoteliczność-1" size="0"/>
+        </node>
+        <node name="oddzielność-1" size="0"/>
+        <node name="państwowość-1" size="2"/>
+        <node name="elitarność-1, ekskluzywność-1" size="6">
+          <node name="snobistyczność-1" size="0"/>
+          <node name="luksusowość-1" size="2">
+            <node name="delikatesowość-1" size="0"/>
+            <node name="zbytkowność-1" size="0"/>
+          </node>
+          <node name="snobizm-1" size="1">
+            <node name="arystokratyzm-1, błękitna krew-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="niepodległość-1, wolność-1, suwerenność-2, niezawisłość-2, samostanowienie-2, swoboda-4, nieskrępowanie-1, autonomia-1, samorządność-1, autonomiczność-1, samookreślenie-1, niezależność-2, autonomizm-1" size="4">
+        <node name="autokefalia-1" size="0"/>
+        <node name="państwowość-1" size="2">
+          <node name="demokratyczność-2" size="0"/>
+          <node name="federacyjność-1" size="0"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</node>

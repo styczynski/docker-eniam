@@ -1,0 +1,43 @@
+<!-- Na wstępie tekstu można powiedzieć, że:
+Z uwagi na występowanie modyfikatorów dla przyimków semantycznych (np.
+"dość głęboko w szafie" , "5 km od domu" (dodatkowy argument "5 km") "w szcze-
+gólnym związku z" (modyfikacja przyimka złożonego), przyimki te nie mogą być
+reprezentowane jako predykaty wiążące identyfikator odniesienia swojego pod-
+rzędnika z identyfikatorem odniesienia nadrzędnika.
+Dlatego, z każdym przyimkiem semantycznym wiążemy zmienną repre-
+zentującą jego własne odniesienie.
+
+Następnie trzeba wyjaśnić, że: przyimki mają wiele sensów,
+reprezentacja semantyczna przyimków musi obejmować informacje o:
+sensie, roli tematycznej, pojęciu do którego należy referent frazy przyimkowej i preferencji selekcyjnych podrzędnika przyimka.
+ --> DONE
+
+Potem powinna się znaleźć
+- propozycja podziału na grupy [znaczeniowe]
+- zdefiniowanie każdej [grupy znaczeniowej]
+- przypisaniem ról tematycznych przyimkom
+- typ semantyczny frazy przyimkowej
+- preferencji selekcyjnych przyimka
+
+Wstępnie proponuję, by były następujące grupy (związane z rolami tematycznymi):
+Purpose
+Condition
+Manner
+Measure
+Time
+Time Source
+Time Goal
+Duration
+Location
+Location Source
+Location Goal.
+Quantifier (do wyrażenia kwantyfikacji np. co dwa dni, po 6 arbuzów)
+Comparition (do wyrażenia konstrukcji porównawczych)
+Oraz grupa dla sensów, które z punktu widzenia Walentego dotyczą argumentów, czyli niesemantycznych użyć przyimka.
+
+Definicje ról są w załączonej instrukcji semantycznej.
+Rola Attribute odpada, bo określa innego uczestnika akcji, co sugeruje, że występuje tylko w argumentach.
+Roli Manner nie należy traktować jako "śmietnik", tylko wstawiać tam opisy sposobu, czyli odpowiedzi na pytanie "jak?".
+Możesz dodać nową rolę "śmietnik", gdzie umieścisz to co nie pasuje do pozostałych.
+
+Na koniec możesz napisać coś o reprezentacji samej modyfikacji przyimka. Uzasadnić jej intersektywność i zaproponować rolę tematyczną dla niej.

@@ -1,0 +1,203 @@
+200 zachowanie-8
+  0 ludyzm-1, zachowanie ludyczne-1
+  198 reakcja-1, odzew-1
+    0 dolina niesamowitości-1
+    0 reakcja sprawcza-1
+    0 reakcja sprawcza-2
+    4 reakcja fizjologiczna-1
+      0 reakcja orientacyjna-1
+      2 reakcja obronna-1
+        0 gumoza-1
+        0 autotomia-1
+    0 reakcja alarmowa-1
+    0 hejt-1, hejterstwo-1
+    0 zlewka-5, olewka-1
+    3 uraz-2
+      1 drzazga-2
+        0 zadra-1
+      VISITED 0 trauma-1, uraz psychiczny-1
+    0 foch-1
+    0 uderzenie-17
+    0 emotywność-2
+    0 drgnienie-4
+    0 płacz-2, łzy-1
+    75 wrażenie-1, odczucie-7
+      55 przeżycie-7
+        0 uczta-2
+        1 szok-2
+          0 wstrząs-2
+        8 przykrość-1, nieprzyjemność-1
+          0 strzał-3
+          0 gorzka pigułka-1
+          5 nieznośność-1, dokuczliwość-1
+            1 hałaśliwość-1
+              0 zgrzytliwość-1
+            0 dotkliwość-1
+            0 uporczywość-1
+            0 natręctwo-2, natarczywość-1, nachalność-1, namolność-1, nachalstwo-1
+        0 przejście-21
+        9 przyjemność-1, uciecha-2, frajda-1
+          0 miód-4
+          0 rozkosz-2
+          1 rozkosz-1
+            0 słodycz-4, pieszczota-2
+          4 satysfakcja-1, spełnienie-3, duma-6, zadowolenie-2, ukontentowanie-2
+            0 szał dupy-1
+            0 pełnia-1
+            0 nasycenie-7
+            0 samozadowolenie-1
+        31 cierpienie-5, ból-1, katusza-1, męczarnia-1, męka-1, gehenna-1, udręka-1, udręczenie-2, tortura-1
+          0 męki piekielne-1
+          0 droga krzyżowa-2
+          0 koszula Dejaniry-1, szata Dejaniry-1, suknia Dejaniry-1
+          0 katorga-1
+          0 korona cierniowa-2, krzyż-5, golgota-1
+          1 umartwienie-1, mortyfikacja-1
+            0 samoumartwienie-1
+          1 męczeństwo-1, martyrologia-1, męczennictwo-1
+            0 ukrzyżowanie-2
+          12 dolegliwość-2
+            0 łoże boleści-2
+            10 tortury-1, kaźń-1, męki-1, męka-3, tortura-2
+              0 męki Tantala-1
+              0 rota-8
+              0 wahadło-2
+              0 rhinokopia-1
+              0 praszczęta-1
+              0 mankurt-1
+              0 konwejer-1, konwojer-2
+              2 tortura wodna-1
+                0 toca-1
+                0 chińska tortura wodna-1
+          8 choroba ducha-1
+            0 trauma-1, uraz psychiczny-1
+            6 załamanie-3, depresja-1
+              0 dystymia-1
+              0 subdepresja-1
+              0 melancholia-2
+              0 dół-4, dołek-2
+              0 amok-1
+              0 depresja cykliczna-1
+      0 impresja-1
+      0 rozczulenie-2
+      1 podmuch-3, wiew-2, powiew-2
+        0 powab-2
+      0 samotność-2
+      0 przesyt-2
+      2 przejęcie-4
+        0 zaaferowanie-1
+        0 wzruszenie-2, rozrzewnienie-2, rozczulenie-3
+      5 efekt-3
+        0 konkieta-1
+        0 furora-1
+        2 wydźwięk-1, wymowa-1, tenor-4
+          1 łagodność-3
+            0 nierygorystyczność-1
+      3 szczęście-1, szczęśliwość-1
+        0 ananda-1
+        0 idylla-2, sielanka-2
+        0 błogość-1, błogostan-1, rozmarzenie-2
+    1 rezonans-3
+      0 rezonans stochastyczny-1
+    11 przypływ-2, fala-3, napad-3, napływ-5
+      0 śmiechawa-1, śmiechówa-1, śmichawa-1
+      1 śmiechawka-1, śmiechówka-1
+        0 wścik dupy-2, wściek dupy-2
+      0 prąd-6
+      6 poryw-1, atak-3, wybuch-2, erupcja-2
+        0 kryzys katatymiczny-1
+        0 wylew-5
+        2 szał-3, szaleństwo-3, amok-3
+          0 małpi rozum-1
+          0 frenezja-1
+        0 złość-2
+    0 histeria-3
+    0 retorsja-1
+    0 postrach-1
+    2 rewanż-2, odpłata-1
+      0 rewizyta-1
+      0 retorsja-2
+    4 uśmiech-2
+      0 uśmiech sardoniczny-2
+      0 banan-3, rogal-2
+      0 półuśmiech-1
+      0 uśmieszek-1
+    6 śmiech-2
+      0 homerycki śmiech-1, homeryczny śmiech-1
+      0 paragelia-1
+      0 śmiech przez łzy-1
+      0 rechot-2
+      1 chichot-2, chich-1
+        0 chichotek-2
+    1 śmiech-3
+      0 polewka-2, polew-2, beka-4, zwała-1, zlew-2, zlewka-3, padaka-2
+    5 zemsta-1, odwet-1, pomsta-1, rozrachunek-3, porachunek-1
+      0 odgrywka-1
+      0 represalia-1
+      0 rewanżyzm-1
+      0 dintojra-1
+      0 wendeta-1, wróżda-1, vendetta-1
+    18 sprzeciw-1, opór-1, protest-1, odpór-1, opozycja-2
+      0 ofensywa-3
+      0 rogata dusza-2
+      0 twitterowa rewolucja-1
+      0 oburzenie-2
+      0 kontestacja-1
+      0 emigracja wewnętrzna-1
+      0 bierny opór-1
+      0 veto-1, weto-1
+      0 nonkonformizm-1
+      0 diatryba-1
+      1 buntowniczość-1
+        0 wywrotowość-1
+      0 votum separatum-1, zdanie odrębne-1
+      1 obstrukcja-2
+        0 obstrukcja parlamentarna-1
+      2 bunt-1
+        1 herezja-2, obrazoburstwo-2
+          0 profanacja-1, świętokradztwo-2
+    43 odpowiedź-1, respons-1, reakcja-2, odzew-2, oddźwięk-1, odrzeczenie-1
+      0 lajk-1, like-1
+      0 duplika-1
+      0 replika-2
+      0 riposta-1, kontra-1
+      1 odzew-3
+        0 szmer-4
+      36 pozwolenie-5, przyzwolenie-2, zgoda-1, zezwolenie-4
+        0 aprobacja-2
+        0 milcząca zgoda-1
+        0 exequatur-1
+        0 permisja-1
+        0 licencja-3
+        0 voucher-1
+        0 ketman-1
+        0 placet-1
+        0 hazuka-1
+        0 indult-1
+        5 patent-1
+          2 patent żeglarski-1
+            0 żeglarz jachtowy-1
+            0 patent sternika-1
+          0 patent flagowy-1
+          VISITED 0 patent konsularny-1, list komisyjny-1, list prowizyjny-1
+        0 autoryzacja-1
+        0 homologacja-1
+        0 akredytacja-1
+        2 akceptacja-1, aprobata-2
+          0 wotum zaufania-2
+          0 imprimatur-1
+        0 dyspensa-1
+        2 upoważnienie-2
+          1 delegacja-2
+            0 delegacja ustawowa-1
+        7 licencja-2
+          0 format-5
+          0 patronat-3
+          0 licencja otwarta-1
+          0 licencja przymusowa-1
+          0 sublicencja-1
+          1 franczyza-1, franchising-1
+            0 franczyza konwersyjna-1
+        2 koncesja-1, pozwolenie-4
+          1 patent-5
+            0 patent konsularny-1, list komisyjny-1, list prowizyjny-1

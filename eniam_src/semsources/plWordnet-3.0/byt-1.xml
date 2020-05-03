@@ -1,0 +1,37 @@
+<node name="byt-1" size="29">
+  <node name="podmiot-4" size="0"/>
+  <node name="transcendencja-1" size="0"/>
+  <node name="substancja-2" size="0"/>
+  <node name="immanencja-1" size="0"/>
+  <node name="prabyt-1" size="0"/>
+  <node name="noumenon-2, noumen-1" size="0"/>
+  <node name="duch-3, dusza-2" size="1">
+    <node name="atman-1" size="0"/>
+  </node>
+  <node name="monada-1" size="0"/>
+  <node name="idea-3, istotowość-1" size="1">
+    <node name="nadbudowa-2" size="0"/>
+  </node>
+  <node name="absolut-1, byt absolutny-1" size="9">
+    <node name="przedwieczny-1" size="0"/>
+    <node name="natura-5" size="0"/>
+    <node name="li-3" size="0"/>
+    <node name="wszystko-2, wszechrzecz-1, wszystkość-1" size="0"/>
+    <node name="brahman-1" size="0"/>
+    <node name="Bóg filozofów-1, Czysty Akt-1" size="0"/>
+    <node name="Bóg-1, Pan-8, opatrzność-1, Stworzyciel-1, niebiosa-2, Stwórca-3, Najwyższy-1" size="2">
+      <node name="dża-1, jah-1" size="0"/>
+      <node name="Osoba Boska-1, hipostaza-5" size="0"/>
+    </node>
+  </node>
+  <node name="materia-1" size="7">
+    <node name="chaos-2" size="0"/>
+    <node name="ylem-1" size="0"/>
+    <node name="materia prima-1" size="0"/>
+    <node name="eter-2" size="0"/>
+    <node name="pramateria-1" size="0"/>
+    <node name="żywioł-4, element-1" size="1">
+      <node name="eter kosmiczny-2" size="0"/>
+    </node>
+  </node>
+</node>

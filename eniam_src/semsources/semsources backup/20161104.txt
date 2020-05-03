@@ -1,0 +1,47 @@
+Moje adpisane zadanie na teraz:
+1) Napisz w języku natuyralnym polskim, jaki jest nasz metaopis semantyczny, czyli co mówi nasza tabelka, mianowicie:
+
+każda linia to rekord
+każde pole to "pole"
+co znaczy każda kolumna
+theme role przysługuje PP lub zdaniu podrzędnemu z opisywanym spójnikiem
+cat ont przysługuje PP 
+selfpref przysługuje podrzędnikom przyimka
+opiswz też formalizm z kolumny grammar (mogę zaproponować rozwinięcie)
+
+2) Oraz zrób tabelkę z pierwszymi przykładami. Rozwiń konkretne znaczenia przyimków 
+na
+co
+pomiędzy w znaczeniach 1-4
+chociaż-I
+chociaż-II
+oraz dystrybutywne "po"
+spod-1
+spod-2
+po stronie
+„co najmniej” num
+na osiemnastą
+na teraz
+na za dwa tygodnie
+na wiosnę
+po polsku
+„jeśli” ip „,” „to” ip
+„im” advp(com) „tym” advp(com)
+--------------------------------------------------------------------------------
+
+sense	grammar	theme role	selpref	example	definition
+spod-1	"spod" np(gen)	Location Source	MIEJSCE	spod prysznica	komunikuje o ruchu z miejsca położonego niżej lub głębiej niż obiekt nazywany przez rzeczownik
+spod-2	"spod" np(gen)	Location Source	MIEJSCE	spod Lwowa	komunikuje, że ktoś lub coś przybywa lub pochodzi z miejsca położonego w pobliżu lub w okolicach miejscowości, terenu bądź obiektu, o których mowa
+po stronie	"po stronie" np(gen)
+ 
+pomiędzy-1.	"pomiędzy" np(inst) "a" np(inst)	Walenty	komunikujący, że przedmiot, o którym mowa, jest z obu stron otoczony innymi przedmiotami; między
+pomiędzy-2.	Walenty	komunikujący, iż zależność, o której mowa, dotyczy wymienionych w zdaniu osób, przedmiotów, zjawisk lub faktów; między
+pomiędzy-3.	Walenty	wprowadzający określenia granic czasowych, w których miało miejsce dane zdarzenie; między
+pomiędzy-4.	Walenty	wprowadzający określenie przeznaczenia tego, co stanowi rezultat dokonanego podziału; między
+pomiędzy-5.	Walenty	ograniczający dwustronnie zbiór cech, które można przypisać nietypowemu obiektowi, o którym mowa; między
+pomiędzy-6.	Walenty	komunikujący, iż wybór, przed którym stoi dana osoba, dotyczy wymienionych przedmiotów; między
+pomiędzy-7.	Walenty	wprowadzający określenie zbioru, do którego należy charakteryzowany w zdaniu przedmiot; wśród
+pomiędzy-8.	Walenty	wprowadzający określenie zbioru, w którym wyróżnia się pod względem danej cechy charakteryzowany w zdaniu przedmiot; spośród, z
+
+chociaż-I	"chociaż" ip "," ip	
+

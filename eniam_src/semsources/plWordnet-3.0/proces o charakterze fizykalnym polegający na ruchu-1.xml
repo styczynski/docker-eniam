@@ -1,0 +1,2673 @@
+<node name="proces o charakterze fizykalnym polegający na ruchu-1" size="1981" abstract="true">
+  <node name="GERUNDIUM - WYPADEK oznaczający zmianę położenia lub zmianę relacji przestrzennych-1" size="244" abstract="true">
+    <node name="zmieszczenie-1" size="1">
+      <node name="ukrycie-3" size="0"/>
+    </node>
+    <node name="rozwianie się-1" size="0"/>
+    <node name="zawiśnięcie-1" size="0"/>
+    <node name="poplątanie się-2, splątanie się-1" size="4">
+      <node name="zmierzwienie się-1, zwichrzenie się-1, potarganie się-1, skłębienie się-1" size="1">
+        <node name="skołtunienie się-1, skudlenie się-1, skudłacenie się-1, skołtunienie-2" size="0"/>
+      </node>
+      <node name="zaplątanie się-1, zapętlenie się-2" size="1">
+        <node name="zasupłanie się-1, zawęźlenie się-1" size="0"/>
+      </node>
+    </node>
+    <node name="zapięcie się-1" size="1">
+      <node name="dopięcie się-1" size="0"/>
+    </node>
+    <node name="wyjrzenie-2" size="0"/>
+    <node name="zamknięcie się-1" size="3">
+      <node name="przymknięcie się-1" size="0"/>
+      <node name="domknięcie się-1" size="0"/>
+      <node name="zatrzaśnięcie się-1" size="0"/>
+    </node>
+    <node name="znalezienie się-5" size="0"/>
+    <node name="wypadnięcie-3, wylecenie-4" size="4">
+      <node name="wyjście-10" size="0"/>
+      <node name="wysunięcie się-2" size="1">
+        <node name="wyślizgnięcie się-2, wyśliźnięcie się-2" size="0"/>
+      </node>
+      <node name="wyłamanie się-2" size="0"/>
+    </node>
+    <node name="zmieszczenie się-1, wejście-15" size="1">
+      <node name="wlezienie-4" size="0"/>
+    </node>
+    <node name="przewrócenie się-2, wywrócenie się-1" size="6">
+      <node name="przekoziołkowanie-1" size="0"/>
+      <node name="upadnięcie-2" size="1">
+        <node name="osunięcie się-1, obsunięcie się-1" size="0"/>
+      </node>
+      <node name="runięcie-1, gruchnięcie-2, grzmotnięcie-2, rymnięcie-1, rymsnięcie-1, wyrżnięcie-2" size="0"/>
+      <node name="dachowanie-1" size="0"/>
+      <node name="kapotowanie-1" size="0"/>
+    </node>
+    <node name="podzielenie-8" size="3">
+      <node name="przedzielenie-3" size="2">
+        <node name="przegrodzenie-2" size="1">
+          <node name="odgrodzenie-1" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="podzielenie się-1, rozdzielenie się-1" size="30">
+      <node name="rozdwojenie się-1" size="0"/>
+      <node name="rozwarstwienie się-1" size="0"/>
+      <node name="rozszczepienie się-2, rozbicie się-2" size="0"/>
+      <node name="zróżnicowanie się-2" size="1">
+        <node name="rozwarstwienie się-2" size="0"/>
+      </node>
+      <node name="przełamanie się-1, rozłamanie się-1" size="0"/>
+      <node name="rozszczepienie się-1" size="0"/>
+      <node name="rozczłonkowanie się-1" size="0"/>
+      <node name="rozpadnięcie się-1, rozlecenie się-1" size="19">
+        <node name="zawalenie się-1, runięcie-3" size="0"/>
+        <node name="porwanie się-2" size="11">
+          <node name="rozerwanie się-1, rozdarcie się-1, rozlezienie się-2" size="10">
+            <node name="pęknięcie-1, rozpęknięcie się-1" size="0"/>
+            <node name="przedarcie się-2, przebicie się-3" size="1">
+              <node name="przerwanie się-4" size="0"/>
+            </node>
+            <node name="podarcie się-2" size="1">
+              <node name="powydzieranie się-2" size="0"/>
+            </node>
+            <node name="pęknięcie-3, rozerwanie się-2, przerwanie się-3" size="4">
+              <node name="wybuchnięcie-4" size="3">
+                <node name="kropnięcie-11" size="0"/>
+                <node name="eksplodowanie-1" size="0"/>
+                <node name="implodowanie-1" size="0"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node name="rozbicie się-1, strzaskanie się-1, zbicie się-3, stłuczenie się-1, pryśnięcie-5, rozpryśnięcie się-2, rozbryźnięcie się-1, rozbryzganie się-1" size="0"/>
+        <node name="pokruszenie się-1, rozkruszenie się-1, skruszenie się-1" size="0"/>
+        <node name="połamanie się-1" size="0"/>
+        <node name="rozstąpienie się-1" size="0"/>
+        <node name="rozwalenie się-2" size="0"/>
+        <node name="rozsypanie się-2" size="0"/>
+      </node>
+      <node name="rozwidlenie się-1, rozgałęzienie się-1, rozbiegnięcie się-2, rozejście się-2" size="1">
+        <node name="rozjechanie się-2" size="0"/>
+      </node>
+    </node>
+    <node name="chybienie-1, spudłowanie-1" size="1">
+      <node name="przestrzelenie-2" size="0"/>
+    </node>
+    <node name="zwolnienie się-1" size="0"/>
+    <node name="pójście-6" size="0"/>
+    <node name="otoczenie-3" size="9">
+      <node name="okręcenie się-3, omotanie się-1, oplecenie-3, oplątanie-2, oplątanie się-1, owinięcie się-2, zawinięcie się-2, oplecenie się-1" size="0"/>
+      <node name="oblanie-4" size="0"/>
+      <node name="osnucie-2" size="0"/>
+      <node name="ogarnięcie-4, spowicie-2, spowinięcie-2" size="3">
+        <node name="spadnięcie-9" size="0"/>
+        <node name="owianie-1" size="1">
+          <node name="muśnięcie-2" size="0"/>
+        </node>
+      </node>
+      <node name="okolenie-1, obramowanie-2, ograniczenie-3" size="1">
+        <node name="opasanie-3, przepasanie-2" size="0"/>
+      </node>
+    </node>
+    <node name="znalezienie się-6" size="4">
+      <node name="spoczęcie-2" size="0"/>
+      <node name="rozpoczęcie-3" size="0"/>
+      <node name="spoczęcie-1" size="0"/>
+      <node name="zadryfowanie-3" size="0"/>
+    </node>
+    <node name="przejście-6" size="0"/>
+    <node name="poruszenie się-2" size="145">
+      <node name="drgnięcie-1, drgnienie-3" size="0"/>
+      <node name="zatrzęsienie się-2" size="0"/>
+      <node name="zafalowanie-1" size="0"/>
+      <node name="wahnięcie się-1" size="0"/>
+      <node name="zatrzęsienie się-1, zadrżenie-1, zadrganie-1" size="1">
+        <node name="zadygotanie-1" size="0"/>
+      </node>
+      <node name="okręcenie się-2, obrócenie się-2" size="3">
+        <node name="zakręcenie się-1" size="0"/>
+        <node name="przekręcenie się-3" size="0"/>
+        <node name="przewrócenie się-1, przekręcenie się-1, przewalenie się-2" size="0"/>
+      </node>
+      <node name="zawirowanie-1" size="0"/>
+      <node name="wzburzenie się-2, zburzenie się-1" size="2">
+        <node name="skłębienie się-2, zakotłowanie się-1, zakłębienie się-1" size="0"/>
+        <node name="rozwianie się-4" size="0"/>
+      </node>
+      <node name="wstrząśnięcie się-1" size="1">
+        <node name="otrząśnięcie się-2, otrzęsienie się-2, wzdrygnięcie się-1" size="0"/>
+      </node>
+      <node name="przemieszczenie się-2" size="126">
+        <node name="przeciągnięcie-4" size="0"/>
+        <node name="przesypanie się-1" size="0"/>
+        <node name="przetoczenie się-2" size="0"/>
+        <node name="zatoczenie się-2" size="0"/>
+        <node name="pochylenie się-2, skłonienie się-2, zniżenie się-2" size="0"/>
+        <node name="przecięcie-4" size="0"/>
+        <node name="wzniesienie się-2, wzbicie się-2, wzlecenie-2" size="2">
+          <node name="zakurzenie się-2" size="0"/>
+          <node name="wystrzelenie-3" size="0"/>
+        </node>
+        <node name="przesunięcie się-1" size="4">
+          <node name="odsunięcie się-5" size="0"/>
+          <node name="mignięcie-6" size="0"/>
+          <node name="zasunięcie się-1" size="0"/>
+          <node name="uskoczenie-2" size="0"/>
+        </node>
+        <node name="potoczenie się-1, poturlanie się-1" size="0"/>
+        <node name="oddalenie się-2" size="7">
+          <node name="odepchnięcie się-3" size="0"/>
+          <node name="odtoczenie się-1" size="0"/>
+          <node name="odfrunięcie-2" size="0"/>
+          <node name="zgubienie się-1, zagubienie się-1, zawieruszenie się-1, zapodzianie się-2" size="3">
+            <node name="zabłądzenie-2, zabłąkanie się-2, zbłądzenie-2, pobłądzenie-2" size="0"/>
+            <node name="zaginięcie-2" size="1">
+              <node name="wsiąknięcie-5" size="0"/>
+            </node>
+          </node>
+        </node>
+        <node name="zsunięcie się-1" size="4">
+          <node name="ześlizgnięcie się-2, ześliźnięcie się-1" size="0"/>
+          <node name="opsnięcie się-1" size="0"/>
+          <node name="zjechanie-5" size="0"/>
+          <node name="spłynięcie-5" size="0"/>
+        </node>
+        <node name="spłynięcie-1" size="3">
+          <node name="ścieknięcie-2" size="1">
+            <node name="obcieknięcie-2, ocieknięcie-2" size="0"/>
+          </node>
+          <node name="kapnięcie-2" size="0"/>
+        </node>
+        <node name="wywędrowanie-2" size="0"/>
+        <node name="zakreślenie-3, zatoczenie-1" size="1">
+          <node name="obiegnięcie-4" size="0"/>
+        </node>
+        <node name="zboczenie-3" size="2">
+          <node name="zjechanie-6" size="0"/>
+          <node name="zatoczenie się-4" size="0"/>
+        </node>
+        <node name="pofrunięcie-2" size="1">
+          <node name="podfrunięcie-2" size="0"/>
+        </node>
+        <node name="zawiśnięcie-2" size="0"/>
+        <node name="mignięcie-3, przemknięcie-2, szurnięcie-3" size="0"/>
+        <node name="przeskoczenie-3" size="0"/>
+        <node name="przewinięcie się-3" size="0"/>
+        <node name="dostanie się-2" size="16">
+          <node name="wlezienie-5" size="0"/>
+          <node name="wniknięcie-2" size="3">
+            <node name="wchłonięcie się-1" size="0"/>
+            <node name="wejście-7, wdarcie się-7" size="1">
+              <node name="wżarcie się-2" size="0"/>
+            </node>
+          </node>
+          <node name="wtoczenie się-3" size="0"/>
+          <node name="wplątanie się-2" size="0"/>
+          <node name="wdarcie się-2, wtargnięcie-2" size="0"/>
+          <node name="wpadnięcie-8" size="0"/>
+          <node name="wjechanie-4" size="0"/>
+          <node name="wlanie się-1" size="0"/>
+          <node name="wpadnięcie-9" size="0"/>
+          <node name="zapadnięcie się-1, zapadnięcie-7" size="1">
+            <node name="ugrzęźnięcie-3, utonięcie-5" size="0"/>
+          </node>
+          <node name="podpłynięcie-3" size="0"/>
+          <node name="zaprószenie-2" size="0"/>
+        </node>
+        <node name="przedostanie się-2" size="44">
+          <node name="aut-2" size="2">
+            <node name="aut bramkowy-1" size="1">
+              <node name="róg-10" size="0"/>
+            </node>
+          </node>
+          <node name="przeniknięcie-7" size="1">
+            <node name="prześwietlenie-4" size="0"/>
+          </node>
+          <node name="przeniknięcie-6" size="4">
+            <node name="wpełźnięcie-2" size="0"/>
+            <node name="przewianie-3" size="0"/>
+            <node name="nasycenie-3" size="1">
+              <node name="przesycenie-3" size="0"/>
+            </node>
+          </node>
+          <node name="przerośnięcie-4" size="0"/>
+          <node name="przeniknięcie-3" size="7">
+            <node name="wsiąknięcie-1" size="1">
+              <node name="wsączenie się-1" size="0"/>
+            </node>
+            <node name="przesiąknięcie-3, nasiąknięcie-3" size="0"/>
+            <node name="przecieknięcie-3" size="2">
+              <node name="przesączenie się-2" size="0"/>
+              <node name="zacieknięcie-2" size="0"/>
+            </node>
+            <node name="przesączenie się-1" size="0"/>
+          </node>
+          <node name="wydostanie się-2, ujście-2, ucieknięcie-2, ulecenie-2, wydobycie się-4, wydzielenie się-3, wylanie się-3" size="24">
+            <node name="wybuchnięcie-5" size="0"/>
+            <node name="wywinięcie się-3, odwinięcie się-2" size="0"/>
+            <node name="wybicie się-2" size="0"/>
+            <node name="posypanie się-3, wysypanie się-4" size="1">
+              <node name="przesypanie się-2" size="0"/>
+            </node>
+            <node name="walnięcie-6" size="0"/>
+            <node name="przecieknięcie-2" size="0"/>
+            <node name="wylanie-2, rozlanie-2" size="0"/>
+            <node name="wylecenie-8" size="0"/>
+            <node name="wypłynięcie-2" size="14">
+              <node name="ścieknięcie-1, odpłynięcie-3, ujście-3" size="0"/>
+              <node name="wycieknięcie-1" size="0"/>
+              <node name="popłynięcie-3, pójście-9" size="1"/>
+              <node name="wylanie się-1, ulanie się-1" size="9">
+                <node name="wysączenie się-1" size="0"/>
+                <node name="przelanie się-1" size="0"/>
+                <node name="tryśnięcie-2, wytryśnięcie-1, strzyknięcie-2" size="3">
+                  <node name="siknięcie-2" size="0"/>
+                  <node name="bluzgnięcie-2, bluźnięcie-4" size="0"/>
+                  <node name="wypryśnięcie-1" size="0"/>
+                </node>
+                <node name="chluśnięcie-1, lunięcie-3" size="1">
+                  <node name="chlaśnięcie-3" size="0"/>
+                </node>
+                <node name="wykipienie-2" size="0"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node name="spadnięcie-2, upadnięcie-1, padnięcie-1" size="13">
+          <node name="gruchnięcie się-2" size="0"/>
+          <node name="sypnięcie-5" size="0"/>
+          <node name="runięcie-1, gruchnięcie-2, grzmotnięcie-2, rymnięcie-1, rymsnięcie-1, wyrżnięcie-2" size="0"/>
+          <node name="kropnięcie-9" size="0"/>
+          <node name="przypadnięcie-3" size="0"/>
+          <node name="sturlanie się-1" size="0"/>
+          <node name="sfrunięcie-2" size="0"/>
+          <node name="zlecenie-3, zwalenie się-1" size="0"/>
+          <node name="sypnięcie się-7, zsypanie się-1" size="1">
+            <node name="rozsypanie się-6" size="0"/>
+          </node>
+          <node name="opadnięcie-2" size="2">
+            <node name="utonięcie-2, zatonięcie-3" size="0"/>
+            <node name="oblecenie-4" size="0"/>
+          </node>
+        </node>
+        <node name="wpadnięcie-5, wlecenie-1, zderzenie się-2, władowanie się-2, wpakowanie się-3" size="4">
+          <node name="zaczepienie-2, zaczepienie się-1, zahaczenie-2, zahaczenie się-1, zawadzenie-1" size="2">
+            <node name="przyczepienie się-3" size="0"/>
+            <node name="potknięcie się-3" size="0"/>
+          </node>
+          <node name="impakcja-1, impakt-1" size="0"/>
+        </node>
+        <node name="popłynięcie-3, pójście-9" size="1">
+          <node name="potoczenie się-5" size="0"/>
+        </node>
+        <node name="wylecenie-3" size="0"/>
+      </node>
+      <node name="zachwianie się-1, zachybotanie się-1, zakołysanie się-1, gibnięcie się-1, kiwnięcie się-1, bujnięcie się-1" size="1">
+        <node name="zadyndanie-1" size="0"/>
+      </node>
+    </node>
+    <node name="zjawienie się-1, pojawienie się-2" size="10">
+      <node name="zdążenie-2" size="0"/>
+      <node name="wrócenie-8" size="0"/>
+      <node name="trafienie-5" size="1">
+        <node name="wycelowanie-2" size="0"/>
+      </node>
+      <node name="przylezienie-2" size="0"/>
+      <node name="przypałętanie się-1" size="0"/>
+      <node name="wyrośnięcie-1" size="0"/>
+      <node name="wzięcie się-2" size="0"/>
+      <node name="wdarcie się-5" size="0"/>
+      <node name="przewinięcie się-1" size="0"/>
+    </node>
+    <node name="rozproszenie się-2" size="0"/>
+    <node name="ścieśnienie się-2, stłoczenie się-1, zbicie się-1" size="0"/>
+  </node>
+  <node name="GERUNDIUM - AKT oznaczający zmianę położenia lub zmianę relacji przestrzennych-1" size="631" abstract="true">
+    <node name="udanie się-2, pójście-2" size="6">
+      <node name="poskoczenie-1" size="0"/>
+      <node name="pomaszerowanie-2" size="0"/>
+      <node name="potruchtanie-1" size="0"/>
+      <node name="pójście do łóżka-1, przespanie się-1" size="2">
+        <node name="obsłużenie-3, zaspokojenie-2, dogodzenie-2" size="0"/>
+        <node name="zasponsorowanie-2" size="0"/>
+      </node>
+    </node>
+    <node name="zacumowanie-2" size="0"/>
+    <node name="puszczenie się-1" size="0"/>
+    <node name="zrównanie się-1" size="1">
+      <node name="dogonienie-1, dopędzenie-1, doścignięcie-1" size="0"/>
+    </node>
+    <node name="ruszenie-2, wyruszenie-1, ruszenie się-2" size="9">
+      <node name="porwanie-5, wyrwanie-2" size="0"/>
+      <node name="pofrunięcie-1, poszybowanie-1" size="0"/>
+      <node name="runięcie-2" size="0"/>
+      <node name="wypuszczenie się-1" size="0"/>
+      <node name="odejście-3, wyjście-2" size="4">
+        <node name="odjechanie-2" size="0"/>
+        <node name="wylecenie-5, wystartowanie-3" size="0"/>
+        <node name="odpłynięcie-1, popłynięcie-2" size="1"/>
+      </node>
+    </node>
+    <node name="podzielenie-2, rozdzielenie-6, zróżnicowanie-2, rozwarstwienie-2, rozróżnienie-1, oddzielenie-2, rozgraniczenie-1, odgraniczenie-1" size="69">
+      <node name="rozbicie-3" size="0"/>
+      <node name="rozdrobnienie-2" size="1">
+        <node name="rozproszenie-3" size="0"/>
+      </node>
+      <node name="rozparcelowanie-1" size="0"/>
+      <node name="zatomizowanie-1" size="0"/>
+      <node name="odseparowanie-1, odizolowanie-1, odosobnienie-1" size="21">
+        <node name="wyizolowanie-2" size="0"/>
+        <node name="odcięcie-2" size="0"/>
+        <node name="oddzielenie-3" size="17">
+          <node name="wyizolowanie-3" size="0"/>
+          <node name="rozłączenie-2, rozdzielenie-2" size="1">
+            <node name="separowanie-2" size="0"/>
+          </node>
+          <node name="odgrodzenie-2" size="0"/>
+          <node name="odłączenie-2" size="12">
+            <node name="wykluczenie-1, wyłączenie-3" size="10">
+              <node name="zdyskwalifikowanie-2" size="0"/>
+              <node name="pominięcie-1" size="0"/>
+              <node name="wypisanie-4" size="1">
+                <node name="wyrejestrowanie-1" size="0"/>
+              </node>
+              <node name="wyklęcie-1" size="1">
+                <node name="ekskomunikowanie-1" size="0"/>
+              </node>
+              <node name="wymanewrowanie-1" size="0"/>
+              <node name="wymeldowanie-1" size="0"/>
+              <node name="wyeliminowanie-2" size="1">
+                <node name="frag-1" size="0"/>
+              </node>
+            </node>
+            <node name="oderwanie-5" size="0"/>
+          </node>
+        </node>
+        <node name="separowanie-1" size="0"/>
+      </node>
+      <node name="przedzielenie-1, rozdzielenie-1" size="39">
+        <node name="przegrodzenie-1" size="38">
+          <node name="odgrodzenie-3" size="37">
+            <node name="osłonięcie-1, zasłonięcie-2" size="36">
+              <node name="zakrycie-1" size="31">
+                <node name="obudowanie-1" size="0"/>
+                <node name="przykrycie-1, nakrycie-1" size="29">
+                  <node name="zadekowanie-2" size="0"/>
+                  <node name="zasypanie-1" size="3">
+                    <node name="zagruzowanie-1" size="0"/>
+                    <node name="zawianie-7, zawiew-4" size="0"/>
+                    <node name="zapadanie-7" size="0"/>
+                  </node>
+                  <node name="pokrycie-4" size="22">
+                    <node name="posypanie-1, obsypanie-1, osypanie-1" size="9">
+                      <node name="oprószenie-1" size="1">
+                        <node name="przyprószenie-1" size="0"/>
+                      </node>
+                      <node name="przysypanie-1" size="0"/>
+                      <node name="nasypanie-2" size="1">
+                        <node name="dosypanie-2" size="0"/>
+                      </node>
+                      <node name="opylenie-1" size="0"/>
+                      <node name="wysypanie-1" size="2">
+                        <node name="wyżwirowanie-1" size="0"/>
+                        <node name="wyszabrowanie-2" size="0"/>
+                      </node>
+                    </node>
+                    <node name="zadrukowanie-1" size="0"/>
+                    <node name="położenie-6" size="5">
+                      <node name="wyłożenie-2" size="4">
+                        <node name="wyklejenie-2" size="1">
+                          <node name="wytapetowanie-1" size="0"/>
+                        </node>
+                        <node name="wybrukowanie-1" size="0"/>
+                        <node name="wysłanie-4, wymoszczenie-1, umoszczenie-1, wyścielenie-1" size="0"/>
+                      </node>
+                    </node>
+                    <node name="pokreślenie-1" size="0"/>
+                    <node name="założenie-11" size="0"/>
+                    <node name="powybijanie-1" size="0"/>
+                    <node name="usianie-2" size="0"/>
+                    <node name="zabazgranie-1" size="0"/>
+                  </node>
+                  <node name="okrycie-1" size="0"/>
+                </node>
+              </node>
+              <node name="zakratowanie-1, okratowanie-1" size="0"/>
+              <node name="obłożenie-1" size="0"/>
+              <node name="zaciemnienie-2" size="1">
+                <node name="ocienienie-1, zacienienie-1" size="0"/>
+              </node>
+              <node name="okrycie-1" size="0"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node name="odizolowanie-2" size="0"/>
+      <node name="rozpisanie-1" size="0"/>
+    </node>
+    <node name="poruszenie się-1, ruszenie się-1" size="75">
+      <node name="porwanie się-1, zerwanie się-1" size="2">
+        <node name="rozbrykanie się-1, rozhukanie się-1" size="0"/>
+        <node name="bryknięcie-2" size="0"/>
+      </node>
+      <node name="zatrzepotanie-1" size="0"/>
+      <node name="zarojenie się-1" size="0"/>
+      <node name="zatańczenie-1" size="2">
+        <node name="odtańczenie-1, przetańczenie-3" size="0"/>
+        <node name="kiwnięcie się-3" size="0"/>
+      </node>
+      <node name="zamierzenie się-1, przymierzenie się-1" size="1">
+        <node name="zamachnięcie się-1" size="0"/>
+      </node>
+      <node name="zakołysanie się-2, rozkołysanie się-1, rozbujanie się-1, rozhuśtanie się-1" size="0"/>
+      <node name="zmienienie pozycji-1" size="56" abstract="true">
+        <node name="uklęknięcie-1, klęknięcie-1, uklęk-1" size="1">
+          <node name="przyklęknięcie-1" size="0"/>
+        </node>
+        <node name="zwiśnięcie-1" size="0"/>
+        <node name="usiądnięcie-2, siądnięcie-2" size="0"/>
+        <node name="wyprostowanie się-1, rozprostowanie się-2" size="1">
+          <node name="przeciągnięcie się-2" size="0"/>
+        </node>
+        <node name="złożenie się-4" size="0"/>
+        <node name="stanięcie-2" size="3">
+          <node name="ustawienie się-2" size="2">
+            <node name="upozowanie się-1" size="0"/>
+            <node name="pokrycie-9" size="0"/>
+          </node>
+        </node>
+        <node name="uniesienie się-2" size="4">
+          <node name="wstanie-1, podniesienie się-2, powstanie-4" size="3">
+            <node name="nastroszenie się-2, najeżenie się-2, zjeżenie się-2" size="0"/>
+            <node name="zerwanie się-2, poderwanie się-1" size="0"/>
+            <node name="podźwignięcie się-2" size="0"/>
+          </node>
+        </node>
+        <node name="położenie się-1, ułożenie się-1, legnięcie-1" size="5">
+          <node name="walnięcie się-3" size="0"/>
+          <node name="położenie się-3" size="0"/>
+          <node name="rozłożenie się-4, rozciągnięcie się-3, rozpłaszczenie się-1, wyciągnięcie się-1" size="1">
+            <node name="wyciągnięcie kości-1" size="0"/>
+          </node>
+          <node name="zlegnięcie-2" size="0"/>
+        </node>
+        <node name="pójście-3" size="0"/>
+        <node name="kucnięcie-1" size="1">
+          <node name="przykucnięcie-1, ukucnięcie-1, przysiądnięcie-2, przycupnięcie-3" size="0"/>
+        </node>
+        <node name="pochylenie się-1, nachylenie się-1, przychylenie się-2, schylenie się-1" size="14">
+          <node name="zgarbienie się-1" size="1">
+            <node name="przykulenie się-1, skulenie się-1, skurczenie się-3, stulenie się-3" size="0"/>
+          </node>
+          <node name="przygięcie się-1" size="0"/>
+          <node name="przegięcie się-1" size="0"/>
+          <node name="wychylenie się-1" size="2">
+            <node name="przechylenie się-1, przewieszenie się-1" size="0"/>
+            <node name="podanie się-2" size="0"/>
+          </node>
+          <node name="odchylenie się-1" size="0"/>
+          <node name="wygięcie się-2, zgięcie się-1" size="0"/>
+          <node name="uchylenie się-2, umknięcie-2" size="0"/>
+          <node name="przechylenie się-2" size="2">
+            <node name="zachwianie się-2, kiwnięcie się-2, gibnięcie się-2" size="1">
+              <node name="poślizgnięcie się-1, pośliźnięcie się-1, poślizg-3" size="0"/>
+            </node>
+          </node>
+          <node name="pokładzenie się-2" size="0"/>
+        </node>
+        <node name="usiądnięcie-1, siądnięcie-1" size="11"/>
+        <node name="zwrócenie się-2, skierowanie się-2, obrócenie się-1" size="3">
+          <node name="odwrócenie się-1, odkręcenie się-3, wykręcenie się-1" size="0"/>
+          <node name="nakierowanie się-2" size="0"/>
+          <node name="nastawienie się-1" size="0"/>
+        </node>
+      </node>
+      <node name="pluśnięcie-1, chlupnięcie-1" size="0"/>
+      <node name="skoczenie-1" size="5">
+        <node name="rzucenie się-1" size="0"/>
+        <node name="kicnięcie-1" size="0"/>
+        <node name="chluśnięcie-4" size="0"/>
+        <node name="fiknięcie-4" size="0"/>
+        <node name="podskoczenie-1" size="0"/>
+      </node>
+    </node>
+    <node name="ulokowanie się-1, umieszczenie się-1" size="32">
+      <node name="rozsiądnięcie się-1, usadowienie się-1" size="1"/>
+      <node name="umoszczenie się-1" size="1">
+        <node name="rozparcie się-1" size="0"/>
+      </node>
+      <node name="zakopanie się-1" size="1">
+        <node name="zagrzebanie się-1" size="0"/>
+      </node>
+      <node name="zajęcie-5, zajęcie miejsca-1" size="19">
+        <node name="rozmieszczenie się-1, rozlokowanie się-1" size="3">
+          <node name="rozłożenie się-3" size="1">
+            <node name="rozbicie się-4" size="0"/>
+          </node>
+          <node name="rozsiądnięcie się-2" size="0"/>
+        </node>
+        <node name="dosiądnięcie-1" size="0"/>
+        <node name="usiądnięcie-1, siądnięcie-1" size="11">
+          <node name="rozsiądnięcie się-1, usadowienie się-1" size="1">
+            <node name="rozparcie się-1" size="0"/>
+          </node>
+          <node name="przysiądnięcie się-1" size="0"/>
+          <node name="przysiądnięcie-1, przycupnięcie-2" size="0"/>
+          <node name="obsadzenie-6" size="0"/>
+          <node name="klapnięcie-1" size="0"/>
+          <node name="spoczęcie-3" size="0"/>
+          <node name="zasiądnięcie-1" size="0"/>
+          <node name="wsiądnięcie-1, dosiądnięcie-2" size="1"/>
+          <node name="przesiądnięcie się-1" size="0"/>
+        </node>
+        <node name="wystawienie się-1" size="0"/>
+        <node name="zablokowanie-6" size="0"/>
+      </node>
+      <node name="ukrycie się-1, schowanie się-1, skrycie się-1" size="8">
+        <node name="przyczajenie się-1, przywarowanie-1" size="0"/>
+        <node name="schronienie się-1" size="0"/>
+        <node name="zamelinowanie się-1" size="0"/>
+        <node name="zabarykadowanie się-1, zatarasowanie się-1" size="0"/>
+        <node name="zapadnięcie-2" size="0"/>
+        <node name="przycupnięcie-1" size="0"/>
+        <node name="zaszycie się-1" size="0"/>
+        <node name="zadekowanie się-1" size="0"/>
+      </node>
+    </node>
+    <node name="przemieszczenie się-1, przeniesienie się-1" size="448">
+      <node name="posunięcie się-1" size="2">
+        <node name="zrobienie miejsca-1" size="1">
+          <node name="ustąpienie miejsca-1" size="0"/>
+        </node>
+      </node>
+      <node name="pognanie-1, pogonienie-3, popędzenie-1, pomknięcie-1, poprucie-1, śmignięcie-1" size="1">
+        <node name="polecenie-1, pogalopowanie-1, pocwałowanie-1" size="0"/>
+      </node>
+      <node name="przewędrowanie-1" size="0"/>
+      <node name="popłynięcie-1" size="2">
+        <node name="zadryfowanie-1" size="0"/>
+        <node name="powiosłowanie-1" size="0"/>
+      </node>
+      <node name="powleczenie się-1, polezienie-1" size="0"/>
+      <node name="pobiegnięcie-1" size="5">
+        <node name="pokłusowanie-1" size="0"/>
+        <node name="przebiegnięcie się-2" size="0"/>
+        <node name="polecenie-1, pogalopowanie-1, pocwałowanie-1" size="0"/>
+        <node name="pogalopowanie-2" size="1">
+          <node name="pocwałowanie-3" size="0"/>
+        </node>
+      </node>
+      <node name="wyprzedzenie-2, poprzedzenie-1, przegonienie-4, prześcignięcie-1" size="1">
+        <node name="zdublowanie-3" size="0"/>
+      </node>
+      <node name="przesunięcie się-2" size="5">
+        <node name="przekrzywienie się-1" size="0"/>
+        <node name="zatoczenie się-1" size="0"/>
+        <node name="ustąpienie-3" size="2"/>
+      </node>
+      <node name="przegrupowanie się-1" size="0"/>
+      <node name="przesiądnięcie się-1" size="0"/>
+      <node name="wzniesienie się-1, podniesienie się-1, uniesienie się-1, wzbicie się-1, wzlecenie-1" size="9">
+        <node name="podjechanie-2" size="0"/>
+        <node name="wspięcie się-1, wejście-1, wstąpienie-1, wdrapanie się-1, drapnięcie się-2" size="5"/>
+        <node name="wjechanie-2" size="0"/>
+        <node name="wylecenie-1" size="0"/>
+      </node>
+      <node name="przejście-2, przelezienie-1" size="0"/>
+      <node name="zjechanie-1" size="0"/>
+      <node name="poczołganie się-1, popełźnięcie-1" size="0"/>
+      <node name="zlecenie-2" size="1">
+        <node name="sfrunięcie-1" size="0"/>
+      </node>
+      <node name="przesiedlenie się-1" size="4">
+        <node name="wyemigrowanie-1" size="0"/>
+        <node name="imigrowanie-1" size="0"/>
+        <node name="reemigrowanie-1" size="0"/>
+        <node name="emigrowanie-1" size="0"/>
+      </node>
+      <node name="pojechanie-1" size="4">
+        <node name="potoczenie się-2" size="0"/>
+        <node name="pogalopowanie-3" size="1">
+          <node name="pocwałowanie-2" size="0"/>
+        </node>
+        <node name="pokłusowanie-2" size="0"/>
+      </node>
+      <node name="prześlizgnięcie się-2, prześliźnięcie się-1" size="0"/>
+      <node name="udanie się-1, podążenie-1" size="43">
+        <node name="powiezienie-1" size="0"/>
+        <node name="wyjechanie-1" size="4">
+          <node name="wyemigrowanie-1" size="0"/>
+          <node name="wytoczenie się-1" size="0"/>
+          <node name="przewietrzenie się-1" size="0"/>
+          <node name="emigrowanie-1" size="0"/>
+        </node>
+        <node name="wybranie się-1" size="0"/>
+        <node name="wyrwanie się-1" size="0"/>
+        <node name="wyprawienie się-1" size="0"/>
+        <node name="zwrócenie się-3" size="1">
+          <node name="uderzenie-6" size="0"/>
+        </node>
+        <node name="pojechanie-2" size="1">
+          <node name="przejechanie się-1" size="0"/>
+        </node>
+        <node name="pospieszenie-1, pośpieszenie-1" size="0"/>
+        <node name="pójście-4" size="13">
+          <node name="poczłapanie-2" size="0"/>
+          <node name="potoczenie się-4" size="0"/>
+          <node name="pokuśtykanie-2, pokusztykanie-1" size="0"/>
+          <node name="pociągnięcie-7" size="0"/>
+          <node name="pofatygowanie się-1, potrudzenie się-1" size="0"/>
+          <node name="pomaszerowanie-1" size="0"/>
+          <node name="pokuśtykanie-1, pokusztykanie-2" size="0"/>
+          <node name="polezienie-2" size="0"/>
+          <node name="podreptanie-1" size="0"/>
+          <node name="poczłapanie-1" size="0"/>
+          <node name="skierowanie się-1" size="0"/>
+          <node name="powędrowanie-1" size="0"/>
+          <node name="postąpienie-2" size="0"/>
+        </node>
+        <node name="zabranie-3, wzięcie-2" size="10">
+          <node name="wyciągnięcie-3" size="0"/>
+          <node name="zaciągnięcie-7" size="0"/>
+          <node name="wyprowadzenie-1, wywiedzenie-4" size="4">
+            <node name="wymanewrowanie-4" size="0"/>
+            <node name="wytoczenie-6" size="0"/>
+            <node name="zwodowanie-1" size="0"/>
+            <node name="eksportacja-1, wyprowadzenie zwłok-1" size="0"/>
+          </node>
+          <node name="uniesienie-4" size="0"/>
+          <node name="podrzucenie-5, podwiezienie-1" size="0"/>
+          <node name="podjechanie-1" size="0"/>
+        </node>
+        <node name="poniesienie-1" size="3">
+          <node name="ulżenie-1" size="0"/>
+          <node name="podźwiganie-1, potaszczenie-1, potarganie-4" size="0"/>
+          <node name="obniesienie-1" size="0"/>
+        </node>
+      </node>
+      <node name="przedostanie się-1" size="18">
+        <node name="przebrnięcie-1" size="0"/>
+        <node name="przemknięcie-1, przemknięcie się-1, prześlizgnięcie się-3, prześliźnięcie się-2, przekradzenie się-1" size="0"/>
+        <node name="przejście-9" size="0"/>
+        <node name="przelecenie-1" size="1">
+          <node name="przeszycie-3" size="0"/>
+        </node>
+        <node name="przepchanie się-1, przepchnięcie się-1" size="0"/>
+        <node name="przekopanie się-1" size="0"/>
+        <node name="wskoczenie-1" size="1">
+          <node name="pluśnięcie-1, chlupnięcie-1" size="0"/>
+        </node>
+        <node name="przeciśnięcie się-1" size="0"/>
+        <node name="wpłynięcie-3" size="4">
+          <node name="wpadnięcie-1" size="1">
+            <node name="pluśnięcie-1, chlupnięcie-1" size="0"/>
+          </node>
+          <node name="dopłynięcie-1" size="1"/>
+        </node>
+        <node name="wypchanie się-2, wypchnięcie się-2" size="0"/>
+        <node name="przewinięcie się-2" size="0"/>
+        <node name="dociśnięcie się-1, przedarcie się-1, dopchanie się-1" size="0"/>
+        <node name="przejechanie-5" size="0"/>
+      </node>
+      <node name="minięcie-1" size="22">
+        <node name="przejechanie-2" size="3">
+          <node name="przetoczenie się-3" size="0"/>
+          <node name="przegalopowanie-3" size="0"/>
+          <node name="przegalopowanie-2" size="0"/>
+        </node>
+        <node name="przejście-11" size="0"/>
+        <node name="przejście-10" size="0"/>
+        <node name="przelecenie-2" size="2">
+          <node name="przeszycie-3" size="0"/>
+          <node name="przeniesienie-8" size="0"/>
+        </node>
+        <node name="wyminięcie-1" size="0"/>
+        <node name="przepłynięcie-2" size="0"/>
+        <node name="ominięcie-1" size="1">
+          <node name="wymanewrowanie-3" size="0"/>
+        </node>
+        <node name="przekroczenie-2, przejście-3, przelezienie-2" size="8"/>
+      </node>
+      <node name="dostanie się-1" size="166">
+        <node name="wspięcie się-1, wejście-1, wstąpienie-1, wdrapanie się-1, drapnięcie się-2" size="5"/>
+        <node name="zapuszczenie się-1, zagłębienie się-2" size="2">
+          <node name="zapędzenie się-1" size="0"/>
+          <node name="zabrnięcie-1" size="0"/>
+        </node>
+        <node name="dobranie się-1" size="0"/>
+        <node name="zabłądzenie-1, zabłąkanie się-1, zbłądzenie-1" size="0"/>
+        <node name="wczołganie się-1, wpełźnięcie-1" size="0"/>
+        <node name="włamanie się-1" size="0"/>
+        <node name="wepchanie się-1, wpakowanie się-1, wmeldowanie się-1, wtarabanienie się-1, wwalenie się-1" size="0"/>
+        <node name="zakradzenie się-1, wkradzenie się-1, wślizgnięcie się-1, wśliźnięcie się-1, wemknięcie się-1, wsunięcie się-2" size="0"/>
+        <node name="wsunięcie się-1, wślizgnięcie się-2, wśliźnięcie się-2" size="0"/>
+        <node name="trafienie-1" size="1">
+          <node name="wkłucie się-1" size="0"/>
+        </node>
+        <node name="wjechanie-1" size="1">
+          <node name="wtoczenie się-1" size="0"/>
+        </node>
+        <node name="wbiegnięcie-1, wbieg-1" size="0"/>
+        <node name="wpadnięcie-3" size="0"/>
+        <node name="dobrnięcie-1" size="0"/>
+        <node name="podkopanie się-1" size="0"/>
+        <node name="dotarcie-1" size="104">
+          <node name="spłynięcie-2" size="0"/>
+          <node name="dopłynięcie-1" size="1">
+            <node name="docieknięcie-2" size="0"/>
+          </node>
+          <node name="dosięgnięcie-1, sięgnięcie-5" size="5">
+            <node name="dopełźnięcie-2" size="0"/>
+            <node name="doniesienie-5" size="0"/>
+            <node name="dolecenie-4, dojście-10" size="1"/>
+            <node name="trafienie-10, utrafienie-2, wcelowanie-1" size="0"/>
+          </node>
+          <node name="dobiegnięcie-1, dolecenie-1, zalecenie-1, dopędzenie-2" size="0"/>
+          <node name="doczołganie się-1, przyczołganie się-1, dopełźnięcie-1" size="0"/>
+          <node name="wylądowanie-1" size="0"/>
+          <node name="dociągnięcie-2" size="0"/>
+          <node name="dobicie-1" size="0"/>
+          <node name="zawędrowanie-1, przywędrowanie-1" size="0"/>
+          <node name="napłynięcie-1" size="0"/>
+          <node name="przytoczenie się-1, przyturlanie się-1, dowleczenie się-1, dotoczenie się-1, doturlanie się-1" size="4">
+            <node name="zawleczenie się-2, przywleczenie się-1" size="0"/>
+            <node name="dotelepanie się-1" size="0"/>
+            <node name="zatoczenie się-3" size="0"/>
+            <node name="doczłapanie-1, doczłapanie się-1" size="0"/>
+          </node>
+          <node name="trafienie-7" size="0"/>
+          <node name="przytoczenie się-2, przyturlanie się-2" size="0"/>
+          <node name="napłynięcie-2" size="0"/>
+          <node name="dociśnięcie się-1, przedarcie się-1, dopchanie się-1" size="0"/>
+          <node name="przyjechanie-2" size="1">
+            <node name="zatoczenie się-3" size="0"/>
+          </node>
+          <node name="dolecenie-3, zalecenie-3" size="1">
+            <node name="zadryfowanie-4" size="0"/>
+          </node>
+          <node name="przybycie-2" size="55">
+            <node name="przypłynięcie-2" size="4">
+              <node name="wpłynięcie-2" size="1"/>
+              <node name="dopłynięcie-2" size="1">
+                <node name="dobicie-4, przybicie-2, przypłynięcie-3" size="0"/>
+              </node>
+            </node>
+            <node name="stawienie się-1, zgłoszenie się-2" size="7">
+              <node name="przyjechanie-3" size="0"/>
+              <node name="zameldowanie się-2" size="0"/>
+              <node name="zalogowanie się-1" size="0"/>
+              <node name="wpisanie się-2, zapisanie się-1" size="3">
+                <node name="dopisanie się-2" size="0"/>
+                <node name="zarejestrowanie się-1" size="0"/>
+                <node name="akredytowanie się-1" size="0"/>
+              </node>
+            </node>
+            <node name="przyjechanie-1" size="2">
+              <node name="dojechanie-1, zajechanie-1" size="0"/>
+              <node name="podjechanie-1" size="0"/>
+            </node>
+            <node name="powrócenie-1, wrócenie-2" size="6">
+              <node name="wrócenie z tarczą-1" size="0"/>
+              <node name="cofnięcie się-2" size="3"/>
+              <node name="reemigrowanie-1" size="0"/>
+            </node>
+            <node name="przyjście-1, nadejście-3" size="2">
+              <node name="przylezienie-1" size="0"/>
+              <node name="najście-2" size="0"/>
+            </node>
+            <node name="spóźnienie się-1" size="2">
+              <node name="zabałaganienie-3, zamarudzenie-1" size="0"/>
+              <node name="zaspanie-2" size="0"/>
+            </node>
+            <node name="zawitanie-1, ściągnięcie-12" size="14"/>
+            <node name="przylecenie-1" size="2">
+              <node name="przyfrunięcie-2" size="1">
+                <node name="podfrunięcie-1" size="0"/>
+              </node>
+            </node>
+            <node name="imigrowanie-1" size="0"/>
+            <node name="lądowanie-1, zeskok-2, doskok-1" size="0"/>
+            <node name="najazd-2, nalot-5" size="1">
+              <node name="szturm-2" size="0"/>
+            </node>
+            <node name="przylot-1" size="1">
+              <node name="zapad-1" size="0"/>
+            </node>
+            <node name="przyjazd-1" size="1">
+              <node name="zjazd-7" size="0"/>
+            </node>
+          </node>
+          <node name="osiągnięcie-3" size="19">
+            <node name="wspięcie się-1, wejście-1, wstąpienie-1, wdrapanie się-1, drapnięcie się-2" size="5">
+              <node name="wsiądnięcie-1, dosiądnięcie-2" size="1">
+                <node name="wskoczenie-2" size="0"/>
+              </node>
+              <node name="wlezienie-1" size="0"/>
+              <node name="wdarcie się-3" size="0"/>
+              <node name="wgramolenie się-1, wtarabanienie się-2, wtaszczenie się-1" size="0"/>
+            </node>
+            <node name="doskoczenie-3" size="0"/>
+            <node name="dojście-11" size="11">
+              <node name="dolecenie-4, dojście-10" size="1">
+                <node name="trafienie-11" size="0"/>
+              </node>
+              <node name="dojście-12" size="0"/>
+              <node name="dojście-17" size="0"/>
+              <node name="dojście-19" size="0"/>
+              <node name="dojście-15" size="0"/>
+              <node name="dojście-16, zajście-6" size="3">
+                <node name="doczłapanie-1, doczłapanie się-1" size="0"/>
+                <node name="dokuśtykanie-1, dokusztykanie-1, przykuśtykanie-1, przykusztykanie-1" size="0"/>
+                <node name="zatoczenie się-5" size="0"/>
+              </node>
+              <node name="dojście-18" size="0"/>
+            </node>
+          </node>
+          <node name="przybiegnięcie-1" size="2">
+            <node name="przygnanie-2, przypędzenie-2" size="0"/>
+            <node name="przylecenie-2" size="0"/>
+          </node>
+          <node name="dojechanie-1, zajechanie-1" size="0"/>
+        </node>
+        <node name="wpłynięcie-2" size="1">
+          <node name="zawinięcie-4" size="0"/>
+        </node>
+        <node name="zawitanie-1, ściągnięcie-12" size="14">
+          <node name="zagoszczenie-2" size="0"/>
+          <node name="odwiedzenie-2" size="4">
+            <node name="nawiedzenie-1" size="0"/>
+            <node name="zajście-2, wstąpienie-3, wpadnięcie-4, zajrzenie-2, wdepnięcie-4, wskoczenie-3" size="1"/>
+            <node name="rewizytowanie-1" size="0"/>
+          </node>
+          <node name="doskoczenie-2" size="0"/>
+          <node name="odwiedzenie-3" size="8">
+            <node name="objechanie-2" size="0"/>
+            <node name="nawiedzenie-1" size="0"/>
+            <node name="zaczepienie-4" size="0"/>
+            <node name="zakręcenie się-3, obejście-2, okrążenie-3" size="0"/>
+            <node name="zajście-2, wstąpienie-3, wpadnięcie-4, zajrzenie-2, wdepnięcie-4, wskoczenie-3" size="1">
+              <node name="zawadzenie-2" size="0"/>
+            </node>
+            <node name="obiegnięcie-2" size="1">
+              <node name="oblecenie-3" size="0"/>
+            </node>
+          </node>
+          <node name="zajechanie-2" size="0"/>
+        </node>
+        <node name="zagłębienie się-1, wgłębienie się-1" size="24">
+          <node name="werżnięcie się-1, woranie się-1, wcięcie się-1" size="0"/>
+          <node name="zarycie-1, zarycie się-1" size="0"/>
+          <node name="wkucie się-1" size="0"/>
+          <node name="zanurkowanie-2" size="0"/>
+          <node name="wrycie się-1" size="0"/>
+          <node name="wgniecenie się-2, wgięcie się-2" size="0"/>
+          <node name="wgryzienie się-1" size="0"/>
+          <node name="wejście-5" size="0"/>
+          <node name="wwiercenie się-1" size="0"/>
+          <node name="wrośnięcie-1" size="2">
+            <node name="przyjęcie się-3" size="0"/>
+            <node name="nacieknięcie-2" size="0"/>
+          </node>
+          <node name="wcięcie się-2" size="0"/>
+          <node name="wżarcie się-1" size="0"/>
+          <node name="wkopanie się-2" size="0"/>
+          <node name="wczepienie się-1" size="0"/>
+          <node name="wkopanie się-1" size="0"/>
+          <node name="zanurzenie się-1" size="3">
+            <node name="pogrążenie się-1" size="0"/>
+            <node name="zanurkowanie-3" size="1">
+              <node name="nurek-3" size="0"/>
+            </node>
+          </node>
+          <node name="wbicie się-1" size="2">
+            <node name="nakłucie się-1, nadzianie się-1" size="0"/>
+            <node name="wpicie się-1" size="0"/>
+          </node>
+        </node>
+        <node name="wejście-4" size="18">
+          <node name="wkroczenie-1" size="1">
+            <node name="wmaszerowanie-1" size="0"/>
+          </node>
+          <node name="wsiądnięcie-2" size="2">
+            <node name="dosiądnięcie-3, dosiądnięcie się-2" size="0"/>
+            <node name="władowanie się-1, załadowanie się-1" size="0"/>
+          </node>
+          <node name="wepchanie się-2, wepchnięcie się-1, wciśnięcie się-1, wparcie się-1, wtłoczenie się-1" size="1">
+            <node name="władowanie się-1, załadowanie się-1" size="0"/>
+          </node>
+          <node name="wstąpienie-4" size="0"/>
+          <node name="wlezienie-2" size="0"/>
+          <node name="wtoczenie się-2" size="0"/>
+          <node name="wdarcie się-1, wtargnięcie-1" size="0"/>
+          <node name="przekroczenie progu-1" size="0"/>
+          <node name="wgramolenie się-1, wtarabanienie się-2, wtaszczenie się-1" size="0"/>
+          <node name="wprowadzenie-8, wwiedzenie-1" size="5">
+            <node name="wpędzenie-2, wgonienie-1" size="0"/>
+            <node name="wsadzenie-3" size="0"/>
+            <node name="konstytucjonalizacja-1" size="0"/>
+            <node name="wdrożenie-5" size="1">
+              <node name="dolaryzacja-1" size="0"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node name="zawrócenie-1, wrócenie-1, nawrócenie-1, zawrócenie się-1, wrócenie się-1" size="0"/>
+      <node name="odbicie się-1" size="3">
+        <node name="odskoczenie-4" size="1">
+          <node name="odbicie-2" size="0"/>
+        </node>
+        <node name="zeskoczenie-2" size="0"/>
+      </node>
+      <node name="przebycie-1, pokonanie-2" size="25">
+        <node name="przejście-7" size="0"/>
+        <node name="przebiegnięcie-1" size="2">
+          <node name="przelecenie-5, przegalopowanie-1" size="0"/>
+          <node name="ubiegnięcie-2" size="0"/>
+        </node>
+        <node name="przekroczenie-2, przejście-3, przelezienie-2" size="8">
+          <node name="wejście-3" size="2">
+            <node name="wkroczenie-2" size="1">
+              <node name="wdarcie się-6" size="0"/>
+            </node>
+          </node>
+          <node name="przelezienie-3" size="0"/>
+          <node name="przeskoczenie-1" size="1">
+            <node name="przesadzenie-3" size="0"/>
+          </node>
+          <node name="przemaszerowanie-1" size="0"/>
+          <node name="przeprawienie się-1" size="0"/>
+        </node>
+        <node name="przepełźnięcie-1, przeczołganie się-1" size="0"/>
+        <node name="ujechanie-1, przejechanie-1" size="0"/>
+        <node name="podpłynięcie-2" size="0"/>
+        <node name="przespacerowanie-2" size="0"/>
+        <node name="nadłożenie-1" size="0"/>
+        <node name="przemierzenie-1" size="1">
+          <node name="zjeżdżenie-1, zjechanie-8" size="0"/>
+        </node>
+        <node name="przepłynięcie-1" size="0"/>
+        <node name="przewędrowanie-2" size="0"/>
+        <node name="przepełźnięcie-2" size="0"/>
+        <node name="przelecenie-3" size="1">
+          <node name="przefrunięcie-1" size="0"/>
+        </node>
+      </node>
+      <node name="obniżenie się-2, zniżenie się-1" size="14">
+        <node name="zbiegnięcie-2" size="1">
+          <node name="zlecenie-4" size="0"/>
+        </node>
+        <node name="osunięcie się-2, usunięcie się-2, obsunięcie się-2" size="1">
+          <node name="omsknięcie się-1" size="0"/>
+        </node>
+        <node name="stoczenie się-1" size="0"/>
+        <node name="opuszczenie się-1" size="1">
+          <node name="spadnięcie-5" size="0"/>
+        </node>
+        <node name="spuszczenie się-1" size="0"/>
+        <node name="zeskoczenie-1" size="0"/>
+        <node name="zanurkowanie-1" size="0"/>
+        <node name="ugięcie się-3" size="0"/>
+        <node name="opadnięcie-1" size="2">
+          <node name="ptoza-1" size="1">
+            <node name="ptoza wrodzona-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="opuszczenie-1" size="47">
+        <node name="wypłynięcie-1" size="0"/>
+        <node name="usunięcie się-1" size="2">
+          <node name="uskoczenie-1" size="0"/>
+          <node name="rozsunięcie się-2, rozstąpienie się-2" size="0"/>
+        </node>
+        <node name="wstanie-3" size="0"/>
+        <node name="ustąpienie-3" size="2">
+          <node name="ustąpienie miejsca-1" size="0"/>
+          <node name="przepuszczenie-2" size="0"/>
+        </node>
+        <node name="wylecenie-2" size="0"/>
+        <node name="zjechanie-2" size="0"/>
+        <node name="wyjście-1, pójście-1" size="9">
+          <node name="wymaszerowanie-1" size="0"/>
+          <node name="zniknięcie-2, ulotnienie się-2" size="0"/>
+          <node name="wystąpienie-7, wyjście-9" size="2">
+            <node name="wytoczenie się-3" size="0"/>
+            <node name="wylegnięcie-1, wysypanie się-2" size="0"/>
+          </node>
+          <node name="wylezienie-1" size="0"/>
+          <node name="wymaszerowanie-2" size="0"/>
+          <node name="wysiądnięcie-1" size="0"/>
+          <node name="ewakuowanie się-2" size="0"/>
+        </node>
+        <node name="wypadnięcie-1" size="0"/>
+        <node name="odpłynięcie-2" size="0"/>
+        <node name="wywędrowanie-1" size="0"/>
+        <node name="wyprowadzenie się-1, wyniesienie się-1" size="0"/>
+        <node name="wyfrunięcie-1" size="0"/>
+        <node name="wybiegnięcie-1" size="2">
+          <node name="wyrwanie się-6" size="0"/>
+          <node name="wylecenie-7" size="0"/>
+        </node>
+        <node name="wyniesienie się-2" size="0"/>
+        <node name="wydostanie się-1" size="15">
+          <node name="wykaraskanie się-1" size="0"/>
+          <node name="wydobycie się-2" size="0"/>
+          <node name="wynurzenie się-2, wypłynięcie-3" size="0"/>
+          <node name="wymknięcie się-1, wyślizgnięcie się-1, wysunięcie się-1, wyśliźnięcie się-1, wykradzenie się-1" size="1">
+            <node name="urwanie się-3" size="0"/>
+          </node>
+          <node name="wyrwanie się-3" size="0"/>
+          <node name="wyplątanie się-1, wywikłanie się-1" size="0"/>
+          <node name="wygramolenie się-1" size="0"/>
+          <node name="wyczołganie się-1, wypełźnięcie-1" size="0"/>
+          <node name="odkopanie się-1" size="0"/>
+          <node name="wyklucie się-1, wylęgnięcie się-1, ulęgnięcie się-1" size="0"/>
+          <node name="wylecenie-6" size="2">
+            <node name="wyrojenie się-2" size="0"/>
+            <node name="wyfrunięcie-2" size="0"/>
+          </node>
+          <node name="wykopanie się-1" size="0"/>
+        </node>
+        <node name="katapultowanie się-1" size="0"/>
+        <node name="ewakuowanie się-1" size="0"/>
+      </node>
+      <node name="zbliżenie się-1, przybliżenie się-1" size="27">
+        <node name="schodkowanie-1" size="0"/>
+        <node name="dosunięcie się-1, przysunięcie się-1" size="0"/>
+        <node name="podejście-1, przystąpienie-3" size="1">
+          <node name="podejście-6, zajście-5" size="0"/>
+        </node>
+        <node name="dojście-9" size="0"/>
+        <node name="podsunięcie się-1" size="0"/>
+        <node name="przypłynięcie-1" size="0"/>
+        <node name="podczołganie się-1" size="0"/>
+        <node name="podpłynięcie-1" size="0"/>
+        <node name="dopadnięcie-1, dorwanie-2" size="1">
+          <node name="doskoczenie-1, przyskoczenie-1, doskok-2" size="0"/>
+        </node>
+        <node name="podlecenie-1" size="0"/>
+        <node name="nadlecenie-1" size="1">
+          <node name="nadfrunięcie-1" size="0"/>
+        </node>
+        <node name="nadbiegnięcie-1" size="1">
+          <node name="nadlecenie-2" size="0"/>
+        </node>
+        <node name="podkradzenie się-1, zakradzenie się-2" size="0"/>
+        <node name="podbiegnięcie-1" size="1">
+          <node name="podlecenie-2" size="0"/>
+        </node>
+        <node name="przyfrunięcie-1" size="0"/>
+        <node name="podjechanie-3" size="0"/>
+        <node name="nadjechanie-1" size="0"/>
+        <node name="nadejście-2" size="0"/>
+        <node name="przypełźnięcie-1" size="0"/>
+        <node name="nadpłynięcie-1" size="0"/>
+        <node name="nadbiegnięcie-2" size="0"/>
+        <node name="nadciągnięcie-2" size="0"/>
+      </node>
+      <node name="skręcenie-1, zakręcenie-1, wykręcenie-2" size="0"/>
+      <node name="oddalenie się-1" size="44">
+        <node name="odczołganie się-1, odpełźnięcie-1" size="0"/>
+        <node name="odsunięcie się-1" size="5">
+          <node name="odstąpienie-3" size="0"/>
+          <node name="cofnięcie się-2" size="3">
+            <node name="wycofanie się-2" size="2">
+              <node name="zrejterowanie-2" size="0"/>
+              <node name="odstąpienie-4" size="0"/>
+            </node>
+          </node>
+        </node>
+        <node name="odlecenie-1" size="3">
+          <node name="odfrunięcie-1" size="0"/>
+          <node name="ulecenie-1" size="0"/>
+          <node name="rozlecenie się-4" size="0"/>
+        </node>
+        <node name="odbiegnięcie-1" size="2">
+          <node name="rozbiegnięcie się-1" size="1"/>
+        </node>
+        <node name="pożeglowanie-1" size="0"/>
+        <node name="rozproszenie się-1, rozpierzchnięcie się-1, rozsypanie się-1, rozpryskanie się-2, rozpryśnięcie się-1" size="4">
+          <node name="rozpełźnięcie się-2" size="0"/>
+          <node name="rozbiegnięcie się-1" size="1">
+            <node name="rozlecenie się-5" size="0"/>
+          </node>
+          <node name="rozlecenie się-4" size="0"/>
+        </node>
+        <node name="odejście-2" size="2">
+          <node name="odmaszerowanie-2" size="0"/>
+          <node name="odmaszerowanie-1" size="0"/>
+        </node>
+        <node name="odskoczenie-3" size="0"/>
+        <node name="odpłynięcie-1, popłynięcie-2" size="1">
+          <node name="odbicie-12" size="0"/>
+        </node>
+        <node name="rozjechanie się-1" size="0"/>
+        <node name="rozejście się-1" size="3">
+          <node name="rozsunięcie się-2, rozstąpienie się-2" size="0"/>
+          <node name="rozlezienie się-1" size="0"/>
+          <node name="rozpełźnięcie się-3" size="0"/>
+        </node>
+        <node name="odskoczenie-1" size="0"/>
+        <node name="odbicie-14" size="1">
+          <node name="odłączenie się-2, odłączenie-3" size="0"/>
+        </node>
+        <node name="odjechanie-1" size="0"/>
+        <node name="ucieknięcie-1, ujście-1, wzięcie nóg za pas-1, zbiegnięcie-1" size="10">
+          <node name="zdezerterowanie-2" size="0"/>
+          <node name="wyślizgnięcie się-3, wyśliźnięcie się-3, wymknięcie się-2" size="0"/>
+          <node name="umknięcie-1, czmychnięcie-1" size="0"/>
+          <node name="zgubienie-3" size="0"/>
+          <node name="wycieknięcie-2" size="0"/>
+          <node name="pierzchnięcie-1" size="0"/>
+          <node name="dmuchnięcie-4" size="0"/>
+          <node name="bryknięcie-1" size="0"/>
+          <node name="zrejterowanie-1" size="0"/>
+          <node name="przepłoszenie się-1, spłoszenie się-1" size="0"/>
+        </node>
+        <node name="rozstanie się-3" size="0"/>
+      </node>
+      <node name="okrążenie-1" size="8">
+        <node name="oblecenie-2" size="0"/>
+        <node name="oblecenie-1" size="0"/>
+        <node name="objechanie-1" size="0"/>
+        <node name="opłynięcie-1" size="0"/>
+        <node name="obiegnięcie-1" size="0"/>
+        <node name="obejście-1" size="0"/>
+        <node name="runda-3" size="1">
+          <node name="runda honorowa-1" size="0"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node name="GERUNDIUM - PROCES DK oznaczający zmianę położenia lub zmianę relacji przestrzennych-1" size="37" abstract="true">
+    <node name="otworzenie się-1, rozwarcie się-1, odemknięcie się-1" size="8">
+      <node name="uchylenie się-1" size="0"/>
+      <node name="odkręcenie się-4" size="0"/>
+      <node name="rozchylenie się-1" size="2">
+        <node name="rozwarcie się-2" size="1">
+          <node name="rozdziawienie się-2" size="0"/>
+        </node>
+      </node>
+      <node name="odskoczenie-5" size="0"/>
+      <node name="odblokowanie się-1" size="1">
+        <node name="odkorkowanie się-1" size="0"/>
+      </node>
+    </node>
+    <node name="przelanie się-3" size="0"/>
+    <node name="oddzielenie się-1" size="26">
+      <node name="odejście-12, odlezienie-1" size="0"/>
+      <node name="odpadnięcie-2, odlecenie-2" size="6">
+        <node name="oberwanie się-2" size="0"/>
+        <node name="zejście-3, zlezienie-1, oblezienie-3" size="1">
+          <node name="złuszczenie się-1" size="0"/>
+        </node>
+        <node name="odkruszenie się-1, ukruszenie się-1" size="0"/>
+        <node name="sypnięcie się-3, obsypanie się-5, osypanie się-3" size="0"/>
+        <node name="obłupanie się-1" size="0"/>
+      </node>
+      <node name="odłączenie się-1" size="9">
+        <node name="urwanie się-1, oderwanie się-2" size="1">
+          <node name="ukręcenie się-1" size="0"/>
+        </node>
+        <node name="odwiązanie się-2" size="0"/>
+        <node name="odczepienie się-1" size="1">
+          <node name="odklejenie się-1, odlepienie się-1" size="0"/>
+        </node>
+        <node name="odkręcenie się-2" size="1">
+          <node name="rozkręcenie się-3" size="0"/>
+        </node>
+        <node name="odmarznięcie-1" size="0"/>
+        <node name="odcumowanie się-2" size="0"/>
+      </node>
+      <node name="rozłączenie się-2" size="3">
+        <node name="rozlutowanie się-1" size="0"/>
+        <node name="rozsunięcie się-1" size="1">
+          <node name="rozejście się-10" size="0"/>
+        </node>
+      </node>
+      <node name="wydzielenie się-2" size="3">
+        <node name="wypromieniowanie-2" size="0"/>
+        <node name="wytrącenie się-1" size="1">
+          <node name="strącenie się-1" size="0"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node name="GERUNDIUM - DZIAŁANIE DK oznaczające zmianę położenia lub relacji przestrzennych-1" size="248" abstract="true">
+    <node name="odblokowanie-3" size="3">
+      <node name="utorowanie-2" size="2">
+        <node name="przebicie się-6" size="0"/>
+        <node name="rozepchanie się-1, rozepchnięcie się-3" size="0"/>
+      </node>
+    </node>
+    <node name="dołączenie-2" size="132">
+      <node name="doklejenie-1, dolepienie-1" size="0"/>
+      <node name="wmontowanie-1" size="0"/>
+      <node name="załączenie-1" size="1">
+        <node name="obudowanie-5" size="0"/>
+      </node>
+      <node name="doniesienie-3" size="0"/>
+      <node name="związanie-2" size="1">
+        <node name="przyłączenie-4" size="0"/>
+      </node>
+      <node name="doczepienie-1" size="0"/>
+      <node name="przymocowanie-1, przytwierdzenie-1, umocowanie-1, zamocowanie-1" size="47">
+        <node name="przywieszenie-1, uwieszenie-1, zawieszenie-1" size="1">
+          <node name="uwiązanie-2" size="0"/>
+        </node>
+        <node name="przybicie-1" size="2">
+          <node name="podkucie-1" size="0"/>
+          <node name="podkucie-2" size="0"/>
+        </node>
+        <node name="przykręcenie-1" size="0"/>
+        <node name="przyczepienie-1" size="7">
+          <node name="przyssanie się-1" size="0"/>
+          <node name="nawiązanie-3" size="0"/>
+          <node name="przypięcie-1" size="3">
+            <node name="wpięcie-1" size="0"/>
+            <node name="podpięcie-2" size="0"/>
+            <node name="przyszpilenie-2" size="0"/>
+          </node>
+          <node name="uczepienie-1" size="0"/>
+        </node>
+        <node name="zahaczenie-1, zaczepienie-1" size="0"/>
+        <node name="przyprawienie-1" size="0"/>
+        <node name="zaklinowanie-1" size="0"/>
+        <node name="przywiązanie-1" size="4">
+          <node name="zaprzężenie-2, wprzężenie-1, wprzęgnięcie-3" size="0"/>
+          <node name="uwiązanie-1" size="0"/>
+          <node name="zacumowanie-3" size="0"/>
+          <node name="przytroczenie-1" size="0"/>
+        </node>
+        <node name="przeciągnięcie-1" size="0"/>
+        <node name="przykucie-1" size="0"/>
+        <node name="zakotwiczenie-1" size="0"/>
+        <node name="przygwożdżenie-2" size="0"/>
+        <node name="zacumowanie-1, przycumowanie-1" size="0"/>
+        <node name="dokręcenie-1" size="0"/>
+        <node name="zaplombowanie-1, opieczętowanie-1" size="0"/>
+        <node name="obsadzenie-1, osadzenie-2" size="4">
+          <node name="zagnieżdżenie-1, zadokowanie-1" size="0"/>
+          <node name="utwierdzenie-3" size="0"/>
+          <node name="oprawienie-2" size="0"/>
+          <node name="immobilizowanie-1" size="0"/>
+        </node>
+        <node name="przyklejenie-1, przylepienie-1, naklejenie-1, nalepienie-1" size="1">
+          <node name="wklejenie-1, wlepienie-3" size="0"/>
+        </node>
+        <node name="zasadzenie-2, wsunięcie-1, zatknięcie-1" size="0"/>
+        <node name="przyszycie-1" size="7">
+          <node name="podszycie-1" size="1">
+            <node name="wywatowanie-1" size="0"/>
+          </node>
+          <node name="podszycie-2" size="0"/>
+          <node name="wszycie-2" size="0"/>
+          <node name="obszycie-1" size="1">
+            <node name="oblamowanie-1, zalamowanie-1, wylamowanie-1" size="0"/>
+          </node>
+          <node name="naszycie-1" size="0"/>
+        </node>
+        <node name="wbudowanie-1" size="0"/>
+        <node name="przyspawanie-1" size="0"/>
+      </node>
+      <node name="dodanie-3" size="75">
+        <node name="dithering-1" size="0"/>
+        <node name="podłożenie-2" size="0"/>
+        <node name="wniesienie-5" size="0"/>
+        <node name="domieszanie-1" size="0"/>
+        <node name="przydanie-1" size="0"/>
+        <node name="dorobienie-2" size="0"/>
+        <node name="dołożenie-2" size="3">
+          <node name="dosypanie-1" size="0"/>
+          <node name="przyrzucenie-1" size="0"/>
+          <node name="dolanie-3" size="0"/>
+        </node>
+        <node name="dokooptowanie-1" size="0"/>
+        <node name="zaprawienie-1" size="3">
+          <node name="okraszenie-3" size="0"/>
+          <node name="zabielenie-1" size="0"/>
+          <node name="zasmażenie-1" size="0"/>
+        </node>
+        <node name="dopisanie-2" size="2">
+          <node name="dopisanie się-1" size="0"/>
+          <node name="przypisanie-1" size="0"/>
+        </node>
+        <node name="danie-2" size="0"/>
+        <node name="dogrzanie-2" size="0"/>
+        <node name="doładowanie-3" size="0"/>
+        <node name="przysporzenie-1, przyniesienie-3" size="7">
+          <node name="opłacenie się-1" size="1">
+            <node name="zwrócenie się-4, wrócenie się-2" size="0"/>
+          </node>
+          <node name="zaowocowanie-1, zaprocentowanie-1" size="0"/>
+          <node name="okrycie-3" size="0"/>
+          <node name="nastręczenie-1" size="0"/>
+          <node name="wzbogacenie się-1, dorobienie się-1, zbicie majątku-1" size="1">
+            <node name="obrośnięcie w piórka-1" size="0"/>
+          </node>
+        </node>
+        <node name="dostawienie-1" size="0"/>
+        <node name="uzupełnienie-1, dopełnienie-2" size="26">
+          <node name="domalowanie-2" size="0"/>
+          <node name="odbudowanie-2" size="3">
+            <node name="odmłodzenie-3" size="0"/>
+            <node name="odtworzenie-4, zregenerowanie-3" size="1">
+              <node name="odmłodzenie-4" size="0"/>
+            </node>
+          </node>
+          <node name="dodrukowanie-3" size="0"/>
+          <node name="doszycie-2" size="0"/>
+          <node name="doposażenie-1" size="1">
+            <node name="dozbrojenie-2" size="0"/>
+          </node>
+          <node name="skompletowanie-1" size="0"/>
+          <node name="dorżnięcie-2" size="0"/>
+          <node name="zapchanie-6" size="0"/>
+          <node name="wmontowanie-2" size="0"/>
+          <node name="opatrzenie-3, zaopatrzenie-1" size="1">
+            <node name="poprzedzenie-3" size="0"/>
+          </node>
+          <node name="wypełnienie-6" size="0"/>
+          <node name="doładowanie-2" size="1">
+            <node name="dowalenie-3" size="0"/>
+          </node>
+          <node name="dozbrojenie-1" size="0"/>
+          <node name="naniesienie-5" size="1">
+            <node name="porysowanie-1, porycie-1, zoranie-2" size="0"/>
+          </node>
+          <node name="dokształcenie-1, douczenie-1" size="0"/>
+          <node name="zapchanie-3" size="0"/>
+          <node name="dotlenienie-1" size="0"/>
+          <node name="dorysowanie-2" size="0"/>
+          <node name="koniektura-2" size="0"/>
+        </node>
+        <node name="dosadzenie-1, przysadzenie-1" size="0"/>
+        <node name="dorobienie-1" size="5">
+          <node name="dodrukowanie-2, dobicie-2, dodruk-2" size="0"/>
+          <node name="dokręcenie-3" size="0"/>
+          <node name="dogrzanie-4" size="0"/>
+          <node name="dotarcie-5" size="0"/>
+          <node name="dopieczenie-1" size="0"/>
+        </node>
+        <node name="dołożenie-1" size="10">
+          <node name="dopełnienie-3" size="1">
+            <node name="dolanie-2" size="0"/>
+          </node>
+          <node name="przyprawienie-2, doprawienie-1" size="5">
+            <node name="zaostrzenie-5" size="0"/>
+            <node name="posłodzenie-1, osłodzenie-1" size="0"/>
+            <node name="popieprzenie-1, opieprzenie-1" size="0"/>
+            <node name="zakwaszenie-3" size="0"/>
+            <node name="posolenie-1, osolenie-1" size="0"/>
+          </node>
+          <node name="podrzucenie-7, dorzucenie-2" size="1">
+            <node name="przywalenie-5" size="0"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node name="złączenie-2" size="7">
+      <node name="nasadzenie-1, nasunięcie-1" size="3">
+        <node name="wbicie-2, nabicie-2, nadzianie-2" size="1">
+          <node name="nakłucie-3" size="0"/>
+        </node>
+        <node name="nawleczenie-1, nanizanie-1" size="0"/>
+      </node>
+      <node name="sprzęgnięcie-1, sprzężenie-2" size="1">
+        <node name="sprzężenie hermitowskie macierzy-1" size="0"/>
+      </node>
+      <node name="zsunięcie-1" size="0"/>
+    </node>
+    <node name="przewinięcie-1" size="0"/>
+    <node name="odbudowanie się-1" size="1">
+      <node name="podźwignięcie się-3, dźwignięcie się-2, powstanie-2" size="0"/>
+    </node>
+    <node name="obrócenie-2, okręcenie-2" size="2">
+      <node name="przekręcenie-2" size="0"/>
+      <node name="zakręcenie-2" size="0"/>
+    </node>
+    <node name="odgrodzenie się-1" size="2">
+      <node name="zamknięcie się-6" size="1">
+        <node name="pozamykanie się-3" size="0"/>
+      </node>
+    </node>
+    <node name="unieruchomienie-1" size="12">
+      <node name="przykucie-2, przygwożdżenie-3" size="0"/>
+      <node name="obezwładnienie-2" size="5">
+        <node name="związanie-9" size="2">
+          <node name="skrępowanie-2" size="0"/>
+          <node name="spętanie-1" size="0"/>
+        </node>
+        <node name="skucie-2" size="0"/>
+        <node name="przykucie-1" size="0"/>
+      </node>
+      <node name="zakleszczenie-1" size="0"/>
+      <node name="zatrzymanie-7, zastopowanie-4, unieruchomienie-2" size="2">
+        <node name="zablokowanie-2" size="0"/>
+        <node name="zgaszenie-4, wyłączenie-4, zamknięcie-8, wygaszenie-3, zagaszenie-4" size="0"/>
+      </node>
+      <node name="usztywnienie-2" size="0"/>
+    </node>
+    <node name="wyrównanie-2, zrównanie-1" size="31">
+      <node name="zniwelowanie-2" size="1">
+        <node name="odreagowanie-2" size="0"/>
+      </node>
+      <node name="wygładzenie-1, ogładzenie-2" size="10">
+        <node name="odprasowanie-1, wyprasowanie-1, uprasowanie-1" size="0"/>
+        <node name="oheblowanie-1, ostruganie-3" size="0"/>
+        <node name="opiłowanie-1, spiłowanie-1" size="0"/>
+        <node name="dotarcie-6" size="0"/>
+        <node name="wyszlifowanie-3, oszlifowanie-2" size="0"/>
+        <node name="wyślizganie-2" size="0"/>
+        <node name="przygładzenie-1" size="0"/>
+        <node name="obtoczenie-2" size="0"/>
+        <node name="obciągnięcie-1" size="0"/>
+        <node name="wycyzelowanie-1" size="0"/>
+      </node>
+      <node name="powłóczenie-4" size="0"/>
+      <node name="wycyrklowanie-1" size="0"/>
+      <node name="zagrabienie-2, zgrabienie-1" size="2">
+        <node name="ograbienie-2" size="0"/>
+        <node name="rozgrabienie-2" size="0"/>
+      </node>
+      <node name="udeptanie-1" size="0"/>
+      <node name="ubicie-1" size="12">
+        <node name="ujeżdżenie-3" size="0"/>
+        <node name="ugniecenie-2" size="0"/>
+        <node name="udeptanie-1" size="0"/>
+        <node name="roztłuczenie-2, rozbicie-8" size="0"/>
+        <node name="zbicie-2" size="6">
+          <node name="skołtunienie-1, skudłanie-1, skudłacenie-1" size="0"/>
+          <node name="nabicie-1" size="2">
+            <node name="naładowanie-3, załadowanie-2" size="1">
+              <node name="przeładowanie-2" size="0"/>
+            </node>
+          </node>
+          <node name="skłębienie-1" size="0"/>
+          <node name="stłoczenie-1" size="0"/>
+        </node>
+        <node name="uklepanie-1" size="0"/>
+      </node>
+    </node>
+    <node name="otoczenie-1" size="32">
+      <node name="osnucie-1" size="0"/>
+      <node name="ograniczenie-2, ogrodzenie-1" size="2">
+        <node name="zagrodzenie się-2" size="0"/>
+        <node name="ogrodzenie się-1" size="0"/>
+      </node>
+      <node name="obudowanie-2" size="0"/>
+      <node name="obrzeżenie-1, obwiedzenie-1, obramowanie-1" size="5">
+        <node name="obierza-1" size="0"/>
+        <node name="obrysowanie-1" size="1">
+          <node name="wyciągnięcie-10" size="0"/>
+        </node>
+        <node name="obmurowanie-2" size="0"/>
+        <node name="obwałowanie-1" size="0"/>
+      </node>
+      <node name="obłożenie-2" size="3">
+        <node name="wydarniowanie-1" size="0"/>
+        <node name="ofornirowanie-1" size="0"/>
+        <node name="obmurowanie-1, omurowanie-1" size="0"/>
+      </node>
+      <node name="owinięcie-1, zawinięcie-1, obwinięcie-1, spowicie-1, spowinięcie-1" size="15">
+        <node name="obwój-1" size="0"/>
+        <node name="przewinięcie-3" size="0"/>
+        <node name="okręcenie-1, oplecenie-1, oplątanie-1, omotanie-1" size="8">
+          <node name="przewiązanie-1, przepasanie-1, opasanie-1, opięcie-2" size="2">
+            <node name="ściągnięcie-5" size="1">
+              <node name="zebranie-8" size="0"/>
+            </node>
+          </node>
+          <node name="nawinięcie-1, zwinięcie-3, zawinięcie-3, namotanie-1, nakręcenie-7" size="3">
+            <node name="zakręcenie-5, skręcenie-3" size="1">
+              <node name="podkręcenie-4" size="0"/>
+            </node>
+            <node name="uzwojenie-1" size="0"/>
+          </node>
+          <node name="zabandażowanie-1, obandażowanie-1" size="0"/>
+        </node>
+        <node name="otulenie-1, opatulenie-1, okutanie-1, zakutanie-1" size="0"/>
+        <node name="opakowanie-1, zapakowanie-2, spakowanie-3" size="1">
+          <node name="zawiązanie-1, związanie-11" size="0"/>
+        </node>
+        <node name="obwiązanie-1, owiązanie-1" size="0"/>
+      </node>
+      <node name="obwarowanie-1" size="0"/>
+    </node>
+    <node name="zgromadzenie się-1, zebranie się-1, zgrupowanie się-1" size="16">
+      <node name="zwołanie się-1" size="0"/>
+      <node name="najście-1" size="0"/>
+      <node name="ściągnięcie-7" size="0"/>
+      <node name="napłynięcie-6" size="0"/>
+      <node name="obsiądnięcie-1, oblezienie-2" size="0"/>
+      <node name="zbiegnięcie się-2, zbiegnięcie się-1" size="1">
+        <node name="zlecenie się-1" size="0"/>
+      </node>
+      <node name="zlecenie się-2" size="0"/>
+      <node name="ścieśnienie się-2, stłoczenie się-1, zbicie się-1" size="0"/>
+      <node name="zejście się-1" size="0"/>
+      <node name="uzbieranie się-2" size="0"/>
+      <node name="zjechanie się-1, zjechanie-7" size="0"/>
+      <node name="ustawienie się-1" size="2">
+        <node name="uformowanie się-3" size="0"/>
+        <node name="rozwinięcie się-7" size="0"/>
+      </node>
+      <node name="ugrupowanie się-1" size="0"/>
+    </node>
+  </node>
+  <node name="GERUNDIUM - DZIAŁANIE NDK oznaczające zmianę położenia lub relacji przestrzennych-1" size="223" abstract="true">
+    <node name="odblokowywanie-1" size="4">
+      <node name="torowanie-2" size="3">
+        <node name="rozpychanie się-3" size="0"/>
+        <node name="przebijanie się-9" size="0"/>
+        <node name="pchanie się-1" size="0"/>
+      </node>
+    </node>
+    <node name="złączanie-2" size="2">
+      <node name="sprzęganie-2" size="0"/>
+      <node name="zsuwanie-2" size="0"/>
+    </node>
+    <node name="odbudowywanie się-1" size="1">
+      <node name="powstawanie-3" size="0"/>
+    </node>
+    <node name="dołączanie-1" size="150">
+      <node name="dodawanie-1" size="88">
+        <node name="dokładanie-1" size="20">
+          <node name="wzbogacanie-1, bogacenie-1" size="11">
+            <node name="glinowanie-2" size="0"/>
+            <node name="użyźnianie-1" size="7">
+              <node name="nawożenie-1" size="5">
+                <node name="saletrowanie-2" size="0"/>
+                <node name="wapnowanie-1, wapniowanie-1, nawapnianie-1" size="0"/>
+                <node name="marglowanie-1" size="0"/>
+                <node name="gnojenie-2" size="0"/>
+                <node name="pryskanie-5, opryskiwanie-3, spryskiwanie-1" size="0"/>
+              </node>
+              <node name="kompostowanie-2" size="0"/>
+            </node>
+            <node name="domieszkowanie-1" size="0"/>
+            <node name="suplementacja-1" size="0"/>
+          </node>
+          <node name="dolewanie-2" size="0"/>
+          <node name="dopełnianie-1" size="2">
+            <node name="dolewanie-1" size="0"/>
+            <node name="dosypywanie-1" size="0"/>
+          </node>
+          <node name="dosypywanie-2" size="0"/>
+          <node name="przyrzucanie-1" size="0"/>
+          <node name="dorzucanie-1, podrzucanie-7" size="1">
+            <node name="przywalanie-4" size="0"/>
+          </node>
+        </node>
+        <node name="dawanie-7" size="0"/>
+        <node name="dostawianie-3" size="0"/>
+        <node name="dorabianie-2" size="0"/>
+        <node name="przysadzanie-1, dosadzanie-1" size="0"/>
+        <node name="przysparzanie-1, przynoszenie-2" size="5">
+          <node name="opłacanie się-1, popłacanie-1" size="0"/>
+          <node name="zwracanie się-4, wracanie się-2" size="0"/>
+          <node name="procentowanie-1, owocowanie-2" size="0"/>
+          <node name="okrywanie-3" size="0"/>
+          <node name="nastręczanie-1" size="0"/>
+        </node>
+        <node name="domieszkowanie-1" size="0"/>
+        <node name="doładowywanie-1" size="0"/>
+        <node name="dorabianie-1" size="5">
+          <node name="dokręcanie-2" size="0"/>
+          <node name="dodrukowywanie-1" size="0"/>
+          <node name="docieranie-5" size="0"/>
+          <node name="dopiekanie-3" size="0"/>
+          <node name="dogrzewanie-2" size="0"/>
+        </node>
+        <node name="przydawanie-1" size="0"/>
+        <node name="wnoszenie-4" size="0"/>
+        <node name="dokooptowywanie-1" size="0"/>
+        <node name="przyprawianie-2, doprawianie-1" size="6">
+          <node name="paprykowanie-1" size="0"/>
+          <node name="zaostrzanie-5" size="0"/>
+          <node name="słodzenie-1, osładzanie-1" size="0"/>
+          <node name="solenie-1" size="0"/>
+          <node name="pieprzenie-1, opieprzanie-1" size="0"/>
+          <node name="zakwaszanie-2" size="0"/>
+        </node>
+        <node name="zaprawianie-1" size="5">
+          <node name="saletrowanie-1" size="0"/>
+          <node name="kraszenie-1, okraszanie-2" size="0"/>
+          <node name="zabielanie-2" size="0"/>
+          <node name="chmielenie-1, chmielowanie-1" size="0"/>
+          <node name="zasmażanie-2" size="0"/>
+        </node>
+        <node name="dopisywanie-2" size="2">
+          <node name="przypisywanie-2" size="0"/>
+          <node name="dopisywanie się-1" size="0"/>
+        </node>
+        <node name="dogrzewanie-1" size="0"/>
+        <node name="podkładanie-3" size="0"/>
+        <node name="uzupełnianie-1, dopełnianie-3" size="28">
+          <node name="imputacja-1, imputowanie-1" size="0"/>
+          <node name="kropkowanie-2" size="0"/>
+          <node name="watowanie-2, zapychanie-6" size="0"/>
+          <node name="dotlenianie-1" size="0"/>
+          <node name="nanoszenie-5" size="0"/>
+          <node name="opatrywanie-5, zaopatrywanie-2" size="1">
+            <node name="poprzedzanie-2" size="0"/>
+          </node>
+          <node name="kompletowanie-1" size="4">
+            <node name="odbudowywanie-2, odnawianie-3" size="3">
+              <node name="odmładzanie-4" size="0"/>
+              <node name="odtwarzanie-6, regenerowanie-3" size="1">
+                <node name="odmładzanie-3" size="0"/>
+              </node>
+            </node>
+          </node>
+          <node name="domalowywanie-2" size="0"/>
+          <node name="wypełnianie-6" size="0"/>
+          <node name="dorysowywanie-1" size="0"/>
+          <node name="dozbrajanie-1" size="0"/>
+          <node name="wmontowywanie-1" size="0"/>
+          <node name="zapychanie-7" size="0"/>
+          <node name="doładowywanie-3" size="1">
+            <node name="dowalanie-2" size="0"/>
+          </node>
+          <node name="doposażanie-1" size="1">
+            <node name="dozbrajanie-2" size="0"/>
+          </node>
+          <node name="dodawanie-4, dopowiadanie-2, nadmienianie-1" size="2">
+            <node name="rozwijanie-4" size="0"/>
+            <node name="dorzucanie-2" size="0"/>
+          </node>
+          <node name="dorzynanie-2" size="0"/>
+          <node name="doszywanie-1" size="0"/>
+          <node name="dodrukowywanie-3" size="0"/>
+        </node>
+      </node>
+      <node name="wiązanie-12, związywanie-3" size="1">
+        <node name="przyłączanie-4" size="0"/>
+      </node>
+      <node name="donoszenie-3" size="0"/>
+      <node name="doczepianie-1" size="0"/>
+      <node name="wmontowywanie-2" size="0"/>
+      <node name="załączanie-1" size="2">
+        <node name="obudowywanie-4" size="0"/>
+        <node name="łączenie-5" size="0"/>
+      </node>
+      <node name="doklejanie-1, dolepianie-1" size="0"/>
+      <node name="przymocowywanie-1, przytwierdzanie-1, mocowanie-1, umocowywanie-1, zamocowywanie-1" size="51">
+        <node name="klinowanie-1, zaklinowywanie-1" size="0"/>
+        <node name="kotwienie-1" size="0"/>
+        <node name="przyprawianie-1" size="0"/>
+        <node name="zahaczanie-1, zaczepianie-2" size="0"/>
+        <node name="przygważdżanie-2" size="0"/>
+        <node name="kotwiczenie-1, zakotwiczanie-3" size="0"/>
+        <node name="przywiązywanie-1" size="5">
+          <node name="cumowanie-2" size="0"/>
+          <node name="zaprzęganie-2, wprzęganie-3" size="0"/>
+          <node name="przytraczanie-1" size="0"/>
+          <node name="palikowanie-1" size="0"/>
+          <node name="uwiązywanie-1" size="0"/>
+        </node>
+        <node name="przeciąganie-5" size="0"/>
+        <node name="plombowanie-1, opieczętowywanie-1" size="0"/>
+        <node name="przykręcanie-1" size="1">
+          <node name="dokręcanie-1" size="0"/>
+        </node>
+        <node name="wiązanie-1" size="1">
+          <node name="zawiązywanie-5" size="0"/>
+        </node>
+        <node name="przyczepianie-1" size="6">
+          <node name="przypinanie-1" size="3">
+            <node name="wpinanie-1" size="0"/>
+            <node name="podpinanie-2" size="0"/>
+            <node name="przyszpilanie-2" size="0"/>
+          </node>
+          <node name="uczepianie-1" size="0"/>
+          <node name="przysysanie się-1" size="0"/>
+        </node>
+        <node name="cumowanie-1, przycumowywanie-1" size="0"/>
+        <node name="przyspawanie-1" size="0"/>
+        <node name="przykuwanie-1" size="0"/>
+        <node name="przywieszanie-1, uwieszanie-1, zawieszanie-4" size="1">
+          <node name="uwiązywanie-3" size="0"/>
+        </node>
+        <node name="zatykanie-1, zasadzanie-2, wtykanie-1, wsuwanie-1" size="1">
+          <node name="przetykanie-1" size="0"/>
+        </node>
+        <node name="przyklejanie-1, przylepianie-1, naklejanie-1, nalepianie-1" size="2">
+          <node name="wklejanie-1, wlepianie-2" size="0"/>
+          <node name="lamowanie-1" size="0"/>
+        </node>
+        <node name="obsadzanie-1, osadzanie-1" size="3">
+          <node name="utwierdzanie-3" size="0"/>
+          <node name="oprawianie-5" size="0"/>
+          <node name="immobilizowanie-1" size="0"/>
+        </node>
+        <node name="przybijanie-1" size="2">
+          <node name="podkuwanie-2" size="0"/>
+          <node name="podkuwanie-1" size="0"/>
+        </node>
+        <node name="przyszywanie-1" size="7">
+          <node name="obszywanie-1" size="1">
+            <node name="lamowanie-2, oblamowywanie-1" size="0"/>
+          </node>
+          <node name="podszywanie-2" size="1">
+            <node name="watowanie-1, wywatowywanie-1" size="0"/>
+          </node>
+          <node name="naszywanie-1" size="0"/>
+          <node name="podszywanie-1" size="0"/>
+          <node name="wszywanie-2" size="0"/>
+        </node>
+        <node name="wbudowywanie-2" size="0"/>
+      </node>
+    </node>
+    <node name="obtaczanie-1" size="1">
+      <node name="panierowanie-1, taczanie-2" size="0"/>
+    </node>
+    <node name="otaczanie-3" size="31">
+      <node name="obwarowywanie-1" size="0"/>
+      <node name="osnuwanie-1" size="0"/>
+      <node name="obrzeżanie-1, obramowywanie-1, obwodzenie-1" size="4">
+        <node name="obwałowywanie-1" size="0"/>
+        <node name="obrysowywanie-1" size="1">
+          <node name="wyciąganie-8" size="0"/>
+        </node>
+        <node name="obmurowywanie-2" size="0"/>
+      </node>
+      <node name="obudowywanie-3" size="0"/>
+      <node name="obkładanie-1, okładanie-2" size="6">
+        <node name="obmurowywanie-1, omurowywanie-1" size="0"/>
+        <node name="licowanie-1" size="0"/>
+        <node name="darniowanie-1" size="0"/>
+        <node name="fornirowanie-1" size="0"/>
+        <node name="parafinowanie-2" size="0"/>
+        <node name="listwowanie-1" size="0"/>
+      </node>
+      <node name="owijanie-1, zawijanie-1, obwijanie-1, spowijanie-1" size="12">
+        <node name="przewijanie-3" size="0"/>
+        <node name="obwiązywanie-1, owiązywanie-1" size="0"/>
+        <node name="otulanie-1, opatulanie-1" size="0"/>
+        <node name="opakowywanie-1" size="0"/>
+        <node name="pakowanie-5" size="1">
+          <node name="wiązanie-10, związywanie-1, zawiązywanie-8" size="0"/>
+        </node>
+        <node name="okręcanie-1, oplatanie-2, oplątywanie-1" size="5">
+          <node name="przewiązywanie-1, przepasywanie-1, opasywanie-2, opinanie-2" size="1">
+            <node name="ściąganie-13" size="0"/>
+          </node>
+          <node name="bandażowanie-1" size="0"/>
+          <node name="nawijanie-1, zwijanie-2, zawijanie-4, motanie-3, nakręcanie-7" size="1">
+            <node name="uzwajanie-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="ogradzanie-1, grodzenie-1, ograniczanie-2" size="2">
+        <node name="zagradzanie się-1" size="0"/>
+        <node name="ogradzanie się-1" size="0"/>
+      </node>
+    </node>
+    <node name="unieruchamianie-1" size="13">
+      <node name="przykuwanie-2, przygważdżanie-3" size="0"/>
+      <node name="zakleszczanie-1" size="0"/>
+      <node name="usztywnianie-2" size="0"/>
+      <node name="obezwładnianie-1" size="5">
+        <node name="pętanie-1, związywanie-7, wiązanie-8" size="2">
+          <node name="krępowanie-1" size="1">
+            <node name="krępowanie się-2" size="0"/>
+          </node>
+        </node>
+        <node name="przykuwanie-1" size="0"/>
+        <node name="skuwanie-2" size="0"/>
+      </node>
+      <node name="unieruchamianie-3, zatrzymywanie-4, stopowanie-1" size="3">
+        <node name="gaszenie-6, wyłączanie-7, zamykanie-8, wygaszanie-3, zagaszanie-1" size="0"/>
+        <node name="blokowanie-3, zablokowywanie-1" size="1">
+          <node name="ryglowanie-1" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="odgradzanie się-2" size="0"/>
+    <node name="gromadzenie się-2, grupowanie się-2" size="13">
+      <node name="ściąganie-11" size="0"/>
+      <node name="zjeżdżanie się-1" size="0"/>
+      <node name="zbieganie się-3" size="1">
+        <node name="zlatywanie się-1" size="0"/>
+      </node>
+      <node name="ustawianie się-1" size="2">
+        <node name="rozwijanie się-7" size="0"/>
+        <node name="formowanie się-3" size="0"/>
+      </node>
+      <node name="zwoływanie się-1" size="0"/>
+      <node name="napływanie-6" size="0"/>
+      <node name="schodzenie się-2" size="0"/>
+      <node name="zlatywanie się-2" size="0"/>
+      <node name="ugrupowywanie się-1" size="0"/>
+      <node name="obsiadanie-2, obłażenie-3" size="0"/>
+    </node>
+  </node>
+  <node name="GERUNDIUM - CZYNNOŚĆ NDK oznaczająca zmianę położenia lub relacji przestrzennych-1" size="563" abstract="true">
+    <node name="zwiedzanie-1" size="0"/>
+    <node name="zrównywanie się-2" size="1">
+      <node name="doganianie-1, dopędzanie-2, dościganie-2" size="0"/>
+    </node>
+    <node name="branie na hol-1" size="0"/>
+    <node name="poruszanie się-3, ruszanie się-1" size="89">
+      <node name="wiercenie się-1, kręcenie się-2" size="1">
+        <node name="gnieżdżenie się-1" size="0"/>
+      </node>
+      <node name="rojenie się-1" size="0"/>
+      <node name="kołysanie się-1, kiwanie się-2, bujanie się-1, gibanie się-1, huśtanie się-1" size="0"/>
+      <node name="miotanie się-1, rzucanie się-1, szamotanie się-1, szarpanie się-1, targanie się-1" size="0"/>
+      <node name="sprężynowanie-2" size="0"/>
+      <node name="zamierzanie się-1, przymierzanie się-1" size="1">
+        <node name="zamachiwanie się-1" size="0"/>
+      </node>
+      <node name="turlanie się-3" size="0"/>
+      <node name="tańczenie-1, pląsanie-1, tańcowanie-1" size="8">
+        <node name="kiwanie się-5" size="0"/>
+        <node name="baletowanie-2" size="0"/>
+        <node name="balowanie-2" size="0"/>
+        <node name="krzesanie hołubców-1" size="0"/>
+        <node name="hasanie-1" size="0"/>
+        <node name="pogowanie-1" size="0"/>
+        <node name="swingowanie-2" size="0"/>
+        <node name="wywijanie-2" size="0"/>
+      </node>
+      <node name="pluskanie-2" size="0"/>
+      <node name="ćwiczenie-2" size="3">
+        <node name="trenowanie-3" size="0"/>
+        <node name="rozgrzewanie się-4" size="0"/>
+        <node name="gimnastykowanie się-2" size="0"/>
+      </node>
+      <node name="zmienianie pozycji-1" size="59" abstract="true">
+        <node name="zwracanie się-3, obracanie się-2, kierowanie się-3, skierowywanie się-2" size="3">
+          <node name="odwracanie się-1, wykręcanie się-1, odkręcanie się-2" size="0"/>
+          <node name="nakierowywanie się-1" size="0"/>
+          <node name="nastawianie się-3" size="0"/>
+        </node>
+        <node name="kładzenie się-1, układanie się-1" size="2">
+          <node name="rozkładanie się-1, rozciąganie się-3, rozpłaszczanie się-1, wyciąganie się-1" size="1">
+            <node name="wyciąganie kości-1" size="0"/>
+          </node>
+        </node>
+        <node name="siadanie-3" size="0"/>
+        <node name="unoszenie się-2" size="11">
+          <node name="wiszenie-1, zwisanie-1" size="1">
+            <node name="opadanie-5, spadanie-4" size="0"/>
+          </node>
+          <node name="stroszenie się-2, jeżenie się-3, najeżanie się-2, zjeżanie się-2" size="0"/>
+          <node name="lewitowanie-1" size="0"/>
+          <node name="wstawanie-1, podnoszenie się-3, powstawanie-4" size="2">
+            <node name="zrywanie się-1, podrywanie się-1" size="0"/>
+            <node name="dźwiganie się-2" size="0"/>
+          </node>
+          <node name="anglezowanie-1" size="0"/>
+          <node name="pływanie-3" size="2">
+            <node name="surfowanie-2" size="0"/>
+            <node name="dryfowanie-1" size="0"/>
+          </node>
+        </node>
+        <node name="stawanie-2" size="3">
+          <node name="ustawianie się-2" size="2">
+            <node name="upozowywanie się-1" size="0"/>
+            <node name="formowanie się-3" size="0"/>
+          </node>
+        </node>
+        <node name="składanie się-4" size="0"/>
+        <node name="pokładanie się-1, polegiwanie-1" size="0"/>
+        <node name="prostowanie się-2, wyprostowywanie się-2, rozprostowywanie się-2" size="1">
+          <node name="przeciąganie się-2" size="0"/>
+        </node>
+        <node name="kucanie-1" size="1">
+          <node name="przykucanie-1, przysiadanie-2, przysiadywanie-4" size="0"/>
+        </node>
+        <node name="klękanie-1" size="2">
+          <node name="przyklękiwanie-1" size="0"/>
+          <node name="przyklękanie-1" size="0"/>
+        </node>
+        <node name="pochylanie się-1, chylenie się-1, nachylanie się-1, przychylanie się-2, schylanie się-1" size="13">
+          <node name="wychylanie się-2" size="3">
+            <node name="przechylanie się-1, przewieszanie się-1" size="0"/>
+            <node name="podawanie się-2" size="0"/>
+            <node name="balastowanie-3" size="0"/>
+          </node>
+          <node name="przyginanie się-1" size="0"/>
+          <node name="uchylanie się-2, umykanie-4" size="0"/>
+          <node name="odchylanie się-1" size="0"/>
+          <node name="przechylanie się-2, chylenie się-4" size="1">
+            <node name="chwianie się-3, kiwanie się-3, gibanie się-3" size="0"/>
+          </node>
+          <node name="przeginanie się-1" size="0"/>
+          <node name="wyginanie się-1, zginanie się-2" size="0"/>
+          <node name="garbienie się-1" size="1">
+            <node name="kulenie się-1, kurczenie się-3, przykulanie się-1, skulanie się-1, stulanie się-3" size="0"/>
+          </node>
+        </node>
+        <node name="siadanie-1" size="11">
+          <node name="zasiadanie-2" size="0"/>
+          <node name="przysiadanie się-2" size="0"/>
+          <node name="klapanie-3" size="0"/>
+          <node name="rozsiadanie się-2, sadowienie się-1" size="1">
+            <node name="rozpieranie się-1" size="0"/>
+          </node>
+          <node name="obsadzanie-2" size="0"/>
+          <node name="przysiadywanie się-1" size="0"/>
+          <node name="przesiadanie się-1" size="0"/>
+          <node name="przysiadanie-1, przysiadywanie-1" size="0"/>
+          <node name="wsiadanie-1, dosiadanie-2" size="1"/>
+        </node>
+      </node>
+      <node name="skakanie-2" size="5">
+        <node name="podskakiwanie-2" size="3">
+          <node name="fikanie-3" size="0"/>
+          <node name="podrygiwanie-1" size="0"/>
+          <node name="brykanie-2" size="0"/>
+        </node>
+        <node name="kicanie-1" size="0"/>
+      </node>
+    </node>
+    <node name="przemieszczanie się-1, poruszanie się-1, przenoszenie się-1" size="468">
+      <node name="jechanie-2" size="6">
+        <node name="gazowanie-4, smarowanie-3" size="0"/>
+        <node name="kołatanie się-2" size="0"/>
+        <node name="galopowanie-3" size="1">
+          <node name="cwałowanie-3" size="0"/>
+        </node>
+        <node name="pedałowanie-1" size="0"/>
+        <node name="kłusowanie-3" size="0"/>
+      </node>
+      <node name="krążenie-2, kręcenie się-1, kluczenie-1" size="1">
+        <node name="pałętanie się-2, obijanie się-2" size="0"/>
+      </node>
+      <node name="przesiedlanie się-1, migrowanie-1" size="4">
+        <node name="imigrowanie-1" size="0"/>
+        <node name="repatriowanie się-1" size="1"/>
+        <node name="emigrowanie-1" size="0"/>
+      </node>
+      <node name="udawanie się-1" size="69">
+        <node name="wybieranie się-1" size="0"/>
+        <node name="maszerowanie-1" size="0"/>
+        <node name="zwracanie się-2" size="1">
+          <node name="uderzanie-4" size="0"/>
+        </node>
+        <node name="wyprawianie się-1" size="0"/>
+        <node name="wyrywanie się-3" size="0"/>
+        <node name="zabieranie-4, branie-15" size="12">
+          <node name="wywodzenie-6, wyprowadzanie-3" size="3">
+            <node name="wodowanie-1" size="0"/>
+            <node name="wymanewrowywanie-3" size="0"/>
+            <node name="wytaczanie-1" size="0"/>
+          </node>
+          <node name="wyciąganie-7" size="0"/>
+          <node name="ciągnięcie-6" size="1">
+            <node name="wleczenie-2" size="0"/>
+          </node>
+          <node name="podrzucanie-3, podwożenie-1" size="0"/>
+          <node name="zaciąganie-8" size="0"/>
+          <node name="unoszenie-1" size="0"/>
+          <node name="odbieranie-9" size="0"/>
+          <node name="podjeżdżanie-1" size="0"/>
+        </node>
+        <node name="zmierzanie-1, podążanie-1" size="49">
+          <node name="przebywanie-2, pokonywanie-2" size="24"/>
+          <node name="wędrowanie-2" size="0"/>
+          <node name="niesienie-1" size="3">
+            <node name="obnoszenie-2" size="0"/>
+            <node name="dźwiganie-3, taszczenie-1, tachanie-1, tarabanienie-2, targanie-5" size="1">
+              <node name="wleczenie-3" size="0"/>
+            </node>
+          </node>
+          <node name="brnięcie-1" size="0"/>
+          <node name="człapanie-1" size="0"/>
+          <node name="lezienie-1" size="0"/>
+          <node name="maszerowanie-2" size="0"/>
+          <node name="spieszenie się-3, pospieszanie-3, śpieszenie-1" size="0"/>
+          <node name="postępowanie-3" size="0"/>
+          <node name="przechodzenie-9" size="0"/>
+          <node name="kroczenie-1" size="0"/>
+          <node name="kierowanie się-1, skierowywanie się-1" size="0"/>
+          <node name="biegnięcie-5" size="0"/>
+          <node name="tarabanienie się-1" size="0"/>
+          <node name="ciągnięcie-10" size="1">
+            <node name="walenie-9" size="0"/>
+          </node>
+          <node name="drałowanie-1, pedałowanie-2, wyciąganie nóg-1" size="0"/>
+          <node name="zataczanie się-1" size="1">
+            <node name="orbitowanie-2" size="0"/>
+          </node>
+          <node name="toczenie się-4" size="0"/>
+          <node name="zapychanie-5" size="0"/>
+          <node name="lezienie-2" size="0"/>
+        </node>
+      </node>
+      <node name="podróżowanie-1, wojażowanie-1, wędrowanie-1, podróżnictwo-1" size="4">
+        <node name="pielgrzymowanie-1, pątnictwo-1" size="0"/>
+        <node name="pływanie-5" size="1">
+          <node name="chodzenie-6" size="0"/>
+        </node>
+        <node name="polarnictwo-1" size="0"/>
+      </node>
+      <node name="przegrupowywanie się-1" size="0"/>
+      <node name="raczkowanie-2" size="0"/>
+      <node name="posuwanie się-1" size="1">
+        <node name="czołganie się-1, pełzanie-3, pełźnięcie-2" size="0"/>
+      </node>
+      <node name="ślizganie się-1, prześlizgiwanie się-1" size="0"/>
+      <node name="wznoszenie się-2, podnoszenie się-1, unoszenie się-1, wzbijanie się-1, wzlatywanie-1, lecenie-1" size="10">
+        <node name="wjeżdżanie-2" size="0"/>
+        <node name="podjeżdżanie-3" size="0"/>
+        <node name="wylatywanie-2" size="0"/>
+        <node name="wspinanie się-1, wchodzenie-10, wstępowanie-4, wdrapywanie się-1, drapanie się-2, pięcie się-1" size="6"/>
+      </node>
+      <node name="krążenie-1, kołowanie-1, cyrkulowanie-1" size="8">
+        <node name="okrążanie-1" size="6">
+          <node name="oblatywanie-1" size="0"/>
+          <node name="obchodzenie-3" size="0"/>
+          <node name="opływanie-2" size="0"/>
+          <node name="obieganie-1" size="0"/>
+          <node name="oblatywanie-2" size="0"/>
+          <node name="objeżdżanie-1, objazd-3" size="0"/>
+        </node>
+        <node name="orbitowanie-1" size="0"/>
+      </node>
+      <node name="balansowanie-1, lawirowanie-1" size="0"/>
+      <node name="skręcanie-1, zakręcanie-1, wykręcanie-2" size="0"/>
+      <node name="grasowanie-1, hulanie-2, panoszenie się-1" size="0"/>
+      <node name="tłuczenie się-3" size="0"/>
+      <node name="odbijanie się-1" size="6">
+        <node name="zeskakiwanie-2" size="0"/>
+        <node name="odskakiwanie-3" size="1">
+          <node name="odbijanie-4" size="0"/>
+        </node>
+        <node name="podskakiwanie-1, skakanie-1" size="1">
+          <node name="kozłowanie-1" size="0"/>
+        </node>
+        <node name="rykoszetowanie-1" size="0"/>
+      </node>
+      <node name="przechodzenie-1, przełażenie-1" size="0"/>
+      <node name="ściganie-1, uganianie się-2, ganianie-2, gonienie-1, pościg-1" size="8">
+        <node name="polowanie-2" size="7">
+          <node name="kłusowanie-4" size="0"/>
+          <node name="łowienie-2" size="4">
+            <node name="wędkowanie-1, łowienie-3" size="1">
+              <node name="poławianie-1" size="0"/>
+            </node>
+            <node name="odławianie-1" size="0"/>
+            <node name="głuszenie-4" size="0"/>
+          </node>
+          <node name="polowanie-5" size="0"/>
+        </node>
+      </node>
+      <node name="migrowanie-2" size="0"/>
+      <node name="błądzenie-1, błąkanie się-2" size="0"/>
+      <node name="wyprzedzanie-1, przeganianie-4, prześciganie-1" size="1">
+        <node name="dublowanie-4" size="0"/>
+      </node>
+      <node name="przebywanie-2, pokonywanie-2" size="24">
+        <node name="przechodzenie-7" size="0"/>
+        <node name="przelatywanie-2" size="2">
+          <node name="przefruwanie-1" size="0"/>
+          <node name="przeszywanie-3" size="0"/>
+        </node>
+        <node name="przepływanie-2" size="1">
+          <node name="śluzowanie-1" size="0"/>
+        </node>
+        <node name="nadkładanie-1" size="0"/>
+        <node name="przemierzanie-1" size="0"/>
+        <node name="podpływanie-2" size="0"/>
+        <node name="przekraczanie-1, przestępowanie-1, przechodzenie-6, przełażenie-2" size="8">
+          <node name="przeprawianie się-1" size="0"/>
+          <node name="przeskakiwanie-1" size="1">
+            <node name="przesadzanie-1" size="0"/>
+          </node>
+          <node name="przełażenie-3" size="0"/>
+          <node name="trawersowanie-2" size="0"/>
+          <node name="wchodzenie-8" size="2">
+            <node name="wkraczanie-2" size="1">
+              <node name="wdzieranie się-6" size="0"/>
+            </node>
+          </node>
+        </node>
+        <node name="przeczołgiwanie się-1" size="0"/>
+        <node name="kursowanie-1" size="0"/>
+        <node name="przejeżdżanie-1" size="0"/>
+        <node name="przebieganie-2" size="1"/>
+        <node name="przekraczanie-4" size="0"/>
+      </node>
+      <node name="dostawanie się-2" size="145">
+        <node name="wkradanie się-1, zakradanie się-1, wślizgiwanie się-2, wsuwanie się-1" size="0"/>
+        <node name="zapuszczanie się-1, zagłębianie się-2" size="2">
+          <node name="brnięcie-2" size="0"/>
+          <node name="zapędzanie się-1" size="0"/>
+        </node>
+        <node name="wjeżdżanie-1" size="1">
+          <node name="wtaczanie się-1" size="0"/>
+        </node>
+        <node name="wskakiwanie-2" size="0"/>
+        <node name="ściąganie-8" size="11">
+          <node name="doskakiwanie-3" size="0"/>
+          <node name="odwiedzanie-2" size="9">
+            <node name="obieganie-4" size="1">
+              <node name="oblatywanie-5" size="0"/>
+            </node>
+            <node name="zachodzenie-3, wstępowanie-1, wpadanie-4, zaglądanie-1, wskakiwanie-1" size="1"/>
+            <node name="nawiedzanie-2" size="0"/>
+            <node name="objeżdżanie-2" size="0"/>
+            <node name="zaczepianie-6" size="0"/>
+            <node name="obchodzenie-2, okrążanie-3, kręcenie się-5" size="1">
+              <node name="kolędowanie-1" size="0"/>
+            </node>
+          </node>
+        </node>
+        <node name="podkopywanie się-1" size="0"/>
+        <node name="jeżdżenie-2" size="1">
+          <node name="dojeżdżanie-2" size="0"/>
+        </node>
+        <node name="wpadanie-3" size="0"/>
+        <node name="wdzieranie się-2" size="0"/>
+        <node name="trafianie-2" size="1">
+          <node name="wkłuwanie się-1" size="0"/>
+        </node>
+        <node name="wpływanie-4" size="1"/>
+        <node name="wbieganie-1" size="0"/>
+        <node name="wpychanie się-1, pakowanie się-1, wmeldowywanie się-1, wtarabanianie się-1, wpakowywanie się-2, wwalanie się-1" size="0"/>
+        <node name="dobieranie się-1" size="0"/>
+        <node name="wczołgiwanie się-1, wpełzanie-1, wślizgiwanie się-1, wsuwanie się-2" size="0"/>
+        <node name="docieranie-1" size="84">
+          <node name="dolatywanie-3, zalatywanie-3" size="0"/>
+          <node name="dociąganie-2" size="0"/>
+          <node name="napływanie-1" size="0"/>
+          <node name="dojeżdżanie-1, zajeżdżanie-1" size="1"/>
+          <node name="przytaczanie się-1, dotaczanie się-2" size="0"/>
+          <node name="osiąganie-2" size="18">
+            <node name="dochodzenie-15" size="9">
+              <node name="dochodzenie-12" size="0"/>
+              <node name="dochodzenie-17" size="0"/>
+              <node name="dochodzenie-19, zachodzenie-6" size="2">
+                <node name="doczłapywanie-1, doczłapywanie się-1" size="0"/>
+                <node name="zawlekanie się-2" size="0"/>
+              </node>
+              <node name="dochodzenie-18" size="0"/>
+              <node name="dochodzenie-20" size="0"/>
+              <node name="dolatywanie-4, dochodzenie-6" size="1"/>
+            </node>
+            <node name="doskakiwanie-2" size="0"/>
+            <node name="wspinanie się-1, wchodzenie-10, wstępowanie-4, wdrapywanie się-1, drapanie się-2, pięcie się-1" size="6"/>
+          </node>
+          <node name="przyjeżdżanie-3" size="0"/>
+          <node name="trafianie-3" size="0"/>
+          <node name="dobijanie-1" size="0"/>
+          <node name="doczołgiwanie się-1, przyczołgiwanie się-1, dopełzanie-2" size="0"/>
+          <node name="przytaczanie się-2, dotaczanie się-1" size="2">
+            <node name="doczłapywanie-1, doczłapywanie się-1" size="0"/>
+            <node name="zawlekanie się-2" size="0"/>
+          </node>
+          <node name="napływanie-2" size="0"/>
+          <node name="spływanie-2" size="0"/>
+          <node name="penetrowanie-2" size="0"/>
+          <node name="zajeżdżanie-2" size="0"/>
+          <node name="przybywanie-1" size="39">
+            <node name="siadanie-2" size="0"/>
+            <node name="zdążanie-3" size="0"/>
+            <node name="imigrowanie-1" size="0"/>
+            <node name="wracanie-1, powracanie-1" size="3">
+              <node name="wracanie na tarczy-1" size="0"/>
+              <node name="repatriowanie się-1" size="1">
+                <node name="reemigrowanie-1" size="0"/>
+              </node>
+            </node>
+            <node name="odwiedzanie-1" size="6">
+              <node name="zachodzenie-3, wstępowanie-1, wpadanie-4, zaglądanie-1, wskakiwanie-1" size="1">
+                <node name="zawadzanie-3" size="0"/>
+              </node>
+              <node name="nawiedzanie-2" size="0"/>
+              <node name="wizytowanie-2" size="0"/>
+              <node name="wizytowanie-1" size="0"/>
+              <node name="rewizytowanie-1" size="0"/>
+            </node>
+            <node name="przyjeżdżanie-2" size="0"/>
+            <node name="stawianie się-2, zgłaszanie się-2" size="6">
+              <node name="meldowanie się-2" size="0"/>
+              <node name="wpisywanie się-1, zapisywanie się-1" size="3">
+                <node name="rejestrowanie się-1" size="0"/>
+                <node name="akredytowanie się-1" size="0"/>
+                <node name="dopisywanie się-2" size="0"/>
+              </node>
+              <node name="logowanie się-1, zalogowywanie się-1" size="0"/>
+            </node>
+            <node name="przypływanie-2" size="4">
+              <node name="wpływanie-4" size="1">
+                <node name="zawijanie-3" size="0"/>
+              </node>
+              <node name="dopływanie-1" size="1">
+                <node name="dobijanie-4, przybijanie-2, przypływanie-1" size="0"/>
+              </node>
+            </node>
+            <node name="przychodzenie-1" size="2">
+              <node name="przyłażenie-1" size="0"/>
+              <node name="nachodzenie-2" size="0"/>
+            </node>
+            <node name="lądowanie-1, zeskok-2, doskok-1" size="0"/>
+            <node name="przyjeżdżanie-1" size="3">
+              <node name="dojeżdżanie-1, zajeżdżanie-1" size="1">
+                <node name="zjeżdżanie-5" size="0"/>
+              </node>
+              <node name="podjeżdżanie-1" size="0"/>
+            </node>
+            <node name="spóźnianie się-2" size="0"/>
+            <node name="przylatywanie-2" size="2">
+              <node name="przyfruwanie-1" size="1">
+                <node name="podfruwanie-1" size="0"/>
+              </node>
+            </node>
+          </node>
+          <node name="dopływanie-2" size="1"/>
+          <node name="przedzieranie się-1, przebijanie się-1, dociskanie się-1, dopychanie się-1, przeciskanie się-1" size="1"/>
+          <node name="dobieganie-1, dolatywanie-1, dopędzanie-1, zalatywanie-2" size="0"/>
+          <node name="dosięganie-1, sięganie-2" size="5"/>
+          <node name="przybieganie-1" size="2"/>
+        </node>
+        <node name="zagłębianie się-1, wgłębianie się-1" size="17">
+          <node name="wgniatanie się-1, wginanie się-2" size="0"/>
+          <node name="wchodzenie-6" size="0"/>
+          <node name="wczepianie się-1" size="0"/>
+          <node name="wcinanie się-2" size="0"/>
+          <node name="wgryzanie się-1" size="0"/>
+          <node name="wkopywanie się-2" size="0"/>
+          <node name="wżeranie się-1" size="0"/>
+          <node name="wbijanie się-1" size="2">
+            <node name="nakłuwanie się-1, nadziewanie się-1" size="0"/>
+            <node name="wpijanie się-1" size="0"/>
+          </node>
+          <node name="wkopywanie się-1" size="0"/>
+          <node name="nurkowanie-4" size="0"/>
+          <node name="wkuwanie się-1" size="0"/>
+          <node name="wrzynanie się-1, worywanie się-1, wcinanie się-1" size="0"/>
+          <node name="wwiercanie się-1" size="0"/>
+          <node name="zanurzanie się-1" size="1">
+            <node name="nurkowanie-3" size="0"/>
+          </node>
+        </node>
+        <node name="wchodzenie-11" size="14">
+          <node name="wtaczanie się-2" size="0"/>
+          <node name="włażenie-2" size="0"/>
+          <node name="wsiadanie-2" size="2">
+            <node name="ładowanie się-1, władowywanie się-4, załadowywanie się-1" size="0"/>
+            <node name="dosiadanie-3, dosiadanie się-2" size="0"/>
+          </node>
+          <node name="wkraczanie-1" size="1">
+            <node name="wmaszerowywanie-1" size="0"/>
+          </node>
+          <node name="wpychanie się-2, wciskanie się-1, wpieranie się-1, wtłaczanie się-1" size="1">
+            <node name="ładowanie się-1, władowywanie się-4, załadowywanie się-1" size="0"/>
+          </node>
+          <node name="wstępowanie-5" size="0"/>
+          <node name="wdzieranie się-5" size="0"/>
+          <node name="wprowadzanie-8, wwodzenie-1" size="2">
+            <node name="wpędzanie-2, wganianie-1" size="0"/>
+            <node name="wsadzanie-3" size="0"/>
+          </node>
+          <node name="gramolenie się-2, tarabanienie się-2, taszczenie się-1" size="0"/>
+        </node>
+        <node name="włamywanie się-1" size="0"/>
+        <node name="wspinanie się-1, wchodzenie-10, wstępowanie-4, wdrapywanie się-1, drapanie się-2, pięcie się-1" size="6">
+          <node name="włażenie-1" size="0"/>
+          <node name="gramolenie się-2, tarabanienie się-2, taszczenie się-1" size="0"/>
+          <node name="wdzieranie się-7" size="0"/>
+          <node name="wsiadanie-1, dosiadanie-2" size="1">
+            <node name="wskakiwanie-3" size="0"/>
+          </node>
+          <node name="lezienie-3" size="0"/>
+        </node>
+      </node>
+      <node name="zawracanie-1, nawracanie-1, wracanie-2, zawracanie się-1, wracanie się-1" size="0"/>
+      <node name="obniżanie się-1, zniżanie się-1" size="17">
+        <node name="opadanie-1" size="0"/>
+        <node name="nurkowanie-2" size="0"/>
+        <node name="zjeżdżanie-3" size="1">
+          <node name="szusowanie-1" size="0"/>
+        </node>
+        <node name="usuwanie się-2, osuwanie się-2, obsuwanie się-2" size="0"/>
+        <node name="schodzenie-1, złażenie-1, zstępowanie-1" size="0"/>
+        <node name="zeskakiwanie-1" size="0"/>
+        <node name="spuszczanie się-1" size="0"/>
+        <node name="opuszczanie się-1" size="2">
+          <node name="planowanie-4" size="0"/>
+          <node name="spadanie-7" size="0"/>
+        </node>
+        <node name="zlatywanie-1" size="1">
+          <node name="sfruwanie-1" size="0"/>
+        </node>
+        <node name="staczanie się-2" size="0"/>
+        <node name="uginanie się-1" size="0"/>
+        <node name="zbieganie-1" size="1"/>
+      </node>
+      <node name="oddalanie się-1" size="39">
+        <node name="odbijanie-8, oddalanie się-3" size="1">
+          <node name="odłączanie się-2, odłączanie-2" size="0"/>
+        </node>
+        <node name="odczołgiwanie się-1" size="0"/>
+        <node name="rozjeżdżanie się-1" size="0"/>
+        <node name="odchodzenie-11" size="2">
+          <node name="odmaszerowywanie-1" size="0"/>
+          <node name="odmaszerowywanie-2" size="0"/>
+        </node>
+        <node name="odskakiwanie-1" size="0"/>
+        <node name="odskakiwanie-2" size="0"/>
+        <node name="rozstawanie się-1" size="0"/>
+        <node name="odjeżdżanie-1" size="0"/>
+        <node name="uciekanie-1, czmychanie-1, pierzchanie-1, uchodzenie-1, umykanie-1, branie nóg za pas-1" size="7">
+          <node name="wagarowanie-1" size="0"/>
+          <node name="wytykanie-2, szuranie-2, wyginanie-3" size="0"/>
+          <node name="cieknięcie-4" size="1">
+            <node name="wyciekanie-2" size="0"/>
+          </node>
+          <node name="dezerterowanie-2" size="0"/>
+          <node name="wyślizgiwanie się-2, wymykanie się-2" size="0"/>
+          <node name="rejterowanie-1, dezerterowanie-1" size="0"/>
+        </node>
+        <node name="odsuwanie się-1" size="5">
+          <node name="odstępowanie-2" size="0"/>
+          <node name="cofanie się-1" size="3">
+            <node name="wycofywanie się-1" size="2">
+              <node name="odstępowanie-4" size="0"/>
+              <node name="rejterowanie-2" size="0"/>
+            </node>
+          </node>
+        </node>
+        <node name="rozpraszanie się-1, rozpierzchanie się-1, rozsypywanie się-1, rozpryskiwanie się-1" size="4">
+          <node name="rozlatywanie się-3" size="0"/>
+          <node name="rozpełzanie się-2" size="0"/>
+          <node name="rozbieganie się-2" size="1"/>
+        </node>
+        <node name="odlatywanie-1" size="3">
+          <node name="rozlatywanie się-3" size="0"/>
+          <node name="odfruwanie-1" size="0"/>
+          <node name="ulatywanie-1" size="0"/>
+        </node>
+        <node name="rozchodzenie się-1" size="2">
+          <node name="rozpełzanie się-3" size="0"/>
+          <node name="rozłażenie się-3" size="0"/>
+        </node>
+        <node name="odbieganie-1" size="2"/>
+        <node name="odpływanie-2" size="1">
+          <node name="odbijanie-13" size="0"/>
+        </node>
+      </node>
+      <node name="przedostawanie się-2" size="16">
+        <node name="przewijanie się-1" size="0"/>
+        <node name="przelatywanie-1" size="1">
+          <node name="przeszywanie-3" size="0"/>
+        </node>
+        <node name="przemykanie-1, przemykanie się-1, prześlizgiwanie się-2, przekradanie się-1" size="0"/>
+        <node name="wpływanie-3" size="3">
+          <node name="dopływanie-2" size="1">
+            <node name="dociekanie-3" size="0"/>
+          </node>
+          <node name="wpadanie-7" size="0"/>
+        </node>
+        <node name="przepychanie się-1" size="0"/>
+        <node name="przekopywanie się-2" size="0"/>
+        <node name="wydobywanie się-1" size="0"/>
+        <node name="przedzieranie się-1, przebijanie się-1, dociskanie się-1, dopychanie się-1, przeciskanie się-1" size="1">
+          <node name="przerywanie się-1" size="0"/>
+        </node>
+        <node name="przechodzenie-15" size="0"/>
+        <node name="wypychanie się-2" size="0"/>
+        <node name="brnięcie-1" size="0"/>
+      </node>
+      <node name="biegnięcie-1, gonienie-2, gnanie-3" size="21">
+        <node name="obieganie-1" size="0"/>
+        <node name="odbieganie-1" size="2">
+          <node name="rozbieganie się-2" size="1">
+            <node name="rozlatywanie się-5" size="0"/>
+          </node>
+        </node>
+        <node name="kłusowanie-2" size="0"/>
+        <node name="truchtanie-1" size="0"/>
+        <node name="dyrdanie-1" size="0"/>
+        <node name="dobieganie-1, dolatywanie-1, dopędzanie-1, zalatywanie-2" size="0"/>
+        <node name="galopowanie-5" size="1">
+          <node name="cwałowanie-2" size="0"/>
+        </node>
+        <node name="zbieganie-1" size="1">
+          <node name="zlatywanie-2" size="0"/>
+        </node>
+        <node name="sznurowanie-2" size="0"/>
+        <node name="przebieganie-2" size="1">
+          <node name="przelatywanie-4" size="0"/>
+        </node>
+        <node name="podbieganie-1, nadbieganie-1" size="1"/>
+        <node name="lecenie-3, galopowanie-4, cwałowanie-1, kłusowanie-1" size="0"/>
+        <node name="przybieganie-1" size="2">
+          <node name="przylatywanie-1" size="1">
+            <node name="zlatywanie się-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="bieganie-1, ganianie-1, uganianie się-1" size="0"/>
+      <node name="zbliżanie się-1, przybliżanie się-1" size="29">
+        <node name="podchody-2" size="0"/>
+        <node name="nadchodzenie-2" size="0"/>
+        <node name="dochodzenie-9" size="0"/>
+        <node name="podbieganie-1, nadbieganie-1" size="1">
+          <node name="nadlatywanie-2, podlatywanie-2" size="0"/>
+        </node>
+        <node name="podchodzenie-1, przystępowanie-2" size="2">
+          <node name="podchodzenie-3, zachodzenie-5" size="0"/>
+          <node name="skradanie się-1" size="0"/>
+        </node>
+        <node name="podjeżdżanie-2" size="0"/>
+        <node name="nadjeżdżanie-1" size="0"/>
+        <node name="dopadanie-1" size="1">
+          <node name="doskakiwanie-1, przyskakiwanie-1" size="0"/>
+        </node>
+        <node name="przypełzanie-1" size="0"/>
+        <node name="nadpływanie-1" size="0"/>
+        <node name="podsuwanie się-1" size="0"/>
+        <node name="nadlatywanie-1, podlatywanie-1" size="1">
+          <node name="nadfruwanie-1" size="0"/>
+        </node>
+        <node name="podpływanie-1" size="0"/>
+        <node name="przypływanie-5" size="0"/>
+        <node name="podkradanie się-1, zakradanie się-2" size="0"/>
+        <node name="dosięganie-1, sięganie-2" size="5">
+          <node name="trafianie-6, utrafianie-1, wcelowywanie-1, celowanie-1" size="0"/>
+          <node name="dopełzanie-1" size="0"/>
+          <node name="donoszenie-6" size="0"/>
+          <node name="dolatywanie-4, dochodzenie-6" size="1">
+            <node name="trafianie-9" size="0"/>
+          </node>
+        </node>
+        <node name="dosuwanie się-1, przysuwanie się-1" size="0"/>
+        <node name="nadciąganie-1, ciągnięcie-5" size="0"/>
+        <node name="podczołgiwanie się-1" size="0"/>
+      </node>
+      <node name="przesuwanie się-3" size="2">
+        <node name="jeżdżenie-5" size="0"/>
+        <node name="przekrzywianie się-1" size="0"/>
+      </node>
+      <node name="wleczenie się-1, ciągnięcie się-1, toczenie się-2, turlanie się-1" size="1">
+        <node name="tarabanienie się-1" size="0"/>
+      </node>
+      <node name="jechanie-1" size="0"/>
+      <node name="pływanie-2" size="1">
+        <node name="nurkowanie-1" size="0"/>
+      </node>
+      <node name="opuszczanie-1" size="42">
+        <node name="wyfruwanie-2" size="0"/>
+        <node name="wypływanie-7" size="0"/>
+        <node name="katapultowanie się-1" size="0"/>
+        <node name="ewakuowanie się-1" size="0"/>
+        <node name="wyprowadzanie się-1" size="0"/>
+        <node name="wyfruwanie-1" size="0"/>
+        <node name="wynoszenie się-1, zjeżdżanie-1, spadanie-6" size="1">
+          <node name="wytykanie-2, szuranie-2, wyginanie-3" size="0"/>
+        </node>
+        <node name="wychodzenie-5" size="7">
+          <node name="występowanie-8, wychodzenie-6" size="2">
+            <node name="wytaczanie się-1" size="0"/>
+            <node name="wyleganie-1, wysypywanie się-1" size="0"/>
+          </node>
+          <node name="wysiadanie-1" size="0"/>
+          <node name="ewakuowanie się-2" size="0"/>
+          <node name="wyłażenie-1" size="0"/>
+          <node name="znikanie-1, ulatnianie się-1" size="0"/>
+        </node>
+        <node name="wybieganie-1" size="2">
+          <node name="wyrywanie się-4" size="0"/>
+          <node name="wylatywanie-7" size="0"/>
+        </node>
+        <node name="usuwanie się-1" size="1">
+          <node name="uskakiwanie-1" size="0"/>
+        </node>
+        <node name="wypadanie-1" size="0"/>
+        <node name="ustępowanie-2" size="1">
+          <node name="przepuszczanie-4" size="0"/>
+        </node>
+        <node name="odpływanie-1" size="0"/>
+        <node name="wylatywanie-1" size="0"/>
+        <node name="wstawanie-2" size="0"/>
+        <node name="wymykanie się-1, wykradanie się-1" size="1">
+          <node name="urywanie się-2" size="0"/>
+        </node>
+        <node name="zjeżdżanie-2" size="0"/>
+        <node name="wydostawanie się-2" size="11">
+          <node name="wykopywanie się-1" size="0"/>
+          <node name="wypływanie-2, wynurzanie się-2" size="0"/>
+          <node name="gramolenie się-1" size="0"/>
+          <node name="wyczołgiwanie się-1, wypełzanie-1" size="0"/>
+          <node name="wylatywanie-5" size="2">
+            <node name="wyfruwanie-3" size="0"/>
+            <node name="rojenie się-4, wyrajanie się-2" size="0"/>
+          </node>
+          <node name="wyplątywanie się-1" size="0"/>
+          <node name="odkopywanie się-1" size="0"/>
+          <node name="wyrywanie się-2" size="0"/>
+          <node name="wykluwanie się-1, wylęganie się-1, klucie się-1, lęgnięcie się-1, ulęganie się-1" size="0"/>
+        </node>
+      </node>
+      <node name="pływanie-1" size="1">
+        <node name="żeglowanie-2" size="0"/>
+      </node>
+      <node name="płynięcie-1" size="2">
+        <node name="wiosłowanie-2" size="0"/>
+        <node name="trawersowanie-1" size="0"/>
+      </node>
+      <node name="gnanie-1, gonienie-3, mknięcie-1, pędzenie-2, pomykanie-2, śmiganie-1, prucie-1" size="3">
+        <node name="gazowanie-4, smarowanie-3" size="0"/>
+        <node name="lecenie-3, galopowanie-4, cwałowanie-1, kłusowanie-1" size="0"/>
+        <node name="rwanie-4" size="0"/>
+      </node>
+      <node name="lecenie-2" size="2">
+        <node name="trawersowanie-1" size="0"/>
+        <node name="pikowanie-2" size="0"/>
+      </node>
+      <node name="pełzanie-1, pełznięcie-1, pełźnięcie-4" size="0"/>
+      <node name="przesiadanie się-1" size="0"/>
+      <node name="latanie-1" size="2">
+        <node name="szybowanie-1" size="0"/>
+        <node name="frunięcie-1, fruwanie-1" size="0"/>
+      </node>
+      <node name="przesuwanie się-1, sunięcie-2" size="4">
+        <node name="odsuwanie się-5" size="0"/>
+        <node name="snucie się-1, czołganie się-2, pełzanie-2, pełźnięcie-1" size="0"/>
+        <node name="płynięcie-3" size="0"/>
+        <node name="biegnięcie-4" size="0"/>
+      </node>
+      <node name="jeżdżenie-1" size="4">
+        <node name="saneczkowanie-1, saneczkarstwo-1, saneczki-1" size="0"/>
+        <node name="ślizganie się-2" size="0"/>
+        <node name="objeżdżanie-1, objazd-3" size="0"/>
+        <node name="przejeżdżanie się-1" size="0"/>
+      </node>
+      <node name="chodzenie-1, stawianie kroków-1" size="16">
+        <node name="stąpanie-1" size="0"/>
+        <node name="brodzenie-1" size="0"/>
+        <node name="kulenie-1, kuśtykanie-1, kusztykanie-1" size="1">
+          <node name="utykanie-2" size="0"/>
+        </node>
+        <node name="łażenie-3" size="0"/>
+        <node name="łażenie-1, łazęgowanie-1, łazikowanie-1" size="1"/>
+        <node name="spacerowanie-1, przechadzanie się-1" size="0"/>
+        <node name="kuśtykanie-2, kusztykanie-2" size="0"/>
+        <node name="błądzenie-2, błąkanie się-3" size="0"/>
+        <node name="lunatykowanie-1" size="0"/>
+        <node name="paradowanie-1, defilowanie-1" size="0"/>
+        <node name="dreptanie-1, drobienie-1, tuptanie-1" size="0"/>
+        <node name="łażenie-2" size="0"/>
+        <node name="tupotanie-1" size="0"/>
+        <node name="kroczenie-2" size="0"/>
+      </node>
+      <node name="włóczenie się-1, tłuczenie się-1, błąkanie się-1, pałętanie się-1, rozbijanie się-3, szastanie się-1, szwendanie się-1, tułanie się-1, wałęsanie się-1, poniewieranie się-1, pętanie się-1" size="3">
+        <node name="kołatanie się-1" size="0"/>
+        <node name="łażenie-1, łazęgowanie-1, łazikowanie-1" size="1">
+          <node name="szlifowanie bruków-1, szlifowanie bruku-1" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="rzucanie się-3, skakanie-4" size="0"/>
+    <node name="wożenie-1" size="1">
+      <node name="obwożenie-1" size="0"/>
+    </node>
+  </node>
+  <node name="GERUNDIUM - PROCES NDK oznaczający zmianę położenia lub zmianę relacji przestrzennych-1" size="42" abstract="true">
+    <node name="przelewanie się-4" size="0"/>
+    <node name="otwieranie się-1, odmykanie się-1, rozwieranie się-1" size="8">
+      <node name="odblokowywanie się-1" size="1">
+        <node name="odkorkowywanie się-1" size="0"/>
+      </node>
+      <node name="odskakiwanie-4" size="0"/>
+      <node name="rozchylanie się-1" size="2">
+        <node name="rozwieranie się-2" size="1">
+          <node name="rozdziawianie się-1" size="0"/>
+        </node>
+      </node>
+      <node name="odkręcanie się-3" size="0"/>
+      <node name="uchylanie się-1" size="0"/>
+    </node>
+    <node name="rozwijanie się-2, odwijanie się-1" size="0"/>
+    <node name="oddzielanie się-1" size="30">
+      <node name="rozłączanie się-1" size="3">
+        <node name="rozsuwanie się-1" size="1">
+          <node name="rozchodzenie się-9" size="0"/>
+        </node>
+        <node name="rozlutowywanie się-1" size="0"/>
+      </node>
+      <node name="odpadanie-1, odlatywanie-2" size="7">
+        <node name="obrywanie się-1" size="0"/>
+        <node name="obłupywanie się-1, odłupywanie się-1" size="1">
+          <node name="łupienie się-1" size="0"/>
+        </node>
+        <node name="schodzenie-4, złażenie-3, obłażenie-1" size="1">
+          <node name="złuszczanie się-1, łuszczenie się-1" size="0"/>
+        </node>
+        <node name="sypanie się-3, obsypywanie się-2, osypywanie się-4" size="0"/>
+        <node name="odkruszanie się-1" size="0"/>
+      </node>
+      <node name="wydzielanie się-3" size="3">
+        <node name="wypromieniowywanie-2" size="0"/>
+        <node name="wytrącanie się-1" size="1">
+          <node name="strącanie się-1" size="0"/>
+        </node>
+      </node>
+      <node name="odchodzenie-3, odgałęzianie się-1" size="1">
+        <node name="odrastanie-3" size="0"/>
+      </node>
+      <node name="odłączanie się-1" size="11">
+        <node name="urywanie się-1" size="0"/>
+        <node name="odmarzanie-1" size="0"/>
+        <node name="odkręcanie się-4" size="1">
+          <node name="rozkręcanie się-3" size="0"/>
+        </node>
+        <node name="odczepianie się-1" size="1">
+          <node name="odklejanie się-1, odlepianie się-1" size="0"/>
+        </node>
+        <node name="odcumowywanie się-2" size="0"/>
+        <node name="odstawanie-1" size="2">
+          <node name="odchodzenie-10, odłażenie-1" size="1">
+            <node name="odrywanie się-2" size="0"/>
+          </node>
+        </node>
+        <node name="odwiązywanie się-2" size="0"/>
+      </node>
+    </node>
+  </node>
+</node>

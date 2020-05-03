@@ -1,0 +1,14 @@
+ - Mergery powinny być jeszcze przetestowane pod względem mapowania wiele synsetów
+   na jeden koncept sumo (domenę wordnetu, i co tam jeszcze jest)
+ 
+ - Nie mam pojęcia co to jest lexicon, a zatem nie jest on przetestowany
+   w budowniczych grafów ze Słowosieci.
+ 
+ - Testy WSDRanking nie przechodzą a nawet powodują segfaulty, na razie są wyłączone.
+   Problem jest niedeterministyczny, prawdopodobnie leży w libcorpus2 lub w SWIGu
+   
+ - Graph-tool ma problemy z pętlami, tzn. uważa pętlę za dwie krawędzie
+   i nie potrafi żadnej z nich usunąć. Wszystkie testy ignorują pętle, gdyż żaden
+   z wykorzystywanych grafów w praktyce nie powinien mieć pętli.
+
+ - Mergery nie usuwają duplikatów krawędzi. Testy są pomijane.

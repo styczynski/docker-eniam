@@ -1,0 +1,42 @@
+#! /bin/bash
+# Skrypt poddaje analizie przykład podany jako argument wywołania.
+#
+# Author: Marcin Woliński
+# This file is in the public domain.
+
+plik=zsypprzyk
+doa=$plik.doa
+wynik=$plik.forest
+wyniktex=$plik.treestex
+swigradir=`dirname $0`
+
+if [ $# -lt 1 -o $# -gt 2 ]; then
+    echo Generowanie pliku PDF dla jednego przykładu \(wynik: $plik.pdf\)
+    echo
+    echo Wywołanie: $0 \"Zdanie do analizy\" [nieterminal_startowy]
+    echo
+    exit 1
+fi
+
+if [ $# -eq 1 ]; then
+    analiza="'$1'"
+else
+    analiza="'$1','$2'"
+fi
+
+cat <<EOF >$doa
+:-analiza($analiza).
+:-halt.
+EOF
+
+swipl -x $swigradir/gfjp-bin -L10m -t halt -g "['$doa']" >$wynik
+$swigradir/forest2pdf $wynik
+
+#rm $doa $wynik
+
+mv $plik.pdf "$1.pdf"
+
+### Local Variables: 
+### coding: utf-8
+### mode: shell-script
+### End: 

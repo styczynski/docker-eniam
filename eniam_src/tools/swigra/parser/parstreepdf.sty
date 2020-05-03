@@ -1,0 +1,307 @@
+\NeedsTeXFormat{LaTeX2e}[1995/12/01]
+\ProvidesPackage{parstreepdf}[2000/01/28 v.0.7 Parse trees printouts (colour)]
+
+%\RequirePackage{polski}
+\RequirePackage[pdftex,dvipsnames]{color}
+\RequirePackage[pdftex]{graphics}
+
+\definecolor{terminal}{named}{BrickRed}
+\definecolor{nonterminal}{named}{NavyBlue}
+\definecolor{branch}{named}{Purple}
+
+\oddsidemargin-.5in
+\textwidth7.5in
+\pdfpagewidth=7.5in
+\advance\pdfpagewidth 100bp
+\marginparsep0pt
+\marginparwidth0pt
+\topmargin-.25in
+\footskip0pt
+\textheight650pt
+\textheight100cm
+\pdfpageheight100cm
+\parindent0pt
+\pagestyle{myheadings}
+\let\ps@empty\ps@myheadings
+%\markright{\jobname, \today}
+%\def\@oddfoot{\vbox{\hrule height.2pt \smallskip
+%      \@@line{\strut\,\textbf{GRAMAR} Gramatyka Marka \'Swidzi\'nskiego\,\hfil}
+%      \smallskip\hrule height.2pt}}
+\def\@oddfoot{{\rightmark}\hfil\thepage}
+\let\@oddhead\@empty
+
+\newcount\hour\newcount\minute
+\hour\time
+\divide\hour 60
+\minute=-\hour
+\multiply\minute 60
+\advance\minute \time
+
+\def\identyfikacja#1#2{\markright{#1, \number\year-%
+  \two@digits{\number\month}-\two@digits{\number\day}\ 
+  \two@digits{\number\hour}:\two@digits{\number\minute}}}
+
+%\def\info#1#2{\par\textsf{#1}:\quad\textbf{#2}\par}
+
+\def\info#1#2{\bgroup
+  \def\tmp{#1}%
+  \expandafter\egroup
+  \expandafter\def
+  \csname info:\expandafter\strip@prefix\meaning\tmp\endcsname{#2}}
+\def\useinfo#1{\def\tmp{#1}%
+  \csname info:\expandafter\strip@prefix\meaning\tmp\endcsname}
+\def\simpinfo#1{\csname info:#1\endcsname}
+\def\ifinfo#1#2{\def\tmp{#1}%
+  \expandafter\ifx
+  \csname info:\expandafter\strip@prefix\meaning\tmp\endcsname\relax
+  \else #2\fi
+}
+
+\info{numer}{}
+\info{trees}{?}
+
+% \newcommand*\prog@name{%
+%   \centerline{\sffamily\vrule\strut\quad
+%     \textbf{AS}\quad \textbf{A}nalizator \textbf{S}yntaktyczny \hfill
+%     Instytut Informatyki UW\quad\vrule}
+% }
+\newcommand*\prog@name{%
+  \centerline{\sffamily\vrule\strut\quad
+    \textbf{Świgra}\quad \textbf{Gra}matyka Marka
+    \textbf{Świ}dzińskiego\hfill\small implementacja: Marcin
+    Woliński\quad\vrule}% 
+}
+\newcommand*\przyk@header{%
+  \hrule \prog@name  \hrule
+  \centerline{\sffamily\vrule
+    \begin{tabular}[b]{ll}
+      \ifinfo{sekcja}{lokalizacja:} &
+      \ifinfo{sekcja}{\useinfo{sekcja}, s. \useinfo{strona}}\\
+      \ifinfo{reguła}{reguła:} &
+      \ifinfo{reguła}{\useinfo{reguła}}\\
+%      czas analizy: & \useinfo{czas analizy} s.\\
+      kroków wywodu: & \useinfo{parse_inferences}\\
+      czas analizy: & \useinfo{parse_cputime} s.\\
+    \end{tabular}\hfill\vrule\hfill
+    \begin{tabular}[b]{r}
+      \fontsize{24pt}{0pt}\selectfont\ifinfo{numer}{\useinfo{numer}}\\[8pt]
+      \LARGE\number\nrdrzewa/\useinfo{trees}
+    \end{tabular}\vrule
+    }
+  \hrule\bigskip
+  \centerline{\large\textcolor{terminal}{\useinfo{tekst}}}
+}
+\newcommand*\porazka@header{%
+  \hrule \prog@name  \hrule
+  \centerline{\sffamily\vrule
+    \begin{tabular}[b]{ll}
+      \ifinfo{sekcja}{lokalizacja:} &
+      \ifinfo{sekcja}{\useinfo{sekcja}, s. \useinfo{strona}}\\
+      \ifinfo{reguła}{reguła:} &
+      \ifinfo{reguła}{\useinfo{reguła}}\\
+      kroków wywodu: & \useinfo{parse_inferences}\\
+      czas analizy: & \useinfo{parse_cputime} s.\\
+    \end{tabular}\hfill\vrule\hfill
+    \begin{tabular}[b]{r}
+      \fontsize{24pt}{0pt}\selectfont\useinfo{numer}\\[8pt]
+      \LARGE porażka
+    \end{tabular}\vrule
+    }
+  \hrule\bigskip
+  \centerline{\large\textcolor{terminal}{\useinfo{tekst}}}
+}
+\def\nonterminal#1#2{#1 \hfill\quad[#2]}
+\def\terminal#1#2#3{\textbf{#1}\quad#2}
+
+
+\iffalse
+\@ifundefined{T@PD1}{\input{pd1enc.def}}{}
+\DeclareFontFamily{PD1}{pdf}{}
+\DeclareFontShape{PD1}{pdf}{m}{n}{ <-> cmr10 }{}
+\DeclareFontSubstitution{PD1}{pdf}{m}{n}
+\newcommand*\outlineenv{%
+  \errorcontextlines1000
+  \fontencoding{PD1}\fontfamily{pdf}\selectfont
+    \escapechar=`\\%
+    \edef\0{\string\0}%
+    \edef\1{\string\1}%
+    \edef\2{\string\2}%
+    \edef\3{\string\3}%
+    \edef\4{\string\4}%
+    \edef\5{\string\5}%
+    \edef\6{\string\6}%
+    \edef\7{\string\7}%
+    \let\k\textogonek
+    \let\{\textbraceleft
+    \let\}\textbraceright
+    \let\\\textbackslash
+    \let\#\textnumbersign
+    \let\$\textdollar
+    \let\%\textpercent
+    \let\&\textampersand
+    \let\~\textasciitilde
+    \let\_\textunderscore
+    \let\P\textparagraph
+    \edef\space{\string\040}%
+    \let\ \space
+    \let~\space
+    \let\ldots\textellipsis
+    \let\dots\textellipsis
+    \let\glqq\textglqq
+    \let\grqq\textgrqq
+    \let\glq\textglq
+    \let\grq\textgrq
+    \let\flqq\textflqq
+    \let\flqq\textflqq
+    \let\flq\textflq
+    \let\frq\textfrq
+    \def\LaTeX{LaTeX}%
+    \def\eTeX{e-TeX}%
+    \def\TeX{TeX}%
+    \let\label\@gobble
+    \let\index\@gobble
+    \let\glossary\@gobble
+    \let\emph\@firstofone
+    \let\textbf\@firstofone
+    \let\textit\@firstofone
+    \let\textmd\@firstofone
+    \let\textnormal\@firstofone
+    \let\textrm\@firstofone
+    \let\textsc\@firstofone
+    \let\textsf\@firstofone
+    \let\textsl\@firstofone
+    \let\texttt\@firstofone
+    \let\textup\@firstofone
+    \let\Huge\@empty
+    \let\LARGE\@empty
+    \let\Large\@empty
+    \let\footnotesize\@empty
+    \let\huge\@empty
+    \let\large\@empty
+    \let\normalsize\@empty
+    \let\scriptsize\@empty
+    \let\small\@empty
+    \let\tiny\@empty
+    }
+\fi
+
+\newcount\nrdrzewa \nrdrzewa=1
+\newif\if@firsttree
+\global\@firsttreetrue
+\newcount\bknumber
+
+\newcommand*\thispageheight[1]{%
+  \@tempcnta=\pdfpageheight
+  \@tempdima=1bp
+  \divide\@tempcnta\@tempdima
+  \@tempdimb=\pdfpageheight
+  \advance\@tempdimb -#1
+  \advance\@tempdimb -100bp
+  \@tempcntb=\@tempdimb
+  \divide\@tempcntb\@tempdima
+  \edef\@tempa{{/MediaBox [0 \the\@tempcntb\space 640 \the\@tempcnta]
+    /CropBox [0 \the\@tempcntb\space 640 \the\@tempcnta]}}
+  \pdfpageattr\@tempa
+ }
+
+\newbox\treebox
+\newenvironment{tree}{\if@firsttree
+  \global\advance\bknumber1
+  \pdfdest num \number\bknumber xyz
+  {%\outlineenv
+    \sanitizeexamples
+    \sanitizepolish
+    \pdfoutline goto num \number\bknumber 
+         {+\simpinfo{numer}. \simpinfo{tekst} (\simpinfo{trees})}
+         }%
+  \fi
+  \setbox\treebox\vbox\bgroup
+  \if@firsttree \pdfdest num \number\bknumber xyz\fi
+  \przyk@header
+  \bigskip}{\egroup
+  \thispageheight{\ht\treebox}
+  \hoffset=-22bp
+  \voffset=-22bp
+  \shipout\box\treebox
+  \global\advance\count0 by 1
+  \global\advance\nrdrzewa1\relax
+  \global\@firsttreefalse}
+
+\newcommand*\porazka{{%
+  \thispageheight{10cm}
+  \hoffset=-22bp
+  \voffset=-22bp
+  \global\advance\bknumber1
+  \shipout\vbox to10cm{%
+  \pdfdest num \number\bknumber xyz
+  \porazka@header
+  \vfill}
+  {%\outlineenv
+    \sanitizeexamples
+    \sanitizepolish
+    \pdfoutline goto num \number\bknumber 
+         {-\simpinfo{numer}. \simpinfo{tekst}}%
+         }%
+  }}
+
+\newcount\treepenalty
+\def\drawbars{\strut\vrule width.2pt}
+\def\drawbarsl{\strut}
+\treepenalty=400 %13
+
+\def\TreeLeaf#1{\hbox to\hsize{\textcolor{branch}{\drawbars}
+    \ \textcolor{terminal}{#1}\hfil}\nointerlineskip}
+\def\Tree#1#2#3{%
+  \hbox to\hsize{\textcolor{branch}{\drawbars}\ %
+    \textcolor{nonterminal}{#2}\hfil}\nointerlineskip
+  \setbox0=\hbox{\drawbars}%
+  \moveright\wd0\hbox{\kern-.2pt
+      \textcolor{branch}{\vrule height.2ptwidth1em}}\nointerlineskip
+  \nobreak\vskip-.2pt
+  {\if#1l\let\drawbars=\drawbarsl\fi
+  \advance\treepenalty100
+   \edef\drawbarsl{\drawbars\quad\kern.2pt}%
+   \edef\drawbars{\drawbars\quad\vrule width.2pt}%
+   #3}%
+  \penalty\treepenalty
+  }
+
+
+\bgroup
+\catcode`\_=13
+\catcode`\|=13 \gdef|{$\vert$}
+\catcode`\<=13 \gdef<{$\langle$}
+\catcode`\>=13 \gdef>{$\rangle$}
+
+
+\uccode`0=`\_ \uccode`1=`\| \uccode`2=`\< \uccode`3=`\>
+\uppercase{\egroup
+\newcommand\sanitizeexamples{\def_{0}\def|{1}\def<{2}\def>{3}}
+}
+\AtBeginDocument{\catcode`\_=13
+\catcode`\|=13
+\catcode`\<=13
+\catcode`\>=13 }
+
+\newcommand*\koniecprzykladu{\egroup\newpage\bgroup\nrdrzewa1\@firsttreetrue}
+\AtBeginDocument{\bgroup\@firsttreetrue}
+\AtEndDocument{\egroup}
+
+\DeclareOption{short}{\def\TreeC#1#2#3{#3}}
+\DeclareOption{long}{\let\TreeC\Tree}
+\ExecuteOptions{long}
+\ProcessOptions
+%\PassOptionsToPackage{bookmarks}{hyperref}
+%\RequirePackage{hyperref}
+
+% Uwaga: ,,polskie znaki'' muszą być już aktywne!
+\newcommand*\sanitizepolish{%
+  \def ą{a}\def ć{c}\def ę{e}\def ł{l}\def ń{n}%
+  \def ó{o}\def ś{s}\def ź{z}\def ż{z}%
+  \def Ą{A}\def Ć{C}\def Ę{E}\def Ł{L}\def Ń{N}%
+  \def Ó{O}\def Ś{S}\def Ź{Z}\def Ż{Z}%
+  }
+\pdfcatalog{/PageMode /UseOutlines}
+\pdfcompresslevel=9
+\endinput
+

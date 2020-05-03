@@ -1,0 +1,47 @@
+#! /bin/bash -ex
+#
+# Author: Marcin Woliński
+# This file is in the public domain.
+
+swigradir=`dirname $0`
+
+if [ $# -eq 0 ]; then
+    pliki=*.forest
+else
+    pliki=$*
+fi
+
+
+# if [ ! -f parstreepdf.sty ]; then cp $swigradir/parstreepdf$bw.sty ./parstreepdf.sty; fi
+if [ ! -f incltree.sty ]; then cp $swigradir/incltree.sty .; fi
+
+
+for i in $pliki
+  do
+    rdzen=`basename $i .forest`
+    fullname=$rdzen.forest
+    outname=$rdzen.treestex
+
+    if grep '^sukces\.$' $fullname >/dev/null
+    then
+	echo '********* Przetwarzam (sukces) ' $fullname
+    else
+	echo '********* Pomijam (porażka)    ' $fullname
+	continue	
+    fi
+    
+#    swipl -t halt -g "['$swigradir/gfjp_swidzinskify','$fullname','$swigradir/trees2tex']" >$outname
+    swipl -t halt -g "['$fullname','$swigradir/trees2tex']" >$outname
+    
+    cp $swigradir/wyniki.tex $rdzen.tex
+#pdflatex --interaction=nonstopmode $rdzen
+    latex --interaction=scrollmode $rdzen
+    dvips $rdzen
+    ps2pdf14 $rdzen.ps
+    rm $outname $rdzen.{aux,log,tex,dvi,ps,out} 2>/dev/null
+done
+
+### Local Variables: 
+### coding: utf-8
+### mode: shell-script
+### End: 

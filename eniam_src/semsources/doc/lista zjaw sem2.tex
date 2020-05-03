@@ -1,0 +1,443 @@
+% \RequirePackage[hyphens]{url}
+\documentclass[a4paper, 12pt]{article}
+% \documentclass[preprint, a4paper, 11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[english, polish]{babel}
+\usepackage[utf8]{inputenc}
+
+\usepackage{fullpage}
+\usepackage{lineno}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\theoremstyle{remark}
+\newtheorem{test}{Test}
+
+\usepackage[hidelinks]{hyperref}
+% \urlstyle{sf}
+\expandafter\def\expandafter\UrlBreaks\expandafter{\UrlBreaks%  save the current one
+      \do\\~} % this stops urls from sticking out of the damn screen and the paper. I hate this arrggh.
+
+\usepackage{tocloft}
+\cftsetindents{section}{0pt}{1.5em}
+\cftsetindents{subsection}{1.5em}{3em}
+\cftsetindents{subsubsection}{1.5em}{3em}
+
+\newcommand{\eniam}{\textsc{Eniam}}
+\newcommand{\experiencer}{\textsc{Experiencer}}
+\newcommand{\agent}{\textsc{Agent}}
+\newcommand{\theme}{\textsc{Theme}}
+
+\frenchspacing
+
+\title{
+\normalsize
+\setlength{\topsep}{0pt} 
+\noindent
+Zleceniodawca: IPI PAN \hfill Dzieło do umowy z dnia: 2.11.2016 \\
+Zleceniobiorca: Jakub Kozakoszczak \hfill Termin zakończenia pracy: 25.11.2016 \\
+\rule{\linewidth}{2pt} \\[6pt] 
+\huge Wstępna lista zjawisk semantycznych przeznaczonych do szczegółowej analizy \\[-2pt]}
+\author{\Large Wojciech Jaworski, Jakub Kozakoszczak\\[6pt]
+\hspace{-5pt}\rule{\linewidth}{2pt}  }
+\date{}
+% \date{\normalsize Date Submitted}
+
+\begin{document}
+
+\maketitle
+		
+\vspace{-26pt}
+\begin{description}
+\setlength{\itemsep}{4pt} 
+\setlength{\parskip}{0pt} 
+	\item[Zrealizowane w ramach projektu:] „CLARIN -- Polskie wspólne zasoby językowe i infrastruktura technologiczna”
+	\item[Tytuł pracy zamówionej:] ,,Opracowanie wstępnej listy zjawisk semantycznych, które podlegać będą szczegółowej analizie''
+	\item[Adres dzieła:] \url{http://wiki.nlp.ipipan.waw.pl/clarin/Parser\%20kategorialny?action=AttachFile\&do=view\&target=JK_zjawiska_semantyczne.pdf}
+	\item[Opracowanie dokumentu:] Jakub Kozakoszczak
+\end{description}
+
+\vspace{6pt}
+\hrule
+\vspace{-14pt}
+\renewcommand\contentsname{\normalsize{}}
+\tableofcontents
+\vspace{20pt}
+\hrule
+\newpage
+
+\linenumbers
+\section{Zakres i przeznaczenie listy} % (fold)
+Lista zbiera zjawiska semantyczne, których spójne opisanie w ramach jednolitej implementowalnej reprezentacji znaczenia o szerokim pokryciu dla języka polskiego wymaga szczegółowych, głębszych badań.
+ Są to przede wszystkim zjawiska polegające na wprowadzaniu przez wyrażenia elementów znaczenia do zdań w sposób inny podstawowy, czyli przez zawężającą modyfikację znaczenia bezpośredniego nadrzędnika składniowego.
+Ten podstawowy sposób nazywamy roboczo \emph{lokalnym wkładem znaczeniowym}.
+Lista jest wstępnym rozpoznaniem, które posłuży jako mapa zadań w następnych etapach rozwoju kategorialnego parsera składniowo-semantycznego \eniam.
+
+% section zakres_i_cel_listy (end)
+
+%\chapter{Lista zjawisk semantycznych} % (fold)
+
+\section{Operatorowość}
+Takie leksemy, czy konstrukcje, do wyrażenia których w logice nie wystarcza koniunkcja, predykaty relacyjne, dscr i kwantyfikator egzystencjalny,
+tzn. nie są wyrażalne w logice egzytencjalno koniunkcyjnej rozzerzonejo dscr.
+
+Tzn. kwantyfikatory, albo operatory nielokalnie zmieniające strukturę zdania.
+Zwane dalej qwantyfikatory.
+
+Przykłady: każdy, prawie każdy, każdy z powyższych, co dziesiąty, 
+każda strona ma inny kolor, nawzajem, razem,
+codziennie, nigdy, zawsze, tylko, jakiś, pewien, jedyny, oba, inny
+nie tylko \dots lecz także
+
+Interesują nas następujące cechy qwantyfikatorów:
+\begin{itemize}
+\item konstrukcje składniowe, w których występują,
+\item semantyka, czyli wprowadzane zmienne i liczba argumentów, 
+\item odwzorowanie konstrukcji składniowych na semantykę.
+\end{itemize}
+Nie będziemy definiować qwantyfikatorów a jedynie zaznaczać ich wystąpienia w formach logicznych
+w sposób taki, by po zdefiniowaniu qwantyfikatora znaczenie formy logicznej było zgodne ze znaczeniem zdania.
+
+Z uwagi na to, że qwantyfikatory będące w zdaniu wchodzą ze sobą w interakcje (np. mogą stać w różnej kolejności)
+zadane przez nas odwzorowanie konstrukcji składniowych na semantykę nie będzie stanowić przepisu na jednoznaczną semantykę,
+w szczególności nie będziemy na tym etapie rozwiązywać problemu niejednoznaczności zakresu qwantyfikatorów.
+
+Osobnym problemem jest reprezentacja qwantyfikatorów wprowadzonych przez kilka leksemów znajdujących się w różnych częściach
+zdania (np Każda strona ma inny kolor.) i interakcji między qwantyfikatorami innej niż wpływanie na swój zakres
+np. kwatyfikatory rozgałęzione w zdaniu Hintikki.
+
+Negację traktujemy jako qwantyfikator mający jeden argument i nie wprowadzający zmiennej.
+
+``jeśli \dots, to \dots'' oraz ``jeśli \dots, \dots'' użyte w znaczeniu logicznym uznajemy ze qwantyfikator.
+Uwaga zgodnie z formalizmem wprowadzonym w Walentym ``jeśli'' wiąże zdanie podrzędne z orzeczeniem zdania nadrzędnego za pomocą
+roli tematycznej Condition. Trzeba będzie zbadać użycia roli Condition i określić czy są one uogólnienie intersektywne.
+Jeśli nie są trzeba zbadać w jaki sposób należy je przekształcić do postaci formuły logicznej.
+
+Rolę Manner też można traktować jako nielokalną.
+
+\subsection{Zjawisko wyciągania kwantyfikatorów poza zakres opertora spowodowane koreferencją pomiędzy argumentami elementami argumentów operatora}
+\begin{equation}
+	\text{Jeśli rolnik ma krowę, to ją doi}
+\end{equation}
+W powyższym przykładzie ``jeśli traktujemy jako logiczną implikację, ''rolnik`` i ''krowa`` są kwantyfikowane egzystencjalnie, a 
+''ją`` i ''pro`` (niemy podmiot ''doi``) są kwantyfikowane koreferencjnie (jota?). 
+Aby rozwiązać koreferencję trzeba przenieść powyższe 4 kwantyfikatory ponad implikację co powoduje
+zamianę kwantyfikatorów  ezgzystencjanych przy ''rolniku`` i ''krowie`` na uniwersalne. 
+
+Analogiczne zjawisko będzie występować przy wszystkich qwantyfikatorach mających więcej niż jeden argument.
+
+\section{Niejawne argumenty semantyczne} % (fold)
+
+Po wstępnej analizie przyjmujemy istnienie sześciu typów niejawnych argumentów semantycznych:
+
+\begin{enumerate}
+\item Okazjonalne \\ Np. \emph{tu}.
+\item Deiktyczne\\ Np. \emph{taki}.
+\item Porównawcze \\ Leksemy z tym argumentem mogą przyjmować porównawczy argument przyimkowy.
+\item Porządkowe \\ Np. \emph{kolejny}.
+\item Koreferencyjne \\ Np. \emph{on}.
+\item Relacyjne \\ Aby określić znaczenie znaczenie przymiotników i liczebników z argumentem relacyjnym (\emph{duży}, \emph{sporo}) trzeba wiedzieć, jaki predykat jest modyfikowany przez dane słowo.
+\end{enumerate}
+
+Niezbędne jest rozpoznanie i oznaczenie argumentów niejawnych w leksemach i wypracowanie skutecznej koncepcji ich opisu i przetwarzania.
+
+Za niejawne argumenty semantyczne uznajemy te argumenty, które są niezbędne do ustalenia znaczenia wyrazu mającego ten argument.
+Przykłady występowania wyrażeń z różnymi argumentami niejawnymi:
+\begin{itemize}
+	\item większy -- większy niż słoń \\ Znaczenia wyrazu ,,większy'' nie da się obliczyć bez argumentu ,,niż słoń''.
+	\item Biegnie. -- On biegnie. -- Jaś biegnie. \\
+	W pierwszym zdaniu inicjatora (\textsc{Initiator}) reprezentujemy oznaczając go niemym zaimmkiem (\textsc{pro}), w drugim jest on wyrażony za pomocą zaimka ,,on'', w trzecim jest wskazany jawnie jako ,,Jaś''.
+	Aby obliczyć znaczenie \textsc{pro} i ,,on'' potrzebna jest wartość koreferencyjnego lub deiktycznego argumentu.
+	\item Karol chce. -- Karol chce pracować.\\
+	Brakującego argumentu składniowego czasownika ,,chcieć'' nie traktujemy jako niejawnego argumentu semantycznego.
+\end{itemize}
+
+\section{Znaczenie relacji składniowych} % (fold)
+
+\subsection{Uogólniona intersektywność} % (fold)
+Ważną cechą semantyczną, która przysługuje nie wszystkim leksemom, a pozwala na reprezentowanie ich wkładu znaczeniowego jako zawężającego znaczenie szerszej frazy, jest \emph{intersektywność}.
+Tradycyjnie rozumiana intersektywność przypisywana jest przymiotnikom i oznacza, że denotacja frazy rzeczownikowej z przymiotnikiem intersektywnym jest podzbiorem denotacji frazy bez niego.
+
+\begin{equation}
+\text{Widzę czarnego kota.} \rightarrow \text{Widzę kota.}
+\end{equation}
+
+
+Rozumienie to można uogólnić na przysłówki i mówić o przysłówkach intersektywnych. Zbadania wymaga, w jakich innych częściach mowy lub pozycjach składniowych da się mówić o podziale na wyrażenia nieintersektywne i intersektywne w sensie uogólnionym -- wyrażenia takie powinny spełniać większość lub wszystkie testy:
+\begin{test}
+Zaczynając od korzenia drzewa rozbioru składniowego dodajemy kolejne węzły i sprawdzamy, czy ze znaczenia drzewa rozszerzonego wynika znaczenie drzewa mniejszego. Jeśli tak, dodawane węzły są intersektywne w sensie uogólnionym.
+\end{test}
+\begin{test}
+Zaczynamy od liści i ucinamy je po jednym, sprawdzając, czy znaczenie zdania staje się bardziej ogólne. Jeśli tak, ucinane węzły są intersektywne w sensie uogólnionym.
+\end{test}
+\begin{test}
+Porównujemy typy semantyczne wyrażenia złożonego i tego samego wyrażenia bez jednego z podrzędników. Jeżeli pierwszy z tych typów jest podtypem drugiego, podrzędnik jest intersektywny w sensie uogólnionym.
+\end{test}
+\begin{equation}\label{biegnie}
+	\text{Jaś biegnie.} \rightarrow \text{Biegnie.}
+\end{equation}
+\begin{equation}\label{jablka}
+	\text{cztery jabłka} \subset \text{jabłka}
+\end{equation}
+\begin{equation}\label{fontanna}
+\text{Mieszkam nieopodal fontanny.} \stackrel{?}{\rightarrow} \text{Mieszkam nieopodal.}
+\end{equation}
+
+Przykłady \ref{biegnie} i \ref{fontanna} ilustrują wynikanie zdań, przykład \ref{jablka} mówi o zawieraniu się denotacji.
+Ostatni przykład pokazuje, że rozstrzygnięcia wymaga problem relacji znaczenia jednobrzmiących leksemów przysłówkowych i przyimkowych. Pożądaną opcją wymagającą zweryfikowania jest identyczność znaczeniowa wszystkich lub większości takich par \emph{modulo} argument niejawny przysłówka.
+
+\subsection{Rozbiór składniowy w podejściu semantycznym}
+
+Do wyliczenia reprezentacji semantycznej zdania potrzebne są dane wejściowe -- rozbiór składniowy w podejściu semantycznym. Otrzymanie takiego rozbioru wymaga przekształcenia bardziej niskopoziomowego rozbioru w podejściu morfoskładniowym z użyciem informacji o znaczeniu wzajemnych rzędników. Przekształcenie jest potrzebne, gdy bezpośredni podrzędnik węzła $n$ nie spełnia jego ograniczeń selekcyjnych, ale podrzędnik następnego rzędu (wnuczek $n$) je spełnia. Spełnianie ograniczeń selekcyjnych przez leksem polega na tym, że jego typ semantyczny jest podtypem jednego z typów wskazanych w ograniczeniach selekcyjnych. W takim przypadku podrzędnik pierwszego i drugiego rzędu są zamieniane miejscami w drzewie rozbioru.
+
+Typowym przykładem zadania, w którym opisana wyżej procedura jest nietrywialna, jest rozpoznanie, czy wystąpienie przyimka przewidzianego w ramie składniowej nadrzędnego czasownika jest realizacją tej ramy, jak ,,w głowie'', czy jest to przyimek semantyczny, jak w wyrażeniu ,,w samolocie'' w przykładzie:
+
+\begin{equation}
+	\text{\textbf{W samolocie} wielu osobom kręci się \textbf{w głowie}.}
+\end{equation}
+W rozwijanej dla parsera \eniam{} odmianie podejścia semantycznego
+o tym, czy bezpośrednim podrzędnikiem czasownika jest przyimek czy rzeczownik,
+decyduje ostatecznie to, czy preferencje selekcyjne argumentu ramy uzgadniają się z typem semantycznym rzeczownika czy frazy przyimkowej.
+Podobny problem dotyczy liczebników i rzeczowników w użyciu pojemnikowym (patrz sekcja \ref{pojemniki})
+
+\subsection{Zależność roli tematycznej od cech pozaskładniowych}
+
+Podrzędniki dzielimy na argumenty i modyfikatory rozumiane semantycznie, czyli tak, że rola tematyczna argumentu zależy przede wszystkim od znaczenia nadrzędnika i typu zależności składniowej między nim a podrzędnikiem.
+\begin{equation}
+	\text{były prezydent}
+\end{equation}
+Przykładowo, odniesienie podmiotu \emph{myśleć} to \agent{} zdarzenia, odniesienie dopełnienia to jego \theme, a podmiot \emph{czuć} to \experiencer. 
+W przypadku modyfikatorów, ich rola tematyczna nie zależy od znaczenia nadrzędnika, a od typu zależności i znaczenia podrzędnika.
+% W pewnych wypadkach rola zależy dodatkowo od formy fleksyjnej modyfikatora rzeczownikowego, mimo że rodzaj zależności składniowej nie dostarcza o niej informacji.
+Przykładem jest modyfikator rzeczownikowy w narzędniku. Taki modyfikator może wprowadzać role \textsc{Instrument}, \textsc{Time} lub \textsc{Manner}.
+
+\begin{equation}
+	\text{Naprawiła szafę \textbf{młotkiem}.} 
+\end{equation}
+\begin{equation}
+	\text{Naprawiła szafę \textbf{wieczorem}.} 
+\end{equation}
+\begin{equation}
+	\text{Naprawiła szafę \textbf{własnym sposobem}.} 
+\end{equation}
+
+Podobnie oddzielnej uwagi wymagają rzeczownikowe frazy wolne w celowniku,
+przymiotniki, które mają rolę tematyczną inną niż \textsc{Attribute}
+i przysłówki, które mają rolę tematyczną inną niż \textsc{Manner}.
+
+\section{Cechy semantyczne wyrażeń nieintersektywnych}
+
+\subsection{Funktorowatość zmieniająca pojęcie}
+\begin{itemize}
+\item ``były'' traktujemy jako funktor, który modyfikuje pojęcie składniowego nadrzędnika, tworzą nowe.
+\begin{equation}
+	\text{były prezydent}
+\end{equation}
+\item ``ledwo'' ma dwa znaczenia:
+2. określające położenie pojęcia na jakiejś skali porównawczej, w jakimś porządku np.
+\begin{equation}
+	\text{Ledwo zdał egzamin}
+\end{equation}
+Mamy tu funktor który modyfikuje pojęcie będące jego składniowym nadrzędnikiem (analogicznie jak leksem ``były'').
+Funktor ten ma też domyślny argument (położenie w jakimś porządku) zależny od nadrzędnika
+
+\item co najmniej: funktor biorący określenie liczby bądź miary i generujący nowe określenie liczby bądź miary.
+
+\end{itemize}
+\subsection{Funktorowatość wyłuskująca cechę pojęcia}
+Modyfikuje aspekt znaczenia swojego podrzędnika, generując obiekt innego typu semantycznego niż podrzędnik.
+To jaki to jest aspekt jest zdaterminowane znaczeniem funktora.
+Leksem funktora może mieć kilka znaczeń dotyczących różnych aspektów.
+\begin{itemize}
+\item ``ledwo'' ma dwa znaczenia:
+1. czasowe
+\begin{equation}
+	\text{Słońce ledwo wzeszło}
+\end{equation}
+\begin{equation}
+	\text{Ledwo zabrał się do pracy, zadzwonił telefon.}
+\end{equation}
+``ledwo'' traktujemy tu jak funktor biorący zdarzenie i generujący czas chwilę po nim. W funkcji 
+spójnika podrzędnego, czas ten określa czas zdarzenia ze zdania nadrzędnego, w funkcji przysłówka 
+czas ten określa czas zdarzenia wynikającego z kontekstu, co można wyrazić jako pro-zdarzenie.
+\item ``gdy'' czasowe bierze sytuację (zdarzenie) i generuje jej czas.
+\begin{equation}
+	\text{Wszedł, gdy go wpuścili.}
+\end{equation}
+
+\item pod
+\begin{equation}
+	\text{pod stołem}
+\end{equation}
+Funktor biorący obiekt i zwracający miejsce, wskazujący, że jest to miejce, gdzie znajduje się nadrzędnik.
+\begin{equation}
+	\text{pod stół}
+\end{equation}
+Funktor biorący obiekt i zwracający miejsce, wskazujący, że jest to miejce, do którego zmierza się nadrzędnik.
+\item ponieważ: funktor biorący sytuację i generujący CZEMU
+
+\end{itemize}
+
+\subsection{Zależność znaczenia pojęcia od typu semantycznego nadrzędnika - relacyjność}
+\begin{itemize}
+\item ``ledwo'' ma dwa znaczenia:
+2. określające położenie pojęcia na jakiejś skali porównawczej, w jakimś porządku np.
+\begin{equation}
+	\text{Ledwo zdał egzamin}
+\end{equation}
+Mamy tu funktor który modyfikuje pojęcie będące jego składniowym nadrzędnikiem (analogicznie jak leksem ``były'').
+Funktor ten ma też domyślny argument (położenie w jakimś porządku) zależny od nadrzędnika
+\item dużo, niedużo: aż mają domyśny argument zależny od nadrzędnika
+``dużo złota'' to inna ilość niż ``dużo węgla''.
+\item już, jeszcze, aż mają domyśny argument wskazujący skalę jako czasową, przestrzenną itp.
+nadrzędnik  ogranicza znaczenie, niekoniecznie je determinując. (ew. skala jest jednoznacznie przypisana do znaczenia leksemu
+a ich wielość wynika z wielości znaczeń leksemu)
+
+\end{itemize}
+
+\subsection{Przyrematyczność}
+\begin{itemize}
+\item także, również, też: są przyrematyczne, stwierdzają, że istnieją inne obiekty oprócz wskazanego, które spełniają resztę drzewa
+\item nawet - sąd dziwi osobę referencyjną, przyrematyczny, miriatywny
+
+\end{itemize}
+
+\subsection{Faktywność} % (fold)
+(napisać czym jest, czemu przysługuje, jakie pytania sobie z nią związane zadajemy)
+
+podrzędniki zdaniowe rzeczowników i czasowników z Walentego - faktywność przysługuje pozycji w ramie walencyjnej
+
+spójniki zdaniowe - faktywność przysługuje spójnikowi (zdaniu podrzędnemu). 
+
+faktywność fraz niefinitywnych (bezokolicznikowych, praet, ger, imps, ...), jak poradzić sobie z brakiem czasu gramatycznego
+
+
+% subsection faktywność (end)
+
+\subsection{Nieweredyczność}
+\begin{itemize}
+\item ``prawdopodobnie'' modalność aletyczna. (ew. jest to funktor, który wyciąga z sytuacji jej odległość od świata aktualnego)
+
+\item chyba, pewnie, prawdopodobnie, może, być może, na pewno, oczywiście stanowią ocenę stopnia uzasadnienia sądu, modalność epistemiczna
+
+\item tryb rozkazujący
+Ze zdania ``Bądź bardziej punktualny'' wynika pragmatycznie, że teraz słuchacz punktualny nie jest.
+\end{itemize}
+
+\subsection{Metajęzykowość}
+Metajęzykowość jest to orzekanie czegoś o sądzie.
+\begin{itemize}
+\item więc: zachodzi związek quasiprzyczynowy między koniunktami (sytuacjami)
+\end{itemize}
+\subsubsection{Odwołanie do osoby referencyjnej, subiektywność}
+\begin{itemize}
+\item nawet - sąd dziwi osobę referencyjną, przyrematyczny, miriatywny
+\item chyba, pewnie: osoba referencyjna potwierdziłaby modyfikowany sąd, gdyby wiedziała, że pewna kontekstualna 
+przesłanka jest prawdziwa
+\item tryb rozkazujący wskazuje intencje mówcy
+\item chociaż, ale, a są miriatywne,poza tym są zwykłą koniunkcją faktów
+\end{itemize}
+
+\section{Cechy składniowo-semantyczne jednostek nieopisanych w zasobach} % (fold)
+
+Słownik \emph{Walenty}, który jest podstawowym źródłem sformalizowanej informacji o cechach składniowo-semantycznych jednostek współczesnego języka polskiego, nie obejmuje niektórych klas gramatycznych lub obejmuje je w niedostatecznym stopniu.
+Według wstępnego rozeznania wiele z brakujących leksemów rzeczownikowych, przymiotnikowych, przysłówkowych i przyimkowych wnosi wkład znaczeniowy lokalnie, a więc w sposób najbardziej podstawowy. Niezbędny jest jednak ich opis składniowo-semantyczny pozwalający przypisać im odpowiednią rolę tematyczną.
+Dalsze potrzeby zasobowe obejmują typ semantyczny leksemów nieopisanych w Słowosieci.
+Docelowy \textbf{opis cech składniowo-semantycznych} obejmuje następujące cechy:
+
+\begin{enumerate}
+\item Rola tematyczna łącząca wyraz z nadrzędnikiem, jeśli leksem podrzędnika ma ją do siebie przypisaną oraz jest uogólnienie intersektywny
+\item Struktura składniowa argumentów leksemu (rama składniowa), np. dla przyimka będzie to
+\begin{enumerate}
+\item Liczba argumentów jawnych przyimka (por. \emph{między\_a}, \emph{między\_i})
+\item Okalającość przyimka (por. \emph{między\_a})
+\item Pozycyjność przyimka (por. postpozycyjne  \emph{(100 lat) temu})
+\item Przypadek wymagany przez przyimek
+\end{enumerate}
+
+\item Preferencje selekcyjne i role tematyczne argumentów intersektywnych w sposób uogólniony
+\item Typ semantyczny leksemu, jeśli leksem nie występuje w Słowosieci. Dla przyimków i spójników podrzędnych jest to typ semantyczny frazy, których są elementem głównym.
+\end{enumerate}
+
+
+
+\section{Oznaczanie miary i liczebności referenta} % (fold)
+
+Szczególnej uwagi wymagają wyrażenia, których typem semantycznym jest \textsf{ILOŚĆ} dla wyrażeń policzalnych lub \textsf{MIARA} dla wyrażeń niepoliczalnych. Ich rolą tematyczną jest odpowiednio \textsc{count} lub \textsc{measure}.
+
+
+\subsection{Użycie pojemnikowe} % (fold)
+\label{pojemniki}
+Użycie pojemnikowe rzeczownika to takie, w którym rzeczownik odnosi do miary referenta swojego podrzędnika rzeczownikowego w dopełniaczu w morfoskładniowym (niesemantycznym) podejściu do składni. Przykładem jest ,,łyżka'' w wyrażeniu ,,łyżka cukru''.
+Żeby otrzymać rozkład zdania zawierającego rzeczowniki w użyciach pojemnikowych w składni semantycznej, jak Universal Dependencies, traktujemy pojemniki jak podrzędniki swoich tradycyjnych składniowych nadrzędników. Do tego celu niezbędne jest oznaczenie pojemników w języku polskim.
+
+% subsubsection pojemniki (end)
+
+\subsection{Podział liczebników ze względu na dokładność} % (fold)
+
+Liczebniki niewłaściwe (\emph{trochę}, \emph{sporo}) i większość rzeczowników w użyciu oznaczającym miarę nie podaje dokładnej wartości wielkości, którą opisuje. Żeby reprezentować ich znaczenia, trzeba je podzielić ze względu na dokładność, opisać zakres niedokładności i zaproponować spójną koncepcję reprezentacji znaczeń niedokładnych.
+
+% subsubsection podział_liczebników_ze_względu_na_dokładność (end)
+
+\subsection{Miara referentów niepoliczalnych} % (fold)
+
+Do zdefiniowania, które leksemy wprowadzają w języku polskim relację \textsc{Measure} (np. \emph{niedużo}), konieczne jest ich oznaczenie w zasobie typu słownikowego.
+
+% subsubsection miara_referentów_niepoliczalnych (end)
+
+
+\section{Niedenotatywne funkcje języka} % (fold)
+% Pierwotna nazwa podrozdziału: Metatekstowość
+Szczególnej uwagi wymagają wszystkie leksemy i konstrukcje pełniące funkcję fatyczną (\emph{halo}), konatywną (np. tryb rozkazujący), emotywną (np. ekspresywizmy) lub metatekstową (np. \emph{że tak powiem}).
+Do opisu ostatniej należą złożone zagadnienia znaczenia spójników, wyrażeń przyrematycznych i przytematycznych.
+
+halo, brawo, brr, miau, "że tak powiem"
+
+% temat, remat, implikatura konwencjonalna
+
+
+% \subsection{Opis przykładów, które nie są uogólnienie intersektywne} % (fold)
+% Bycie kwantyfikatorem / nielokalne zmienianie zależności semantycznych
+% każdy
+% prawdopodobnie
+% może
+% oczywiście
+% tylko
+% jeśli w znaczeniu logicznym, 
+% Jeśli występuje nielokalne zmienianie zależności semantycznych, to nie ma uogólnionej intersektywności.
+% powyższe stwierdzenie niedziała dla metatekstowego "oczywiście", czy jest prawdziwe po pominięciu metatekstowości?
+% Reprezentacja semantyczna partykuł.
+% % subsection opis_przykładów_które_nie_są_uogólnienie_intersektywne (end)
+
+
+\section{Zdarzenia, procesy (zmiany stanu rzeczy w czasie)} % (fold)
+
+czym się różni zdarzenie od sytuacji i od sądu
+koreferencyjność zdarzeń: ``Zosia ukryła piłkę wkładając ją do szafy'' - dwa czasowniki opisujące to samo zdarzenie.
+
+% subsection zdarzenia_procesy_zmiany_stanu_rzeczy_w_czasie_ (end)
+
+\section{Relacje czasowe i przestrzenne} % (fold)
+Relacje czasowe (role tematyczne Time i Duration, pytanie kiedy?) i przestrzenne (role tematyczne Location i Path, pytania gdzie?, skąd?, dokąd?, którędy?)
+
+
+
+10. Relacje przyczynowe, celowe, warunkowe i przyzwoleniowe (role Purpose i Condition)
+
+
+
+Czy rozróżnienie pomiędzy Purpose i Condition to rozróżnienie pomiędzy intencjonalnymi i nieintecjonalnymi okolicznościami wpływającymi na podjęcie akcji.
+
+% subsection relacje_czasowe_i_przestrzenne (end)
+
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Dodać w części wyraźnie oddzielonej możliwość przebadania też zjawisk elipsy i metonimii i podobnych - patrz. rozdz. ,,Typy znaczeń wariantowych'' w R. Grzegorczykowa ,,Wprowadzenie do semantyki językoznawczej'' ss. 44-47. Ta część raportu musi być opatrzona zastrzeżeniem, że będzie wykonana tylko w razie, gdy zostanie czasu i środków.
+
+% section lista_zjawisk_semantycznych (end)
+
+\end{document}

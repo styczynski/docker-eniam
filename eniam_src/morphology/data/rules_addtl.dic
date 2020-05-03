@@ -1,0 +1,213 @@
+@DIAL-FIN-FLEX
+	dowolne	s	flex=sz
+
+@DIAL-FIN-FLEX-J
+	dial_aeo	m	flex=m
+	dowolne	ą	flex=ą
+	dowolne	ę	flex=ę
+
+@DIAL-VERB-FLEX2
+	dial_verb_inf_ć	ć	flex2=ć
+	dowolne	o	flex=ą
+	dowolne	om	flex=ą
+	dowolne	e	flex=ę
+
+@DIAL-ADJ-FLEX
+	dial_twarde_ye	m	flex=ym con cat=adj
+	dial_twarde_ye	m	flex=ym con cat=adj
+	dial_twarde_ye	mi	flex=ymi con cat=adj
+	dial_twarde_ye	mi	flex=ymi con cat=adj
+	sz	em	flex=ym cat=adj:grad
+	sz	emi	flex=ymi cat=adj:grad
+	dial_miekkie_i		flex=ε con cat=adj
+	dial_miekkie_i	ch	flex=ych con cat=adj
+	dial_miekkie_i	m	flex=ym con cat=adj
+	dial_miekkie_i	mi	flex=ymi con cat=adj
+	dial_miekkie_i	e	flex=e con cat=adj
+	dial_miekkie_i	ego	flex=ego con cat=adj
+	dial_miekkie_i	ej	flex=ej con cat=adj
+	dial_miekkie_i	emu	flex=emu con cat=adj
+	dial_miekkie_i	a	flex=a con cat=adj
+	dial_miekkie_i	a	flex=a con cat=adj
+	dial_miekkie_i	ą	flex=ą con cat=adj
+	dial_miekkie_i	ą	flex=ą con cat=adj
+	dial_twarde_y		flex=y con cat=adj
+	dial_twarde_y	ch	flex=ych con cat=adj
+	dial_twarde_y	m	flex=ym con cat=adj
+	dial_twarde_y	mi	flex=ymi con cat=adj
+	dial_twarde_y	e	flex=e con cat=adj
+	dial_twarde_y	ego	flex=ego con cat=adj
+	dial_twarde_y	ej	flex=ej con cat=adj
+	dial_twarde_y	emu	flex=emu con cat=adj
+	dial_twarde_y	a	flex=a con cat=adj
+	dial_twarde_y	ą	flex=ą con cat=adj
+	dial_twarde_y	o	flex=o con cat=adj
+	dial_twarde_y	u	flex=u con cat=adj
+
+@DIAL-NOUN-FLEX
+	dial_twarde_ye	m	flex=ym con cat=noun
+	dial_twarde_ye	mi	flex=ymi con cat=noun
+	dial_miekkie_ae	e	flex=e1 con cat=noun
+	dial_miekkie_ae	ego	flex=ego con cat=noun
+	dial_miekkie_ae	ej	flex=ej con cat=noun
+	dial_miekkie_ae	em	flex=em1 con cat=noun
+	dial_miekkie_ae	emu	flex=emu con cat=noun
+	dial_miekkie_ae	a	flex=a1 con cat=noun
+	dial_miekkie_ae	ach	flex=ach con cat=noun
+	dial_miekkie_ae	ami	flex=ami1 con cat=noun
+	dial_miekkie_ae	omi	flex=ami1 con cat=noun
+	dial_miekkie_ae	amy	flex=ami1 con cat=noun
+	dial_miekkie_ae	ą	flex=ą con cat=noun
+	dial_miekkie_ae	om	flex=ą con cat=noun
+	dial_miekkie_ae	o	flex=ą con cat=noun
+	dial_miekkie_ae	ę	flex=ę con cat=noun
+	dial_miekkie_ae	e	flex=ę con cat=noun
+	dial_miekkie_ae	ie	flex=ę con cat=noun
+	dial_miekkie_ae	o	flex=o1 con cat=noun
+	dial_miekkie_ae	om	flex=om con cat=noun
+	dial_miekkie_ae	owi	flex=owi con cat=noun
+	dial_miekkie_ae	owie	flex=owie con cat=noun
+	dial_miekkie_ae	ów	flex=ów con cat=noun
+	dial_miekkie_ae	u	flex=u1 con cat=noun
+	dial_miekkie_wyglos	em	flex=em con cat=noun
+	dial_miekkie_wyglos ami	flex=ami1 con cat=noun
+	dial_miekkie_wyglos	e	flex=e2 con cat=noun
+	dial_miekkie_wyglos y	flex=y2 # nieprzyjacioły
+	dial_twarde_wyglos	u	flex=u2 con cat=noun
+	dial_twarde_wyglos	em	flex=em con cat=noun
+	dial_twarde_wyglos	a	flex=a3 con cat=noun
+	dial_twarde_wyglos	e	flex=e2 con cat=noun
+	dial_twarde_wyglos	ami	flex=ami1 con cat=noun
+	dial_twarde_wyglos	om	flex=om con cat=noun
+	dial_twarde_wyglos	ach	flex=ach con cat=noun
+	dial_twarde_wyglos	owi	flex=owi con cat=noun
+	dial_twarde_wyglos	ów	flex=ów con cat=noun
+	dial_wyglos	yma	flex=ami2 con cat=noun # palcyma
+	dial_twarde_a	a	flex=a2 con cat=noun
+	dial_twarde_a	ach	flex=ach con cat=noun
+	dial_twarde_a	och	flex=ach con cat=noun
+	dial_twarde_a	ami	flex=ami1 con cat=noun
+	dial_twarde_a	omi	flex=ami1 con cat=noun
+	dial_twarde_a	amy	flex=ami1 con cat=noun
+	dial_twarde_a	ą	flex=ą con cat=noun
+	dial_twarde_a	om	flex=ą con cat=noun
+	dial_twarde_a	o	flex=ą con cat=noun
+	dial_twarde_a	ę	flex=ę con cat=noun
+	dial_twarde_a	ie	flex=ę con cat=noun
+	dial_twarde_a	e	flex=ę con cat=noun
+	dial_twarde_a	o	flex=o2 con cat=noun
+	dial_twarde_a	om	flex=om con cat=noun
+	dial_twarde_a	owi	flex=owi con cat=noun
+	dial_twarde_a	owie	flex=owie con cat=noun
+	dial_twarde_a	ów	flex=ów con cat=noun
+	dial_twarde_a	u	flex=u2 con cat=noun
+	dial_twarde_a	um	flex=um con cat=noun
+	dial_twarde_a	us	flex=us con cat=noun
+	dial_twarde_y		flex=y2 con cat=noun
+	dial_miekkie_ii		flex=y3 con cat=noun
+	funkcjonalnie_miekkie_ae	om	flex=ą con cat=noun
+	funkcjonalnie_miekkie_ae	o	flex=ą con cat=noun
+	funkcjonalnie_miekkie_ae	e	flex=ę con cat=noun
+	funkcjonalnie_miekkie_ae	ie	flex=ę con cat=noun
+	funkcjonalnie_twarde_a	om	flex=ą con cat=noun
+	funkcjonalnie_twarde_a	o	flex=ą con cat=noun
+	funkcjonalnie_twarde_a	e	flex=ę con cat=noun
+	funkcjonalnie_twarde_a	ie	flex=ę con cat=noun
+	funkcjonalnie_miekkie_ii	om	flex=ą con cat=noun
+	funkcjonalnie_miekkie_ii	o	flex=ą con cat=noun
+	funkcjonalnie_miekkie_ii	e	flex=ę con cat=noun
+	funkcjonalnie_miekkie_ii	ie	flex=ę con cat=noun
+	funkcjonalnie_miekkie_ae	omi	flex=ami1 con cat=noun
+	funkcjonalnie_twarde_a	omi	flex=ami1 con cat=noun
+	funkcjonalnie_miekkie_ii	omi	flex=ami1 con cat=noun
+	funkcjonalnie_miekkie_ae	amy	flex=ami1 con cat=noun
+	funkcjonalnie_twarde_a	amy	flex=ami1 con cat=noun
+	funkcjonalnie_miekkie_ii	amy	flex=ami1 con cat=noun
+	dodatkowe_miekkie_ae	om	flex=ą con cat=noun
+	dodatkowe_miekkie_ae	o	flex=ą con cat=noun
+	dodatkowe_miekkie_ae	e	flex=ę con cat=noun
+	dodatkowe_miekkie_ae	ie	flex=ę con cat=noun
+	dodatkowe_twarde_a	om	flex=ą con cat=noun
+	dodatkowe_twarde_a	o	flex=ą con cat=noun
+	dodatkowe_twarde_a	e	flex=ę con cat=noun
+	dodatkowe_twarde_a	ie	flex=ę con cat=noun
+	dodatkowe_miekkie_ii	om	flex=ą con cat=noun
+	dodatkowe_miekkie_ii	o	flex=ą con cat=noun
+	dodatkowe_miekkie_ii	e	flex=ę con cat=noun
+	dodatkowe_miekkie_ii	ie	flex=ę con cat=noun
+	dodatkowe_miekkie_ae	omi	flex=ami1 con cat=noun
+	dodatkowe_twarde_a	omi	flex=ami1 con cat=noun
+	dodatkowe_miekkie_ii	omi	flex=ami1 con cat=noun
+	dodatkowe_miekkie_ae	amy	flex=ami1 con cat=noun
+	dodatkowe_twarde_a	amy	flex=ami1 con cat=noun
+	dodatkowe_miekkie_ii	amy	flex=ami1 con cat=noun
+
+@DODATKOWE-NOUN-FLEX
+	dodatkowe_twarde_a	a	flex=a2 con cat=noun
+	dodatkowe_twarde_a	ach	flex=ach con cat=noun
+	dodatkowe_twarde_a	och	flex=ach con cat=noun
+	dodatkowe_twarde_a	ami	flex=ami1 con cat=noun
+	dodatkowe_twarde_a	ą	flex=ą con cat=noun
+	dodatkowe_twarde_a	ę	flex=ę con cat=noun
+	dodatkowe_twarde_a	o	flex=o2 con cat=noun
+	dodatkowe_twarde_a	om	flex=om con cat=noun
+	dodatkowe_twarde_a	owi	flex=owi con cat=noun
+	dodatkowe_twarde_a	owie	flex=owie con cat=noun
+	dodatkowe_twarde_a	ów	flex=ów con cat=noun
+	dodatkowe_twarde_a	u	flex=u2 con cat=noun
+	dodatkowe_twarde_a	um	flex=um con cat=noun
+	dodatkowe_twarde_a	us	flex=us con cat=noun
+	dodatkowe_twarde_y		flex=y2 con cat=noun
+	dodatkowe_twarde_y	ch	flex=ych con cat=noun
+	dodatkowe_twarde_y	m	flex=ym con cat=noun
+	dodatkowe_twarde_y	mi	flex=ymi con cat=noun
+	dodatkowe_twarde_e	e	flex=e2 con cat=noun
+	dodatkowe_twarde_e	ego	flex=ego con cat=noun
+	dodatkowe_twarde_e	ej	flex=ej con cat=noun
+	dodatkowe_twarde_e	em	flex=em2 con cat=noun
+	dodatkowe_twarde_e	emu	flex=emu con cat=noun
+	dodatkowe_miekkie_ae		flex=y3 con cat=noun
+	dodatkowe_miekkie_ae	ch	flex=ych con cat=noun
+	dodatkowe_miekkie_ae	m	flex=ym con cat=noun
+	dodatkowe_miekkie_ae	mi	flex=ymi con cat=noun
+	dodatkowe_miekkie_ae	e	flex=e3 con cat=noun
+	dodatkowe_miekkie_ae	em	flex=em3 con cat=noun
+	dodatkowe_miekkie_ae	a	flex=a3 con cat=noun
+	dodatkowe_miekkie_ae	ach	flex=ach con cat=noun
+	dodatkowe_miekkie_ae	ami	flex=ami1 con cat=noun
+	dodatkowe_miekkie_ae	ą	flex=ą con cat=noun
+	dodatkowe_miekkie_ae	ę	flex=ę con cat=noun
+	dodatkowe_miekkie_ae	o	flex=o3 con cat=noun
+	dodatkowe_miekkie_ae	om	flex=om con cat=noun
+	dodatkowe_miekkie_ae	owi	flex=owi con cat=noun
+	dodatkowe_miekkie_ae	owie	flex=owie con cat=noun
+	dodatkowe_miekkie_ae	ów	flex=ów con cat=noun
+	dodatkowe_miekkie_ae	u	flex=u3 con cat=noun
+	dodatkowe_miekkie_ae	i	flex=i2 con cat=noun
+	dodatkowe_twarde_a	a	flex=a2 con cat=noun
+	dodatkowe_twarde_a	ach	flex=ach con cat=noun
+	dodatkowe_twarde_a	ami	flex=ami1 con cat=noun
+	dodatkowe_twarde_a	ą	flex=ą con cat=noun
+	dodatkowe_twarde_a	ę	flex=ę con cat=noun
+	dodatkowe_twarde_a	o	flex=o2 con cat=noun
+	dodatkowe_twarde_a	om	flex=om con cat=noun
+	dodatkowe_twarde_a	owi	flex=owi con cat=noun
+	dodatkowe_twarde_a	owie	flex=owie con cat=noun
+	dodatkowe_twarde_a	ów	flex=ów con cat=noun
+	dodatkowe_twarde_a	u	flex=u2 con cat=noun
+	dodatkowe_miekkie_wyglos	em	flex=em con cat=noun
+	dodatkowe_miekkie_wyglos ami	flex=ami1 con cat=noun
+	dodatkowe_miekkie_wyglos	e	flex=e2 con cat=noun
+	dodatkowe_miekkie_wyglos y	flex=y2 # nieprzyjacioły
+	dodatkowe_twarde_wyglos	u	flex=u2 con cat=noun
+	dodatkowe_twarde_wyglos	em	flex=em con cat=noun
+	dodatkowe_twarde_wyglos	a	flex=a3 con cat=noun
+	dodatkowe_twarde_wyglos	e	flex=e2 con cat=noun
+	dodatkowe_twarde_wyglos	ami	flex=ami1 con cat=noun
+	dodatkowe_twarde_wyglos	om	flex=om con cat=noun
+	dodatkowe_twarde_wyglos	ach	flex=ach con cat=noun
+	dodatkowe_twarde_wyglos	owi	flex=owi con cat=noun
+	dodatkowe_twarde_wyglos	ów	flex=ów con cat=noun
+	dodatkowe_miekkie_wyglos	mi	flex=ami2 con cat=noun
+	dowolne	s	flex=s con cat=noun # constraints, attaché
+	funkcjonalnie_twarde_e	i	flex=i3 con cat=noun # stranieri, paparazzi itd.

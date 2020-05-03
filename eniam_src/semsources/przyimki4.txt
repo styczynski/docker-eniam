@@ -1,0 +1,97 @@
+
+
+Niech dist będzie polimorficzną metryką. W przypadku, gdy: 
+- X i Y są punktami w przestrzeni liniowej jest to metryka Euklidesowa,
+- X i Y są podzbiorami przestrzeni liniowej jest to metryka Hausdorffa nad metryką Euklidesową.
+- X i Y parametryzowane przez czas dist(X,Y) = sup_t dist(X(t),Y(t))
+W szczególności, gdy X i Y są liczbami dist(X,Y) = |X - Y|,
+a gdy X i Y są interwałami dist(X,Y) = max{sup{inf{|x-y|:y \in Y}:x \in X},sup{inf{|x-y|:x \in X}:y \in Y} = max{|X.beg-Y.beg|,|X.end-Y.end|}
+Szkic dowodu:
+jeśli X.end < Y.beg to dist(X,Y) = max{Y.beg-X.beg,Y.end-X.end}
+jeśli X.end > Y.beg to dist(X,Y) = max{X.beg-Y.beg,X.end-Y.end}
+jeśli X nie jest podzbiorem Y i Y nie jest podzbiorem X usunięcie części wspólnej nie zmienia odległości
+jeśli jeden zbiór jest podzbiorem drugiego otrzymamy dist(X,Y) = max{|X.beg-Y.beg|,|X.end-Y.end|}
+
+dist(X,Y) <= e oznacza
+max{|X.beg-Y.beg|,|X.end-Y.end|} <= e, czyli
+|X.beg-Y.beg| <= e && |X.end-Y.end| <= e,
+
+blisko 1: Akcja A związana jest z miejscem M znajdującym się w niewielkiej odległości od X na skali S niż miejsce. (blisko stacji metra, blisko daty wyjazdu, blisko 4 hektary) 
+koło 1 = blisko 1 (Usiądź koło mnie. Zadzwoniła koło szóstej.)
+niedaleko 1 = blisko 1 (Mieszkali niedaleko parku.)
+obok 1 = blisko 1 (Położył łyżkę obok talerza. Usiadła obok syna.)
+około 1 = blisko 1 
+opodal 1 = blisko 1 (Konie pasły się opodal lasu.)
+
+blisko(X,Y) <==> dist(X,Y) <= e
+
+Referencjami nazw przedziałów czasowych są interwały. Przez .beg będziemy oznaczać początek interwału, przez .end koniec, a przez .len długość.
+Niech fnbpp=fraza nominalna będąca podrzędnikiem przyimka.
+Przez T oznaczymy interwał będący referencją nazwy przedziału czasowego będącego podrzędnikiem przyimka.
+Przez S oznaczymy interwał będący czasem zdarzenia będącego referencją fnbpp.
+Przez A oznaczymy zdarzenie/stan będący referencją nadrzędnika wyrażenia przyimkowego, a 
+przez X oznaczymy czas tworzenia przedmiotu fizycznego będącego referencją nadrzędnika wyrażenia przyimkowego.
+Przez R oznaczymy zdarzenie będące punktem odniesienia przedziału czasowego będącego podrzędnikiem przyimka. (Spotkali się dopiero po dwudziestu latach od R.)
+
+koło	2	A cap [T.beg-e, T.end+e] <> null	Koło szóstej już kasłała i miała gorączkę.
+koło	2	T.beg-e <= A.beg = A.end <= T.end+e	Strzał padł koło jedenastej minuty meczu.
+koło	2	T.beg-e <= A.beg <= T.end+e		Zadzwoniła koło szóstej.
+koło	2	T.beg-e <= A.end <= T.end+e		Wyzdrowiała koło niedzieli.
+około = koło
+		blisko(A,T)
+
+Referencjami nazw miejsc są parametryzowane przez czas podzbiory przestrzeni. 
+Przez MT oznaczymy miejsce przedmiotu będącego referencją fnbpp.
+Przez MS oznaczymy miejsce zdarzenia będącego referencją fnbpp.
+Przez MP oznaczymy miejsce będące referencją wyrażenia przyimkowego.
+Przez MA oznaczymy miejsce zdarzenia/stanu będącego referencją nadrzędnika wyrażenia przyimkowego
+
+Loc(MA,MP) = forall t in A: MA(t) subset MP(t)
+LocGoal(MA,MP) = MA(A.end) subset MP(A.end) && not MA(A.beg) subset MP(A.beg)
+LocSrc(MA,MP) = MA(A.beg) subset MP(A.beg) && not MA(A.end) subset MP(A.end)
+
+blisko:gen	a	Loc(MA,MP) && blisko(MP,MT)	Mieszka blisko stacji metra.
+koło:gen	1	Loc(MA,MP) && blisko(MP,MT)	Usiądź koło mnie.
+niedaleko:gen		Loc(MA,MP) && blisko(MP,MT)	Mieszkali niedaleko parku.
+opodal			Loc(MA,MP) && blisko(MP,MT)	Konie pasły się opodal lasu.
+pod:inst	3	Loc(MA,MP) && blisko(MP,MT)	Spotkajmy się pod pomnikiem.
+obok:gen	1	Loc(MA,MP) && blisko(MP,MT)	Położył łyżkę obok talerza. Usiadła obok syna. (tu by się przydało dodać kierunek bliskości)
+pod:acc		3	LocGoal(MA,MP) && blisko(MP,MT)	Idziemy pod pomnik.
+
+koło			T-e <= X <= T+e	Ma koło pięciu lat.
+			blisko(T,X)
+około 			T-e <= X <= T+e	Wsyp około łyżki cukru.
+			blisko(T,X)
+
+Wprowadzenie ról tematycznych
+=============================
+
+Przez B oznaczymy referencję podrzędnika przyimka.
+Przez P oznaczymy referencję wyrażenia przyimkowego.
+Przez A oznaczymy referencję nadrzędnika wyrażenia przyimkowego.
+
+W przypadku określeń czasu nadrzędnikiem przyimka jest zazwyczaj nazwa zdarzenia lub stanu.
+W przypadku określeń czasu podrzędnikiem przyimka jest zazwyczaj nazwa przedziału czasowego albo nazwa zdarzenia.
+Referencjami nazw przedziałów czasowych są interwały. 
+Referencjami nazw zdarzeń są zdarzenia.
+Referencjami określeń wyrażeń przyimkowych będących określeniami czasu są interwały.
+
+
+Przez .beg będziemy oznaczać początek interwału, przez .end koniec, a przez .len długość.
+Przez .time będziemy oznaczać czas zdarzenia/stanu, przez .loc będziemy oznaczać parametryzowane przez czas miejsce zdarzenia/stanu/przedmiotu.
+
+blisko(A,T) ze starej notacji zapiszemy teraz
+Time(A,blisko,B) <==> blisko(A.time,B)			Strzał padł koło jedenastej minuty meczu.
+
+Loc(MA,MP) && blisko(MP,MT) ze starej notacji zapiszemy teraz
+Loc(A,blisko,B) <==> Loc(A.loc,P) && blisko(P,B.loc)	Mieszka blisko stacji metra.
+
+W przypadku operatora adnumeratywnego:
+Count(A,blisko,B) <==> blisko(A.count,B)		Ma koło pięciu lat.
+
+
+
+
+
+
+

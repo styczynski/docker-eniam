@@ -1,0 +1,1870 @@
+1809 powodować-1
+  388 *powodować _ZDARZENIE_-1
+    1 *CZASOWNIK - ZDARZENIE NDK oznaczający powodowanie zmiany posiadania-1
+      0 uderzać-7
+    38 *CZASOWNIK - ZDARZENIE NDK oznaczający powodowanie reakcji organizmu lub czynności fizjologicznej-1
+      0 mrozić-2
+      1 przeziębiać-1, zaziębiać-1, przechładzać-1
+        0 przewiewać-2
+      0 mdlić-1
+      33 boleć-1
+        0 huczeć w głowie-1
+        0 rozsadzać-6
+        0 strzykać-3
+        0 ćmić-5
+        0 łupać-5
+        0 piec-3, palić-4, szczypać-1
+        0 drzeć-3
+        0 rwać-2
+        0 kłuć-2
+        0 pobolewać-1
+        VISITED 22 doskwierać-1, dolegać-1, dokuczać-2, dopiekać-2
+    10 *CZASOWNIK - ZDARZENIE NDK oznaczający powodowanie zjawiska fizycznego lub zmiany stanu fizycznego-1
+      0 odbijać-3
+      0 mrozić-4, ziębić-1
+      0 rozjarzać-1
+      0 zwiotczać-1
+      0 wybrzuszać-1
+      0 ścinać-5
+      1 wysuszać-2
+        0 wyprażać-2
+      0 gnoić-1
+      0 roziskrzać-1
+    32 *CZASOWNIK - ZDARZENIE NDK oznaczający powodowanie zmiany położen ia lub relacji przestrzennych-1
+      25 przemieszczać-2
+        0 wypluwać-2
+        0 wywiewać-1
+        0 wwiewać-1
+        0 przeganiać-5
+        12 przenosić-4, nieść-4, unosić-5
+          4 zanosić-3
+            3 przynosić-6
+              1 powiewać-4
+                0 pociągać-10
+              0 nawiewać-4
+          0 zawiewać-2
+          2 porywać-4
+            1 znosić-13
+              0 ściągać-14
+          2 rozsiewać-5, roznosić-2
+            0 rozpraszać-7
+            0 pylić-2
+        0 rozpędzać-3
+        0 ciągnąć-15
+        2 nanosić-2
+          0 pylić-1, zapylać-2
+          0 nawiewać-3
+        0 zwiewać-2
+        1 podnosić-12
+          0 wznosić-3, wynosić-2
+      5 poruszać-4
+        0 chybotać-1, chwiać-1
+        2 rzucać-9
+          0 trząść-2
+          0 szarpać-6
+        0 podrywać-3
+    36 *CZASOWNIK - ZDARZENIE NDK oznaczający powodowanie zmiany w ciągu przyczynowo-skutkowym-1
+      2 unicestwiać-2, pochłaniać-5, chłonąć-1
+        0 przetrawiać-5, trawić-2
+        0 wchłaniać-4
+      0 odpowiadać-6
+      24 zostawiać-3, pozostawiać-4
+        1 znaczyć-6
+          0 znaczyć teren-1
+        21 stawiać-8, kłaść-9
+          0 kropkować-1
+          5 znaczyć-5
+            4 odbijać-9, odciskać-2, odgniatać-1
+              1 tłoczyć-3, wytłaczać-2
+                0 wybijać-3, bić-12
+              0 wyciskać-6
+              0 drukować-3, nadrukowywać-1
+          3 podpisywać-2, sygnować-1, kłaść podpis-1, składać podpis-1, opatrywać ... podpisem-1, podpisywać się-2
+            0 cyfrować-1
+            0 kontrasygnować-1
+            0 parafować-2
+          9 pisać-4
+            0 podpisywać się-1
+            1 wystukiwać-1
+              0 tłuc-6
+            0 kaligrafować-1
+            3 wpisywać-2
+              2 wprowadzać-10
+                0 poprawiać-4
+                0 logować się-1, zalogowywać się-1
+            0 bazgrać-1, smarować-5, skrobać-2, gryzmolić-1
+      0 zaskakiwać-3, odblokowywać się-3
+      5 znajdować-4, znajdywać-3
+        0 spotykać-5
+        3 zastawać-1
+          0 całować klamkę-1
+          1 przyłapywać-1
+            0 nakrywać-2
+    6 *CZASOWNIK - ZDARZENIE NDK oznaczający powodowanie zmiany sytuacji związanych (lub sytuacje związane) ze współżyciem w społeczeństwie-1
+      0 zmiękczać-4
+      3 krzywdzić-2
+        2 zostawiać-7, pozostawiać-7
+          1 odumierać-1
+            0 osierocać-1
+      0 wykluczać-3
+    208 *CZASOWNIK - ZDARZENIE NDK oznaczający powodowanie zmiany stanu mentalnego, emocjonalnego lub psychiczno-fizjologicznego-1
+      0 mącić-2
+      0 przyprawiać-4
+      0 dławić-1
+      173 wywoływać-4
+        1 podrażniać-1
+          0 parzyć się-3
+        3 wprawiać-2
+          0 podniecać-2
+          0 rozanielać-1
+          0 rozmarzać-2
+        0 katalizować-2
+        0 katalizować-1
+        0 wnosić-7
+        0 rzucać-8
+        0 rozpętywać-2
+        0 usposabiać-2
+        5 męczyć-1
+          VISITED 0 zanudzać-1
+          2 udręczać-1
+            0 dawać w kość-1, dawać się we znaki-1, dawać popalić-1, dawać do wiwatu-1
+            0 rozszarpywać-3
+          0 mordować-2, trudzić-2, utrudzać-1
+        155 wzbudzać-1, budzić-1, wzniecać-1, wyzwalać-3, rozbudzać-1, rozniecać-2, niecić-2
+          0 zawracać w głowie-1, zawracać głowę-1
+          0 nakręcać-6
+          1 rozpalać-4, rozpłomieniać-2
+            0 zapalać-5
+          0 wlewać-2
+          0 uwalniać-5
+          1 nasuwać-1
+            0 sugerować-2
+          1 rozgrzewać-2, grzać-5
+            0 dogrzewać-6
+          0 napełniać-2, naładowywać-5, napawać-1
+          15 poruszać-3, ruszać-8, przejmować-3, wstrząsać-3
+            0 rozwalać-7
+            VISITED 0 szokować-2
+            0 trząść-3
+            0 elektryzować-1
+            1 porywać-2
+              0 brać-25
+            1 podniecać-1, ekscytować-1, emocjonować-1
+              0 rajcować-2
+            VISITED 3 oburzać-1, bulwersować-1, wzburzać-1
+            VISITED 2 wzruszać-1, rozczulać-1, roztkliwiać-1, rozrzewniać-1, rozkrochmalać-2
+          2 przywiązywać-2
+            1 oswajać-1, obłaskawiać-2
+              0 udomawiać-1, udamawiać-1, udomowiać-1
+          0 nastrajać-1
+          1 uczulać-2, uwrażliwiać-1, wyczulać-1
+            0 sensybilizować-1
+          1 podrażniać-2
+            VISITED 0 łaskotać-2, łechtać-1, głaskać-2
+          10 satysfakcjonować-1, zadowalać-1
+            8 zaspokajać-2, nasycać-3, sycić-1
+              1 obsługiwać-4
+                0 obskakiwać-1
+              0 pokrywać-2
+              0 gasić-4
+              0 poić-2
+              0 sycić-2, nasycać-4
+              0 wystarczać-3
+              0 zatykać dziurę-1, zapychać dziurę-1
+            0 dogadzać-2, skakać-5
+          32 *wzbudzać uczucia pozytywne-1
+            0 przypadać-5
+            0 wpadać w oko-1
+            0 przypadać do gustu-1
+            0 pieścić-2
+            0 uszczęśliwiać-1
+            0 imponować-1
+            0 rozczytywać-2
+            0 rozkochiwać-1
+            6 zachwycać-1, urzekać-1, czarować-1, olśniewać-1, fascynować-1, oczarowywać-1
+              0 rzucać na kolana-1, kłaść na kolna-1, zwalać z nóg-1, powalać z nóg-1
+              VISITED 1 oszołamiać-1, odurzać-2, porażać-1, ogłuszać-5, oszałamiać-3
+              VISITED 0 zniewalać-1
+              0 hipnotyzować-2
+              0 zapierać dech w piersi-1, zatykać dech w piersi-1, zapierać dech-1
+            1 ożywiać-3
+              0 rozkrochmalać-1
+            1 cieszyć-1, radować-1, weselić-1
+              0 bawić-3
+            0 łaskotać-2, łechtać-1, głaskać-2
+            2 wzruszać-1, rozczulać-1, roztkliwiać-1, rozrzewniać-1, rozkrochmalać-2
+              0 zmiękczać-5, miękczyć-2
+              0 rozklejać-3
+            9 zjednywać-2, chwytać za serce-1, podbijać-2, zawojowywać-2, ujmować-6
+              8 zjednywać-1, zdobywać przychylność-1
+                0 werbować-2, rekrutować-1
+                0 zniewalać-1
+                0 oczarowywać-2
+                1 agitować-1
+                  0 wichrzyć-2
+                0 ubłagiwać-2, przebłagiwać-1
+                0 hołubić-2
+                0 zaskarbiać-1
+          80 *wzbudzać uczucia negatywne-1
+            1 poniżać się-1
+              VISITED 0 upokarzać się-1
+            0 podminowywać-2
+            0 zanudzać-1
+            0 rozsierdzać-1
+            1 obrzydzać-1
+              0 zniesmaczać-1
+            1 przestraszać-1
+              0 płoszyć-2, przepłaszać-1
+            2 złościć-1
+              VISITED 0 rozjątrzać-1
+              0 gniewać-1
+            0 unieszczęśliwiać-1
+            2 doprowadzać-2
+              1 rozwścieczać-1
+                0 rozjuszać-1
+            1 zasmucać-1, smucić-1
+              0 rozżalać-1, rozgoryczać-1
+            5 zawstydzać-1, detonować-2, mieszać-3, peszyć-1, płoszyć-1, deprymować-1, konsternować-1, onieśmielać-1
+              0 krępować-4
+              0 tremować-1
+              0 gasić-3
+              VISITED 0 zaginać-2
+              0 żenować-1
+            2 zatrważać-1, przerażać-1, trwożyć-1
+              0 mrozić krew w żyłach-1
+              0 szokować-2
+            0 zawodzić-4, rozczarowywać-1, sprawiać zawód-1
+            6 zniechęcać-1, odstręczać-1, odstraszać-1, zrażać-1
+              VISITED 0 deprymować-2
+              0 narażać się-3, podpadać-1, załazić za skórę-1
+              0 mierzić-1
+              0 demobilizować-3
+              1 odciągać-7
+                VISITED 0 odsuwać-5
+            5 nudzić-1, nudzić się-2
+              0 przejadać się-1
+              2 powszednieć-1, pospolicieć-1
+                0 przejadać się-3
+                0 banalnieć-1
+              0 nużyć-1
+            0 ziębić-3
+            1 swędzieć-1, swędzić-1
+              0 świerzbić-1, świerzbieć-1
+            4 ranić-3
+              3 dotykać-5, urażać-2
+                2 kłuć-4
+                  0 dźgać-2
+                  0 żądlić-2
+            0 straszyć-1
+            VISITED 13 niepokoić-1, denerwować-2, trapić-1, martwić-1, frasować-1, gnębić-2
+            17 denerwować-1, działać na nerwy-1, psuć krew-1, wyprowadzać z równowagi-1, wnerwiać-1, wytrącać z równowagi-1
+              0 grać na nerwach-1
+              0 rozstrajać-3
+              4 drażnić-2, rozdrażniać-2
+                0 zniecierpliwiać-1, niecierpliwić-1
+                0 rozjątrzać-1
+                0 razić-2, zrażać-2
+                0 irytować-1
+              2 dokuczać-1, dogryzać-1
+                0 wyzłośliwiać się-1
+                0 dowalać-3
+              0 stresować-1
+              0 frustrować-1
+              0 wściekać-1
+              3 oburzać-1, bulwersować-1, wzburzać-1
+                0 szokować-3
+                1 gorszyć-1
+                  0 skandalizować-1
+          6 dziwić-1, zadziwiać-1, zdumiewać-1, zaskakiwać-1
+            0 zażywać-3
+            0 zajeżdżać-8
+            0 zaginać-2
+            1 oszołamiać-1, odurzać-2, porażać-1, ogłuszać-5, oszałamiać-3
+              0 upajać-2
+            0 szokować-1, epatować-1
+      44 ogarniać-2, opanowywać-2, wypełniać-2, obejmować-7, przepełniać-1, unosić-6, przenikać-2
+        0 opadać-10
+        VISITED 0 osaczać-2
+        24 dojmować-1, przejmować-4
+          0 przeszywać-2
+          22 doskwierać-1, dolegać-1, dokuczać-2, dopiekać-2
+            0 kąsać-4
+            0 palić-12
+            0 nękać-2
+            0 kąsać-2, szczypać-2
+            0 zżerać-2
+            0 szarpać-3
+            0 ciążyć-1
+            VISITED 0 przygniatać-1, ciążyć kamieniem-1, ciążyć ołowiem-1, dobijać-5, przybijać-5, przytłaczać-1, przywalać-3
+            0 rozdzierać-2, targać-2
+            13 niepokoić-1, denerwować-2, trapić-1, martwić-1, frasować-1, gnębić-2
+              0 boleć-3
+              0 osaczać-2
+              1 nękać-3, gryźć-3
+                0 spędzać sen z powiek-1
+              0 drążyć-3
+              0 szarpać-4
+              0 bombardować-3
+              5 przygnębiać-1
+                0 dołować-3
+                0 deprymować-2
+                0 przygniatać-1, ciążyć kamieniem-1, ciążyć ołowiem-1, dobijać-5, przybijać-5, przytłaczać-1, przywalać-3
+                1 załamywać-1, podcinać-4, łamać-5, uginać-2, rozkładać-4
+                  0 podłamywać-1
+        3 nachodzić-1, nawiedzać-1
+          1 wstępować-2, opętywać-2
+            0 ponosić-3
+          0 odbijać-16
+        5 wzbierać-1, napływać-4
+          1 zalewać-4
+            0 rozlewać się-2
+          0 rozpalać się-1, rozniecać się-1
+          1 tętnić-1, wrzeć-4, pulsować-1, kipieć-3, burzyć się-4, gotować się-5, buzować-3
+            0 fermentować-2
+        0 udzielać się-2
+        0 rozsadzać-1, rozpierać-2, roznosić-3
+        2 chwytać-2, napadać-3, łapać-3
+          1 brać-26
+            0 zdejmować-6
+        1 pęcznieć-3
+          0 rozdymać-2
+        0 nurtować-1
+    72 *CZASOWNIK - ZDARZENIE NDK oznaczający kontakt fizyczny, który wpływa na obiekt-1
+      0 obruszać-2
+      0 opierzać-1
+      0 odbijać-2
+      0 przysypywać-2
+      0 utykać-5, więznąć-1, grzęznąć-1
+      66 uszkadzać-1
+        0 zarysowywać-1
+        1 kancerować-1
+          0 rysować-3
+        0 zacierać-1
+        2 psuć-3
+          0 palić-9
+          0 naruszać-2
+        0 szczerbić-1, wyszczerbiać-1
+        0 podgryzać-2, podjadać-3, podżerać-3
+        0 obrywać-1
+        0 przepalać-1
+        0 rozregulowywać-1, rozstrajać-2
+        0 zadzierać-2, naddzierać-2
+        3 nadwyrężać-1, nadwerężać-1, nadwątlać-1, nadszarpywać-2
+          0 forsować-2
+          0 naciągać-4
+          0 zdzierać-5
+        1 nadszarpywać-1
+          0 podrywać-4
+        0 zadrapywać-1
+        0 rozjeżdżać-2
+        0 okaleczać-2
+        2 obijać-3, obtłukiwać-1
+          1 utłukiwać-1
+            VISITED 0 odbijać-10, obtłukiwać-2
+        14 dziurawić-1, przedziurawiać-1
+          0 nakłuwać-2
+          1 przewiercać-1
+            0 prześwidrowywać-1
+          0 przestrzeliwać-1
+          0 przerywać-7
+          8 przebijać-2
+            0 przeszywać-4
+            0 wybijać-7
+            1 przekłuwać-1
+              0 nakłuwać-3
+            3 kłuć-3
+              0 dźgać-1, żgać-1
+              VISITED 0 żądlić-1
+              0 bóść-1
+        0 parzyć-1, piec-1, prażyć-1
+        25 kaleczyć-1, kiereszować-1
+          0 ranić-2
+          0 rozwalać-5
+          0 zacinać-3
+          0 sztyletować-1
+          0 przygryzać-1
+          0 ocierać-1, obcierać-1, ścierać-4
+          0 rozcinać-2
+          0 haratać-1
+          1 ciąć-1, ucinać-3, kąsać-3
+            0 żądlić-1
+          0 zdzierać-3
+          6 przecinać-5
+            5 nacinać-1
+              0 karbować-3
+              1 nadcinać-1
+                0 nadrzynać-1
+              0 zacinać-6
+              0 zacinać-7
+          0 rozszarpywać-1
+          1 okaleczać-3
+            0 oślepiać-3
+          0 rozpruwać-1
+          0 obijać-1
+          0 urażać-1
+          0 kąsać-1, gryźć-1
+  1422 *powodować _CZYNNOŚĆ_-1
+    315 *CZASOWNIK - CZYNNOŚĆ NDK oznaczający powodowanie zjawiska fizycznego lub zmiany stanu fizycznego-1
+      2 palić-7
+        VISITED 1 zapalać-2, świecić-4, zaświecać-1
+      0 odprężać-2
+      12 *wytwarzać dźwięk-1
+        0 chrzęścić-2
+        0 brzęczeć-2
+        1 brząkać-2, brzękać-1, szczękać-3
+          0 pobrząkiwać-1, pobrzękiwać-1
+        7 stukać-2, pukać-1, kołatać-1, stukotać-1
+          0 łomotać-1
+          0 tarabanić-1
+          0 dobijać się-2
+          0 tłuc-1, przydzwaniać-1, przywalać-1, przygrzewać-2, dogrzewać-4, łupać-4, rypać-4, rżnąć-3
+          2 grzechotać-1
+            1 szczękać-2
+              0 szczekać-3
+      0 strzykać-1
+      233 wydobywać-2
+        0 emitować-5
+        231 *wydobywać głos-1, wydawać głos-2
+          15 mówić-8
+            0 wykrztuszać-2
+            0 huczeć-1, grzmieć-1
+            0 chrypieć-1
+            1 piszczeć-3
+              0 popiskiwać-2
+            0 bełkotać-2
+            0 buczeć-2
+            1 mamrotać-1, mamlać-2, mamleć-2, mruczeć-1
+              0 pomrukiwać-1
+            0 gaworzyć-1
+            1 cedzić-1
+              0 syczeć-4, sykać-3
+            0 wyrzucać-7
+            VISITED 1 szeptać-1, mówić na ucho-1
+          0 stękać-1
+          0 gulgotać-1, bełkotać-1
+          0 szczękać-1, klapać-2, kłapać-1
+          2 chrząkać-1
+            0 odchrząkiwać-1
+            0 pochrząkiwać-2
+          1 rzęzić-1
+            0 charczeć-1, chrapać-1
+          131 odzywać się-1, przemawiać-1
+            0 fukać-3, prychać-3
+            128 zwracać się-1
+              0 tytułować-2
+              79 wydawać-11
+                78 polecać-1
+                  1 prosić-7
+                    0 upraszać-2
+                  26 zarządzać-2
+                    0 zwoływać-2
+                    1 rozporządzać-2
+                      0 dysponować-3
+                    22 dysponować-1, gospodarować-3, rozporządzać-1, mieć do dyspozycji-1, gospodarzyć się-2, rządzić się-2, gospodarzyć-2
+                      0 mieć w ręku-1, trzymać w ręku-1
+                      4 gospodarować-4
+                        3 oszczędzać-4
+                          0 zaciskać pasa-1
+                          1 szczędzić-1, żałować-4, skąpić-2, sknerzyć-1, chytrzyć-1
+                            0 mieć węża w kieszeni-1
+                      0 rządzić się-3
+                      1 rozporządzać się-1
+                        0 panoszyć się-2, rządzić się-4, szarogęsić się-1
+                      12 zarządzać-1, administrować-1, menedżerować-1, zawiadywać-1, gospodarować-2
+                        11 kierować-1, dyrygować-1
+                          0 szefować-1
+                          0 ordynować-3
+                          0 pociągać za sznurki-1
+                          0 prezesować-1, przewodniczyć-2
+                          0 dyrygować-3
+                          0 dyrektorować-1
+                          0 trzymać w swoich rękach wszystkie nici-1, trzymać w rękach nici-1, skupiać w swoich rękach wszystkie nici-1, skupiać w rękach nici-1, trzymać nici-1, skupiać nici-1, trzymać wszystkie nici-1, skupiać wszystkie nici-1
+                          0 ustawiać się-3
+                          1 redagować-3
+                            0 współredagować-2
+                          0 dowodzić-3
+                  0 zamawiać-5
+                  9 zlecać-1
+                    0 asygnować-2
+                    3 zamawiać-3
+                      0 kontraktować-2
+                      0 obstalowywać-1
+                      0 prenumerować-1
+                    3 powierzać-2
+                      0 dawać-16
+                      0 zdawać-6
+                      0 obsadzać-3
+                  37 nakazywać-1, rozkazywać-1
+                    0 komenderować-1
+                    0 sadzać-2
+                    1 stawiać ... w stan pogotowia-1, stawiać ... w stan gotowości-1
+                      0 mobilizować-4
+                    0 przykazywać-1
+                    0 oddalać-3
+                    0 kazać-3
+                    23 wysyłać-3, posyłać-1, słać-2
+                      1 oddelegowywać-1
+                        0 delegować-2
+                      0 edukować-2, kształcić-2
+                      0 odkomenderowywać-1
+                      0 ekspediować-1
+                      1 podsyłać-2
+                        0 nasyłać-1
+                      0 delegować-1
+                      2 wyprawiać-1
+                        0 ordynować-4
+                        0 odprawiać-2
+                      11 kierować-3
+                        0 przysyłać-2
+                        9 prowadzić-10, wieść-6
+                          0 pilotować-5
+                          2 zabierać-3, brać-24
+                            1 porywać-3, uprowadzać-1
+                              0 zgarniać-3, zagarniać-2
+                          0 sprowadzać-7
+                          0 wieść-7
+                          0 holować-2
+                          1 wodzić-3
+                            0 wywodzić-7
+                    5 wzywać-1, wołać-2, przywoływać-2, przyzywać-1
+                      0 pozywać-2
+                      0 dodzwaniać się-1
+                      1 nawoływać-2
+                        0 hukać-4
+                      0 wywoływać-3, wyrywać-5
+              0 zagajać-1
+              0 odwoływać się-3
+              1 mówić-6
+                0 wołać-3
+              1 zagadywać-1, zagabywać-1
+                0 zaczepiać-1, zahaczać-3
+              0 zapraszać-1, prosić-2
+              19 pytać-1, indagować-1, nagabywać-1, zapytywać-1, zapytywać się-1, zadawać pytanie-1, pytać się-1, zwracać się z pytaniem-1
+                17 zasięgać-1
+                  1 zasięgać opinii-1
+                    VISITED 0 konsultować-3, konsultować się-2
+                  1 radzić się-1, zasięgać rady-1
+                    0 konsultować-3, konsultować się-2
+                  13 dowiadywać się-1, informować się-1, wywiadywać się-1, zasięgać języka-1
+                    1 dopytywać się-1, dopytywać-1
+                      0 podpytywać-1, podpytywać się-1
+                    10 badać-2, sondować-2, wybadywać-1
+                      4 wypytywać-1, wypytywać się-1
+                        0 egzaminować-2
+                        0 spowiadać-2
+                        0 rozpytywać-1, rozpytywać się-1
+                        0 przesłuchiwać-3
+                      2 upewniać się-1
+                        0 utwierdzać się-1
+                        0 przekonywać się-2
+                      0 ankietować-1, ankietyzować-1
+                      0 lustrować-1
+                0 interpelować-1
+              19 prosić-1, zwracać się z prośbą-1
+                1 wypraszać-2
+                  0 pokazywać drzwi-1
+                0 wyciągać rękę-5
+                0 skomleć-2, skamleć-2, skomlić-2
+                0 polecać się-2
+                0 uciekać się-3
+                0 prosić-5
+                0 molestować-2, napastować-2
+                0 jęczeć-3, miauczeć-2
+                1 błagać-1
+                  0 zaklinać-1
+                0 postulować-1
+                VISITED 3 wnioskować-1, wnosić-1
+                VISITED 0 stawiać wniosek-1, wysuwać wniosek-1
+                0 oświadczać się-1, prosić o rękę-1
+                0 wzywać-4, apelować-2, nawoływać-1
+            0 wyrywać się-1
+          13 wypowiadać-1, mówić-5
+            0 odszeptywać-2
+            0 tokować-1
+            0 skandować-1
+            0 trzepać-7
+            1 recytować-1, deklamować-1
+              0 odklepywać-1
+            1 dyktować-2
+              0 literować-1, przeliterowywać-1
+            1 zmawiać-1, odmawiać-3
+              0 modlić się-1, zanosić modły-1, odmawiać pacierz-1
+            2 wygłaszać-1, głosić-2
+              0 przemawiać-4
+              0 kazać-2
+          6 krzyczeć-1, wykrzykiwać-1
+            0 wrzeszczeć-1, drzeć się-1, wydzierać się-1, piłować-7, piłować mordę-1, piłować gębę-1, piłować dziób-1, piłować ryj-1
+            0 ryczeć-2
+            0 pokrzykiwać-1
+            0 wiwatować-1
+            VISITED 0 wołać-1
+            VISITED 0 hukać-2
+          1 jęczeć-1, skowyczeć-2
+            0 pojękiwać-1
+          2 mlaskać-2, ciamkać-1
+            1 cmokać-1
+              0 pykać-2
+          0 czkać-1
+          0 bekać-1
+          0 zanosić się-1
+          1 chrapać-2
+            0 pochrapywać-1
+          5 kaszleć-1, kasłać-1
+            0 wykrztuszać-1
+            0 pokasływać-1, pokaszliwać-1
+            1 odkaszliwać-1, odkasływać-1
+              0 odkrztuszać-1
+            0 krztusić się-1, dławić się-1, zachłystywać się-1
+          0 syczeć-2, sykać-1
+          0 parskać-2
+          0 chrupać-1
+          6 śmiać się-1
+            0 śmiać się do rozpuku-1
+            0 kwiczeć-1
+            0 zarykiwać się-1
+            0 rżeć-2
+            0 chichotać-1
+            0 rechotać-1, zaśmiewać się-1
+          13 wymawiać-1, artykułować-2, wypowiadać-2
+            0 zaciągać-7
+            0 mazurzyć-1
+            0 depalatalizować-1
+            0 aspirować-2
+            0 akcentować-1
+            0 miękczyć-3, zmiękczać-3, palatalizować-1
+            0 przeciągać-3
+            0 intonować-1
+            0 unosawiać-1
+            0 ubezdźwięczniać-1
+            0 udźwięczniać-1
+            0 grasejować-1
+            0 seplenić-1
+          13 śpiewać-1, odśpiewywać-1
+            0 śpiewać do kotleta-1
+            0 muzykować-2
+            0 wyciągać-5
+            0 przyśpiewywać-1
+            0 kolędować-2
+            0 basować-1
+            0 falsetować-1
+            0 zawodzić-2
+            0 jodłować-1, jodlować-1
+            3 fałszować-2
+              0 wyć-4, zawodzić-5
+              0 beczeć-3
+              0 kiksować-1, ucinać koguta-1, wycinać koguta-1
+      5 rozmnażać-1, mnożyć-2, rozpleniać-1, pomnażać-2
+        0 sadzonkować-1
+        VISITED 0 krzyżować-2, hybrydyzować-1
+        0 odkładać-4
+        0 rozkrzewiać-1
+        0 klonować-1
+      1 tłumić-2, wytłumiać-3
+        0 amortyzować-1
+      19 moczyć-1
+        0 obmywać-1, omywać-3
+        VISITED 0 zalewać-3
+        0 zlewać-1
+        0 pryskać-4, spryskiwać-2, opryskiwać-2
+        0 ochlapywać-1, opryskiwać-1, obryzgiwać-1, zapryskiwać-1, zabryzgiwać-1, zachlapywać-1
+        3 nawilżać-1
+          0 podlewać-2
+          1 nawadniać-1, nawodniać-1
+            0 irygować-1
+        0 przemaczać-1
+        5 zwilżać-1
+          0 ślinić-1
+          0 spryskiwać-3, opryskiwać-4
+          1 skrapiać-1, kropić-2, nakrapiać-1, skraplać-1, wypsikiwać-1
+            0 perfumować-1
+          0 zraszać-1
+        VISITED 0 osikiwać-1
+        VISITED 0 posikiwać-1
+        VISITED 0 zasikiwać-1
+      38 zanieczyszczać-1
+        1 okopcać-1
+          0 osmalać-1
+        0 zadymiać-1
+        0 bałaganić-2
+        0 zasalać-2
+        0 zasiarczać-1
+        0 smrodzić-1, zasmradzać-1
+        0 zaczadzać-1
+        1 śmiecić-1, zaśmiecać-2, brudzić-2
+          0 barłożyć-1, świntuszyć-3
+        0 zatruwać-4, truć-2, skażać-1
+        0 zamulać-1
+        25 brudzić-1, babrać-1, paprać-2, zabrudzać-1
+          0 świnić-1, zaświniać-1
+          0 opluwać-2
+          0 smolić-1
+          0 tytłać-1
+          0 obielać-3
+          0 przepacać-1, zapacać-1
+          0 deptać-2, zadeptywać-2
+          0 wymazywać-3, mazać-2
+          0 zapluwać-1
+          5 plamić-1
+            0 ciapać-1
+            0 ośliniać-1
+            0 zalewać-3
+            0 tłuścić-2, wytłuszczać-1
+            0 zakrwawiać-1, okrwawiać-1
+          0 kurzyć-2
+          0 smarować-4, obsmarowywać-1
+          0 osikiwać-1
+          0 posikiwać-1
+          0 zasikiwać-1
+          0 paskudzić-1, zapaskudzać-1
+          0 osrywać-1
+          0 paćkać-1
+          0 błocić-1
+          0 pstrzyć-2
+    0 *CZASOWNIK - CZYNNOŚĆ NDK oznaczający powodowanie zmiany w obrębie relacji abstrakcyjnych-1
+    182 *CZASOWNIK - CZYNNOŚĆ NDK oznaczający powodowanie zmiany sytuacji związanych (lub sytuacji związanych) ze współżyciem w społeczeństwie-1
+      0 upolityczniać-1
+      66 *robić coś niezgodnego z prawem lub z normami społecznymi-1
+        0 warzyć piwo-1
+        24 naruszać-4, łamać-1, przekraczać-2, burzyć-2, zaburzać-1, uchybiać-1, wykraczać-1
+          0 zdradzać-2, przypinać rogi-1, przyprawiać rogi-1
+          0 faulować-2
+          0 mącić-1, zmącać-2, zamącać-3
+          0 zapominać się-1
+          0 włamywać się-2
+          0 włamywać się-1
+          0 obrażać-2
+          0 grzeszyć-1, popełniać grzech-1
+          0 gwałcić-2, pogwałcać-1
+          0 wstrząsać-2
+          0 deptać-3
+          4 zakłócać-1, kłócić-2
+            0 wprowadzać-9
+            1 przerywać-2
+              VISITED 0 przecinać-4
+            0 mieszać-6
+          7 dezorganizować-1
+            0 demontować-2
+            0 rozsadzać-4
+            0 rozbijać-8
+            0 rozprzęgać-1
+            0 rozregulowywać-2, rozstrajać-1
+            0 anarchizować-1
+            0 destabilizować-1
+        39 dopuszczać się-1, popełniać-1
+          0 sprzeniewierzać-2
+          37 oszukiwać-1, nabierać-2
+            0 zapędzać w kozi róg-1
+            0 grać na nosie-1
+            0 robić na szaro-1, przerabiać na szaro-1
+            0 nabijać w butelkę-1
+            0 wyprowadzać w pole-1, wywodzić w pole-1
+            0 wystawiać do wiatru-1
+            0 bawić się w chowanego-1, bawić się w kotka i myszkę-1
+            0 wymanewrowywać-1
+            0 otumaniać-2
+            0 przechytrzać-1
+            0 zamydlać oczy-1, mydlić oczy-2
+            VISITED 1 podstawiać-3
+            4 zdobywać podstępem-1
+              2 wyłudzać-1
+                0 naciągać-5
+                VISITED 0 wyciągać-2
+              0 wyciągać-3
+            0 rolować-2
+            0 machlować-1
+            0 dezinformować-1
+            0 cyganić-1
+            0 kiwać-1
+            0 rąbać-10
+            0 nacinać-2
+            3 zwodzić-1, mamić-1, łudzić-1, mylić-1
+              1 dezorientować-1
+                0 zamącać-2
+              0 blefować-2, bluffować-1
+            VISITED 7 kłamać-1, łgać-1, bujać-2, rozmijać się z prawdą-1, mijać się z prawdą-1
+      5 wyrządzać-1
+        0 kopać w dupę-1, kopać w tyłek-1
+        VISITED 0 osławiać-2
+        0 płatać-2
+        1 wyrządzać krzywdę-1, urządzać-2, załatwiać-3, wyrządzać szkodę-1, czynić coś złego-1
+          0 czynić zło-1
+      0 wpuszczać-3
+      17 zapewniać-2
+        1 ubezpieczać-2
+          0 asekurować-2
+        2 zastrzegać-2, rezerwować-2
+          0 patentować-1
+          0 obwarowywać-2
+        VISITED 0 zagwarantowywać-1, gwarantować-1
+        0 zawarowywać-1
+        0 utrzymywać-4
+        1 poręczać-1
+          0 żyrować-1
+        1 zabezpieczać-3
+          0 urządzać-3
+        4 zabezpieczać-1
+          0 obudowywać-2
+          1 ubezpieczać-1
+            0 reasekurować-1
+          0 konsolidować-1
+      2 wypominać-1, wyrzucać-2, wymawiać-4
+        0 wytykać-1, wytykać palcem-1
+        0 wygarniać-2
+      1 oddalać-2
+        0 odsuwać-5
+      4 zajmować-8
+        0 zabawiać-1, bawić-2
+        0 absorbować-1
+        0 trudzić-1, fatygować-1
+        0 zagadywać-2
+      0 wsławiać-1, rozsławiać-1, opromieniać-1
+      25 rozpowszechniać-1, szerzyć-1, upowszechniać-1, rozprzestrzeniać-2
+        0 rozkrzewiać-2
+        0 osławiać-2
+        0 siać-1
+        0 nagłaśniać-2, nagłośniać-2, nadawać rozgłos-1
+        4 propagować-1
+          VISITED 0 kosmopolityzować-1
+          0 lansować-1
+          0 popularyzować-1
+          0 krzewić-1
+        1 przenosić-8, przeszczepiać-2
+          0 implantować-2
+        13 rozgłaszać-1, głosić-1, trąbić-4, roznosić-5, rozsiewać-2
+          1 rozpowiadać-1, rozgadywać-1
+            0 bębnić-4
+          0 puszczać-16
+          0 kosmopolityzować-1
+          8 wysławiać-1, błogosławić-1, gloryfikować-1, głosić chwałę-1, głosić sławę-1, opiewać-1, podnosić-10, sławić-1, śpiewać-4, wychwalać-1
+            0 wielbić-2, czcić-3, chwalić-1, adorować-1
+            0 wynosić pod niebiosa-1, wychwalać pod niebiosa-1
+            5 idealizować-1, apoteozować-1, gloryfikować-2
+              0 absolutyzować-1
+              0 heroizować-1
+              2 uwznioślać-1, sublimować-1, uduchawiać-1
+                1 uszlachetniać-2
+                  0 uczłowieczać-1, humanizować-1
+        VISITED 0 wynosić-7
+      52 zostawiać-2, pozostawiać-1
+        0 osamotniać-1
+        0 zapominać-1
+        0 porzucać-1
+        2 opuszczać-4
+          0 odchodzić-8
+          0 rzucać-12
+        45 opuszczać-1
+          0 katapultować się-1
+          0 ewakuować się-1
+          1 zjeżdżać-1, wynosić się-1, spadać-6
+            0 wytykać-2, szurać-3, wyginać-3
+          0 wypływać-7
+          0 odpływać-1
+          0 wstawać-2
+          0 zjeżdżać-2
+          1 ustępować-2
+            0 przepuszczać-4
+          0 wyfruwać-1
+          0 wyfruwać-2
+          0 wylatywać-1
+          0 wypadać-1
+          1 wymykać się-1, wyślizgiwać się-1, wysuwać się-1, wykradać się-1
+            0 urywać się-2
+          9 wychodzić-5
+            0 wymaszerowywać-2
+            0 wymaszerowywać-1
+            0 ewakuować się-2
+            0 wysiadać-1
+            0 wyłazić-1
+            0 znikać-1, ulatniać się-1
+            2 występować-8, wychodzić-6
+              0 wylegać-1, wysypywać się-1
+              0 wytaczać się-1
+          11 wydostawać się-2
+            0 odkopywać się-1
+            0 wykluwać się-1, wylęgać się-1, kluć się-1, lęgnąć się-1, ląc się-1, ulęgać się-1
+            0 wypływać-2, wynurzać się-2
+            0 wykopywać się-1
+            0 wyplątywać się-1
+            0 wyczołgiwać się-1, wypełzać-1
+            0 gramolić się-1
+            2 wylatywać-5
+              0 roić się-4, wyrajać się-2
+              0 wyfruwać-3
+            0 wyrywać się-2
+          2 usuwać się-1
+            0 rozstępować się-1, rozsuwać się-1
+            0 uskakiwać-1
+          2 wybiegać-1
+            0 wylatywać-7
+            0 wyrywać się-4
+          0 wyprowadzać się-1
+    59 *CZASOWNIK - CZYNNOŚĆ NDK oznaczający powodowanie zmiany posiadania lub sytuację związaną z posiadaniem-1
+      58 zabierać-1, odbierać-1, pozbawiać-1
+        0 amputować-2
+        3 okradać-1, obrabiać-1
+          2 odzierać-2
+            0 golić-1
+            0 oskubywać-2, skubać-5, obskubywać-2
+        0 spychać-3
+        0 wyślizgiwać-2
+        0 wywłaszczać-1
+        0 ubezwłasnowolniać-1
+        5 nadbierać-1
+          0 odsypywać-1
+          3 odlewać-2, ulewać-1
+            1 zlewać-4
+              0 odlewać-3
+            0 obciągać-3
+        0 ogołacać-1, ogałacać-1, obskubywać-1, oskubywać-1
+        0 rozbrajać-1
+        0 wtrącać-1
+        0 odzierać-1
+        0 odstawiać-2
+        0 odsłaniać-2
+        0 odbierać-4
+        0 wyzuwać-1
+        0 ujmować-5
+        3 odejmować-1, ujmować-4
+          0 usypywać-2
+          1 zaczynać-6, napoczynać-2, naruszać-3
+            0 ujadać-2
+        2 zajmować-3, zatrzymywać-1, rekwirować-1
+          0 aresztować-2, sekwestrować-1
+          0 konfiskować-1
+        0 kastrować-1
+        0 wyrywać-2
+        0 wydziedziczać-1
+        0 ruszać-7
+        0 dezaktywizować-1
+        0 odbijać-5
+        1 degradować-3
+          0 detronizować-1
+        17 przywłaszczać-1, zagarniać-1, zawłaszczać-1, sięgać po cudze-1, zagrabiać-2
+          0 uzurpować-1
+          0 defraudować-1, sprzeniewierzać-1, malwersować-1
+          14 kraść-1, zgarniać-1, zwijać-4
+            0 ściągać-10
+            0 wynosić-3
+            0 podprowadzać-1
+            0 szabrować-1
+            0 podkradać-1, podbierać-1
+            0 wykradać-1
+            7 rabować-1, grabić-1, łupić-1
+              1 obrabowywać-1, ograbiać-1, obłupiać-1
+                0 rozbijać-9
+              4 rozkradać-1
+                0 rozwłóczyć-2
+                0 rozszabrowywać-1
+                0 rozwlekać-4
+                0 rozgrabiać-1
+        0 dekompletować-1
+    112 *CZASOWNIK - CZYNNOŚĆ NDK oznaczający powodowanie zmiany położenia lub relacji przestrzennych-1
+      68 dzielić-1
+        1 rozdrabniać-2
+          0 rozpraszać-6
+        0 rozpisywać-3
+        0 atomizować-1
+        0 parcelować-1, rozparcelowywać-1
+        1 rozbijać-7
+          0 rozstrzeliwać-2
+        60 oddzielać-1, odgraniczać-1, rozgraniczać-1
+          19 izolować-1, odseparowywać-1, odosobniać-1, odosabniać-1
+            0 separować-1
+            0 odcinać-3
+            0 wyizolowywać-3
+            15 oddzielać-3
+              1 rozłączać-2, rozdzielać-4
+                0 separować-2
+              0 wyizolowywać-1
+              10 odłączać-3
+                0 odrywać-5
+                8 wykluczać-1, wyłączać-2
+                  1 wypisywać-3
+                    0 wyrejestrowywać-1
+                  0 eliminować-2
+                  0 pomijać-2
+                  0 dyskwalifikować-3
+                  1 wyklinać-1
+                    0 ekskomunikować-1
+                  0 wyjmować-2
+              0 odgradzać-2
+          39 rozdzielać-1, przedzielać-1
+            38 przegradzać-1
+              37 odgradzać-1
+                36 osłaniać-1, zasłaniać-2
+                  33 zakrywać-1
+                    31 przykrywać-1, nakrywać-1
+                      26 pokrywać-7
+                        0 wykropkowywać-1
+                        4 kłaść-7
+                          3 wykładać-4
+                            1 wyklejać-1
+                              0 tapetować-1
+                            0 brukować-1, kostkować-2
+                        1 poszywać-1
+                          0 pokrywać-3
+                        0 zabazgrywać-1
+                        3 wysypywać-1
+                          1 nasypywać-2
+                            0 dosypywać-1
+                          0 żwirować-1
+                        2 zazieleniać-2
+                          1 zadrzewiać-1
+                            0 zalesiać-1
+                        0 zakładać-10
+                        0 cętkować-1
+                        0 zadrukowywać-1
+                        0 deskować-1
+                        5 obsypywać-2, posypywać-1, osypywać-1
+                          0 opylać-1
+                          0 talkować-1
+                          1 oprószać-2
+                            0 przyprószać-1
+                          0 nasalać-2
+                      0 dekować-2
+                      1 zasypywać-2
+                        0 zagruzowywać-1
+                      0 okrywać-1
+                    0 obudowywać-1
+                  0 kratować-1, okratowywać-1
+                  0 obkładać-2
+      2 wprowadzać-8, wwodzić-1
+        0 wpędzać-2, wganiać-1
+        0 wsadzać-3
+      2 schodzić-3, złazić-2
+        0 spełzać-2
+        0 zsiadać-1
+      29 ruszać-6, poruszać-2, wprawiać w ruch-1
+        0 wzruszać-2
+        0 wirować-5
+        0 wahać-1
+        0 nakręcać-2
+        2 napędzać-2
+          0 wiosłować-3
+          0 pedałować-1
+        8 przesuwać-5
+          3 prowadzić-15
+            0 jeździć-6
+            1 wodzić-1, wieść-2
+              0 błądzić-4
+          0 przeciągać-7
+          0 pociągać-6
+          1 muskać-1, lizać-2
+            0 łaskotać-1, łechtać-2, łachotać-1
+        3 ciągnąć-7, pociągać-4, ciągać-1
+          0 skubać-4
+          1 szarpać-1, drzeć-4, szamotać-1, tarmosić-1
+            0 targać-3
+        0 przetrząsać-2
+        0 manipulować-1, manewrować-1
+        3 trząść-1, potrząsać-1, wstrząsać-1
+          0 wytrząsać-3
+          0 wibrować-1
+          0 trzepać-8
+        2 kręcić-4, obracać-2, okręcać-2
+          0 przekręcać-3
+          0 zakręcać-6
+      6 odbijać-11
+        0 podkręcać-3
+        0 kozłować-2
+        0 kiksować-2
+        0 piąstkować-1
+        0 ścinać-1
+        0 główkować-2
+    115 *CZASOWNIK - CZYNNOŚĆ NDK oznaczający powodowanie zm. sytuacji związanej z łańcuchem przyczynowo-skutkowym lub czasowym-1
+      0 płatać figle-2
+      3 oddalać-4
+        0 przeganiać-6
+        0 odpędzać-2
+        0 opędzać się-1
+      88 utrudniać-1
+        0 przysłaniać-2, przesłaniać-2
+        0 torpedować-1
+        0 sabotować-1
+        0 hermetyzować-1
+        0 głuszyć-2, zagłuszać-2
+        4 komplikować-1, gmatwać-1, wikłać-2, plątać-2, zapętlać-1
+          0 mieszać-5, mącić-4
+          0 motać-4
+          0 zaciemniać-2
+          0 zabagniać-2
+        77 przeszkadzać-1, zawadzać-1
+          0 podkładać nogę-1, podstawiać nogę-1
+          0 rzucać kłody pod nogi-1
+          1 krzyżować plany-1, krzyżować-3, psuć szyki-1, krzyżować szyki-1, mieszać szyki-1
+            0 bruździć-2
+          0 rozpraszać-5, dekoncentrować-2, rozkojarzać-1
+          16 przerywać-4
+            VISITED 2 odcinać-2
+            0 przecinać-4
+            0 rozłączać-3
+            0 gilotynować-3
+            1 zatrzymywać-6, stopować-2
+              0 blokować-8, zablokowywać-7
+            4 przebudzać-1
+              3 wyrywać-6, wytrącać-3
+                2 budzić-3, rozbudzać-2, wybijać ze snu-1, wybudzać-1, przebudzać-2
+                  0 zrywać-7
+                  0 wybudzać-2
+            2 przerywać-8, wchodzić w słowo-1
+              1 wtrącać-2, wcinać się-3
+                0 wtrącać się-2, wtrącać swoje trzy grosze-1
+          0 odrywać-4
+          0 razić-1, oślepiać-1, kłuć-1
+          0 bałaganić-1
+          28 przeszkadzać-2, zawadzać-5
+            0 wchodzić na głowę-1
+            3 uwierać-1
+              0 krępować-3
+              0 wżerać się-3
+              0 uciskać-3
+            22 blokować-2, tamować-3, zablokowywać-6, zagradzać-1, tarasować-1, zawalać-3
+              0 zasuwać-3
+              0 zapierać-1
+              0 zaklinowywać-2
+              0 barykadować-1
+              0 zajeżdżać-11
+              0 zagradzać się-2
+              4 zamykać-7
+                2 odcinać-2
+                  1 wyłączać-4, odłączać-5
+                    0 odbezpieczać-2
+                0 zamurowywać-2
+              0 korkować-1
+              VISITED 8 zatykać-2, zapychać-2
+              0 zastawiać-3
+          25 uniemożliwiać-1, udaremniać-1
+            0 paraliżować-2
+            0 ogłuszać-4
+            0 odcinać-4
+            0 uziemiać-1
+            VISITED 3 trzymać-2
+            1 zablokowywać-4
+              0 blokować-4
+            0 dyskwalifikować-2
+            3 łapać-2, chwytać-5
+              0 przyskrzyniać-1
+              0 aresztować-1
+              0 ujmować-2, zatrzymywać-3
+            0 paraliżować-3
+            2 unieszkodliwiać-1
+              1 uciszać-2
+                0 kneblować-2
+            3 zatrzymywać-5
+              2 tamować-2
+                0 zapierać oddech-1, zapierać dech-2
+                0 zatykać-3, dławić-3, dusić-3
+            0 więzić-1
+            0 grzebać-3, przekreślać-2
+      7 opóźniać-1, przewlekać-2
+        3 odkładać-1
+          0 wstrzymywać się-2, odczekiwać-2
+          1 odwlekać-1, odsuwać-3, oddalać-6
+            0 grać na zwłokę-1
+        0 odciągać-4
+        1 odraczać-1
+          0 prolongować-1
+      12 doprowadzać-1, sprowadzać-3, przyprowadzać-1
+        0 przyganiać-3, przypędzać-1
+        0 przewodzić-1
+        0 doholowywać-1
+        0 doholowywać-2
+        0 spędzać-2, zapędzać-2, zaganiać-2, zganiać-1
+        0 przyholowywać-2
+        0 importować-1
+        0 przywodzić-1
+        0 podstawiać-4
+        0 zaprowadzać-1
+        0 dostawiać-2
+        0 prowadzić-5
+    92 *CZASOWNIK - CZYNNOŚĆ NDK oznaczający kontakt fizyczny, który wpływa na obiekt-1
+      17 uruchamiać-3, uruchomiać-3
+        0 otwierać-6
+        0 odblokowywać-3
+        14 włączać-5
+          1 restartować-1, resetować-1
+            0 resetować-2
+          1 zapalać-2, świecić-4, zaświecać-1
+            0 migać-4
+          0 dzwonić-2
+          0 puszczać-12
+          2 odkręcać kurek-1
+            0 odkręcać gaz-1
+            0 odkręcać wodę-1
+          0 włączać-2
+          0 włączać-6
+          2 zapalać-4
+            0 odpalać-7
+            0 odpalać-6, zapuszczać-5
+      2 wybijać-4
+        0 odbijać-10, obtłukiwać-2
+        0 wytrącać-2
+      24 naciskać-3, przyciskać-2, uciskać-1
+        1 dociskać-1
+          0 dobijać-6
+        0 klikać-1
+        0 napierać-3, przeć-3
+        0 przyduszać-2
+        6 trzeć-2
+          0 łasić się-1
+          2 pocierać-1
+            1 drapać-2
+              0 skrobać-3
+          1 masować-1, rozmasowywać-1
+            0 rozcierać-2
+        7 przygniatać-2
+          0 przytłaczać-2
+          0 przysiadać-3, przysiadywać-2
+          0 przytrzaskiwać-1
+          0 przywalać-5
+          1 przybijać-4
+            0 opieczętowywać-2
+          0 zasypywać-4
+        3 następować-2, nadeptywać-1
+          1 wchodzić-14
+            0 włazić-8
+          0 deptać-6, przydeptywać-1
+      31 zamykać-4, zawierać-2
+        0 zamykać na trzy spusty-1
+        0 zaciągać-3
+        0 przymykać-1
+        0 zawalać-4
+        3 zapinać-1
+          0 zapinać się-2
+          1 dopinać-2
+            0 dopinać się-1
+        1 zakrywać-3
+          0 przykrywać-3
+        0 ryglować-2, zaryglowywać-1
+        0 zaślepiać-2
+        0 zatrzaskiwać-2
+        0 zatrzaskiwać-3, przytrzaskiwać-2
+        1 zawiązywać-9
+          0 sznurować-4
+        2 zakręcać-5
+          0 nakręcać-5
+          0 dokręcać-3
+        0 zabijać-7
+        8 zatykać-2, zapychać-2
+          0 zalewać-7
+          2 uszczelniać-1
+            0 hermetyzować-2
+            0 iłować-1
+          0 szpuntować-1, czopować-1, zaczopowywać-1
+          0 kneblować-1
+          0 przytykać-3
+          0 korkować-3
+        0 mrużyć-1, przymrużać-1, zmrużać-1
+        0 domykać-1
+      13 bić-5, dawać-4, lać-3, okładać-1, młócić-1, prać-2
+        0 przekładać przez kolano-1
+        0 dawać wycisk-1
+        0 policzkować-1
+        0 pałować-1
+        0 masakrować-1
+        0 trzepać-6
+        0 boksować-1
+        0 katować-1
+        3 chłostać-1, siekać-2, smagać-1, siec-1
+          0 zacinać-2
+          0 batożyć-1
+          0 biczować-1
+        0 tłuc-4, grzać-3
+    514 *CZASOWNIK - CZYNNOŚĆ NDK oznaczający powodowanie zm. stanu mentalnego lub emocjonalnego albo reakcję emocjonalno-fizjologiczną-1
+      1 odprężać-1, relaksować-1, wyluzowywać-1, rozluźniać-2
+        0 odmóżdżać-1
+      435 komunikować-2
+        0 powtarzać się-1
+        0 odmeldowywać się-1
+        321 informować-1, udzielać informacji-1
+          0 dawać znać-1
+          0 objaśniać-2
+          0 notyfikować-1
+          0 wykrzykiwać-2
+          0 dzielić się-3
+          0 sygnalizować-2
+          0 instruować-1, pouczać-1
+          2 świadczyć-2
+            0 zaświadczać-1
+            0 podpisywać-1
+          2 przypominać-2
+            0 monitować-1
+            0 przypominać się-1
+          0 pokazywać-3
+          0 mówić-1
+          6 zgłaszać-1
+            0 wymeldowywać-1
+            0 zamawiać-2
+            0 przelicytowywać-2
+            1 licytować-2
+              0 kontrować-1
+            0 odzywać się-3
+          0 meldować-1, raportować-1
+          52 zapoznawać-1, zaznajamiać-1
+            0 podawać się-1
+            0 przybliżać-1
+            32 opisywać-1
+              0 odmalowywać-1
+              0 algorytmizować-1
+              0 blazonować-1
+              0 charakteryzować-2
+              27 przedstawiać-2
+                0 hiperbolizować-1
+                0 monumentalizować-1
+                0 roztaczać-3
+                0 przejaskrawiać-1
+                0 personifikować-2, uosabiać-2, uczłowieczać-2
+                0 nakreślać-2, zarysowywać-2
+                1 odtwarzać-4
+                  0 odwzorowywać-1
+                0 pokazywać-2
+                0 obrazować-1
+                0 odzwierciedlać-1, oddawać-1
+                1 przekładać-6
+                  0 tłumaczyć-4
+                10 opowiadać-1
+                  0 bajać-2
+                  0 zdawać-5
+                  0 częstować-3
+                  0 zwierzać się-1, wynurzać się-3, wywnętrzać się-1, otwierać duszę-1, odkrywać duszę-1, otwierać serce-1
+                  0 karykaturować-2
+                  0 portretować-2
+                  0 malować-1, odmalowywać-2
+                  0 rysować-2
+                  0 kreślić-3
+                  VISITED 0 zeznawać-1, składać zeznanie-1, świadczyć-3
+                2 streszczać-1
+                  VISITED 0 rekapitulować-1
+                  VISITED 0 reasumować-1
+            1 wprowadzać-7
+              0 wtajemniczać-1
+            14 kształcić-1, uczyć-1, edukować-1, szkolić-1, nauczać-1
+              0 wychowywać-1
+              0 wyuczać-2
+              0 przyuczać-1
+              0 dokształcać-1, douczać-1
+              0 wypuszczać-6
+              1 przeszkalać-1
+                VISITED 0 przekwalifikowywać-1
+              0 pokazywać-7
+              0 specjalizować-1
+              5 przygotowywać-4
+                0 wyuczać-1
+                0 przekwalifikowywać-1
+                0 przysposabiać-2, sposobić-2
+                0 kreować-3
+                0 trenować-1
+          8 uświadamiać-1, oświecać-1
+            0 trzeźwić-2, otrzeźwiać-2
+            0 uprzytamniać-1, uzmysławiać-1, otwierać oczy-1
+            5 przypominać-3, wydobywać z niepamięci-1, wydobywać z zapomnienia-1, wywoływać z pamięci-1
+              0 mieć na końcu języka-1
+              0 odkurzać-2
+              0 odgrzewać-2
+              0 przywoływać-3
+              0 wygrzebywać-3, odgrzebywać-2, wyciągać-13
+          0 awizować-1
+          37 oznajmiać-1, oświadczać-1
+            0 wywoływać-2
+            7 zgłaszać się-1
+              0 wymeldowywać się-1
+              3 wpisywać się-1, zapisywać się-1
+                0 akredytować się-1
+                0 rejestrować się-1
+                0 dopisywać się-2
+              1 meldować się-1, zameldowywać się-1
+                0 przemeldowywać się-1
+            0 wieścić-1
+            0 deklarować się-1
+            25 stwierdzać-1, twierdzić-2
+              0 spekulować-1
+              9 uznawać-2
+                2 uniżać się-1
+                  1 korzyć się-1, chylić głowę-2, bić czołem-2, bić pokłony-2
+                    0 iść do Canossy-1, iść do Kanossy-1
+                0 legitymować-3
+                0 honorować-2
+                VISITED 0 rehabilitować-3
+                0 przekładać-7
+                0 adoptować-1
+                VISITED 0 cenić-1, doceniać-1
+              0 wyrokować-2
+              1 przyznawać-1
+                0 rehabilitować-3
+              11 orzekać-2
+                0 ferować-1
+                9 potwierdzać-1
+                  0 konfirmować-2
+                  3 poświadczać-1
+                    0 kwitować-2
+                    1 przybijać-3, przyklepywać-1
+                      0 przybijać piątkę-1
+                  0 usprawiedliwiać-2
+                  0 dokumentować-2
+                  1 przyznawać się-1
+                    0 upokarzać się-1
+          VISITED 10 zapewniać-1, upewniać-1
+          VISITED 13 uprzedzać-1, zapowiadać-1
+          56 ujawniać-1, wyjawiać-1, zdradzać-1, odkrywać-1
+            0 wyciągać na jaw-1, wydobywać na jaw-1, wyciągać na światło dzienne-1, wydobywać na światło dzienne-1
+            1 odtajniać-1
+              0 ujawniać się-3
+            0 określać się-1
+            0 wynosić-7
+            43 zdradzać się-1, odkrywać się-1
+              0 przewracać oczami-2, wywracać oczami-2
+              VISITED 0 wydawać się-1
+              0 otwierać się-2, odsłaniać się-1, odblokowywać się-2
+              0 ujawniać się-2
+              38 wyrażać-2, okazywać-1, uzewnętrzniać-1, objawiać-1
+                0 podnosić głowę-2
+                0 wylewać-4
+                0 wykazywać-1
+                0 dziękować-3
+                11 pokazywać-8, demonstrować-1, przejawiać-1, manifestować-1
+                  0 emanować-3, promieniować-3, promienieć-2, jaśnieć-2
+                  0 krzywić się-2, skrzywiać się-2
+                  0 nabzdyczać się-1
+                  0 afiszować-1
+                  5 obnosić się-1, afiszować się-1, obnosić-1
+                    4 popisywać się-1
+                      0 snobować się-2
+                      0 sadzić się-1
+                      0 brylować-2
+                      0 szpanować-1
+                  0 uśmiechać się-1, posyłać uśmiech-1
+                VISITED 4 wyznawać-1
+                0 dawać ujście-1, dawać upust-1
+                5 szanować-1, poważać-1, liczyć się-1
+                  0 chylić czoła-1, chylić czoło-1, chylić głowę-1
+                  1 czcić-4
+                    0 honorować-1
+                  0 czcić-1
+                  0 cenić-1, doceniać-1
+                VISITED 9 narzekać-1, skarżyć się-1, uskarżać się-1, utyskiwać-1, sarkać-1, stękać-2
+            8 demaskować-1, dekonspirować-1, obnażać-1
+              0 zadawać kłam-1, zadawać fałsz-1
+              0 rozpracowywać-1
+              4 wyznawać-1
+                0 wypłakiwać-1
+                0 spowiadać się-1, jednać się z Bogiem-1
+                1 powierzać-4
+                  0 wtajemniczać-2, dopuszczać do tajemnicy-1
+              0 kompromitować-2
+            VISITED 3 wydawać-6
+          4 zgłaszać-2, proponować-3
+            0 wyciągać rękę-3, wyciągać dłoń-2
+            1 licytować-3
+              0 przelicytowywać-1
+            0 podrzucać-6
+          117 podawać-1
+            0 odczytywać-1
+            0 opiewać-2
+            0 przynosić-3
+            0 wyczytywać-1
+            20 ogłaszać-1, obwieszczać-1
+              0 ogłaszać się-2
+              0 promulgować-1
+              0 rozpisywać-1
+              1 odgwizdywać-2
+                0 odgwizdywać-3
+              0 proklamować-1
+              13 uprzedzać-1, zapowiadać-1
+                0 zapowiadać się-3
+                0 zastrzegać-1, zastrzegać się-1
+                0 prezentować-4
+                0 anonsować-1
+                0 meldować-3, anonsować-2
+                0 awizować-2
+                6 ostrzegać-1, przestrzegać-2
+                  0 alarmować-2, bić na alarm-1
+                  3 zapowiadać-3
+                    2 grozić-2, odgrażać się-1, straszyć-2, wygrażać-1
+                      0 machać szabelką-1, wymachiwać szabelką-1, potrząsać szabelką-1
+                      0 szantażować-1
+                  0 pilotować-2
+            0 deklarować-2
+            5 wskazywać-3, pokazywać-4
+              0 wydzwaniać-3
+              0 śpieszyć się-2, spieszyć się-2
+              0 spóźniać się-1, późnić się-1, opóźniać się-2
+              1 wybijać-2
+                0 bić-14, nabijać-4
+            VISITED 62 przedstawiać-1
+            3 wydawać-2
+              2 wydawać wyrok-1
+                0 uniewinniać-1
+                0 skazywać-1, zasądzać-2
+            0 kwotować-1
+            12 wymieniać-1, wyliczać-1, wyszczególniać-1
+              0 specyfikować-1
+              0 cytować-2
+              0 wypisywać-2
+              0 recytować-2
+              3 odmieniać-2
+                0 stopniować-2
+                0 koniugować-1
+                0 deklinować-1
+              3 liczyć-5
+                0 doliczać się-1
+                0 odliczać-1
+                0 doliczać-1
+            3 przekazywać-3, powtarzać-1
+              0 przelewać-3
+              0 przywozić-2
+              0 przemycać-2
+          0 kablować-1, kapować-1
+          11 donosić-1, zawiadamiać-1, powiadamiać-1, sygnalizować-1, uwiadamiać-1
+            0 notyfikować-2
+            7 donosić-2
+              0 nadawać-8
+              0 skarżyć-2
+              4 denuncjować-1
+                3 wydawać-6
+                  0 wygadywać się-1
+                  0 wydawać się-1
+                  0 wkopywać-4
+            0 wzywać-3, alarmować-1
+            0 pisać-1
+        13 twierdzić-1
+          12 utrzymywać-1
+            0 podtrzymywać-5
+            10 zapewniać-1, upewniać-1
+              0 zaręczać-1
+              0 ofiarowywać-1, zaofiarowywać-1
+              0 zagwarantowywać-1, gwarantować-1
+              1 deklarować-1
+                0 ofiarować-2
+              0 twierdzić-3
+              0 zarzekać się-1, zażegnywać się-1
+              0 utwierdzać-2
+              0 przysięgać-2
+              0 gwarantować-2, ręczyć-1, poręczać-2
+        134 formułować-1, wyrażać-3, ujmować-1, artykułować-1
+          0 wyprowadzać-2
+          0 ustosunkowywać-1
+          0 przeformułowywać-1
+          0 ryzykować-3
+          1 wyrażać się-3
+            0 wysławiać się-1
+          4 pisać-2
+            0 gryzmolić-2
+            0 rozpisywać się-1
+            0 wysmażać-2, wypacać-1
+            0 skreślać-2
+          1 werbalizować-1, ubierać w słowa-1
+            0 wypowiadać-3, wymawiać-3
+          0 sugerować-1, dawać do zrozumienia-1
+          3 omawiać-2, mieć na tapecie-1
+            0 obgadywać-2
+            0 naradzać się-1, konsultować się-1, konsultować-2
+            0 wałkować-3, maglować-2
+          115 mówić-2
+            0 owijać w bawełnę-1
+            0 świntuszyć-1
+            0 sypać-3
+            0 wychlipywać-1
+            0 sączyć-3
+            0 wybąkiwać-1, bąkać-2
+            3 obsypywać-3, osypywać-5
+              VISITED 2 obrzucać-1
+            1 podpowiadać-1
+              0 podszeptywać-1
+            0 pyskować-1
+            0 zapodawać-1
+            0 wyduszać-3
+            0 powarkiwać-1
+            0 wołać-1
+            0 deklamować-2
+            VISITED 15 wypowiadać się-1, udzielać wypowiedzi-1, wyrażać się-2, wyszczególniać się-1
+            0 hukać-2
+            0 walić-4, rąbać-7, rypać-1, ciąć-7
+            16 składać-2
+              2 zdawać-1, składać egzamin-1
+                0 bronić-6, bronić się-4
+                0 zdawać-3
+              0 życzyć-1, składać życzenia-1, winszować-2
+              0 zeznawać-1, składać zeznanie-1, świadczyć-3
+              3 wnioskować-1, wnosić-1
+                0 pozywać-1
+                1 proponować-1
+                  0 wystawiać-8
+              0 składać reklamację-1, reklamować-2
+              2 przepraszać-1, składać przeprosiny-1
+                0 padać na kolana-1
+                0 kajać się-1, bić się w piersi-1, posypywać głowę popiołem-1, sypać głowę popiołem-1
+              2 dziękować-1, składać podziękowanie-1
+                1 odwdzięczać się-1
+                  0 dziękować-2
+            1 kląć-1, przeklinać-1
+              0 cholerować-1
+            1 rzucać-3
+              0 szermować-1
+            0 burczeć-1, warczeć-3, sarkać-2
+            2 żalić się-2, wyżalać się-1
+              0 wypłakiwać się-1
+              0 jęczeć-4
+            0 pływać-4, dryfować-2
+            0 chlapać językiem-1, chlapać jęzorem-1, chlapać ozorem-1
+            9 napadać-2, atakować-3, nacierać-2, najeżdżać-2, nalatywać-1, naskakiwać-1, wsiadać-3, wjeżdżać-3, jechać-3
+              2 obrzucać-1
+                0 obrzucać błotem-1
+                0 obrzucać mięsem-1
+              1 jeździć-3
+                0 zjeżdżać-4
+              0 zaczepiać-4
+              0 kontratakować-2
+              0 wyskakiwać z gębą-1, wyskakiwać z pyskiem-1
+              0 skakać do gardła-1, rzucać się do gardła-1, skakać do oczu-1
+            0 wzdychać-1
+            5 wspominać-2
+              0 pogadywać-1
+              3 napomykać-1
+                0 wzmiankować-1
+                0 przebąkiwać-1, bąkać-1
+                0 zawadzać-4
+            1 szeptać-1, mówić na ucho-1
+              0 szemrać-2
+            9 narzekać-1, skarżyć się-1, uskarżać się-1, utyskiwać-1, sarkać-1, stękać-2
+              0 psioczyć-1
+              0 pojękiwać-2
+              0 kwękać-1, pokwękiwać-1
+              0 żalić się-1, użalać się-1
+              0 rozżalać się-2
+              0 mruczeć-5, szemrać-3
+              0 ubolewać-1, biadolić-1, płakać-2, lamentować-1, biadać-1
+              0 zrzędzić-1, gderać-1, burczeć-4, truć-3, ciosać kołki na głowie-1
+              0 grymasić-1, nudzić-3, marudzić-1, wybrzydzać-1
+            7 kłamać-1, łgać-1, bujać-2, rozmijać się z prawdą-1, mijać się z prawdą-1
+              0 rzucać słowo na wiatr-1, robić z gęby cholewę-1, robić z gęby cholewkę-1
+              0 okłamywać-1
+              0 zmyślać-1, wysysać z palca-1
+              0 blefować-1, bluffować-2
+              1 zalewać-8, kitować-1, wciskać kit-1
+                0 bajerować-1, blagować-1, bajtlować-2
+              0 kręcić-3
+            17 gadać-1, gawędzić-2
+              0 klepać-2
+              0 brechać-1
+              1 truć-6, ględzić-1
+                0 suszyć głowę-2
+              0 nawijać-2, nadawać-6
+              4 paplać-1, trajkotać-1, trajlować-1, pytlować-1, bajtlować-1
+                1 rozgadywać się-1
+                  0 rozplotkować się-1
+                0 ćwierkać-2, szczebiotać-2, świergotać-2
+                0 jazgotać-1, szwargotać-1, klekotać-2, terkotać-2, trzeszczeć-3
+              4 pleść-2, wyplatać-2, pleść bez związku-1
+                1 wygadywać-1, bredzić-1, bzdurzyć-1, bajdurzyć-1
+                  0 pleść jak na mękach-1, pleść jak Piekarski na mękach-1
+                0 opowiadać głodne kawałki-1, mówić głodne kawałki-1, wstawiać głodne kawałki-1, zasuwać głodne kawałki-1
+                0 majaczyć-4, bredzić-2
+              1 nudzić-4, marudzić-2
+                0 smęcić-1
+      54 zmuszać-2, przymuszać-1, wymuszać-1, zniewalać-2
+        0 dawać wycisk-2, dawać popalić-2, dawać w kość-2
+        0 przeganiać-3
+        0 zapędzać-1, zaganiać-1
+        0 spychać-2
+        0 pędzić-5, ganiać-4, gnać-4, popędzać-2, przeganiać-2
+        0 wpychać-2, wmuszać-1, wtykać-2
+        0 zaprzęgać-1, wprzęgać-2
+        0 wyciskać-2
+        0 wyciskać-3, wyduszać-1
+        0 ściągać-2
+        1 pośpieszać-2, pospieszać-2, poganiać-1, przynaglać-1, popędzać-1, ponaglać-1, naglić-1
+          0 podkręcać-2
+        3 trzymać-2
+          2 przetrzymywać-2
+            0 wymrażać-3
+            0 zatrzymywać-8
+        VISITED 0 spajać-2, spijać-1, upijać-1, upajać-3
+        0 kazać-1
+        0 molestować-1, napastować-1
+        1 stawiać pod ścianą-1
+          0 przykładać nóż do gardła-1
+        0 wytrzymywać-1
+        0 wyciągać-2
+        0 tkać-4
+        2 narzucać się-1, napraszać się-1
+          0 przyczepiać się-2, doczepiać się-2, przyklejać się-2, przylepiać się-2, przypinać się-2, przyplątywać się-1, uczepiać się-1
+          VISITED 0 wtrącać się-1, wścibiać się-1, wściubiać się-1, wsadzać nos-1, wtykać nos-1, wścibiać nos-1, pchać nos-1, wpychać nos-1
+        1 egzekwować-1
+          0 windykować-1
+        0 zamykać usta-1, zatykać usta-1, zamykać buzię-2, zatykać buzię-1, kneblować usta-1, sznurować usta-1
+        0 przypierać-1, przygważdżać-1, przypierać do muru-1, przyszpilać-1, przyciskać-1
+        0 gwałcić-1
+        0 przyduszać-1
+        20 narzucać-1
+          2 ingerować-1
+            VISITED 0 interweniować-1
+            0 wtrącać się-1, wścibiać się-1, wściubiać się-1, wsadzać nos-1, wtykać nos-1, wścibiać nos-1, pchać nos-1, wpychać nos-1
+          0 wlepiać-1
+          0 arabizować-2
+          0 chrystianizować-1
+          0 slawizować-2
+          0 madziaryzować-1
+          0 judaizować-2
+          0 romanizować-2
+          0 amerykanizować-1
+          0 polonizować-1
+          0 ukrainizować-1
+          0 rusyfikować-1, ruszczyć-1
+          0 turczyć-1
+          0 tyranizować-1
+          0 dyktować-1
+          0 forsować-1, przeforsowywać-1, przepychać-1
+          0 hellenizować-1
+          0 germanizować-1, niemczyć-1, zniemczać-1
+        1 poić-1
+          0 spajać-2, spijać-1, upijać-1, upajać-3
+      83 pokazywać-1
+        0 wyświetlać-1
+        4 ukazywać-1
+          3 odsłaniać-1, odkrywać-2
+            0 obnażać-3
+            0 szczerzyć-1
+            0 obnażać-2
+        2 przedstawiać-5
+          0 wystawiać-3
+          0 grać-9
+        0 oddalać-8
+        1 czytać-2, odczytywać-4
+          0 sczytywać-1
+        62 przedstawiać-1
+          0 referować-1
+          3 podsumowywać-1
+            0 rekapitulować-1
+            0 reasumować-1
+            0 puentować-1
+          0 naświetlać-1
+          0 wypunktowywać-2
+          8 demonstrować-2, prezentować-1
+            1 eksponować-1
+              0 wystawiać-6
+            5 przedstawiać-6
+              2 ukazywać-2
+                0 uwidoczniać-1, uwidaczniać-1
+                0 przedstawiać-7
+              0 zapodawać-2
+              VISITED 0 wychodzić-7
+          15 wypowiadać się-1, udzielać wypowiedzi-1, wyrażać się-2, wyszczególniać się-1
+            0 zabierać głos-2
+            0 głosować-2
+            0 odpowiadać-1
+            0 streszczać się-3, skracać się-1
+            0 mądrzyć się-1, mędrkować-1, wymądrzać się-1, przemądrzać się-1
+            1 poruszać-5, podnosić-9, dotykać-4, podejmować-4, ruszać-3, potrącać-1
+              0 wkraczać-3
+            7 występować-10
+              1 wysuwać-2
+                0 stawiać wniosek-1, wysuwać wniosek-1
+              0 gardłować-1
+              0 stawiać-1
+              2 przedkładać-2, przedstawiać-8
+                0 wytaczać-4
+                0 wnosić-5
+          1 nakreślać-1
+            0 wyrysowywać-1, wykreślać-2
+          0 zdawać relację-1, relacjonować-1, zdawać sprawę-1, składać relację-1
+          27 tłumaczyć-1, wyjaśniać-1, klarować-2, objaśniać-1
+            0 rozjaśniać-5, przejaśniać-2
+            0 etymologizować-1
+            1 ilustrować-1
+              0 egzemplifikować-1
+            1 wskazywać-6
+              0 pilotować-4
+            17 uzasadniać-1, podbudowywać-1, argumentować-1, motywować-2, wyjaśniać-2
+              0 legitymować-2
+              0 wywodzić-1
+              6 tłumaczyć-3, usprawiedliwiać-1
+                0 zasłaniać się-1
+                0 rozgrzeszać-3
+                3 bronić-5, prosić-10, stawać w obronie-1, ujmować się-1, walczyć-7, wstawiać się-1
+                  0 bronić-7
+                  0 usprawiedliwiać-3, tłumaczyć-6
+                  0 upominać się o krzywdę-1, dopominać się o krzywdę-1
+              0 obalać-2, zbijać-3
+              0 racjonalizować-3
+              0 popierać-2
+              4 udowadniać-1, dowodzić-1, wykazywać-2
+                2 weryfikować-1
+                  0 rewidować-2
+                  0 przesiewać-1
+                0 dokumentować-1
+            2 przedkładać-1, wykładać-5, wyłuszczać-2
+              0 zestawiać-3
+              0 wychodzić-7
+        3 oprowadzać-1
+          0 ciceronować-1
+          0 pilotować-3
+          0 obwodzić-2
+        2 wskazywać-4
+          0 wytykać-3
+          0 wystawiać-5
+        0 okazywać-2, legitymować się-1, wykazywać się-3
+    2 *CZASOWNIK - CZYNNOŚĆ NDK oznaczający powodowanie reakcji organizmu lub czynności fizjologicznej-1
+      1 kurować się-1, leczyć się-1
+        0 rehabilitować się-1
+    0 sprowadzać-4
+    60 umożliwiać-1
+      0 urealniać-1
+      0 odblokowywać-2
+      0 dawać-2
+      1 zapoznawać-2, poznawać-7, zaznajamiać-2
+        0 przedstawiać-4, prezentować-2
+      1 łączyć-2
+        0 przełączać-2
+      4 wprowadzać-3
+        1 wdrażać-3
+          0 implementować-2
+        1 podstawiać-3
+          0 substytuować-1
+      1 torować-1
+        0 rozpychać się-1
+      0 predysponować-1, predestynować-1
+      6 pośredniczyć-1
+        0 buforować-1
+        0 mediować-1
+        1 kontaktować-1
+          0 umawiać-2
+        0 interweniować-1
+        0 godzić-1, jednać-1, pojednywać-1
+      15 udostępniać-1
+        1 umiędzynaradawiać-1
+          0 internacjonalizować-1
+        0 wypożyczać-1
+        0 uwspólniać-2
+        0 upubliczniać-1
+        0 użyczać-1, udzielać-3, dawać-12
+        0 otwierać-4
+        1 uprzystępniać-1
+          0 popularyzować-2
+        5 odnajmować-1, wynajmować-1
+          0 podnajmować-1
+          0 czarterować-1
+          2 dzierżawić-1, wydzierżawiać-1
+            0 poddzierżawiać-2
+            0 leasingować-1, lizingować-1
+      21 pozwalać-2
+        0 omamiać się-1
+        0 fotografować się-3, zdejmować się-3
+        6 dopuszczać-1
+          3 wystawiać-4
+            2 narażać-1
+              0 wystawiać na szwank-1, narażać na szwank-1
+              0 ryzykować-2
+          1 trzymać krótko-1, trzymać w rygorze-1, trzymać w posłuszeństwie-1, trzymać w cuglach-1, trzymać w karbach-1, trzymać w ryzach-1
+            0 trzymać za gębę-1, trzymać za mordę-1
+        2 zanieczyszczać-2
+          0 zapluskwiać-1
+          0 zagrzybiać-1
+        6 dopuszczać-3
+          3 łączyć-6
+            0 parzyć-3
+            0 krzyżować-2, hybrydyzować-1
+            0 stanowić-5
+          0 przypuszczać-2, podpuszczać-2
+          0 przyjmować-7
+        0 dozwalać-2
+        0 narażać-2

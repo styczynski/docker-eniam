@@ -1,0 +1,2411 @@
+2276 informacja-1
+  VISITED 0 formułka-3
+  0 wrotka-2
+  0 remat-1
+  0 prezentacja-5
+  0 pigułka wiedzy-1
+  0 informacja genetyczna-1
+  0 lajk-1, like-1
+  28 wskazówka-2
+    0 fałszywy trop-1
+    VISITED 1 sugestia-3, nawiązanie-4
+    24 porada-1, rada-2, wskazówka-4, wskazanie-6, podpowiedź-1, instrukcja-1, sugestia-2
+      0 decepcja-1, instrukcja maskująca-1
+      8 nauka-6
+        1 szkoła-9
+          0 wojsko-4
+        1 nauczka-1, szkoła-6
+          0 cięgi-1, baty-1, razy-1
+        0 Dobra Nowina-2, ewangelia-1
+        2 morał-1
+          0 epimythion-1
+          0 promythion-1
+      0 domicyl-2
+      VISITED 7 namowa-1, perswazja-1, inspiracja-1, podszept-1, poduszczenie-1, sugestia-1
+      1 konsultacja-1
+        0 konsultacja społeczna-1
+      VISITED 0 zalecenie-5
+      1 przepis-1
+        0 przepis kulinarny-1
+  0 ustalenie-7
+  0 wycinek-3
+  0 boczek-3
+  1 namiar-3
+    0 peleng-1
+  1 informacja niejawna-1
+    0 informacja poufna-1
+  0 informacja publiczna-1
+  2 aluzja-1
+    0 aluzja literacka-1
+    0 annominacja-1
+  0 faktoid-1
+  0 briefing-3
+  0 informacja marketingowa-1
+  6 sensacja-1
+    5 skandal-1, afera-2, awantura-2, chryja-1, granda-2
+      0 flejm-1
+      0 afera rozporkowa-1
+      0 afera koperkowa-1
+      0 awantura arabska-1
+      0 seksafera-1, seksskandal-1
+  7 współrzędna-1
+    0 kąt godzinny-1
+    4 współrzędna geograficzna-1
+      0 rozciągłość równoleżnikowa-1
+      0 rozciągłość południkowa-1
+      0 długość geograficzna-1
+      0 szerokość geograficzna-1
+    0 rektascensja-1
+  1 metka-1
+    0 birka-1
+  9 reklama-1, promocja-1, propaganda-2
+    0 druk bezadresowy-1
+    0 reklama porównawcza-1
+    0 mailing-1
+    0 telemarketing-1
+    0 publicity-1
+    0 kryptoreklama-1
+    1 autoreklama-1
+      0 dżingiel-1, dżingel-1
+    0 sponsoring-1
+  2 notka-1
+    0 stopka-2
+    0 kolofon-1
+  216 dane-2
+    0 efemerydy-2
+    0 podpis cyfrowy-1
+    0 liczba całkowita-2
+    0 dane ilościowe-1
+    0 dane jakościowe-1
+    0 dane statystyczne-1
+    0 tytulatura-2
+    206 materiał-2
+      0 praca domowa-1, lekcja-4
+      0 materiał dowodowy-1
+      0 materiał rozszczepialny-1
+      0 materiał pirotechniczny-1
+      0 materiał pędny-1
+      0 materiał jądrowy-1
+      0 materiał rozmnożeniowy-1
+      0 materiał genetyczny-1
+      0 czołówka-7
+      171 ilustracja-1, egzemplifikacja-1
+        107 rysunek-5, grafika-2, rycina-2
+          0 infografika-1
+          0 psychogram-1
+          43 plan-5
+            0 miejscowy plan zagospodarowania przestrzennego-1
+            VISITED 39 projekt-3
+            0 plan miasta-1
+            0 plan sytuacyjny-1
+          6 schemat-3
+            0 trójkąt samogłoskowy-1
+            0 siatka-10
+            0 genogram-1
+            1 narys-1
+              0 narys kwiatowy-1, diagram kwiatowy-1
+            0 kwadrat logiczny-1
+          0 rysunek techniczny-1
+          4 przekrój-2, rzut-5
+            0 owręże-1, owrężenie-1
+            2 przekrój geologiczny-1, profil-4, profil glebowy-1
+              0 przekrój terenu-1
+              0 przekrój glebowy-1
+          16 obrazek-1
+            0 clipart-1
+            1 wyklejanka-1, naklejanka-2
+              0 wydzieranka-1
+            0 kolorowanka-1, malowanka-1
+            0 kalkomania-1
+            5 piktogram-2
+              2 ideogram-1
+                0 logogram-1, logograf-3
+                0 emotikon-1, emotikona-1, buźka-2, smiley-1
+              0 hieroglif-1
+              0 ikona-2, ikonka-1
+            4 ilustracja-2
+              0 inicjał-2, miniatura-2, iluminacja-3
+              0 iluminacja-4, winieta-1
+              1 ornament-3, ozdobnik-3
+                0 przerywnik-2
+          30 mapa-1
+            0 przestrzeń adresowa-1
+            0 podkład mapowy-1
+            0 mapa lotnicza-1
+            0 mapa przeglądowa-1
+            0 mapa synoptyczna-1, mapa pogody-1
+            1 mapa tematyczna-1
+              0 mapa polityczna-1
+            2 mapa ogólnogeograficzna-1
+              0 mapa topograficzna-1
+              0 mapa hipsometryczna-1
+            0 mapa izopachytowa-1
+            0 mapa geologiczna-1
+            0 mapa turystyczna-1
+            0 mapa drogowa-1
+            0 mapa zasadnicza-1
+            0 mapa ewidencyjna-1, mapa katastralna-1
+            0 mapa administracyjna-1
+            0 mapa numeryczna-1
+            0 mapa akustyczna-1
+            0 planisfera-1
+            0 planiglob-1
+            1 mapa morska-1
+              0 portolan-1
+            0 setka-7
+            0 fotomapa-1, ortofotomapa-1, mapa fotograficzna-1
+            0 kartogram-1
+            0 kartodiagram-1
+            0 mapa fizyczna-1
+            0 konturówka-2
+            0 sztabówka-1, mapa sztabowa-1
+        0 ramka-3
+        2 przykład-2, exemplum-1
+          1 przypadek-2
+            0 precedens-1
+        58 wykres-1
+          1 profil topograficzny-1
+            0 profil kauzalny-1
+          0 krzywa hipsometryczna-1
+          0 charakterystyka amplitudowa-1
+          0 wykres funkcji-1
+          0 krzywa hipsograficzna-1
+          0 jonogram-1
+          0 palatogram-1
+          0 wykres fazowy-1
+          0 tautochrona-1
+          0 socjogram-1
+          0 pluwiogram-1
+          0 echokardiogram-1
+          0 termogram-1
+          0 polarogram-1
+          0 oscylogram-1
+          0 kardiogram-1
+          0 barogram-1
+          6 diagram-1
+            0 diagram Hertzsprunga-Russella-1
+            0 diagram fazowy-1
+            0 diagram Venna-1
+            0 audiogram-1
+            0 klimatogram-1
+            0 wsuwanka-1
+          5 charakterystyka-4
+            0 charakterystyka widmowa-1
+            0 charakterystyka fazowa-1
+            0 charakterystyka częstotliwościowa-1
+            0 charakterystyka czasowa-1
+            0 charakterystyka amplitudowo-fazowa-1
+          0 kosmogram-1
+          0 nakres-1
+          0 nomogram-1
+          0 akcjogram-1
+          0 spektrogram-1
+          0 graf-3
+          0 drzewo genealogiczne-1
+          0 wskaz-2, wykres wskazowy-1, fazor-1, strzałka fazowa-1
+          0 dendryt-3
+          0 histogram-1
+          16 widmo-2
+            0 widmo częstotliwościowe-1
+            0 przestrzeń barw-1
+            0 widmo rotacyjne-1
+            0 widmo pasmowe-1
+            0 widmo emisyjne-1
+            0 widmo ciągłe-1
+            0 widmo absorpcyjne-1
+            1 widmo cząsteczkowe-1
+              VISITED 0 widmo oscylacyjno-rotacyjne-1
+            0 widmo atomowe-1
+            0 widmo rentgenowskie-1
+            0 widmo optyczne-1
+            1 widmo oscylacyjne-1
+              0 widmo oscylacyjno-rotacyjne-1
+            0 widmo mocy-1
+            0 widmo dźwięku-1
+            0 widmo sygnału-1
+      64 dokumentacja-1
+        0 dokumentacja techniczna-1
+        0 dokumentacja projektowo-kosztorysowa-1
+        1 dokumentacja budowy-1
+          0 książka obiektu budowlanego-1
+        0 dokumentacja powykonawcza-1
+        39 projekt-3
+          0 projekt techniczny-1
+          0 projekt architektoniczny-1
+          0 bozzetto-1
+          35 wzór-3
+            0 formatka-1
+            10 szablon-1, wzornik-2
+              0 kątownik-3
+              0 spirograf-1
+              0 kółkownik-1
+              0 layout-2
+              0 layout-3
+              0 krzywka-2, krzywik-1
+              1 patron-3
+                0 przepróch-2, przeprócha-2
+              1 wykrój-3, forma-12
+                0 sztanca-1
+            4 model-4
+              0 szymel-2
+              0 prototyp-1, protoplasta-3, nowy model-1
+              1 pierwowzór-1, oryginał-2, prototyp-2, prawzór-1, protoplasta-2, autentyk-1
+                0 archetyp-2
+            17 forma-15
+              0 forma typograficzna-1
+              0 kokila-1
+              0 węza-1
+              0 wakat-2, vacat-3
+              1 szalunek-1, szalowanie-2, oszalowanie-2, deskowanie-2
+                0 podbitka-2
+              4 matryca-1
+                0 matryca strukturalna-1
+                0 model-6
+                0 woskówka-1, matryca woskowa-1
+                0 logotyp-1
+              5 foremka-1, forma-7, blacha-3
+                0 keksówka-1, cwibakówka-1
+                0 papilotek-3, papilotka-1
+                0 forma prostokątna-1
+                0 parzenica-3, sercówka-6
+                0 tortownica-1
+        2 teka-2, teczka-3
+          0 dossier-2
+          0 portfolio-1
+        0 faktografia-1
+        VISITED 8 katalog-1
+        3 archiwum-1, archiwalia-1
+          0 fototeka-1
+          0 fonoteka-1, archiwum dźwiękowe-1
+          0 filmoteka-1
+        1 akta-1, dossier-1
+          0 akta podręczne-1
+    1 personalia-1, dane osobowe-1, dane personalne-1, tożsamość-4
+      0 dane wrażliwe-1, dane sensytywne-1
+  0 adres wydawniczy-1, adres bibliograficzny-1
+  35 zestawienie-8
+    0 statystyka-3
+    1 stylizacja-5, stylówa-1
+      0 wizaż-1, look-1
+    26 synteza-2, połączenie-8
+      0 zlewka-6
+      0 gra-8
+      21 mieszanina-2, aliaż-1, splot-2, kompilacja-3
+        0 amalgamat-3
+        0 miks-1
+        0 potpourri-3
+        0 amalgamat-2
+        2 zlepek-1
+          0 pyłkowina-1
+          0 aglomerat-2
+        0 tygiel-3
+        0 konglomerat-2, konglomeracja-1
+        0 mozaika-2
+        0 miszmasz-1
+        0 melanż-1
+        0 kolaż-3
+        0 wypluwka-1, zrzutka-1
+        0 zbitka-1
+        0 przeplatanka-1
+        2 zbieranina-1
+          0 mydło i powidło-1, groch z kapustą-1, tutti frutti-2
+          0 wieża Babel-1
+        VISITED 0 magma-2
+        VISITED 0 kompilacja-1
+      0 synkretyzm-2
+      0 kontaminacja-1
+    0 synopsa-1, synopsis-1
+    0 konkordancja-3
+    0 seria-4
+    1 kolorystyka-1, tonacja-1, koloryzacja-1, koloryt-1
+      0 paleta-4
+  0 namiar-1
+  0 przeciek-2
+  0 ciekawostka-2
+  26 uzasadnienie-2, motywacja-1, usprawiedliwienie-4, wyjaśnienie-3, wytłumaczenie-3
+    0 usprawiedliwienie-5
+    1 argumentacja-2
+      0 ciężka artyleria-2, ciężkie działa-1
+    0 wywód-1
+    4 dowód-2
+      0 dowód niekonstruktywny-1
+      0 dowód nie wprost-1, dowód pośredni-1, dowód apagogiczny-1
+      0 dowód wprost-1
+      0 dowód ontologiczny-1
+    16 konieczność-2, przymus-1, mus-2, krytyczność-4
+      0 musik-1, mus-3, musek-1
+      0 potrzebność-1
+      0 imperatywność-1
+      1 imperatyw-1
+        0 imperatyw kategoryczny-1
+      0 ostateczność-1
+      0 obligatoryjność-1
+      8 przeznaczenie-4, fatum-1, los-1, dola-1, predestynacja-1, fatalizm-3, fatalność-1, mojra-1
+        5 szczęście-3, pomyślność-1, fortuna-2, szczęśliwość-2
+          0 fartowność-1
+          0 fortunność-1
+          2 szczęście-2, fuks-2, fart-1, łut szczęścia-1, uśmiech losu-1, błogosławieństwo-3
+            0 miękkie lądowanie-2
+            0 manna z nieba-1
+        0 koło fortuny-1, koło historii-1
+        0 kismet-1
+  2 wzmianka-1, napomknięcie-2, napomknienie-1
+    1 sugestia-3, nawiązanie-4
+      VISITED 0 metatekst-2
+  15 znaczenie-8, treść-1, sens-2
+    0 mit-3
+    0 międzysłowie-1
+    0 implikatura-1, implikatura konwersacyjna-1
+    0 konotacja-1, znaczenie-7, intensja-1
+    1 przekaz-4
+      0 oralność-1
+    2 wydźwięk-1, wymowa-1, tenor-4
+      1 łagodność-3
+        0 nierygorystyczność-1
+    0 symbolika-1
+    0 konotacja-2
+    1 podtekst-1
+      0 drugie dno-1
+    1 przesłanie-4, teza-5, posłanie-7
+      0 objawienie-6, Objawienie-7
+  2 treść-3, materia-4, zawartość-4
+    0 anegdota-2
+    0 materia konstytucyjna-1
+  1707 komunikat-1
+    0 news-2
+    0 chińszczyzna-1
+    0 prezentacja-2
+    0 syreni śpiew-1
+    VISITED 17 oświadczenie-2, świadectwo-3, enuncjacja-1
+    1649 wypowiedź-1
+      0 spowiedź-3
+      0 perskie oko-3, oko-9, oczko-17
+      0 prezentacja-4
+      0 wypowiedź problematyczna-1
+      0 wypowiedź apodyktyczna-1
+      0 wypowiedź asertoryczna-1
+      0 hejt-2
+      0 mowa zależna-1
+      0 mowa pozornie zależna-1
+      0 mowa niezależna-1
+      0 ostatnie słowa-1
+      0 wiersz-4, mowa wiązana-1
+      0 spoiler-3, spojler-3
+      1 pozdrowienie-2
+        0 pożegnanie-4
+      0 parodia-3
+      0 bełt-6
+      VISITED 0 kontroskarżenie-1
+      0 podśmiechujki-1, podśmiewajki-1, prześmieszki-1
+      0 lokucja-1
+      0 urągliwość-1
+      1 wstawka-3
+        0 wtrącenie-4, wtręt-1
+      2 wyznanie-3, spowiedź-1, wynurzenie-1, zwierzenie-2
+        0 ekspektoracja-1
+        VISITED 0 confiteor-2
+      VISITED 7 oskarżenie-3
+      3 uwaga-3
+        2 ostrzeżenie-2, przestroga-1
+          0 palec boży-2
+          0 memento-1
+      0 żale-1, skarga-1, wyrzekanie-2
+      8 bzdura-1, brednia-1, banialuka-1, głupstwo-1, głupota-3, nonsens-1, bezsens-2, androny-1, austriackie gadanie-1
+        0 piąte przez dziesiąte-2
+        0 duby smalone-1
+        2 bajka-3, bajeczka-1, bajda-1
+          0 bajka terapeutyczna-1
+          0 bajeczka dla grzecznych dzieci-1
+        1 idiotyzm-1, idioctwo-1, kretyństwo-1
+          0 nieporozumienie-3
+        0 dyrdymałka-1, faramuszka-1, bzdurka-1
+      0 nawijka-1
+      0 czułostka-1
+      0 skrót myślowy-1
+      0 dobre słowo-1
+      0 rewerencja-2
+      1 bełkot-2
+        0 sieczka-3
+      8 uszczypliwość-1, złośliwość-2
+        0 prześmiechy-1
+        VISITED 1 przytyk-1, przycinek-1, przymówka-1
+        0 szyderstwo-1
+        0 sarkazm-1
+        1 drwina-1, prześmiewka-1, kpina-2
+          VISITED 0 docinek-1, ucinka-2, ucinek-1
+        1 ironia-1, ironiczność-1
+          0 autoironia-1
+      7 pustosłowie-1, gołosłowie-1, drętwa mowa-1, bicie piany-1, wielosłowie-1, werbalizm-1, woda-1, wodolejstwo-1, gołosłowność-1, deklaratywizm-1, słowolejstwo-1, deklaratywność-1, drętwa gadka-1
+        0 wata-3
+        0 wiatrologia-1
+        0 dętologia-1
+        0 piękne słówka-1
+        0 magma-2
+        1 deklamatorstwo-1, deklamacyjność-1
+          0 reklamiarstwo-1
+      9 serdeczności-1, wyrazy-1
+        0 życzenia-1
+        0 uściski-1
+        0 ukłony-1
+        0 ucałowania-1
+        1 pozdrowienia-1
+          0 darzbór-1
+        0 powinszowania-1
+        0 kondolencje-1
+        0 gratulacje-1
+      0 przeprosiny-1
+      0 przechwałka-1
+      0 gadka-1
+      4 odniesienie-6
+        0 relewancja-1
+        0 kontekst-3
+        0 referencja-1
+        0 ustosunkowanie-2
+      6 narracja-1
+        0 narracja kronikarska-1
+        0 narracja historyczna-1
+        0 narracja polifoniczna-1
+        0 in medias res-1
+        0 aretalogia-1
+        0 skaz-1
+      0 odzywka-1
+      1 banał-1, slogan-1, frazeologia-1, ogólnik-1, komunał-1, oczywistość-2, formułka-1, frazes-1, liczman-1, oklepanka-1
+        0 stara śpiewka-1
+      1 podziękowanie-3, podzięka-1
+        0 dziękczynienie-1
+      0 zaczepka-1
+      2 pochlebstwo-1
+        0 umizgi-2
+        0 wazelina-2
+      1 wyzwisko-1, inwektywa-1, złorzeczenie-2
+        0 chamski sznurek-1
+      3 gadanina-1, gadulstwo-2
+        0 ględźba-1
+        0 lanie wody-1
+        0 babskie gadanie-1
+      7 namowa-1, perswazja-1, inspiracja-1, podszept-1, poduszczenie-1, sugestia-1
+        0 woda na młyn-1
+        0 głos serca-1
+        0 prośby i groźby-1, prośba i groźba-1
+        0 prozelityzm-1
+        0 autosugestia-1
+        0 werbunek-2
+        0 agitacja-1
+      2 negacja-1, przeczenie-2
+        0 zaprzeczenie-4
+        0 antyteza-3
+      VISITED 3 interpretacja-1
+      1183 tekst-1
+        0 metatekst-2
+        0 metatekst-1
+        0 tekst jawny-1
+        0 tekst rezultatywny-1
+        2 post-4
+          VISITED 1 tweet-1
+        VISITED 0 oneliner-1, one-liner-1
+        0 opener-3
+        0 lekcja-6
+        0 tekst jednolity-1
+        VISITED 28 przekaz-5
+        0 opustka-1
+        2 hipertekst-1, hypertekst-1
+          0 hipermedia-1
+          0 internet-1, sieć-3, net-1, WWW-1
+        0 upaniszada-1
+        0 sutra-1
+        0 teletekst-2
+        0 czytanka-1
+        0 czystopis-1
+        0 brudnopis-1, brulion-2
+        1 skład drukarski-1, skład-6
+          0 szpalta-1
+        77 spis-1, rejestr-2, wykaz-2, lista-1, zestawienie-10, regestr-4
+          0 formułka-3
+          0 manifest okrętowy-1
+          0 taryfa celna-1
+          0 lista startowa-1
+          0 spis powszechny-1, spis ludności-1
+          0 rejestr sądowy-1
+          0 rejestr okrętowy-1
+          0 rejestr karny-1
+          0 kataster wodny-1
+          2 specyfikacja-3, specyfikacja techniczna-1
+            1 wymagania systemowe-1
+              0 zasobożerność-1
+          1 wyszczególnienie-2
+            0 specyfikacja-2
+          0 matrykuła-2
+          0 volkslista-1
+          0 urbarium-1
+          0 klucz-14
+          1 menu-3
+            0 menu kontekstowe-1, menu podręczne-1
+          0 sumariusz-1
+          0 syllabus-1, sylabus-1
+          0 program-8
+          0 playlista-1
+          VISITED 0 książka telefoniczna-1
+          0 rozdzielnik-1
+          0 filmografia-1
+          0 konkordancja-1
+          0 lista obecności-1
+          0 lista płac-1
+          1 lista wyborcza-1
+            0 lista krajowa-1, lista ogólnopolska-1
+          0 lista rankingowa-1
+          0 czarna lista-1, czarna księga-1
+          0 ceduła-1
+          0 ceduła-3
+          0 regest-1
+          0 repertorium-1
+          0 lekospis-1, farmakopea-1
+          0 errata-1
+          2 kataster-1, kadaster-1
+            0 kataster nieruchomości-1
+            0 matrykuła-1
+          0 rejestr handlowy-1
+          0 rejestr kozacki-1
+          0 kalendarium-1, calendarium-1
+          0 billing-1
+          1 specyfikacja-1
+            0 elaboracja-3
+          2 cennik-1
+            0 karta-7, menu-1, jadłospis-1
+            0 taryfikator-2
+          1 bibliografia-1
+            0 biobibliografia-1
+          0 inwentarz-1
+          1 inwentaryzacja-1, inwentura-1
+            0 paszportyzacja-3
+          8 katalog-1
+            0 podkatalog-1
+            0 katalog krzyżowy-1
+            1 kartoteka-1
+              0 kontoteka-1
+            3 katalog rzeczowy-1
+              0 katalog systematyczny-1
+              0 katalog przedmiotowy-1
+              0 katalog działowy-1
+          3 tabela-1, diagram-2, tablica-2
+            0 układ okresowy pierwiastków chemicznych-1, tablica Mendelejewa-1, układ okresowy pierwiastków-1
+            0 tabliczka mnożenia-1
+            0 arkusz kalkulacyjny-2
+          2 skorowidz-1, indeks-2
+            0 tezaurus-1
+            0 konkordancja-4
+          2 rachunek-3, regestr-5
+            1 faktura-1
+              0 e-faktura-1
+          0 ewidencja-1
+        25 reklama-2
+          0 spot-5, spot reklamowy-2
+          0 podwał-2
+          0 outdoor-1
+          0 antyreklama-1
+          VISITED 1 spot-1, spot reklamowy-1, reklamówka-2
+          3 e-reklama-1
+            0 button-1
+            0 billboard-2
+            0 banner-2, baner-2
+          0 spam-1
+          0 neon-2
+          5 ulotka-1
+            0 agitka-1
+            0 proklamacja-2
+            0 instrukcja-2
+            VISITED 1 bibuła-2
+          3 afisz-1, plakat-1
+            0 poster-1
+            0 baner-1, banner-1
+            0 billboard-1, bilbord-1
+          VISITED 2 zwiastun-4, forszpan-1, zajawka-1, trailer-1
+        1 wpis-2
+          0 dedykacja-1
+        8 skrót-3
+          0 synopsis-2, synopsa-2
+          3 streszczenie-2, rekapitulacja-1, résumé-1
+            0 regest-2
+            VISITED 0 zajawka-4
+            VISITED 0 abstrakt-1
+          3 wyciąg-3
+            0 wypis-3
+            0 abstrakt-1
+            VISITED 0 wyciąg fortepianowy-1
+        1032 tekst-3
+          0 addenda-1
+          155 publikacja-1
+            0 zeszyt-4
+            0 manifest literacki-1
+            0 publikacja naukowa-1
+            0 preprint-1
+            2 wydanie-12, numer-3, zeszyt-2
+              0 fascykuł-3
+              0 dodatek nadzwyczajny-1
+            147 wydawnictwo-1, tytuł-3, pozycja-7
+              0 wydawnictwo seryjne-1, cykl wydawniczy-1
+              1 wydawnictwo podziemne-1
+                0 tamizdat-1
+              37 wydawnictwo periodyczne-1
+                0 organ-4
+                35 czasopismo-1, periodyk-1, pismo-1
+                  0 program telewizyjny-2
+                  0 pisemko-4
+                  0 noworocznik-1
+                  0 artzin-1
+                  0 reżimówka-2, reżymówka-2
+                  1 magazyn ilustrowany-1
+                    0 świerszczyk-1, pornomagazyn-1
+                  0 monitor-3
+                  1 rocznik-4
+                    VISITED 0 rubrycela-1
+                  0 półmiesięcznik-1
+                  0 półtygodnik-1
+                  0 czasopismo naukowe-1
+                  0 czasopismo tematyczne-1
+                  0 pisemko-3
+                  0 fanzin-1, zin-1
+                  0 żurnal-1
+                  0 pisemko-1
+                  0 dwutygodnik-1
+                  0 dwumiesięcznik-1
+                  2 gazetka-1
+                    0 wojskówka-1
+                    0 gazetka szkolna-1
+                  0 miesięcznik-1
+                  0 kwartalnik-1
+                  0 magazyn-2
+                  7 gazeta-1
+                    0 gazeta wieczorna-1
+                    1 tabloid-2
+                      0 tabloid-1, bulwarówka-2
+                    0 teletekst-3, telegazeta-1
+                    2 dziennik-1
+                      0 popołudniówka-1
+                      0 kurier-2
+                  0 tygodnik-1
+              0 nadbitka-1
+              0 podcast-1, podkast-1, podkasting-1, podcasting-1
+              7 komiks-1
+                0 Śledziu-3
+                5 manga-2
+                  0 shōnen-ai-2, shounenai-2, yaoi-2
+                  0 yuri-2, shoujoai-2, shōjo-ai-2
+                  0 ecchi-2
+                  0 hentai-2
+                  0 shounen-1, shōnen-manga-1
+              6 kalendarz-1
+                0 minucja-2
+                0 rubrycela-1
+                0 cyzjojan-1
+                0 organizer-1
+                0 almanach-3
+                0 terminarz-2
+              0 almanach-1
+              1 broszura-2
+                0 program-9
+              2 informator-1
+                1 biuletyn-1
+                  0 newsletter-1
+              1 bibuła-2
+                0 samizdat-1
+              81 książka-2
+                0 książka dotykowa-1
+                0 rewersał-1
+                0 książka w miękkiej oprawie-1
+                1 książka w twardej oprawie-1
+                  0 wydawnictwo albumowe-1
+                12 publikacja encyklopedyczna-1
+                  3 atlas-3
+                    2 atlas-1
+                      0 atlas nieba-1
+                      0 atlas dialektalny-1
+                  5 słownik-1
+                    0 mamotrept-1, mammotrept-1, mammotrekt-1
+                    0 tezaurus-2
+                    0 glosariusz-1, glosarium-1
+                    VISITED 1 leksykon-1
+                  3 encyklopedia-1
+                    0 Wikipedia-1
+                    1 leksykon-1
+                      VISITED 0 tezaurus-3
+                0 książka kodowa-1
+                0 e-book-1, e-książka-1, książka elektroniczna-1
+                0 książka telefoniczna-1
+                0 książczyna-1
+                0 książka kucharska-1
+                0 jaskółka-3
+                0 receptariusz-2
+                0 czytadło-1
+                0 album-2
+                0 elzewir-1
+                0 sennik-1
+                0 katechizm-1
+                3 śpiewnik-1
+                  VISITED 0 kyriale-1
+                  0 kantyczka-2
+                  0 kancjonał-1, kancjonarz-1
+                0 herbarz-1
+                0 foliał-2, foliant-2
+                5 modlitewnik-1
+                  0 sidur-1, siddur-1
+                  0 machzor-1, mahzor-1
+                  VISITED 0 antyfonarz-1
+                  0 psałterz-1
+                  0 brewiarz-1
+                0 bestseller-1, bestseler-1
+                3 poradnik-1
+                  VISITED 0 vademecum-1, wademekum-1
+                  0 e-poradnik-1
+                  0 manualik-1
+                1 suplement-2
+                  VISITED 0 tom suplementowy-1
+                0 Koran-3
+                2 przewodnik-3, gid-2, bedeker-1, baedeker-1
+                  0 vademecum-1, wademekum-1
+                  0 itinerarium-1, itinerariusz-1
+                0 cegła-2, biblia-4
+                17 zbiór-7
+                  0 homiliarz-1
+                  0 ćwiczenia-3
+                  0 Ewangelia-3
+                  0 pisma-1
+                  0 collectanea-1
+                  3 antologia-1
+                    1 zbiorek-1
+                      0 florilegium-1
+                    0 almanach-2
+                  0 zbiór zadań-1
+                  0 kolektanea-1
+                  0 bestiariusz-1, bestiarium-1, zwierzyniec-2
+                  0 sympozjon-4
+                  0 brewiarz-2, oficjum-1
+                  1 wypisy-1
+                    VISITED 0 chrestomatia-1
+                  0 psalmodia-1
+                3 tom-1, wolumin-1, wolumen-3
+                  0 tom suplementowy-1
+                  0 zszywka-2
+                  0 tomik-1
+                7 podręcznik-1, skrypt-1, manual-1
+                  0 solfeż-3
+                  0 chrestomatia-1
+                  0 szkoła-7, nuty-1
+                  0 samouczek-1
+                  0 repetytorium-2
+                  0 czytanka-2
+                  0 elementarz-1
+          15 praca pisemna-1
+            0 dyktando-3
+            0 kartkówka-2
+            0 kolokwium-3
+            3 sprawdzian-4
+              0 diagnoza-5
+              0 poprawa-4
+              0 klasówka-2
+            1 egzamin-2
+              0 matura-3
+            5 wypracowanie-2
+              0 rozprawka-1
+              3 interpretacja-1
+                VISITED 0 charakterystyka-2
+                VISITED 1 egzegeza-2
+          0 tutorial-1
+          5 tekst prasowy-1
+            0 podwał-1
+            0 nota-1
+            0 sprostowanie-2
+            VISITED 0 artykuł wstępny-1, wstępniak-1
+            VISITED 0 felieton-1
+          0 testament-2
+          4 książka-1
+            0 biblia-3
+            1 kompendium-1
+              0 tezaurus-3
+            VISITED 0 monografia-1
+          2 wypociny-1, wypocina-1
+            0 elukubracja-1
+            VISITED 0 chałtura-1
+          4 pisanina-1, makulatura-2
+            VISITED 3 szmira-1, tandeta-1, chała-1, gniot-1, ramota-2
+          0 autoportret-2
+          0 esej-1
+          19 wstęp-1
+            0 rubrum-1
+            0 komparycja-1
+            0 prolog-4
+            0 ekspozycja-4
+            0 czołówka-8
+            0 dedykacja-2
+            0 przedśpiew-1
+            2 wprowadzenie-11
+              1 wprowadzenie odautorskie-1
+                0 prozopopeja-1, fictio personae-1
+            0 introdukcja-1
+            1 preludium-2
+              0 preambulum-1
+            0 prolog-2
+            0 przedmowa-1, przedsłowie-1, słowo wstępne-1, prolegomena-1
+            0 inwokacja-1, wezwanie-5
+            0 preambuła-1, arenga-1
+            VISITED 1 uwertura-1
+          12 opracowanie-3
+            0 bryk-1
+            0 zarys-2, rys-1
+            0 przyczynek-1
+            3 operat-1
+              0 operat uzdrowiskowy-1
+              VISITED 0 operat szacunkowy-1
+              0 operat ewidencyjny-1
+            0 wyciąg fortepianowy-1
+            0 aranżacja-2
+            0 studium-1
+            0 szkic-1
+            0 monografia-1
+          VISITED 797 utwór-1, dzieło-1
+          1 scenariusz-1
+            0 scenariusz filmowy-1
+          6 rozprawa-2, elaborat-1, traktat-1
+            2 praca dyplomowa-1, dyplomówka-1
+              VISITED 0 magisterium-2, praca magisterska-1, magisterka-1
+              VISITED 0 licencjat-2
+            4 dysertacja-1
+              0 habilitacja-1
+              0 magisterium-2, praca magisterska-1, magisterka-1
+              0 licencjat-2
+              0 doktorat-2, praca doktorska-1, rozprawa doktorska-1
+          9 artykuł-1
+            VISITED 0 komentarz-4
+            0 wierszówka-2
+            1 artykuł hasłowy-1, hasło-6
+              VISITED 0 biogram-1, nota biograficzna-1
+            0 artykuł wstępny-1, wstępniak-1
+            2 rubryka-1, kolumna-3, kącik-1
+              0 podrubryka-1
+              0 okienko-4
+            0 felieton-1
+        0 recenzja-1, krytyka-4
+        10 przekład-1, tłumaczenie-7
+          4 targum-1
+            0 Targum Jonatana-2
+            0 Targum Pseudo-Jonatana-2
+            0 Targum Onkelosa-2
+            0 Targum Jeruszalmi II-3
+          2 napisy-1
+            0 hardsuby-1
+            0 fansuby-1
+          0 metafraza-2
+          0 spolszczenie-1
+        VISITED 8 napis-1
+      17 oświadczenie-2, świadectwo-3, enuncjacja-1
+        0 oświadczenie lustracyjne-1
+        0 oświadczenie majątkowe-1
+        9 potwierdzenie-7
+          8 konfirmacja-2
+            4 uwierzytelnienie-2, legalizacja-2
+              1 logowanie-1
+                0 logowanie-2
+              0 rekognicja-1
+              0 akredytacja-2
+            0 legitymacja-2
+            1 podpis-3
+              0 kontrasygnata-1
+        VISITED 0 dementi-1
+        0 proklamacja-3
+        0 list intencyjny-1
+        1 zeznanie-2
+          0 fałszywe zeznanie-1
+      0 dygresja-1
+      5 monolog-1
+        0 monolog liryczny-1
+        0 monolog wypowiedziany-1
+        0 solilokwium-1
+        1 monolog wewnętrzny-1
+          0 strumień świadomości-1
+      1 kwestia-1
+        0 oneliner-1, one-liner-1
+      3 deklaracja-1
+        0 zgłoszenie-5
+        1 program-7
+          0 program wyborczy-1
+      18 powiedzenie-7, powiedzonko-1
+        0 paremia-1
+        0 wałęsizm-1
+        2 dewiza-1, credo-2, kredo-1, motto-3
+          0 dewiza herbowa-1
+          VISITED 0 zawołanie-4, proklama-1
+        0 bon mot-1
+        0 przysłowie-1, porzekadło-1
+        0 gnoma-1
+        5 aforyzm-1, złota myśl-1
+          VISITED 4 epigram-1, epigramat-1
+        1 maksyma-1, sentencja-1
+          0 adagium-1
+        2 hasło-1
+          0 zawołanie-4, proklama-1
+          0 slogan-2
+      1 głos-1
+        0 glosa-3
+      0 wątpliwość-2, obiekcja-1, zastrzeżenie-4
+      37 polecenie-5
+        0 asygnacja-1
+        2 dyspozycja-2
+          0 zlecenie giełdowe-1
+          0 zlecenie koszykowe-1
+        0 akredytywa-3
+        5 zlecenie-6
+          0 mokra robota-1
+          0 obstalunek-1
+          0 stop limit-1
+          1 recepta-1, preskrypcja-2
+            0 zielona recepta-1
+        0 dyrektywa-1
+        0 zalecenie-5
+        10 rozporządzenie-2, zarządzenie-2
+          0 cyrkularz-1
+          8 zakaz-1
+            0 neutralizacja wojskowa-1, neutralizacja terytorium-1
+            0 zakaz stadionowy-1
+            0 egzogamia-1
+            0 interdykt-1
+            0 nieproliferacja-1
+            0 niedopuszczalność-1, niedozwoloność-1
+            0 prohibicja-1
+            0 szlaban-3
+        7 rozkaz-1, komenda-1
+          0 rozkaz personalny-1
+          0 odbój-3
+          0 wsiadany-1
+          2 powołanie-3
+            0 inwestytura-1
+            0 intronizacja-1
+          0 rozkaz dzienny-1
+        4 nakaz-1, przykaz-1
+          1 głos-7
+            0 daimonion-1, dajmon-1, dajmonion-1
+          1 przykazanie-2
+            0 micwa-1
+      0 wyzwanie-4
+      3 stwierdzenie-3, sformułowanie-3
+        0 herezja-3
+        0 konstatacja-1
+        0 spostrzeżenie-3, obserwacja-4
+      1 roszczenie-2, żądanie-2, pretensja-2
+        VISITED 0 ultimatum-1
+      4 pytanie-5
+        0 pytanie retoryczne-1
+        0 indagacja-1
+        VISITED 0 zasięgnięcie-2
+        0 interpelacja-1, zapytanie-2
+      0 przezywanie-3, wymyślanie-3, zwymyślanie-3
+      26 przemówienie-6, przemowa-1, mowa-1
+        0 mowa obrończa-1
+        0 mowa oskarżycielska-1
+        0 mowa końcowa-1
+        4 nauka-3, nauczanie-4
+          0 kerygmat-1
+          0 katecheza-1
+          1 kazanie-6, homilia-1
+            0 egzorta-1
+        0 alokucja-1
+        0 laudacja-1
+        0 mówka-1
+        0 jeremiada-1
+        VISITED 0 diatryba-1
+        0 apologia-2
+        VISITED 0 apologetyk-2, apologia-1
+        0 filipika-1
+        0 orędzie-1
+        0 tyrada-1, perora-1
+        0 toast-1
+        0 oracja-1
+        0 exposé-1
+        4 wykład-1
+          0 repetytorium-1
+          2 referat-1, odczyt-1, prelekcja-1
+            0 autoreferat-1
+            0 koreferat-1
+      23 prośba-1, życzenie-2
+        0 ostatnia wola-1
+        0 koncert życzeń-2
+        0 dobranoc-2
+        0 solicytacja-1
+        1 zaproszenie-3, zaprosiny-1, inwitacja-1
+          0 engagement-2
+        1 naleganie-2
+          0 błaganie-3
+        0 suplika-1
+        0 żebranina-2
+        0 zasięgnięcie-2
+        0 błogosławieństwo-1
+        VISITED 0 petycja-1
+        9 apel-1, odezwa-1, wezwanie-6
+          0 apel poległych-1
+          0 głos wołającego na puszczy-1
+          0 uniwersał-3
+          0 uniwersał-4
+          0 proklamacja-1
+          0 zew-1
+          2 manifest-1, oznajmienie-2, odezwa-2
+            0 confiteor-2
+            0 jednodniówka-1
+      38 orzeczenie-1, postanowienie-2
+        0 nakaz aresztowania-1
+        0 klauzula wykonalności-1
+        0 uznanie nieważności małżeństwa-1
+        9 zwolnienie-8
+          0 zwolnienie warunkowe-1
+          0 destytucja-1
+          3 dymisja-2
+            0 abszyt-1
+            0 impeachment-1
+            0 detronizacja-2
+          0 zwolnienie grupowe-1
+          0 dyscyplinarka-1
+          0 lokaut-1
+        1 precedens-2
+          0 prejudykat-1
+        0 fatwa-1
+        0 uniewinnienie-3
+        1 odroczenie-2
+          0 dylacja-1
+        0 koszer-2
+        0 nakaz kwaterunkowy-1
+        0 nakaz karny-1, wyrok nakazowy-1
+        0 moratorium-1
+        3 rezygnacja-2
+          0 abdykacja-1
+          0 dymisja-1
+          0 ustępstwo-1, koncesja-2
+        0 tytuł egzekucyjny-1
+        0 rehabilitacja-3
+        7 wyrok-2
+          0 ortyl-1
+          0 wyrok prawomocny-1
+          0 wyrok uniewinniający-1
+          3 wyrok skazujący-1
+            0 kondemnata-1, kondemnacja-1
+            0 dożywocie-1
+            0 eksmisja-2
+        0 uzgodnienie-2
+      87 opis-2, deskrypcja-1
+        0 chorografia-1
+        0 ekfraza-1
+        0 mikrografia-1
+        0 heksaemeron-1
+        0 doksografia-1
+        0 opis bibliograficzny-1
+        26 charakterystyka-3
+          0 charakterystyka postaci-1
+          20 specyfika-1
+            19 specyficzność-1
+              18 swoistość-1
+                0 indywidualność-2
+                0 nielokalność-1
+                0 domowość-1
+                14 lokalność-1
+                  1 regionalność-1
+                    0 subregionalność-1, podregionalność-1
+                  0 mazurskość-1
+                  0 kresowość-1
+                  4 wiejskość-1
+                    0 sielankowość-1, sielskość-1
+                    0 rustykalność-1
+                    0 wieśniactwo-1
+                    0 ludowość-1
+                  4 miejskość-1, miastowość-1, komunalność-1
+                    2 mieszczańskość-1
+                      1 drobnomieszczaństwo-1, drobnomieszczańskość-1
+                        0 kołtuństwo-1, kołtuneria-1, dulszczyzna-1, filisteria-1
+                    0 stołeczność-1
+          0 autocharakterystyka-1
+          1 karykatura-1
+            0 autokarykatura-1
+          0 sylwetka-3, portret-2
+        42 zasada-4, prawo-2
+          0 prawo Hubble'a-1
+          0 prawo Moore'a-1
+          0 prawo Ohma dla obwodu magnetycznego-1
+          0 prawo Curie-Weissa-1
+          0 prawo Coulomba-1
+          0 prawo rozwojowe Baera-1
+          0 prawo Gaussa-1
+          0 prawo Biota-Savarta-1
+          0 prawo Ampère'a-1
+          0 prawo indukcji elektromagnetycznej Faradaya-1
+          0 zasada Huygensa-1
+          0 prawo Ohma-1
+          0 prawo Joule'a-1
+          0 zasada reaferencji-1
+          0 prawo Hardy’ego-Weinberga-1
+          0 prawo Webera-Fechnera-1
+          0 konwencja sumacyjna Einsteina-1
+          0 twierdzenie o rzędzie-1
+          0 twierdzenie o przekształceniu liniowym zadanym na bazie-1
+          0 twierdzenie o bezwładności form kwadratowych-1, twierdzenie Sylvestera-Jacobiego-1
+          0 twierdzenie Kroneckera-Capellego-1
+          0 twierdzenie Cayleya–Hamiltona-1
+          0 prawo Hooke’a-1
+          0 prawo Estoup-Zipf-1
+          0 twierdzenie Mordella-Weila-1
+          0 zasada ekstensjonalności-1
+          0 twierdzenie Pettisa-1
+          0 zasada tożsamości-1, prawo tożsamości-1
+          0 twierdzenie Wedderburna-1
+          0 zasada przyspieszenia-1
+          0 dyspozytywność-1, zasada dyspozytywności-1, zasada rozporządzalności-1
+          0 dwuwartościowość-2, zasada dwuwartościowości-1
+          0 kompozycyjność-1
+          0 binarność-3
+          0 dualność-2, zasada dualności-1
+          4 prawo wielkich liczb-1
+            0 słabe prawo wielkich liczb-1, SPWL-1
+            1 mocne prawo wielkich liczb-1, MPWL-1
+              0 mocne prawo wielkich liczb Kołmogorowa-1
+            0 prawo Bernoulliego-1, prawo wielkich liczb Bernoulliego-1
+          1 prawo fizyki-1, reguła-3
+            0 ekwipartycja-1, zasada ekwipartycji energii-2, zasada ekwipartycji-1
+        0 choreografia-2
+        0 krajoznawstwo-2, fizjografia-1
+        0 rysopis-1
+        7 biografia-1, życiorys-1
+          0 psychobiografia-1
+          0 hagiografia-3
+          0 żywot-2
+          0 curriculum vitae-1, CV-1, cefałka-1
+          0 hagiografia-2
+          0 biogram-1, nota biograficzna-1
+          0 autobiografia-1
+      28 modlitwa-1
+        0 akt strzelisty-1
+        0 sekreta-1
+        0 ofertorium-1
+        0 confiteor-1, spowiedź powszechna-1
+        0 credo-1, wyznanie wiary-1, profesja-2, kredo-2
+        0 mantra-1
+        0 koronka-4
+        0 koronka-5
+        0 kadisz-1, kadysz-1
+        0 salat-1, namaz-1
+        VISITED 1 responsorium-1
+        0 zdrowaśka-1
+        2 antyfona-1
+          0 improperia-1
+          0 introit-1
+        3 godzina kanoniczna-1
+          0 tercja-3
+          0 pryma-2
+          0 nona-1
+        0 kolekta-1
+        0 kompleta-1
+        0 różaniec-1
+        VISITED 2 psalm-1
+        0 litania-1
+        0 pacierz-1
+      13 opowiadanie-2, historia-2, opowieść-2
+        0 ględa-1
+        0 bajka o żelaznym wilku-1
+        0 anegdotka-1, dykteryjka-1
+        0 gawęda-2
+        7 dowcip-1, żart-2, kawał-4
+          0 dowcipas-1
+          0 suchar-4
+          0 purnonsens-1
+          0 greps-1
+          VISITED 0 szmonces-1
+          0 wic-1
+          0 śmiesznostka-2
+        0 anegdota-1, opowiastka-2
+      5 groźba-2, pogróżka-1
+        1 groźba bezprawna-1
+          0 groźba karalna-1
+        0 ultimatum-1
+        1 szantaż-1
+          0 szmalcownictwo-1
+      30 relacja-1, sprawozdanie-1
+        1 fotorelacja-1
+          VISITED 0 fotoreportaż-1
+        15 sprawozdanie finansowe-1
+          14 bilans-2, rozrachunek-4, zestawienie-7
+            0 bilans obrotów wyrównawczych-1, bilans obrotów dewizowych banku centralnego-1
+            1 bilans obrotów kapitałowych-1
+              0 rachunek kapitałowy-1
+            0 bilans obrotów bieżących-1
+            0 bilans czynny-1, bilans dodatni-1
+            0 bilans bierny-1, bilans ujemny-1
+            0 bilans księgowy-1
+            1 bilans płatniczy-1
+              0 rachunek finansowy-1
+            3 bilans handlowy-1
+              0 teoria naturalnej stagnacji-1
+              0 deficyt handlowy-1
+              0 nadwyżka handlowa-1
+            0 remanent-1
+        4 podsumowanie-6, bilans-1, saldo-2, summa-1
+          1 karma-2, karman-1
+            0 karma kredytowa-1
+          VISITED 1 obrachunek-1, rozrachunek-2
+        3 raport-1, meldunek-1
+          0 biała księga-1
+          0 ceduła-2
+          0 raport karny-1
+        2 protokół-1
+          0 protokół rozbieżności-1
+          0 protokół jednostronny-1
+    797 utwór-1, dzieło-1
+      0 impresja-2
+      0 utwór wkładowy-1
+      0 samograj-4
+      0 łabędzi śpiew-1
+      148 utwór audiowizualny-1
+        22 *gra komputerowa-1
+          0 czytanka-3
+          0 remake-2
+          1 symulator-2
+            0 symulator lotu-1
+          0 zręcznościówka-1, gra zręcznościowa-1
+          0 sandbox-1
+          0 skradanka-1
+          2 strategia-3, strateg-2, gra strategiczna-1
+            0 RTS-1, strategia czasu rzeczywistego-1
+            0 turówka-2
+          0 bijatyka-2, mordobicie-2, nawalanka-3
+          1 strzelanina-3, strzelanka-1
+            0 FPS-1
+          1 przygodówka-1
+            0 point and click-1
+          0 platformówka-1
+          1 gra RPG-2, RPG-1
+            VISITED 0 gra MMORPG-1, MMO-1
+          1 gra sieciowa-1
+            0 gra MMORPG-1, MMO-1
+          1 ścigałka-1, wyścigi-1, wyścigówka-4, gra wyścigowa-1
+            0 samochodówka-1
+          VISITED 0 film interaktywny-1
+        90 film-1, obraz-6
+          0 półkownik-1
+          0 Disney-2
+          0 remake-1
+          0 superprodukcja-1, superfilm-1
+          0 wideo-3
+          3 film historyczny-1
+            VISITED 2 film kostiumowy-1, kostiumowiec-1
+          0 film oświatowy-1
+          2 film science-fiction-1, film SF-1, film S-F-2, film s-f-1, film fantastycznonaukowy-1
+            0 cyberpank-2
+            VISITED 0 komedia science-fiction-1, komedia SF-1, komedia s-f-1, komedia S-F-2
+          0 film noir-1, czarny film-1
+          0 film telewizyjny-1
+          0 film w zwolnionym tempie-1
+          0 film 3D-1, film trójwymiarowy-1
+          0 kronika filmowa-1
+          0 wersja reżyserska-1
+          0 wersja kinowa-1
+          0 film amatorski-1
+          VISITED 0 hentai-1
+          5 anime-1
+            0 shounen-2
+            0 shounenai-1, yaoi-1, shōnen-ai-1
+            0 shoujoai-1, yuri-1, shōjo-ai-1
+            0 ecchi-1
+            0 hentai-1
+          0 paradokument-1
+          0 teledysk-1, wideoklip-1, klip-1, clip-1, videoclip-1
+          1 spot-1, spot reklamowy-1, reklamówka-2
+            0 billboard-3
+          0 koprodukcja-1
+          5 dramat-2, film dramatyczny-1
+            VISITED 0 dramat katastroficzny-1
+            0 dramat sądowy-1
+            0 film psychologiczny-1, dramat psychologiczny-1
+            VISITED 0 komediodramat-2, film tragikomiczny-1
+            0 wyciskacz łez-1
+          8 komedia-2, film komediowy-1
+            0 komedia science-fiction-1, komedia SF-1, komedia s-f-1, komedia S-F-2
+            0 komediodramat-2, film tragikomiczny-1
+            0 komedia sensacyjna-1
+            0 czarna komedia-1
+            0 komedia kryminalna-1
+            0 komedia romantyczna-1
+            1 burleska-1
+              0 slapstick-1
+          0 film autorski-1
+          0 film awanturniczy-1
+          0 kreskówka-1
+          0 film średniometrażowy-1
+          2 film kostiumowy-1, kostiumowiec-1
+            0 film samurajski-1
+            VISITED 0 film płaszcza i szpady-1
+          0 film interaktywny-1
+          0 film dźwiękowy-1
+          1 film pełnometrażowy-1, film długometrażowy-1, pełny metraż-1, długi metraż-1
+            VISITED 0 pełnometrażowy film fabularny-1, długometrażowy film fabularny-1
+          0 film niemy-1
+          0 musical-1, film muzyczny-1
+          0 migawka-1
+          VISITED 0 film dokumentalny-1
+          0 animacja-1, film animowany-1, bajka-4
+          0 film dla dorosłych-1, pornos-1, pornol-1
+          3 film krótkometrażowy-1, krótki metraż-1, krótkometrażówka-1
+            VISITED 2 zwiastun-4, forszpan-1, zajawka-1, trailer-1
+          19 film fabularny-1, film aktorski-1
+            1 thriller-2, dreszczowiec-1
+              VISITED 0 gore-1
+            1 horror-3
+              0 gore-1
+            0 film płaszcza i szpady-1
+            1 film wojenny-1, dramat wojenny-1
+              0 film antywojenny-1
+            0 pełnometrażowy film fabularny-1, długometrażowy film fabularny-1
+            0 kryminał-1, film kryminalny-1
+            3 western-1
+              0 antywestern-1, western rewizjonistyczny-1
+              0 acid western-1
+              0 spaghetti western-1, macaroni western-1
+            0 melodramat-1
+            5 film sensacyjny-1, film akcji-1, kino akcji-1, nawalanka-4, dramat sensacyjny-1
+              0 film szpiegowski-1
+              1 film katastroficzny-1
+                0 dramat katastroficzny-1
+              0 dramat gangsterski-1
+              0 film drogi-1, kino drogi-1
+          VISITED 8 serial-1, serial telewizyjny-1
+          0 ekranizacja-1
+        43 program-5
+          13 program telewizyjny-1
+            0 telezakupy-2
+            0 telewizja śniadaniowa-1
+            0 program specjalny-1, wydanie specjalne-1
+            VISITED 0 teleturniej-1
+            8 serial-1, serial telewizyjny-1
+              1 serial dokumentalny-1
+                VISITED 0 telenowela dokumentalna-1
+              0 serial filmowy-1
+              VISITED 1 serial komediowy-1
+              0 miniserial-1
+              1 opera mydlana-1
+                0 telenowela dokumentalna-1
+              0 telenowela-1
+          0 program w kolorze-1
+          0 program z telefonicznym udziałem słuchaczy-1, program z telefonicznym udziałem radiosłuchaczy-1
+          0 program z telefonicznym udziałem widzów-1
+          2 program rozrywkowy-1
+            0 talent show-1
+            0 teleturniej-1
+          2 program cykliczny-1
+            1 serial komediowy-1
+              0 sitcom-1
+          0 teatr telewizji-1
+          0 reality-show-1
+          0 pogoda-3, prognoza pogody-1
+          0 talk show-1, talk-show-1
+          0 wieczorynka-1, dobranocka-1
+          0 quiz-1, kwiz-1
+          3 transmisja-2
+            0 retransmisja-1
+            0 teletransmisja-2
+            0 teletransmisja-1
+          1 powtórka-2
+            0 reemisja-1
+          1 program informacyjny-1
+            0 dziennik-4
+          8 audycja-1
+            2 słuchowisko-1
+              VISITED 0 powieść radiowa-1
+              0 teatr radiowy-1
+            0 koncert życzeń-1
+            0 komentarz-4
+            1 przekładaniec-2, montaż-2
+              0 kabareton-1
+            0 reportaż-2
+      0 apokryf-3
+      46 *utwór sceniczny-1
+        VISITED 0 opereta-1
+        0 zarzuela-1
+        0 bluetka-1
+        0 singspiel-1, komedioopera-1
+        0 intermedium-3, interludium-1
+        0 intermedium-1
+        0 serenada-4
+        1 skecz-1
+          0 szmonces-1
+        VISITED 0 balet-1
+        VISITED 0 operetka-1
+        VISITED 1 opera-1
+        VISITED 32 dramat-1, sztuka-2
+      0 wspomnienie-5
+      1 produkcyjniak-1
+        VISITED 0 powieść produkcyjna-1
+      0 spin-off-1, sidequel-1
+      0 usypiacz-1
+      0 prequel-1
+      1 debiut-1
+        0 pierwocina-1
+      0 dylogia-1, dyptyk-2
+      VISITED 0 paszkwil-1
+      1 pastisz-1
+        VISITED 0 persyflaż-1
+      0 moralitet-1
+      0 apokryf-1, pseudoepigraf-1
+      30 dokument-3
+        28 przekaz-5
+          27 pismo-7
+            26 księga-4
+              0 księga stadna-1
+              0 księga wójtowska-1
+              0 penitencjał-1
+              1 księga domowa-1
+                0 sylwa-1
+              14 księga liturgiczna-1
+                0 menologium-1, menologion-1
+                0 synaksarion-1, synaksariusz-1
+                0 euchologion-1
+                0 ewangeliarz-3, ewangelistarz-2
+                0 pasjonał-1
+                0 martylogium-1
+                0 kyriale-1
+                0 epistolarium-1
+                0 pontyfikał-1, pontyfikał rzymski-1
+                0 sakramentarz-1, sakramentariusz-1
+                0 antyfonarz-1
+                0 lekcjonarz-1
+                0 mszał-1
+                0 graduał-1
+              0 martyrologium-1
+              1 święta księga-1
+                0 wedy-1
+              2 kronika-1
+                0 pitawal-1, pitaval-1
+                0 annał-3, rocznik-1
+        0 film dokumentalny-1
+      5 miniatura-4
+        VISITED 0 intermezzo-1
+        VISITED 0 bagatela-1
+        VISITED 0 legenda-3
+        VISITED 0 arabeska-2
+        VISITED 0 humoreska-2
+      1 kontynuacja-1, ciąg dalszy-1
+        0 sequel-1
+      2 reportaż-1
+        0 fotoreportaż-1
+        0 reportaż literacki-1
+      0 kompilacja-1
+      1 groteska-1
+        0 tragigroteska-2
+      0 tasiemiec-2
+      289 *utwór muzyczny-1
+        4 kawałek-1
+          0 opener-2
+          0 pościelówa-1, pościelówka-2
+          VISITED 0 cover-1, kower-1
+          0 miks-2, remiks-1
+        0 utwór kameralny-1
+        1 utwór programowy-1
+          0 legenda-3
+        0 blues-2
+        0 quodlibet-1
+        0 anthem-1
+        0 klauzula-2
+        0 poema-1
+        0 ansambl-3
+        0 przygrywka-2
+        15 *większa forma muzyczna-1
+          0 cykl sonatowy-1
+          0 opereta-1
+          VISITED 0 koncert-2
+          0 pasja-5
+          1 msza-2
+            0 requiem-2, rekwiem-2
+          0 oratorium-1
+          1 suita-1
+            0 partita-1
+          0 balet-1
+          0 operetka-1
+          VISITED 1 symfonia-1
+          1 opera-1
+            0 rock-opera-1
+        0 mazurek-6
+        18 *nazwa utworu muzycznego informująca o liczbie jego wykonawców-1
+          0 septet-2
+          5 solo-2
+            VISITED 0 arioso-1
+            1 solówka-1
+              0 palcówka-7
+            VISITED 1 aria-1
+          0 duet-3
+          1 trio-2
+            VISITED 0 tercet-3
+          0 nonet-1
+          1 sekstet-2
+            VISITED 0 sekstet-3
+          0 oktet-2
+          2 kwartet-1
+            0 kwartet fletowy-1
+            0 kwartet fortepianowy-3
+          0 kwintet-2
+        11 *nazwa utworu muzycznego związana z jego tempem-1
+          0 andantino-2
+          0 larghetto-2
+          0 presto-2
+          0 vivace-2
+          0 largo-2
+          0 moderato-2
+          0 lento-2
+          0 andante-2
+          0 allegretto-2
+          0 adadżio-2, adagio-2
+          0 allegro-1
+        0 wariacje-1
+        0 intermezzo-1
+        0 ricercar-1
+        1 elegia-3
+          VISITED 0 duma-3
+        0 opus-1
+        0 impromptu-1
+        1 marsz-3
+          0 marsz triumfalny-1
+        0 nokturn-1
+        0 etiuda-1, etiuda koncertowa-1
+        0 toccata-1
+        0 serenada-1
+        0 rapsodia-1
+        0 madrygał-1
+        0 kantylena-1
+        1 kancona-2, canzona-1
+          0 kanconeta-2, canzonetta-2
+        0 chorał-1
+        0 fuga-1
+        4 ćwiczenie-6, etiuda-2, wprawka-1
+          VISITED 0 solfeż-2
+          VISITED 0 wokaliza-1
+          1 palcówka-1
+            0 pięciopalcówka-1
+        0 humoreska-2
+        2 aranżacja-1, aranż-1
+          0 cover-1, kower-1
+          0 transkrypcja-2
+        1 sonata-1
+          0 sonatina-1
+        0 poemat symfoniczny-1
+        108 taniec-1
+          0 hip-hop-3
+          0 tango-3
+          0 polonez-5
+          0 polka-4
+          0 kozak-10, kazaczok-3
+          0 krakowiak-7
+          0 habanera-3
+          0 gigue-3, jig-5, giga-3, dżig-3
+          0 saltarello-2
+          0 passepied-2
+          0 krzesany-2
+          0 halling-2
+          0 bergamasca-2, bergamaska-2
+          0 beguine-2
+          0 passamezzo-2
+          0 allemande-2
+          0 siciliana-1
+          0 courante-1, kurant-4
+          0 calata-1
+          0 forlana-2
+          0 galiarda-2
+          0 bourrée-2
+          VISITED 0 bolero-5
+          77 *utwór taneczny-1
+            0 zorba-2
+            0 sarabanda-3
+            0 menuet-3
+            0 one-step-2
+            0 madison-2
+            4 latino-2
+              0 jive-2
+              0 bachata-2
+              0 cza-cza-2, cha-cha-2
+              0 bossa nova-2
+            0 cake-walk-2
+            0 zbójnicki-2
+            0 waloszek-2
+            0 trepak-2
+            0 sardana-2
+            0 mietlorz-2
+            0 lezginka-2
+            0 lawonicha-2
+            0 krzesany-3
+            0 kołomyjka-3
+            0 fandango-3
+            0 drabant-3
+            0 shimmy-2
+            0 rigaudon-2
+            0 zouk-1
+            0 cenar-2
+            0 kaczucza-2
+            0 farandola-2
+            0 lambada-2
+            1 twist-2
+              0 surf-2
+            1 tango-2
+              0 milonga-1
+            0 paso doble-2
+            0 galop-4
+            0 trojak-3
+            0 sztajer-2
+            1 polka-3
+              0 sztajer-4, sztajerek-2
+            0 mazur-3, mazurek-5
+            0 lendler-2
+            0 kujawiak-3
+            0 kozak-6, hopak-3
+            0 kazaczok-2, kozak-9
+            0 jig-3, gigue-2, giga-2, dżig-2
+            0 hopak-2
+            0 hajduk-5
+            0 habanera-2
+            0 czardasz-3
+            0 chodzony-2
+            0 bolero-4
+            0 salsa-2
+            0 tarantella-1, tarantela-1
+            0 krakowiak-1
+            0 chmiel-2
+            0 hora-1
+            0 samba-2
+            0 rumba-2
+            0 oberek-2
+            0 mambo-2
+            0 kankan-1
+            3 fokstrot-2, foxtrot-2
+              0 slow-fox-2
+              0 quickstep-2
+              0 karioka-2
+            0 charleston-2
+            0 lansjer-3
+            0 pawana-1
+            0 kadryl-2
+            0 gawot-1
+            1 kontredans-2
+              0 anglez-3, angielczyk-3
+            3 walc-1
+              0 walc wiedeński-2
+              0 walc angielski-2
+              0 boston-2
+            0 polonez-2
+          VISITED 0 walc-3
+          VISITED 0 tarantella-3, tarantela-3
+          VISITED 0 padwan-3
+          VISITED 0 passacaglia-1
+          VISITED 0 sarabanda-2
+          VISITED 0 czardasz-2
+          0 menuet-1
+        26 *utwór instrumentalny-1
+          0 sinfonietta-1
+          0 bolero-5
+          0 parafraza-2
+          0 walc-3
+          0 tarantella-3, tarantela-3
+          0 padwan-3
+          0 koncert-2
+          0 bagatela-1
+          0 divertimento-2
+          0 intrada-1
+          0 tusz-7
+          0 passacaglia-1
+          0 sarabanda-2
+          0 scherzo-1
+          0 fantazja-3
+          0 preludium-1
+          0 arabeska-2
+          0 czardasz-2
+          0 rondo-2
+          0 burleska-2
+          0 intermedium-2, intermezzo-2
+          1 uwertura-1
+            0 sinfonia-1
+          0 ballada-3
+          1 symfonia-1
+            0 symfonia koncertująca-1
+        71 *utwór wokalny-1
+          0 solfeż-2
+          0 tercet-3
+          0 arioso-1
+          0 wokaliza-1
+          0 sekstet-3
+          0 motet-1
+          1 kanon-2
+            0 caccia-1
+          0 ballada-2
+          16 piosenka-1
+            0 przytupas-1
+            0 piosenka aktorska-1
+            0 singiel-5, singel-5, syngiel-2
+            0 szumka-2
+            0 szansonetka-1
+            0 chanson-2
+            0 kołomyjka-2
+            0 szanta-1
+            0 berżeretka-2
+            0 śpiewanka-1
+            0 kantylena-2
+            1 song-2
+              0 protest song-1
+            1 przyśpiewka-1
+              0 czastuszka-1
+            0 kołysanka-1, berceuse-1
+          44 pieśń-1
+            0 kawatyna-1, kawatina-1, cavatina-1
+            VISITED 0 parodos-1
+            0 lauda-1
+            0 sekwencja-3
+            VISITED 0 enkomion-1
+            0 rondo-5
+            0 karmaniola-2, carmagnole-2
+            0 duma-3
+            0 villanella-1
+            0 kurdesz-1
+            0 passacaglia-3
+            0 nenia-1
+            0 majufes-1
+            VISITED 0 epinicjon-1, epinikion-1, epinicjum-1
+            0 chorea-1
+            0 suplikacja-1
+            1 responsorium-1
+              0 graduał-2
+            12 *pieśń ludowa-1
+              0 wyrwas-1
+              0 wiośnianka-1
+              0 daina-1
+              0 runa-2
+              0 krakowiak-4
+              3 *pieśń weselna-1
+                0 epitalamium-2
+                0 dziewosłęb-2, dziewosłąb-2
+                0 chmiel-4
+              0 dajna-1, daina-2
+              0 dumka-2
+              VISITED 0 pastorałka-1
+            0 serenada-2
+            0 serenada-3
+            0 kancona-3, canzona-3
+            0 kantyczka-1
+            0 romanca-2
+            0 gondoliera-1, barkarola-1
+            1 kolęda-1
+              0 pastorałka-1
+            3 hymn-1
+              0 trisagion-1
+              0 kantyk-1, kantyka-1
+              0 hymn państwowy-1
+            1 aria-1
+              0 aria koncertowa-1
+        3 przebój-1
+          0 evergreen-1
+          0 superprzebój-1
+          0 szlagier-1
+        0 kantata-1
+      295 *utwór literacki-1, dzieło literackie-1
+        0 dzieło otwarte-1
+        0 apokryf-2
+        0 stanca-3
+        0 stanca-2
+        0 heroida-1
+        0 centon-1, bigos literacki-1
+        0 moralizacja-2
+        0 paramythia-1
+        0 dialog-4
+        0 tautogram-1
+        0 dystopia-1
+        0 apolog-1
+        0 melika-1
+        0 ewangelia-6
+        3 fragment-2
+          0 dwuwers-1
+          0 epizod-2
+          0 odcinek-1
+        0 drobiazg-4
+        0 apoftegmat-1
+        0 antyutopia-1
+        0 kobyła-4
+        0 epicedium-1, epicedion-1
+        0 hagada-1, haggada-1, agada-2
+        1 bajka-1
+          0 bajka zwierzęca-1
+        0 makabreska-1
+        0 sympozjon-1
+        0 sylwa-2
+        0 ramota-1, ramotka-1
+        0 apoteoza-1
+        0 diatryba-1
+        0 apologetyk-2, apologia-1
+        95 utwór epicki-1, dzieło epickie-1
+          0 epyllion-1
+          VISITED 0 duma-2
+          VISITED 0 elegia-1
+          0 pamiętnik-2
+          0 epika wierszowana-1
+          0 epika prozaiczna-1
+          VISITED 0 bylina-2
+          VISITED 0 kantylena-3
+          0 romanca-1
+          VISITED 16 poemat-1
+          VISITED 21 opowiadanie-3
+          VISITED 46 powieść-1
+        0 przypowieść-1, parabola-2
+        0 persyflaż-1
+        1 panegiryk-1
+          0 epitalamium-1
+        0 pamflet-1
+        VISITED 0 list poetycki-1
+        4 romans-1
+          0 romans gotycki-1
+          VISITED 0 makama-1
+          1 romans rycerski-1
+            0 sirat-1
+        3 poemat epicki-1
+          0 epopeja heroiczna-1
+          0 powieść poetycka-1
+          0 poemat heroiczny-1
+        0 trawestacja-1
+        3 satyra-1
+          0 menippea-1, satyra menippejska-1
+          0 palinodia-1
+          0 burleska-3
+        0 parodia-1
+        3 szmira-1, tandeta-1, chała-1, gniot-1, ramota-2
+          0 bazgrot-2
+          0 komercja-1
+          0 chałtura-1
+        124 dzieło poetyckie-1
+          0 liryk-1
+          16 poemat-1
+            0 rotuła-1
+            0 morna-3
+            0 drapa-1
+            0 georgika-1
+            VISITED 0 madrygał-2
+            1 kancona-1, canzona-2
+              0 kanconetta-1, canzonetta-1, kanconeta-1
+            0 poemat opisowy-1
+            0 poemat heroikomiczny-1
+            0 poemat dydaktyczny-1
+            0 poemat dygresyjny-1
+            4 epos-1, epopeja-1
+              0 Homer-2
+              0 purana-1
+              0 itihasa-1
+              0 epos homerycki-1
+          106 wiersz-1
+            0 heksametr-2
+            0 dziewięciozgłoskowiec-2
+            0 tetrametr-1
+            0 ballata-1
+            0 wiersz zdaniowy-1
+            0 wiersz wolny-1
+            0 wiersz toniczny-1
+            0 wiersz sylabotoniczny-1
+            0 wiersz sylabiczny-1
+            0 wiersz stychiczny-1
+            0 wiersz stroficzny-1
+            0 wiersz nieregularny-1
+            0 wiersz meliczny-1
+            0 dziesięciozgłoskowiec-2
+            0 dwunastozgłoskowiec-2
+            0 blason-1
+            0 raki-3
+            0 pantum-1, pantun-1
+            0 skoropis-3
+            0 siedmiozgłoskowiec-1
+            4 epigram-1, epigramat-1
+              3 fraszka-1
+                0 priapeum-1
+                0 xenia-1
+                0 figlik-1
+            0 gatha-1
+            1 wiersz obrazkowy-1
+              0 kaligram-1
+            0 rubajat-1, rubajjat-1, rubajt-1
+            0 stornel-1, stornello-1
+            0 akromonogram-1, wiersz akromonograficzny-1
+            0 oda-1
+            0 monorym-1
+            0 lepiej-1
+            0 szarada-2
+            0 duma-2
+            0 haiku-1
+            0 pentametr-1
+            0 moskalik-2
+            0 ośmiozgłoskowiec-1
+            0 epoda-1
+            0 gazel-1, gazela-2, ghazal-1, gazal-1
+            1 waka-2
+              0 tanka-1
+            0 elegia-1
+            0 wierszydło-1
+            0 kasyda-1
+            0 nokturn-2
+            0 anakreontyk-1
+            0 aleksandryn-1, wiersz aleksandryjski-1
+            0 sestyna-1, sekstyna-2
+            0 oktostych-2, ośmiowiersz-2
+            0 monostych-2
+            0 madrygał-3
+            0 dytyramb-1
+            0 chorał-2
+            0 heksametr-1
+            0 czterowiersz-1
+            1 akrostych-1
+              0 abecedariusz-1, wiersz abecadłowy-1
+            0 pean-1
+            0 wyliczanka-2
+            1 dystych-1, dwuwiersz-1
+              0 dwuwers-2
+            0 biały wiersz-1
+            0 wiersz leoniński-1, leonin-1
+            0 kantata-2
+            0 erotyk-1
+            0 limeryk-1
+            4 elegia-2
+              VISITED 3 lamentacja-1, lament-2
+            0 sonet-1
+            0 rymowanka-1
+            3 hymn-2
+              0 kondakion-1, kontakion-1
+              0 akatyst-1
+              0 doksologia-2
+            2 sielanka-1, bukolika-1, ekloga-1, pastorałka-2, idylla-1, skotopaska-1
+              0 berżeretka-3
+              0 madrygał-2
+            1 ballada-1
+              0 dumka-1
+            1 epitafium-2, nagrobek-2
+              0 elogium-1
+            22 pieśń-2
+              0 exodos-1, eksodos-1
+              0 parodos-1
+              0 chanson-1
+              0 virelai-1
+              0 prosodion-1
+              0 kierlesz-1
+              0 lai-1
+              0 enkomion-1
+              0 alba-2
+              0 epinicjon-1, epinikion-1, epinicjum-1
+              0 bylina-2
+              0 stasimon-1
+              0 kantylena-3
+              0 dytyramb-2
+              3 lamentacja-1, lament-2
+                1 plankt-1, planctus-1
+                  0 nenia-2
+                0 tren-1
+              0 padwan-1
+              2 psalm-1
+                0 psalm responsoryjny-1
+                0 psalm alfabetyczny-1
+        73 proza-1
+          0 arabeska-4
+          1 proza poetycka-1
+            0 makama-1
+          0 nowela-1
+          21 opowiadanie-3
+            0 szkic-3
+            0 obrazek-2
+            2 gawęda-1
+              0 gawęda sarmacka-1, gawęda szlachecka-1
+              0 gawęda ludowa-1
+            0 facecja-1
+            0 humoreska-1
+            9 opowieść-1
+              0 bajka-2
+              0 hadis-1
+              0 robinsonada-3
+              1 podanie-8
+                0 klechda-1
+              0 baśń-1, bajda-2
+              0 legenda-2
+              0 saga-2
+              VISITED 0 mit-2
+            3 historyjka-1, opowiadanko-1, opowiastka-1, powiastka-1
+              1 copypasta-1, pasta-5
+                0 creepypasta-1
+              0 powiastka filozoficzna-1
+          46 powieść-1
+            0 powieść panoramiczna-1
+            1 powieść młodzieżowa-1
+              0 powieść dla dziewcząt-1, powieść pensjonarska-1
+            0 powieść polifoniczna-1
+            1 powieść w odcinkach-1
+              0 powieść radiowa-1
+            0 powieść reportażowa-1
+            0 powieść autotematyczna-1
+            0 powieść autobiograficzna-1
+            1 powieść polityczna-1
+              0 powieść aluzyjna-1
+            0 powieść szkatułkowa-1, powieść szufladkowa-1
+            1 powieść społeczno-obyczajowa-1
+              0 powieść środowiskowa-1
+            0 powieść sensacyjna-1
+            4 powieść fantastyczna-1
+              0 powieść fantasy-1
+              0 powieść fantastyczno-naukowa-1, powieść fantastycznonaukowa-1, powieść science-fiction-1, powieść sci-fi-1, powieść SF-1, powieść s-f-1
+              VISITED 0 fantastyka historyczna-1, fantasy historyczna-1
+              0 horror-1
+            0 powieść gotycka-1
+            0 powieść edukacyjna-1, bildungsroman-1
+            0 powieść marynistyczna-1
+            0 powieść przygodowa-1
+            0 powieść psychologiczna-1
+            0 powieść tendencyjna-1, powieść z tezą-1
+            0 powieść epistolarna-1
+            0 melodramat-4
+            0 western-2
+            3 powieść historyczna-1
+              0 fantastyka historyczna-1, fantasy historyczna-1
+              0 powieść biograficzna-1
+              0 powieść walterscottowska-1
+            0 thriller-1
+            1 powieść miłosna-1
+              0 harlekin-1
+            0 powieść z kluczem-2
+            0 powieść łotrzykowska-1, powieść szelmowska-1, powieść pikarejska-1, picaresca-1, pikareska-1
+            0 minipowieść-1
+            0 saga-1
+            2 kryminał-2, kryminałka-2, powieść kryminalna-1
+              0 powieść milicyjna-1
+              0 powieść detektywistyczna-1
+            0 powieść brukowa-1
+            0 antypowieść-1
+            0 powieść produkcyjna-1
+            0 mikropowieść-1
+        32 dramat-1, sztuka-2
+          0 tragedia-3
+          0 dramat modernistyczny-1
+          0 dramat historyczny-1
+          0 dramat groteskowy-1
+          1 dramat ekspresjonistyczny-1
+            0 dramat epicki-1
+          0 sztuczydło-1
+          0 tragigroteska-1
+          0 joruri-1
+          2 dramat grecki-1, dramat antyczny-1
+            VISITED 0 komedia grecka-1, komedia starogrecka-1
+            0 tragedia grecka-1
+          0 dramat liturgiczny-1
+          0 horror-4
+          0 thriller-3
+          0 mirakl-1
+          0 misterium pasyjne-1, misterium męki Pańskiej-1, sztuka pasyjna-1
+          0 arcydramat-1
+          0 czteroaktówka-1
+          0 tragikomedia-1
+          0 moralitet-2
+          0 monodram-1, teatr jednego aktora-1, monodramat-1
+          0 jednoaktówka-1, aktówka-2
+          0 dramat romantyczny-1
+          0 melodramat-2
+          6 komedia-1
+            0 komedia grecka-1, komedia starogrecka-1
+            0 dramat satyrowy-2
+            0 wodewil-1, śpiewogra-1
+            0 komedia dell'arte-1
+            1 farsa-1, krotochwila-2
+              0 tragifarsa-1
+          0 misterium-2
+    56 zawiadomienie-2, powiadomienie-2, obwieszczenie-3
+      0 alert-2
+      0 skarga-3
+      0 inserat-1
+      1 donos-1, doniesienie-6
+        0 denuncjacja-1, delacja-1
+      0 awizo-2
+      0 awizo-3
+      0 anons-1
+      0 notyfikacja-1
+      0 zgłoszenie-4
+      0 przypomnienie-3
+      0 nekrolog-1
+      39 zapowiedź-2, ogłoszenie-4
+        0 zapowiedzi-1
+        0 zajawka-4
+        0 anons-2
+        2 zwiastun-4, forszpan-1, zajawka-1, trailer-1
+          0 teaser-1
+          0 pilot-3
+        32 obietnica-1, przyrzeczenie-1, zobowiązanie-3, zapewnienie-1
+          VISITED 0 wotum-2, votum-2
+          0 słowo honoru-1, słowo-2, parol-2
+          0 ręka-6
+          1 obiecanka-1, obiecanki-1, gruszki na wierzbie-1, czek bez pokrycia-1, obiecanki cacanki-1
+            VISITED 0 kiełbasa wyborcza-1, kiełbasa przedwyborcza-1
+          0 list kredytowy-1
+          16 przysięga-1
+            0 baja-3
+            0 obediencja-2
+            0 rota-4
+            6 zaklęcie-4
+              0 klątwa-3
+              0 hokus-pokus-1
+              0 egzorcyzm-2
+              0 sezam-3
+              0 abrakadabra-2
+              0 inkantacja-1
+            5 ślubowanie-1, ślub-2
+              0 przysięga wojskowa-1
+              0 przyrzeczenie harcerskie-1
+              0 konsekracja-4
+              0 wotum-2, votum-2
+              0 śluby zakonne-1, profesja-3, śluby-1
+          10 deklaracja-2
+            1 obietnica wyborcza-1, obietnica przedwyborcza-1
+              0 kiełbasa wyborcza-1, kiełbasa przedwyborcza-1
+            0 lojalka-1
+            4 konosament-2
+              0 konosament FIATA-1
+              0 konosament przewozu kombinowanego-1
+              0 konosament bezpośredni-1
+              0 konosament zwykły-1
+            0 cyrograf-1
+            0 gwarancja-2
+      3 ogłoszenie-5
+        0 promulgacja-1
+        0 proskrypcja-1
+        0 list gończy-1
+  4 tajemnica-2, sekret-1
+    0 zmowa milczenia-1
+    0 tajemnica poliszynela-1, publiczna tajemnica-1
+    0 przemilczenie-3, białe plamy-1
+    0 konspiracja-2
+  78 ocena-3, osąd-1, opinia-3
+    0 aprobacja-1
+    0 sito-3
+    0 rating-2
+    0 gwiazdka-9
+    0 kontroskarżenie-1
+    0 opinia publiczna-1
+    0 autopercepcja-1
+    7 oskarżenie-3
+      VISITED 0 zarzut-1
+      VISITED 0 samooskarżenie-1
+      0 zniesławienie-2
+      1 podejrzenie-2, posądzenie-2
+        0 pomówienie-3, insynuacja-1
+      1 oszczerstwo-1, obmowa-1, kalumnia-1, potwarz-1, dyfamacja-1
+        0 paszkwil-1
+    0 dyskwalifikacja-2
+    0 kwalifikacja-2
+    0 absolutorium-2
+    24 krytyka-1
+      23 krytyka-2
+        0 wpływologia-1
+        3 atak-4, napaść-2
+          0 diss-1
+          0 napad-4
+          0 atak frontalny-1
+        1 nagonka-1
+          0 polowanie na czarownice-1
+        0 chłosta-2
+        1 samokrytyka-1, autokrytyka-1
+          0 samooskarżenie-1
+        0 satyra-2
+        2 uwaga-1, komentarz-3
+          1 przytyk-1, przycinek-1, przymówka-1
+            0 docinek-1, ucinka-2, ucinek-1
+        5 pouczenie-4, upomnienie-2, napomnienie-2, przygana-1
+          0 moralizacja-1
+          0 uwaga-4
+          0 pareneza-1
+          0 reprymenda-1, bura-1, połajanka-1, ochrzan-1, ruga-1
+          0 nagana-1
+        1 pretensja-1, żal-2, wymówka-1, wytyk-1, wyrzut-1
+          0 zarzut-1
+        0 strofowanie-2, kazanie-5
+    3 diagnoza-1
+      0 autodiagnoza-1
+      1 diagnoza-4
+        0 diagnoza społeczna-1
+    0 minus-3
+    0 plus-3
+    0 samoocena-1
+    0 referencje-1
+    0 łatka-1
+    1 obrachunek-1, rozrachunek-2
+      0 rachunek sumienia-1
+    3 ekspertyza-1
+      1 opinia-2
+        0 operat szacunkowy-1
+      0 kontrekspertyza-2
+    1 dezaprobata-1
+      0 wotum nieufności-1
+    4 aprobata-1, afirmacja-1
+      0 wotum zaufania-1, kredyt zaufania-1
+      0 oklaski-1
+      1 aplauz-1, brawo-1, owacja-1, poklask-1
+        0 klaka-2
+    14 stopień-3, ocena-1, nota-3
+      0 plus-6
+      1 jedynka-2
+        VISITED 0 niedostateczny-1
+      1 czwórka-3, czwóra-1
+        0 dobry-1
+      1 piątka-2
+        0 bardzo dobry-1
+      1 szóstka-2
+        0 celujący-1
+      1 trójka-2, trója-1
+        0 dostateczny-1
+      3 dwójka-2, dwója-1
+        0 dopuszczający-1
+        0 niedostateczny-1
+        0 mierny-1
+  98 wiadomość-1, wieść-1
+    3 łańcuszek-5
+      0 łańcuszek internetowy-1
+      1 łańcuszek szczęścia-1
+        0 łańcuszek św. Antoniego-1
+    0 SMS-2, esemes-1
+    0 telefoto-2, telefotografia-1
+    7 sygnał-1
+      0 cynk-2
+      5 pogłoska-1
+        0 fama-1
+        3 plotka-1, ploteczka-1, plota-1, szeptanka-1
+          0 stugębna plotka-1
+          0 komeraż-1
+          0 kaczka dziennikarska-1
+    1 tweet-1
+      0 retweet-1
+    7 doniesienie-7
+      4 depesza-1
+        0 iskrówka-2
+        0 depesza reuterowska-1
+        0 radiodepesza-1
+        0 szyfrówka-1
+      1 nowina-1, news-1
+        0 hit-3, hicior-1
+    12 tajemnica-1
+      0 tajemnica telekomunikacyjna-1
+      0 tajemnica adwokacka-1
+      0 tajemnica przedsiębiorstwa-1, tajemnica handlowa-1
+      0 tajemnica skarbowa-1
+      0 tajemnica statystyczna-1
+      0 tajemnica bankowa-1
+      0 tajemnica dziennikarska-1
+      0 tajemnica spowiedzi-1
+      0 tajemnica lekarska-1
+      0 tajemnica służbowa-1
+      0 tajemnica państwowa-1, tajemnica stanu-1
+      0 tajemnica korespondencji-1
+    0 hiobowa wieść-1, hiobowa wiadomość-1
+    0 fakt prasowy-1, fakt medialny-1
+    0 telefonogram-1
+    0 szyfrogram-1, kryptogram-1
+    0 teleks-2
+    0 e-mail-1, mail-1, mejl-1
+    0 faks-2, fax-2, telefaks-2, telefax-2
+    53 list-1, epistoła-1
+      0 list Uriasza-1
+      0 list apostolski-1
+      0 list gratulacyjny-1
+      0 list przewodni-1
+      0 pneumatyk-1
+      40 pismo-2
+        0 aplikacja-4
+        0 pismo procesowe-1
+        0 kredytywa-1
+        0 indulgencja-2
+        0 aide-mémoire-1
+        0 brewe-1
+        0 skoropis-1
+        0 tajnopis-2
+        8 pismo urzędowe-1
+          0 wezwanie do zapłaty-1
+          0 żądanie wyjaśnień-1, żądanie udzielenia wyjaśnień-1
+          0 nota-4
+          4 odwołanie-4
+            3 skarga-2, zażalenie-1, zaskarżenie-1
+              0 skarga kasacyjna-1
+              0 skarga konstytucyjna-1
+              0 reklamacja-1
+        0 ekspektatywa-2
+        0 encyklika-1
+        0 bulla-1
+        0 przesłanie-3
+        0 skierowanie-6
+        0 list pasterski-1
+        0 memoriał-2
+        0 petycja-1
+        1 okólnik-1, pismo okólne-1
+          0 list okólny-1
+        0 list otwarty-1
+        0 list motywacyjny-1
+        1 memorandum-1
+          0 memorandum finansowe-1
+        7 wniosek-1
+          1 pozew-1, powództwo-1
+            0 skarga pauliańska-1, roszczenia pauliańskie-1
+          3 odwołanie-3
+            0 kasacja-1
+            1 apelacja-1, rewizja-3
+              0 rewizja nadzwyczajna-1
+          0 konkluzja-2
+        0 podanie-7
+      0 dekretał-1, dekretalia-1
+      0 list poetycki-1
+      0 liścik-2
+      0 liścik-1
+      0 list polecony-1
+      0 gryps-1
+      0 anonim-1
+  8 napis-1
+    0 nadpis-1
+    0 tag-2
+    0 epigraf-2
+    0 petroglif-1
+    0 petrolgif-1
+    0 legenda-5
+    0 inskrypcja-1
+    VISITED 0 podpis-2, sygnatura-2
+  46 objaśnienie-4, wyjaśnienie-4
+    0 eksplanacja-2
+    1 ajtiologia-1, etiologia-2
+      0 mit-2
+    1 sprostowanie-4
+      0 dementi-1
+    0 scholium-1
+    5 opis-1, opisywactwo-1
+      3 analiza-2
+        0 wywód-3
+        0 epikryza-1
+        0 charakterystyka-2
+      0 metryka-3
+    0 legenda-4
+    1 klucz-6
+      0 klucz kodowy-1
+    0 didaskalia-1, tekst poboczny-1
+    0 posłowie-1
+    20 interpretacja-3, rozumienie-7, wykładnia-1, naświetlenie-3, odczytanie-6
+      1 interpretacja utworu literackiego-1
+        0 koło hermeneutyczne-1
+      0 wykładnia gramatyczna-1
+      0 wykładnia celowościowa-1
+      0 wykładnia autentyczna-1
+      0 psychologizacja-1
+      0 światło-11, oświetlenie-4
+      0 falandyzacja prawa-1
+      0 reinterpretacja-1
+      0 nadinterpretacja-1
+      8 komentarz-2
+        0 komentatorstwo-2
+        0 brahmana-1
+        0 glosa-2
+        0 midrasz-1
+        0 komcio-1
+        0 autokomentarz-1
+        1 egzegeza-2
+          0 postylla-1
+      0 egzegeza-1
+    0 eksplikacja-1
+    2 przypis-1, odnośnik-1, odsyłacz-1
+      0 przypis rzeczowy-1
+      0 notka-2
+    1 definicja-1
+      0 formalizm Jonesa-1
+    0 glosa-1
+    0 podpis-2, sygnatura-2

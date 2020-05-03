@@ -1,0 +1,305 @@
+od 1	A od X:gen	W miarę postępów zdarzenia A rośnie jego odległość na skali S od punktu początkowego X. Skala S określona jest przez rolę tematyczną. Może być przestrzenna (Loc Src, 1ab, od morza), czasowa (Time, 5, od świtu), intencjonalna (Cond, 7,8, mokry od rosy), porządkowa (Order, 2), porównawcza (Comp, 11), inna??? (Manr, 6, 12)
+od 2	A od X:gen	W miarę postępów zdarzenia A następuje oddzielenie od obiektu początkowego X jego części. (3, 4), 
+od 3	Y od X:gen	Y jest "częścią" X (Attr, 9abc,10)
+od 4	A od X:gen	ARG przyimek przyłączający wyrazy i wyrażenia służące wymyślaniu komuś 13
+do 1	A do X:gen	W miarę postępów zdarzenia A maleje jego odległość na skali S do punktu końcowego X. Skala S określona jest przez rolę tematyczną. Może być przestrzenna (Loc Goal, 3, do morza), czasowa (Time, 4, do świtu), intencjonalna (Purp, 2, do naprawy), porządkowa (Order, ), porównawcza (Comp, ), inna??? (Manr 5,6)
+do 2	Y do X:gen	przyimek komunikujący o przeznaczeniu obiektu (Attr, 1)
+do 3	do X:gen	przyimek wprowadzający samodzielne wypowiedzenia nieoznajmujące, m.in. przekleństwa, formuły grzecznościowe, odezwy
+ku 1	A ku X:dat	= do 1, (Loc Goal, 1; Time, 4; Purp, 2, 3)
+ku 2	A ku X:dat	ARG przyimek występujący w zdaniu komunikującym, że ktoś jest zainteresowany inną osobą pod względem erotycznym
+pod 1	A pod X:inst	Akcja A związana jest z miejscem M mającym mniejszą wartość na skali S niż miejsce, w którym znajduje się X. Skala S określona jest przez rolę tematyczną. Jeśli skala jest przestrzenna, wyznacza kierunek w górę, a rola tematyczna może wyznaczać kierunek ruchu względem M. (Loc 1,2; Path 1; Cond 8,17; Order 16)
+pod 2	A pod X:inst	= blisko 1 (Loc 3,4,10; Manr 18?) 
+pod 1	A pod X:acc	= pod 1 (Loc Goal 1, Time 13, Measure 14)
+pod 2	A pod X:acc	= blisko 1 (Loc Goal 3,4,10; Manr 12) 
+pod 3	A pod X:acc	= przeciw 1 (Manr 5)
+pod 4	A pod X:acc	= spod 4; przyimek wraz z przyłączanym rzeczownikiem komunikujący o kierowaniu czymś, sprawowaniu władzy lub opieki nad kimś lub nad czymś (7)
+pod 5	A pod X:acc	ARG przyimek występujący w zdaniu komunikującym, że jedna rzecz jest dopasowana lub dostosowana do drugiej (11)
+pod 6	A pod X:acc	ARG przyimek wprowadzający nazwę zakąski, która towarzyszy piciu alkoholu lub określenie wznoszonego przez kogoś toastu (15ab)
+pod 7	A pod X:inst	przyimek występujący w zdaniu komunikującym, że dana osoba lub dany obiekt mogą być rozpoznane za pomocą wymienionej nazwy (9)
+spod 1	A spod X:gen	= pod 1 (Loc Src 1)
+spod 2	A spod X:gen	= pod 2 (Loc Src 1)
+spod 3	A spod X:gen	ARG przyimek komunikujący, że ktoś spogląda pod czymś, co ma nad oczami (3)
+spod 4	A spod X:gen	przyimek oznaczający wspólne podleganie jakiejś władzy lub wydobycie się z zakresu jakichś oddziaływań (4) >produktywny wyciągnąć, uwolnić, wyjść, wymknąć, opieka, kuratela, władza, =? pod 1 ze skalą drabiny zależności społecznych
+spod 5	A spod X:gen	ARG przyimek przyłączający określenie przysługującego danej osobie znaku zodiaku (5)
+nad 1	A nad X:inst	Akcja A związana jest z miejscem M mającym większą wartość na skali S niż miejsce, w którym znajduje się X. Skala S określona jest przez rolę tematyczną. Jeśli skala jest przestrzenna, wyznacza kierunek w górę, a rola tematyczna może wyznaczać kierunek ruchu względem M.
+(Loc 1; Path 1; Order 5)
+nad 2	A nad X:inst	= blisko 1 (Loc 2; Time 4) 
+nad 1	A nad X:acc	= nad 1 (Loc Goal 1, Comp 6; Attr 7,8)
+znad 1	A znad X:gen	= nad 1 (Loc Src 1)
+znad 2	A znad X:gen	= blisko 1 (Loc Src 2) 
+ponad 1	A ponad X:inst	= nad 1 (Loc 1; Path 1)
+ponad 1	A ponad X:acc	= nad 1 (Loc Goal 1, Comp 2; Manr 3,4)
+sponad 1	A sponad X:inst	= nad 1 (Loc Src 1)
+blisko 1	A blisko X:gen	Akcja A związana jest z miejscem M znajdującym się w niewielkiej odległości od X na skali S niż miejsce. Skala S określona jest przez rolę tematyczną. (Loc a (blisko stacji metra); Time b (blisko daty wyjazdu); Count/Measure (blisko 4 hektary))
+koło 1	A koło X:gen	= blisko 1 (Loc 1; Path 1; Time 2; Count/Measure 2) 
+niedaleko 1	A niedaleko X:gen	= blisko 1 (Loc; Time)
+obok 1	A obok X:gen	= blisko 1 (Loc 1; Path 1)
+obok 2	A obok X:gen	przyimek komunikujący o współwystępowaniu przedmiotów lub faktów, o których jest mowa, z innymi przedmiotami i faktami (2)
+około 1	A około X:gen	= blisko 1 (Time; Count/Measure)
+opodal 1	A opodal X:gen	= blisko 1 (Loc 1; Loc Goal 1)
+oprócz 1	A oprócz X:gen	przyimek wyłączający z zakresu odniesienia zdania element, którego nazwa użyta jest po tym przyimku (1)
+oprócz 2	A oprócz X:gen	= obok 2 (2) = przyimek włączający do zakresu odniesienia zdania element, którego nazwa użyta jest po tym przyimku
+przed 1	A przed X:inst	Akcja A związana jest z miejscem M mającym mniejszą wartość na skali S niż miejsce, w którym znajduje się X. Skala S określona jest przez rolę tematyczną. Jeśli skala jest przestrzenna, wyznacza kierunek od obserwatora, a rola tematyczna może wyznaczać kierunek ruchu względem M. (Loc 1; Time 4; Cond 3; Order 2)
+przed 2	A przed X:inst	przyimek wprowadzający nazwę osoby, rzeczy lub zjawiska, z którymi ktoś chce uniknąć kontaktu (5)
+przed 3	A przed X:inst	przyimek wprowadzający określenie adresata lub świadka czyjejś wypowiedzi (6)
+przed 4	A przed X:inst	przyimek komunikujący, że dane zdarzenie ma miejsce w obecności ważnej osoby lub grupy osób (7) =? przed 3
+przed 1	A przed X:acc	= przed 1 (Loc Goal 1)
+sprzed 1	A sprzed X:gen	= przed 1 (Loc Src 3; Time 1,2)
+za 1	A za X:inst	Akcja A związana jest z miejscem M mającym większą wartość na skali S niż miejsce, w którym znajduje się X. Skala S określona jest przez rolę tematyczną. Jeśli skala jest przestrzenna, wyznacza kierunek od obserwatora, a rola tematyczna może wyznaczać kierunek ruchu względem M. (Loc 1a,2; Time 11; Cond ; Order 1bc,7?,11)
+za 2	A za X:inst	= poza 1, na zewnątrz 1 (Loc 3)
+za 1	A za X:acc	= za 1 (Loc Goal 2, Cond 6a, Purp 6b, Time 9ab, 10)
+za 2	A za X:acc	= poza 1, na zewnątrz 1 (Loc Goal 3)
+za 3	A za X:acc	przyimek przyłączający nazwę części ciała lub rzeczy, którą ktoś chwycił (4)
+za 4	A za X:acc	przyimek przyłączający określenie przedmiotu transakcji	albo kwoty, którą ktoś zapłacił lub przyjął z tytułu jakiejś transakcji (5ab)
+za 5	A za X:acc	= zamiast 1, przyimek tworzący wyrażenia wskazujące osobę, która miała robić to, co robi zamiast niej ktoś inny (8a)
+za 6	A za X:acc	przyimek tworzący wyrażenia komunikujące, że ktoś robi czegoś bardzo dużo, przez wskazanie na liczbę osób, która zazwyczaj wykonuje daną czynność (8b)
+za 7	A za X:acc	przyimek tworzący wyrażenia nazywające okres obejmujący stan rzeczy, o którym mowa (12)
+za 8	A za X:acc	przyimek przyłączający określenie właściwości lub roli przypisywanej osobie albo rzeczy (13)
+za 1	A za X:gen	= za 1 (Time 10), przyimek tworzący wyrażenia określające czas, ze względu na sprawowanie funkcji przez osobę (za cara)
+za 9	A za X:inst	przyimek przyłączający nazwę przedmiotu uczuć lub upodobań (14)
+za 1	A zza X:gen	= za 1 (Loc Src 1,2)
+poza 1	A poza X:acc	Akcja A związana jest z miejscem M znajdującym się na zewnątrz (według skali S) miejsca zajmowanego przez X. Skala S określona jest przez rolę tematyczną. Jeśli skala jest przestrzenna, rola tematyczna może wyznaczać kierunek ruchu względem M. (Loc Goal 1)
+poza 1	A poza X:inst	= poza 1 (Loc 1, Time 2)
+poza 2	A poza X:inst	= oprócz 1 (3)
+poza 3	A poza X:inst	= oprócz 2 (4)
+spoza 1	A spoza X:gen	= poza 1 (Loc Src 2,3)
+spoza 2	A spoza X:gen	= przyimek informujący, że ktoś nie należy do grupy osób, instytucji lub organizacji, o której jest mowa (1)
+między 1	A między X:acc	Akcja A związana jest z miejscem M znajdującym się wewnątrz (według skali S) obszaru wyznaczonego przez X. Skala S określona jest przez rolę tematyczną. Jeśli skala jest przestrzenna, rola tematyczna może wyznaczać kierunek ruchu względem M. (Loc Goal 1, Purp 4?)
+między 1	A między X:inst	= między 1 (Loc 1, Path 1, Time 3, 
+między	prep			inst		2		przyimek komunikujący, iż zależność, o której mowa, dotyczy wymienionych w zdaniu osób, zjawisk, przedmiotów lub faktów	Pokrewieństwo między nimi było bardzo dalekie.
+między	prep			inst		5		przyimek ograniczający dwustronnie zbiór cech, które można przypisać nietypowemu obiektowi, o którym mowa	Bluzka koloru między żółtym a brązowym.
+między	prep			inst		6		przyimek komunikujący, iż wybór, przed którym stoi dana osoba, dotyczy wymienionych przedmiotów lub osób	Wybieraj między mną a nim.
+między	prep			inst		7		przyimek wprowadzający określenie zbioru, do którego należą lub spośród którego się wyróżniają charakteryzowane w zdaniu przedmioty lub osoby	Słynęła z urody między rówieśnicami.
+spomiędzy	prep		Location Source	gen		1		przyimek informujący, że z miejsca położonego między jakimiś obiektami wysunęła się, wyjrzała lub wyszła rzecz lub osoba, o której mowa w zdaniu	Spomiędzy kamieni ciekła woda.
+spomiędzy	prep			gen		2		przyimek informujący, że to, o czym mowa w zdaniu, dotyczy wyróżnionej części zbioru	Spomiędzy setek listów wylosowano trzy.
+wśród	prep		Location	gen		1		przyimek komunikujący, że przedmiot, osoba itp., o których mowa, są otoczone innymi przedmiotami, osobami itp.	Szła miedzą wśród rozgrzanych zbóż.
+wśród	prep			gen		2		przyimek komunikujący, że przedmiot, osoba lub zjawisko, o których mowa, są jednym z elementów danego zbioru przedmiotów, osób lub zjawisk	Wśród nagrodzonych umieszczono jego nazwisko.
+wśród	prep			gen		3		przyimek komunikujący, że to, o czym mowa w zdaniu, dotyczy wymienionej grupy osób jako całości lub każdej bądź większości z nich z osobna	 Wśród licznie przybyłych gości narastała niecierpliwość.
+wśród	prep			gen		4		przyimek komunikujący o zjawiskach towarzyszących danemu zdarzeniu	Weszły na estradę wśród dźwięków orkiestry.
+spośród	prep			gen		1		przyimek komunikujący, że to, o czym mowa w zdaniu, dotyczy wyróżnionej części jakiegoś zbioru	Wybrano go spośród zebranych.
+spośród	prep		Location Source	gen		2		przyimek komunikujący, że z miejsca położonego między jakimiś obiektami wysunęła się, wyjrzała lub wyszła rzecz lub osoba, o której mowa w zdaniu	Spośród zarośli wyłaniała się zabytkowa wieża.
+
+między:inst	przyimek komunikujący, że to, o czym mowa, jest z obu stron otoczone czymś
+między:acc	przyimek komunikujący, że to, o czym mowa, jest z obu stron otoczone czymś
+spomiędzy:gen
+wśród:gen
+spośród:gen
+wewnątrz:gen
+
+dokoła:gen	przyimek komunikujący, że to, o czym mowa w zdaniu, ma miejsce ze wszystkich stron czegoś znajdującego się w środku
+naokoło = dokoła
+wokół = dookoła
+
+na:loc
+na:acc
+naprzeciw:gen
+o:loc
+o:acc
+po:loc
+po:acc
+podczas:gen
+poprzez = przez
+przez:acc
+przy:loc
+u:gen
+w:loc
+w:acc
+wzdłuż:gen
+z:gen
+z:inst
+
+bez względu na	comprepnp
+co do	comprepnp
+do spółki z	comprepnp
+do spraw	comprepnp
+łącznie z	comprepnp
+na bazie	comprepnp
+na czas	comprepnp
+na czele z	comprepnp
+na drodze	comprepnp
+na gruncie	comprepnp
+na kanwie	comprepnp
+na koniec	comprepnp
+na końcu	comprepnp
+na korzyść	comprepnp
+na kształt	comprepnp
+na łamach	comprepnp
+na miarę	comprepnp
+na modłę	comprepnp
+na myśl	comprepnp
+na niekorzyść	comprepnp
+na niwie	comprepnp
+na okoliczność	comprepnp
+na okres	comprepnp
+na początek	comprepnp
+na początku	comprepnp
+na poczet	comprepnp
+na podobieństwo	comprepnp
+na podstawie	comprepnp
+na polu	comprepnp
+na poziomie	comprepnp
+na progu	comprepnp
+na przeciąg	comprepnp
+na przekór	comprepnp
+na przełomie	comprepnp
+na przodzie	comprepnp
+na przód	comprepnp
+na punkcie	comprepnp
+na równi z	comprepnp
+na rzecz	comprepnp
+na skalę	comprepnp
+na skutek	comprepnp
+na sposób	comprepnp
+na spółkę z	comprepnp
+na szkodę	comprepnp
+na środek	comprepnp
+na środku	comprepnp
+na temat	comprepnp
+na tle	comprepnp
+na tyle	comprepnp
+na tył	comprepnp
+na widok	comprepnp
+na wniosek	comprepnp
+na wstępie	comprepnp
+na wypadek	comprepnp
+na wzór	comprepnp
+na zakończenie	comprepnp
+na zasadzie	comprepnp
+niezależnie od	comprepnp
+niezgodnie z	comprepnp
+od strony	comprepnp
+od tyłu	comprepnp
+pod adresem	comprepnp
+pod ciężarem	comprepnp
+pod dowództwem	comprepnp
+pod egidą	comprepnp
+pod kątem	comprepnp
+pod kierunkiem	comprepnp
+pod koniec	comprepnp
+pod maską	comprepnp
+pod okiem	comprepnp
+pod osłoną	comprepnp
+pod płaszczykiem	comprepnp
+pod postacią	comprepnp
+pod pozorem	comprepnp
+pod pretekstem	comprepnp
+pod przywództwem	comprepnp
+pod rygorem	comprepnp
+pod warunkiem	comprepnp
+pod wodzą	comprepnp
+pod wpływem	comprepnp
+pod względem	comprepnp
+po bokach	comprepnp
+po stronie	comprepnp
+przy okazji	comprepnp
+przy pomocy	comprepnp
+przy użyciu	comprepnp
+razem z	comprepnp
+u boku	comprepnp
+u dołu	comprepnp
+u góry	comprepnp
+u podnóża	comprepnp
+u podstaw	comprepnp
+u progu	comprepnp
+u schyłku	comprepnp
+u stóp	comprepnp
+wspólnie z	comprepnp
+w celu	comprepnp
+w charakterze	comprepnp
+w ciągu	comprepnp
+w czasie	comprepnp
+w dole	comprepnp
+w dół	comprepnp
+w drodze	comprepnp
+w duchu	comprepnp
+w dziedzinie	comprepnp
+w efekcie	comprepnp
+w głąb	comprepnp
+w głębi	comprepnp
+w górę	comprepnp
+w górze	comprepnp
+w imieniu	comprepnp
+w imię	comprepnp
+w intencji	comprepnp
+w kierunku	comprepnp
+w końcu	comprepnp
+w kwestii	comprepnp
+w miarę	comprepnp
+w miejsce	comprepnp
+w myśl	comprepnp
+w następstwie	comprepnp
+w nawiązaniu do	comprepnp
+w obliczu	comprepnp
+w obrębie	comprepnp
+w obszarze	comprepnp
+w oderwaniu od	comprepnp
+w odniesieniu do	comprepnp
+w odróżnieniu od	comprepnp
+w okolicach	comprepnp
+w okresie	comprepnp
+w oparciu o	comprepnp
+w opozycji do	comprepnp
+w pobliże	comprepnp
+w pobliżu	comprepnp
+w poprzek	comprepnp
+w porównaniu do	comprepnp
+w porównaniu z	comprepnp
+w postaci	comprepnp
+w przeciągu	comprepnp
+w przeciwieństwie do	comprepnp
+w przeddzień	comprepnp
+w przededniu	comprepnp
+w przypadku	comprepnp
+w ramach	comprepnp
+w razie	comprepnp
+w rezultacie	comprepnp
+w rodzaju	comprepnp
+w roli	comprepnp
+w sferze	comprepnp
+w sprawie	comprepnp
+w stosunku do	comprepnp
+w stronę	comprepnp
+w ślad za	comprepnp
+w środku	comprepnp
+w świetle	comprepnp
+w temacie	comprepnp
+w toku	comprepnp
+w trakcie	comprepnp
+w wydaniu	comprepnp
+w wyniku	comprepnp
+w wypadku	comprepnp
+w wysokości	comprepnp
+w zakresie	comprepnp
+w zależności od	comprepnp
+w zamian za	comprepnp
+w zastępstwie	comprepnp
+w związku z	comprepnp
+zależnie od	comprepnp
+za cenę	comprepnp
+za pomocą	comprepnp
+za pośrednictwem	comprepnp
+za przyczyną	comprepnp
+za sprawą	comprepnp
+za wyjątkiem	comprepnp
+ze strony	comprepnp
+ze względu na	comprepnp
+zgodnie z	comprepnp
+z dziedziny	comprepnp
+z głębi	comprepnp
+z końcem	comprepnp
+z okazji	comprepnp
+z perspektywy	comprepnp
+z początkiem	comprepnp
+z pomocą	comprepnp
+z powodu	comprepnp
+z przodu	comprepnp
+z przyczyny	comprepnp
+z punktu widzenia	comprepnp
+z racji	comprepnp
+z ramienia	comprepnp
+z tyłu	comprepnp
+z tytułu	comprepnp
+z uwagi na	comprepnp
+z wyjątkiem	comprepnp
+z zakresu	comprepnp
+

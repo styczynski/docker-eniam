@@ -1,0 +1,87 @@
+% tikzlibrary.code.tex
+%
+% Copyright 2010-2011 by Laura Dietz
+% Copyright 2013 by Wojciech Jaworski
+%
+% This file may be distributed and/or modified
+%
+% 1. under the LaTeX Project Public License and/or
+% 2. under the GNU General Public License.
+%
+% See the files LICENSE_LPPL and LICENSE_GPL for more details.
+
+% Load other libraries
+\usetikzlibrary{shapes}
+\usetikzlibrary{fit}
+\usetikzlibrary{chains}
+\usetikzlibrary{arrows}
+
+% Concept
+\tikzstyle{concept} = [rectangle,fill=white,draw=black,inner sep=1pt,
+minimum size=20pt, font=\fontsize{10}{10}\selectfont, node distance=1]
+% Concept
+\tikzstyle{virtualconcept} = [font=\fontsize{10}{10}\selectfont, node distance=1]
+% Conceptual relation
+\tikzstyle{relation} = [circle,fill=white,draw=black,inner sep=1pt,
+minimum size=20pt, font=\fontsize{10}{10}\selectfont, node distance=1]
+% Context
+\tikzstyle{context} = [draw, rectangle, fit=#1]
+% Negation
+\tikzstyle{negcontext} = [draw, rectangle, rounded corners, fit=#1]
+
+% Constant node
+%\tikzstyle{const} = [rectangle, inner sep=0pt, node distance=1]
+% Factor node
+%\tikzstyle{factor} = [rectangle, fill=black,minimum size=5pt, inner
+%sep=0pt, node distance=0.4]
+% Deterministic node
+%\tikzstyle{det} = [relation, diamond]
+
+% Invisible wrapper node
+\tikzstyle{wrap} = [inner sep=0pt, fit=#1]
+% Gate
+\tikzstyle{gate} = [draw, rectangle, dashed, fit=#1]
+
+% Caption node
+\tikzstyle{caption} = [font=\footnotesize, node distance=0] %
+\tikzstyle{context caption} = [caption, node distance=0, inner sep=0pt,
+above right=5pt and 0pt of #1.north west] %
+\tikzstyle{negcontext caption} = [caption, node distance=0, inner sep=0pt,
+above right=5pt and 0pt of #1.north west] %
+
+\tikzset{>={triangle 45}}
+
+% \edge [options] {inputs} {outputs}
+\newcommand{\edge}[3][]{ %
+  % Connect all nodes #2 to all nodes #3.
+  \foreach \x in {#2} { %
+    \foreach \y in {#3} { %
+      \draw[->,#1] (\x) -- (\y) ;%
+    } ;
+  } ;
+}
+
+\newcommand{\coref}[3][]{ %
+  % Connect all nodes #2 to all nodes #3.
+  \foreach \x in {#2} { %
+    \foreach \y in {#3} { %
+      \draw[-,dashed,#1] (\x) -- (\y) ;%
+    } ;
+  } ;
+}
+
+% \context [options] {name} {fitlist} {caption}
+\newcommand{\context}[4][]{ %
+  \node[wrap=#3] (#2-wrap) {}; %
+  \node[context caption=#2-wrap] (#2-caption) {#4}; %
+  \node[context=(#2-wrap)(#2-caption), #1] (#2) {}; %
+}
+
+% \negcontext [options] {name} {fitlist} {caption}
+\newcommand{\negcontext}[4][]{ %
+  \node[wrap=#3] (#2-wrap) {}; %
+  \node[negcontext caption=#2-wrap] (#2-caption) {#4}; %
+  \node[negcontext=(#2-wrap)(#2-caption), #1] (#2) {}; %
+}
+
+

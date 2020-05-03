@@ -1,0 +1,1101 @@
+<node name="określony-1, sprecyzowany-1" size="860">
+  <node name="zwykły-1, zwyczajny-1, normalny-7" size="485">
+    <node name="regularny-5" size="1">
+      <node name="stały-7" size="0"/>
+    </node>
+    <node name="typowy-1" size="476">
+      <node name="regionalny-3" size="0"/>
+      <node name="schyłkowy-2" size="2">
+        <node name="findesieclowy-1, dekadencki-3" size="0"/>
+        <node name="dekadencki-1" size="0"/>
+      </node>
+      <node name="idealistyczny-4" size="0"/>
+      <node name="typowy dla określonego miejsca, czasu lub dla określonej sytuacji-1" size="56" abstract="true">
+        <node name="wojenny-3" size="0"/>
+        <node name="hitlerowski-5" size="0"/>
+        <node name="wakacyjny-3" size="1">
+          <node name="ogórkowy-5" size="0"/>
+        </node>
+        <node name="morski-6, nadmorski-2" size="0"/>
+        <node name="teleturniejowy-2" size="0"/>
+        <node name="turniejowy-9" size="0"/>
+        <node name="turniejowy-4" size="0"/>
+        <node name="wybiegowy-3" size="0"/>
+        <node name="skansenowy-3" size="0"/>
+        <node name="barowy-4" size="1">
+          <node name="piwiarniany-2" size="0"/>
+        </node>
+        <node name="zakrystyjny-2" size="0"/>
+        <node name="kampusowy-2, campusowy-2" size="0"/>
+        <node name="kawiarniany-2" size="0"/>
+        <node name="kolonialny-3" size="0"/>
+        <node name="pubowy-1" size="0"/>
+        <node name="jarmarkowy-3" size="1">
+          <node name="jarmarczny-4, odpustowy-3, straganiarski-3" size="0"/>
+        </node>
+        <node name="wiejski-8" size="6">
+          <node name="rustykalny-2" size="1">
+            <node name="sumikowo-łątkowy-1" size="0"/>
+          </node>
+          <node name="ranczowy-2" size="0"/>
+          <node name="ludowy-1" size="2"/>
+        </node>
+        <node name="miejski-2" size="1">
+          <node name="miastowy-2" size="0"/>
+        </node>
+        <node name="galeriowy-4" size="0"/>
+        <node name="chiński-2" size="0"/>
+        <node name="wernisażowy-2" size="0"/>
+        <node name="zebraniowy-2" size="0"/>
+        <node name="quebecki-2" size="0"/>
+        <node name="prowincjonalny-4" size="0"/>
+        <node name="knajpiany-3" size="0"/>
+        <node name="pogrzebowy-2" size="0"/>
+        <node name="atlantycki-3" size="1">
+          <node name="północnoatlantycki-2" size="0"/>
+        </node>
+        <node name="nadwiślański-5, nadwiślany-2" size="0"/>
+        <node name="brytyjski-2" size="3"/>
+        <node name="europejski-3" size="2"/>
+        <node name="śródziemnomorski-3" size="0"/>
+        <node name="imprezowy-3" size="5">
+          <node name="remizowy-1" size="0"/>
+          <node name="discopolowy-2" size="0"/>
+          <node name="hulacki-3" size="0"/>
+          <node name="dyskotekowy-3" size="0"/>
+          <node name="bankietowy-2" size="0"/>
+        </node>
+        <node name="wiejski-3" size="1"/>
+        <node name="bułgarski-1" size="0"/>
+      </node>
+      <node name="typowy dla określonej grupy osób-1" size="70" abstract="true">
+        <node name="etniczny-3" size="4">
+          <node name="folkowy-1" size="0"/>
+          <node name="ludowy-1" size="2">
+            <node name="gminny-3" size="0"/>
+            <node name="cepeliowski-2" size="0"/>
+          </node>
+        </node>
+        <node name="mieszczański-3" size="3">
+          <node name="plebejski-5" size="0"/>
+          <node name="mieszczański-2, drobnomieszczański-2, małomieszczański-2" size="1">
+            <node name="kołtuński-2, filisterski-2" size="0"/>
+          </node>
+        </node>
+        <node name="kozacki-3" size="0"/>
+        <node name="dziewczęcy-4" size="1">
+          <node name="dziewiczy-5" size="0"/>
+        </node>
+        <node name="hitlerowski-5" size="0"/>
+        <node name="drobnomieszczański-4" size="0"/>
+        <node name="harwardzki-3, harvardzki-3" size="0"/>
+        <node name="faryzejski-1, faryzeuszowski-2" size="0"/>
+        <node name="więźniowy-1" size="0"/>
+        <node name="drobnoburżuazyjny-2" size="0"/>
+        <node name="jehowicki-2" size="0"/>
+        <node name="skamandrycki-2" size="0"/>
+        <node name="latynoski-2" size="0"/>
+        <node name="jaskiniowy-3" size="0"/>
+        <node name="sybarycki-5" size="0"/>
+        <node name="piłatowy-2" size="0"/>
+        <node name="prominencki-5" size="0"/>
+        <node name="litwacki-2" size="0"/>
+        <node name="pykniczny-1" size="0"/>
+        <node name="jezuskowy-3" size="0"/>
+        <node name="awanturniczy-5, awanturny-4" size="0"/>
+        <node name="hetmański-3" size="0"/>
+        <node name="chiński-2" size="0"/>
+        <node name="quebecki-2" size="0"/>
+        <node name="zapotecki-1" size="0"/>
+        <node name="gogusiowaty-2" size="0"/>
+        <node name="gadzinowy-1" size="0"/>
+        <node name="dresiarski-1" size="0"/>
+        <node name="chudopacholski-2" size="0"/>
+        <node name="męski-6" size="3">
+          <node name="chłopięcy-3, chłopacki-3" size="0"/>
+          <node name="samczy-2" size="0"/>
+          <node name="chłopski-4" size="0"/>
+        </node>
+        <node name="brytyjski-2" size="3"/>
+        <node name="europejski-3" size="2"/>
+        <node name="wiejski-3" size="1">
+          <node name="małowiejski-5" size="0"/>
+        </node>
+        <node name="awanturniczy-2, awanturny-2" size="2">
+          <node name="pieniaczy-1" size="0"/>
+          <node name="chuligański-1, łobuzerski-1" size="0"/>
+        </node>
+        <node name="hultajski-2" size="0"/>
+        <node name="bułgarski-1" size="0"/>
+        <node name="męski-2" size="1">
+          <node name="drwaloseksualny-1, lumberseksualny-1" size="0"/>
+        </node>
+        <node name="dziecięcy-2, dziecinny-4, pacholęcy-2, pisklęcy-3" size="2">
+          <node name="sierocy-3" size="0"/>
+          <node name="niemowlęcy-2" size="0"/>
+        </node>
+        <node name="arystokratyczny-1, rasowy-4" size="0"/>
+        <node name="wojskowy-1" size="5">
+          <node name="militarny-2" size="1">
+            <node name="powojskowy-1" size="0"/>
+          </node>
+          <node name="żołnierski-2" size="2">
+            <node name="partyzancki-3" size="0"/>
+            <node name="oficerski-2" size="0"/>
+          </node>
+        </node>
+        <node name="kobiecy-1, damski-1" size="2">
+          <node name="samiczy-1" size="0"/>
+          <node name="babski-1, babi-1" size="0"/>
+        </node>
+      </node>
+      <node name="filozoficzny-2" size="0"/>
+      <node name="stereotypowy-3" size="0"/>
+      <node name="pluralistyczny-4" size="0"/>
+      <node name="materialistyczny-4" size="0"/>
+      <node name="rzemieślniczy-6, rzemieślny-2" size="0"/>
+      <node name="pochodowy-4" size="0"/>
+      <node name="czyśćcowy-2" size="0"/>
+      <node name="romantyczny-7" size="3">
+        <node name="wczesnoromantyczny-1" size="0"/>
+        <node name="osjaniczny-1" size="0"/>
+        <node name="bajroniczny-1" size="0"/>
+      </node>
+      <node name="latynoamerykański-2" size="1">
+        <node name="latynoski-2" size="0"/>
+      </node>
+      <node name="małorealistyczny-1" size="0"/>
+      <node name="balsamowy-3" size="0"/>
+      <node name="porankowy-2" size="0"/>
+      <node name="przedjesienny-2" size="0"/>
+      <node name="telenowelowy-2" size="0"/>
+      <node name="półprzemysłowy-3" size="0"/>
+      <node name="sagowy-6" size="0"/>
+      <node name="sagowy-5" size="0"/>
+      <node name="kontrkulturowy-2" size="0"/>
+      <node name="posoborowy-2" size="0"/>
+      <node name="przedsoborowy-2" size="1">
+        <node name="trydencki-3" size="0"/>
+      </node>
+      <node name="tragiczny-6" size="1">
+        <node name="tragifarsowy-2" size="0"/>
+      </node>
+      <node name="mechanicystyczny-1" size="0"/>
+      <node name="sieciowy-7" size="0"/>
+      <node name="racjonalistyczny-3" size="0"/>
+      <node name="obiektywistyczny-2" size="0"/>
+      <node name="elficki-2" size="0"/>
+      <node name="kurortowy-4" size="0"/>
+      <node name="kurortowy-3" size="0"/>
+      <node name="metaliczny-5" size="0"/>
+      <node name="tartanowy-3" size="0"/>
+      <node name="kundlowaty-2" size="0"/>
+      <node name="pustelniczy-3, pustelny-3" size="0"/>
+      <node name="preriowy-2" size="0"/>
+      <node name="samczy-3" size="0"/>
+      <node name="samiczy-3" size="0"/>
+      <node name="jesienny-2" size="0"/>
+      <node name="wiosenny-2" size="1">
+        <node name="wczesnowiosenny-3" size="0"/>
+      </node>
+      <node name="zimowy-2" size="2">
+        <node name="późnozimowy-2" size="0"/>
+        <node name="wczesnozimowy-3" size="0"/>
+      </node>
+      <node name="letni-5" size="0"/>
+      <node name="polski-2, nadwiślański-6" size="1">
+        <node name="małopolski-2" size="0"/>
+      </node>
+      <node name="gospodarski-3" size="0"/>
+      <node name="kontynentalny-2" size="0"/>
+      <node name="powieściowy-2" size="0"/>
+      <node name="aspołeczny-2, asocjalny-2" size="1">
+        <node name="nietowarzyski-2" size="0"/>
+      </node>
+      <node name="mechaniczny-4" size="0"/>
+      <node name="charakterystyczny-2" size="311">
+        <node name="kontynentalny-5" size="2">
+          <node name="kontynentalny-3" size="0"/>
+          <node name="kontynentalny-2" size="0"/>
+        </node>
+        <node name="ślubny-3" size="0"/>
+        <node name="stołeczny-2" size="0"/>
+        <node name="islamski-4" size="0"/>
+        <node name="buddyjski-4" size="0"/>
+        <node name="strefowy-6" size="0"/>
+        <node name="chirurgiczny-6" size="0"/>
+        <node name="psalmiczny-2" size="0"/>
+        <node name="hymniczny-4" size="0"/>
+        <node name="anglosaski-2" size="0"/>
+        <node name="astmatyczny-3" size="0"/>
+        <node name="operowy-10" size="0"/>
+        <node name="operowy-7" size="0"/>
+        <node name="operowy-6" size="0"/>
+        <node name="świętojański-3" size="0"/>
+        <node name="deterministyczny-2" size="0"/>
+        <node name="młodziuteńki-3, młodziusieńki-2" size="0"/>
+        <node name="niestary-3" size="0"/>
+        <node name="starawy-4" size="0"/>
+        <node name="starutki-3, stareńki-3" size="0"/>
+        <node name="naleciały-3" size="0"/>
+        <node name="cenzorski-3" size="0"/>
+        <node name="rosyjski-2" size="0"/>
+        <node name="ciężki-23" size="0"/>
+        <node name="kaznodziejski-5" size="1">
+          <node name="kaznodziejski-4" size="0"/>
+        </node>
+        <node name="lisi-4" size="0"/>
+        <node name="kuglarski-3" size="0"/>
+        <node name="psi-3" size="0"/>
+        <node name="misiowaty-3" size="0"/>
+        <node name="fantastycznonaukowy-3" size="0"/>
+        <node name="bukoliczny-3" size="0"/>
+        <node name="allenowski-3" size="0"/>
+        <node name="twistowy-5" size="0"/>
+        <node name="twistowy-2" size="0"/>
+        <node name="konceptualistyczny-4" size="0"/>
+        <node name="fotelowy-2" size="0"/>
+        <node name="formułowy-2" size="0"/>
+        <node name="felietonowy-2, felietonistyczny-2" size="0"/>
+        <node name="autostradowy-2" size="0"/>
+        <node name="kibucowy-2" size="0"/>
+        <node name="płazi-2" size="0"/>
+        <node name="żydowski-3" size="0"/>
+        <node name="krzyżówkowy-2" size="0"/>
+        <node name="kołysankowy-2" size="0"/>
+        <node name="przedrenesansowy-1" size="0"/>
+        <node name="szczypiorkowy-4" size="0"/>
+        <node name="semicki-2" size="1">
+          <node name="żydowski-5" size="0"/>
+        </node>
+        <node name="solipsystyczny-1" size="0"/>
+        <node name="hamletyczny-3" size="0"/>
+        <node name="capi-3" size="0"/>
+        <node name="capi-1" size="0"/>
+        <node name="androgenny-3" size="0"/>
+        <node name="żakietowy-2" size="0"/>
+        <node name="panturecki-2" size="0"/>
+        <node name="sukienkowy-5" size="0"/>
+        <node name="sceptycki-2" size="0"/>
+        <node name="perypatetyczny-2" size="0"/>
+        <node name="wyspiarski-2" size="1">
+          <node name="wyspiarski-3" size="0"/>
+        </node>
+        <node name="rhythmandbluesowy-2" size="0"/>
+        <node name="funkowy-2" size="0"/>
+        <node name="leptosomiczny-1" size="0"/>
+        <node name="pindaryczny-1" size="0"/>
+        <node name="hipokratesowy-2, hipokratesowski-2" size="0"/>
+        <node name="homiletyczny-2" size="0"/>
+        <node name="bebopowy-3" size="0"/>
+        <node name="epicedialny-2" size="0"/>
+        <node name="fagotowy-2" size="0"/>
+        <node name="wiedźmowy-2" size="0"/>
+        <node name="dyngusowy-2, śmigusowy-2" size="0"/>
+        <node name="prometeuszowy-2, prometejski-1" size="0"/>
+        <node name="polonezowy-2" size="0"/>
+        <node name="menuetowy-3" size="0"/>
+        <node name="menuetowy-2" size="0"/>
+        <node name="partyturowy-2" size="0"/>
+        <node name="pastiszowy-2" size="0"/>
+        <node name="emaliowy-4" size="0"/>
+        <node name="krasnoludzki-2" size="0"/>
+        <node name="piekarniany-2" size="0"/>
+        <node name="kreozotowy-2" size="0"/>
+        <node name="onanistyczny-3" size="0"/>
+        <node name="kamieniczny-2" size="0"/>
+        <node name="kastanietowy-2" size="0"/>
+        <node name="kognitywistyczny-3" size="0"/>
+        <node name="kognitywistyczny-2" size="0"/>
+        <node name="housowy-2" size="0"/>
+        <node name="ambientowy-2" size="0"/>
+        <node name="countrowy-2" size="0"/>
+        <node name="liberyjny-1" size="0"/>
+        <node name="starokatolicki-2" size="0"/>
+        <node name="smokingowy-2" size="0"/>
+        <node name="hip-hopowy-3, hiphopowy-4" size="0"/>
+        <node name="altowy-5" size="0"/>
+        <node name="marynarkowy-1" size="1">
+          <node name="fraczkowy-2" size="0"/>
+        </node>
+        <node name="bigbandowy-2" size="0"/>
+        <node name="demonologiczny-3" size="0"/>
+        <node name="melanżowy-3" size="0"/>
+        <node name="heliotropowy-5" size="0"/>
+        <node name="jazzowy-2" size="3">
+          <node name="jazz-rockowy-3" size="0"/>
+          <node name="freejazzowy-1" size="0"/>
+          <node name="bebopowy-4" size="0"/>
+        </node>
+        <node name="rockandrollowy-1" size="1">
+          <node name="bigbitowy-2, bigbeatowy-2" size="0"/>
+        </node>
+        <node name="woluntarystyczny-3" size="0"/>
+        <node name="witalistyczny-2" size="0"/>
+        <node name="oceaniczny-2" size="0"/>
+        <node name="nowotestamentalny-2" size="0"/>
+        <node name="starotestamentalny-2" size="0"/>
+        <node name="mezomorficzny-1" size="0"/>
+        <node name="endomorficzny-1" size="0"/>
+        <node name="paranaukowy-1" size="0"/>
+        <node name="antylopi-2" size="0"/>
+        <node name="mimozowy-2" size="0"/>
+        <node name="swingowy-1" size="0"/>
+        <node name="austriacki-3" size="0"/>
+        <node name="algierski-2" size="0"/>
+        <node name="zaduszkowy-2" size="0"/>
+        <node name="afgański-4" size="0"/>
+        <node name="azjatycki-3" size="1">
+          <node name="japoński-3" size="0"/>
+        </node>
+        <node name="nekrologiczny-2" size="0"/>
+        <node name="poprockowy-2" size="0"/>
+        <node name="jazzrockowy-2" size="0"/>
+        <node name="żbiczy-2" size="0"/>
+        <node name="rockowy-2" size="10">
+          <node name="jazz-rockowy-3" size="0"/>
+          <node name="artrockowy-2" size="0"/>
+          <node name="punkrockowy-2, pankowy-2, punkowy-3" size="0"/>
+          <node name="metalowy-4" size="5">
+            <node name="powermetalowy-2" size="0"/>
+            <node name="folkmetalowy-2" size="0"/>
+            <node name="thrashmetalowy-2, trashowy-2" size="0"/>
+            <node name="deathmetalowy-2" size="0"/>
+            <node name="blackmetalowy-2" size="0"/>
+          </node>
+          <node name="hardrockowy-2" size="0"/>
+        </node>
+        <node name="katatoniczny-1" size="0"/>
+        <node name="antypedagogiczny-2" size="0"/>
+        <node name="olęderski-2" size="0"/>
+        <node name="węgierski-3" size="1">
+          <node name="gulaszowy-5" size="0"/>
+        </node>
+        <node name="cyklopowy-1, cyklopi-2" size="0"/>
+        <node name="operowy-5" size="0"/>
+        <node name="kangurzy-2, kangurowy-2" size="0"/>
+        <node name="mangowy-2" size="0"/>
+        <node name="jaskrowy-4" size="0"/>
+        <node name="przedromantyczny-2" size="0"/>
+        <node name="grypowy-2" size="0"/>
+        <node name="nowotworowy-2" size="0"/>
+        <node name="strukturalistyczny-2" size="0"/>
+        <node name="południowy-4" size="0"/>
+        <node name="socjobiologiczny-2" size="0"/>
+        <node name="dagerotypowy-1" size="0"/>
+        <node name="elfi-2" size="0"/>
+        <node name="rumieniowaty-1" size="0"/>
+        <node name="sowizdrzalski-3" size="0"/>
+        <node name="oratorski-2, krasomówczy-1" size="1">
+          <node name="cyceroński-2, cyceroniański-1" size="0"/>
+        </node>
+        <node name="sowizdrzalski-2" size="0"/>
+        <node name="funkcjonalistyczny-4" size="0"/>
+        <node name="śledziowy-5" size="0"/>
+        <node name="funkcjonalistyczny-3" size="0"/>
+        <node name="porcelanowy-4" size="0"/>
+        <node name="anakreontyczny-1" size="0"/>
+        <node name="wysokogórski-2" size="0"/>
+        <node name="wolterowski-4" size="0"/>
+        <node name="wolterowski-2" size="0"/>
+        <node name="keplerowski-2" size="0"/>
+        <node name="katoński-2" size="0"/>
+        <node name="wajdowski-3" size="0"/>
+        <node name="schulzowski-2" size="0"/>
+        <node name="rembrandtowski-3" size="0"/>
+        <node name="rafaelowski-2" size="0"/>
+        <node name="metternichowski-2" size="0"/>
+        <node name="dżinsowy-2, jeansowy-2" size="0"/>
+        <node name="wschodniochrześcijański-2" size="1">
+          <node name="głagolicki-3" size="0"/>
+        </node>
+        <node name="conradowski-2" size="0"/>
+        <node name="pascalowski-2" size="0"/>
+        <node name="witkiewiczowski-1" size="0"/>
+        <node name="brahmsowski-2" size="0"/>
+        <node name="stendhalowski-3" size="0"/>
+        <node name="edypowy-3, edypalny-2" size="0"/>
+        <node name="schopenhauerowski-1" size="0"/>
+        <node name="tołstojowski-2" size="0"/>
+        <node name="picassowski-2" size="0"/>
+        <node name="stańczykowski-3" size="0"/>
+        <node name="rabelaisowski-2" size="0"/>
+        <node name="mahlerowski-3" size="0"/>
+        <node name="chanelowski-1" size="0"/>
+        <node name="ektomorficzny-1" size="0"/>
+        <node name="breżniewowski-2" size="0"/>
+        <node name="pikarejski-1" size="0"/>
+        <node name="różewiczowski-1" size="0"/>
+        <node name="mrożkowski-3" size="0"/>
+        <node name="traperski-2" size="0"/>
+        <node name="monteskiuszowski-3" size="0"/>
+        <node name="herbertowski-2" size="0"/>
+        <node name="bachtinowski-3" size="0"/>
+        <node name="kretschmerowski-2" size="0"/>
+        <node name="ibsenowski-3" size="0"/>
+        <node name="erazmiański-2" size="0"/>
+        <node name="mannowski-3" size="0"/>
+        <node name="dickensowski-1" size="0"/>
+        <node name="witkacowski-1" size="0"/>
+        <node name="walterskotowski-1, walterscottowski-1" size="0"/>
+        <node name="heraklitejski-2, heraklitowy-2" size="0"/>
+        <node name="neokantowski-2" size="0"/>
+        <node name="putinowski-2" size="0"/>
+        <node name="rejowski-3, rejowy-3" size="0"/>
+        <node name="maltuzjański-2" size="0"/>
+        <node name="grottgerowski-3" size="0"/>
+        <node name="bergsonowski-2" size="0"/>
+        <node name="burszowski-2" size="0"/>
+        <node name="wałęsowski-3" size="0"/>
+        <node name="spielbergowski-2" size="0"/>
+        <node name="jungowski-2" size="0"/>
+        <node name="gogolowski-2" size="0"/>
+        <node name="tuwimowski-2" size="0"/>
+        <node name="bajronowski-2, byronowski-2, bajroniczny-2" size="0"/>
+        <node name="brechtowski-2" size="0"/>
+        <node name="urwisowski-1" size="0"/>
+        <node name="strindbergowski-2" size="0"/>
+        <node name="spencerowski-2" size="0"/>
+        <node name="chaplinowski-2" size="0"/>
+        <node name="apaszowski-2, apaszowy-2" size="0"/>
+        <node name="tramwajarski-3" size="0"/>
+        <node name="proustowski-1" size="0"/>
+        <node name="żywiczny-3" size="0"/>
+        <node name="flaubertowski-1" size="0"/>
+        <node name="encyklopedyczny-2" size="0"/>
+        <node name="ezopowy-3" size="0"/>
+        <node name="archeologiczny-2" size="0"/>
+        <node name="kafkowski-3" size="0"/>
+        <node name="beethovenowski-3" size="0"/>
+        <node name="pickwickowski-1" size="0"/>
+        <node name="szekspirowski-2" size="0"/>
+        <node name="nadreński-3" size="0"/>
+        <node name="michnikowski-1" size="0"/>
+        <node name="mozartowski-2" size="0"/>
+        <node name="hitlerowski-3" size="0"/>
+        <node name="chopinowski-3, szopenowski-3" size="0"/>
+        <node name="felliniowski-2" size="0"/>
+        <node name="faustowski-1, faustyczny-1" size="0"/>
+        <node name="einsteinowski-2" size="0"/>
+        <node name="darwinowski-2, darwinistyczny-2" size="0"/>
+        <node name="bergmanowski-2" size="0"/>
+        <node name="disneyowski-2, disnejowski-2" size="0"/>
+        <node name="bachowski-3" size="0"/>
+        <node name="freudowski-1" size="0"/>
+        <node name="heideggerowski-2" size="0"/>
+        <node name="pełzakowaty-1, ameboidalny-1" size="0"/>
+        <node name="podobny-2" size="0"/>
+        <node name="brytyjski-2" size="3">
+          <node name="wyspiarski-3" size="0"/>
+          <node name="szkocki-2" size="0"/>
+          <node name="angielski-2" size="0"/>
+        </node>
+        <node name="europejski-3" size="2">
+          <node name="kontynentalny-3" size="0"/>
+          <node name="południowoeuropejski-2" size="0"/>
+        </node>
+        <node name="patriarchalny-3" size="0"/>
+        <node name="norwidowski-1" size="0"/>
+        <node name="mickiewiczowski-1, mickiewiczowy-1" size="0"/>
+        <node name="sekciarski-2" size="0"/>
+        <node name="wężowy-1" size="0"/>
+        <node name="amfiteatralny-1" size="0"/>
+        <node name="starczy-1, stary-6" size="6">
+          <node name="zestarzały-3" size="0"/>
+          <node name="sędziwy-3" size="0"/>
+          <node name="postarzały-2" size="2">
+            <node name="zdziadziały-2" size="0"/>
+            <node name="babkowaty-4" size="0"/>
+          </node>
+          <node name="zgrzybiały-2" size="0"/>
+        </node>
+        <node name="horacjański-2" size="0"/>
+        <node name="fredrowski-1" size="0"/>
+        <node name="balzakowski-2" size="0"/>
+        <node name="koguci-2" size="0"/>
+        <node name="platoński-1" size="0"/>
+        <node name="kantowski-2" size="0"/>
+        <node name="heglowski-1" size="0"/>
+        <node name="arystotelesowski-1, arystotelesowy-2" size="0"/>
+        <node name="puszkinowski-3" size="0"/>
+        <node name="proletariacki-2" size="0"/>
+        <node name="śródziemnomorski-1" size="1">
+          <node name="judeochrześcijański-1" size="0"/>
+        </node>
+        <node name="rodzinny-3" size="0"/>
+        <node name="rybi-2, rybny-3" size="1">
+          <node name="śledziowy-2, śledziowaty-2" size="0"/>
+        </node>
+        <node name="gombrowiczowski-2" size="0"/>
+        <node name="młodziutki-2, młodziuchny-2" size="0"/>
+        <node name="świętoszkowaty-2" size="0"/>
+        <node name="homerycki-1, homerowski-1, homeryczny-3" size="0"/>
+        <node name="łotrowski-3" size="0"/>
+        <node name="hollywoodzki-2" size="0"/>
+        <node name="australijski-2" size="0"/>
+        <node name="afrykański-2" size="0"/>
+        <node name="białoruski-1" size="0"/>
+        <node name="młody-2, młodzieńczy-5" size="6">
+          <node name="cherubinowy-2" size="0"/>
+          <node name="świeżutki-4" size="0"/>
+          <node name="świeży-8" size="2">
+            <node name="pierwiosnkowy-2" size="0"/>
+            <node name="rześki-2, rzeźwy-2" size="0"/>
+          </node>
+          <node name="smarkaty-3" size="0"/>
+        </node>
+        <node name="grecki-1" size="4">
+          <node name="helladzki-2" size="0"/>
+          <node name="staroattycki-2" size="0"/>
+          <node name="peryklejski-1" size="0"/>
+          <node name="attycki-2" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="stały-9" size="0"/>
+    <node name="tradycyjny-2" size="5">
+      <node name="regionalny-3" size="0"/>
+      <node name="sakramentalny-2" size="0"/>
+      <node name="rytualny-1" size="0"/>
+      <node name="obrzędowy-1, obrządkowy-5" size="1">
+        <node name="rytualny-3" size="0"/>
+      </node>
+    </node>
+  </node>
+  <node name="przynależny-1" size="4">
+    <node name="należny-2" size="2"/>
+    <node name="niezbywalny-1" size="0"/>
+  </node>
+  <node name="taki-1" size="272">
+    <node name="właściwy-2" size="270"/>
+    <node name="podobny-3" size="0"/>
+  </node>
+  <node name="lotny-10" size="0"/>
+  <node name="finitywny-1" size="0"/>
+  <node name="skończony-4" size="0"/>
+  <node name="beztłuszczowy-3" size="0"/>
+  <node name="konkretny-5" size="9">
+    <node name="twardy-12" size="0"/>
+    <node name="wiadomy-2" size="3"/>
+    <node name="namacalny-2, dotykalny-2" size="0"/>
+    <node name="zero-jedynkowy-2" size="0"/>
+    <node name="naoczny-3" size="0"/>
+    <node name="wymierny-1" size="0"/>
+  </node>
+  <node name="formularzowy-3" size="0"/>
+  <node name="fokusowy-1" size="0"/>
+  <node name="skrystalizowany-1" size="0"/>
+  <node name="przeliczalny-1, obliczalny-1, policzalny-1, wyliczalny-1" size="3">
+    <node name="różniczkowalny-1" size="0"/>
+    <node name="całkowalny-1" size="0"/>
+    <node name="podzielny-2" size="0"/>
+  </node>
+  <node name="odnośny-1" size="0"/>
+  <node name="definiowalny-1" size="1">
+    <node name="eponimiczny-2" size="0"/>
+  </node>
+  <node name="konwencjonalny-3, umowny-1" size="5">
+    <node name="formułkowy-1" size="0"/>
+    <node name="formularzowy-2" size="0"/>
+    <node name="konwencjonalny-2, grzecznościowy-1" size="2">
+      <node name="honoryfikatywny-1" size="0"/>
+      <node name="kurtuazyjny-1" size="0"/>
+    </node>
+  </node>
+  <node name="jednoznaczny-1" size="65">
+    <node name="nieomylny-4" size="0"/>
+    <node name="jednogłosowy-5" size="0"/>
+    <node name="ostry-20" size="0"/>
+    <node name="naoczny-3" size="0"/>
+    <node name="bezwzględny-1, absolutny-3" size="1"/>
+    <node name="zrozumiały-1, przystępny-2, jasny-5, klarowny-3, przejrzysty-2" size="28">
+      <node name="nierozerwalny-2" size="0"/>
+      <node name="komunikatywny-2" size="0"/>
+      <node name="sensowny-2" size="18">
+        <node name="dorzeczny-1" size="0"/>
+        <node name="składny-1" size="0"/>
+        <node name="rzeczowy-2" size="6">
+          <node name="merytoryczny-2" size="0"/>
+          <node name="pragmatyczny-1" size="4">
+            <node name="kupiecki-3" size="0"/>
+            <node name="praktycystyczny-1" size="0"/>
+            <node name="racjonalny-3" size="1"/>
+          </node>
+        </node>
+        <node name="zrozumiały-2" size="4">
+          <node name="usprawiedliwiony-1" size="0"/>
+          <node name="naturalny-7" size="2">
+            <node name="prosty-7" size="0"/>
+            <node name="impulsywny-2" size="0"/>
+          </node>
+        </node>
+        <node name="logiczny-3" size="3">
+          <node name="ścisły-2" size="1">
+            <node name="referatowy-4" size="0"/>
+          </node>
+          <node name="dyskursywny-1" size="0"/>
+        </node>
+      </node>
+      <node name="elegancki-4" size="0"/>
+      <node name="strawny-2" size="1">
+        <node name="lekkostrawny-2, łatwostrawny-2" size="0"/>
+      </node>
+      <node name="interpretowalny-1" size="0"/>
+      <node name="czytelny-2, przeźroczysty-4" size="0"/>
+      <node name="konkretny-1" size="0"/>
+      <node name="dostępny-6" size="0"/>
+    </node>
+    <node name="ewidentny-1" size="32">
+      <node name="jasny jak kryształ-1" size="0"/>
+      <node name="czyściutki-11" size="0"/>
+      <node name="czyściusieńki-5" size="0"/>
+      <node name="czyściuchny-5" size="0"/>
+      <node name="wypisany na czole-1" size="0"/>
+      <node name="bezsporny-1, bezdyskusyjny-1, bezsprzeczny-1, niezaprzeczalny-1, pozadyskusyjny-1" size="12">
+        <node name="nierozerwalny-2" size="0"/>
+        <node name="niekwestionowany-1" size="1">
+          <node name="bezapelacyjny-1" size="0"/>
+        </node>
+        <node name="niewątpliwy-1" size="1">
+          <node name="nieposzlakowany-3" size="0"/>
+        </node>
+        <node name="naturalny-11" size="1">
+          <node name="organiczny-8" size="0"/>
+        </node>
+        <node name="żelazny-2" size="0"/>
+        <node name="nieodparty-2" size="0"/>
+        <node name="niekontrowersyjny-1" size="0"/>
+        <node name="bezwzględny-1, absolutny-3" size="1">
+          <node name="miażdżący-1, przytłaczający-2" size="0"/>
+        </node>
+      </node>
+      <node name="jawny-2, nieukrywany-1, otwarty-3" size="3">
+        <node name="ordynarny-3, ordynaryjny-4" size="0"/>
+        <node name="frontalny-2, frontowy-5" size="0"/>
+        <node name="głośny-6" size="0"/>
+      </node>
+      <node name="czysty-9" size="3">
+        <node name="czczy-4" size="0"/>
+        <node name="esencjonalny-4, esencjalny-2" size="0"/>
+        <node name="wahabicki-2, wahhabicki-2" size="0"/>
+      </node>
+      <node name="jaskrawy-3" size="5">
+        <node name="rażący-2, krzyczący-2" size="4">
+          <node name="wulgarny-4" size="1">
+            <node name="kurewski-4" size="0"/>
+          </node>
+          <node name="wyzywający-3" size="0"/>
+          <node name="wołający o pomstę-1" size="0"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node name="ten-1, dany-1, następujący-1, ów-1" size="285">
+    <node name="jeden-4" size="1">
+      <node name="wspólny-2" size="0"/>
+    </node>
+    <node name="właściwy-2" size="270">
+      <node name="przewyborny-3" size="0"/>
+      <node name="rozsądny-2" size="22">
+        <node name="świadomy-8" size="0"/>
+        <node name="rozumny-1" size="0"/>
+        <node name="rozważny-2" size="11">
+          <node name="umiarkowany-4" size="0"/>
+          <node name="stateczny-3" size="0"/>
+          <node name="przezorny-2" size="1">
+            <node name="dalekowzroczny-3" size="0"/>
+          </node>
+          <node name="roztropny-2" size="0"/>
+          <node name="dyplomatyczny-2" size="0"/>
+          <node name="oszczędny-1" size="4">
+            <node name="ekonomiczny-2" size="0"/>
+            <node name="nierozrzutny-2" size="0"/>
+            <node name="kapitałooszczędny-1" size="0"/>
+            <node name="gospodarny-2, gospodarski-4" size="0"/>
+          </node>
+        </node>
+        <node name="trzeźwy-4" size="0"/>
+        <node name="racjonalny-3" size="1">
+          <node name="gospodarny-2, gospodarski-4" size="0"/>
+        </node>
+        <node name="zdrowy-9" size="1">
+          <node name="realistyczny-4" size="0"/>
+        </node>
+        <node name="zdroworozsądkowy-1" size="0"/>
+        <node name="rezolutny-2" size="0"/>
+        <node name="chłodny-3, zimny-5" size="0"/>
+        <node name="wskazany-1" size="0"/>
+      </node>
+      <node name="świetny-9, wspaniały-7, znakomity-7, wyśmienity-5, wyborny-3, rewelacyjny-7" size="0"/>
+      <node name="doskonały-6, idealny-4" size="0"/>
+      <node name="celowy-3" size="0"/>
+      <node name="dobry-2" size="94">
+        <node name="przejrzysty-3" size="1">
+          <node name="czytelny-1" size="0"/>
+        </node>
+        <node name="akuratny-1" size="17">
+          <node name="elegancki-1" size="16">
+            <node name="fircykowaty-3" size="0"/>
+            <node name="dandysowski-2" size="0"/>
+            <node name="żurnalowy-2" size="0"/>
+            <node name="żabotowy-3" size="0"/>
+            <node name="żabotowy-2" size="0"/>
+            <node name="dandysowaty-2" size="0"/>
+            <node name="buduarowy-2" size="0"/>
+            <node name="wykwintny-1" size="4">
+              <node name="wyszukany-1" size="3">
+                <node name="elegancki-5" size="1">
+                  <node name="butikowy-2" size="0"/>
+                </node>
+                <node name="ekwilibrystyczny-2" size="0"/>
+              </node>
+            </node>
+            <node name="szykowny-2" size="1">
+              <node name="butikowy-3" size="0"/>
+            </node>
+            <node name="wizytowy-1, wyjściowy-3" size="0"/>
+            <node name="wieczorowy-1" size="0"/>
+          </node>
+        </node>
+        <node name="prawidłowy-2, poprawny-1" size="10">
+          <node name="gramatyczny-1" size="0"/>
+          <node name="bezbłędny-2" size="8">
+            <node name="czyściutki-7" size="1">
+              <node name="czyściutki-14" size="0"/>
+            </node>
+            <node name="czyściuchny-9" size="1">
+              <node name="czyściuteńki-11" size="0"/>
+            </node>
+            <node name="czysty-17" size="2">
+              <node name="czysty-29" size="0"/>
+              <node name="czysty-18, czyściutki-8" size="0"/>
+            </node>
+            <node name="nieomylny-2" size="0"/>
+          </node>
+        </node>
+        <node name="twarzowy-2" size="0"/>
+        <node name="reprezentatywny-1, reprezentacyjny-7" size="2">
+          <node name="programowy-8" size="0"/>
+          <node name="okazowy-1" size="0"/>
+        </node>
+        <node name="adekwatny-1" size="2"/>
+        <node name="skuteczny-1" size="56">
+          <node name="impaktowy-2" size="0"/>
+          <node name="ostry-22" size="1">
+            <node name="żrący-1, kaustyczny-1" size="0"/>
+          </node>
+          <node name="niezły-3, niezgorszy-2" size="0"/>
+          <node name="idealny-5" size="0"/>
+          <node name="świetny-6, wyśmienity-2, znakomity-2, wyborny-6" size="2">
+            <node name="kapitalny-5, fantastyczny-7, rewelacyjny-4, fenomenalny-2" size="0"/>
+            <node name="cudowny-2, cudny-4" size="0"/>
+          </node>
+          <node name="efektywny-1" size="11">
+            <node name="zwięzły-3" size="1">
+              <node name="telegraficzny-2" size="0"/>
+            </node>
+            <node name="intensywny-6" size="0"/>
+            <node name="superwydajny-1" size="0"/>
+            <node name="zaradny-2" size="0"/>
+            <node name="wydajny-1, produktywny-1" size="5">
+              <node name="niskowydajny-2" size="0"/>
+              <node name="dwudziestoczterogodzinny-3, 24-godzinny-3" size="0"/>
+              <node name="owocodajny-3" size="0"/>
+              <node name="stukonny-2" size="0"/>
+              <node name="nieśny-1, nośny-4" size="0"/>
+            </node>
+          </node>
+          <node name="dobry-4" size="3">
+            <node name="przekonujący-1, sugestywny-2, przekonywający-1" size="2">
+              <node name="silny-6, mocny-17" size="0"/>
+              <node name="nieodparty-2" size="0"/>
+            </node>
+          </node>
+          <node name="sprawny-7" size="4">
+            <node name="zwarty-1" size="0"/>
+            <node name="prężny-1, sprężysty-2" size="1">
+              <node name="konstruktywny-1" size="0"/>
+            </node>
+            <node name="składny-2" size="0"/>
+          </node>
+          <node name="niepłonny-1" size="2">
+            <node name="owocny-1" size="1">
+              <node name="produktywny-7" size="0"/>
+            </node>
+          </node>
+          <node name="operatywny-2" size="0"/>
+          <node name="sensowny-3" size="1">
+            <node name="wskazany-1" size="0"/>
+          </node>
+          <node name="zgrabny-2, zręczny-2, trafny-1" size="20">
+            <node name="lekki-23" size="0"/>
+            <node name="treściwy-1, esencjonalny-3" size="0"/>
+            <node name="płynny-4" size="2">
+              <node name="wartki-2" size="0"/>
+              <node name="potoczysty-1" size="0"/>
+            </node>
+            <node name="elegancki-4" size="0"/>
+            <node name="ezopowy-3" size="0"/>
+            <node name="okrągły-4, krągły-3" size="3">
+              <node name="oględny-4" size="0"/>
+              <node name="gładki-10" size="0"/>
+              <node name="potoczysty-1" size="0"/>
+            </node>
+            <node name="składny-1" size="0"/>
+            <node name="ekwilibrystyczny-2" size="0"/>
+            <node name="żywy-7" size="9">
+              <node name="wartki-2" size="0"/>
+              <node name="potoczysty-1" size="0"/>
+              <node name="ekspresywny-1, ekspresyjny-1" size="1">
+                <node name="charyzmatyczny-3" size="0"/>
+              </node>
+              <node name="obrazowy-2, plastyczny-3" size="4">
+                <node name="malarski-3" size="2">
+                  <node name="piktorialny-3" size="0"/>
+                  <node name="piktorialny-2" size="0"/>
+                </node>
+                <node name="malowniczy-3" size="0"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node name="słuszny-2" size="12">
+        <node name="trafny-2, celny-2" size="2">
+          <node name="fartowny-3" size="0"/>
+          <node name="żądliwy-3" size="0"/>
+        </node>
+        <node name="uczciwy-7" size="6">
+          <node name="sportowy-3" size="0"/>
+          <node name="sprawiedliwy-2" size="1">
+            <node name="konsensusowy-1" size="0"/>
+          </node>
+          <node name="dżentelmeński-2, gentlemański-1" size="0"/>
+          <node name="demokratyczny-2" size="1">
+            <node name="parlamentarny-3" size="0"/>
+          </node>
+        </node>
+        <node name="prawy-6" size="0"/>
+        <node name="zbożny-1" size="0"/>
+      </node>
+      <node name="odpowiedni-1" size="142">
+        <node name="godny-5" size="5">
+          <node name="należny-2" size="2"/>
+          <node name="kongenialny-2" size="0"/>
+          <node name="kongenialny-1" size="0"/>
+        </node>
+        <node name="swój-4" size="0"/>
+        <node name="kompetentny-1" size="3">
+          <node name="profesjonalny-1" size="2">
+            <node name="zawodowy-2" size="0"/>
+            <node name="wyczynowy-2" size="0"/>
+          </node>
+        </node>
+        <node name="ergonomiczny-3" size="0"/>
+        <node name="zdarny-1" size="0"/>
+        <node name="befsztykowy-3" size="0"/>
+        <node name="folderowy-1" size="0"/>
+        <node name="lornetkowy-2" size="0"/>
+        <node name="budowalny-1" size="0"/>
+        <node name="powołany-1" size="0"/>
+        <node name="pojutrzejszy-2" size="0"/>
+        <node name="jutrzejszy-2" size="0"/>
+        <node name="na miarę-1" size="0"/>
+        <node name="sceniczny-4" size="0"/>
+        <node name="operowy-5" size="0"/>
+        <node name="wystarczający-1" size="5">
+          <node name="wystarczalny-1" size="0"/>
+          <node name="przyzwoity-1" size="1"/>
+          <node name="wyczerpujący-1" size="0"/>
+          <node name="dostateczny-2" size="0"/>
+        </node>
+        <node name="wymiarowy-1, miarowy-5, pełnowymiarowy-2" size="2">
+          <node name="formatowy-3" size="0"/>
+          <node name="porcjowy-3" size="0"/>
+        </node>
+        <node name="przykładny-1" size="8">
+          <node name="wzorowy-1" size="4">
+            <node name="karny-4" size="2">
+              <node name="służbisty-2" size="1">
+                <node name="adiutancki-2" size="0"/>
+              </node>
+            </node>
+            <node name="medalowy-2, na medal-1" size="0"/>
+          </node>
+          <node name="budujący-1" size="2">
+            <node name="wzmacniający-5" size="0"/>
+            <node name="pocieszycielski-1" size="0"/>
+          </node>
+        </node>
+        <node name="zadowalający-1" size="61">
+          <node name="satysfakcjonujący-1" size="2">
+            <node name="wdzięczny-3" size="1">
+              <node name="szczebiotliwy-5" size="0"/>
+            </node>
+          </node>
+          <node name="należyty-1" size="55">
+            <node name="należny-2" size="2">
+              <node name="właściwy-8, odpowiedni-5" size="0"/>
+              <node name="boski-8" size="0"/>
+            </node>
+            <node name="słuszny-3, uczciwy-4" size="1">
+              <node name="szczery-4" size="0"/>
+            </node>
+            <node name="godziwy-1" size="3">
+              <node name="godny-4" size="2">
+                <node name="honorowy-9" size="0"/>
+                <node name="hieratyczny-1" size="0"/>
+              </node>
+            </node>
+            <node name="przyzwoity-1" size="1">
+              <node name="ładny-7" size="0"/>
+            </node>
+            <node name="ludzki-4" size="0"/>
+            <node name="adekwatny-1" size="2">
+              <node name="proporcjonalny-1, współmierny-1" size="1">
+                <node name="ekstensywny-4" size="0"/>
+              </node>
+            </node>
+            <node name="stosowny-1, odpowiedni-2, właściwy-1" size="40">
+              <node name="parlamentarny-5" size="0"/>
+              <node name="honorowy-9" size="0"/>
+              <node name="oględny-6" size="0"/>
+              <node name="kulturalny-3" size="1">
+                <node name="salonowy-5" size="0"/>
+              </node>
+              <node name="poprawny-2" size="0"/>
+              <node name="obyczajny-3, przyzwoity-4" size="1">
+                <node name="ładny-4" size="0"/>
+              </node>
+              <node name="grzeczniutki-2" size="1">
+                <node name="ugrzeczniony-2" size="0"/>
+              </node>
+              <node name="na poziomie-2" size="1">
+                <node name="na wysokim poziomie-2" size="0"/>
+              </node>
+              <node name="grzeczny-2" size="25">
+                <node name="gładki-9" size="1">
+                  <node name="polerowny-2" size="0"/>
+                </node>
+                <node name="fircykowaty-2" size="0"/>
+                <node name="układny-2" size="0"/>
+                <node name="elegancki-3" size="4">
+                  <node name="subtelny-7" size="2"/>
+                  <node name="gładki-10" size="0"/>
+                </node>
+                <node name="dworny-1, dworski-2" size="0"/>
+                <node name="uprzejmy-2" size="8">
+                  <node name="uczynny-2" size="0"/>
+                  <node name="dżentelmeński-3, szarmancki-2, gentlemański-2" size="0"/>
+                  <node name="rycerski-3" size="0"/>
+                  <node name="gościnny-4" size="0"/>
+                  <node name="proszący-1" size="3">
+                    <node name="proszalny-3" size="0"/>
+                    <node name="błagalny-1" size="1">
+                      <node name="żebraczy-7" size="0"/>
+                    </node>
+                  </node>
+                </node>
+                <node name="taktowny-1" size="8">
+                  <node name="dyskretny-5" size="1">
+                    <node name="poufny-2, konfidencjonalny-2" size="0"/>
+                  </node>
+                  <node name="dyplomatyczny-2" size="0"/>
+                  <node name="delikatny-6" size="4">
+                    <node name="oględny-3" size="0"/>
+                    <node name="subtelny-7" size="2">
+                      <node name="lekki-23" size="0"/>
+                      <node name="finezyjny-2" size="0"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node name="przyzwoity-2, obyczajny-1" size="1">
+                <node name="cenzuralny-2" size="0"/>
+              </node>
+            </node>
+          </node>
+          <node name="wydolny-2" size="1">
+            <node name="drożny-5" size="0"/>
+          </node>
+        </node>
+        <node name="dobry-14" size="41">
+          <node name="pijalny-1" size="1">
+            <node name="pitny-1" size="0"/>
+          </node>
+          <node name="świeżutki-3" size="0"/>
+          <node name="zdrowiutki-2, zdrowiuteńki-2" size="0"/>
+          <node name="zdatny-1" size="1">
+            <node name="pitny-1" size="0"/>
+          </node>
+          <node name="jadalny-1" size="3">
+            <node name="zjadliwy-3" size="0"/>
+            <node name="koszerny-1, koszer-1" size="0"/>
+            <node name="strawny-1" size="0"/>
+          </node>
+          <node name="ważny-1" size="16">
+            <node name="wiążący-1" size="0"/>
+            <node name="uznawalny-1" size="0"/>
+            <node name="prawomocny-1" size="0"/>
+            <node name="nieprzedawniony-1" size="0"/>
+            <node name="aktualny-1" size="11">
+              <node name="niewygasły-2" size="0"/>
+              <node name="obowiązujący-1" size="9">
+                <node name="normatywny-2, kanoniczny-3" size="2">
+                  <node name="dyrektywalny-2" size="0"/>
+                  <node name="klasyczny-2" size="0"/>
+                </node>
+                <node name="regulaminowy-1, przepisowy-1" size="5">
+                  <node name="farmakopealny-1" size="0"/>
+                  <node name="koszerny-1, koszer-1" size="0"/>
+                  <node name="terminowy-3" size="0"/>
+                  <node name="ustawowy-1" size="1">
+                    <node name="konstytucyjny-1" size="0"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node name="świeży-5" size="0"/>
+          <node name="dojrzały-1" size="3">
+            <node name="wystały-3, wystany-2" size="0"/>
+            <node name="rumiany-3" size="0"/>
+            <node name="czerwony-5" size="0"/>
+          </node>
+          <node name="zdrowy-4" size="0"/>
+          <node name="modny-1" size="3">
+            <node name="fircykowaty-3" size="0"/>
+            <node name="trendowy-2" size="0"/>
+            <node name="nowomodny-2" size="0"/>
+          </node>
+          <node name="czynny-1, sprawny-3, pełnosprawny-2" size="5">
+            <node name="na chodzie-1" size="0"/>
+            <node name="funkcjonalny-3" size="0"/>
+            <node name="sterowny-1" size="0"/>
+            <node name="aktywny-3" size="0"/>
+            <node name="żywy-5" size="0"/>
+          </node>
+        </node>
+        <node name="dogodny-2, wygodny-1, sposobny-1" size="1">
+          <node name="poręczny-2" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="wiadomy-2" size="3">
+      <node name="określony-2" size="0"/>
+      <node name="domyślny-2" size="1">
+        <node name="eliptyczny-2" size="0"/>
+      </node>
+    </node>
+    <node name="tenże-1" size="0"/>
+    <node name="poniższy-1" size="0"/>
+    <node name="powyższy-1" size="0"/>
+    <node name="niniejszy-1" size="0"/>
+    <node name="newralgiczny-1" size="3">
+      <node name="intymny-6" size="0"/>
+      <node name="drażliwy-1" size="1">
+        <node name="nabolały-1" size="0"/>
+      </node>
+    </node>
+  </node>
+</node>

@@ -1,0 +1,260 @@
+<node name="istota-3, sedno-1, meritum-1, kwintesencja-1, jądro-3, esencja-4" size="213">
+  <node name="rzecz-3" size="4">
+    <node name="trzy grosze-1" size="0"/>
+    <node name="argument-1" size="2">
+      <node name="racja-3" size="0"/>
+      <node name="kontrargument-1" size="0"/>
+    </node>
+  </node>
+  <node name="idea-1, myśl-2" size="177">
+    <node name="zamysł-1" size="157">
+      <node name="koncepcja-1" size="156">
+        <node name="program użytkowy-1" size="0"/>
+        <node name="rozwój zależny-1" size="0"/>
+        <node name="wzrost zerowy-1" size="0"/>
+        <node name="koncepcja monetarna-1" size="0"/>
+        <node name="trializm-2" size="0"/>
+        <node name="Malthus-2" size="0"/>
+        <node name="posybilizm środowiskowy-1" size="0"/>
+        <node name="koncepcja języka poetyckiego-1" size="0"/>
+        <node name="koncepcja polityczna-1" size="37" abstract="true">
+          <node name="Wielkie Niemcy-1" size="0"/>
+          <node name="Wielka Rosja-1" size="0"/>
+          <node name="Wielka Serbia-1" size="0"/>
+          <node name="postkolonializm-1" size="0"/>
+          <node name="panamerykanizm-2" size="0"/>
+          <node name="wolterianizm-1" size="0"/>
+          <node name="federacjonizm-1" size="1">
+            <node name="austroslawizm-1" size="0"/>
+          </node>
+          <node name="doktryna polityczna, społeczna-1" size="24" abstract="true">
+            <node name="panazjatyzm-1" size="0"/>
+            <node name="kooperatyzm-1" size="0"/>
+            <node name="orleanizm-2" size="0"/>
+            <node name="panislamizm-1" size="0"/>
+            <node name="panturkizm-1" size="0"/>
+            <node name="dystrybucjonizm-1" size="0"/>
+            <node name="demoliberalizm-1, liberalizm demokratyczny-1" size="0"/>
+            <node name="fabianizm-1" size="0"/>
+            <node name="saintsimonizm-1" size="0"/>
+            <node name="gandyzm-1, gandhyzm-1" size="0"/>
+            <node name="babuwizm-1" size="0"/>
+            <node name="feminizm-3" size="0"/>
+            <node name="agoryzm-1" size="0"/>
+            <node name="industrializm-1" size="0"/>
+            <node name="socjalliberalizm-1, liberalizm socjalny-1" size="0"/>
+            <node name="blankizm-1" size="0"/>
+            <node name="pangermanizm-1" size="0"/>
+            <node name="agraryzm-1" size="1">
+              <node name="ruralizm-1" size="0"/>
+            </node>
+            <node name="legitymizm-1" size="0"/>
+            <node name="merkantylizm-1" size="2">
+              <node name="bulionizm-1" size="0"/>
+              <node name="kameralizm-1" size="0"/>
+            </node>
+            <node name="apartheid-1" size="0"/>
+          </node>
+          <node name="paneuropeizm-1" size="0"/>
+          <node name="państwo opiekuńcze-1, państwo dobrobytu-1, państwo bezpieczeństwa socjalnego-1" size="0"/>
+          <node name="makiawelizm-2, machiawelizm-1" size="0"/>
+          <node name="marksizm-1" size="0"/>
+        </node>
+        <node name="koncepcja filozoficzna-1" size="109" abstract="true">
+          <node name="majeutyka-1" size="0"/>
+          <node name="zasada antropiczna-1" size="0"/>
+          <node name="realizm metafizyczny-1" size="0"/>
+          <node name="realizm pojęciowy-1" size="0"/>
+          <node name="obiektywizm-2" size="0"/>
+          <node name="indywidualizm-3" size="0"/>
+          <node name="realizm-4" size="0"/>
+          <node name="dionizyjskość-1" size="0"/>
+          <node name="irrealizm-2" size="0"/>
+          <node name="apollińskość-1, apolińskość-1" size="0"/>
+          <node name="antypsychologizm-1" size="0"/>
+          <node name="antropologizm-1" size="0"/>
+          <node name="finityzm-1" size="0"/>
+          <node name="izostenia-1" size="0"/>
+          <node name="taiji-1" size="0"/>
+          <node name="kontyngentyzm-1" size="0"/>
+          <node name="biologizm-1" size="0"/>
+          <node name="eutyfronika-1" size="0"/>
+          <node name="witalizm-2" size="0"/>
+          <node name="wolterianizm-1" size="0"/>
+          <node name="kierunek lub koncepcja w filozofii, nazwane po autorze, prekursorze danego nurtu-1" size="26" abstract="true">
+            <node name="erazmianizm-1" size="0"/>
+            <node name="albertyzm-1" size="0"/>
+            <node name="ockhamizm-1" size="0"/>
+            <node name="skotyzm-1" size="0"/>
+            <node name="popperyzm-1" size="1">
+              <node name="falsyfikacjonizm-1" size="0"/>
+            </node>
+            <node name="pitagoreizm-1" size="0"/>
+            <node name="awerroizm-1" size="0"/>
+            <node name="nietzscheanizm-1" size="0"/>
+            <node name="heglizm-1" size="1">
+              <node name="neoheglizm-1" size="0"/>
+            </node>
+            <node name="konfucjanizm-1" size="1">
+              <node name="neokonfucjanizm-1" size="0"/>
+            </node>
+            <node name="platonizm-1" size="1">
+              <node name="neoplatonizm-1" size="0"/>
+            </node>
+            <node name="tomizm-1" size="1">
+              <node name="neotomizm-1" size="0"/>
+            </node>
+            <node name="kantyzm-1, idealizm transcendentalny-1" size="2">
+              <node name="neokantyzm-1" size="1">
+                <node name="neokrytycyzm-1" size="0"/>
+              </node>
+            </node>
+            <node name="kartezjanizm-1" size="0"/>
+            <node name="franciszkanizm-1" size="0"/>
+            <node name="epikureizm-1" size="0"/>
+            <node name="bergsonizm-1" size="0"/>
+            <node name="augustynizm-1" size="0"/>
+            <node name="arystotelizm-1, perypatetyzm-1" size="0"/>
+          </node>
+          <node name="doktryna filozoficzna-1" size="37">
+            <node name="antyintelektualizm-1" size="0"/>
+            <node name="panlogizm-1" size="0"/>
+            <node name="saintsimonizm-1" size="0"/>
+            <node name="intuicjonizm-2" size="0"/>
+            <node name="formalizm-3" size="2">
+              <node name="rachunek lambda-1" size="0"/>
+              <node name="logika Hoare'a-1" size="0"/>
+            </node>
+            <node name="epistemologizm-1" size="0"/>
+            <node name="ontologizm-2" size="0"/>
+            <node name="panpsychizm-1" size="0"/>
+            <node name="okazjonalizm-2" size="0"/>
+            <node name="logicyzm-1" size="0"/>
+            <node name="iluminizm-1" size="0"/>
+            <node name="orfizm-2" size="0"/>
+            <node name="aktualizm-1" size="0"/>
+            <node name="transcendentalizm-1" size="0"/>
+            <node name="intuicjonizm-1" size="0"/>
+            <node name="reizm-1, konkretyzm-1" size="0"/>
+            <node name="probabilizm-1" size="0"/>
+            <node name="woluntaryzm-2" size="0"/>
+            <node name="taoizm-1, daoizm-1" size="0"/>
+            <node name="intelektualizm-2" size="0"/>
+            <node name="indywidualizm-2" size="0"/>
+            <node name="hedonizm-1" size="0"/>
+            <node name="empiriokrytycyzm-1, machizm-1" size="0"/>
+            <node name="aprioryzm-1" size="0"/>
+            <node name="empiryzm-1" size="5">
+              <node name="empiryzm brytyjski-1" size="0"/>
+              <node name="empiryzm logiczny-1, neopozytywizm-1, pozytywizm logiczny-1" size="0"/>
+              <node name="empiryzm metodologiczny-1, aposterioryzm-1" size="0"/>
+              <node name="empiryzm genetyczny-1" size="0"/>
+              <node name="sensualizm-1" size="0"/>
+            </node>
+            <node name="uniwersalizm-2" size="0"/>
+            <node name="racjonalizm-1" size="1">
+              <node name="scjentyzm-1" size="0"/>
+            </node>
+            <node name="materializm-1" size="1">
+              <node name="fizykalizm-1" size="0"/>
+            </node>
+          </node>
+          <node name="intencjonalizm-1" size="0"/>
+          <node name="psychologizm-1" size="0"/>
+          <node name="pragmatyzm-2" size="1">
+            <node name="instrumentalizm-1" size="0"/>
+          </node>
+          <node name="personalizm-1" size="0"/>
+          <node name="naturalizm-2" size="0"/>
+          <node name="monizm-1" size="0"/>
+          <node name="teozofia-1" size="0"/>
+          <node name="katastrofizm-2" size="0"/>
+          <node name="finalizm-1, teleologizm-1" size="0"/>
+          <node name="fenomenalizm-1" size="0"/>
+          <node name="ewolucjonizm-1" size="0"/>
+          <node name="dualizm-1, dualność-1" size="0"/>
+          <node name="dialektyka-1" size="0"/>
+          <node name="indeterminizm-1" size="0"/>
+          <node name="determinizm-1" size="2">
+            <node name="kauzalizm-1" size="0"/>
+            <node name="fatalizm-2" size="0"/>
+          </node>
+          <node name="relatywizm-1" size="1">
+            <node name="relatywizm moralny-1" size="0"/>
+          </node>
+          <node name="antropocentryzm-1" size="0"/>
+          <node name="minimalizm-1" size="0"/>
+          <node name="maksymalizm-2" size="0"/>
+          <node name="pluralizm-2" size="0"/>
+        </node>
+        <node name="panspermia-1" size="0"/>
+        <node name="teodycea-1" size="0"/>
+      </node>
+    </node>
+    <node name="koncepcja-2" size="0"/>
+    <node name="myśl przewodnia-1" size="0"/>
+    <node name="tendencja-2" size="1">
+      <node name="panświnizm-1" size="0"/>
+    </node>
+    <node name="dewiza-1, credo-2, kredo-1, motto-3" size="2">
+      <node name="dewiza herbowa-1" size="0"/>
+      <node name="zawołanie-4, proklama-1" size="0"/>
+    </node>
+    <node name="idea-2, ideał-1" size="10">
+      <node name="uniseks-2" size="0"/>
+      <node name="unitaryzm-1" size="0"/>
+      <node name="utopia-1" size="0"/>
+      <node name="wizja-2, wyobrażenie-3" size="2">
+        <node name="szklane domy-1" size="0"/>
+        <node name="imago-2" size="0"/>
+      </node>
+      <node name="sprawa-3" size="0"/>
+      <node name="hasło-1" size="2">
+        <node name="zawołanie-4, proklama-1" size="0"/>
+        <node name="slogan-2" size="0"/>
+      </node>
+    </node>
+    <node name="przesłanie-4, teza-5, posłanie-7" size="1">
+      <node name="objawienie-6, Objawienie-7" size="0"/>
+    </node>
+  </node>
+  <node name="smak-8, melodia-5" size="0"/>
+  <node name="istota rzeczy-1" size="1">
+    <node name="noumenon-1, noumen-2" size="0"/>
+  </node>
+  <node name="rdzeń-3" size="0"/>
+  <node name="temat-1, przedmiot-5" size="25">
+    <node name="samograj-3" size="0"/>
+    <node name="tabu-3, tabu milczenia-1" size="0"/>
+    <node name="temat-6" size="0"/>
+    <node name="motyw-2" size="12">
+      <node name="delfin-5" size="0"/>
+      <node name="anagnoryzm-1" size="0"/>
+      <node name="skatologia-1" size="0"/>
+      <node name="kanefora-1" size="0"/>
+      <node name="motyw przewodni-1" size="1">
+        <node name="leitmotiv-1, lejtmotyw-1" size="0"/>
+      </node>
+      <node name="topos-1" size="3">
+        <node name="homo viator-1" size="0"/>
+        <node name="psychomachia-1" size="0"/>
+        <node name="katabaza-1" size="0"/>
+      </node>
+      <node name="archetyp-2" size="0"/>
+      <node name="alegoria-2" size="0"/>
+    </node>
+    <node name="wątek-2" size="1">
+      <node name="epizod-2" size="0"/>
+    </node>
+    <node name="wampiryzm-1" size="0"/>
+    <node name="marynizm-2" size="0"/>
+    <node name="erotyka-2, erotyzm-2, seks-3" size="4">
+      <node name="pornografia-1, porno-1" size="3">
+        <node name="pornografia twarda-1, hard porno-1, hard core-1, twarde porno-1" size="0"/>
+        <node name="pornografia miękka-1, soft porno-1" size="1">
+          <node name="różowa landrynka-3" size="0"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</node>

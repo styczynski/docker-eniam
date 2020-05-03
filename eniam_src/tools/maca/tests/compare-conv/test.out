@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cesAna SYSTEM "xcesAnaIPI.dtd">
+<cesAna xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" type="lex disamb">
+<chunkList>
+ <chunk id="ch1">
+  <chunk type="s">
+   <tok>
+    <orth>byłem</orth>
+    <lex><base>być</base><ctag>fin:sg:pri:imperf:prt:m1</ctag></lex>
+    <lex><base>być</base><ctag>fin:sg:pri:imperf:prt:m2</ctag></lex>
+    <lex><base>być</base><ctag>fin:sg:pri:imperf:prt:m3</ctag></lex>
+   </tok>
+  </chunk>
+ </chunk>
+</chunkList>
+</cesAna>

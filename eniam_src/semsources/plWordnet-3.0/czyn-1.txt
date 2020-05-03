@@ -1,0 +1,1145 @@
+1110 czyn-1, działanie-7, uczynek-1, postępek-1, akt-2
+  0 gra na zwłokę-1
+  0 świński trucht-2
+  2 czynność skurczowa-1
+    0 czynność skurczowa serca-1
+    0 czynność skurczowa macicy-1
+  0 pranie mózgu-1
+  0 czyn lubieżny-1
+  2 czyn karalny-1
+    VISITED 1 czyn nierządny-1
+  0 czyn niedozwolony-1
+  0 opcja zerowa-1
+  13 nieuprzejmość-2, niegrzeczność-4
+    0 szczeniactwo-3
+    11 obelga-1, zniewaga-1, obraza-1, policzek-2, znieważenie-2, afront-1, dotknięcie-6, dyshonor-1, ujma-1, poniżenie-3, dyzgust-3, epitet-3
+      0 obraza majestatu-1
+      0 środkowy palec-1
+      0 ukąszenie heglowskie-1
+      0 czynna zniewaga-1
+      0 zwymyślanie-2
+      0 wyzwisko-2
+      0 profanacja-1, świętokradztwo-2
+      0 zniesławienie-2
+      1 szyderstwo-2
+        0 persyflaż-2
+      0 bluźnierstwo-2
+  2 błąd-4, pomyłka-3
+    0 błąd taktyczny-1
+    0 błąd lekarski-1
+  2 zdrada-3
+    0 targowica-2
+    0 kolaboracja-1
+  1 zabór-2
+    0 rekwizycja-1
+  0 przykład-3
+  0 nieostrożność-3
+  0 uczciwość-3
+  0 ekspulsja-3
+  0 denaturalizacja-1
+  0 podśmiechujki-1, podśmiewajki-1, prześmieszki-1
+  0 urągliwość-1
+  6 operacja-5
+    0 skup weksli-1
+    0 marszrutyzacja-1
+    0 ruting-1, rutowanie-1, trasowanie-2
+    0 realizacja-3
+    0 dekompilacja-1
+    0 defragmentacja-1
+  1 wykluczenie-4
+    0 ostracyzm-2
+  17 zabieg-2
+    0 gallizacja-1
+    0 odnowa biologiczna-1
+    0 latensyfikacja-1
+    0 kurtyzacja-1
+    0 mulczowanie-1
+    11 *zabieg stylistyczny-1
+      0 transakcentacja-1
+      1 anakolut-3
+        0 anantopodon-1
+      0 akataleksa-1
+      0 kataleksa-1
+      0 mityzacja-1
+      0 monumentalizacja-1
+      0 lipometria-1
+      0 kontrast-3
+      0 polifonia-3
+      0 mitologizacja-1
+  0 niegrzecznostka-1
+  1 walka-3
+    0 walka z wiatrakami-1
+  0 spontan-1
+  0 wygłup-1
+  33 akcja-5
+    0 kampania-5
+    16 głosowanie-3
+      0 balotaż-2
+      0 balotaż-1
+      0 reasumpcja-1
+      2 wybory-1, elekcja-1
+        0 wybory pośrednie-1
+        0 eurowybory-1
+      0 prawybory-1
+      2 plebiscyt-1
+        0 plebiscyt-3
+        0 plebiscyt terytorialny-1
+      5 referendum-1
+        1 referendum ogólnokrajowe-1
+          0 referendum ratyfikacyjne-1
+        1 referendum lokalne-1
+          0 referendum gminne-1
+        0 prareferendum-1
+    9 reklama-1, promocja-1, propaganda-2
+      0 druk bezadresowy-1
+      0 reklama porównawcza-1
+      0 mailing-1
+      0 telemarketing-1
+      0 publicity-1
+      0 kryptoreklama-1
+      1 autoreklama-1
+        0 dżingiel-1, dżingel-1
+      0 sponsoring-1
+    2 kampania-3
+      0 kampania ziemniaczana-1
+      0 burst-1
+    VISITED 1 prowokacja-2
+  3 zakład-3
+    0 zakład handicap-1
+    1 zakład wzajemny-1
+      0 dubla-1
+  404 praktyka-1
+    0 regifting-1
+    0 shopping-1
+    0 parda-1
+    22 imitacja-2, imitatorstwo-1
+      0 dyssymulacja-1, dysymulacja-2
+      7 naśladownictwo-1
+        0 lakonizm-2
+        0 echopraksja-1
+        0 echomimia-1
+        0 kuwada-1
+        0 bajronizm-3
+        0 epigonizm-1, epigoństwo-1
+        0 mimetyzm-2, mimetyczność-1
+      10 stylizacja-2
+        0 mimetyzm formalny-1
+        0 prozaizacja-1
+        0 poetyzacja-1
+        0 liryzacja-1
+        0 eseizacja-1
+        0 epizacja-1
+        0 egzotyzacja-1
+        0 dramatyzacja-1
+        0 archaizacja-1
+        0 dialektyzacja-1
+      1 symulacja-1, pozoranctwo-1, pozoracja-1, symulanctwo-1
+        0 kwadratura-3
+    0 dysymulacja-1
+    0 obrzezanie-4, klitoridektomia-1
+    27 *praktyka religijna-1
+      0 kultywacja-2
+      0 kierownictwo duchowe-1
+      0 bardo-1
+      0 sannjasa-1
+      0 koncelebra-1
+      0 szahada-1
+      0 koszer-4, kaszrut-1
+      0 eremityzm-1
+      0 cenobityzm-1
+      0 anachoretyzm-1
+      0 tonsura-2
+      0 czarczaf-1, kwef-2, jaszmak-1
+      1 post-2
+        0 saum-1
+      1 ascetyzm-3, asceza-3
+        0 samobiczowanie-1
+      2 pokuta-1
+        0 aspersja-1, asperges-1
+        0 ekspiacja-1
+      2 rekolekcje-1
+        0 misje-2
+        0 oaza-3
+      2 komunia-1, eucharystia-1, komunia święta-1, Wieczerza Pańska-1
+        0 pierwsza komunia-1
+        0 wiatyk-1
+      1 adoracja-2
+        0 pudźa-1, pudża-1
+    347 szkoła-5, tendencja-1, prąd-4, nurt-1, trend-1, kierunek-2
+      0 realizm prawniczy-1
+      0 witalizm-3
+      0 kongregacjonalizm-1, independentyzm-1
+      0 młodogramatycy-1
+      0 nerwizm-1
+      0 britpop-1, brit pop-1
+      0 autobiografizm-1
+      0 linearyzm-1
+      0 syntetyzm-1
+      0 wadźrajana-1, wadżrajana-1, tantrajana-1, mantrajana-1
+      4 tendencja rozwojowa-1, trend rozwojowy-1
+        1 trend-3
+          0 trend drugorzędowy-1
+        0 trend horyzontalny-1, trend boczny-1
+        0 megatrend rozwojowy-1, megatrend-1
+      0 indukcjonizm-1
+      0 dedukcjonizm-1, hipotetyzm-1
+      0 hinajana-1
+      0 normatywizm-2
+      0 lefebryzm-1
+      3 monarchianizm-1
+        0 sabelianizm-1
+        0 modalizm-2
+        0 adopcjanizm-1
+      0 normatywizm-1, normatywistyczna szkoła prawa-1
+      0 mechanicyzm-1
+      7 *kierunek w pedagogice-1
+        0 neohumanizm-1
+        0 personalność-1
+        0 egzemplaryzm-1
+        0 naturalizm-6, pedagogika naturalistyczna-1
+        0 włoska szkoła skrzypcowa-1
+        0 pajdocentryzm-1
+        0 antypedagogika-1
+      VISITED 0 ponowoczesność-1, postmodernizm-1
+      0 jatrochemia-1, chemiatria-1
+      0 therawada-1
+      3 *kierunek w naukach o kulturze (antropologia, etnologia, etnografia itd.)-1
+        0 funkcjonalizm-4
+        0 historyzm-2
+        0 dyfuzjonizm-1
+      6 *kierunek w architekturze-1
+        0 retrowersja-1
+        0 palladianizm-1
+        0 high-tech-1, hi-tech-1
+        0 mudejar-1
+        VISITED 0 churrigueryzm-1
+        0 dekonstruktywizm-2
+      1 strukturalizm-1
+        0 glossematyka-1
+      11 *kierunek w psychologii-1
+        0 egzystencjalizm-2
+        0 neobehawioryzm-1
+        0 jungizm-1
+        0 ekologizm-2
+        0 aktualizm-2
+        0 introspektywizm-1, introspekcjonizm-1
+        0 funkcjonalizm-2
+        0 behawioryzm-1
+        2 psychoanaliza-2
+          0 adleryzm-1
+          0 freudyzm-1
+      0 hermeneutyka-1
+      0 egzystencjalizm-1
+      14 *kierunek w socjologii-1
+        2 neoewolucjonizm-1
+          0 ewolucjonizm uniwersalny-1
+          0 ewolucjonizm multilinearny-1
+        0 antynaturalizm-3
+        0 organicyzm-2
+        0 ekonomizm-1, materializm ekonomiczny-1
+        0 konstruktywizm społeczny-1, konstrukcjonizm społeczny-1
+        0 interakcjonizm symboliczny-1
+        0 socjologizm-1
+        1 ewolucjonizm-2
+          0 ewolucjonizm kulturowy-1
+        0 funkcjonalizm-3
+        0 naturalizm-3
+        0 darwinizm społeczny-1
+      25 *kierunek w polityce-1
+        0 pasywizm-2
+        0 niwelizm-1
+        0 neogaullizm-1
+        0 napoleonizm-1
+        0 piłsudczyzna-1
+        1 lewica-2
+          0 skrajna lewica-1, radykalna lewica-1, ultralewica-1, ekstremizm lewicowy-1, rewolucyjna lewica-1
+        0 frankizm-1
+        0 maccartyzm-1, makkartyzm-1
+        0 centryzm-1
+        0 jakobinizm-1
+        0 gaullizm-1
+        0 ultramontanizm-1
+        0 neomerkantylizm-1
+        0 czartyzm-1
+        0 aktywizm-2
+        0 instytucjonalizm-1
+        0 bonapartyzm-1
+        0 leseferyzm-1
+        0 neoliberalizm-1
+        4 anarchizm-2
+          0 anarchizm kolektywistyczny-1, anarchokolektywizm-1
+          0 anarchoindywidualizm-1, anarchizm indywidualistyczny-1
+          0 anarchosyndykalizm-1, anarchizm syndykalistyczny-1
+          0 anarchizm komunistyczny-1, anarchokomunizm-1
+      11 *kierunek w ekonomii-1
+        0 szkoła austriacka-1
+        0 neomaltuzjanizm-1
+        0 neokeynesizm-1
+        0 neoklasycyzm-2
+        0 marginalizm-1
+        0 keynesizm-1
+        0 monetaryzm-1
+        0 paternalizm-2
+        0 fizjokratyzm-1
+        0 neoliberalizm-2
+        0 liberalizm gospodarczy-1
+      156 *kierunek w sztuce-1
+        0 sztuka konkretna-1
+        0 postawangarda-1
+        0 antyrealizm-1
+        0 piktorializm-1
+        0 racjonalizm-3
+        0 doloryzm-1
+        0 neoekspresjonizm-1
+        0 psychodelia-1
+        0 antynaturalizm-1
+        0 kubofuturyzm-1
+        0 trecento-1
+        0 *nurt w kinematografii-1
+        0 romantyzm-3
+        0 oniryzm-1
+        0 transawangarda-1
+        0 historyzm-1
+        0 konceptualizacja-2
+        VISITED 0 ponowoczesność-1, postmodernizm-1
+        1 barok-1
+          0 churrigueryzm-1
+        0 folkloryzm-1
+        1 cyberpunk-1
+          0 steampunk-1, steam punk-1
+        0 nabizm-1
+        0 sentymentalizm-2
+        0 formizm-1
+        0 antyteatr-1
+        0 produktywizm-1
+        0 protorenesans-1
+        0 pseudogotyk-1
+        0 iluzjonizm-3
+        0 geometryzacja-1
+        0 konwencjonalizm-2
+        0 figuratywizm-1
+        0 preromantyzm-1
+        0 postimpresjonizm-1
+        0 neorenesans-1
+        0 neobarok-1
+        0 surrealizm-1, nadrealizm-1
+        0 prerafaelityzm-1
+        0 neoromantyzm-1
+        0 neoklasycyzm-1
+        0 neogotyk-1
+        0 manieryzm-1
+        0 kubizm-1
+        0 kreacjonizm-1
+        2 impresjonizm-1
+          0 puentylizm-1, pointylizm-1
+          0 dywizjonizm-1
+        0 antyestetyzm-1
+        0 estetyzm-1, artystostwo-1
+        0 eklektyzm-1
+        0 dadaizm-1, antysztuka-1
+        0 biedermeier-1
+        1 popart-1, pop-art-1
+          0 funk-2, funk art-1
+        3 modernizm-1, moderna-2
+          0 styl międzynarodowy-1
+          0 Młoda Polska-1
+          0 funkcjonalizm-1
+        0 dekadentyzm-1, fin de siècle-1
+        0 secesja-1
+        VISITED 1 formalizm-2
+        13 abstrakcjonizm-1
+          0 abstrakcja organiczna-1
+          0 abstrakcja liryczna-1
+          0 abstrakcja geometryczna-1
+          0 taszyzm-1
+          0 sztuka kinetyczna-1
+          0 suprematyzm-1
+          0 orfizm-1, kubizm orficzny-1
+          0 op-art-1, wizualizm-1
+          0 neoplastycyzm-1
+          0 minimal art-1
+          0 informel-1
+          0 action-painting-1
+          0 konstruktywizm-1
+        2 klasycyzm-1
+          0 empire-1
+          0 dyrektoriat-4
+        1 naturalizm-1
+          0 weryzm-2
+        13 *kierunek w malarstwie-1
+          0 precyzjonizm-1
+          0 skiagrafia-2
+          0 rajonizm-1, łuczyzm-1
+          0 wortycyzm-1
+          0 mizerabilizm-1
+          0 unizm-1
+          0 caravaggionizm-1
+          0 neoimpresjonizm-1
+          0 artyficjelizm-1, artyficjalizm-1
+          0 neofowizm-1
+          0 spacjalizm-1
+          0 kapizm-1, koloryzm-1
+          0 fowizm-1
+        8 *kierunek w muzyce-1
+          0 sonoryzm-1
+          0 prymitywizm-5
+          0 minimalizm-3
+          0 bruityzm-1, maszynizm-1
+          0 galant-2
+          0 serializm-1
+          0 aleatoryzm-1
+          0 neoromantyzm-2, postromantyzm-2
+        0 konceptualizm-1
+        29 *kierunek w literaturze-1
+          0 antypetrarkizm-1
+          0 petrarkizm-1
+          0 pozytywizm-2
+          0 franciszkanizm-2
+          0 byronizm-1, bajronizm-2
+          0 imażynizm-1
+          0 alegoryzm-1
+          0 ultraizm-1
+          0 przybyszewszczyzna-1
+          0 unanimizm-1
+          0 walterscotyzm-1
+          0 banalizm-1
+          0 tremendyzm-1
+          0 lingwizm-1
+          0 eufuizm-1
+          0 urbanizm-1
+          0 akmeizm-1, adamizm-1, klaryzm-1
+          0 imagizm-1, imaginizm-1
+          0 osjanizm-1
+          0 słowianofilstwo-2
+          0 konceptyzm-1
+          0 gotycyzm-2
+          0 kreolizm-1
+          0 pseudoklasycyzm-1
+          0 marynizm-1, marinizm-1
+          0 turpizm-1
+          0 parnasizm-1
+          0 gongoryzm-1, kultyzm-1
+          0 rokoko-1
+        3 awangarda-1, awangardyzm-1
+          0 industrial-1
+          0 futuryzm-1
+          0 ekspresjonizm-1
+        0 akademizm-1
+        6 realizm-1
+          0 realizm fotograficzny-1, hiperrealizm-1, superrealizm-1, fotorealizm-2
+          0 realizm krytyczny-1
+          0 realizm magiczny-1
+          0 realizm naiwny-1
+          0 realizm socjalistyczny-1, socrealizm-1
+          0 mały realizm-1
+        0 symbolizm-1
+        5 gotyk-1, styl gotycki-1, gotycyzm-1
+          0 gotyk wenecki-1
+          0 gotyk brabancki-1
+          0 gotyk płomienisty-1
+          0 gotyk skaldyjski-1
+          0 styl izabeliński-1
+      77 *kierunek w filozofii-1
+        0 radykalizm filozoficzny-1
+        0 nomologia-1
+        0 etologia-2
+        0 njaja-1
+        0 jogaczara-1
+        0 mimansa-1
+        0 komunitaryzm-1, komunitarianizm-1
+        0 marcjonizm-1
+        0 perypatetyka-1
+        0 egzemplaryzm-2
+        0 tantryzm-1
+        0 nastika-1
+        0 astika-1
+        0 antynaturalizm-2
+        0 emotywizm-1
+        0 ontologizm-1
+        2 mistyka-3, mistycyzm-2
+          VISITED 0 antropozofia-1
+          0 kabała-1
+        1 wedanta-1
+          0 adwajta-1, adwajtawedanta-1
+        26 *kierunek lub koncepcja w filozofii, nazwane po autorze, prekursorze danego nurtu-1
+          0 erazmianizm-1
+          0 albertyzm-1
+          0 ockhamizm-1
+          0 skotyzm-1
+          1 popperyzm-1
+            0 falsyfikacjonizm-1
+          VISITED 0 pitagoreizm-1
+          VISITED 0 awerroizm-1
+          0 nietzscheanizm-1
+          VISITED 1 heglizm-1
+          1 konfucjanizm-1
+            0 neokonfucjanizm-1
+          VISITED 1 platonizm-1
+          1 tomizm-1
+            0 neotomizm-1
+          VISITED 2 kantyzm-1, idealizm transcendentalny-1
+          0 kartezjanizm-1
+          0 franciszkanizm-1
+          VISITED 0 epikureizm-1
+          0 bergsonizm-1
+          0 augustynizm-1
+          0 arystotelizm-1, perypatetyzm-1
+        13 *starożytny kierunek filozoficzny-1
+          4 filozofia przyrody-1
+            0 pitagoreizm-1
+            0 konwencjonalizm-1
+            0 eleatyzm-1, szkoła elejska-1, eleaci-1
+            0 atomizm-1, atomistyka-1
+          0 sceptycyzm-2
+          0 cynizm-2
+          0 cyrenaizm-1
+          0 sofistyka-3
+          1 platonizm-1
+            0 neoplatonizm-1
+          0 stoicyzm-1
+          0 epikureizm-1
+        0 ponowoczesność-1, postmodernizm-1
+        2 scholastyka-1
+          0 awerroizm-1
+          0 neoscholastyka-1
+        0 legizm-1
+        0 neorealizm-1, filozofia analityczna-1
+        1 formalizm-2
+          0 technicyzm-2
+        0 pozytywizm-1
+        0 alchemia-1
+        0 joga-1, jogizm-1
+        1 gnostycyzm-1, gnoza-1
+          0 antropozofia-1
+        0 fenomenologia-1
+        11 idealizm-1
+          0 fikcjonalizm-1
+          1 heglizm-1
+            0 neoheglizm-1
+          0 spirytualizm-1, duchowość-2
+          0 immaterializm-1
+          2 kantyzm-1, idealizm transcendentalny-1
+            1 neokantyzm-1
+              0 neokrytycyzm-1
+          0 idealizm obiektywny-1
+          1 idealizm subiektywny-1, subiektywizm-1
+            0 irrealizm-2
+  0 brutalizm-2
+  4 głupstwo-2, głupota-2
+    0 kiełbie we łbie-1
+    1 idiotyzm-1, idioctwo-1, kretyństwo-1
+      0 nieporozumienie-3
+    0 szaleństwo-2, wariactwo-1
+  2 kontrakcja-1, przeciwdziałanie-2
+    0 kontrmanewr-1
+    0 kontrrewolucja-1
+  8 uszczypliwość-1, złośliwość-2
+    0 prześmiechy-1
+    1 przytyk-1, przycinek-1, przymówka-1
+      VISITED 0 docinek-1, ucinka-2, ucinek-1
+    0 szyderstwo-1
+    0 sarkazm-1
+    1 drwina-1, prześmiewka-1, kpina-2
+      0 docinek-1, ucinka-2, ucinek-1
+    1 ironia-1, ironiczność-1
+      0 autoironia-1
+  25 zabicie-9
+    4 samobójstwo-1, zamach samobójczy-2
+      0 złoty strzał-1
+      0 samospalenie-1, autodafe-1
+      0 harakiri-1, seppuku-1
+      0 zamach samobójczy-1
+    2 odstrzał-1
+      0 odstrzał selekcyjny-1
+      0 odstrzał redukcyjny-1
+    2 ubój-1, rzeź-2
+      0 szechita-1
+      0 świniobicie-1
+    1 eutanazja-1
+      0 ortotanazja-1
+    VISITED 11 zabójstwo-1, mord-1, morderstwo-1
+  165 zabieg-1
+    0 aspiracja-5
+    0 ablacja-4
+    0 embolizacja-1
+    0 orchidopeksja-1
+    0 waporyzacja-2
+    0 wenesekcja-1
+    0 zapping-2, zappowanie-1
+    3 sztuczne zapłodnienie-2
+      0 zapłodnienie heterologiczne-1
+      0 zapłodnienie homologiczne-1
+      0 zapłodnienie in vitro-1, zapłodnienie pozaustrojowe-1
+    33 *zabieg kosmetyczny-1
+      0 abdominoplastyka-1
+      0 botoks-2
+      0 dermabrazja-1
+      0 mikrodermabrazja-1
+      0 epilacja-1
+      0 termoforeza-1
+      0 balejaż-1, balayage-1
+      0 liposukcja-1, lipoplastyka-1, odsysanie tłuszczu-1
+      0 peeling-1, piling-1, złuszczanie naskórka-1, eksfoliacja-1
+      0 pedicure-1, pedikiur-1
+      0 manicure-1, manikiur-1
+      0 makijaż-2
+      0 depilacja-1
+      0 demakijaż-1
+      VISITED 0 lifting-1
+      VISITED 14 kąpiel-1
+      VISITED 4 masaż-1, mięsienie-1
+    2 ubezpłodnienie-1
+      0 sterylizacja-2
+      0 kastracja-1
+    92 *zabieg leczniczy-1
+      0 upust krwi-1
+      0 manewr Pringle’a-1
+      0 paracenteza-1
+      0 appendektomia-1
+      1 abrazja-3, łyżeczkowanie-2
+        VISITED 0 aborcja-1, przerwanie ciąży-1, skrobanka-1, spędzenie płodu-1
+      0 abrazja-2
+      0 mezoterapia-1
+      2 wentylacja zastępcza-1
+        0 wentylacja mechaniczna-1
+        0 usta-usta-1, metoda usta-usta-1, sztuczne oddychanie metodą usta-usta-1
+      0 frykcja-1
+      0 wariolacja-1, wariolizacja-1
+      0 litotrypsja-1
+      0 świecowanie uszu-1, świecowanie-1, konchowanie uszu-1, konchowanie-1
+      0 krwioupust-1, flebotomia-1, puszczanie krwi-1, upuszczanie krwi-1
+      3 anestezja-1
+        0 neuroleptoanalgezja-1
+        0 blokada-6
+        0 narkoza-1
+      3 szczepienie-4
+        0 skaryfikacja-2
+        1 wakcynacja-1
+          0 rewakcynacja-1
+      0 immobilizacja-2
+      0 podszywka-1
+      0 borowina-2
+      0 opatrunek-2
+      0 elektryzacja-3
+      0 resuscytacja-1
+      0 angioplastyka-1
+      0 kardiowersja-1
+      0 lobotomia-1, leukotomia-1, leukotomia przedczołowa-1
+      0 masaż serca-1
+      0 defibrylacja-1
+      0 cystotomia-1
+      0 elektrotomia-1
+      0 tamponada-1
+      0 perfuzja-1, krążenie pozaustrojowe-1
+      0 soluks-1, sollux-1
+      1 punkcja-1, nakłucie-4
+        0 amniopunkcja-1, amniocenteza-1
+      2 przyżeganie-1, kauteryzacja-1, koagulacja-2
+        0 moksybucja-1
+        0 elektrokoagulacja-1
+      0 paliatyw-2
+      0 lewatywa-1, enema-1, klizma-1
+      0 jonoforeza-1, jontoforeza-1
+      0 intubacja-1
+      1 inhalacja-1
+        0 nebulizacja-1
+      0 infuzja-1, wlew-1, wlewka-1
+      0 fluoryzacja-1
+      2 elektrostymulacja-1
+        0 elektrowstrząs-1
+        0 elektrowstrząsy-1
+      0 ekstrakcja-2
+      0 ekskawacja-1
+      2 drenaż-1, sączkowanie-3
+        0 drenaż limfatyczny-1
+        0 cystostomia-1
+      0 bańki-1
+      0 biopsja-1
+      3 dializa-1
+        0 dializa pozaustrojowa-1
+        0 dializa otrzewnowa-1
+        0 hemodializa-1
+      0 naświetlanie-3
+      0 irygacja-1
+      2 transfuzja-1, transfuzja krwi-1, przetaczanie krwi-1
+        0 transfuzja dopłodowa-1
+        0 autotransfuzja-1, transfuzja autologiczna-1
+      0 reanimacja-1, ożywianie-5, reanimowanie-2, przywracanie ... do życia-1
+      14 kąpiel-1
+        4 kąpiel lecznicza-1
+          0 kąpiel gazowa-1, gazówka-1
+          0 kąpiel kwasowęglowa-1, kwasowęglówka-1
+          0 kąpiel powietrzna-1
+          0 nasiadówka-2, kąpiel nasiadowa-1
+        0 parówka-4
+        0 jacuzzi-2
+        1 sauna-2
+          0 ceremonia zapachowa-1
+        0 kąpiel borowinowa-1
+        0 kąpiel słoneczna-1
+        0 prysznic-2, natrysk-2, tusz-6
+        VISITED 1 bicz wodny-2
+      0 kroplówka-2
+      4 masaż-1, mięsienie-1
+        0 automasaż-1
+        0 hydromasaż-1
+        1 bicz wodny-2
+          0 bicz szkocki-1
+    0 aborcja-1, przerwanie ciąży-1, skrobanka-1, spędzenie płodu-1
+    42 operacja-1
+      0 lobektomia-1
+      0 kraniotomia-1
+      0 hemisferektomia-1
+      0 adenotomia-1
+      0 sympatektomia-1
+      0 komisurotomia-2
+      0 komisurotomia-1
+      0 koronaroplastyka-1
+      0 frenuloplastyka-1
+      0 frenulektomia-1
+      0 frenotomia-1
+      0 wagotomia-1
+      0 kalozotomia-1
+      0 laminektomia-1
+      0 dekortykacja-1
+      0 histerektomia-1
+      0 laryngektomia-1
+      2 stomia-2
+        0 kolostomia-2
+        0 gastrostomia-1
+      0 torakoplastyka-1
+      0 resekcja-1, ekstyrpacja-1
+      0 tracheotomia-1
+      0 wszczepienie-1, implantacja-1
+      0 trepanacja-1
+      0 replantacja-1
+      1 operacja plastyczna-1, plastyka-4
+        0 autoplastyka-1
+      0 lifting-1
+      0 cesarskie cięcie-1, cesarka-1
+      0 bajpas-1, by-pass-2, bypass-1
+      7 przeszczep-2, transplantacja-1, przeszczepienie-4
+        0 przeszczep rodzinny-1
+        0 przeszczep izogeniczny-1, izotransplantacja-1, przeszczep syngeniczny-1
+        0 przeszczep ksenogeniczny-1, ksenotransplantacja-1, przeszczep heterologiczny-1, przeszczep ksenogenny-1
+        0 autotransplantacja-1, autoprzeszczep-1
+        2 przeszczep alogeniczny-1, allotransplantacja-1, przeszczep allogeniczny-1
+          1 keratoplastyka-1, przeszczepienie rogówki-1
+            0 keratoplastyka drążąca-1
+      2 amputacja-1
+        0 amputacja fizjologiczna-1
+        0 mastektomia-1
+  2 tchórzostwo-2
+    VISITED 0 dezercja-1, rejterada-2
+    VISITED 0 fugas chrustas-1
+  3 grzeczność-2, przysługa-1, uprzejmość-2
+    0 niedźwiedzia przysługa-1
+    1 podwózka-1
+      0 okazja-3
+  0 improwizacja-2
+  114 posunięcie-4, manewr-3, zagrywka-1, zagranie-16, pociągnięcie-11, numer-4
+    0 dobry numer-1
+    0 wiązanie-18
+    10 zagranie-14, zagrywka-4
+      0 pas-8
+      0 abcug-2
+      0 wpustka-1
+      0 impas-3
+      0 mały trefl-1
+      0 małe karo-1
+      0 mały pik-1
+      0 mały kier-1
+      0 przebitka-6
+      0 blef-2, bluff-2
+    61 ruch-9
+      0 półruch-1
+      0 tempo-4
+      0 wymiana-5
+      52 debiut-3, otwarcie szachowe-1
+        7 debiut półotwarty-1
+          0 debiut Nimzowitscha-1
+          0 obrona Pirca-1
+          0 obrona Alechina-1
+          0 obrona skandynawska-1
+          0 obrona Caro-Kann-1
+          0 obrona francuska-1
+          0 obrona sycylijska-1
+        17 debiut zamknięty-1
+          0 otwarcie Rétiego-1
+          0 obrona Grünfelda-1
+          0 partia katalońska-1
+          0 obrona holenderska-1
+          0 obrona Nimzowitscha-1
+          0 partia angielska-1
+          0 obrona hetmańsko-indyjska-1
+          0 obrona królewsko-indyjska-1
+          VISITED 8 gambit hetmański-1
+        19 debiut otwarty-1
+          2 obrona Philidora-1
+            VISITED 0 kontrgambit Lopeza-1
+            VISITED 0 kontrgambit Philidora-1
+          0 partia wiedeńska-1
+          0 partia szkocka-1
+          0 obrona rosyjska-1, partia rosyjska-1
+          0 obrona dwóch skoczków-1
+          VISITED 9 gambit królewski-2
+          0 partia włoska-1
+          0 partia hiszpańska-1
+        26 gambit-2
+          0 gambit wołżański-1
+          9 gambit królewski-2
+            0 gambit Masona-1
+            0 gambit Villemsona-1
+            0 gambit gońca-1
+            0 nieprzyjęty gambit królewski-1
+            VISITED 0 kontrgambit Falkbeera-1
+            0 wariant z szybkim d5-1
+            0 gambit Kieseritzky'ego-1
+            0 obrona klasyczna-1
+            0 gambit skoczka-1, gambit skoczkowy-1
+          7 kontrgambit-1
+            0 kontrgambit Gianutio-1
+            0 kontrgambit Lembergera-1
+            0 kontrgambit Winawera-1
+            0 kontrgambit Lopeza-1
+            0 kontrgambit Philidora-1
+            0 kontrgambit Falkbeera-1
+            VISITED 0 kontrgambit Albina-1
+          8 gambit hetmański-1
+            0 obrona austriacka-1
+            0 kontrgambit Albina-1
+            0 obrona Czigorina-1
+            0 obrona słowiańska-1
+            0 gambit przyjęty-1
+            2 gambit nieprzyjęty-1
+              0 obrona bałtycka-1, obrona Keresa-1
+              0 obrona Marshalla-1
+      2 roszada-1
+        0 duża roszada-1, długa roszada-1
+        0 mała roszada-1
+      1 mat-2, szach-mat-1, szach i mat-1
+        0 widełki skoczkowe-1
+    0 krok-3
+    37 fortel-1, sztuczka-1, trik-1, trick-1, wybieg-1, chwyt-1
+      0 efekciarstwo-1
+      25 podstęp-1
+        0 ustawka-2
+        1 gierka-1
+          0 intryga-1
+        0 chytrostka-1
+        VISITED 1 blef-1, bluff-1
+        0 prowokacja-1
+        3 spisek-1, zmowa-1
+          VISITED 2 zmowa-2
+        4 zasadzka-1
+          0 zasiadka-1
+          0 koń trojański-2
+          1 sieć-8
+            0 pajęczyna-3
+        8 manipulacja-1
+          0 spekulacja-4
+          0 gerrymandering-1
+          0 ingracjacja-1
+          0 socjotechnika-1, inżynieria społeczna-1, inżynieria socjalna-1
+          0 kazuistyka-1
+          0 sofistyka-1
+          1 demagogia-1
+            0 hurrapatriotyzm-1, hurapatriotyzm-1
+      0 cios w plecy-1
+      2 zmyłka-1
+        1 blef-1, bluff-1
+          VISITED 0 podpucha-1
+      3 kombinacja-3
+        0 kombinatoryka-2, kombinatoryka stosowana-1
+        0 machinacja-1
+        0 kombinacja klasyczna-2, kombinacja norweska-2, kombinacja alpejska-2
+      0 unik-2
+      0 kruczek-1
+      0 haczyk-2
+      1 prowokacja-2
+        0 podpucha-1
+  141 postępek-2, zło-2
+    0 gwałt-4
+    0 zbrodnia-2
+    0 zdradziectwo-2
+    0 żakostwo-1
+    0 niestosowność-1
+    2 hucpa-1, zuchwalstwo-2, bezczelność-2, szelmostwo-2, wałek-4, przekręt-1, chucpa-1
+      0 geszeft-1
+      0 kant-2
+    4 podłość-2, nikczemność-2, bezeceństwo-1, łajdactwo-2, draństwo-1, świństwo-1, hultajstwo-1, łotrostwo-2, niegodziwość-2, chamstwo-2
+      0 parszywość-1
+      0 obrzydliwość-3, wstrętność-1, przebrzydłość-1
+      0 szubrawstwo-1
+      0 zberezeństwo-1, zbereżeństwo-1
+    1 zawłaszczenie-3
+      VISITED 0 uzurpacja-1, uzurpatorstwo-1
+    4 proceder-1
+      0 szulerka-2, szulerstwo-1
+      1 nierząd-1, prostytucja-1, seksbiznes-1, najstarszy zawód świata-1
+        0 sponsoring-2
+      0 żebractwo-1, żebry-1, żebranina-1
+    0 wybryk-1, eksces-1, wyskok-1, odskok-3
+    0 obmowa-2
+    0 niedyskrecja-1
+    11 grzech-1, przewina-1
+      0 grzech śmiertelny-1, grzech ciężki-1
+      0 popijawa-1, pijaństwo-2
+      0 grzech powszedni-1, niewierność-4
+      0 grzech pierworodny-1
+      0 kazirodztwo-1
+      0 krzywoprzysięstwo-1
+      0 świętokradztwo-1
+      1 zdrada-2, niewierność-2
+        0 skok w bok-1
+      0 rozpusta-2, nieczystość-1
+      0 bluźnierstwo-1, blasfemia-1
+    10 wykroczenie-2
+      0 spalony-1, offside-1, ofsajd-1
+      0 kroki-2
+      0 ręka-5
+      1 delikt-1
+        0 delikt konstytucyjny-1
+      1 uchybienie-2
+        0 nieformalność-1
+      2 faul-1
+        0 nakładka-2
+        0 podcięcie-7
+    VISITED 95 przestępstwo-1
+  104 umowa-1
+    0 umowa hotelowa-1
+    0 dożywocie-2
+    0 umowa bukingowa-1
+    0 umowa przyrzeczona-1
+    0 umowa międzynarodowa-1
+    0 umowa dżentelmeńska-1
+    0 opcja walutowa-1
+    0 umowa przedwstępna-1
+    0 umowa koncesyjna-1
+    0 umowa partnerska-1
+    0 umowa agencyjna-1
+    0 umowa kompensacyjna-1
+    0 umowa kontraktacji-1
+    0 umowa bilateralna-1
+    0 konsygnacja-1
+    0 subkontrakt-1
+    0 umowa społeczna-1
+    0 prekarium-1
+    4 umowa cywilnoprawna-1
+      0 kontrakt menedżerski-1, kontrakt menadżerski-1
+      0 umowa o dzieło-1
+      0 umowa śmieciowa-1
+      0 umowa zlecenia-1, umowa zlecenie-1
+    2 zmowa-2
+      0 zmowa cenowa-1
+      0 kartel-1
+    0 depozyt-2
+    0 litkup-1
+    3 swap-1
+      0 swap walutowo-procentowy-1
+      0 swap procentowy-1, IRS-1
+      0 swap walutowy-1
+    0 zakład-5
+    0 zasada-5
+    0 umowa adhezyjna-1
+    0 deport-1
+    0 report-1
+    0 pul-2
+    0 intercyza-1
+    2 umowa o pracę-1
+      1 angaż-1
+        0 engagement-1
+    0 protokół handlowy-1
+    0 układ zbiorowy-1, umowa zbiorowa-1
+    10 dzierżawa-1
+      0 użytkowanie wieczyste-2
+      0 emfiteuza-1
+      0 poddzierżawa-1
+      0 tenuta-1
+      0 ajencja-2
+      4 leasing-1
+        0 leasing lombardowy-1
+        0 leasing zwrotny-1
+        0 leasing finansowy-1, leasing kapitałowy-1
+        0 leasing operacyjny-1
+    10 poręczenie-3
+      7 zabezpieczenie-8
+        0 hipoteka kaucyjna-1
+        0 winkulacja-1
+        3 hipoteka-3
+          0 hipoteka przymusowa-1
+          0 hipoteka ustawowa-1
+          0 hipoteka morska-1
+        VISITED 0 wadium-1
+      0 awal-1
+      1 kaucja-1
+        0 wadium-1
+    17 układ-4, traktat-2
+      0 transakcja wiązana-2
+      0 ponadzakładowy układ zbiorowy pracy-1
+      0 komplanacja-1
+      1 konwencja-4
+        0 konwencja turystyczna-1
+      0 pokój-5
+      0 preliminarium pokojowe-1
+      0 pakt-1
+      0 konkordat-1
+      1 rozejm-1, zawieszenie broni-1
+        0 fryszt-1
+      2 unia-1
+        0 unia monetarna-1, unia walutowa-1
+        0 unia celna-1
+      2 sojusz-2, alians-1
+        0 symmachia-1
+        0 sprzymierzenie-2
+    11 ubezpieczenie-5, asekuracja-1, umowa ubezpieczenia-1
+      3 ubezpieczenie majątkowe-1
+        0 ubezpieczenie odpowiedzialności cywilnej-1, OC-1
+        1 ubezpieczenie komunikacyjne-1
+          0 autocasco-1, AC-4
+      0 ubezpieczenie wzajemne-1
+      0 koasekuracja-1
+      0 cargo-1
+      0 aerocasco-1
+      0 zielona karta-2
+      1 reasekuracja-1
+        0 retrocesja-1
+    1 rezerwacja-1
+      0 overbooking-1
+    5 kontrakt-1, porozumienie-3
+      1 kontrakt terytorialny-1, kontrakt regionalny-1
+        0 kontrakt wojewódzki-1
+      0 trójlojalizm-1
+      0 stypulacja-1
+      0 trójporozumienie-1, triumwirat-3
+  8 żart-1, figiel-1, psota-1, psikus-1
+    0 zgryw-1, zgrywa-1
+    0 kpina-1, drwina-2
+    0 półżart-1
+    0 troll-3
+    0 psi figiel-1
+    0 prima aprilis-1
+    0 gag-1
+    0 kawał-5, dowcip-2, numer-9
+  0 sztuka-7
+  97 niesprawiedliwość-2
+    0 nieuczciwość-2, nieprzyzwoitość-5
+    95 przestępstwo-1
+      0 przestępstwo kryminalne-1
+      1 przestępstwo pospolite-1
+        0 zagarnięcie mienia-1
+      0 sutenerstwo-1
+      1 przywłaszczenie-2
+        0 malwersacja-1, defraudacja-1
+      5 spekulacja-3
+        0 lichwa-2, lichwiarstwo-1
+        0 ażiotaż-1
+        0 grynderstwo-1
+        0 oscylator-2
+        0 paskarstwo-1, pasek-4
+      0 nieumyślne spowodowanie śmierci-1
+      0 afera-1
+      0 hacking-1, hakerstwo-1, hackerstwo-1, cracking-1
+      0 kuplerstwo-1
+      0 zdrada stanu-1
+      0 plagiatorstwo-1
+      2 pajęczarstwo-1
+        0 radiopajęczarstwo-1
+        0 telepajęczarstwo-1
+      0 uzurpacja-1, uzurpatorstwo-1
+      0 stręczycielstwo-1
+      0 pedofilia-1
+      0 pomocnictwo-1
+      0 kłusownictwo-1
+      1 zbiegostwo-1
+        0 dezercja-2
+      0 paserstwo-1, paserka-1
+      1 czyn nierządny-1
+        0 gwałt-2
+      1 wymuszenie-2
+        0 wymuszenie rozbójnicze-1
+      0 fałszerstwo-1, falsyfikacja-1
+      12 zbrodnia-1
+        0 zbrodnia nazistowska-1, zbrodnia hitlerowska-1
+        0 zbrodnia komunistyczna-1, zbrodnia stalinowska-1
+        6 mord-2, masakra-1, rzeź-1, rzeźnia-2, krwawa łaźnia-1, wyżynka-2
+          0 rzeź niewiniątek-3
+          1 pogrom-2, czystka-1
+            0 czystka etniczna-1
+          0 egzekucja-1
+          1 ludobójstwo-1, eksterminacja-1
+            0 holocaust-1, szoah-1, Szoah-2, holokaust-1, zagłada-2, Zagłada-3
+        0 zbrodnia wojenna-1
+        0 zbrodnia przeciw pokojowi-1
+        0 zbrodnia przeciw ludzkości-1, zbrodnia przeciwko ludzkości-1
+      0 włamanie-2
+      0 wyłudzenie-2
+      0 szpiegostwo-1
+      1 przemyt-1, kontrabanda-1, szmugiel-1, przemytnictwo-1
+        0 przemyt mrówkowy-1, przemyt plecakowy-1, przemyt mrówczany-1
+      3 porwanie-8
+        0 rapt-2
+        0 kidnaping-1, kidnaperstwo-1
+        0 uprowadzenie-2
+      0 pranie brudnych pieniędzy-1, pranie pieniędzy-1
+      1 piractwo-1, piractwo intelektualne-1
+        0 wideopiractwo-1
+      11 napad-1, napaść-1
+        0 napad rabunkowy-1
+        7 inwazja-1, agresja-3, najazd-1, nachód-1
+          0 zajazd-2
+          0 szturm-1, nawała-2, nawałnica-3
+          0 oblężenie-1
+          3 podbój-1
+            0 zawojowanie-4, debelacja-1, debellacja-1
+            0 kolonizacja-1
+            0 konkwista-1
+        0 wtargnięcie-3
+        0 skok-3
+      2 korupcja-2, łapownictwo-1, przekupstwo-1, łapówkarstwo-1
+        0 łapownictwo czynne-1
+        0 łapownictwo bierne-1
+      11 zabójstwo-1, mord-1, morderstwo-1
+        0 trucicielstwo-1
+        0 matkobójstwo-1
+        0 skrytobójstwo-1
+        0 ojcobójstwo-1
+        0 mężobójstwo-1
+        0 królobójstwo-1
+        0 carobójstwo-1
+        1 dzieciobójstwo-1
+          0 synobójstwo-1
+        0 bratobójstwo-1, zbrodnia kainowa-1
+        0 otrucie-2
+      1 nadużycie-3
+        0 solicytacja-2
+      6 kradzież-1, złodziejstwo-1
+        0 juma-1
+        0 skimming-1
+        0 koniokradztwo-1
+        0 doliniarstwo-1
+        1 grabież-1, rabunek-1, łupiestwo-1
+          0 szaber-2, szabrownictwo-1
+  0 sprawka-1, występek-1, wszeteczeństwo-1
+  3 dobrodziejstwo-1
+    0 funda-1
+    0 jałmużnictwo-2
+    0 gest-3
+  7 ucieczka-1
+    0 pierzch-1
+    0 gigant-6
+    0 myk-1
+    0 hidżra-1, hedżra-1, hegira-1
+    0 dezercja-1, rejterada-2
+    0 fugas chrustas-1
+    0 wagary-1
+  9 grzech-2, przewinienie-2
+    8 nietakt-1, gafa-1, uchybienie-4, niedelikatność-1, niezręczność-2
+      0 durność-3, idiotyczność-3
+      6 kłopotliwość-1, problematyczność-1, problemowość-1
+        0 zasiedziałość-1
+        0 niezręczność-4
+        0 grząskość-2
+        0 wstydliwość-2
+        0 śliskość-2
+        0 drażliwość-2

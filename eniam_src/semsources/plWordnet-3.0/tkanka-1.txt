@@ -1,0 +1,319 @@
+309 tkanka-1
+  0 ozębna-1, desmodont-1, więzadło przyzębne-1
+  2 zwłóknienie-1
+    0 zwłóknienie klatki piersiowej-1
+    0 mukowiscydoza-1, zwłóknienie torbielowate-1
+  0 martwak-1
+  0 plektenchyma-1, tkanka rzekoma-1, pseudotkanka-1, pseudoparenchyma-1
+  0 zębina-1, dentyna-1
+  0 tkanka nowotworowa-1
+  49 *tkanka zwierzęca-1
+    0 tkanka miękka-1
+    1 tkanka nerwowa-1
+      0 substancja szara-1, istota szara-1
+    0 tkanka mięśniowa-1
+    0 podścielisko-1
+    0 glej-2, tkanka glejowa-1
+    0 mezoderma-1, mezoblast-1
+    0 endoderma-2, entoderma-2, entoblast-1
+    0 ektoderma-1, ektoblast-1
+    31 tkanka łączna-1
+      10 tkanka łączna właściwa-1
+        0 tkanka łączna siateczkowata-1
+        1 tkanka łączna galaretowata-1
+          0 galareta Whartona-1
+        0 mezenchyma-1, tkanka mezenchymatyczna-1, tkanka łączna zarodkowa-1
+        0 tkanka łączna włóknista luźna-1, tkanka łączna wiotka-1
+        0 tkanka łączna włóknista zwarta-1, tkanka łączna włóknista zbita-1
+        3 tkanka tłuszczowa-1, tłuszcz-2
+          0 druga broda-1
+          0 cellulit-1, skórka pomarańczowa-1, cellulitis-1, lipodystrofia-1
+          0 sadło-2
+      3 tkanka kostna-1
+        0 istota zbita-1
+        0 istota gąbczasta-1
+        0 cement-3, kostniwo-1
+      0 tkanka włóknista-1, tkanka chrzęstna włóknista-1
+      0 ziarnina-1
+      9 chrząstka-1, tkanka chrzęstna-1
+        0 krążek stawowy-1
+        0 tkanka chrzęstna sprężysta-1
+        0 tkanka chrzęstna szklista-1, chrząstka szklista-1
+        0 dysk-3, krążek międzykręgowy-1, tarcza międzykręgowa-1
+        0 chrząstka tarczowata-1
+        0 chrząstka nalewkowata-1
+        0 chrząstka nagłośniowa-1
+        0 menisk-4
+        0 łękotka-1, łąkotka-1, menisk-3
+      3 krew-1
+        0 krew pępowinowa-1
+        0 krew żylna-1, krew odtlenowana-1
+        0 krew tętnicza-1, krew natlenowana-1, krew utlenowana-1
+    0 miazga zęba-1, miazga zębowa-1
+    2 nabłonek-2
+      0 doczesna-1
+      0 śródbłonek-1
+    0 szpik-1, szpik kostny-1
+    2 naskórek-1, epiderma-1
+      0 scypuł-1
+      0 wylinka-1
+  72 *tkanka roślinna-1
+    54 tkanka stała-1
+      4 tkanka wzmacniająca-1
+        2 kolenchyma-1, zwarcica-1
+          0 kolenchyma płatowa-1
+          0 kolenchyma kątowa-1
+        0 twardzica-1, sklerenchyma-1
+      4 tkanka okrywająca-1
+        0 egzoderma-1, skórnia-1, podskórnia-2
+        0 ryzoderma-1, epiblema-1, skórka korzenia-1
+        0 peryderma-1, korkowica-1
+        0 epiderma-2, skórka-2
+      1 tkanka wydzielnicza-1
+        0 miodnik-1, nektarium-1, nektarnik-1
+      VISITED 0 merystem przyranny-1, kalus-1, kallus-1
+      15 drewno-2, ksylem-1
+        0 leżanina-1
+        2 drewno pierwotne-1
+          0 metaksylem-1
+          0 protoksylem-1
+        0 leża-3
+        1 próchnowisko-1
+          0 martwica boczna-2
+        7 drewno wtórne-1
+          0 drewno rozpierzchłonaczyniowe-1
+          0 drewno pierścieniowonaczyniowe-1
+          1 drewno twardzielowe-1, twardziel-4
+            0 fałszywa twardziel-1
+          0 drewno bielaste-1, biel-4
+          0 drewno późne-1, drewno letnie-1
+          0 drewno wczesne-1, drewno wiosenne-1
+      14 miękisz-1, tkanka miękiszowa-1, parenchyma-1, mezofil-1
+        0 miękisz zasadniczy-1
+        2 miękisz rdzeniowy-1, miękisz rdzenia-1
+          0 miękisz łykowy-1
+          0 miękisz drzewny-1
+        0 miękisz powietrzny-1, aerenchyma-1, tkanka powietrzna-1
+        0 rdzeń-4, dusza-8
+        3 miękisz asymilacyjny-1, miękisz zieleniowy-1, chlorenchyma-1
+          0 miękisz wieloramienny-1
+          0 miękisz palisadowy-1, mezofil palisadowy-1
+          0 mezofil gąbczasty-1, miękisz gąbczasty-1
+        3 miękisz spichrzowy-1
+          0 miękisz wodny-1, miękisz wodonośny-1, tkanka wodna-1
+          1 bielmo-2, endosperm-1
+            0 woda kokosowa-1
+      1 korek-3, felem-1
+        VISITED 0 martwica-3, martwica korkowa-1, korowina-1
+      1 łyko-1, floem-1
+        0 martwica-3, martwica korkowa-1, korowina-1
+      6 kora-2
+        0 dębnik-1
+        0 łub-1
+        3 cynamon-1
+          0 cynamon magellański-1, kora Wintera-1
+          0 cynamon cejloński-1
+          0 cynamon chiński-1, kasja-2
+    0 bielmo pierwotne-1, przedrośle-2, prabielmo-1
+    0 obielmo-1, perysperm-1
+    10 merystem-1, tkanka twórcza-1, mersytema-1
+      0 merystem archesporialny-1, archespor-1
+      0 merystem zarodkowy-1
+      0 stożek wzrostu-1, merystem wierzchołkowy-1
+      4 merystem wtórny-1
+        0 merystem przyranny-1, kalus-1, kallus-1
+        2 miazga-2, merystem boczny-1
+          0 kambium-1, kambium waskularne-1, miazga twórcza-1
+          0 miazga korkotwórcza-1, fellogen-1, tkanka korkotwórcza-1, felogen-1, miazga korkorodna-1
+      1 merystem pierwotny-1
+        0 merystem interkalarny-1, merystem wstawowy-1
+    0 endoderma-3, śródskórnia-1
+    0 nabłonek-1, kutikula-2, kutykula-2
+    2 plecha-1, grzybnia-1
+      0 rozetka-4
+      0 monada-3
+  1 przeszczep-1, transplantat-1
+    0 bajpas-2, by-pass-1, bypass-2
+  58 błona-1
+    0 osłona przejrzysta-1
+    0 błona lotna-1
+    0 błona podstawowa-1
+    0 błona podśluzowa-1
+    0 błona jądrowa-1
+    0 błona pławna-1, błona pływna-1
+    0 okostna-1
+    0 opony mózgowe-1
+    0 błona podstawna-1
+    4 wiązadło-2, więzadło-2
+      0 więzadło poboczne-1
+      2 więzadła krzyżowe-1
+        0 więzadło krzyżowe tylne-1
+        0 więzadło krzyżowe przednie-1
+    1 błona maziowa-1
+      0 kaletka maziowa-1
+    0 przydanka-1, błona zewnętrzna-1
+    4 biomembrana-1, błona biologiczna-1
+      0 tonoplast-1
+      2 błona komórkowa-1, plazmolema-1, plazmalemma-1, błona plazmatyczna-1
+        0 pellikula-1
+        0 sarkolema-1, sarkolemma-1
+    0 otrzewna-1
+    0 opłucna-1
+    0 twardówka-1, białkówka-1
+    0 błona naczyniowa-1
+    0 wsierdzie-1
+    3 śluzówka-1, błona śluzowa-1
+      0 endometrium-1
+      0 dziąsło-1
+      0 spojówka-1
+    0 powięź-1
+    0 mięśniówka-1, błona mięśniowa-1
+    0 błona dziewicza-1, hymen-1
+    4 błona płodowa-1
+      0 omocznia-1
+      0 owodnia-1
+      0 kosmówka-1
+      0 pęcherzyk żółtkowy-1
+    1 błona surowicza-1
+      0 worek osierdziowy-1, osierdzie-1
+    0 wiązadło-1, więzadło-1
+    10 błonka-1, osłonka-1
+      0 osłonka pochwowa jądra-1
+      0 osłonka nabyta-1
+      0 kupula-1
+      0 zawijka-1
+      0 otoczka mielinowa-1, osłonka mielinowa-1, osłonka rdzenna-1, błona mielinowa-1
+      1 osnówka-1
+        0 kwiat muszkatołowy-1
+      0 kokon-2
+      0 pochewka-2
+      0 pochewka-1
+    0 wyściółka-2, ependyma-1
+    0 rogówka-1
+    0 bębenek-2, błona bębenkowa-1
+    1 opona-1, błona łącznotkankowa-1, opona mózgowo-rdzeniowa-1
+      0 pajęczynówka-1, opona pajęcza-1
+  116 nowotwór-1, choroba nowotworowa-1
+    0 ziarniszczak-1
+    6 guz neuroendokrynny przewodu pokarmowego-1, guz żołądkowo-jelitowo-trzustkowy-1
+      0 guz wydzielający VIP-1, zespół Vernera-Morrisona-1
+      1 guz insulinowy-1, wyspiak-1
+        0 wyspiak trzustki-1
+      0 somatostatinoma-1, guz somatostatynowy-1
+      0 gastrinoma-1, guz gastrynowy-1
+      0 rakowiak-1
+    0 guz chromochłonny-1, barwiak-1
+    0 hamartoblastoma-1
+    0 szpiczak mnogi-1, szpiczak plazmocytowy-1, choroba Kahlera-1
+    0 guz Abrikosowa-1, guz ziarnistokomórkowy-1
+    0 glukagonoma-1
+    0 rogowiak kolczystokomórkowy-1
+    0 nabłoniak wapniejący-1, nabłoniak wapniejący Mahlerbego-1
+    0 ziarniak-6
+    0 ospa karpi-1
+    0 choroba Mareka-1
+    0 metastaza-1, przerzut nowotworowy-1
+    15 naczyniak-1
+      0 naczyniak limfatyczny torbielowaty-1
+      VISITED 0 naczyniak limfatyczny złośliwy-1
+      VISITED 0 naczyniak niezłośliwy limfatyczny-1
+      VISITED 3 naczyniak złośliwy-1
+      VISITED 7 naczyniak niezłośliwy-1
+    40 nowotwór niezłośliwy-1, nowotwór łagodny-1, guz łagodny-1
+      0 mięśniak gładkokomórkowy-1
+      0 przyzwojak-1
+      1 kostniak-1
+        0 kostniak kostninowy-1, kostniak kostnawy-1
+      0 chrzęstniak-1
+      0 choroba Lhermitte'a-Duclos-1, dysplastyczny zwojak móżdżku-1
+      0 naczyniakomięśniakotłuszczak-1
+      0 nerwiakowłókniak-1
+      0 naczyniak niezłośliwy limfatyczny-1
+      7 naczyniak niezłośliwy-1
+        0 ziarniniak naczyniowy-1
+        0 kłębczak-1
+        0 obłoniak-1
+        0 naczyniakomięśniak gładkokomórkowy-1
+        0 naczyniak groniasty-1
+        0 naczyniak krwionośny jamisty-1
+        0 naczyniak krwionośny włośniczkowy-1
+      0 skórzak-3
+      1 śluzak-1
+        0 śluzak serca-1
+      0 oponiak-1
+      0 czerniak-2
+      0 ogień-5
+      7 włókniak-1
+        0 włókniak młodzieńczy nosogardła-1, naczyniowłókniak młodzieńczy-1
+        0 włókniak twardy-1
+        4 włókniak miękki-1
+          0 tłuszczak-1
+          2 brodawczak-1
+            0 brodawczak odwrócony-1, brodawczak odwrócony jam nosa i zatok przynosowych-1, brodawczak Schneidera-1
+            0 brodawczak splotu naczyniówkowego-1
+      4 nerwiak-1
+        0 neuroblastoma-1, nerwiak płodowy-1, nerwiak płodowy współczulny-1, nerwiak zarodkowy-1
+        0 nerwiak osłonkowy-1, schwannoma-1
+        0 nerwiak zwojowy-1
+        0 nerwiak węchowy zarodkowy-1
+      3 gruczolak-1
+        0 gruczolak wątrobowokomórkowy-1
+        0 gruczolak wielopostaciowy-1, guz mieszany-1
+        0 gruczolak przysadki-1
+    45 guz złośliwy-1, nowotwór złośliwy-1
+      0 kostniakomięsak-1, mięsak kościopochodny-1
+      0 guz Wilmsa-2, nerczak płodowy-1, nerczak zarodkowy-1, nerczak złośliwy-1
+      0 oblak-1
+      0 mięsak maziówkowy-1, maziak-1
+      0 mięsak Ewinga-1, guz Ewinga-1
+      0 prymitywny guz neuroektodermalny-1, obwodowy niedojrzały guz neuroektodermalny-1, guz Askina-1
+      4 *nowotwór złośliwy skóry-1
+        VISITED 0 rak neuroendokrynny skóry-1, rak z komórek Merkla-1
+        VISITED 0 rak kolczystokomórkowy skóry-1
+        VISITED 0 rak podstawnokomórkowy skóry-1
+        0 czerniak złośliwy-1, czerniak-1, melanoma-1
+      0 naczyniak limfatyczny złośliwy-1
+      3 naczyniak złośliwy-1
+        0 mięsak Kaposiego-1
+        0 obłoniak złośliwy-1
+        0 śródbłoniak krwionośny złośliwy-1
+      0 sarkoidoza-1
+      0 struniak-1
+      0 szpiczak-1
+      0 nasieniak-1
+      1 nabłoniak-1
+        0 nabłoniak kosmówkowy-1, kosmówczak-1
+      4 chłoniak-1
+        0 chłoniak Burkitta-1
+        0 zespół Sézary'ego-1
+        0 ziarnica złośliwa-1, choroba Hodgkina-1, chłoniak Hodgkina-1, limfogranulomatoza-1
+        0 ziarniniak grzybiasty-1
+      0 nowotwór anaplastyczny-1
+      1 potworniak-1
+        0 torbiel skórzasta-1
+      0 glejak-1
+      0 siatkówczak-1
+      0 mięsak-1, sarkoma-1
+      14 rak-1
+        0 choroba Pageta-1
+        0 guz Brennera-1
+        1 rak płuca-1, rak oskrzela-1
+          0 guz Pancoasta-1, zespół Pancoasta-1
+        0 rak neuroendokrynny skóry-1, rak z komórek Merkla-1
+        0 rak kolczystokomórkowy skóry-1
+        0 rak podstawnokomórkowy skóry-1
+        2 rak przedinwazyjny-1, rak w miejscu-1, CIS-5, rak 0 stopnia-1
+          1 choroba Bowena-1
+            0 erytroplazja Queyrata-1, choroba Bowena żołędzi prącia-1
+        0 rak prącia-1
+        0 rak szyjki macicy-1
+        0 rak gruczołu krokowego-1, rak prostaty-1
+        0 rak jamy nosowo-gardłowej-1
+    7 białaczka-1, leukemia-1
+      1 przewlekła białaczka limfatyczna-1, CLL-1
+        0 przewlekła białaczka limfocytowa B-komórkowa-1
+      0 ostra białaczka limfoblastyczna-1, ALL-2
+      3 białaczka szpikowa-1
+        0 przewlekła białaczka szpikowa-1
+        1 ostra białaczka szpikowa-1
+          0 ostra białaczka promielocytowa-1, ostra białaczka progranulocytowa-1, APL-1, AML z t(15;17)(q22,q12)-1, PML-RARA-1

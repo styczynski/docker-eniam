@@ -1,0 +1,3863 @@
+3463 środek-1
+  0 wentyl bezpieczeństwa-1, wentyl-3
+  0 środek obrotowy-1
+  8 uspokajacz-2
+    0 lawenda-2
+    2 środek uspokajający-1
+      0 pantopon-1, omnopon-1
+      0 karbromal-1, adalina-1
+    0 dziurawiec-2
+    0 melisa-2
+    1 mięta-2
+      0 mięta pieprzowa-2
+  0 anafrodyzjak-1
+  0 polepszacz-2, poprawiacz-2
+  41 afrodyzjak-1
+    0 kapar-2
+    0 kantarydyna-1
+    0 johimbina-1
+    0 awokado-1, avocado-2, smaczliwka-2, gruszka awokado-1, owoc maślany-1
+    0 gałka muszkatołowa-1
+    0 lubczyk-2
+    15 trufla-2
+      0 trufelka-2, jelenia trufelka-1, jeleniak-2
+      0 trufla rzepiasta-1
+      0 trufla plamista-1
+      0 trufla Borcha-1
+      0 trufla czerwona-1, trufla ruda-1
+      0 trufla omszona-1
+      0 trufla lśniąca-1
+      0 trufla czarnozarodnikowa-1, trufla perygordzka-1
+      0 trufla biała-1, trufla piemoncka-1
+      0 trufla wielkozarodnikowa-1
+      0 trufla rdzawa-1
+      0 trufla wydrążona-1
+      0 trufla dębowa-1
+      0 trufla zimowa-1
+      0 trufla letnia-1
+    0 kawior-1
+    0 truskawka-1
+    0 szparag-2
+    1 ostryga-1
+      0 ostryga jadalna-1
+    0 orzech włoski-1
+    0 figa-1
+    0 daktyl-1
+    5 czekolada-1
+      0 biała czekolada-1
+      0 czekolada deserowa-1
+      0 czekolada mleczna-1
+      0 czekolada gorzka-1
+      0 kuwertura-1
+    3 cebula-1
+      0 cebula perłowa-1
+      0 szalotka-2
+      0 dymka-2
+    0 bakłażan-1, oberżyna-2, gruszka miłosna-1
+  193 środek płatniczy-1
+    1 kryptowaluta-1
+      0 bitcoin-1
+    168 znak pieniężny-1
+      VISITED 167 pieniądz-1
+    0 płacidło-1, pieniądz towarowy-1
+    8 karta-3
+      0 karta obciążeniowa-1
+      0 karta telefoniczna-1
+      0 karta kredytowa-1
+      4 karta płatnicza-1
+        0 karta przedpłacona-1
+        0 karta debetowa-1
+        0 eurokarta-1
+        0 karta wirtualna-1
+    0 siekaniec-2
+    5 czek-1
+      0 czek podróżniczy-1
+      1 czek na okaziciela-1
+        0 euroczek-1
+      0 czek podróżny-1, voucher-2
+      0 czek imienny-1
+    172 pieniądz-2
+      0 pieniądz rozrachunkowy-1
+      0 pieniądz kruszcowy-1
+      0 pieniądz elektroniczny-1
+      0 pusty pieniądz-1
+      167 pieniądz-1
+        0 pieniądz fiducjarny-1
+        0 pieniądz bezgotówkowy-1, pieniądz depozytowy-1
+        0 pieniądz lokalny-1
+        0 pieniądz zastępczy-1
+        0 rublówka-1
+        0 złotówka-2, złocisz-1
+        1 dwusetka-1
+          0 dwustuzłotówka-1
+        5 dwójka-7
+          0 dwudolarówka-1
+          VISITED 0 dwueurówka-1
+          VISITED 0 dwugroszówka-1
+          VISITED 0 dwupensówka-1
+          0 dwuzłotówka-1
+        2 pięćdziesiątka-1
+          0 pięćdziesięciozłotówka-1
+          0 pięćdziesięciogroszówka-1
+        0 jednodolarówka-1, dolarówka-1
+        2 dwudziestka-4
+          0 dwudziestozłotówka-1
+          0 dwudziestogroszówka-1
+        2 pięćsetka-1
+          1 pięćsetzłotówka-1
+            VISITED 0 góral-4
+        0 tael-1
+        4 setka-2, stówa-1, stówka-1
+          0 sturublówka-1
+          VISITED 0 mina-3
+          0 studolarówka-1
+          0 stuzłotówka-1
+        6 piątka-6
+          0 pięciodolarówka-1
+          VISITED 0 pięcioeurówka-1
+          VISITED 0 pięciopensówka-1
+          VISITED 0 pięciocentówka-1
+          0 pięciozłotówka-1
+          0 pięciogroszówka-1
+        8 dziesiątka-3, dycha-2
+          VISITED 0 dziesięcioeurówka-1
+          VISITED 0 dziesięciopensówka-1
+          VISITED 0 dziesięciocentówka-1
+          1 dziesięciorublówka-1
+            VISITED 0 czerwoniec-2
+          0 dziesięciozłotówka-1
+          0 dziesięciogroszówka-1
+          0 dziesięciodolarówka-1
+        122 moneta-1
+          0 bu-3
+          0 sekstans-3
+          0 szekel-2
+          0 czterdziestówka-2, czterdziestka-8
+          0 koprowina-1
+          0 półpensówka-1
+          0 dwudenar-1
+          0 farthing-1
+          0 półkopek-1
+          0 didrachma-1
+          0 półtalar-1
+          0 tetradrachma-1
+          0 dwueurówka-1
+          0 trias-3
+          0 trzeciak-2, ternar-1
+          0 szóstak-1
+          0 suweren-2
+          0 skud-1
+          0 silikwa-1
+          0 semis-1
+          0 połuszka-1
+          0 piastr-2, kurusz-2
+          0 pięciopensówka-1
+          0 para-9
+          0 nobel-4
+          0 maravedí-1, maravedi-2
+          2 dobla-1
+            0 castellano-1
+            0 excelente-1
+          0 escudo-2
+          0 efraim-1, efraimita-1
+          0 dwojak-1
+          0 dupondius-1
+          0 dinar-2, dynar-1
+          0 darejka-1
+          0 czworak-2
+          0 cwancygier-1
+          0 cruzado-1
+          0 korona-18
+          0 cekin-2
+          0 berlinka-3
+          0 argenteus-1
+          0 antonianin-1
+          0 gwinea-2
+          0 sou-1, su-1
+          0 stater-2
+          0 dziesięciopensówka-1
+          0 dwupensówka-1
+          0 szyling-2, shilling-1
+          0 pensówka-1, pens-2, jednopensówka-1
+          0 cent-3, centówka-1, cenciak-1
+          0 gulden-3
+          1 grosz-4
+            0 grosz praski-1
+          0 hemidrachma-1
+          0 uncja-3
+          0 mina-3
+          0 talent-3
+          0 klepacz-1, klepaniec-1
+          0 pięciocentówka-1
+          0 odwrotka-1
+          0 krajcar-1, grajcar-3
+          0 moneta obiegowa-1
+          1 moneta bulionowa-1
+            0 krugerrand-1
+          0 donatywa-1
+          0 portugał-1
+          0 półkoronówka-1
+          0 ćwierćdolarówka-1
+          0 dziesięciocentówka-1
+          0 jednoeurówka-1, euro-1, eurówka-1
+          0 as-3
+          0 napoleon-1, napoleondor-1
+          0 aureus-1
+          0 skojec-2
+          0 tynf-1, tymf-1
+          0 dublon-1
+          0 luidor-1, ludwik-2
+          0 półgrosz-1, kwartnik-1, kwartalnik-2, półgroszek-1
+          0 real-2
+          1 szeląg-1
+            0 boratynka-1, boratynek-1
+          0 ort-1
+          0 sestercja-1, sesterc-1
+          0 sold-1, soldo-1
+          0 pistol-1
+          0 klipa-2
+          0 srebrnik-1, sykl-2
+          1 solid-1
+            0 bizant-1, bezant-1
+          0 obol-1
+          0 liwr-1
+          0 imperiał-1
+          0 halerz-1
+          0 floren-1
+          0 fenig-1
+          0 drachma-1
+          0 dirhem-1
+          0 denar-1
+          0 czerwoniec-1
+          0 trojak-1, dydek-1, dutka-1, babka-9
+          0 brakteat-1
+          1 talar-1
+            0 lewek-2, talar lewkowy-1, lewkowy-1
+          0 gulden-2
+          1 dukat-1
+            0 czerwony złoty-1, czerwoniec-3
+          12 drobniak-1, moniak-2, klepak-2
+            0 kopiejka-2
+            0 dżaital-1
+            0 dienieżka-1
+            2 groszak-1
+              0 dwugroszówka-1
+              0 groszówka-1, grosz-5, jednogroszówka-1
+            5 miedziak-1
+              0 triens-1
+              0 firka-1
+              0 denga-1
+              0 chalkus-1
+              0 lepton-2
+          0 écu-2
+          0 półtorak-1
+        9 banknot-1, bilet bankowy-1, asygnata-1
+          0 bilet zdawkowy-1
+          0 czerwoniak-1
+          0 tysiączłotówka-1
+          0 trzyrublówka-1
+          0 dziesięcioeurówka-1
+          0 pięcioeurówka-1
+          1 młynarka-3
+            0 góral-4
+          0 czerwoniec-2
+  5 chwyt-2, fortel-2
+    1 sztuczka-2, trik-2, trick-2
+      VISITED 0 efekt specjalny-1
+    0 suspens-1, suspensja-1
+    0 gierka-2
+    0 gag-1
+  1 efekt-2
+    0 efekt specjalny-1
+  1 półśrodek-1, paliatyw-1
+    0 prowizorka-2
+  1047 środek lokomocji-1, środek transportu-1, nośnik-4
+    2 środek transportu publicznego-1
+      VISITED 0 autobus miejski-1
+      VISITED 0 tramwaj-1
+    1039 pojazd-2
+      346 pojazd samobieżny-1, pojazd z własnym napędem-1
+        7 maszyna samobieżna-1
+          6 maszyna leśna-1
+            0 kombajn zrębowy-1, harwester-1
+            VISITED 4 ciągnik leśny-1
+        VISITED 342 pojazd mechaniczny-1
+      156 *pojazd o przeznaczeniu wojskowym-1
+        VISITED 0 barka desantowa-1
+        VISITED 18 samolot wojskowy-1
+        VISITED 25 pojazd wojskowy-1
+        VISITED 109 okręt-1, okręt wojenny-1
+      335 *pojazd nawodny lub podwodny-1
+        0 refuler-1
+        0 pogłębiarka-1, bagier-1, bagrownica-1, czerpaczka-1, czerparka-2, draga-1, szlamownik-1
+        VISITED 0 poduszkowiec-1
+        VISITED 331 statek-1, statek wodny-1
+      107 pojazd latający-1
+        0 wimana-3
+        VISITED 1 amfibia-1
+        98 statek powietrzny-1
+          82 aerodyna-1, statek powietrzny cięższy od powietrza-1
+            0 wielopłatowiec-1, wielopłat-1
+            0 zmiennopłat-1, przemiennopłat-1, konwertoplan-1, konwertyda-1
+            0 mięśniolot-1
+            68 stałopłat-1
+              0 ekranoplan-1
+              2 lotnia-1
+                0 motolotnia-1
+                0 paralotnia-1, paragliding-1
+              1 szybowiec-1
+                0 motoszybowiec-1
+              61 samolot-1, aeroplan-1
+                0 boeing-1
+                0 grzbietopłat-1
+                0 trójpłat-1
+                0 dwuster-1
+                0 samolot gaśniczy-1
+                0 samolot śmigłowy-1
+                0 bezzałogowy aparat latający-1, bezzałogowy statek latający-1, dron-1, samolot bezzałogowy-1
+                18 samolot wojskowy-1
+                  0 samolot rozpoznawczy-1
+                  16 samolot bojowy-1
+                    2 samolot niewykrywalny dla radarów-1, samolot niewykrywalny przez radary-1, samolot typu stealth-1
+                      VISITED 0 myśliwiec niewykrywalny dla radarów-1
+                      VISITED 0 bombowiec typu stealth-1
+                    0 kamikadze-3, kamikaze-3
+                    4 myśliwiec-1, samolot myśliwski-1
+                      0 myśliwiec przechwytujący-1
+                      0 myśliwiec niewykrywalny dla radarów-1
+                      0 szturmowiec-2
+                      0 samolot pościgowy-1, pościgowiec-1
+                    8 bombowiec-1, samolot bombowy-1
+                      0 bombowiec strategiczny-1
+                      0 bombowiec typu stealth-1
+                      2 bombowiec nurkujący-1
+                        0 nurkowiec-1
+                        0 stukas-1, sztukas-1
+                      0 halifaks-1, halifax-1
+                      0 ciężki bombowiec-1, superbombowiec-1
+                      0 latająca forteca-1, superforteca-1
+                0 samolot z podwoziem nartowym-1
+                0 samolot wielosilnikowy-1
+                0 latające skrzydło-1, samolot w układzie latającego skrzydła-1
+                5 samolot pasażerski-1
+                  VISITED 1 pasażerski samolot odrzutowy-1
+                  0 samolot wąskokadłubowy-1
+                  0 samolot szerokokadłubowy-1
+                  0 aerobus-1
+                0 samolot pokładowy-1
+                0 pionowzlot-1
+                0 rakietoplan-1
+                0 pierścieniopłat-1, koleopter-1, coleopter-1
+                1 samolot wielozadaniowy-1
+                  VISITED 0 kukuruźnik-1
+                0 samolot obserwacyjny-1
+                3 jednopłatowiec-1, jednopłat-1, monoplan-1
+                  0 średniopłat-1
+                  0 górnopłat-1
+                  0 dolnopłat-1
+                3 hydroplan-1, wodnopłat-1, wodnopłatowiec-1, wodnosamolot-1
+                  VISITED 0 samolot-amfibia-1
+                  0 łódź latająca-1
+                  0 wodnosamolot pływakowy-1
+                2 dwupłatowiec-1, dwupłat-1
+                  0 kukuruźnik-1
+                  0 półtorapłat-1
+                2 awionetka-1
+                  1 samolot lekki-1
+                    0 cessna-1
+                0 turbośmigłowiec-1
+                0 liniowiec-2
+                5 odrzutowiec-1
+                  0 dwusilnikowy samolot odrzutowy-1
+                  1 pasażerski samolot odrzutowy-1
+                    0 jumbo jet-1, dżambo dżet-1
+                  0 ponaddźwiękowiec-1, naddźwiękowiec-1, samolot naddźwiękowy-1, samolot ponaddźwiękowy-1
+                  0 turboodrzutowiec-1
+            7 wiropłat-1
+              1 wiatrakowiec-1, autogiro-1, autożyro-1
+                0 wiroszybowiec-1
+              4 śmigłowiec-1, helikopter-1
+                0 quadcopter-1
+                0 śmigłowiec jednosilnikowy-1, helikopter jednosilnikowy-1, śmigłowiec jednowirnikowy-1, helikopter jednowirnikowy-1
+                0 śmigłowiec transportowy-1, helikopter transportowy-1
+                0 wirolot-1
+            1 skrzydłowiec-1, ornitopter-1
+              0 entomopter-1
+          14 aerostat-1, statek powietrzny lżejszy od powietrza-1
+            8 balon-1
+              0 balon obserwacyjny-1
+              VISITED 2 balon meteorologiczny-1
+              1 balon na ogrzane powietrze-1, balon napełniany ogrzanym powietrzem-1
+                0 montgolfiera-1, mągolfiera-1
+              0 balon zaporowy-1
+              0 stratostat-1, balon stratosferyczny-1
+            4 sterowiec-1
+              0 sterowiec półszkieletowy-1
+              1 sterowiec szkieletowy-1
+                0 zeppelin-1, cepelin-1
+              0 sterowiec ciśnieniowy-1, sterowiec bezszkieletowy-1, sterowiec miękki-1
+        VISITED 5 rakieta-1
+      0 wahadłowiec-1
+      78 pojazd niemechaniczny-2
+        0 żaglowóz-1
+        0 skibob-1
+        VISITED 1 lektyka-1
+        VISITED 3 sanki-1
+        VISITED 69 łódź-2
+      23 *statek kosmiczny-1, pojazd kosmiczny-1
+        0 Sojuz-1
+        VISITED 0 gwiazdolot-1
+        0 stutysięcznik-1
+        1 UFO-2, ufo-1
+          0 latający talerz-1, latający spodek-1
+        VISITED 0 sonda kosmiczna-1, sonda-5, próbnik kosmiczny-1, próbnik-2
+        1 prom kosmiczny-1, prom-2
+          0 wahadłowiec-2, samolot kosmiczny-1, kosmolot-1
+        8 satelita-2, sputnik-1, sztuczny satelita-1
+          0 satelita geostacjonarny-1
+          0 satelita szpiegowski-1
+          0 mikrosatelita-1
+          0 orbiter-1
+          0 stacja kosmiczna-1, stacja orbitalna-1, baza orbitalna-1
+          0 satelita meteorologiczny-1
+          0 sztuczny księżyc-1
+          0 satelita telekomunikacyjny-1
+        5 rakieta-1
+          0 rakieta nośna-1
+          0 rakieta wielostopniowa-1
+          1 rakieta badawcza-1
+            0 rakieta sondażowa-1, rakieta atmosferyczna-1
+          0 booster-2
+      570 pojazd-1
+        0 pojazd członowy-1
+        0 pojazd zabytkowy-1
+        0 statek-2
+        0 pojazd silnikowy-1
+        0 pojazd wolnobieżny-1
+        0 pojazd nienormatywny-1
+        0 czterotakt-2
+        0 trycykl-1
+        VISITED 0 śmigacz-2
+        VISITED 0 grabiarka-1, grabie-2
+        16 pojazd lądowy-1
+          15 pojazd budowlany-1
+            VISITED 0 zgarniarka-1
+            VISITED 2 układarka-1
+            VISITED 0 ubijarka-1
+            VISITED 2 walec-2, wał-2
+            VISITED 0 równiarka-1
+            VISITED 0 zgniatarka-1
+            4 koparka-1
+              0 koparka jednonaczyniowa-1
+              0 koparka wielonaczyniowa-1
+              VISITED 0 koparko-ładowarka-1
+              0 koparka zgarniakowa-1
+        VISITED 273 pojazd drogowy-1
+        25 pojazd wojskowy-1
+          0 Humvee-1
+          23 wóz bojowy-1
+            0 platforma bojowa-1
+            0 zestaw przeciwlotniczy-1
+            15 opancerzony pojazd bojowy-1, wóz opancerzony-1
+              0 bojowy wóz rozpoznawczy-1
+              VISITED 0 pancerka-1, samochód opancerzony-1
+              VISITED 2 transporter-2, transporter opancerzony-1
+              VISITED 9 czołg-1, tank-1
+            VISITED 2 działo samobieżne-1
+            VISITED 0 niszczyciel czołgów-1
+            VISITED 0 bojowy wóz piechoty-1, BWP-1
+        0 pojazd księżycowy-1
+        259 dwuślad-1, pojazd dwuśladowy-1, dwuśladowiec-1
+          VISITED 258 samochód-1, auto-1, wóz-1, pojazd samochodowy-1
+        47 pojazd szynowy-1
+          45 pojazd kolejowy-1
+            17 pojazd trakcyjny-1
+              4 wagon silnikowy-1
+                0 wagon parowy-1
+                0 wagon akumulatorowy-1
+                1 wagon spalinowy-1, wagon motorowy-1
+                  0 luxtorpeda-1, lukstorpeda-1
+              11 lokomotywa-1
+                0 rumun-2
+                0 lokomotywa manewrowa-1
+                0 lokomotywa prowadząca-1
+                0 elektrowóz-2
+                1 lokomotywa elektryczna-1, elektrowóz-1
+                  VISITED 0 lokomotywa spalinowo-elektryczna-1
+                2 spalinowóz-1, lokomotywa spalinowa-1
+                  0 lokomotywa spalinowo-hydrauliczna-1
+                  0 lokomotywa spalinowo-elektryczna-1
+                2 parowóz-1, lokomotywa parowa-1, parowozik-1
+                  0 parowóz tendrowy-1
+                  0 tendrzak-1
+            0 drezyna-1, trolej-3
+            0 tender-1
+            24 pociąg-1, kolej-2
+              0 zespół trakcyjny-1
+              0 kolej ogumiona-1
+              0 kolejka metra-1, pociąg metra-1
+              1 pociąg szybki-1
+                0 pociąg superszybki-1
+              0 pociąg pocztowy-1
+              0 pociąg szpitalny-1
+              3 pociąg pasażerski-1
+                0 pociąg ekspresowy-1
+                0 pociąg pospieszny-1, pociąg przyspieszony-1
+                0 pociąg osobowy-1, osobówka-2
+              0 pociąg towarowy-1
+              3 ekspres-1, expres-3
+                0 superekspres-1
+                0 InterCity-1
+                0 EuroCity-1
+              0 pancerka-2
+              1 szynobus-1, autobus szynowy-1
+                0 szynobus spalinowy-1
+              1 wąskotorówka-1, kolejka wąskotorowa-1
+                0 ciuchcia-2
+              0 pociąg roboczy-1
+              0 pociąg marszrutowy-1
+              0 metro-1
+          0 tramwaj-1
+        31 pojazd jednośladowy-1, jednośladowiec-1, jednoślad-1
+          28 dwukołowiec-1
+            VISITED 11 motor-1, motocykl-1
+            VISITED 15 rower-1
+          0 rowerek biegowy-1
+          VISITED 0 monocykl-1, rower jednokołowy-1
+        0 wózek akumulatorowy-1
+        0 pojazd uprzywilejowany-1
+        0 karawan-2, karawan pogrzebowy-1
+        VISITED 22 ciągnik-1
+        0 wrak-2
+        VISITED 2 kombajn-1, kombajn rolniczy-1
+        35 *pojazd niekołowy-1
+          1 lektyka-1
+            0 palankin-1
+          3 sanki-1
+            0 tobogan-1
+            VISITED 0 skeleton-1
+            0 bobslej-1, bob-3
+          VISITED 22 *pojazd mechaniczny niekołowy-1
+          6 sanie-1
+            0 autosanie-1
+            0 kumoterki-2
+            0 akia-1
+            0 aerosanie-1
+            0 tobogan-2
+            0 skeleton-1
+        1 wehikuł-1
+          0 wehikuł czasu-1
+        466 pojazd kołowy-1
+          0 sześciokołowiec-1
+          VISITED 6 ciągnik samochodowy-1, ciągnik drogowy-1
+          VISITED 3 ciągnik kołowy-1
+          0 wózek golfowy-1
+          1 gruchot-3
+            VISITED 0 grat-2, rzęch-1
+          VISITED 0 pojazd półgąsienicowy-1
+          1 pojazd elektryczny-1
+            VISITED 0 meleks-1, melex-1
+          1 amfibia-1
+            0 samolot-amfibia-1
+          0 amfibia-2, pojazd amfibijny-1
+          4 wóz strażacki-1
+            VISITED 2 samochód pożarniczy-1
+            VISITED 0 beczkowóz-2, beczkowóz straży pożarnej-1
+          114 pojazd niemechaniczny-1
+            0 kuchnia polowa-1, kuchnia wojskowa-1, garkuchnia-4
+            0 monocykl-1, rower jednokołowy-1
+            0 riksza-1, ryksza-1
+            0 hulajnoga-1
+            77 *pojazd konny-1
+              0 amerykanka-4
+              0 szaraban-1
+              0 brożek-1
+              0 arba-1
+              15 wóz-2
+                0 skarbnik-6, wóz skarbny-1
+                0 fornalka-3
+                0 rolwaga-1
+                0 wozina-2
+                0 gnojnica-1, gnojak-2
+                0 drzewiarka-1
+                0 pałuba-4
+                0 półkoszek-1
+                0 węglarka-1
+                0 jaszcz-1, jaszczyk-1
+                0 furgon-2
+                0 bryka-2
+                0 brankard-1
+                1 furmanka-1, fura-3, furka-1
+                  0 wóz drabiniasty-1, drabiniak-1
+              0 taradajka-1, taratajka-1
+              0 omnibus-1
+              0 linijka-3
+              0 kolaska-1, kolasa-1
+              0 kariolka-1
+              0 ekwipaż-1
+              2 dwukółka-1, bieda-3, biedka-1
+                0 bumer-1
+                0 sulki-1
+              0 brek-1
+              10 zaprzęg-1, zaprząg-1, pojazd zaprzęgowy-1
+                0 fornalka-1
+                0 karruka-1
+                0 karaban-1, karabon-1
+                0 taczanka-3
+                0 trojka-1, trójka-3
+                0 cug-2
+                0 czwórka-6
+                0 szóstka-7
+                1 rydwan-1
+                  0 kwadryga-1
+              6 bryczka-1
+                0 bałaguła-4
+                0 najtyczanka-1, nejtyczanka-1
+                0 polowiec-1
+                0 koczobryk-1
+                0 resorówka-1
+                VISITED 0 pojedynka-3
+              0 beczkowóz-2, beczkowóz straży pożarnej-1
+              3 dorożka-1, fiakier-1, fiakr-1
+                0 dwukonka-1
+                0 drynda-1
+                0 pojedynka-3
+              1 dyliżans-1
+                0 szybkowóz-1, kurierka-2
+              22 powóz-1
+                0 jednokonka-1
+                0 karykiel-1
+                0 wizawa-2
+                0 landolet-1
+                0 wolant-1
+                0 wasąg-1
+                0 tarantas-1
+                0 lando-2
+                0 kolebka-3
+                0 kocz-1
+                0 kałamaszka-1
+                0 kabriolet-2
+                0 faeton-2
+                0 kibitka-1
+                0 berlinka-2
+                6 kareta-1
+                  0 wizawa-1
+                  0 dormeza-1
+                  0 soliterka-1, egoistka-2, dezobliżantka-1
+                  0 coupé-2
+                  0 landara-2
+                  0 karoca-1
+            7 przyczepa-1
+              0 przyczepa do przewozu konia-1, przyczepa na konia-1, przyczepa do przewozu koni-1, przyczepa na konie-1
+              0 przyczepa kempingowa-1, caravan-1
+              0 barakowóz-1
+              0 kosz-6
+              0 laweta-1
+              1 naczepa-1
+                0 gruszka-5
+            7 wózek-1
+              0 wózek Kraussa-Helmholtza-1
+              0 ambonka-1
+              0 japonka-2
+              0 wózek spacerowy-1, spacerówka-1
+              0 wózek dziecięcy-1
+              0 taczka-1
+              0 wózek inwalidzki-1
+            15 rower-1
+              0 rower poziomy-1
+              1 romet-1
+                VISITED 0 wigry-4
+              0 koza-15
+              0 holender-3, holenderka-5
+              0 bicykl-1, welocyped-1
+              0 damka-2
+              0 kolarka-2, kolarzówka-1, rower szosowy-1
+              0 wyścigówka-1
+              0 riksza-2, ryksza-2
+              0 rowerek-1
+              0 tandem-1
+              1 składak-2, rower składany-1
+                0 wigry-4
+              1 rower górski-1, góral-3
+                0 ścieżkowiec-1
+          342 pojazd mechaniczny-1
+            1 kombajn-2, kombajn górniczy-1
+              0 kombajn ścianowy-1
+            0 zraszarka-2
+            2 pojazd specjalny-1
+              1 pług śnieżny-1, pług odśnieżny-1
+                0 pług wirnikowy-1
+            0 lokomobila samojezdna-1
+            273 pojazd drogowy-1
+              0 skuter-1
+              0 motorower-1, moped-1
+              258 samochód-1, auto-1, wóz-1, pojazd samochodowy-1
+                0 samochód hybrydowy-1
+                0 cztery kółka-1
+                0 samochód dostawczy-1
+                3 dostawczak-1
+                  VISITED 0 transit-1
+                  VISITED 0 transporter-3
+                  VISITED 0 boxer-1
+                0 bankowóz-1
+                2 samochód pożarniczy-1
+                  0 samochód ratowniczo–gaśniczy-1
+                  0 samochód-drabina-1, samochód z drabiną mechaniczną-1
+                0 pojazd z napędem na cztery koła-1
+                137 *samochód określonej marki-1
+                  VISITED 0 daihatsu-1
+                  VISITED 0 vauxhall-1
+                  VISITED 0 ikarus-1
+                  VISITED 0 scania-2
+                  VISITED 0 scania-1
+                  VISITED 0 simca-1
+                  VISITED 0 oldsmobil-1
+                  0 zaporożec-2
+                  VISITED 0 smart-1
+                  69 *samochód o określonym modelu-1
+                    VISITED 0 prius-1
+                    VISITED 0 boxster-1
+                    VISITED 0 datsun-1
+                    VISITED 0 touran-1
+                    VISITED 0 elantra-1
+                    VISITED 0 calibra-1
+                    VISITED 0 roomster-1
+                    VISITED 0 multivan-1
+                    VISITED 0 altea-1
+                    VISITED 0 sebring-1
+                    VISITED 0 navara-1
+                    VISITED 0 croma-1
+                    VISITED 0 seicento-1
+                    VISITED 0 palio-1
+                    VISITED 0 transit-1
+                    0 trabant-3, trabi-1, ford karton-1
+                    VISITED 0 warszawa-3
+                    VISITED 0 kadet-2
+                    VISITED 0 nexia-1
+                    VISITED 0 tico-2
+                    VISITED 0 laguna-2
+                    VISITED 0 ibiza-1
+                    VISITED 0 felicia-2
+                    VISITED 0 fabia-1
+                    VISITED 0 transporter-3
+                    VISITED 0 mondeo-2
+                    VISITED 0 focus-1
+                    VISITED 0 logan-1
+                    VISITED 0 polo-4
+                    VISITED 0 grand vitara-1
+                    VISITED 0 megane-2, meganka-1
+                    VISITED 0 clio-1
+                    VISITED 0 astra-1
+                    VISITED 0 micra-1
+                    VISITED 0 escort-2
+                    VISITED 0 panda-2
+                    VISITED 0 lanos-1
+                    VISITED 0 twingo-1
+                    VISITED 0 cinquecento-1
+                    VISITED 0 stanza-3
+                    VISITED 0 yaris-1
+                    VISITED 0 xsara-1
+                    VISITED 0 xantia-1
+                    VISITED 0 vectra-1
+                    VISITED 0 sharan-2
+                    VISITED 0 scenic-1
+                    VISITED 0 punto-1, punciak-1
+                    VISITED 0 pajero-2
+                    VISITED 0 octavia-1
+                    VISITED 0 nubira-1
+                    VISITED 0 matiz-2
+                    VISITED 0 leganza-2
+                    VISITED 0 fiesta-2
+                    VISITED 0 cordoba-2
+                    VISITED 0 camry-2
+                    VISITED 0 avensis-2
+                    VISITED 0 vitara-1
+                    VISITED 0 boxer-1
+                    VISITED 0 touareg-2
+                    VISITED 0 corolla-2
+                    VISITED 0 lancer-1
+                    VISITED 0 corsa-1
+                    VISITED 0 passat-1, pasat-2
+                    VISITED 0 duży fiat-1
+                    VISITED 0 mały fiat-1, maluch-1
+                    VISITED 0 syrenka-2, skarpeta-2
+                    VISITED 0 garbus-2
+                    VISITED 0 golf-1
+                    VISITED 0 polonez-1, poldek-1
+                  VISITED 0 saab-1
+                  VISITED 0 rolls-royce-2, rolls-1, royce-1
+                  VISITED 0 porsche-1, porszak-1
+                  VISITED 0 jeep-3
+                  VISITED 0 land rover-1
+                  VISITED 0 daimler-2
+                  1 dacia-2
+                    VISITED 0 logan-1
+                  VISITED 0 chrysler-1
+                  VISITED 0 chevrolet-1, chevro-1
+                  VISITED 0 buick-2
+                  VISITED 0 bugatti-1
+                  VISITED 0 alfa romeo-2, alfa-3
+                  VISITED 0 bentley-2
+                  VISITED 0 willys-1
+                  VISITED 18 japończyk-3
+                  VISITED 0 łada-1
+                  0 volvo-1
+                  VISITED 0 solaris-1
+                  VISITED 0 ferrari-1
+                  VISITED 0 bmw-1, beemwica-1, beemka-1, beema-1
+                  VISITED 0 audi-1, audik-1, audica-1
+                  VISITED 0 lamborghini-2, lambo-1
+                  VISITED 0 jelcz-3
+                  VISITED 0 autosan-2
+                  VISITED 0 nyska-1
+                  VISITED 0 dodge-2
+                  VISITED 0 wołga-1
+                  VISITED 0 cadillac-2
+                  VISITED 0 wartburg-2
+                  VISITED 0 plymouth-2
+                  6 daewoo-2
+                    VISITED 0 nexia-1
+                    VISITED 0 tico-2
+                    VISITED 0 lanos-1
+                    VISITED 0 nubira-1
+                    VISITED 0 matiz-2
+                    VISITED 0 leganza-2
+                  6 ford-2
+                    VISITED 0 transit-1
+                    VISITED 0 mondeo-2
+                    VISITED 0 focus-1
+                    VISITED 0 escort-2
+                    VISITED 0 ford T-1
+                    VISITED 0 fiesta-2
+                  VISITED 0 maybach-1
+                  0 robur-2
+                  VISITED 0 pontiac-1, pontiak-1
+                  VISITED 0 humber-1
+                  5 renault-1, renówka-1
+                    VISITED 0 laguna-2
+                    VISITED 0 megane-2, meganka-1
+                    VISITED 0 clio-1
+                    VISITED 0 twingo-1
+                    VISITED 0 scenic-1
+                  0 mercedes-2, merc-1, merol-1
+                  VISITED 0 mclaren-2
+                  VISITED 0 aston martin-2, aston-1
+                  VISITED 0 lancia-1
+                  7 volkswagen-2
+                    VISITED 0 transporter-3
+                    VISITED 0 polo-4
+                    VISITED 0 sharan-2
+                    VISITED 0 touareg-2
+                    VISITED 0 passat-1, pasat-2
+                    VISITED 0 garbus-2
+                    VISITED 0 golf-1
+                  VISITED 2 seat-1
+                  1 peugeot-2
+                    0 boxer-1
+                  2 citroen-2, citroën-4
+                    VISITED 0 xsara-1
+                    VISITED 0 xantia-1
+                  7 fiat-1
+                    0 seicento-1
+                    0 palio-1
+                    VISITED 0 panda-2
+                    VISITED 0 cinquecento-1
+                    VISITED 0 punto-1, punciak-1
+                    VISITED 0 duży fiat-1
+                    VISITED 0 mały fiat-1, maluch-1
+                  VISITED 3 skoda-1
+                  4 opel-1
+                    VISITED 0 kadet-2
+                    VISITED 0 astra-1
+                    VISITED 0 vectra-1
+                    VISITED 0 corsa-1
+                  VISITED 0 jaguar-1
+                2 van-1
+                  0 transporter-3
+                  0 sharan-2
+                0 samochód zastępczy-1, auto zastępcze-1
+                0 samochód używany-1, auto używane-1
+                0 smok-3
+                0 samochód elektryczny-1
+                0 samochód turystyczny-1
+                0 samochód z napędem hybrydowym-1, auto z napędem hybrydowym-1
+                0 karawan-1, karawaning-1, caravan-2, caravaning-2
+                0 czterokołowiec-1, quad-1
+                0 grat-2, rzęch-1
+                0 dwusuw-1
+                0 zamiatarka-1, zamiataczka-1
+                0 papa mobile-1, papamobile-1, papamobil-2
+                0 solarka-1
+                0 odśnieżarka-1
+                0 barobus-1, barowóz-1
+                0 automat-7, samochód z automatyczną skrzynią biegów-1
+                0 pługopiaskarka-1
+                0 benzyniak-1
+                0 pancerka-1, samochód opancerzony-1
+                2 wyścigówka-3
+                  0 gokart-1, kart-1
+                  0 bolid-1
+                0 samochód pułapka-1, samochód-pułapka-1
+                2 półciężarówka-1, furgonetka-1, kamionetka-1
+                  VISITED 0 pick-up-2, pickup-1, pikap-2
+                  0 furgonetka pancerna-1
+                0 wóz techniczny-1
+                0 trolejbus-1
+                8 samochód terenowy-1, terenówka-1, dżip-1, jeep-1
+                  0 jeep-3
+                  0 land rover-1
+                  0 willys-1
+                  0 łazik-2, ŁAZ-1
+                  VISITED 0 vitara-1
+                  0 wszędołaz-1
+                  0 tarpan-2
+                  0 gazik-1
+                2 radiowóz-1, samochód policyjny-1
+                  0 wóz patrolowy-1
+                  0 buda-5, suka-3
+                2 mikrobus-1, bus-1
+                  0 transit-1
+                  0 nyska-1
+                0 diesel-2, ropniak-2
+                143 samochód osobowy-1, osobówka-1
+                  0 prius-1
+                  0 daihatsu-1
+                  0 boxster-1
+                  0 datsun-1
+                  0 vauxhall-1
+                  0 touran-1
+                  0 elantra-1
+                  0 calibra-1
+                  0 roomster-1
+                  0 multivan-1
+                  0 altea-1
+                  0 sebring-1
+                  0 navara-1
+                  0 croma-1
+                  0 simca-1
+                  0 oldsmobil-1
+                  31 *samochód osobowy o określonym typie nadwozia-1
+                    4 fastback-2
+                      0 warszawa-3
+                      0 passat-1, pasat-2
+                      0 mały fiat-1, maluch-1
+                      0 garbus-2
+                    0 pick-up-2, pickup-1, pikap-2
+                    0 kombivan-1
+                    0 crossover-1
+                    0 hardtop-1
+                    0 coupé-3
+                    3 SUV-1, samochód sportowo-użytkowy-1
+                      VISITED 0 grand vitara-1
+                      VISITED 0 pajero-2
+                      0 touareg-2
+                    4 liftback-2
+                      0 mondeo-2
+                      0 vectra-1
+                      VISITED 0 octavia-1
+                      VISITED 0 avensis-2
+                    1 minivan-1, miniwan-1
+                      0 scenic-1
+                    0 kombi-2, kombik-1, kombiak-1
+                    1 sedan-1
+                      0 leganza-2
+                    1 hatchback-1
+                      0 matiz-2
+                    1 limuzyna-1, limka-1
+                      0 krążownik szos-1, krążownik-2
+                    2 kabriolet-1, kabrio-1
+                      VISITED 0 roadster-1
+                      0 faeton-4
+                  0 kadet-2
+                  0 tico-2
+                  0 laguna-2
+                  0 saab-1
+                  0 rolls-royce-2, rolls-1, royce-1
+                  0 focus-1
+                  0 daimler-2
+                  0 logan-1
+                  0 chrysler-1
+                  0 chevrolet-1, chevro-1
+                  0 buick-2
+                  0 alfa romeo-2, alfa-3
+                  0 bentley-2
+                  0 polo-4
+                  0 clio-1
+                  18 japończyk-3
+                    0 lexus-2
+                    0 mazda-2
+                    0 subaru-1
+                    2 suzuki-1
+                      0 grand vitara-1
+                      0 vitara-1
+                    2 mitsubishi-1
+                      0 pajero-2
+                      VISITED 0 lancer-1
+                    4 toyota-2
+                      0 yaris-1
+                      0 camry-2
+                      0 avensis-2
+                      0 corolla-2
+                    2 nissan-1
+                      0 micra-1
+                      0 stanza-3
+                    0 honda-2
+                  0 escort-2
+                  0 panda-2
+                  0 łada-1
+                  0 lanos-1
+                  0 bmw-1, beemwica-1, beemka-1, beema-1
+                  0 audi-1, audik-1, audica-1
+                  0 twingo-1
+                  0 dodge-2
+                  0 cinquecento-1
+                  0 wołga-1
+                  0 cadillac-2
+                  0 wartburg-2
+                  0 plymouth-2
+                  0 pyrkawka-2
+                  0 auto salonowe-1, samochód salonowy-1
+                  0 auto subkompaktowe-1, samochód subkompaktowy-1, subkompakt-1
+                  6 samochód sportowy-1
+                    0 porsche-1, porszak-1
+                    0 bugatti-1
+                    0 ferrari-1
+                    0 lamborghini-2, lambo-1
+                    0 roadster-1
+                    0 mclaren-2
+                  0 samochód bezpieczeństwa-1
+                  0 samochód tuningowany-1
+                  5 auto kompaktowe-1, samochód kompaktowy-1, kompakt-5
+                    0 nexia-1
+                    0 megane-2, meganka-1
+                    0 astra-1
+                    VISITED 0 octavia-1
+                    0 lancer-1
+                  2 mikrosamochód-2
+                    0 smart-1
+                    0 meleks-1, melex-1
+                  1 samochód parowy-1, samochód z silnikiem parowym-1
+                    VISITED 0 stanley-1
+                  0 xsara-1
+                  0 xantia-1
+                  0 punto-1, punciak-1
+                  0 nubira-1
+                  0 fiesta-2
+                  1 fura-4, bryka-3
+                    0 gablota-2
+                  0 maybach-1
+                  0 pontiac-1, pontiak-1
+                  0 humber-1
+                  0 aston martin-2, aston-1
+                  0 corsa-1
+                  0 lancia-1
+                  2 seat-1
+                    0 ibiza-1
+                    0 cordoba-2
+                  0 bryczka-2
+                  2 automobil-1
+                    0 ford T-1
+                    0 stanley-1
+                  0 duży fiat-1
+                  0 syrenka-2, skarpeta-2
+                  0 składak-3
+                  0 golf-1
+                  3 skoda-1
+                    0 felicia-2
+                    0 fabia-1
+                    0 octavia-1
+                  0 polonez-1, poldek-1
+                  0 jaguar-1
+                  2 taksówka-1, taxi-1
+                    0 bagażówka-1, taksówka bagażowa-1
+                    0 radio taxi-3
+                3 pogotowie-3, karetka-1, ambulans-1, sanitarka-1
+                  0 karetka ogólnolekarska-1
+                  0 karetka szpitalna-1
+                  0 erka-1
+                16 samochód ciężarowy-1, ciężarówka-1, ciężarówa-1
+                  0 scania-1
+                  0 jelcz-2
+                  0 wywrotka-3
+                  0 wypadówka-1
+                  0 półtonówka-1
+                  0 piaskarka-1
+                  0 beczkowóz-1
+                  0 pociąg drogowy-1
+                  0 wóz meblowy-1, meblowóz-1
+                  0 furgon-1
+                  0 chłodnia-2
+                  0 tir-1
+                  0 śmieciarka-1
+                  1 cysterna-1, autocysterna-1
+                    0 szambiarka-1
+                  0 betoniarka-2, betonowóz-1
+                19 autobus-1
+                  0 audiobus-1
+                  0 bus-3, minibus-1
+                  0 ikarus-1
+                  0 scania-2
+                  0 neoplan-1
+                  1 autobus szkolny-1
+                    0 gimbus-1
+                  0 czerwoniak-2
+                  0 solaris-1
+                  0 jelcz-3
+                  0 autosan-2
+                  0 mobilny punkt krwiodawstwa-1, ruchomy punkt krwiodawstwa-1
+                  0 piętrus-2
+                  0 autobus miejski-1
+                  0 żyrobus-1, girobus-1
+                  0 greyhound-2
+                  0 pks-2, pekaes-1
+                  0 przegubowiec-1, autobus członowy-1, autobus przegubowy-1
+                  0 autokar-1
+              11 motor-1, motocykl-1
+                0 enduro-2
+                0 motocykl kabinowy-1
+                0 trajka-1
+                0 chopper-1
+                0 wuefemka-1
+                0 honda-3
+                0 pyrkawka-1
+                0 motocykl terenowy-1
+                0 harley-1
+                0 cruiser-1
+                0 motorynka-1
+            0 zgarniarka-1
+            2 układarka-1
+              0 układarka kostki brukowej-1
+              VISITED 0 układarka rur-1
+            0 ubijarka-1
+            2 walec-2, wał-2
+              0 walec statyczny-1
+              0 walec wibracyjny-1
+            0 równiarka-1
+            0 zgniatarka-1
+            0 trójkołowiec-1
+            3 ładowarka-1
+              0 ładownik-4
+              0 ładowacz-1
+              0 koparko-ładowarka-1
+            0 wózek widłowy-1, sztaplarka-1
+            22 ciągnik-1
+              6 ciągnik samochodowy-1, ciągnik drogowy-1
+                3 ciągnik budowlany-1
+                  2 wozidło-1, wozidło technologiczne-1
+                    0 wozidło przegubowe-1
+                    0 wozidło sztywnoramowe-1
+                0 ciągnik balastowy-1
+                0 ciągnik siodłowy-1
+              0 ciągnik przegubowy-1
+              4 ciągnik leśny-1
+                0 harwarder-1
+                0 klembank-1
+                0 forwarder-1
+                0 skider-1, skidder-2
+              0 ciągnik półgąsienicowy-1, ciągnik kołowo-gąsienicowy-1
+              VISITED 2 ciągnik gąsienicowy-1
+              3 ciągnik kołowy-1
+                2 traktor-1, ciągnik rolniczy-1
+                  0 nośnik narzędzi-1
+                  0 ciągówka-1
+              1 spychacz-1, spycharka-1
+                VISITED 0 buldożer-1
+            2 kombajn-1, kombajn rolniczy-1
+              0 kombajn ziemniaczany-1
+              0 kombajn zbożowy-1
+            22 *pojazd mechaniczny niekołowy-1
+              19 pojazd gąsienicowy-1
+                VISITED 0 łazik-3
+                VISITED 0 meblowóz-2
+                2 ciągnik gąsienicowy-1
+                  0 układarka rur-1
+                  0 buldożer-1
+                0 pojazd półgąsienicowy-1
+                0 śniegołaz-1
+                0 ratrak-1
+                0 zrywarka-1
+                VISITED 9 czołg-1, tank-1
+              0 skuter śnieżny-1
+              0 poduszkowiec-1
+    2 *fikcyjny środek lokomocji-1
+      0 śmigacz-2
+      0 gwiazdolot-1
+    0 bibliobus-1
+    0 podwoda-1
+    0 rower wodny-1
+    1 kolej linowa-1, kolejka linowa-1
+      0 kolejka górska-1
+    331 statek-1, statek wodny-1
+      2 wielokadłubowiec-1
+        0 trimaran-1, trzykadłubowiec-1
+        0 katamaran-1, dwukadłubowiec-1
+      0 rotorowiec-1
+      0 wicina-2
+      2 kuter-2
+        VISITED 1 kuter rybacki-1
+      0 spalinowiec-1
+      0 sejner-1
+      0 koza-10
+      0 silnikowiec-1
+      0 statek wycieczkowy-1
+      2 statek portowy-1
+        0 bunkrowiec-1, bunkierka-1
+        0 barkas-1
+      1 statek siostrzany-1
+        VISITED 0 okręt siostrzany-1
+      1 trójpokładowiec-1
+        VISITED 0 trójpokładowiec-2
+      1 statek szkolny-1
+        VISITED 0 okręt szkolny-1
+      0 statek meteorologiczny-1
+      8 statek wiosłowy-1
+        0 afrakta-1
+        VISITED 6 statek wiosłowo-żaglowy-1, żaglowiosłowiec-1
+      0 statek pocztowy-1
+      0 statek pożarniczy-1
+      0 łamacz blokady-1, przerywacz blokady-1
+      1 statek szpitalny-1
+        VISITED 0 okręt szpitalny-1
+      0 hulk-2
+      28 statek handlowy-1
+        VISITED 0 East Indiaman-1
+        VISITED 0 fluita-1, flueta-1
+        VISITED 0 koga-1, kogga-1
+        VISITED 0 hulk-1, holk-1
+        23 frachtowiec-1, towarowiec-1, transportowiec-1, statek towarowy-1
+          0 zbożowiec-1
+          0 liniowiec-4
+          0 statek niewolniczy-1, statek do przewozu niewolników-1, statek do transportu niewolników-1
+          0 statek do transportu zwierząt-1
+          0 statek typu Liberty-1
+          0 bananowiec-3
+          1 kontenerowiec-2
+            0 semikontenerowiec-1, półkontenerowiec-1
+          VISITED 0 aak-1
+          VISITED 0 nef-1
+          0 drewnowiec-1
+          0 chemikaliowiec-1
+          0 chłodnicowiec-1, chłodniowiec-1
+          VISITED 0 knara-1, knaar-1, knarr-1, knorr-1
+          0 siarkowiec-1
+          1 masowiec-1
+            0 rudowęglowiec-1
+          0 drobnicowiec-1
+          4 zbiornikowiec-1, tankowiec-1
+            0 ropowiec-1
+            0 wodownik-1
+            0 gazowiec-1
+            0 supertankowiec-1
+      0 samochodowiec-1
+      0 stutysięcznik-3
+      0 wycieczkowiec-1
+      4 statek rzeczny-1
+        0 dubas-1
+        VISITED 0 aak-1
+        0 szkuta-2
+        0 berlinka-1
+      0 galar-1
+      0 byrding-1
+      0 pięciotysięcznik-1
+      0 atomowiec-1, statek o napędzie atomowym-1, statek z napędem atomowym-1, okręt o napędzie atomowym-1, okręt z napędem atomowym-1, okręt atomowy-1
+      0 paragrafowiec-1, statek paragrafowy-1
+      1 kabotażowiec-1
+        0 guffa-1, barkas-4
+      0 brander-1
+      0 motorowiec-1, statek motorowy-1
+      13 *statek podwodny-1
+        0 podwodny statek badawczy-1
+        0 miniaturowa łódź podwodna-1
+        0 łódź podwodna-1
+        1 statek głębinowy-1
+          0 batyskaf-1
+        VISITED 7 okręt podwodny-1
+      7 statek rybacki-1
+        0 krewetkowiec-1
+        VISITED 0 superkuter-1
+        0 tuńczykowiec-1
+        0 statek przetwórnia-1
+        0 lugrotrawler-1
+        0 lugier-2, luger-2, dryfter-1
+        0 trawler-1, trauler-1
+      0 wielorybnik-2, statek wielorybniczy-1
+      0 lodołamacz-1, łamacz lodu-1
+      1 tender-2, statek towarzyszący-1
+        0 łódź towarzysząca-1
+      0 arka-2
+      0 statek kablowy-1, kablowiec-1
+      1 statek kołowy-1, kołowiec-1
+        VISITED 0 tylnokołowiec-1
+      0 latarniowiec-1
+      0 statek matka-1
+      0 śrubowiec-1
+      0 tramwaj wodny-1, hydrobus-1
+      VISITED 1 liniowiec-1
+      0 flagowiec-1
+      0 wodolot-1
+      3 okręt-2
+        0 okręt-muzeum-1
+        1 liniowiec-1
+          0 transatlantyk-1
+      60 żaglowiec-1, statek żaglowy-1
+        0 fregata-5
+        0 rejowiec-1
+        0 kuff-2
+        0 guffa-2
+        0 krajer-1
+        0 dau-1, dhow-1
+        0 windjammer-1
+        0 East Indiaman-1
+        6 statek wiosłowo-żaglowy-1, żaglowiosłowiec-1
+          0 szebeka-1
+          VISITED 4 galera-1
+        VISITED 0 żaglowiec liniowy-1
+        0 feluka-1
+        0 szkuta-1
+        0 galeas-1
+        0 tartana-1
+        0 barkentyna-1, szkunerbark-1
+        0 lugier-1, luger-1
+        19 masztowiec-1
+          0 czteromasztowiec-1
+          4 trójmasztowiec-1, trzymasztowiec-1
+            0 fluita-1, flueta-1
+            0 karaka-1, karraka-1
+            VISITED 0 galeon-1, galeona-1
+            0 bark-1
+          8 jednomasztowiec-1
+            0 aak-1
+            0 nef-1
+            0 knara-1, knaar-1, knarr-1, knorr-1
+            VISITED 3 langskip-1
+            VISITED 0 kuter-1
+          3 dwumasztowiec-1
+            VISITED 0 jol-1
+            0 brygantyna-1, szkunerbryg-1
+            0 bryg-1
+        0 pinka-1, pinas-1, pinasa-1
+        0 korweta-2, korweta żaglowa-1
+        0 kliper-1
+        0 dżonka-1
+        0 koga-1, kogga-1
+        0 hulk-1, holk-1
+        0 karawela-1
+        2 szkuner-1, szkuna-1
+          0 jol-1
+          0 kecz-1
+        VISITED 8 żaglówka-1, łódź żaglowa-1
+      6 prom-1
+        0 prom śródlądowy-1
+        0 prom pasażerski-1
+        2 prom towarowo-pasażerski-1, prom pasażersko-towarowy-1
+          0 prom kombinowany-1, prom typu combi-1
+          0 prom pasażersko-samochodowy-1
+        0 prom morski-1
+      3 parowiec-1, parostatek-1, parowczyk-1
+        VISITED 0 taranowiec-1
+        0 tylnokołowiec-1
+        0 bocznokołowiec-1
+      1 holownik-1
+        0 pchacz-1
+      3 barka-1
+        0 barka desantowa-1
+        0 szalanda-1, błotniarka-3
+        0 lichtuga-1
+      0 wrak-1
+      0 łajba-1
+      69 łódź-2
+        0 pławica-2
+        0 pychówka-1
+        0 welbat-1, welbot-1, walbat-1
+        0 łódź parowa-1
+        1 łódź policyjna-1
+          VISITED 0 motorówka policyjna-1
+        3 łódź regatowa-1
+          VISITED 1 jacht regatowy-1
+          VISITED 0 ósemka-9
+        4 łódź pełnomorska-1
+          3 szalupa-1, szalupa okrętowa-1
+            0 szalupa ratunkowa-1
+            VISITED 0 jola-1
+            VISITED 0 dezetka-1, dziesiątka-7, Dezeta-1, DeZeta-2, DZ-1, dezeta-3
+        VISITED 5 łódź wiosłowo-żaglowa-1
+        0 stara krypa-1, krypa-3
+        0 łódź płaskodenna-1
+        0 gig-1
+        2 łódź okrętowa-1
+          VISITED 0 barkas-3
+          VISITED 0 jol-2
+        0 łódź pilota-1
+        4 łódź rybacka-1
+          VISITED 0 barkas-5
+          1 kuter rybacki-1
+            0 superkuter-1
+          VISITED 0 barkas-2
+        22 łódź wiosłowa-1
+          0 canoe-1, kanu-2
+          5 łódź wiosłowo-żaglowa-1
+            0 bajdak-1, bajdarka-1
+            0 umiak-1
+            0 czajka-2
+            0 barkas-3
+            0 dezetka-1, dziesiątka-7, Dezeta-1, DeZeta-2, DZ-1, dezeta-3
+          0 skull-1, skul-1
+          0 bąk-2, bączek-3
+          VISITED 0 debel-2
+          0 jola-1
+          0 kanadyjka-1, kanu-1, kanoe-1
+          0 skiff-1, skif-1
+          0 jol-2
+          0 sampan-1
+          0 ósemka-9
+          3 czółno-1
+            0 dłubanka-1
+            0 krypa-2
+            0 piroga-1
+          1 kajak-1
+            0 składak-4
+        0 krypa-1
+        1 tratwa-1
+          VISITED 0 balsa-3
+        0 ponton-1
+        9 jacht-1
+          0 quadramaran-1
+          1 jacht regatowy-1
+            0 monotyp-3
+          2 jacht żaglowy-1, SY-1, s.y.-1, s/y-1
+            VISITED 0 jola-2, jolka-4
+            0 kuter-1
+          0 jachcik-1
+          VISITED 0 słonka-2
+          0 bojer-1
+        0 gondola-1
+        8 żaglówka-1, łódź żaglowa-1
+          0 bat-5
+          0 feluk-1
+          0 debel-2
+          0 jola-2, jolka-4
+          0 ket-1
+          0 barkas-2
+          1 slup-1, szlup-1
+            0 słonka-2
+        4 motorówka-1, łódź motorowa-1
+          0 barkas-5
+          0 motorówka policyjna-1
+          0 skuter wodny-1
+          0 ślizgacz-1, ślizgowiec-2, gliser-1
+        3 łódka-2, łódeczka-1, łupina-3, łupinka-1
+          0 kaik-1
+          0 balsa-3
+          0 czwórka-11, czterowiosłówka-1
+      109 okręt-1, okręt wojenny-1
+        1 baza pływająca-1, okręt-baza-2, tender-3
+          VISITED 0 okręt-baza wodnosamolotów-1, tender wodnosamolotów-1
+        11 okręt lotniczy-1
+          0 okręt-baza wodnosamolotów-1, tender wodnosamolotów-1
+          VISITED 0 krążownik lotniczy-1
+          VISITED 0 okręt balonowy-1, balonowiec-1
+          1 śmigłowcowiec-1, helikopterowiec-1, lotniskowiec śmigłowcowy-1
+            VISITED 0 śmigłowcowiec desantowy-1
+          VISITED 0 podwodny lotniskowiec-1
+          VISITED 4 lotniskowiec-1
+        0 taranowiec-1
+        14 okręt artyleryjski-1
+          VISITED 1 monitor-1
+          VISITED 1 kanonierka-1, działowiec-1
+          9 okręt liniowy-1
+            0 żaglowiec liniowy-1
+            1 krążownik liniowy-1
+              0 pancernik szybki-1
+            5 pancernik-1
+              0 superpancernik-1
+              0 przeddrednot-1, predrednot-1
+              VISITED 0 pancerniko-lotniskowiec-1
+              0 drednot-1
+              0 pancernik obrony wybrzeża-1
+        0 czterorzędowiec-1
+        0 moździerzowiec-2
+        43 okręt nawodny-1
+          1 dozorowiec-1, okręt dozorowy-2, okręt dozoru-1
+            VISITED 0 patrolowiec-1, łódź patrolowa-1, kuter patrolowy-1, dozorowiec pogranicza-1
+          0 okręt balonowy-1, balonowiec-1
+          6 kuter-3
+            0 kuter zwalczania okrętów podwodnych-1, kuter przeciwpodwodny-1
+            0 kuter uzbrojony-1
+            0 kuter trałowy-1
+            0 kuter rakietowy-1
+            0 kuter torpedowy-1, ścigacz torpedowy-1
+            0 patrolowiec-1, łódź patrolowa-1, kuter patrolowy-1, dozorowiec pogranicza-1
+          7 statek transportowy-1, okręt transportowy-1, transportowiec-3
+            0 statek pełnomorski-1
+            0 kufa-4
+            0 owocowiec-1
+            0 pojazdowiec-1, rorowiec-1, ro-ro-1
+            0 wrakowiec-1
+            0 rudowiec-1
+            0 barkowiec-1
+          1 okręt desantowy-1
+            0 śmigłowcowiec desantowy-1
+          0 okręt szpitalny-1
+          0 awizo-1
+          0 torpedowiec-1
+          1 monitor-1
+            0 monitor rzeczny-1
+          1 kanonierka-1, działowiec-1
+            0 kanonierka rzeczna-1
+          1 niszczyciel-1, kontrtorpedowiec-1
+            0 lider-3
+          4 lotniskowiec-1
+            0 pancerniko-lotniskowiec-1
+            0 lekki lotniskowiec-1
+            0 lotniskowiec floty-1
+            VISITED 0 lotniskowiec eskortowy-1
+          9 krążownik-1
+            0 krążownik lotniczy-1
+            0 krążownik przeciwlotniczy-1
+            0 krążownik rakietowy-1
+            0 krążownik pancerny-1
+            VISITED 0 krążownik minowy-1
+            0 krążownik pancernopokładowy-1
+            0 lekki krążownik-1
+            1 ciężki krążownik-1, krążownik traktatowy-1
+              0 pancernik kieszonkowy-1
+        0 trójpokładowiec-2
+        0 statek kaperski-1, okręt kaperski-1
+        1 statek piracki-1, okręt piracki-1
+          0 statek korsarski-1, okręt korsarski-1
+        0 okręt siostrzany-1
+        0 okręt szkolny-1
+        6 okręt eskortowy-1
+          0 slup wojenny-1
+          0 fregata rakietowa-1, fregata-4
+          0 lotniskowiec eskortowy-1
+          2 eskortowiec-1
+            0 fregata-3
+            0 korweta-1
+        0 rakietowiec-2, okręt rakietowy-1
+        1 okręt pomocniczy-1
+          0 okręt-baza-1
+        0 galeon-1, galeona-1
+        10 okręt żaglowo-wiosłowy-1
+          0 liburna-1
+          3 langskip-1
+            0 drakkar-1, drakar-1
+            0 skeid-1
+            0 snekkar-1, sneka-1
+          0 dromona-1, dromon-1
+          0 galeas-2
+          2 okręt trójrzędowy-1, trójrzędowiec-1
+            0 triera-1, tryrema-1
+            0 trirema-1
+        0 trałowiec-1
+        0 ścigacz-1
+        3 stawiacz min-1, stawiacz-1
+          VISITED 0 podwodny stawiacz min-1
+          0 minowiec-1
+          0 krążownik minowy-1
+        4 galera-1
+          0 monera-1
+          0 kapitana-1
+          0 birema-1, diera-1
+          0 galeota-1, galiota-1
+        0 okręt flagowy-1
+        7 okręt podwodny-1
+          0 krążownik podwodny-1
+          0 U-Boot-1
+          0 podwodny lotniskowiec-1
+          0 podwodny stawiacz min-1
+          0 myśliwski okręt podwodny-1
+          0 okręt podwodny o napędzie atomowym-1, okręt podwodny z napędem atomowym-1
+          0 okręt podwodny przenoszący pociski balistyczne-1
+        2 fregata-1
+          0 fregata żaglowo-parowa-1
+          0 fregata żaglowa-1
+  0 środek przekazu-1
+  22 medium-1, nośnik-2, wehikuł-2, przekaźnik-2
+    1 multimedia-1
+      0 multimedia interaktywne-1, bogate media-1
+    19 media-2, czwarta władza-1, mass media-1, publikatory-1, środki masowego przekazu-1, mass-media-1
+      0 medium społecznościowe-1
+      2 radio-1, rozgłośnia-1, radiostacja-2, rozgłośnia radiowa-1, fale eteru-1
+        0 radio internetowe-1
+        0 radiowęzeł-1
+      5 telewizja-1, TV-4, tv-2, mały ekran-2, srebrny ekran-1, szklany ekran-2, jedenasta muza-1
+        0 telewizja repertuarowa-1
+        0 sieć kablowa-1
+        0 satelita-6, satka-1
+        0 telewizja internetowa-2
+        0 telewizja kablowa-2
+      7 prasa-2
+        0 propagandówka-1
+        0 prasa bulwarowa-1
+        0 prasa brukowa-1
+        0 prasa kolorowa-1
+        0 gadzinówka-1, prasa gadzinowa-1, gazeta gadzinowa-1, pismo gadzinowe-1
+        1 bibuła-2
+          0 samizdat-1
+      0 internet-1, sieć-3, net-1, WWW-1
+  4 dowód-3
+    0 przeciwdowód-1
+    0 dowód poszlakowy-1
+    1 dowód rzeczowy-1
+      0 corpus delicti-1
+  2152 narzędzie-1
+    0 łańcuch mierniczy-1
+    0 pistolet-4
+    0 multitool-1
+    0 młotowiertarka-1
+    0 ostrze trzoneczkowate-1
+    0 ostrze liściowate-1
+    0 drapacz-4
+    0 rylec-3
+    0 tylczak łukowy-1, tylczak-2
+    0 rozcinacz-2
+    0 spitownica-1
+    4 punkt asekuracyjny-1
+      0 śruba lodowa-1
+      0 ring-2
+      0 spit-1, nit-4
+      0 hak-5
+    0 wypychacz-1
+    0 przesuwnik-1
+    0 przerabiacz-2
+    0 przepychaczka-1
+    0 wyciągacz-1
+    0 marspikiel-1, marszpikiel-1
+    0 wybijacz-3
+    0 wykrawacz-2
+    0 szpryca-4
+    0 wybieracz-2
+    0 przecinaczka-1
+    0 zatapiacz pływaka-1
+    5 *narzędzie introligatorskie-1
+      0 agat-2
+      0 binda-3
+      VISITED 2 wykrojnik-1, wykrojnica-1
+    0 gwoździarka-1
+    0 klucz-11
+    0 bębenek-4
+    1 oścień-2
+      0 ankus-1
+    1 widełki-2
+      VISITED 0 oścień-1, ość-2
+    1 zaciskacz-1
+      VISITED 0 plombownica-1
+    0 ośnik-1
+    0 ugniatarka-1, gniotownik-1
+    1 narzędzie zbrodni-1
+      0 gazrurka-1
+    0 ciągadło-1
+    0 przekłuwacz-2
+    0 przekłuwacz-1
+    0 kręciołek-1
+    3 elektronarzędzie-1
+      0 wkrętarka-1
+      0 rozdrabiarka-1
+      0 opalarka-1
+    0 wałek-1
+    1 ostrzałka-1
+      0 temperówka-1
+    0 kleszczka-1, iglica-1, igła-2
+    0 odciągacz-2
+    2 nożyce-1
+      0 degażówki-1
+      VISITED 0 kostotom-1
+    0 cechownica-1
+    0 skrobacz-1
+    50 *narzędzie do łowienia-1
+      0 wypychacz-4
+      0 bodor-1, bodarz-1
+      0 obłęk-2
+      0 sadz-1
+      0 sznur haczykowy-1
+      0 jasło-1
+      0 takla-1
+      0 podbierak-1, kasar-1
+      0 osęka-1, osęk-1
+      0 węda-1
+      VISITED 29 sieć rybacka-1
+      0 oścień-1, ość-2
+      0 harpun-1
+      7 wędka-1
+        0 tonkin-2
+        0 wędka muchowa-1, muchówka-2
+        0 odległościówka-1
+        0 wędka podlodowa-1
+        0 bat-2
+        0 gruntówka-1
+        0 spinning-1, wędka spinningowa-1, spinningówka-1
+    0 brodnia-1, brodnik-1
+    0 punktak-1, kerner-1
+    0 liściak-1
+    0 kotewka-2
+    0 eolit-1
+    2 wzornik-1
+      0 kopiał-1
+      0 grzebień-7
+    24 *narzędzie do czyszczenia-1
+      0 pilśniak-2
+      0 skrobaczka-1, skrobka-1, skrobak-1
+      0 czyściwo-1
+      0 pumeks-1
+      2 przepychacz-1
+        0 wycior-1
+        0 przetyczka-1
+      0 mop-1
+      0 trzepaczka-1
+      2 szczoteczka-1
+        1 szczoteczka do zębów-1
+          0 szczoteczka elektryczna-1, elektryczna szczoteczka do zębów-1
+      4 miotła-1
+        0 ulicówka-2, ulicznica-2
+        0 tłumica-1
+        0 pomiotło-2
+        VISITED 0 drapak-3
+      5 szczotka-1
+        0 czochradło-1
+        0 szczotka ryżowa-1
+        0 zmiotka-1
+        0 drapak-3
+        0 zgrzebło-3
+      1 ścierka-1
+        0 pomywak-1
+    0 zgrzebło-1
+    22 narzędzie tortur-1
+      0 kluba-1
+      0 koło-5, rota-2, kołowrót-2
+      0 żelazna dziewica-1, dziewica norymberska-1
+      0 ława tortur-1
+      0 widełki heretyków-1
+      0 maska wstydu-1
+      0 madejowe łoże-1, łoże sprawiedliwości-1, łoże tortur-1
+      0 krzyż modlitewny-1
+      0 krzesło inkwizytorskie-1
+      0 kołyska Judasza-1
+      VISITED 0 korbacz-1
+      VISITED 0 knut-1
+      0 klatka błaznów-1
+      VISITED 0 hiszpańskie buty-1
+      0 gruszka-4
+      0 falaka-1
+      0 byk z brązu-1, byk spiżowy-1, byk sycylijski-1, byk Falarisa-1
+      0 bocian-2, córka śmieciarza-1, kajdany Skeffingtona-1
+      0 beczka-2
+      0 zgniatacz głowy-1
+      0 zgniatacz kciuków-1
+      0 knebel-1
+    7 narzędzie do szycia-1
+      3 igła-4
+        0 cerówka-1
+        0 groszówka-2
+        0 szydło-2
+      0 drut-3
+      0 czółenko-2
+      0 naparstek-3
+    74 *narzędzie medyczne-1
+      1 test-5
+        0 test ciążowy-1
+      0 wymazówka-1
+      0 ampułka-4
+      0 turnikiet-2
+      0 skaryfikator-1
+      0 ekskawator-1, wydrążacz-1
+      0 plesymetr-1, pukadło-1
+      0 plombownica-1
+      VISITED 2 nóż chirurgiczny-1
+      0 maska tlenowa-1
+      0 kopystka-1
+      0 wenflon-1, venflon-1
+      0 łyżeczka chirurgiczna-1
+      0 łyżka ginekologiczna-1
+      0 kostotom-1
+      0 trójgraniec-1, trokar-1
+      0 kaniula-1
+      0 pęseta-1
+      3 żegadło-1, kauter-1
+        0 elektrokauter-1, galwanokauter-1, żegadło elektryczne-1
+        0 kriokauter-1, żegadło zamrażające-1
+        0 termokauter-1, żegadło termiczne-1
+      19 wziernik-1
+        18 endoskop-1
+          0 kolposkop-1
+          0 fiberoskop-1
+          0 artroskop-1
+          0 otoskop-1, wziernik uszny-1
+          0 skiaskop-1, retinoskop-1
+          VISITED 0 angioskop-1
+          0 gastroskop-1
+          0 torakoskop-1, wziernik opłucnowy-1
+          0 rektoskop-1
+          0 laparoskop-1
+          0 ezofagoskop-1
+          0 enteroskop-1
+          0 cystoskop-1, wziernik pęcherzykowy-1
+          1 bronchoskop-1
+            0 bronchofiberoskop-1
+          0 stroboskop-1
+          0 laryngoskop-1, wziernik krtaniowy-1
+          VISITED 0 oftalmoskop-1, wziernik oczny-1
+      0 wiertarka-2, bormaszyna-1, wiertarka dentystyczna-1, wiertarka stomatologiczna-1
+      0 trepan-1
+      0 szpatułka-1
+      2 sonda-2, zgłębnik-1
+        0 mikrosonda-1
+        0 sonda do odsysania treści żołądka-1
+      0 skrobaczka-2
+      0 lewarek-1
+      0 kroplomierz-1
+      0 kleszcze-1
+      0 klamerka-1
+      1 irygator-1
+        0 gruszka-3
+      0 igła-1
+      1 bańka-4
+        0 bańka próżniowa-1
+      1 cewnik-1, kateter-1
+        0 wkłucie centralne-1
+      0 maska-7
+      1 inhalator-1
+        0 inhalator tlenowy-1
+      0 dren-1, sączek-2
+      2 słuchawka-2
+        0 stetoskop-1
+        0 fonendoskop-1
+      3 strzykawka-1
+        0 jednorazówka-1
+        0 insulinówka-1
+        0 szpryca-1
+    1 zmywak-1
+      0 druciak-1
+    1 maselnica-1, maślnica-1, masielnica-1, maśniczka-1, maślniczka-1
+      0 kierznia-1, kierzanka-1, kierzynka-1
+    0 planet-1
+    0 zapalarka-1
+    0 młynek modlitewny-1
+    0 pinceta-1
+    0 szydełko-1
+    1 gąbka-2
+      0 myjka-2
+    6 sito-1, sitko-1
+      0 perlator-1
+      VISITED 0 zaparzaczka-1
+      0 pytel-1
+      0 arfa-1
+      0 rzeszoto-1
+      0 smok-2, kosz ssawny-1
+    7 narzędzie śmierci-1
+      0 betonowe buty-2, cementowe buty-2
+      VISITED 0 garota-1, garrota-2
+      0 krzesło elektryczne-1
+      0 komora gazowa-1
+      0 stos-3
+      0 gilotyna-1
+      0 szubienica-1
+    5 kotwica-2, kotew-2, kotwa-3
+      0 kotwica zawoźna-1, werp-1
+      0 kotwica czterołapowa-1, kotwica rybacka-1, drapak-4, kot-7, drapacz-5
+      0 kotwica grzybkowa-1
+      0 kotwica zapasowa-1
+      0 dryfkotwa-1
+    49 *narzędzie kuchenne-1
+      0 rękaw cukierniczy-1
+      0 tłuczek-3
+      0 stalka-1
+      0 rękaw-4
+      0 szpryca-3
+      1 łopatka-6
+        0 szpatułka-2
+      0 zaparzaczka-1
+      0 zaparzacz-1
+      0 tacka na kostki lodu-1, taca na kostki lodu-1
+      0 deska do krojenia-1
+      0 chochla-1
+      7 łyżka-5
+        VISITED 0 szumówka-2
+        VISITED 0 łyżka deserowa-1
+        0 drewniana łyżka-1, kopyść-1
+        0 łyżka cedzakowa-1
+        0 warząchew-1
+        VISITED 0 łyżeczka-1
+        VISITED 0 łyżka stołowa-1, duża łyżka-1
+      2 krajacz-2
+        0 jajcarnia-1
+        0 szatkownica-1
+      0 ubijaczka-1, ubijacz-1, trzepaczka kuchenna-1, trzepaczka-2
+      0 szpadka-1
+      VISITED 0 tasak-2
+      0 praska-1
+      0 dziadek do orzechów-1
+      0 wyciskacz-1
+      VISITED 0 pociask-1
+      0 stępa-1, moździerz kaszarski-1
+      0 stolnica-1
+      3 otwieracz-1
+        0 otwieracz do butelek-1
+        0 otwieracz do konserw-1
+        0 korkociąg-1
+      0 durszlak-1, cedzak-1
+      0 tarka-1
+      1 tłuczek-1
+        0 ubijak-2
+      11 sztuciec-1
+        0 łyżka deserowa-1
+        0 widelczyk-2
+        VISITED 0 nóż-2, nóż stołowy-1
+        0 plater-2
+        4 widelec-1
+          0 widelec do sałatek-1
+          0 widelec do krojenia mięsa-1, widelec do mięs-1, widelec do mięsa-1
+          0 widelec do grilla-1
+          0 widelec-2, widelec stołowy-1, widelec obiadowy-1
+        0 łyżeczka-1
+        0 łyżka stołowa-1, duża łyżka-1
+    1 grzebień-1
+      0 czochra-1, dziergaczka-1, dzierlica-1, rafa-4
+    193 *narzędzie rzemieślnicze-1
+      0 ryfla-1
+      0 pucówka-4
+      0 kamień belgijski-1, biolit-2
+      0 okrzosek-2
+      0 cierlica-1, tarlica-1
+      0 kilofek-2
+      VISITED 0 wyoblak-1, wyoblak ręczny-1
+      0 kątownica-1
+      0 podtrzymka-1
+      0 łopata-5
+      0 fileta-1, filet-4
+      0 kantak-1, obracak-1
+      0 odbijak-1
+      0 wycinak-1, wycinak rymarski-1
+      2 nacinarka-1
+        0 gwintownica-1
+        0 gwintownik-1
+      0 wygniatak-1, gniotownik-4, gwintowygniatak-1
+      0 wybijak-1
+      0 żłobkarka-1
+      0 rozbijarka-2
+      0 przeciągadło-1
+      0 międlica-1
+      0 zakuwnik-1
+      0 kurzysko-3
+      0 blichówka-1
+      0 przeciągacz-1
+      0 packa-2
+      0 retuszer-1
+      VISITED 1 kątownik-2
+      0 przebijak-1
+      0 ściernica-1
+      0 diament-4
+      0 kopytnik-2
+      0 rafa-3, przesiewacz-1
+      0 pogłębiacz-1
+      0 radełko-2
+      1 krosno-2
+        0 krosno koronkowe-1
+      0 międlarka-2
+      0 stempel-4
+      2 tłocznik-1
+        0 ciągownik-1
+        0 skręcak-1
+      0 nadstawka kowalska-1
+      0 cyklina-1, gładzica-1
+      2 wykrojnik-1, wykrojnica-1
+        0 wykrojnik introligatorski-1
+        0 dziurkownik-1
+      0 obcinak-1
+      0 toczak-1
+      VISITED 0 krajak-2
+      VISITED 0 kosa kuśnierska-1
+      1 szpilka-6, kołek-3
+        0 ćwiek-2, sztyft-2
+      0 punca-1, puncyna-1
+      1 poziomica-1, poziomnica-1, libella-1
+        0 łata murarska-1
+      1 lutownica-1, kolba lutownicza-1
+        0 trawiarka-1
+      0 osełka-1
+      0 fasa-1
+      0 prawidło-2
+      0 szydło-1
+      0 rylec-1, styl-6
+      0 przecinak-1
+      0 oskard-1
+      0 graca-1, gracka-2
+      0 wrzeciono-1
+      0 łata-3
+      VISITED 0 knyp-1
+      0 brus-2
+      1 tłuk-2
+        0 tłuk pięściowy-1, pięściak-1
+      14 hebel-1, strug-1
+        0 wrężnik-1, płytnik-1
+        0 wygładnik-1
+        0 wybiornik-1
+        0 wypustnik-1
+        0 wpustnik-1
+        0 otocznik-1, wałkownik-1
+        0 krzywak-1
+        VISITED 0 strug łąkowy-1
+        0 gładzik-1, równiacz-1
+        0 wybierak-1, wyżłabiacz-1
+        0 wręgownik-1, strug wręgowy-1
+        0 bocznik-1
+        0 kątnik-1
+        0 drapak-2
+      4 łopatka-3
+        0 szpatułka-3
+        0 szpachelka-1
+        0 szpachla-1
+        VISITED 0 kijanka-2, pralnik-1
+      0 kołowrotek-1
+      5 łopata-1
+        0 sztychówka-1
+        0 sercówka-4
+        0 rydel-1
+        0 saperka-1
+        0 szpadel-1
+      1 łom-1
+        0 obrywak-1
+      6 szczypce-1, kleszcze-6
+        0 odcinak-1
+        0 karbówka-1
+        0 kolczykownica-1
+        2 obcęgi-1, cęgi-1
+          0 cechówka-2
+          0 kombinerki-1
+      5 siekiera-1
+        0 cieślica-1
+        3 toporek-2, topór-2
+          0 krzeska-1
+          0 ciesak-1, topór ciesielski-1
+          0 barta-1
+      2 pilnik-1
+        0 iglak-2, pilnik iglicowy-1
+        0 raszpla-3, tarnik-1
+      8 młot-1
+        0 łuparka-1, łupiarka-2, kostkarka-3
+        0 podłużnik-3
+        0 klepacz-2
+        0 cecha-4, cechówka-1
+        0 klepak-4
+        0 pobijak-1
+        0 ciosak-1
+        0 rębak-1
+      2 kopyto-2
+        0 kopyto drewniane-1
+        0 kopyto metalowe-1
+      1 kilof-1
+        0 szpicak-1
+      0 kielnia-1
+      10 imadło-1
+        0 imadło obrotowe-1
+        0 imadło jubilerskie-1
+        0 imadło kątowe-1
+        0 imadło maszynowe-1
+        0 imadło ręczne-1
+        0 imadło ślusarskie-1
+        0 imadło stolarskie-1
+        0 hiszpańskie buty-1
+        1 imadełko-1
+          0 chwytnik-3
+      0 śrubokręt-1, wkrętak-1
+      3 dłuto-1
+        0 dziubak-1
+        0 piesznia-1
+        0 żłobnik-1
+      1 świder-1
+        0 dybel-1
+      1 wiertarka-1, bormaszyna-2
+        0 furkadło-1
+      1 młotek-1
+        0 kirka-1
+      22 piła-1
+        0 obrzynarka-1
+        6 piła mechaniczna-1
+          0 wyrzynarka-1
+          0 pilarka szablasta-1
+          0 piła łańcuchowa-1
+          2 piła tarczowa-1
+            1 piła diamentowa-1
+              0 kątówka-2, szlifierka kątowa-1
+        13 piła ręczna-1
+          0 brzeszczot-3
+          0 pasownica-1
+          0 narżnica-1, zarzynaczka-1
+          0 grzbietnica-1
+          0 płatnica-1, rozpłatnica-1, fuchszwanc-1
+          0 włośnica-3, laubzega-1, piła włosowa-1
+          0 krzywica-2
+          0 odsadnica-1
+          0 krawężnica-1
+          0 ramówka-2, klobzega-1
+          0 czopnica-1, czopownica-1, piła czopowa-1
+          0 otwornica-2
+          0 piłka-3
+      12 klucz-2
+        0 klucz płaski-1
+        0 klucz obracany-1
+        3 klucz nastawny-1
+          0 klucz szwedzki-1
+          0 żabka-4
+          0 klucz francuski-1, francuz-4
+        0 imbus-1
+        0 klucz oczkowy-1
+        0 klucz wiertniczy-1
+        0 klucz uniwersalny-1
+        0 klucz dynamometryczny-1
+        0 klucz nasadowy-1
+    3 narzędzie malarza-1
+      0 wiszer-1, wiszor-1
+      0 paleta-2
+      0 sztaluga-1
+    49 *narzędzie rolnicze-1
+      0 płużyca-1
+      0 płużek-2
+      0 kilofek-1, kilof ogrodniczy-1
+      0 wielorak-1
+      0 soszka-1
+      0 sośnik-1
+      0 podrzynacz-1
+      0 trzósło-1
+      0 skaryfikator-2, wertykulator-1
+      0 grabiarka-1, grabie-2
+      0 aerator-2
+      0 spulchniacz-2
+      0 wyrywacz-2
+      0 obsypnik-1
+      0 pogłębiacz-2
+      0 radełko-1
+      0 strug łąkowy-1
+      0 strzemiączko-3
+      0 opielacz-1, pielnik-1, wypielacz-1
+      0 dołownik-1
+      0 ekstyrpator-1
+      0 kultywator-1, drapacz-1
+      0 włóka-2
+      0 radło-1
+      3 brona-1
+        0 chwastownik-1
+        0 brona talerzowa-1, talerzówka-1
+        0 sprężynówka-1
+      0 kolczatka-2, brona kolczasta-1
+      0 pług koleśny-1
+      0 socha-1
+      0 sekator-1
+      2 motyka-1
+        0 kopaczka-1
+        0 graca-2, gracka-1
+      0 cepy-1, cep-2
+      1 widły-1
+        0 gable-1
+      1 sierp-1
+        0 sierpik-3
+      0 kosa-2
+      0 grabie-1
+      6 pług-1
+        0 ruchadło-1
+        0 pług trójskibowy-1
+        0 pług dwuskibowy-1
+        0 pług jednoskibowy-1
+        0 pług talerzowy-1
+        0 pług wieloskibowy-1
+    8 pędzel-1
+      0 kwacz-1
+      0 ławkowiec-1
+      0 pędzel płaski kątowy-1
+      0 pędzel płaski-1
+      0 pędzel z włosia-1
+      0 pędzel okrągły-1
+      0 szczeciniak-1
+      0 pędzel japoński-1
+    2 klucz-1
+      0 pasówka-1
+      0 wytrych-1
+    2 szufla-1
+      0 kociuba-1
+      0 śmietniczka-1, szufelka-1
+    2 pogrzebacz-1
+      0 ożóg-1
+      0 pociask-1
+    0 klin-1
+    2 czekan-2
+      0 dziaba-1, dziabka-1
+      0 rąbanica-1
+    0 bosak-1, osęka-2
+    21 narzędzie wymierzania kary-1, narzędzie kary-1
+      0 kuna-3
+      0 garota-1, garrota-2
+      0 pyta-1
+      1 dyby-1
+        0 gąsior-5
+      0 pręgierz-1
+      0 kajdanki-1
+      12 bat-1, bicz-1
+        0 palcat-1
+        0 dyscyplina-4
+        0 harapnik-1
+        0 basałyk-3
+        0 batog-1, bizun-1, bizon-2
+        0 korbacz-1
+        0 knut-1
+        0 flagrum-1
+        0 harap-1
+        0 pejcz-1, kańczug-1, nahaj-1, nahajka-1, szpicruta-1
+        0 bykowiec-1
+        0 kozia nóżka-1
+      0 kajdany-1, łańcuchy-1, okowy-2
+    0 kreda-3
+    4 gaśnica-1
+      0 gaśnica halonowa-1
+      0 gaśnica proszkowa-1
+      0 gaśnica śniegowa-1
+      0 gaśnica pianowa-1
+    2 klawiatura-1
+      0 klawiatura ekranowa-1
+      0 manuał-1
+    1534 przyrząd-1
+      2 armatka-2
+        0 armatka śnieżna-1
+        0 armatka wodna-1, wodomiotacz-1
+      0 kontaktron-1
+      0 pion żyroskopowy-1
+      0 rak-11
+      0 szczudło-2
+      1 rozgałęźnik-2, rozgałęziacz-2, rozwidlacz-2
+        VISITED 0 rozdzielacz elektryczny-1, rozgałęźnik-1, rozgałęziacz-1, odgałęziacz-1, rozwidlacz-1, złodziejka-2
+      0 rylec-2
+      0 rozszerzacz-1
+      0 rozciągacz-1
+      0 rozbrajacz-1
+      0 maillon-1
+      0 ekspres-6
+      0 karabinek-3
+      0 jebadełko-1, ekstraktor-1, klucz do kostek-1
+      4 przyrząd asekuracyjny-1
+        0 płytka przewodnicka-1
+        0 kubek-6
+        0 płytka Stichta-1
+        0 ósemka-15
+      0 filcak-1
+      0 ekstender-1
+      0 nastawnica-2
+      0 macak-1
+      0 wydmuchiwacz-3
+      0 podkurzacz-1
+      0 odsuwacz-1
+      0 odmulacz-1
+      0 ścinacz-2
+      0 mgielnica-1
+      0 stabilitron-1
+      0 metkownica-1
+      0 zacisk-4, cybant-1
+      0 podtrzymywacz-1
+      0 tuta-1
+      0 trzymak-2
+      0 trzymadło-1, trzymak-1
+      0 trzepacz-1
+      0 makiwara-1
+      0 defektoskop-1
+      0 trymer-3
+      5 golarka-1, maszynka do golenia-1, maszynka-5
+        0 maszynka jednorazowa-1, golarka jednorazowa-1
+        2 golarka elektryczna-1, maszynka elektryczna-1, elektryczna maszynka do golenia-1
+          VISITED 0 trymer elektryczny-1, maszynka do strzyżenia-1
+          0 depilator-1
+        1 trymer-1
+          0 trymer elektryczny-1, maszynka do strzyżenia-1
+      0 sztuczny członek-1, sztuczny penis-1
+      0 obieraczka-1, obierałka-1
+      10 przyrząd medyczny-1
+        0 bomba kobaltowa-2
+        0 pompa infuzyjna-1
+        0 pompa insulinowa-1, pompka insulinowa-1
+        0 rozwórka-1, rozwieracz-2
+        0 oksymetr-1
+        0 optometr-1
+        VISITED 1 tonometr-1
+        0 podwieszka-1
+        0 wlewnik-1
+      31 przyrząd naukowy-1
+        VISITED 0 kratownica-4
+        1 czerpacz-3
+          VISITED 0 czerpacz Patalasa-1, czerpak Patalasa-1
+        0 magnetoskop-1
+        0 magnetograf-1
+        23 przyrząd badawczy-1
+          0 półkule magdeburskie-1
+          0 łazik-3
+          0 farinotom-1
+          0 hodoskop-1
+          18 mikroskop-1
+            0 mikroskop warsztatowy-1
+            0 mikroskop porównawczy-1
+            1 mikroskop skaningowy-1
+              0 mikroskop sił atomowych-1
+            0 mikroskop akustyczny-1
+            VISITED 6 mikroskop optyczny-1, mikroskop świetlny-1
+            5 mikroskop elektronowy-1
+              3 elektronowy mikroskop skaningowy-1
+                0 skaningowy mikroskop tunelowy-1
+                0 skaningowy mikroskop polowy-1
+                0 skaningowy mikroskop elektronowy emisyjny-1
+              0 elektronowy mikroskop transmisyjny-1
+        0 kimograf-1
+        0 urządzenie telemetryczne-1
+      0 świetlik wędkarski-1, świetlik-5
+      1 gilotynka-1
+        0 gilotynka-2
+      3 kostka-8
+        0 friend-1
+        0 rocks-1
+        0 heks-1
+      0 elektrofor-1
+      VISITED 0 mikrotom-1
+      0 tatuownica-1
+      0 tester-1
+      0 aplikator-1
+      0 packa-1, łapka-2, klapka-2, placka-1
+      2 *przyrząd meteorologiczny-1
+        VISITED 0 pyrheliometr-1, pirheliometr-1
+        0 lidar-1
+      0 grajcar-1
+      0 mikromanipulator-1
+      1 odstraszacz-1
+        0 stukawka-1
+      0 maskownica-2
+      20 *przyrząd kreślarski-1
+        0 igła rytownicza-1
+        0 rysownica-1
+        0 parabolograf-1
+        VISITED 0 przykładnica-1
+        0 rapidograf-1
+        0 spirograf-1
+        0 kółkownik-1
+        0 grafos-1
+        0 grafion-1
+        0 krzywka-2, krzywik-1
+        VISITED 0 kątomierz-1
+        0 deska kreślarska-1, blatka-1
+        0 pantograf-2
+        VISITED 0 ekierka-1, trójkąt rysunkowy-1
+        1 cyrkiel-1
+          0 zerownik-1, cyrkiel zerowy-1, nulka-2
+        VISITED 3 linijka-1
+      3 *przyrząd kosmetyczny-1
+        0 zalotka-1
+        0 pilnik-2, pilniczek-1
+        0 cążki-1, obcążki-1
+      2 chodzik-1
+        0 pchacz-2
+        0 balkonik-1
+      0 drapaczka-1
+      0 odciągacz-1, ściągaczka-2
+      0 łyżka do butów-1
+      1 sito-2
+        0 przetak-1
+      0 obcinacz-1, obcinarka-1, obcinaczka-1
+      0 bibularz-1, suszka-1
+      23 przyrząd nawigacyjny-1
+        VISITED 0 laska Jakuba-1
+        0 kursograf-1
+        0 protraktor-1
+        0 kursomierz-1
+        VISITED 0 skrętomierz-1
+        0 przeziernica-1
+        0 inklinator-1
+        1 żyroskop-1, giroskop-1
+          VISITED 0 zakrętomierz-1
+        VISITED 0 oktant-1
+        0 deflektometr-1, deflektor-2
+        0 namiernik-1, pelengator-1
+        0 trójkąt nawigacyjny-1
+        9 kompas-1
+          0 kompas geologiczny-1
+          0 kompas geodezyjny-2
+          0 astrokompas-1
+          0 radiokompas-1
+          3 busola-1
+            0 żyrobusola-1, żyrokompas-1, żyro-1, girobusola-1, kompas żyroskopowy-1
+            0 busola inklinacyjna-1
+            0 busola deklinacyjna-1
+          0 kompas magnetyczny-1
+      14 przyrząd laboratoryjny-1
+        0 penetrometr-2
+        0 edometr-1
+        VISITED 1 długościomierz-2
+        VISITED 0 alkoholomierz-1, alkoholometr-1
+        0 wirownica-1
+        0 mikrotom-1
+        0 kolorymetr-2
+        1 eza-1
+          0 eza kalibrowana-1
+        VISITED 0 urometr-1
+        2 tryskawka-1
+          0 tryskawka plastikowa-1
+          0 tryskawka szklana-1
+      17 przyrząd biurowy-1
+        0 przycisk-4
+        0 poduszka-5
+        0 nakłuwacz-1
+        0 oklejarka-1
+        0 kałamarz-3
+        0 stemplownica-1
+        0 rolownik-1
+        0 korytko-1
+        0 numerator-2
+        0 datownik-2
+        0 dziurkacz-1
+        0 zszywacz-1
+        4 pieczątka-2, pieczęć-2, stempel-3
+          0 prezenta-2
+          0 rota-6
+          0 patryca-1
+          0 bulla-3
+      0 miech-1
+      0 szekla-1, szakla-1
+      53 przyrząd elektronowy-1
+        52 lampa elektronowa-1
+          3 lampa elektropromieniowa-1
+            2 lampa pamięciowa-1
+              0 grafechon-1
+              0 radechon-1
+          0 lampa rentgenowska-1
+          0 lampa elektrometryczna-1
+          0 wapotron-1
+          0 selektoda-1
+          4 lampa gazowana-1
+            0 tyratron-1
+            0 tacitron-1
+            VISITED 1 dekatron-1
+          2 lampa zliczająca-1
+            1 dekatron-1
+              0 selektor-2
+          0 gazowa lampa elektronowa-1
+          1 próżniowa lampa elektronowa-1
+            0 rura Crookesa-1, lampa Crookesa-1
+          0 lampa prostownicza-1
+          5 lampa analizująca-1
+            0 dysektor-1
+            1 widikon-1
+              0 plumbikon-1
+            0 ortikon-1
+            0 ikonoskop-1
+          0 gazotron-1
+          0 lampa fotoelektronowa-1
+          2 lampa obrazowa-1
+            1 lampa oscyloskopowa-1
+              0 radaroskop-1
+          0 superikonoskop-1, emitron-1
+          5 lampa mikrofalowa-1
+            0 zwierak mikrofalowy-1
+            1 lampa o fali bieżącej-1
+              0 karcinotron-1
+            0 klistron-1
+            0 magnetron-1
+          0 tetroda-1
+          0 pentoda-1
+          0 oktoda-1
+          0 kineskop-1
+          0 heptoda-1
+          0 heksoda-1
+          0 trioda-1
+          8 dioda-1
+            0 dioda ostrzowa-1
+            0 detektor kryształkowy-1
+            0 dioda elektroluminescencyjna-1, LED-1
+            2 dioda próżniowa-1
+              0 duodioda-1
+              0 kenotron-1
+            0 dioda prostownicza-1
+            0 fotodioda-1
+      11 *przyrząd astronomiczny-1
+        0 mikrometr pozycyjny-1
+        0 laska Jakuba-1
+        0 komparator błyskowy-1
+        0 sfera armilarna-1
+        0 radiointerferometr-1, interferometr radiowy-1
+        0 linia południkowa-1, meridiana-1
+        0 tellurium-1
+        0 fotoheliograf-1, heliograf-2
+        0 gnomon-1
+        VISITED 0 astrolabium-1
+        0 radioteleskop-1
+      0 kasownik-2
+      0 przetwornik-2
+      0 chwytak-1, chwytacz-1
+      58 przyrząd elektryczny-1
+        0 karbownica-1
+        0 prostownica-1
+        1 czwórnik-1
+          0 dzielnik napięcia-1
+        0 nawrotnik-1, rewersor-1
+        0 owoskop-1
+        VISITED 26 aparat elektryczny-1
+        0 froterka-1
+        VISITED 1 polaryzator-1
+        0 uzwojenie-2, faza-3
+        2 odbierak-1
+          0 pantograf-3
+          0 pałąk-2
+        1 maser-1
+          0 maser gazowy-1
+        1 konwerter-2, konwertor-2, przemiennik częstotliwości-1
+          0 inwertor-1
+        0 rozdzielacz elektryczny-1, rozgałęźnik-1, rozgałęziacz-1, odgałęziacz-1, rozwidlacz-1, złodziejka-2
+        1 lokówka-1
+          0 falownica-2
+        9 żelazko-1
+          6 żelazko elektryczne-1
+            4 żelazko przewodowe-1
+              0 żelazko turystyczne-1
+              0 żelazko parowe-1
+              0 żelazko ciśnieniowe-1, żelazko ciśnieniowe-2
+              0 żelazko z termoregulatorem-1
+            0 żelazko bezprzewodowe-1
+          0 żelazko na węgiel drzewny-1
+          0 żelazko z duszą-1, żelazko z &quot;duszą&quot;-1, żelazko na &quot;duszę&quot;-1, żelazko na duszę-1
+        0 suszarka-1
+      3 nosidło-1
+        0 koza-14, kozioł-10
+        0 nosiłki-1
+        0 koromysło-1
+      1 próbnik-1
+        0 próbnik izolacji-1
+      4 *przyrząd ortopedyczny-1
+        0 łuska-9
+        0 łóżeczko gipsowe-1
+        0 szyna-4
+        0 gorset ortopedyczny-1, gorset-5
+      5 przyrząd sygnałowy-1
+        0 diafon-1
+        0 olifant-1
+        VISITED 1 polaryzator-1
+        0 róg mgłowy-1
+      257 przyrząd pomiarowy-1
+        0 sprawdzian-5
+        0 metanometr-1
+        0 liniał sinusowy-1, sinuśnica-1
+        0 libella-4, libela-1
+        0 pyrheliometr-1, pirheliometr-1
+        0 kratownica-4
+        0 pneumograf-1
+        0 reflektometr-1
+        0 penetrometr-3
+        0 skośnica-1
+        0 rentgenometr-1
+        0 anemograf-1
+        1 batometr-1, batymetr-1
+          0 czerpacz Patalasa-1, czerpak Patalasa-1
+        0 logometr-1, miernik ilorazowy-1
+        0 hipsometr-1
+        0 częstotliwościomierz-1, częstościomierz-1
+        0 skrętomierz-1
+        33 czasomierz-2
+          0 urządzenie zegarowe-1
+          2 minutnik-2
+            0 minutnik elektroniczny-1
+            0 minutnik mechaniczny-1
+          0 chronoskop-1
+          0 klepsydra-1, zegar piaskowy-1
+          24 zegar-1
+            0 zegar elektroniczny-1
+            1 zegar wahadłowy-1
+              0 zegar z kukułką-1
+            0 zegar ścienny-1
+            0 zegar wieżowy-1
+            0 zegar analogowy-1
+            0 zegar wodny-1
+            0 zegar księżycowy-1
+            0 zegar szachowy-1
+            0 chronograf-2
+            5 zegarek-1
+              3 zegarek kieszonkowy-1
+                0 chronometr-3
+                0 cebula-3
+                0 pektoralik-1
+              0 chronometr-2
+            1 chronometr-1
+              0 chronometr morski-1, chronometr okrętowy-1
+            0 zegar astronomiczny-1
+            0 zegar atomowy-1
+            0 zegar kwarcowy-1
+            0 zegar słoneczny-1
+            1 budzik-1
+              0 radiobudzik-1
+          1 stoper-2, sekundomierz-1
+            0 sekundomierz ręczny-1, stoper ręczny-1
+        0 celownica-2
+        0 kiełkownik-2
+        0 stalagmometr-1
+        0 pirometr-1
+        0 krokomierz-1
+        0 altimetr-1, altymetr-1
+        0 średnicomierz-1, klupa-1, fita-1
+        0 mareograf-1, pływomierz-1
+        0 spirometr-1
+        VISITED 0 radiosonda-1, radiometeorograf-1
+        0 aktynometr-1
+        0 geofon-1
+        0 paliwomierz-1
+        0 tensometr-1
+        0 siłomierz-1, dynamometr-1
+        0 wykresówka-1
+        0 psychrometr-1
+        0 ebuliometr-1
+        0 przyśpieszeniomierz-1, przyspieszeniomierz-1, akcelerometr-1
+        0 lepkościomierz-1, wiskozymetr-1
+        0 sacharymetr-1, cukromierz-1
+        0 pulsator-1
+        1 kątownik-2
+          0 kątownik ślusarski-1
+        0 faradomierz-1, pojemnościomierz-1
+        0 falomierz-1
+        0 tachymetr-1, tachimetr-1
+        0 ergometr-1
+        0 piknometr-1
+        0 przykładnica-1
+        0 termoskop-1
+        0 pyłomierz-1, konimetr-1
+        0 planimetr-1
+        0 bolometr-1
+        VISITED 0 motowidło-1
+        0 kalkulator nawigacyjny-1
+        0 eriometr-1, wełnomierz-1
+        0 nefoskop-1
+        0 orograf-1
+        0 pochyłomierz-1, eklimetr-1, klinometr-1, klizymetr-1, pochylnik-1, spadkomierz-1, upadomierz-1
+        0 anemoklinograf-1
+        0 urometr-1
+        0 promieniomierz-1
+        VISITED 0 ołowianka-1, sonda ręczna-1
+        0 halimetr-1, solomierz-1
+        0 ksylometr-1
+        0 chyłomierz-2, poziomica torowa-1
+        VISITED 0 nefelometr-1
+        0 deszczomierz-1
+        0 estezjometr-1
+        0 fonoskop-1
+        0 galaktometr-1, laktodensymetr-1, laktometr-1
+        0 hemocytometr-1
+        0 inklinometr-1
+        0 wibrometr-1
+        0 woltametr-1, kulombometr-1, kulometr-1
+        0 heliograf-1
+        0 wiatromierz-1, anemometr-1
+        0 węgielnica-1
+        0 radiometr-1
+        1 wiatrowskaz-1, anemoskop-1
+          0 rękaw-3, skarpeta-3
+        0 oktant-1
+        0 komparator-1
+        0 kątomierz-1
+        1 fotometr-1, luksomierz-1
+          0 batyfotometr-1
+        0 ciepłomierz-1, licznik ciepła-1
+        0 limbus-1
+        VISITED 1 wilgotnościomierz-1, higrometr-1, wilgociomierz-1
+        0 kalorymetr-1
+        0 omomierz-1
+        0 zwężka-1, konfuzor-1
+        VISITED 0 goniometr-1
+        0 grawimetr-1
+        VISITED 1 monochord-1
+        0 astrolabium-1
+        0 wodowskaz-1
+        0 libra-1
+        0 taktomierz-1, metronom-1
+        1 woltomierz-1, woltometr-1
+          0 woltomierz homodynowy-1
+        VISITED 2 dozownik-1, dozator-1, dawkownik-1, dozownica-1, dozowarka-1
+        0 log-1
+        0 niwelator-1
+        0 sekstans-1, sekstant-1
+        0 wysokościomierz-2, altymetr-2, altimetr-2
+        3 przyrząd pokładowy-1
+          0 przechyłomierz-1
+          VISITED 0 statoskop-1
+          0 chyłomierz-1
+        0 tachometr-1, obrotomierz-1
+        2 spektrometr-1
+          1 spektrograf-1
+            0 spektrograf astronomiczny-1, astrospektrograf-1
+        1 oscyloskop-1
+          0 synchroskop-1
+        12 ciśnieniomierz-1
+          0 osmometr-1
+          0 ciągomierz-1
+          0 próżniomierz-1, manometr próżniowy-1, wakuometr-1
+          3 manometr-1
+            0 sfigmomanometr-1
+            0 piezometr-1
+            0 hydrometr-1
+          4 barometr-1
+            0 barometr rtęciowy-1
+            0 hipsotermometr-1, termobarometr-1
+            0 barograf-1
+            0 statoskop-1
+        0 magnetometr-1
+        4 interferometr-1
+          0 interferometr Michelsona-1
+          0 interferometr ultradźwiękowy-1
+          0 interferometr optyczny-1
+          0 interferometr laserowy-1
+        0 głębokościomierz-1, głębinomierz-1
+        0 kwadrant-1
+        1 próbnik napięcia-1
+          0 lampa neonowa-1, neonówka-1
+        0 sztuczny horyzont-1
+        57 miernik-2
+          0 miernik cyfrowy-1
+          0 konduktometr-1, miernik konduktancji-1
+          0 tłuszczomierz-1
+          0 lumenomierz-1
+          1 grubościomierz-1
+            0 grubościomierz ultradźwiękowy-1
+          1 długościomierz-2
+            0 długościomierz Abbego-1
+          0 wodomierz-1
+          0 szczelinomierz-1
+          0 megaomomierz-1
+          0 mętnościomierz-1
+          0 chloromierz-1
+          0 alkoholomierz-1, alkoholometr-1
+          0 śniegomierz-1
+          0 skokomierz-1
+          0 zakrętomierz-1
+          0 fazomierz-1
+          0 solankomierz-1
+          0 wytrzymałościomierz-1
+          0 woltoamperomierz-1, woltamperomierz-1, amperowoltomierz-1
+          0 tlenomierz-1
+          0 benzynomierz-1
+          0 paromierz-1
+          0 decybelomierz-1
+          0 warstwomierz-1
+          0 jaskrawościomierz-1
+          0 dymomierz-1
+          1 tonometr-1
+            0 tonograf-1
+          0 prądomierz-1
+          1 watomierz-1
+            0 kilowatomierz-1
+          0 skrętomierz-2
+          0 krzywomierz-1, kartometr-1
+          0 alkometr-1, alkomat-1, alkotest-1
+          0 glukometr-1
+          3 gęstościomierz-1, areometr-1, densymetr-1
+            0 termoareometr-1
+            1 kwasomierz-1, acidometr-1
+              0 kwasomierz glebowy-1
+          0 dozymetr-1, dawkomierz-1
+          0 amperomierz-1, amperometr-1
+          1 wilgotnościomierz-1, higrometr-1, wilgociomierz-1
+            0 higrograf-1
+          0 stroboskop-2
+          3 przepływomierz-1
+            0 przepływomierz Coriolisa-1
+            1 rotametr-1
+              0 telerotametr-1
+          0 teodolit-1
+          1 galwanometr-1
+            0 elektrometr-1, galwanometr elektrostatyczny-1
+          3 dalmierz-1, odległościomierz-1
+            0 dalmierz optyczny-1
+            0 dalmierz elektromagnetyczny-1
+            0 dalmierz laserowy-1, kolidar-1
+        0 ekierka-1, trójkąt rysunkowy-1
+        6 termometr-1
+          0 termometr lekarski-1
+          0 termometr owulacyjny-1
+          0 termometr laboratoryjny-1
+          1 termometr cieczowy-1
+            0 termometr alkoholowy-1
+          0 termograf-1
+        3 wskaźnik-2
+          0 benzynomierz-2
+          1 słup-3, słupek-2
+            0 słup rtęci-1, słupek rtęci-1
+        3 linijka-1
+          0 linijka mennicza-1
+          VISITED 0 stalówka-1
+          VISITED 0 calówka-1
+        10 miara-5, miarka-3
+          0 przymiar-1
+          0 taśma miernicza-1
+          0 stalówka-1
+          0 metr-2, metrówka-1
+          0 łokieć-1
+          0 centymetrówka-1
+          0 centymetr-2
+          0 calówka-1
+          0 suwmiarka-1
+          0 łata-5, łata niwelacyjna-1
+      113 przyrząd mechaniczny-1
+        0 twardościomierz-1, durometr-1, maszyna wytrzymałościowa-1, sklerograf-1, skleroskop-1, skleromater-1
+        0 balansjerka-1
+        0 szumówka-2
+        0 korkownica-1
+        0 sklejarka-2
+        0 gasidło-1
+        0 nawijadło-1
+        0 przyśpiesznik-3, przyspiesznik-3
+        0 cementownik-1
+        0 korownik-1
+        0 leziwo-1, łaziwo-1
+        0 chlorownica-1, chlorownik-1, chlorator-1
+        0 nitownik-2
+        0 motowidło-1
+        0 wyżymaczka-1
+        0 gurt-2
+        26 aparat elektryczny-1
+          0 iskiernik-1
+          0 zabezpieczenie elektryczne-1
+          23 łącznik elektryczny-1
+            0 odcinacz-1
+            0 uziemnik-1
+            0 wybierak-3
+            14 *łącznik elektryczny ze względu na funkcje-1
+              VISITED 1 wyłącznik-1, kontakt-5, włącznik-1
+              0 rozłącznik-1
+              VISITED 0 odłącznik-1
+              1 łącznik drogowy-1
+                0 łącznik krańcowy-1, microswitch-1, wyłącznik krańcowy-1, krańcówka-1, wyłącznik bezpieczeństwa-1
+              6 łącznik instalacyjny-1
+                0 przycisk dzwonka-1, dzwonek-5, przycisk dzwonkowy-1
+                0 łącznik żaluzjowy-1
+                0 łącznik schodowy-1
+                0 łącznik świecznikowy-1
+                0 łącznik dwubiegunowy-1
+                0 łącznik pojedynczy-1
+              VISITED 0 stycznik-1
+            8 *łącznik elektryczny ze względu na sposób łączenia-1
+              0 łącznik hybrydowy-1
+              1 łącznik półprzewodnikowy-1
+                0 stycznik elektroniczny-1
+              4 łącznik mechanizmowy-1
+                1 wyłącznik-1, kontakt-5, włącznik-1
+                  0 włącznik sensorowy-1
+                0 odłącznik-1
+                0 stycznik-1
+        2 dozownik-1, dozator-1, dawkownik-1, dozownica-1, dozowarka-1
+          1 pipetka-1, wkraplacz-1, pipeta-1, zakraplacz-1
+            0 mikropipeta-1
+        4 podnośnik-1, dźwignik-1
+          0 podnośnik hydrauliczny-1
+          0 wciąg-1
+          0 lewar-1
+          0 spychacz-2
+        0 pistolet natryskowy-1, natryskiwacz-1
+        0 bruzdownica-2
+        17 dźwignia-1
+          0 wyoblak-1, wyoblak ręczny-1
+          0 sznurownia-1
+          0 bijnik-1
+          0 cepy-2
+          4 sterownica-1
+            VISITED 1 rumpel-1
+            0 wolant-2
+            VISITED 0 drążek sterowy-1
+          0 następ-1
+          0 wahacz-1, balansjer-2
+          0 manetka-1
+          0 wajcha-1
+          0 cyngiel-1, spust-1
+          2 pedał-1
+            0 następ-2, stopka-7
+            0 pedał gazu-1, gaz-7, akcelerator-2
+        41 pułapka-1
+          0 łownia-1
+          0 muchołapka-1, muszarka-1
+          29 sieć rybacka-1
+            0 sieć zastawna-1, sieć stawna-1
+            0 okrężnica-3
+            1 kłonia-1, kłomia-1, kłomnia-1, kłomla-1
+              0 drabka-2
+            0 fola-3
+            0 pławica-1
+            0 rafla-1
+            0 przywłoka-1
+            0 więcior-1
+            0 neta-1
+            1 żak-2
+              0 mieroża-1
+            0 certówka-1
+            0 uklejnik-1, uklejnica-1
+            0 kutnia-1
+            0 zarzutnia-1
+            0 wonton-1
+            0 drygawica-1, dryga-1
+            0 tuka-1, tuk-1
+            0 gan-1, słęp-1
+            0 podrywka-2
+            0 podrywka-1, podrywka wędkarska-1
+            0 manca-1
+            1 włok-1, włók-1, trał-2
+              0 draga-2
+            0 więcierz-1, wereżka-1
+            0 sak-1
+            1 niewód-1, płonka-1
+              0 ceza-1
+          1 potrzask-1, samotrzask-1
+            0 kapkan-2
+          0 wilczy dół-1
+          0 zapadnia-1
+          0 lep-1
+          3 sidła-1, wnyki-1, sidło-1, paść-1, wnyk-1
+            0 pętla-5
+            0 oklepiec-1
+            0 matnia-2
+      0 oftalmoskop-1, wziernik oczny-1
+      11 drążek-2
+        0 mlon-2
+        0 śnica-1
+        0 nabijak-1
+        0 przęślica-2
+        0 gryf-2
+        1 rumpel-1
+          0 rogatnica-1
+        0 orczyk-1
+        0 drążek kierowniczy-1
+        0 drzewce-1
+        0 drążek sterowy-1
+      0 kijanka-2, pralnik-1
+      6 wabik-2
+        4 wabik na ryby-1
+          0 chwościk-1
+          2 błystka-1, błyszcz-4, błyszczka-1, błyszczyk-1
+            0 obrotówka-3, błystka obrotowa-1
+            0 wahadłówka-1, błystka wahadłowa-1
+        0 mikot-1
+      0 wieszak-2, wieszak na ubrania-1
+      0 spryskiwacz-2, opryskiwacz-2
+      0 stabilizator-1
+      11 sonda-1
+        0 sonda lambda-1
+        0 dryfter-3
+        0 mikrosonda elektronowa-1
+        2 balon meteorologiczny-1
+          0 balon radiosonda-1
+          0 balon pilotowy-1
+        0 radiosonda-1, radiometeorograf-1
+        0 ołowianka-1, sonda ręczna-1
+        1 echosonda-1, echometr-1, echolot-1
+          0 echograf-1
+        0 sonda kosmiczna-1, sonda-5, próbnik kosmiczny-1, próbnik-2
+      0 akcesorium-2
+      1 rama-2
+        0 tamborek-1
+      258 instrument muzyczny-1, instrument-1
+        0 alt-4
+        0 harmonia pedałowa-1, pedałówka-2
+        0 burczybas-1
+        0 heksachord-2
+        0 tenor-3
+        0 sistrum-1
+        2 bas-1
+          VISITED 0 basetla-1, basetnia-1, basy-1, maryna-1
+          VISITED 0 kontrabas-1
+        1 monochord-1
+          0 helikon-3
+        5 instrument mechaniczny-1, samograj-1
+          0 orchestrion-1, orkiestrion-1
+          0 pozytywka-1
+          VISITED 0 pianola-1
+          1 katarynka-1
+            0 aryston-1
+        20 elektrofon-1
+          7 elektrofon elektromechaniczny-1, instrument elektromechaniczny-1
+            0 organy światłotonowe-1
+            VISITED 0 organy Hammonda-2
+            0 pianino optotoniczne-1
+            0 choralcello-1
+            0 telharmonium-1
+            0 muzyczny telegraf-1
+            0 śpiewający łuk-1
+          6 elektrofon elektroniczny-2, instrument elektroniczny-1
+            0 perkusja elektroniczna-1
+            0 trautonium-1
+            VISITED 0 sampler-1
+            VISITED 1 syntezator-1, syntetyzator-2
+            VISITED 0 keyboard-1, aranżer-3, keybord-1
+          0 theremin-1, eterofon-1, termenvox-1
+          VISITED 0 melotron-1
+          VISITED 0 keyboard-1, aranżer-3, keybord-1
+          VISITED 2 gitara elektryczna-1
+        84 instrument dęty-1, aerofon-1
+          5 harmonia-7
+            4 harmonia ręczna-1
+              0 koncertyna-1, concertina-1
+              0 bandoneon-1
+              1 akordeon-1, harmonia-5, harmoszka-1, garmoszka-1
+                0 guzikówka-1
+          0 szeng-1, sheng-1
+          0 buccina-1
+          2 róg-6
+            0 róg myśliwski-1
+            0 szofar-1
+          0 mirliton-1
+          8 instrument dęty klawiszowy-1
+            VISITED 0 fisharmonia-1, harmonium-1
+            VISITED 4 organy-1, organy piszczałkowe-1
+            1 harmonijka-1, organki-1, harmonijka ustna-1
+              0 harmonijka klawiszowa-1
+          25 instrument dęty blaszany-1
+            0 suzafon-1
+            0 salpinks-1
+            0 eufonium-1
+            VISITED 1 trąbka sygnałowa-1, sygnałówka-2
+            0 róg barytonowy-1
+            1 cynk-3
+              0 serpent-1
+            1 sakshorn-1
+              0 skrzydłówka-1, sakshorn sopranowy-1
+            0 kornet-1
+            0 helikon-2
+            0 waltornia-1, róg-5
+            0 puzon-1, trombon-1
+            1 trąba-1
+              0 ligawa-3
+            2 tuba-1
+              0 tuba wagnerowska-1
+              0 bekadło-1
+            7 trąbka-1
+              0 rożek-1
+              0 trąbka pneumatyczna-1
+              3 trąbka bezwentylowa-1
+                1 trąbka sygnałowa-1, sygnałówka-2
+                  0 kniejówka-2
+                0 fanfara-1, trąbka fanfarowa-1
+              0 trąbka pocztowa-1
+          0 didgeridoo-1
+          30 instrument drewniany-1, instrument dęty drewniany-1
+            0 żalejka-1
+            0 bazuna-1
+            0 sarusofon-1
+            0 krummhorn-1, kromorn-1, krzywuła-1
+            0 trombita-2, trembita-1, trąbita-1
+            0 okaryna-1
+            1 ligawka-1, legawka-2
+              0 lur-1
+            2 fujarka-1, dudka-1, piszczałka-1
+              1 szałamaja-1, pomort-1
+                0 tenorka-1
+            1 fagot-1
+              0 kontrafagot-1
+            0 surma-1
+            0 rożek angielski-1
+            2 obój-1
+              0 obój myśliwski-1, obój da caccia-1
+              0 obój miłosny-1
+            1 saksofon-1
+              0 saksofon altowy-1
+            2 klarnet-1
+              0 rożek basetowy-1
+              0 basklarnet-1, klarnet basowy-1
+            6 flet-1, fletnia-1
+              0 flet prosty-1
+              0 flet basowy-1
+              0 flet poprzeczny-1
+              0 flet nosowy-1
+              0 flet piccolo-1, flecik-1, pikolo-1, piccolo-1, pikulina-1
+              0 flażolet-1, flecik polski-1, gwizdałka-1
+          0 aulos-1
+          2 dudy-1, koza-11
+            0 kozioł-11
+            0 gajdy-1
+          0 fletnia Pana-1, multanki-1, syrynga-1, multanka-1, syringa-1, syrinks-1
+        54 instrument perkusyjny-1
+          0 dzwonek ręczny-1
+          0 bongosy-1
+          0 steel pan-1
+          0 dzwony rurowe-1
+          0 cymbał-2
+          16 membranofon-1, instrument perkusyjny membranowy-1
+            0 litaury-1
+            0 tabla-1
+            0 kocioł-5
+            12 bęben-1
+              0 bałt-2
+              0 konga-1
+              2 bęben wielki-1, bęben basowy-1, bęben taktowy-1, taktownik-1
+                0 centrala-6
+                0 tołumbas-1
+              1 bęben szczelinowy-1
+                0 tam-tam-2
+              0 tom-tom-1, tom-2
+              0 bendir-1
+              0 taraban-1, baraban-1, tułumbas-1
+              0 tympanon-1
+              0 werbel-1, bęben mały-1
+          24 idiofon-1
+            0 bat-4
+            0 makumba-2
+            0 kalimba-1, zanza-1, mbira-1, insimbi-1, canca-1
+            0 harmonika-3, harmonika szklana-1
+            0 gruchawka-1
+            0 saggaty-1, sagaty-1, zillsy-1
+            5 talerz perkusyjny-1, talerz-2
+              0 china-1
+              0 ride-1
+              0 crash-1
+              0 splash-1
+              0 hi-hat-2, hi hat-2
+            0 carillon-1, karylion-1
+            0 marakasy-1
+            0 triangel-1, trójkąt-3, triangiel-1, trianguł-1
+            0 talerze-1, czynele-1, żele-1, talerze orkiestrowe-1
+            0 piła-7
+            0 kołatka-2
+            0 czelesta-1, celesta-1
+            0 cymbałki-1, dzwonki-1
+            0 kastaniety-1
+            0 drumla-1
+            1 ksylofon-1, harmonika słomiana-1
+              0 marimba-1
+          0 grzechotka-1
+          0 dzwony-2
+          0 wibrafon-1
+          0 buńczuk orkiestrowy-1, chiński kapelusz-1
+          0 tamburyno-1, tamburyn-1, bębenek baskijski-1
+          1 gong-1
+            0 tam-tam-1
+        26 instrument klawiszowy-1
+          0 organy Hammonda-2
+          0 orfika-1
+          VISITED 0 pantalion-1, pantaleon-1, pantalon-1
+          0 sampler-1
+          0 melotron-1
+          VISITED 0 pianola-1
+          1 syntezator-1, syntetyzator-2
+            0 automat perkusyjny-1
+          0 keyboard-1, aranżer-3, keybord-1
+          VISITED 1 klawikord-1
+          0 fisharmonia-1, harmonium-1
+          4 organy-1, organy piszczałkowe-1
+            0 regał-3
+            0 pozytyw-3
+            0 portatyw-1
+            0 organy parowe-1
+          VISITED 0 pianino-1
+          VISITED 2 klawesyn-1, cymbał-1
+          VISITED 4 fortepian-1, forteklap-1
+        83 instrument strunowy-1, chordofon-1
+          0 suka biłgorajska-1
+          0 barbiton-1
+          0 pantalion-1, pantaleon-1, pantalon-1
+          0 berimbau-1
+          0 sarangi-1
+          0 rota-7
+          0 bardon-1
+          0 cymbały-1
+          0 pianola-1
+          1 klawikord-1
+            0 piramida-8
+          0 pianino-1
+          2 klawesyn-1, cymbał-1
+            0 wirginał-1
+            0 szpinet-1, oktawka-2, spinet-1
+          21 instrument smyczkowy-1
+            0 lira korbowa-1
+            0 stradivarius-1
+            0 rebab-1, rubab-1
+            0 basetla-1, basetnia-1, basy-1, maryna-1
+            0 gęśliki-1
+            1 gęśle-1, gęśl-1
+              0 złóbcoki-2, gęśliki podhalańskie-1, gęśl-2
+            7 wiola-2
+              0 viola da braccio-1
+              0 violetta-1
+              0 baryton-3, viola di bordone-1
+              0 viola da spalla-1
+              0 viola bastarda-1
+              0 gamba-1, viola da gamba-1
+              0 amorka-1, altówka miłosna-1, viola d'amore-1
+            0 wiolonczela-1
+            0 kontrabas-1
+            0 altówka-1, wiola-1
+            2 skrzypce-1
+              0 polskie skrzypce-1
+              0 oktawka-1
+          40 instrument szarpany-1
+            0 vihuela-1
+            0 domra-1
+            0 tar-1
+            0 koto-1
+            0 nabla-1
+            0 harfa eolska-1, harfa Eola-1
+            0 sitar-1
+            0 psalterium-1, psalterion-1
+            0 shamisen-1
+            0 tambura-1
+            0 mandola-1, mandora-1
+            0 kantele-1
+            0 buzuki-1
+            0 banjo-1, bandżo-1, banjola-1, bandżola-1
+            0 bandura-1
+            0 pipa-1, biwa-1
+            0 mandolina-1
+            0 kitara-1, forminga-1
+            0 cytra-1
+            0 bałałajka-1, bałabajka-1
+            0 kobza-1
+            0 lira-1
+            2 lutnia-1
+              0 wina-2, vina-1
+              0 teorban-1, torban-1
+            4 harfa-1
+              0 psałterion-1
+              0 kora-5
+              0 harfa celtycka-1
+              0 harfa eolska-2, harfa Eola-2
+            9 gitara-1
+              0 gitara dwunastostrunowa-1
+              0 gitara dziesięciostrunowa-1
+              0 gitara klasyczna-1
+              0 ukulele-1
+              0 gitara hawajska-1
+              2 gitara elektryczna-1
+                0 gitara siedmiostrunowa-1
+                0 gitara basowa-1, bas-2
+              0 gitara akustyczna-1
+          4 fortepian-1, forteklap-1
+            0 fortepian koncertowy-1
+            0 fortepian półkoncertowy-1
+            0 fortepian salonowy-1
+            0 fortepian gabinetowy-1
+      19 *przyrząd sportowy-1
+        0 gruszka-6
+        0 trampolina-3
+        0 powerball-1
+        0 ściskacz-1
+        0 płetwa-3
+        1 rakietka-1, paletka-1
+          0 rakietka tenisowa-1, paletka tenisowa-1, rakietka ping-pongowa-1, paletka ping-pongowa-1
+        0 oszczep-2
+        0 snowboard-2, deska snowboardowa-1
+        0 rakieta-3
+        8 narta-1, deska-2
+          0 narta skokowa-1
+          0 łyża-1
+          0 skokówka-1
+          0 nartorolka-1
+          0 klejonka-2
+          1 biegówka-1, narta biegowa-1
+            0 narta śladowa-1, śladówka-1
+          0 zjazdówka-1, narta zjazdowa-1
+      101 *przyrząd optyczny-1
+        0 koordynatograf-1
+        0 telemetr-1
+        0 spektroheliograf-1
+        0 fotokarabin-1
+        0 praksynoskop-1, praksinoskop-1
+        1 endoskop-2
+          0 angioskop-1
+        2 kolorymetr-1
+          0 kolorymetr obiektywny-1
+          0 kolorymetr wizualny-1
+        0 binokular-1
+        0 polarymetr-1
+        1 siatka dyfrakcyjna-1
+          0 siatka dyfrakcyjna echelle-1
+        0 monochromator-1
+        0 refraktometr-1
+        0 stereoskop-1
+        0 nefelometr-1
+        0 spektroskop-1
+        0 powiększalnik-1
+        0 kątomierz-2
+        0 kolimator-1
+        1 polaryzator-1
+          0 pryzmat Nicola-1, nikol-1
+        0 goniometr-1
+        0 heliotrop-2
+        0 raster-1
+        0 ciemnia optyczna-1
+        9 okulary-1, bryle-1, patrzałki-1, szkła-1
+          0 plus-7
+          1 okulary przeciwsłoneczne-1
+            0 borewicze-1, awiatory-1
+          0 monokl-1
+          0 lenonki-1, lennonki-1
+          0 gogle-1
+          0 fotochromy-1
+          1 binokle-1, cwikier-1
+            0 lornion-1, lorgnon-1
+        0 przeglądarka-2
+        0 noktowizor-1
+        6 mikroskop optyczny-1, mikroskop świetlny-1
+          0 mikroskop polaryzacyjny-1
+          0 ultramikroskop-1
+          0 mikroskop złożony-1
+          0 mikroskop monookularowy-1, mikroskop jednookularowy-1
+          1 mikroskop binokularowy-1, mikroskop dwuokularowy-1, mikroskop biokularowy-1, mikroskop stereoskopowy-1
+            0 mikroskop operacyjny-1
+        0 camera obscura-1
+        6 soczewka-1
+          0 mikrosoczewka-1
+          2 szkło-6
+            1 szkło powiększające-1
+              0 lupa-1
+          0 soczewka kontaktowa-1, szkło kontaktowe-1, kontakt-8
+          0 menisk-2
+        11 projektor-1
+          0 kinetograf-1
+          0 mutoskop-1
+          0 kinetoskop-1
+          0 epidiaskop-1
+          0 rzutnik-1, diaskop-1
+          0 episkop-1
+          0 fotoplastykon-2
+          0 przeglądarka-3
+          0 projektor pomiarowy-1
+          0 projektor filmowy-1
+          0 projektor telewizyjny-1
+        0 luneta-1
+        2 teleskop-1
+          0 refraktor-1
+          0 teleskop zwierciadlany-1, reflektor-3
+        1 peryskop-1
+          0 peryskop odwracalny-1
+        1 lornetka-1, lorneta-1
+          0 lorneta nożycowa-1
+        6 obiektyw-1
+          0 aplanat-2
+          0 anastygmat-1
+          0 tryplet-2
+          0 obiektyw zmiennoogniskowy-1, transfokator-1, zoom-1
+          0 obiektyw szerokokątny-1
+          0 teleobiektyw-1
+        11 aparat fotograficzny-1, aparat-3
+          0 aparat Wolcotta-1
+          0 aparat Suttona-1
+          0 kodak-1
+          0 aparat analogowy-1
+          0 lejka-1
+          0 małpka-4
+          0 pleograf-1
+          0 aparat cyfrowy-1, cyfrówka-1, cyfrowy aparat fotograficzny-1
+          0 aparat stereoskopowy-1
+          0 polaroid-1
+          0 lustrzanka-1
+        6 kamera-1
+          0 kamkorder-1
+          0 kamera telewizyjna-1
+          1 kamera filmowa-1
+            0 aeroskop-1
+          0 wideokamera-1, kamera wideo-1
+          0 minikamera-1
+      7 drabina-1
+        0 drabina Szczerbowskiego-1
+        0 drabina hakowa-1
+        0 ostrew-1
+        3 drabinka-1
+          1 drabinka linowa-1, drabinka sznurowa-1
+            0 sztormtrap-2
+          0 przeplotnia-1, przeplotka-1
+      37 nośnik-1
+        31 nośnik danych-1
+          0 bęben magnetyczny-1
+          0 karta dziurkowana-1
+          1 nośnik magnetyczny-1
+            0 pasek magnetyczny-1
+          0 napęd Zip-1, dysk Zip-1, Zip-1
+          0 pendrive-1, pamięć przenośna-1, pamięć USB-1
+          0 kartridż-1
+          0 dyskietka-1, flop-2, fdd-1, dysk elastyczny-1
+          9 płyta-3, krążek-3
+            3 płyta winylowa-1, winyl-2, płyta gramofonowa-1, płyta analogowa-1
+              0 pocztówka dźwiękowa-1
+              0 czwórka-13
+              0 longplay-1, płyta długogrająca-1, LP-1
+            0 DVD-3, płyta DVD-1
+            3 płyta kompaktowa-1, CD-1, kompakt-3, płytka-4, cd-rom-1, CD-ROM-2, compact-1
+              0 płyta audio CD-1
+              0 CD-RW-1
+              0 CD-R-1
+          8 taśma-2
+            0 stilo-1, stil-1
+            2 taśma magnetyczna-1
+              0 taśma audio-1
+              0 taśma wideo-1, taśma magnetowidowa-1
+            0 playback-1
+            0 dziurawka-2
+            1 taśma filmowa-2, film-4
+              0 kopia-4, kopia filmowa-1
+          3 kaseta-1
+            0 mikrokaseta-1
+            0 wideokaseta-1, kaseta wideo-1
+            0 kaseta magnetofonowa-1
+        0 macierz dyskowa-1
+        3 czcionka-2
+          0 ligatura-4
+          0 firet-1
+          0 logotyp-1
+      0 zapalniczka-1
+      0 instrument-2
+      404 broń-1, uzbrojenie-6
+        0 ręczna puszka-1
+        0 lanca ognista-1
+        0 repulsor-2
+        VISITED 10 bomba lotnicza-1
+        VISITED 0 bomba głębinowa-1
+        0 świstuła-2
+        0 blaster-1
+        0 nunczako-1, nunciakus-1, nunchaku-1
+        12 bojowy środek trujący-1, BŚT-1, BST-1
+          0 trylony-1
+          0 sarin-1
+          0 chloropikryna-1
+          2 lakrymator-1
+            0 chloroaceton-1, chloropropanon-1
+            0 bromoaceton-1
+          5 gaz bojowy-1
+            0 chlorocyjan-1
+            0 luizyt-1
+            0 adamsyt-1
+            0 fosgen-1, tlenochlorek węgla-1
+            0 gaz musztardowy-1, iperyt siarkowy-1, iperyt-1
+        VISITED 3 nóż bojowy-1
+        0 jatagan-2
+        VISITED 0 kukri-2, khukri-1
+        0 szabla-3
+        0 szpada-3
+        0 gaz-5
+        0 tasak-1, falchion-1, falcjon-1
+        0 skałkówka-1
+        0 partyzana-1
+        0 rakietotorpeda-1
+        0 panoplia-2
+        2 antybroń-1
+          VISITED 1 antyrakieta-1, przeciwrakieta-1, przeciwpocisk-1
+        0 wiatrówka-1, pistolet pneumatyczny-1, karabin pneumatyczny-1
+        0 bolas-1, bola-1
+        0 bomba kobaltowa-1
+        0 ciupaga-2
+        0 sejmitar-1
+        0 kukri-1
+        0 bułat-1
+        0 nadziak-1
+        0 kiścień-1
+        0 młot bojowy-1
+        1 buzdygan-1
+          VISITED 0 piernacz-1
+        1 buława-1
+          0 piernacz-1
+        VISITED 2 działo samobieżne-1
+        0 niszczyciel czołgów-1
+        0 bojowy wóz piechoty-1, BWP-1
+        0 kama-2
+        0 trójząb-1
+        0 obuch-1
+        0 kastet-1
+        0 halabarda-1
+        0 pałasz-1
+        0 kord-1
+        0 katana-1
+        0 koncerz-1
+        11 tarcza-1
+          0 paiża-1, paiż-1
+          0 parma-1
+          0 clipeus-1
+          0 scutum-1
+          0 telamon-1
+          0 tarcza policyjna-1
+          0 hoplon-1
+          0 kałkan-1
+          1 puklerz-1
+            0 rondela-1, rodela-1
+          0 pawęż-4, pawęza-1
+        0 samopał-1
+        0 rohatyna-1
+        2 granatnik-1
+          0 granatnik nasadkowy-1
+          0 granatnik podwieszany-1, granatnik podlufowy-1
+        0 paralizator-1, paralizator elektryczny-1
+        0 dmuchawka-1
+        VISITED 3 pancerzownica-1, granatnik przeciwpancerny-1
+        VISITED 0 kindżał-1
+        VISITED 0 kordelas-1
+        1 balista-1
+          0 aerotonon-1
+        2 wyrzutnia-1
+          0 wyrzutnia rakiet-1, wyrzutnia rakietowa-1
+          0 katiusza-1
+        0 szpada-1
+        0 muszkiet-1
+        4 miotacz-1
+          0 miotacz ognia-1
+          0 miotacz bomb głębinowych-1
+          0 atlatl-1
+          0 krowa-5
+        2 maczuga-1
+          1 wekiera-1
+            0 morgenstern-1, morgensztern-1, kropacz-1, gwiazda zaranna-1, gwiazda poranna-1
+        0 lanca-1
+        2 kusza-1
+          VISITED 0 gastrafetes-1, łuk grecki-1, łuk brzuszny-1
+          0 arbalet-1, arbaleta-1
+        0 dzida-1
+        0 bumerang-1
+        0 broń sportowa-1
+        0 floret-1
+        4 włócznia-1
+          0 sarisa-1, sarissa-1
+          0 hasta-1
+          1 dziryt-1
+            0 banderilla-1
+        6 sztylet-1
+          0 akinakes-1
+          0 dirk-1
+          0 deka-2, daga-1
+          0 handżar-1
+          0 puginał-1, mizerykordia-1
+          0 kordzik-1
+        8 szabla-1
+          1 janówka-1
+            0 staszówka-1
+          0 damascenka-1, demeszka-1
+          0 kora-6
+          0 augustówka-1
+          0 ormianka-2, ordynka-1
+          0 batorówka-2
+          0 karabela-1
+        5 rewolwer-1, bębenkowiec-1
+          0 nagant-1, nagan-1
+          0 rewolwer wiązkowy-1, pieprzniczka-3
+          0 straszak-1
+          0 magnum-1
+          0 colt-1, kolt-1
+        0 rapier-1
+        0 pika-1, spisa-1
+        2 oszczep-1
+          0 assagaj-1
+          0 pilum-1
+        VISITED 4 maczeta-1
+        0 czekan-1
+        0 bagnet-1
+        2 transporter-2, transporter opancerzony-1
+          0 opancerzony transporter rozpoznawczy-1
+          0 SKOT-1, Średni Kołowy Transporter Opancerzony-1
+        VISITED 5 pistolet maszynowy-1, peem-1
+        34 działo-1
+          0 kamiennik-1
+          0 działo polowe-1
+          0 działo kolejowe-1
+          0 działo bezodrzutowe-1
+          0 jednoróg-2
+          0 hufnica-1
+          0 kartaun-1, kartauna-1, kartan-1, kartana-1
+          1 działo okrętowe-1
+            0 karonada-1
+          0 kartaczownica-1
+          2 haubicoarmata-1
+            0 haubicoarmata D-20-1
+            0 haubicoarmata 25-funtowa-1
+          2 działo przeciwlotnicze-1
+            0 meblowóz-2
+            0 armata przeciwlotnicza Boforsa-1
+          2 działo samobieżne-1
+            0 samobieżne działo polowe-1
+            0 działo pancerne-1, działo szturmowe-1
+          2 kolubryna-1
+            0 falkon-1, falkona-1, sokół-2
+            0 falkonet-1, śmigownica-1, sokolik-1
+          0 haubica-1
+          0 bombarda-1
+          3 pancerzownica-1, granatnik przeciwpancerny-1
+            0 granatnik PIAT-1, PIAT-1
+            0 pancerfaust-1, panzerfaust-1
+            0 bazooka-1
+          0 moździerz-1, mortira-1
+          1 działko-1
+            0 mitralieza-1
+          2 armata-1
+            0 wiwatówka-1
+            0 armatka-1
+        33 hełm-1
+          0 misiurka-1
+          0 szturmak-1, hełm szturmowy-1, hełm burgundzki-1, burgoneta-1
+          0 hełmofon-1
+          21 hełm bojowy-1
+            0 hełm turniejowy-1
+            0 armet-1
+            0 hełm kirasjerski-1
+            0 kabuto-1
+            0 barbuta-1
+            1 hełm otwarty-1
+              0 hełm normandzki-1
+            0 pikielhauba-1, pikelhauba-1
+            0 morion-1
+            0 salada-1
+            1 łebka-1
+              0 basinet-1
+            0 kapalin-1
+            0 hełm garnczkowy-1, hełm wielki-1
+            0 hełm łuskowy-1
+            0 hełm stożkowy-1
+            0 hełm okularowy-1
+            0 hełm koryncki-1
+            1 szyszak-1, szłom-1
+              0 szyszak husarski-1
+            0 przyłbica-1
+          7 kask-1
+            0 kask wspinaczkowy-1, kask alpinistyczny-1
+            0 kask jeździecki-1
+            0 kask futbolowy-1
+            0 kask rowerowy-1
+            0 kask narciarski-1, kask snowboardowy-1
+            0 hełm górniczy-1
+            0 szczękowiec-1
+        5 pałka-1
+          0 baton-4
+          0 kitajka-3
+          0 guma-8
+          0 bejsbol-1
+          0 szturmówka-2
+        22 strzelba-1, fuzja-2, flinta-1
+          0 dziwerówka-1
+          0 nadlufka-1, bok-4
+          0 odtylcówka-1
+          0 guldynka-1
+          0 strzelba na kaczki-1
+          0 kniejówka-1
+          0 janczarka-1
+          0 trójlufka-1, dryling-1, drylinger-1
+          1 broń kapiszonowa-1, kapiszonowiec-2, kapiszonówka-1
+            0 pistonówka-1
+          VISITED 1 obrzynek-2, obrzyn-1, urzyn-1, urzynek-1
+          0 ptaszniczka-1
+          2 rusznica-1
+            0 samopał-2
+            0 hakownica-1
+          0 gwintówka-1
+          0 jednorurka-1
+          0 sztucer-1
+          1 dubeltówka-1, dwururka-1
+            0 lefoszówka-1
+          0 śrutówka-1, strzelba śrutowa-1
+        7 broń jądrowa-1, broń nuklearna-2
+          2 broń termojądrowa-1, broń wodorowa-1
+            VISITED 1 bomba wodorowa-1, bomba termojądrowa-1
+          VISITED 3 bomba jądrowa-1
+          1 broń atomowa-1
+            VISITED 0 bomba atomowa-1
+          VISITED 0 brudna bomba-1
+        1 proca-2
+          0 proca katapulta-1
+        79 pocisk-1
+          0 pocisk nadkalibrowy-1
+          0 pocisk niepenetrujący-1, pocisk niepenetracyjny-1
+          25 pocisk odrzutowy-1
+            24 rakieta-2, pocisk rakietowy-1, rakieta bojowa-1
+              0 eurorakieta-1
+              0 superrakieta-1
+              0 rakieta powietrze-powietrze-1, pocisk powietrze-powietrze-1
+              0 rakieta powietrze-woda-1, pocisk powietrze-woda-1
+              0 rakieta powietrze-ziemia-1, pocisk powietrze-ziemia-1
+              0 rakieta samonaprowadzająca się na podczerwień-1
+              0 scud-1
+              0 rakieta atomowa-1
+              1 rakieta balistyczna-1, pocisk balistyczny-1
+                0 międzykontynentalna rakieta balistyczna-1, międzykontynentalny pocisk balistyczny-1
+              0 rakieta międzykontynentalna-1, pocisk międzykontynentalny-1
+              1 rakieta przeciwokrętowa-1, pocisk przeciwokrętowy-1
+                0 woda-woda-1
+              0 rakieta przeciwpancerna-1, pocisk przeciwpancerny-1
+              1 rakieta przeciwlotnicza-1, pocisk przeciwlotniczy-1
+                0 woda-powietrze-1
+              0 pershing-1
+              1 antyrakieta-1, przeciwrakieta-1, przeciwpocisk-1
+                0 rakietowy pocisk antybalistyczny-1
+              4 pocisk kierowany-1
+                0 pocisk woda-powietrze-1, rakieta woda-powietrze-1
+                0 V-1-1, V1-1
+                0 rakietowy pocisk balistyczny-1
+                0 pocisk ziemia-powietrze-1, rakieta ziemia-powietrze-1
+          0 pocisk podkalibrowy-1
+          0 petarda-3
+          0 sidolka-1
+          2 pocisk artyleryjski-1
+            0 kartacz-1
+            0 szrapnel-1
+          0 strzałka-4
+          0 siekaniec-1
+          0 karkas-1
+          0 dum-dum-1
+          0 niewybuch-1, niewypał-1
+          0 pocisk odłamkowy-1, odłamkowy-1
+          3 granat-1
+            0 sidolówka-1
+            0 koktajl Mołotowa-1, mołotow-1, butelka zapalająca-1
+            0 filipinka-1
+          0 pocisk smugowy-1
+          7 torpeda-1
+            0 żywa torpeda-1
+            0 torpeda okrętów podwodnych-1
+            0 torpeda ciężka-1
+            0 torpeda zdalnie sterowana-1
+            0 torpeda lotnicza-1
+            1 torpeda samonaprowadzająca się-1
+              0 torpeda akustyczna-1
+          1 strzała-1
+            0 bełt-1
+          4 kula-1, nabój-1
+            0 loftka-1
+            0 nabój bojowy-1, ostry nabój-1
+            0 nabój ćwiczebny-1, ślepy nabój-1, ślepak-1
+            0 kapiszon-1
+          18 bomba-1
+            0 rurobomba-1
+            10 bomba lotnicza-1
+              3 bomba jądrowa-1
+                0 bomba atomowa-1
+                1 bomba wodorowa-1, bomba termojądrowa-1
+                  0 bomba neutronowa-1
+              0 bomba dymna-1
+              0 bomba chemiczna-1, bomba gazowa-1
+              0 bomba kierowana-1
+              0 bomba paliwowo-powietrzna-1
+              0 bomba zapalająca-1
+              0 bomba burząca-1
+            0 bomba głębinowa-1
+            0 bomba napalmowa-1
+            0 brudna bomba-1
+            0 petarda-1
+            1 atomówka-1
+              0 bomba nominalna-1
+        7 łuk-1
+          2 łuk refleksyjny-1
+            0 łuk mongolski-1
+            0 łuk madziarski-1
+          0 łuk angularny-1
+          0 łuk klasyczny-2
+          0 łuk bloczkowy-1
+          0 gastrafetes-1, łuk grecki-1, łuk brzuszny-1
+        4 topór-1, toporek-1, topór bojowy-1
+          0 oksza-1
+          0 berdysz-1, bardysz-1
+          0 bałta-1
+          0 tomahawk-1
+        18 pistolet-1, gnat-1
+          0 trzydziestka ósemka-1
+          0 czterdziestka piątka-1
+          0 beretta-1
+          0 tetetka-1, pistolet TT-1
+          0 wis-1, vis-1
+          0 parabellum-1, parabelka-1
+          0 rakietnica-1
+          VISITED 0 garłacz-1, gardłacz-1, szturmak-2, tromblon-1
+          VISITED 0 mauzer-1
+          0 krócica-1
+          0 pistolet gazowy-1, gazówka-2
+          5 pistolet maszynowy-1, peem-1
+            0 szmajser-1
+            0 glauberyt-1
+            0 brauning-1, browning-1
+            0 pepesza-1
+            0 sten-1
+          0 pistolet automatyczny-1, automat-1
+        8 miecz-1
+          1 miecz jednosieczny-1
+            0 wakizashi-1
+          2 miecz obosieczny-1
+            0 miecz długi-1, miecz bastardowy-1, miecz półtoraręczny-1, półtorak-3
+            0 miecz dwuręczny-1, wielki miecz-1
+          0 gladius-1
+          0 spatha-1
+          0 katera-1
+        30 karabin-1, giwera-1
+          0 karabin Brunszwik-1
+          1 karabin powtarzalny-1
+            0 karabin Berdan-1, berdanka-1
+          0 manlicher-1
+          1 karabin automatyczny-1, karabinek automatyczny-1
+            0 kałasznikow-1, karabinek AK-1, kałach-1, kałasz-1
+          4 karabin odtylcowy-1
+            0 karabinek Gallagera-1
+            0 iglicówka-1, karabin iglicowy-1
+            0 werndel-1
+            0 kammerlader-1
+          1 obrzynek-2, obrzyn-1, urzyn-1, urzynek-1
+            0 półhak-1
+          0 rusznica przeciwpancerna-1, karabin przeciwpancerny-1
+          0 garłacz-1, gardłacz-1, szturmak-2, tromblon-1
+          0 remington-1
+          0 mauzer-1
+          0 karabin skałkowy-1
+          0 karabin myśliwski-1
+          2 karabinek-1, kbk-1
+            1 karabinek sportowy-1, kabekaes-1, kabek-1, kabe-1
+              0 flobert-1, flower-1
+          7 karabin maszynowy-1, kaem-1, kulomiot-2, maszynówka-1
+            0 lkm-1, lekki karabin maszynowy-1
+            0 kartaczownica Gatlinga-1
+            0 karabin maszynowy Maxim-1
+            1 erkaem-1, rkm-1
+              0 karabin maszynowy Browning M1918-1, Karabin maszynowy Browninga-1
+            1 cekaem-1, ckm-1
+              0 karabin maszynowy MG08-2, Maxim wz. 08-1
+        9 czołg-1, tank-1
+          0 leopard-6
+          1 czołg lekki-1
+            0 czołg pościgowy-1
+          0 czołg saperski-1
+          0 leopard-5
+          0 tygrys-2
+          0 olifant-3
+          0 pantera-2
+          0 tankietka-1
+      8 aparat-2
+        0 ustnik-5
+        0 atmoradiograf-1
+        0 neutralizator-1
+        0 repetytor-2
+        0 mnemometr-1
+        0 dyfuzor-2, ekstraktor cukrowniczy-1
+        0 akwalung-1
+        0 czytnik-2
+    44 nóż-1
+      0 motylek-4, balisong-1
+      0 lancet-2
+      0 jarzyniak-2
+      1 siekacz-2
+        0 tasak-2
+      0 zarzynadło-1
+      0 wiórkownik-2
+      3 nóż bojowy-1
+        2 saks-1
+          0 langsaks-1
+          0 skramsaks-1
+      0 majcher-1
+      0 kukri-2, khukri-1
+      0 nóż do sera-1
+      1 nóż rzeźniczy-1
+        0 trybownik-1
+      2 nóż ogrodniczy-1
+        0 krzesak-1
+        0 koser-1
+      2 nóż kieszonkowy-1
+        1 scyzoryk-1
+          0 szwajcarski scyzoryk-1
+      2 nóż chirurgiczny-1
+        1 skalpel-1
+          0 lancet-1
+      0 nóż do papieru-1, rozcinacz-1
+      0 nóż myśliwski-1
+      0 nóż do chleba-1
+      0 knypek-1
+      0 nóż-2, nóż stołowy-1
+      0 sprężynowiec-1, nóż sprężynowy-1, nóż automatyczny-1
+      0 krajak-2
+      0 kosa kuśnierska-1
+      0 knyp-1
+      0 kindżał-1
+      0 kordelas-1
+      0 nóż fiński-1, finka-1
+      0 kozik-1, cyganek-3
+      4 maczeta-1
+        0 maczeta Barong-1
+        0 maczeta Bolo-1, maczeta &quot;Bolo&quot;-1
+        0 parang-1
+        0 fakon-1
+      0 brzytwa-1

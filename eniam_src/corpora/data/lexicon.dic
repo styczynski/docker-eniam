@@ -1,0 +1,56 @@
+@PHRASE_NAMES
+  infp np prepnp adjp ip cp ncp prepncp advp padvp colonp mp intp conj-np
+  adja prepadjp compar measure num aglt aux-fut
+  aux-past aux-imp qub interj sinterj hyphen
+  rparen rparen2 rquot rquot2 rquot3 inclusion
+  day-interval day-lex day-month-interval date-interval
+  month-lex month-interval year-interval roman roman-interval
+  hour-minute-interval hour-interval obj-id match-result
+  url email day-month day year date hour hour-minute lex
+  się nie roku to by s <root> <conll_root> or or2 <colon> <speaker> <speaker-end> <squery> <sentence> <paragraph>
+  <subst> <depr> <ppron12> <ppron3> <siebie> <prep> <num> <numcomp> <intnum>
+  <realnum> <intnum-interval> <realnum-interval> <symbol> <ordnum>
+  <date> <date-interval> <hour-minute> <hour> <hour-minute-interval>
+  <hour-interval> <year> <year-interval> <day> <day-interval> <day-month>
+  <day-month-interval> <month-interval> <roman> <roman-interval> <roman-ordnum>
+  <match-result> <url> <email> <phone-number> <postal-code> <obj-id> <list-item> <fixed> <adj> <apron> <adjc> <adjp> <adja>
+  <adv> <ger> <pact> <ppas> <fin> <bedzie> <praet> <winien> <impt>
+  <imps> <pred> <aglt> <inf> <pcon> <pant> <qub> <comp> <compar> <conj> <interj>
+  <sinterj> <burk> <interp> <part> <unk> <building-number> jak czy za do od o w na z u dla przeciwko location time link miesiąc pod niż w_celu
+  title title-end token inclusion inclusion-end comparp jako quot-end
+  Time GenericDescription
+  Location Street StreetName Town TownName
+  Payment Person Profession ProfessionParam
+  Division OrganizationName OrganizationType OrganizationTypeParam
+  Service ServiceParam SericeEffect
+  Instance Issue Quarter Price Name Confirmation Email Telephone PostalCode
+  HouseNumber Geolocus Measure Rating OpAdNum Y Animal State Interrogative
+  Action Attitude PriceDescription RateDescription ServiceParamDescription
+  null Apoz PHas CORE Has Attr Compar PApoz Merge Count Thme Manr Lemma Arg Time
+  sem nosem
+
+@WEIGHTS
+symbol_weight=1
+measure_weight=1
+
+@LEXICON
+
+pos=adj,cat=HourNumber:
+  QUANT[person=ter]
+  np*number*case*gender*person*coerced*role*node{schema}{local-schema};
+
+pos=adj,cat=DayNumber:
+  QUANT[person=ter]
+  np*number*case*gender*person*coerced*role*node{schema}{local-schema};
+
+
+lemma=</sentence>,pos=interp,node=relations,phrase=s:     BRACKET 
+  QUANT[role=0] 
+  s*role*node
+    \?(ip*T*T*T*T*null*sit+cp*int*T*T*null*sit+cp*sub*T*T*null*sit+mp*T*null*sit+intp*T*null*sit+interj*T*null*sit+sinterj*T*null*sit+np*T*nom*T*ter*Location*null*sit);
+lemma=</sentence>,pos=interp,node=relations,phrase=s:     BRACKET 
+  QUANT[role=0] 
+  s*role*node
+    \?(mp*State*null*sit+intp*State*null*sit+np*T*T*T*ter*State*null*sit+xp*State*null*sit+interj*T*null*sit+sinterj*T*null*sit);
+
+

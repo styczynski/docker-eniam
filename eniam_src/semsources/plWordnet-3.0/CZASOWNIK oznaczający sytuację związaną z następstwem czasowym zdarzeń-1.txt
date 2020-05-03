@@ -1,0 +1,427 @@
+418 *CZASOWNIK oznaczający sytuację związaną z następstwem czasowym zdarzeń-1
+  14 *CZASOWNIK - CZYNNOŚĆ NDK oznaczający sytuacje związane z następstwem czasowym-1
+    0 wyprzedzać-2, uprzedzać-2, ubiegać-1
+    12 powtarzać-2
+      0 odnawiać-5
+      VISITED 0 reasumować-2
+      0 repetować-2, zimować-1
+      0 tłuc-7
+      0 reinwestować-1
+      0 powielać-2
+      0 dublować-2
+      0 ponawiać-1
+      0 młócić-4
+      0 bisować-1
+      1 przytaczać-1, przywoływać-1
+        0 cytować-1
+  87 *CZASOWNIK - ZDARZENIE NDK oznaczający sytuacje związane z następstwem czasowym-1
+    2 przesuwać się-4
+      0 odwlekać się-1, odpływać-8, oddalać się-4, odsuwać się-2
+      0 opóźniać się-3, spóźniać się-4
+    1 spóźniać się-3, opóźniać się-1
+      0 zalegać-1
+    2 przedłużać się-1, wydłużać się-2, przeciągać się-1, przewlekać się-1
+      0 rozwlekać się-1
+      0 ślimaczyć się-1
+    19 powtarzać się-2
+      VISITED 16 wznawiać się-1
+      0 przewijać się-3
+      0 dublować się-1
+    75 zaczynać się-1, rozpoczynać się-1
+      0 podnosić się-8
+      0 obruszać się-3
+      16 wznawiać się-1
+        15 odnawiać się-3, odżywać-1
+          0 odzywać się-5
+          1 przypominać się-2
+            0 majaczyć-3
+          10 powracać-4, odzyskiwać-2, wracać-6
+            0 rehabilitować się-2
+            1 przytomnieć-1, cucić się-1, ocucać się-1
+              0 trzeźwieć-1
+            5 regenerować się-2
+              0 orzeźwiać się-1
+              3 odświeżać się-2
+                0 otrzeźwiać się-1
+                1 dotleniać się-1
+                  0 przewietrzać się-3
+            0 odżywać-2, ożywać-1
+          0 odradzać się-2
+      0 sięgać-3
+      0 zachciewać się-1
+      0 wschodzić-1
+      0 wstawać-3
+      40 pojawiać się-4
+        6 tworzyć się-2, powstawać-6
+          0 nawiązywać się-1
+          0 wyrastać-4, budować się-2
+          3 organizować się-2
+            1 formować się-2
+              0 konstytuować się-1
+            0 zawiązywać się-1
+        0 objawiać się-2
+        0 rodzić się-2, przychodzić na świat-1
+        0 przebłyskiwać-2
+        0 wdzierać się-3
+        0 nadpływać-4
+        9 wyrastać-8
+          2 odrastać-1
+            1 regenerować się-1
+              0 odradzać się-1, odnawiać się-2
+          0 wykwitać-2
+          4 rozwijać się-5
+            0 kiełkować-2, wschodzić-3
+            0 wegetować-2
+            0 pączkować-2
+            0 kwitnąć-3, kwiecić się-1, zakwitać-2, rozkwitać-1
+        0 zawisać-4
+        1 trafiać-5
+          0 lądować-3
+        0 wkradać się-2, zakradać się-3
+        0 podnosić głowę-1
+        12 powstawać-1, tworzyć się-1, stwarzać się-1, wytwarzać się-1
+          0 wypiętrzać się-1
+          0 zawiązywać się-2, wiązać się-7
+          3 roić się-3
+            0 wydawać się-3
+            1 przywidywać się-1, zwidywać się-1
+              0 majaczyć się-1
+          3 rodzić się-3, kiełkować-1
+            0 nasuwać się-1
+            1 wynikać-1, wypływać-3, płynąć-2
+              0 implikować się-1
+          1 kształtować się-1, wykształcać się-1
+            0 formułować się-1
+      0 zawiązywać się-3
+      0 wybuchać-4
+      0 ruszać się-6
+      0 rozwijać się-8
+      2 zapalać się-1
+        1 rozpalać się-4, rozniecać się-2, rozpłomieniać się-1
+          0 wzniecać się-1
+      3 pochodzić-4, wywodzić się-2, wyrastać-7, sięgać korzeniami-1
+        0 rekrutować się-2
+        0 pamiętać-4
+        0 wychodzić-11
+  7 *CZASOWNIK - PROCES NDK oznaczający zmianę w następstwie czasowym-1
+    0 skracać się-2
+    0 rzednąć-3
+    4 zbliżać się-2, iść-14, nadciągać-2, nadchodzić-1
+      0 iść-15
+      0 przypływać-3
+      0 nadpływać-2
+      0 dobiegać-2
+  95 *CZASOWNIK - PROCES DK oznaczający zmianę w następstwie czasowym-1
+    0 skrócić się-1
+    0 zrzednąć-3
+    92 zbliżyć się-2, przyjść-2, nadejść-1, nadciągnąć-1
+      0 przypłynąć-4
+      0 nadpłynąć-2
+      0 zapachnieć-2
+      0 dobiec-2, dobiegnąć-2
+      87 dojść-14
+        85 dobiec-3, dobiegnąć-4
+          84 skończyć się-1, zakończyć się-2, dobiec końca-1
+            0 przepadać-3
+            0 przepaść-3
+            0 sfinalizować się-1
+            1 rozpaść się-3, rozlecieć się-3, rozsypać się-4
+              0 zawalić się-2
+            0 obumrzeć-2
+            0 przejść-15
+            1 przeminąć-1
+              0 przekwitnąć-2
+            0 wygasnąć-4
+            0 zbankrutować-2
+            64 przestać-2, ustać-1
+              0 stanąć-5
+              0 stanąć-4
+              0 rozejść się-5
+              17 zginąć-4, zaniknąć-1
+                0 wsiąknąć-6
+                13 zniknąć-3, przepaść-2
+                  0 rozproszyć się-6, rozejść się-7
+                  0 utonąć-4
+                  0 pogrążyć się-4
+                  9 ukryć się-1, schować się-1, skryć się-1
+                    0 zapaść-2
+                    VISITED 0 zajść-4
+                    0 zaszyć się-1
+                    0 zabarykadować się-1, zatarasować się-1
+                    0 przycupnąć-1
+                    0 zadekować się-1
+                    0 zamelinować się-1
+                    0 przyczaić się-1, przywarować-1
+                    0 schronić się-1
+                1 zatrzeć się-1, rozmyć się-2, rozpłynąć się-2, rozmazać się-1, zamazać się-3
+                  0 zmętnieć-3
+              0 zajść-4
+              0 dopalić się-2
+              0 umrzeć-2
+              2 rozwiązać-5
+                0 rozformować-2
+                0 zamknąć-10
+              0 utknąć-3
+              0 ustać-3
+              6 przestać-3
+                0 oślepnąć-2, poślepnąć-2
+                0 oślepnąć-1, ociemnieć-1, poślepnąć-1
+                3 minąć-3, przejść-4
+                  0 ustąpić-2
+                  1 odejść-6
+                    0 odbiec-3, odbiegnąć-3
+              0 wygasnąć-3
+              2 ucichnąć-1, uspokoić się-2, uciszyć się-1
+                1 przycichnąć-2
+                  0 przyschnąć-3
+              0 zamrzeć-5
+              3 ucichnąć-2, zamrzeć-3, zamilknąć-3, umilknąć-1
+                0 przycichnąć-1
+                0 uspokoić się-4, ułagodzić się-1
+                0 wybrzmieć-2, przebrzmieć-2
+              3 zgasnąć-1, zagasnąć-1
+                0 wygasnąć-1, dogasnąć-1
+                0 pogasnąć-1
+                0 wypalić się-1
+              15 umrzeć-1, skonać-1, zemrzeć-1, odejść-5, zgasnąć-4, wyzionąć ducha-1, dokonać żywota-1, dokonać życia-1, rozstać się z życiem-1, pożegnać się z życiem-1, pożegnać się ze światem-1, przenieść się na tamten świat-1, przenieść się do wieczności-1, przenieść się do lepszego świata-1, przenieść się na łono Abrahama-1, zakończyć życie-1, zasnąć na wieki-1, zasnąć snem wiecznym-1
+                0 zamarznąć-3
+                0 zapić się-2
+                0 wykrwawić się-2
+                0 zawisnąć-4
+                2 zdechnąć-2
+                  1 paść-3
+                    0 osypać się-8, obsypać się-8
+                2 wymrzeć-2
+                  0 wymarznąć-2
+                  0 wygasnąć-5
+                1 udusić się-2, zadusić się-1
+                  0 udławić się-2
+                2 zginąć-2, ponieść śmierć-1, stracić życie-1, zabić się-1
+                  0 utonąć-3, utopić się-1, zatonąć-4
+                  0 polec-1, lec-2
+            7 upłynąć-1, minąć-2, ubiec-3, ubiegnąć-3
+              0 ekspirować-1
+              0 przepłynąć-3
+              0 przemknąć-4
+              1 zbiec-3
+                0 zlecieć-4
+              1 przebiec-3
+                0 przelecieć-7
+        0 wkroczyć-3, wejść-9
+  13 *CZASOWNIK - AKT oznaczający następstwo czasowe zdarzeń-1
+    4 zaczekać-1
+      3 wyczekać-1, doczekać-2
+        2 przeczekać-2
+          0 przespać-3
+          0 przeleżeć-2
+    0 wyprzedzić-1, uprzedzić-2, ubiec-1, ubiegnąć-2
+    6 powtórzyć-3
+      0 reasumować-2
+      0 popalić-1
+      0 ponowić-1
+      0 zdublować-2
+      1 przywołać-2, przytoczyć-1
+        0 zacytować-1
+  197 *CZASOWNIK - WYPADEK oznaczający następstwo czasowe zdarzeń-1
+    4 przesunąć się-3
+      0 odpłynąć-6, oddalić się-4
+      0 podjechać-4
+      0 odwlec się-1, odsunąć się-3
+      0 opóźnić się-2, spóźnić się-3
+    0 spóźnić się-2, opóźnić się-1
+    0 poprzedzić-2
+    1 przedłużyć się-1, wydłużyć się-2, przewlec się-1, przeciągnąć się-1
+      0 rozwlec się-2
+    0 współwystąpić-1
+    18 powtórzyć się-1
+      VISITED 0 wznowić się-1
+      16 odnowić się-3, odżyć-1
+        0 odezwać się-5
+        0 przypomnieć się-3
+        2 odzyskać-2
+          0 zrehabilitować się-2
+          0 przemówić-5
+        9 powrócić-6, wrócić-5
+          5 zregenerować się-2
+            0 orzeźwić się-1
+            3 odświeżyć się-2
+              0 otrzeźwić się-1
+              1 dotlenić się-1
+                0 przewietrzyć się-4
+          0 odżyć-2, ożyć-1, zmartwychwstać-2
+          1 oprzytomnieć-2, ocknąć się-1, ocucić się-1
+            0 otrzeźwieć-1, wytrzeźwieć-1
+        0 odrodzić się-2
+    168 zacząć się-1, rozpocząć się-1
+      2 podnieść się-8
+        1 rozpętać się-2
+          0 rozszaleć się-2
+      0 wznowić się-1
+      0 zachcieć się-2
+      0 wzejść-2
+      0 wstać-2
+      0 zawiązać się-3
+      117 *zacząć [klasa Laskowskiego: WYPADEK]-1
+        1 *ZACZĄĆ - WYPADEK - o pojawiających się zmianach w obrębie rzeczywistości społecznej-1
+          0 wybuchnąć-3, rozgorzeć-4
+        6 *ZACZĄĆ - WYPADEK - o pojawiających się zmianach w układzie przyczynowo-skutkowym-1
+          0 zasmakować-4
+          0 rozszczekać się-3
+          1 zadziałać-3
+            0 odpalić-7
+          0 zaskoczyć-2, odblokować się-2
+          0 ruszyć się-4
+        22 *ZACZĄĆ - WYPADEK oznaczający reakcję organizmu lub czynność fizjologiczne-1
+          0 rozkaszleć się-1, rozkasłać się-1
+          0 zagorączkować-1
+          0 rozrechotać się-1
+          14 nabawić się-1, dostać-3
+            0 odleżeć-2
+            0 napytać się-1
+            1 zarazić się-1, zainfekować się-1
+              0 zakazić się-1
+            9 zachorować-1, rozchorować się-1, zapaść-5, pochorować się-2, zaniemóc-1
+              0 sparszywieć-1
+              0 zlec-3, zlegnąć-2
+              3 zachorować psychicznie-1, zachorować na głowę-1
+                0 skretynieć-2
+                0 stracić rozum-1, zwariować-1, oszaleć-1, dostać pomieszania zmysłów-1
+                0 zidiocieć-2
+              0 przeziębić się-2, zaziębić się-1, przechłodzić się-2
+              0 dorobić się-2, doprawić się-2
+              0 wściec się-2
+          0 rozgęgać się-1
+          0 rozgdakać się-1
+          0 rozkrzyczeć się-2
+          0 rozszczekać się-2
+        12 *ZACZĄĆ - WYPADEK oznaczający zmianę relacji abstrakcyjnych-1
+          4 objąć-6
+            3 zmieścić-4
+              0 objąć-7
+              1 zawrzeć-9
+                0 zamknąć-11
+          1 uzupełnić-2, dopełnić-4
+            0 dopowiedzieć-3
+          4 wyróżnić się-2, wyodrębnić się-2
+            0 wybić się-3
+            0 wypłynąć-7
+            0 rozbłysnąć-3, zabłysnąć-4
+            0 zalecić się-2
+        2 *ZACZĄĆ - WYPADEK - o pojawiających się zmianach położenia lub układu przestrzennego-1
+          0 obruszyć się-3
+          0 zafalować-2
+        13 *ZACZĄĆ - WYPADEK - o zmieniających się zjawiskach fizycznych-1
+          0 zawtórować-3
+          0 rozszumieć się-2
+          0 rozdygotać się-1
+          0 zatlić się-1
+          0 lunąć-1
+          0 rozpadać się-4
+          0 zawiać-5, powiać-4
+          1 zaświecić-1
+            0 zamigotać-2, zagrać-12, zadrgać-3
+          3 zapalić się-2, zapłonąć-1
+            1 rozpalić się-1, rozniecić się-2, rozpłomienić się-1
+              0 wzniecić się-1
+            0 zaiskrzyć-2
+        54 *ZACZĄĆ - WYPADEK - o pojawiających się emocjach, o zmianie stanu mentalnego bądź psychicznego-1
+          0 zdać się-3
+          0 nadąć się-2
+          0 zaśmierdzieć-1
+          2 *zacząć żywić do kogoś/do czegoś uczucie negatywne-1
+            0 pogniewać się-3
+            0 znienawidzić-1
+          3 powziąć-3
+            2 zawziąć się-1
+              1 uwziąć się-1
+                0 wsiąść na głowę-1, wejść na kark-1, wsiąść na kark-1, wleźć na kark-1
+          0 uwierzyć-3
+          2 obdarować-2, obdarzyć-2
+            0 obsypać-5, osypać-5
+            0 przelać-6
+          12 zobaczyć-1, zoczyć-1, ujrzeć-1
+            0 zaobserwować-1
+            VISITED 10 zauważyć-1, dostrzec-1, postrzec-3, dojrzeć-1, spostrzec-1
+          2 polubić-1
+            0 zasmakować-2
+            0 rozsmakować się-1
+          13 *zacząć żywić do kogoś/do czegoś uczucie pozytywne-1
+            1 zawierzyć-2, zaufać-2, uwierzyć-4
+              0 oprzeć się-4
+            2 zakochać się-1, wpaść-8, rozkochać się-1
+              0 poczuć miętę-1
+              0 zadurzyć się-1
+            0 pokochać-1
+            1 polubić-2
+              0 przywiązać się-1, przylgnąć-6
+            4 zaangażować się-2, włożyć całą duszę-1
+              1 zatracić się-1
+                0 oszaleć-3
+              0 wciągnąć się-1
+              0 rozentuzjazmować się-1
+          18 zainteresować się-1, zaciekawić się-1
+            17 zwrócić uwagę-2
+              0 przejrzeć się-2
+              0 przysłuchać się-1, wsłuchać się-1
+              1 odkryć-2
+                0 namacać-1, wymacać-1
+              10 zauważyć-1, dostrzec-1, postrzec-3, dojrzeć-1, spostrzec-1
+                0 odnotować-2
+                0 podchwycić-4
+                1 wyłapać-2, wychwycić-1, wyłowić-2
+                  0 wyłuskać-2
+                VISITED 0 przejrzeć-6, przejrzeć na oczy-1
+                0 odnaleźć-2
+                3 rozróżnić-1, odróżnić-2
+                  2 rozpoznać-1, poznać-4
+                    0 zidentyfikować-2
+                    0 zdiagnozować-2
+              1 przyjrzeć się-2, przypatrzyć się-1, obejrzeć-2, oglądnąć-2, przyglądnąć się-2
+                0 podpatrzyć-1, podglądnąć-1, podejrzeć-1
+          2 zrozumieć-3, pojąć-1, objąć umysłem-1, ogarnąć umysłem-1, pochwycić-4, objąć-5
+            0 przejrzeć-6, przejrzeć na oczy-1
+            0 poznać-6
+      0 posypać się-2
+      0 rozwinąć się-4
+      0 począć się-1
+      38 zaistnieć-1, pojawić się-4
+        12 powstać-6, utworzyć się-2, wytworzyć się-1, stworzyć się-1
+          2 uroić się-1
+            0 wydać się-3
+            0 przywidzieć się-1, zwidzieć się-1
+          0 wypiętrzyć się-1
+          0 zawiązać się-2
+          2 zrodzić się-1, wykiełkować-1, zakiełkować-1, narodzić się-1, począć się-2
+            0 nasunąć się-1
+            0 wyniknąć-1, wypłynąć-6
+          3 ukształtować się-2, wykształcić się-1
+            VISITED 1 uformować się-2
+            0 sformułować się-1
+        0 objawić się-2
+        0 zalęgnąć się-2, zaląc się-2
+        1 nadpłynąć-3
+          VISITED 0 przepłynąć-4
+        3 zagościć-1, postać-6
+          0 przepłynąć-4
+          0 zabłysnąć-3
+          0 zamieszkać-1
+        0 lec-3
+        0 podnieść głowę-1
+        0 zakraść się-3, wkraść się-2
+        2 zagrozić-2
+          1 zawisnąć-5
+            0 zawisnąć na włosku-1
+        5 wyrosnąć-3
+          0 odrosnąć-1
+          0 wykwitnąć-2
+          2 rozwinąć się-6
+            0 wykiełkować-2, wzejść-3, zakiełkować-2
+            0 zakwitnąć-2, rozkwitnąć-2
+        0 urodzić się-1, narodzić się-2, przyjść na świat-1
+        6 powstać-1, utworzyć się-1
+          0 nawiązać się-1
+          0 wyrosnąć-5
+          3 zorganizować się-2
+            1 uformować się-2
+              0 ukonstytuować się-1
+            0 zawiązać się-1

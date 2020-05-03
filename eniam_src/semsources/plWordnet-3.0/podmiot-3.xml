@@ -1,0 +1,1452 @@
+<node name="podmiot-3" size="1120">
+  <node name="zarządca kompensacji-1" size="0"/>
+  <node name="osoba zagraniczna-1" size="0"/>
+  <node name="osoba trzecia-2" size="0"/>
+  <node name="nierezydent-1" size="0"/>
+  <node name="rezydent-4" size="1">
+    <node name="rezydent długoterminowy-1" size="0"/>
+  </node>
+  <node name="osoba podejrzana-1" size="0"/>
+  <node name="interesariusz-1" size="0"/>
+  <node name="podejrzany-1" size="0"/>
+  <node name="strona-10" size="22">
+    <node name="advocatus diaboli-2, adwokat diabła-2" size="0"/>
+    <node name="ława oskarżonych-1" size="0"/>
+    <node name="apelant-1" size="0"/>
+    <node name="procesowicz-1" size="0"/>
+    <node name="podsądny-1, oskarżony-1" size="0"/>
+    <node name="oskarżyciel-1" size="8">
+      <node name="oskarżyciel prywatny-1" size="0"/>
+      <node name="oskarżyciel publiczny-1" size="5">
+        <node name="prokurator-1" size="4">
+          <node name="podprokurator-1" size="0"/>
+          <node name="prokurator generalny-1" size="1">
+            <node name="instygator-1" size="0"/>
+          </node>
+          <node name="wiceprokurator-1" size="0"/>
+        </node>
+      </node>
+      <node name="oskarżyciel posiłkowy-1" size="0"/>
+    </node>
+    <node name="pozwany-1" size="0"/>
+    <node name="powód-3" size="2">
+      <node name="powód cywilny-1" size="0"/>
+      <node name="oskarżyciel prywatny-1" size="0"/>
+    </node>
+    <node name="adwokat-1, obrońca-2, obrona-2" size="4">
+      <node name="paraklet-1" size="0"/>
+      <node name="dziekan-5" size="0"/>
+      <node name="adwokat z urzędu-1, obrońca z urzędu-1" size="0"/>
+      <node name="kauzyperda-1, adwokacina-1" size="0"/>
+    </node>
+  </node>
+  <node name="przejemca-1" size="0"/>
+  <node name="wystawca-2" size="1">
+    <node name="trasant-1" size="0"/>
+  </node>
+  <node name="osoba prawna-1" size="675">
+    <node name="instytucja-1" size="674">
+      <node name="inkubator przedsiębiorczości-1" size="0"/>
+      <node name="opieka społeczna-2" size="0"/>
+      <node name="grób pobielany-2" size="0"/>
+      <node name="jednostka naukowa-1" size="0"/>
+      <node name="instytucja obowiązana-1" size="0"/>
+      <node name="miasteczko wodne-1" size="0"/>
+      <node name="dom maklerski-1" size="0"/>
+      <node name="landszafta-1" size="0"/>
+      <node name="laktarium-1" size="0"/>
+      <node name="kasa-6" size="1">
+        <node name="kasa bracka-1" size="0"/>
+      </node>
+      <node name="kuźnia-3" size="2">
+        <node name="pepiniera-2" size="0"/>
+        <node name="uniwersytet-1, uniwerek-1" size="0"/>
+      </node>
+      <node name="kantor-6" size="0"/>
+      <node name="stacja-3" size="3">
+        <node name="radio-1, rozgłośnia-1, radiostacja-2, rozgłośnia radiowa-1, fale eteru-1" size="2">
+          <node name="radio internetowe-1" size="0"/>
+          <node name="radiowęzeł-1" size="0"/>
+        </node>
+      </node>
+      <node name="fundusz-2" size="0"/>
+      <node name="agencja-4" size="1">
+        <node name="agencja kosmiczna-1" size="0"/>
+      </node>
+      <node name="wywiadownia gospodarcza-1, wywiadownia-1" size="0"/>
+      <node name="biuro-1" size="9">
+        <node name="biuro techniczne-1" size="0"/>
+        <node name="biuro adresowe-1" size="0"/>
+        <node name="biuro konstrukcyjne-1" size="0"/>
+        <node name="biuro rachunkowe-1" size="0"/>
+        <node name="biuro maklerskie-1" size="0"/>
+        <node name="kantor-7" size="0"/>
+        <node name="biuro podróży-2" size="1">
+          <node name="touroperator-1" size="0"/>
+        </node>
+        <node name="gabinet polityczny-1" size="0"/>
+      </node>
+      <node name="parabank-1" size="0"/>
+      <node name="opera-5" size="0"/>
+      <node name="nakładca-2" size="0"/>
+      <node name="wydawca-2" size="1">
+        <node name="koedytor-2, współwydawca-2" size="0"/>
+      </node>
+      <node name="antrepryza-1" size="0"/>
+      <node name="druidyzm-2" size="0"/>
+      <node name="dom-3" size="36">
+        <node name="dom samotnej matki-1" size="0"/>
+        <node name="dom pogodnej starości-1" size="0"/>
+        <node name="dom przedpogrzebowy-1" size="0"/>
+        <node name="schronisko-2, azyl-3" size="0"/>
+        <node name="dom gry-1, kasyno-2, salon gry-1" size="1"/>
+        <node name="dom starców-1, przytułek-2" size="0"/>
+        <node name="dom kultury-1" size="0"/>
+        <node name="sierociniec-1, ochronka-1, dom dziecka-1" size="0"/>
+        <node name="dom zdrojowy-1" size="0"/>
+        <node name="dom towarowy-1" size="2">
+          <node name="pedet-1" size="1">
+            <node name="cedet-1" size="0"/>
+          </node>
+        </node>
+        <node name="dom publiczny-1, agencja towarzyska-1" size="0"/>
+        <node name="dom poprawczy-1, zakład poprawczy-1, poprawczak-1" size="0"/>
+        <node name="kościół-2, Dom Boży-2" size="19">
+          <node name="kościół ścienno-filarowy-1" size="0"/>
+          <node name="kościół filialny-1" size="0"/>
+          <node name="kościół parafialny-1" size="0"/>
+          <node name="parafia-3" size="0"/>
+          <node name="kościół salowy-1" size="0"/>
+          <node name="fara-1, kościół farny-1" size="0"/>
+          <node name="konkatedra-1, współkatedra-1, kościół konkatedralny-1" size="0"/>
+          <node name="kolegiata-1" size="0"/>
+          <node name="zbór-1, kircha-1" size="0"/>
+          <node name="kościół halowy-1" size="0"/>
+          <node name="cerkiew-2, cerkiew prawosławna-2" size="4">
+            <node name="cerkiew łemkowska-1" size="0"/>
+            <node name="cerkiew huculska-1" size="0"/>
+            <node name="cerkiew bojkowska-1" size="0"/>
+            <node name="sobór-2" size="0"/>
+          </node>
+          <node name="katedra-1" size="2">
+            <node name="prokatedra-1" size="0"/>
+            <node name="archikatedra-1" size="0"/>
+          </node>
+          <node name="bazylika-1" size="0"/>
+        </node>
+        <node name="szpital psychiatryczny-1, dom wariatów-2, wariatkowo-1, dom obłąkanych-1" size="0"/>
+      </node>
+      <node name="poczta-1" size="2">
+        <node name="poczta lotnicza-1" size="0"/>
+        <node name="poczta polowa-1" size="0"/>
+      </node>
+      <node name="emitent-1" size="0"/>
+      <node name="zakład-2" size="0"/>
+      <node name="instytucja-2" size="81">
+        <node name="świetlica-3" size="2">
+          <node name="świetlica środowiskowa-1" size="0"/>
+          <node name="świetlica-2" size="0"/>
+        </node>
+        <node name="misja dyplomatyczna-1" size="0"/>
+        <node name="jednostka pomocnicza-1" size="1">
+          <node name="samorząd pomocniczy-1" size="0"/>
+        </node>
+        <node name="hofrat-1" size="0"/>
+        <node name="kuchnia-6" size="1">
+          <node name="garkuchnia-2" size="0"/>
+        </node>
+        <node name="inkwizycja-2" size="0"/>
+        <node name="ubezpieczalnia-1, kasa chorych-1" size="0"/>
+        <node name="skarb państwa-1, fiskus-1" size="0"/>
+        <node name="służba-2" size="44">
+          <node name="służba hydrologiczna-1" size="0"/>
+          <node name="służba meteorologiczna-1" size="0"/>
+          <node name="służba publiczna-1" size="18">
+            <node name="straż łowiecka-1" size="0"/>
+            <node name="służba radiokomunikacyjna-1" size="0"/>
+            <node name="służba porządkowa-1" size="0"/>
+            <node name="służba sanitarna-1" size="0"/>
+            <node name="straż gminna-1" size="0"/>
+            <node name="służba celna-2" size="0"/>
+            <node name="straż rybacka-2" size="0"/>
+            <node name="służba więzienna-3" size="0"/>
+            <node name="straż leśna-3, służba leśna-3" size="0"/>
+            <node name="policja municypalna-1" size="0"/>
+            <node name="straż miejska-1" size="0"/>
+            <node name="pogotowie-2" size="5">
+              <node name="pogotowie energetyczne-1" size="0"/>
+              <node name="pogotowie opiekuńcze-1" size="0"/>
+              <node name="pogotowie techniczne-1" size="0"/>
+              <node name="pogotowie ratunkowe-1" size="0"/>
+              <node name="pogotowie gazowe-1" size="0"/>
+            </node>
+            <node name="straż pożarna-1, straż-4" size="0"/>
+          </node>
+          <node name="demobil-2" size="0"/>
+          <node name="wywiad-3" size="1">
+            <node name="wywiad skarbowy-1" size="0"/>
+          </node>
+          <node name="służba kościelna-1" size="0"/>
+          <node name="służby wewnętrzne państwa-1" size="17" abstract="true">
+            <node name="straż graniczna-1" size="0"/>
+            <node name="służby specjalne-1, specsłużby-1, tajne służby-1" size="0"/>
+            <node name="służba bezpieczeństwa-1, bezpieka-1" size="0"/>
+            <node name="policja-2" size="13">
+              <node name="policja sądowa-1" size="0"/>
+              <node name="policja polityczna-1" size="0"/>
+              <node name="policja obyczajowa-1, obyczajówka-1" size="0"/>
+              <node name="granatowa policja-1" size="0"/>
+              <node name="policja dochodzeniowa-1, dochodzeniówka-1" size="0"/>
+              <node name="gestapo-1" size="0"/>
+              <node name="Europol-1" size="0"/>
+              <node name="ochrana-1" size="0"/>
+              <node name="Interpol-1" size="0"/>
+              <node name="milicja-1" size="1">
+                <node name="milicja obywatelska-1" size="0"/>
+              </node>
+              <node name="żandarmeria-1" size="0"/>
+              <node name="drogówka-1, policja drogowa-1" size="0"/>
+            </node>
+          </node>
+          <node name="służba zdrowia-1" size="0"/>
+        </node>
+        <node name="sąd-2" size="23">
+          <node name="sąd drugiej instancji-1" size="0"/>
+          <node name="sąd pierwszej instancji-1, sąd I instancji-1" size="0"/>
+          <node name="sąd rejestrowy-1" size="0"/>
+          <node name="sąd rodzinny-1" size="0"/>
+          <node name="sąd opiekuńczy-1" size="0"/>
+          <node name="e-sąd-1" size="0"/>
+          <node name="dintojra-2" size="0"/>
+          <node name="ziemstwo-1, sąd ziemski-1" size="0"/>
+          <node name="sąd przysięgłych-1" size="0"/>
+          <node name="sąd kapturowy-1" size="0"/>
+          <node name="sąd skorupkowy-1, ostracyzm-1" size="0"/>
+          <node name="sąd rewizyjny-2" size="0"/>
+          <node name="sąd doraźny-2" size="0"/>
+          <node name="sąd wojskowy-2" size="2">
+            <node name="sąd wojenny-2" size="0"/>
+            <node name="sąd polowy-2" size="0"/>
+          </node>
+          <node name="sąd polubowny-2" size="0"/>
+          <node name="sąd okręgowy-2" size="0"/>
+          <node name="sąd apelacyjny-2" size="1">
+            <node name="rota-1" size="0"/>
+          </node>
+          <node name="sąd grodzki-2" size="0"/>
+          <node name="trybunał-2" size="1">
+            <node name="sąd kaperski-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="impresariat-1" size="0"/>
+      <node name="filharmonia-1" size="0"/>
+      <node name="dom kultury-1" size="0"/>
+      <node name="cyrk-2" size="0"/>
+      <node name="balet-3" size="0"/>
+      <node name="wesołe miasteczko-1, lunapark-1" size="1">
+        <node name="park rozrywki-1" size="0"/>
+      </node>
+      <node name="szkoła-2" size="42">
+        <node name="szkoła podwydziałowa-1" size="0"/>
+        <node name="Rej-3" size="0"/>
+        <node name="szkoła policealna-1" size="2">
+          <node name="szkoła pomaturalna-2" size="0"/>
+          <node name="studium-3" size="0"/>
+        </node>
+        <node name="budowlanka-2" size="0"/>
+        <node name="jazzówka-3" size="0"/>
+        <node name="college-1, koledż-1" size="0"/>
+        <node name="preparanda-1" size="0"/>
+        <node name="szkoła podstawowa-4, podstawówka-3" size="0"/>
+        <node name="szkoła specjalna-1" size="0"/>
+        <node name="handlówka-1, szkoła handlowa-1" size="0"/>
+        <node name="quadrivium-1, kwadrywium-2" size="0"/>
+        <node name="dziesięciolatka-2" size="0"/>
+        <node name="efebia-2" size="0"/>
+        <node name="medresa-1, madrasa-2" size="0"/>
+        <node name="podchorążówka-1" size="0"/>
+        <node name="szkoła ponadgimnazjalna-1" size="5">
+          <node name="liceum-4" size="3"/>
+          <node name="technikum-3" size="0"/>
+        </node>
+        <node name="szkoła wyższa-2, uczelnia-2" size="8">
+          <node name="latający uniwersytet-1" size="0"/>
+          <node name="uczelnia akademicka-1" size="0"/>
+          <node name="akademia-4" size="0"/>
+          <node name="filmówka-1, szkoła filmowa-1" size="0"/>
+          <node name="jesziwa-1, jesziba-1, akademia talmudyczna-1, jeszybot-1" size="0"/>
+          <node name="medresa-2, madrasa-1" size="0"/>
+          <node name="uniwersytet-1, uniwerek-1" size="0"/>
+          <node name="politechnika-1, polibuda-1" size="0"/>
+        </node>
+        <node name="szkoła ponadpodstawowa-2" size="13">
+          <node name="zawodówka-2, zasadnicza szkoła zawodowa-1" size="2">
+            <node name="samochodówka-2" size="0"/>
+            <node name="budowlanka-1" size="0"/>
+          </node>
+          <node name="szkoła średnia-2" size="8">
+            <node name="korpus kadetów-1" size="0"/>
+            <node name="liceum-4" size="3">
+              <node name="liceum plastyczne-1" size="0"/>
+              <node name="liceum ogólnokształcące-1, ogólniak-2, LO-1" size="0"/>
+              <node name="liceum profilowane-1, profilak-1" size="0"/>
+            </node>
+            <node name="progimnazjum-1" size="0"/>
+            <node name="seminarium-2" size="0"/>
+            <node name="technikum-3" size="0"/>
+          </node>
+          <node name="gimnazjum-2" size="0"/>
+        </node>
+        <node name="kolegium-2" size="0"/>
+      </node>
+      <node name="inkwizycja-1" size="0"/>
+      <node name="lombard-1" size="0"/>
+      <node name="ubezpieczyciel-1, zakład ubezpieczeń-1" size="1">
+        <node name="reasekurator-1" size="0"/>
+      </node>
+      <node name="podmiot gospodarczy-1, jednostka gospodarcza-1, agent gospodarczy-1" size="389">
+        <node name="sprzedawca-2" size="0"/>
+        <node name="sieciówka-1" size="0"/>
+        <node name="gospodarstwo krajowe-1" size="0"/>
+        <node name="spółdzielnia mieszkaniowa-1" size="0"/>
+        <node name="gospodarstwo domowe-2" size="0"/>
+        <node name="cenotwórca-1" size="0"/>
+        <node name="cenobiorca-1" size="0"/>
+        <node name="dostawca-1" size="5">
+          <node name="deweloper-2" size="0"/>
+          <node name="kolporter-1" size="0"/>
+          <node name="poddostawca-1" size="0"/>
+          <node name="dystrybutor-1" size="0"/>
+          <node name="provider-1" size="0"/>
+        </node>
+        <node name="wykonawca-3" size="2">
+          <node name="podwykonawca-1" size="0"/>
+          <node name="zleceniobiorca-1" size="0"/>
+        </node>
+        <node name="koncesjonariusz-1" size="0"/>
+        <node name="monopol-1, monopolista-1" size="1">
+          <node name="trust-1" size="0"/>
+        </node>
+        <node name="armator-1" size="0"/>
+        <node name="spółka-1" size="22">
+          <node name="spółka parterowa-1" size="0"/>
+          <node name="korporacja-2" size="1">
+            <node name="radio taxi-4" size="0"/>
+          </node>
+          <node name="podmiot powiązany-1, spółka powiązana-1" size="0"/>
+          <node name="spółka holdingowa-1" size="1">
+            <node name="spółka córka-1" size="0"/>
+          </node>
+          <node name="spółka handlowa-1" size="12">
+            <node name="spółka osobowa-1" size="5">
+              <node name="lwia spółka-1" size="0"/>
+              <node name="spółka komandytowo-akcyjna-1" size="0"/>
+              <node name="spółka partnerska-1" size="0"/>
+              <node name="spółka komandytowa-1, komandytarium-1" size="0"/>
+              <node name="spółka jawna-1" size="0"/>
+            </node>
+            <node name="spółka kapitałowa-1" size="5">
+              <node name="spółka jednoosobowa-1" size="0"/>
+              <node name="spółka akcyjna-1, S.A.-1" size="2">
+                <node name="spółka publiczna-1" size="0"/>
+                <node name="spółka giełdowa-1" size="0"/>
+              </node>
+              <node name="sp. z o.o.-1, spółka z ograniczoną odpowiedzialnością-1" size="0"/>
+            </node>
+          </node>
+          <node name="jednoosobowa spółka skarbu państwa-1" size="0"/>
+          <node name="spółka cicha-1" size="0"/>
+          <node name="spółka cywilna-1, s.c.-1" size="0"/>
+        </node>
+        <node name="inwestor-1" size="4"/>
+        <node name="firma-1, interes-3, biznes-2, business-1, przedsiębiorstwo-1" size="340">
+          <node name="touroperator-2" size="0"/>
+          <node name="instytucja kredytowa-1" size="1">
+            <node name="bank korespondent-1" size="0"/>
+          </node>
+          <node name="gigant-8" size="0"/>
+          <node name="dom aukcyjny-1" size="0"/>
+          <node name="działalność gospodarcza-2" size="0"/>
+          <node name="firma-wydmuszka-1, firma wydmuszka-1" size="0"/>
+          <node name="przedsiębiorstwo uzdrowiskowe-1" size="0"/>
+          <node name="firma krzak-1" size="0"/>
+          <node name="dom mody-1" size="0"/>
+          <node name="firma zwrotowa-1" size="0"/>
+          <node name="pośrednik-3" size="1">
+            <node name="faktor-5" size="0"/>
+          </node>
+          <node name="konkurencja-6" size="2">
+            <node name="konkurencja monopolistyczna-1" size="0"/>
+            <node name="konkurencja doskonała-1" size="0"/>
+          </node>
+          <node name="geszeft-2" size="0"/>
+          <node name="zakład-1" size="235">
+            <node name="zakład komunalny-1, zakład usług komunalnych-1" size="20">
+              <node name="rakarnia-1" size="0"/>
+              <node name="odsalarnia-1" size="0"/>
+              <node name="wodociągi-1" size="0"/>
+              <node name="gazownia-1" size="0"/>
+              <node name="siłownia-2" size="0"/>
+              <node name="ciepłownia-1" size="0"/>
+              <node name="elektrownia-1" size="10">
+                <node name="elektrownia maretermiczna-1" size="0"/>
+                <node name="elektrownia wiatrowa-1" size="0"/>
+                <node name="hydroelektrownia-1" size="0"/>
+                <node name="elektrownia pływowa-1" size="0"/>
+                <node name="elektrownia geotermiczna-1" size="0"/>
+                <node name="elektrownia cieplna-1" size="0"/>
+                <node name="elektrownia atomowa-1, elektrownia jądrowa-1, atomówka-2" size="0"/>
+                <node name="elektrownia słoneczna-1, helioelektrownia-1" size="0"/>
+                <node name="elektrownia wodna-1" size="1">
+                  <node name="elektrownia wodna przepływowa-1" size="0"/>
+                </node>
+              </node>
+              <node name="elektrociepłownia-1" size="0"/>
+              <node name="oczyszczalnia ścieków-1" size="1">
+                <node name="biologiczna oczyszczalnia-1" size="0"/>
+              </node>
+            </node>
+            <node name="zakład przemysłowy-1" size="127">
+              <node name="zakład energetyczny-1" size="0"/>
+              <node name="czesalnia-1" size="0"/>
+              <node name="czekoladziarnia-1, czekoladownia-1" size="0"/>
+              <node name="prasownia-1" size="0"/>
+              <node name="kotlarnia-1" size="0"/>
+              <node name="nasycalnia-1" size="0"/>
+              <node name="sieciarnia-1" size="0"/>
+              <node name="topialnia-2" size="0"/>
+              <node name="młynownia-1" size="0"/>
+              <node name="gipsownia-1, gipsiarnia-1" size="0"/>
+              <node name="bielarnia-1, bielnik-2" size="0"/>
+              <node name="koksownica-1" size="0"/>
+              <node name="wyłuszczarnia-2" size="0"/>
+              <node name="topialnia-1, wytapialnia-1" size="0"/>
+              <node name="drutownia-1" size="0"/>
+              <node name="wapiennik-2" size="0"/>
+              <node name="spawalnia-1" size="0"/>
+              <node name="ocynkownia-1" size="0"/>
+              <node name="fermentownia-1" size="0"/>
+              <node name="odsiarczalnia-1" size="0"/>
+              <node name="salina-2" size="0"/>
+              <node name="gazoliniarnia-1" size="0"/>
+              <node name="chmielarnia-2, chmielnik-1" size="0"/>
+              <node name="torfownia-1, torfiarnia-1" size="0"/>
+              <node name="drzeworytnia-1" size="0"/>
+              <node name="fryszerka-1, fryszernia-1" size="0"/>
+              <node name="przetwórnia-1" size="4">
+                <node name="syropiarnia-1" size="0"/>
+                <node name="palarnia-2" size="0"/>
+                <node name="łuszczarnia-1" size="0"/>
+                <node name="roszarnia-1" size="0"/>
+              </node>
+              <node name="przędzalnia-1" size="0"/>
+              <node name="farbiarnia-1" size="0"/>
+              <node name="destylarnia-1" size="0"/>
+              <node name="odlewnia-1, odlewarnia-1" size="1">
+                <node name="brązownia-1" size="0"/>
+              </node>
+              <node name="wytwórnia-1, zakład produkcyjny-1" size="65">
+                <node name="młyn zbożowy-1" size="0"/>
+                <node name="szop-2" size="0"/>
+                <node name="saletrzarnia-1" size="0"/>
+                <node name="drożdżownia-1" size="0"/>
+                <node name="octownia-1" size="0"/>
+                <node name="betonownia-1, węzeł betoniarski-1" size="0"/>
+                <node name="wytwórnia płytowa-1, wytwórnia fonograficzna-1, wydawnictwo płytowe-1" size="0"/>
+                <node name="zbrojarnia-1" size="0"/>
+                <node name="potażarnia-1, potaszarnia-1" size="0"/>
+                <node name="rurarnia-1" size="0"/>
+                <node name="gonciarnia-1" size="0"/>
+                <node name="gazobetonownia-1" size="0"/>
+                <node name="pożywkarnia-1" size="0"/>
+                <node name="dekstryniarnia-1" size="0"/>
+                <node name="szamotownia-1" size="0"/>
+                <node name="marynaciarnia-1" size="0"/>
+                <node name="klejownia-1" size="0"/>
+                <node name="wapniarnia-1" size="0"/>
+                <node name="serowarnia-1" size="0"/>
+                <node name="okleiniarnia-1" size="0"/>
+                <node name="makaroniarnia-1" size="0"/>
+                <node name="klinkiernia-1" size="0"/>
+                <node name="perukarnia-1" size="0"/>
+                <node name="wytwórnia leków-1, zakład farmaceutyczny-1" size="0"/>
+                <node name="deszczułkarnia-1" size="0"/>
+                <node name="pędzarnia-1, bimbrownia-1" size="0"/>
+                <node name="słodownia-2" size="0"/>
+                <node name="wytwórnia filmowa-1" size="0"/>
+                <node name="papiernia-1" size="1">
+                  <node name="czerpalnia-1, czerpalnia papieru-1" size="0"/>
+                </node>
+                <node name="kaflarnia-1" size="0"/>
+                <node name="cegielnia-1" size="0"/>
+                <node name="asfaltownia-1" size="0"/>
+                <node name="forniernia-1" size="0"/>
+                <node name="terpentyniarnia-1" size="0"/>
+                <node name="brykietownia-1, brykieciarnia-1" size="0"/>
+                <node name="płatkarnia-1" size="0"/>
+                <node name="browarnia-1, browar-1" size="1">
+                  <node name="minibrowar-1" size="0"/>
+                </node>
+                <node name="konserwiarnia-1, konserwarnia-1" size="0"/>
+                <node name="gwoździarnia-1" size="0"/>
+                <node name="dachówczarnia-1" size="0"/>
+                <node name="prochownia-2" size="0"/>
+                <node name="roszarnia-1" size="0"/>
+                <node name="krochmalnia-1" size="0"/>
+                <node name="kaszarnia-1" size="0"/>
+                <node name="rozlewnia-1" size="0"/>
+                <node name="olejarnia-1" size="0"/>
+                <node name="masarnia-1" size="1">
+                  <node name="bekoniarnia-1" size="0"/>
+                </node>
+                <node name="betoniarnia-1" size="0"/>
+                <node name="winiarnia-2" size="0"/>
+                <node name="mennica-1" size="0"/>
+                <node name="lodziarnia-2" size="0"/>
+                <node name="warzelnia-1" size="2">
+                  <node name="warzelnia soli-1" size="0"/>
+                  <node name="żupa-1" size="0"/>
+                </node>
+                <node name="tartak-1" size="0"/>
+                <node name="rzeźnia-1, ubojnia-1" size="1">
+                  <node name="rzeźnik-4, jatka-1" size="0"/>
+                </node>
+                <node name="piekarnia-1" size="0"/>
+                <node name="mleczarnia-1, zakład mleczarski-1" size="1"/>
+                <node name="gorzelnia-1" size="0"/>
+                <node name="drukarnia-1" size="0"/>
+              </node>
+              <node name="konfekcja-4" size="0"/>
+              <node name="truciciel-2, emitor-1, zatruwacz-1" size="0"/>
+              <node name="mleczarnia-1, zakład mleczarski-1" size="1">
+                <node name="masłownia-1" size="0"/>
+              </node>
+              <node name="fabryka-1" size="23">
+                <node name="celulozownia-1" size="0"/>
+                <node name="młynownia-3" size="0"/>
+                <node name="parkieciarnia-1" size="0"/>
+                <node name="kortownia-1" size="0"/>
+                <node name="koronkarnia-1" size="0"/>
+                <node name="dziewiarnia-2" size="0"/>
+                <node name="meblarnia-1" size="0"/>
+                <node name="montownia-2" size="0"/>
+                <node name="proszkownia-1" size="0"/>
+                <node name="agrorafineria-1" size="0"/>
+                <node name="śrubiarnia-1" size="0"/>
+                <node name="koksownia-1" size="0"/>
+                <node name="cementownia-1" size="0"/>
+                <node name="kuźnia-1" size="0"/>
+                <node name="kombinat-1" size="0"/>
+                <node name="cukrownia-1" size="0"/>
+                <node name="stocznia-1" size="0"/>
+                <node name="huta szkła-1" size="0"/>
+                <node name="rafineria-1" size="1">
+                  <node name="rafineria ropy naftowej-1" size="0"/>
+                </node>
+                <node name="huta-1" size="1">
+                  <node name="cynkownia-1" size="0"/>
+                </node>
+                <node name="garbarnia-1" size="0"/>
+              </node>
+            </node>
+            <node name="zakład usługowy-1" size="86" abstract="true">
+              <node name="maglownia-1, maglarnia-1" size="0"/>
+              <node name="punkt usługowy-1, lokal usługowy-1" size="11" abstract="true">
+                <node name="pralnia-2" size="0"/>
+                <node name="pogotowie-5" size="0"/>
+                <node name="fotolab-1, fotolaboratorium-1" size="0"/>
+                <node name="serwis-4" size="0"/>
+                <node name="ksero-3" size="0"/>
+                <node name="myjnia-1" size="1">
+                  <node name="automyjnia-1" size="0"/>
+                </node>
+                <node name="solarium-1, solarka-2" size="0"/>
+                <node name="magiel-2" size="0"/>
+                <node name="wypożyczalnia-1" size="0"/>
+                <node name="totalizator-2, kolektura-1" size="0"/>
+              </node>
+              <node name="zakład pogrzebowy-1" size="0"/>
+              <node name="fryzjer-2, fryzjernia-1" size="1">
+                <node name="golarnia-1" size="0"/>
+              </node>
+              <node name="salon-3" size="2">
+                <node name="salon piękności-1" size="0"/>
+                <node name="kosmetyczka-2" size="0"/>
+              </node>
+              <node name="zakład gastronomiczny-1" size="66" abstract="true">
+                <node name="traktiernia-1" size="0"/>
+                <node name="szaszłykarnia-1" size="0"/>
+                <node name="trattoria-1" size="0"/>
+                <node name="bufet-3" size="1">
+                  <node name="kantyna-1" size="0"/>
+                </node>
+                <node name="stołówka-2" size="0"/>
+                <node name="lokal-2" size="11">
+                  <node name="karaoke-2" size="0"/>
+                  <node name="dom gry-1, kasyno-2, salon gry-1" size="1">
+                    <node name="szulernia-1" size="0"/>
+                  </node>
+                  <node name="tancbuda-1" size="0"/>
+                  <node name="klub nocny-1" size="1">
+                    <node name="klub go go-1, klub go-go-1" size="0"/>
+                  </node>
+                  <node name="dyskoteka-1" size="1">
+                    <node name="technoklub-1" size="0"/>
+                  </node>
+                  <node name="klub-3" size="2">
+                    <node name="jazz-klub-1, klub jazzowy-1" size="0"/>
+                    <node name="klubokawiarnia-1, klub-kawiarnia-1" size="0"/>
+                  </node>
+                </node>
+                <node name="szantan-1" size="0"/>
+                <node name="probiernia-1" size="0"/>
+                <node name="pizzeria-1" size="0"/>
+                <node name="tingel-tangel-1" size="0"/>
+                <node name="mała gastronomia-1" size="0"/>
+                <node name="pijalnia-1" size="0"/>
+                <node name="winiarnia-1" size="0"/>
+                <node name="knajpa-1" size="2">
+                  <node name="burgerownia-1" size="0"/>
+                  <node name="piwnica-2" size="0"/>
+                </node>
+                <node name="smażalnia-1" size="2">
+                  <node name="naleśnikarnia-1" size="0"/>
+                  <node name="plackarnia-1" size="0"/>
+                </node>
+                <node name="jadłodajnia-1" size="1">
+                  <node name="garkuchnia-1" size="0"/>
+                </node>
+                <node name="szynk-1" size="0"/>
+                <node name="cukiernia-1" size="1">
+                  <node name="cukierenka-1" size="0"/>
+                </node>
+                <node name="zajazd-1, gospoda-2" size="1">
+                  <node name="karawanseraj-1, chan-2, chana-1" size="0"/>
+                </node>
+                <node name="kasyno-1" size="0"/>
+                <node name="rożen-2" size="0"/>
+                <node name="gospoda-1, karczma-1, oberża-1, arenda-3, harenda-2" size="2">
+                  <node name="osteria-1" size="0"/>
+                  <node name="ryokan-1" size="0"/>
+                </node>
+                <node name="restauracja-1" size="2">
+                  <node name="chińczyk-4" size="0"/>
+                  <node name="tawerna-1" size="0"/>
+                </node>
+                <node name="kawiarnia-1, kafejka-1, kafeteria-1, kawiarenka-1" size="4">
+                  <node name="czekoladziarnia-2" size="0"/>
+                  <node name="klubokawiarnia-1, klub-kawiarnia-1" size="0"/>
+                  <node name="lodziarnia-1" size="0"/>
+                  <node name="herbaciarnia-1" size="0"/>
+                </node>
+                <node name="bar-1" size="15">
+                  <node name="bar szybkiej obsługi-1" size="2">
+                    <node name="fast food-2" size="0"/>
+                    <node name="bar mleczny-1" size="0"/>
+                  </node>
+                  <node name="drink-bar-1" size="0"/>
+                  <node name="paszteciarnia-1" size="0"/>
+                  <node name="cocktailbar-1, koktajlbar-1, cocktail-bar-1" size="0"/>
+                  <node name="saloon-1" size="0"/>
+                  <node name="snack-bar-1" size="0"/>
+                  <node name="piwiarnia-1" size="2">
+                    <node name="minibrowar-1" size="0"/>
+                    <node name="multitap-1, multi-tap-1" size="0"/>
+                  </node>
+                  <node name="mordownia-1, speluna-1, melina-1" size="1">
+                    <node name="spelunka-1" size="0"/>
+                  </node>
+                  <node name="pub-1, knajpa-2" size="1">
+                    <node name="multitap-1, multi-tap-1" size="0"/>
+                  </node>
+                  <node name="bistro-1" size="0"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node name="agencja-3" size="7">
+            <node name="agencja ratingowa-1" size="0"/>
+            <node name="agencja płatnicza-1" size="0"/>
+            <node name="agencja prasowa-1" size="0"/>
+            <node name="agencja modelek-1, agencja modelingowa-1, agencja modelingu-1" size="0"/>
+            <node name="agencja detektywistyczna-1" size="0"/>
+            <node name="agencja reklamowa-1" size="0"/>
+            <node name="agencja ochrony-1, agencja ochroniarska-1" size="0"/>
+          </node>
+          <node name="firma-córka-1" size="0"/>
+          <node name="firma-matka-1" size="0"/>
+          <node name="spin-off-2" size="0"/>
+          <node name="antrepryza-1" size="0"/>
+          <node name="miniprzedsiębiorstwo-1" size="1">
+            <node name="mikroprzedsiębiorstwo-1" size="0"/>
+          </node>
+          <node name="biznes elektroniczny-1, e-biznes-1, e-business-1" size="0"/>
+          <node name="przedsiębiorstwo mieszane-1" size="0"/>
+          <node name="inicjatywa prywatna-1" size="0"/>
+          <node name="przewoźnik-1" size="8">
+            <node name="linia-19, linie-1" size="5">
+              <node name="linia lotnicza-1" size="0"/>
+              <node name="linie oceaniczne-1" size="0"/>
+              <node name="linie lotnicze-1" size="0"/>
+              <node name="PKS-1, Pekaes-2, Przedsiębiorstwo Komunikacji Samochodowej-1" size="0"/>
+              <node name="kolej-3" size="0"/>
+            </node>
+            <node name="spedytor-1" size="1">
+              <node name="załadowca-1" size="0"/>
+            </node>
+          </node>
+          <node name="manufaktura-1" size="2">
+            <node name="persjarnia-1" size="0"/>
+            <node name="kuźnica-1, hamernia-1, młotownia-2" size="0"/>
+          </node>
+          <node name="small business-1" size="0"/>
+          <node name="hurtownia-1" size="0"/>
+          <node name="wydawnictwo-2, oficyna-1, oficyna wydawnicza-1, dom wydawniczy-1" size="0"/>
+          <node name="koncern-1" size="3">
+            <node name="czebol-1" size="0"/>
+            <node name="konglomerat-1" size="1">
+              <node name="keiretsu-1" size="0"/>
+            </node>
+          </node>
+          <node name="sklep-1" size="49">
+            <node name="rybny-1" size="0"/>
+            <node name="sklep zoologiczny-1" size="0"/>
+            <node name="optyk-3" size="0"/>
+            <node name="płóciennica-3" size="0"/>
+            <node name="skateshop-1" size="0"/>
+            <node name="sodowiarnia-1" size="0"/>
+            <node name="delikatesy-1" size="0"/>
+            <node name="antykwariat-2" size="0"/>
+            <node name="galeria-1" size="1">
+              <node name="desa-1" size="0"/>
+            </node>
+            <node name="sex-shop-1, sex shop-1" size="0"/>
+            <node name="butik-1" size="0"/>
+            <node name="sklep za żółtymi firankami-1" size="0"/>
+            <node name="lumpeks-1, szmateks-1, ciucholand-1, lumpex-1, second-hand-1, second hand-1, secondhand-1" size="0"/>
+            <node name="dyskont-1" size="0"/>
+            <node name="sklep mięsny-1" size="2">
+              <node name="rzeźnik-4, jatka-1" size="0"/>
+              <node name="wędliniarnia-1" size="0"/>
+            </node>
+            <node name="pasmanteria-2" size="0"/>
+            <node name="zieleniak-1, warzywniak-1" size="1">
+              <node name="owocarnia-1" size="0"/>
+            </node>
+            <node name="konfekcja-3" size="0"/>
+            <node name="trafika-1" size="0"/>
+            <node name="sam-1" size="2">
+              <node name="megasam-1" size="0"/>
+              <node name="supersam-1" size="0"/>
+            </node>
+            <node name="perfumeria-1" size="0"/>
+            <node name="sklepik-1" size="0"/>
+            <node name="komis-1" size="1">
+              <node name="autokomis-1" size="0"/>
+            </node>
+            <node name="cukiernia-2, ciastkarnia-1" size="0"/>
+            <node name="monopol-2, sklep monopolowy-1" size="0"/>
+            <node name="piekarnia-2" size="0"/>
+            <node name="market-1" size="3">
+              <node name="megamarket-1" size="0"/>
+              <node name="supermarket-1" size="1">
+                <node name="hipermarket-1" size="0"/>
+              </node>
+            </node>
+            <node name="kiosk-1" size="0"/>
+            <node name="księgarnia-1" size="2">
+              <node name="księgarnia internetowa-1" size="0"/>
+              <node name="antykwariat-1" size="0"/>
+            </node>
+            <node name="sklep ogólnospożywczy-1" size="1">
+              <node name="garmażeria-1, garmażernia-1" size="0"/>
+            </node>
+            <node name="papierniczy-1" size="0"/>
+            <node name="kwiaciarnia-1" size="0"/>
+            <node name="drogeria-1" size="0"/>
+            <node name="salon-2" size="1">
+              <node name="autosalon-1" size="0"/>
+            </node>
+            <node name="apteka-1" size="0"/>
+          </node>
+          <node name="holding-1" size="1">
+            <node name="grupa kapitałowa-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="przychodnia-1, lecznica-2" size="2">
+        <node name="poliklinika-1" size="0"/>
+        <node name="ambulatorium-1" size="0"/>
+      </node>
+      <node name="teatr-3, scena-4" size="5">
+        <node name="teatr ogródkowy-1" size="0"/>
+        <node name="kabaret-2" size="0"/>
+        <node name="teatr lalek-1" size="0"/>
+        <node name="teatr muzyczny-1" size="1">
+          <node name="operetka-3" size="0"/>
+        </node>
+      </node>
+      <node name="telewizja-4, stacja telewizyjna-1" size="1">
+        <node name="telewizja publiczna-1" size="0"/>
+      </node>
+      <node name="placówka naukowa-1" size="2">
+        <node name="akademia-2" size="1">
+          <node name="akademia nauk-1" size="0"/>
+        </node>
+      </node>
+      <node name="szpital-1, klinika-1, lecznica-1" size="7">
+        <node name="rewir-3" size="0"/>
+        <node name="szpitalik-1" size="0"/>
+        <node name="leprozorium-1, lazaret-2" size="0"/>
+        <node name="lazaret-1" size="0"/>
+        <node name="infirmeria-1" size="0"/>
+        <node name="szpital zakaźny-1" size="0"/>
+        <node name="szpital psychiatryczny-1, dom wariatów-2, wariatkowo-1, dom obłąkanych-1" size="0"/>
+      </node>
+      <node name="ośrodek-1" size="7">
+        <node name="ośrodek wypoczynkowy-1" size="0"/>
+        <node name="ośrodek metodyczny-1" size="0"/>
+        <node name="dyspozytura-1" size="0"/>
+        <node name="ośrodek władzy-2" size="0"/>
+        <node name="centrum-4" size="0"/>
+        <node name="ognisko-7" size="1">
+          <node name="ognisko muzyczne-1" size="0"/>
+        </node>
+      </node>
+      <node name="nadzór-1, kontrola-2, inspekcja-1, dozór-1" size="7">
+        <node name="inspekcja handlowa-2" size="0"/>
+        <node name="inspekcja weterynaryjna-1" size="0"/>
+        <node name="nadzór pedagogiczny-2" size="0"/>
+        <node name="nadzór bankowy-1" size="2">
+          <node name="nadzór wieloinstytucjonalny-1" size="0"/>
+          <node name="nadzór jednoinstytucjonalny-1" size="0"/>
+        </node>
+        <node name="protektorat-4, patronat-2" size="0"/>
+      </node>
+      <node name="instytut-1" size="0"/>
+      <node name="giełda-1" size="1">
+        <node name="giełda papierów wartościowych-1, parkiet-1, giełda-3" size="0"/>
+      </node>
+      <node name="muzeum-1" size="10">
+        <node name="ekomuzeum-1" size="0"/>
+        <node name="muzeum archidiecezjalne-1" size="0"/>
+        <node name="rezerwat archeologiczny-1" size="0"/>
+        <node name="panopticum-3, panoptikum-4" size="0"/>
+        <node name="gabinet figur woskowych-1, panopticum-2, panoptikum-3" size="0"/>
+        <node name="lapidarium-1" size="0"/>
+        <node name="galeria-3" size="2">
+          <node name="fotogaleria-1" size="0"/>
+          <node name="pinakoteka-1" size="0"/>
+        </node>
+        <node name="skansen-1, park etnograficzny-1" size="0"/>
+      </node>
+      <node name="rząd-1, gabinet-3, Rada Ministrów-1" size="2">
+        <node name="rząd mniejszościowy-1, gabinet mniejszościowy-1" size="0"/>
+        <node name="rząd koalicyjny-1" size="0"/>
+      </node>
+      <node name="fundacja-1" size="0"/>
+      <node name="biblioteka-1, książnica-1, skarbnica wiedzy-1" size="4">
+        <node name="biblioteka repertuarowa-1" size="0"/>
+        <node name="biblioteka naukowa-1" size="1">
+          <node name="biblioteka sejmowa-1" size="0"/>
+        </node>
+        <node name="biblioteka ruchoma-1" size="0"/>
+      </node>
+      <node name="bank-1" size="9">
+        <node name="bank hipoteczny-1" size="0"/>
+        <node name="bank komercyjny-1" size="0"/>
+        <node name="bank depozytariusz-1" size="0"/>
+        <node name="bank inwestycyjny-1" size="0"/>
+        <node name="bank zrzeszający-1" size="0"/>
+        <node name="bank domicylowy-1" size="0"/>
+        <node name="bank spółdzielczy-1" size="0"/>
+        <node name="bank centralny-1" size="1">
+          <node name="bank emisyjny-1" size="0"/>
+        </node>
+      </node>
+      <node name="archiwum-3" size="0"/>
+    </node>
+  </node>
+  <node name="osoba fizyczna-1" size="109">
+    <node name="słup-6" size="0"/>
+    <node name="świadczeniobiorca-1" size="3">
+      <node name="rencista-1" size="0"/>
+      <node name="emeryt-1" size="1">
+        <node name="emerytowany pracownik-1" size="0"/>
+      </node>
+    </node>
+    <node name="świadek-3" size="2">
+      <node name="fałszywy świadek-1" size="0"/>
+      <node name="świadek koronny-1" size="0"/>
+    </node>
+    <node name="przedsiębiorca-1" size="100"/>
+  </node>
+  <node name="depozytariusz-1, przechowawca-1" size="1">
+    <node name="fideikomisarz-1, ordynat-1" size="0"/>
+  </node>
+  <node name="wytwórca-1, producent-1" size="9">
+    <node name="papiernik-1" size="0"/>
+    <node name="konfekcjoner-1" size="0"/>
+    <node name="licencjobiorca-1" size="0"/>
+    <node name="koproducent-1" size="0"/>
+    <node name="przetwórca-1" size="4">
+      <node name="rozlewca-1" size="0"/>
+      <node name="fileciarz-1" size="0"/>
+      <node name="wędliniarz-1, masarz-1" size="1">
+        <node name="kiełbaśnik-1" size="0"/>
+      </node>
+    </node>
+  </node>
+  <node name="koncesjodawca-1" size="0"/>
+  <node name="usługodawca-1" size="32">
+    <node name="kwaterodawca-1" size="1">
+      <node name="hotelarz-1" size="0"/>
+    </node>
+    <node name="składownik-1, przedsiębiorca składowy-1" size="0"/>
+    <node name="dostawca-2, dostarczyciel-1" size="28">
+      <node name="rozwoziciel-1" size="2">
+        <node name="wodziarz-2, woziwoda-1, czerpacz-1" size="0"/>
+        <node name="majdaniarz-2" size="0"/>
+      </node>
+      <node name="nosiwoda-1" size="0"/>
+      <node name="roznosiciel-2" size="5">
+        <node name="rozlepiacz-1" size="1">
+          <node name="afiszer-1" size="0"/>
+        </node>
+        <node name="ulotkarz-1" size="0"/>
+        <node name="gazeciarz-1" size="0"/>
+        <node name="mleczarz-2" size="0"/>
+      </node>
+      <node name="węglarz-1" size="0"/>
+      <node name="dystrybutor-2" size="3"/>
+      <node name="doręczyciel-1, oddawca-1" size="7">
+        <node name="kurier-3" size="0"/>
+        <node name="kurier-1" size="0"/>
+        <node name="posłaniec-1, umyślny-1" size="3">
+          <node name="goniec-1" size="2">
+            <node name="pogoniec-2" size="0"/>
+            <node name="chłopiec na posyłki-1, chłopak na posyłki-1" size="0"/>
+          </node>
+        </node>
+        <node name="listonosz-1" size="0"/>
+      </node>
+      <node name="zaopatrzeniowiec-1" size="5">
+        <node name="aprowizator-1" size="0"/>
+        <node name="intendent-1" size="2">
+          <node name="ochmistrz-1" size="0"/>
+          <node name="kwatermistrz-1" size="0"/>
+        </node>
+        <node name="kwatermistrz-2" size="0"/>
+      </node>
+    </node>
+  </node>
+  <node name="usługobiorca-1" size="70">
+    <node name="klient-1" size="69">
+      <node name="kundman-2" size="0"/>
+      <node name="talonowicz-1" size="0"/>
+      <node name="reflektant-1, amator-4" size="8">
+        <node name="licytant-1" size="0"/>
+        <node name="kupiec-2" size="6">
+          <node name="nabywca-1, kupujący-1" size="5">
+            <node name="biorca cen-1" size="0"/>
+            <node name="nowonabywca-1" size="0"/>
+            <node name="leasingobiorca-1" size="0"/>
+            <node name="franczyzobiorca-1, franchisobiorca-1" size="0"/>
+            <node name="cesjonariusz-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="naganiacz-4" size="0"/>
+      <node name="wkładca-1" size="0"/>
+      <node name="kolejkowicz-1" size="0"/>
+      <node name="sponsor-2" size="0"/>
+      <node name="subskrybent-1" size="1">
+        <node name="prenumerator-1" size="0"/>
+      </node>
+      <node name="czytelnik-2" size="0"/>
+      <node name="nadawca-2, adresant-1" size="0"/>
+      <node name="konsument-1, spożywca-1" size="14"/>
+      <node name="deponent-1" size="0"/>
+      <node name="abonent-1" size="1">
+        <node name="prenumerator-1" size="0"/>
+      </node>
+      <node name="petent-1, interesant-1, suplikant-1, delikwent-2" size="0"/>
+      <node name="pasażer-1" size="3">
+        <node name="współpasażer-1, towarzysz podróży-1" size="0"/>
+        <node name="gapowicz-1" size="0"/>
+        <node name="autostopowicz-1" size="0"/>
+      </node>
+      <node name="pacjent-1" size="7">
+        <node name="tester-3" size="0"/>
+        <node name="połamaniec-1" size="0"/>
+        <node name="kuracjusz-1" size="0"/>
+        <node name="rekonwalescent-1, ozdrowieniec-1" size="0"/>
+        <node name="biorca-1" size="0"/>
+        <node name="dawca-2" size="1">
+          <node name="krwiodawca-1" size="0"/>
+        </node>
+      </node>
+      <node name="gość-4" size="29">
+        <node name="noclegowicz-1" size="0"/>
+        <node name="letnik-1" size="1">
+          <node name="agroturysta-1" size="0"/>
+        </node>
+        <node name="bywalec-1" size="13">
+          <node name="zabawowicz-1, balowicz-1" size="1">
+            <node name="imprezowicz-1, balangowicz-2" size="0"/>
+          </node>
+          <node name="światowiec-1, człowiek światowy-1" size="3">
+            <node name="salonowiec-2, lew salonowy-1" size="0"/>
+            <node name="kosmopolita-1, obywatel świata-1" size="1">
+              <node name="obieżyświat-1, globtroter-1" size="0"/>
+            </node>
+          </node>
+          <node name="hulaka-1, hulajdusza-1" size="5">
+            <node name="jarmarkowicz-1" size="0"/>
+            <node name="bon vivant-1, bon viveur-1" size="0"/>
+            <node name="lampart-2" size="0"/>
+            <node name="opój-1, pijus-1, pijanica-1, opijus-1" size="0"/>
+            <node name="utracjusz-1, birbant-1" size="0"/>
+          </node>
+          <node name="klubowicz-2" size="0"/>
+        </node>
+        <node name="konsument-2" size="10">
+          <node name="pijący-1" size="8"/>
+          <node name="stołówkowicz-1" size="0"/>
+        </node>
+        <node name="pensjonariusz-1" size="1">
+          <node name="kuracjusz-1" size="0"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node name="profitent-1, beneficjent-1" size="0"/>
+  <node name="członek-1, stowarzyszony-1" size="7">
+    <node name="plemiennik-1" size="1">
+      <node name="współplemieniec-1, współplemiennik-1" size="0"/>
+    </node>
+    <node name="członek założyciel-1" size="0"/>
+    <node name="ligowiec-2" size="0"/>
+    <node name="koalicjant-1" size="0"/>
+    <node name="spółdzielca-1" size="1">
+      <node name="kołchoźnik-1" size="0"/>
+    </node>
+  </node>
+  <node name="gwarant-1, poręczyciel-1, ręczyciel-1" size="4">
+    <node name="żyrant-1" size="1">
+      <node name="indosant-1" size="0"/>
+    </node>
+    <node name="awalista-1" size="0"/>
+    <node name="trasat-1" size="0"/>
+  </node>
+  <node name="bankrut-2" size="0"/>
+  <node name="świadczeniodawca-1" size="0"/>
+  <node name="oferent-1" size="1">
+    <node name="licytant-1" size="0"/>
+  </node>
+  <node name="wierzyciel-1" size="10">
+    <node name="kolokator-1" size="0"/>
+    <node name="zastawnik-1" size="0"/>
+    <node name="obligatariusz-1" size="0"/>
+    <node name="remitent-1" size="0"/>
+    <node name="współwierzyciel-1" size="1">
+      <node name="wierzyciel solidarny-1" size="0"/>
+    </node>
+    <node name="cedent-1" size="0"/>
+    <node name="pożyczkodawca-1" size="1">
+      <node name="lichwiarz-1" size="0"/>
+    </node>
+    <node name="kredytodawca-1" size="0"/>
+  </node>
+  <node name="spadkobierca-1, sukcesor-2" size="6">
+    <node name="fideikomisariusz-1" size="0"/>
+    <node name="współspadkobierca-1" size="1">
+      <node name="współdziedzic-1" size="0"/>
+    </node>
+    <node name="fideikomisarz-1, ordynat-1" size="0"/>
+    <node name="zapisobiorca-1, legatariusz-1, zapisobierca-1" size="0"/>
+    <node name="dziedzic-2" size="1">
+      <node name="współdziedzic-1" size="0"/>
+    </node>
+  </node>
+  <node name="przedstawicielstwo-3" size="5">
+    <node name="agencja-5" size="0"/>
+    <node name="nuncjatura-4" size="0"/>
+    <node name="agencja-2" size="2">
+      <node name="agencja rządowa-1" size="0"/>
+      <node name="konsulat-3, urząd konsularny-1" size="0"/>
+    </node>
+  </node>
+  <node name="strona-4" size="7">
+    <node name="ofensywa-6" size="0"/>
+    <node name="czarne-1" size="0"/>
+    <node name="białe-1" size="0"/>
+    <node name="obraziciel-2" size="0"/>
+    <node name="kapitulant-1" size="0"/>
+    <node name="interwenient-1, interwent-1" size="1">
+      <node name="interwenient uboczny-1" size="0"/>
+    </node>
+  </node>
+  <node name="nadawca-1" size="3">
+    <node name="pirat-5" size="1">
+      <node name="pajęczarz-2" size="0"/>
+    </node>
+    <node name="mówiący-1" size="0"/>
+  </node>
+  <node name="użytkownik-1" size="79">
+    <node name="unikalny użytkownik-1" size="0"/>
+    <node name="posiadacz zależny-1" size="0"/>
+    <node name="eksploatator-2" size="23">
+      <node name="wydobywca-1" size="22">
+        <node name="górnik-1" size="21">
+          <node name="przodowy-1, przodkowy-1" size="0"/>
+          <node name="podsadzkarz-1" size="0"/>
+          <node name="filarowiec-1" size="0"/>
+          <node name="metaniarz-1" size="0"/>
+          <node name="chodnikowiec-1" size="0"/>
+          <node name="przystawca-1" size="0"/>
+          <node name="górnik odkrywkowy-1, kopacz-4" size="0"/>
+          <node name="strzałowy-1" size="1">
+            <node name="rębacz strzałowy-1" size="0"/>
+          </node>
+          <node name="ładowacz-2" size="0"/>
+          <node name="rębacz-1, kopacz-2" size="1">
+            <node name="rębacz strzałowy-1" size="0"/>
+          </node>
+          <node name="nadgórnik-1" size="2">
+            <node name="sztygar-1" size="1">
+              <node name="nadsztygar-1, starszy sztygar-1" size="0"/>
+            </node>
+          </node>
+          <node name="wiertniczy-1, wiertacz-1" size="0"/>
+          <node name="miedziownik-1, miedziowiec-2" size="0"/>
+          <node name="naftowiec-1, nafciarz-1" size="0"/>
+          <node name="gwarek-1" size="0"/>
+          <node name="wozak-1" size="1">
+            <node name="tacznik-1" size="0"/>
+          </node>
+          <node name="szybowy-1" size="0"/>
+        </node>
+      </node>
+      <node name="naftowiec-1, nafciarz-1" size="0"/>
+    </node>
+    <node name="pajęczarz-1" size="3">
+      <node name="radiopajęczarz-1" size="0"/>
+      <node name="telepajęczarz-1" size="0"/>
+      <node name="phreaker-1, phreak-1" size="0"/>
+    </node>
+    <node name="eksploatator-3" size="0"/>
+    <node name="współużytkownik-1" size="1">
+      <node name="współużytkownik wieczysty-1" size="0"/>
+    </node>
+    <node name="komórkowiec-2" size="0"/>
+    <node name="konsument-1, spożywca-1" size="14">
+      <node name="tabaczarz-1, tabacznik-1, tabakier-1" size="0"/>
+      <node name="pijący-1" size="8">
+        <node name="pijany-1" size="0"/>
+        <node name="opój-1, pijus-1, pijanica-1, opijus-1" size="0"/>
+        <node name="piwosz-1, piwiarz-2" size="0"/>
+        <node name="alkoholik-1, pijak-1" size="4">
+          <node name="ćma barowa-1" size="0"/>
+          <node name="dypsomaniak-1, dypsoman-1" size="0"/>
+          <node name="menel-1, sztajmes-1, żul-1, lump-2" size="1">
+            <node name="kundman-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="kawosz-1, kawiarz-1" size="0"/>
+      <node name="palacz-2" size="2">
+        <node name="papierośnik-1" size="0"/>
+        <node name="fajczarz-1" size="0"/>
+      </node>
+    </node>
+    <node name="internauta-1" size="7">
+      <node name="pokemon-1" size="0"/>
+      <node name="forumowicz-1" size="1">
+        <node name="troll-2" size="0"/>
+      </node>
+      <node name="czatownik-3" size="0"/>
+      <node name="spamer-1" size="0"/>
+      <node name="moderator-1" size="0"/>
+      <node name="bloger-1, blogger-1, blogowicz-1" size="0"/>
+    </node>
+    <node name="dzierżawca-1" size="15">
+      <node name="połownik-1" size="0"/>
+      <node name="poddzierżawca-1" size="0"/>
+      <node name="czynszownik-1" size="2">
+        <node name="emfiteuta-1" size="0"/>
+        <node name="okupnik-1" size="0"/>
+      </node>
+      <node name="starosta niegrodowy-1, tenutariusz-1" size="0"/>
+      <node name="kolon-1" size="0"/>
+      <node name="celnik-3" size="0"/>
+      <node name="ajent-1, agent-6" size="6">
+        <node name="agent nieruchomości-1" size="0"/>
+        <node name="przedstawiciel ubezpieczeniowy-1, agent ubezpieczeniowy-1, ubezpieczeniowiec-1" size="3">
+          <node name="likwidator szkód-1" size="1">
+            <node name="dyspaszer-1" size="0"/>
+          </node>
+          <node name="aktuariusz-1" size="0"/>
+        </node>
+        <node name="przedstawiciel handlowy-1" size="0"/>
+      </node>
+    </node>
+    <node name="najemca-1, wynajemca-2" size="5">
+      <node name="podnajemca-1" size="1">
+        <node name="sublokator-1" size="0"/>
+      </node>
+      <node name="lokator-2" size="3">
+        <node name="dziki lokator-1" size="0"/>
+        <node name="sublokator-1" size="0"/>
+        <node name="walet-2" size="0"/>
+      </node>
+    </node>
+  </node>
+  <node name="płatnik-1" size="26">
+    <node name="płatnik składek-1" size="0"/>
+    <node name="alimentator-1, alimenciarz-1" size="0"/>
+    <node name="trybutariusz-1" size="0"/>
+    <node name="czynszownik-2" size="0"/>
+    <node name="pracodawca-1" size="8">
+      <node name="służbodawca-1" size="0"/>
+      <node name="pan-7" size="0"/>
+      <node name="mocodawca-1" size="0"/>
+      <node name="zleceniodawca-1" size="4">
+        <node name="reklamodawca-1" size="0"/>
+        <node name="załadowca-1" size="0"/>
+        <node name="ogłoszeniodawca-1" size="0"/>
+        <node name="komitent-2" size="0"/>
+      </node>
+    </node>
+    <node name="podatnik-1" size="4">
+      <node name="kartowicz-1" size="0"/>
+      <node name="mały podatnik-1" size="0"/>
+      <node name="vatowiec-1" size="0"/>
+      <node name="ryczałtowiec-2" size="0"/>
+    </node>
+    <node name="dłużnik-1" size="7">
+      <node name="współdłużnik-1" size="0"/>
+      <node name="zastawca-1" size="1">
+        <node name="komitent-1" size="0"/>
+      </node>
+      <node name="akceptant-1" size="0"/>
+      <node name="dłużnik solidarny-1" size="0"/>
+      <node name="kredytobiorca-1" size="0"/>
+      <node name="pożyczkobiorca-1" size="0"/>
+    </node>
+  </node>
+  <node name="właściciel-1, posiadacz-1" size="161">
+    <node name="magnat-2" size="0"/>
+    <node name="posiadacz samoistny-1" size="0"/>
+    <node name="piwiarz-1" size="0"/>
+    <node name="propinator-1" size="0"/>
+    <node name="parcelant-2" size="0"/>
+    <node name="podawca-1" size="0"/>
+    <node name="browarnik-1" size="0"/>
+    <node name="zmotoryzowany-1" size="11">
+      <node name="samochodziarz-4" size="4">
+        <node name="automobilista-2" size="0"/>
+        <node name="automobilista-1, samochodziarz-3" size="0"/>
+        <node name="taksówkarz-1, taksiarz-1, taryfiarz-1" size="0"/>
+        <node name="szofer-1" size="0"/>
+      </node>
+      <node name="niedzielny kierowca-1" size="0"/>
+      <node name="motocyklista-1" size="4">
+        <node name="jeździec Apokalipsy-1" size="0"/>
+        <node name="harleyowiec-1" size="0"/>
+        <node name="żużlowiec-1" size="1">
+          <node name="torowiec-1" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="talonowicz-1" size="0"/>
+    <node name="manufakturzysta-1" size="0"/>
+    <node name="wynajemca-1" size="1">
+      <node name="kamienicznik-1" size="0"/>
+    </node>
+    <node name="kiniarz-1" size="0"/>
+    <node name="licencjodawca-2" size="1">
+      <node name="franczyzodawca-1, franchisodawca-1" size="0"/>
+    </node>
+    <node name="leasingodawca-1" size="0"/>
+    <node name="komórkowiec-2" size="0"/>
+    <node name="antreprener-1" size="0"/>
+    <node name="cegielnik-2" size="0"/>
+    <node name="pan-5" size="0"/>
+    <node name="lokator-1" size="0"/>
+    <node name="episjer-1" size="0"/>
+    <node name="aptekarz-2" size="0"/>
+    <node name="komitent-1" size="0"/>
+    <node name="farbiarz-2" size="0"/>
+    <node name="restaurator-1" size="5"/>
+    <node name="skarb państwa-1, fiskus-1" size="0"/>
+    <node name="posesjonat-1, posesjonata-1" size="0"/>
+    <node name="okaziciel-1" size="0"/>
+    <node name="wystawca-1, eksponent-1" size="0"/>
+    <node name="kapitalista-1" size="107">
+      <node name="kapitalista-3" size="0"/>
+      <node name="obszarnik-1" size="0"/>
+      <node name="burżuj-1" size="0"/>
+      <node name="finansista-2" size="2">
+        <node name="bankier-1" size="1">
+          <node name="bankster-1" size="0"/>
+        </node>
+      </node>
+      <node name="przedsiębiorca-1" size="100">
+        <node name="średni przedsiębiorca-1" size="0"/>
+        <node name="mikroprzedsiębiorca-1" size="0"/>
+        <node name="mały przedsiębiorca-1" size="0"/>
+        <node name="biznesmen-1, businessman-1, człowiek interesu-1" size="0"/>
+        <node name="konfekcjoner-3" size="0"/>
+        <node name="wekslarz-1" size="0"/>
+        <node name="giełdziarz-1, giełdowiec-1, gracz giełdowy-1" size="2">
+          <node name="foreksowiec-1" size="0"/>
+          <node name="trader-1" size="0"/>
+        </node>
+        <node name="manufakturzysta-1" size="0"/>
+        <node name="składownik-1, przedsiębiorca składowy-1" size="0"/>
+        <node name="kiniarz-1" size="0"/>
+        <node name="prywaciarz-1, inicjatywa prywatna-2, prywatniak-1" size="3">
+          <node name="badylarz-1" size="2">
+            <node name="cebularz-2" size="0"/>
+            <node name="pieczarkarz-1" size="0"/>
+          </node>
+        </node>
+        <node name="nakładca-1" size="0"/>
+        <node name="restaurator-1" size="5">
+          <node name="knajpiarz-1" size="2">
+            <node name="szynkarz-1, arendarz-2" size="0"/>
+            <node name="karczmarz-1, oberżysta-1" size="0"/>
+          </node>
+          <node name="kantyniarz-1" size="0"/>
+          <node name="kafejkarz-1" size="0"/>
+        </node>
+        <node name="hotelarz-1" size="0"/>
+        <node name="kontrahent-1" size="0"/>
+        <node name="armator-1" size="0"/>
+        <node name="fabrykant-1, przemysłowiec-1, fabrykator-1" size="1">
+          <node name="powoźnik-2" size="0"/>
+        </node>
+        <node name="wydawca-1, edytor-2" size="1">
+          <node name="współwydawca-1, koedytor-1" size="0"/>
+        </node>
+        <node name="wspólnik-1, partner-2" size="10">
+          <node name="komplementariusz-1" size="0"/>
+          <node name="jawny wspólnik-1" size="0"/>
+          <node name="cichy wspólnik-1" size="0"/>
+          <node name="koproducent-1" size="0"/>
+          <node name="współwydawca-1, koedytor-1" size="0"/>
+          <node name="współwłaściciel-1, współposiadacz-1" size="4"/>
+        </node>
+        <node name="handlowiec-1" size="55">
+          <node name="sprzedawca-1, ekspedient-1, sklepowy-1" size="31">
+            <node name="modniarz-1" size="0"/>
+            <node name="wodziarz-2, woziwoda-1, czerpacz-1" size="0"/>
+            <node name="krupiarz-1" size="0"/>
+            <node name="koronkarz-1" size="0"/>
+            <node name="odsprzedawca-1, odprzedawca-1" size="0"/>
+            <node name="nagabywacz-1" size="0"/>
+            <node name="telemarketer-1" size="0"/>
+            <node name="leasingodawca-1" size="0"/>
+            <node name="drogista-1, drogerzysta-1" size="0"/>
+            <node name="gazeciarz-1" size="0"/>
+            <node name="lodziarz-1" size="0"/>
+            <node name="zieleniarz-1" size="2">
+              <node name="jarzyniarz-1" size="0"/>
+              <node name="owocarz-1" size="0"/>
+            </node>
+            <node name="jubiler-2" size="0"/>
+            <node name="kasjer-2" size="0"/>
+            <node name="antykwariusz-1" size="1">
+              <node name="bukinista-1" size="0"/>
+            </node>
+            <node name="przedstawiciel handlowy-1" size="0"/>
+            <node name="winiarz-2" size="1">
+              <node name="kiper-2" size="0"/>
+            </node>
+            <node name="kwiaciarz-1" size="1">
+              <node name="bukieciarz-1, florysta-2" size="0"/>
+            </node>
+            <node name="rzeźnik-2" size="0"/>
+            <node name="optyk-2" size="0"/>
+            <node name="mleczarz-2" size="0"/>
+            <node name="licytator-1, aukcjoner-1" size="0"/>
+            <node name="księgarz-1" size="0"/>
+            <node name="aptekarz-1" size="0"/>
+            <node name="sklepikarz-1" size="1"/>
+          </node>
+          <node name="importer-1" size="1">
+            <node name="laweciarz-1" size="0"/>
+          </node>
+          <node name="hurtownik-1" size="0"/>
+          <node name="eksporter-1" size="0"/>
+          <node name="detalista-1" size="2">
+            <node name="sklepikarz-1" size="1">
+              <node name="kioskarz-1" size="0"/>
+            </node>
+          </node>
+          <node name="radca handlowy-2" size="0"/>
+          <node name="pośrednik-1" size="16">
+            <node name="broker-1" size="2">
+              <node name="makler-1" size="1">
+                <node name="kulisjer-1" size="0"/>
+              </node>
+            </node>
+            <node name="broker-2" size="0"/>
+            <node name="komprador-1" size="0"/>
+            <node name="faktor-4" size="0"/>
+            <node name="kantor-7" size="0"/>
+            <node name="komisant-1, komisjoner-1" size="0"/>
+            <node name="komisant-2, konsygnatariusz-1" size="0"/>
+            <node name="bukmacher-1, bookmacher-1" size="1">
+              <node name="typer-1" size="0"/>
+            </node>
+            <node name="dystrybutor-2" size="3">
+              <node name="dealer-2, diler-2" size="0"/>
+              <node name="kolporter-2" size="1">
+                <node name="majdaniarz-2" size="0"/>
+              </node>
+            </node>
+            <node name="dealer-1, diler-1" size="0"/>
+          </node>
+        </node>
+        <node name="inwestor-1" size="4">
+          <node name="byk-10" size="0"/>
+          <node name="współinwestor-2" size="0"/>
+          <node name="inwestor strategiczny-1" size="0"/>
+          <node name="developer-1, deweloper-1" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="pan domu-1, gospodarz-1" size="3">
+      <node name="pan i władca-1" size="0"/>
+      <node name="amfitrion-1" size="0"/>
+      <node name="gazda-1" size="0"/>
+    </node>
+    <node name="współwłaściciel-1, współposiadacz-1" size="4">
+      <node name="akcjonariusz-1, udziałowiec-1" size="3">
+        <node name="współudziałowiec-1" size="0"/>
+        <node name="komandytariusz-1" size="0"/>
+        <node name="inwestor strategiczny-1" size="0"/>
+      </node>
+    </node>
+    <node name="ziemianin-2, obywatel ziemski-1, właściciel ziemski-1" size="12">
+      <node name="horodniczy-1" size="0"/>
+      <node name="zagrodowiec-1" size="0"/>
+      <node name="zagonowiec-1" size="0"/>
+      <node name="latyfundysta-1" size="0"/>
+      <node name="junkier-3" size="0"/>
+      <node name="feudał-1" size="5">
+        <node name="senior-4" size="1">
+          <node name="suzeren-1" size="0"/>
+        </node>
+        <node name="lennik-1, wasal-2, hołdownik-2" size="2">
+          <node name="par-3" size="0"/>
+          <node name="baron-3" size="0"/>
+        </node>
+      </node>
+      <node name="obszarnik-1" size="0"/>
+    </node>
+  </node>
+</node>

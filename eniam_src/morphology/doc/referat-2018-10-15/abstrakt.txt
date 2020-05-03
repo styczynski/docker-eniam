@@ -1,0 +1,15 @@
+Referat wygłoszę wraz z Szymonem Rutkowskim.
+
+Tytuł: Wielowarstwowy regułowy model fleksji języka polskiego
+
+Streszczenie:
+
+Referat poświęcony będzie wielowarstwowemu modelowi fleksji języka polskiego. Model opracowany został na podstawie haseł pochodzących ze Słownika Gramatycznego Języka Polskiego; nie korzysta z koncepcji paradygmatu odmiany. Model składa się z trzech warstw ręcznie opracowanych reguł: „warstwy ortograficzno-fonetycznej” konwertującej segment do reprezentacji odzwierciedlającej prawidłowości morfologiczne języka, „warstwy analitycznej” generującej lemat oraz określającej afiksy oraz „warstwy interpretacji” nadającej interpretację morfosyntaktyczną na podstawie wykrytych afiksów. Model dostarcza wiedzę o języku analizatorowi morfologicznemu zaopatrzonemu w funkcję odgadywania lematów i interpretacji morfosyntaktycznych dla form nie należących do słownika (ang. guesser). Drugim zastosowaniem jest generowanie form słów na podstawie lematu i interpretacji morfosyntakcycznej. Podczas referatu poruszone zostanie również zagadnienie dezambiguacji wyników dostarczanych przez analizator morfologiczny. Wersja demonstracyjna programu dostępna jest w Internecie.
+ 
+Title: A multilayer rule based model of Polish inflection
+
+Abstract:
+
+The presentation will be devoted to the multilayer model of Polish inflection. The model has been developed on the basis of Grammatical Dictionary of Polish; it does not use the concept of a inflexion paradigm. The model consists of three layers of hand-made rules: "orthographic-phonetic layer" converting a segment to representation reflecting morphological patterns of the language, "analytic layer" generating lemma and determining affix and "interpretation layer" giving a morphosyntactic interpretation based on detected affixes. The model provides knowledge about the language to a morphological analyzer supplemented with the function of guessing lemmas and morphosyntactic interpretations for non-dictionary forms (guesser). The second use of the model is generation of word forms based on lemma and morphosyntactic interpretation. The presentation will also cover the issue of disambiguation of the results provided by the morphological analyzer. The demo version of the program is available on the Internet.
+
+

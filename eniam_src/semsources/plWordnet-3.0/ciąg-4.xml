@@ -1,0 +1,2773 @@
+<node name="ciąg-4, pasmo-4" size="2208">
+  <node name="sekwencja-1" size="38">
+    <node name="obwód-5" size="0"/>
+    <node name="seria-3, cykl-2" size="33"/>
+    <node name="sztafeta-2" size="0"/>
+    <node name="seria-5" size="1">
+      <node name="multiplet-2" size="0"/>
+    </node>
+  </node>
+  <node name="przemiana pokoleń-1" size="2">
+    <node name="metageneza-1" size="0"/>
+    <node name="heterogonia-1" size="0"/>
+  </node>
+  <node name="cisza-4, spokój-3" size="0"/>
+  <node name="ciąg zdarzeń-1, ciąg wydarzeń-1" size="2195">
+    <node name="łańcuch zdarzeń-1, łańcuch wydarzeń-1" size="0"/>
+    <node name="łańcuch Markowa-1" size="0"/>
+    <node name="maraton-3" size="0"/>
+    <node name="proces-1" size="2190">
+      <node name="ruch naturalny ludności-1" size="0"/>
+      <node name="integracja automatyki-1" size="0"/>
+      <node name="warstwowanie-2" size="0"/>
+      <node name="eksploatacja-2" size="0"/>
+      <node name="eksplanacja-1" size="0"/>
+      <node name="agregacja-8" size="4">
+        <node name="agregacja-4" size="0"/>
+        <node name="agregacja-3" size="0"/>
+        <node name="agregacja-1" size="1"/>
+      </node>
+      <node name="proces budowlany-1" size="0"/>
+      <node name="kreacja pieniądza-1" size="0"/>
+      <node name="namnażanie-1, cykl reprodukcyjny-1" size="0"/>
+      <node name="cykl inwestycyjny-1" size="0"/>
+      <node name="bańka spekulacyjna-1, bąbel spekulacyjny-1" size="0"/>
+      <node name="proces legislacyjny-1" size="0"/>
+      <node name="proces inwestycyjny-1" size="0"/>
+      <node name="nostryfikacja-2" size="0"/>
+      <node name="starzenie moralne-1" size="0"/>
+      <node name="geneza-2" size="0"/>
+      <node name="rozwój-1, progres-1, progresja-1, ewolucja-1" size="37">
+        <node name="rozwój zrównoważony-1" size="0"/>
+        <node name="kariera-2" size="0"/>
+        <node name="komplikacja-2" size="0"/>
+        <node name="zrównoważony rozwój-1" size="0"/>
+        <node name="rozkwit-1, boom-1, tłuste lata-1, złoty wiek-1, prosperity-1" size="2">
+          <node name="renesans-2" size="0"/>
+          <node name="prosperity-2" size="0"/>
+        </node>
+        <node name="postęp-1" size="3">
+          <node name="postęp naukowy-1" size="0"/>
+          <node name="postęp techniczny-1" size="0"/>
+          <node name="postęp biologiczny-1" size="0"/>
+        </node>
+        <node name="ekorozwój-1" size="0"/>
+        <node name="nobilitacja-1, wywyższenie-2" size="0"/>
+        <node name="ewolucja-3" size="0"/>
+        <node name="zalew-1, ofensywa-2" size="0"/>
+        <node name="rozbudowa-1" size="0"/>
+        <node name="ekspansja-1" size="0"/>
+        <node name="modernizacja-1, unowocześnienie-2" size="18">
+          <node name="termomodernizacja-1" size="0"/>
+          <node name="technicyzacja-1, technizacja-1" size="0"/>
+          <node name="elektronizacja-1" size="1">
+            <node name="komputeryzacja-1, informatyzacja-1" size="0"/>
+          </node>
+          <node name="radiofonizacja-1" size="0"/>
+          <node name="chemizacja-1" size="1">
+            <node name="chemizacja rolnictwa-1" size="0"/>
+          </node>
+          <node name="cyfryzacja-1, digitalizacja-1, dygitalizacja-1" size="0"/>
+          <node name="mechanizacja-1" size="0"/>
+          <node name="urbanizacja-1" size="0"/>
+          <node name="telefonizacja-1" size="0"/>
+          <node name="elektryfikacja-1" size="0"/>
+          <node name="dezindustrializacja-1, odprzemysłowienie-1, deindustrializacja-1" size="0"/>
+          <node name="industrializacja-1, uprzemysłowienie-3" size="0"/>
+          <node name="gazyfikacja-1" size="0"/>
+          <node name="motoryzacja-1" size="0"/>
+          <node name="aktualizacja-1" size="1">
+            <node name="paszportyzacja-1" size="0"/>
+          </node>
+        </node>
+        <node name="cywilizacja-2" size="0"/>
+      </node>
+      <node name="cybernetyzacja-1" size="0"/>
+      <node name="kaskadyzacja-1" size="0"/>
+      <node name="konteneryzacja-1" size="0"/>
+      <node name="dwufazowość-1, dwuetapowość-1" size="0"/>
+      <node name="humanitaryzacja-1" size="0"/>
+      <node name="higienizacja-2" size="0"/>
+      <node name="kulturkampf-1" size="0"/>
+      <node name="aglutynacyjność-1" size="0"/>
+      <node name="synojkizm-1" size="0"/>
+      <node name="oblew-1" size="0"/>
+      <node name="barbaryzacja-2" size="0"/>
+      <node name="emergencja-1" size="0"/>
+      <node name="fiskalizacja-1" size="0"/>
+      <node name="latenizacja-1" size="0"/>
+      <node name="konglomeracja-2, akumulacja-1, komasacja-1, koncentracja-2, kumulacja-1" size="2">
+        <node name="hiperakumulacja-1" size="0"/>
+        <node name="sekrecja-2" size="0"/>
+      </node>
+      <node name="lokomocja-1" size="38">
+        <node name="ruchy-1, ruch-5" size="36">
+          <node name="ruch izostatyczny-1" size="0"/>
+          <node name="ruchy talasogeniczne-1" size="0"/>
+          <node name="ruchy lądotwórcze-1, ruchy epejrogeniczne-1, epejrogeneza-1" size="0"/>
+          <node name="ruchy diktyogeniczne-1" size="0"/>
+          <node name="epejroforeza-1, dryf kontynentalny-1, wędrówka kontynentów-1" size="0"/>
+          <node name="eustatyczne ruchy morza-1" size="0"/>
+          <node name="ruch katabatyczny-1" size="0"/>
+          <node name="ruchy planet-1" size="0"/>
+          <node name="ruchy tektoniczne-1" size="0"/>
+          <node name="ruchy masowe-1" size="17"/>
+          <node name="orogeneza-1, ruchy orogeniczne-1, fałdowanie-2, górotwórczość-1, ruchy górotwórcze-1" size="8"/>
+        </node>
+        <node name="dryft-1" size="0"/>
+      </node>
+      <node name="przepał-1" size="0"/>
+      <node name="ustawodawstwo-2, prawodawstwo-2, legislacja-1" size="1">
+        <node name="legislacja wspólnotowa-1" size="0"/>
+      </node>
+      <node name="ewolucja kosmosu-1" size="0"/>
+      <node name="replikacja-1" size="1">
+        <node name="replikacja DNA-1" size="0"/>
+      </node>
+      <node name="partykularyzacja-1" size="0"/>
+      <node name="uniwersalizacja-1" size="0"/>
+      <node name="nuklearyzacja-1" size="0"/>
+      <node name="proces społeczny-1" size="58" abstract="true">
+        <node name="przesunięcie językowe-1" size="0"/>
+        <node name="deruralizacja-1" size="0"/>
+        <node name="gorączka złota-2" size="0"/>
+        <node name="reifikacja-2" size="0"/>
+        <node name="koncentracja-7" size="0"/>
+        <node name="ruralizacja-1, rustyfikacja-1" size="0"/>
+        <node name="stereotypizacja-1" size="0"/>
+        <node name="desocjalizacja-1" size="0"/>
+        <node name="barbaryzacja-1" size="0"/>
+        <node name="przewarstwienie-1" size="0"/>
+        <node name="tabuizacja-1" size="0"/>
+        <node name="makdonaldyzacja-1, macdonaldyzacja-1, mcdonaldyzacja-1" size="0"/>
+        <node name="polityzacja-1" size="0"/>
+        <node name="patologizacja-1" size="0"/>
+        <node name="akulturacja-1" size="0"/>
+        <node name="technicyzacja-2, technizacja-2" size="0"/>
+        <node name="ideologizacja-1" size="0"/>
+        <node name="desegregacja-1" size="0"/>
+        <node name="ukrainizacja-2" size="0"/>
+        <node name="romanizacja-2" size="0"/>
+        <node name="grecyzacja-2" size="0"/>
+        <node name="hellenizacja-2" size="0"/>
+        <node name="ateizacja-1" size="0"/>
+        <node name="romanizacja-3" size="0"/>
+        <node name="dyferencjacja społeczna-1, zróżnicowanie społeczne-1" size="0"/>
+        <node name="brutalizacja-1" size="0"/>
+        <node name="latynizacja-1" size="0"/>
+        <node name="pauperyzacja-1, proletaryzacja-1, ubożenie-4" size="0"/>
+        <node name="dyfuzja kulturowa-1" size="0"/>
+        <node name="ewolucja-3" size="0"/>
+        <node name="dechrystianizacja-1" size="0"/>
+        <node name="profesjonalizacja-2" size="0"/>
+        <node name="polonizacja-2" size="1"/>
+        <node name="dehumanizacja-1" size="0"/>
+        <node name="chrystianizacja-1" size="3">
+          <node name="reewangelizacja-1" size="0"/>
+          <node name="katolicyzacja-2" size="0"/>
+          <node name="ewangelizacja-1" size="0"/>
+        </node>
+        <node name="asymilacja-1" size="17">
+          <node name="iranizacja-1" size="0"/>
+          <node name="okcydentalizacja-1, westernizacja-1" size="1">
+            <node name="amerykanizacja-1" size="0"/>
+          </node>
+          <node name="bułgaryzacja-1" size="0"/>
+          <node name="bolszewizacja-1" size="0"/>
+          <node name="rutenizacja-1" size="0"/>
+          <node name="czechizacja-1" size="0"/>
+          <node name="lituanizacja-1" size="0"/>
+          <node name="romanizacja-1" size="0"/>
+          <node name="latynizacja-1" size="0"/>
+          <node name="rusyfikacja-1" size="0"/>
+          <node name="polonizacja-2" size="1">
+            <node name="repolonizacja-1" size="0"/>
+          </node>
+          <node name="naturalizacja-1" size="0"/>
+          <node name="hellenizacja-1" size="0"/>
+          <node name="germanizacja-1" size="0"/>
+          <node name="europeizacja-1" size="0"/>
+        </node>
+        <node name="popularyzacja-1" size="2">
+          <node name="politechnizacja-1" size="0"/>
+          <node name="promocja-4" size="0"/>
+        </node>
+        <node name="decentralizacja-1" size="0"/>
+      </node>
+      <node name="upodobnienie-2" size="0"/>
+      <node name="efekt domina-1, efekt domino-1" size="0"/>
+      <node name="proces technologiczny-1" size="33">
+        <node name="uzdatnianie wody-1" size="0"/>
+        <node name="reforming parowy-1" size="0"/>
+        <node name="proces jednostkowy-1" size="0"/>
+        <node name="szczelinowanie hydrauliczne-1" size="0"/>
+        <node name="cykl paliwowy-1" size="0"/>
+        <node name="pudlingowanie-1" size="0"/>
+        <node name="synteza-5, synteza dźwięku-1" size="7">
+          <node name="synteza mowy-1" size="0"/>
+          <node name="synteza granularna-1" size="0"/>
+          <node name="synteza wektorowa-1" size="0"/>
+          <node name="synteza tablicowa-1" size="0"/>
+          <node name="synteza FM-1" size="0"/>
+          <node name="synteza addytywna-1" size="0"/>
+          <node name="synteza subtraktywna-1" size="0"/>
+        </node>
+        <node name="bitumizacja-2" size="0"/>
+        <node name="warka-2" size="0"/>
+        <node name="paletyzacja-1" size="0"/>
+        <node name="agregacja-4" size="0"/>
+        <node name="wyprawa-5" size="0"/>
+        <node name="aromatyzacja-1, aromatyzowanie-2" size="0"/>
+        <node name="reforming-1" size="1"/>
+        <node name="piroliza-1, pyroliza-1, destylacja rozkładowa-1" size="0"/>
+        <node name="liofilizacja-1, suszenie sublimacyjne-1" size="0"/>
+        <node name="kogeneracja-1, rozproszona gospodarka energetyczna-1" size="0"/>
+        <node name="homogenizacja-1" size="0"/>
+        <node name="maturacja-1, dojrzewanie-6" size="0"/>
+        <node name="kandyzacja-2" size="0"/>
+        <node name="pasywacja-1" size="0"/>
+        <node name="saturacja-2" size="0"/>
+        <node name="flotacja-1" size="0"/>
+        <node name="kraking-1, krakowanie-1" size="1">
+          <node name="hydrokraking-1" size="0"/>
+        </node>
+      </node>
+      <node name="polaryzacja-2, dyferencjacja-1, różnicowanie się-3" size="3">
+        <node name="radiacja-2" size="1">
+          <node name="radiacja adaptatywna-1, radiacja adaptacyjna-1" size="0"/>
+        </node>
+        <node name="dyferencjacja społeczna-1, zróżnicowanie społeczne-1" size="0"/>
+      </node>
+      <node name="emulacja-1" size="0"/>
+      <node name="nauka-4, edukacja-1" size="55">
+        <node name="podnoszenie kwalifikacji zawodowych-1" size="0"/>
+        <node name="czynności eksploracyjne-1" size="0"/>
+        <node name="edukacja ekologiczna-1" size="0"/>
+        <node name="kształcenie ustawiczne-1" size="0"/>
+        <node name="powtórka-3" size="0"/>
+        <node name="interioryzacja-2" size="0"/>
+        <node name="impostacja-2" size="0"/>
+        <node name="pedagogizacja-1" size="0"/>
+        <node name="psychoedukacja-1" size="0"/>
+        <node name="uświadomienie-2" size="0"/>
+        <node name="studia-2" size="16">
+          <node name="kierunek-4" size="14">
+            <node name="sinologia-2" size="0"/>
+            <node name="ekonomia-4" size="0"/>
+            <node name="medycyna-2" size="0"/>
+            <node name="regionalistyka-2" size="0"/>
+            <node name="filozofia-6" size="0"/>
+            <node name="historia sztuki-3" size="0"/>
+            <node name="informatyka-3" size="0"/>
+            <node name="geografia-4" size="0"/>
+            <node name="chemia-5" size="0"/>
+            <node name="historia-6" size="0"/>
+            <node name="matematyka-3" size="0"/>
+            <node name="fizyka-3" size="0"/>
+            <node name="biologia-4" size="0"/>
+            <node name="weterynaria-2" size="0"/>
+          </node>
+          <node name="doktorantura-1" size="0"/>
+        </node>
+        <node name="praktyka-3" size="3">
+          <node name="termin-3" size="0"/>
+          <node name="aplikacja-3, aplikantura-1" size="0"/>
+          <node name="staż-2" size="0"/>
+        </node>
+        <node name="samokształcenie-1, autodydaktyka-1, samouctwo-1, autoedukacja-1" size="0"/>
+        <node name="koedukacja-1" size="0"/>
+        <node name="alfabetyzacja-1" size="0"/>
+        <node name="katechizacja-1" size="0"/>
+        <node name="reedukacja-3" size="0"/>
+        <node name="profesjonalizacja-1" size="0"/>
+        <node name="nauczanie-3, kształcenie-4, edukacja-2, oświata-1" size="17">
+          <node name="nauczanie integracyjne-1" size="0"/>
+          <node name="utrakwizm-3" size="0"/>
+          <node name="utrakwizm-2" size="0"/>
+          <node name="reewangelizacja-1" size="0"/>
+          <node name="pedagogizacja-2" size="0"/>
+          <node name="e-learning-1" size="0"/>
+          <node name="kaganek oświaty-1" size="0"/>
+          <node name="tajne nauczanie-1, tajne komplety-1" size="0"/>
+          <node name="nauczanie dogmatyczne-1" size="0"/>
+          <node name="nauczanie programowe-1" size="0"/>
+          <node name="nauczanie elementarne-1, nauczanie początkowe-1" size="0"/>
+          <node name="nauczanie całościowe-1" size="1">
+            <node name="nauczanie łączne-1" size="0"/>
+          </node>
+          <node name="trenerstwo-1, trenerka-2" size="0"/>
+          <node name="ewangelizacja-1" size="0"/>
+          <node name="nauczycielstwo-1" size="1">
+            <node name="wychowawstwo-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="normalizacja-2, unormowanie-2" size="10">
+        <node name="samoregulacja-2, autoregulacja-2" size="0"/>
+        <node name="uregulowanie-4, regulacja-2" size="8">
+          <node name="zapis-2" size="2">
+            <node name="dożywocie-4" size="0"/>
+            <node name="legat-2, legacja-1" size="0"/>
+          </node>
+          <node name="protokół-4" size="0"/>
+          <node name="reglamentacja-1" size="0"/>
+          <node name="taryfikator-1" size="0"/>
+          <node name="kodyfikacja-1" size="0"/>
+          <node name="waloryzacja-1" size="0"/>
+        </node>
+      </node>
+      <node name="proces-2" size="794">
+        <node name="efekt lotosu-1" size="0"/>
+        <node name="wymiana gazowa-1" size="0"/>
+        <node name="abrazja-4" size="0"/>
+        <node name="dryf genetyczny-1, dryft genetyczny-1" size="1">
+          <node name="efekt założyciela-1" size="0"/>
+        </node>
+        <node name="proliferacja-4" size="1">
+          <node name="proliferacja-3" size="0"/>
+        </node>
+        <node name="fotomechanika-1" size="0"/>
+        <node name="filtracja-1" size="1">
+          <node name="kompresja impulsów-1" size="0"/>
+        </node>
+        <node name="denaturalizacja-2" size="0"/>
+        <node name="proces glebotwórczy-1" size="1">
+          <node name="bielicowanie-1" size="0"/>
+        </node>
+        <node name="ewapotranspiracja-1" size="0"/>
+        <node name="tromboliza-1" size="0"/>
+        <node name="semioza-1" size="0"/>
+        <node name="proces fizyczny-1" size="199">
+          <node name="przyspieszenie Fermiego-1" size="0"/>
+          <node name="niestabilność Jeansa-1" size="0"/>
+          <node name="fuzja jądrowa-1, reakcja termojądrowa-1" size="0"/>
+          <node name="cementacja-2" size="0"/>
+          <node name="konwersja-11" size="0"/>
+          <node name="rekrystalizacja-3" size="0"/>
+          <node name="plastyfikacja-1" size="0"/>
+          <node name="czas półtrwania-1, okres półtrwania-1" size="0"/>
+          <node name="intercepcja-1" size="0"/>
+          <node name="skurcz-2" size="0"/>
+          <node name="solubilizacja-1" size="2">
+            <node name="solubilizacja hydrotopowa-1" size="0"/>
+            <node name="solubilizacja micelarna-1" size="0"/>
+          </node>
+          <node name="włoskowatość-1" size="0"/>
+          <node name="dyssypacja energii-1" size="0"/>
+          <node name="ewaporacja-1" size="0"/>
+          <node name="parowanie-2, wyparowywanie-1" size="0"/>
+          <node name="elektryzacja-2" size="0"/>
+          <node name="dehermetyzacja-1" size="0"/>
+          <node name="demodulacja-1, detekcja-1" size="0"/>
+          <node name="ablacja-2" size="0"/>
+          <node name="kolimacja-1" size="0"/>
+          <node name="resublimacja-1" size="0"/>
+          <node name="maceracja-2" size="0"/>
+          <node name="proces geologiczny-1" size="132">
+            <node name="okruch skalny-1" size="0"/>
+            <node name="dezintegracja skał-1, rozpad skał-1" size="0"/>
+            <node name="sekwencja Boumy-1" size="0"/>
+            <node name="przebiegunowanie Ziemi-1" size="0"/>
+            <node name="wieczna zmarzlina-1" size="0"/>
+            <node name="transfluencja lodowca-1" size="0"/>
+            <node name="rzeźba krasowa-1" size="0"/>
+            <node name="rzeźba glacifluwialna-1" size="0"/>
+            <node name="oscylacja lodowca-1" size="0"/>
+            <node name="transgresja lodowca-1, awans lodowca-1" size="0"/>
+            <node name="regresja lodowca-1, recesja lodowca-1" size="0"/>
+            <node name="proces fluwioglacjalny-1" size="0"/>
+            <node name="rzeźba glacjalna-1" size="0"/>
+            <node name="stożek glacifluwialny-1" size="0"/>
+            <node name="stożek usypiskowy-1" size="0"/>
+            <node name="spływ grawitacyjny-1" size="0"/>
+            <node name="ruch izostatyczny-1" size="0"/>
+            <node name="ruchy talasogeniczne-1" size="0"/>
+            <node name="ruchy lądotwórcze-1, ruchy epejrogeniczne-1, epejrogeneza-1" size="0"/>
+            <node name="ruch eustatyczny-1" size="0"/>
+            <node name="ruchy diktyogeniczne-1" size="0"/>
+            <node name="proces peryglacjalny-1" size="0"/>
+            <node name="proces hydrotermalny-1" size="0"/>
+            <node name="proces glacjalny-1" size="0"/>
+            <node name="proces endogeniczny-1" size="0"/>
+            <node name="proces egzogeniczny-1" size="0"/>
+            <node name="proces eoliczny-1" size="0"/>
+            <node name="ingresja morza-1, ingresja morska-1" size="0"/>
+            <node name="faza górotwórcza-1" size="0"/>
+            <node name="brekcja tektoniczna-1, druzgot tektoniczny-1" size="0"/>
+            <node name="regresja morza-1" size="0"/>
+            <node name="cielenie-1, cielenie lodowca-1, cielenie się lodowca-1" size="0"/>
+            <node name="antecedencja-3" size="0"/>
+            <node name="anateksis-1" size="0"/>
+            <node name="saltacja-1" size="0"/>
+            <node name="bitumizacja-1" size="0"/>
+            <node name="fosforytyzacja-1" size="0"/>
+            <node name="diaftoreza-1, metamorfizm retrogresywny-1, metamorfizm wsteczny-1" size="0"/>
+            <node name="pneumatoliza-1" size="0"/>
+            <node name="sufozja-1" size="0"/>
+            <node name="inwersja rzeźby-1, inwersja morfologiczna-1, odwrócenie rzeźby-1" size="0"/>
+            <node name="palingeneza-1" size="0"/>
+            <node name="ascenzja-1, ascencja-1, przesączanie pionowe-1" size="0"/>
+            <node name="eksfoliacja-2" size="0"/>
+            <node name="inkrustacja-4" size="0"/>
+            <node name="poligonizacja-2" size="0"/>
+            <node name="uskok-6" size="1">
+              <node name="szczelina lodowcowa-1" size="0"/>
+            </node>
+            <node name="filtracja-2" size="0"/>
+            <node name="kras-3" size="0"/>
+            <node name="egzaracja-1" size="0"/>
+            <node name="sylifikacja-1" size="0"/>
+            <node name="cementacja-1" size="0"/>
+            <node name="metasomatoza-1" size="0"/>
+            <node name="laminacja-1" size="0"/>
+            <node name="uwęglanie-1, karbonizacja-2" size="0"/>
+            <node name="subdukcja-1" size="0"/>
+            <node name="granityzacja-1" size="0"/>
+            <node name="dolomityzacja-1" size="0"/>
+            <node name="deglacjacja-1" size="0"/>
+            <node name="ruchy tektoniczne-1" size="0"/>
+            <node name="plutonizm-2" size="2">
+              <node name="lopolit-1" size="0"/>
+              <node name="lakolit-1, lakkolit-1" size="0"/>
+            </node>
+            <node name="chlorytyzacja-1" size="0"/>
+            <node name="fosylizacja-2" size="0"/>
+            <node name="ablacja-1, spłukiwanie-1" size="1">
+              <node name="ablacja lodowcowa-1" size="0"/>
+            </node>
+            <node name="morfogeneza-2" size="0"/>
+            <node name="dyslokacja-1" size="1"/>
+            <node name="ruchy masowe-1" size="17">
+              <node name="spływ błotny-1" size="0"/>
+              <node name="osuwanie-1" size="4">
+                <node name="osuwisko-1, osypisko-2, zsuw-1" size="3">
+                  <node name="osuwisko podmorskie-1" size="0"/>
+                  <node name="osuwisko ześlizgowe-1, zsuwa-1" size="0"/>
+                  <node name="zerwa-2, osuwisko obrotowe-1" size="0"/>
+                </node>
+              </node>
+              <node name="osiadanie-2" size="0"/>
+              <node name="odpadanie-4" size="0"/>
+              <node name="spełzywanie-1" size="2">
+                <node name="cieczenie-1" size="0"/>
+                <node name="soliflukcja-1, kongeliflukcja-1, geliflukcja-1" size="0"/>
+              </node>
+              <node name="lawina-1" size="5">
+                <node name="lawina deskowa-1" size="0"/>
+                <node name="lawina piroklastyczna-1" size="0"/>
+                <node name="lawina gruzowa-1" size="0"/>
+                <node name="lahar-1, spływ popiołowy-1" size="0"/>
+                <node name="pyłówka-1, lawina pyłowa-1" size="0"/>
+              </node>
+            </node>
+            <node name="rekrystalizacja-2" size="0"/>
+            <node name="dyferencjacja-2" size="0"/>
+            <node name="mineralizacja-3" size="0"/>
+            <node name="diageneza-1" size="2">
+              <node name="diageneza epigenetyczna-1" size="0"/>
+              <node name="diageneza halmyrolityczna-1" size="0"/>
+            </node>
+            <node name="akumulacja-2, agradacja-1, depozycja-1, namywanie-1, nanoszenie-6" size="1">
+              <node name="kolmatacja-1" size="0"/>
+            </node>
+            <node name="denudacja-1" size="0"/>
+            <node name="proces glejowy-1" size="0"/>
+            <node name="wietrzenie-5" size="10">
+              <node name="wietrzenie biologiczne-1, wietrzenie organiczne-1" size="0"/>
+              <node name="wietrzenie chemiczne-1, dekompozycja-3" size="3">
+                <node name="halmyroliza-1" size="0"/>
+                <node name="lateryzacja-1, laterytyzacja-1" size="0"/>
+                <node name="kaolinizacja-1" size="0"/>
+              </node>
+              <node name="wietrzenie fizyczne-1, wietrzenie mechaniczne-1" size="4">
+                <node name="wietrzenie solne-1" size="0"/>
+                <node name="wietrzenie insolacyjne-1, wietrzenie termiczne-1" size="0"/>
+                <node name="wietrzenie ilaste-1" size="0"/>
+                <node name="wietrzenie mrozowe-1, dezintegracja mrozowa-1, zamróz-2, gelifrakcja-1, geliwacja-1, kongelacja-1, multigelacja-1" size="0"/>
+              </node>
+            </node>
+            <node name="abrazja-1" size="1">
+              <node name="korazja-1" size="0"/>
+            </node>
+            <node name="metamorfizm-1, metamorfizacja-1" size="9">
+              <node name="metamorfizm progresywny-1" size="0"/>
+              <node name="metamorfizm regionalny-1" size="0"/>
+              <node name="metamorfizm kontaktowy-1" size="0"/>
+              <node name="metamorfizm dynamiczny-1, metamorfizm dyslokacyjny-1" size="0"/>
+              <node name="mylonityzacja-1" size="0"/>
+              <node name="epigeneza-2" size="0"/>
+              <node name="kataklaza-1" size="0"/>
+              <node name="blasteza-1, krystaloblasteza-1" size="0"/>
+              <node name="serycytyzacja-1" size="0"/>
+            </node>
+            <node name="transgresja-1, transgresja morza-1" size="0"/>
+            <node name="orogeneza-1, ruchy orogeniczne-1, fałdowanie-2, górotwórczość-1, ruchy górotwórcze-1" size="8">
+              <node name="orogeneza kimeryjska-1" size="0"/>
+              <node name="orogeneza katangijska-1" size="0"/>
+              <node name="orogeneza karelska-1" size="0"/>
+              <node name="orogeneza kadomska-1" size="0"/>
+              <node name="orogeneza bajkalska-1" size="0"/>
+              <node name="orogeneza kaledońska-1" size="0"/>
+              <node name="orogeneza hercyńska-1, orogeneza waryscyjska-1" size="0"/>
+              <node name="orogeneza alpejska-1" size="0"/>
+            </node>
+          </node>
+          <node name="modulacja-1" size="2">
+            <node name="modulacja kratowo-kodowa-1" size="0"/>
+            <node name="modulacja delta-sigma-2" size="0"/>
+          </node>
+          <node name="odkształcenie-2" size="3">
+            <node name="odkształcenie plastyczne-1" size="1">
+              <node name="bliźniakowanie-1" size="0"/>
+            </node>
+            <node name="pełzanie-4" size="0"/>
+          </node>
+          <node name="dekompresja-1" size="0"/>
+          <node name="anihilacja-1" size="0"/>
+          <node name="infiltracja-3, nacieczenie-1, naciek-3" size="0"/>
+          <node name="rozpuszczanie-2" size="0"/>
+          <node name="rekombinacja-1" size="0"/>
+          <node name="krzepnięcie-3" size="1">
+            <node name="krzepnięcie krwi-1" size="0"/>
+          </node>
+          <node name="sublimacja-1" size="0"/>
+          <node name="rozpad-1, rozkład-1" size="20"/>
+          <node name="proces termodynamiczny-1, przemiana termodynamiczna-1" size="3">
+            <node name="przemiana izochoryczna-1, izochora-1" size="0"/>
+            <node name="politropa-1, przemiana politropowa-1" size="0"/>
+            <node name="przemiana izentropowa-1, przemiana izoentropowa-1" size="0"/>
+          </node>
+          <node name="skraplanie-3, kondensacja-1" size="2">
+            <node name="kondensacja hydrolityczna-1" size="0"/>
+            <node name="kondensacja kapilarna-1" size="0"/>
+          </node>
+        </node>
+        <node name="proces chemiczny-1" size="115">
+          <node name="reforming parowy-1" size="0"/>
+          <node name="inwersja cukru-1" size="0"/>
+          <node name="rozdzielanie izotopów-1" size="0"/>
+          <node name="fotochromia-1" size="0"/>
+          <node name="depozycja-3" size="0"/>
+          <node name="wiązanie-19" size="0"/>
+          <node name="immobilizacja-1" size="0"/>
+          <node name="alkalizacja-1" size="0"/>
+          <node name="fosforytyzacja-1" size="0"/>
+          <node name="desorpcja-1" size="0"/>
+          <node name="spalacja-1" size="0"/>
+          <node name="koalescencja-1" size="0"/>
+          <node name="synereza-2" size="0"/>
+          <node name="podstój-1" size="0"/>
+          <node name="flegmatyzacja-1" size="0"/>
+          <node name="metasomatoza-1" size="0"/>
+          <node name="uwęglanie-1, karbonizacja-2" size="0"/>
+          <node name="zwęglanie-4, karbonizacja-1" size="0"/>
+          <node name="dekarbonizacja-1" size="1">
+            <node name="dekarbonizacja wody-1" size="0"/>
+          </node>
+          <node name="dekarbonizacja-2" size="0"/>
+          <node name="karmelizacja-1" size="0"/>
+          <node name="fluidyzacja-1" size="0"/>
+          <node name="demineralizacja-1" size="0"/>
+          <node name="reforming-1" size="1">
+            <node name="hydroforming-1" size="0"/>
+          </node>
+          <node name="piroliza-1, pyroliza-1, destylacja rozkładowa-1" size="0"/>
+          <node name="glukoneogeneza-1" size="0"/>
+          <node name="amonifikacja-1" size="0"/>
+          <node name="metylacja-1" size="0"/>
+          <node name="dializa-2" size="1">
+            <node name="elektrodializa-1" size="0"/>
+          </node>
+          <node name="samoorganizacja molekularna-1" size="0"/>
+          <node name="krystalizacja-1" size="3">
+            <node name="krystalizacja równowagowa-1" size="0"/>
+            <node name="blasteza-1, krystaloblasteza-1" size="0"/>
+            <node name="diadochia-1" size="0"/>
+          </node>
+          <node name="nawęglanie-1, karburyzacja-1" size="0"/>
+          <node name="solwatacja-1" size="0"/>
+          <node name="saturacja-1" size="1">
+            <node name="saturacja-2" size="0"/>
+          </node>
+          <node name="rekrystalizacja-1" size="1">
+            <node name="krystalizacja strefowa-1" size="0"/>
+          </node>
+          <node name="mineralizacja-1" size="0"/>
+          <node name="izomeryzacja-1" size="0"/>
+          <node name="inaktywacja-1, inaktywowanie-2" size="0"/>
+          <node name="okluzja-1" size="0"/>
+          <node name="agregacja-1" size="1">
+            <node name="agregacja-7" size="0"/>
+          </node>
+          <node name="defekacja-1" size="0"/>
+          <node name="dehydratacja-1, odwadnianie-4" size="1">
+            <node name="liofilizacja-1, suszenie sublimacyjne-1" size="0"/>
+          </node>
+          <node name="transmutacja-1" size="0"/>
+          <node name="koagulacja-1" size="0"/>
+          <node name="wytrącanie-4" size="0"/>
+          <node name="sedymentacja-1" size="1">
+            <node name="sedymentacja cykliczna-1" size="0"/>
+          </node>
+          <node name="rozpuszczanie-2" size="0"/>
+          <node name="sorpcja-1" size="6">
+            <node name="resorpcja-1" size="1"/>
+            <node name="absorpcja-1" size="0"/>
+            <node name="adsorpcja-1" size="2">
+              <node name="chemisorpcja-1, adsorpcja chemiczna-1" size="0"/>
+              <node name="adsorpcja fizyczna-1, fizysorpcja-1" size="0"/>
+            </node>
+          </node>
+          <node name="fermentacja-1" size="10">
+            <node name="fermentacja jabłkowo-mlekowa-1" size="0"/>
+            <node name="fermentacja propionowa-1" size="0"/>
+            <node name="fermentacja mleczanowa-1" size="0"/>
+            <node name="fermentacja metanowa-1" size="0"/>
+            <node name="fermentacja anaerobowa-1" size="0"/>
+            <node name="fermentacja octowa-1" size="0"/>
+            <node name="fermentacja mlekowa-1" size="0"/>
+            <node name="fermentacja masłowa-1" size="0"/>
+            <node name="fermentacja alkoholowa-1" size="1">
+              <node name="winifikacja-1" size="0"/>
+            </node>
+          </node>
+          <node name="dysocjacja-1" size="2">
+            <node name="dysocjacja termiczna-1" size="0"/>
+            <node name="dysocjacja elektrolityczna-1" size="0"/>
+          </node>
+          <node name="rozpad-1, rozkład-1" size="20">
+            <node name="dezintegracja skał-1, rozpad skał-1" size="0"/>
+            <node name="samorozpad-1" size="0"/>
+            <node name="glikogenoliza-1" size="0"/>
+            <node name="fotoliza-1" size="0"/>
+            <node name="fibrynoliza-1" size="0"/>
+            <node name="depolimeryzacja-1" size="0"/>
+            <node name="humifikacja-1" size="0"/>
+            <node name="proteoliza-1" size="0"/>
+            <node name="mineralizacja-1" size="0"/>
+            <node name="hydroliza-1" size="0"/>
+            <node name="dysocjacja elektrolityczna-1" size="0"/>
+            <node name="denaturacja-1" size="2">
+              <node name="denaturacja DNA-1" size="0"/>
+              <node name="denaturacja białka-1" size="0"/>
+            </node>
+            <node name="rozpad promieniotwórczy-1, przemiana jądrowa-1, reakcja jądrowa-1" size="4">
+              <node name="cykl protonowy-1" size="0"/>
+              <node name="reakcja łańcuchowa-1" size="2"/>
+            </node>
+            <node name="rozszczepienie-1" size="0"/>
+          </node>
+          <node name="proces nieodwracalny-1, reakcja nieodwracalna-1, przemiana nieodwracalna-1" size="0"/>
+          <node name="proces odwracalny-1, reakcja odwracalna-1, przemiana odwracalna-1" size="1">
+            <node name="odczyn poszczepienny-1" size="0"/>
+          </node>
+          <node name="spalanie-7" size="3">
+            <node name="spalanie stukowe-1, efekt stukowy-1" size="0"/>
+            <node name="deflagracja-1, wybuch właściwy-1" size="0"/>
+            <node name="półspalanie-1" size="0"/>
+          </node>
+          <node name="degradacja-2" size="3"/>
+          <node name="korozja-1" size="5">
+            <node name="korozja elektrochemiczna-1" size="0"/>
+            <node name="korozja chemiczna-1" size="0"/>
+            <node name="korozja atmosferyczna-1" size="0"/>
+            <node name="korozja biologiczna-1" size="0"/>
+            <node name="grafityzacja-2" size="0"/>
+          </node>
+        </node>
+        <node name="reakcja chemiczna-1" size="67">
+          <node name="reakcja fotochemiczna-1" size="0"/>
+          <node name="reakcja egzotermiczna-1" size="0"/>
+          <node name="reakcja rodnikowa-1" size="0"/>
+          <node name="reakcja oscylacyjna-1" size="0"/>
+          <node name="reakcja następcza-1" size="0"/>
+          <node name="reakcja katalityczna-1" size="0"/>
+          <node name="reakcja endotermiczna-1" size="0"/>
+          <node name="biotransformacja-1" size="0"/>
+          <node name="reakcja biuretowa-1" size="0"/>
+          <node name="utlenianie-3" size="1">
+            <node name="pasywacja-1" size="0"/>
+          </node>
+          <node name="substytucja-6, reakcja podstawiania-1" size="0"/>
+          <node name="precypitacja-1" size="0"/>
+          <node name="reakcja elementarna-1" size="0"/>
+          <node name="analiza-4" size="4">
+            <node name="degradacja-2" size="3">
+              <node name="degradacja Edmana-1" size="0"/>
+              <node name="przegrupowanie Hofmanna-1, degradacja Hofmanna-1" size="0"/>
+              <node name="biodegradacja-1" size="0"/>
+            </node>
+          </node>
+          <node name="chelatacja-2" size="0"/>
+          <node name="solwoliza-1" size="0"/>
+          <node name="fosforylacja-1" size="3">
+            <node name="fosforylacja fotosyntetyczna-1, fotofosforylacja-1" size="0"/>
+            <node name="fosforylacja substratowa-1" size="0"/>
+            <node name="fosforylacja oksydacyjna-1" size="0"/>
+          </node>
+          <node name="dezaminacja-1, deaminacja-1" size="0"/>
+          <node name="eliminacja-3" size="0"/>
+          <node name="kondensacja-3" size="0"/>
+          <node name="utlenianie-1" size="2">
+            <node name="utlenianie-2, oksydacja-1" size="0"/>
+            <node name="spalanie-3" size="0"/>
+          </node>
+          <node name="radioliza-1" size="0"/>
+          <node name="fotoliza-1" size="0"/>
+          <node name="hydratacja-1, uwodnienie-1" size="0"/>
+          <node name="dekarboksylacja-1" size="0"/>
+          <node name="cyklizacja-1" size="0"/>
+          <node name="aromatyzacja-2" size="0"/>
+          <node name="addycja-1" size="0"/>
+          <node name="flokulacja-1" size="0"/>
+          <node name="nitryfikacja-1" size="0"/>
+          <node name="redukcja-3, odtlenianie-1" size="1">
+            <node name="denitryfikacja-1" size="0"/>
+          </node>
+          <node name="konwersja-6" size="0"/>
+          <node name="reakcja łańcuchowa-1" size="2">
+            <node name="reakcja łańcuchowa polimerazy-1" size="0"/>
+            <node name="polimeryzacja łańcuchowa-1" size="0"/>
+          </node>
+          <node name="asocjacja-2" size="0"/>
+          <node name="uwodornienie-1, hydrogenizacja-1" size="0"/>
+          <node name="odwodornienie-1, dehydrogenacja-1" size="0"/>
+          <node name="estryfikacja-1" size="0"/>
+          <node name="neutralizacja-1, zobojętnianie-2, reakcja zobojętniania-1" size="0"/>
+          <node name="przegrupowanie-3" size="0"/>
+          <node name="polimeryzacja-1" size="4">
+            <node name="poliaddycja-1" size="0"/>
+            <node name="polimeryzacja łańcuchowa-1" size="0"/>
+            <node name="kopolimeryzacja-1" size="0"/>
+            <node name="polikondensacja-1" size="0"/>
+          </node>
+          <node name="hydroliza-1" size="0"/>
+          <node name="synteza-1" size="9">
+            <node name="synteza Fischera-Tropscha-1" size="0"/>
+            <node name="synteza asymetryczna-1" size="0"/>
+            <node name="synteza totalna-1" size="0"/>
+            <node name="nukleosynteza-1" size="1">
+              <node name="pierwotna nukleosynteza-1" size="0"/>
+            </node>
+            <node name="odwrotna transkrypcja-1" size="0"/>
+            <node name="kariogamia-1" size="0"/>
+            <node name="resynteza-1" size="0"/>
+            <node name="transkrypcja-4" size="0"/>
+          </node>
+        </node>
+        <node name="proces fizjologiczny-1" size="53">
+          <node name="hemostaza-1" size="0"/>
+          <node name="kalcyfikacja-2" size="0"/>
+          <node name="sedacja-1" size="0"/>
+          <node name="torpor-1, odrętwienie-3" size="0"/>
+          <node name="przetrawianie-4, trawienie-3, konkokcja-1" size="0"/>
+          <node name="supresja-2" size="0"/>
+          <node name="supresja-1" size="0"/>
+          <node name="kancerogeneza-1, nowotworzenie-1" size="0"/>
+          <node name="impulsacja-1" size="0"/>
+          <node name="fibrynoliza-1" size="0"/>
+          <node name="habituacja-1" size="0"/>
+          <node name="psychomotoryka-1" size="0"/>
+          <node name="termogeneza-1" size="3">
+            <node name="termogeneza poposiłkowa-1" size="0"/>
+            <node name="termogeneza bezdrżeniowa-1" size="0"/>
+            <node name="termogeneza drżeniowa-1" size="0"/>
+          </node>
+          <node name="gametogeneza-1" size="2">
+            <node name="oogeneza-1, owogeneza-1" size="0"/>
+            <node name="spermatogeneza-1, spermogeneza-1" size="0"/>
+          </node>
+          <node name="depolaryzacja-1" size="0"/>
+          <node name="akomodacja-2, nastawność-1, nastawność oka-1" size="0"/>
+          <node name="krzepnięcie krwi-1" size="0"/>
+          <node name="miesiączka-1, okres-2, krwawienie miesiączkowe-1, menstruacja-1, period-2" size="0"/>
+          <node name="sen-1, spoczynek-2" size="8">
+            <node name="mokry sen-1" size="0"/>
+            <node name="ciężki sen-1" size="0"/>
+            <node name="twardy sen-1, głęboki sen-1, mocny sen-1" size="0"/>
+            <node name="hibernacja-2" size="0"/>
+            <node name="sen letni-1, estywacja-1, diapauza letnia-1" size="0"/>
+            <node name="sen zimowy-1, hibernacja-1, diapauza zimowa-1" size="0"/>
+            <node name="drzemka-1, półsen-1" size="1">
+              <node name="półdrzemka-1" size="0"/>
+            </node>
+          </node>
+          <node name="rozwiązanie-7, poród-1, wydanie na świat-1" size="12">
+            <node name="poród lotosowy-1" size="0"/>
+            <node name="martwy poród-1" size="0"/>
+            <node name="poród przyśpieszony-1" size="0"/>
+            <node name="poród opóźniony-1" size="0"/>
+            <node name="poród naturalny-1, poród fizjologiczny-1" size="0"/>
+            <node name="poród niewczesny-1" size="0"/>
+            <node name="poród główkowy-1" size="0"/>
+            <node name="poród kleszczowy-1" size="0"/>
+            <node name="poród pośladkowy-1" size="0"/>
+            <node name="poród przedwczesny-1" size="0"/>
+            <node name="poród rodzinny-1" size="0"/>
+            <node name="pomiot-3" size="0"/>
+          </node>
+          <node name="ciąża-1, odmienny stan-1, stan błogosławiony-1, brzemienność-1, ciężarność-1" size="7">
+            <node name="wysoka ciąża-1" size="0"/>
+            <node name="ciąża ektopowa-1" size="2">
+              <node name="ciąża pozamaciczna-1" size="1">
+                <node name="ciąża jajowodowa-1" size="0"/>
+              </node>
+            </node>
+            <node name="ciąża przenoszona-1" size="0"/>
+            <node name="ciąża mnoga-1, ciąża wieloraka-1" size="0"/>
+            <node name="wpadka-3, kinder-niespodzianka-1, wypadek przy pracy-2" size="0"/>
+          </node>
+        </node>
+        <node name="proces biologiczny-1" size="362">
+          <node name="transpozycja-7" size="0"/>
+          <node name="pamięć immunologiczna-1" size="0"/>
+          <node name="demarkacja-2" size="0"/>
+          <node name="agregacja-7" size="0"/>
+          <node name="składanie genu-1" size="0"/>
+          <node name="biomagnifikacja-1" size="0"/>
+          <node name="renaturacja białka-1" size="0"/>
+          <node name="denaturacja białka-1" size="0"/>
+          <node name="erozja genetyczna-1" size="0"/>
+          <node name="dyminucja chromatyny-1" size="0"/>
+          <node name="hybrydyzacja kwasów nukleinowych-1" size="0"/>
+          <node name="metylacja DNA-1" size="0"/>
+          <node name="koniugacja bakterii-1" size="0"/>
+          <node name="efekt wąskiego gardła-1" size="0"/>
+          <node name="anamorfoza-3" size="0"/>
+          <node name="oddychanie-4" size="3">
+            <node name="oddychanie komórkowe-1" size="1">
+              <node name="łańcuch oddechowy-1, łańcuch transportu elektronów-1" size="0"/>
+            </node>
+            <node name="oddychanie beztlenowe-1" size="0"/>
+          </node>
+          <node name="sukcesja-3" size="0"/>
+          <node name="odrzut-3" size="0"/>
+          <node name="immobilizacja-1" size="0"/>
+          <node name="kalcyfikacja-3" size="0"/>
+          <node name="diapedeza-1" size="0"/>
+          <node name="amplifikacja-4" size="0"/>
+          <node name="retrakcja-3" size="0"/>
+          <node name="metyzacja-1" size="0"/>
+          <node name="eutrofizacja-1" size="0"/>
+          <node name="odpowiedź immunologiczna-1, odpowiedź odpornościowa-1, reakcja odpornościowa-1, reakcja immunologiczna-1" size="2">
+            <node name="atopia-1" size="0"/>
+            <node name="autoimmunizacja-1" size="0"/>
+          </node>
+          <node name="nekrobioza-1" size="0"/>
+          <node name="autofagia-1, autofagocytoza-1" size="0"/>
+          <node name="amitoza-1" size="0"/>
+          <node name="neurogeneza-1" size="0"/>
+          <node name="wentylacja płuc-1" size="0"/>
+          <node name="eksfoliacja-3" size="0"/>
+          <node name="inkrustacja-3" size="1">
+            <node name="drewnienie-1, lignifikacja-1" size="0"/>
+          </node>
+          <node name="jarowizacja-1, jaryzacja-1, wernalizacja-1" size="0"/>
+          <node name="liza-1" size="5"/>
+          <node name="linienie-1, linka-2" size="0"/>
+          <node name="hemopoeza-1, hematopoeza-1, hemocytopoeza-1" size="0"/>
+          <node name="histogeneza-1" size="0"/>
+          <node name="neowaskularyzacja-1, angiogeneza-1" size="0"/>
+          <node name="apoptoza-1" size="0"/>
+          <node name="organogeneza-1" size="0"/>
+          <node name="synantropizacja-1" size="0"/>
+          <node name="glukoneogeneza-1" size="0"/>
+          <node name="precypitacja antygenu-1, immunoprecypitacja-1" size="0"/>
+          <node name="akrecja-2" size="0"/>
+          <node name="kariokineza-1" size="2">
+            <node name="mejoza-1, kariokineza redukcyjna-1" size="0"/>
+            <node name="mitoza-1, kariokineza somatyczna-1" size="0"/>
+          </node>
+          <node name="kariogamia-1" size="0"/>
+          <node name="imprinting-1, wdrukowanie-1, naznaczenie-4, wpojenie-2" size="0"/>
+          <node name="demielinizacja-1" size="0"/>
+          <node name="cytokineza-1" size="0"/>
+          <node name="zimowla-1" size="0"/>
+          <node name="zimowanie-3" size="1">
+            <node name="gawrowanie-1" size="0"/>
+          </node>
+          <node name="owulacja-1, jajeczkowanie-1" size="0"/>
+          <node name="morfogeneza-1" size="0"/>
+          <node name="katabolizm-1" size="0"/>
+          <node name="mineralizacja-2" size="0"/>
+          <node name="metafaza-1" size="0"/>
+          <node name="gastrulacja-1" size="0"/>
+          <node name="rójka-1, rojenie-2" size="0"/>
+          <node name="kwitnienie-1, kwitnięcie-3, kwiecenie się-1, zakwitanie-2, rozkwitanie-1" size="1">
+            <node name="rozkwit-2" size="0"/>
+          </node>
+          <node name="udomowienie-2, domestyfikacja-1, domestykacja-1" size="0"/>
+          <node name="proliferacja-1" size="0"/>
+          <node name="samoregulacja-1, autoregulacja-1, homeostaza-1" size="2">
+            <node name="osmoregulacja-1" size="0"/>
+            <node name="termoregulacja-1" size="0"/>
+          </node>
+          <node name="segmentacja-2, bruzdkowanie-2" size="0"/>
+          <node name="relaksacja-1" size="0"/>
+          <node name="regresja-1" size="0"/>
+          <node name="biologiczny okres półtrwania-1" size="0"/>
+          <node name="krzyżowanie-5, hybrydyzacja-1" size="2">
+            <node name="test komplementacji-1, test cis-trans-1" size="0"/>
+            <node name="krzyżowanie wsteczne-1" size="0"/>
+          </node>
+          <node name="wylęg-1, wyląg-1, ląg-1, lęg-1" size="1">
+            <node name="inkubacja-1" size="0"/>
+          </node>
+          <node name="degeneracja-2" size="0"/>
+          <node name="degeneracja-1" size="1">
+            <node name="neurodegeneracja-1" size="0"/>
+          </node>
+          <node name="rekombinacja genetyczna-1" size="0"/>
+          <node name="biosynteza-1" size="1">
+            <node name="biosynteza białka-1" size="0"/>
+          </node>
+          <node name="anabolizm-1" size="0"/>
+          <node name="glikoliza-1" size="0"/>
+          <node name="ewolucja-2, bioewolucja-1" size="3">
+            <node name="ewolucja molekularna-1" size="0"/>
+            <node name="koewolucja-1" size="0"/>
+            <node name="mikroewolucja-1" size="0"/>
+          </node>
+          <node name="transgresja-2" size="0"/>
+          <node name="specjacja-1" size="4">
+            <node name="specjacja radiacyjna-1" size="0"/>
+            <node name="specjacja parapatryczna-1" size="0"/>
+            <node name="specjacja filetyczna-1" size="0"/>
+            <node name="dywergencja-2" size="0"/>
+          </node>
+          <node name="dobór sztuczny-1, selekcja-1" size="3">
+            <node name="inbred-1, chów wsobny-1, incest-1, kojarzenie krewniacze-1" size="1">
+              <node name="kojarzenie wsobne-1" size="0"/>
+            </node>
+            <node name="eugenika-1" size="0"/>
+          </node>
+          <node name="uwiąd starczy-1" size="0"/>
+          <node name="dobór naturalny-1" size="3">
+            <node name="dobór różnicujący-1, dobór rozrywający-1" size="0"/>
+            <node name="dobór stabilizujący-1" size="0"/>
+            <node name="dobór płciowy-1" size="0"/>
+          </node>
+          <node name="odżywianie-4" size="44">
+            <node name="metylotrofia-1" size="0"/>
+            <node name="nekrofagia-1" size="0"/>
+            <node name="endocytoza-1" size="1">
+              <node name="fagocytoza-1" size="0"/>
+            </node>
+            <node name="semiwegetarianizm-1" size="2">
+              <node name="ichtiwegetarianizm-1, pescowegetarianizm-1" size="0"/>
+              <node name="pollowegetarianizm-1" size="0"/>
+            </node>
+            <node name="miksotrofizm-1, miksotrofia-1" size="0"/>
+            <node name="ksylofagia-1" size="0"/>
+            <node name="trawożerność-1" size="0"/>
+            <node name="pinocytoza-1" size="0"/>
+            <node name="witarianizm-1" size="1">
+              <node name="frutarianizm-1, fruktarianizm-1, fruitarianizm-1, fruktorianizm-1" size="0"/>
+            </node>
+            <node name="wielożerność-1, polifagizm-1" size="0"/>
+            <node name="symbioza-1" size="7">
+              <node name="protokooperacja-1" size="0"/>
+              <node name="mutualizm-1" size="0"/>
+              <node name="komensalizm-1" size="0"/>
+              <node name="mikoryza-1" size="3">
+                <node name="endomikoryza-1" size="0"/>
+                <node name="ektendomikoryza-1" size="0"/>
+                <node name="ektomikoryza-1" size="0"/>
+              </node>
+            </node>
+            <node name="samożywność-1, autotrofia-1, autotrofizm-1" size="3">
+              <node name="chemosynteza-1" size="1"/>
+              <node name="fotosynteza-1" size="0"/>
+            </node>
+            <node name="pasożytnictwo-1, parazytyzm-1" size="0"/>
+            <node name="koprofagia-2" size="0"/>
+            <node name="jednożerność-1, monofagizm-1" size="0"/>
+            <node name="cudzożywność-1, heterotrofia-1, heterotrofizm-1" size="0"/>
+            <node name="kanibalizm-1" size="0"/>
+            <node name="wegetarianizm-1, jarstwo-1" size="5">
+              <node name="owowegetarianizm-1" size="0"/>
+              <node name="laktowegetarianizm-1" size="0"/>
+              <node name="laktoowowegetarianizm-1, owolaktarianizm-1" size="0"/>
+              <node name="weganizm-1" size="1">
+                <node name="frutarianizm-1, fruktarianizm-1, fruitarianizm-1, fruktorianizm-1" size="0"/>
+              </node>
+            </node>
+            <node name="roślinożerność-1, fitofagia-1" size="0"/>
+            <node name="mięsożerność-1, zoofagia-1" size="3">
+              <node name="drapieżnictwo-1" size="0"/>
+              <node name="owadożerność-1" size="0"/>
+              <node name="krwiożerczość-2" size="0"/>
+            </node>
+            <node name="asymilacja-3, przyswajanie-4" size="5">
+              <node name="chemosynteza-1" size="1">
+                <node name="chemoautotrofia-1" size="0"/>
+              </node>
+              <node name="fotosynteza-1" size="0"/>
+              <node name="absorpcja-2, pochłanianie-8" size="1">
+                <node name="okluzja-3" size="0"/>
+              </node>
+            </node>
+          </node>
+          <node name="dziedziczenie-3" size="3">
+            <node name="spadkobranie-1, spadkobierstwo-2" size="0"/>
+            <node name="półkrew-1" size="0"/>
+            <node name="półkrew-2" size="0"/>
+          </node>
+          <node name="wydzielanie-5, sekrecja-1" size="1">
+            <node name="transpiracja-1" size="0"/>
+          </node>
+          <node name="wchłanianie-7" size="2">
+            <node name="resorpcja-1" size="1">
+              <node name="wchłanianie zwrotne-1" size="0"/>
+            </node>
+          </node>
+          <node name="rozmnażanie-3, rozród-1, prokreacja-1, propagacja-2, pomnażanie-3" size="41">
+            <node name="tarło-2" size="0"/>
+            <node name="erytropoeza-1" size="0"/>
+            <node name="schizogonia-1" size="0"/>
+            <node name="schizotomia-1" size="0"/>
+            <node name="rozmnażanie bezpłciowe-1, rozmnażanie wegetatywne-1, rozmnażanie agamiczne-1" size="20">
+              <node name="agamia-3" size="0"/>
+              <node name="odkład-3" size="0"/>
+              <node name="strobilizacja-1, strobilacja-1" size="0"/>
+              <node name="apomiksja-1" size="3">
+                <node name="apogamia-1" size="0"/>
+                <node name="apomiksja obligatoryjna-1" size="0"/>
+                <node name="apomiksja fakultatywna-1" size="0"/>
+              </node>
+              <node name="poliembrionia-1, wielozarodkowość-2" size="0"/>
+              <node name="rozmnażanie poprzez zarodniki-1" size="0"/>
+              <node name="rozmnażanie przez rozmnóżki-1" size="0"/>
+              <node name="rozmnażanie poprzez pączki zimowe-1" size="0"/>
+              <node name="rozmnażanie poprzez rozłogi-1" size="0"/>
+              <node name="rozmnażanie poprzez cebule-1" size="0"/>
+              <node name="rozmnażanie poprzez kłącza-1" size="0"/>
+              <node name="rozmnażanie poprzez bulwę-1" size="0"/>
+              <node name="fragmentacja plechy-1" size="0"/>
+              <node name="regeneracja-3" size="1">
+                <node name="morfalaksja-1" size="0"/>
+              </node>
+              <node name="podział-3, podział komórki-1" size="0"/>
+              <node name="proliferacja-2, pączkowanie-4" size="0"/>
+            </node>
+            <node name="rozmnażanie płciowe-1, rozmnażanie generatywne-1" size="12">
+              <node name="dzieworództwo-1" size="0"/>
+              <node name="syngamia-1" size="3">
+                <node name="oogamia-1" size="0"/>
+                <node name="anizogamia-1" size="0"/>
+                <node name="izogamia-1" size="0"/>
+              </node>
+              <node name="pedogeneza-1, młodzieńczorództwo-1" size="0"/>
+              <node name="jajożyworodność-1" size="0"/>
+              <node name="jajorodność-1" size="0"/>
+              <node name="żyworodność-1, żyworództwo-1, wiwiparia-1" size="0"/>
+              <node name="neotenia-1" size="0"/>
+              <node name="rozpłód-1, reprodukcja-2" size="0"/>
+              <node name="koniugacja-1" size="0"/>
+            </node>
+            <node name="rójka-2" size="0"/>
+            <node name="partenogeneza-1" size="2">
+              <node name="dzieworództwo-1" size="0"/>
+              <node name="pedogeneza-1, młodzieńczorództwo-1" size="0"/>
+            </node>
+            <node name="proliferacja-2, pączkowanie-4" size="0"/>
+            <node name="propagacja-3" size="0"/>
+          </node>
+          <node name="metabolizm-1, przemiana materii-1" size="1">
+            <node name="metabolizm informacyjny-1" size="0"/>
+          </node>
+          <node name="rozwój-3" size="149">
+            <node name="katageneza-1" size="0"/>
+            <node name="palingeneza-3" size="0"/>
+            <node name="androgeneza-1" size="0"/>
+            <node name="kaulikarpia-1" size="0"/>
+            <node name="ramifloria-1" size="0"/>
+            <node name="geokarpia-1" size="0"/>
+            <node name="produkcja-7" size="2">
+              <node name="produkcja wtórna-1" size="0"/>
+              <node name="produkcja pierwotna-1" size="0"/>
+            </node>
+            <node name="psychogeneza-1" size="0"/>
+            <node name="wzrost-3" size="1">
+              <node name="wschody-1" size="0"/>
+            </node>
+            <node name="embriogeneza-1, embriogenia-1, rozwój zarodkowy-1" size="0"/>
+            <node name="przeobrażenie-3, metamorfoza-2, rozwój pośredni-1, metabolia-1" size="1">
+              <node name="przepoczwarzenie-1, przepoczwarczenie-1" size="0"/>
+            </node>
+            <node name="rozwój osobniczy-1, ontogeneza-1" size="0"/>
+            <node name="rozwój psychiczny-1" size="0"/>
+            <node name="rozwój rodowy-1, filogeneza-1, filogenia-1" size="3">
+              <node name="antropogeneza-1, filogeneza człowieka-1" size="2">
+                <node name="monogenizm-1" size="0"/>
+                <node name="poligenizm-1" size="0"/>
+              </node>
+            </node>
+            <node name="rozwój wsteczny-1, inwolucja-1" size="0"/>
+            <node name="rozrost-2" size="126">
+              <node name="akrecja-2" size="0"/>
+              <node name="rozrost-1, rozplem-1, hiperplazja-1" size="123">
+                <node name="zwłóknienie-1" size="2">
+                  <node name="zwłóknienie klatki piersiowej-1" size="0"/>
+                  <node name="mukowiscydoza-1, zwłóknienie torbielowate-1" size="0"/>
+                </node>
+                <node name="infiltracja-3, nacieczenie-1, naciek-3" size="0"/>
+                <node name="odcisk-1, nagniotek-1, odgniotek-1" size="1">
+                  <node name="modzel-1" size="0"/>
+                </node>
+                <node name="nowotwór-1, choroba nowotworowa-1" size="116">
+                  <node name="ziarniszczak-1" size="0"/>
+                  <node name="guz neuroendokrynny przewodu pokarmowego-1, guz żołądkowo-jelitowo-trzustkowy-1" size="6">
+                    <node name="guz wydzielający VIP-1, zespół Vernera-Morrisona-1" size="0"/>
+                    <node name="guz insulinowy-1, wyspiak-1" size="1">
+                      <node name="wyspiak trzustki-1" size="0"/>
+                    </node>
+                    <node name="somatostatinoma-1, guz somatostatynowy-1" size="0"/>
+                    <node name="gastrinoma-1, guz gastrynowy-1" size="0"/>
+                    <node name="rakowiak-1" size="0"/>
+                  </node>
+                  <node name="guz chromochłonny-1, barwiak-1" size="0"/>
+                  <node name="hamartoblastoma-1" size="0"/>
+                  <node name="szpiczak mnogi-1, szpiczak plazmocytowy-1, choroba Kahlera-1" size="0"/>
+                  <node name="guz Abrikosowa-1, guz ziarnistokomórkowy-1" size="0"/>
+                  <node name="glukagonoma-1" size="0"/>
+                  <node name="rogowiak kolczystokomórkowy-1" size="0"/>
+                  <node name="nabłoniak wapniejący-1, nabłoniak wapniejący Mahlerbego-1" size="0"/>
+                  <node name="ziarniak-6" size="0"/>
+                  <node name="ospa karpi-1" size="0"/>
+                  <node name="choroba Mareka-1" size="0"/>
+                  <node name="metastaza-1, przerzut nowotworowy-1" size="0"/>
+                  <node name="naczyniak-1" size="15">
+                    <node name="naczyniak limfatyczny torbielowaty-1" size="0"/>
+                    <node name="naczyniak limfatyczny złośliwy-1" size="0"/>
+                    <node name="naczyniak niezłośliwy limfatyczny-1" size="0"/>
+                    <node name="naczyniak złośliwy-1" size="3"/>
+                    <node name="naczyniak niezłośliwy-1" size="7"/>
+                  </node>
+                  <node name="nowotwór niezłośliwy-1, nowotwór łagodny-1, guz łagodny-1" size="40">
+                    <node name="mięśniak gładkokomórkowy-1" size="0"/>
+                    <node name="przyzwojak-1" size="0"/>
+                    <node name="kostniak-1" size="1">
+                      <node name="kostniak kostninowy-1, kostniak kostnawy-1" size="0"/>
+                    </node>
+                    <node name="chrzęstniak-1" size="0"/>
+                    <node name="choroba Lhermitte'a-Duclos-1, dysplastyczny zwojak móżdżku-1" size="0"/>
+                    <node name="naczyniakomięśniakotłuszczak-1" size="0"/>
+                    <node name="nerwiakowłókniak-1" size="0"/>
+                    <node name="naczyniak niezłośliwy limfatyczny-1" size="0"/>
+                    <node name="naczyniak niezłośliwy-1" size="7">
+                      <node name="ziarniniak naczyniowy-1" size="0"/>
+                      <node name="kłębczak-1" size="0"/>
+                      <node name="obłoniak-1" size="0"/>
+                      <node name="naczyniakomięśniak gładkokomórkowy-1" size="0"/>
+                      <node name="naczyniak groniasty-1" size="0"/>
+                      <node name="naczyniak krwionośny jamisty-1" size="0"/>
+                      <node name="naczyniak krwionośny włośniczkowy-1" size="0"/>
+                    </node>
+                    <node name="skórzak-3" size="0"/>
+                    <node name="śluzak-1" size="1">
+                      <node name="śluzak serca-1" size="0"/>
+                    </node>
+                    <node name="oponiak-1" size="0"/>
+                    <node name="czerniak-2" size="0"/>
+                    <node name="ogień-5" size="0"/>
+                    <node name="włókniak-1" size="7">
+                      <node name="włókniak młodzieńczy nosogardła-1, naczyniowłókniak młodzieńczy-1" size="0"/>
+                      <node name="włókniak twardy-1" size="0"/>
+                      <node name="włókniak miękki-1" size="4">
+                        <node name="tłuszczak-1" size="0"/>
+                        <node name="brodawczak-1" size="2">
+                          <node name="brodawczak odwrócony-1, brodawczak odwrócony jam nosa i zatok przynosowych-1, brodawczak Schneidera-1" size="0"/>
+                          <node name="brodawczak splotu naczyniówkowego-1" size="0"/>
+                        </node>
+                      </node>
+                    </node>
+                    <node name="nerwiak-1" size="4">
+                      <node name="neuroblastoma-1, nerwiak płodowy-1, nerwiak płodowy współczulny-1, nerwiak zarodkowy-1" size="0"/>
+                      <node name="nerwiak osłonkowy-1, schwannoma-1" size="0"/>
+                      <node name="nerwiak zwojowy-1" size="0"/>
+                      <node name="nerwiak węchowy zarodkowy-1" size="0"/>
+                    </node>
+                    <node name="gruczolak-1" size="3">
+                      <node name="gruczolak wątrobowokomórkowy-1" size="0"/>
+                      <node name="gruczolak wielopostaciowy-1, guz mieszany-1" size="0"/>
+                      <node name="gruczolak przysadki-1" size="0"/>
+                    </node>
+                  </node>
+                  <node name="guz złośliwy-1, nowotwór złośliwy-1" size="45">
+                    <node name="kostniakomięsak-1, mięsak kościopochodny-1" size="0"/>
+                    <node name="guz Wilmsa-2, nerczak płodowy-1, nerczak zarodkowy-1, nerczak złośliwy-1" size="0"/>
+                    <node name="oblak-1" size="0"/>
+                    <node name="mięsak maziówkowy-1, maziak-1" size="0"/>
+                    <node name="mięsak Ewinga-1, guz Ewinga-1" size="0"/>
+                    <node name="prymitywny guz neuroektodermalny-1, obwodowy niedojrzały guz neuroektodermalny-1, guz Askina-1" size="0"/>
+                    <node name="nowotwór złośliwy skóry-1" size="4" abstract="true">
+                      <node name="rak neuroendokrynny skóry-1, rak z komórek Merkla-1" size="0"/>
+                      <node name="rak kolczystokomórkowy skóry-1" size="0"/>
+                      <node name="rak podstawnokomórkowy skóry-1" size="0"/>
+                      <node name="czerniak złośliwy-1, czerniak-1, melanoma-1" size="0"/>
+                    </node>
+                    <node name="naczyniak limfatyczny złośliwy-1" size="0"/>
+                    <node name="naczyniak złośliwy-1" size="3">
+                      <node name="mięsak Kaposiego-1" size="0"/>
+                      <node name="obłoniak złośliwy-1" size="0"/>
+                      <node name="śródbłoniak krwionośny złośliwy-1" size="0"/>
+                    </node>
+                    <node name="sarkoidoza-1" size="0"/>
+                    <node name="struniak-1" size="0"/>
+                    <node name="szpiczak-1" size="0"/>
+                    <node name="nasieniak-1" size="0"/>
+                    <node name="nabłoniak-1" size="1">
+                      <node name="nabłoniak kosmówkowy-1, kosmówczak-1" size="0"/>
+                    </node>
+                    <node name="chłoniak-1" size="4">
+                      <node name="chłoniak Burkitta-1" size="0"/>
+                      <node name="zespół Sézary'ego-1" size="0"/>
+                      <node name="ziarnica złośliwa-1, choroba Hodgkina-1, chłoniak Hodgkina-1, limfogranulomatoza-1" size="0"/>
+                      <node name="ziarniniak grzybiasty-1" size="0"/>
+                    </node>
+                    <node name="nowotwór anaplastyczny-1" size="0"/>
+                    <node name="potworniak-1" size="1">
+                      <node name="torbiel skórzasta-1" size="0"/>
+                    </node>
+                    <node name="glejak-1" size="0"/>
+                    <node name="siatkówczak-1" size="0"/>
+                    <node name="mięsak-1, sarkoma-1" size="0"/>
+                    <node name="rak-1" size="14">
+                      <node name="choroba Pageta-1" size="0"/>
+                      <node name="guz Brennera-1" size="0"/>
+                      <node name="rak płuca-1, rak oskrzela-1" size="1">
+                        <node name="guz Pancoasta-1, zespół Pancoasta-1" size="0"/>
+                      </node>
+                      <node name="rak neuroendokrynny skóry-1, rak z komórek Merkla-1" size="0"/>
+                      <node name="rak kolczystokomórkowy skóry-1" size="0"/>
+                      <node name="rak podstawnokomórkowy skóry-1" size="0"/>
+                      <node name="rak przedinwazyjny-1, rak w miejscu-1, CIS-5, rak 0 stopnia-1" size="2">
+                        <node name="choroba Bowena-1" size="1">
+                          <node name="erytroplazja Queyrata-1, choroba Bowena żołędzi prącia-1" size="0"/>
+                        </node>
+                      </node>
+                      <node name="rak prącia-1" size="0"/>
+                      <node name="rak szyjki macicy-1" size="0"/>
+                      <node name="rak gruczołu krokowego-1, rak prostaty-1" size="0"/>
+                      <node name="rak jamy nosowo-gardłowej-1" size="0"/>
+                    </node>
+                  </node>
+                  <node name="białaczka-1, leukemia-1" size="7">
+                    <node name="przewlekła białaczka limfatyczna-1, CLL-1" size="1">
+                      <node name="przewlekła białaczka limfocytowa B-komórkowa-1" size="0"/>
+                    </node>
+                    <node name="ostra białaczka limfoblastyczna-1, ALL-2" size="0"/>
+                    <node name="białaczka szpikowa-1" size="3">
+                      <node name="przewlekła białaczka szpikowa-1" size="0"/>
+                      <node name="ostra białaczka szpikowa-1" size="1">
+                        <node name="ostra białaczka promielocytowa-1, ostra białaczka progranulocytowa-1, APL-1, AML z t(15;17)(q22,q12)-1, PML-RARA-1" size="0"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node name="proliferacja-1" size="0"/>
+            </node>
+          </node>
+        </node>
+        <node name="rozkład-5, rozpad-4" size="22">
+          <node name="elektroerozja-1" size="0"/>
+          <node name="martwica rozpływna-1" size="1">
+            <node name="encefalomalacja-1, rozmiękanie mózgu-1" size="0"/>
+          </node>
+          <node name="mursz-4" size="0"/>
+          <node name="liza-1" size="5">
+            <node name="deplazmoliza-1" size="0"/>
+            <node name="histoliza-1" size="0"/>
+            <node name="plazmoliza-1" size="0"/>
+            <node name="autoliza-1, samotrawienie-1, samorozpuszczanie-1" size="0"/>
+            <node name="hemoliza-1" size="0"/>
+          </node>
+          <node name="strupieszenie-1, mumifikacja-1" size="0"/>
+          <node name="butwienie-2" size="0"/>
+          <node name="erozja-1" size="8">
+            <node name="erozja wsteczna-1" size="0"/>
+            <node name="erozja wodna-1" size="0"/>
+            <node name="erozja wąwozowa-1" size="0"/>
+            <node name="erozja rzeczna-1" size="0"/>
+            <node name="erozja eoliczna-1, erozja wiatrowa-1" size="0"/>
+            <node name="erozja denna-1, erozja wgłębna-1" size="0"/>
+            <node name="erozja boczna-1" size="0"/>
+            <node name="eworsja-1" size="0"/>
+          </node>
+          <node name="gnicie-3" size="0"/>
+        </node>
+        <node name="przeobrażanie-2, przekształcanie-3" size="6">
+          <node name="morfing-1, morphing-1" size="0"/>
+          <node name="dyslokacja-1" size="1">
+            <node name="dyslokacja tektoniczna-1" size="0"/>
+          </node>
+          <node name="zgniot-1" size="0"/>
+          <node name="rekonwersja-1" size="0"/>
+          <node name="wylinka-2" size="0"/>
+        </node>
+      </node>
+      <node name="ruch-3" size="439">
+        <node name="dryf-4" size="0"/>
+        <node name="ruch odrzutowy-1" size="0"/>
+        <node name="ruch pełzakowaty-1, ruch ameboidalny-1, ruch pseudopodialny-1, ruch amebowaty-1" size="0"/>
+        <node name="bieg-8" size="0"/>
+        <node name="bieg-7" size="0"/>
+        <node name="ślizg-5" size="0"/>
+        <node name="ślizg-4" size="0"/>
+        <node name="prąd-2" size="9">
+          <node name="prąd zawiesinowy-1" size="0"/>
+          <node name="prąd morski-1" size="1">
+            <node name="maelstrom-1, malstrom-1" size="0"/>
+          </node>
+          <node name="nurt-2, bieg-5" size="5">
+            <node name="szachownica-4" size="0"/>
+            <node name="odwój-1" size="0"/>
+            <node name="kipiel-1" size="0"/>
+            <node name="wir-1, wir wodny-1" size="1"/>
+          </node>
+        </node>
+        <node name="wybieg-5" size="0"/>
+        <node name="odlot-4" size="1">
+          <node name="wyraj-5" size="0"/>
+        </node>
+        <node name="skok-4" size="1">
+          <node name="skok na bungee-1" size="0"/>
+        </node>
+        <node name="ruch jałowy-1" size="0"/>
+        <node name="prześlizg-1" size="0"/>
+        <node name="rozpływ-1" size="0"/>
+        <node name="szwenk-1" size="0"/>
+        <node name="obsuw-1" size="0"/>
+        <node name="marsz-4" size="1">
+          <node name="półbieg-1" size="0"/>
+        </node>
+        <node name="wstrząs-4" size="1">
+          <node name="wstrząs wtórny-1" size="0"/>
+        </node>
+        <node name="rozpęd-1" size="0"/>
+        <node name="posuw-1" size="0"/>
+        <node name="dryf-2" size="0"/>
+        <node name="spadek-4" size="2">
+          <node name="upadek łańcuszkowy-1" size="0"/>
+          <node name="kapanina-2" size="0"/>
+        </node>
+        <node name="napływ-3, przypływ-4" size="0"/>
+        <node name="bieg lub chód zwierzęcia-1" size="9" abstract="true">
+          <node name="stępia-1" size="0"/>
+          <node name="kłus-1" size="1">
+            <node name="szłap-1, szłapia-1" size="0"/>
+          </node>
+          <node name="trucht-1" size="1">
+            <node name="świński trucht-1" size="0"/>
+          </node>
+          <node name="stęp-1" size="0"/>
+          <node name="inochód-1, krocz-1, skrocz-1" size="0"/>
+          <node name="galop-1" size="1">
+            <node name="cwał-1, galop wyścigowy-1" size="0"/>
+          </node>
+        </node>
+        <node name="suw-1" size="4">
+          <node name="suw wydechu-1" size="0"/>
+          <node name="suw rozprężania-1, suw pracy-1" size="0"/>
+          <node name="suw sprężania-1" size="0"/>
+          <node name="suw ssania-1" size="0"/>
+        </node>
+        <node name="chwiejba-1" size="0"/>
+        <node name="napływ-4" size="1">
+          <node name="adwekcja-1" size="0"/>
+        </node>
+        <node name="opływ-1" size="0"/>
+        <node name="turbulencja-2, burzliwość-2, przepływ burzliwy-1" size="0"/>
+        <node name="przeskok-2" size="0"/>
+        <node name="odskok-2" size="0"/>
+        <node name="opływ-2" size="0"/>
+        <node name="odpływ-2" size="1">
+          <node name="odciek-2" size="0"/>
+        </node>
+        <node name="przesuw-1" size="0"/>
+        <node name="wywrotka-2" size="0"/>
+        <node name="ruch ze względu na kształt toru-1" size="9" abstract="true">
+          <node name="ruch krzywoliniowy-1" size="4">
+            <node name="ruch po okręgu-1" size="2">
+              <node name="ruch jednostajnie przyśpieszony po okręgu-1, ruch jednostajnie przyspieszony po okręgu-1" size="0"/>
+              <node name="ruch jednostajny po okręgu-1" size="0"/>
+            </node>
+            <node name="ruch jednostajny krzywoliniowy-1" size="0"/>
+          </node>
+          <node name="ruch prostoliniowy-1" size="3">
+            <node name="ruch jednostajnie opóźniony prostoliniowy-1" size="0"/>
+            <node name="ruch jednostajnie przyśpieszony prostoliniowy-1, ruch jednostajnie przyspieszony prostoliniowy-1" size="0"/>
+            <node name="ruch jednostajny prostoliniowy-1" size="0"/>
+          </node>
+        </node>
+        <node name="ruch ze względu na przyśpieszenie-1" size="15" abstract="true">
+          <node name="ruch zmienny-1, ruch niejednostajny-1" size="1">
+            <node name="ruch posuwisto-zwrotny-1" size="0"/>
+          </node>
+          <node name="ruch jednostajny-1" size="3">
+            <node name="ruch jednostajny po okręgu-1" size="0"/>
+            <node name="ruch jednostajny krzywoliniowy-1" size="0"/>
+            <node name="ruch jednostajny prostoliniowy-1" size="0"/>
+          </node>
+          <node name="ruch ze zmiennym przyśpieszeniem-1" size="0"/>
+          <node name="ruch przyśpieszony-1, ruch przyspieszony-1" size="7">
+            <node name="ruch przyśpieszony-2, ruch przyspieszony-2" size="3">
+              <node name="ruch jednostajnie przyśpieszony-1, ruch jednostajnie przyspieszony-1" size="2">
+                <node name="ruch jednostajnie przyśpieszony prostoliniowy-1, ruch jednostajnie przyspieszony prostoliniowy-1" size="0"/>
+                <node name="ruch jednostajnie przyśpieszony po okręgu-1, ruch jednostajnie przyspieszony po okręgu-1" size="0"/>
+              </node>
+            </node>
+            <node name="ruch opóźniony-1" size="2">
+              <node name="ruch jednostajnie opóźniony prostoliniowy-1" size="0"/>
+              <node name="ruch jednostajnie opóźniony-1" size="0"/>
+            </node>
+          </node>
+        </node>
+        <node name="ruch względny-1" size="0"/>
+        <node name="jazda-2" size="13">
+          <node name="podjazd-3" size="1">
+            <node name="premia górska-1" size="0"/>
+          </node>
+          <node name="kawalerska jazda-1" size="0"/>
+          <node name="jazda sprawnościowa-1" size="0"/>
+          <node name="zjazd-3" size="3">
+            <node name="ślizg-6" size="0"/>
+            <node name="ześlizg-4" size="0"/>
+            <node name="szus-2" size="0"/>
+          </node>
+          <node name="sanna-2" size="1">
+            <node name="kulig-1" size="0"/>
+          </node>
+          <node name="drift-1" size="0"/>
+          <node name="przejazd-2" size="1">
+            <node name="kurs-2" size="0"/>
+          </node>
+        </node>
+        <node name="podróż-1, droga-4, wojaż-1, peregrynacja-1" size="51">
+          <node name="ostatnia droga-1" size="0"/>
+          <node name="podróż poślubna-1" size="0"/>
+          <node name="objazd-2" size="0"/>
+          <node name="rajd-2" size="0"/>
+          <node name="pielgrzymka-1" size="1">
+            <node name="hadż-1, hadżdż-1" size="0"/>
+          </node>
+          <node name="odyseja-1" size="0"/>
+          <node name="wędrówka-1" size="17">
+            <node name="wyrypa-1" size="0"/>
+            <node name="trekking-1, treking-1" size="0"/>
+            <node name="kurs-8" size="0"/>
+            <node name="ciąg-3" size="1">
+              <node name="lot godowy-1" size="0"/>
+            </node>
+            <node name="clubbing-1" size="0"/>
+            <node name="rójka-2" size="0"/>
+            <node name="wspinaczka-1" size="9">
+              <node name="wspinaczka lodowa-1" size="0"/>
+              <node name="drytooling-1" size="0"/>
+              <node name="trawers-10" size="0"/>
+              <node name="bouldering-1, buldering-1" size="0"/>
+              <node name="tyrolka-1, kolejka tyrolska-1" size="0"/>
+              <node name="andynizm-1" size="0"/>
+              <node name="taternictwo-1" size="0"/>
+              <node name="himalaizm-1" size="0"/>
+              <node name="alpinizm-1, alpinistyka-1" size="0"/>
+            </node>
+          </node>
+          <node name="autostop-1" size="0"/>
+          <node name="rejs-1" size="0"/>
+          <node name="lot-1" size="2">
+            <node name="docel-1, docelówka-1" size="0"/>
+            <node name="przelot-1" size="0"/>
+          </node>
+          <node name="eskapada-1" size="0"/>
+          <node name="wyprawa-1, ekspedycja-2" size="4">
+            <node name="rejza-1" size="0"/>
+            <node name="robinsonada-1" size="0"/>
+            <node name="tramping-2" size="0"/>
+            <node name="krucjata-1, wyprawa krzyżowa-1" size="0"/>
+          </node>
+          <node name="wyjazd-1, wypad-1, wyskok-2" size="11">
+            <node name="wycieczka-1, wyprawa-2" size="8">
+              <node name="biała szkoła-1" size="0"/>
+              <node name="lipcówka-3" size="0"/>
+              <node name="zielona szkoła-1" size="0"/>
+              <node name="objazdówka-1" size="0"/>
+              <node name="przejażdżka-1" size="1">
+                <node name="kulig-1" size="0"/>
+              </node>
+              <node name="majówka-1" size="0"/>
+              <node name="spływ-2" size="0"/>
+            </node>
+            <node name="delegacja-4, podróż służbowa-1" size="0"/>
+            <node name="biwak-1" size="0"/>
+          </node>
+          <node name="tułaczka-1, poniewierka-1, tułactwo-1" size="2">
+            <node name="galut-1, golus-1" size="0"/>
+            <node name="włóczęga-2" size="0"/>
+          </node>
+        </node>
+        <node name="spływ-1" size="0"/>
+        <node name="przybój-1, kipiel-2" size="0"/>
+        <node name="ruch wahadłowy-1" size="0"/>
+        <node name="skręt-1" size="3">
+          <node name="prawoskręt-1" size="0"/>
+          <node name="lewoskręt-1" size="0"/>
+          <node name="wiraż-2" size="0"/>
+        </node>
+        <node name="chód-1, krok-1" size="2">
+          <node name="kaczy chód-1, kaczkowaty chód-1" size="0"/>
+          <node name="marsz-1" size="0"/>
+        </node>
+        <node name="ruch drgający-1" size="6">
+          <node name="nutacja-1" size="0"/>
+          <node name="oscylacja-2, drganie-5" size="3">
+            <node name="drgania samowzbudne-1" size="0"/>
+            <node name="flatter-1" size="0"/>
+            <node name="oczopląs-1" size="0"/>
+          </node>
+          <node name="wibracja-2" size="0"/>
+        </node>
+        <node name="bieg-6" size="8">
+          <node name="podbieg-2" size="1">
+            <node name="premia górska-4" size="0"/>
+          </node>
+          <node name="jogging-1" size="0"/>
+          <node name="przebieżka-1" size="0"/>
+          <node name="bieg patrolowy-1, marsz patrolowy-1" size="0"/>
+          <node name="rozbieg-1, nabieg-1" size="0"/>
+          <node name="kłus-2" size="0"/>
+          <node name="trucht-2" size="0"/>
+        </node>
+        <node name="dryf-1, znos-1" size="0"/>
+        <node name="manewr-2" size="4">
+          <node name="zjazd-6" size="0"/>
+          <node name="konwojer-1" size="0"/>
+          <node name="dolot-2" size="0"/>
+          <node name="unik-1" size="0"/>
+        </node>
+        <node name="lot-2" size="24">
+          <node name="lot koszący-1, kosiak-1" size="0"/>
+          <node name="pika-3" size="0"/>
+          <node name="kozioł-9" size="0"/>
+          <node name="świeca-10" size="0"/>
+          <node name="autorotacja-2" size="0"/>
+          <node name="lot kosmiczny-1" size="7">
+            <node name="lot międzygalaktyczny-1" size="0"/>
+            <node name="lot międzygwiezdny-1, lot międzygwiazdowy-1" size="0"/>
+            <node name="międzyplanetarny lot kosmiczny-1" size="0"/>
+            <node name="bezzałogowy lot kosmiczny-1" size="0"/>
+            <node name="załogowy lot kosmiczny-1" size="0"/>
+            <node name="lot orbitalny-1, orbitalny lot kosmiczny-1" size="0"/>
+            <node name="lot suborbitalny-1, suborbitalny lot kosmiczny-1" size="0"/>
+          </node>
+          <node name="ześlizg-3" size="0"/>
+          <node name="fanga-1" size="0"/>
+          <node name="oblot-2" size="0"/>
+          <node name="oblot-1" size="0"/>
+          <node name="trawers-4, trawersowanie-3" size="0"/>
+          <node name="lot ślizgowy-1" size="0"/>
+          <node name="lot szybowcowy-1" size="0"/>
+          <node name="lot nurkowy-1" size="0"/>
+          <node name="lot godowy-1" size="0"/>
+          <node name="lot balistyczny-1" size="0"/>
+          <node name="wzlot-2" size="0"/>
+        </node>
+        <node name="wypływ-1" size="3">
+          <node name="wypływ-4" size="0"/>
+          <node name="ekstruzja-1" size="0"/>
+          <node name="wytrysk-2" size="0"/>
+        </node>
+        <node name="odpływ-1" size="0"/>
+        <node name="migracja-1" size="9">
+          <node name="migracja-3, wędrówka-3" size="2">
+            <node name="wędrówka pierzeniowa-1" size="0"/>
+            <node name="wędrówka pętlowa-1" size="0"/>
+          </node>
+          <node name="migracja-2, wędrówka-2" size="4">
+            <node name="migracja zarobkowa-1" size="0"/>
+            <node name="migracja zasiłkowa-1" size="0"/>
+            <node name="imigracja-2" size="1">
+              <node name="alija-1" size="0"/>
+            </node>
+          </node>
+          <node name="exodus-1" size="0"/>
+        </node>
+        <node name="dopływ-2" size="1">
+          <node name="ukrwienie-1" size="0"/>
+        </node>
+        <node name="ruch-2" size="175">
+          <node name="podryg-2" size="0"/>
+          <node name="przytupas-4" size="0"/>
+          <node name="uderzenie-10" size="33">
+            <node name="tupnięcie-3" size="0"/>
+            <node name="apel-5" size="0"/>
+            <node name="puknięcie-8, stuknięcie-9" size="0"/>
+            <node name="klaśnięcie-4" size="1">
+              <node name="oklask-1" size="0"/>
+            </node>
+            <node name="cios-1, raz-2" size="25">
+              <node name="cios młotkowy-1" size="0"/>
+              <node name="cios prosty-1, prosty-3" size="2">
+                <node name="prawy prosty-1" size="0"/>
+                <node name="lewy prosty-1" size="0"/>
+              </node>
+              <node name="pchnięcie-4" size="1">
+                <node name="sztych-2" size="0"/>
+              </node>
+              <node name="atemi-1" size="0"/>
+              <node name="hak-4" size="0"/>
+              <node name="pałka-5, pała-7" size="0"/>
+              <node name="szacht-3" size="0"/>
+              <node name="byk-4" size="0"/>
+              <node name="fanga-2" size="0"/>
+              <node name="bykowiec-2" size="0"/>
+              <node name="sierpowy-1, sierp-2, swing-4, cios sierpowy-1" size="2">
+                <node name="prawy sierpowy-1" size="0"/>
+                <node name="lewy sierpowy-1" size="0"/>
+              </node>
+              <node name="kopniak-1, kop-2, kopnięcie-4, kops-1" size="0"/>
+              <node name="klaps-1" size="0"/>
+              <node name="uderzenie-15" size="6">
+                <node name="manszeta-4" size="0"/>
+                <node name="młyniec-2" size="0"/>
+                <node name="nokdaun-1, knock-down-1, KD-1" size="0"/>
+                <node name="nokaut-2, knock-out-1, knockout-1, KO-1" size="0"/>
+                <node name="kontra-3" size="1">
+                  <node name="riposta-2" size="0"/>
+                </node>
+              </node>
+            </node>
+            <node name="prztyczek-1, prztyk-1, prztyknięcie-1, pstryczek-1, pstryk-2, pstryknięcie-1" size="0"/>
+            <node name="kuksaniec-1, kuks-1, sójka-3, szturchaniec-1, szturchnięcie-2, kułak-3" size="0"/>
+          </node>
+          <node name="skręt-6" size="4">
+            <node name="zwrot-4" size="3"/>
+          </node>
+          <node name="upadek-4" size="0"/>
+          <node name="przenos-1" size="0"/>
+          <node name="podkurcz-1" size="0"/>
+          <node name="krok-8" size="0"/>
+          <node name="trzepot-2" size="0"/>
+          <node name="ruch frykcyjny-1" size="0"/>
+          <node name="ruchy-2" size="1">
+            <node name="czynność ruchowa-2, czynność motoryczna-2" size="0"/>
+          </node>
+          <node name="ciąg-19" size="0"/>
+          <node name="wahnięcie-3" size="0"/>
+          <node name="rzut-2" size="0"/>
+          <node name="gest-2" size="0"/>
+          <node name="balansowanie-3, balans-3" size="0"/>
+          <node name="rozkołys-1" size="0"/>
+          <node name="myk-1" size="0"/>
+          <node name="ześlizg-1" size="0"/>
+          <node name="szus-1" size="0"/>
+          <node name="wyprost-1" size="1">
+            <node name="przeprost-2" size="0"/>
+          </node>
+          <node name="artykulacja-3" size="0"/>
+          <node name="wykrok-1" size="0"/>
+          <node name="wygibas-1, wywijas-2, łamaniec-1, wykrętas-1" size="0"/>
+          <node name="odskok-4" size="0"/>
+          <node name="zwód-1" size="1">
+            <node name="finta-1" size="0"/>
+          </node>
+          <node name="podryw-1" size="0"/>
+          <node name="skłon-1" size="2">
+            <node name="skrętoskłon-1" size="0"/>
+            <node name="półukłon-1" size="0"/>
+          </node>
+          <node name="opust-2" size="0"/>
+          <node name="krok-2" size="12">
+            <node name="krok skrzyżny-1" size="0"/>
+            <node name="przekładanka-2" size="0"/>
+            <node name="krok taneczny-1" size="5">
+              <node name="trójka-11" size="0"/>
+              <node name="siódemka-7" size="0"/>
+              <node name="step-5" size="0"/>
+              <node name="przytup-1" size="0"/>
+              <node name="lambeth-walk-1" size="0"/>
+            </node>
+            <node name="krok narciarski-1" size="3">
+              <node name="krok półrozkroczny-1, półrozkrok-1" size="0"/>
+              <node name="krok jednostronny-1" size="0"/>
+              <node name="krok łyżwowy-1" size="0"/>
+            </node>
+          </node>
+          <node name="unik-1" size="0"/>
+          <node name="drżenie-4" size="2">
+            <node name="trzęsionka-1" size="0"/>
+            <node name="dygot-1" size="0"/>
+          </node>
+          <node name="gest-1" size="32">
+            <node name="fonogest-1" size="0"/>
+            <node name="emblemat-3" size="3">
+              <node name="figa-3" size="0"/>
+              <node name="wiktoria-4, victoria-1" size="0"/>
+              <node name="gest Kozakiewicza-1, wał-4" size="0"/>
+            </node>
+            <node name="czułostka-1" size="0"/>
+            <node name="mudra-1" size="0"/>
+            <node name="krzyż-3" size="0"/>
+            <node name="piątka-7" size="0"/>
+            <node name="gest teatralny-1" size="0"/>
+            <node name="kiwnięcie-3" size="1">
+              <node name="skinienie-1" size="0"/>
+            </node>
+            <node name="uścisk-1, objęcie-7" size="0"/>
+            <node name="ukłon-1" size="3">
+              <node name="rewerans-1" size="0"/>
+              <node name="pokłon-1" size="0"/>
+              <node name="dygnięcie-2, dyg-1" size="0"/>
+            </node>
+            <node name="klepnięcie-2" size="0"/>
+            <node name="pieszczota-1" size="13">
+              <node name="necking-1" size="0"/>
+              <node name="palcówka-2" size="0"/>
+              <node name="przytulenie-1, przygarnięcie-2" size="1">
+                <node name="ukochanie-1" size="0"/>
+              </node>
+              <node name="macanka-1, macanko-1" size="0"/>
+              <node name="przytulanka-2" size="0"/>
+              <node name="petting-1, seks bez penetracji-1" size="2">
+                <node name="trybadyzm-1" size="0"/>
+                <node name="masaż erotyczny-1" size="0"/>
+              </node>
+              <node name="masaż erotyczny-1" size="0"/>
+              <node name="łaskotki-1, łachotki-1" size="0"/>
+              <node name="całus-1, pocałunek-1, całusek-1, buziak-1, cmok-1" size="2">
+                <node name="pocałunek francuski-1, pocałunek z języczkiem-1" size="0"/>
+                <node name="cmoknonsens-1" size="0"/>
+              </node>
+            </node>
+          </node>
+          <node name="wzdrygnięcie-1, drgnienie-1, drgnięcie-4" size="0"/>
+          <node name="mrugnięcie-3" size="1">
+            <node name="perskie oko-4" size="0"/>
+          </node>
+          <node name="obrót-2" size="14">
+            <node name="młynek-4" size="0"/>
+            <node name="przerzut-3" size="0"/>
+            <node name="kozioł-4" size="0"/>
+            <node name="młyniec-1" size="0"/>
+            <node name="zwrot-4" size="3">
+              <node name="zakręt-4" size="0"/>
+              <node name="półzwrot-1" size="0"/>
+              <node name="owersztag-1" size="0"/>
+            </node>
+            <node name="półobrót-1" size="1">
+              <node name="półbeczka-1" size="0"/>
+            </node>
+            <node name="wir-3" size="0"/>
+            <node name="przewrotka-2" size="0"/>
+            <node name="piruet-1" size="0"/>
+            <node name="wolta-2" size="0"/>
+          </node>
+          <node name="machnięcie-4, wymach-1" size="0"/>
+          <node name="rzut-1" size="5">
+            <node name="przerzut-5" size="0"/>
+            <node name="wrzut-1, wrzutka-1" size="0"/>
+            <node name="podrzut-1" size="0"/>
+            <node name="wsad-1" size="0"/>
+            <node name="odrzut-2" size="0"/>
+          </node>
+          <node name="skok-1" size="21">
+            <node name="skok pętlicowy-1" size="0"/>
+            <node name="salchow-1" size="0"/>
+            <node name="toeloop-1" size="0"/>
+            <node name="flip-2" size="0"/>
+            <node name="uskok-5" size="0"/>
+            <node name="kluczka-3" size="0"/>
+            <node name="lansada-1" size="0"/>
+            <node name="szczupak-3" size="0"/>
+            <node name="lutz-1" size="0"/>
+            <node name="aksel-1, axel-1" size="0"/>
+            <node name="zeskok-1" size="0"/>
+            <node name="przeskok-3" size="0"/>
+            <node name="odskok-1" size="0"/>
+            <node name="sus-1, szust-1" size="0"/>
+            <node name="podskok-2" size="3">
+              <node name="żabka-5" size="0"/>
+              <node name="podryg-1, podskok-1" size="1">
+                <node name="hopki-2" size="0"/>
+              </node>
+            </node>
+            <node name="wyskok-3" size="0"/>
+            <node name="salto-1" size="1">
+              <node name="salto kuczne-1" size="0"/>
+            </node>
+          </node>
+          <node name="chwyt-4" size="9">
+            <node name="zbiórka-3" size="0"/>
+            <node name="nachwyt-1" size="0"/>
+            <node name="podchwyt-2" size="0"/>
+            <node name="suples-1" size="0"/>
+            <node name="koszyczek siatkarski-1" size="0"/>
+            <node name="rulada-2" size="0"/>
+            <node name="nakrywka-2" size="0"/>
+            <node name="nelson-1" size="1">
+              <node name="podwójny nelson-1" size="0"/>
+            </node>
+          </node>
+          <node name="zamach-2" size="0"/>
+        </node>
+        <node name="przepływ-1" size="31">
+          <node name="perkolacja-1" size="0"/>
+          <node name="przepływ naddźwiękowy-1" size="0"/>
+          <node name="wentylacja-2" size="0"/>
+          <node name="obieg-4" size="14">
+            <node name="obieg pierwotny-1" size="0"/>
+            <node name="obieg cieplny-1" size="1">
+              <node name="cykl Carnota-1" size="0"/>
+            </node>
+            <node name="cykl azotowy-1" size="0"/>
+            <node name="cykl hydrologiczny-1" size="0"/>
+            <node name="krążenie-6, krwiobieg-2" size="5">
+              <node name="krążenie płodowe-1" size="0"/>
+              <node name="krążenie wrotne-1" size="0"/>
+              <node name="krążenie wieńcowe-1" size="0"/>
+              <node name="krążenie mózgowe-1" size="0"/>
+              <node name="krążenie oboczne-1" size="0"/>
+            </node>
+            <node name="cyrkulacja-2" size="2">
+              <node name="aeracja-2" size="0"/>
+              <node name="recyrkulacja-2" size="0"/>
+            </node>
+          </node>
+          <node name="prąd-1" size="11">
+            <node name="uciąg-4" size="0"/>
+            <node name="termika-1" size="0"/>
+            <node name="studnia-2" size="0"/>
+            <node name="przewiew-1" size="0"/>
+            <node name="komin-3" size="0"/>
+            <node name="ciąg-5" size="1">
+              <node name="cug-3" size="0"/>
+            </node>
+            <node name="przeciąg-1, cug-1" size="0"/>
+            <node name="wir-1, wir wodny-1" size="1">
+              <node name="zwara-1" size="0"/>
+            </node>
+            <node name="podmuch-1, powiew-1, tchnienie-1, wiew-1, zawiew-1" size="0"/>
+          </node>
+          <node name="nadpłynność-1, nadciekłość-1" size="0"/>
+        </node>
+        <node name="pęd-1" size="1">
+          <node name="poryw-2" size="0"/>
+        </node>
+        <node name="obieg-1, okrążenie-4" size="9">
+          <node name="obchód-4" size="0"/>
+          <node name="obieg synodyczny-1" size="0"/>
+          <node name="obrót-3" size="5">
+            <node name="ruch wsteczny-1, obrót wsteczny-1" size="0"/>
+            <node name="precesja-1, ruch precesyjny-1, cykl precesyjny-1" size="0"/>
+            <node name="rotacja-2" size="2">
+              <node name="autorotacja-2" size="0"/>
+              <node name="autorotacja-1" size="0"/>
+            </node>
+          </node>
+          <node name="oblot-1" size="0"/>
+        </node>
+      </node>
+      <node name="proces społeczno-polityczny-1" size="46" abstract="true">
+        <node name="jurydyzacja-1" size="0"/>
+        <node name="bułgaryzacja-1" size="0"/>
+        <node name="metyzacja-2" size="0"/>
+        <node name="feudalizacja-1" size="0"/>
+        <node name="dezubekizacja-1" size="0"/>
+        <node name="metropolizacja-1" size="0"/>
+        <node name="mediatyzacja-1" size="0"/>
+        <node name="sowietyzacja-1" size="0"/>
+        <node name="slawizacja-1" size="0"/>
+        <node name="madziaryzacja-1" size="0"/>
+        <node name="bałkanizacja-1" size="0"/>
+        <node name="judaizacja-1" size="0"/>
+        <node name="depolonizacja-1" size="0"/>
+        <node name="finlandyzacja-1" size="0"/>
+        <node name="federalizacja-1" size="0"/>
+        <node name="lituanizacja-1" size="0"/>
+        <node name="polonizacja-1" size="0"/>
+        <node name="komercjalizacja-2, merkantylizacja-1" size="0"/>
+        <node name="grecyzacja-1" size="0"/>
+        <node name="faszyzacja-1" size="0"/>
+        <node name="romanizacja-1" size="0"/>
+        <node name="denazyfikacja-1, denacyfikacja-1" size="0"/>
+        <node name="biurokratyzacja-1" size="0"/>
+        <node name="upodmiotowienie-1" size="0"/>
+        <node name="ukrainizacja-1" size="0"/>
+        <node name="arabizacja-1" size="1">
+          <node name="islamizacja-1" size="0"/>
+        </node>
+        <node name="komunizacja-1" size="2">
+          <node name="rekomunizacja-1" size="0"/>
+          <node name="stalinizacja-1" size="0"/>
+        </node>
+        <node name="demokratyzacja-1" size="0"/>
+        <node name="dekolonizacja-1" size="0"/>
+        <node name="maskulinizacja-4" size="0"/>
+        <node name="feminizacja-1" size="0"/>
+        <node name="klerykalizacja-1" size="0"/>
+        <node name="laicyzacja-1, zeświecczenie-2, sekularyzacja-1" size="0"/>
+        <node name="kryminalizacja-1" size="0"/>
+        <node name="instytucjonalizacja-1" size="0"/>
+        <node name="humanizacja-1" size="1">
+          <node name="humanizacja pracy-1" size="0"/>
+        </node>
+        <node name="hellenizacja-1" size="0"/>
+        <node name="germanizacja-1" size="0"/>
+        <node name="globalizacja-1" size="1">
+          <node name="globalizacja gospodarki-1, globalizacja ekonomiczna-1" size="0"/>
+        </node>
+        <node name="dekomunizacja-1" size="1">
+          <node name="destalinizacja-1" size="0"/>
+        </node>
+      </node>
+      <node name="certyfikacja-1" size="0"/>
+      <node name="integracja-1" size="5">
+        <node name="integracja sensoryczna-1" size="0"/>
+        <node name="integracja społeczna-1" size="0"/>
+        <node name="koordynacja-2" size="1">
+          <node name="zarządzanie wielopasmowe-1" size="0"/>
+        </node>
+        <node name="reintegracja-1" size="0"/>
+      </node>
+      <node name="przekaz-1" size="6">
+        <node name="reprodukcja kulturowa-1" size="0"/>
+        <node name="channeling-1, kanalizm-1" size="0"/>
+        <node name="transmisja-1" size="3">
+          <node name="transmisja asynchroniczna-1" size="0"/>
+          <node name="transmisja synchroniczna-1" size="0"/>
+          <node name="piractwo-5" size="0"/>
+        </node>
+      </node>
+      <node name="ruch-4, aktywność-5" size="191">
+        <node name="gimnastyka mózgu-1" size="0"/>
+        <node name="spacer-1, przechadzka-1" size="0"/>
+        <node name="trening-1, zaprawa-4" size="2">
+          <node name="wyciskanie sztangi-1" size="0"/>
+          <node name="treningówka-1" size="0"/>
+        </node>
+        <node name="gimnastyka-1" size="10">
+          <node name="callanetics-1, kalanetyka-1" size="0"/>
+          <node name="stretching-1" size="0"/>
+          <node name="rytmika-3" size="0"/>
+          <node name="aerobik-1, aerobic-1, aerobik sportowy-1" size="0"/>
+          <node name="fitness-1" size="2">
+            <node name="spinning-3" size="0"/>
+            <node name="zumba-1" size="0"/>
+          </node>
+          <node name="kulturystyka-1" size="0"/>
+          <node name="joga-2, hatha-joga-1" size="0"/>
+          <node name="gimnastyka korekcyjna-1, korektywa-2" size="0"/>
+        </node>
+        <node name="rekreacja-1" size="24">
+          <node name="kąpiel-2" size="7">
+            <node name="piłka wodna-1, waterpolo-1" size="0"/>
+            <node name="nurkowanie-5" size="5">
+              <node name="nurkowanie wrakowe-1" size="0"/>
+              <node name="nurkowanie techniczne-1" size="0"/>
+              <node name="nurkowanie bezdechowe-1, freediving-1" size="0"/>
+              <node name="snorkeling-1" size="0"/>
+              <node name="płetwonurkowanie-1" size="0"/>
+            </node>
+          </node>
+          <node name="turystyka-1" size="15">
+            <node name="seksturystyka-1, turystyka seksualna-1" size="0"/>
+            <node name="couchsurfing-1" size="0"/>
+            <node name="turystyka kwalifikowana-1" size="0"/>
+            <node name="turystyka wyjazdowa-1" size="0"/>
+            <node name="turystyka przyjazdowa-1" size="0"/>
+            <node name="turystyka aborcyjna-1" size="0"/>
+            <node name="backpacking-1" size="0"/>
+            <node name="safari-2" size="0"/>
+            <node name="karawaning-2, caravaning-1" size="0"/>
+            <node name="tramping-2" size="0"/>
+            <node name="globtroterstwo-1" size="0"/>
+            <node name="ekoturystyka-1" size="0"/>
+            <node name="agroturystyka-1" size="0"/>
+            <node name="krajoznawstwo-1" size="0"/>
+            <node name="żegluga-2" size="0"/>
+          </node>
+        </node>
+        <node name="taniec-2, tan-1" size="150">
+          <node name="świeczkowy-1" size="0"/>
+          <node name="taniec na rurze-1" size="0"/>
+          <node name="zorba-1" size="0"/>
+          <node name="zumba-1" size="0"/>
+          <node name="chocholi taniec-1, chochołowy taniec-1" size="0"/>
+          <node name="biały taniec-1" size="2">
+            <node name="białe tango-1" size="0"/>
+            <node name="biały walc-1" size="0"/>
+          </node>
+          <node name="taniec nowoczesny-1" size="0"/>
+          <node name="barong-1" size="0"/>
+          <node name="macarena-1, makarena-1" size="0"/>
+          <node name="taniec irlandzki-1" size="1">
+            <node name="step irlandzki-1" size="0"/>
+          </node>
+          <node name="matelot-1" size="0"/>
+          <node name="taniec współczesny-1, modern-1" size="0"/>
+          <node name="jazz-2" size="1">
+            <node name="shimmy-1" size="0"/>
+          </node>
+          <node name="step-4, stepowanie-1" size="2">
+            <node name="step irlandzki-1" size="0"/>
+            <node name="step amerykański-1" size="0"/>
+          </node>
+          <node name="pląs-1" size="0"/>
+          <node name="pogo-1" size="1">
+            <node name="mosh-1, moshing-1" size="0"/>
+          </node>
+          <node name="lambada-1" size="0"/>
+          <node name="kankan-2" size="0"/>
+          <node name="breakdance-1" size="0"/>
+          <node name="odbijany-1" size="0"/>
+          <node name="taniec brzucha-1" size="0"/>
+          <node name="taniec dworski-1" size="18">
+            <node name="allemande-1" size="0"/>
+            <node name="rigaudon-1" size="0"/>
+            <node name="forlana-1" size="0"/>
+            <node name="galiarda-1" size="0"/>
+            <node name="passamezzo-1" size="0"/>
+            <node name="berżeretka-1" size="0"/>
+            <node name="karmaniola-1, carmagnole-1" size="0"/>
+            <node name="sarabanda-1" size="0"/>
+            <node name="pawana-2" size="0"/>
+            <node name="padwan-2" size="0"/>
+            <node name="kurant-2, courante-2" size="0"/>
+            <node name="kadryl-1" size="1">
+              <node name="lansjer-2" size="0"/>
+            </node>
+            <node name="gawot-2" size="0"/>
+            <node name="kontredans-1" size="1">
+              <node name="anglez-1, angielczyk-1" size="0"/>
+            </node>
+            <node name="kotylion-2" size="0"/>
+            <node name="menuet-2" size="0"/>
+          </node>
+          <node name="taniec ludowy-1" size="66">
+            <node name="wyrwany-1" size="0"/>
+            <node name="taniec celtycki-1" size="0"/>
+            <node name="morris-1" size="0"/>
+            <node name="saltarello-1" size="0"/>
+            <node name="passepied-1" size="0"/>
+            <node name="bergamasca-1, bergamaska-1" size="0"/>
+            <node name="mietlorz-1" size="0"/>
+            <node name="sardana-1" size="0"/>
+            <node name="szumka-1" size="0"/>
+            <node name="cumbia-1" size="0"/>
+            <node name="olender-1" size="0"/>
+            <node name="waloszek-1" size="0"/>
+            <node name="cenar-1" size="0"/>
+            <node name="kaczucza-1" size="0"/>
+            <node name="hula-1" size="0"/>
+            <node name="lawonicha-1" size="0"/>
+            <node name="moreska-1, moryska-1" size="0"/>
+            <node name="halling-1" size="0"/>
+            <node name="redowa-1" size="0"/>
+            <node name="morna-2" size="0"/>
+            <node name="farandola-1" size="0"/>
+            <node name="bourrée-1" size="0"/>
+            <node name="beguine-1" size="0"/>
+            <node name="bachata-1" size="0"/>
+            <node name="lezginka-1" size="0"/>
+            <node name="drabant-1" size="0"/>
+            <node name="jig-1, gigue-1, giga-1, dżig-1" size="0"/>
+            <node name="passacaglia-2" size="0"/>
+            <node name="kolo-8" size="0"/>
+            <node name="hora-2" size="0"/>
+            <node name="zbójnicki-1, taniec zbójnicki-1" size="0"/>
+            <node name="trojak-2, zagrodnik-2" size="0"/>
+            <node name="trepak-1" size="0"/>
+            <node name="tarantela-2, tarantella-2" size="0"/>
+            <node name="sztajer-1" size="0"/>
+            <node name="skoczny-1" size="0"/>
+            <node name="oberek-1, obertas-1" size="1">
+              <node name="klękany-1" size="0"/>
+            </node>
+            <node name="lendler-1" size="1">
+              <node name="sztajer-3, sztajerek-1" size="0"/>
+            </node>
+            <node name="kujawiak-1" size="0"/>
+            <node name="krzesany-1" size="0"/>
+            <node name="krakowiak-2" size="0"/>
+            <node name="kołomyjka-1" size="0"/>
+            <node name="kazaczok-1, kozak-2" size="0"/>
+            <node name="hopak-1" size="0"/>
+            <node name="hajduk-3" size="0"/>
+            <node name="habanera-1" size="0"/>
+            <node name="góralski-1" size="0"/>
+            <node name="goniony-1" size="0"/>
+            <node name="flamenco-1" size="0"/>
+            <node name="fandango-1" size="0"/>
+            <node name="drobiony-1, drobny-1" size="0"/>
+            <node name="czardasz-1" size="0"/>
+            <node name="chodzony-1" size="2">
+              <node name="chorea-2" size="0"/>
+              <node name="polonez-3" size="0"/>
+            </node>
+            <node name="chmiel-3" size="0"/>
+            <node name="bolero-1" size="0"/>
+            <node name="gawot-2" size="0"/>
+            <node name="buzuki-2" size="0"/>
+            <node name="polka-1" size="3">
+              <node name="sztajer-3, sztajerek-1" size="0"/>
+              <node name="polka mazurka-1, polka trzęsionka-1" size="0"/>
+              <node name="polka galopka-1, galopka-1" size="0"/>
+            </node>
+            <node name="mazur-1, mazurek-4" size="1">
+              <node name="biały mazur-1" size="0"/>
+            </node>
+          </node>
+          <node name="taniec charakterystyczny-1" size="0"/>
+          <node name="taniec wojenny-1" size="0"/>
+          <node name="taniec towarzyski-2" size="37">
+            <node name="one-step-1" size="0"/>
+            <node name="taniec standardowy-1, standard-3" size="0"/>
+            <node name="calypso-2, kalipso-1" size="0"/>
+            <node name="cake-walk-1" size="0"/>
+            <node name="latino-1, taniec latynoamerykański-1, łacina-4" size="10">
+              <node name="bachata-1" size="0"/>
+              <node name="jive-1" size="0"/>
+              <node name="salsa-1" size="0"/>
+              <node name="mambo-1" size="0"/>
+              <node name="samba-1" size="1">
+                <node name="carioca-1" size="0"/>
+              </node>
+              <node name="rumba-1" size="0"/>
+              <node name="paso doble-1" size="0"/>
+              <node name="cza-cza-1, cha-cha-1, cha-cha-cha-1" size="0"/>
+              <node name="bossa nova-1" size="0"/>
+            </node>
+            <node name="swing-3" size="3">
+              <node name="jive-1" size="0"/>
+              <node name="charleston-1" size="0"/>
+              <node name="boogie-woogie-1" size="0"/>
+            </node>
+            <node name="walc-2" size="4">
+              <node name="biały walc-1" size="0"/>
+              <node name="walc wiedeński-1" size="0"/>
+              <node name="boston-1" size="0"/>
+              <node name="walc angielski-1" size="0"/>
+            </node>
+            <node name="rock and roll-1" size="3">
+              <node name="rock'n'roll akrobatyczny-1" size="0"/>
+              <node name="twist-1" size="1">
+                <node name="surf-1" size="0"/>
+              </node>
+            </node>
+            <node name="madison-1" size="0"/>
+            <node name="galop-3" size="0"/>
+            <node name="fokstrot-1, foxtrot-1" size="3">
+              <node name="karioka-1" size="0"/>
+              <node name="quickstep-1" size="0"/>
+              <node name="slow-fox-1" size="0"/>
+            </node>
+            <node name="kotylion-2" size="0"/>
+            <node name="tango-1" size="2">
+              <node name="białe tango-1" size="0"/>
+              <node name="tango argentyńskie-1" size="0"/>
+            </node>
+          </node>
+          <node name="balet-4, taniec klasyczny-1" size="1">
+            <node name="allegro-3" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="kontynuacja-2" size="1">
+        <node name="prolongata-1, prolongacja-1" size="0"/>
+      </node>
+      <node name="proces psychiczny-1" size="284" abstract="true">
+        <node name="afirmacja-2" size="0"/>
+        <node name="dezadaptacja-1" size="0"/>
+        <node name="inkubacja-3" size="0"/>
+        <node name="asocjacja-4" size="0"/>
+        <node name="konsolidacja-4" size="0"/>
+        <node name="inwalidacja-1" size="0"/>
+        <node name="przeciwopór-1" size="0"/>
+        <node name="opór-5" size="0"/>
+        <node name="wiktymizacja-1" size="0"/>
+        <node name="dezindywiduacja-1" size="0"/>
+        <node name="akcentuacja-1" size="0"/>
+        <node name="mentalizacja-1" size="0"/>
+        <node name="opór psychiczny-1, reaktancja-2" size="0"/>
+        <node name="kateksja-1" size="0"/>
+        <node name="autopercepcja-1" size="0"/>
+        <node name="indywiduacja-1, proces indywiduacji-1" size="0"/>
+        <node name="aklimatyzacja-2" size="0"/>
+        <node name="odbieranie wrażeń-1" size="2">
+          <node name="subcepcja-1, postrzeganie nieświadome-1" size="0"/>
+          <node name="synestezja-1" size="0"/>
+        </node>
+        <node name="asymilacja-4" size="0"/>
+        <node name="akomodacja-3" size="0"/>
+        <node name="adaptacja-4" size="1">
+          <node name="adaptacja społeczna-1" size="0"/>
+        </node>
+        <node name="kompensacja-3" size="0"/>
+        <node name="percepcja-1" size="2">
+          <node name="sensualność-1" size="0"/>
+          <node name="apercepcja-2" size="0"/>
+        </node>
+        <node name="uczenie się-1, poznawanie-9" size="0"/>
+        <node name="wrażenie-1, odczucie-7" size="75">
+          <node name="przeżycie-7" size="55">
+            <node name="uczta-2" size="0"/>
+            <node name="szok-2" size="1">
+              <node name="wstrząs-2" size="0"/>
+            </node>
+            <node name="przykrość-1, nieprzyjemność-1" size="8">
+              <node name="strzał-3" size="0"/>
+              <node name="gorzka pigułka-1" size="0"/>
+              <node name="nieznośność-1, dokuczliwość-1" size="5">
+                <node name="hałaśliwość-1" size="1">
+                  <node name="zgrzytliwość-1" size="0"/>
+                </node>
+                <node name="dotkliwość-1" size="0"/>
+                <node name="uporczywość-1" size="0"/>
+                <node name="natręctwo-2, natarczywość-1, nachalność-1, namolność-1, nachalstwo-1" size="0"/>
+              </node>
+            </node>
+            <node name="przejście-21" size="0"/>
+            <node name="przyjemność-1, uciecha-2, frajda-1" size="9">
+              <node name="miód-4" size="0"/>
+              <node name="rozkosz-2" size="0"/>
+              <node name="rozkosz-1" size="1">
+                <node name="słodycz-4, pieszczota-2" size="0"/>
+              </node>
+              <node name="satysfakcja-1, spełnienie-3, duma-6, zadowolenie-2, ukontentowanie-2" size="4">
+                <node name="szał dupy-1" size="0"/>
+                <node name="pełnia-1" size="0"/>
+                <node name="nasycenie-7" size="0"/>
+                <node name="samozadowolenie-1" size="0"/>
+              </node>
+            </node>
+            <node name="cierpienie-5, ból-1, katusza-1, męczarnia-1, męka-1, gehenna-1, udręka-1, udręczenie-2, tortura-1" size="31">
+              <node name="męki piekielne-1" size="0"/>
+              <node name="droga krzyżowa-2" size="0"/>
+              <node name="koszula Dejaniry-1, szata Dejaniry-1, suknia Dejaniry-1" size="0"/>
+              <node name="katorga-1" size="0"/>
+              <node name="korona cierniowa-2, krzyż-5, golgota-1" size="0"/>
+              <node name="umartwienie-1, mortyfikacja-1" size="1">
+                <node name="samoumartwienie-1" size="0"/>
+              </node>
+              <node name="męczeństwo-1, martyrologia-1, męczennictwo-1" size="1">
+                <node name="ukrzyżowanie-2" size="0"/>
+              </node>
+              <node name="dolegliwość-2" size="12">
+                <node name="łoże boleści-2" size="0"/>
+                <node name="tortury-1, kaźń-1, męki-1, męka-3, tortura-2" size="10">
+                  <node name="męki Tantala-1" size="0"/>
+                  <node name="rota-8" size="0"/>
+                  <node name="wahadło-2" size="0"/>
+                  <node name="rhinokopia-1" size="0"/>
+                  <node name="praszczęta-1" size="0"/>
+                  <node name="mankurt-1" size="0"/>
+                  <node name="konwejer-1, konwojer-2" size="0"/>
+                  <node name="tortura wodna-1" size="2">
+                    <node name="toca-1" size="0"/>
+                    <node name="chińska tortura wodna-1" size="0"/>
+                  </node>
+                </node>
+              </node>
+              <node name="choroba ducha-1" size="8">
+                <node name="trauma-1, uraz psychiczny-1" size="0"/>
+                <node name="załamanie-3, depresja-1" size="6">
+                  <node name="dystymia-1" size="0"/>
+                  <node name="subdepresja-1" size="0"/>
+                  <node name="melancholia-2" size="0"/>
+                  <node name="dół-4, dołek-2" size="0"/>
+                  <node name="amok-1" size="0"/>
+                  <node name="depresja cykliczna-1" size="0"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node name="impresja-1" size="0"/>
+          <node name="rozczulenie-2" size="0"/>
+          <node name="podmuch-3, wiew-2, powiew-2" size="1">
+            <node name="powab-2" size="0"/>
+          </node>
+          <node name="samotność-2" size="0"/>
+          <node name="przesyt-2" size="0"/>
+          <node name="przejęcie-4" size="2">
+            <node name="zaaferowanie-1" size="0"/>
+            <node name="wzruszenie-2, rozrzewnienie-2, rozczulenie-3" size="0"/>
+          </node>
+          <node name="efekt-3" size="5">
+            <node name="konkieta-1" size="0"/>
+            <node name="furora-1" size="0"/>
+            <node name="wydźwięk-1, wymowa-1, tenor-4" size="2">
+              <node name="łagodność-3" size="1">
+                <node name="nierygorystyczność-1" size="0"/>
+              </node>
+            </node>
+          </node>
+          <node name="szczęście-1, szczęśliwość-1" size="3">
+            <node name="ananda-1" size="0"/>
+            <node name="idylla-2, sielanka-2" size="0"/>
+            <node name="błogość-1, błogostan-1, rozmarzenie-2" size="0"/>
+          </node>
+        </node>
+        <node name="konceptualizacja-1" size="0"/>
+        <node name="psychomotoryka-1" size="0"/>
+        <node name="imprinting-1, wdrukowanie-1, naznaczenie-4, wpojenie-2" size="0"/>
+        <node name="walidacja-2" size="0"/>
+        <node name="atrybucja-1" size="5"/>
+        <node name="samorozwój-1" size="2">
+          <node name="pracowanie nad sobą-1, samodoskonalenie-1" size="1">
+            <node name="ćwiczenie się-1" size="0"/>
+          </node>
+        </node>
+        <node name="cenzura-4" size="0"/>
+        <node name="regresja-2" size="0"/>
+        <node name="antycypacja-5" size="0"/>
+        <node name="sublimacja-2" size="0"/>
+        <node name="mechanizm obronny-1" size="41">
+          <node name="rozszczepienie-6" size="0"/>
+          <node name="obronność dotykowa-1" size="0"/>
+          <node name="obronność percepcyjna-1" size="0"/>
+          <node name="supresja-3" size="0"/>
+          <node name="prokrastynacja-1, zwlekanie-2" size="0"/>
+          <node name="substytucja-4" size="2">
+            <node name="sublimacja-4" size="0"/>
+            <node name="kompensacja-3" size="0"/>
+          </node>
+          <node name="restytucja-4" size="2">
+            <node name="restytucja publiczna-1" size="0"/>
+            <node name="restytucja interpersonalna-1" size="0"/>
+          </node>
+          <node name="introjekcja-2" size="0"/>
+          <node name="interioryzacja-1" size="0"/>
+          <node name="identyfikacja projekcyjna-1" size="0"/>
+          <node name="idealizacja-2" size="1">
+            <node name="prymitywna idealizacja-1" size="0"/>
+          </node>
+          <node name="humor-5" size="0"/>
+          <node name="hipochondryzacja-1" size="0"/>
+          <node name="bierny opór-2" size="0"/>
+          <node name="fiksacja-3" size="0"/>
+          <node name="dewaluacja-3" size="0"/>
+          <node name="acting-out-1" size="0"/>
+          <node name="reakcja upozorowana-1, formacja reaktywna-1" size="0"/>
+          <node name="identyfikacja-3" size="0"/>
+          <node name="regresja-5" size="0"/>
+          <node name="asceza-4" size="0"/>
+          <node name="reparacja-1" size="0"/>
+          <node name="atrybucja obronna-1" size="0"/>
+          <node name="internalizacja-1, uwewnętrznienie-1, przyswojenie-4" size="0"/>
+          <node name="dysocjacja-2, zaburzenie dysocjacyjne-2, konwersja-8, zaburzenie konwersyjne-1" size="4">
+            <node name="stupor dysocjacyjny-1, osłupienie dysocjacyjne-1" size="0"/>
+            <node name="zaburzenie dysocjacyjne tożsamości-1, rozdwojenie jaźni-1, osobowość mnoga-1, osobowość naprzemienna-1, osobowość wieloraka-1, rozdwojenie osobowości-1" size="0"/>
+            <node name="fuga dysocjacyjna-1, fuga-5, ucieczka histeryczna-1" size="0"/>
+            <node name="amnezja dysocjacyjna-1, amnezja psychogenna-1" size="0"/>
+          </node>
+          <node name="wyparcie-2, represja-2" size="0"/>
+          <node name="intelektualizacja-1" size="1">
+            <node name="dehumanizacja-2, odczłowieczenie-2" size="0"/>
+          </node>
+          <node name="projekcja-3" size="0"/>
+          <node name="racjonalizacja-2" size="2"/>
+        </node>
+        <node name="proces myślowy-1, myślenie-6" size="127">
+          <node name="proces decyzyjny-1" size="0"/>
+          <node name="racjonalizacja-3" size="0"/>
+          <node name="abstrakcja-5" size="0"/>
+          <node name="temporalizacja-1" size="0"/>
+          <node name="dwójmyślenie-1" size="0"/>
+          <node name="rewizja-6" size="0"/>
+          <node name="rozumowanie-2" size="4">
+            <node name="szkiełko i oko-1" size="0"/>
+            <node name="dowód indukcyjny-1" size="0"/>
+            <node name="rozumowanie abdukcyjne-1" size="0"/>
+            <node name="konfirmacja-5" size="0"/>
+          </node>
+          <node name="operacja-3" size="62">
+            <node name="logizacja-1" size="0"/>
+            <node name="agregacja-3" size="0"/>
+            <node name="symbolizacja-1" size="0"/>
+            <node name="deszyfracja-1, odczytywanie kodu-1, dekryptaż-1" size="0"/>
+            <node name="operacja logiczna-1" size="8">
+              <node name="typologizacja-2" size="0"/>
+              <node name="dekrementacja-1" size="0"/>
+              <node name="inkrementacja-1" size="0"/>
+              <node name="predykcja-2" size="0"/>
+              <node name="konwersja-7" size="0"/>
+              <node name="obwersja-1" size="0"/>
+              <node name="kwantyfikacja-1" size="1">
+                <node name="typologia-2" size="0"/>
+              </node>
+            </node>
+            <node name="działanie matematyczne-1, operacja-2, działanie-8" size="48">
+              <node name="dekonwolucja-1, rozplot-1" size="1">
+                <node name="rozplot homomorficzny-1" size="0"/>
+              </node>
+              <node name="konwolucja-1, splot-6" size="0"/>
+              <node name="działanie arytmetyczne-1" size="4">
+                <node name="mnożenie-4" size="0"/>
+                <node name="dzielenie-9" size="0"/>
+                <node name="odejmowanie-6" size="0"/>
+                <node name="dodawanie-5, dodanie-4, sumowanie-2" size="0"/>
+              </node>
+              <node name="działanie zeroargumentowe-1" size="0"/>
+              <node name="kolejność wykonywania działań-1" size="0"/>
+              <node name="mnożenie macierzy-1" size="0"/>
+              <node name="pochodna formalna-1" size="0"/>
+              <node name="redukcja wyrazów podobnych-1" size="0"/>
+              <node name="iloczyn mieszany-1" size="0"/>
+              <node name="wnioskowanie w tył-1" size="0"/>
+              <node name="działanie algebraiczne-1" size="5">
+                <node name="działanie jednoargumentowe-1" size="0"/>
+                <node name="działanie dwuargumentowe-1" size="3">
+                  <node name="mnożenie przez skalar-1" size="0"/>
+                  <node name="iloczyn wektorowy-1" size="1">
+                    <node name="moment siły-1, moment obrotowy-1" size="0"/>
+                  </node>
+                </node>
+              </node>
+              <node name="agregacja-6" size="0"/>
+              <node name="linearyzacja-1" size="0"/>
+              <node name="eliminacja-4" size="0"/>
+              <node name="kwantyzacja-1, kwantowanie-1" size="0"/>
+              <node name="aproksymacja funkcyjna-1, aproksymacja-2" size="5">
+                <node name="aproksymacja średniokwadratowa-1" size="0"/>
+                <node name="aproksymacja liniowa-1" size="0"/>
+                <node name="aproksymacja jednostajna-1" size="0"/>
+                <node name="aproksymacja diofantyczna-1" size="0"/>
+                <node name="ekstrapolacja-1" size="0"/>
+              </node>
+              <node name="inkluzja-1" size="0"/>
+              <node name="hybrydyzacja-2" size="0"/>
+              <node name="rektyfikacja krzywej-2" size="0"/>
+              <node name="homomorfizm-1" size="3">
+                <node name="homomorfizm pierścieni-1" size="0"/>
+                <node name="homomorfizm grup-1" size="0"/>
+                <node name="epimorfizm-1" size="0"/>
+              </node>
+              <node name="kwadratura-1" size="1">
+                <node name="kwadratura Gaussa-1" size="0"/>
+              </node>
+              <node name="różniczkowanie-1" size="0"/>
+              <node name="całkowanie-3" size="1">
+                <node name="całkowanie numeryczne-1" size="0"/>
+              </node>
+              <node name="przybliżenie-6, aproksymacja-1" size="4">
+                <node name="przybliżenie dziesiętne-1" size="0"/>
+                <node name="rząd-7, rząd wielkości-1" size="1">
+                  <node name="dekada-2" size="0"/>
+                </node>
+                <node name="zaokrąglenie-3" size="0"/>
+              </node>
+            </node>
+          </node>
+          <node name="schematyzacja-1" size="0"/>
+          <node name="deheroizacja-1" size="0"/>
+          <node name="falsyfikacja-2" size="0"/>
+          <node name="absolutyzacja-1" size="0"/>
+          <node name="relatywizacja-1" size="0"/>
+          <node name="reifikacja-1, urzeczowienie-1, uprzedmiotowienie-1" size="0"/>
+          <node name="identyfikacja-1" size="3">
+            <node name="samoidentyfikacja-1" size="0"/>
+            <node name="diagnoza-3" size="0"/>
+            <node name="utożsamienie-2" size="0"/>
+          </node>
+          <node name="idealizacja-1, apoteoza-2, brązownictwo-1, gloryfikacja-1, lakiernictwo-1" size="2">
+            <node name="heroizacja-1" size="0"/>
+            <node name="fetyszyzacja-1, fetyszyzm-1" size="0"/>
+          </node>
+          <node name="racjonalizacja-2" size="2">
+            <node name="słodkie cytryny-1" size="0"/>
+            <node name="kwaśne winogrona-1" size="0"/>
+          </node>
+          <node name="obserwacja-1" size="4">
+            <node name="ekstraspekcja-1" size="0"/>
+            <node name="samoobserwacja-1" size="0"/>
+            <node name="autopsja-1" size="0"/>
+            <node name="introspekcja-1" size="0"/>
+          </node>
+          <node name="wnioskowanie-3, inferencja-1" size="17">
+            <node name="rozumowanie przekątniowe-1, metoda przekątniowa-1" size="0"/>
+            <node name="polisylogizm-1" size="0"/>
+            <node name="atrybucja-1" size="5">
+              <node name="atrybucja obronna-1" size="0"/>
+              <node name="atrybucja stabilna-1" size="0"/>
+              <node name="atrybucja globalna-1" size="0"/>
+              <node name="atrybucja zewnętrzna-1, atrybucja sytuacyjna-1" size="0"/>
+              <node name="atrybucja wewnętrzna-1, atrybucja dyspozycyjna-1" size="0"/>
+            </node>
+            <node name="rozumowanie redukcyjne-1, redukcja-4" size="1">
+              <node name="redukcja ejdetyczna-1" size="0"/>
+            </node>
+            <node name="indukcja-2, rozumowanie indukcyjne-1" size="0"/>
+            <node name="analogizm-1, wnioskowanie przez analogię-1" size="0"/>
+            <node name="sylogizm-1" size="0"/>
+            <node name="rozumowanie dedukcyjne-1, wnioskowanie dedukcyjne-1, dedukcja-1" size="2">
+              <node name="dedukcja naturalna-1" size="0"/>
+              <node name="wnioskowanie entymematyczne-1, entymemat-1, entymem-1" size="0"/>
+            </node>
+            <node name="dylemat-1" size="0"/>
+          </node>
+          <node name="przytomność-2" size="4">
+            <node name="półświadomość-1" size="0"/>
+            <node name="apercepcja-1" size="0"/>
+            <node name="upodmiotowienie-1" size="0"/>
+            <node name="trzeźwość-1" size="0"/>
+          </node>
+          <node name="myślenie-5" size="8">
+            <node name="myślenie życzeniowe-1" size="1">
+              <node name="katatymia-1" size="0"/>
+            </node>
+            <node name="myślenie abstrakcyjne-1" size="0"/>
+            <node name="rozmyślanie-3, pomyślunek-1, medytacja-1" size="4">
+              <node name="dociekanie-1" size="2">
+                <node name="spekulatywność-1" size="0"/>
+                <node name="scholastyka-2" size="0"/>
+              </node>
+              <node name="kontemplacja-1" size="0"/>
+            </node>
+          </node>
+        </node>
+        <node name="dekoncentracja-1, nieuwaga-1, rozproszenie-12, dystrakcja-2" size="2">
+          <node name="gapiostwo-1" size="0"/>
+          <node name="roztargnienie-1" size="0"/>
+        </node>
+      </node>
+      <node name="proces ekonomiczny-1" size="94">
+        <node name="proces dostosowawczy-1" size="0"/>
+        <node name="impuls wzrostowy-1" size="0"/>
+        <node name="immobilizacja-3" size="0"/>
+        <node name="koncentracja-6" size="0"/>
+        <node name="taksflacja-1" size="0"/>
+        <node name="slumpflacja-1" size="0"/>
+        <node name="optymalizacja-2" size="0"/>
+        <node name="globalizacja gospodarki-1, globalizacja ekonomiczna-1" size="0"/>
+        <node name="dezindustralizacja-1, deindustrializacja-2" size="0"/>
+        <node name="delokalizacja-3" size="0"/>
+        <node name="proces konsolidacyjny-1" size="0"/>
+        <node name="proces koncentracji kapitału-1" size="7">
+          <node name="przejęcie-5" size="0"/>
+          <node name="konsolidacja-3" size="0"/>
+          <node name="fuzja-3, absorpcja-3, inkorporacja-2, wcielenie-6" size="4">
+            <node name="absorpcja krajowa-1" size="0"/>
+            <node name="fuzja konglomeratowa-1" size="0"/>
+            <node name="fuzja pionowa-1, fuzja wertykalna-1" size="0"/>
+            <node name="fuzja pozioma-1, fuzja horyzontalna-1" size="0"/>
+          </node>
+        </node>
+        <node name="uprzemysłowienie-1, zindustrializowanie-1, industralizacja-1" size="0"/>
+        <node name="deregulacja-1" size="0"/>
+        <node name="dekartelizacja-1" size="0"/>
+        <node name="kartelizacja-1" size="0"/>
+        <node name="zwyżka-2" size="1">
+          <node name="hossa-1" size="0"/>
+        </node>
+        <node name="deglomeracja-1" size="0"/>
+        <node name="rewaluacja-1, rewaloryzacja-1" size="0"/>
+        <node name="denominacja-1" size="1">
+          <node name="demonetyzacja-1" size="0"/>
+        </node>
+        <node name="kapitalizacja-1" size="0"/>
+        <node name="demonopolizacja-1" size="0"/>
+        <node name="monopolizacja-1, monopolizm-1" size="0"/>
+        <node name="nawis inflacyjny-1" size="0"/>
+        <node name="amortyzacja-1" size="3">
+          <node name="amortyzacja degresywna-1" size="0"/>
+          <node name="amortyzacja liniowa-1" size="0"/>
+          <node name="amortyzacja podatkowa-1" size="0"/>
+        </node>
+        <node name="obniżka-1" size="4">
+          <node name="split-2" size="0"/>
+          <node name="skonto-1" size="0"/>
+          <node name="przecena-1" size="0"/>
+          <node name="dewaluacja-1" size="0"/>
+        </node>
+        <node name="podwyższenie-3, podwyższanie-2" size="0"/>
+        <node name="podaż-1" size="9">
+          <node name="podaż doskonale elastyczna-1" size="0"/>
+          <node name="podaż elastyczna-1" size="0"/>
+          <node name="podaż mało elastyczna-1" size="0"/>
+          <node name="podaż jednostkowa-1" size="0"/>
+          <node name="podaż nieelastyczna-1" size="0"/>
+          <node name="podaż pieniądza-1" size="0"/>
+          <node name="podaż pracy-1" size="0"/>
+          <node name="nadpodaż-1" size="1">
+            <node name="świńska górka-1" size="0"/>
+          </node>
+        </node>
+        <node name="popyt-1, zapotrzebowanie-1" size="8">
+          <node name="popyt inwestycyjny-1" size="0"/>
+          <node name="popyt konsumpcyjny-1" size="0"/>
+          <node name="popyt doskonale elastyczny-1" size="0"/>
+          <node name="popyt elastyczny-1" size="0"/>
+          <node name="popyt proporcjonalny-1" size="0"/>
+          <node name="popyt nieelastyczny-1" size="0"/>
+          <node name="popyt doskonale nieelastyczny-1, popyt sztywny-1" size="0"/>
+          <node name="run-1" size="0"/>
+        </node>
+        <node name="obrót-1" size="8">
+          <node name="obrót pieniężny-1" size="0"/>
+          <node name="obrót specjalny-1" size="0"/>
+          <node name="obrót cywilnoprawny-1" size="0"/>
+          <node name="obrót publiczny-1" size="3">
+            <node name="obrót wtórny-1" size="1">
+              <node name="obrót pozagiełdowy-1" size="0"/>
+            </node>
+            <node name="obrót pierwotny-1" size="0"/>
+          </node>
+          <node name="obrót handlowy-1" size="0"/>
+        </node>
+        <node name="inflacja-1" size="21">
+          <node name="inflacja ukryta-1" size="0"/>
+          <node name="inflacja tłumiona-1" size="0"/>
+          <node name="inflacja pieniężna-1" size="0"/>
+          <node name="inflacja pełzająca-1" size="0"/>
+          <node name="inflacja otwarta-1" size="0"/>
+          <node name="inflacja kredytowa-1" size="0"/>
+          <node name="inflacja korekcyjna-1" size="0"/>
+          <node name="inflacja konsumencka-1" size="0"/>
+          <node name="inflacja jawna-1" size="0"/>
+          <node name="inflacja inercyjna-1" size="0"/>
+          <node name="inflacja kosztowa-1" size="2">
+            <node name="inflacja płacowa-1" size="0"/>
+            <node name="inflacja importowana-1" size="0"/>
+          </node>
+          <node name="inflacja budżetowa-1" size="0"/>
+          <node name="inflacja akademicka-1" size="0"/>
+          <node name="inflacja bazowa-1" size="0"/>
+          <node name="agflacja-1" size="0"/>
+          <node name="dezinflacja-1" size="0"/>
+          <node name="inflacja monetarna-1, rewolucja cen-1" size="0"/>
+          <node name="reflacja-1" size="0"/>
+          <node name="hiperinflacja-1" size="0"/>
+        </node>
+        <node name="deflacja-1" size="0"/>
+      </node>
+      <node name="zanik-2" size="6">
+        <node name="dystrofizm-1" size="0"/>
+        <node name="atrofia-2" size="0"/>
+        <node name="fading-1" size="0"/>
+        <node name="inaktywacja-1, inaktywowanie-2" size="0"/>
+        <node name="degeneracja-2" size="0"/>
+        <node name="zatrata-1" size="0"/>
+      </node>
+      <node name="przebieg-1, tok-4, bieg-4, rozwój-2, nurt-3" size="83">
+        <node name="nieśpieszność-2, niespieszność-1" size="0"/>
+        <node name="poakcja-1" size="0"/>
+        <node name="przebieg życia-1" size="2">
+          <node name="koleje losu-1, los-3" size="1">
+            <node name="pieskie życie-1, pieski los-1" size="0"/>
+          </node>
+        </node>
+        <node name="akcja-1" size="0"/>
+        <node name="seria-3, cykl-2" size="33">
+          <node name="cykl katalityczny-1" size="0"/>
+          <node name="cykl ewolucyjny-1" size="0"/>
+          <node name="krzyżowy ogień-1" size="0"/>
+          <node name="klonus-1, trząs-1" size="0"/>
+          <node name="tournée-1" size="2">
+            <node name="trasa koncertowa-1" size="1">
+              <node name="objazdówka-3" size="0"/>
+            </node>
+          </node>
+          <node name="sesja-3" size="2">
+            <node name="sesja egzaminacyjna-1, sesja-6" size="1">
+              <node name="kampania wrześniowa-2" size="0"/>
+            </node>
+          </node>
+          <node name="runda-4" size="6">
+            <node name="finał-1" size="0"/>
+            <node name="ćwierćfinał-1" size="0"/>
+            <node name="eliminacje-2" size="2">
+              <node name="kwalifikacje-2, preselekcje-1" size="0"/>
+              <node name="przedbieg-1" size="0"/>
+            </node>
+            <node name="półfinał-1" size="0"/>
+          </node>
+          <node name="kurs-5" size="0"/>
+          <node name="szkolenie-2, instruktaż-1, kurs-7, przeszkolenie-2" size="13">
+            <node name="prezentacja-4" size="0"/>
+            <node name="ćwiczenia wojskowe-1" size="1">
+              <node name="musztra-1, egzercerunek-1" size="0"/>
+            </node>
+            <node name="szkoła-4" size="3">
+              <node name="nauka jazdy-1" size="0"/>
+              <node name="szkoła rodzenia-1, szkoła matek-1" size="0"/>
+              <node name="szkoła językowa-1" size="0"/>
+            </node>
+            <node name="lektorat-1, kurs językowy-1" size="1">
+              <node name="konwersacje-1" size="0"/>
+            </node>
+            <node name="kursokonferencja-1, kurs-konferencja-1" size="0"/>
+            <node name="survival-1, surwiwal-1, szkoła przetrwania-1" size="0"/>
+            <node name="seminarium-1" size="1">
+              <node name="webinarium-1" size="0"/>
+            </node>
+          </node>
+          <node name="kolejka-2" size="0"/>
+        </node>
+        <node name="bieg rzeczy-1" size="0"/>
+        <node name="upływ-1, przemijanie-2" size="0"/>
+        <node name="passa-1, kontinuum-2, continuum-2" size="0"/>
+        <node name="ciągłość-1, ustawiczność-1, continuum-3, kontinuum-3, permanencja-1, nieprzerwalność-1, nieustanność-1, chroniczność-1" size="2">
+          <node name="zielona fala-1" size="0"/>
+          <node name="uporczywość-1" size="0"/>
+        </node>
+        <node name="kariera-1" size="1">
+          <node name="konto-5" size="0"/>
+        </node>
+        <node name="cykl-3" size="34">
+          <node name="cykl kwasu cytrynowego-1, cykl Krebsa-1, cykl kwasów trikarboksylowych-1" size="0"/>
+          <node name="cykl biogeochemiczny-1" size="0"/>
+          <node name="cykl skalny-1" size="0"/>
+          <node name="cykl geologiczny-1" size="1">
+            <node name="cykl peryglacjalny-1" size="0"/>
+          </node>
+          <node name="cykl mszalny-1" size="0"/>
+          <node name="cykl mocznikowy-1" size="0"/>
+          <node name="cykl miesięczny-2" size="0"/>
+          <node name="mahajuga-1, cykl kosmiczny-1" size="0"/>
+          <node name="cykl rozwojowy-1, cykl życiowy-1" size="1">
+            <node name="cykl lityczny-1" size="0"/>
+          </node>
+          <node name="cykl płciowy-1, cykl rozrodczy-1, cykl reprodukcyjny-2" size="2">
+            <node name="cykl jajnikowy-1" size="0"/>
+            <node name="cykl miesiączkowy-1, cykl menstruacyjny-1, cykl-4, cykl miesięczny-1, cykl owulacyjny-1" size="0"/>
+          </node>
+          <node name="cykl astronomiczny-1" size="19">
+            <node name="rok-1" size="15">
+              <node name="rok-2" size="14">
+                <node name="rok anomalistyczny-1" size="0"/>
+                <node name="rok księżycowy-1" size="0"/>
+                <node name="wiosna-2, wiosenka-2" size="0"/>
+                <node name="rok nieskładkowy-1" size="0"/>
+                <node name="rok liturgiczny-1" size="1">
+                  <node name="rok kościelny-1" size="0"/>
+                </node>
+                <node name="rok kalendarzowy-1" size="2">
+                  <node name="rok zwykły-1" size="0"/>
+                  <node name="rok przestępny-1" size="0"/>
+                </node>
+                <node name="rok zwrotnikowy-1, rok słoneczny-1" size="0"/>
+                <node name="rok jubileuszowy-1" size="0"/>
+                <node name="rok szkolny-1" size="0"/>
+                <node name="rok akademicki-1" size="1">
+                  <node name="rok wstępny-1, rok zerowy-1" size="0"/>
+                </node>
+              </node>
+            </node>
+            <node name="rok gwiazdowy-1, rok syderyczny-1" size="0"/>
+            <node name="cykl słoneczny-1" size="0"/>
+            <node name="cykl księżycowy-1, cykl lunarny-1, cykl Metona-1" size="0"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node name="automat-9" size="0"/>
+  </node>
+  <node name="łańcuch-3" size="3">
+    <node name="łańcuch zdarzeń-1, łańcuch wydarzeń-1" size="0"/>
+    <node name="łańcuch chłodniczy-1" size="0"/>
+    <node name="łańcuch kinematyczny-1" size="0"/>
+  </node>
+  <node name="passa-1, kontinuum-2, continuum-2" size="0"/>
+</node>

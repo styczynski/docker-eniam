@@ -1,0 +1,128 @@
+<node name="rzadkość-1, wyjątek-3, ewenement-1, unikat-1" size="109">
+  <node name="gratka-1" size="1">
+    <node name="rarytas-1" size="0"/>
+  </node>
+  <node name="cud-2" size="0"/>
+  <node name="mecyje-1" size="0"/>
+  <node name="rarytas-2" size="2">
+    <node name="smaczny kąsek-1" size="0"/>
+    <node name="cymelium-1, cimelium-1, biały kruk-1" size="0"/>
+  </node>
+  <node name="nieprawdopodobieństwo-1" size="0"/>
+  <node name="osobliwość-1, fenomen-2, dziw-1" size="99">
+    <node name="egzotyk-2" size="0"/>
+    <node name="dziwowisko-1" size="0"/>
+    <node name="niecodzienność-1" size="91">
+      <node name="zjawisko nadprzyrodzone-1" size="90" abstract="true">
+        <node name="jarzenie pochłaniania-1" size="0"/>
+        <node name="elektrokineza-1" size="0"/>
+        <node name="aura-4, fluid-3" size="1">
+          <node name="magnetyzm zwierzęcy-1" size="0"/>
+        </node>
+        <node name="pirokineza-1" size="0"/>
+        <node name="channeling-1, kanalizm-1" size="0"/>
+        <node name="psychokineza-1, anomalna perturbacja-1, telekineza-1" size="0"/>
+        <node name="teleportacja-1" size="0"/>
+        <node name="bilokacja-1" size="0"/>
+        <node name="czar-2" size="1">
+          <node name="urok-2" size="0"/>
+        </node>
+        <node name="stygmatyzm-1" size="0"/>
+        <node name="wizjonerstwo-2" size="0"/>
+        <node name="eksterioryzacja-1" size="0"/>
+        <node name="cudotwórstwo-1" size="0"/>
+        <node name="jasnowidzenie-1, jasnowidztwo-1" size="3">
+          <node name="prekognicja-1, przedwiedza-1" size="1">
+            <node name="postrzeganie pozazmysłowe-1" size="0"/>
+          </node>
+          <node name="retrokognicja-1" size="0"/>
+        </node>
+        <node name="telepatia-1" size="0"/>
+        <node name="magia-2, czary-1" size="63">
+          <node name="apotropaizm-1" size="0"/>
+          <node name="nekromancja-2" size="0"/>
+          <node name="czarnoksięstwo-1" size="0"/>
+          <node name="czarownictwo-1, czarodziejstwo-1" size="0"/>
+          <node name="huna-2" size="0"/>
+          <node name="gusła-1" size="0"/>
+          <node name="taumaturgia-1" size="0"/>
+          <node name="czarna magia-2" size="0"/>
+          <node name="biała magia-1" size="0"/>
+          <node name="teurgia-1" size="0"/>
+          <node name="wróżbiarstwo-1, mantyka-2, dywinacja-1, wieszczbiarstwo-1" size="52">
+            <node name="tyromancja-1" size="0"/>
+            <node name="tuframancja-1" size="0"/>
+            <node name="tasenografia-1" size="0"/>
+            <node name="stareomancja-1" size="0"/>
+            <node name="skapulimancja-2" size="0"/>
+            <node name="sciomancja-1" size="0"/>
+            <node name="piromancja-1" size="0"/>
+            <node name="pecomancja-1" size="0"/>
+            <node name="owomancja-1, owoskopia-1" size="0"/>
+            <node name="onychomancja-1" size="0"/>
+            <node name="onomancja-1, onomatomancja-1" size="0"/>
+            <node name="omomancja-1" size="0"/>
+            <node name="omfalomancja-1" size="0"/>
+            <node name="oinomancja-1" size="0"/>
+            <node name="metoposkopia-1" size="0"/>
+            <node name="macharomancja-1" size="0"/>
+            <node name="logarytmancja-1" size="0"/>
+            <node name="litomancja-1" size="0"/>
+            <node name="lekanomancja-1" size="0"/>
+            <node name="krystalomancja-2" size="0"/>
+            <node name="koskinomancja-1" size="0"/>
+            <node name="kleromancja-1" size="0"/>
+            <node name="kleidomancja-1, klejdonomancja-1" size="0"/>
+            <node name="kledonismancja-1" size="0"/>
+            <node name="kattabomancja-1" size="0"/>
+            <node name="katoptromancja-1" size="0"/>
+            <node name="idolomancja-1" size="0"/>
+            <node name="hieromancja-2" size="0"/>
+            <node name="haruspicja-1, hepatoskopia-1" size="0"/>
+            <node name="gastromancja-1, garosmancja-1" size="0"/>
+            <node name="dafnomancja-1" size="0"/>
+            <node name="ceromancja-2" size="0"/>
+            <node name="bryzomancja-1" size="0"/>
+            <node name="brontoskopia-1" size="0"/>
+            <node name="astragalomancja-1" size="0"/>
+            <node name="alomancja-1" size="0"/>
+            <node name="aleuromancja-1" size="0"/>
+            <node name="alektromancja-1" size="0"/>
+            <node name="bibliomancja-1" size="0"/>
+            <node name="onejromancja-1" size="0"/>
+            <node name="ornitomancja-1" size="0"/>
+            <node name="aeromancja-1" size="0"/>
+            <node name="geomancja-2" size="0"/>
+            <node name="kartomancja-1" size="0"/>
+            <node name="numerologia-1" size="1">
+              <node name="gametria-1" size="0"/>
+            </node>
+            <node name="chiromancja-1" size="2">
+              <node name="chirognomia-1" size="0"/>
+              <node name="chirologia-1" size="0"/>
+            </node>
+            <node name="nekromancja-1" size="0"/>
+            <node name="jasnowidzenie-2" size="0"/>
+            <node name="astrologia-1" size="0"/>
+          </node>
+        </node>
+        <node name="objawienie-3, epifania-1, teofania-1" size="2">
+          <node name="objawienie prywatne-1" size="0"/>
+          <node name="chrystofania-1" size="0"/>
+        </node>
+        <node name="cud-1" size="2">
+          <node name="manna z nieba-1" size="0"/>
+          <node name="zmartwychwstanie-1" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="dziwo-1, curiosum-1, kuriozum-1, dziwotwór-2" size="2">
+      <node name="dziwoląg-1" size="1">
+        <node name="dziwotwór-1, poczwara-2, chimera-2" size="0"/>
+      </node>
+    </node>
+    <node name="zjawisko-2" size="0"/>
+    <node name="ciekawostka-1" size="0"/>
+  </node>
+  <node name="efemeryda-2" size="0"/>
+</node>

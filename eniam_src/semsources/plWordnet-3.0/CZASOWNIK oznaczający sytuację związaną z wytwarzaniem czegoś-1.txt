@@ -1,0 +1,482 @@
+469 *CZASOWNIK oznaczający sytuację związaną z wytwarzaniem czegoś-1
+  191 *CZASOWNIK - DZIAŁANIE NDK oznaczający wytwarzanie czegoś-1
+    0 wywoływać-1
+    0 zagnieżdżać się-1, zalęgać się-1, zakładać legowisko-1
+    162 robić-2, wytwarzać-1
+      0 tatuować-1, dziarać-1
+      0 wydrapywać-1
+      0 wyklejać-2
+      0 makietować-1
+      0 zawiązywać-5
+      0 kręcić-2
+      0 kratkować-1
+      17 budować-1, wznosić-1, stawiać-2
+        0 fundamentować-1
+        0 wyprowadzać-1
+        0 wysklepiać-1
+        VISITED 0 erygować-1
+        3 prowadzić-6, przeprowadzać-5
+          0 puszczać-17
+          1 doprowadzać-4
+            0 przyłączać-3
+        0 wić-1
+        0 wystawiać-1
+        1 usypywać-1
+          0 sypać-6
+        1 zabudowywać-2
+          VISITED 0 zamurowywać-3
+        0 budować się-1
+        1 murować-1
+          0 zamurowywać-3
+        0 barykadować-2
+      23 kopiować-1, przekopiowywać-1
+        0 ściągać-15, pobierać-6
+        0 skanować-1
+        0 przepisywać-6
+        0 odwzorowywać-2
+        0 przedrukowywać-1
+        0 przerysowywać-1, odrysowywać-1
+        0 przenosić-5
+        2 podrabiać-1, fabrykować-2, fałszować-1, falsyfikować-1, preparować-3
+          0 prokurować-1
+          0 fingować-1
+        7 powielać-1
+          0 reprodukować-1
+          1 odbijać-15
+            0 kserować-1
+          0 hektografować-1
+          2 drukować-2
+            0 dodrukowywać-3
+            0 tłoczyć-7
+        4 przepisywać-3, odpisywać-3
+          1 spisywać-4
+            0 wypisywać-5
+          0 transkrybować-2
+          0 ściągać-12, zrzynać-1, odwalać-3, spisywać-3
+      35 produkować-1, wykonywać-4
+        0 słodować-1
+        0 fabrykować-1
+        0 tłoczyć-6
+        0 tłoczyć-5, wytłaczać-4
+        0 wyrabiać-1
+        0 warzyć-1
+        2 dziać-1
+          0 szydełkować-1
+          0 dziergać-1
+        0 pędzić-3
+        0 homogenizować-1
+        0 snuć-4, prząść-1
+        0 szyć-2
+        0 obszywać-3
+        0 tkać-2
+        0 tłuc-9
+        5 dorabiać-1
+          0 dodrukowywać-1
+          0 dokręcać-2
+          0 dogrzewać-2
+          VISITED 0 dopiekać-3
+          0 docierać-5
+        0 wyplatać-1
+        4 wytłaczać-1, tłoczyć-2
+          1 ciągnąć-13
+            0 przeciągać-10
+          1 wygniatać-2
+            0 moletować-1, radełkować-1
+        3 otrzymywać-2, pozyskiwać-2, uzyskiwać-2
+          2 wytapiać-1
+            0 kupelować-1
+            0 wysmażać-3
+        0 wykuwać-1, odkuwać-1, ukuwać-1
+        0 prefabrykować-1
+        0 kompostować-1
+      76 tworzyć-2, budować-2, stwarzać-1, kreować-2
+        0 produkować-4
+        0 kreować-4
+        0 wyczarowywać-2
+        0 generować-1
+        0 wirować-1
+        0 snuć-2, wysnuwać-1, prząść-2
+        1 współtworzyć-1
+          0 współprowadzić-1
+        4 konstruować-1, budować-3
+          0 gniazdować-2
+          0 montować-4
+          0 rzucać-14
+          0 klecić-2
+        3 układać-5
+          0 belkować-1
+          0 kopić-1
+          0 komponować-2, kombinować-3, kompilować-1
+        48 organizować-3
+          0 współorganizować-1
+          VISITED 0 afiliować-1
+          0 aranżować-1
+          3 zakładać-4
+            0 zakładać gniazdo-1
+            VISITED 0 erygować-3
+            0 zawiązywać-7
+          34 przygotowywać-1, przyszykowywać-1, szykować-1
+            0 formatować-4
+            0 oporządzać-2
+            0 palić-11
+            0 dysponować-2
+            0 oprawiać-3, oporządzać-1
+            0 gotować-2
+            0 sposobić się-1
+            0 mobilizować-3
+            0 rozorywać-1
+            9 obrabiać-3
+              1 ciągnąć-16
+                0 przeciągać-9
+              0 targać-6
+              5 przepuszczać-8
+                0 filtrować-3, przefiltrowywać-2, sączyć-5, przesączać-1
+                2 przesiewać-3, siać-8
+                  0 rafować-1
+                  0 pytlować-2
+                0 cedzić-3, przecedzać-1
+            0 rychtować-1
+            1 preparować-4
+              0 garbować-1, wyprawiać-2
+            11 przygotowywać się-1, gotować się-1, szykować się-1, przyszykowywać się-1, rychtować się-1, zbierać się-2
+              0 stroić się-1
+              0 wybierać się jak sójka za morze-1
+              0 mobilizować się-2
+              0 zaprawiać się-2
+              0 dysponować się-1
+              0 uzbrajać się-2
+              1 pakować się-2, zwijać się-2, zbierać się-3
+                0 przepakowywać się-1
+              0 próbować-5
+              0 przysposabiać się-1
+              0 zbierać siły-1, spinać się-1, sprężać się-2, zbierać się w sobie-1
+          5 szykować-2
+            4 urządzać-1, organizować-1
+              0 inscenizować-2, reżyserować-2, aranżować-2
+              0 improwizować-4
+              1 wyprawiać-3, wydawać-7, dawać-9
+                0 przyjmować-6
+        0 klecić-1
+        8 sporządzać-1
+          2 spisywać-2
+            1 inwentaryzować-1
+              0 kartować-1
+          4 kreślić-4
+            0 prowadzić-9
+            0 tuszować-2
+            1 budować-4
+              0 odkładać-7
+    26 przyrządzać-1, przygotowywać-3
+      1 bić-16
+        0 ubijać-2
+      3 gotować-1, kucharzyć-1, pitrasić-1, pichcić-1, warzyć-2
+        0 dusić-2
+        0 dogotowywać-1
+        0 parzyć-2, zaparzać-1, naparzać-1
+      0 wędzić-1
+      11 smażyć-1
+        0 szklić-2
+        0 wysmażać-1
+        VISITED 7 rumienić-1
+        0 kandyzować-1
+      14 piec-2
+        0 dopiekać-3
+        0 opiekać-1
+        0 podpiekać-2
+        0 wypiekać-2
+        7 rumienić-1
+          0 obrumieniać-1
+          0 obsmażać-1
+          0 zasmażać-1
+          2 przypiekać-1, podpiekać-1
+            0 spiekać-3
+            0 prażyć-3
+          0 przysmażać-1, podsmażać-1
+        0 grillować-1
+        0 zapiekać-1
+  159 *CZASOWNIK - DZIAŁANIE DK oznaczający wytworzenie czegoś-1
+    0 wywołać-2
+    138 wytworzyć-1, zrobić-2
+      0 wytatuować-1
+      0 wydrapać-1
+      0 wykleić-1
+      13 zbudować-1, wybudować-1, postawić-2, wznieść-1
+        0 wyprowadzić-3
+        0 wysklepić-2
+        0 zabarykadować-1
+        0 postawić się-2
+        0 erygować-1
+        4 poprowadzić-3, przeprowadzić-4
+          0 puścić-16
+          2 doprowadzić-4
+            1 przyłączyć-3
+              0 pociągnąć-8
+        0 pobudować się-1
+        0 wystawić-1
+        0 uwić-2
+      0 zawiązać-9
+      1 ukręcić-1
+        0 zakręcić gibona-1
+      0 zaimprowizować-1
+      5 wykończyć-1, zakończyć-3
+        0 wycyzelować-1
+        1 dopracować-1
+          0 dopieścić-1, wycyzelować-2
+        0 podszyć-2
+        0 obrobić-3
+      63 stworzyć-2, utworzyć-4, zbudować-2
+        2 sporządzić-1
+          1 spisać-2
+            0 zinwentaryzować-1
+        0 wyprodukować-4
+        0 wykreować-3, stworzyć-3
+        0 wyczarować-2
+        0 wysnuć-1
+        0 utkać-4
+        41 zorganizować-1
+          0 zblokować-1
+          1 uformować-3
+            0 ukonstytuować-1
+          6 utworzyć-2
+            0 afiliować-1
+            0 zamurować-2
+            3 założyć-1
+              0 założyć gniazdo-1
+              0 erygować-3
+              0 zawiązać-8
+          29 przygotować-2, przyszykować-1, uszykować-1, naszykować-1
+            0 sformatować-3
+            0 oporządzić-2
+            0 oprawić-4, oporządzić-1
+            3 urządzić-2
+              0 zainscenizować-1, zaaranżować-1, wyreżyserować-2
+              0 zaimprowizować-2
+              0 wyprawić-2, wydać-7, dać-14
+            8 przygotować się-1, przyszykować się-1
+              0 zmobilizować się-1
+              0 wystroić się-1
+              0 zaprawić się-2
+              0 uzbroić się-3
+              1 spakować się-1, zwinąć się-2, zebrać się-3
+                0 przepakować się-1
+              0 przysposobić się-1
+              0 zebrać siły-1, spiąć się-1, sprężyć się-3, zebrać się w sobie-1
+            0 zmobilizować-3
+            0 rozorać-1
+            7 obrobić-4
+              0 uprawić-1
+              3 przepuścić-7
+                0 przefiltrować-2, przesączyć-1
+                0 przesiać-3
+                0 odsączyć-1, odcedzić-1, osączyć-1
+              0 przeciągnąć-9
+              0 przeciągnąć-10
+            0 wyrychtować-1
+            1 spreparować-4
+              0 wygarbować-1, wyprawić-3
+          0 zaaranżować-2
+        3 połączyć-3
+          0 zblokować-3
+          0 puścić-17
+          0 spiąć-3
+        0 sklecić-1, posklejać-1
+        3 skonstruować-1, zbudować-3
+          0 zmontować-3
+          0 rzucić-14
+          0 sklecić-2
+        3 ułożyć-7
+          0 obelkować-1
+          0 skopić-1
+          0 skomponować-2, skombinować-2, skompilować-1
+      16 skopiować-1, przekopiować-1, powielić-1
+        0 pobrać-7, ściągnąć-15
+        0 zeskanować-1
+        1 odbić-9
+          0 skserować-1
+        0 odwzorować-2
+        0 przedrukować-1
+        0 przerysować-1, odrysować-1
+        0 przenieść-3
+        1 przepisać-1, odpisać-3
+          0 ściągnąć-6, spisać-4, zerżnąć-2, odwalić-3
+        2 wydrukować-2
+          0 dodrukować-3
+          0 wytłoczyć-6
+        2 przepisać-3
+          0 spisać-3
+          0 przetranskrybować-1
+      29 wyprodukować-2, wykonać-2
+        0 zesłodować-1
+        0 zmajstrować-1
+        0 wytłoczyć-5
+        0 wytłoczyć-4
+        0 uprząść-1, usnuć-1
+        0 uwarzyć-1
+        0 wykuć-1, ukuć-2, odkuć-2
+        0 nawarzyć-1
+        2 udziać-1
+          0 wyszydełkować-1
+          0 wydziergać-1
+        0 obszyć-3
+        0 uszyć-1
+        0 utkać-2
+        1 podrobić-1, sfabrykować-1, sfalsyfikować-1, sfałszować-1, spreparować-2
+          0 sfingować-1
+        5 dorobić-1
+          0 dodrukować-2, dobić-2
+          0 dokręcić-3
+          0 dogrzać-4
+          VISITED 0 dopiec-1
+          0 dotrzeć-5
+        0 wypleść-2
+        2 otrzymać-3, pozyskać-2, uzyskać-2
+          1 wytopić-1
+            0 wysmażyć-2
+        0 natkać-1
+        1 wytłoczyć-1
+          0 wybić-10
+    0 zagnieździć się-1, zalęgnąć się-1, zaląc się-1, założyć legowisko-1
+    0 wyhodować-1
+    17 przyrządzić-1, przygotować-4
+      0 ubić-2
+      2 usmażyć-1
+        0 zeszklić-2
+        0 wysmażyć-1
+      0 uwędzić-1
+      6 upiec-1
+        0 opiec-1
+        0 dopiec-1
+        0 dopiec-2
+        1 przypiec-1, podpiec-1
+          0 spiec-2
+        0 wypiec-2
+      4 ugotować-1
+        0 obgotować-1
+        0 zaparzyć-1, naparzyć-1
+        0 wygotować-1
+        0 udusić-1
+  73 *CZASOWNIK - PROCES NDK oznaczający wytwarzanie czegoś-1
+    0 produkować-2
+    71 wytwarzać-2
+      0 osadzać-4, nawarstwiać-1
+      0 generować-3
+      0 jonizować-1
+      2 dostarczać-2
+        1 dawać-3
+          0 użyczać-3
+      0 generować-2
+      0 impulsować-1
+      0 zawiązywać-6, wiązać-5
+      9 wydawać-9, rodzić-2
+        0 obradzać-1
+        5 puszczać-10, wypuszczać-5
+          3 rozkrzewiać się-2
+            0 rozgałęziać się-2
+            1 korzenić się-1, ukorzeniać się-1, zakorzeniać się-2
+              0 rozkorzeniać się-1
+          0 rozwijać-1
+        0 kłosić się-1
+        0 owocować-1, rodzić owoce-1
+      15 wysyłać-2
+        VISITED 0 emitować-1
+        0 promieniować-2, wypromieniowywać-1
+        12 przekazywać-2
+          9 przesyłać-2
+            0 teleksować-1
+            0 faksować-1, przefaksowywać-1
+            0 telegrafować-1, depeszować-1
+            0 mailować-1, mejlować-1
+            4 nadawać-1
+              VISITED 0 emitować-2
+              0 puszczać-8
+              1 transmitować-1
+                0 retransmitować-1
+          0 przewodzić-4
+          0 buforować-3
+      35 wydzielać-1
+        VISITED 0 emitować-3
+        0 emanować-2
+        2 tchnąć-3
+          VISITED 1 zionąć-1
+        2 ropieć-1, obierać się-1
+          0 kaprawieć-1
+          0 jątrzyć się-1, ognić się-1, paprać się-1, paskudzić się-1, ślimaczyć się-3
+        2 ziać-1
+          VISITED 1 zionąć-1
+        5 grzać-2
+          0 palić-8
+          3 przygrzewać-1, dogrzewać-3, dopiekać-1
+            2 spalać-4
+              1 przypalać-1
+                0 podpalać-3
+        0 gumować-2
+        0 ślimaczyć się-2
+        2 pluć-1
+          0 spluwać-1
+          0 odpluwać-1
+        0 ślinić się-1
+        1 parować-1, wyparowywać-2
+          0 dymić-1, dymić się-1
+        0 puszczać gazy-1, prukać-1, puszczać bąki-1, psuć powietrze-1
+        0 łzawić-1
+        2 krwawić-1
+          0 farbować-2, barwić-2
+          0 miesiączkować-1, mieć okres-1
+        2 pocić się-1, potnieć-1
+          0 zapacać się-1
+          0 lepić się-2
+        3 pachnieć-1, wonieć-1, pachnąć-1
+          0 unosić się-6
+          1 śmierdzieć-1, cuchnąć-1, jechać-4
+            0 zajeżdżać-4
+  50 *CZASOWNIK - PROCES DK oznaczający wytwarzanie czegoś-1
+    0 wyprodukować-3
+    48 wytworzyć-2
+      0 osadzić-3, nawarstwić-1
+      0 wygenerować-1
+      7 dostarczyć-2
+        2 zająć-11
+          0 zabawić-2
+          0 zagadać-4
+        0 zafundować-3
+        0 zafundować-4
+        1 dać-17
+          0 użyczyć-3
+      0 wygenerować-2
+      0 zawiązać-7
+      7 wydać-9, zrodzić-1
+        0 obrodzić-1
+        4 puścić-9, wypuścić-6
+          3 rozkrzewić się-2
+            0 rozgałęzić się-2
+            1 ukorzenić się-1, zakorzenić się-2
+              0 rozkorzenić się-2
+        0 zaowocować-2, zrodzić owoce-1
+      12 wysłać-3
+        0 wyemitować-1
+        0 emitować-1
+        0 wypromieniować-1
+        8 przekazać-2
+          7 przesłać-2
+            0 przeteleksować-1
+            0 przefaksować-1
+            0 zatelegrafować-1, zadepeszować-1
+            3 nadać-3
+              0 wyemitować-2
+              0 emitować-2
+              0 puścić-8
+      14 wydzielić-4
+        0 puścić bąka-1, zepsuć powietrze-1
+        1 zionąć-1
+          0 wionąć-2
+        0 emitować-3
+        1 zapachnieć-1
+          0 zajechać-10
+        0 zadymić-2
+        0 puścić-12
+        1 spocić się-2, spotnieć-2
+          0 zapocić się-2
+        0 wyparować-3
+        1 plunąć-1, splunąć-1
+          0 odplunąć-1
+        0 zaślinić się-1

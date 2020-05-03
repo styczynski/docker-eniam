@@ -1,0 +1,27 @@
+@DIAL-VERB-LEMMA-SUFIX
+	dial_verb	yć	lemma=yć
+	dial_verb	ć	lemma=ć
+
+@DIAL-ADJ-LEMMA
+	dial_twarde_ye		lemma=y
+	dial_twarde_y	y	lemma=y
+	dial_miekkie_i		lemma=ε
+
+@DIAL-NOUN-LEMMA
+	dial_twarde_ye		lemma=y
+	dial_miekkie_ae	e	lemma=e
+	dial_miekkie_ae	a	lemma=a
+	dial_miekkie_ae	o	lemma=o
+	dial_miekkie_wyglos		lemma=ε
+	dial_twarde_wyglos		lemma=ε
+	dial_wyglos		lemma=ε
+	dial_twarde_a	a	lemma=a
+	dial_miekkie_ii		lemma=y
+
+@DODATKOWE-NOUN-LEMMA
+	dodatkowe_twarde_a	a	lemma=a
+	dodatkowe_twarde_y		lemma=y
+	dodatkowe_twarde_e	e	lemma=e
+	dodatkowe_miekkie_ae	a	lemma=a
+	dodatkowe_miekkie_wyglos		lemma=ε
+	dodatkowe_twarde_wyglos		lemma=ε

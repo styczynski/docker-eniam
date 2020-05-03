@@ -1,0 +1,14 @@
+W ramach zadania treść arkuszy kalkulacyjnych zawierających wyniki prac nad semantyką została skonwertowana do postaci strukturalnej i
+zapisana w postaci pliku xml oraz plików zawierających opis walencji w formacie przeznaczonym dla parsera ENIAM. 
+
+Paczka zawiera program konwertujący, dane źródłowe w katalogu data oraz przetworzone dane w katalogu results.
+
+Plik xml zawiera pełne informacje zebrane podczas anotacji rolami tematycznymi i preferencjami semantycznymi. 
+Może zostać wykorzystany jako dane dla innych parserów lub włączony do słownika walencyjnego Walenty.
+
+Konwersja była zadaniem złożonym uwagi na to, że informacje w przetwarzanym arkuszu kalkulacyjnym miały strukturę drzewa,
+którego gałęzie oznaczane były liniami rozdzielającymi pola. Dane zawierały też kilka błędów w tej strukturze,
+które trzeba było wykryć i poprawić przed ich przetworzeniem.
+
+Preferencje selekcyjne zostały zweryfikowane poprzez skonfrontowanie ich ze Słowosiecią.
+

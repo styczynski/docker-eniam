@@ -1,0 +1,2348 @@
+2256 *CZASOWNIK oznaczający sytuację związaną ze zjawiskiem fizycznym-1
+  10 *CZASOWNIK - ZDARZENIE NDK oznaczający powodowanie zjawiska fizycznego lub zmiany stanu fizycznego-1
+    0 odbijać-3
+    0 mrozić-4, ziębić-1
+    0 rozjarzać-1
+    0 zwiotczać-1
+    0 wybrzuszać-1
+    0 ścinać-5
+    1 wysuszać-2
+      0 wyprażać-2
+    0 gnoić-1
+    0 roziskrzać-1
+  414 *CZASOWNIK - ZDARZENIE NDK oznaczający zjawiska fizyczne-1
+    371 wydawać-4
+      299 wydawać głos-1
+        231 *wydobywać głos-1, wydawać głos-2
+          15 mówić-8
+            0 wykrztuszać-2
+            0 huczeć-1, grzmieć-1
+            0 chrypieć-1
+            1 piszczeć-3
+              0 popiskiwać-2
+            0 bełkotać-2
+            0 buczeć-2
+            1 mamrotać-1, mamlać-2, mamleć-2, mruczeć-1
+              0 pomrukiwać-1
+            0 gaworzyć-1
+            1 cedzić-1
+              0 syczeć-4, sykać-3
+            0 wyrzucać-7
+            1 szeptać-1, mówić na ucho-1
+              0 szemrać-2
+          0 stękać-1
+          0 gulgotać-1, bełkotać-1
+          0 szczękać-1, klapać-2, kłapać-1
+          2 chrząkać-1
+            0 odchrząkiwać-1
+            0 pochrząkiwać-2
+          1 rzęzić-1
+            0 charczeć-1, chrapać-1
+          131 odzywać się-1, przemawiać-1
+            0 fukać-3, prychać-3
+            128 zwracać się-1
+              0 tytułować-2
+              79 wydawać-11
+                78 polecać-1
+                  1 prosić-7
+                    0 upraszać-2
+                  26 zarządzać-2
+                    0 zwoływać-2
+                    1 rozporządzać-2
+                      0 dysponować-3
+                    22 dysponować-1, gospodarować-3, rozporządzać-1, mieć do dyspozycji-1, gospodarzyć się-2, rządzić się-2, gospodarzyć-2
+                      0 mieć w ręku-1, trzymać w ręku-1
+                      4 gospodarować-4
+                        3 oszczędzać-4
+                          0 zaciskać pasa-1
+                          1 szczędzić-1, żałować-4, skąpić-2, sknerzyć-1, chytrzyć-1
+                            0 mieć węża w kieszeni-1
+                      0 rządzić się-3
+                      1 rozporządzać się-1
+                        0 panoszyć się-2, rządzić się-4, szarogęsić się-1
+                      12 zarządzać-1, administrować-1, menedżerować-1, zawiadywać-1, gospodarować-2
+                        11 kierować-1, dyrygować-1
+                          0 szefować-1
+                          0 ordynować-3
+                          0 pociągać za sznurki-1
+                          0 prezesować-1, przewodniczyć-2
+                          0 dyrygować-3
+                          0 dyrektorować-1
+                          0 trzymać w swoich rękach wszystkie nici-1, trzymać w rękach nici-1, skupiać w swoich rękach wszystkie nici-1, skupiać w rękach nici-1, trzymać nici-1, skupiać nici-1, trzymać wszystkie nici-1, skupiać wszystkie nici-1
+                          0 ustawiać się-3
+                          1 redagować-3
+                            0 współredagować-2
+                          0 dowodzić-3
+                  0 zamawiać-5
+                  9 zlecać-1
+                    VISITED 0 asygnować-2
+                    3 zamawiać-3
+                      0 kontraktować-2
+                      0 obstalowywać-1
+                      0 prenumerować-1
+                    3 powierzać-2
+                      0 dawać-16
+                      0 zdawać-6
+                      0 obsadzać-3
+                  37 nakazywać-1, rozkazywać-1
+                    0 komenderować-1
+                    0 sadzać-2
+                    1 stawiać ... w stan pogotowia-1, stawiać ... w stan gotowości-1
+                      0 mobilizować-4
+                    0 przykazywać-1
+                    0 oddalać-3
+                    VISITED 0 kazać-3
+                    23 wysyłać-3, posyłać-1, słać-2
+                      1 oddelegowywać-1
+                        VISITED 0 delegować-2
+                      0 edukować-2, kształcić-2
+                      0 odkomenderowywać-1
+                      VISITED 0 ekspediować-1
+                      1 podsyłać-2
+                        0 nasyłać-1
+                      VISITED 0 delegować-1
+                      2 wyprawiać-1
+                        0 ordynować-4
+                        0 odprawiać-2
+                      11 kierować-3
+                        0 przysyłać-2
+                        9 prowadzić-10, wieść-6
+                          0 pilotować-5
+                          2 zabierać-3, brać-24
+                            1 porywać-3, uprowadzać-1
+                              0 zgarniać-3, zagarniać-2
+                          0 sprowadzać-7
+                          0 wieść-7
+                          0 holować-2
+                          1 wodzić-3
+                            0 wywodzić-7
+                    5 wzywać-1, wołać-2, przywoływać-2, przyzywać-1
+                      0 pozywać-2
+                      0 dodzwaniać się-1
+                      1 nawoływać-2
+                        0 hukać-4
+                      0 wywoływać-3, wyrywać-5
+              0 zagajać-1
+              0 odwoływać się-3
+              1 mówić-6
+                0 wołać-3
+              1 zagadywać-1, zagabywać-1
+                0 zaczepiać-1, zahaczać-3
+              0 zapraszać-1, prosić-2
+              19 pytać-1, indagować-1, nagabywać-1, zapytywać-1, zapytywać się-1, zadawać pytanie-1, pytać się-1, zwracać się z pytaniem-1
+                17 zasięgać-1
+                  1 zasięgać opinii-1
+                    VISITED 0 konsultować-3, konsultować się-2
+                  1 radzić się-1, zasięgać rady-1
+                    0 konsultować-3, konsultować się-2
+                  13 dowiadywać się-1, informować się-1, wywiadywać się-1, zasięgać języka-1
+                    1 dopytywać się-1, dopytywać-1
+                      0 podpytywać-1, podpytywać się-1
+                    10 badać-2, sondować-2, wybadywać-1
+                      4 wypytywać-1, wypytywać się-1
+                        0 egzaminować-2
+                        0 spowiadać-2
+                        0 rozpytywać-1, rozpytywać się-1
+                        0 przesłuchiwać-3
+                      2 upewniać się-1
+                        0 utwierdzać się-1
+                        0 przekonywać się-2
+                      0 ankietować-1, ankietyzować-1
+                      0 lustrować-1
+                0 interpelować-1
+              19 prosić-1, zwracać się z prośbą-1
+                1 wypraszać-2
+                  0 pokazywać drzwi-1
+                0 wyciągać rękę-5
+                0 skomleć-2, skamleć-2, skomlić-2
+                0 polecać się-2
+                0 uciekać się-3
+                0 prosić-5
+                0 molestować-2, napastować-2
+                0 jęczeć-3, miauczeć-2
+                1 błagać-1
+                  0 zaklinać-1
+                0 postulować-1
+                3 wnioskować-1, wnosić-1
+                  0 pozywać-1
+                  1 proponować-1
+                    0 wystawiać-8
+                0 stawiać wniosek-1, wysuwać wniosek-1
+                0 oświadczać się-1, prosić o rękę-1
+                0 wzywać-4, apelować-2, nawoływać-1
+            0 wyrywać się-1
+          13 wypowiadać-1, mówić-5
+            0 odszeptywać-2
+            0 tokować-1
+            0 skandować-1
+            0 trzepać-7
+            1 recytować-1, deklamować-1
+              0 odklepywać-1
+            1 dyktować-2
+              0 literować-1, przeliterowywać-1
+            1 zmawiać-1, odmawiać-3
+              0 modlić się-1, zanosić modły-1, odmawiać pacierz-1
+            2 wygłaszać-1, głosić-2
+              0 przemawiać-4
+              VISITED 0 kazać-2
+          6 krzyczeć-1, wykrzykiwać-1
+            0 wrzeszczeć-1, drzeć się-1, wydzierać się-1, piłować-7, piłować mordę-1, piłować gębę-1, piłować dziób-1, piłować ryj-1
+            0 ryczeć-2
+            0 pokrzykiwać-1
+            0 wiwatować-1
+            0 wołać-1
+            0 hukać-2
+          1 jęczeć-1, skowyczeć-2
+            0 pojękiwać-1
+          2 mlaskać-2, ciamkać-1
+            VISITED 1 cmokać-1
+          0 czkać-1
+          0 bekać-1
+          0 zanosić się-1
+          1 chrapać-2
+            0 pochrapywać-1
+          5 kaszleć-1, kasłać-1
+            0 wykrztuszać-1
+            0 pokasływać-1, pokaszliwać-1
+            1 odkaszliwać-1, odkasływać-1
+              0 odkrztuszać-1
+            0 krztusić się-1, dławić się-1, zachłystywać się-1
+          0 syczeć-2, sykać-1
+          0 parskać-2
+          0 chrupać-1
+          6 śmiać się-1
+            0 śmiać się do rozpuku-1
+            0 kwiczeć-1
+            0 zarykiwać się-1
+            0 rżeć-2
+            0 chichotać-1
+            0 rechotać-1, zaśmiewać się-1
+          13 wymawiać-1, artykułować-2, wypowiadać-2
+            0 zaciągać-7
+            0 mazurzyć-1
+            0 depalatalizować-1
+            0 aspirować-2
+            0 akcentować-1
+            0 miękczyć-3, zmiękczać-3, palatalizować-1
+            0 przeciągać-3
+            0 intonować-1
+            0 unosawiać-1
+            0 ubezdźwięczniać-1
+            0 udźwięczniać-1
+            0 grasejować-1
+            0 seplenić-1
+          13 śpiewać-1, odśpiewywać-1
+            0 śpiewać do kotleta-1
+            0 muzykować-2
+            0 wyciągać-5
+            0 przyśpiewywać-1
+            0 kolędować-2
+            0 basować-1
+            0 falsetować-1
+            0 zawodzić-2
+            0 jodłować-1, jodlować-1
+            3 fałszować-2
+              0 wyć-4, zawodzić-5
+              0 beczeć-3
+              0 kiksować-1, ucinać koguta-1, wycinać koguta-1
+        66 *wydawać głos-3
+          0 zanosić się-3
+          1 mruczeć-2
+            0 pomrukiwać-2
+          1 piszczeć-1
+            0 popiskiwać-1
+          0 syczeć-3, sykać-4
+          0 rechotać-2
+          0 szczekać-2
+          2 ględzić-2
+            1 krzyczeć-3
+              0 pokrzykiwać-2
+          1 chrząkać-2, chrumkać-1
+            0 pochrząkiwać-1
+          2 fukać-2, prychać-1, parskać-1
+            1 chrapać-3
+              0 pochrapywać-2
+          24 gaworzyć-2
+            7 tokować-2
+              3 grać-8
+                0 bąkać-3
+                0 cierkać-2
+                VISITED 0 gulgotać-3, bulgotać-3, bełkotać-4
+              0 kukać-2
+              0 derkać-1
+              0 klekotać-1
+            0 kwakać-1
+            1 hukać-3
+              0 pohukiwać-1
+            6 śpiewać-2, wywodzić-2, wyśpiewywać-1, nucić-1, koncertować-2
+              VISITED 0 pogwizdywać-2
+              0 kwilić-1
+              0 kląskać-2
+              0 lamentować-2
+              1 ćwierkać-1, świergotać-1, świergolić-1, ciurkać-2
+                0 szczebiotać-1
+            0 krakać-1
+            2 gdakać-1
+              0 kwokać-1, kwoczyć-1, kwoktać-1
+              0 gulgotać-3, bulgotać-3, bełkotać-4
+            0 gęgać-1, gęgotać-1
+            0 piać-1
+            0 gruchać-1
+          1 wyć-3
+            VISITED 0 skowyczeć-1, skomleć-1, skamleć-1, skowytać-1, skomlić-1
+          2 świstać-4
+            VISITED 0 poświstywać-4
+            0 pogwizdywać-2
+          0 muczeć-1
+          1 ryczeć-3
+            0 porykiwać-1
+          1 warczeć-2
+            0 powarkiwać-3
+          0 trąbić-1
+          0 rżeć-1
+          0 miauczeć-1
+          0 meczeć-1
+          0 kwiczeć-2, kwikać-1
+          0 kumkać-1
+          0 beczeć-2
+          VISITED 1 cykać-3
+          6 szczekać-1
+            0 obszczekiwać-1
+            0 głosić-3
+            0 anonsować-3
+            0 grać-11
+            1 ujadać-1
+              0 skowyczeć-1, skomleć-1, skamleć-1, skowytać-1, skomlić-1
+          0 skrzeczeć-1
+      70 brzmieć-1, wydawać dźwięk-1, dźwięczeć-1
+        2 chlupać-1, chlupotać-1, pluskać-1
+          1 bulgotać-1, gulgotać-2, bełkotać-3
+            0 pyrkotać-1, pyrkać-1, perkotać-1, parkotać-1, pykać-4
+        3 dzwonić-3
+          0 wydzwaniać-1
+          1 bić-8, wybijać-1
+            0 dzwonić-5
+        0 obniżać-3
+        5 piszczeć-2
+          3 świstać-1, świszczeć-1
+            0 poświstywać-1
+            1 gwizdać-1
+              0 pogwizdywać-1
+          VISITED 0 skrzypieć-1
+        2 syczeć-1, sykać-2
+          0 sapać-2
+          VISITED 0 skwierczeć-1
+        4 szeleścić-1
+          VISITED 2 chrzęścić-1, chrzęszczeć-1, chrupać-2
+          0 szemrać-1
+        4 brzęczeć-1, brząkać-3, brzękać-3
+          2 dzwonić-4
+            VISITED 1 szczękać-2
+          0 bzykać-1, bzyczeć-1
+        9 stukać-3
+          3 klekotać-3
+            VISITED 2 terkotać-1, turkotać-1
+          VISITED 2 dudnić-1
+          0 bębnić-2
+          0 gruchotać-2
+        7 trzaskać-1
+          0 potrzaskiwać-1
+          4 trzeszczeć-1
+            VISITED 2 chrzęścić-1, chrzęszczeć-1, chrupać-2
+            0 skrzypieć-1
+          0 skwierczeć-1
+        0 tykać-2, cykać-1
+        1 grać-10
+          0 dąć-3
+        0 burczeć-3, kruczeć-1, gadać-3
+        3 kłapać-2, plaskać-1, klapać-1
+          0 klaskać-3
+          0 kląskać-1
+          0 człapać-2
+        10 zgrzytać-1
+          VISITED 1 rzęzić-2
+          7 chrobotać-1
+            0 szurać-4
+            VISITED 2 terkotać-1, turkotać-1
+            2 chrzęścić-1, chrzęszczeć-1, chrupać-2
+              1 szczękać-2
+                0 szczekać-3
+        8 warczeć-1, warkotać-1
+          0 burczeć-2
+          0 mruczeć-4
+          0 tętnić-2
+          VISITED 1 rzęzić-2
+          2 terkotać-1, turkotać-1
+            1 cykać-3
+              0 cierkać-1
+        2 mlaskać-1
+          1 cmokać-1
+            0 pykać-2
+        16 hałasować-1, robić hałas-1
+          0 trąbić-2
+          0 zanosić się-4
+          1 grzmieć-2
+            0 grzmieć-3
+          3 wyć-1
+            1 rzęzić-2
+              0 chrypieć-2
+            0 zawodzić-1, łkać-2, jęczeć-2
+          2 dudnić-1
+            0 tętnić-5
+            0 tarabanić-1
+          3 buczeć-1
+            2 huczeć-2, ryczeć-1
+              0 grzmocić-4
+              0 szumieć-1
+          0 jazgotać-2
+      3 pachnieć-1, wonieć-1, pachnąć-1
+        0 unosić się-6
+        1 śmierdzieć-1, cuchnąć-1, jechać-4
+          0 zajeżdżać-4
+    0 wybrzuszać się-1
+    1 łamać się-1
+      0 nadłamywać się-1
+    0 pogwizdywać-3, poświstywać-3
+    7 zaczynać-3
+      0 rozmarzać się-1
+      0 rozsierdzać się-1
+      0 rozkwilać się-2
+      0 rozkwilać się-1
+      0 rozjarzać się-1, rozżarzać się-1
+      1 rozbłyskać-1, rozbłyskiwać-1
+        0 roziskrzać się-1
+    6 funkcjonować-1, działać-3, chodzić-4, być na chodzie-1, iść-9, pracować-3
+      0 prowadzić się-3
+      0 kontaktować-3
+      3 pracować-5
+        2 pulsować-2, bić-7, tętnić-4
+          0 kołatać-2
+          0 trzepotać-3, trzepotać się-1
+    0 iskrzyć-1
+    9 padać-1
+      0 kurzyć-3
+      0 kropić-1
+      0 dżdżyć-1, rosić-1, siąpić-1, siać-7, mżyć-1, ćmić-4
+      2 sypać-5
+        0 śnieżyć-1
+        0 prószyć-1
+      0 lać-4
+      0 siec-3
+      0 zacinać-1
+    7 wiać-1
+      VISITED 0 wionąć-1
+      0 świstać-3, świszczeć-2
+      0 ciągnąć-2, zaciągać-4
+      0 powiewać-3, zawiewać-1
+      0 dąć-1, dmuchać-1
+      0 hulać-1
+      0 zadymać-1
+    3 buchać-1
+      1 ziać-2
+        VISITED 0 zionąć-2
+      0 wybuchać-1
+  20 *CZASOWNIK - PROCES NDK oznaczający powodowanie zjawiska fizycznego lub zmiany stanu fizycznego-1
+    0 pobudzać-3, stymulować-3
+    0 zwęglać-3
+    0 zamazywać-2
+    0 spiętrzać-2, piętrzyć-2
+    0 spłycać-2
+    0 gasić-1, zagaszać-5
+    3 rozkładać-2
+      0 przetrawiać-4, trawić-3
+      1 metabolizować-1
+        VISITED 0 spalać-3
+    3 naznaczać-3
+      1 stygmatyzować-1
+        0 piętnować-1
+      0 piętnować-2
+    1 utleniać-1
+      0 spalać-3
+    0 orzeźwiać-1, odświeżać-2
+    0 przeradzać-1
+    0 wymrażać-1
+    0 zabagniać-1
+    0 strącać-4
+  1 *CZASOWNIK - CZYNNOŚĆ NDK oznaczający zjawiska fizyczne-1
+    0 poświstywać-4
+  2 *CZASOWNIK - DZIAŁANIE NDK oznaczający zjawiska fizyczne-1
+    0 karbować-1
+    0 ściszać-1, przyciszać-1
+  122 *CZASOWNIK - DZIAŁANIE NDK oznaczający powodowanie zjawiska fizycznego lub zmiany stanu fizycznego-1
+    63 *zmieniać właściwości fizykalne czegoś-1
+      0 kąpać-2
+      0 zwęglać-2, karbonizować-1
+      0 napuszać-1, puszyć-1
+      0 perforować-1, dziurkować-1
+      0 buforować-2
+      0 stępiać-1
+      0 przytępiać-2
+      2 zwężać-2
+        1 ścieśniać-2
+          0 dopasowywać-3
+      0 skraplać-2
+      1 rozjaśniać-2
+        0 utleniać się-2
+      0 matować-2
+      0 przełamywać-5
+      0 spiekać-1
+      0 rzucać-7
+      0 przerzedzać-2
+      2 ostrzyć-1, zaostrzać-4
+        0 temperować-1
+        0 wecować-1
+      0 odbarwiać-1
+      0 spieniać-2
+      0 uelastyczniać-2
+      11 usztywniać-1
+        1 najeżać-1, jeżyć-1, stroszyć-1, zjeżać-1
+          0 tapirować-1
+        0 krochmalić-1
+        7 naprężać-1, wyprężać-1, napinać-1
+          0 wydymać-1, wzdymać-1
+          0 sprężać-3
+          0 przeć-1
+          1 naciągać-3
+            0 odciągać-6
+          1 rozdymać-1, nadymać-1
+            0 nadmuchiwać-1, dmuchać-2
+      2 zmiękczać-1, miękczyć-1
+        0 odpuszczać-3, odhartowywać-1
+        0 rozmaczać-1
+      2 roztapiać-1, stapiać-2, topić-2
+        0 nadtapiać-1
+        0 przetapiać-2
+      3 zagęszczać-1, zgęszczać-1
+        0 odparowywać-3
+        0 kondensować-3
+        0 stężać-1
+      16 obrabiać-2
+        0 śrutować-1
+        0 walcować-3
+        0 diamentować-1
+        0 przesycać-2
+        0 kuć-1
+        0 przepuszczać-5
+        0 ciosać-1, ociosywać-2, obciosywać-1
+        1 strugać-2, ostrugiwać-1
+          0 zacinać-6
+        0 pogłębiać-3
+        0 wiórkować-2
+        0 patentować-2
+        0 toczyć-3, wytaczać-6
+        1 obtaczać-3
+          0 roztaczać-4
+        0 frezować-1
+    7 rozpalać-2, rozniecać-1, niecić-1
+      0 rozpłomieniać-1
+      0 krzesać-1
+      2 rozżarzać-2
+        1 zapalać-6, odpalać-5
+          0 przypalać-2
+      1 zapalać-1
+        0 podpalać-2
+    0 rozładowywać-3, rozbrajać-2
+    2 poluźniać-1, rozluźniać-1, luzować-1, obluzowywać-1
+      0 obruszać-1
+      0 popuszczać-2
+    0 podgłaśniać-1
+    0 rozjeżdżać-1
+    0 docierać-3
+    0 materializować-1
+    23 oddziaływać-1, działać-4
+      2 odurzać-3
+        1 upajać-1
+          0 poniewierać-1
+      0 przyjmować się-5
+      1 przetrawiać-2
+        0 trawić-4
+      0 przepuszczać-3
+      3 gotować-3
+        0 wygotowywać-2
+        1 obgotowywać-1
+          0 blanszować-1
+      10 traktować-4, poddawać-1
+        0 hormonizować-1
+        0 mrozić-3, zamrażać-1
+        1 elektryzować-2
+          0 indukować-2
+        0 przewietrzać-3, wietrzyć-3
+        0 orzeźwiać-2, odświeżać-4
+        2 napromieniowywać-1, napromieniać-1
+          1 naświetlać-2, eksponować-3
+            0 prześwietlać-2
+        0 parować-4
+      0 atakować-7
+    11 suszyć-1, wysuszać-1
+      2 przesuszać-1
+        0 przepalać-2
+        0 spopielać-1
+      6 osuszać-1
+        2 odwadniać-1, odwodniać-1
+          0 drenować-2, sączkować-2
+          0 drenować-1, sączkować-1
+        0 odsączać-1, odcedzać-1, osączać-1
+        1 przecierać-3, wycierać-3, obcierać-2
+          0 ocierać-2
+      0 podsuszać-1
+    5 spłaszczać-1, rozpłaszczać-1
+      0 klepać-3
+      0 sklepywać-1
+      0 przypłaszczać-1
+      1 wałkować-2
+        0 maglować-1
+  43 *CZASOWNIK - PROCES NDK oznaczający zjawisko fizyczne-1
+    0 otulać się-1, spowijać się-1
+    0 nasycać się-5
+    0 jesienić się-1
+    0 matowieć-1
+    0 wilgotnieć-1
+    2 palić się-2, płonąć-2
+      0 buzować-1
+      0 pełgać-2
+    3 gasnąć-1
+      VISITED 0 wypalać się-1
+      0 przygasać-1
+      0 dogasać-1, wygasać-1
+    2 ciemnieć-3, zaciemniać się-1
+      0 ściemniać się-3, przygasać-2, mrocznieć-2, przyćmiewać się-1
+      VISITED 0 ciemnieć-4, czernić się-1
+    0 ciemnieć-2, ściemniać się-2, mrocznieć-1
+    0 falować-3
+    1 moknąć-1, moczyć się-1, zamakać-1
+      VISITED 0 zamaczać się-1
+    23 zasnuwać się-1, pokrywać się-1, powlekać się-1, okrywać się-2, przesłaniać się-1, zachodzić-2, zaciągać się-1, zaćmiewać się-1, zakrywać się-2, zawlekać się-1, powłóczyć się-2, przykrywać się-1
+      0 przybierać się-1
+      0 parszywieć-1
+      0 przyozdabiać się-2
+      0 posrebrzać się-2
+      0 spieniać się-2, pienić się-2
+      0 osypywać się-6, obsypywać się-5
+      0 oblepiać się-1
+      0 kurzyć się-1
+      0 zarastać-4
+      0 przetłuszczać się-1
+      0 patynować się-1
+      0 ozłacać się-1
+      0 wrzodzieć-1
+      0 otaczać się-3
+      1 parować-5, zaparowywać-1
+        0 pocić się-2, potnieć-2
+      0 chmurnieć-2, pochmurnieć-2
+      0 spływać-5
+      0 garbić się-2
+      1 obrastać-1, porastać-1, zarastać-1
+        0 zaperzać się-1
+      0 czernieć-3
+      VISITED 0 pleśnieć-1, zakwitać-1
+  4 *CZASOWNIK - DZIAŁANIE DK oznaczający zmianę w obrębie zjawisk fizycznych-1
+    0 ściszyć-1, przyciszyć-1
+    VISITED 0 *wydobyć dźwięk-1
+    1 zrumienić-1
+      0 podsmażyć-1
+  94 *CZASOWNIK - DZIAŁANIE DK oznaczający spowodowanie zjawiska fizycznego lub zmiany stanu fizycznego-1
+    10 oświetlić-1
+      0 opromienić-2
+      0 doświetlić-1
+      0 zaświecić-2
+      0 podświetlić-1
+      2 rozjaśnić-2, rozświetlić-1, rozbielić-1, rozjarzyć-2, rozpalić-4, rozproszyć-5, rozpromienić-1, rozświecić-1, rozwidnić-1, przejaśnić-1
+        0 zapalić-6
+        0 rozedrzeć-2
+      1 poświecić-1
+        0 przyświecić-1
+      0 omieść-3
+    52 *zmienić właściwości fizykalne czegoś-1
+      0 wykąpać-2
+      0 zwęglić-1
+      0 napuszyć-1
+      0 podziurkować-1
+      0 zeszklić-1
+      0 przytępić-2
+      0 skroplić-1
+      1 rozjaśnić-1
+        0 utlenić się-1
+      0 zmatować-1, zmatowić-1
+      0 przełamać-3, złamać-6
+      0 spiec-1
+      0 rzucić-9
+      0 przerzedzić-2
+      1 naostrzyć-1, zaostrzyć-2
+        0 zatemperować-1
+      0 odbarwić-1
+      0 spienić-1
+      9 obrobić-1
+        0 wytoczyć-5
+        0 przesycić-4
+        0 przepuścić-6
+        0 ociosać-1, obciosać-1
+        1 ostrugać-2
+          0 zaciąć-4
+        0 pogłębić-3
+        1 obtoczyć-1
+          0 roztoczyć-4
+      0 uelastycznić-1
+      10 usztywnić-1
+        1 najeżyć-1, zjeżyć-1, nastroszyć-1
+          0 natapirować-1
+        0 nakrochmalić-1, wykrochmalić-1
+        6 naprężyć-1, wyprężyć-1, napiąć-1
+          0 wydąć-1, wzdąć-1
+          0 sprężyć-3
+          1 naciągnąć-3
+            0 odciągnąć-8
+          1 rozdąć-1, nadąć-1
+            0 nadmuchać-1
+      2 roztopić-1, stopić-1
+        0 nadtopić-1
+        0 przetopić-2
+      2 zmiękczyć-1
+        0 odpuścić-3, odhartować-1
+        0 rozmoczyć-1
+      2 zagęścić-1, zgęścić-1
+        0 skoncentrować-1, skondensować-3
+        0 odparować-4
+      2 zwęzić-2
+        0 ścieśnić-2
+        0 dopasować-3
+    0 rozładować-1, rozbroić-2
+    3 poluzować-1, rozluźnić-1, poluźnić-1, obluzować-1
+      0 obruszyć-1, obluzować-2
+      0 wyluzować-3
+      0 popuścić-1
+    0 podgłośnić-1
+    0 rozjeździć-1
+    2 spłaszczyć-1, rozpłaszczyć-1
+      0 sklepać-1
+      0 przypłaszczyć-1
+    0 dotrzeć-3
+    0 zmaterializować-1
+    7 rozpalić-2, rozniecić-1
+      0 rozpłomienić-1
+      0 wykrzesać-1, skrzesać-1
+      2 rozżarzyć-2
+        1 zapalić-7, odpalić-4
+          0 przypalić-2
+      1 zapalić-1
+        0 podpalić-2
+    8 wysuszyć-1
+      0 podsuszyć-1
+      2 przesuszyć-1
+        0 przepalić-1
+        0 spopielić-2
+      3 osuszyć-1
+        0 odwodnić-1
+        1 przetrzeć-6, wytrzeć-3, obetrzeć-2
+          0 otrzeć-2
+    0 podpalić-1
+  10 *CZASOWNIK - WYPADEK oznaczający spowodowanie zjawiska fizycznego lub zmiany stanu fizycznego-1
+    0 wybrzuszyć-1
+    0 odbić-5
+    0 zmrozić-1
+    0 ściąć-7
+    2 otoczyć-4
+      0 opłynąć-2
+      0 owiać-3, owionąć-1
+    1 wysuszyć-2
+      0 wyprażyć-2
+    0 roziskrzyć-1
+  51 *CZASOWNIK - PROCES DK oznaczający zjawisko fizyczne-1
+    0 skrzemienieć-1
+    0 nasycić się-5
+    0 ściemnieć-2, ściemnić się-3, pociemnieć-4
+    0 ochłodzić się-4, oziębić się-3
+    0 przelać się-2
+    0 zajesienić się-1
+    0 zmatowieć-1
+    2 pociemnieć-1, ściemnić się-2, ściemnieć-1
+      1 zmierzchnąć się-1, zmierzchnąć-1
+        VISITED 0 poszarzeć-2
+    3 wydzielić się-2
+      0 wypromieniować-2
+      1 wytrącić się-1
+        0 strącić się-1
+    0 spowinąć się-2, spowić się-1, otulić się-1
+    2 zmoknąć-1, zmoczyć się-1, zamoknąć-1
+      0 zamaczać się-1
+      0 przemoknąć-2
+    27 zasnuć się-1, pokryć się-1, powlec się-2, okryć się-2, przesłonić się-1, zajść-3, zaciągnąć się-1, zaćmić się-1, zakryć się-2, zawlec się-1, przykryć się-1
+      0 przybrać się-1
+      0 sparszywieć-1
+      0 przyozdobić się-2
+      0 posrebrzyć się-2
+      0 zamglić się-1
+      VISITED 0 zaropieć-1
+      0 spienić się-3, zapienić się-3
+      0 obsypać się-4, osypać się-6
+      0 oblepić się-1
+      0 zakurzyć się-1
+      0 zarosnąć-2
+      0 poczernieć-2
+      0 przetłuścić się-1
+      0 ozłocić się-1
+      0 owrzodzieć-1
+      0 otoczyć się-1
+      1 zaparować-1
+        0 spocić się-1, spotnieć-1, zapotnieć-1
+      0 spochmurnieć-1
+      0 spłynąć-4
+      1 obrosnąć-1, porosnąć-1, zarosnąć-1
+        0 zaperzyć się-2
+      0 przymglić się-1
+      0 załzawić się-1
+      0 zaszklić się-1
+      VISITED 1 spleśnieć-1, zakwitnąć-1, zapleśnieć-1
+    0 przygasnąć-2
+    3 zgasnąć-1, zagasnąć-1
+      0 wygasnąć-1, dogasnąć-1
+      0 pogasnąć-1
+      VISITED 0 wypalić się-1
+  23 *CZASOWNIK - PROCES DK oznaczający spowodowanie zjawiska fizycznego lub zmiany stanu fizycznego-1
+    0 pobudzić-3
+    0 zwęglić-2
+    0 zamazać-3
+    0 spiętrzyć-2
+    0 spłycić-2
+    0 zgasić-1, zagasić-1
+    3 rozłożyć-8
+      0 przetrawić-3, strawić-1
+      1 zmetabolizować-1
+        VISITED 0 spalić-7
+    3 naznaczyć-2
+      0 nacechować-1
+      0 napiętnować-2
+      0 namaścić-2
+    1 utlenić-1
+      0 spalić-7
+    0 orzeźwić-1, odświeżyć-2
+    0 przerodzić-1
+    0 wymrozić-1
+    0 pobielić-4, ubielić-2
+    0 pobielić-3, ubielić-3
+    0 zabagnić-1
+    0 sfalować-2
+    0 strącić-3
+  0 *CZASOWNIK - AKT oznaczający zjawisko fizyczne-1
+  254 *CZASOWNIK - AKT oznaczający spowodowanie zjawiska fizycznego lub zmiany stanu fizycznego-1
+    0 odprężyć-2
+    5 *wytworzyć dźwięk-1
+      0 zagrzechotać-2
+      0 zachrzęścić-2
+      0 zabrzęczeć-2
+      0 brząknąć-1, brzęknąć-2, szczęknąć-2
+      0 stuknąć-1, puknąć-4, zakołatać-1
+    0 strzyknąć-1
+    172 wydobyć-2
+      0 emitować-5
+      VISITED 169 *wydobyć głos-1, wydać głos-1
+      0 *wydobyć dźwięk-1
+    3 rozmnożyć-1, pomnożyć-3, rozplenić-1
+      0 skrzyżować-2
+      0 rozkrzewić-1
+      0 sklonować-1
+    0 zamortyzować-1, stłumić-4, wytłumić-2
+    48 zanieczyścić-1
+      1 okopcić-1, zakopcić-2
+        0 osmalić-1
+      1 zadymić-1
+        0 napalić-3
+      1 zabałaganić-1
+        0 zagracić-1
+      0 zasolić-1
+      0 zasiarczyć-1
+      0 zasmrodzić-1
+      0 zaczadzić-2
+      1 zaśmiecić-2, naśmiecić-1, nabrudzić-1
+        0 nabarłożyć-1, naświntuszyć-1
+      0 zatruć-1, skazić-2
+      0 zamulić-1
+      33 zabrudzić-1, pobrudzić-1, ubrudzić-1
+        0 nabrudzić-2
+        0 wyświechtać-2
+        0 wybrudzić-1
+        0 zaświnić-1
+        0 opluć-2
+        0 upaćkać-1, zapaćkać-1
+        0 utytłać-1
+        0 nadeptać-2, zadeptać-2
+        0 powalać-1
+        0 pobłocić-1
+        0 obielić-3, ubielić-4
+        0 przybrudzić-1
+        0 zabłocić-1, obłocić-1
+        0 przepocić-1, zapocić-1
+        0 upstrzyć-3
+        0 splamić-1
+        7 poplamić-1
+          0 ciapnąć-1
+          0 oślinić-1, zaślinić-1
+          2 zaplamić-1, wyplamić-1
+            VISITED 1 zalać-4
+          0 zatłuścić-1
+          0 potłuścić-1, wytłuścić-2
+        0 wymazać-1
+        0 zapluć-1
+        0 zadeptać-3
+        0 zakurzyć-1
+        0 usmarować-1, wysmarować-2, obsmarować-1
+        0 zapaskudzić-1
+        VISITED 1 zasikać-1, posikać-1, osikać-1
+        0 osrać-1
+    22 zmoczyć-1
+      0 prysnąć-3, bryznąć-1
+      0 obmyć-2, omyć-1
+      0 zlać-2
+      0 spryskać-1, opryskać-3
+      0 przepoić-3
+      2 nawilżyć-1
+        0 podlać-2
+        0 nawodnić-1
+      0 przemoczyć-1
+      0 zawilgocić-1
+      0 skąpać-2
+      2 zamoczyć-1
+        1 zalać-4
+          0 pokrwawić-1, zakrwawić-1, okrwawić-1, skrwawić-1
+      5 zwilżyć-1
+        0 poślinić-1
+        0 spryskać-3, opryskać-4
+        2 skropić-1, nakropić-1, skroplić-2, wypsikać-1
+          0 uperfumować-1
+          0 poperfumować-1
+      1 zasikać-1, posikać-1, osikać-1
+        0 nasikać-1
+  364 *CZASOWNIK - WYPADEK oznaczający zjawisko fizyczne-1
+    0 wyładować się-1
+    0 wybrzuszyć się-1
+    1 złamać się-1
+      0 nadłamać się-1
+    3 ugotować się-1
+      0 udusić się-1
+      1 zawrzeć-7, zagotować się-1
+        0 zakipieć-2
+    2 upiec się-1
+      0 wypiec się-1
+      0 opiec się-1
+    0 oberwać się-1
+    323 wydać-5
+      1 zapachnieć-1
+        0 zajechać-10
+      242 wydać głos-2
+        169 *wydobyć głos-1, wydać głos-1
+          1 kaszlnąć-1
+            0 wykrztusić-2, odkrztusić-1, wykaszleć-1
+          0 zasapać-2
+          0 stęknąć-2
+          0 sapnąć-2
+          0 ryknąć-1
+          2 zanieść się-1
+            1 zakaszleć się-1, zakasłać się-1
+              0 zachłysnąć się-1
+          0 syknąć-2, zasyczeć-2
+          0 zapiszczeć-3
+          1 mlasnąć-1
+            0 cmoknąć-2
+          0 czknąć-1
+          0 chrapnąć-1, zachrapać-1
+          0 zacharczeć-1
+          0 beknąć-1
+          1 chrząknąć-1
+            0 odchrząknąć-1
+          109 odezwać się-1, przemówić-1
+            0 zabierać głos-1
+            0 zabrać głos-1
+            0 zaszeptać-1
+            0 zaszemrać-2
+            0 zachrypieć-2
+            0 zabełkotać-1
+            100 zwrócić się-1
+              0 przepić-3
+              64 wydać-8
+                63 polecić-3
+                  4 zarządzić-1
+                    0 zwołać-2
+                    2 rozporządzić-1
+                      0 zadysponować-2
+                      0 rozporządzić się-1
+                  9 zlecić-1
+                    0 asygnować-2
+                    3 zamówić-3
+                      0 zakontraktować-1
+                      0 obstalować-1
+                      0 zaprenumerować-1
+                    3 powierzyć-2
+                      0 dać-18
+                      0 zdać-6
+                      0 obsadzić-5
+                  0 zamówić-5, zadysponować-1
+                  46 nakazać-1, rozkazać-1
+                    0 posadzić-5
+                    0 zakomenderować-1
+                    1 postawić ... w stan pogotowia-1, postawić ... w stan gotowości-1
+                      0 zmobilizować-4
+                    0 przykazać-1
+                    3 wziąć-11
+                      VISITED 2 zabrać-2
+                    0 kazać-3
+                    0 oddalić-6, odprawić-2
+                    33 wysłać-2, posłać-2
+                      0 wykształcić-3, wyedukować-2
+                      0 odkomenderować-1
+                      1 oddelegować-1, wydelegować-1
+                        0 delegować-2
+                      0 ekspediować-1
+                      0 wyekspediować-1
+                      1 podesłać-2
+                        0 nasłać-1
+                      0 wytransferować-2
+                      0 wydelegować-2
+                      0 delegować-1
+                      0 popchnąć-5
+                      1 wyprawić-1
+                        0 odprawić-4
+                      18 posłać-4, skierować-3
+                        0 przysłać-1
+                        16 doprowadzić-2, przyprowadzić-1, sprowadzić-1, zaprowadzić-2, przywieść-2
+                          0 przygonić-2, przygnać-1, przypędzić-1
+                          0 doholować-2
+                          0 doholować-1
+                          0 dowieść-3
+                          0 przyholować-2
+                          0 zaimportować-1
+                          0 importować-1
+                          0 przywieść-4
+                          0 podstawić-5
+                          0 odstawić-6
+                          0 dostawić-3
+                          2 zabrać-2
+                            1 porwać-1, uprowadzić-1
+                              0 zgarnąć-4, zagarnąć-2
+                          1 powieść-1, poprowadzić-2
+                            0 sprowadzić-7
+                    3 wezwać-1, zawołać-2, przywołać-1, przyzwać-1, zawezwać-1
+                      0 pozwać-1
+                      0 dodzwonić się-2
+                      0 wywołać-4, wyrwać-7
+              0 zagaić-1
+              0 odwołać się-2
+              0 powiedzieć-2
+              1 zagadnąć-2, zagadać-2, zagabnąć-2
+                0 zaczepić-5, zahaczyć-3
+              0 zaprosić-1
+              17 spytać-1, zapytać-1, zadać pytanie-1, nagabnąć-1, spytać się-1, zapytać się-1, zwrócić się z pytaniem-1
+                16 zasięgnąć-1
+                  12 dowiedzieć się-1, wywiedzieć się-1, zasięgnąć języka-1
+                    1 dopytać się-1, dopytać-1
+                      0 podpytać-1, podpytać się-1
+                    9 zbadać-2, wybadać-1, wysondować-1
+                      0 wymacać-2
+                      3 upewnić się-1
+                        2 przekonać się-2
+                          1 zobaczyć-3
+                            0 zobaczyć gołym okiem-1
+                      0 zlustrować-1
+                      2 wypytać-1, wypytać się-1
+                        0 wyspowiadać-2
+                        0 przesłuchać-2
+                  1 zasięgnąć opinii-1
+                    VISITED 0 skonsultować się-2, skonsultować-3
+                  1 poradzić się-1, zasięgnąć rady-1
+                    0 skonsultować się-2, skonsultować-3
+              9 poprosić-1, zwrócić się z prośbą-1
+                0 poprosić-3
+                0 zaskamlać-2, zaskomleć-2, zaskomlić-2
+                1 wyprosić-2
+                  0 pokazać drzwi-1
+                0 wyciągnąć rękę-5
+                0 polecić się-2
+                0 uciec się-3
+                0 wezwać-3, zaapelować-2
+                0 zakląć-2
+            0 fuknąć-1, prychnąć-1
+            0 wyrwać się-5
+          6 wymówić-1, wyartykułować-2, wypowiedzieć-3
+            0 zmiękczyć-2, spalatalizować-1
+            0 przeciągnąć-8
+            0 unosowić-1
+            0 ubezdźwięcznić-1
+            0 udźwięcznić-1
+            0 wydusić-1
+          0 jęknąć-2, zajęczeć-2
+          0 pyknąć-1
+          0 zagadać-3
+          0 krzyknąć-2
+          0 zawyć-2
+          4 zaśmiać się-1, roześmiać się-1
+            0 zaśmiać się do rozpuku-1
+            0 zachichotać-1
+            0 zarżeć-2
+            0 zarechotać-1
+          6 zaśpiewać-1
+            0 zaśpiewać do kotleta-1
+            0 odśpiewać-1
+            0 zabuczeć-3
+            0 wyciągnąć-14
+            1 zafałszować-2
+              0 skiksować-1, uciąć koguta-1, wyciąć koguta-1
+          3 krzyknąć-1, wykrzyknąć-1, wrzasnąć-1, wydrzeć się-1
+            1 zawołać-1
+              0 zakrzyknąć-1
+            0 huknąć-2
+          11 powiedzieć-4, wypowiedzieć-1
+            0 odszeptać-1, odszepnąć-1
+            0 kropnąć-7
+            1 podyktować-2
+              0 przeliterować-1
+            2 zmówić-1, odmówić-4
+              1 pomodlić się-1
+                0 odmówić pacierz-1
+            0 zadeklamować-1, wydeklamować-1, wyrecytować-2
+            2 wygłosić-1
+              0 przemówić-3
+              0 kazać-2
+        71 *wydać głos-3
+          1 zaświstać-2
+            0 świsnąć-4
+          0 zamuczeć-1
+          0 zameczeć-1
+          1 zaszczekać-2
+            0 szczeknąć-1
+          1 zawarczeć-2
+            0 warknąć-2
+          VISITED 1 zacykać-1
+          1 zachrząkać-1, zachrumkać-1
+            0 chrząknąć-2, chrumknąć-1
+          26 *być ptakiem i wydać głos-1
+            7 zatokować-1
+              2 zagrać-14
+                0 bąknąć-2
+                VISITED 0 zagulgotać-1, zabulgotać-2
+              0 zaklekotać-2
+              0 derknąć-1
+              1 zakukać-1
+                0 kuknąć-2
+            1 zakwakać-1
+              0 kwaknąć-1
+            2 zagęgać-1
+              0 rozgęgać się-1
+              0 gęgnąć-1
+            3 zagdakać-1
+              0 rozgdakać się-1
+              0 gdaknąć-1
+              0 zagulgotać-1, zabulgotać-2
+            0 zagruchać-1
+            1 zahukać-1
+              0 huknąć-4
+            0 zakrakać-1
+            0 zapiać-1
+            4 zaśpiewać-2, wyśpiewać-1
+              0 zakląskać-1
+              2 zaćwierkać-1, zaświergotać-1
+                0 ćwierknąć-1
+                0 rozćwierkać się-2, rozświergotać się-2
+          0 zanieść się-3
+          1 zasyczeć-3
+            0 syknąć-3
+          1 fuknąć-3, prychnąć-2, parsknąć-1
+            0 chrapnąć-2, zachrapać-2
+          1 zawyć-1
+            0 zaskomleć-1, zaskamlać-1, zaskowyczeć-1, zaskowytać-1, zaskomlić-1
+          0 zabzyczeć-1, zabzykać-1
+          1 zabeczeć-1
+            0 beknąć-3
+          0 zakumkać-1
+          1 zakwiczeć-1, zakwikać-1
+            0 kwiknąć-1
+          1 zamiauczeć-1
+            0 miauknąć-1
+          1 zapiszczeć-1
+            0 pisnąć-2
+          0 zarechotać-2
+          1 zaryczeć-1
+            0 ryknąć-2
+          0 zarżeć-1
+          0 zaskrzeczeć-1
+          6 zaszczekać-1
+            1 naszczekać-1
+              0 obszczekać-1
+            0 rozszczekać się-2
+            0 szczeknąć-2
+            0 zaanonsować-3
+            0 zagrać-13
+          0 zatrąbić-1
+          1 zamruczeć-2
+            0 mruknąć-3
+      79 zabrzmieć-3, wydać dźwięk-1, zadźwięczeć-1
+        0 plusnąć-1
+        15 *zrobić hałas-1
+          0 zatrąbić-3
+          0 zanieść się-4
+          VISITED 1 zadudnić-1
+          2 zabuczeć-1
+            1 zahuczeć-1, ryknąć-3, huknąć-1, gruchnąć-1
+              0 grzmotnąć-6
+          1 zagrzmieć-2
+            0 zagrzmieć-3
+          5 zawyć-3
+            VISITED 2 zarzęzić-1
+            1 zajęczeć-1, załkać-2
+              0 jęknąć-3
+        10 zawarczeć-1
+          VISITED 2 zaterkotać-1, zaturkotać-1
+          VISITED 2 zarzęzić-1
+          0 zaburczeć-1
+          1 warknąć-3
+            VISITED 0 mruknąć-2
+          1 zamruczeć-3
+            0 mruknąć-2
+        0 tyknąć-1, cyknąć-2
+        0 zaburczeć-2, zakruczeć-1, zagadać-5
+        16 zazgrzytać-1
+          11 zachrobotać-1
+            VISITED 5 zachrzęścić-1
+            VISITED 7 chrobotnąć-1
+          11 zgrzytnąć-1
+            2 zarzęzić-1
+              1 zachrypieć-1
+                0 wychrypieć-2
+            7 chrobotnąć-1
+              VISITED 2 zaterkotać-1, zaturkotać-1
+              0 szurnąć-4
+              VISITED 2 chrząsnąć-1, chrząstnąć-1, chrzęsnąć-1, chrzęstnąć-1, chrupnąć-1
+        11 zatrzaskać-1
+          8 zatrzeszczeć-2
+            VISITED 5 zachrzęścić-1
+            VISITED 1 zaskrzypieć-1
+          VISITED 0 zaskwierczeć-1
+          0 trzasnąć-1
+        7 zaszeleścić-1
+          5 zachrzęścić-1
+            VISITED 3 zaszczękać-1
+            2 chrząsnąć-1, chrząstnąć-1, chrzęsnąć-1, chrzęstnąć-1, chrupnąć-1
+              VISITED 1 szczęknąć-1
+          0 zaszemrać-1
+        14 zastukać-1
+          0 zagruchotać-1
+          0 zabębnić-2
+          4 zagrzechotać-1
+            VISITED 3 zaszczękać-1
+          3 zaklekotać-1
+            2 zaterkotać-1, zaturkotać-1
+              1 zacykać-1
+                0 cyknąć-1
+          1 zadudnić-1
+            0 zatarabanić-1
+          0 stuknąć-2
+        1 kłapnąć-1, plasnąć-1, klapnąć-2
+          0 klasnąć-2
+        3 zachlupać-1, zachlupotać-1, zapluskać-1
+          0 chlupnąć-2
+          1 zabulgotać-1, zagulgotać-2, zabełkotać-2
+            0 zaparkotać-1, zapyrkotać-1, zapyrkać-1
+        VISITED 0 rozdźwięczeć-1, rozdźwięczeć się-1
+        4 zadzwonić-5
+          0 wydzwonić-3
+          VISITED 0 rozdzwonić się-1
+          1 zabić-4, wybić-4
+            0 zadzwonić-3
+        0 obniżyć-3
+        3 zasyczeć-1
+          0 syknąć-4
+          0 zasapać-3, sapnąć-3
+          0 zaskwierczeć-1
+        7 zapiszczeć-2
+          3 zaświstać-1
+            1 zagwizdać-1
+              VISITED 0 gwizdnąć-2
+            VISITED 1 świsnąć-5
+          3 pisnąć-3
+            VISITED 0 skrzypnąć-1
+            1 świsnąć-5
+              0 gwizdnąć-2
+          1 zaskrzypieć-1
+            0 skrzypnąć-1
+        7 zabrzęczeć-1
+          4 zadzwonić-4
+            3 zaszczękać-1
+              0 rozszczekać się-3
+              1 szczęknąć-1
+                0 szczeknąć-3
+          1 brzęknąć-1, brząknąć-3
+            0 bzyknąć-1
+        0 zagrać-10
+    1 rozedrgać się-1
+      0 rozwibrować się-2
+    12 zabrzmieć-1
+      8 rozbrzmieć-2, rozlec się-1, odezwać się-4
+        0 podnieść się-7
+        0 wznieść się-4
+        0 rozdźwięczeć-1, rozdźwięczeć się-1
+        0 rozdzwonić się-1
+        1 wydobyć się-1
+          0 wyrwać się-4
+        0 wybrzmieć-1
+        0 przebiec-5
+      0 furknąć-1
+      0 zadrżeć-3, zadrgać-2
+      0 potoczyć się-6
+    0 zaważyć-2
+    0 rozmigotać się-1
+    0 rozmigotać się-2
+    3 usmażyć się-1
+      0 wysmażyć się-1
+      0 zeszklić się-1
+      0 podsmażyć się-1
+    4 powiać-1, zawiać-1
+      0 wionąć-1
+      0 zaciągnąć-6, pociągnąć-6
+      0 świsnąć-3
+      0 zadąć-1, dmuchnąć-1
+    2 buchnąć-1
+      0 zionąć-2
+      0 wybuchnąć-1
+  457 *CZASOWNIK - PROCES NDK oznaczający zmianę stanu fizycznego-1
+    0 grubieć-2
+    0 skraplać się-2
+    0 skraplać się-1
+    0 linieć-1, lenić się-2
+    0 wysychać-2
+    0 mętnieć-1
+    0 mętnieć-2, mącić się-3
+    0 ocieplać się-1
+    0 tęchnąć-2
+    0 kondensować się-1
+    0 siwieć-1
+    0 odcieleśniać się-1
+    0 utwardzać się-2
+    1 wygładzać się-1
+      0 wyślizgiwać się-4
+    2 ściemniać się-1
+      1 zmierzchać się-1, zmierzchać-1
+        0 szarzeć-5
+    0 kamienieć-1
+    0 przebudowywać się-3
+    0 elektryzować się-1
+    0 opróżniać się-1
+    2 rozgrzewać się-2, nagrzewać się-1, ogrzewać się-1, grzać się-1
+      0 rozpalać się-2, rozogniać się-2
+      0 rozżarzać się-2
+    0 kruszeć-1
+    0 brzydnąć-1
+    1 pięknieć-1
+      0 nabierać ciała-2, nabierać kształtów-1
+    0 uodparniać się-1, uodporniać się-1
+    0 tępieć-2
+    0 tępieć-4
+    0 rzednąć-2
+    0 rzednąć-1, rzednieć-1
+    0 matowieć-3
+    1 rozwiązywać się-2, rozwikływać się-2
+      0 rozplątywać się-1, odplątywać się-1, rozsupływać się-1, odsupływać się-1
+    0 mleć się-1
+    1 obluzowywać się-1, rozluźniać się-2, obruszać się-1
+      0 odkręcać się-1
+    1 rozpuszczać się-1
+      0 mydlić się-2, rozmydlać się-1
+    7 czyścić się-2, wyczyszczać się-2
+      0 prać się-1
+      5 oczyszczać się-1
+        0 opłukiwać się-2
+        0 odstawać się-1
+        0 klarować się-2
+        1 odświeżać się-1
+          0 przewietrzać się-1, wietrzyć się-1
+    4 goić się-1, wygajać się-1, zasklepiać się-1, zabliźniać się-1
+      0 tęchnąć-3, klęsnąć-1
+      0 zarastać-2
+      1 zrastać się-1
+        0 przyjmować się-2
+    1 rozluźniać się-1
+      0 rozkurczać się-1
+    3 wzburzać się-2
+      0 wrzeć-5
+      0 skłębiać się-1
+      0 rozwiewać się-2
+    0 sklejać się-1, zaklejać się-1
+    0 łysieć-1
+    1 zwijać się-1
+      0 rolować się-1
+    3 roztapiać się-1, topić się-1, topnieć-1
+      0 wytapiać się-1
+      0 tajać-2
+      0 rozpływać się-1
+    3 rozpadać się-2, rozkładać się-3
+      0 rozszczepiać się-1
+      0 hydrolizować-1
+      0 dysocjować-1
+    2 przeobrażać się-2
+      1 ewoluować-2
+        0 mutować-2
+    1 pulchnieć-2
+      VISITED 0 rosnąć-6, wyrastać-2
+    4 obumierać-1, martwieć-2, zamierać-4
+      0 więdnąć-1
+      0 przekwitać-1
+      0 serowacieć-1
+      0 zsychać-2, usychać-1, wysychać-4
+    4 odbarwiać się-1, puszczać-7
+      0 bieleć-5
+      VISITED 0 blaknąć-1, blednąć-1, bladnąć-1, pełznąć-4, płowieć-1, matowieć-2
+      1 blednąć-2, bladnąć-2, bieleć-4
+        0 zielenieć-3
+    2 pienić się-1, spieniać się-1
+      0 burzyć się-3
+      0 musować-1, szumieć-2
+    0 głuchnąć-1
+    0 ustalać się-1
+    0 krystalizować-3, krystalizować się-1, wykrystalizowywać się-1
+    2 dochodzić-1
+      0 dojrzewać-1, leżakować-1
+      0 naciągać-6, naparzać się-1, parzyć się-2, zaparzać się-1
+    4 starzeć się-1
+      0 próchnieć-2
+      VISITED 0 więdnąć-2
+      VISITED 1 kapcanieć-1, dziadzieć-1
+    13 rozkładać się-2
+      0 próchnieć-1, murszeć-1
+      0 gnić-1
+      2 fermentować-1
+        0 gliwieć-1
+        VISITED 0 kwaśnieć-2, kisnąć-2
+      0 butwieć-1
+      7 psuć się-2
+        0 tęchnąć-1
+        0 warzyć się-1
+        0 starzeć się-4
+        0 kwaśnieć-2, kisnąć-2
+        0 gorzknieć-2
+        0 zaparzać się-2
+        0 pleśnieć-1, zakwitać-1
+    50 niszczyć się-1, niszczeć-1
+      0 drzeć się-3, zdzierać się-1
+      0 murszeć-3
+      0 spierać się-2
+      0 przecierać się-1
+      0 filcować się-1
+      0 rozmywać się-1
+      0 ginąć-3
+      0 ścierać się-1
+      0 starzeć się-2
+      0 tępić się-1
+      3 pękać-2
+        VISITED 0 pierzchnąć-2
+        1 pruć się-1, rozpruwać się-1
+          0 spuszczać się-3
+      VISITED 0 blaknąć-1, blednąć-1, bladnąć-1, pełznąć-4, płowieć-1, matowieć-2
+      0 strzępić się-1, wystrzępiać się-1
+      10 uszkadzać się-1
+        0 obtłukiwać się-1, obijać się-3
+        0 przepalać się-1
+        5 zapadać się-2
+          0 przysiadać-4, przysiadywać-3
+          1 wklęsać-1, zaklęsać-1, zaklęsać się-1
+            0 zapadać się-3, wpadać-10, zapadać-2
+          1 załamywać się-3
+            0 podłamywać się-1
+        0 zarysowywać się-2, rysować się-3
+        0 zacierać się-2
+      2 zużywać się-1
+        0 wyczerpywać się-3
+        0 dekapitalizować się-1
+      19 psuć się-3
+        0 niedomagać-2, szwankować-2
+        0 wypruwać się-1, odpruwać się-1
+        VISITED 0 zapowietrzać się-1
+        0 wysiadać-3, siadać-4
+        0 rozregulowywać się-1, rozstrajać się-1
+        3 wyrodnieć-1, degenerować się-1
+          0 karłowacieć-2, karleć-3
+          0 wyradzać się-2
+          0 rakowacieć-1
+        3 zacinać się-3, blokować się-1, zablokowywać się-1
+          0 zatrzaskiwać się-2
+          0 zawieszać się-1
+          0 krztusić się-2, dławić się-2
+        4 dezorganizować się-1
+          0 sypać się-11, rozsypywać się-6
+          0 rozprzęgać się-1, rozluźniać się-4
+          0 rozregulowywać się-2, rozstrajać się-3
+          0 destabilizować się-1
+        0 sypać się-9, rozsypywać się-5, rozlatywać się-2
+    4 chudnąć-1, szczupleć-1, tracić na wadze-1
+      0 wysychać-5
+      0 spadać-2
+      1 mizernieć-1, niknąć-2
+        VISITED 0 więdnąć-3
+    0 zwęglać się-2
+    4 gęstnieć-1, gęstnąć-1
+      VISITED 3 tężeć-3, ścinać się-1
+    1 zdrowieć-1, dochodzić do zdrowia-1, dochodzić do siebie-1, stawać na nogi-2, wracać do zdrowia-1, dobrzeć-1
+      0 wstawać-4
+    14 słabnąć-1, wątleć-2
+      6 wyczerpywać się-2, wykańczać się-2, wykończać się-1, wypompowywać się-1, wysiadać-2, zszarpywać się-1
+        0 zapijać się-1
+        VISITED 4 przemęczać się-1, przeforsowywać się-1, żyłować się-1
+      0 więdnąć-3
+      2 niedołężnieć-1
+        1 kapcanieć-1, dziadzieć-1
+          0 ramoleć-1, grzybieć-1
+      0 mdleć-2, omdlewać-2
+      0 omdlewać-1, mdleć-1, tracić przytomność-1
+      0 podupadać-1
+    1 opadać-3
+      0 opadać z sił-1
+    18 zniekształcać się-1
+      0 odkształcać się-1
+      0 skręcać się-1
+      1 zaginać się-1
+        0 zawijać się-3
+      1 gnieść się-2, miąć się-1
+        0 wgniatać się-2, wginać się-1
+      0 giąć się-1, zginać się-1, wyginać się-2
+      10 krzywić się-1, koślawić się-1, koślawieć-1, skrzywiać się-1, wykoślawiać się-1, wykrzywiać się-1, zakrzywiać się-1
+        0 garbacieć-1
+        8 odchylać się-2
+          0 uginać się-2
+          2 skręcać-3, zakręcać-3
+            0 meandrować-1
+            0 zataczać-3
+          3 pochylać się-2, chylić się-3, schylać się-2, giąć się-2
+            0 kłaść się-3
+            1 przeginać się-2
+              0 przyginać się-2
+    35 zmniejszać się-2, maleć-1, pomniejszać się-2
+      0 opadać-6
+      0 zwężać się-2
+      0 skracać się-3
+      1 ograniczać się-2, sprowadzać się-1
+        0 zacieśniać się-2, zawężać się-1
+      0 dekompletować się-1
+      3 ubywać-1
+        1 sprzedawać się-1
+          0 chodzić-5
+        VISITED 0 topnieć-2, kurczyć się-2, szczupleć-2
+      1 kurczyć się-1, ściągać się-1, obkurczać się-1
+        0 wstępować się-1, zbiegać się-4
+      0 maleć-2, zmniejszać się-3
+      0 sprężać się-3
+      2 spadać-1
+        0 obsuwać się-3
+        0 zniżkować-1
+      0 spłycać się-1
+      0 chudnąć-2
+      15 słabnąć-2, wątleć-1
+        0 opadać-8
+        0 goić się-2, zabliźniać się-2
+        0 odpływać-5
+        0 uspokajać się-3
+        6 jaśnieć-4
+          VISITED 0 blaknąć-1, blednąć-1, bladnąć-1, pełznąć-4, płowieć-1, matowieć-2
+          4 rozjaśniać się-3, rozjarzać się-3, rozpraszać się-6, rozpromieniać się-2, rozświetlać się-2
+            0 wybielać się-1
+            0 rozpogadzać się-1, wypogadzać się-1, pogodnieć-1, przejaśniać się-2, rozchmurzać się-2, klarować się-3
+            1 rozwidniać się-1, dnieć-1, świtać-1, widnieć-2
+              0 szarzeć-4
+        1 łagodnieć-2
+          0 łagodzić się-1
+        1 cichnąć-1, uciszać się-1, ucichać-1, uspokajać się-2
+          0 przycichać-1
+    5 schnąć-1, wysychać-1, zsychać-1, suszyć się-1
+      0 obsychać-1
+      0 pierzchnąć-2
+      0 odparowywać-2
+      0 obciekać-1, ociekać-1, odciekać-1
+      0 pustynnieć-1
+    5 chłodzić się-1, schładzać się-2, chłodnąć-1, ochładzać się-1
+      0 oziębiać się-2
+      0 przeziębiać się-1, przechładzać się-1
+      0 mrozić się-1
+      1 stygnąć-1, ostygać-2
+        0 studzić się-1
+    0 parować-2, wyparowywać-1
+    3 tajać-1
+      0 podgrzewać się-1
+      0 dogrzewać się-1
+      0 wygrzewać się-1
+    9 męczyć się-2, forsować się-1
+      0 niedosypiać-1
+      1 nużyć się-1
+        0 przesycać się-1
+      4 przemęczać się-1, przeforsowywać się-1, żyłować się-1
+        1 przepracowywać się-1
+          0 zapracowywać się-1, zaharowywać się-1, zaorywać się-1
+        0 przeciążać się-1
+        0 zamęczać się-1, zamordowywać się-1
+      0 utrudzać się-1, urabiać się-2
+    2 nieruchomieć-1, zamierać-3, martwieć-1, zastygać-1, tężeć-1
+      0 kamienieć-2
+      0 zawisać-3
+    0 rdzewieć-1, korodować-1
+    0 kostnieć-1
+    11 twardnieć-1, utwardzać się-1
+      0 zaskorupiać się-1, skorupieć-1
+      0 kamienieć-3
+      VISITED 0 wapnieć-1
+      0 wiązać-9, związywać-5
+      3 tężeć-3, ścinać się-1
+        2 zastygać-3
+          0 krzepnąć-1
+          0 galaretowacieć-1
+      0 rogowacieć-1, chropowacieć-1
+      0 czerstwieć-1
+      0 jędrnieć-1
+    7 mięknąć-1, zmiękczać się-2
+      2 rozmiękać-1
+        VISITED 1 rozmakać-1
+      0 kruszeć-2
+      0 tajać-3, rozmarzać-1
+      1 wiotczeć-1, flaczeć-1, flakowacieć-1
+        0 więdnąć-2
+    23 barwić się-1, zabarwiać się-1, farbować się-1
+      0 rozbłękitniać się-1
+      0 zaczerniać się-2, czernieć-2, zaciemniać się-2
+      0 zaczerniać się-1
+      0 posrebrzać się-3, wysrebrzać się-1
+      0 siwieć-3
+      0 płowieć-2
+      0 rozpalać się-3
+      0 rdzewieć-2
+      0 zielenieć-1, zielenić się-1
+      0 kwitnąć-1
+      0 żółcieć-2, żółknąć-1
+      0 siwieć-2, bieleć-3, posrebrzać się-1
+      0 szarzeć-3
+      0 różowieć-1, różowić się-1
+      0 ciemnieć-4, czernić się-1
+      1 brązowieć-1
+        0 brunatnieć-2
+      2 niebieszczeć-2
+        0 granatowieć-1
+        0 błękitnieć-1
+      0 sinieć-1
+      0 czerwienieć-1, czerwienić się-1, kraśnieć-2, zaczerwieniać się-2
+      0 bieleć-2, zabielać się-1
+    2 sztywnieć-1
+      0 kostnieć-2
+      0 napinać się-1, naprężać się-1, naciągać się-1
+    0 lodowacieć-1, zamarzać-1
+    23 dematerializować się-1, znikać-2
+      0 zapadać się pod Ziemię-1, wyparowywać-3
+      0 wysychać-3
+      0 podziewać się-3
+      0 niknąć-1
+      4 ginąć-1, podziewać się-1, gubić się-2, zawieruszać się-1, zapodziewać się-1
+        2 przepadać-4, wsiąkać-2
+          0 wsiąkać-5
+          0 znikać-4
+        0 wyciekać-3, wypływać-4
+      1 puszczać-15
+        0 spierać się-3
+      2 ulatniać się-2
+        0 rozpraszać się-4, rozwiewać się-3
+        0 rozpierzchać się-2
+      0 blaknąć-1, blednąć-1, bladnąć-1, pełznąć-4, płowieć-1, matowieć-2
+      6 kończyć się-3, zużywać się-2, wykańczać się-1, wyczerpywać się-1
+        0 rozchodzić się-7, rozłazić się-2
+        0 topnieć-2, kurczyć się-2, szczupleć-2
+        0 wypisywać się-3
+        0 wychodzić-4
+        0 wypalać się-1
+        0 wymazywać się-1
+      0 wsysać się-1
+    102 zwiększać się-2, rosnąć-1, powiększać się-1, rozrastać się-1
+      0 olbrzymieć-1
+      0 płożyć się-1, płozić się-1
+      2 rozszerzać się-3
+        0 rozdymać się-2
+        0 rozpychać się-2
+      1 rozszerzać się-2, poszerzać się-1
+        0 rozprężać się-2
+      1 podnosić się-4, podwyższać się-1
+        0 zwyżkować-1
+      2 zwielokrotniać się-1
+        0 potrajać się-1
+        0 podwajać się-1, dwoić się-1
+      0 pomnażać się-1
+      0 przedłużać się-2, wydłużać się-1
+      1 urastać-1
+        0 rosnąć-6, wyrastać-2
+      0 pogłębiać się-1
+      12 przyrastać-1, przybywać-2
+        0 wzrastać-3
+        9 zbierać się-1, gromadzić się-1, grupować się-1
+          0 gnieździć się-3
+          0 odkładać się-1
+          0 roić się-2
+          2 napływać-3, nabiegać-1
+            0 naciekać-1
+            0 wzbierać-4
+          1 nawarstwiać się-1, osadzać się-1
+            VISITED 0 piętrzyć się-1, spiętrzać się-1
+          1 urastać-2
+            0 piętrzyć się-1, spiętrzać się-1
+        0 narastać-2
+      0 przyrastać-2
+      21 rosnąć-4, urastać-3
+        0 chować się-3
+        0 podrastać-2, odrastać-2
+        5 rozrastać się-4
+          3 rozkrzewiać się-2
+            0 rozgałęziać się-2
+            1 korzenić się-1, ukorzeniać się-1, zakorzeniać się-2
+              0 rozkorzeniać się-1
+          0 przerastać-4
+        5 wyrastać-5
+          4 rozwijać się-5
+            0 kiełkować-2, wschodzić-3
+            0 wegetować-2
+            0 pączkować-2
+            0 kwitnąć-3, kwiecić się-1, zakwitać-2, rozkwitać-1
+        0 wzrastać-4
+        0 dojrzewać-2, dochodzić-13
+        0 śmigać-3
+        0 piąć się-2
+        2 rozwijać się-6
+          1 dorośleć-1, dojrzewać-4, dorastać-1, podrastać-1
+            0 poważnieć-2, wyrastać-9
+      1 rozbudowywać się-3
+        0 rozbudowywać się-2
+      0 rozciągać się-2, wyciągać się-2
+      0 puchnąć-1, nabrzmiewać-1, obrzmiewać-1, obrzękać-1, brzęknąć-4, nabrzękać-1
+      4 grubieć-1
+        0 pęcznieć-2
+        2 tyć-1, nabierać ciała-1, nabierać wagi-1, poprawiać się-2, przybierać na wadze-1, pulchnieć-1, zaokrąglać się-2, rozrastać się-5, zaoblać się-1
+          1 tuczyć się-3, wypasać się-2
+            0 odpasać się-1
+      38 rozprzestrzeniać się-2, rozszerzać się-1, poszerzać się-2
+        0 nieść się-3, roznosić się-2
+        0 rozpływać się-5
+        4 rozchodzić się-2
+          0 chodzić-11
+          0 promieniować-5
+          1 płynąć-7
+            0 sączyć się-3
+        0 zajmować-9
+        0 rozwlekać się-3
+        0 rozpełzać się-1
+        1 opanowywać-5, podbijać-3, zawojowywać-3
+          0 monopolizować-3
+        0 plenić się-2
+        1 ulatniać się-3
+          0 odparowywać-5
+        0 spływać-3
+        4 rozlewać się-1
+          0 rozmazywać się-2
+          0 polewać się-3
+          0 rozpryskiwać się-3, rozbryzgiwać się-2
+          0 rozpływać się-4
+        8 docierać-2
+          0 wsączać się-2
+          1 przypływać-4, dolatywać-2
+            0 zaciągać-9
+          0 nasuwać się-3
+          0 nadlatywać-3
+          0 wlewać się-2
+          0 dobiegać-4, nadpływać-3
+          0 dochodzić-4
+        4 obejmować-6
+          0 zajmować-7
+          1 rozlewać-4
+            0 zalewać-6
+          0 zagarniać-4
+        0 kłaść się-2, wlec się-4, słać się-1, ścielić się-1, ciągnąć się-7
+        0 sypać się-10
+        0 pomykać-1
+      0 zwiększać się-3
+    20 wypełniać się-1, napełniać się-1, zapełniać się-1
+      0 nabijać się-1
+      0 zapowietrzać się-1
+      0 tankować-2
+      2 rozbrzmiewać-1, rozlegać się-1
+        0 rozdzwaniać się-1
+        0 zanosić się-5
+      1 przepełniać się-2
+        0 przelewać się-3
+      0 wzbierać-2
+      9 nasycać się-1
+        0 przesycać się-2, przepajać się-1
+        0 wapnieć-1
+        6 nasiąkać-2, naciągać-7, przesiąkać-3, przenikać-7, przechodzić-8
+          2 namakać-1, namiękać-1, nasączać się-1, namaczać się-1
+            1 rozmakać-1
+              0 rozkisać-1
+          0 przetłuszczać się-2
+          0 podsiąkać-1, podmakać-1
+          0 podbiegać-2, podchodzić-4
+      0 pęcznieć-1
+  486 *CZASOWNIK - PROCES DK oznaczający zmianę stanu fizycznego-1
+    0 zwilgnąć-1
+    0 zagrzać się-1
+    0 skroplić się-2
+    0 skroplić się-1
+    0 ożyć-2, zmartwychwstać-1
+    0 wylinieć-1
+    2 zestarzeć się-3
+      VISITED 1 skapcanieć-1, zdziadzieć-1
+    0 zeszklić się-3
+    0 zeszklić się-2
+    0 wyschnąć-2
+    0 zmącić się-2
+    0 zachrypieć-3, zachrypnąć-1
+    0 zmętnieć-2
+    0 zmętnieć-1, zmącić się-1
+    0 ocieplić się-1
+    1 zaśmierdnąć-1, zaśmiardnąć-1
+      0 stęchnąć-1, zatęchnąć-1
+    0 skondensować się-1
+    0 posiwieć-1
+    0 odcieleśnić się-1
+    0 skostnieć-1
+    0 zlodowacieć-1, zamarznąć-1
+    0 utwardzić się-2
+    1 wygładzić się-1
+      0 wyślizgać się-1
+    0 zabarwić się-2
+    0 pociemnieć-2
+    0 skamienieć-2
+    5 ochłodzić się-3, ochłodnąć-1, schłodzić się-2
+      0 oziębić się-1
+      2 ostygnąć-1, wystygnąć-1
+        0 przestygnąć-1
+        0 ostudzić się-1
+      0 przeziębić się-1, przechłodzić się-1
+    0 przebudować się-2
+    0 naelektryzować się-1
+    0 opróżnić się-1
+    0 wydrukować się-1
+    4 rozgrzać się-2, nagrzać się-1, ogrzać się-2
+      0 zagrzać się-3
+      0 zgrzać się-1
+      0 rozpalić się-2, rozognić się-2
+      0 rozżarzyć się-2
+    0 skruszeć-1
+    2 zardzewieć-1, skorodować-1
+      0 przerdzewieć-1
+      0 podrdzewieć-1
+    0 zbrzydnąć-1
+    0 uodpornić się-1
+    0 stępieć-2
+    0 zwilgotnieć-1, zawilgotnieć-1
+    0 zrzednąć-1
+    0 zrzednąć-2, zrzednieć-1
+    0 zmatowieć-2
+    1 rozwiązać się-1, rozwikłać się-1
+      0 odplątać się-1, rozplątać się-1, odsupłać się-1, rozsupłać się-1
+    1 poluzować się-1, obluzować się-1, obruszyć się-2
+      0 odkręcić się-1
+    1 rozpuścić się-1
+      0 rozmydlić się-1
+    7 wyczyścić się-2
+      0 wyprać się-1, uprać się-1
+      5 oczyścić się-1
+        0 opłukać się-3
+        0 odstać się-1, ustać się-1
+        0 wyklarować się-2
+        1 odświeżyć się-1
+          0 przewietrzyć się-3
+    4 zagoić się-1, wygoić się-1, zasklepić się-1, zabliźnić się-1
+      0 stęchnąć-2
+      0 zarosnąć-4
+      1 zrosnąć się-1
+        0 przyjąć się-2
+    1 rozluźnić się-1
+      0 rozkurczyć się-1
+    9 zmięknąć-1, zmiękczyć się-1
+      0 sflaczeć-1
+      2 rozmięknąć-1
+        VISITED 1 rozmoknąć-1
+      0 skruszeć-3
+      0 odtajać-3, rozmarznąć-1, roztajać-1
+      2 zwiotczeć-1
+        VISITED 1 zwiędnąć-2
+    0 skleić się-1, zakleić się-1
+    0 wyłysieć-1
+    0 dojrzeć-2
+    23 zabarwić się-1
+      1 zbrązowieć-1
+        0 zbrunatnieć-1
+      1 zżółknąć-1, pożółknąć-1, wyżółknąć-1
+        0 przyżółknąć-1
+      0 zaczernić się-1, poczernieć-1
+      0 posrebrzyć się-3, wysrebrzyć się-1
+      0 zaróżowić się-1, zaróżowieć-1
+      0 rozbłękitnieć-1, rozbłękitnić się-1
+      0 spłowieć-2, wypłowieć-2
+      1 poszarzeć-1, zszarzeć-1
+        0 spopieleć-1
+      0 posiwieć-3
+      0 pociemnieć-3, ściemnieć-3
+      0 posiwieć-2, zbieleć-1, pobieleć-1, posrebrzyć się-1
+      1 zbieleć-2, pobieleć-2
+        0 zabielić się-1
+      0 rozpalić się-3
+      0 zzielenieć-2, zazielenić się-1
+      2 poczerwienieć-1, zaczerwienić się-2
+        0 przekrwić się-1
+        0 skraśnieć-1
+      0 sczerwienieć-1
+      0 zsinieć-1, posinieć-1
+    0 wyparować-1
+    1 zwinąć się-1
+      0 zrolować się-1
+    4 roztopić się-1, stopić się-1
+      0 wytopić się-1
+      0 stajać-1
+      0 odtajać-2, roztajać-2
+      0 rozpłynąć się-1
+    2 rozpaść się-2, rozłożyć się-5
+      0 rozszczepić się-3
+      0 zdysocjować-1
+    3 przeobrazić się-2
+      2 wyewoluować-2
+        0 wyspecjalizować się-2
+        0 zmutować-2
+    1 zesztywnieć-1
+      0 naciągnąć się-1, naprężyć się-1, napiąć się-1
+    8 odbarwić się-1, puścić-5
+      0 wybieleć-1
+      VISITED 2 zblaknąć-1, zblednąć-1, zbladnąć-1, spłowieć-1, spełzać-1, spełznąć-1, wypełzać-2, wypełznąć-2, wypłowieć-1, zmatowieć-3, wyblaknąć-1
+      3 zblednąć-2, zbladnąć-2, pobieleć-3
+        0 pobladnąć-2, poblednąć-2
+        0 zzielenieć-1
+        0 przybladnąć-1, przyblednąć-3
+    0 spienić się-1, zapienić się-1
+    0 ogłuchnąć-1
+    0 ustalić się-2
+    0 skrystalizować się-1, wykrystalizować się-1
+    2 dojść-7
+      0 poleżeć-2
+      0 naciągnąć-4, naparzyć się-1, zaparzyć się-1
+    5 postarzeć się-1, zestarzeć się-1, postarzeć-1
+      1 zwiędnąć-3
+        0 nadwiędnąć-3
+      0 podstarzeć-1, podstarzeć się-1
+      1 zwiędnąć-2
+        0 nadwiędnąć-2
+    21 rozłożyć się-2
+      2 popsuć się-3
+        0 zestarzeć się-5
+        0 zaparzyć się-2
+      0 spróchnieć-1, zmurszeć-2
+      3 sfermentować-1
+        0 zgliwieć-1
+        VISITED 1 skwaśnieć-1
+      0 zbutwieć-1
+      13 zepsuć się-2
+        0 nadpsuć się-1
+        0 przejrzeć-7
+        0 zjełczeć-1
+        0 stęchnąć-3, zatęchnąć-2
+        1 skwaśnieć-1
+          0 rozkisnąć-2
+        0 zgorzknieć-2
+        2 zgnić-1
+          0 podgnić-1
+          0 przegnić-1
+        1 spleśnieć-1, zakwitnąć-1, zapleśnieć-1
+          0 nadpleśnieć-1
+        0 przestać się-1
+    4 schudnąć-1, wyszczupleć-1, stracić na wadze-1
+      0 wyschnąć-4
+      0 wychudnąć-1
+      0 spaść-3
+      0 zmizernieć-1
+    0 zwęglić się-1
+    10 stwardnieć-1, utwardzić się-1
+      0 sczerstwieć-1
+      0 zeskorupieć-1, zaskorupieć-1, zaskorupić się-1
+      0 zrogowacieć-1
+      0 skamienieć-3
+      VISITED 0 zwapnieć-1
+      VISITED 4 stężeć-1, ściąć się-1
+    5 zgęstnieć-1
+      4 stężeć-1, ściąć się-1
+        0 związać-10
+        2 zastygnąć-3
+          0 skrzepnąć-1, zakrzepnąć-2, okrzepnąć-1
+          0 zgalaretowacieć-1
+    4 opalić się-1
+      0 spiec się-1, spalić się-2
+      0 ogorzeć-1
+      0 przyrumienić się-1
+      0 przypiec się-1
+    0 ściemnić się-1, przygasnąć-3, przyćmić się-1
+    0 opaść-3
+    19 zniekształcić się-1
+      0 odkształcić się-1
+      0 pokręcić się-3, skręcić się-1
+      1 zagiąć się-1
+        0 zawinąć się-3
+      0 zgnieść się-1, zmiąć się-1
+      1 zgiąć się-2
+        0 wgnieść się-1, wgiąć się-1
+      11 skrzywić się-2, wykoślawić się-1, wykrzywić się-1, zakrzywić się-1
+        0 zgarbacieć-1
+        9 odchylić się-2
+          0 odgiąć się-1, rozgiąć się-1
+          0 skręcić-6, zakręcić-6, zboczyć-2
+          0 ugiąć się-1
+          5 pochylić się-3, schylić się-2
+            1 położyć się-2
+              0 pokłaść się-2
+            2 wygiąć się-1, zgiąć się-3
+              1 przegiąć się-2
+                0 przygiąć się-2
+    92 powiększyć się-1, rozrosnąć się-1, zwiększyć się-1
+      0 zolbrzymieć-1
+      2 rozszerzyć się-3
+        0 rozdąć się-1
+        0 rozepchnąć się-2, rozepchać się-2
+      0 podnieść się-3, podwyższyć się-1
+      2 zwielokrotnić się-1
+        0 potroić się-1
+        0 podwoić się-1
+      1 pomnożyć się-1
+        0 namnożyć się-1
+      0 przedłużyć się-2, wydłużyć się-1
+      0 rozpowszechnić się-2
+      15 urosnąć-1
+        0 podrosnąć-2, odrosnąć-2
+        5 rozrosnąć się-4
+          3 rozkrzewić się-2
+            0 rozgałęzić się-2
+            1 ukorzenić się-1, zakorzenić się-2
+              0 rozkorzenić się-2
+          0 przerosnąć-3
+        0 wzrosnąć-4
+        0 wybujać-1
+        0 rozplenić się-2
+        0 śmignąć-3
+        0 wyrosnąć-8
+        0 rozwinąć-7
+        0 rozwinąć się-2
+        0 dojrzeć-5, dojść-21
+      0 pogłębić się-2
+      10 przyrosnąć-2, przybyć-1
+        0 wzrosnąć-3
+        0 narosnąć-2
+        7 zebrać się-2, zgromadzić się-2, zgrupować się-2, pozbierać się-1, nagromadzić się-1
+          1 uzbierać się-1
+            0 odłożyć się-1
+          1 napłynąć-4, nabiec-1, nabiegnąć-1
+            0 nacieknąć-1, naciec-1
+          1 nawarstwić się-1, osadzić się-1
+            VISITED 0 spiętrzyć się-1
+          1 urosnąć-3
+            0 spiętrzyć się-1
+      0 przyrosnąć-3
+      5 zgrubieć-1, pogrubieć-1
+        0 napęcznieć-2, spęcznieć-2
+        3 utyć-1, nabrać ciała-1, nabrać wagi-1, poprawić się-2, przybrać na wadze-1, zaokrąglić się-1, rozrosnąć się-5, zaoblić się-1, przytyć-1
+          1 utuczyć się-2, wypaść się-1
+            0 odpaść się-1
+          0 roztyć się-1, rozbuchać się-1
+      1 rozbudować się-3
+        0 rozbudować się-4
+      0 rozciągnąć się-1, wyciągnąć się-2
+      1 spuchnąć-1, nabrzmieć-1, obrzmieć-1, zapuchnąć-1, napuchnąć-1, opuchnąć-1, obrzęknąć-1, nabrzęknąć-1
+        0 podpuchnąć-1
+      1 urosnąć-2
+        0 wyrosnąć-7
+      35 rozprzestrzenić się-2, rozszerzyć się-1, poszerzyć się-2
+        0 roznieść się-2
+        0 rozpłynąć się-5
+        0 położyć się-4, rozesłać się-1
+        0 rozejść się-3
+        0 przeniknąć-8
+        0 zająć-7
+        0 rozwlec się-3
+        0 rozpełznąć się-1
+        1 opanować-5, podbić-2, zawojować-3
+          0 zmonopolizować-3
+        0 rozplenić się-3
+        0 rozpanoszyć się-1
+        1 ulotnić się-3
+          0 odparować-5
+        0 spłynąć-3
+        4 rozlać się-1
+          0 rozmazać się-3
+          0 polać się-2
+          0 rozpryskać się-1, rozprysnąć się-3, rozbryznąć się-2, rozbryzgać się-2
+          0 rozpłynąć się-4
+        7 dotrzeć-2
+          1 przypłynąć-5, dolecieć-2
+            0 zaciągnąć-8
+          0 nasunąć się-2
+          0 najść-4
+          0 nadlecieć-3
+          0 wlać się-2
+          0 dobiec-5, nadpłynąć-4
+        4 objąć-4
+          0 zająć-10
+          1 rozlać-3
+            0 zalać-6
+          0 zagarnąć-3
+        0 sypnąć się-8
+        0 pomknąć-2
+      1 rozszerzyć się-2, poszerzyć się-1
+        0 rozprężyć się-1
+    44 zmniejszyć się-1, zmaleć-1, pomniejszyć się-1
+      1 opaść-5
+        0 oklapnąć-2
+      0 obniżyć się-1
+      1 zwęzić się-2
+        0 ścieśnić się-3
+      0 skrócić się-2
+      1 ograniczyć się-2, sprowadzić się-1
+        0 zawęzić się-1, zacieśnić się-1
+      0 zdekompletować się-1
+      5 ubyć-1
+        1 sprzedać się-1
+          0 pójść-11
+        0 stopnieć-1, skurczyć się-2, zeszczupleć-1
+        VISITED 1 zginąć-5, zniknąć-4
+      1 skurczyć się-1, ściągnąć się-1, obkurczyć się-1
+        0 wstąpić się-1, zbiec się-3, zbiegnąć się-4
+      0 zmaleć-2
+      0 sprężyć się-2
+      1 spaść-1
+        0 obsunąć się-3
+      0 spłycić się-1
+      21 osłabnąć-2, zelżeć-1, zwątleć-4
+        0 opaść-7
+        0 przyblednąć-2
+        0 zagoić się-2, zabliźnić się-2
+        0 odpłynąć-5
+        0 uspokoić się-3
+        10 zjaśnieć-1
+          VISITED 2 zblaknąć-1, zblednąć-1, zbladnąć-1, spłowieć-1, spełzać-1, spełznąć-1, wypełzać-2, wypełznąć-2, wypłowieć-1, zmatowieć-3, wyblaknąć-1
+          6 rozjaśnić się-2, rozjarzyć się-2, rozproszyć się-4, rozpromienić się-2, rozświetlić się-1
+            1 pojaśnieć-1
+              0 wybielić się-1
+            1 rozpogodzić się-2, wypogodzić się-2, przejaśnić się-2, rozchmurzyć się-2, wyklarować się-3
+              0 roztęczyć się-1, rozbłękitnić się-2
+            1 rozwidnić się-1, zaświtać-1
+              0 poszarzeć-2
+        2 ucichnąć-1, uspokoić się-2, uciszyć się-1
+          1 przycichnąć-2
+            0 przyschnąć-3
+        1 złagodnieć-1
+          0 złagodzić się-1, wyłagodzić się-1
+    3 odtajać-1
+      0 podgrzać się-1
+      0 dogrzać się-1
+      0 wygrzać się-1
+    5 wysuszyć się-1, wyschnąć-1, zeschnąć-1
+      0 przyschnąć-2
+      1 obeschnąć-1
+        0 podeschnąć-1, przeschnąć-1
+      0 obciec-1, ociec-1, odciec-1
+      0 odparować-3
+    6 znieruchomieć-1, zamrzeć-1, zmartwieć-1, zastygnąć-1, zakrzepnąć-1
+      0 skamienieć-1
+      0 stężeć-2
+      1 osłupieć-1
+        0 zbaranieć-1, zgłupieć-2, zdurnieć-2, ogłupieć-1
+      0 zawisnąć-3
+      0 zesztywnieć-3, zdrętwieć-2
+    6 obumrzeć-1, zamrzeć-4, zmartwieć-2
+      1 zwiędnąć-1
+        0 nadwiędnąć-1
+      0 przekwitnąć-1
+      0 zserowacieć-1
+      1 zeschnąć-2, uschnąć-1, wyschnąć-3
+        VISITED 0 spierzchnąć-1
+    14 osłabnąć-1, zasłabnąć-1, zaniemóc-2, zwątleć-1
+      7 wyczerpać się-2, wykończyć się-1, wysiąść-2, wypompować się-1, zszarpać się-1
+        0 rozejść się-9, rozleźć się-3
+        0 zapić się-1
+        4 przemęczyć się-1, przeforsować się-1
+          1 przepracować się-1
+            0 zapracować się-1, zaharować się-1, zaorać się-1
+          0 przeciążyć się-2
+          0 zamęczyć się-1, zamordować się-1
+      2 zniedołężnieć-1
+        1 skapcanieć-1, zdziadzieć-1
+          0 zramoleć-1, zgrzybieć-1
+      0 omdleć-2
+      0 podupaść-1
+      0 zemdleć-1, omdleć-1, zasłabnąć-2, stracić przytomność-1
+    2 wyzdrowieć-1, wydobrzeć-1, dojść do siebie-2, dojść do zdrowia-1, stanąć na nogi-2, wrócić do zdrowia-1, ozdrowieć-1
+      0 wstać-5
+      0 pozbierać się-2
+    59 zniszczyć się-1, zniszczeć-1, zmarnieć-1
+      0 zwątleć-2
+      0 zmurszeć-3
+      0 sprać się-1
+      0 przetrzeć się-1
+      0 sfilcować się-1
+      0 rozmyć się-1
+      0 skołtunić się-1, skudlić się-1, skudłacić się-1, skołtunieć-1
+      0 nadpalić się-1
+      0 zetrzeć się-2
+      0 wysłużyć-2, wysłużyć się-2
+      0 zestarzeć się-2
+      0 stępić się-1
+      0 porozchodzić się-1
+      3 pęknąć-2
+        0 spierzchnąć-1
+        1 rozpruć się-1
+          0 spuścić się-2
+      2 zblaknąć-1, zblednąć-1, zbladnąć-1, spłowieć-1, spełzać-1, spełznąć-1, wypełzać-2, wypełznąć-2, wypłowieć-1, zmatowieć-3, wyblaknąć-1
+        0 pobladnąć-1, poblednąć-1
+        0 przybladnąć-2, przyblednąć-1, przyblaknąć-1
+      0 wystrzępić się-1
+      11 uszkodzić się-1
+        0 obtłuc się-1, obić się-2
+        0 przepalić się-1
+        6 zapaść się-2
+          1 załamać się-3
+            0 podłamać się-1
+          0 przysiąść-3
+          0 zarwać się-1
+          1 wklęsnąć-1, zaklęsnąć-1, zaklęsnąć się-1
+            0 zapaść się-4, wpaść-14
+        0 zarysować się-3
+        0 zatrzeć się-3
+      4 zużyć się-1
+        0 wyczerpać się-3
+        0 wypisać się-3
+        0 zdekapitalizować się-1
+        0 wypalić się-1
+      19 popsuć się-2, zepsuć się-1
+        0 przekręcić się-4
+        0 pójść-10
+        0 wypruć się-1, odpruć się-1
+        VISITED 0 zapowietrzyć się-1
+        0 wysiąść-3, siąść-4
+        0 rozregulować się-1, rozstroić się-1
+        3 zwyrodnieć-1, zdegenerować się-1
+          0 skarłowacieć-1, skarleć-1
+          0 wyrodzić się-2
+          0 zrakowacieć-1
+        3 zaciąć się-2, zablokować się-1
+          0 zatrzasnąć się-2
+          0 zawiesić się-1
+          0 zakrztusić się-1, zadławić się-2
+        3 zdezorganizować się-1
+          0 sypnąć się-9, rozsypać się-8
+          0 rozprząc się-1, rozprzęgnąć się-1, rozluźnić się-3
+          0 rozregulować się-2, rozstroić się-3
+        0 sypnąć się-5, rozsypać się-5, rozlecieć się-2
+      0 posypać się-1
+    17 zniknąć-1, zdematerializować się-1
+      3 wyczerpać się-1, skończyć się-3
+        0 wymydlić się-1
+        0 wyjść-22
+        0 wymazać się-2
+      0 wyschnąć-5
+      0 podziać się-3
+      0 wykasować się-1, skasować się-1
+      4 podziać się-2, zginąć-1, zgubić się-2, zaginąć-1, zapodziać się-1, zawieruszyć się-2, zagubić się-2, pogubić się-1
+        2 przepaść-1, wsiąknąć-3
+          1 zginąć-5, zniknąć-4
+            0 wyciec-3, wycieknąć-2, wypłynąć-8
+        0 zarzucić się-1
+      1 puścić-14
+        0 sprać się-2
+      0 sczeznąć-1
+      0 wyparować-2, zapaść się pod Ziemię-1
+      0 wessać się-1
+    24 napełnić się-1, wypełnić się-1, zapełnić się-1
+      0 zaropieć-1
+      0 nabić się-1
+      0 zapowietrzyć się-1
+      0 zatankować-3
+      0 przepełnić się-2
+      0 wezbrać-3
+      0 wezbrać-2
+      5 zabrzmieć-2, rozbrzmieć-1
+        0 rozdzwonić się-2
+        0 rozdźwięczeć-2
+        0 zanieść się-2
+        1 zadźwięczeć-2
+          0 zadrgać-4
+      9 nasycić się-3
+        0 przesycić się-2, przepoić się-1
+        0 zwapnieć-1
+        6 nasiąknąć-1, naciągnąć-7, przesiąknąć-2, przeniknąć-9, przejść-19
+          2 namoknąć-1, namięknąć-1, nasączyć się-1, namoczyć się-1
+            1 rozmoknąć-1
+              0 rozkisnąć-1
+          0 przetłuścić się-2
+          0 podsiąknąć-1, podmoknąć-1
+          0 podbiec-2, podbiegnąć-2, podejść-3
+      0 napęcznieć-1, spęcznieć-1
+  72 *CZASOWNIK - STAN NDK oznaczający stan fizyczny-1
+    0 czuwać-2
+    1 robić się-4
+      0 drukować się-1
+    0 znajdować się-5
+    0 trzymać się-2
+    9 chorować-1, cierpieć-1, niedomagać-1, szwankować-1, szwankować na zdrowiu-1
+      0 mieć hopla-1, mieć kota-1, mieć kręćka-1, mieć szmergla-1
+      0 niedosłyszeć-1
+      0 gorączkować-1
+      0 biegać-4
+      0 chorować psychicznie-1, chorować umysłowo-1, chorować na głowę-1, szwankować na umyśle-1
+      0 niedowidzieć-1
+      0 dorabiać się-2, doprawiać się-1
+      0 cienko prząść-1
+      0 cherlać-1, marnieć-1
+    2 czuć się-1
+      0 mieć się-1, miewać się-1
+      0 odnajdować się-3, odnajdywać się-2
+    0 odbijać się-2, odzwierciedlać się-2, przeglądać się-1
+    1 smażyć się-2
+      0 podsmażać się-1
+    1 gotować się-3
+      0 dusić się-2
+    1 piec się-1
+      0 opiekać się-1
+    0 drętwieć-2
+    10 wyglądać-3, prezentować się-1, przedstawiać się-3, wypadać-2
+      4 czesać się-3
+        0 golić się-2
+        0 farbować się-2
+        0 przeczesywać się-1
+        0 tapirować się-1
+      0 kwitnąć-4
+      2 ubierać się-2, nosić się-1
+        1 nosić-6, chodzić-14
+          0 chadzać-2
+      0 wychodzić-18
+    5 spać-1
+      0 spać jak niemowlę-1
+      0 nocować-1
+      2 drzemać-1
+        0 ucinać komara-1, przycinać komara-1
+        0 kimać-1
+    2 podtrzymywać-3, utrzymywać-2
+      0 łożyskować-1
+      0 trzymać-9
+    21 świecić-2, palić się-3
+      0 tlić się-2, tleć-2
+      0 przyświecać-3
+      0 fluorować-2, fluoryzować-1
+      11 oświetlać-1
+        0 zaglądać-3
+        0 opromieniać-3
+        0 doświetlać-1
+        0 iluminować-2
+        0 omiatać-2
+        0 przyświecać-2
+        0 podświetlać-1
+        2 rozjaśniać-1, rozświetlać-2, rozbielać-1, rozjarzać-2, rozpalać-3, rozpraszać-2, rozpromieniać-2, rozświecać-1, rozwidniać-1, przejaśniać-3
+          0 zapalać-3
+          0 rozdzierać-3
+        0 muskać-3
+      0 pełgać-1
+      0 żarzyć się-2
+      0 jarzyć się-2
+      0 fosforyzować-1
+      1 błyskać-1, migać-1, mrugać-1, drgać-2, migotać-1
+        0 pobłyskiwać-1
+    3 milczeć-1
+      0 sznurować usta-2
+      0 trzymać buzię na kłódkę-1, trzymać mordę na kłódkę-1, trzymać gębę na kłódkę-1
+      0 trzymać język za zębami-1

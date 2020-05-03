@@ -1,0 +1,36 @@
+#! /bin/bash
+#
+# Author: Marcin Woliński
+# This file is in the public domain.
+
+swigradir=`dirname $0`
+
+if [ $# -eq 0 ]; then
+    pliki=*.oldforest
+else
+    pliki=$*
+fi
+
+
+for i in $pliki
+  do
+    rdzen=`basename $i .oldforest`
+    fullname=$rdzen.oldforest
+    outname=$rdzen.forest
+
+    if grep '^sukces\.$' $fullname >/dev/null
+    then
+	echo '********* Przetwarzam (sukces) ' $fullname
+    else
+	echo '********* Pomijam (porażka)    ' $fullname
+	continue	
+    fi
+    
+    swipl -t halt -g "['$fullname','$swigradir/oldforest2edges'], run('$rdzen')" >$outname
+    
+done
+
+### Local Variables: 
+### coding: utf-8
+### mode: shell-script
+### End: 

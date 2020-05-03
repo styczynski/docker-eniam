@@ -1,0 +1,2942 @@
+<node name="informacja-1" size="2276">
+  <node name="formułka-3" size="0"/>
+  <node name="wrotka-2" size="0"/>
+  <node name="remat-1" size="0"/>
+  <node name="prezentacja-5" size="0"/>
+  <node name="pigułka wiedzy-1" size="0"/>
+  <node name="informacja genetyczna-1" size="0"/>
+  <node name="lajk-1, like-1" size="0"/>
+  <node name="wskazówka-2" size="28">
+    <node name="fałszywy trop-1" size="0"/>
+    <node name="sugestia-3, nawiązanie-4" size="1"/>
+    <node name="porada-1, rada-2, wskazówka-4, wskazanie-6, podpowiedź-1, instrukcja-1, sugestia-2" size="24">
+      <node name="decepcja-1, instrukcja maskująca-1" size="0"/>
+      <node name="nauka-6" size="8">
+        <node name="szkoła-9" size="1">
+          <node name="wojsko-4" size="0"/>
+        </node>
+        <node name="nauczka-1, szkoła-6" size="1">
+          <node name="cięgi-1, baty-1, razy-1" size="0"/>
+        </node>
+        <node name="Dobra Nowina-2, ewangelia-1" size="0"/>
+        <node name="morał-1" size="2">
+          <node name="epimythion-1" size="0"/>
+          <node name="promythion-1" size="0"/>
+        </node>
+      </node>
+      <node name="domicyl-2" size="0"/>
+      <node name="namowa-1, perswazja-1, inspiracja-1, podszept-1, poduszczenie-1, sugestia-1" size="7"/>
+      <node name="konsultacja-1" size="1">
+        <node name="konsultacja społeczna-1" size="0"/>
+      </node>
+      <node name="zalecenie-5" size="0"/>
+      <node name="przepis-1" size="1">
+        <node name="przepis kulinarny-1" size="0"/>
+      </node>
+    </node>
+  </node>
+  <node name="ustalenie-7" size="0"/>
+  <node name="wycinek-3" size="0"/>
+  <node name="boczek-3" size="0"/>
+  <node name="namiar-3" size="1">
+    <node name="peleng-1" size="0"/>
+  </node>
+  <node name="informacja niejawna-1" size="1">
+    <node name="informacja poufna-1" size="0"/>
+  </node>
+  <node name="informacja publiczna-1" size="0"/>
+  <node name="aluzja-1" size="2">
+    <node name="aluzja literacka-1" size="0"/>
+    <node name="annominacja-1" size="0"/>
+  </node>
+  <node name="faktoid-1" size="0"/>
+  <node name="briefing-3" size="0"/>
+  <node name="informacja marketingowa-1" size="0"/>
+  <node name="sensacja-1" size="6">
+    <node name="skandal-1, afera-2, awantura-2, chryja-1, granda-2" size="5">
+      <node name="flejm-1" size="0"/>
+      <node name="afera rozporkowa-1" size="0"/>
+      <node name="afera koperkowa-1" size="0"/>
+      <node name="awantura arabska-1" size="0"/>
+      <node name="seksafera-1, seksskandal-1" size="0"/>
+    </node>
+  </node>
+  <node name="współrzędna-1" size="7">
+    <node name="kąt godzinny-1" size="0"/>
+    <node name="współrzędna geograficzna-1" size="4">
+      <node name="rozciągłość równoleżnikowa-1" size="0"/>
+      <node name="rozciągłość południkowa-1" size="0"/>
+      <node name="długość geograficzna-1" size="0"/>
+      <node name="szerokość geograficzna-1" size="0"/>
+    </node>
+    <node name="rektascensja-1" size="0"/>
+  </node>
+  <node name="metka-1" size="1">
+    <node name="birka-1" size="0"/>
+  </node>
+  <node name="reklama-1, promocja-1, propaganda-2" size="9">
+    <node name="druk bezadresowy-1" size="0"/>
+    <node name="reklama porównawcza-1" size="0"/>
+    <node name="mailing-1" size="0"/>
+    <node name="telemarketing-1" size="0"/>
+    <node name="publicity-1" size="0"/>
+    <node name="kryptoreklama-1" size="0"/>
+    <node name="autoreklama-1" size="1">
+      <node name="dżingiel-1, dżingel-1" size="0"/>
+    </node>
+    <node name="sponsoring-1" size="0"/>
+  </node>
+  <node name="notka-1" size="2">
+    <node name="stopka-2" size="0"/>
+    <node name="kolofon-1" size="0"/>
+  </node>
+  <node name="dane-2" size="216">
+    <node name="efemerydy-2" size="0"/>
+    <node name="podpis cyfrowy-1" size="0"/>
+    <node name="liczba całkowita-2" size="0"/>
+    <node name="dane ilościowe-1" size="0"/>
+    <node name="dane jakościowe-1" size="0"/>
+    <node name="dane statystyczne-1" size="0"/>
+    <node name="tytulatura-2" size="0"/>
+    <node name="materiał-2" size="206">
+      <node name="praca domowa-1, lekcja-4" size="0"/>
+      <node name="materiał dowodowy-1" size="0"/>
+      <node name="materiał rozszczepialny-1" size="0"/>
+      <node name="materiał pirotechniczny-1" size="0"/>
+      <node name="materiał pędny-1" size="0"/>
+      <node name="materiał jądrowy-1" size="0"/>
+      <node name="materiał rozmnożeniowy-1" size="0"/>
+      <node name="materiał genetyczny-1" size="0"/>
+      <node name="czołówka-7" size="0"/>
+      <node name="ilustracja-1, egzemplifikacja-1" size="171">
+        <node name="rysunek-5, grafika-2, rycina-2" size="107">
+          <node name="infografika-1" size="0"/>
+          <node name="psychogram-1" size="0"/>
+          <node name="plan-5" size="43">
+            <node name="miejscowy plan zagospodarowania przestrzennego-1" size="0"/>
+            <node name="projekt-3" size="39"/>
+            <node name="plan miasta-1" size="0"/>
+            <node name="plan sytuacyjny-1" size="0"/>
+          </node>
+          <node name="schemat-3" size="6">
+            <node name="trójkąt samogłoskowy-1" size="0"/>
+            <node name="siatka-10" size="0"/>
+            <node name="genogram-1" size="0"/>
+            <node name="narys-1" size="1">
+              <node name="narys kwiatowy-1, diagram kwiatowy-1" size="0"/>
+            </node>
+            <node name="kwadrat logiczny-1" size="0"/>
+          </node>
+          <node name="rysunek techniczny-1" size="0"/>
+          <node name="przekrój-2, rzut-5" size="4">
+            <node name="owręże-1, owrężenie-1" size="0"/>
+            <node name="przekrój geologiczny-1, profil-4, profil glebowy-1" size="2">
+              <node name="przekrój terenu-1" size="0"/>
+              <node name="przekrój glebowy-1" size="0"/>
+            </node>
+          </node>
+          <node name="obrazek-1" size="16">
+            <node name="clipart-1" size="0"/>
+            <node name="wyklejanka-1, naklejanka-2" size="1">
+              <node name="wydzieranka-1" size="0"/>
+            </node>
+            <node name="kolorowanka-1, malowanka-1" size="0"/>
+            <node name="kalkomania-1" size="0"/>
+            <node name="piktogram-2" size="5">
+              <node name="ideogram-1" size="2">
+                <node name="logogram-1, logograf-3" size="0"/>
+                <node name="emotikon-1, emotikona-1, buźka-2, smiley-1" size="0"/>
+              </node>
+              <node name="hieroglif-1" size="0"/>
+              <node name="ikona-2, ikonka-1" size="0"/>
+            </node>
+            <node name="ilustracja-2" size="4">
+              <node name="inicjał-2, miniatura-2, iluminacja-3" size="0"/>
+              <node name="iluminacja-4, winieta-1" size="0"/>
+              <node name="ornament-3, ozdobnik-3" size="1">
+                <node name="przerywnik-2" size="0"/>
+              </node>
+            </node>
+          </node>
+          <node name="mapa-1" size="30">
+            <node name="przestrzeń adresowa-1" size="0"/>
+            <node name="podkład mapowy-1" size="0"/>
+            <node name="mapa lotnicza-1" size="0"/>
+            <node name="mapa przeglądowa-1" size="0"/>
+            <node name="mapa synoptyczna-1, mapa pogody-1" size="0"/>
+            <node name="mapa tematyczna-1" size="1">
+              <node name="mapa polityczna-1" size="0"/>
+            </node>
+            <node name="mapa ogólnogeograficzna-1" size="2">
+              <node name="mapa topograficzna-1" size="0"/>
+              <node name="mapa hipsometryczna-1" size="0"/>
+            </node>
+            <node name="mapa izopachytowa-1" size="0"/>
+            <node name="mapa geologiczna-1" size="0"/>
+            <node name="mapa turystyczna-1" size="0"/>
+            <node name="mapa drogowa-1" size="0"/>
+            <node name="mapa zasadnicza-1" size="0"/>
+            <node name="mapa ewidencyjna-1, mapa katastralna-1" size="0"/>
+            <node name="mapa administracyjna-1" size="0"/>
+            <node name="mapa numeryczna-1" size="0"/>
+            <node name="mapa akustyczna-1" size="0"/>
+            <node name="planisfera-1" size="0"/>
+            <node name="planiglob-1" size="0"/>
+            <node name="mapa morska-1" size="1">
+              <node name="portolan-1" size="0"/>
+            </node>
+            <node name="setka-7" size="0"/>
+            <node name="fotomapa-1, ortofotomapa-1, mapa fotograficzna-1" size="0"/>
+            <node name="kartogram-1" size="0"/>
+            <node name="kartodiagram-1" size="0"/>
+            <node name="mapa fizyczna-1" size="0"/>
+            <node name="konturówka-2" size="0"/>
+            <node name="sztabówka-1, mapa sztabowa-1" size="0"/>
+          </node>
+        </node>
+        <node name="ramka-3" size="0"/>
+        <node name="przykład-2, exemplum-1" size="2">
+          <node name="przypadek-2" size="1">
+            <node name="precedens-1" size="0"/>
+          </node>
+        </node>
+        <node name="wykres-1" size="58">
+          <node name="profil topograficzny-1" size="1">
+            <node name="profil kauzalny-1" size="0"/>
+          </node>
+          <node name="krzywa hipsometryczna-1" size="0"/>
+          <node name="charakterystyka amplitudowa-1" size="0"/>
+          <node name="wykres funkcji-1" size="0"/>
+          <node name="krzywa hipsograficzna-1" size="0"/>
+          <node name="jonogram-1" size="0"/>
+          <node name="palatogram-1" size="0"/>
+          <node name="wykres fazowy-1" size="0"/>
+          <node name="tautochrona-1" size="0"/>
+          <node name="socjogram-1" size="0"/>
+          <node name="pluwiogram-1" size="0"/>
+          <node name="echokardiogram-1" size="0"/>
+          <node name="termogram-1" size="0"/>
+          <node name="polarogram-1" size="0"/>
+          <node name="oscylogram-1" size="0"/>
+          <node name="kardiogram-1" size="0"/>
+          <node name="barogram-1" size="0"/>
+          <node name="diagram-1" size="6">
+            <node name="diagram Hertzsprunga-Russella-1" size="0"/>
+            <node name="diagram fazowy-1" size="0"/>
+            <node name="diagram Venna-1" size="0"/>
+            <node name="audiogram-1" size="0"/>
+            <node name="klimatogram-1" size="0"/>
+            <node name="wsuwanka-1" size="0"/>
+          </node>
+          <node name="charakterystyka-4" size="5">
+            <node name="charakterystyka widmowa-1" size="0"/>
+            <node name="charakterystyka fazowa-1" size="0"/>
+            <node name="charakterystyka częstotliwościowa-1" size="0"/>
+            <node name="charakterystyka czasowa-1" size="0"/>
+            <node name="charakterystyka amplitudowo-fazowa-1" size="0"/>
+          </node>
+          <node name="kosmogram-1" size="0"/>
+          <node name="nakres-1" size="0"/>
+          <node name="nomogram-1" size="0"/>
+          <node name="akcjogram-1" size="0"/>
+          <node name="spektrogram-1" size="0"/>
+          <node name="graf-3" size="0"/>
+          <node name="drzewo genealogiczne-1" size="0"/>
+          <node name="wskaz-2, wykres wskazowy-1, fazor-1, strzałka fazowa-1" size="0"/>
+          <node name="dendryt-3" size="0"/>
+          <node name="histogram-1" size="0"/>
+          <node name="widmo-2" size="16">
+            <node name="widmo częstotliwościowe-1" size="0"/>
+            <node name="przestrzeń barw-1" size="0"/>
+            <node name="widmo rotacyjne-1" size="0"/>
+            <node name="widmo pasmowe-1" size="0"/>
+            <node name="widmo emisyjne-1" size="0"/>
+            <node name="widmo ciągłe-1" size="0"/>
+            <node name="widmo absorpcyjne-1" size="0"/>
+            <node name="widmo cząsteczkowe-1" size="1">
+              <node name="widmo oscylacyjno-rotacyjne-1" size="0"/>
+            </node>
+            <node name="widmo atomowe-1" size="0"/>
+            <node name="widmo rentgenowskie-1" size="0"/>
+            <node name="widmo optyczne-1" size="0"/>
+            <node name="widmo oscylacyjne-1" size="1">
+              <node name="widmo oscylacyjno-rotacyjne-1" size="0"/>
+            </node>
+            <node name="widmo mocy-1" size="0"/>
+            <node name="widmo dźwięku-1" size="0"/>
+            <node name="widmo sygnału-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="dokumentacja-1" size="64">
+        <node name="dokumentacja techniczna-1" size="0"/>
+        <node name="dokumentacja projektowo-kosztorysowa-1" size="0"/>
+        <node name="dokumentacja budowy-1" size="1">
+          <node name="książka obiektu budowlanego-1" size="0"/>
+        </node>
+        <node name="dokumentacja powykonawcza-1" size="0"/>
+        <node name="projekt-3" size="39">
+          <node name="projekt techniczny-1" size="0"/>
+          <node name="projekt architektoniczny-1" size="0"/>
+          <node name="bozzetto-1" size="0"/>
+          <node name="wzór-3" size="35">
+            <node name="formatka-1" size="0"/>
+            <node name="szablon-1, wzornik-2" size="10">
+              <node name="kątownik-3" size="0"/>
+              <node name="spirograf-1" size="0"/>
+              <node name="kółkownik-1" size="0"/>
+              <node name="layout-2" size="0"/>
+              <node name="layout-3" size="0"/>
+              <node name="krzywka-2, krzywik-1" size="0"/>
+              <node name="patron-3" size="1">
+                <node name="przepróch-2, przeprócha-2" size="0"/>
+              </node>
+              <node name="wykrój-3, forma-12" size="1">
+                <node name="sztanca-1" size="0"/>
+              </node>
+            </node>
+            <node name="model-4" size="4">
+              <node name="szymel-2" size="0"/>
+              <node name="prototyp-1, protoplasta-3, nowy model-1" size="0"/>
+              <node name="pierwowzór-1, oryginał-2, prototyp-2, prawzór-1, protoplasta-2, autentyk-1" size="1">
+                <node name="archetyp-2" size="0"/>
+              </node>
+            </node>
+            <node name="forma-15" size="17">
+              <node name="forma typograficzna-1" size="0"/>
+              <node name="kokila-1" size="0"/>
+              <node name="węza-1" size="0"/>
+              <node name="wakat-2, vacat-3" size="0"/>
+              <node name="szalunek-1, szalowanie-2, oszalowanie-2, deskowanie-2" size="1">
+                <node name="podbitka-2" size="0"/>
+              </node>
+              <node name="matryca-1" size="4">
+                <node name="matryca strukturalna-1" size="0"/>
+                <node name="model-6" size="0"/>
+                <node name="woskówka-1, matryca woskowa-1" size="0"/>
+                <node name="logotyp-1" size="0"/>
+              </node>
+              <node name="foremka-1, forma-7, blacha-3" size="5">
+                <node name="keksówka-1, cwibakówka-1" size="0"/>
+                <node name="papilotek-3, papilotka-1" size="0"/>
+                <node name="forma prostokątna-1" size="0"/>
+                <node name="parzenica-3, sercówka-6" size="0"/>
+                <node name="tortownica-1" size="0"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node name="teka-2, teczka-3" size="2">
+          <node name="dossier-2" size="0"/>
+          <node name="portfolio-1" size="0"/>
+        </node>
+        <node name="faktografia-1" size="0"/>
+        <node name="katalog-1" size="8"/>
+        <node name="archiwum-1, archiwalia-1" size="3">
+          <node name="fototeka-1" size="0"/>
+          <node name="fonoteka-1, archiwum dźwiękowe-1" size="0"/>
+          <node name="filmoteka-1" size="0"/>
+        </node>
+        <node name="akta-1, dossier-1" size="1">
+          <node name="akta podręczne-1" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="personalia-1, dane osobowe-1, dane personalne-1, tożsamość-4" size="1">
+      <node name="dane wrażliwe-1, dane sensytywne-1" size="0"/>
+    </node>
+  </node>
+  <node name="adres wydawniczy-1, adres bibliograficzny-1" size="0"/>
+  <node name="zestawienie-8" size="35">
+    <node name="statystyka-3" size="0"/>
+    <node name="stylizacja-5, stylówa-1" size="1">
+      <node name="wizaż-1, look-1" size="0"/>
+    </node>
+    <node name="synteza-2, połączenie-8" size="26">
+      <node name="zlewka-6" size="0"/>
+      <node name="gra-8" size="0"/>
+      <node name="mieszanina-2, aliaż-1, splot-2, kompilacja-3" size="21">
+        <node name="amalgamat-3" size="0"/>
+        <node name="miks-1" size="0"/>
+        <node name="potpourri-3" size="0"/>
+        <node name="amalgamat-2" size="0"/>
+        <node name="zlepek-1" size="2">
+          <node name="pyłkowina-1" size="0"/>
+          <node name="aglomerat-2" size="0"/>
+        </node>
+        <node name="tygiel-3" size="0"/>
+        <node name="konglomerat-2, konglomeracja-1" size="0"/>
+        <node name="mozaika-2" size="0"/>
+        <node name="miszmasz-1" size="0"/>
+        <node name="melanż-1" size="0"/>
+        <node name="kolaż-3" size="0"/>
+        <node name="wypluwka-1, zrzutka-1" size="0"/>
+        <node name="zbitka-1" size="0"/>
+        <node name="przeplatanka-1" size="0"/>
+        <node name="zbieranina-1" size="2">
+          <node name="mydło i powidło-1, groch z kapustą-1, tutti frutti-2" size="0"/>
+          <node name="wieża Babel-1" size="0"/>
+        </node>
+        <node name="magma-2" size="0"/>
+        <node name="kompilacja-1" size="0"/>
+      </node>
+      <node name="synkretyzm-2" size="0"/>
+      <node name="kontaminacja-1" size="0"/>
+    </node>
+    <node name="synopsa-1, synopsis-1" size="0"/>
+    <node name="konkordancja-3" size="0"/>
+    <node name="seria-4" size="0"/>
+    <node name="kolorystyka-1, tonacja-1, koloryzacja-1, koloryt-1" size="1">
+      <node name="paleta-4" size="0"/>
+    </node>
+  </node>
+  <node name="namiar-1" size="0"/>
+  <node name="przeciek-2" size="0"/>
+  <node name="ciekawostka-2" size="0"/>
+  <node name="uzasadnienie-2, motywacja-1, usprawiedliwienie-4, wyjaśnienie-3, wytłumaczenie-3" size="26">
+    <node name="usprawiedliwienie-5" size="0"/>
+    <node name="argumentacja-2" size="1">
+      <node name="ciężka artyleria-2, ciężkie działa-1" size="0"/>
+    </node>
+    <node name="wywód-1" size="0"/>
+    <node name="dowód-2" size="4">
+      <node name="dowód niekonstruktywny-1" size="0"/>
+      <node name="dowód nie wprost-1, dowód pośredni-1, dowód apagogiczny-1" size="0"/>
+      <node name="dowód wprost-1" size="0"/>
+      <node name="dowód ontologiczny-1" size="0"/>
+    </node>
+    <node name="konieczność-2, przymus-1, mus-2, krytyczność-4" size="16">
+      <node name="musik-1, mus-3, musek-1" size="0"/>
+      <node name="potrzebność-1" size="0"/>
+      <node name="imperatywność-1" size="0"/>
+      <node name="imperatyw-1" size="1">
+        <node name="imperatyw kategoryczny-1" size="0"/>
+      </node>
+      <node name="ostateczność-1" size="0"/>
+      <node name="obligatoryjność-1" size="0"/>
+      <node name="przeznaczenie-4, fatum-1, los-1, dola-1, predestynacja-1, fatalizm-3, fatalność-1, mojra-1" size="8">
+        <node name="szczęście-3, pomyślność-1, fortuna-2, szczęśliwość-2" size="5">
+          <node name="fartowność-1" size="0"/>
+          <node name="fortunność-1" size="0"/>
+          <node name="szczęście-2, fuks-2, fart-1, łut szczęścia-1, uśmiech losu-1, błogosławieństwo-3" size="2">
+            <node name="miękkie lądowanie-2" size="0"/>
+            <node name="manna z nieba-1" size="0"/>
+          </node>
+        </node>
+        <node name="koło fortuny-1, koło historii-1" size="0"/>
+        <node name="kismet-1" size="0"/>
+      </node>
+    </node>
+  </node>
+  <node name="wzmianka-1, napomknięcie-2, napomknienie-1" size="2">
+    <node name="sugestia-3, nawiązanie-4" size="1">
+      <node name="metatekst-2" size="0"/>
+    </node>
+  </node>
+  <node name="znaczenie-8, treść-1, sens-2" size="15">
+    <node name="mit-3" size="0"/>
+    <node name="międzysłowie-1" size="0"/>
+    <node name="implikatura-1, implikatura konwersacyjna-1" size="0"/>
+    <node name="konotacja-1, znaczenie-7, intensja-1" size="0"/>
+    <node name="przekaz-4" size="1">
+      <node name="oralność-1" size="0"/>
+    </node>
+    <node name="wydźwięk-1, wymowa-1, tenor-4" size="2">
+      <node name="łagodność-3" size="1">
+        <node name="nierygorystyczność-1" size="0"/>
+      </node>
+    </node>
+    <node name="symbolika-1" size="0"/>
+    <node name="konotacja-2" size="0"/>
+    <node name="podtekst-1" size="1">
+      <node name="drugie dno-1" size="0"/>
+    </node>
+    <node name="przesłanie-4, teza-5, posłanie-7" size="1">
+      <node name="objawienie-6, Objawienie-7" size="0"/>
+    </node>
+  </node>
+  <node name="treść-3, materia-4, zawartość-4" size="2">
+    <node name="anegdota-2" size="0"/>
+    <node name="materia konstytucyjna-1" size="0"/>
+  </node>
+  <node name="komunikat-1" size="1707">
+    <node name="news-2" size="0"/>
+    <node name="chińszczyzna-1" size="0"/>
+    <node name="prezentacja-2" size="0"/>
+    <node name="syreni śpiew-1" size="0"/>
+    <node name="oświadczenie-2, świadectwo-3, enuncjacja-1" size="17"/>
+    <node name="wypowiedź-1" size="1649">
+      <node name="spowiedź-3" size="0"/>
+      <node name="perskie oko-3, oko-9, oczko-17" size="0"/>
+      <node name="prezentacja-4" size="0"/>
+      <node name="wypowiedź problematyczna-1" size="0"/>
+      <node name="wypowiedź apodyktyczna-1" size="0"/>
+      <node name="wypowiedź asertoryczna-1" size="0"/>
+      <node name="hejt-2" size="0"/>
+      <node name="mowa zależna-1" size="0"/>
+      <node name="mowa pozornie zależna-1" size="0"/>
+      <node name="mowa niezależna-1" size="0"/>
+      <node name="ostatnie słowa-1" size="0"/>
+      <node name="wiersz-4, mowa wiązana-1" size="0"/>
+      <node name="spoiler-3, spojler-3" size="0"/>
+      <node name="pozdrowienie-2" size="1">
+        <node name="pożegnanie-4" size="0"/>
+      </node>
+      <node name="parodia-3" size="0"/>
+      <node name="bełt-6" size="0"/>
+      <node name="kontroskarżenie-1" size="0"/>
+      <node name="podśmiechujki-1, podśmiewajki-1, prześmieszki-1" size="0"/>
+      <node name="lokucja-1" size="0"/>
+      <node name="urągliwość-1" size="0"/>
+      <node name="wstawka-3" size="1">
+        <node name="wtrącenie-4, wtręt-1" size="0"/>
+      </node>
+      <node name="wyznanie-3, spowiedź-1, wynurzenie-1, zwierzenie-2" size="2">
+        <node name="ekspektoracja-1" size="0"/>
+        <node name="confiteor-2" size="0"/>
+      </node>
+      <node name="oskarżenie-3" size="7"/>
+      <node name="uwaga-3" size="3">
+        <node name="ostrzeżenie-2, przestroga-1" size="2">
+          <node name="palec boży-2" size="0"/>
+          <node name="memento-1" size="0"/>
+        </node>
+      </node>
+      <node name="żale-1, skarga-1, wyrzekanie-2" size="0"/>
+      <node name="bzdura-1, brednia-1, banialuka-1, głupstwo-1, głupota-3, nonsens-1, bezsens-2, androny-1, austriackie gadanie-1" size="8">
+        <node name="piąte przez dziesiąte-2" size="0"/>
+        <node name="duby smalone-1" size="0"/>
+        <node name="bajka-3, bajeczka-1, bajda-1" size="2">
+          <node name="bajka terapeutyczna-1" size="0"/>
+          <node name="bajeczka dla grzecznych dzieci-1" size="0"/>
+        </node>
+        <node name="idiotyzm-1, idioctwo-1, kretyństwo-1" size="1">
+          <node name="nieporozumienie-3" size="0"/>
+        </node>
+        <node name="dyrdymałka-1, faramuszka-1, bzdurka-1" size="0"/>
+      </node>
+      <node name="nawijka-1" size="0"/>
+      <node name="czułostka-1" size="0"/>
+      <node name="skrót myślowy-1" size="0"/>
+      <node name="dobre słowo-1" size="0"/>
+      <node name="rewerencja-2" size="0"/>
+      <node name="bełkot-2" size="1">
+        <node name="sieczka-3" size="0"/>
+      </node>
+      <node name="uszczypliwość-1, złośliwość-2" size="8">
+        <node name="prześmiechy-1" size="0"/>
+        <node name="przytyk-1, przycinek-1, przymówka-1" size="1"/>
+        <node name="szyderstwo-1" size="0"/>
+        <node name="sarkazm-1" size="0"/>
+        <node name="drwina-1, prześmiewka-1, kpina-2" size="1">
+          <node name="docinek-1, ucinka-2, ucinek-1" size="0"/>
+        </node>
+        <node name="ironia-1, ironiczność-1" size="1">
+          <node name="autoironia-1" size="0"/>
+        </node>
+      </node>
+      <node name="pustosłowie-1, gołosłowie-1, drętwa mowa-1, bicie piany-1, wielosłowie-1, werbalizm-1, woda-1, wodolejstwo-1, gołosłowność-1, deklaratywizm-1, słowolejstwo-1, deklaratywność-1, drętwa gadka-1" size="7">
+        <node name="wata-3" size="0"/>
+        <node name="wiatrologia-1" size="0"/>
+        <node name="dętologia-1" size="0"/>
+        <node name="piękne słówka-1" size="0"/>
+        <node name="magma-2" size="0"/>
+        <node name="deklamatorstwo-1, deklamacyjność-1" size="1">
+          <node name="reklamiarstwo-1" size="0"/>
+        </node>
+      </node>
+      <node name="serdeczności-1, wyrazy-1" size="9">
+        <node name="życzenia-1" size="0"/>
+        <node name="uściski-1" size="0"/>
+        <node name="ukłony-1" size="0"/>
+        <node name="ucałowania-1" size="0"/>
+        <node name="pozdrowienia-1" size="1">
+          <node name="darzbór-1" size="0"/>
+        </node>
+        <node name="powinszowania-1" size="0"/>
+        <node name="kondolencje-1" size="0"/>
+        <node name="gratulacje-1" size="0"/>
+      </node>
+      <node name="przeprosiny-1" size="0"/>
+      <node name="przechwałka-1" size="0"/>
+      <node name="gadka-1" size="0"/>
+      <node name="odniesienie-6" size="4">
+        <node name="relewancja-1" size="0"/>
+        <node name="kontekst-3" size="0"/>
+        <node name="referencja-1" size="0"/>
+        <node name="ustosunkowanie-2" size="0"/>
+      </node>
+      <node name="narracja-1" size="6">
+        <node name="narracja kronikarska-1" size="0"/>
+        <node name="narracja historyczna-1" size="0"/>
+        <node name="narracja polifoniczna-1" size="0"/>
+        <node name="in medias res-1" size="0"/>
+        <node name="aretalogia-1" size="0"/>
+        <node name="skaz-1" size="0"/>
+      </node>
+      <node name="odzywka-1" size="0"/>
+      <node name="banał-1, slogan-1, frazeologia-1, ogólnik-1, komunał-1, oczywistość-2, formułka-1, frazes-1, liczman-1, oklepanka-1" size="1">
+        <node name="stara śpiewka-1" size="0"/>
+      </node>
+      <node name="podziękowanie-3, podzięka-1" size="1">
+        <node name="dziękczynienie-1" size="0"/>
+      </node>
+      <node name="zaczepka-1" size="0"/>
+      <node name="pochlebstwo-1" size="2">
+        <node name="umizgi-2" size="0"/>
+        <node name="wazelina-2" size="0"/>
+      </node>
+      <node name="wyzwisko-1, inwektywa-1, złorzeczenie-2" size="1">
+        <node name="chamski sznurek-1" size="0"/>
+      </node>
+      <node name="gadanina-1, gadulstwo-2" size="3">
+        <node name="ględźba-1" size="0"/>
+        <node name="lanie wody-1" size="0"/>
+        <node name="babskie gadanie-1" size="0"/>
+      </node>
+      <node name="namowa-1, perswazja-1, inspiracja-1, podszept-1, poduszczenie-1, sugestia-1" size="7">
+        <node name="woda na młyn-1" size="0"/>
+        <node name="głos serca-1" size="0"/>
+        <node name="prośby i groźby-1, prośba i groźba-1" size="0"/>
+        <node name="prozelityzm-1" size="0"/>
+        <node name="autosugestia-1" size="0"/>
+        <node name="werbunek-2" size="0"/>
+        <node name="agitacja-1" size="0"/>
+      </node>
+      <node name="negacja-1, przeczenie-2" size="2">
+        <node name="zaprzeczenie-4" size="0"/>
+        <node name="antyteza-3" size="0"/>
+      </node>
+      <node name="interpretacja-1" size="3"/>
+      <node name="tekst-1" size="1183">
+        <node name="metatekst-2" size="0"/>
+        <node name="metatekst-1" size="0"/>
+        <node name="tekst jawny-1" size="0"/>
+        <node name="tekst rezultatywny-1" size="0"/>
+        <node name="post-4" size="2">
+          <node name="tweet-1" size="1"/>
+        </node>
+        <node name="oneliner-1, one-liner-1" size="0"/>
+        <node name="opener-3" size="0"/>
+        <node name="lekcja-6" size="0"/>
+        <node name="tekst jednolity-1" size="0"/>
+        <node name="przekaz-5" size="28"/>
+        <node name="opustka-1" size="0"/>
+        <node name="hipertekst-1, hypertekst-1" size="2">
+          <node name="hipermedia-1" size="0"/>
+          <node name="internet-1, sieć-3, net-1, WWW-1" size="0"/>
+        </node>
+        <node name="upaniszada-1" size="0"/>
+        <node name="sutra-1" size="0"/>
+        <node name="teletekst-2" size="0"/>
+        <node name="czytanka-1" size="0"/>
+        <node name="czystopis-1" size="0"/>
+        <node name="brudnopis-1, brulion-2" size="0"/>
+        <node name="skład drukarski-1, skład-6" size="1">
+          <node name="szpalta-1" size="0"/>
+        </node>
+        <node name="spis-1, rejestr-2, wykaz-2, lista-1, zestawienie-10, regestr-4" size="77">
+          <node name="formułka-3" size="0"/>
+          <node name="manifest okrętowy-1" size="0"/>
+          <node name="taryfa celna-1" size="0"/>
+          <node name="lista startowa-1" size="0"/>
+          <node name="spis powszechny-1, spis ludności-1" size="0"/>
+          <node name="rejestr sądowy-1" size="0"/>
+          <node name="rejestr okrętowy-1" size="0"/>
+          <node name="rejestr karny-1" size="0"/>
+          <node name="kataster wodny-1" size="0"/>
+          <node name="specyfikacja-3, specyfikacja techniczna-1" size="2">
+            <node name="wymagania systemowe-1" size="1">
+              <node name="zasobożerność-1" size="0"/>
+            </node>
+          </node>
+          <node name="wyszczególnienie-2" size="1">
+            <node name="specyfikacja-2" size="0"/>
+          </node>
+          <node name="matrykuła-2" size="0"/>
+          <node name="volkslista-1" size="0"/>
+          <node name="urbarium-1" size="0"/>
+          <node name="klucz-14" size="0"/>
+          <node name="menu-3" size="1">
+            <node name="menu kontekstowe-1, menu podręczne-1" size="0"/>
+          </node>
+          <node name="sumariusz-1" size="0"/>
+          <node name="syllabus-1, sylabus-1" size="0"/>
+          <node name="program-8" size="0"/>
+          <node name="playlista-1" size="0"/>
+          <node name="książka telefoniczna-1" size="0"/>
+          <node name="rozdzielnik-1" size="0"/>
+          <node name="filmografia-1" size="0"/>
+          <node name="konkordancja-1" size="0"/>
+          <node name="lista obecności-1" size="0"/>
+          <node name="lista płac-1" size="0"/>
+          <node name="lista wyborcza-1" size="1">
+            <node name="lista krajowa-1, lista ogólnopolska-1" size="0"/>
+          </node>
+          <node name="lista rankingowa-1" size="0"/>
+          <node name="czarna lista-1, czarna księga-1" size="0"/>
+          <node name="ceduła-1" size="0"/>
+          <node name="ceduła-3" size="0"/>
+          <node name="regest-1" size="0"/>
+          <node name="repertorium-1" size="0"/>
+          <node name="lekospis-1, farmakopea-1" size="0"/>
+          <node name="errata-1" size="0"/>
+          <node name="kataster-1, kadaster-1" size="2">
+            <node name="kataster nieruchomości-1" size="0"/>
+            <node name="matrykuła-1" size="0"/>
+          </node>
+          <node name="rejestr handlowy-1" size="0"/>
+          <node name="rejestr kozacki-1" size="0"/>
+          <node name="kalendarium-1, calendarium-1" size="0"/>
+          <node name="billing-1" size="0"/>
+          <node name="specyfikacja-1" size="1">
+            <node name="elaboracja-3" size="0"/>
+          </node>
+          <node name="cennik-1" size="2">
+            <node name="karta-7, menu-1, jadłospis-1" size="0"/>
+            <node name="taryfikator-2" size="0"/>
+          </node>
+          <node name="bibliografia-1" size="1">
+            <node name="biobibliografia-1" size="0"/>
+          </node>
+          <node name="inwentarz-1" size="0"/>
+          <node name="inwentaryzacja-1, inwentura-1" size="1">
+            <node name="paszportyzacja-3" size="0"/>
+          </node>
+          <node name="katalog-1" size="8">
+            <node name="podkatalog-1" size="0"/>
+            <node name="katalog krzyżowy-1" size="0"/>
+            <node name="kartoteka-1" size="1">
+              <node name="kontoteka-1" size="0"/>
+            </node>
+            <node name="katalog rzeczowy-1" size="3">
+              <node name="katalog systematyczny-1" size="0"/>
+              <node name="katalog przedmiotowy-1" size="0"/>
+              <node name="katalog działowy-1" size="0"/>
+            </node>
+          </node>
+          <node name="tabela-1, diagram-2, tablica-2" size="3">
+            <node name="układ okresowy pierwiastków chemicznych-1, tablica Mendelejewa-1, układ okresowy pierwiastków-1" size="0"/>
+            <node name="tabliczka mnożenia-1" size="0"/>
+            <node name="arkusz kalkulacyjny-2" size="0"/>
+          </node>
+          <node name="skorowidz-1, indeks-2" size="2">
+            <node name="tezaurus-1" size="0"/>
+            <node name="konkordancja-4" size="0"/>
+          </node>
+          <node name="rachunek-3, regestr-5" size="2">
+            <node name="faktura-1" size="1">
+              <node name="e-faktura-1" size="0"/>
+            </node>
+          </node>
+          <node name="ewidencja-1" size="0"/>
+        </node>
+        <node name="reklama-2" size="25">
+          <node name="spot-5, spot reklamowy-2" size="0"/>
+          <node name="podwał-2" size="0"/>
+          <node name="outdoor-1" size="0"/>
+          <node name="antyreklama-1" size="0"/>
+          <node name="spot-1, spot reklamowy-1, reklamówka-2" size="1"/>
+          <node name="e-reklama-1" size="3">
+            <node name="button-1" size="0"/>
+            <node name="billboard-2" size="0"/>
+            <node name="banner-2, baner-2" size="0"/>
+          </node>
+          <node name="spam-1" size="0"/>
+          <node name="neon-2" size="0"/>
+          <node name="ulotka-1" size="5">
+            <node name="agitka-1" size="0"/>
+            <node name="proklamacja-2" size="0"/>
+            <node name="instrukcja-2" size="0"/>
+            <node name="bibuła-2" size="1"/>
+          </node>
+          <node name="afisz-1, plakat-1" size="3">
+            <node name="poster-1" size="0"/>
+            <node name="baner-1, banner-1" size="0"/>
+            <node name="billboard-1, bilbord-1" size="0"/>
+          </node>
+          <node name="zwiastun-4, forszpan-1, zajawka-1, trailer-1" size="2"/>
+        </node>
+        <node name="wpis-2" size="1">
+          <node name="dedykacja-1" size="0"/>
+        </node>
+        <node name="skrót-3" size="8">
+          <node name="synopsis-2, synopsa-2" size="0"/>
+          <node name="streszczenie-2, rekapitulacja-1, résumé-1" size="3">
+            <node name="regest-2" size="0"/>
+            <node name="zajawka-4" size="0"/>
+            <node name="abstrakt-1" size="0"/>
+          </node>
+          <node name="wyciąg-3" size="3">
+            <node name="wypis-3" size="0"/>
+            <node name="abstrakt-1" size="0"/>
+            <node name="wyciąg fortepianowy-1" size="0"/>
+          </node>
+        </node>
+        <node name="tekst-3" size="1032">
+          <node name="addenda-1" size="0"/>
+          <node name="publikacja-1" size="155">
+            <node name="zeszyt-4" size="0"/>
+            <node name="manifest literacki-1" size="0"/>
+            <node name="publikacja naukowa-1" size="0"/>
+            <node name="preprint-1" size="0"/>
+            <node name="wydanie-12, numer-3, zeszyt-2" size="2">
+              <node name="fascykuł-3" size="0"/>
+              <node name="dodatek nadzwyczajny-1" size="0"/>
+            </node>
+            <node name="wydawnictwo-1, tytuł-3, pozycja-7" size="147">
+              <node name="wydawnictwo seryjne-1, cykl wydawniczy-1" size="0"/>
+              <node name="wydawnictwo podziemne-1" size="1">
+                <node name="tamizdat-1" size="0"/>
+              </node>
+              <node name="wydawnictwo periodyczne-1" size="37">
+                <node name="organ-4" size="0"/>
+                <node name="czasopismo-1, periodyk-1, pismo-1" size="35">
+                  <node name="program telewizyjny-2" size="0"/>
+                  <node name="pisemko-4" size="0"/>
+                  <node name="noworocznik-1" size="0"/>
+                  <node name="artzin-1" size="0"/>
+                  <node name="reżimówka-2, reżymówka-2" size="0"/>
+                  <node name="magazyn ilustrowany-1" size="1">
+                    <node name="świerszczyk-1, pornomagazyn-1" size="0"/>
+                  </node>
+                  <node name="monitor-3" size="0"/>
+                  <node name="rocznik-4" size="1">
+                    <node name="rubrycela-1" size="0"/>
+                  </node>
+                  <node name="półmiesięcznik-1" size="0"/>
+                  <node name="półtygodnik-1" size="0"/>
+                  <node name="czasopismo naukowe-1" size="0"/>
+                  <node name="czasopismo tematyczne-1" size="0"/>
+                  <node name="pisemko-3" size="0"/>
+                  <node name="fanzin-1, zin-1" size="0"/>
+                  <node name="żurnal-1" size="0"/>
+                  <node name="pisemko-1" size="0"/>
+                  <node name="dwutygodnik-1" size="0"/>
+                  <node name="dwumiesięcznik-1" size="0"/>
+                  <node name="gazetka-1" size="2">
+                    <node name="wojskówka-1" size="0"/>
+                    <node name="gazetka szkolna-1" size="0"/>
+                  </node>
+                  <node name="miesięcznik-1" size="0"/>
+                  <node name="kwartalnik-1" size="0"/>
+                  <node name="magazyn-2" size="0"/>
+                  <node name="gazeta-1" size="7">
+                    <node name="gazeta wieczorna-1" size="0"/>
+                    <node name="tabloid-2" size="1">
+                      <node name="tabloid-1, bulwarówka-2" size="0"/>
+                    </node>
+                    <node name="teletekst-3, telegazeta-1" size="0"/>
+                    <node name="dziennik-1" size="2">
+                      <node name="popołudniówka-1" size="0"/>
+                      <node name="kurier-2" size="0"/>
+                    </node>
+                  </node>
+                  <node name="tygodnik-1" size="0"/>
+                </node>
+              </node>
+              <node name="nadbitka-1" size="0"/>
+              <node name="podcast-1, podkast-1, podkasting-1, podcasting-1" size="0"/>
+              <node name="komiks-1" size="7">
+                <node name="Śledziu-3" size="0"/>
+                <node name="manga-2" size="5">
+                  <node name="shōnen-ai-2, shounenai-2, yaoi-2" size="0"/>
+                  <node name="yuri-2, shoujoai-2, shōjo-ai-2" size="0"/>
+                  <node name="ecchi-2" size="0"/>
+                  <node name="hentai-2" size="0"/>
+                  <node name="shounen-1, shōnen-manga-1" size="0"/>
+                </node>
+              </node>
+              <node name="kalendarz-1" size="6">
+                <node name="minucja-2" size="0"/>
+                <node name="rubrycela-1" size="0"/>
+                <node name="cyzjojan-1" size="0"/>
+                <node name="organizer-1" size="0"/>
+                <node name="almanach-3" size="0"/>
+                <node name="terminarz-2" size="0"/>
+              </node>
+              <node name="almanach-1" size="0"/>
+              <node name="broszura-2" size="1">
+                <node name="program-9" size="0"/>
+              </node>
+              <node name="informator-1" size="2">
+                <node name="biuletyn-1" size="1">
+                  <node name="newsletter-1" size="0"/>
+                </node>
+              </node>
+              <node name="bibuła-2" size="1">
+                <node name="samizdat-1" size="0"/>
+              </node>
+              <node name="książka-2" size="81">
+                <node name="książka dotykowa-1" size="0"/>
+                <node name="rewersał-1" size="0"/>
+                <node name="książka w miękkiej oprawie-1" size="0"/>
+                <node name="książka w twardej oprawie-1" size="1">
+                  <node name="wydawnictwo albumowe-1" size="0"/>
+                </node>
+                <node name="publikacja encyklopedyczna-1" size="12">
+                  <node name="atlas-3" size="3">
+                    <node name="atlas-1" size="2">
+                      <node name="atlas nieba-1" size="0"/>
+                      <node name="atlas dialektalny-1" size="0"/>
+                    </node>
+                  </node>
+                  <node name="słownik-1" size="5">
+                    <node name="mamotrept-1, mammotrept-1, mammotrekt-1" size="0"/>
+                    <node name="tezaurus-2" size="0"/>
+                    <node name="glosariusz-1, glosarium-1" size="0"/>
+                    <node name="leksykon-1" size="1"/>
+                  </node>
+                  <node name="encyklopedia-1" size="3">
+                    <node name="Wikipedia-1" size="0"/>
+                    <node name="leksykon-1" size="1">
+                      <node name="tezaurus-3" size="0"/>
+                    </node>
+                  </node>
+                </node>
+                <node name="książka kodowa-1" size="0"/>
+                <node name="e-book-1, e-książka-1, książka elektroniczna-1" size="0"/>
+                <node name="książka telefoniczna-1" size="0"/>
+                <node name="książczyna-1" size="0"/>
+                <node name="książka kucharska-1" size="0"/>
+                <node name="jaskółka-3" size="0"/>
+                <node name="receptariusz-2" size="0"/>
+                <node name="czytadło-1" size="0"/>
+                <node name="album-2" size="0"/>
+                <node name="elzewir-1" size="0"/>
+                <node name="sennik-1" size="0"/>
+                <node name="katechizm-1" size="0"/>
+                <node name="śpiewnik-1" size="3">
+                  <node name="kyriale-1" size="0"/>
+                  <node name="kantyczka-2" size="0"/>
+                  <node name="kancjonał-1, kancjonarz-1" size="0"/>
+                </node>
+                <node name="herbarz-1" size="0"/>
+                <node name="foliał-2, foliant-2" size="0"/>
+                <node name="modlitewnik-1" size="5">
+                  <node name="sidur-1, siddur-1" size="0"/>
+                  <node name="machzor-1, mahzor-1" size="0"/>
+                  <node name="antyfonarz-1" size="0"/>
+                  <node name="psałterz-1" size="0"/>
+                  <node name="brewiarz-1" size="0"/>
+                </node>
+                <node name="bestseller-1, bestseler-1" size="0"/>
+                <node name="poradnik-1" size="3">
+                  <node name="vademecum-1, wademekum-1" size="0"/>
+                  <node name="e-poradnik-1" size="0"/>
+                  <node name="manualik-1" size="0"/>
+                </node>
+                <node name="suplement-2" size="1">
+                  <node name="tom suplementowy-1" size="0"/>
+                </node>
+                <node name="Koran-3" size="0"/>
+                <node name="przewodnik-3, gid-2, bedeker-1, baedeker-1" size="2">
+                  <node name="vademecum-1, wademekum-1" size="0"/>
+                  <node name="itinerarium-1, itinerariusz-1" size="0"/>
+                </node>
+                <node name="cegła-2, biblia-4" size="0"/>
+                <node name="zbiór-7" size="17">
+                  <node name="homiliarz-1" size="0"/>
+                  <node name="ćwiczenia-3" size="0"/>
+                  <node name="Ewangelia-3" size="0"/>
+                  <node name="pisma-1" size="0"/>
+                  <node name="collectanea-1" size="0"/>
+                  <node name="antologia-1" size="3">
+                    <node name="zbiorek-1" size="1">
+                      <node name="florilegium-1" size="0"/>
+                    </node>
+                    <node name="almanach-2" size="0"/>
+                  </node>
+                  <node name="zbiór zadań-1" size="0"/>
+                  <node name="kolektanea-1" size="0"/>
+                  <node name="bestiariusz-1, bestiarium-1, zwierzyniec-2" size="0"/>
+                  <node name="sympozjon-4" size="0"/>
+                  <node name="brewiarz-2, oficjum-1" size="0"/>
+                  <node name="wypisy-1" size="1">
+                    <node name="chrestomatia-1" size="0"/>
+                  </node>
+                  <node name="psalmodia-1" size="0"/>
+                </node>
+                <node name="tom-1, wolumin-1, wolumen-3" size="3">
+                  <node name="tom suplementowy-1" size="0"/>
+                  <node name="zszywka-2" size="0"/>
+                  <node name="tomik-1" size="0"/>
+                </node>
+                <node name="podręcznik-1, skrypt-1, manual-1" size="7">
+                  <node name="solfeż-3" size="0"/>
+                  <node name="chrestomatia-1" size="0"/>
+                  <node name="szkoła-7, nuty-1" size="0"/>
+                  <node name="samouczek-1" size="0"/>
+                  <node name="repetytorium-2" size="0"/>
+                  <node name="czytanka-2" size="0"/>
+                  <node name="elementarz-1" size="0"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node name="praca pisemna-1" size="15">
+            <node name="dyktando-3" size="0"/>
+            <node name="kartkówka-2" size="0"/>
+            <node name="kolokwium-3" size="0"/>
+            <node name="sprawdzian-4" size="3">
+              <node name="diagnoza-5" size="0"/>
+              <node name="poprawa-4" size="0"/>
+              <node name="klasówka-2" size="0"/>
+            </node>
+            <node name="egzamin-2" size="1">
+              <node name="matura-3" size="0"/>
+            </node>
+            <node name="wypracowanie-2" size="5">
+              <node name="rozprawka-1" size="0"/>
+              <node name="interpretacja-1" size="3">
+                <node name="charakterystyka-2" size="0"/>
+                <node name="egzegeza-2" size="1"/>
+              </node>
+            </node>
+          </node>
+          <node name="tutorial-1" size="0"/>
+          <node name="tekst prasowy-1" size="5">
+            <node name="podwał-1" size="0"/>
+            <node name="nota-1" size="0"/>
+            <node name="sprostowanie-2" size="0"/>
+            <node name="artykuł wstępny-1, wstępniak-1" size="0"/>
+            <node name="felieton-1" size="0"/>
+          </node>
+          <node name="testament-2" size="0"/>
+          <node name="książka-1" size="4">
+            <node name="biblia-3" size="0"/>
+            <node name="kompendium-1" size="1">
+              <node name="tezaurus-3" size="0"/>
+            </node>
+            <node name="monografia-1" size="0"/>
+          </node>
+          <node name="wypociny-1, wypocina-1" size="2">
+            <node name="elukubracja-1" size="0"/>
+            <node name="chałtura-1" size="0"/>
+          </node>
+          <node name="pisanina-1, makulatura-2" size="4">
+            <node name="szmira-1, tandeta-1, chała-1, gniot-1, ramota-2" size="3"/>
+          </node>
+          <node name="autoportret-2" size="0"/>
+          <node name="esej-1" size="0"/>
+          <node name="wstęp-1" size="19">
+            <node name="rubrum-1" size="0"/>
+            <node name="komparycja-1" size="0"/>
+            <node name="prolog-4" size="0"/>
+            <node name="ekspozycja-4" size="0"/>
+            <node name="czołówka-8" size="0"/>
+            <node name="dedykacja-2" size="0"/>
+            <node name="przedśpiew-1" size="0"/>
+            <node name="wprowadzenie-11" size="2">
+              <node name="wprowadzenie odautorskie-1" size="1">
+                <node name="prozopopeja-1, fictio personae-1" size="0"/>
+              </node>
+            </node>
+            <node name="introdukcja-1" size="0"/>
+            <node name="preludium-2" size="1">
+              <node name="preambulum-1" size="0"/>
+            </node>
+            <node name="prolog-2" size="0"/>
+            <node name="przedmowa-1, przedsłowie-1, słowo wstępne-1, prolegomena-1" size="0"/>
+            <node name="inwokacja-1, wezwanie-5" size="0"/>
+            <node name="preambuła-1, arenga-1" size="0"/>
+            <node name="uwertura-1" size="1"/>
+          </node>
+          <node name="opracowanie-3" size="12">
+            <node name="bryk-1" size="0"/>
+            <node name="zarys-2, rys-1" size="0"/>
+            <node name="przyczynek-1" size="0"/>
+            <node name="operat-1" size="3">
+              <node name="operat uzdrowiskowy-1" size="0"/>
+              <node name="operat szacunkowy-1" size="0"/>
+              <node name="operat ewidencyjny-1" size="0"/>
+            </node>
+            <node name="wyciąg fortepianowy-1" size="0"/>
+            <node name="aranżacja-2" size="0"/>
+            <node name="studium-1" size="0"/>
+            <node name="szkic-1" size="0"/>
+            <node name="monografia-1" size="0"/>
+          </node>
+          <node name="utwór-1, dzieło-1" size="797"/>
+          <node name="scenariusz-1" size="1">
+            <node name="scenariusz filmowy-1" size="0"/>
+          </node>
+          <node name="rozprawa-2, elaborat-1, traktat-1" size="6">
+            <node name="praca dyplomowa-1, dyplomówka-1" size="2">
+              <node name="magisterium-2, praca magisterska-1, magisterka-1" size="0"/>
+              <node name="licencjat-2" size="0"/>
+            </node>
+            <node name="dysertacja-1" size="4">
+              <node name="habilitacja-1" size="0"/>
+              <node name="magisterium-2, praca magisterska-1, magisterka-1" size="0"/>
+              <node name="licencjat-2" size="0"/>
+              <node name="doktorat-2, praca doktorska-1, rozprawa doktorska-1" size="0"/>
+            </node>
+          </node>
+          <node name="artykuł-1" size="9">
+            <node name="komentarz-4" size="0"/>
+            <node name="wierszówka-2" size="0"/>
+            <node name="artykuł hasłowy-1, hasło-6" size="1">
+              <node name="biogram-1, nota biograficzna-1" size="0"/>
+            </node>
+            <node name="artykuł wstępny-1, wstępniak-1" size="0"/>
+            <node name="rubryka-1, kolumna-3, kącik-1" size="2">
+              <node name="podrubryka-1" size="0"/>
+              <node name="okienko-4" size="0"/>
+            </node>
+            <node name="felieton-1" size="0"/>
+          </node>
+        </node>
+        <node name="recenzja-1, krytyka-4" size="0"/>
+        <node name="przekład-1, tłumaczenie-7" size="10">
+          <node name="targum-1" size="4">
+            <node name="Targum Jonatana-2" size="0"/>
+            <node name="Targum Pseudo-Jonatana-2" size="0"/>
+            <node name="Targum Onkelosa-2" size="0"/>
+            <node name="Targum Jeruszalmi II-3" size="0"/>
+          </node>
+          <node name="napisy-1" size="2">
+            <node name="hardsuby-1" size="0"/>
+            <node name="fansuby-1" size="0"/>
+          </node>
+          <node name="metafraza-2" size="0"/>
+          <node name="spolszczenie-1" size="0"/>
+        </node>
+        <node name="napis-1" size="8"/>
+      </node>
+      <node name="oświadczenie-2, świadectwo-3, enuncjacja-1" size="17">
+        <node name="oświadczenie lustracyjne-1" size="0"/>
+        <node name="oświadczenie majątkowe-1" size="0"/>
+        <node name="potwierdzenie-7" size="9">
+          <node name="konfirmacja-2" size="8">
+            <node name="uwierzytelnienie-2, legalizacja-2" size="4">
+              <node name="logowanie-1" size="1">
+                <node name="logowanie-2" size="0"/>
+              </node>
+              <node name="rekognicja-1" size="0"/>
+              <node name="akredytacja-2" size="0"/>
+            </node>
+            <node name="legitymacja-2" size="0"/>
+            <node name="podpis-3" size="1">
+              <node name="kontrasygnata-1" size="0"/>
+            </node>
+          </node>
+        </node>
+        <node name="dementi-1" size="0"/>
+        <node name="proklamacja-3" size="0"/>
+        <node name="list intencyjny-1" size="0"/>
+        <node name="zeznanie-2" size="1">
+          <node name="fałszywe zeznanie-1" size="0"/>
+        </node>
+      </node>
+      <node name="dygresja-1" size="0"/>
+      <node name="monolog-1" size="5">
+        <node name="monolog liryczny-1" size="0"/>
+        <node name="monolog wypowiedziany-1" size="0"/>
+        <node name="solilokwium-1" size="0"/>
+        <node name="monolog wewnętrzny-1" size="1">
+          <node name="strumień świadomości-1" size="0"/>
+        </node>
+      </node>
+      <node name="kwestia-1" size="1">
+        <node name="oneliner-1, one-liner-1" size="0"/>
+      </node>
+      <node name="deklaracja-1" size="3">
+        <node name="zgłoszenie-5" size="0"/>
+        <node name="program-7" size="1">
+          <node name="program wyborczy-1" size="0"/>
+        </node>
+      </node>
+      <node name="powiedzenie-7, powiedzonko-1" size="18">
+        <node name="paremia-1" size="0"/>
+        <node name="wałęsizm-1" size="0"/>
+        <node name="dewiza-1, credo-2, kredo-1, motto-3" size="2">
+          <node name="dewiza herbowa-1" size="0"/>
+          <node name="zawołanie-4, proklama-1" size="0"/>
+        </node>
+        <node name="bon mot-1" size="0"/>
+        <node name="przysłowie-1, porzekadło-1" size="0"/>
+        <node name="gnoma-1" size="0"/>
+        <node name="aforyzm-1, złota myśl-1" size="5">
+          <node name="epigram-1, epigramat-1" size="4"/>
+        </node>
+        <node name="maksyma-1, sentencja-1" size="1">
+          <node name="adagium-1" size="0"/>
+        </node>
+        <node name="hasło-1" size="2">
+          <node name="zawołanie-4, proklama-1" size="0"/>
+          <node name="slogan-2" size="0"/>
+        </node>
+      </node>
+      <node name="głos-1" size="1">
+        <node name="glosa-3" size="0"/>
+      </node>
+      <node name="wątpliwość-2, obiekcja-1, zastrzeżenie-4" size="0"/>
+      <node name="polecenie-5" size="37">
+        <node name="asygnacja-1" size="0"/>
+        <node name="dyspozycja-2" size="2">
+          <node name="zlecenie giełdowe-1" size="0"/>
+          <node name="zlecenie koszykowe-1" size="0"/>
+        </node>
+        <node name="akredytywa-3" size="0"/>
+        <node name="zlecenie-6" size="5">
+          <node name="mokra robota-1" size="0"/>
+          <node name="obstalunek-1" size="0"/>
+          <node name="stop limit-1" size="0"/>
+          <node name="recepta-1, preskrypcja-2" size="1">
+            <node name="zielona recepta-1" size="0"/>
+          </node>
+        </node>
+        <node name="dyrektywa-1" size="0"/>
+        <node name="zalecenie-5" size="0"/>
+        <node name="rozporządzenie-2, zarządzenie-2" size="10">
+          <node name="cyrkularz-1" size="0"/>
+          <node name="zakaz-1" size="8">
+            <node name="neutralizacja wojskowa-1, neutralizacja terytorium-1" size="0"/>
+            <node name="zakaz stadionowy-1" size="0"/>
+            <node name="egzogamia-1" size="0"/>
+            <node name="interdykt-1" size="0"/>
+            <node name="nieproliferacja-1" size="0"/>
+            <node name="niedopuszczalność-1, niedozwoloność-1" size="0"/>
+            <node name="prohibicja-1" size="0"/>
+            <node name="szlaban-3" size="0"/>
+          </node>
+        </node>
+        <node name="rozkaz-1, komenda-1" size="7">
+          <node name="rozkaz personalny-1" size="0"/>
+          <node name="odbój-3" size="0"/>
+          <node name="wsiadany-1" size="0"/>
+          <node name="powołanie-3" size="2">
+            <node name="inwestytura-1" size="0"/>
+            <node name="intronizacja-1" size="0"/>
+          </node>
+          <node name="rozkaz dzienny-1" size="0"/>
+        </node>
+        <node name="nakaz-1, przykaz-1" size="4">
+          <node name="głos-7" size="1">
+            <node name="daimonion-1, dajmon-1, dajmonion-1" size="0"/>
+          </node>
+          <node name="przykazanie-2" size="1">
+            <node name="micwa-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="wyzwanie-4" size="0"/>
+      <node name="stwierdzenie-3, sformułowanie-3" size="3">
+        <node name="herezja-3" size="0"/>
+        <node name="konstatacja-1" size="0"/>
+        <node name="spostrzeżenie-3, obserwacja-4" size="0"/>
+      </node>
+      <node name="roszczenie-2, żądanie-2, pretensja-2" size="1">
+        <node name="ultimatum-1" size="0"/>
+      </node>
+      <node name="pytanie-5" size="4">
+        <node name="pytanie retoryczne-1" size="0"/>
+        <node name="indagacja-1" size="0"/>
+        <node name="zasięgnięcie-2" size="0"/>
+        <node name="interpelacja-1, zapytanie-2" size="0"/>
+      </node>
+      <node name="przezywanie-3, wymyślanie-3, zwymyślanie-3" size="0"/>
+      <node name="przemówienie-6, przemowa-1, mowa-1" size="26">
+        <node name="mowa obrończa-1" size="0"/>
+        <node name="mowa oskarżycielska-1" size="0"/>
+        <node name="mowa końcowa-1" size="0"/>
+        <node name="nauka-3, nauczanie-4" size="4">
+          <node name="kerygmat-1" size="0"/>
+          <node name="katecheza-1" size="0"/>
+          <node name="kazanie-6, homilia-1" size="1">
+            <node name="egzorta-1" size="0"/>
+          </node>
+        </node>
+        <node name="alokucja-1" size="0"/>
+        <node name="laudacja-1" size="0"/>
+        <node name="mówka-1" size="0"/>
+        <node name="jeremiada-1" size="0"/>
+        <node name="diatryba-1" size="0"/>
+        <node name="apologia-2" size="0"/>
+        <node name="apologetyk-2, apologia-1" size="0"/>
+        <node name="filipika-1" size="0"/>
+        <node name="orędzie-1" size="0"/>
+        <node name="tyrada-1, perora-1" size="0"/>
+        <node name="toast-1" size="0"/>
+        <node name="oracja-1" size="0"/>
+        <node name="exposé-1" size="0"/>
+        <node name="wykład-1" size="4">
+          <node name="repetytorium-1" size="0"/>
+          <node name="referat-1, odczyt-1, prelekcja-1" size="2">
+            <node name="autoreferat-1" size="0"/>
+            <node name="koreferat-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="prośba-1, życzenie-2" size="23">
+        <node name="ostatnia wola-1" size="0"/>
+        <node name="koncert życzeń-2" size="0"/>
+        <node name="dobranoc-2" size="0"/>
+        <node name="solicytacja-1" size="0"/>
+        <node name="zaproszenie-3, zaprosiny-1, inwitacja-1" size="1">
+          <node name="engagement-2" size="0"/>
+        </node>
+        <node name="naleganie-2" size="1">
+          <node name="błaganie-3" size="0"/>
+        </node>
+        <node name="suplika-1" size="0"/>
+        <node name="żebranina-2" size="0"/>
+        <node name="zasięgnięcie-2" size="0"/>
+        <node name="błogosławieństwo-1" size="0"/>
+        <node name="petycja-1" size="0"/>
+        <node name="apel-1, odezwa-1, wezwanie-6" size="9">
+          <node name="apel poległych-1" size="0"/>
+          <node name="głos wołającego na puszczy-1" size="0"/>
+          <node name="uniwersał-3" size="0"/>
+          <node name="uniwersał-4" size="0"/>
+          <node name="proklamacja-1" size="0"/>
+          <node name="zew-1" size="0"/>
+          <node name="manifest-1, oznajmienie-2, odezwa-2" size="2">
+            <node name="confiteor-2" size="0"/>
+            <node name="jednodniówka-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="orzeczenie-1, postanowienie-2" size="38">
+        <node name="nakaz aresztowania-1" size="0"/>
+        <node name="klauzula wykonalności-1" size="0"/>
+        <node name="uznanie nieważności małżeństwa-1" size="0"/>
+        <node name="zwolnienie-8" size="9">
+          <node name="zwolnienie warunkowe-1" size="0"/>
+          <node name="destytucja-1" size="0"/>
+          <node name="dymisja-2" size="3">
+            <node name="abszyt-1" size="0"/>
+            <node name="impeachment-1" size="0"/>
+            <node name="detronizacja-2" size="0"/>
+          </node>
+          <node name="zwolnienie grupowe-1" size="0"/>
+          <node name="dyscyplinarka-1" size="0"/>
+          <node name="lokaut-1" size="0"/>
+        </node>
+        <node name="precedens-2" size="1">
+          <node name="prejudykat-1" size="0"/>
+        </node>
+        <node name="fatwa-1" size="0"/>
+        <node name="uniewinnienie-3" size="0"/>
+        <node name="odroczenie-2" size="1">
+          <node name="dylacja-1" size="0"/>
+        </node>
+        <node name="koszer-2" size="0"/>
+        <node name="nakaz kwaterunkowy-1" size="0"/>
+        <node name="nakaz karny-1, wyrok nakazowy-1" size="0"/>
+        <node name="moratorium-1" size="0"/>
+        <node name="rezygnacja-2" size="3">
+          <node name="abdykacja-1" size="0"/>
+          <node name="dymisja-1" size="0"/>
+          <node name="ustępstwo-1, koncesja-2" size="0"/>
+        </node>
+        <node name="tytuł egzekucyjny-1" size="0"/>
+        <node name="rehabilitacja-3" size="0"/>
+        <node name="wyrok-2" size="7">
+          <node name="ortyl-1" size="0"/>
+          <node name="wyrok prawomocny-1" size="0"/>
+          <node name="wyrok uniewinniający-1" size="0"/>
+          <node name="wyrok skazujący-1" size="3">
+            <node name="kondemnata-1, kondemnacja-1" size="0"/>
+            <node name="dożywocie-1" size="0"/>
+            <node name="eksmisja-2" size="0"/>
+          </node>
+        </node>
+        <node name="uzgodnienie-2" size="0"/>
+      </node>
+      <node name="opis-2, deskrypcja-1" size="87">
+        <node name="chorografia-1" size="0"/>
+        <node name="ekfraza-1" size="0"/>
+        <node name="mikrografia-1" size="0"/>
+        <node name="heksaemeron-1" size="0"/>
+        <node name="doksografia-1" size="0"/>
+        <node name="opis bibliograficzny-1" size="0"/>
+        <node name="charakterystyka-3" size="26">
+          <node name="charakterystyka postaci-1" size="0"/>
+          <node name="specyfika-1" size="20">
+            <node name="specyficzność-1" size="19">
+              <node name="swoistość-1" size="18">
+                <node name="indywidualność-2" size="0"/>
+                <node name="nielokalność-1" size="0"/>
+                <node name="domowość-1" size="0"/>
+                <node name="lokalność-1" size="14">
+                  <node name="regionalność-1" size="1">
+                    <node name="subregionalność-1, podregionalność-1" size="0"/>
+                  </node>
+                  <node name="mazurskość-1" size="0"/>
+                  <node name="kresowość-1" size="0"/>
+                  <node name="wiejskość-1" size="4">
+                    <node name="sielankowość-1, sielskość-1" size="0"/>
+                    <node name="rustykalność-1" size="0"/>
+                    <node name="wieśniactwo-1" size="0"/>
+                    <node name="ludowość-1" size="0"/>
+                  </node>
+                  <node name="miejskość-1, miastowość-1, komunalność-1" size="4">
+                    <node name="mieszczańskość-1" size="2">
+                      <node name="drobnomieszczaństwo-1, drobnomieszczańskość-1" size="1">
+                        <node name="kołtuństwo-1, kołtuneria-1, dulszczyzna-1, filisteria-1" size="0"/>
+                      </node>
+                    </node>
+                    <node name="stołeczność-1" size="0"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node name="autocharakterystyka-1" size="0"/>
+          <node name="karykatura-1" size="1">
+            <node name="autokarykatura-1" size="0"/>
+          </node>
+          <node name="sylwetka-3, portret-2" size="0"/>
+        </node>
+        <node name="zasada-4, prawo-2" size="42">
+          <node name="prawo Hubble'a-1" size="0"/>
+          <node name="prawo Moore'a-1" size="0"/>
+          <node name="prawo Ohma dla obwodu magnetycznego-1" size="0"/>
+          <node name="prawo Curie-Weissa-1" size="0"/>
+          <node name="prawo Coulomba-1" size="0"/>
+          <node name="prawo rozwojowe Baera-1" size="0"/>
+          <node name="prawo Gaussa-1" size="0"/>
+          <node name="prawo Biota-Savarta-1" size="0"/>
+          <node name="prawo Ampère'a-1" size="0"/>
+          <node name="prawo indukcji elektromagnetycznej Faradaya-1" size="0"/>
+          <node name="zasada Huygensa-1" size="0"/>
+          <node name="prawo Ohma-1" size="0"/>
+          <node name="prawo Joule'a-1" size="0"/>
+          <node name="zasada reaferencji-1" size="0"/>
+          <node name="prawo Hardy’ego-Weinberga-1" size="0"/>
+          <node name="prawo Webera-Fechnera-1" size="0"/>
+          <node name="konwencja sumacyjna Einsteina-1" size="0"/>
+          <node name="twierdzenie o rzędzie-1" size="0"/>
+          <node name="twierdzenie o przekształceniu liniowym zadanym na bazie-1" size="0"/>
+          <node name="twierdzenie o bezwładności form kwadratowych-1, twierdzenie Sylvestera-Jacobiego-1" size="0"/>
+          <node name="twierdzenie Kroneckera-Capellego-1" size="0"/>
+          <node name="twierdzenie Cayleya–Hamiltona-1" size="0"/>
+          <node name="prawo Hooke’a-1" size="0"/>
+          <node name="prawo Estoup-Zipf-1" size="0"/>
+          <node name="twierdzenie Mordella-Weila-1" size="0"/>
+          <node name="zasada ekstensjonalności-1" size="0"/>
+          <node name="twierdzenie Pettisa-1" size="0"/>
+          <node name="zasada tożsamości-1, prawo tożsamości-1" size="0"/>
+          <node name="twierdzenie Wedderburna-1" size="0"/>
+          <node name="zasada przyspieszenia-1" size="0"/>
+          <node name="dyspozytywność-1, zasada dyspozytywności-1, zasada rozporządzalności-1" size="0"/>
+          <node name="dwuwartościowość-2, zasada dwuwartościowości-1" size="0"/>
+          <node name="kompozycyjność-1" size="0"/>
+          <node name="binarność-3" size="0"/>
+          <node name="dualność-2, zasada dualności-1" size="0"/>
+          <node name="prawo wielkich liczb-1" size="4">
+            <node name="słabe prawo wielkich liczb-1, SPWL-1" size="0"/>
+            <node name="mocne prawo wielkich liczb-1, MPWL-1" size="1">
+              <node name="mocne prawo wielkich liczb Kołmogorowa-1" size="0"/>
+            </node>
+            <node name="prawo Bernoulliego-1, prawo wielkich liczb Bernoulliego-1" size="0"/>
+          </node>
+          <node name="prawo fizyki-1, reguła-3" size="1">
+            <node name="ekwipartycja-1, zasada ekwipartycji energii-2, zasada ekwipartycji-1" size="0"/>
+          </node>
+        </node>
+        <node name="choreografia-2" size="0"/>
+        <node name="krajoznawstwo-2, fizjografia-1" size="0"/>
+        <node name="rysopis-1" size="0"/>
+        <node name="biografia-1, życiorys-1" size="7">
+          <node name="psychobiografia-1" size="0"/>
+          <node name="hagiografia-3" size="0"/>
+          <node name="żywot-2" size="0"/>
+          <node name="curriculum vitae-1, CV-1, cefałka-1" size="0"/>
+          <node name="hagiografia-2" size="0"/>
+          <node name="biogram-1, nota biograficzna-1" size="0"/>
+          <node name="autobiografia-1" size="0"/>
+        </node>
+      </node>
+      <node name="modlitwa-1" size="28">
+        <node name="akt strzelisty-1" size="0"/>
+        <node name="sekreta-1" size="0"/>
+        <node name="ofertorium-1" size="0"/>
+        <node name="confiteor-1, spowiedź powszechna-1" size="0"/>
+        <node name="credo-1, wyznanie wiary-1, profesja-2, kredo-2" size="0"/>
+        <node name="mantra-1" size="0"/>
+        <node name="koronka-4" size="0"/>
+        <node name="koronka-5" size="0"/>
+        <node name="kadisz-1, kadysz-1" size="0"/>
+        <node name="salat-1, namaz-1" size="0"/>
+        <node name="responsorium-1" size="1"/>
+        <node name="zdrowaśka-1" size="0"/>
+        <node name="antyfona-1" size="2">
+          <node name="improperia-1" size="0"/>
+          <node name="introit-1" size="0"/>
+        </node>
+        <node name="godzina kanoniczna-1" size="3">
+          <node name="tercja-3" size="0"/>
+          <node name="pryma-2" size="0"/>
+          <node name="nona-1" size="0"/>
+        </node>
+        <node name="kolekta-1" size="0"/>
+        <node name="kompleta-1" size="0"/>
+        <node name="różaniec-1" size="0"/>
+        <node name="psalm-1" size="2"/>
+        <node name="litania-1" size="0"/>
+        <node name="pacierz-1" size="0"/>
+      </node>
+      <node name="opowiadanie-2, historia-2, opowieść-2" size="13">
+        <node name="ględa-1" size="0"/>
+        <node name="bajka o żelaznym wilku-1" size="0"/>
+        <node name="anegdotka-1, dykteryjka-1" size="0"/>
+        <node name="gawęda-2" size="0"/>
+        <node name="dowcip-1, żart-2, kawał-4" size="7">
+          <node name="dowcipas-1" size="0"/>
+          <node name="suchar-4" size="0"/>
+          <node name="purnonsens-1" size="0"/>
+          <node name="greps-1" size="0"/>
+          <node name="szmonces-1" size="0"/>
+          <node name="wic-1" size="0"/>
+          <node name="śmiesznostka-2" size="0"/>
+        </node>
+        <node name="anegdota-1, opowiastka-2" size="0"/>
+      </node>
+      <node name="groźba-2, pogróżka-1" size="5">
+        <node name="groźba bezprawna-1" size="1">
+          <node name="groźba karalna-1" size="0"/>
+        </node>
+        <node name="ultimatum-1" size="0"/>
+        <node name="szantaż-1" size="1">
+          <node name="szmalcownictwo-1" size="0"/>
+        </node>
+      </node>
+      <node name="relacja-1, sprawozdanie-1" size="30">
+        <node name="fotorelacja-1" size="1">
+          <node name="fotoreportaż-1" size="0"/>
+        </node>
+        <node name="sprawozdanie finansowe-1" size="15">
+          <node name="bilans-2, rozrachunek-4, zestawienie-7" size="14">
+            <node name="bilans obrotów wyrównawczych-1, bilans obrotów dewizowych banku centralnego-1" size="0"/>
+            <node name="bilans obrotów kapitałowych-1" size="1">
+              <node name="rachunek kapitałowy-1" size="0"/>
+            </node>
+            <node name="bilans obrotów bieżących-1" size="0"/>
+            <node name="bilans czynny-1, bilans dodatni-1" size="0"/>
+            <node name="bilans bierny-1, bilans ujemny-1" size="0"/>
+            <node name="bilans księgowy-1" size="0"/>
+            <node name="bilans płatniczy-1" size="1">
+              <node name="rachunek finansowy-1" size="0"/>
+            </node>
+            <node name="bilans handlowy-1" size="3">
+              <node name="teoria naturalnej stagnacji-1" size="0"/>
+              <node name="deficyt handlowy-1" size="0"/>
+              <node name="nadwyżka handlowa-1" size="0"/>
+            </node>
+            <node name="remanent-1" size="0"/>
+          </node>
+        </node>
+        <node name="podsumowanie-6, bilans-1, saldo-2, summa-1" size="4">
+          <node name="karma-2, karman-1" size="1">
+            <node name="karma kredytowa-1" size="0"/>
+          </node>
+          <node name="obrachunek-1, rozrachunek-2" size="1"/>
+        </node>
+        <node name="raport-1, meldunek-1" size="3">
+          <node name="biała księga-1" size="0"/>
+          <node name="ceduła-2" size="0"/>
+          <node name="raport karny-1" size="0"/>
+        </node>
+        <node name="protokół-1" size="2">
+          <node name="protokół rozbieżności-1" size="0"/>
+          <node name="protokół jednostronny-1" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="utwór-1, dzieło-1" size="797">
+      <node name="impresja-2" size="0"/>
+      <node name="utwór wkładowy-1" size="0"/>
+      <node name="samograj-4" size="0"/>
+      <node name="łabędzi śpiew-1" size="0"/>
+      <node name="utwór audiowizualny-1" size="148">
+        <node name="gra komputerowa-1" size="22" abstract="true">
+          <node name="czytanka-3" size="0"/>
+          <node name="remake-2" size="0"/>
+          <node name="symulator-2" size="1">
+            <node name="symulator lotu-1" size="0"/>
+          </node>
+          <node name="zręcznościówka-1, gra zręcznościowa-1" size="0"/>
+          <node name="sandbox-1" size="0"/>
+          <node name="skradanka-1" size="0"/>
+          <node name="strategia-3, strateg-2, gra strategiczna-1" size="2">
+            <node name="RTS-1, strategia czasu rzeczywistego-1" size="0"/>
+            <node name="turówka-2" size="0"/>
+          </node>
+          <node name="bijatyka-2, mordobicie-2, nawalanka-3" size="0"/>
+          <node name="strzelanina-3, strzelanka-1" size="1">
+            <node name="FPS-1" size="0"/>
+          </node>
+          <node name="przygodówka-1" size="1">
+            <node name="point and click-1" size="0"/>
+          </node>
+          <node name="platformówka-1" size="0"/>
+          <node name="gra RPG-2, RPG-1" size="1">
+            <node name="gra MMORPG-1, MMO-1" size="0"/>
+          </node>
+          <node name="gra sieciowa-1" size="1">
+            <node name="gra MMORPG-1, MMO-1" size="0"/>
+          </node>
+          <node name="ścigałka-1, wyścigi-1, wyścigówka-4, gra wyścigowa-1" size="1">
+            <node name="samochodówka-1" size="0"/>
+          </node>
+          <node name="film interaktywny-1" size="0"/>
+        </node>
+        <node name="film-1, obraz-6" size="90">
+          <node name="półkownik-1" size="0"/>
+          <node name="Disney-2" size="0"/>
+          <node name="remake-1" size="0"/>
+          <node name="superprodukcja-1, superfilm-1" size="0"/>
+          <node name="wideo-3" size="0"/>
+          <node name="film historyczny-1" size="3">
+            <node name="film kostiumowy-1, kostiumowiec-1" size="2"/>
+          </node>
+          <node name="film oświatowy-1" size="0"/>
+          <node name="film science-fiction-1, film SF-1, film S-F-2, film s-f-1, film fantastycznonaukowy-1" size="2">
+            <node name="cyberpank-2" size="0"/>
+            <node name="komedia science-fiction-1, komedia SF-1, komedia s-f-1, komedia S-F-2" size="0"/>
+          </node>
+          <node name="film noir-1, czarny film-1" size="0"/>
+          <node name="film telewizyjny-1" size="0"/>
+          <node name="film w zwolnionym tempie-1" size="0"/>
+          <node name="film 3D-1, film trójwymiarowy-1" size="0"/>
+          <node name="kronika filmowa-1" size="0"/>
+          <node name="wersja reżyserska-1" size="0"/>
+          <node name="wersja kinowa-1" size="0"/>
+          <node name="film amatorski-1" size="0"/>
+          <node name="hentai-1" size="0"/>
+          <node name="anime-1" size="5">
+            <node name="shounen-2" size="0"/>
+            <node name="shounenai-1, yaoi-1, shōnen-ai-1" size="0"/>
+            <node name="shoujoai-1, yuri-1, shōjo-ai-1" size="0"/>
+            <node name="ecchi-1" size="0"/>
+            <node name="hentai-1" size="0"/>
+          </node>
+          <node name="paradokument-1" size="0"/>
+          <node name="teledysk-1, wideoklip-1, klip-1, clip-1, videoclip-1" size="0"/>
+          <node name="spot-1, spot reklamowy-1, reklamówka-2" size="1">
+            <node name="billboard-3" size="0"/>
+          </node>
+          <node name="koprodukcja-1" size="0"/>
+          <node name="dramat-2, film dramatyczny-1" size="5">
+            <node name="dramat katastroficzny-1" size="0"/>
+            <node name="dramat sądowy-1" size="0"/>
+            <node name="film psychologiczny-1, dramat psychologiczny-1" size="0"/>
+            <node name="komediodramat-2, film tragikomiczny-1" size="0"/>
+            <node name="wyciskacz łez-1" size="0"/>
+          </node>
+          <node name="komedia-2, film komediowy-1" size="8">
+            <node name="komedia science-fiction-1, komedia SF-1, komedia s-f-1, komedia S-F-2" size="0"/>
+            <node name="komediodramat-2, film tragikomiczny-1" size="0"/>
+            <node name="komedia sensacyjna-1" size="0"/>
+            <node name="czarna komedia-1" size="0"/>
+            <node name="komedia kryminalna-1" size="0"/>
+            <node name="komedia romantyczna-1" size="0"/>
+            <node name="burleska-1" size="1">
+              <node name="slapstick-1" size="0"/>
+            </node>
+          </node>
+          <node name="film autorski-1" size="0"/>
+          <node name="film awanturniczy-1" size="0"/>
+          <node name="kreskówka-1" size="0"/>
+          <node name="film średniometrażowy-1" size="0"/>
+          <node name="film kostiumowy-1, kostiumowiec-1" size="2">
+            <node name="film samurajski-1" size="0"/>
+            <node name="film płaszcza i szpady-1" size="0"/>
+          </node>
+          <node name="film interaktywny-1" size="0"/>
+          <node name="film dźwiękowy-1" size="0"/>
+          <node name="film pełnometrażowy-1, film długometrażowy-1, pełny metraż-1, długi metraż-1" size="1">
+            <node name="pełnometrażowy film fabularny-1, długometrażowy film fabularny-1" size="0"/>
+          </node>
+          <node name="film niemy-1" size="0"/>
+          <node name="musical-1, film muzyczny-1" size="0"/>
+          <node name="migawka-1" size="0"/>
+          <node name="film dokumentalny-1" size="0"/>
+          <node name="animacja-1, film animowany-1, bajka-4" size="0"/>
+          <node name="film dla dorosłych-1, pornos-1, pornol-1" size="0"/>
+          <node name="film krótkometrażowy-1, krótki metraż-1, krótkometrażówka-1" size="3">
+            <node name="zwiastun-4, forszpan-1, zajawka-1, trailer-1" size="2"/>
+          </node>
+          <node name="film fabularny-1, film aktorski-1" size="19">
+            <node name="thriller-2, dreszczowiec-1" size="1">
+              <node name="gore-1" size="0"/>
+            </node>
+            <node name="horror-3" size="1">
+              <node name="gore-1" size="0"/>
+            </node>
+            <node name="film płaszcza i szpady-1" size="0"/>
+            <node name="film wojenny-1, dramat wojenny-1" size="1">
+              <node name="film antywojenny-1" size="0"/>
+            </node>
+            <node name="pełnometrażowy film fabularny-1, długometrażowy film fabularny-1" size="0"/>
+            <node name="kryminał-1, film kryminalny-1" size="0"/>
+            <node name="western-1" size="3">
+              <node name="antywestern-1, western rewizjonistyczny-1" size="0"/>
+              <node name="acid western-1" size="0"/>
+              <node name="spaghetti western-1, macaroni western-1" size="0"/>
+            </node>
+            <node name="melodramat-1" size="0"/>
+            <node name="film sensacyjny-1, film akcji-1, kino akcji-1, nawalanka-4, dramat sensacyjny-1" size="5">
+              <node name="film szpiegowski-1" size="0"/>
+              <node name="film katastroficzny-1" size="1">
+                <node name="dramat katastroficzny-1" size="0"/>
+              </node>
+              <node name="dramat gangsterski-1" size="0"/>
+              <node name="film drogi-1, kino drogi-1" size="0"/>
+            </node>
+          </node>
+          <node name="serial-1, serial telewizyjny-1" size="8"/>
+          <node name="ekranizacja-1" size="0"/>
+        </node>
+        <node name="program-5" size="43">
+          <node name="program telewizyjny-1" size="13">
+            <node name="telezakupy-2" size="0"/>
+            <node name="telewizja śniadaniowa-1" size="0"/>
+            <node name="program specjalny-1, wydanie specjalne-1" size="0"/>
+            <node name="teleturniej-1" size="0"/>
+            <node name="serial-1, serial telewizyjny-1" size="8">
+              <node name="serial dokumentalny-1" size="1">
+                <node name="telenowela dokumentalna-1" size="0"/>
+              </node>
+              <node name="serial filmowy-1" size="0"/>
+              <node name="serial komediowy-1" size="1"/>
+              <node name="miniserial-1" size="0"/>
+              <node name="opera mydlana-1" size="1">
+                <node name="telenowela dokumentalna-1" size="0"/>
+              </node>
+              <node name="telenowela-1" size="0"/>
+            </node>
+          </node>
+          <node name="program w kolorze-1" size="0"/>
+          <node name="program z telefonicznym udziałem słuchaczy-1, program z telefonicznym udziałem radiosłuchaczy-1" size="0"/>
+          <node name="program z telefonicznym udziałem widzów-1" size="0"/>
+          <node name="program rozrywkowy-1" size="2">
+            <node name="talent show-1" size="0"/>
+            <node name="teleturniej-1" size="0"/>
+          </node>
+          <node name="program cykliczny-1" size="2">
+            <node name="serial komediowy-1" size="1">
+              <node name="sitcom-1" size="0"/>
+            </node>
+          </node>
+          <node name="teatr telewizji-1" size="0"/>
+          <node name="reality-show-1" size="0"/>
+          <node name="pogoda-3, prognoza pogody-1" size="0"/>
+          <node name="talk show-1, talk-show-1" size="0"/>
+          <node name="wieczorynka-1, dobranocka-1" size="0"/>
+          <node name="quiz-1, kwiz-1" size="0"/>
+          <node name="transmisja-2" size="3">
+            <node name="retransmisja-1" size="0"/>
+            <node name="teletransmisja-2" size="0"/>
+            <node name="teletransmisja-1" size="0"/>
+          </node>
+          <node name="powtórka-2" size="1">
+            <node name="reemisja-1" size="0"/>
+          </node>
+          <node name="program informacyjny-1" size="1">
+            <node name="dziennik-4" size="0"/>
+          </node>
+          <node name="audycja-1" size="8">
+            <node name="słuchowisko-1" size="2">
+              <node name="powieść radiowa-1" size="0"/>
+              <node name="teatr radiowy-1" size="0"/>
+            </node>
+            <node name="koncert życzeń-1" size="0"/>
+            <node name="komentarz-4" size="0"/>
+            <node name="przekładaniec-2, montaż-2" size="1">
+              <node name="kabareton-1" size="0"/>
+            </node>
+            <node name="reportaż-2" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="apokryf-3" size="0"/>
+      <node name="utwór sceniczny-1" size="46" abstract="true">
+        <node name="opereta-1" size="0"/>
+        <node name="zarzuela-1" size="0"/>
+        <node name="bluetka-1" size="0"/>
+        <node name="singspiel-1, komedioopera-1" size="0"/>
+        <node name="intermedium-3, interludium-1" size="0"/>
+        <node name="intermedium-1" size="0"/>
+        <node name="serenada-4" size="0"/>
+        <node name="skecz-1" size="1">
+          <node name="szmonces-1" size="0"/>
+        </node>
+        <node name="balet-1" size="0"/>
+        <node name="operetka-1" size="0"/>
+        <node name="opera-1" size="1"/>
+        <node name="dramat-1, sztuka-2" size="32"/>
+      </node>
+      <node name="wspomnienie-5" size="0"/>
+      <node name="produkcyjniak-1" size="1">
+        <node name="powieść produkcyjna-1" size="0"/>
+      </node>
+      <node name="spin-off-1, sidequel-1" size="0"/>
+      <node name="usypiacz-1" size="0"/>
+      <node name="prequel-1" size="0"/>
+      <node name="debiut-1" size="1">
+        <node name="pierwocina-1" size="0"/>
+      </node>
+      <node name="dylogia-1, dyptyk-2" size="0"/>
+      <node name="paszkwil-1" size="0"/>
+      <node name="pastisz-1" size="1">
+        <node name="persyflaż-1" size="0"/>
+      </node>
+      <node name="moralitet-1" size="0"/>
+      <node name="apokryf-1, pseudoepigraf-1" size="0"/>
+      <node name="dokument-3" size="30">
+        <node name="przekaz-5" size="28">
+          <node name="pismo-7" size="27">
+            <node name="księga-4" size="26">
+              <node name="księga stadna-1" size="0"/>
+              <node name="księga wójtowska-1" size="0"/>
+              <node name="penitencjał-1" size="0"/>
+              <node name="księga domowa-1" size="1">
+                <node name="sylwa-1" size="0"/>
+              </node>
+              <node name="księga liturgiczna-1" size="14">
+                <node name="menologium-1, menologion-1" size="0"/>
+                <node name="synaksarion-1, synaksariusz-1" size="0"/>
+                <node name="euchologion-1" size="0"/>
+                <node name="ewangeliarz-3, ewangelistarz-2" size="0"/>
+                <node name="pasjonał-1" size="0"/>
+                <node name="martylogium-1" size="0"/>
+                <node name="kyriale-1" size="0"/>
+                <node name="epistolarium-1" size="0"/>
+                <node name="pontyfikał-1, pontyfikał rzymski-1" size="0"/>
+                <node name="sakramentarz-1, sakramentariusz-1" size="0"/>
+                <node name="antyfonarz-1" size="0"/>
+                <node name="lekcjonarz-1" size="0"/>
+                <node name="mszał-1" size="0"/>
+                <node name="graduał-1" size="0"/>
+              </node>
+              <node name="martyrologium-1" size="0"/>
+              <node name="święta księga-1" size="1">
+                <node name="wedy-1" size="0"/>
+              </node>
+              <node name="kronika-1" size="2">
+                <node name="pitawal-1, pitaval-1" size="0"/>
+                <node name="annał-3, rocznik-1" size="0"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node name="film dokumentalny-1" size="0"/>
+      </node>
+      <node name="miniatura-4" size="5">
+        <node name="intermezzo-1" size="0"/>
+        <node name="bagatela-1" size="0"/>
+        <node name="legenda-3" size="0"/>
+        <node name="arabeska-2" size="0"/>
+        <node name="humoreska-2" size="0"/>
+      </node>
+      <node name="kontynuacja-1, ciąg dalszy-1" size="1">
+        <node name="sequel-1" size="0"/>
+      </node>
+      <node name="reportaż-1" size="2">
+        <node name="fotoreportaż-1" size="0"/>
+        <node name="reportaż literacki-1" size="0"/>
+      </node>
+      <node name="kompilacja-1" size="0"/>
+      <node name="groteska-1" size="1">
+        <node name="tragigroteska-2" size="0"/>
+      </node>
+      <node name="tasiemiec-2" size="0"/>
+      <node name="utwór muzyczny-1" size="289" abstract="true">
+        <node name="kawałek-1" size="4">
+          <node name="opener-2" size="0"/>
+          <node name="pościelówa-1, pościelówka-2" size="0"/>
+          <node name="cover-1, kower-1" size="0"/>
+          <node name="miks-2, remiks-1" size="0"/>
+        </node>
+        <node name="utwór kameralny-1" size="0"/>
+        <node name="utwór programowy-1" size="1">
+          <node name="legenda-3" size="0"/>
+        </node>
+        <node name="blues-2" size="0"/>
+        <node name="quodlibet-1" size="0"/>
+        <node name="anthem-1" size="0"/>
+        <node name="klauzula-2" size="0"/>
+        <node name="poema-1" size="0"/>
+        <node name="ansambl-3" size="0"/>
+        <node name="przygrywka-2" size="0"/>
+        <node name="większa forma muzyczna-1" size="15" abstract="true">
+          <node name="cykl sonatowy-1" size="0"/>
+          <node name="opereta-1" size="0"/>
+          <node name="koncert-2" size="0"/>
+          <node name="pasja-5" size="0"/>
+          <node name="msza-2" size="1">
+            <node name="requiem-2, rekwiem-2" size="0"/>
+          </node>
+          <node name="oratorium-1" size="0"/>
+          <node name="suita-1" size="1">
+            <node name="partita-1" size="0"/>
+          </node>
+          <node name="balet-1" size="0"/>
+          <node name="operetka-1" size="0"/>
+          <node name="symfonia-1" size="1"/>
+          <node name="opera-1" size="1">
+            <node name="rock-opera-1" size="0"/>
+          </node>
+        </node>
+        <node name="mazurek-6" size="0"/>
+        <node name="nazwa utworu muzycznego informująca o liczbie jego wykonawców-1" size="18" abstract="true">
+          <node name="septet-2" size="0"/>
+          <node name="solo-2" size="5">
+            <node name="arioso-1" size="0"/>
+            <node name="solówka-1" size="1">
+              <node name="palcówka-7" size="0"/>
+            </node>
+            <node name="aria-1" size="1"/>
+          </node>
+          <node name="duet-3" size="0"/>
+          <node name="trio-2" size="1">
+            <node name="tercet-3" size="0"/>
+          </node>
+          <node name="nonet-1" size="0"/>
+          <node name="sekstet-2" size="1">
+            <node name="sekstet-3" size="0"/>
+          </node>
+          <node name="oktet-2" size="0"/>
+          <node name="kwartet-1" size="2">
+            <node name="kwartet fletowy-1" size="0"/>
+            <node name="kwartet fortepianowy-3" size="0"/>
+          </node>
+          <node name="kwintet-2" size="0"/>
+        </node>
+        <node name="nazwa utworu muzycznego związana z jego tempem-1" size="11" abstract="true">
+          <node name="andantino-2" size="0"/>
+          <node name="larghetto-2" size="0"/>
+          <node name="presto-2" size="0"/>
+          <node name="vivace-2" size="0"/>
+          <node name="largo-2" size="0"/>
+          <node name="moderato-2" size="0"/>
+          <node name="lento-2" size="0"/>
+          <node name="andante-2" size="0"/>
+          <node name="allegretto-2" size="0"/>
+          <node name="adadżio-2, adagio-2" size="0"/>
+          <node name="allegro-1" size="0"/>
+        </node>
+        <node name="wariacje-1" size="0"/>
+        <node name="intermezzo-1" size="0"/>
+        <node name="ricercar-1" size="0"/>
+        <node name="elegia-3" size="1">
+          <node name="duma-3" size="0"/>
+        </node>
+        <node name="opus-1" size="0"/>
+        <node name="impromptu-1" size="0"/>
+        <node name="marsz-3" size="1">
+          <node name="marsz triumfalny-1" size="0"/>
+        </node>
+        <node name="nokturn-1" size="0"/>
+        <node name="etiuda-1, etiuda koncertowa-1" size="0"/>
+        <node name="toccata-1" size="0"/>
+        <node name="serenada-1" size="0"/>
+        <node name="rapsodia-1" size="0"/>
+        <node name="madrygał-1" size="0"/>
+        <node name="kantylena-1" size="0"/>
+        <node name="kancona-2, canzona-1" size="1">
+          <node name="kanconeta-2, canzonetta-2" size="0"/>
+        </node>
+        <node name="chorał-1" size="0"/>
+        <node name="fuga-1" size="0"/>
+        <node name="ćwiczenie-6, etiuda-2, wprawka-1" size="4">
+          <node name="solfeż-2" size="0"/>
+          <node name="wokaliza-1" size="0"/>
+          <node name="palcówka-1" size="1">
+            <node name="pięciopalcówka-1" size="0"/>
+          </node>
+        </node>
+        <node name="humoreska-2" size="0"/>
+        <node name="aranżacja-1, aranż-1" size="2">
+          <node name="cover-1, kower-1" size="0"/>
+          <node name="transkrypcja-2" size="0"/>
+        </node>
+        <node name="sonata-1" size="1">
+          <node name="sonatina-1" size="0"/>
+        </node>
+        <node name="poemat symfoniczny-1" size="0"/>
+        <node name="taniec-1" size="108">
+          <node name="hip-hop-3" size="0"/>
+          <node name="tango-3" size="0"/>
+          <node name="polonez-5" size="0"/>
+          <node name="polka-4" size="0"/>
+          <node name="kozak-10, kazaczok-3" size="0"/>
+          <node name="krakowiak-7" size="0"/>
+          <node name="habanera-3" size="0"/>
+          <node name="gigue-3, jig-5, giga-3, dżig-3" size="0"/>
+          <node name="saltarello-2" size="0"/>
+          <node name="passepied-2" size="0"/>
+          <node name="krzesany-2" size="0"/>
+          <node name="halling-2" size="0"/>
+          <node name="bergamasca-2, bergamaska-2" size="0"/>
+          <node name="beguine-2" size="0"/>
+          <node name="passamezzo-2" size="0"/>
+          <node name="allemande-2" size="0"/>
+          <node name="siciliana-1" size="0"/>
+          <node name="courante-1, kurant-4" size="0"/>
+          <node name="calata-1" size="0"/>
+          <node name="forlana-2" size="0"/>
+          <node name="galiarda-2" size="0"/>
+          <node name="bourrée-2" size="0"/>
+          <node name="bolero-5" size="0"/>
+          <node name="utwór taneczny-1" size="77" abstract="true">
+            <node name="zorba-2" size="0"/>
+            <node name="sarabanda-3" size="0"/>
+            <node name="menuet-3" size="0"/>
+            <node name="one-step-2" size="0"/>
+            <node name="madison-2" size="0"/>
+            <node name="latino-2" size="4">
+              <node name="jive-2" size="0"/>
+              <node name="bachata-2" size="0"/>
+              <node name="cza-cza-2, cha-cha-2" size="0"/>
+              <node name="bossa nova-2" size="0"/>
+            </node>
+            <node name="cake-walk-2" size="0"/>
+            <node name="zbójnicki-2" size="0"/>
+            <node name="waloszek-2" size="0"/>
+            <node name="trepak-2" size="0"/>
+            <node name="sardana-2" size="0"/>
+            <node name="mietlorz-2" size="0"/>
+            <node name="lezginka-2" size="0"/>
+            <node name="lawonicha-2" size="0"/>
+            <node name="krzesany-3" size="0"/>
+            <node name="kołomyjka-3" size="0"/>
+            <node name="fandango-3" size="0"/>
+            <node name="drabant-3" size="0"/>
+            <node name="shimmy-2" size="0"/>
+            <node name="rigaudon-2" size="0"/>
+            <node name="zouk-1" size="0"/>
+            <node name="cenar-2" size="0"/>
+            <node name="kaczucza-2" size="0"/>
+            <node name="farandola-2" size="0"/>
+            <node name="lambada-2" size="0"/>
+            <node name="twist-2" size="1">
+              <node name="surf-2" size="0"/>
+            </node>
+            <node name="tango-2" size="1">
+              <node name="milonga-1" size="0"/>
+            </node>
+            <node name="paso doble-2" size="0"/>
+            <node name="galop-4" size="0"/>
+            <node name="trojak-3" size="0"/>
+            <node name="sztajer-2" size="0"/>
+            <node name="polka-3" size="1">
+              <node name="sztajer-4, sztajerek-2" size="0"/>
+            </node>
+            <node name="mazur-3, mazurek-5" size="0"/>
+            <node name="lendler-2" size="0"/>
+            <node name="kujawiak-3" size="0"/>
+            <node name="kozak-6, hopak-3" size="0"/>
+            <node name="kazaczok-2, kozak-9" size="0"/>
+            <node name="jig-3, gigue-2, giga-2, dżig-2" size="0"/>
+            <node name="hopak-2" size="0"/>
+            <node name="hajduk-5" size="0"/>
+            <node name="habanera-2" size="0"/>
+            <node name="czardasz-3" size="0"/>
+            <node name="chodzony-2" size="0"/>
+            <node name="bolero-4" size="0"/>
+            <node name="salsa-2" size="0"/>
+            <node name="tarantella-1, tarantela-1" size="0"/>
+            <node name="krakowiak-1" size="0"/>
+            <node name="chmiel-2" size="0"/>
+            <node name="hora-1" size="0"/>
+            <node name="samba-2" size="0"/>
+            <node name="rumba-2" size="0"/>
+            <node name="oberek-2" size="0"/>
+            <node name="mambo-2" size="0"/>
+            <node name="kankan-1" size="0"/>
+            <node name="fokstrot-2, foxtrot-2" size="3">
+              <node name="slow-fox-2" size="0"/>
+              <node name="quickstep-2" size="0"/>
+              <node name="karioka-2" size="0"/>
+            </node>
+            <node name="charleston-2" size="0"/>
+            <node name="lansjer-3" size="0"/>
+            <node name="pawana-1" size="0"/>
+            <node name="kadryl-2" size="0"/>
+            <node name="gawot-1" size="0"/>
+            <node name="kontredans-2" size="1">
+              <node name="anglez-3, angielczyk-3" size="0"/>
+            </node>
+            <node name="walc-1" size="3">
+              <node name="walc wiedeński-2" size="0"/>
+              <node name="walc angielski-2" size="0"/>
+              <node name="boston-2" size="0"/>
+            </node>
+            <node name="polonez-2" size="0"/>
+          </node>
+          <node name="walc-3" size="0"/>
+          <node name="tarantella-3, tarantela-3" size="0"/>
+          <node name="padwan-3" size="0"/>
+          <node name="passacaglia-1" size="0"/>
+          <node name="sarabanda-2" size="0"/>
+          <node name="czardasz-2" size="0"/>
+          <node name="menuet-1" size="0"/>
+        </node>
+        <node name="utwór instrumentalny-1" size="26" abstract="true">
+          <node name="sinfonietta-1" size="0"/>
+          <node name="bolero-5" size="0"/>
+          <node name="parafraza-2" size="0"/>
+          <node name="walc-3" size="0"/>
+          <node name="tarantella-3, tarantela-3" size="0"/>
+          <node name="padwan-3" size="0"/>
+          <node name="koncert-2" size="0"/>
+          <node name="bagatela-1" size="0"/>
+          <node name="divertimento-2" size="0"/>
+          <node name="intrada-1" size="0"/>
+          <node name="tusz-7" size="0"/>
+          <node name="passacaglia-1" size="0"/>
+          <node name="sarabanda-2" size="0"/>
+          <node name="scherzo-1" size="0"/>
+          <node name="fantazja-3" size="0"/>
+          <node name="preludium-1" size="0"/>
+          <node name="arabeska-2" size="0"/>
+          <node name="czardasz-2" size="0"/>
+          <node name="rondo-2" size="0"/>
+          <node name="burleska-2" size="0"/>
+          <node name="intermedium-2, intermezzo-2" size="0"/>
+          <node name="uwertura-1" size="1">
+            <node name="sinfonia-1" size="0"/>
+          </node>
+          <node name="ballada-3" size="0"/>
+          <node name="symfonia-1" size="1">
+            <node name="symfonia koncertująca-1" size="0"/>
+          </node>
+        </node>
+        <node name="utwór wokalny-1" size="71" abstract="true">
+          <node name="solfeż-2" size="0"/>
+          <node name="tercet-3" size="0"/>
+          <node name="arioso-1" size="0"/>
+          <node name="wokaliza-1" size="0"/>
+          <node name="sekstet-3" size="0"/>
+          <node name="motet-1" size="0"/>
+          <node name="kanon-2" size="1">
+            <node name="caccia-1" size="0"/>
+          </node>
+          <node name="ballada-2" size="0"/>
+          <node name="piosenka-1" size="16">
+            <node name="przytupas-1" size="0"/>
+            <node name="piosenka aktorska-1" size="0"/>
+            <node name="singiel-5, singel-5, syngiel-2" size="0"/>
+            <node name="szumka-2" size="0"/>
+            <node name="szansonetka-1" size="0"/>
+            <node name="chanson-2" size="0"/>
+            <node name="kołomyjka-2" size="0"/>
+            <node name="szanta-1" size="0"/>
+            <node name="berżeretka-2" size="0"/>
+            <node name="śpiewanka-1" size="0"/>
+            <node name="kantylena-2" size="0"/>
+            <node name="song-2" size="1">
+              <node name="protest song-1" size="0"/>
+            </node>
+            <node name="przyśpiewka-1" size="1">
+              <node name="czastuszka-1" size="0"/>
+            </node>
+            <node name="kołysanka-1, berceuse-1" size="0"/>
+          </node>
+          <node name="pieśń-1" size="44">
+            <node name="kawatyna-1, kawatina-1, cavatina-1" size="0"/>
+            <node name="parodos-1" size="0"/>
+            <node name="lauda-1" size="0"/>
+            <node name="sekwencja-3" size="0"/>
+            <node name="enkomion-1" size="0"/>
+            <node name="rondo-5" size="0"/>
+            <node name="karmaniola-2, carmagnole-2" size="0"/>
+            <node name="duma-3" size="0"/>
+            <node name="villanella-1" size="0"/>
+            <node name="kurdesz-1" size="0"/>
+            <node name="passacaglia-3" size="0"/>
+            <node name="nenia-1" size="0"/>
+            <node name="majufes-1" size="0"/>
+            <node name="epinicjon-1, epinikion-1, epinicjum-1" size="0"/>
+            <node name="chorea-1" size="0"/>
+            <node name="suplikacja-1" size="0"/>
+            <node name="responsorium-1" size="1">
+              <node name="graduał-2" size="0"/>
+            </node>
+            <node name="pieśń ludowa-1" size="12" abstract="true">
+              <node name="wyrwas-1" size="0"/>
+              <node name="wiośnianka-1" size="0"/>
+              <node name="daina-1" size="0"/>
+              <node name="runa-2" size="0"/>
+              <node name="krakowiak-4" size="0"/>
+              <node name="pieśń weselna-1" size="3" abstract="true">
+                <node name="epitalamium-2" size="0"/>
+                <node name="dziewosłęb-2, dziewosłąb-2" size="0"/>
+                <node name="chmiel-4" size="0"/>
+              </node>
+              <node name="dajna-1, daina-2" size="0"/>
+              <node name="dumka-2" size="0"/>
+              <node name="pastorałka-1" size="0"/>
+            </node>
+            <node name="serenada-2" size="0"/>
+            <node name="serenada-3" size="0"/>
+            <node name="kancona-3, canzona-3" size="0"/>
+            <node name="kantyczka-1" size="0"/>
+            <node name="romanca-2" size="0"/>
+            <node name="gondoliera-1, barkarola-1" size="0"/>
+            <node name="kolęda-1" size="1">
+              <node name="pastorałka-1" size="0"/>
+            </node>
+            <node name="hymn-1" size="3">
+              <node name="trisagion-1" size="0"/>
+              <node name="kantyk-1, kantyka-1" size="0"/>
+              <node name="hymn państwowy-1" size="0"/>
+            </node>
+            <node name="aria-1" size="1">
+              <node name="aria koncertowa-1" size="0"/>
+            </node>
+          </node>
+        </node>
+        <node name="przebój-1" size="3">
+          <node name="evergreen-1" size="0"/>
+          <node name="superprzebój-1" size="0"/>
+          <node name="szlagier-1" size="0"/>
+        </node>
+        <node name="kantata-1" size="0"/>
+      </node>
+      <node name="utwór literacki-1, dzieło literackie-1" size="295" abstract="true">
+        <node name="dzieło otwarte-1" size="0"/>
+        <node name="apokryf-2" size="0"/>
+        <node name="stanca-3" size="0"/>
+        <node name="stanca-2" size="0"/>
+        <node name="heroida-1" size="0"/>
+        <node name="centon-1, bigos literacki-1" size="0"/>
+        <node name="moralizacja-2" size="0"/>
+        <node name="paramythia-1" size="0"/>
+        <node name="dialog-4" size="0"/>
+        <node name="tautogram-1" size="0"/>
+        <node name="dystopia-1" size="0"/>
+        <node name="apolog-1" size="0"/>
+        <node name="melika-1" size="0"/>
+        <node name="ewangelia-6" size="0"/>
+        <node name="fragment-2" size="3">
+          <node name="dwuwers-1" size="0"/>
+          <node name="epizod-2" size="0"/>
+          <node name="odcinek-1" size="0"/>
+        </node>
+        <node name="drobiazg-4" size="0"/>
+        <node name="apoftegmat-1" size="0"/>
+        <node name="antyutopia-1" size="0"/>
+        <node name="kobyła-4" size="0"/>
+        <node name="epicedium-1, epicedion-1" size="0"/>
+        <node name="hagada-1, haggada-1, agada-2" size="0"/>
+        <node name="bajka-1" size="1">
+          <node name="bajka zwierzęca-1" size="0"/>
+        </node>
+        <node name="makabreska-1" size="0"/>
+        <node name="sympozjon-1" size="0"/>
+        <node name="sylwa-2" size="0"/>
+        <node name="ramota-1, ramotka-1" size="0"/>
+        <node name="apoteoza-1" size="0"/>
+        <node name="diatryba-1" size="0"/>
+        <node name="apologetyk-2, apologia-1" size="0"/>
+        <node name="utwór epicki-1, dzieło epickie-1" size="95">
+          <node name="epyllion-1" size="0"/>
+          <node name="duma-2" size="0"/>
+          <node name="elegia-1" size="0"/>
+          <node name="pamiętnik-2" size="0"/>
+          <node name="epika wierszowana-1" size="0"/>
+          <node name="epika prozaiczna-1" size="0"/>
+          <node name="bylina-2" size="0"/>
+          <node name="kantylena-3" size="0"/>
+          <node name="romanca-1" size="0"/>
+          <node name="poemat-1" size="16"/>
+          <node name="opowiadanie-3" size="21"/>
+          <node name="powieść-1" size="46"/>
+        </node>
+        <node name="przypowieść-1, parabola-2" size="0"/>
+        <node name="persyflaż-1" size="0"/>
+        <node name="panegiryk-1" size="1">
+          <node name="epitalamium-1" size="0"/>
+        </node>
+        <node name="pamflet-1" size="0"/>
+        <node name="list poetycki-1" size="0"/>
+        <node name="romans-1" size="4">
+          <node name="romans gotycki-1" size="0"/>
+          <node name="makama-1" size="0"/>
+          <node name="romans rycerski-1" size="1">
+            <node name="sirat-1" size="0"/>
+          </node>
+        </node>
+        <node name="poemat epicki-1" size="3">
+          <node name="epopeja heroiczna-1" size="0"/>
+          <node name="powieść poetycka-1" size="0"/>
+          <node name="poemat heroiczny-1" size="0"/>
+        </node>
+        <node name="trawestacja-1" size="0"/>
+        <node name="satyra-1" size="3">
+          <node name="menippea-1, satyra menippejska-1" size="0"/>
+          <node name="palinodia-1" size="0"/>
+          <node name="burleska-3" size="0"/>
+        </node>
+        <node name="parodia-1" size="0"/>
+        <node name="szmira-1, tandeta-1, chała-1, gniot-1, ramota-2" size="3">
+          <node name="bazgrot-2" size="0"/>
+          <node name="komercja-1" size="0"/>
+          <node name="chałtura-1" size="0"/>
+        </node>
+        <node name="dzieło poetyckie-1" size="124">
+          <node name="liryk-1" size="0"/>
+          <node name="poemat-1" size="16">
+            <node name="rotuła-1" size="0"/>
+            <node name="morna-3" size="0"/>
+            <node name="drapa-1" size="0"/>
+            <node name="georgika-1" size="0"/>
+            <node name="madrygał-2" size="0"/>
+            <node name="kancona-1, canzona-2" size="1">
+              <node name="kanconetta-1, canzonetta-1, kanconeta-1" size="0"/>
+            </node>
+            <node name="poemat opisowy-1" size="0"/>
+            <node name="poemat heroikomiczny-1" size="0"/>
+            <node name="poemat dydaktyczny-1" size="0"/>
+            <node name="poemat dygresyjny-1" size="0"/>
+            <node name="epos-1, epopeja-1" size="4">
+              <node name="Homer-2" size="0"/>
+              <node name="purana-1" size="0"/>
+              <node name="itihasa-1" size="0"/>
+              <node name="epos homerycki-1" size="0"/>
+            </node>
+          </node>
+          <node name="wiersz-1" size="106">
+            <node name="heksametr-2" size="0"/>
+            <node name="dziewięciozgłoskowiec-2" size="0"/>
+            <node name="tetrametr-1" size="0"/>
+            <node name="ballata-1" size="0"/>
+            <node name="wiersz zdaniowy-1" size="0"/>
+            <node name="wiersz wolny-1" size="0"/>
+            <node name="wiersz toniczny-1" size="0"/>
+            <node name="wiersz sylabotoniczny-1" size="0"/>
+            <node name="wiersz sylabiczny-1" size="0"/>
+            <node name="wiersz stychiczny-1" size="0"/>
+            <node name="wiersz stroficzny-1" size="0"/>
+            <node name="wiersz nieregularny-1" size="0"/>
+            <node name="wiersz meliczny-1" size="0"/>
+            <node name="dziesięciozgłoskowiec-2" size="0"/>
+            <node name="dwunastozgłoskowiec-2" size="0"/>
+            <node name="blason-1" size="0"/>
+            <node name="raki-3" size="0"/>
+            <node name="pantum-1, pantun-1" size="0"/>
+            <node name="skoropis-3" size="0"/>
+            <node name="siedmiozgłoskowiec-1" size="0"/>
+            <node name="epigram-1, epigramat-1" size="4">
+              <node name="fraszka-1" size="3">
+                <node name="priapeum-1" size="0"/>
+                <node name="xenia-1" size="0"/>
+                <node name="figlik-1" size="0"/>
+              </node>
+            </node>
+            <node name="gatha-1" size="0"/>
+            <node name="wiersz obrazkowy-1" size="1">
+              <node name="kaligram-1" size="0"/>
+            </node>
+            <node name="rubajat-1, rubajjat-1, rubajt-1" size="0"/>
+            <node name="stornel-1, stornello-1" size="0"/>
+            <node name="akromonogram-1, wiersz akromonograficzny-1" size="0"/>
+            <node name="oda-1" size="0"/>
+            <node name="monorym-1" size="0"/>
+            <node name="lepiej-1" size="0"/>
+            <node name="szarada-2" size="0"/>
+            <node name="duma-2" size="0"/>
+            <node name="haiku-1" size="0"/>
+            <node name="pentametr-1" size="0"/>
+            <node name="moskalik-2" size="0"/>
+            <node name="ośmiozgłoskowiec-1" size="0"/>
+            <node name="epoda-1" size="0"/>
+            <node name="gazel-1, gazela-2, ghazal-1, gazal-1" size="0"/>
+            <node name="waka-2" size="1">
+              <node name="tanka-1" size="0"/>
+            </node>
+            <node name="elegia-1" size="0"/>
+            <node name="wierszydło-1" size="0"/>
+            <node name="kasyda-1" size="0"/>
+            <node name="nokturn-2" size="0"/>
+            <node name="anakreontyk-1" size="0"/>
+            <node name="aleksandryn-1, wiersz aleksandryjski-1" size="0"/>
+            <node name="sestyna-1, sekstyna-2" size="0"/>
+            <node name="oktostych-2, ośmiowiersz-2" size="0"/>
+            <node name="monostych-2" size="0"/>
+            <node name="madrygał-3" size="0"/>
+            <node name="dytyramb-1" size="0"/>
+            <node name="chorał-2" size="0"/>
+            <node name="heksametr-1" size="0"/>
+            <node name="czterowiersz-1" size="0"/>
+            <node name="akrostych-1" size="1">
+              <node name="abecedariusz-1, wiersz abecadłowy-1" size="0"/>
+            </node>
+            <node name="pean-1" size="0"/>
+            <node name="wyliczanka-2" size="0"/>
+            <node name="dystych-1, dwuwiersz-1" size="1">
+              <node name="dwuwers-2" size="0"/>
+            </node>
+            <node name="biały wiersz-1" size="0"/>
+            <node name="wiersz leoniński-1, leonin-1" size="0"/>
+            <node name="kantata-2" size="0"/>
+            <node name="erotyk-1" size="0"/>
+            <node name="limeryk-1" size="0"/>
+            <node name="elegia-2" size="4">
+              <node name="lamentacja-1, lament-2" size="3"/>
+            </node>
+            <node name="sonet-1" size="0"/>
+            <node name="rymowanka-1" size="0"/>
+            <node name="hymn-2" size="3">
+              <node name="kondakion-1, kontakion-1" size="0"/>
+              <node name="akatyst-1" size="0"/>
+              <node name="doksologia-2" size="0"/>
+            </node>
+            <node name="sielanka-1, bukolika-1, ekloga-1, pastorałka-2, idylla-1, skotopaska-1" size="2">
+              <node name="berżeretka-3" size="0"/>
+              <node name="madrygał-2" size="0"/>
+            </node>
+            <node name="ballada-1" size="1">
+              <node name="dumka-1" size="0"/>
+            </node>
+            <node name="epitafium-2, nagrobek-2" size="1">
+              <node name="elogium-1" size="0"/>
+            </node>
+            <node name="pieśń-2" size="22">
+              <node name="exodos-1, eksodos-1" size="0"/>
+              <node name="parodos-1" size="0"/>
+              <node name="chanson-1" size="0"/>
+              <node name="virelai-1" size="0"/>
+              <node name="prosodion-1" size="0"/>
+              <node name="kierlesz-1" size="0"/>
+              <node name="lai-1" size="0"/>
+              <node name="enkomion-1" size="0"/>
+              <node name="alba-2" size="0"/>
+              <node name="epinicjon-1, epinikion-1, epinicjum-1" size="0"/>
+              <node name="bylina-2" size="0"/>
+              <node name="stasimon-1" size="0"/>
+              <node name="kantylena-3" size="0"/>
+              <node name="dytyramb-2" size="0"/>
+              <node name="lamentacja-1, lament-2" size="3">
+                <node name="plankt-1, planctus-1" size="1">
+                  <node name="nenia-2" size="0"/>
+                </node>
+                <node name="tren-1" size="0"/>
+              </node>
+              <node name="padwan-1" size="0"/>
+              <node name="psalm-1" size="2">
+                <node name="psalm responsoryjny-1" size="0"/>
+                <node name="psalm alfabetyczny-1" size="0"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node name="proza-1" size="73">
+          <node name="arabeska-4" size="0"/>
+          <node name="proza poetycka-1" size="1">
+            <node name="makama-1" size="0"/>
+          </node>
+          <node name="nowela-1" size="0"/>
+          <node name="opowiadanie-3" size="21">
+            <node name="szkic-3" size="0"/>
+            <node name="obrazek-2" size="0"/>
+            <node name="gawęda-1" size="2">
+              <node name="gawęda sarmacka-1, gawęda szlachecka-1" size="0"/>
+              <node name="gawęda ludowa-1" size="0"/>
+            </node>
+            <node name="facecja-1" size="0"/>
+            <node name="humoreska-1" size="0"/>
+            <node name="opowieść-1" size="9">
+              <node name="bajka-2" size="0"/>
+              <node name="hadis-1" size="0"/>
+              <node name="robinsonada-3" size="0"/>
+              <node name="podanie-8" size="1">
+                <node name="klechda-1" size="0"/>
+              </node>
+              <node name="baśń-1, bajda-2" size="0"/>
+              <node name="legenda-2" size="0"/>
+              <node name="saga-2" size="0"/>
+              <node name="mit-2" size="0"/>
+            </node>
+            <node name="historyjka-1, opowiadanko-1, opowiastka-1, powiastka-1" size="3">
+              <node name="copypasta-1, pasta-5" size="1">
+                <node name="creepypasta-1" size="0"/>
+              </node>
+              <node name="powiastka filozoficzna-1" size="0"/>
+            </node>
+          </node>
+          <node name="powieść-1" size="46">
+            <node name="powieść panoramiczna-1" size="0"/>
+            <node name="powieść młodzieżowa-1" size="1">
+              <node name="powieść dla dziewcząt-1, powieść pensjonarska-1" size="0"/>
+            </node>
+            <node name="powieść polifoniczna-1" size="0"/>
+            <node name="powieść w odcinkach-1" size="1">
+              <node name="powieść radiowa-1" size="0"/>
+            </node>
+            <node name="powieść reportażowa-1" size="0"/>
+            <node name="powieść autotematyczna-1" size="0"/>
+            <node name="powieść autobiograficzna-1" size="0"/>
+            <node name="powieść polityczna-1" size="1">
+              <node name="powieść aluzyjna-1" size="0"/>
+            </node>
+            <node name="powieść szkatułkowa-1, powieść szufladkowa-1" size="0"/>
+            <node name="powieść społeczno-obyczajowa-1" size="1">
+              <node name="powieść środowiskowa-1" size="0"/>
+            </node>
+            <node name="powieść sensacyjna-1" size="0"/>
+            <node name="powieść fantastyczna-1" size="4">
+              <node name="powieść fantasy-1" size="0"/>
+              <node name="powieść fantastyczno-naukowa-1, powieść fantastycznonaukowa-1, powieść science-fiction-1, powieść sci-fi-1, powieść SF-1, powieść s-f-1" size="0"/>
+              <node name="fantastyka historyczna-1, fantasy historyczna-1" size="0"/>
+              <node name="horror-1" size="0"/>
+            </node>
+            <node name="powieść gotycka-1" size="0"/>
+            <node name="powieść edukacyjna-1, bildungsroman-1" size="0"/>
+            <node name="powieść marynistyczna-1" size="0"/>
+            <node name="powieść przygodowa-1" size="0"/>
+            <node name="powieść psychologiczna-1" size="0"/>
+            <node name="powieść tendencyjna-1, powieść z tezą-1" size="0"/>
+            <node name="powieść epistolarna-1" size="0"/>
+            <node name="melodramat-4" size="0"/>
+            <node name="western-2" size="0"/>
+            <node name="powieść historyczna-1" size="3">
+              <node name="fantastyka historyczna-1, fantasy historyczna-1" size="0"/>
+              <node name="powieść biograficzna-1" size="0"/>
+              <node name="powieść walterscottowska-1" size="0"/>
+            </node>
+            <node name="thriller-1" size="0"/>
+            <node name="powieść miłosna-1" size="1">
+              <node name="harlekin-1" size="0"/>
+            </node>
+            <node name="powieść z kluczem-2" size="0"/>
+            <node name="powieść łotrzykowska-1, powieść szelmowska-1, powieść pikarejska-1, picaresca-1, pikareska-1" size="0"/>
+            <node name="minipowieść-1" size="0"/>
+            <node name="saga-1" size="0"/>
+            <node name="kryminał-2, kryminałka-2, powieść kryminalna-1" size="2">
+              <node name="powieść milicyjna-1" size="0"/>
+              <node name="powieść detektywistyczna-1" size="0"/>
+            </node>
+            <node name="powieść brukowa-1" size="0"/>
+            <node name="antypowieść-1" size="0"/>
+            <node name="powieść produkcyjna-1" size="0"/>
+            <node name="mikropowieść-1" size="0"/>
+          </node>
+        </node>
+        <node name="dramat-1, sztuka-2" size="32">
+          <node name="tragedia-3" size="0"/>
+          <node name="dramat modernistyczny-1" size="0"/>
+          <node name="dramat historyczny-1" size="0"/>
+          <node name="dramat groteskowy-1" size="0"/>
+          <node name="dramat ekspresjonistyczny-1" size="1">
+            <node name="dramat epicki-1" size="0"/>
+          </node>
+          <node name="sztuczydło-1" size="0"/>
+          <node name="tragigroteska-1" size="0"/>
+          <node name="joruri-1" size="0"/>
+          <node name="dramat grecki-1, dramat antyczny-1" size="2">
+            <node name="komedia grecka-1, komedia starogrecka-1" size="0"/>
+            <node name="tragedia grecka-1" size="0"/>
+          </node>
+          <node name="dramat liturgiczny-1" size="0"/>
+          <node name="horror-4" size="0"/>
+          <node name="thriller-3" size="0"/>
+          <node name="mirakl-1" size="0"/>
+          <node name="misterium pasyjne-1, misterium męki Pańskiej-1, sztuka pasyjna-1" size="0"/>
+          <node name="arcydramat-1" size="0"/>
+          <node name="czteroaktówka-1" size="0"/>
+          <node name="tragikomedia-1" size="0"/>
+          <node name="moralitet-2" size="0"/>
+          <node name="monodram-1, teatr jednego aktora-1, monodramat-1" size="0"/>
+          <node name="jednoaktówka-1, aktówka-2" size="0"/>
+          <node name="dramat romantyczny-1" size="0"/>
+          <node name="melodramat-2" size="0"/>
+          <node name="komedia-1" size="6">
+            <node name="komedia grecka-1, komedia starogrecka-1" size="0"/>
+            <node name="dramat satyrowy-2" size="0"/>
+            <node name="wodewil-1, śpiewogra-1" size="0"/>
+            <node name="komedia dell'arte-1" size="0"/>
+            <node name="farsa-1, krotochwila-2" size="1">
+              <node name="tragifarsa-1" size="0"/>
+            </node>
+          </node>
+          <node name="misterium-2" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="zawiadomienie-2, powiadomienie-2, obwieszczenie-3" size="56">
+      <node name="alert-2" size="0"/>
+      <node name="skarga-3" size="0"/>
+      <node name="inserat-1" size="0"/>
+      <node name="donos-1, doniesienie-6" size="1">
+        <node name="denuncjacja-1, delacja-1" size="0"/>
+      </node>
+      <node name="awizo-2" size="0"/>
+      <node name="awizo-3" size="0"/>
+      <node name="anons-1" size="0"/>
+      <node name="notyfikacja-1" size="0"/>
+      <node name="zgłoszenie-4" size="0"/>
+      <node name="przypomnienie-3" size="0"/>
+      <node name="nekrolog-1" size="0"/>
+      <node name="zapowiedź-2, ogłoszenie-4" size="39">
+        <node name="zapowiedzi-1" size="0"/>
+        <node name="zajawka-4" size="0"/>
+        <node name="anons-2" size="0"/>
+        <node name="zwiastun-4, forszpan-1, zajawka-1, trailer-1" size="2">
+          <node name="teaser-1" size="0"/>
+          <node name="pilot-3" size="0"/>
+        </node>
+        <node name="obietnica-1, przyrzeczenie-1, zobowiązanie-3, zapewnienie-1" size="32">
+          <node name="wotum-2, votum-2" size="0"/>
+          <node name="słowo honoru-1, słowo-2, parol-2" size="0"/>
+          <node name="ręka-6" size="0"/>
+          <node name="obiecanka-1, obiecanki-1, gruszki na wierzbie-1, czek bez pokrycia-1, obiecanki cacanki-1" size="1">
+            <node name="kiełbasa wyborcza-1, kiełbasa przedwyborcza-1" size="0"/>
+          </node>
+          <node name="list kredytowy-1" size="0"/>
+          <node name="przysięga-1" size="16">
+            <node name="baja-3" size="0"/>
+            <node name="obediencja-2" size="0"/>
+            <node name="rota-4" size="0"/>
+            <node name="zaklęcie-4" size="6">
+              <node name="klątwa-3" size="0"/>
+              <node name="hokus-pokus-1" size="0"/>
+              <node name="egzorcyzm-2" size="0"/>
+              <node name="sezam-3" size="0"/>
+              <node name="abrakadabra-2" size="0"/>
+              <node name="inkantacja-1" size="0"/>
+            </node>
+            <node name="ślubowanie-1, ślub-2" size="5">
+              <node name="przysięga wojskowa-1" size="0"/>
+              <node name="przyrzeczenie harcerskie-1" size="0"/>
+              <node name="konsekracja-4" size="0"/>
+              <node name="wotum-2, votum-2" size="0"/>
+              <node name="śluby zakonne-1, profesja-3, śluby-1" size="0"/>
+            </node>
+          </node>
+          <node name="deklaracja-2" size="10">
+            <node name="obietnica wyborcza-1, obietnica przedwyborcza-1" size="1">
+              <node name="kiełbasa wyborcza-1, kiełbasa przedwyborcza-1" size="0"/>
+            </node>
+            <node name="lojalka-1" size="0"/>
+            <node name="konosament-2" size="4">
+              <node name="konosament FIATA-1" size="0"/>
+              <node name="konosament przewozu kombinowanego-1" size="0"/>
+              <node name="konosament bezpośredni-1" size="0"/>
+              <node name="konosament zwykły-1" size="0"/>
+            </node>
+            <node name="cyrograf-1" size="0"/>
+            <node name="gwarancja-2" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="ogłoszenie-5" size="3">
+        <node name="promulgacja-1" size="0"/>
+        <node name="proskrypcja-1" size="0"/>
+        <node name="list gończy-1" size="0"/>
+      </node>
+    </node>
+  </node>
+  <node name="tajemnica-2, sekret-1" size="4">
+    <node name="zmowa milczenia-1" size="0"/>
+    <node name="tajemnica poliszynela-1, publiczna tajemnica-1" size="0"/>
+    <node name="przemilczenie-3, białe plamy-1" size="0"/>
+    <node name="konspiracja-2" size="0"/>
+  </node>
+  <node name="ocena-3, osąd-1, opinia-3" size="78">
+    <node name="aprobacja-1" size="0"/>
+    <node name="sito-3" size="0"/>
+    <node name="rating-2" size="0"/>
+    <node name="gwiazdka-9" size="0"/>
+    <node name="kontroskarżenie-1" size="0"/>
+    <node name="opinia publiczna-1" size="0"/>
+    <node name="autopercepcja-1" size="0"/>
+    <node name="oskarżenie-3" size="7">
+      <node name="zarzut-1" size="0"/>
+      <node name="samooskarżenie-1" size="0"/>
+      <node name="zniesławienie-2" size="0"/>
+      <node name="podejrzenie-2, posądzenie-2" size="1">
+        <node name="pomówienie-3, insynuacja-1" size="0"/>
+      </node>
+      <node name="oszczerstwo-1, obmowa-1, kalumnia-1, potwarz-1, dyfamacja-1" size="1">
+        <node name="paszkwil-1" size="0"/>
+      </node>
+    </node>
+    <node name="dyskwalifikacja-2" size="0"/>
+    <node name="kwalifikacja-2" size="0"/>
+    <node name="absolutorium-2" size="0"/>
+    <node name="krytyka-1" size="24">
+      <node name="krytyka-2" size="23">
+        <node name="wpływologia-1" size="0"/>
+        <node name="atak-4, napaść-2" size="3">
+          <node name="diss-1" size="0"/>
+          <node name="napad-4" size="0"/>
+          <node name="atak frontalny-1" size="0"/>
+        </node>
+        <node name="nagonka-1" size="1">
+          <node name="polowanie na czarownice-1" size="0"/>
+        </node>
+        <node name="chłosta-2" size="0"/>
+        <node name="samokrytyka-1, autokrytyka-1" size="1">
+          <node name="samooskarżenie-1" size="0"/>
+        </node>
+        <node name="satyra-2" size="0"/>
+        <node name="uwaga-1, komentarz-3" size="2">
+          <node name="przytyk-1, przycinek-1, przymówka-1" size="1">
+            <node name="docinek-1, ucinka-2, ucinek-1" size="0"/>
+          </node>
+        </node>
+        <node name="pouczenie-4, upomnienie-2, napomnienie-2, przygana-1" size="5">
+          <node name="moralizacja-1" size="0"/>
+          <node name="uwaga-4" size="0"/>
+          <node name="pareneza-1" size="0"/>
+          <node name="reprymenda-1, bura-1, połajanka-1, ochrzan-1, ruga-1" size="0"/>
+          <node name="nagana-1" size="0"/>
+        </node>
+        <node name="pretensja-1, żal-2, wymówka-1, wytyk-1, wyrzut-1" size="1">
+          <node name="zarzut-1" size="0"/>
+        </node>
+        <node name="strofowanie-2, kazanie-5" size="0"/>
+      </node>
+    </node>
+    <node name="diagnoza-1" size="3">
+      <node name="autodiagnoza-1" size="0"/>
+      <node name="diagnoza-4" size="1">
+        <node name="diagnoza społeczna-1" size="0"/>
+      </node>
+    </node>
+    <node name="minus-3" size="0"/>
+    <node name="plus-3" size="0"/>
+    <node name="samoocena-1" size="0"/>
+    <node name="referencje-1" size="0"/>
+    <node name="łatka-1" size="0"/>
+    <node name="obrachunek-1, rozrachunek-2" size="1">
+      <node name="rachunek sumienia-1" size="0"/>
+    </node>
+    <node name="ekspertyza-1" size="3">
+      <node name="opinia-2" size="1">
+        <node name="operat szacunkowy-1" size="0"/>
+      </node>
+      <node name="kontrekspertyza-2" size="0"/>
+    </node>
+    <node name="dezaprobata-1" size="1">
+      <node name="wotum nieufności-1" size="0"/>
+    </node>
+    <node name="aprobata-1, afirmacja-1" size="4">
+      <node name="wotum zaufania-1, kredyt zaufania-1" size="0"/>
+      <node name="oklaski-1" size="0"/>
+      <node name="aplauz-1, brawo-1, owacja-1, poklask-1" size="1">
+        <node name="klaka-2" size="0"/>
+      </node>
+    </node>
+    <node name="stopień-3, ocena-1, nota-3" size="14">
+      <node name="plus-6" size="0"/>
+      <node name="jedynka-2" size="1">
+        <node name="niedostateczny-1" size="0"/>
+      </node>
+      <node name="czwórka-3, czwóra-1" size="1">
+        <node name="dobry-1" size="0"/>
+      </node>
+      <node name="piątka-2" size="1">
+        <node name="bardzo dobry-1" size="0"/>
+      </node>
+      <node name="szóstka-2" size="1">
+        <node name="celujący-1" size="0"/>
+      </node>
+      <node name="trójka-2, trója-1" size="1">
+        <node name="dostateczny-1" size="0"/>
+      </node>
+      <node name="dwójka-2, dwója-1" size="3">
+        <node name="dopuszczający-1" size="0"/>
+        <node name="niedostateczny-1" size="0"/>
+        <node name="mierny-1" size="0"/>
+      </node>
+    </node>
+  </node>
+  <node name="wiadomość-1, wieść-1" size="98">
+    <node name="łańcuszek-5" size="3">
+      <node name="łańcuszek internetowy-1" size="0"/>
+      <node name="łańcuszek szczęścia-1" size="1">
+        <node name="łańcuszek św. Antoniego-1" size="0"/>
+      </node>
+    </node>
+    <node name="SMS-2, esemes-1" size="0"/>
+    <node name="telefoto-2, telefotografia-1" size="0"/>
+    <node name="sygnał-1" size="7">
+      <node name="cynk-2" size="0"/>
+      <node name="pogłoska-1" size="5">
+        <node name="fama-1" size="0"/>
+        <node name="plotka-1, ploteczka-1, plota-1, szeptanka-1" size="3">
+          <node name="stugębna plotka-1" size="0"/>
+          <node name="komeraż-1" size="0"/>
+          <node name="kaczka dziennikarska-1" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="tweet-1" size="1">
+      <node name="retweet-1" size="0"/>
+    </node>
+    <node name="doniesienie-7" size="7">
+      <node name="depesza-1" size="4">
+        <node name="iskrówka-2" size="0"/>
+        <node name="depesza reuterowska-1" size="0"/>
+        <node name="radiodepesza-1" size="0"/>
+        <node name="szyfrówka-1" size="0"/>
+      </node>
+      <node name="nowina-1, news-1" size="1">
+        <node name="hit-3, hicior-1" size="0"/>
+      </node>
+    </node>
+    <node name="tajemnica-1" size="12">
+      <node name="tajemnica telekomunikacyjna-1" size="0"/>
+      <node name="tajemnica adwokacka-1" size="0"/>
+      <node name="tajemnica przedsiębiorstwa-1, tajemnica handlowa-1" size="0"/>
+      <node name="tajemnica skarbowa-1" size="0"/>
+      <node name="tajemnica statystyczna-1" size="0"/>
+      <node name="tajemnica bankowa-1" size="0"/>
+      <node name="tajemnica dziennikarska-1" size="0"/>
+      <node name="tajemnica spowiedzi-1" size="0"/>
+      <node name="tajemnica lekarska-1" size="0"/>
+      <node name="tajemnica służbowa-1" size="0"/>
+      <node name="tajemnica państwowa-1, tajemnica stanu-1" size="0"/>
+      <node name="tajemnica korespondencji-1" size="0"/>
+    </node>
+    <node name="hiobowa wieść-1, hiobowa wiadomość-1" size="0"/>
+    <node name="fakt prasowy-1, fakt medialny-1" size="0"/>
+    <node name="telefonogram-1" size="0"/>
+    <node name="szyfrogram-1, kryptogram-1" size="0"/>
+    <node name="teleks-2" size="0"/>
+    <node name="e-mail-1, mail-1, mejl-1" size="0"/>
+    <node name="faks-2, fax-2, telefaks-2, telefax-2" size="0"/>
+    <node name="list-1, epistoła-1" size="53">
+      <node name="list Uriasza-1" size="0"/>
+      <node name="list apostolski-1" size="0"/>
+      <node name="list gratulacyjny-1" size="0"/>
+      <node name="list przewodni-1" size="0"/>
+      <node name="pneumatyk-1" size="0"/>
+      <node name="pismo-2" size="40">
+        <node name="aplikacja-4" size="0"/>
+        <node name="pismo procesowe-1" size="0"/>
+        <node name="kredytywa-1" size="0"/>
+        <node name="indulgencja-2" size="0"/>
+        <node name="aide-mémoire-1" size="0"/>
+        <node name="brewe-1" size="0"/>
+        <node name="skoropis-1" size="0"/>
+        <node name="tajnopis-2" size="0"/>
+        <node name="pismo urzędowe-1" size="8">
+          <node name="wezwanie do zapłaty-1" size="0"/>
+          <node name="żądanie wyjaśnień-1, żądanie udzielenia wyjaśnień-1" size="0"/>
+          <node name="nota-4" size="0"/>
+          <node name="odwołanie-4" size="4">
+            <node name="skarga-2, zażalenie-1, zaskarżenie-1" size="3">
+              <node name="skarga kasacyjna-1" size="0"/>
+              <node name="skarga konstytucyjna-1" size="0"/>
+              <node name="reklamacja-1" size="0"/>
+            </node>
+          </node>
+        </node>
+        <node name="ekspektatywa-2" size="0"/>
+        <node name="encyklika-1" size="0"/>
+        <node name="bulla-1" size="0"/>
+        <node name="przesłanie-3" size="0"/>
+        <node name="skierowanie-6" size="0"/>
+        <node name="list pasterski-1" size="0"/>
+        <node name="memoriał-2" size="0"/>
+        <node name="petycja-1" size="0"/>
+        <node name="okólnik-1, pismo okólne-1" size="1">
+          <node name="list okólny-1" size="0"/>
+        </node>
+        <node name="list otwarty-1" size="0"/>
+        <node name="list motywacyjny-1" size="0"/>
+        <node name="memorandum-1" size="1">
+          <node name="memorandum finansowe-1" size="0"/>
+        </node>
+        <node name="wniosek-1" size="7">
+          <node name="pozew-1, powództwo-1" size="1">
+            <node name="skarga pauliańska-1, roszczenia pauliańskie-1" size="0"/>
+          </node>
+          <node name="odwołanie-3" size="3">
+            <node name="kasacja-1" size="0"/>
+            <node name="apelacja-1, rewizja-3" size="1">
+              <node name="rewizja nadzwyczajna-1" size="0"/>
+            </node>
+          </node>
+          <node name="konkluzja-2" size="0"/>
+        </node>
+        <node name="podanie-7" size="0"/>
+      </node>
+      <node name="dekretał-1, dekretalia-1" size="0"/>
+      <node name="list poetycki-1" size="0"/>
+      <node name="liścik-2" size="0"/>
+      <node name="liścik-1" size="0"/>
+      <node name="list polecony-1" size="0"/>
+      <node name="gryps-1" size="0"/>
+      <node name="anonim-1" size="0"/>
+    </node>
+  </node>
+  <node name="napis-1" size="8">
+    <node name="nadpis-1" size="0"/>
+    <node name="tag-2" size="0"/>
+    <node name="epigraf-2" size="0"/>
+    <node name="petroglif-1" size="0"/>
+    <node name="petrolgif-1" size="0"/>
+    <node name="legenda-5" size="0"/>
+    <node name="inskrypcja-1" size="0"/>
+    <node name="podpis-2, sygnatura-2" size="0"/>
+  </node>
+  <node name="objaśnienie-4, wyjaśnienie-4" size="46">
+    <node name="eksplanacja-2" size="0"/>
+    <node name="ajtiologia-1, etiologia-2" size="1">
+      <node name="mit-2" size="0"/>
+    </node>
+    <node name="sprostowanie-4" size="1">
+      <node name="dementi-1" size="0"/>
+    </node>
+    <node name="scholium-1" size="0"/>
+    <node name="opis-1, opisywactwo-1" size="5">
+      <node name="analiza-2" size="3">
+        <node name="wywód-3" size="0"/>
+        <node name="epikryza-1" size="0"/>
+        <node name="charakterystyka-2" size="0"/>
+      </node>
+      <node name="metryka-3" size="0"/>
+    </node>
+    <node name="legenda-4" size="0"/>
+    <node name="klucz-6" size="1">
+      <node name="klucz kodowy-1" size="0"/>
+    </node>
+    <node name="didaskalia-1, tekst poboczny-1" size="0"/>
+    <node name="posłowie-1" size="0"/>
+    <node name="interpretacja-3, rozumienie-7, wykładnia-1, naświetlenie-3, odczytanie-6" size="20">
+      <node name="interpretacja utworu literackiego-1" size="1">
+        <node name="koło hermeneutyczne-1" size="0"/>
+      </node>
+      <node name="wykładnia gramatyczna-1" size="0"/>
+      <node name="wykładnia celowościowa-1" size="0"/>
+      <node name="wykładnia autentyczna-1" size="0"/>
+      <node name="psychologizacja-1" size="0"/>
+      <node name="światło-11, oświetlenie-4" size="0"/>
+      <node name="falandyzacja prawa-1" size="0"/>
+      <node name="reinterpretacja-1" size="0"/>
+      <node name="nadinterpretacja-1" size="0"/>
+      <node name="komentarz-2" size="8">
+        <node name="komentatorstwo-2" size="0"/>
+        <node name="brahmana-1" size="0"/>
+        <node name="glosa-2" size="0"/>
+        <node name="midrasz-1" size="0"/>
+        <node name="komcio-1" size="0"/>
+        <node name="autokomentarz-1" size="0"/>
+        <node name="egzegeza-2" size="1">
+          <node name="postylla-1" size="0"/>
+        </node>
+      </node>
+      <node name="egzegeza-1" size="0"/>
+    </node>
+    <node name="eksplikacja-1" size="0"/>
+    <node name="przypis-1, odnośnik-1, odsyłacz-1" size="2">
+      <node name="przypis rzeczowy-1" size="0"/>
+      <node name="notka-2" size="0"/>
+    </node>
+    <node name="definicja-1" size="1">
+      <node name="formalizm Jonesa-1" size="0"/>
+    </node>
+    <node name="glosa-1" size="0"/>
+    <node name="podpis-2, sygnatura-2" size="0"/>
+  </node>
+</node>

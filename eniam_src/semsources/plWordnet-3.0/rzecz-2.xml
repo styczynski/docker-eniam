@@ -1,0 +1,239 @@
+<node name="rzecz-2" size="191">
+  <node name="relikt-2" size="0"/>
+  <node name="sprawa-1, materia-5" size="84">
+    <node name="śmierdzące jajo-1" size="0"/>
+    <node name="śmierdząca sprawa-1" size="0"/>
+    <node name="odprawa-3" size="3">
+      <node name="odprawa czasowa-1" size="0"/>
+      <node name="odprawa warunkowa-1" size="0"/>
+      <node name="odprawa paszportowa-1" size="0"/>
+    </node>
+    <node name="sprawy wewnętrzne-1" size="0"/>
+    <node name="marginalia-2" size="0"/>
+    <node name="priorytet-2" size="0"/>
+    <node name="generalia-1, fundamentalia-1" size="0"/>
+    <node name="abrakadabra-1, metafizyka-3, czarna magia-1" size="0"/>
+    <node name="problem-2, zagadnienie-1, kwestia-2, pytanie-4, zagwozdka-1, punkt-3" size="69">
+      <node name="koncepcja-2" size="0"/>
+      <node name="problem decyzyjny-2" size="0"/>
+      <node name="twardy orzech do zgryzienia-1" size="0"/>
+      <node name="moment Minsky'ego-1" size="0"/>
+      <node name="bulder-1" size="0"/>
+      <node name="problem bazylejski-1" size="0"/>
+      <node name="zagadnienie poprawnie postawione-1" size="0"/>
+      <node name="zagadnienie Cauchy'ego-1" size="0"/>
+      <node name="podwojenie sześcianu-1, problem delijski-1" size="0"/>
+      <node name="gilotyna Hume'a-1" size="0"/>
+      <node name="problem decyzyjny-1" size="3">
+        <node name="problem marszrutyzacji-1" size="0"/>
+        <node name="problem nierozstrzygalny-1" size="0"/>
+        <node name="zagadnienie transportowe-1, zadanie transportowe-1" size="0"/>
+      </node>
+      <node name="problem społeczny-1" size="15">
+        <node name="alkoholizm-1, pijaństwo-1, choroba alkoholowa-1" size="0"/>
+        <node name="przestępczość-1" size="13">
+          <node name="przestępczość gospodarcza-1" size="0"/>
+          <node name="korupcyjność-1" size="0"/>
+          <node name="przestępczość zorganizowana-1" size="1">
+            <node name="mafijność-2" size="0"/>
+          </node>
+          <node name="terroryzm-1" size="2">
+            <node name="bioterroryzm-1" size="0"/>
+            <node name="piractwo-2" size="0"/>
+          </node>
+          <node name="bandytyzm-1, rozbójnictwo-1" size="5">
+            <node name="zbójectwo-1" size="0"/>
+            <node name="nożownictwo-1" size="0"/>
+            <node name="gangsterstwo-1, gangsteryzm-1" size="0"/>
+            <node name="zbójnictwo-2" size="0"/>
+            <node name="piractwo-3, korsarstwo-2" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="klin-4" size="0"/>
+      <node name="koan-1" size="0"/>
+      <node name="niejasność-2" size="11">
+        <node name="przemilczenie-3, białe plamy-1" size="0"/>
+        <node name="dwuznacznik-1" size="0"/>
+        <node name="tajemniczość-1, zagadkowość-1, oniryczność-1" size="7">
+          <node name="niezgłębioność-3" size="0"/>
+          <node name="niezgłębioność-2" size="0"/>
+          <node name="metapsychika-1" size="0"/>
+          <node name="enigmatyczność-2" size="0"/>
+          <node name="mistyka-2, mistyczność-1" size="0"/>
+          <node name="metafizyka-2, metafizyczność-1" size="0"/>
+          <node name="baśniowość-1, bajeczność-2" size="0"/>
+        </node>
+        <node name="niedomówienie-1, niedopowiedzenie-1, półsłówko-1" size="0"/>
+      </node>
+      <node name="kwadratura koła-1" size="0"/>
+      <node name="paradoks-2" size="4">
+        <node name="paradoks Olbersa-1" size="0"/>
+        <node name="paradoks grawitacyjny-1" size="0"/>
+        <node name="paradoks Skolema-1" size="0"/>
+        <node name="paradoks Banacha-Tarskiego-1" size="0"/>
+      </node>
+      <node name="konkret-1" size="0"/>
+      <node name="zadanie-6" size="16">
+        <node name="proste zadanie kinematyki-1" size="0"/>
+        <node name="odwrotne zadanie kinematyki-1" size="0"/>
+        <node name="zadanie koniunktywne-1" size="0"/>
+        <node name="zadanie dysjunktywne-1" size="0"/>
+        <node name="łamigłówka-2" size="0"/>
+        <node name="pytanie-3" size="0"/>
+        <node name="zaliczenie-6" size="0"/>
+        <node name="ćwiczenie-7" size="7">
+          <node name="sprawdzian-3" size="3">
+            <node name="poprawa-3" size="0"/>
+            <node name="diagnoza-2" size="0"/>
+            <node name="klasówka-1" size="0"/>
+          </node>
+          <node name="dryl-2" size="1">
+            <node name="pruski dryl-1" size="0"/>
+          </node>
+          <node name="dyktando-1" size="0"/>
+        </node>
+        <node name="słupek-5" size="0"/>
+      </node>
+      <node name="alternatywa-3, dylemat-2" size="0"/>
+    </node>
+    <node name="interes-2, biznes-3, romans-3, sprawa-4" size="2">
+      <node name="dwa słowa-1" size="0"/>
+      <node name="konszachty-2, machinacje-1, układy-1" size="0"/>
+    </node>
+  </node>
+  <node name="tajemnica-3, pytajnik-2, enigma-1, misterium-3, niewiadoma-1, znak zapytania-2, zagadka-2" size="2">
+    <node name="misterium paschalne-1" size="0"/>
+    <node name="pomroka-2, mgła-2, mgławica-2, mgiełka-2, mrok-3" size="0"/>
+  </node>
+  <node name="dowód-1" size="101">
+    <node name="hak-6" size="0"/>
+    <node name="świadectwo-1, znak-2, pomnik-3" size="97">
+      <node name="pamiątka-2" size="0"/>
+      <node name="znak czasu-1, signum temporis-1, znak czasów-1" size="0"/>
+      <node name="dokument-4, źródło-3" size="2">
+        <node name="alegat-1" size="0"/>
+        <node name="polonik-1" size="0"/>
+      </node>
+      <node name="wizytówka-2" size="0"/>
+      <node name="zabytek-2, pomnik-4, monument-2" size="4">
+        <node name="układ urbanistyczny-1" size="0"/>
+        <node name="zabytek nieruchomy-1" size="0"/>
+        <node name="zabytek ruchomy-1" size="0"/>
+        <node name="pomnik przyrody-1" size="0"/>
+      </node>
+      <node name="pamiątka-1" size="5">
+        <node name="wspomnienie-4" size="0"/>
+        <node name="suwenir-1, souvenir-1" size="0"/>
+        <node name="pamiętnik-3, imionnik-1, sztambuch-1" size="1">
+          <node name="złote myśli-1" size="0"/>
+        </node>
+        <node name="relikwia-1" size="0"/>
+      </node>
+      <node name="pozostałość-2" size="80">
+        <node name="residuum-1, rezyduum-2" size="1">
+          <node name="residuum-3, rezyduum-1" size="0"/>
+        </node>
+        <node name="ślad-4" size="0"/>
+        <node name="trysk-1" size="0"/>
+        <node name="ślad-2, znak-5" size="17">
+          <node name="rzaz-1" size="0"/>
+          <node name="sęczyna-1" size="0"/>
+          <node name="ukłucie-5" size="1">
+            <node name="nakłucie-5" size="0"/>
+          </node>
+          <node name="wspomnienie-4" size="0"/>
+          <node name="piętno-2" size="0"/>
+          <node name="rysa-1" size="2">
+            <node name="zarysowanie-6" size="0"/>
+            <node name="zadrapanie-3, zadrapnięcie-3" size="0"/>
+          </node>
+          <node name="blizna-1" size="6">
+            <node name="rozstęp-3" size="0"/>
+            <node name="piętno-3" size="0"/>
+            <node name="sznyt-2" size="0"/>
+            <node name="szew-2" size="0"/>
+            <node name="dziób-2" size="0"/>
+            <node name="szrama-1" size="0"/>
+          </node>
+          <node name="strup-1, strupień-1" size="0"/>
+        </node>
+        <node name="osad-2" size="0"/>
+        <node name="odbicie-16" size="36">
+          <node name="odbitka-1" size="15">
+            <node name="stykówka-1, zdjęcie stykowe-1" size="0"/>
+            <node name="wglądówka-1" size="0"/>
+            <node name="estampaż-2" size="0"/>
+            <node name="korekta-3" size="0"/>
+            <node name="szczotka-3" size="0"/>
+            <node name="nadbitka-1" size="0"/>
+            <node name="kopia-5, kopia fotograficzna-1" size="0"/>
+            <node name="dupleks-2" size="0"/>
+            <node name="przebitka-1" size="0"/>
+            <node name="pierwodruk-2, szpalta-3" size="0"/>
+            <node name="nadruk-2" size="1">
+              <node name="winieta-4" size="0"/>
+            </node>
+            <node name="fotokopia-1" size="1">
+              <node name="skan-1" size="0"/>
+            </node>
+            <node name="kserokopia-1, ksero-2, kopia-3" size="0"/>
+          </node>
+          <node name="odcisk-2" size="19">
+            <node name="odcisk palca-1, daktylogram-1" size="0"/>
+            <node name="wycisk-3" size="0"/>
+            <node name="pieczątka-1, pieczęć-1, stempel-1" size="4">
+              <node name="faksymile-1, facsimile-1" size="0"/>
+              <node name="sigillum-1" size="0"/>
+              <node name="miejscownik-2" size="0"/>
+              <node name="nadruk-1" size="0"/>
+            </node>
+            <node name="ślad-3" size="11">
+              <node name="trop-2" size="1">
+                <node name="zaskok-4" size="0"/>
+              </node>
+              <node name="mikroślad-1" size="0"/>
+              <node name="biała stopa-1" size="0"/>
+              <node name="skamieniałość-1, skamielina-1" size="5">
+                <node name="acritarcha-1, akrytarchy-1, akritarchy-1" size="0"/>
+                <node name="pikaia-1" size="0"/>
+                <node name="ośródka-2" size="2">
+                  <node name="ośródka zewnętrzna-1" size="0"/>
+                  <node name="ośródka wewnętrzna-1" size="0"/>
+                </node>
+              </node>
+              <node name="kilwater-1, ślad torowy-1" size="0"/>
+            </node>
+          </node>
+        </node>
+        <node name="fosylia-1, skamieniałości-1, skamieliny-1" size="0"/>
+        <node name="basałyk-2" size="0"/>
+        <node name="oparzelina-1" size="0"/>
+        <node name="zaczerwienienie-2" size="0"/>
+        <node name="zabrudzenie-2" size="6">
+          <node name="plama-3" size="5">
+            <node name="zaciek-1" size="0"/>
+            <node name="naciek-1" size="0"/>
+            <node name="kleks-1" size="1">
+              <node name="kleksik-1" size="0"/>
+            </node>
+            <node name="zmętnienie-4" size="0"/>
+          </node>
+        </node>
+        <node name="niedobitek-1" size="0"/>
+        <node name="rozprysk-1, rozbryzg-1, bryzg-2, bluzg-2" size="0"/>
+        <node name="ślad pamięciowy-1, engram-1" size="0"/>
+        <node name="pręga-1" size="0"/>
+        <node name="zmarszczka-1" size="1">
+          <node name="bruzda-2" size="0"/>
+        </node>
+        <node name="siniak-1, krwiak-1, wylew-3, siniec-2, wynaczynienie-1" size="2">
+          <node name="krwiak podpaznokciowy-1" size="0"/>
+          <node name="śliwa-3, limo-1" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="alibi-1" size="0"/>
+    <node name="poszlaka-1" size="0"/>
+  </node>
+</node>

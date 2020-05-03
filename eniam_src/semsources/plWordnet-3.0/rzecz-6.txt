@@ -1,0 +1,340 @@
+334 rzecz-6
+  0 wyrzut sumienia-2
+  0 trucizna-2
+  43 skrzyżowanie-4, hybryda-4
+    0 krążownik podwodny-1
+    0 krążownik lotniczy-1
+    0 podwodny lotniskowiec-1
+    0 pancerniko-lotniskowiec-1
+    0 napęd hybrydowy-1
+    37 krzyżówka-3, hybryda-1, mieszaniec-1, metys-1, hybryd-1
+      0 regent-4
+      1 cytrokumkwat-1, citrofortunella-1
+        0 kalamondin-1
+      0 cytranga-1
+      0 tangelo-2, tangerynka-2
+      0 mięta pieprzowa-1, mięta lekarska-1
+      0 zobo-1
+      0 tyglew-1
+      0 jaglion-1
+      0 liard-1, lipard-1
+      0 yakalo-1
+      0 żubroń-1
+      0 dzo-1
+      0 zebroid-1
+      0 zebrula-1
+      0 pszenżyto-1
+      0 leopon-1
+      0 lygrys-1
+      0 zebryna-1
+      0 żubrobizon-1
+      0 birtugan-1, nar-1, wielbłąd mieszany-1, tulu-1
+      0 tryton-1
+      0 sylen-1
+      0 tchórzofretka-1, tchórz hodowlany-1
+      0 brahman-2
+      1 bastard-1
+        0 struś afrykański czarny-1
+      0 hipogryf-1
+      0 harpia-1
+      0 bulterier-1, bull terrier-1
+      0 osłomuł-1, oślik-1
+      0 centaur-1, hipocentaur-1
+      2 muł-2
+        0 mulica-1
+        0 mulątko-1
+      0 gryf-1
+      0 satyr-1, faun-1
+  31 *rzecz oceniana pozytywnie-1
+    1 majstersztyk-3
+      0 arcydzieło-2
+    0 oczko w głowie-2, oczko-16
+    VISITED 0 miecz obosieczny-2
+    0 łakomy kąsek-1
+    7 ideał-2
+      0 dzieło sztuki-2
+      1 doskonałość-2
+        0 alfa i omega-1
+      2 raj-1, eden-2, rajski ogród-1
+        0 arkadia-1
+        0 kraina mlekiem i miodem płynąca-1
+      0 książę z bajki-1
+    1 chluba-1, duma-7, chwała-3
+      0 ozdoba-2
+    0 cenność-3
+    0 koronkowa robota-1
+    0 cacko-2, cudo-1
+    6 smakołyk-1, smakowitość-2, pychota-1, pyszota-1
+      0 ambrozja-1, cymes-1
+      0 rarytas-1
+      0 przysmak-1
+      0 specjał-1
+      0 frykas-1
+      0 delikates-1
+    5 dobro-1
+      4 dar-3
+        0 dana-1
+        0 łaska-2
+        0 charyzmat-2
+        0 dziecięctwo Boże-1
+  256 *rzecz oceniana negatywnie-1
+    0 miecz obosieczny-2
+    0 miska soczewicy-1
+    0 dziurawy worek-1
+    4 szkarada-2, koszmarek-1, potworek-1
+      0 paskuda-2
+      1 brzydactwo-1, brzydota-2, szpetota-2
+        0 bezguście-2
+      0 gargamel-1
+    0 śmierdziuch-3
+    0 poniewierca-1
+    0 inkwizycja-2
+    0 mniejsze zło-1
+    0 dno-3
+    0 żelastwo-1
+    0 złom-4, bling-bling-1
+    0 margines-2
+    0 zło konieczne-1
+    2 wypociny-1, wypocina-1
+      0 elukubracja-1
+      0 chałtura-1
+    0 cholerstwo-1, draństwo-4
+    0 drapak-1
+    88 zło-1, diabelstwo-1, licho-2, złe-1, diabelskość-5
+      0 mrok-4
+      0 ciemność-3
+      0 demoniczność-1, demonizm-1, diaboliczność-1, diabolizm-1, szatańskość-1
+      0 hydra-1
+      81 nieszczęście-2, niedola-1
+        0 plaga egipska-2
+        0 puszka Pandory-1
+        3 pech-1, niefart-1
+          0 twarde lądowanie-1
+          0 zezowate szczęście-1, garbate szczęście-1
+          0 ironia-3
+        74 krzywda-1, niesprawiedliwość-1
+          1 nierówność-2
+            0 nierówność społeczna-1
+          6 wyzysk-1
+            VISITED 0 lichwa-2, lichwiarstwo-1
+            0 eksploatacja-1
+            0 pasożytnictwo-2
+            0 zdzierstwo-1
+            1 niewolnictwo-1, niewola-1
+              0 encomienda-1
+          23 nietolerancja-1, nietolerancyjność-1
+            0 antyfeminizm-1
+            0 ciemnogród-1
+            0 antysemityzm-1, antyżydowskość-1, antyjudaizm-1, żydożerstwo-1
+            4 ksenofobia-2
+              0 brytofobia-1
+              VISITED 0 antyslawizm-1, slawofobia-1
+              0 rusofobia-1
+              0 germanofobia-1
+            15 dyskryminacja-1
+              0 audyzm-1
+              0 atrakcjonizm-1, lookizm-1
+              0 adultyzm-1
+              1 transfobia-1, transuprzedzenia-1
+                0 transmizogynia-1
+              0 heterofobia-1
+              0 ageizm-1
+              0 handicapizm-1
+              0 deprywacja polityczna-1
+              1 seksizm-1
+                0 lesbofobia-1
+              0 numerus clausus-1
+              0 szowinizm-1
+              1 rasizm-1
+                0 antyslawizm-1, slawofobia-1
+          28 represja-1, ucisk-1, prześladowanie-2, terror-1
+            0 bułgaryzacja-2
+            0 persekucja-1
+            0 junkierstwo-2
+            0 bolszewizacja-2
+            0 sekatura-1
+            0 dragonada-2
+            0 dragonada-1
+            0 psychuszka-1
+            0 ciemięstwo-1
+            VISITED 1 pogrom-2, czystka-1
+            1 szykana-1
+              0 czystka-2
+            3 szykany-1
+              0 mobbing-1
+              1 nagonka-1
+                0 polowanie na czarownice-1
+            0 przesiedlenie-2
+            0 zsyłka-1
+            1 wywózka-1
+              0 branka-2
+            1 wysiedlenie-2
+              0 rugi-1
+            0 wypędzenie-2
+            0 rusyfikacja-2
+            0 germanizacja-2
+            1 obława-1
+              0 łapanka-1
+          11 obelga-1, zniewaga-1, obraza-1, policzek-2, znieważenie-2, afront-1, dotknięcie-6, dyshonor-1, ujma-1, poniżenie-3, dyzgust-3, epitet-3
+            0 obraza majestatu-1
+            0 środkowy palec-1
+            0 ukąszenie heglowskie-1
+            0 czynna zniewaga-1
+            0 zwymyślanie-2
+            0 wyzwisko-2
+            0 profanacja-1, świętokradztwo-2
+            0 zniesławienie-2
+            1 szyderstwo-2
+              0 persyflaż-2
+            0 bluźnierstwo-2
+      1 szatan-1, demon-1, diabeł-2, zły duch-1, książę ciemności-1, upadły anioł-1, antychryst-2
+        0 iblis-1, eblis-1
+    0 ruina-1
+    0 moloch-1
+    3 rupieć-1, złom-2, klamot-1, grat-1, szmelc-1, gruchot-2
+      0 grat-2, rzęch-1
+      0 obdrapaniec-2
+      0 szpargał-2
+    141 postępek-2, zło-2
+      0 gwałt-4
+      0 zbrodnia-2
+      0 zdradziectwo-2
+      0 żakostwo-1
+      0 niestosowność-1
+      2 hucpa-1, zuchwalstwo-2, bezczelność-2, szelmostwo-2, wałek-4, przekręt-1, chucpa-1
+        0 geszeft-1
+        0 kant-2
+      4 podłość-2, nikczemność-2, bezeceństwo-1, łajdactwo-2, draństwo-1, świństwo-1, hultajstwo-1, łotrostwo-2, niegodziwość-2, chamstwo-2
+        0 parszywość-1
+        0 obrzydliwość-3, wstrętność-1, przebrzydłość-1
+        0 szubrawstwo-1
+        0 zberezeństwo-1, zbereżeństwo-1
+      1 zawłaszczenie-3
+        VISITED 0 uzurpacja-1, uzurpatorstwo-1
+      4 proceder-1
+        0 szulerka-2, szulerstwo-1
+        1 nierząd-1, prostytucja-1, seksbiznes-1, najstarszy zawód świata-1
+          0 sponsoring-2
+        0 żebractwo-1, żebry-1, żebranina-1
+      0 wybryk-1, eksces-1, wyskok-1, odskok-3
+      0 obmowa-2
+      0 niedyskrecja-1
+      11 grzech-1, przewina-1
+        0 grzech śmiertelny-1, grzech ciężki-1
+        0 popijawa-1, pijaństwo-2
+        0 grzech powszedni-1, niewierność-4
+        0 grzech pierworodny-1
+        0 kazirodztwo-1
+        0 krzywoprzysięstwo-1
+        0 świętokradztwo-1
+        1 zdrada-2, niewierność-2
+          0 skok w bok-1
+        0 rozpusta-2, nieczystość-1
+        0 bluźnierstwo-1, blasfemia-1
+      10 wykroczenie-2
+        0 spalony-1, offside-1, ofsajd-1
+        0 kroki-2
+        0 ręka-5
+        1 delikt-1
+          0 delikt konstytucyjny-1
+        1 uchybienie-2
+          0 nieformalność-1
+        2 faul-1
+          0 nakładka-2
+          0 podcięcie-7
+      95 przestępstwo-1
+        0 przestępstwo kryminalne-1
+        1 przestępstwo pospolite-1
+          0 zagarnięcie mienia-1
+        0 sutenerstwo-1
+        1 przywłaszczenie-2
+          0 malwersacja-1, defraudacja-1
+        5 spekulacja-3
+          0 lichwa-2, lichwiarstwo-1
+          0 ażiotaż-1
+          0 grynderstwo-1
+          0 oscylator-2
+          0 paskarstwo-1, pasek-4
+        0 nieumyślne spowodowanie śmierci-1
+        0 afera-1
+        0 hacking-1, hakerstwo-1, hackerstwo-1, cracking-1
+        0 kuplerstwo-1
+        0 zdrada stanu-1
+        0 plagiatorstwo-1
+        2 pajęczarstwo-1
+          0 radiopajęczarstwo-1
+          0 telepajęczarstwo-1
+        0 uzurpacja-1, uzurpatorstwo-1
+        0 stręczycielstwo-1
+        0 pedofilia-1
+        0 pomocnictwo-1
+        0 kłusownictwo-1
+        1 zbiegostwo-1
+          0 dezercja-2
+        0 paserstwo-1, paserka-1
+        1 czyn nierządny-1
+          0 gwałt-2
+        1 wymuszenie-2
+          0 wymuszenie rozbójnicze-1
+        0 fałszerstwo-1, falsyfikacja-1
+        12 zbrodnia-1
+          0 zbrodnia nazistowska-1, zbrodnia hitlerowska-1
+          0 zbrodnia komunistyczna-1, zbrodnia stalinowska-1
+          6 mord-2, masakra-1, rzeź-1, rzeźnia-2, krwawa łaźnia-1, wyżynka-2
+            0 rzeź niewiniątek-3
+            1 pogrom-2, czystka-1
+              0 czystka etniczna-1
+            0 egzekucja-1
+            1 ludobójstwo-1, eksterminacja-1
+              0 holocaust-1, szoah-1, Szoah-2, holokaust-1, zagłada-2, Zagłada-3
+          0 zbrodnia wojenna-1
+          0 zbrodnia przeciw pokojowi-1
+          0 zbrodnia przeciw ludzkości-1, zbrodnia przeciwko ludzkości-1
+        0 włamanie-2
+        0 wyłudzenie-2
+        0 szpiegostwo-1
+        1 przemyt-1, kontrabanda-1, szmugiel-1, przemytnictwo-1
+          0 przemyt mrówkowy-1, przemyt plecakowy-1, przemyt mrówczany-1
+        3 porwanie-8
+          0 rapt-2
+          0 kidnaping-1, kidnaperstwo-1
+          0 uprowadzenie-2
+        0 pranie brudnych pieniędzy-1, pranie pieniędzy-1
+        1 piractwo-1, piractwo intelektualne-1
+          0 wideopiractwo-1
+        11 napad-1, napaść-1
+          0 napad rabunkowy-1
+          7 inwazja-1, agresja-3, najazd-1, nachód-1
+            0 zajazd-2
+            0 szturm-1, nawała-2, nawałnica-3
+            0 oblężenie-1
+            3 podbój-1
+              0 zawojowanie-4, debelacja-1, debellacja-1
+              0 kolonizacja-1
+              0 konkwista-1
+          0 wtargnięcie-3
+          0 skok-3
+        2 korupcja-2, łapownictwo-1, przekupstwo-1, łapówkarstwo-1
+          0 łapownictwo czynne-1
+          0 łapownictwo bierne-1
+        11 zabójstwo-1, mord-1, morderstwo-1
+          0 trucicielstwo-1
+          0 matkobójstwo-1
+          0 skrytobójstwo-1
+          0 ojcobójstwo-1
+          0 mężobójstwo-1
+          0 królobójstwo-1
+          0 carobójstwo-1
+          1 dzieciobójstwo-1
+            0 synobójstwo-1
+          0 bratobójstwo-1, zbrodnia kainowa-1
+          0 otrucie-2
+        1 nadużycie-3
+          0 solicytacja-2
+        6 kradzież-1, złodziejstwo-1
+          0 juma-1
+          0 skimming-1
+          0 koniokradztwo-1
+          0 doliniarstwo-1
+          1 grabież-1, rabunek-1, łupiestwo-1
+            0 szaber-2, szabrownictwo-1

@@ -1,0 +1,821 @@
+<node name="źle-3, niedobrze-2, negatywnie-2" size="586">
+  <node name="beznadziejnie-3" size="0"/>
+  <node name="cieniuteńko-8, cieniusieńko-8" size="0"/>
+  <node name="cieniutko-8" size="1">
+    <node name="cieniuchno-8" size="0"/>
+  </node>
+  <node name="cienko-10" size="0"/>
+  <node name="kiepskawo-3" size="0"/>
+  <node name="nieszlachetnie-2" size="0"/>
+  <node name="nienormalnie-5" size="0"/>
+  <node name="duszno-3" size="0"/>
+  <node name="smutno-3, smutnie-3" size="4"/>
+  <node name="obmierźle-1" size="0"/>
+  <node name="bandycko-2" size="0"/>
+  <node name="bidnie-4" size="0"/>
+  <node name="niewesoło-4" size="0"/>
+  <node name="niewesoło-3" size="0"/>
+  <node name="kuso-2" size="0"/>
+  <node name="chamsko-2, po chamsku-2" size="0"/>
+  <node name="niemożebnie-2" size="0"/>
+  <node name="uciążliwie-1" size="16">
+    <node name="zbójecko-2" size="0"/>
+    <node name="dokuczliwie-1" size="3">
+      <node name="gryząco-3" size="0"/>
+      <node name="nieznośnie-1" size="1">
+        <node name="niemożliwie-3" size="0"/>
+      </node>
+    </node>
+    <node name="morderczo-3, katorżniczo-1" size="1">
+      <node name="krwawo-7" size="0"/>
+    </node>
+    <node name="zabójczo-4" size="1">
+      <node name="morderczo-4" size="0"/>
+    </node>
+    <node name="ciężkawo-7" size="0"/>
+    <node name="ciężko-14" size="5">
+      <node name="jak dziki osioł-1" size="0"/>
+      <node name="w pocie czoła-1" size="0"/>
+      <node name="niewolniczo-3" size="0"/>
+      <node name="mozolnie-1" size="1">
+        <node name="benedyktyńsko-2, po benedyktyńsku-1" size="0"/>
+      </node>
+    </node>
+  </node>
+  <node name="niewdzięcznie-2" size="0"/>
+  <node name="niesympatycznie-2" size="0"/>
+  <node name="ujemnie-5" size="1">
+    <node name="minusowo-7" size="0"/>
+  </node>
+  <node name="śliczniutko-2" size="0"/>
+  <node name="szmirowato-1" size="0"/>
+  <node name="syfiasto-2, syfiaście-2" size="0"/>
+  <node name="smutnawo-2" size="0"/>
+  <node name="słabiutko-12, słabieńko-5" size="0"/>
+  <node name="religiancko-2" size="0"/>
+  <node name="pięknie-2, ślicznie-2" size="0"/>
+  <node name="pejoratywnie-1" size="0"/>
+  <node name="niezdrowo-5" size="10">
+    <node name="niesprawnie-2" size="6"/>
+    <node name="choro-4" size="2">
+      <node name="schizofrenicznie-2" size="0"/>
+      <node name="patologicznie-2" size="0"/>
+    </node>
+  </node>
+  <node name="niezadowalająco-1" size="12">
+    <node name="chimerycznie-3" size="0"/>
+    <node name="nienależycie-1" size="5">
+      <node name="nieodpowiednio-2, niestosownie-1" size="0"/>
+      <node name="po kozacku-4" size="0"/>
+      <node name="skąpo-2" size="0"/>
+      <node name="niepunktualnie-1" size="1">
+        <node name="nieterminowo-1" size="0"/>
+      </node>
+    </node>
+    <node name="niewystarczająco-1" size="3">
+      <node name="skąpo-3" size="1">
+        <node name="deficytowo-3" size="0"/>
+      </node>
+      <node name="ciasno-2" size="0"/>
+    </node>
+    <node name="ciasno-3" size="0"/>
+  </node>
+  <node name="nieudanie-1" size="38">
+    <node name="nieczysto-7" size="1">
+      <node name="nieczysto-8" size="0"/>
+    </node>
+    <node name="nieumiejętnie-1" size="1">
+      <node name="niewprawnie-1" size="0"/>
+    </node>
+    <node name="ciężkawo-10, przyciężko-7" size="0"/>
+    <node name="ciężko-18" size="0"/>
+    <node name="ułomnie-3" size="2"/>
+    <node name="niezgrabnie-3, niezręcznie-2, niezdarnie-2" size="9"/>
+    <node name="niezgrabnie-2, niezręcznie-1, niezdarnie-1" size="10">
+      <node name="nieporęcznie-3" size="0"/>
+      <node name="niesprawnie-4" size="0"/>
+      <node name="pokracznie-2" size="0"/>
+      <node name="topornie-4" size="0"/>
+      <node name="słoniowato-3" size="0"/>
+      <node name="niedźwiedziowato-1" size="0"/>
+      <node name="niedźwiedzio-1" size="0"/>
+      <node name="kobylasto-1" size="0"/>
+      <node name="kanciasto-3" size="0"/>
+      <node name="kaczkowato-1" size="0"/>
+    </node>
+    <node name="nietrafnie-1" size="0"/>
+    <node name="nieszczęśliwie-4" size="0"/>
+    <node name="niesprawnie-2" size="6">
+      <node name="kulawo-2" size="4"/>
+      <node name="dziurawo-3" size="0"/>
+    </node>
+    <node name="nieporadnie-1" size="1">
+      <node name="partacko-2, po partacku-1" size="0"/>
+    </node>
+    <node name="grafomańsko-1" size="0"/>
+  </node>
+  <node name="nieszczęśliwie-5" size="0"/>
+  <node name="nieszczęśliwie-6, pechowo-2" size="3">
+    <node name="niesfornie-3" size="0"/>
+    <node name="feralnie-1" size="0"/>
+    <node name="czarno-5" size="0"/>
+  </node>
+  <node name="niewłaściwie-1" size="272">
+    <node name="nieodpowiednio-1" size="1">
+      <node name="niedogodnie-1" size="0"/>
+    </node>
+    <node name="nieszlachetnie-3" size="0"/>
+    <node name="niepoprawnie-3" size="0"/>
+    <node name="żrąco-2" size="0"/>
+    <node name="po macoszemu-1" size="0"/>
+    <node name="nieprzyjemnie-2, niemile-2, niemiło-2" size="87">
+      <node name="brudnawo-3" size="0"/>
+      <node name="smutnawo-3" size="4">
+        <node name="melancholijnie-3, melancholicznie-4" size="3">
+          <node name="tęsknie-2" size="0"/>
+          <node name="minorowo-2" size="0"/>
+          <node name="bluesowo-1" size="0"/>
+        </node>
+      </node>
+      <node name="kłopotliwie-2" size="18">
+        <node name="patologicznie-4" size="0"/>
+        <node name="nieporęcznie-2" size="0"/>
+        <node name="niewygodnie-2" size="15">
+          <node name="kłopotliwie-1" size="8">
+            <node name="niebezpiecznie-4" size="1">
+              <node name="ślisko-2" size="0"/>
+            </node>
+            <node name="niezręcznie-3" size="5">
+              <node name="kretyńsko-4, idiotycznie-5, durno-3, durnie-1, debilnie-5, durnowato-4" size="0"/>
+              <node name="łyso-6" size="0"/>
+              <node name="głupawo-5, przygłupio-4" size="0"/>
+              <node name="głupio-8" size="1">
+                <node name="głupkowato-6" size="0"/>
+              </node>
+            </node>
+          </node>
+          <node name="niekomfortowo-2" size="5"/>
+        </node>
+      </node>
+      <node name="ckliwo-2" size="0"/>
+      <node name="gryząco-3" size="0"/>
+      <node name="smutno-4, smutnie-4" size="10">
+        <node name="płaczliwie-2" size="0"/>
+        <node name="smętnie-3" size="0"/>
+        <node name="minorowo-2" size="0"/>
+        <node name="przygnębiająco-1" size="4">
+          <node name="burawo-1" size="0"/>
+          <node name="buro-2" size="0"/>
+          <node name="martwo-2" size="0"/>
+          <node name="depresyjnie-1" size="0"/>
+        </node>
+        <node name="posępnie-1, ponuro-3" size="1">
+          <node name="grobowo-1" size="0"/>
+        </node>
+      </node>
+      <node name="smutno-3, smutnie-3" size="4">
+        <node name="mrocznie-5" size="0"/>
+        <node name="pusto-12" size="0"/>
+        <node name="na smutno-2" size="0"/>
+        <node name="smętnie-6" size="0"/>
+      </node>
+      <node name="nieprzyjaźnie-1" size="3">
+        <node name="sterylnie-4, aseptycznie-4" size="0"/>
+        <node name="obco-5" size="0"/>
+        <node name="niełaskawie-1" size="0"/>
+      </node>
+      <node name="niekomfortowo-2" size="5">
+        <node name="nieswojo-1" size="4">
+          <node name="słabo-15" size="0"/>
+          <node name="głupio-5" size="1">
+            <node name="kretyńsko-5, idiotycznie-6" size="0"/>
+          </node>
+          <node name="obco-1" size="0"/>
+        </node>
+      </node>
+      <node name="gorzko-3" size="0"/>
+      <node name="gorzko-2" size="0"/>
+      <node name="bezlitośnie-4" size="1">
+        <node name="miażdżąco-2" size="0"/>
+      </node>
+      <node name="dotkliwie-1" size="11">
+        <node name="słono-4" size="0"/>
+        <node name="ciężko-12" size="5">
+          <node name="poważnie-5" size="2">
+            <node name="druzgocąco-1" size="0"/>
+            <node name="kardynalnie-1" size="0"/>
+          </node>
+          <node name="srodze-3" size="0"/>
+          <node name="hardcorowo-5" size="0"/>
+        </node>
+        <node name="boleśnie-3" size="2">
+          <node name="werterowsko-1" size="0"/>
+          <node name="traumatycznie-2" size="0"/>
+        </node>
+        <node name="boleśnie-1" size="0"/>
+      </node>
+      <node name="mdło-4" size="0"/>
+      <node name="brzydko-5" size="7">
+        <node name="barowo-2" size="0"/>
+        <node name="syfiasto-4, syfiaście-5" size="0"/>
+        <node name="szpetnie-3" size="0"/>
+        <node name="pochmurno-1, pochmurnie-1, chmurno-5, chmurnie-1, szaro-5" size="0"/>
+        <node name="szarawo-1" size="0"/>
+        <node name="skrzekliwie-1" size="1">
+          <node name="kogucio-2, po koguciemu-2" size="0"/>
+        </node>
+      </node>
+      <node name="szczekliwie-2" size="0"/>
+      <node name="szczekliwie-1" size="0"/>
+      <node name="smutnawo-2" size="0"/>
+      <node name="rechotliwie-1" size="0"/>
+      <node name="niefajnie-1, niefajno-1" size="2">
+        <node name="słabo-13" size="0"/>
+        <node name="niesłodko-2" size="0"/>
+      </node>
+      <node name="mroźno-1, mroźnie-1" size="0"/>
+      <node name="lodowato-2" size="0"/>
+      <node name="hałaśliwie-2" size="5">
+        <node name="warkotliwie-2" size="0"/>
+        <node name="zgiełkliwie-1" size="0"/>
+        <node name="wrzawliwie-1" size="0"/>
+        <node name="skrzypliwie-1" size="0"/>
+        <node name="jazgotliwie-2" size="0"/>
+      </node>
+      <node name="brudno-2" size="0"/>
+    </node>
+    <node name="niewdzięcznie-3" size="0"/>
+    <node name="skandalicznie-1" size="2">
+      <node name="aferalnie-1" size="0"/>
+      <node name="plugawie-2, plugawo-2" size="0"/>
+    </node>
+    <node name="patologicznie-2" size="0"/>
+    <node name="obcesowo-1" size="0"/>
+    <node name="nieżyciowo-1" size="0"/>
+    <node name="niezgrabnie-3, niezręcznie-2, niezdarnie-2" size="9">
+      <node name="pokracznie-1" size="0"/>
+      <node name="nieskładnie-1, niegładko-1" size="1">
+        <node name="kanciasto-4" size="0"/>
+      </node>
+      <node name="koślawo-2" size="0"/>
+      <node name="ciężko-5" size="2">
+        <node name="niesmacznie-1" size="0"/>
+        <node name="niesmaczno-2" size="0"/>
+      </node>
+      <node name="ciężkawo-3, przyciężko-4" size="0"/>
+      <node name="chropawo-3, chropowato-2" size="0"/>
+    </node>
+    <node name="nietwarzowo-1" size="0"/>
+    <node name="nieszczęśliwie-4" size="0"/>
+    <node name="nieskromnie-1" size="4">
+      <node name="rozpustnie-1, rozwiąźle-1, wszetecznie-1" size="1">
+        <node name="hedonistycznie-4" size="0"/>
+      </node>
+      <node name="wyuzdanie-1" size="0"/>
+      <node name="frywolnie-1" size="0"/>
+    </node>
+    <node name="nieporządnie-2" size="2">
+      <node name="brudnawo-3" size="0"/>
+      <node name="brudno-2" size="0"/>
+    </node>
+    <node name="niemiarowo-1" size="0"/>
+    <node name="nieładnie-2" size="33"/>
+    <node name="niegrzecznie-2" size="23">
+      <node name="niedelikatnie-1" size="0"/>
+      <node name="świńsko-4" size="0"/>
+      <node name="wulgarnie-1" size="3"/>
+      <node name="pogardliwie-1" size="2"/>
+      <node name="opryskliwie-1" size="1">
+        <node name="warkliwie-1" size="0"/>
+      </node>
+      <node name="nieuprzejmie-1" size="4"/>
+      <node name="nieparlamentarnie-1" size="0"/>
+      <node name="grubiańsko-1, grubo-7, po grubiańsku-1" size="0"/>
+      <node name="chamsko-1, po chamsku-1, po robociarsku-1" size="0"/>
+      <node name="butnie-1, hardo-1" size="0"/>
+      <node name="bezceremonialnie-1" size="2">
+        <node name="rubasznie-2" size="1">
+          <node name="jowialnie-1" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="nieelegancko-1" size="1">
+      <node name="kostropato-2" size="0"/>
+    </node>
+    <node name="niedobrze-4" size="6"/>
+    <node name="źle-2, niedobrze-3" size="52">
+      <node name="niegustownie-1" size="0"/>
+      <node name="krzywo-3" size="0"/>
+      <node name="po chińsku-3" size="0"/>
+      <node name="nieprawidłowo-1, niepoprawnie-1" size="8">
+        <node name="błędnie-1" size="7">
+          <node name="niegramatycznie-1" size="0"/>
+          <node name="omylnie-1" size="0"/>
+          <node name="pochopnie-1" size="1">
+            <node name="porywczo-1" size="0"/>
+          </node>
+          <node name="opacznie-1, na opak-1, na wspak-1, wspak-1" size="0"/>
+          <node name="nietrafnie-2" size="0"/>
+          <node name="mylnie-1" size="0"/>
+        </node>
+      </node>
+      <node name="nierzetelnie-1" size="26"/>
+      <node name="bezskutecznie-1, bezowocnie-1" size="12">
+        <node name="jak grochem o ścianę-1" size="0"/>
+        <node name="głową w mur-1" size="0"/>
+        <node name="sobie a muzom-1" size="0"/>
+        <node name="nadaremnie-1, daremnie-1, próżno-2, na próżno-1" size="2">
+          <node name="głupio-10, durno-1" size="1"/>
+        </node>
+        <node name="bezwładnie-1, inercyjnie-2" size="0"/>
+        <node name="bezsensownie-1" size="2">
+          <node name="głupio-10, durno-1" size="1">
+            <node name="głupowato-4" size="0"/>
+          </node>
+        </node>
+        <node name="bezradnie-2" size="1">
+          <node name="jak dziecko-5" size="0"/>
+        </node>
+        <node name="bezproduktywnie-1, bezpłodnie-3" size="0"/>
+        <node name="bezcelowo-1" size="0"/>
+      </node>
+    </node>
+    <node name="niecenzuralnie-1" size="4">
+      <node name="wulgarnie-1" size="3">
+        <node name="po szewsku-1" size="0"/>
+        <node name="kurewsko-3" size="0"/>
+        <node name="zdzirowato-2" size="0"/>
+      </node>
+    </node>
+    <node name="mętnie-3, mętno-7" size="0"/>
+    <node name="gorsząco-1" size="11"/>
+    <node name="chorobliwie-2" size="20">
+      <node name="patologicznie-3" size="1">
+        <node name="nowotworowo-1" size="0"/>
+      </node>
+      <node name="depresyjnie-2" size="0"/>
+      <node name="astmatycznie-2" size="0"/>
+      <node name="schizofrenicznie-1" size="0"/>
+      <node name="paranoidalnie-1, paranoicznie-2" size="0"/>
+      <node name="niezdrowo-4" size="8">
+        <node name="wątlutko-8" size="0"/>
+        <node name="gorączkowo-2" size="0"/>
+        <node name="trupio-1" size="0"/>
+        <node name="sino-2" size="1">
+          <node name="niebiesko-3, na niebiesko-2" size="0"/>
+        </node>
+        <node name="sinawo-1" size="0"/>
+        <node name="chorowicie-1, wątło-7, wątle-7" size="1">
+          <node name="słabo-3" size="0"/>
+        </node>
+      </node>
+      <node name="nerwicowo-2, neurotycznie-3" size="1">
+        <node name="neurastenicznie-2" size="0"/>
+      </node>
+      <node name="nałogowo-1" size="0"/>
+      <node name="maniakalnie-1" size="0"/>
+      <node name="kompulsywnie-1" size="0"/>
+    </node>
+    <node name="zbrodniczo-2, barbarzyńsko-3, po barbarzyńsku-5" size="0"/>
+    <node name="barbarzyńsko-4, po barbarzyńsku-3" size="1">
+      <node name="po barbarzyńsku-6" size="0"/>
+    </node>
+    <node name="nienormalnie-3, anormalnie-2" size="7">
+      <node name="dewiacyjnie-1" size="3">
+        <node name="nekrofilsko-1" size="0"/>
+        <node name="sadystycznie-2" size="1">
+          <node name="sadomasochistycznie-1" size="0"/>
+        </node>
+      </node>
+      <node name="schizofrenicznie-1" size="0"/>
+      <node name="paranoidalnie-1, paranoicznie-2" size="0"/>
+      <node name="ekshibicjonistycznie-1" size="0"/>
+    </node>
+    <node name="analfabetycznie-3" size="0"/>
+  </node>
+  <node name="niemile-1, niemiło-1, nieprzyjemnie-1" size="30">
+    <node name="cierpko-3" size="0"/>
+    <node name="niesympatycznie-1" size="6">
+      <node name="chłodno-4, sucho-8" size="4">
+        <node name="rybio-1" size="0"/>
+        <node name="ozięble-1" size="0"/>
+        <node name="kamiennie-3" size="1">
+          <node name="marmurowo-2" size="0"/>
+        </node>
+      </node>
+      <node name="chłodnawo-2" size="0"/>
+    </node>
+    <node name="szorstko-3" size="3">
+      <node name="oschle-1" size="2"/>
+    </node>
+    <node name="ostro-6" size="0"/>
+    <node name="nieuprzejmie-1" size="4">
+      <node name="nietaktownie-1" size="1">
+        <node name="niegustownie-2" size="0"/>
+      </node>
+      <node name="gburowato-1" size="0"/>
+      <node name="chamowato-1" size="0"/>
+    </node>
+    <node name="lekceważąco-1" size="6">
+      <node name="zbywalnie-3" size="0"/>
+      <node name="protekcjonalnie-1, protekcyjnie-5" size="1">
+        <node name="po sztubacku-2" size="0"/>
+      </node>
+      <node name="pogardliwie-1" size="2">
+        <node name="wzgardliwie-1" size="0"/>
+        <node name="kapralsko-1" size="0"/>
+      </node>
+    </node>
+    <node name="krzywo-2" size="1"/>
+    <node name="kostropato-2" size="0"/>
+    <node name="gruboskórnie-1" size="0"/>
+    <node name="burkliwie-1, mrukliwie-1, oburkliwie-1" size="0"/>
+    <node name="antypatycznie-1" size="0"/>
+  </node>
+  <node name="nieładnie-2" size="33">
+    <node name="niekulturalnie-1" size="0"/>
+    <node name="egocentrycznie-2" size="6">
+      <node name="egoistycznie-1, samolubnie-1" size="4">
+        <node name="samowolnie-1, swawolnie-2, woluntarystycznie-1" size="3">
+          <node name="partyzancko-1, po partyzancku-1, po piracku-5" size="0"/>
+          <node name="arbitralnie-1" size="1">
+            <node name="uznaniowo-2" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="ambicjonalnie-1" size="0"/>
+    </node>
+    <node name="perfidnie-1" size="1">
+      <node name="świńsko-3" size="0"/>
+    </node>
+    <node name="obcesowo-1" size="0"/>
+    <node name="niehigienicznie-2" size="0"/>
+    <node name="gorsząco-1" size="11">
+      <node name="skandalicznie-2, oburzająco-1" size="10">
+        <node name="brzydko-2" size="0"/>
+        <node name="haniebnie-1" size="2">
+          <node name="niehonorowo-2" size="0"/>
+          <node name="sromotnie-1" size="0"/>
+        </node>
+        <node name="śliczniutko-2" size="0"/>
+        <node name="pięknie-2, ślicznie-2" size="0"/>
+        <node name="perwersyjnie-1" size="1">
+          <node name="diabolicznie-1" size="0"/>
+        </node>
+        <node name="horrendalnie-1" size="0"/>
+        <node name="choro-3" size="0"/>
+      </node>
+    </node>
+    <node name="drańsko-1" size="0"/>
+    <node name="brzydko-3" size="7">
+      <node name="szpetnie-2" size="0"/>
+      <node name="szkaradnie-1" size="0"/>
+      <node name="paskudnie-2" size="4">
+        <node name="obrzydliwie-1" size="3">
+          <node name="wstrętnie-4, przebrzydle-1, ohydnie-2" size="2">
+            <node name="odrażająco-3" size="0"/>
+            <node name="wszawo-3" size="0"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node name="niekorzystnie-3" size="0"/>
+  <node name="niekorzystnie-2" size="37">
+    <node name="usypiająco-2" size="0"/>
+    <node name="nieprzyjaźnie-4" size="0"/>
+    <node name="źle-4, niedobrze-6" size="26">
+      <node name="z deszczu pod rynnę-1" size="0"/>
+      <node name="gorsząco-2" size="0"/>
+      <node name="ciężkawo-5, przyciężko-5" size="0"/>
+      <node name="szkodliwie-1" size="20">
+        <node name="depresyjnie-4" size="0"/>
+        <node name="radioaktywnie-3" size="0"/>
+        <node name="niezdrowo-3" size="8">
+          <node name="toksycznie-1, trująco-1" size="1">
+            <node name="neurotoksycznie-1" size="0"/>
+          </node>
+          <node name="niehigienicznie-1" size="0"/>
+          <node name="chorobotwórczo-1" size="3">
+            <node name="zjadliwie-1" size="0"/>
+            <node name="onkogennie-1" size="1">
+              <node name="rakotwórczo-1" size="0"/>
+            </node>
+          </node>
+          <node name="antyhigienicznie-1" size="0"/>
+        </node>
+        <node name="chorobotwórczo-2" size="0"/>
+        <node name="zgubnie-1" size="0"/>
+        <node name="zabójczo-2, śmiercionośnie-2" size="0"/>
+        <node name="toksycznie-2" size="0"/>
+        <node name="pieniacko-1" size="0"/>
+        <node name="obosiecznie-2" size="0"/>
+        <node name="mutagennie-1" size="0"/>
+        <node name="żrąco-1, kaustycznie-1" size="0"/>
+        <node name="gorąco-3" size="0"/>
+      </node>
+      <node name="kryminogennie-1" size="0"/>
+      <node name="ciężko-3, ciężkostrawnie-1" size="0"/>
+    </node>
+    <node name="natrętnie-2" size="1">
+      <node name="nachalnie-1" size="0"/>
+    </node>
+    <node name="dysharmonijnie-5" size="0"/>
+    <node name="destrukcyjnie-1, rozkładowo-2, destruktywnie-1" size="3">
+      <node name="rabunkowo-1" size="0"/>
+      <node name="autodestrukcyjnie-1" size="1">
+        <node name="sadomasochistycznie-2" size="0"/>
+      </node>
+    </node>
+    <node name="aspołecznie-3" size="0"/>
+  </node>
+  <node name="źle-9, niedobrze-8" size="0"/>
+  <node name="źle-6, niedobrze-5" size="146">
+    <node name="nieprzejrzyście-1" size="1">
+      <node name="nieczytelnie-3" size="0"/>
+    </node>
+    <node name="kiepskawo-1" size="0"/>
+    <node name="niesprawnie-5" size="0"/>
+    <node name="nieprawidłowo-2" size="5">
+      <node name="chorobowo-1" size="2">
+        <node name="rachitycznie-4" size="0"/>
+        <node name="nowotworowo-1" size="0"/>
+      </node>
+      <node name="alergicznie-2" size="0"/>
+      <node name="kazirodczo-1" size="0"/>
+    </node>
+    <node name="lipnie-2" size="0"/>
+    <node name="wadliwie-1" size="0"/>
+    <node name="słabo-5" size="19">
+      <node name="kaleko-1" size="0"/>
+      <node name="wątle-5, wątło-5" size="0"/>
+      <node name="topornie-2" size="0"/>
+      <node name="tępo-2" size="0"/>
+      <node name="płasko-2" size="1"/>
+      <node name="osłable-2" size="0"/>
+      <node name="niesolidnie-1" size="0"/>
+      <node name="miernie-1" size="0"/>
+      <node name="kulawo-2" size="4">
+        <node name="ułomnie-3" size="2">
+          <node name="dziurawo-2" size="0"/>
+          <node name="chromo-2" size="0"/>
+        </node>
+        <node name="chropawo-3, chropowato-2" size="0"/>
+      </node>
+      <node name="koślawo-2" size="0"/>
+      <node name="grafomańsko-1" size="0"/>
+      <node name="sucho-10, czerstwo-2" size="0"/>
+      <node name="biednie-3, bidnie-5" size="1"/>
+    </node>
+    <node name="słabiutko-5, słabieńko-4" size="2">
+      <node name="wątlutko-4" size="0"/>
+      <node name="suchutko-3" size="0"/>
+    </node>
+    <node name="podle-4" size="0"/>
+    <node name="paskudnie-3, wstrętnie-3, obrzydliwie-4, ohydnie-1, obrzydle-1" size="1">
+      <node name="zbereźnie-1" size="0"/>
+    </node>
+    <node name="niziutko-4" size="0"/>
+    <node name="niesmaczno-1, niesmacznie-2" size="1">
+      <node name="bezsmakowo-1" size="0"/>
+    </node>
+    <node name="nierzetelnie-1" size="26">
+      <node name="nieprzejrzyście-2" size="7">
+        <node name="mętnie-2" size="2">
+          <node name="po partyzancku-2" size="0"/>
+          <node name="krętacko-1" size="0"/>
+        </node>
+        <node name="zawile-1, mętnie-1, mętno-5, zagmatwanie-1" size="3">
+          <node name="piętrowo-1" size="0"/>
+          <node name="pokrętnie-1, krętacko-3" size="1">
+            <node name="sofistycznie-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="spekulacyjnie-2" size="0"/>
+      <node name="niedokładnie-3" size="16">
+        <node name="nieuważnie-2" size="5">
+          <node name="nieporządnie-1, niedbale-1" size="4">
+            <node name="grafomańsko-2" size="0"/>
+            <node name="na kolanie-1" size="0"/>
+            <node name="taśmowo-2" size="0"/>
+            <node name="niechlujnie-2" size="0"/>
+          </node>
+        </node>
+        <node name="pobieżnie-1" size="3">
+          <node name="na oko-1" size="1">
+            <node name="na pierwszy rzut oka-1" size="0"/>
+          </node>
+          <node name="z twarzy-1" size="0"/>
+        </node>
+        <node name="polotnie-4" size="0"/>
+        <node name="zgrubnie-2" size="1">
+          <node name="naskórkowo-4" size="0"/>
+        </node>
+        <node name="partacko-2, po partacku-1" size="0"/>
+        <node name="niechlujnie-1" size="0"/>
+        <node name="bałaganiarsko-1, po bałaganiarsku-1" size="0"/>
+      </node>
+    </node>
+    <node name="niemądrze-1" size="39">
+      <node name="nierozważnie-1, lekkomyślnie-1" size="13">
+        <node name="durnie-3, debilnie-7, kretyńsko-7, idiotycznie-7" size="1">
+          <node name="durnowato-3" size="0"/>
+        </node>
+        <node name="głupawo-6, przygłupio-5" size="0"/>
+        <node name="nieoszczędnie-1" size="2">
+          <node name="rozrzutnie-1" size="0"/>
+          <node name="niegospodarnie-1, niegospodarczo-1" size="0"/>
+        </node>
+        <node name="głupio-9" size="3">
+          <node name="głupkowato-5" size="1">
+            <node name="durnowato-3" size="0"/>
+          </node>
+          <node name="głupiutko-3" size="0"/>
+        </node>
+        <node name="płocho-1" size="1"/>
+        <node name="krótkowzrocznie-2" size="0"/>
+        <node name="fircykowato-1" size="0"/>
+      </node>
+      <node name="nieodpowiedzialnie-1" size="0"/>
+      <node name="głupawo-1, przygłupio-3" size="0"/>
+      <node name="debilnie-1, kretyńsko-1, idiotycznie-1, durnie-4, debilowato-2, po kretyńsku-1" size="1">
+        <node name="durnowato-2" size="0"/>
+      </node>
+      <node name="głupio-2" size="23">
+        <node name="głupkowato-1, głupowato-1" size="1">
+          <node name="durnowato-2" size="0"/>
+        </node>
+        <node name="nierozumnie-1, bezrozumnie-1" size="0"/>
+        <node name="od rzeczy-1" size="0"/>
+        <node name="po wariacku-2, wariacko-5" size="0"/>
+        <node name="nierozsądnie-1, nieroztropnie-1" size="4">
+          <node name="szaleńczo-4" size="1">
+            <node name="opętańczo-1, opętanie-2" size="0"/>
+          </node>
+          <node name="płocho-1" size="1">
+            <node name="popędliwie-2" size="0"/>
+          </node>
+        </node>
+        <node name="niedojrzale-3" size="7">
+          <node name="szczenięco-1" size="0"/>
+          <node name="szczeniacko-1, po szczeniacku-1, sztubacko-1, po sztubacku-1" size="0"/>
+          <node name="niedorośle-1" size="0"/>
+          <node name="gówniarsko-2" size="0"/>
+          <node name="dziecinnie-2, infantylnie-1" size="2">
+            <node name="pensjonarsko-2, po pensjonarsku-1" size="0"/>
+            <node name="gówniarsko-3" size="0"/>
+          </node>
+        </node>
+        <node name="małpio-1" size="0"/>
+        <node name="głupiutko-1" size="0"/>
+        <node name="frajersko-1" size="0"/>
+        <node name="bzdurnie-2" size="0"/>
+        <node name="błazeńsko-1, po błazeńsku-2" size="0"/>
+      </node>
+    </node>
+    <node name="niedobrze-4" size="6">
+      <node name="pergaminowo-1" size="0"/>
+      <node name="nieświeżo-4" size="3">
+        <node name="starawo-2" size="0"/>
+        <node name="stęchle-1" size="0"/>
+        <node name="staro-6" size="0"/>
+      </node>
+      <node name="bezbarwnie-1" size="0"/>
+    </node>
+    <node name="kiepsko-1, marnie-1, licho-1" size="24">
+      <node name="byle jak-3" size="2">
+        <node name="oględnie-3" size="0"/>
+        <node name="niechlujnie-2" size="0"/>
+      </node>
+      <node name="od niechcenia-2, byle jak-1, tak sobie-2" size="0"/>
+      <node name="syfiasto-3, syfiaście-3" size="0"/>
+      <node name="prowizorycznie-1" size="0"/>
+      <node name="podrzędnie-1" size="1">
+        <node name="miernie-1" size="0"/>
+      </node>
+      <node name="podle-1" size="0"/>
+      <node name="płasko-2" size="1">
+        <node name="poziomo-1" size="0"/>
+      </node>
+      <node name="nietęgo-2" size="0"/>
+      <node name="nędznie-2" size="4">
+        <node name="rachitycznie-2" size="0"/>
+        <node name="biednie-3, bidnie-5" size="1">
+          <node name="chuchrowato-2" size="0"/>
+        </node>
+        <node name="biedniutko-3" size="0"/>
+      </node>
+      <node name="lewo-3" size="0"/>
+      <node name="kruchutko-2" size="0"/>
+      <node name="cienko-4" size="0"/>
+      <node name="cieniuteńko-4, cieniusieńko-4" size="0"/>
+      <node name="cieniutko-5" size="1">
+        <node name="cieniuchno-3" size="0"/>
+      </node>
+      <node name="tandetnie-2, badziewnie-1" size="0"/>
+    </node>
+    <node name="kiczowato-1" size="3">
+      <node name="choinkowo-3" size="0"/>
+      <node name="szmirowato-1" size="0"/>
+      <node name="cepeliowsko-1" size="0"/>
+    </node>
+    <node name="beznadziejnie-1" size="7">
+      <node name="żałośnie-3" size="5">
+        <node name="taniutko-2" size="0"/>
+        <node name="tandetnie-1" size="2">
+          <node name="tanio-3" size="0"/>
+          <node name="melodramatycznie-1" size="0"/>
+        </node>
+        <node name="pieniacko-1" size="0"/>
+      </node>
+      <node name="dennie-1" size="0"/>
+    </node>
+  </node>
+  <node name="nieciekawie-4" size="0"/>
+  <node name="nieciekawie-3" size="3">
+    <node name="niewesoło-5" size="0"/>
+    <node name="chudziutko-5" size="0"/>
+    <node name="chudo-4" size="0"/>
+  </node>
+  <node name="negatywnie-4, ujemnie-7, minusowo-9" size="40">
+    <node name="smutnawo-4" size="0"/>
+    <node name="czarniusieńko-3" size="0"/>
+    <node name="czarniutko-4" size="0"/>
+    <node name="wymiotnie-2" size="0"/>
+    <node name="smutno-5" size="1">
+      <node name="smętnie-5" size="0"/>
+    </node>
+    <node name="nieprzyjaźnie-2, nieżyczliwie-2" size="0"/>
+    <node name="niewesoło-5" size="0"/>
+    <node name="wrogo-4" size="3">
+      <node name="ofensywnie-5" size="0"/>
+      <node name="wojennie-2" size="0"/>
+      <node name="antyintelektualnie-3" size="0"/>
+    </node>
+    <node name="nieżyczliwie-1, nieprzyjaźnie-3" size="10">
+      <node name="oschle-1" size="2">
+        <node name="cierpko-3" size="0"/>
+        <node name="kostycznie-2" size="0"/>
+      </node>
+      <node name="niełaskawie-2" size="0"/>
+      <node name="marudnie-2" size="1"/>
+      <node name="lodowato-3, mroźnie-2, mroźno-2, lodowo-3" size="0"/>
+      <node name="krzywo-2" size="1">
+        <node name="koso-1" size="0"/>
+      </node>
+      <node name="kosooko-1" size="0"/>
+    </node>
+    <node name="źle-1, niedobrze-1" size="5">
+      <node name="kiepskawo-5" size="0"/>
+      <node name="morderczo-6" size="0"/>
+      <node name="słabiutko-10" size="0"/>
+      <node name="napastniczo-1" size="0"/>
+      <node name="marnie-6, kiepsko-4, słabo-1" size="0"/>
+    </node>
+    <node name="minorowo-1" size="0"/>
+    <node name="niepochlebnie-1" size="3">
+      <node name="oskarżycielsko-1" size="0"/>
+      <node name="marudnie-2" size="1">
+        <node name="zrzędliwie-1, zrzędnie-1, gderliwie-1" size="0"/>
+      </node>
+    </node>
+    <node name="pesymistycznie-1, czarno-4" size="6">
+      <node name="werterowsko-1" size="0"/>
+      <node name="malkontencko-2" size="0"/>
+      <node name="katastroficznie-3" size="1">
+        <node name="apokaliptycznie-1" size="0"/>
+      </node>
+      <node name="fatalistycznie-1" size="0"/>
+      <node name="dekadencko-2" size="0"/>
+    </node>
+    <node name="alergicznie-1" size="0"/>
+  </node>
+  <node name="miałko-3" size="0"/>
+  <node name="ładnie-7" size="0"/>
+  <node name="marnie-3, marno-3, kiepsko-3" size="15">
+    <node name="chropawo-4" size="0"/>
+    <node name="dziadowsko-2, po dziadowsku-1" size="0"/>
+    <node name="podle-3" size="1">
+      <node name="smętnie-5" size="0"/>
+    </node>
+    <node name="nędznie-1, mizernie-2" size="10">
+      <node name="smętnie-4" size="6">
+        <node name="żałośnie-4" size="2">
+          <node name="opłakanie-1" size="0"/>
+          <node name="nieszczęśliwie-7" size="0"/>
+        </node>
+        <node name="mizernie-1" size="1">
+          <node name="skąpo-1" size="0"/>
+        </node>
+        <node name="nędznie-4, mizernie-4" size="0"/>
+      </node>
+      <node name="płono-2" size="0"/>
+      <node name="chuchrowato-2" size="0"/>
+      <node name="licho-2" size="0"/>
+    </node>
+  </node>
+  <node name="czczo-2" size="0"/>
+  <node name="ciemno-7" size="0"/>
+  <node name="burzliwie-1, burzowo-1" size="0"/>
+</node>

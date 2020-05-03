@@ -1,0 +1,486 @@
+%% Based on the style files for EACL 2006 by 
+%%e.agirre@ehu.es or Sergi.Balari@uab.es
+%% and that of ACL 08 by Joakim Nivre and Noah Smith
+\RequirePackage{luatex85}
+\documentclass[11pt]{article}
+\usepackage{eacl2017}
+\usepackage{times}
+\usepackage{url}
+\usepackage{latexsym}
+\usepackage[textsize=small]{todonotes}
+\usepackage{paralist}
+
+\def\pgfsysdriver{pgfsys-pdftex.def} %for texlive 2016
+% \usepackage{pgf}
+\frenchspacing
+\eaclfinalcopy % Uncomment this line for the final submission
+% \def\eaclpaperid{***} %  Enter the acl Paper ID here
+
+\setlength\titlebox{12cm}
+% You can expand the titlebox if you need extra space
+% to show all the authors. Please do not make the titlebox
+% smaller than 5cm (the original size); we will check this
+% in the camera-ready version and ask you to change it back.
+
+\usepackage{covington} % if needed, for linguistic examples
+\usepackage{amsmath, amsthm, amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage[polish, english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+
+\usetikzlibrary{conceptgraph}
+\usetikzlibrary{positioning}
+\usepackage{bussproofs}
+\usepackage{cmll}
+\newcommand{\tensor}{\bullet}
+\newcommand{\forward}{\operatorname{/}}
+\newcommand{\backward}{\operatorname{\backslash}}
+\newcommand{\both}{\mid}
+\newcommand{\plus}{\oplus}
+\newcommand{\maybe}{?}
+\newcommand{\zero}{0}
+\newcommand{\one}{1}
+
+\newcommand{\pred}[1]{\text{{\sc #1}}}
+\newcommand{\quant}[3]{\pred{#1}\;#2:\text{#3}\;}
+\newcommand{\quantm}[3]{#1\;#2:\text{#3}\;}
+\newcommand{\qe}[2]{\quantm{\exists}{#1}{#2}}
+\newcommand{\qa}[2]{\quantm{\forall}{#1}{#2}}
+\newcommand{\type}[2]{\text{{\sc type}}(#1,\text{#2})}
+\newcommand{\hasName}[2]{\text{{\sc hasName}}(#1,\text{'#2'})}
+\newcommand{\dscr}[2]{\text{{\sc dscr}}(#1,#2)}
+\newcommand{\init}[2]{\text{{\sc initiator}}(#1,#2)}
+\newcommand{\ptnt}[2]{\text{{\sc patient}}(#1,#2)}
+\newcommand{\pTim}[2]{\text{{\sc pTim}}(#1,#2)}
+\newcommand{\attr}[2]{\text{{\sc attr}}(#1,#2)}
+\newcommand{\man}[2]{\text{{\sc manner}}(#1,#2)}
+\newcommand{\poss}[2]{\text{{\sc poss}}(#1,#2)}
+\newcommand{\rot}[1]{\text{{\sc root}}(#1)}
+% \newcommand{\existsg}{\exists^{\text{{\sc sg}}}}
+% \newcommand{\existpl}{\exists^{\text{{\sc pl}}}}
+\newcommand{\existsg}{{\it sg}}
+\newcommand{\existpl}{{\it pl}}
+
+% z pliku "przetwarzanie"
+\newcommand{\trole}[2]{#2}
+\newcommand{\przyim}[2]{{\sc #1}[#2]}
+
+\newcommand{\caseof}[2]{{\bf case}\;#1\;{\bf of}\;#2}
+\newcommand{\inl}{{\bf inl}\;}
+\newcommand{\inr}{{\bf inr}\;}
+\newcommand{\imp}{\multimap}
+\newcommand{\One}{\bullet}
+
+\newcommand{\eniam}{\textsc{eniam}}
+\newcommand{\sg}{\textsc{SG}}
+
+\newcommand{\modify}[2]{{\bf modify}(#1,#2)}
+\newcommand{\letin}[2]{{\bf let}\;#1=#2\;{\bf in}}
+\newcommand{\quantifier}[2]{{\bf quantifier}(#1,#2)}
+\newcommand{\popr}[1]{\todo[inline,color=green!30]{\scriptsize #1}}
+
+
+\title{
+\normalsize
+\setlength{\topsep}{0pt} 
+\noindent
+Zleceniodawca: IPI PAN \hfill Dzieło do umowy z dnia: 2.01.2017 \\
+Zleceniobiorca: Jakub Kozakoszczak \hfill Termin zakończenia pracy: 31.01.2016 \\
+\rule{\linewidth}{2pt} \\[6pt] 
+\huge 
+  Representation of opacity and quantification\\ in a semantic parser for Polish
+}
+\author{Wojciech Jaworski \hspace{20mm} Jakub Kozakoszczak\\
+  Institute of Computer Science, Polish Academy of Sciences\\
+  University of Warsaw\\
+  {\tt wjaworski@mimuw.edu.pl} \hspace{1mm} {\tt jkozakoszczak@gmail.com}\\
+\hspace{-5pt}\rule{\linewidth}{0.5pt}\\
+\textbf{Zrealizowane w ramach projektu:}\\ „CLARIN -- Polskie wspólne zasoby językowe i infrastruktura technologiczna”\hfill\\
+\textbf{Tytuł pracy zamówionej:}\\ ,,Integrated representation of semantic phenomena beyond events and roles\\ for implementational purposes''\\
+\textbf{Adres dzieła:}\\
+\texttt{http://wiki.nlp.ipipan.waw.pl/clarin/Parser\%20kategorialny?}\\
+\texttt{action=AttachFile\&do=view\&target=JK\_phenomena\_beyond\_events.zip}\\
+\textbf{Opracowanie dokumentu:} Jakub Kozakoszczak\\
+\rule{\linewidth}{0.5pt}
+ }
+
+
+\date{}
+
+\begin{document}
+\maketitle
+% \vspace{-26pt}
+\begin{abstract}
+In this paper we present a semantic metalanguage which integrates a standard neo-Davidsonian approach with representation of the phenomenon of opacity and \textsc{mrs}-style underspecification of the scope of quantifiers.
+
+\end{abstract}
+
+\section{Introduction}
+\textsc{eniam} is a deep semantic parser for sentences in Polish.
+The semantic metalanguage it employs is based on the standard neo-Davidsonian approach in that it reifies all events and expresses the role of their participants in terms of thematic roles. 
+Due to the use of \emph{nested contexts} \eniam's metalanguage is also capable of expressing more subtle phenomena connected to opacity.
+The intended utility of the
+ metalanguage is to support all the language processing tasks that involve the semantic level,
+in particular Information Retrieval, Question Answering and Recognizing Textual Entailment but first and foremost
+the system is designed for research use in the humanities and social sciences dealing with large collections of Polish texts. 
+
+
+
+\section{Broad reification}
+In \eniam's metalanguage almost all concepts are consistently reified. Every lexeme (or \textsc{mwe}) which is not a 
+quantifier, conjunct or non-semantic item is translated into a variable identifying the entities under discussion and a dyadic {\sc type} or {\sc hasName} predicate with a constant term identifying the lexeme's intension.
+The main reason for the broad reification is the modifiability of virtually every part of speech in Polish, including adjectives, adverbs and propositions, see adverb + adjective ``intensywnie różowy'' `in deep pink' below.
+% Variables are always assigned to sets of entities. Singular number is denoted by the statement that a set is a singleton, and plural number by the statement that it has quantity greater than 1.
+
+\begin{example} \label{intensywnie_rozowy}
+% \item 
+\gll Intensywnie różowy słoń trąbi.
+Deeply pink elephant trumpets.
+\glt `An elephant in deep pink trumpets.'
+\glend
+\end{example}
+
+% =======================================
+% CENTERED CONCEPT GRAPH
+% \begin{figure*}
+% \begin{center}
+% \begin{tikzpicture}
+% \node[concept] (b) {trumpet};
+%   \node[relation, right=6mm of b] (c) {Init};
+%   \edge{b}{c};
+%       \node[concept, right=6mm of c] (d) {$\existsg$ elephant};
+%       \edge{c}{d};
+%           \node[relation, right=6mm of d] (e) {Attr};
+%           \edge{d}{e};
+%               \node[concept, right=6mm of e] (f) {pink};
+%               \edge{e}{f};
+%                   \node[relation, right=6mm of f] (g) {Manr};
+%                   \edge{f}{g};
+%                       \node[concept, right=6mm of g] (h) {deeply};
+%                       \edge{g}{h};
+% \end{tikzpicture}
+% \caption{An elephant in deep pink trumpets.}
+% \end{center}
+% \end{figure*}
+% ========================================
+
+\vspace{-22pt}
+\begin{multline}\label{int_roz_logform}
+\hspace{-15pt}
+\begin{array}{l}
+\exists(t, \type{t}{trumpet}, \\
+\exists(e, \type{e}{elephant} \wedge |e|=1, \\
+\exists(p, \type{p}{pink}, \exists(d, \type{d}{deeply},\\
+\init{t}{e} \wedge \attr{e}{p} \wedge \\
+\man{p}{d}
+))))
+\end{array}
+\end{multline}
+
+\vspace{-10pt}
+\begin{equation}\label{introz_cg}
+    \begin{tikzpicture}
+\node[concept] (trumpet) {trumpet};
+    \node[relation, right=6mm of trumpet] (c) {Init};
+    \edge{trumpet}{c};
+        \node[concept, right=6mm of c] (d) {$\existsg$ elephant};
+        \edge{c}{d};
+            \node[relation, right=6mm of d] (e) {Attr};
+            \edge{d}{e};
+                \node[concept, below=6mm of e] (f) {pink};
+                \edge{e}{f};
+                    \node[relation, left=6mm of f] (g) {Manr};
+                    \edge{f}{g};
+                        \node[concept, left=6mm of g] (h) {deeply};
+                        \edge{g}{h};
+\end{tikzpicture}
+\end{equation}
+
+\section{Lexical and grammatical meanings}
+The semantic representation is built upon dependency trees augmented with concepts (word senses) and with thematic roles.
+Concepts are ascribed to lexemes and originate  from Słowosieć (the Polish WordNet) \cite{maziarz2014plwordnet}.
+Each sense is represented in the WordNet style as a lemma with a number.
+The senses of proper names are their types.
+
+The valency of the lexemes in the sentence is determined with the valency dictionary Walenty \cite{prz:etal:14b}.
+Walenty covers most verbs and many nouns, adjectives and adverbs. Each entry comprises syntactic schemata that include detailed syntactic description of the obligatory dependents and, importantly, semantic frames that give their semantic characteristic, namely thematic roles and selectional preferences. The schemata and the frames are mapped many-to-many.   
+The set of thematic roles employed in \eniam's metalanguage extends the set of thematic roles provided by Walenty.
+    
+
+\section{Semantic Graphs and quantifiers' scope underspecification}
+The logical formulae are presented in the form of semantic graphs (\sg) inspired by Sowa's conceptual graphs \cite{Sowa:1984:CSI:4569}.
+
+The boxes represent entities mentioned in the text. The first one
+represents the action of \textit{trumpeting},
+the second one
+represents the \textit{elephant} (a singleton of elephant-type entities)
+The symbol $\existsg$ is a quantifier that defines the count of the elephants under discussion as exactly one.
+The circles represent relations between (or thematic roles of) the entities. The Init relation says that the \textit{elephant} is the initiator of \textit{trumpeting}.
+
+Since the example (\ref{intensywnie_rozowy}) is unambiguous (spuriously ambiguous) with regard to quantifier scopes, 
+its semantic graph (\ref{introz_cg}) which is the actual\footnote{For the convenience of non-Polish speaking readers all presented logical formulae are translated into English and are therefore not identical to the parser output. In particular the parser presents concept names in Polish.}
+ representation in \eniam's metalanguage
+is equivalent to
+the single logical form given in (\ref{int_roz_logform}). 
+However, opposite to FOL, \sg{}s underspecify the scope of the quantifiers. \sg{}s are equivalent to weakly specified MRS structures \cite{copestake2005mrs} where all restriction holes are resolved but none of the body holes -- which in practice boils down to no constraints of equality modulo quantifiers being defined. Since \sg{}s are special cases of MRS structures, each \sg{} defines a set of standard FOL formulae that are the allowed readings of the parsed sentence.
+
+\section{Natural language quantifiers}
+We extend FOL with special quantifiers existing in the language, e.g. \textit{co dziesiąty} (`every tenth'),
+\textit{prawie każdy} (`almost every') or
+\textit{codziennie} (`every day')
+
+%Składnię rachunku predykatów pierwszego rzędu rozszerzamy o {\bf kwantyfikatory} występujące w języku naturalnym 
+%(np. {\it co dziesiąty}, czy {\it prawie każdy}).
+
+\begin{examples}
+\item \label{codziennie}
+\gll Słoń codziennie trąbi.
+Elephant everyday trumpets.
+\glt `An elephant trumpets everyday.'
+\glend
+\end{examples}
+
+%\begin{center}{\it Słoń codziennie trąbi.}\end{center}
+\vspace{-10pt}
+\begin{equation}
+\begin{tikzpicture}\label{codziennie_sg}
+\node[concept] (Sbe) {trumpet};
+  \node[relation, right=6mm of Sbe] (RSbe_Nb) {Init};
+  \edge {Sbe} {RSbe_Nb};
+    \node[concept, right=6mm of RSbe_Nb] (Nb) {$\existsg$ elephant};
+    \edge {RSbe_Nb} {Nb};
+  \node[relation, below=6mm of Sbe] (RSbe_Nx) {Quant};
+  \edge {Sbe} {RSbe_Nx};
+    \node[concept, right=6mm of RSbe_Nx] (Nx) {everyday};
+    \edge {RSbe_Nx} {Nx};
+\end{tikzpicture}
+% \vspace{-20pt}  
+\end{equation}
+One of the possible readings defined by SG (\ref{codziennie_sg}) is
+\vspace{-5pt}
+\begin{multline}
+\hspace{-15pt}
+\begin{array}{l}
+\exists(s,\type{s}{elephant}\wedge|s|=1,\\
+\text{{\sc everyday}}(t,\type{t}{trumpet}\\
+\wedge\init{t}{s}))
+\end{array}
+\end{multline}
+
+
+\section{Nested contexts} \label{sub:nested_contexts}
+
+For the majority of natural language sentential operators their meaning is not extensional, 
+so their sentential operands 
+are in opaque contexts
+
+\begin{examples}
+\item \label{wierzy}
+\gll Jan wierzy, że słoń trąbi.
+Jan believes, that elephant trumpets.
+\glt `Jan believes that an elephant trumpets.'
+\glend
+\end{examples}
+In the sentence above, the object of belief of Jan has the role of a belief's Theme.
+In order to express the fact we make use of \textit{nested contexts} (Sowa, 1984, p. 173).
+We assume an extended version of FOL with one dyadic meta-predicate \textsc{dscr} that binds a formula to its identifier, see $\dscr{b}{\dots}$ below. The identifier $b$ is allowed as an argument of a predicate, in particular a thematic role \textsc{theme}.
+
+\vspace{-22pt}
+\begin{multline}
+\hspace{-15pt}
+\begin{array}{l}
+\exists(w,\type{w}{believe}\wedge
+\exists(j,\type{j}{person}\wedge\\
+\hasName{j}{Jan}\wedge|j|=1,\\
+\init{w}{j})\wedge\\
+\exists(b, \type{b}{situation}\wedge
+\\
+\textsc{dscr}
+(\;b,\exists(s,\type{s}{elephant}\wedge |s|=1,\\
+\exists(t,\type{t}{trumpet}\wedge
+\init{t}{s}))\;
+),\\
+\textsc{theme}(w,b)))
+\vspace{-17pt}
+\end{array}
+\end{multline}
+
+In \textsc{sc} we nest an inner \textsc{sc} representing the sentential complement in an additional box of the type (labeled as) ``situation''.
+
+\vspace{-5mm}
+\begin{equation}
+\begin{tikzpicture}
+\node[concept] (b) {believe};
+\node[relation, left=10mm of b] (c) {Init};
+\node[concept, left=10mm of c] (d) {$\existsg$ person ''Jan''};
+\node[relation, below=10mm of b] (e) {Theme};
+\node[concept, left=10mm of e] (f) {trumpet};
+\node[relation, left=10mm of f] (g) {Init};
+\node[concept, left=10mm of g] (h) {$\existsg$ elephant};
+\context{v}{(f)(g)(h)}{situation};
+\edge{b}{c};
+\edge{c}{d};
+\edge{b}{e};
+\edge{e}{v};
+\edge{f}{g};
+\edge{g}{h};
+\end{tikzpicture}
+\end{equation}
+
+
+% \section{Inner models and veridicality} \label{sec:inner_models}
+\section{Inner models} \label{sec:inner_models}
+The propositions represented in a nested context are not implied by the whole sentence and they describe a separate inner model. The meaning of nested contexts is to indicate the inner models. 
+
+The semantics of the metalanguage is build upon a set of possible worlds. We assume that each speaker has their own world model in which they interpret their utterances and each act of communication creates of a new model. Obviously, when someone communicates something, it doesn't mean they believe it, but they present a model in which it is true. Thanks to representing each utterance as placed in a separate context the very representation of a longer text which includes many contradictory opinions isn't contradictory itself.
+
+% Their appropriateness -- or the truth value of the sentences that describe them ought to be determined against a subjective point of view and with additional disclosures introduced by modal lexemes.
+Some contexts that introduce a new model include:
+\begin{compactenum}
+  \item imperatives
+  \item conditionals
+  \item speech verbs (\textit{say}, \textit{claim}, \textit{confirm})
+  \item epistemic (modal) verbs (\textit{believe}, \textit{assume})
+  \item modal adverbs and particles (\textit{probably}, \textit{presumably})
+\end{compactenum}
+
+\section{Reported speech} \label{sec:reported_speech}
+In the case when someone refers what another person said or believes the former simulates in their own model the model of the latter. This is represented as nesting of the {\sc sc} for the second model in a context within the {\sc sc} for the first model. The nesting goes as deep as needed.
+
+\begin{examples}
+\item 
+\gll Jan twierdzi, że Maria kłamie, że pada.
+Jan claims that Maria lies that rains
+\glt `Jan claims that Maria lies that it rains.'
+\glend
+\end{examples}
+
+\vspace{-10pt}
+\begin{equation}\label{twierdzi}
+    \begin{tikzpicture}
+
+\node[concept] (claims) {claims};
+  \node[relation, below=6mm of claims] (Agnt_0) {Agnt};
+  \edge{claims}{Agnt_0};
+    \node[concept, below=6mm of Agnt_0] (Jan_0) {$\existsg$ person ``Jan''};
+    \edge{Agnt_0}{Jan_0};
+  \node[relation, above =4mm of claims] (Theme_0) {Theme};
+  \edge{claims}{Theme_0};
+    \node[concept, right= 20mm of claims] (lies_0) {lies};
+      \node[relation, below=6mm of lies_0] (Agnt_1) {Agnt};
+      \edge{lies_0}{Agnt_1};
+        \node[concept, below=6mm of Agnt_1] (Maria_0) {$\existsg$ person ``Maria''};
+        \edge{Agnt_1}{Maria_0};
+      \node[relation, right=6mm of lies_0] (Theme_1) {Theme};
+      \edge{lies_0}{Theme_1};
+        \node[concept, below=8mm of Theme_1] (rains_0) {rains};
+        \context{cnx2}{(rains_0)}{situation};
+        \edge{Theme_1}{cnx2};
+        \context{cnx1}{(lies_0)(Agnt_1)(Maria_0)(Theme_1)(cnx2)}{situation};
+    \edge{Theme_0}{cnx1};
+
+
+    % \node[relation, right=6mm of Jan] (c) {Init};
+    % \edge{trumpet}{c};
+        % \node[concept, right=6mm of c] (d) {$\existsg$ elephant};
+    %     \edge{c}{d};
+    %         \node[relation, right=6mm of d] (e) {Attr};
+    %         \edge{d}{e};
+    %             \node[concept, below=6mm of e] (f) {pink};
+    %             \edge{e}{f};
+    %                 \node[relation, left=6mm of f] (g) {Manr};
+    %                 \edge{f}{g};
+    %                     \node[concept, left=6mm of g] (h) {deeply};
+    %                     \edge{g}{h};
+\end{tikzpicture}
+\end{equation}
+
+Representation (\ref{twierdzi}) can be understood as:
+\begin{enumerate}
+\item The narrative introduces a model $\cal{A}$ in which a situation $a$ takes place, namely \textit{Jan claims that b}.
+\item $\cal{B}$  is a model in which the situation $b$ takes place, namely \textit{Maria lies that c}.
+\item $\cal{C}$  is a model in which the situation $c$ takes place, namely \textit{it rains}.
+\end{enumerate}
+
+Or more formally:
+\begin{multline}
+\begin{array}{l}
+  \text{The speaker communicates that a}\\
+  \wedge\; \textsc{dscr}(a,\; \text{Jan claims that b}\\
+  \wedge\; \textsc{dscr}(b,\; \text{Maria lies that c}\\
+  \wedge\; \textsc{dscr}(c,\; \text{It rains})))
+\end{array}
+\end{multline}
+
+If Jan's claim is false there is a discrepancy between the model $\cal{B}$ and the actual world.
+If Maria's statement is false there is a discrepancy between the model $\cal{C}$ and the actual world.
+
+\section{Factivity}
+In \eniam's metalanguage factivity is not taken to be a property of the matrix verb (like \textit{to know that}) but against tradition -- of a particular syntactic position of the verb. The reason for this is the fact that some Polish verbs can simultaneously take multiple propositional complements of different syntactic types introduced by different complementizers. Such complements can be coordinated yet differ with respect to factivity. In the example below the verb \textit{nauczyć się} `to learn' takes one complement introduced by \textit{że} to give the meaning `to learn that' conjoined with another one introduced by \textit{żeby} to the meaning `to learn to'. The truth of the first type of complement is implied by the embedding sentence but the second never is.
+
+\begin{examples}
+  \item \label{nauczyc_sie}
+  \gll Nauczyłem się, że w mieszkaniu ważne jest dobre oświetlenie i żeby nie czytać po\;ciemku.
+  Learned.\textsc{1sg} \textsc{refl} \textsc{że} in flat important \textsc{cop} good lightning and \textsc{żeby} not read.\textsc{inf} dark-like
+  \glt `I learned that good lightning is important in a flat and [I learned] to not read in the dark.'
+  \glend 
+\end{examples}
+
+At the same time non-factivity is not a persistent property of \textit{żeby}-complements. In the next example the \textit{żeby}-complement of the verb \textit{wymusić} `to force into' is in a factive position.
+\begin{examples}
+  \item \label{wymusic}
+  \gll Wymusiła na mnie, żebym porobił zdjęcia.
+  Forced.\textsc{3sg.f.pst} on me \textsc{żeby.1sg} make photographs
+  \glt `She forced me into taking some photographs.'
+  \glend 
+\end{examples}
+
+The representation of a factive complement is not different from other complements, so it is nested in an inner context. Special treatment of the information the complement bears is due to the lexical information about the factivity of this syntactic position of this lexeme stored and due to the \textbf{axiom of factivity}. The axiom says that if a subordinate clause is in a factive position then if the logical form of the superordinate clause is true in a model then the logical form of the subordinate clause is also true in the model.
+
+\paragraph{Axiom of factivity}\label{ax_fact}
+Let $\pred{factiv}(\varphi, \psi)$ signify that
+ $\psi$ 
+represents a subordinate clause in a factive syntactic position 
+and
+$\varphi$
+represents
+the superordinate clause.
+Then
+% \vspace{-10pt}
+\begin{multline}
+\begin{array}{c}
+\text{For each model }
+{\cal M} \text{ and formulae }
+\varphi \text{ and }
+ \psi, \\
+ \text{ if }
+\pred{factiv}(\varphi, \psi) \\
+\text{ then }
+({\cal M} \vDash \varphi
+\longrightarrow
+{\cal M} \vDash \psi)
+)
+\end{array}
+\end{multline}
+
+
+% \section{Epistemic modality} \label{sec:epistemic_modality}
+% The complements of attitude verbs describe inner models towards which the epistemic subject has certain propositional attitude, for instance the attitude of believing.
+
+% \subsection{Modal modifiers} \label{sub:modal_modifiers}
+% In the typical case modal adverbs and particles weaken the strength of assertion so they convey the disclaimer that the epistemic subject doesn't assume the weakened proposition. The identity of the epistemic subject is nevertheless unkown as it could be both the speaker or some other person mentioned in the discourse.
+
+
+\section{Resources}
+Apart of two large semantic resources -- Słowosieć and Walenty -- which were created as a part of \textsc{clarin-pl} project,
+the system \textsc{eniam} benefits from own lexical resources comprising particles, adjectives, adverbs and PPs with opaque or quantificational meaning, and factive valency positions of verbs.
+
+\section*{Acknowledgements}
+Work financed as part of the investment in the \textsc{clarin-pl} research infrastructure funded by the Polish Ministry of Science and Higher Education.
+
+\bibliography{sembear17}
+\bibliographystyle{eacl2017}
+
+\end{document}

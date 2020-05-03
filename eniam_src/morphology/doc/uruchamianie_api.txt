@@ -1,0 +1,14 @@
+Po rozpakowaniu paczki należy uruchomić serwer:
+./morphology -p 5736 -m 2> log.txt &
+Poczekać aż w log.txt pojawi się napis "Ready!".
+
+Uruchamianie api:
+./morphology.api --port 5736
+
+Api pobiera linię tekstu ze standardowego wejścia.
+Następnie generuje wynik parsowania na stdout.
+Postać wyniku jest sterowana przez parametr z linii poleceń.
+Możliwa jest postać tekstowa (domyślnie, -t), xml (-x) lub html (-h).
+
+W razie potrzeby mogę przerobic api, by generowało wynik do pliku.
+

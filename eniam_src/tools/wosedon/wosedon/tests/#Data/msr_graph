@@ -1,0 +1,16 @@
+adj:samoistny
+	adj:autokratyczny;1.0
+	adj:autokratyczny;1.3
+	subst:absolwent;0.356
+	subst:administracja;0.33
+adj:autokratyczny
+	adj:samoistny;1.0
+subst:absolwent
+	subst:adres;0.4
+	subst:zajście;0.6
+	subst:obrona;0.3
+subst:administracja
+	subst:adres;0.34
+	subst:obrona;0.1
+subst:adres
+	subst:absolwent;0.4

@@ -1,0 +1,189 @@
+<node name="typ-1, rodzaj-1, gatunek-1" size="157">
+  <node name="typ widmowy-1" size="0"/>
+  <node name="model-3, wzór-6" size="10">
+    <node name="wzór użytkowy-1" size="0"/>
+    <node name="wzór przemysłowy-1" size="0"/>
+    <node name="krój-2, fason-1" size="6">
+      <node name="oksford-4, oxford-1, wiedenki-1" size="0"/>
+      <node name="kimono-2" size="0"/>
+      <node name="klosz-4" size="0"/>
+      <node name="skos-2" size="0"/>
+      <node name="reglan-1, raglan-2" size="0"/>
+      <node name="glif-2, ścięcie-9" size="0"/>
+    </node>
+    <node name="model samochodu-1" size="0" abstract="true"/>
+  </node>
+  <node name="fototyp-1" size="0"/>
+  <node name="natura-3" size="0"/>
+  <node name="klasa-11" size="0"/>
+  <node name="gatunek literacki-1, żanr-1" size="105">
+    <node name="gatunek pograniczny-1" size="0"/>
+    <node name="gatunek mieszany-1" size="0"/>
+    <node name="arabeska-4" size="0"/>
+    <node name="protreptyk-1" size="28">
+      <node name="dialog-4" size="0"/>
+      <node name="przemówienie-6, przemowa-1, mowa-1" size="26">
+        <node name="mowa obrończa-1" size="0"/>
+        <node name="mowa oskarżycielska-1" size="0"/>
+        <node name="mowa końcowa-1" size="0"/>
+        <node name="nauka-3, nauczanie-4" size="4">
+          <node name="kerygmat-1" size="0"/>
+          <node name="katecheza-1" size="0"/>
+          <node name="kazanie-6, homilia-1" size="1">
+            <node name="egzorta-1" size="0"/>
+          </node>
+        </node>
+        <node name="alokucja-1" size="0"/>
+        <node name="laudacja-1" size="0"/>
+        <node name="mówka-1" size="0"/>
+        <node name="jeremiada-1" size="0"/>
+        <node name="diatryba-1" size="0"/>
+        <node name="apologia-2" size="0"/>
+        <node name="apologetyk-2, apologia-1" size="0"/>
+        <node name="filipika-1" size="0"/>
+        <node name="orędzie-1" size="0"/>
+        <node name="tyrada-1, perora-1" size="0"/>
+        <node name="toast-1" size="0"/>
+        <node name="oracja-1" size="0"/>
+        <node name="exposé-1" size="0"/>
+        <node name="wykład-1" size="4">
+          <node name="repetytorium-1" size="0"/>
+          <node name="referat-1, odczyt-1, prelekcja-1" size="2">
+            <node name="autoreferat-1" size="0"/>
+            <node name="koreferat-1" size="0"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node name="minucja-1" size="0"/>
+    <node name="paradoksografia-1" size="0"/>
+    <node name="makama-1" size="0"/>
+    <node name="utopia-3" size="0"/>
+    <node name="madrygał-3" size="0"/>
+    <node name="tragedia-2" size="2">
+      <node name="tragedia grecka-1" size="0"/>
+      <node name="tragifarsa-1" size="0"/>
+    </node>
+    <node name="poemat opisowy-1" size="0"/>
+    <node name="poemat heroikomiczny-1" size="0"/>
+    <node name="poemat dydaktyczny-1" size="0"/>
+    <node name="poemat dygresyjny-1" size="0"/>
+    <node name="hymn-2" size="3">
+      <node name="kondakion-1, kontakion-1" size="0"/>
+      <node name="akatyst-1" size="0"/>
+      <node name="doksologia-2" size="0"/>
+    </node>
+    <node name="epos-1, epopeja-1" size="4">
+      <node name="Homer-2" size="0"/>
+      <node name="purana-1" size="0"/>
+      <node name="itihasa-1" size="0"/>
+      <node name="epos homerycki-1" size="0"/>
+    </node>
+    <node name="epopeja-2" size="0"/>
+    <node name="felieton-1" size="0"/>
+    <node name="psalm-1" size="2">
+      <node name="psalm responsoryjny-1" size="0"/>
+      <node name="psalm alfabetyczny-1" size="0"/>
+    </node>
+    <node name="powieść-1" size="46">
+      <node name="powieść panoramiczna-1" size="0"/>
+      <node name="powieść młodzieżowa-1" size="1">
+        <node name="powieść dla dziewcząt-1, powieść pensjonarska-1" size="0"/>
+      </node>
+      <node name="powieść polifoniczna-1" size="0"/>
+      <node name="powieść w odcinkach-1" size="1">
+        <node name="powieść radiowa-1" size="0"/>
+      </node>
+      <node name="powieść reportażowa-1" size="0"/>
+      <node name="powieść autotematyczna-1" size="0"/>
+      <node name="powieść autobiograficzna-1" size="0"/>
+      <node name="powieść polityczna-1" size="1">
+        <node name="powieść aluzyjna-1" size="0"/>
+      </node>
+      <node name="powieść szkatułkowa-1, powieść szufladkowa-1" size="0"/>
+      <node name="powieść społeczno-obyczajowa-1" size="1">
+        <node name="powieść środowiskowa-1" size="0"/>
+      </node>
+      <node name="powieść sensacyjna-1" size="0"/>
+      <node name="powieść fantastyczna-1" size="4">
+        <node name="powieść fantasy-1" size="0"/>
+        <node name="powieść fantastyczno-naukowa-1, powieść fantastycznonaukowa-1, powieść science-fiction-1, powieść sci-fi-1, powieść SF-1, powieść s-f-1" size="0"/>
+        <node name="fantastyka historyczna-1, fantasy historyczna-1" size="0"/>
+        <node name="horror-1" size="0"/>
+      </node>
+      <node name="powieść gotycka-1" size="0"/>
+      <node name="powieść edukacyjna-1, bildungsroman-1" size="0"/>
+      <node name="powieść marynistyczna-1" size="0"/>
+      <node name="powieść przygodowa-1" size="0"/>
+      <node name="powieść psychologiczna-1" size="0"/>
+      <node name="powieść tendencyjna-1, powieść z tezą-1" size="0"/>
+      <node name="powieść epistolarna-1" size="0"/>
+      <node name="melodramat-4" size="0"/>
+      <node name="western-2" size="0"/>
+      <node name="powieść historyczna-1" size="3">
+        <node name="fantastyka historyczna-1, fantasy historyczna-1" size="0"/>
+        <node name="powieść biograficzna-1" size="0"/>
+        <node name="powieść walterscottowska-1" size="0"/>
+      </node>
+      <node name="thriller-1" size="0"/>
+      <node name="powieść miłosna-1" size="1">
+        <node name="harlekin-1" size="0"/>
+      </node>
+      <node name="powieść z kluczem-2" size="0"/>
+      <node name="powieść łotrzykowska-1, powieść szelmowska-1, powieść pikarejska-1, picaresca-1, pikareska-1" size="0"/>
+      <node name="minipowieść-1" size="0"/>
+      <node name="saga-1" size="0"/>
+      <node name="kryminał-2, kryminałka-2, powieść kryminalna-1" size="2">
+        <node name="powieść milicyjna-1" size="0"/>
+        <node name="powieść detektywistyczna-1" size="0"/>
+      </node>
+      <node name="powieść brukowa-1" size="0"/>
+      <node name="antypowieść-1" size="0"/>
+      <node name="powieść produkcyjna-1" size="0"/>
+      <node name="mikropowieść-1" size="0"/>
+    </node>
+  </node>
+  <node name="odmiana-4, wariant-1, wersja-1" size="35">
+    <node name="preprint-1" size="0"/>
+    <node name="wybijanka-1" size="0"/>
+    <node name="przeróbka-2" size="11">
+      <node name="remake-1" size="0"/>
+      <node name="parafraza-3" size="0"/>
+      <node name="modyfikacja-5" size="0"/>
+      <node name="miks-2, remiks-1" size="0"/>
+      <node name="instrumentacja-1, orkiestracja-1" size="0"/>
+      <node name="aranżacja-1, aranż-1" size="2">
+        <node name="cover-1, kower-1" size="0"/>
+        <node name="transkrypcja-2" size="0"/>
+      </node>
+      <node name="trawestacja-1" size="0"/>
+      <node name="adaptacja-1" size="1">
+        <node name="ekranizacja-1" size="0"/>
+      </node>
+    </node>
+    <node name="kultywar-1" size="0"/>
+    <node name="mutacja-4" size="0"/>
+    <node name="dubel-1" size="0"/>
+    <node name="prawykonanie-1" size="0"/>
+    <node name="implementacja-1" size="0"/>
+    <node name="wariacja-1" size="0"/>
+    <node name="odpowiednik-1, korelat-1, analogon-1, analog-5" size="7">
+      <node name="kontynuant-1" size="0"/>
+      <node name="desygnat-1" size="0"/>
+      <node name="równoważnik-2" size="0"/>
+      <node name="paralela-1" size="0"/>
+      <node name="równowartość-1, ekwiwalent-1, równoważnik-1" size="2">
+        <node name="deputat-1" size="0"/>
+        <node name="dieta-1" size="0"/>
+      </node>
+    </node>
+    <node name="wydanie-11, edycja-1" size="6">
+      <node name="reprint-1" size="0"/>
+      <node name="wznowienie-2" size="0"/>
+      <node name="pierwodruk-1" size="0"/>
+      <node name="koedycja-1" size="0"/>
+      <node name="przedruk-1" size="0"/>
+      <node name="dodruk-1" size="0"/>
+    </node>
+  </node>
+</node>

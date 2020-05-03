@@ -1,0 +1,64 @@
+""			〈〈((<root>)
+0 1			
+""			/(s))〉〉
+0 1			〈<interp>〉
+0 1			〈<interp>〉
+1 3 Ala			〈〈<adj>〉
+1 3 Ala			〈〈< n>〉
+1 3 Ala			〈〈<subst>〉
+1 3 Ala			〈〈np⊗ IMI ⊗ pl⊗ voc⊗m2〉
+1 3 Ala			〈〈np⊗ IMI ⊗ pl⊗ voc⊗ n〉
+1 3 Ala			〈〈np⊗ IMI ⊗ sg⊗ gen⊗m3〉
+1 3 Ala			〈〈np⊗ IMI ⊗ sg⊗ gen⊗ n〉
+1 3 Ala			〈〈np⊗ IMI ⊗ sg⊗ nom⊗ f〉
+1 3 Ala			〈〈np⊗ IMI ⊗ sg⊗ nom⊗m1〉
+1 3 Ala			〈〈np⊗ IMI ⊗ sg⊗ nom⊗m2〉
+1 3 Ala			〈〈np⊗X⊗ pl⊗ voc⊗m2〉
+1 3 Ala			〈〈np⊗X⊗ pl⊗ voc⊗ n〉
+1 3 Ala			〈〈np⊗X⊗ sg⊗ gen⊗m3〉
+1 3 Ala			〈〈np⊗X⊗ sg⊗ gen⊗ n〉
+1 3 Ala			〈〈np⊗X⊗ sg⊗ nom⊗ f〉
+1 3 Ala			〈〈np⊗X⊗ sg⊗ nom⊗m1〉
+1 3 Ala		̆〈〈np⊗X⊗ sg⊗ nom⊗m2〉	
+""		〈〈	
+1 3 Ala			BNF :case:=(gen&acc)
+""		(n ̆p⊗ IMI ⊗ sg⊗ case⊗m2)〉	
+""		〈〈	
+1 3 Ala			BOF :case:=(gen&acc)
+""		(n ̆p⊗ IMI ⊗ sg⊗ case⊗m1)〉	
+""		〈〈	
+1 3 Ala			CPH:case:=(gen&acc)
+""		(n ̆p⊗ IMI ⊗ sg⊗ case⊗m2)〉	
+""		〈〈	
+1 3 Ala			CQH:case:=(gen&acc)
+""		(n ̆p⊗ IMI ⊗ sg⊗ case⊗m1)〉	
+""		〈〈	
+1 3 Ala			CUH:case:=(gen&acc)
+""		(n ̆p⊗X⊗ sg⊗ case⊗m2)〉	
+""		〈〈	
+1 3 Ala			CVH:case:=(gen&acc)
+""		(n ̆p⊗X⊗ sg⊗ case⊗m1)〉	
+""		〈〈	
+1 3 Ala			DWJ:case:=(gen&acc)
+""		(n ̆p⊗X⊗ sg⊗ case⊗m2)〉	
+""		〈〈	
+1 3 Ala			DXJ:case:=(gen&acc)
+""		(n ̆p⊗X⊗ sg⊗ case⊗m1)〉	
+""		〈〈	
+1 3 Ala			BKF :case:=(nom&acc)
+""		(n ̆p⊗X⊗ pl⊗ case⊗ n)〉	
+""		〈〈	
+1 3 Ala			BPF :case:=(nom&acc)
+""		(n ̆p⊗ IMI ⊗ pl⊗ case⊗ n)〉	
+""		〈〈	
+1 3 Ala			BSW :case:=(nom&acc)
+""		(n ̆p⊗X⊗ pl⊗ case⊗ n)〉	
+""		〈〈	
+1 3 Ala			CKH:case:=(nom&acc)
+""		(n ̆p⊗ IMI ⊗ pl⊗ case⊗ n)〉	
+""		〈〈	
+1 3 Ala			CMH:case:=(nom&acc)
+""		(n ̆p⊗ IMI ⊗ pl⊗ case⊗m2)〉	
+""		〈〈	
+1 3 Ala			CRH:case:=(nom&acc)
+""		(np⊗X⊗ pl⊗ case⊗ n)〉	

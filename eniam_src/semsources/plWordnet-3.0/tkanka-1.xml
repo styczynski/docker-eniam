@@ -1,0 +1,397 @@
+<node name="tkanka-1" size="309">
+  <node name="ozębna-1, desmodont-1, więzadło przyzębne-1" size="0"/>
+  <node name="zwłóknienie-1" size="2">
+    <node name="zwłóknienie klatki piersiowej-1" size="0"/>
+    <node name="mukowiscydoza-1, zwłóknienie torbielowate-1" size="0"/>
+  </node>
+  <node name="martwak-1" size="0"/>
+  <node name="plektenchyma-1, tkanka rzekoma-1, pseudotkanka-1, pseudoparenchyma-1" size="0"/>
+  <node name="zębina-1, dentyna-1" size="0"/>
+  <node name="tkanka nowotworowa-1" size="0"/>
+  <node name="tkanka zwierzęca-1" size="49" abstract="true">
+    <node name="tkanka miękka-1" size="0"/>
+    <node name="tkanka nerwowa-1" size="1">
+      <node name="substancja szara-1, istota szara-1" size="0"/>
+    </node>
+    <node name="tkanka mięśniowa-1" size="0"/>
+    <node name="podścielisko-1" size="0"/>
+    <node name="glej-2, tkanka glejowa-1" size="0"/>
+    <node name="mezoderma-1, mezoblast-1" size="0"/>
+    <node name="endoderma-2, entoderma-2, entoblast-1" size="0"/>
+    <node name="ektoderma-1, ektoblast-1" size="0"/>
+    <node name="tkanka łączna-1" size="31">
+      <node name="tkanka łączna właściwa-1" size="10">
+        <node name="tkanka łączna siateczkowata-1" size="0"/>
+        <node name="tkanka łączna galaretowata-1" size="1">
+          <node name="galareta Whartona-1" size="0"/>
+        </node>
+        <node name="mezenchyma-1, tkanka mezenchymatyczna-1, tkanka łączna zarodkowa-1" size="0"/>
+        <node name="tkanka łączna włóknista luźna-1, tkanka łączna wiotka-1" size="0"/>
+        <node name="tkanka łączna włóknista zwarta-1, tkanka łączna włóknista zbita-1" size="0"/>
+        <node name="tkanka tłuszczowa-1, tłuszcz-2" size="3">
+          <node name="druga broda-1" size="0"/>
+          <node name="cellulit-1, skórka pomarańczowa-1, cellulitis-1, lipodystrofia-1" size="0"/>
+          <node name="sadło-2" size="0"/>
+        </node>
+      </node>
+      <node name="tkanka kostna-1" size="3">
+        <node name="istota zbita-1" size="0"/>
+        <node name="istota gąbczasta-1" size="0"/>
+        <node name="cement-3, kostniwo-1" size="0"/>
+      </node>
+      <node name="tkanka włóknista-1, tkanka chrzęstna włóknista-1" size="0"/>
+      <node name="ziarnina-1" size="0"/>
+      <node name="chrząstka-1, tkanka chrzęstna-1" size="9">
+        <node name="krążek stawowy-1" size="0"/>
+        <node name="tkanka chrzęstna sprężysta-1" size="0"/>
+        <node name="tkanka chrzęstna szklista-1, chrząstka szklista-1" size="0"/>
+        <node name="dysk-3, krążek międzykręgowy-1, tarcza międzykręgowa-1" size="0"/>
+        <node name="chrząstka tarczowata-1" size="0"/>
+        <node name="chrząstka nalewkowata-1" size="0"/>
+        <node name="chrząstka nagłośniowa-1" size="0"/>
+        <node name="menisk-4" size="0"/>
+        <node name="łękotka-1, łąkotka-1, menisk-3" size="0"/>
+      </node>
+      <node name="krew-1" size="3">
+        <node name="krew pępowinowa-1" size="0"/>
+        <node name="krew żylna-1, krew odtlenowana-1" size="0"/>
+        <node name="krew tętnicza-1, krew natlenowana-1, krew utlenowana-1" size="0"/>
+      </node>
+    </node>
+    <node name="miazga zęba-1, miazga zębowa-1" size="0"/>
+    <node name="nabłonek-2" size="2">
+      <node name="doczesna-1" size="0"/>
+      <node name="śródbłonek-1" size="0"/>
+    </node>
+    <node name="szpik-1, szpik kostny-1" size="0"/>
+    <node name="naskórek-1, epiderma-1" size="2">
+      <node name="scypuł-1" size="0"/>
+      <node name="wylinka-1" size="0"/>
+    </node>
+  </node>
+  <node name="tkanka roślinna-1" size="72" abstract="true">
+    <node name="tkanka stała-1" size="54">
+      <node name="tkanka wzmacniająca-1" size="4">
+        <node name="kolenchyma-1, zwarcica-1" size="2">
+          <node name="kolenchyma płatowa-1" size="0"/>
+          <node name="kolenchyma kątowa-1" size="0"/>
+        </node>
+        <node name="twardzica-1, sklerenchyma-1" size="0"/>
+      </node>
+      <node name="tkanka okrywająca-1" size="4">
+        <node name="egzoderma-1, skórnia-1, podskórnia-2" size="0"/>
+        <node name="ryzoderma-1, epiblema-1, skórka korzenia-1" size="0"/>
+        <node name="peryderma-1, korkowica-1" size="0"/>
+        <node name="epiderma-2, skórka-2" size="0"/>
+      </node>
+      <node name="tkanka wydzielnicza-1" size="1">
+        <node name="miodnik-1, nektarium-1, nektarnik-1" size="0"/>
+      </node>
+      <node name="merystem przyranny-1, kalus-1, kallus-1" size="0"/>
+      <node name="drewno-2, ksylem-1" size="15">
+        <node name="leżanina-1" size="0"/>
+        <node name="drewno pierwotne-1" size="2">
+          <node name="metaksylem-1" size="0"/>
+          <node name="protoksylem-1" size="0"/>
+        </node>
+        <node name="leża-3" size="0"/>
+        <node name="próchnowisko-1" size="1">
+          <node name="martwica boczna-2" size="0"/>
+        </node>
+        <node name="drewno wtórne-1" size="7">
+          <node name="drewno rozpierzchłonaczyniowe-1" size="0"/>
+          <node name="drewno pierścieniowonaczyniowe-1" size="0"/>
+          <node name="drewno twardzielowe-1, twardziel-4" size="1">
+            <node name="fałszywa twardziel-1" size="0"/>
+          </node>
+          <node name="drewno bielaste-1, biel-4" size="0"/>
+          <node name="drewno późne-1, drewno letnie-1" size="0"/>
+          <node name="drewno wczesne-1, drewno wiosenne-1" size="0"/>
+        </node>
+      </node>
+      <node name="miękisz-1, tkanka miękiszowa-1, parenchyma-1, mezofil-1" size="14">
+        <node name="miękisz zasadniczy-1" size="0"/>
+        <node name="miękisz rdzeniowy-1, miękisz rdzenia-1" size="2">
+          <node name="miękisz łykowy-1" size="0"/>
+          <node name="miękisz drzewny-1" size="0"/>
+        </node>
+        <node name="miękisz powietrzny-1, aerenchyma-1, tkanka powietrzna-1" size="0"/>
+        <node name="rdzeń-4, dusza-8" size="0"/>
+        <node name="miękisz asymilacyjny-1, miękisz zieleniowy-1, chlorenchyma-1" size="3">
+          <node name="miękisz wieloramienny-1" size="0"/>
+          <node name="miękisz palisadowy-1, mezofil palisadowy-1" size="0"/>
+          <node name="mezofil gąbczasty-1, miękisz gąbczasty-1" size="0"/>
+        </node>
+        <node name="miękisz spichrzowy-1" size="3">
+          <node name="miękisz wodny-1, miękisz wodonośny-1, tkanka wodna-1" size="0"/>
+          <node name="bielmo-2, endosperm-1" size="1">
+            <node name="woda kokosowa-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="korek-3, felem-1" size="1">
+        <node name="martwica-3, martwica korkowa-1, korowina-1" size="0"/>
+      </node>
+      <node name="łyko-1, floem-1" size="1">
+        <node name="martwica-3, martwica korkowa-1, korowina-1" size="0"/>
+      </node>
+      <node name="kora-2" size="6">
+        <node name="dębnik-1" size="0"/>
+        <node name="łub-1" size="0"/>
+        <node name="cynamon-1" size="3">
+          <node name="cynamon magellański-1, kora Wintera-1" size="0"/>
+          <node name="cynamon cejloński-1" size="0"/>
+          <node name="cynamon chiński-1, kasja-2" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="bielmo pierwotne-1, przedrośle-2, prabielmo-1" size="0"/>
+    <node name="obielmo-1, perysperm-1" size="0"/>
+    <node name="merystem-1, tkanka twórcza-1, mersytema-1" size="10">
+      <node name="merystem archesporialny-1, archespor-1" size="0"/>
+      <node name="merystem zarodkowy-1" size="0"/>
+      <node name="stożek wzrostu-1, merystem wierzchołkowy-1" size="0"/>
+      <node name="merystem wtórny-1" size="4">
+        <node name="merystem przyranny-1, kalus-1, kallus-1" size="0"/>
+        <node name="miazga-2, merystem boczny-1" size="2">
+          <node name="kambium-1, kambium waskularne-1, miazga twórcza-1" size="0"/>
+          <node name="miazga korkotwórcza-1, fellogen-1, tkanka korkotwórcza-1, felogen-1, miazga korkorodna-1" size="0"/>
+        </node>
+      </node>
+      <node name="merystem pierwotny-1" size="1">
+        <node name="merystem interkalarny-1, merystem wstawowy-1" size="0"/>
+      </node>
+    </node>
+    <node name="endoderma-3, śródskórnia-1" size="0"/>
+    <node name="nabłonek-1, kutikula-2, kutykula-2" size="0"/>
+    <node name="plecha-1, grzybnia-1" size="2">
+      <node name="rozetka-4" size="0"/>
+      <node name="monada-3" size="0"/>
+    </node>
+  </node>
+  <node name="przeszczep-1, transplantat-1" size="1">
+    <node name="bajpas-2, by-pass-1, bypass-2" size="0"/>
+  </node>
+  <node name="błona-1" size="58">
+    <node name="osłona przejrzysta-1" size="0"/>
+    <node name="błona lotna-1" size="0"/>
+    <node name="błona podstawowa-1" size="0"/>
+    <node name="błona podśluzowa-1" size="0"/>
+    <node name="błona jądrowa-1" size="0"/>
+    <node name="błona pławna-1, błona pływna-1" size="0"/>
+    <node name="okostna-1" size="0"/>
+    <node name="opony mózgowe-1" size="0"/>
+    <node name="błona podstawna-1" size="0"/>
+    <node name="wiązadło-2, więzadło-2" size="4">
+      <node name="więzadło poboczne-1" size="0"/>
+      <node name="więzadła krzyżowe-1" size="2">
+        <node name="więzadło krzyżowe tylne-1" size="0"/>
+        <node name="więzadło krzyżowe przednie-1" size="0"/>
+      </node>
+    </node>
+    <node name="błona maziowa-1" size="1">
+      <node name="kaletka maziowa-1" size="0"/>
+    </node>
+    <node name="przydanka-1, błona zewnętrzna-1" size="0"/>
+    <node name="biomembrana-1, błona biologiczna-1" size="4">
+      <node name="tonoplast-1" size="0"/>
+      <node name="błona komórkowa-1, plazmolema-1, plazmalemma-1, błona plazmatyczna-1" size="2">
+        <node name="pellikula-1" size="0"/>
+        <node name="sarkolema-1, sarkolemma-1" size="0"/>
+      </node>
+    </node>
+    <node name="otrzewna-1" size="0"/>
+    <node name="opłucna-1" size="0"/>
+    <node name="twardówka-1, białkówka-1" size="0"/>
+    <node name="błona naczyniowa-1" size="0"/>
+    <node name="wsierdzie-1" size="0"/>
+    <node name="śluzówka-1, błona śluzowa-1" size="3">
+      <node name="endometrium-1" size="0"/>
+      <node name="dziąsło-1" size="0"/>
+      <node name="spojówka-1" size="0"/>
+    </node>
+    <node name="powięź-1" size="0"/>
+    <node name="mięśniówka-1, błona mięśniowa-1" size="0"/>
+    <node name="błona dziewicza-1, hymen-1" size="0"/>
+    <node name="błona płodowa-1" size="4">
+      <node name="omocznia-1" size="0"/>
+      <node name="owodnia-1" size="0"/>
+      <node name="kosmówka-1" size="0"/>
+      <node name="pęcherzyk żółtkowy-1" size="0"/>
+    </node>
+    <node name="błona surowicza-1" size="1">
+      <node name="worek osierdziowy-1, osierdzie-1" size="0"/>
+    </node>
+    <node name="wiązadło-1, więzadło-1" size="0"/>
+    <node name="błonka-1, osłonka-1" size="10">
+      <node name="osłonka pochwowa jądra-1" size="0"/>
+      <node name="osłonka nabyta-1" size="0"/>
+      <node name="kupula-1" size="0"/>
+      <node name="zawijka-1" size="0"/>
+      <node name="otoczka mielinowa-1, osłonka mielinowa-1, osłonka rdzenna-1, błona mielinowa-1" size="0"/>
+      <node name="osnówka-1" size="1">
+        <node name="kwiat muszkatołowy-1" size="0"/>
+      </node>
+      <node name="kokon-2" size="0"/>
+      <node name="pochewka-2" size="0"/>
+      <node name="pochewka-1" size="0"/>
+    </node>
+    <node name="wyściółka-2, ependyma-1" size="0"/>
+    <node name="rogówka-1" size="0"/>
+    <node name="bębenek-2, błona bębenkowa-1" size="0"/>
+    <node name="opona-1, błona łącznotkankowa-1, opona mózgowo-rdzeniowa-1" size="1">
+      <node name="pajęczynówka-1, opona pajęcza-1" size="0"/>
+    </node>
+  </node>
+  <node name="nowotwór-1, choroba nowotworowa-1" size="116">
+    <node name="ziarniszczak-1" size="0"/>
+    <node name="guz neuroendokrynny przewodu pokarmowego-1, guz żołądkowo-jelitowo-trzustkowy-1" size="6">
+      <node name="guz wydzielający VIP-1, zespół Vernera-Morrisona-1" size="0"/>
+      <node name="guz insulinowy-1, wyspiak-1" size="1">
+        <node name="wyspiak trzustki-1" size="0"/>
+      </node>
+      <node name="somatostatinoma-1, guz somatostatynowy-1" size="0"/>
+      <node name="gastrinoma-1, guz gastrynowy-1" size="0"/>
+      <node name="rakowiak-1" size="0"/>
+    </node>
+    <node name="guz chromochłonny-1, barwiak-1" size="0"/>
+    <node name="hamartoblastoma-1" size="0"/>
+    <node name="szpiczak mnogi-1, szpiczak plazmocytowy-1, choroba Kahlera-1" size="0"/>
+    <node name="guz Abrikosowa-1, guz ziarnistokomórkowy-1" size="0"/>
+    <node name="glukagonoma-1" size="0"/>
+    <node name="rogowiak kolczystokomórkowy-1" size="0"/>
+    <node name="nabłoniak wapniejący-1, nabłoniak wapniejący Mahlerbego-1" size="0"/>
+    <node name="ziarniak-6" size="0"/>
+    <node name="ospa karpi-1" size="0"/>
+    <node name="choroba Mareka-1" size="0"/>
+    <node name="metastaza-1, przerzut nowotworowy-1" size="0"/>
+    <node name="naczyniak-1" size="15">
+      <node name="naczyniak limfatyczny torbielowaty-1" size="0"/>
+      <node name="naczyniak limfatyczny złośliwy-1" size="0"/>
+      <node name="naczyniak niezłośliwy limfatyczny-1" size="0"/>
+      <node name="naczyniak złośliwy-1" size="3"/>
+      <node name="naczyniak niezłośliwy-1" size="7"/>
+    </node>
+    <node name="nowotwór niezłośliwy-1, nowotwór łagodny-1, guz łagodny-1" size="40">
+      <node name="mięśniak gładkokomórkowy-1" size="0"/>
+      <node name="przyzwojak-1" size="0"/>
+      <node name="kostniak-1" size="1">
+        <node name="kostniak kostninowy-1, kostniak kostnawy-1" size="0"/>
+      </node>
+      <node name="chrzęstniak-1" size="0"/>
+      <node name="choroba Lhermitte'a-Duclos-1, dysplastyczny zwojak móżdżku-1" size="0"/>
+      <node name="naczyniakomięśniakotłuszczak-1" size="0"/>
+      <node name="nerwiakowłókniak-1" size="0"/>
+      <node name="naczyniak niezłośliwy limfatyczny-1" size="0"/>
+      <node name="naczyniak niezłośliwy-1" size="7">
+        <node name="ziarniniak naczyniowy-1" size="0"/>
+        <node name="kłębczak-1" size="0"/>
+        <node name="obłoniak-1" size="0"/>
+        <node name="naczyniakomięśniak gładkokomórkowy-1" size="0"/>
+        <node name="naczyniak groniasty-1" size="0"/>
+        <node name="naczyniak krwionośny jamisty-1" size="0"/>
+        <node name="naczyniak krwionośny włośniczkowy-1" size="0"/>
+      </node>
+      <node name="skórzak-3" size="0"/>
+      <node name="śluzak-1" size="1">
+        <node name="śluzak serca-1" size="0"/>
+      </node>
+      <node name="oponiak-1" size="0"/>
+      <node name="czerniak-2" size="0"/>
+      <node name="ogień-5" size="0"/>
+      <node name="włókniak-1" size="7">
+        <node name="włókniak młodzieńczy nosogardła-1, naczyniowłókniak młodzieńczy-1" size="0"/>
+        <node name="włókniak twardy-1" size="0"/>
+        <node name="włókniak miękki-1" size="4">
+          <node name="tłuszczak-1" size="0"/>
+          <node name="brodawczak-1" size="2">
+            <node name="brodawczak odwrócony-1, brodawczak odwrócony jam nosa i zatok przynosowych-1, brodawczak Schneidera-1" size="0"/>
+            <node name="brodawczak splotu naczyniówkowego-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="nerwiak-1" size="4">
+        <node name="neuroblastoma-1, nerwiak płodowy-1, nerwiak płodowy współczulny-1, nerwiak zarodkowy-1" size="0"/>
+        <node name="nerwiak osłonkowy-1, schwannoma-1" size="0"/>
+        <node name="nerwiak zwojowy-1" size="0"/>
+        <node name="nerwiak węchowy zarodkowy-1" size="0"/>
+      </node>
+      <node name="gruczolak-1" size="3">
+        <node name="gruczolak wątrobowokomórkowy-1" size="0"/>
+        <node name="gruczolak wielopostaciowy-1, guz mieszany-1" size="0"/>
+        <node name="gruczolak przysadki-1" size="0"/>
+      </node>
+    </node>
+    <node name="guz złośliwy-1, nowotwór złośliwy-1" size="45">
+      <node name="kostniakomięsak-1, mięsak kościopochodny-1" size="0"/>
+      <node name="guz Wilmsa-2, nerczak płodowy-1, nerczak zarodkowy-1, nerczak złośliwy-1" size="0"/>
+      <node name="oblak-1" size="0"/>
+      <node name="mięsak maziówkowy-1, maziak-1" size="0"/>
+      <node name="mięsak Ewinga-1, guz Ewinga-1" size="0"/>
+      <node name="prymitywny guz neuroektodermalny-1, obwodowy niedojrzały guz neuroektodermalny-1, guz Askina-1" size="0"/>
+      <node name="nowotwór złośliwy skóry-1" size="4" abstract="true">
+        <node name="rak neuroendokrynny skóry-1, rak z komórek Merkla-1" size="0"/>
+        <node name="rak kolczystokomórkowy skóry-1" size="0"/>
+        <node name="rak podstawnokomórkowy skóry-1" size="0"/>
+        <node name="czerniak złośliwy-1, czerniak-1, melanoma-1" size="0"/>
+      </node>
+      <node name="naczyniak limfatyczny złośliwy-1" size="0"/>
+      <node name="naczyniak złośliwy-1" size="3">
+        <node name="mięsak Kaposiego-1" size="0"/>
+        <node name="obłoniak złośliwy-1" size="0"/>
+        <node name="śródbłoniak krwionośny złośliwy-1" size="0"/>
+      </node>
+      <node name="sarkoidoza-1" size="0"/>
+      <node name="struniak-1" size="0"/>
+      <node name="szpiczak-1" size="0"/>
+      <node name="nasieniak-1" size="0"/>
+      <node name="nabłoniak-1" size="1">
+        <node name="nabłoniak kosmówkowy-1, kosmówczak-1" size="0"/>
+      </node>
+      <node name="chłoniak-1" size="4">
+        <node name="chłoniak Burkitta-1" size="0"/>
+        <node name="zespół Sézary'ego-1" size="0"/>
+        <node name="ziarnica złośliwa-1, choroba Hodgkina-1, chłoniak Hodgkina-1, limfogranulomatoza-1" size="0"/>
+        <node name="ziarniniak grzybiasty-1" size="0"/>
+      </node>
+      <node name="nowotwór anaplastyczny-1" size="0"/>
+      <node name="potworniak-1" size="1">
+        <node name="torbiel skórzasta-1" size="0"/>
+      </node>
+      <node name="glejak-1" size="0"/>
+      <node name="siatkówczak-1" size="0"/>
+      <node name="mięsak-1, sarkoma-1" size="0"/>
+      <node name="rak-1" size="14">
+        <node name="choroba Pageta-1" size="0"/>
+        <node name="guz Brennera-1" size="0"/>
+        <node name="rak płuca-1, rak oskrzela-1" size="1">
+          <node name="guz Pancoasta-1, zespół Pancoasta-1" size="0"/>
+        </node>
+        <node name="rak neuroendokrynny skóry-1, rak z komórek Merkla-1" size="0"/>
+        <node name="rak kolczystokomórkowy skóry-1" size="0"/>
+        <node name="rak podstawnokomórkowy skóry-1" size="0"/>
+        <node name="rak przedinwazyjny-1, rak w miejscu-1, CIS-5, rak 0 stopnia-1" size="2">
+          <node name="choroba Bowena-1" size="1">
+            <node name="erytroplazja Queyrata-1, choroba Bowena żołędzi prącia-1" size="0"/>
+          </node>
+        </node>
+        <node name="rak prącia-1" size="0"/>
+        <node name="rak szyjki macicy-1" size="0"/>
+        <node name="rak gruczołu krokowego-1, rak prostaty-1" size="0"/>
+        <node name="rak jamy nosowo-gardłowej-1" size="0"/>
+      </node>
+    </node>
+    <node name="białaczka-1, leukemia-1" size="7">
+      <node name="przewlekła białaczka limfatyczna-1, CLL-1" size="1">
+        <node name="przewlekła białaczka limfocytowa B-komórkowa-1" size="0"/>
+      </node>
+      <node name="ostra białaczka limfoblastyczna-1, ALL-2" size="0"/>
+      <node name="białaczka szpikowa-1" size="3">
+        <node name="przewlekła białaczka szpikowa-1" size="0"/>
+        <node name="ostra białaczka szpikowa-1" size="1">
+          <node name="ostra białaczka promielocytowa-1, ostra białaczka progranulocytowa-1, APL-1, AML z t(15;17)(q22,q12)-1, PML-RARA-1" size="0"/>
+        </node>
+      </node>
+    </node>
+  </node>
+</node>

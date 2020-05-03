@@ -1,0 +1,108 @@
+#! /usr/bin/perl
+
+use strict;
+use utf8;
+use open ':utf8', ':std';
+use XML::LibXML;
+use File::Find;
+use vars qw(@nodes @nkjp);
+
+die "Wymagane argumenty: ścieżka źródłowa\n"
+    unless @ARGV == 1;
+
+my ($srcdir) = (shift);
+
+
+my $parser = XML::LibXML->new();
+my $xpc = XML::LibXML::XPathContext->new;
+$xpc->registerNs('n', 'http://nlp.ipipan.waw.pl/dendrarium');
+
+my $nr = 0;
+
+find({
+    wanted => \&process_one_file,
+    preprocess => \&sort_the_files,
+    no_chdir => 1
+     },
+     $srcdir);
+
+sub sort_the_files {
+#    print STDERR join(', ', @_, "\n");
+    sort @_
+}
+
+sub process_one_file {
+    return unless $_ =~ m|\.xml$|;
+    return if  $_ =~ m|\.packet\.xml$|;
+    print STDERR "$File::Find::name\n";
+
+    my $doc = $parser->parse_file( $_ );
+
+    my $root = $doc->documentElement();
+
+    my $sent_id = $root->getAttribute('sent_id');
+    # sample_id!!!
+    my $sample_id = $sent_id;
+    $sample_id =~ s|/[^/]+$||;
+    my $grammar_no= $root->getAttribute('grammar_no');
+
+    { my @tekst = $xpc->findnodes('/*[name() = "forest"]/*[name() = "text"]',$root);
+      die "Nie znaleziono tekstu" unless @tekst == 1; }
+    # zapis z name() jest konieczny, żeby nie kwalifikować elementów
+    # przestrzeniami nazw:
+    my $tekst = $root->findvalue('/*[name() = "forest"]/*[name() = "text"]');
+    my $numwords = scalar(split '\s+', $tekst);
+
+    my $stats = $root->find('/*[name() = "forest"]/*[name() = "stats"]')->[0];
+    my $numtrees = $stats->getAttribute('trees');
+    my $nodes = $stats->getAttribute('nodes');
+    my $inferences = $stats->getAttribute('inferences');
+    my $cputime = $stats->getAttribute('cputime');
+
+    my $sukces = ($numtrees > 0);
+
+    my $nkjp = 0;
+    if ($sukces) {
+	# liczymy drzewa zgodne z NKJP:
+	@nodes = ();
+	for my $n ($root->findnodes('*[name() = "node"]')) {
+	    my $nid = $n->getAttribute('nid');
+	    $nodes[$nid] = $n;
+	}
+	@nkjp = ();
+	$nkjp = policz_nkjp(0);
+    };
+
+    print "$grammar_no\t$sample_id\t$sent_id\t$numwords\t$sukces\t$numtrees\t$nkjp\t$nodes\t$inferences\t$cputime\t$tekst\n";
+
+}
+
+    
+
+sub policz_nkjp {
+    my $nid = shift;
+#    print STDERR "#$nid '$nkjp[$nid]' ".defined($nkjp[$nid])." \n";
+    return $nkjp[$nid] if defined($nkjp[$nid]);
+#	$nodes[$nid]->getChildrenByLocalName('terminal')
+    my @children = grep $_->nodeName ne '#text', $nodes[$nid]->childNodes;
+    my $firstchild = shift @children;
+    if ($firstchild->nodeName eq 'terminal') {
+	$nkjp[$nid] = ($firstchild->getAttribute('disamb') eq "true") 
+	    ? 1 : 0;
+#	print STDERR "$nid terminal $nkjp[$nid]\n";
+    } elsif ($firstchild->nodeName eq 'nonterminal') {
+	my $zgodnych = 0;
+	for my $chs (@children) {
+	    my $zgodc = 1;
+	    for my $c ($chs->getChildrenByLocalName('child')) {
+		$zgodc *= policz_nkjp($c->getAttribute('nid'));
+	    }
+	    $zgodnych += $zgodc;
+	}
+#	print STDERR "$nid nonterminal $zgodnych\n";
+	$nkjp[$nid] = $zgodnych;
+    } else {
+	die $firstchild->nodeName;
+    }
+    return $nkjp[$nid];
+}

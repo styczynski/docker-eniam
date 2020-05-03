@@ -1,0 +1,141 @@
+2016-10-19 20:16 GMT+02:00 Wojciech Jaworski <wjaworski@mimuw.edu.pl>:
+Cześć,
+
+oto pierwsza seria pytań. Następne będą wynikać z odpowiedzi na poniższe.
+
+- W jaki sposób instaluje się POLFIE tak, by lokalnie (bez korzystania z
+XLEweb) parsować niepreparowane zdania?
+Jest to opisane w readme POLFIE (dwie ostatnie sekcje) i dokumentacji
+XLE (jak zainstalować XLE).
+- W szczególności, czy istnieje nakładka na XLE która na podstawie danych z
+Morfeusza, Walentego i innych zasobów tworzy dynamicznie leksykon dla
+aktualnej wersji gramatyki, czy też istnieje statyczny leksykon ładowany do
+XLE przy uruchamianiu?
+Dystrybucja POLFIE w DSpace generuje wpisy leksykalne na podstawie
+lekko zmodyfikowanego słownika Morfeusza i pliku ze skonwertowanym
+Walentym, które są w paczce. Można o tym poczytać w artykule z Kasią z
+TLT 2015.
+- Jakie atrybuty mogą pojawić się w f-strukturach generowanych przez parser
+i jakie jest ich znaczenie?
+Atrybuty i wartości, które mogą się pojawić w f-strukturze są
+określone w plikach grammar/POLFIE-features.lfg i
+grammar/common.features.lfg. Do tego drugiego możesz poczytać
+dokumentację XLE:
+http://www2.parc.com/isl/groups/nltt/xle/doc/PargramStarterGrammar/starternotes.html#Pargram_features_and_grammatical,
+z kolei w pierwszym pliku można znaleźć komentarze – w większości
+atrybuty są standardowe (common.features.lfg) lub pochodzą z tagsetu
+NKJP.
+
+Agnieszka
+
+
+2016-10-19 20:16 GMT+02:00 Wojciech Jaworski <wjaworski@mimuw.edu.pl>:
+
+[Hide Quoted Text]
+Cześć,
+
+oto pierwsza seria pytań. Następne będą wynikać z odpowiedzi na poniższe.
+
+- W jaki sposób instaluje się POLFIE tak, by lokalnie (bez korzystania z
+XLEweb) parsować niepreparowane zdania?
+- W szczególności, czy istnieje nakładka na XLE która na podstawie danych z
+Morfeusza, Walentego i innych zasobów tworzy dynamicznie leksykon dla
+aktualnej wersji gramatyki, czy też istnieje statyczny leksykon ładowany do
+XLE przy uruchamianiu?
+- Jakie atrybuty mogą pojawić się w f-strukturach generowanych przez parser
+i jakie jest ich znaczenie?
+
+
+Pozdrawiam
+Wojtek
+
+Quoting Agnieszka Patejuk <agnieszka.patejuk@googlemail.com>:
+Cześć,
+
+Ponieważ trudno będzie się umówić na spotkanie, proponuję, żebyś zadał
+pytania przez e-mail. Marcin mi powiedział, że chodzi o takie sprawy
+jak informacja o wejściu i wyjściu – potrzebne informacje możesz
+znaleźć w dokumentacji XLE, która jest dostępna pod tym adresem:
+
+http://www2.parc.com/isl/groups/nltt/xle/doc/xle_toc.html
+
+Paczkę z dystrybucją POLFIE możesz znaleźć w DSpace CLARIN-PL:
+
+https://clarin-pl.eu/dspace/handle/11321/253
+
+W paczce jest małe README, ale pewnie lepsza będzie dokumentacja XLE.
+
+Gdybyś miał pytania, napisz – być może będę umiała pomóc.
+
+Pozdrawiam,
+Agnieszka
+
+
+2016-10-13 18:01 GMT+02:00 Agnieszka Patejuk
+<agnieszka.patejuk@googlemail.com>:
+
+Cześć,
+
+Jestem na urlopie.
+
+Pozdrawiam,
+Agnieszka
+
+
+2016-10-13 17:28 GMT+02:00 Wojciech Jaworski <wjaworski@mimuw.edu.pl>:
+
+Cześć,
+
+ponawiam moją prośbę o ustalenie terminu spotkanie w sprawie integracji
+POLFIE z pozostałymi parserami.
+
+Pozdrawiam
+Wojtek
+
+----- Przekazana wiadomość od: wjaworski@mimuw.edu.pl -----
+     Data: Wed, 05 Oct 2016 12:45:02 +0200
+       Od: Wojciech Jaworski <wjaworski@mimuw.edu.pl>
+    Temat: Re: Spotkanie w/s integracji parserów
+       Do: Agnieszka Patejuk <agnieszka.patejuk@googlemail.com>
+       DW: Katarzyna Krasnowska <kasia.krasnowska@gmail.com>, Marcin
+Woliński
+<wolinski@ipipan.waw.pl>, Jan Lupa <jl320820@students.mimuw.edu.pl>
+
+Cześć,
+
+to daj znać kiedy masz wolny termin.
+
+Pozdrawiam
+Wojtek
+
+Quoting Agnieszka Patejuk <agnieszka.patejuk@googlemail.com>:
+Cześć,
+
+W najbliższym czasie nie dam rady, bo jestem na urlopie w nadchodzącym
+tygodniu i być może dłużej.
+
+Pozdrawiam,
+Agnieszka
+
+
+2016-09-30 13:17 GMT+02:00 Wojciech Jaworski <wjaworski@mimuw.edu.pl>:
+
+
+Cześć,
+
+chciałbym spotkać się z wami w celu omówienia sposobów technicznych
+aspektów
+integracji POLFIE z pozostałymi parserami. Pierwotnie zaplanowałem z
+Adamem
+na najbliższy poniedziałek, ale niestety z powodu jego wypadku nie
+może
+ono
+dojść do skutku w pierwotnym gronie. Kiedy możemy się spotkać? Mi
+pasuje
+każdy dzień poza wtorkiem (całym) i środą (w godz. 13:30-16:30).
+
+Pozdrawiam
+Wojtek
+
+
+----- Koniec przekazanej wiadomości -----

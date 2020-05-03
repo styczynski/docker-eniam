@@ -1,0 +1,39 @@
+mam kilka pytań odnośnie realizacji w Walentym:
+
+> Jaka jest różnica pomiędzy frazą advp(misc) a frazą advp(mod) uzyskiwaną z rozwinięcia xp(mod)?
+W chwili obecnej – żadna. Można przyjąć, że 'advp(mod)' NIE obejmuje realizacji pozostałych 'xp(SEM)', zaś 'advp(misc)' obejmuje wszystko, lecz nie sądzę, by to rozróżnienie było w świadomie stosowane w słowniku (nie mówiąc już o konsekwentnym stosowaniu).
+
+> Czemu 'na korzyść' ma to samo rozwinięcie co 'na niekorzyść'?
+comprepnp(na niekorzyść)-->
+lex(prepnp(na,acc),sg,OR('korzyść','niekorzyść'),ratr1({np(gen);ncp(gen,int);ncp(gen,że)}+{possp}))        [pewna]
+comprepnp(na korzyść)-->
+lex(prepnp(na,acc),sg,OR('korzyść','niekorzyść'),ratr1({np(gen);ncp(gen,int);ncp(gen,że)}+{possp}))        [pewna]
+To błąd powinno być OR('korzyść';'niekorzyść')
+Wynika to z faktu, że są identyczne, a na dodatek się koordynują:
+· Każdy z tych atrybutów może przemawiać na ich korzyść lub niekorzyść.
+· Oczywiście zobaczymy, bo może będą korekty albo na korzyść, albo na niekorzyść podatnika.
+· Czy jest to działanie na korzyść, czy niekorzyść poszkodowanego?
+· - Opłaty naliczane są niezgodnie z obowiązującą taryfą, zarówno na korzyść, jak i na niekorzyść pasażerów.
+· On dobrze bowiem wiedział, że czas działa na jego niekorzyść, a na korzyść jego najgroźniejszych wrogów - Anglii i Rosji.
+
+Dlaczego jest
+xp(mod)-->
+     prepadjp(jako,str)        [pewna]
+     prepnp(jako,str)        [pewna]
+a nie
+xp(mod)-->
+     compar(jako)        [pewna]
+Uznanie 'jako' za konstrukcje porównawcze było nieprzemyślane i nie zostało do końca wdrożone. To jest jedna z kwestii, nad którą musimy się mocno zastanowić.
+
+Kiedy się używa:
+xp(abl)-->
+     prepadjp(z,gen)        [pewna]
+Szczerze mówiąc, nie mam pojęcia.
+
+W zdaniach typu:
+[...] gdy popatrzył w prawo, to z lewej wyskoczył mu rowerzysta.
+
+Chodzi o stronę i dość to ograniczone (lewa, prawa, może jakieś zaimki typu: ta, tamta, która).
+
+
+

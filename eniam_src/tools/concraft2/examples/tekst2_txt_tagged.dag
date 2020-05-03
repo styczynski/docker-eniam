@@ -1,0 +1,25 @@
+0	1	Ala	Al	subst:sg:acc:m1	imię		0.0001		
+0	1	Ala	Al	subst:sg:gen:m1	imię		0.0019		
+0	1	Ala	Ala	subst:sg:nom:f	imię		0.9980		disamb
+0	1	Ala	Alo	subst:sg:acc:m1	imię		0.0001		
+0	1	Ala	Alo	subst:sg:gen:m1	imię		0.0019		
+1	2	ma	mieć	fin:sg:ter:imperf			1.0000		disamb
+1	2	ma	mój	adj:sg:nom:f:pos			0.0000		
+1	2	ma	mój	adj:sg:voc:f:pos			0.0000		
+2	3	kota	kot	subst:sg:acc:m2	nazwa pospolita		0.9995		disamb
+2	3	kota	kot	subst:sg:gen:m2	nazwa pospolita		0.0005		
+2	3	kota	kot	subst:sg:acc:m1	nazwa pospolita	pot.,środ.	0.0000		
+2	3	kota	kot	subst:sg:gen:m1	nazwa pospolita	pot.,środ.	0.0000		
+2	3	kota	kota	subst:sg:nom:f	nazwa pospolita		0.0000		
+3	4	.	.	interp			1.0000	eos	disamb
+4	5	Miał	mieć	praet:sg:m1:imperf			1.0000		disamb
+4	5	Miał	mieć	praet:sg:m2:imperf			0.0000		
+4	5	Miał	mieć	praet:sg:m3:imperf			0.0000		
+4	6	Miałem	miał	subst:sg:inst:m3	nazwa pospolita		0.0000		
+5	6	em	być	aglt:sg:pri:imperf:wok			1.0000		disamb
+6	7	miał	miał	subst:sg:acc:m3	nazwa pospolita		0.0000		
+6	7	miał	miał	subst:sg:nom:m3	nazwa pospolita		0.0000		
+6	7	miał	mieć	praet:sg:m1:imperf			1.0000		disamb
+6	7	miał	mieć	praet:sg:m2:imperf			0.0000		
+6	7	miał	mieć	praet:sg:m3:imperf			0.0000		
+7	8	.	.	interp			1.0000	eos	disamb

@@ -1,0 +1,35 @@
+nieszeryfowe    nieszeryfowy    adj adj:pl:acc:m2.m3.f.n.p2.p3:pos  0.049388
+nieszeryfowe    nieszeryfowy    adj adj:pl:nom.voc:m2.m3.f.n.p2.p3:pos  0.057822
+nieszeryfowe    nieszeryfowy    adj adj:sg:acc:n:pos    0.022415
+nieszeryfowe    nieszeryfowy    adj adj:sg:nom.voc:n:pos    0.045575
+nieszeryfowa    nieszeryfowy    adj adj:sg:nom.voc:f:pos    0.077981
+
+nieszeryfowa	nieszeryfowy	adj:sg:nom.voc:f:pos		
+nieszeryfowe	nieszeryfowy	adj:pl:acc:m2.m3.f.n1.n2.p2.p3:pos		
+nieszeryfowe	nieszeryfowy	adj:pl:nom.voc:m2.m3.f.n1.n2.p2.p3:pos		
+nieszeryfowe	nieszeryfowy	adj:sg:acc:n1.n2:pos		
+nieszeryfowe	nieszeryfowy	adj:sg:nom.voc:n1.n2:pos		
+
+P(nieszeryfowy,adj,adj:sg:nom.voc:f:pos|nieszeryfowa)=1
+
+P(nieszeryfowa|nieszeryfowy,adj,adj:sg:nom.voc:f:pos)=1
+P(nieszeryfowy,adj)=1/N
+P(nieszeryfowa)=1/N
+P(adj:sg:nom.voc:f:pos|adj)=0.077981
+
+P(nieszeryfowa)=P(nieszeryfowy,adj)P(adj:sg:nom.voc:f:pos|adj)
+
+0.049388+0.057822+0.022415+0.045575=0,1752
+0.049388/0,1752=0,281894977
+
+P(nieszeryfowy, adj, adj:pl:acc:m2.m3.f.n.p2.p3:pos | nieszeryfowe)=
+  P(adj:pl:acc:m2.m3.f.n.p2.p3:pos | adj) / 
+    (P(adj:pl:acc:m2.m3.f.n.p2.p3:pos | adj) + 
+     P(adj:pl:nom.voc:m2.m3.f.n.p2.p3:pos | adj) + 
+     P(adj:sg:acc:n:pos | adj) + 
+     P(adj:sg:nom.voc:n:pos | adj))
+
+P(lemma,cat)=P(form)*(P(adj:pl:acc:m2.m3.f.n.p2.p3:pos | adj) + 
+     P(adj:pl:nom.voc:m2.m3.f.n.p2.p3:pos | adj) + 
+     P(adj:sg:acc:n:pos | adj) + 
+     P(adj:sg:nom.voc:n:pos | adj))

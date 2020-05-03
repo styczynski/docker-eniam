@@ -1,0 +1,39 @@
+#! /bin/bash
+# Interaktywne wywołanie parsera
+#
+# Author: Marcin Woliński
+# This file is in the public domain.
+
+parser=swigra2_interactive
+
+while getopts :12w OPT; do
+    case $OPT in
+	1)
+	    parser=swigra_interactive
+	    ;;
+	2)
+	    parser=swigra2_interactive
+	    ;;
+	w)
+	    parser=swigra2_httpd
+	    ;;
+	*)
+	    echo "usage: ${0##*/} [-12w] "
+	    exit 2
+    esac
+done
+shift $(( OPTIND - 1 ))
+OPTIND=1
+
+if [ $# -gt 0 ]; then
+    echo $#
+  echo "usage: ${0##*/} [-12w]"
+  exit 1
+fi
+
+swipl --traditional -g "[$parser]"
+
+### Local Variables: 
+### coding: utf-8
+### mode: shell-script
+### End: 

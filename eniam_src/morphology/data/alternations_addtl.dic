@@ -1,0 +1,121 @@
+@dial_verb
+	obacz	obocz	obacz # zoboczyć
+	wie	wie	wie # żywiemy
+	mie	mi	mie # rozumicie
+	a	o	a # spytoć, nazywoł, mieszko, powiedzioł
+	li	lo	li # pozwoloć
+	a	o	a # spytoć, nazywoł, mieszko, powiedzioł
+
+# cichem etc.
+@dial_twarde_ye
+	by	be	by
+	chy	che	chy
+	dy	de	dy
+	fy	fe	fy
+	hy	he	hy
+	ły	łe	ły
+	my	me	my
+	ny	ne	ny
+	py	pe	py
+	ry	re	ry
+	sy	se	sy
+	szy	sze	szy
+	ty	te	ty
+	vy	ve	vy
+	wy	we	wy
+	zy	ze	zy
+
+@dial_miekkie_i
+	ląsk	lunski	ląsk # ślunsku
+
+@dial_twarde_y
+	ądr	undr	ądr
+	rzeczn	zecn	rzeczn # gzecny
+	szczer	scyr	szczer
+	szczer	scyr	szczer
+
+@dial_miekkie_ae
+	ow	obi	ow # głobe
+	k	c	k	# ocy
+	alk	olc	alk # górolki
+	olad	uladzi	olad # czekulada
+*	Ka	K	Ka # OśKa
+
+@dial_miekkie_wyglos
+	olar	ularz	olar # dulary
+	ląsk	lunski	ląsk # ślunsku
+	el	oł	el # nieprzyjacioły
+	eck	cki	eck # O'Goreck, rcka
+	wiedeń	widni	wiedeń
+	al	ol	al # górol
+
+@dial_twarde_wyglos
+	ak	ok	ak # chłopok, żebrok
+	ląsk	lunsk	ląsk # ślunsku
+	eck	ck	eck # O'Goreck, rcka
+	olar	ular	olar # dulary
+	or	ór	or # doktór
+
+@dial_wyglos
+	ec	c	ec # palcyma
+
+@dial_twarde_a
+	ow	ob	ow # głobe
+	czm	cm	czm # karczma
+	alk	olk	alk # górolki
+	olad	ulad	olad # czekulada
+	herbatk	hierbatk	herbatk
+	v	vi	v # Opava, Viva
+
+@dial_miekkie_ii
+	ej	eji	ej # Koleji
+	ni	nji	ni # Danja
+	li	lji	li # Anglja
+	ni	nji	ni # opinję
+	K	Ki	K # OŚKi -> OŚKa
+
+@dodatkowe_twarde_a
+	x	ks	x # Jaksy -> Jaxa
+
+@dodatkowe_miekkie_wyglos
+	nów	nowi	nów	# Czarnów -> Czarnowa itd.
+	lów	lowi	lów
+	łów	łowi	łów
+	ków	kowi	ków
+	szów	szowi szów
+	rów	rowi	rów
+	jów	jowi	jów
+
+@dodatkowe_twarde_wyglos
+	nów	now	nów	# Czarnów -> Czarnowa itd.
+	lów	low	lów
+	łów	łow	łów
+	ków	kow	ków
+	szów	szow szów
+	rów	row	rów
+	jów	jow	jów
+	vel	vl	vel # Havlowi
+	tus	t	tus # Chryste
+
+@dodatkowe_twarde_e
+	ti	t	ti # Sarasatego -> Sarasati
+	pe	p	pe # bewupe -> bewupa
+	gie	g	gie # erpegie -> erpega
+
+@dodatkowe_miekkie_ae
+	wje	wj	wje # Tewji
+	xi	xi	xi # nexii
+	si	si	si # Borussii
+	zi	zi	zi # Divizii
+
+@dodatkowe_twarde_y
+	kie	kie	kie # Mazowieckie -> Mazowieckiem itd.
+	pe	p	l
+
+@dodatkowe_miekkie_wyglos
+	siądz	sięż	siądz # biznesksiężmi
+
+# Pominięte: chocioż, tyż, tyn, troszkie, taż toż, sztukamy (stukamy), powno, łon, jeścio, dzisiej
+#		śta	być
+#		som	być
+#		je	być

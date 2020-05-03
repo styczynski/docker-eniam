@@ -1,0 +1,2040 @@
+1970 *CZASOWNIK oznaczający sytuację związaną z kontaktem fizycznym-1
+  72 *CZASOWNIK - ZDARZENIE NDK oznaczający kontakt fizyczny, który wpływa na obiekt-1
+    0 obruszać-2
+    0 opierzać-1
+    0 odbijać-2
+    0 przysypywać-2
+    0 utykać-5, więznąć-1, grzęznąć-1
+    66 uszkadzać-1
+      0 zarysowywać-1
+      1 kancerować-1
+        0 rysować-3
+      0 zacierać-1
+      2 psuć-3
+        0 palić-9
+        0 naruszać-2
+      0 szczerbić-1, wyszczerbiać-1
+      0 podgryzać-2, podjadać-3, podżerać-3
+      0 obrywać-1
+      0 przepalać-1
+      0 rozregulowywać-1, rozstrajać-2
+      0 zadzierać-2, naddzierać-2
+      3 nadwyrężać-1, nadwerężać-1, nadwątlać-1, nadszarpywać-2
+        0 forsować-2
+        0 naciągać-4
+        0 zdzierać-5
+      1 nadszarpywać-1
+        0 podrywać-4
+      0 zadrapywać-1
+      0 rozjeżdżać-2
+      0 okaleczać-2
+      2 obijać-3, obtłukiwać-1
+        1 utłukiwać-1
+          VISITED 0 odbijać-10, obtłukiwać-2
+      14 dziurawić-1, przedziurawiać-1
+        0 nakłuwać-2
+        1 przewiercać-1
+          0 prześwidrowywać-1
+        0 przestrzeliwać-1
+        0 przerywać-7
+        8 przebijać-2
+          0 przeszywać-4
+          0 wybijać-7
+          1 przekłuwać-1
+            0 nakłuwać-3
+          3 kłuć-3
+            0 dźgać-1, żgać-1
+            VISITED 0 żądlić-1
+            0 bóść-1
+      0 parzyć-1, piec-1, prażyć-1
+      25 kaleczyć-1, kiereszować-1
+        VISITED 0 ranić-2
+        0 rozwalać-5
+        0 zacinać-3
+        0 sztyletować-1
+        0 przygryzać-1
+        0 ocierać-1, obcierać-1, ścierać-4
+        0 rozcinać-2
+        0 haratać-1
+        1 ciąć-1, ucinać-3, kąsać-3
+          0 żądlić-1
+        0 zdzierać-3
+        VISITED 6 przecinać-5
+        0 rozszarpywać-1
+        1 okaleczać-3
+          0 oślepiać-3
+        0 rozpruwać-1
+        0 obijać-1
+        0 urażać-1
+        0 kąsać-1, gryźć-1
+  13 *CZASOWNIK - ZDARZENIE NDK oznaczający kontakt fizyczny-1
+    1 ulegać wypadkom-1
+      0 rozbijać się-7
+    8 uderzać-3
+      0 stukać-4, pukać-4
+      0 rozbijać się-4
+      0 chlastać-1
+      0 kopać-8
+      1 obijać się-1
+        0 kołatać się-3
+      VISITED 0 trzaskać-3, walić-1, hukać-1, grzmocić-1, rąbać-6
+      0 siekać-3, chłostać-2, smagać-2
+    1 rozbijać się-2
+      0 roztrzaskiwać się-1
+  92 *CZASOWNIK - CZYNNOŚĆ NDK oznaczający kontakt fizyczny, który wpływa na obiekt-1
+    17 uruchamiać-3, uruchomiać-3
+      0 otwierać-6
+      0 odblokowywać-3
+      14 włączać-5
+        1 restartować-1, resetować-1
+          0 resetować-2
+        1 zapalać-2, świecić-4, zaświecać-1
+          0 migać-4
+        0 dzwonić-2
+        0 puszczać-12
+        2 odkręcać kurek-1
+          0 odkręcać gaz-1
+          0 odkręcać wodę-1
+        0 włączać-2
+        0 włączać-6
+        2 zapalać-4
+          0 odpalać-7
+          0 odpalać-6, zapuszczać-5
+    2 wybijać-4
+      0 odbijać-10, obtłukiwać-2
+      0 wytrącać-2
+    24 naciskać-3, przyciskać-2, uciskać-1
+      1 dociskać-1
+        0 dobijać-6
+      0 klikać-1
+      0 napierać-3, przeć-3
+      0 przyduszać-2
+      6 trzeć-2
+        0 łasić się-1
+        2 pocierać-1
+          1 drapać-2
+            0 skrobać-3
+        1 masować-1, rozmasowywać-1
+          0 rozcierać-2
+      7 przygniatać-2
+        0 przytłaczać-2
+        0 przysiadać-3, przysiadywać-2
+        0 przytrzaskiwać-1
+        0 przywalać-5
+        1 przybijać-4
+          0 opieczętowywać-2
+        0 zasypywać-4
+      3 następować-2, nadeptywać-1
+        1 wchodzić-14
+          0 włazić-8
+        0 deptać-6, przydeptywać-1
+    31 zamykać-4, zawierać-2
+      0 zamykać na trzy spusty-1
+      0 zaciągać-3
+      0 przymykać-1
+      0 zawalać-4
+      3 zapinać-1
+        0 zapinać się-2
+        1 dopinać-2
+          0 dopinać się-1
+      1 zakrywać-3
+        0 przykrywać-3
+      0 ryglować-2, zaryglowywać-1
+      0 zaślepiać-2
+      0 zatrzaskiwać-2
+      0 zatrzaskiwać-3, przytrzaskiwać-2
+      1 zawiązywać-9
+        0 sznurować-4
+      2 zakręcać-5
+        0 nakręcać-5
+        0 dokręcać-3
+      0 zabijać-7
+      8 zatykać-2, zapychać-2
+        0 zalewać-7
+        2 uszczelniać-1
+          0 hermetyzować-2
+          0 iłować-1
+        0 szpuntować-1, czopować-1, zaczopowywać-1
+        0 kneblować-1
+        0 przytykać-3
+        0 korkować-3
+      0 mrużyć-1, przymrużać-1, zmrużać-1
+      0 domykać-1
+    13 bić-5, dawać-4, lać-3, okładać-1, młócić-1, prać-2
+      0 przekładać przez kolano-1
+      0 dawać wycisk-1
+      0 policzkować-1
+      0 pałować-1
+      0 masakrować-1
+      0 trzepać-6
+      0 boksować-1
+      0 katować-1
+      3 chłostać-1, siekać-2, smagać-1, siec-1
+        0 zacinać-2
+        0 batożyć-1
+        0 biczować-1
+      0 tłuc-4, grzać-3
+  163 *CZASOWNIK - CZYNNOŚĆ NDK oznaczający kontakt fizyczny-1
+    VISITED 2 chwytać się-1, łapać się-1, czepiać się-1
+    0 wycałowywać-1
+    0 mocować się-1, siłować się-1, zmagać się-1
+    2 czesać-2
+      0 szczotkować-2
+      0 przeczesywać-2
+    9 kreślić-1, mazać-1
+      VISITED 0 zamazywać-1
+      0 zakreślać-2
+      6 rysować-1
+        0 wykreślać-3
+        0 dorysowywać-2
+        0 zakreślać-1
+        0 rysować z natury-1
+        0 szkicować-2
+        0 podkreślać-2
+    9 sterować-1
+      0 taktować-1
+      7 kierować-2, prowadzić-7
+        0 żeglować-3
+        0 powozić-1, furmanić-1
+        0 pilotować-1
+        1 panować-4
+          0 utrzymywać-10
+        0 manewrować-2
+        0 halsować-1, lawirować-2
+    35 walczyć-4, bić się-1
+      0 krzyżować-5
+      0 przelewać krew-1
+      0 fechtować się-1, fechtować-1
+      0 bronić się-5
+      0 pojedynkować się-1
+      0 boksować się-1
+      0 blokować-5
+      0 potykać się-1
+      0 harcować-1
+      0 wojować-2
+      8 strzelać-2, wystrzeliwać-1, bić-3, kropić-3, łupać-3, przygrzewać-3, rąbać-3, pukać-3, tłuc-5, walić-2, wygarniać-1, wypalać-2, dogrzewać-5
+        0 prać-3
+        0 wstrzeliwać-2
+        0 nieść-3
+        0 przenosić-6
+        0 prażyć-4
+        0 siać-6
+        0 pruć-3
+        0 dublować-5
+      3 bronić-2, odpierać-1, odrzucać-7
+        0 odparowywać-1, parować-3
+        0 utrzymywać-5
+        0 osłaniać-4
+      11 atakować-1, nacierać-1, iść-13, najeżdżać-1, napierać-1, szturmować-1, uderzać-5
+        0 szarżować-1
+        0 desantować-1, desantować się-1
+        0 ścierać się-3
+        2 wchodzić-8
+          1 wkraczać-2
+            0 wdzierać się-6
+        1 kontratakować-1
+          0 ripostować-2
+        0 ostrzeliwać-1, obstrzeliwać-1
+        0 bombardować-1
+        0 flankować-1
+    3 trzymać-1
+      1 utrzymywać-6
+        0 podtrzymywać-2, przytrzymywać-2
+      0 przetrzymywać-4
+    86 dotykać-1, tykać-1, dotykać się-4
+      0 ocierać się-2
+      0 ocierać się-1
+      0 uderzać się-1
+      11 zaciskać-1, ściskać-1
+        0 zwierać-1
+        0 zaciągać-1
+        0 zadzierzgać-2, zadzierzgiwać-2
+        0 zacieśniać-1
+        0 zacinać-4
+        1 szczypać-3
+          0 podszczypywać-1, podskubywać-1
+        0 spinać-3
+        0 zbierać-6
+        1 prasować-1
+          0 belować-1
+      0 obmacywać-1, macać-1
+      40 uderzać-2, stukać-1
+        0 podbijać-4
+        0 pukać-2
+        0 chlastać-3
+        0 klaskać-2
+        1 tupać-1
+          0 przytupywać-1
+        0 trącać się-1
+        0 kiksować-3
+        0 palcować-1
+        0 bić-2
+        0 głuszyć-3, ogłuszać-3
+        1 przybijać-3, przyklepywać-1
+          0 przybijać piątkę-1
+        0 dziobać-4, dzióbać-1
+        8 uderzać-1, zadawać cios-1, zadawać raz-1, wymierzać-2, dawać łupnia-1
+          0 chlastać-2
+          0 dowalać-1, dosuwać-1, przykładać-2, przysalać-1, przysuwać-2, zasuwać-2
+          0 trzaskać-3, walić-1, hukać-1, grzmocić-1, rąbać-6
+          VISITED 0 ciąć-3
+          0 rąbać-9
+          0 nokautować-1
+          0 tłuc-1, przydzwaniać-1, przywalać-1, przygrzewać-2, dogrzewać-4, łupać-4, rypać-4, rżnąć-3
+          0 zaprawiać-3, strzelać-1, kropić-4, chlustać-1, machać-3
+        0 podcinać-2
+        3 kłapać-2, plaskać-1, klapać-1
+          0 klaskać-3
+          0 kląskać-1
+          0 człapać-2
+        0 bębnić-1
+        3 potrącać-2, trącać-1
+          0 popychać-4
+          0 kuksać-1
+          0 szturchać-1
+        1 klepać-1
+          0 poklepywać-1
+        4 kopać-2
+          0 butować-1
+          0 wykopywać-3
+          0 odkopywać-2
+          0 wierzgać-3
+      0 macać-2
+      1 lizać-1
+        0 oblizywać-1
+      14 przylegać-1, obciskać-1, oblepiać-1, opinać-1, opinać się-1
+        0 wpijać się-2
+        0 przystawać-5
+        VISITED 0 lgnąć-1
+        11 przyciskać się-1, przyklejać się-1, przylepiać się-1, przywierać-1
+          0 przyrastać-3
+          5 przywierać-2, przylegać-3
+            0 przypadać-4
+            0 lgnąć-1
+            0 wpierać-2, zapierać-3
+            0 przymarzać-1
+            0 przywierać-3, przylepiać się-3
+          0 oblepiać-5
+          2 przytulać się-1, tulić się-1
+            0 kleić się-1, lepić się-1
+            0 przypadać-3
+      0 szorować-2, trzeć-3
+      2 głaskać-1, gładzić-1
+        1 muskać-1, lizać-2
+          0 łaskotać-1, łechtać-2, łachotać-1
+      1 opierać się-2, wspierać się-1, podpierać się-1
+        0 trzymać się-1, przytrzymywać się-1
+      3 obejmować-4, ogarniać-1, opasywać-1, oplatać-1
+        1 ściskać-3
+          0 obściskiwać-1
+        0 przytulać-1, tulić-1, przygarniać-1
+      0 całować-1, cmokać-2, składać pocałunek-1
+    10 brać-5
+      0 odbierać-8
+      8 chwytać-1, łapać-1
+        0 chapać-3, chłapać-1
+        0 dziobać-3, dzióbać-3
+        2 chwytać się-1, łapać się-1, czepiać się-1
+          0 przyczepiać się-1
+          0 wieszać się-1, uwieszać się-1
+        0 porywać-1
+        1 załapywać-4
+          0 podnosić-11
+  638 *CZASOWNIK - DZIAŁANIE NDK oznaczający kontakt fizyczny, który wpływa na obiekt-1
+    7 spulchniać-1
+      0 sprężynować-1
+      0 motykować-1
+      1 przekopywać-2, kopać-3, skopywać-1
+        0 przekopywać-3
+      0 gracować-1
+      1 orać-1, zaorywać-1, zorywać-1
+        0 oborywać-1
+    0 pustoszyć-2
+    67 zabezpieczać-2
+      0 bandażować-2
+      VISITED 0 ocynkowywać-1
+      VISITED 0 krawędziować-1
+      0 opancerzać-1
+      0 oksydować-1
+      0 podkuwać-1
+      0 uziemiać-2
+      0 izolować-2
+      0 filtrować-2
+      0 pryskać-5, opryskiwać-3, spryskiwać-1
+      1 ocieplać-1
+        0 watować-1, wywatowywać-1
+      0 plombować-1, opieczętowywać-1
+      6 umacniać-3
+        0 ustalać-5
+        4 fortyfikować-1
+          0 szańcować-1
+          0 okopywać-2
+          1 obwarowywać-3
+            0 flankować-2
+      1 obrębiać-1
+        0 obszywać-4, obrzucać-3
+      0 chromianować-1
+      VISITED 0 kadmować-1
+      VISITED 0 aluminiować-1, glinować-1
+      0 obwałowywać-1
+      1 utwardzać-1
+        0 hartować-1
+      0 opatrywać-4
+      0 parafować-1
+      0 foliować-1, laminować-1
+      VISITED 0 werniksować-1
+      VISITED 0 politurować-1
+      VISITED 0 parafinować-1
+      VISITED 0 emaliować-1, lakować-1, lakierować-1
+      0 cynować-1, bielić-3, pobielać-2
+      0 cynkować-1
+      4 konserwować-2
+        0 balsamować-1, mumifikować-1
+        0 chlorować-1
+        0 dublować-1
+        0 impregnować-1
+      0 preparować-1
+      2 opatrywać-2
+        0 tamponować-1
+        0 bandażować-1
+      0 osłonić-4
+      0 obwarowywać-1
+      8 umacniać-1, wzmacniać-3
+        0 zbroić-2
+        0 podkuwać-2
+        0 żebrować-1
+        0 mieczować-1
+        0 drutować-1, zadrutowywać-1
+        0 utwardzać-3
+        0 obmurowywać-1, omurowywać-1
+        0 betonować-1, obetonowywać-1
+      5 konserwować-1
+        0 pasteryzować-1
+        0 peklować-1
+        0 zasalać-1, nasalać-1
+        0 marynować-1
+        0 kisić-1, kwasić-1, ukwaszać-1, zakwaszać-3, zakiszać-1
+      0 bejcować-3, zaprawiać-4
+      0 bejcować-1
+      1 blokować-3, zablokowywać-1
+        0 ryglować-1
+    0 skuwać-1
+    176 dzielić-2
+      0 rozgałęziać-1
+      0 segmentować-1
+      15 rozdzielać-3
+        0 rozwidlać-1
+        0 rozdwajać-1
+        2 rozkładać-9
+          0 rozrysowywać-1
+          0 rozszczepiać-2
+        0 rozsadzać-7
+        VISITED 8 rozłączać-1
+      0 rozgryzać-1
+      0 odrywać-1
+      3 rozcinać-1
+        0 chlastać-4
+        0 ćwiartować-1
+        0 trzeć-5, piłować-3, rżnąć-2
+      0 przegryzać-1
+      10 rozrywać-1, rwać-1
+        0 rozsadzać-2
+        VISITED 0 zrywać-3, przerywać-5
+        0 nadrywać-1
+        2 rozdzierać-1
+          0 naddzierać-1
+          0 przedzierać-1
+        3 drzeć-1
+          0 rozszarpywać-2
+          0 targać-4
+          0 strzępić-1, wystrzępiać-1
+      4 porcjować-1
+        0 rozważać-2
+        0 kapsułkować-1
+        VISITED 1 rozlewać-1
+      0 rozpoławiać-1, przepoławiać-1
+      0 rozszczepiać-1
+      34 ciąć-2
+        2 ucinać-1
+          1 przycinać-1
+            VISITED 0 podstrzygać-2, przystrzygać-1
+        0 gilotynować-1
+        0 płatać-1
+        VISITED 21 odcinać-1
+        0 przecierać-6
+        0 rąbać-1
+        1 siekać-1, siec-2
+          0 zrzynać-3
+        3 kroić-2, krajać-1
+          0 kostkować-1
+          0 szatkować-1
+          0 dydolić-1
+      22 rozdrabniać-1, rozdrabiać-1
+        0 śrutować-2
+        0 rozdziobywać-1
+        1 rozczłonkowywać-1, kawałkować-1, rozkawałkowywać-1
+          0 rozwłókniać-1
+        VISITED 2 tłuc-2
+        4 trzeć-1, ucierać-1, ścierać-5
+          0 docierać-5
+          0 kręcić-5
+          0 przecierać-5
+          0 rozcierać-3
+        1 mleć-1, mielić-1
+          0 miksować-2
+        1 kruszyć-1, drobić-2, rozkruszać-1
+          0 kuć-3
+        5 gryźć-2
+          0 nadżerać-1
+          0 nadgryzać-1
+          2 przeżuwać-1, żuć-1
+            0 mamlać-1, mamleć-1, międlić-2, memłać-1
+            0 gamlać-1
+      87 oddzielać-2
+        0 odwarstwiać-1
+        0 odciskać-1
+        0 odgryzać-1
+        27 odłączać-1, odejmować-3
+          1 odwiązywać-1
+            0 wyprzęgać-1
+          0 odkręcać-3
+          0 wypruwać-1
+          6 urywać-2, odrywać-3
+            0 obrywać-3
+            0 skubać-3
+            0 zrywać-3, przerywać-5
+            0 oddzierać-1
+            0 szarpać-2
+            0 odstrzeliwać-3
+          5 odczepiać-1
+            0 odcumowywać-1, odcumowywać się-1
+            0 odkotwiczać-1
+            0 odklejać-1, odlepiać-1
+            1 odpinać-1
+              0 wypinać-1
+          8 rozłączać-1
+            0 rozlutowywać-1
+            0 rozplatać-1
+            0 rozpinać-2
+            0 rozprzęgać-2
+            0 rozklejać-2, rozlepiać-2
+            1 rozczepiać-1
+              0 rozformowywać-1
+            0 rozpruwać-3, pruć-2
+          0 odkuwać-2
+        1 odciągać-2
+          0 odwadniać-3, odwodniać-3
+        25 wyodrębniać-1, wydzielać-3
+          3 wyizolowywać-2, izolować-3
+            1 wytrącać-1
+              0 strącać-3
+            0 ekstrahować-1
+          0 abstrahować-2
+          3 wyciskać-1
+            0 tłoczyć-4, wytłaczać-3
+            1 wyżymać-1
+              0 wykręcać-5
+          0 ługować-1, wyługowywać-1
+          0 wyłączać-3
+          10 dzielić-7, klasyfikować-2, kategoryzować-1, kwalifikować-3, typizować-1, grupować-2
+            0 sortować-1, segregować-1
+            0 sekwencjonować-2
+            0 gatunkować-1
+            6 różnicować-1
+              0 rozwarstwiać-1
+              0 polaryzować-2
+              0 polaryzować-1
+              0 cieniować-2, wycieniowywać-2
+              0 indywidualizować-1
+              0 dywersyfikować-1
+          0 specjalizować-2
+          0 wirować-4, odwirowywać-1
+          0 wyjmować-3
+        21 odcinać-1
+          0 obrzynać-1, odrzynać-1
+          7 obcinać-2
+            0 strzyc-4
+            5 ścinać-3
+              0 zrzynać-2
+              3 strzyc-2
+                1 kosić-1
+                  0 żąć-1
+                0 podstrzygać-2, przystrzygać-1
+          1 ścinać-2
+            0 korować-1, okorowywać-1, odkorowywać-1
+          6 strzyc-1, obcinać-1, obstrzygać-1, ścinać-7
+            1 postrzygać-1
+              0 postrzygać tkaninę-1
+            0 przystrzygać-2, podstrzygać-1
+            0 trymować-1
+            0 cieniować-1, wycieniowywać-1
+            0 anglezować-2
+          0 odrąbywać-1
+          1 podcinać-1
+            0 podrzynać-1
+        0 przedzielać-2
+        4 odłamywać-1, ułamywać-1
+          0 obłamywać-1
+          0 nadłamywać-1
+          VISITED 1 odłupywać-1
+      12 przecinać-2
+        1 przerzynać-1
+          0 dorzynać-3
+        0 przepiłowywać-1
+        0 otwierać-5
+        6 przecinać-5
+          5 nacinać-1
+            0 karbować-3
+            1 nadcinać-1
+              0 nadrzynać-1
+            0 zacinać-6
+            0 zacinać-7
+        0 przerąbywać-1, rozrąbywać-1
+      3 rozkładać-1
+        2 demontować-1, rozmontowywać-1, rozbierać-2, składać-8
+          0 rozkręcać-4
+          0 rozbrajać-4
+      3 łamać-2, przełamywać-4, rozłamywać-1
+        2 łupać-2, rozłupywać-1
+          1 odłupywać-1
+            0 odstrzeliwać-2
+    392 umieszczać-1, lokować-2, sytuować-1, umiejscawiać-1, usadawiać-1
+      1 narzucać-2, zarzucać-4
+        0 przerzucać-3
+      0 oprawiać-2, wprawiać-1
+      0 wstrzeliwać-1
+      0 wkopywać-1
+      0 zapychać-1
+      1 wstawiać-1
+        0 szklić-1
+      1 osadzać-2
+        0 zakotwiczać-1
+      0 przesypywać-1
+      0 garażować-1, parkować-1
+      0 podstawiać-1
+      0 przystawiać-1
+      2 zamykać-1
+        VISITED 0 zaryglowywać-2
+        VISITED 0 zatrzaskiwać-1
+      3 zakładać-7
+        1 siodłać-1
+          0 kulbaczyć-1
+        0 zadawać-3
+      0 nastawiać-1, stawiać-5
+      5 pozostawiać-2, zostawiać-1
+        0 podrzucać-1
+        VISITED 0 odkładać-2
+        2 podkładać-2
+          0 podminowywać-1
+          0 podsuwać-1
+      0 zapuszczać-1
+      0 upychać-1, utykać-1
+      0 wszywać-1
+      0 zwalać-2, zrzucać-1
+      VISITED 1 wypychać-1, napychać-1
+      27 rozmieszczać-1, rozlokowywać-1
+        0 rozplanowywać-2
+        0 rozkładać-8
+        0 rozsiewać-3
+        VISITED 0 rozsadzać-3, usadzać-3, usadawiać-2
+        1 rozklejać-1, rozlepiać-1
+          0 plakatować-1
+        3 rozpraszać-1, dekoncentrować-1, rozrzucać-2
+          0 rozpylać-1
+          0 rozstrzeliwać-2
+          0 decentralizować-1
+        16 stawiać-7, ustawiać-1
+          1 podawać-5, serwować-2
+            0 podtykać-1
+          3 rozstawiać-2
+            0 ugrupowywać-1
+            0 formować-4
+            0 rozwijać-7
+          1 rozwijać-3
+            0 pokrywać-10, kryć-10
+          1 nastawiać-3
+            0 nadstawiać-1
+          5 opierać-1
+            4 podpierać-1, wspierać-3
+              0 tyczyć-3
+              0 zapierać-1
+              1 podbudowywać-2
+                0 stemplować-2
+      0 zataczać-2, wtaczać-1
+      2 wrzucać-1
+        0 wwalać-1
+        0 wsypywać-1, nasypywać-1
+      1 zatykać-1, zasadzać-2, wtykać-1, wsuwać-1
+        0 przetykać-1
+      2 przewieszać-1, wieszać-2, zawieszać-3
+        0 odwieszać-1
+        0 podwieszać-1
+      3 sadzać-1
+        0 rozsadzać-3, usadzać-3, usadawiać-2
+        0 przesadzać-3
+        0 sadowić-1, usadawiać-3
+      0 hospitalizować-1
+      13 zagłębiać-1, wgłębiać-1
+        0 wkopywać-2
+        5 wbijać-1, bić-13
+          0 wstrzeliwać-3
+          0 dziobać-2, dzióbać-4
+          0 wkuwać-2
+          0 wkłuwać-1
+          0 pobijać-1
+        VISITED 0 wtulać-1
+        0 wcinać-2
+        0 wkręcać-1
+        2 wciskać-1
+          1 wgniatać-1, wginać-2
+            0 wdeptywać-1
+      29 wprowadzać-4
+        VISITED 0 arylować-1
+        0 dokować-2
+        0 dokować-1
+        0 wszczepiać-1, implantować-1
+        0 wpompowywać-1
+        0 wczytywać-1
+        0 wpuszczać-1
+        0 wstrzykiwać-1
+        17 nasycać-1
+          0 napawać-2
+          0 zasalać-3
+          0 potasować-1
+          0 kadzić-2, okadzać-1
+          0 zakwaszać-1
+          VISITED 2 natłuszczać-1, tłuścić-1
+          0 nasączać-1, sączyć-2, wsączać-1
+          VISITED 0 woskować-1
+          0 nawaniać-1
+          0 nasączać-2
+          0 napowietrzać-1
+          0 gazować-1
+          0 aromatyzować-1
+          0 apreturować-1
+          0 alkoholizować-1
+        2 wtłaczać-1
+          0 wdmuchiwać-1
+          0 wstrzykiwać-2
+      7 wpychać-1, pchać-1, tkać-1
+        0 wduszać-1
+        0 pakować-1
+        0 utykać-3
+        3 wtłaczać-3
+          VISITED 2 nabijać-1
+      12 sadzić-1, zasadzać-1
+        0 przysadzać-1, dosadzać-1
+        4 rozsadzać-5
+          1 flancować-1
+            VISITED 0 przeflancowywać-2
+          1 obsadzać-6
+            0 wysadzać-4
+        3 przesadzać-2
+          0 pikować-1
+          0 przeflancowywać-2
+          0 wysadzać-1
+        2 zazieleniać-2
+          1 zadrzewiać-1
+            0 zalesiać-1
+      30 montować-1, instalować-1, zakładać-5, zamontowywać-1
+        1 nagłośniać-1, nagłaśniać-1
+          0 megafonizować-1
+        0 uzbrajać-1
+        0 podłączać-2
+        0 zabezpieczać-4
+        19 kłaść-4
+          13 pokrywać-6, kryć-11
+            0 natryskiwać-1
+            0 poszywać-2
+            0 obszywać-2
+            0 wyściełać-1, wyścielać-1, mościć-1
+            0 oblepiać-3
+            0 oblepiać-4, oklejać-1, obklejać-1
+            6 nabijać-3, wybijać-8
+              0 wysadzać-5
+              0 kolcować-1
+              3 obijać-2
+                0 okuwać-1
+                0 tapicerować-1
+                0 listwować-1
+          3 prowadzić-6, przeprowadzać-5
+            0 puszczać-17
+            1 doprowadzać-4
+              0 przyłączać-3
+          0 okablowywać-1
+        0 taklować-1
+        0 minować-1
+        0 radiofonizować-1
+        0 kanalizować-1
+        0 elektryfikować-1
+      1 wywieszać-1
+        0 flagować-1, oflagowywać-1
+      7 zanurzać-1
+        0 pogrążać-2
+        2 zatapiać-1, topić-1
+          0 podtapiać-1
+          0 torpedować-2
+        1 namaczać-1
+          VISITED 0 zamaczać-1
+        0 maczać-1
+      0 zastawiać-1
+      5 wieszać-1, zawieszać-2
+        0 obwieszać-1, zawieszać-5
+        1 przywieszać-1, uwieszać-1, zawieszać-4
+          0 uwiązywać-3
+        0 przewieszać-2
+        0 rozwieszać-1
+      9 ubierać-1, wkładać-1, nakładać-2, zakładać-6, wdziewać-1
+        0 naciskać-1
+        0 wbijać się-2, wciskać się-2
+        0 brać-20
+        0 naciągać-1
+        0 obuwać-1
+        0 stroić-1
+        2 zakładać-8
+          0 wzuwać-1
+          0 wskakiwać-4
+      41 wypełniać-1, napełniać-1, zapełniać-1
+        0 wypakowywać-1, upychać-2
+        0 zapisywać-5
+        0 zapychać-4
+        0 zapychać-3, zawalać-1
+        0 plombować-2
+        0 plombować-3
+        VISITED 0 tankować-1
+        0 cementować-1
+        0 pompować-2
+        VISITED 0 ładować-1, naładowywać-1, załadowywać-1, władowywać-1
+        1 zasypywać-1
+          0 zagrzebywać-1
+        1 wypychać-1, napychać-1
+          0 wypychać się-1
+        0 wypychać-2
+        2 dopełniać-1
+          0 dolewać-1
+          0 dosypywać-1
+        2 nabijać-1
+          1 ładować-2, naładowywać-3, załadowywać-2, repetować-1
+            0 przeładowywać-2
+        1 szpikować-1
+          0 zaśmiecać-1, zachwaszczać-3
+        0 zabudowywać-1
+        VISITED 0 gipsować-1
+        0 szabrować-2
+        2 nadziewać-1
+          0 szpikować-2
+          0 faszerować-1
+        0 nadmuchiwać-1, dmuchać-2
+        0 obsadzać-4, zarybiać-1
+        9 wlewać-1, nalewać-1, lać-1
+          0 podlewać-1
+          0 polewać-3
+          0 tankować-1
+          1 wtłaczać-2
+            0 wtryskiwać-1
+          1 przelewać-1
+            0 zlewać-3
+          1 rozlewać-1
+            0 butelkować-1
+        0 zastawiać-4
+      14 ukrywać-3, chować-1, skrywać-2, kryć-2
+        0 kamuflować-1
+        1 kryć-9, chować-4
+          0 wtulać-1
+        0 zaszywać-1
+        2 zamykać-5
+          0 zaryglowywać-2
+          0 zatrzaskiwać-1
+        0 dekować-1
+        1 zakopywać-1
+          0 dołować-1
+        0 melinować-1
+        2 maskować-1, zamaskowywać-1
+          0 tuszować-4
+          0 kamuflować-3
+      91 nakładać-3, nanosić-1
+        0 bieżnikować-1
+        0 krawędziować-1
+        5 malować-3, robić makijaż-1
+          0 cieniować-4
+          0 tuszować-3
+          0 różować-1
+          0 pudrować-1
+          0 szminkować-1
+        0 rozcierać-1
+        81 pokrywać-11
+          0 ocynkowywać-1
+          0 zamazywać-1
+          0 przysypywać-1
+          2 wylewać-3
+            0 lastrykować-1
+            0 asfaltować-1
+          0 glinować-3
+          0 pociągać-5
+          0 laminować-2
+          0 gipsować-1
+          0 spieniać-1
+          17 rozprowadzać-2
+            0 rozdeptywać-2
+            1 mazać-4
+              0 rozmazywać-2
+            13 smarować-1
+              2 nacierać-3
+                0 wcierać-1
+                0 mydlić-1, namydlać-1, zamydlać-1
+              0 smołować-1
+              1 namaszczać-1, maścić-1
+                0 kremować-1
+              0 pędzlować-1
+              2 natłuszczać-1, tłuścić-1
+                0 oliwić-1, naoliwiać-1
+                0 oleić-1
+              0 brylantynować-1, brylantować-1
+              0 pastować-1
+              0 rozsmarowywać-1
+          10 malować-4
+            0 podmalowywać-1
+            0 wymalowywać-3
+            0 przemalowywać-1
+            0 emaliować-3
+            0 ochlapywać-2
+            0 obmalowywać-2
+            0 obielać-1, pobielać-1, bielić-2
+            0 pstrzyć-1
+            0 polichromować-1
+            0 miniować-1
+          0 tynkować-1
+          33 powlekać-1, zaciągać-2
+            0 szkliwić-1
+            0 lakierować-3
+            3 oblewać-3, polewać-2
+              1 zalewać-5
+                0 nalewać-3
+              0 lukrować-2
+            0 angobować-1
+            0 wazelinować-1
+            0 gumować-1
+            0 gruntować-1, zagruntowywać-1
+            0 werniksować-1
+            0 politurować-1
+            0 pokostować-1
+            0 patynować-1
+            0 parafinować-1
+            0 emaliować-1, lakować-1, lakierować-1
+            0 emaliować-2, glazurować-1
+            0 woskować-1
+            12 metalizować-1
+              0 złocić-1, pozłacać-1, wyzłacać-2
+              0 aluminiować-1, glinować-1
+              0 platynować-1
+              0 platerować-1
+              0 niklować-1
+              0 mosiądzować-1
+              0 miedziować-1
+              2 galwanizować-1
+                0 kadmować-1
+                0 posrebrzać-1, srebrzyć-1
+              0 chromować-1
+              0 brązować-1
+            0 kredować-1
+            0 kaloryzować-1
+          5 oblewać-1, polewać-1
+            0 natryskiwać-2
+            0 zlewać-2
+            0 przelewać-6
+            0 ochlapywać-1, opryskiwać-1, obryzgiwać-1, zapryskiwać-1, zabryzgiwać-1, zachlapywać-1
+            0 krasić-1, okraszać-2
+      59 kłaść-1
+        0 układać-1
+        0 odkładać-2
+        15 wkładać-2
+          0 dopychać-2
+          0 wścibiać-1, wściubiać-1
+          0 wkręcać-3
+          0 wślizgiwać-1
+          1 pakować się-2, zwijać się-2, zbierać się-3
+            0 przepakowywać się-1
+          0 przekładać-5
+          0 ładować-1, naładowywać-1, załadowywać-1, władowywać-1
+          4 pakować-2
+            0 puszkować-1
+            0 kopertować-1
+            0 beczkować-1
+            0 paczkować-1
+          0 wsadzać-1
+          0 chować-2, grzebać-1
+        2 podkładać-1
+          0 ścielić-2, słać-4, podścielać-1, podściełać-1
+          0 podsadzać-1
+        17 rozkładać-5, rozpościerać-1
+          0 roztaczać-2
+          0 rozsuwać-1
+          1 rozbijać-4
+            0 oskardować-1
+          0 otwierać-1
+          3 prostować-2, rozprostowywać-2, wyprostowywać-2
+            0 rozkręcać-3
+            1 wyciągać-4
+              0 sięgać-6, wyciągać rękę-1
+          0 rozściełać-1, rozścielać-1, słać-3, ścielić-1
+          0 rozstawiać-1, ustawiać-3
+          0 rozczapierzać-1, rozcapierzać-1
+          3 rozciągać-1
+            0 rozpinać-1
+            1 rozwlekać-2
+              VISITED 0 rozwłóczyć-1
+          0 rozwijać-5, odwijać-1
+        0 przekładać-1
+        0 wykładać-2
+        17 nakładać-4
+          0 nakręcać-4
+          0 obrywać się-2
+          7 obciążać-3
+            0 obładowywać-1
+            0 objuczać-1
+            0 obarczać-3
+            0 balastować-1
+            2 przeciążać-1
+              0 piłować-4
+              0 przeładowywać-3
+          1 wbijać-2, nabijać-2, nadziewać-2
+            0 nakłuwać-1
+          1 nasuwać-2
+            0 nawlekać-1, nanizywać-1, nizać-1
+          0 nasadzać-1
+          1 powlekać-2, oblekać-2
+            0 obciągać-1
+  13 *CZASOWNIK - DZIAŁANIE NDK oznaczający kontakt fizyczny-1
+    1 wiercić-1, borować-1, wywiercać-1
+      0 świdrować-1
+    1 przebijać-5
+      VISITED 0 przekopywać-4
+    4 miażdżyć-1, rozgniatać-1
+      0 zgryzać-1
+      2 tłuc-2
+        0 utłukiwać-2
+        0 rozbijać-6, roztłukiwać-2
+    4 wykopywać-2, kopać-1
+      1 ryć-3, bruździć-1
+        0 buchtować-2
+      0 przekopywać-4
+      0 przekopywać-5
+  114 *CZASOWNIK - DZIAŁANIE DK oznaczający kontakt fizyczny-1
+    0 wywiercić-1
+    2 wykopać-2
+      VISITED 0 przekopać-5
+      0 przekopać-4
+    1 przebić-2
+      0 przekopać-5
+    104 dać-3
+      32 przyznać-2
+        0 obdzielić-2
+        1 udzielić-1
+          0 urlopować-1
+        0 zasądzić-2, przysądzić-1
+        21 nagrodzić-1, dać nagrodę-1
+          0 uhonorować-3
+          0 odznaczyć-1
+          0 koronować-1
+          0 wyróżnić-2
+          0 ozłocić-2
+          0 uwieńczyć-3
+          14 pochwalić-1
+            0 skomplementować-1
+            VISITED 1 zareklamować-2
+            2 pochlebić-1, schlebić-1, przypochlebić-1, przypochlebić się-1
+              0 podlizać się-1
+              0 podbić bębenka-1
+            0 rozpłynąć się-3
+            6 wysławić-1, pobłogosławić-2, podnieść-3, wychwalić-1
+              0 wychwalić pod niebiosa-1, wynieść pod niebiosa-1
+              4 wyidealizować-1
+                0 zabsolutyzować-1
+                2 uwznioślić-1, wysublimować-1, uduchowić-1
+                  1 uszlachetnić-2
+                    0 uczłowieczyć-1, zhumanizować-1
+        5 ocenić-2, sklasyfikować-1
+          4 zakwalifikować-1, zaliczyć-3, zaklasyfikować-1
+            0 ometkować-2, zaszufladkować-1
+            0 przekwalifikować-2
+            0 zaszeregować-1
+            0 podciągnąć-4
+      1 dać awans-1
+        0 awansować-1
+      24 udzielić-2
+        0 użyczyć-2
+        1 wyświęcić-1
+          0 konsekrować-1
+        16 poradzić-2
+          0 skonsultować-1
+          0 odradzić-1
+          0 odradzać-2
+          12 doradzić-1
+            4 podpowiedzieć-2
+              0 podszepnąć-2
+              0 podyktować-3
+              0 podsunąć-3, zasugerować-2, poddać-3
+              0 skierować-5, naprowadzić-1, odesłać-1
+            1 zalecić-2
+              0 przepisać-5, zaordynować-2, zaaplikować-3, zapisać-6
+            4 zarekomendować-1, polecić-1, zalecić-1
+              0 nastręczyć-2
+              1 zareklamować-2
+                0 przereklamować-1
+              0 naraić-1, nadać-5
+        0 rozwieść-1
+        2 wybaczyć-1, przebaczyć-1, odpuścić-1, podarować-2, darować-1
+          0 amnestionować-1, amnestiować-1
+          0 rozgrzeszyć-1, udzielić rozgrzeszenia-1, dać rozgrzeszenie-1
+      30 nadać-1
+        0 umocować-2
+        0 wynieść na tron-1, powołać na tron-1, wprowadzić na tron-1, umieścić na tronie-1, osadzić  na tronie-1
+        1 uwłaszczyć-1
+          0 uwłaszczyć-2
+        4 mianować-1
+          0 nobilitować-2
+          0 pasować-3
+          0 intronizować-1
+          0 koronować-2
+        0 ukoronować-1
+        10 przydzielić-1
+          0 rozpisać-1
+          0 zaokrętować-1
+          0 zakwaterować-1
+          6 wydzielić-2
+            0 poskąpić-2
+            4 odmierzyć-2
+              0 odważyć-1
+              0 wycyrklować-2
+              1 odliczyć-3
+                0 wyliczyć-5
+        3 zatwierdzić-1, uprawomocnić-1, usankcjonować-1
+          0 ratyfikować-1
+          0 autoryzować-3
+          0 zalegitymizować-1
+        1 nazwać-2, nadać imię-1
+          0 ochrzcić-3
+        2 promować-1
+          0 habilitować-1
+          0 doktoryzować-1
+      14 odpowiedzieć-2, dać odpowiedź-1, udzielić odpowiedzi-1, odeprzeć-3
+        0 odwrzasnąć-1
+        0 odszepnąć-2
+        0 odrzec-1
+        0 odpyskować-1, odpysknąć-1
+        0 odkrzyknąć-1
+        0 odburknąć-1, odwarknąć-1, odmruknąć-1
+        0 odbąknąć-1
+        1 odmówić-1
+          0 dać kosza-1, dać czarną polewkę-1, dać arbuza-1
+        0 odpalić-1
+        1 odpisać-2, odpowiedzieć-4
+          0 zaręczyć-2
+        0 zripostować-1
+        0 odparować-1
+    3 zmiażdżyć-1, zgnieść-2, rozgnieść-1
+      0 zgryźć-1
+      VISITED 0 utłuc-1
+      VISITED 0 rozetrzeć-1
+  517 *CZASOWNIK - DZIAŁANIE DK oznaczający kontakt fizyczny, który wpływa na obiekt-1
+    11 zasłonić-1, osłonić-2
+      0 zasnuć-1
+      0 przysłonić-1, przesłonić-1
+      0 zakleić-1, zalepić-1
+      3 zakryć-2, skryć-1
+        0 zanieść-2
+        0 zajść-7
+        0 zawoalować-1
+      1 zasunąć-1
+        0 zaciągnąć-5
+      1 zabudować-1
+        0 zamurować-1
+    0 opustoszyć-2
+    4 spulchnić-1
+      1 przekopać-1, skopać-2
+        0 przekopać-3
+      1 zorać-1, zaorać-1
+        0 oborać-1
+    0 skuć-1
+    44 zabezpieczyć-1
+      0 ocynować-1
+      0 zabejcować-2
+      0 zabejcować-1
+      0 ocynkować-1
+      0 opancerzyć-1
+      0 podkuć-1
+      0 uziemić-1
+      0 zaizolować-1
+      0 opryskać-1, spryskać-2
+      1 ocieplić-2
+        0 wywatować-1
+      0 zaplombować-1, opieczętować-1
+      1 umocnić-2
+        0 ustalić-5
+      0 pobielić-1
+      1 obrębić-1
+        0 obszyć-2, obrzucić-3
+      0 obwałować-1
+      0 zablokować-2
+      1 utwardzić-1
+        0 zahartować-2
+      0 zafoliować-1, zalaminować-1
+      3 zakonserwować-2
+        0 zabalsamować-1, zmumifikować-1
+        0 zdublować-4
+        0 zaimpregnować-1
+      4 zakonserwować-1
+        0 zapeklować-1
+        0 zasolić-2, nasolić-1
+        0 ukwasić-1, zakwasić-1, zakisić-1
+        0 zamarynować-1
+      0 spreparować-1
+      0 obwarować-1
+      8 umocnić-1, wzmocnić-1
+        0 podkuć-2
+        0 ożebrować-1
+        0 utwardzić-3
+        0 obmurować-1, omurować-1
+        0 zabetonować-1, wybetonować-1, obetonować-1
+        2 ufortyfikować-1
+          0 okopać-1
+          0 obwarować-2
+      1 opatrzyć-2
+        0 zabandażować-1, obandażować-1
+    363 umieścić-1, ulokować-1, usytuować-1, umiejscowić-1, usadowić-1
+      0 ometkować-1
+      0 oprawić-1, wprawić-2
+      0 wstrzelić-1, wstrzelać-3
+      0 wkopać-1, wkopnąć-1
+      31 przykryć-1, nakryć-1
+        24 pokryć-4
+          0 wykropkować-1
+          1 popisać-3
+            0 pokreślić-1
+          0 powybijać-1
+          0 zabazgrać-1
+          0 założyć-11
+          0 usiać-2
+          0 zadrukować-1
+          5 położyć-6
+            4 wyłożyć-2
+              VISITED 0 wysłać-4, wymościć-1, umościć-1, wyścielić-1
+              1 wykleić-2
+                0 wytapetować-1
+              0 wybrukować-1
+          9 posypać-1, obsypać-1, osypać-1
+            2 wysypać-1
+              0 wyżwirować-1
+              0 wyszabrować-2
+            0 przysypać-1
+            1 nasypać-2
+              0 dosypać-2
+            0 opylić-1
+            1 oprószyć-1
+              0 przyprószyć-1
+        0 zadekować-2
+        3 zasypać-1
+          0 zapadać-7
+          0 zawiać-7
+          0 zagruzować-1
+        0 okryć-1
+      0 zapchać-1
+      1 wstawić-1
+        0 oszklić-1
+      0 przesypać-1
+      0 zaparkować-1
+      0 podstawić-1
+      0 przystawić-1
+      0 zmieścić-2
+      2 zamknąć-2
+        VISITED 0 zaryglować-1
+        VISITED 0 zatrzasnąć-1
+      3 założyć-7
+        1 osiodłać-1
+          0 okulbaczyć-1
+        0 zadać-3
+      0 nastawić-4, postawić-1
+      5 pozostawić-2, zostawić-3
+        0 podrzucić-1
+        VISITED 2 podłożyć-1
+        VISITED 0 odłożyć-1
+      0 zapuścić-1
+      0 upchać-1, upchnąć-1, utkać-1
+      0 wszyć-1
+      12 zainstalować-3, zamontować-1, założyć-6
+        0 nagłośnić-2
+        0 uzbroić-1
+        0 podłączyć-2
+        0 zabezpieczyć-4
+        0 okablować-1
+        5 położyć-2
+          4 poprowadzić-3, przeprowadzić-4
+            0 puścić-16
+            2 doprowadzić-4
+              1 przyłączyć-3
+                0 pociągnąć-8
+        0 zaminować-1
+      VISITED 1 wypchać-1, napchać-1
+      28 rozmieścić-1, rozlokować-1
+        0 rozplanować-1
+        0 rozsiać-1
+        VISITED 0 rozsadzić-3, usadzić-1, usadowić-2
+        0 rozkleić-1, rozlepić-1
+        3 rozproszyć-1, zdekoncentrować-1, rozrzucić-2
+          0 rozpylić-1
+          0 rozstrzelić-1
+          0 zdecentralizować-1
+        4 ustawić-3
+          0 uszykować-2
+          1 rozstawić-2
+            0 rozwinąć-5
+          0 rozwinąć-4
+        3 rozłożyć-2
+          2 ustawić-4, rozstawić-1
+            0 ugrupować-1
+            0 sformować-2
+        10 ustawić-1, postawić-3
+          3 oprzeć-2
+            2 podeprzeć-1, wesprzeć-1
+              0 zaprzeć-1
+              0 podbudować-2
+          2 podać-4, zaserwować-1
+            0 napoić-1
+            0 podetknąć-1
+          1 nastawić-5
+            0 nadstawić-1
+          0 zestawić-3
+      0 zatoczyć-2, wtoczyć-1
+      22 wprowadzić-6
+        0 arylować-1
+        VISITED 3 wtłoczyć-2
+        0 zadokować-3
+        0 zadokować-2
+        0 wszczepić-1
+        0 wpompować-1, wtłoczyć-3
+        0 wczytać-1
+        7 nasycić-1
+          0 zasolić-3
+          0 okadzić-1
+          0 zakwasić-2
+          VISITED 0 naoliwić-1
+          VISITED 0 natłuścić-1
+          0 nasączyć-1, wsączyć-1
+          VISITED 0 nawoskować-1
+        1 wpuścić-1
+          0 zapchlić-1
+        1 wstrzyknąć-1
+          0 dać w żyłę-1
+      3 wrzucić-1
+        0 wwalić-1
+        0 wsypać-1, nasypać-1
+        0 wdrobić-1
+      2 podłożyć-1
+        0 podminować-1
+        0 podsunąć-4
+      0 przewiesić-2, powiesić-2, zawiesić-3
+      7 włożyć-2, nałożyć-2, założyć-3, wdziać-1, ubrać-1
+        0 nacisnąć-2
+        0 wbić się-2, wcisnąć się-2
+        0 wziąć-7
+        0 wystroić-1
+        0 naciągnąć-2
+        0 przebrać-1
+        0 obuć-1
+      18 włożyć-1
+        1 wetknąć-1
+          0 zasadzić-2, wsunąć-1, zatknąć-1
+        0 dopchać-1, dopchnąć-1
+        0 wścibić-1, wściubić-1
+        0 wkręcić-1
+        0 wśliznąć-1
+        1 spakować się-1, zwinąć się-2, zebrać się-3
+          0 przepakować się-1
+        0 przełożyć-4
+        VISITED 2 naładować-1, załadować-1, władować-1
+        0 wsadzić-1
+        2 podłożyć-3
+          0 podesłać-1, pościelić-3, posłać-5, podścielić-1
+          0 podsadzić-1
+        0 pochować-1, pogrzebać-1
+        0 spakować-1, zapakować-1, upakować-2
+      3 posadzić-2
+        0 rozsadzić-3, usadzić-1, usadowić-2
+        0 przesadzić-4
+        0 usadowić-3
+      13 zagłębić-1, wgłębić-1
+        0 wkopać-2
+        0 wdeptać-1
+        2 wcisnąć-1
+          0 wgnieść-2, wgiąć-2
+          VISITED 0 wtulić-1
+        0 wtulić-1
+        0 wciąć-1
+        0 wkręcić-2
+        5 wbić-1
+          0 wstrzelić-3, wstrzelać-1
+          0 dziobnąć-2, dzióbnąć-3
+          0 wkuć-1
+          0 wkłuć-1
+          0 pobić-3
+      6 wepchnąć-1, wepchać-1
+        0 wdusić-1
+        0 wpakować-1
+        3 wtłoczyć-1
+          VISITED 2 nabić-1
+      0 zastawić-1
+      7 zanurzyć-1
+        0 wykąpać-2
+        0 skąpać-1
+        0 pogrążyć-2
+        1 namoczyć-1
+          0 zamaczać-1
+        1 zatopić-1, utopić-1
+          0 podtopić-1
+      10 zasadzić-1, posadzić-1
+        0 dosadzić-1, przysadzić-1
+        3 rozsadzić-6
+          VISITED 0 przeflancować-2
+          1 obsadzić-4
+            0 wysadzić-4
+        2 przesadzić-1
+          0 przeflancować-2
+          0 wysadzić-3
+        2 zazielenić-1
+          1 zadrzewić-1
+            0 zalesić-1
+      9 powiesić-1, zawiesić-2
+        0 odwiesić-1
+        0 podwiesić-1
+        1 przywiesić-1, uwiesić-1, zawiesić-1
+          0 uwiązać-2
+        0 przewiesić-1
+        1 wywiesić-1
+          0 oflagować-1
+        0 rozwiesić-1
+        0 zawiesić-5, obwiesić-1
+      1 zarzucić-1, narzucić-1
+        0 przerzucić-2
+      43 wypełnić-1, napełnić-1, zapełnić-1
+        0 zapisać-5
+        0 upakować-1, wypakować-1, upchać-3, upchnąć-2
+        0 zapchać-5, zatłoczyć-1
+        0 zapchać-4, zawalić-1
+        0 zaplombować-2
+        0 zaplombować-3
+        VISITED 0 zatankować-1
+        0 scementować-1
+        0 napompować-1
+        2 naładować-1, załadować-1, władować-1
+          1 doładować-1
+            0 dowalić-3
+        1 wypchać-1, napchać-1
+          0 wypchnąć się-1, wypchać się-1
+        0 wypchać-2
+        1 dopełnić-3
+          0 dolać-2
+        2 nabić-1
+          1 naładować-3, załadować-2
+            0 przeładować-2
+        1 naszpikować-1
+          0 zaśmiecić-1, zachwaścić-1
+        0 zabudować-2
+        2 nadziać-1
+          0 naszpikować-3
+          0 nafaszerować-1
+        0 obsadzić-2, zarybić-1
+        0 nadmuchać-1
+        0 zastawić-2
+        0 zarysować-2
+        11 wlać-1, nalać-1
+          0 podlać-1
+          3 wtłoczyć-2
+            0 wdmuchać-1, wdmuchnąć-1
+            0 wstrzyknąć-2
+            0 wtrysnąć-1
+          0 polać-1
+          1 przelać-1
+            0 zlać-4
+          0 zatankować-1
+          0 nasączyć-2
+          VISITED 0 rozlać-1
+        1 zasypać-2
+          0 zagrzebać-1
+      18 ukryć-1, schować-1, skryć-2
+        0 zakamuflować-2
+        0 schronić-1
+        0 zaszyć-1
+        2 zamknąć-5
+          0 zaryglować-1
+          0 zatrzasnąć-1
+        5 przechować-2
+          4 zachować-5, zatrzymać-8, schować-2
+            1 zarezerwować-2
+              0 zabukować-1, zaklepać-1, zamówić-6
+            0 oszczędzić-5
+            0 zostawić-6, pozostawić-7, odłożyć-4
+        0 zadekować-1
+        0 zakopać-1
+        0 zamelinować-1
+        2 zamaskować-1
+          0 zatuszować-2
+          0 zakamuflować-3
+      44 położyć-1
+        1 poszyć-1
+          0 pokryć-8
+        9 pokryć-5
+          0 poszyć-3
+          0 obszyć-4
+          0 oblepić-3
+          0 oblepić-2, obkleić-1, okleić-1
+          4 nabić-3, wybić-8
+            0 wysadzić-5
+            0 wysłać-4, wymościć-1, umościć-1, wyścielić-1
+            1 obić-1
+              0 okuć-1
+        0 nakłaść-1
+        0 ułożyć-2
+        0 przełożyć-1
+        0 odłożyć-1
+        10 nałożyć-5
+          0 oberwać się-3
+          0 oblachować-1
+          5 obciążyć-1
+            0 obładować-1
+            0 objuczyć-1
+            0 obarczyć-3
+            1 przeciążyć-2
+              0 przeładować-4
+          1 powlec-1, oblec-2, powłóczyć-2
+            0 obciągnąć-2
+        0 wyłożyć-1
+        15 rozpostrzeć-1, rozłożyć-1
+          0 roztoczyć-2
+          0 rozsunąć-1
+          0 rozbić-7
+          0 otworzyć-3
+          3 rozprostować-2, wyprostować-2
+            0 rozkręcić-3
+            1 wyciągnąć-5
+              0 sięgnąć-3, wyciągnąć rękę-1
+          0 rozścielić-1, rozesłać-1, pościelić-1, posłać-3
+          0 rozwinąć-3, odwinąć-1
+          0 rozczapierzyć-1, rozcapierzyć-1
+          3 rozciągnąć-1
+            0 rozpiąć-2
+            1 rozwlec-2
+              0 rozwłóczyć-1
+      2 założyć-4, nałożyć-3, włożyć-3
+        0 wskoczyć-4
+        0 wzuć-1
+      53 nałożyć-4, nanieść-1
+        0 nakręcić-4
+        5 pomalować-2, umalować-1, zrobić makijaż-1
+          0 wycieniować-4
+          0 wytuszować-1
+          0 wymalować-3
+          0 uróżować-1
+          0 upudrować-1
+        45 pokryć-2
+          0 zamazać-1
+          1 wylać-1
+            0 wyasfaltować-1
+          4 oblać-1, polać-2
+            0 zlać-3
+            0 przelać-3
+            0 ochlapać-2, opryskać-2, obryzgać-1, zabryzgać-1, zapryskać-1, zachlapać-1
+            0 okrasić-3
+          0 pociągnąć-9
+          0 posrebrzyć-1
+          15 rozprowadzić-2
+            0 rozdeptać-2
+            0 rozsmarować-1
+            0 rozmazać-2
+            0 rozetrzeć-2
+            10 posmarować-1, wysmarować-1
+              0 wetrzeć-1
+              0 wybrylantować-1
+              1 natrzeć-2
+                0 namydlić-1, zamydlić-1
+              0 nasmołować-1
+              0 namaścić-1
+              0 naoliwić-1
+              0 natłuścić-1
+              0 nakremować-1
+              0 napastować-4
+          0 spienić-2
+          6 pomalować-1
+            0 wymalować-4
+            0 przemalować-1
+            0 ochlapać-1
+            0 obmalować-2
+            0 obielić-2, pobielić-2, ubielić-1
+            0 upstrzyć-1
+          10 powlec-2, zaciągnąć-3
+            0 pozłocić-2, wyzłocić-2
+            0 polakierować-1
+            4 oblać-2, polać-4
+              0 polukrować-1
+              2 zalać-2
+                0 nalać-5
+                0 sparzyć-3
+            0 zagruntować-1
+            0 nawoskować-1
+            0 otynkować-1
+    89 podzielić-1
+      0 rozgałęzić-1
+      0 przedzielić-2
+      26 rozdzielić-4
+        0 rozwidlić-1
+        0 rozdwoić-1
+        2 rozłożyć-7
+          0 rozrysować-1
+          0 rozszczepić-2
+        0 rozszczepić-1
+        0 rozsadzić-4
+        18 rozłączyć-1
+          0 rozlutować-1
+          0 rozsupłać-2
+          0 rozpleść-1
+          0 rozpiąć-1
+          0 rozprząc-2
+          0 rozkleić-2, rozlepić-2
+          1 rozczepić-1
+            0 rozformować-1
+          0 rozpruć-1, spruć-2
+          8 rozsunąć-2
+            5 rozgarnąć-1
+              0 rozkopać-2
+              3 rozgrzebać-2
+                2 rozorać-2
+                  1 zryć-1
+                    0 zbuchtować-2
+            0 rozgrabić-2
+            0 rozkraczyć-1
+      0 rozgryźć-1
+      1 wyporcjować-1
+        0 rozważyć-2
+      0 oderwać-3
+      4 rozciąć-1
+        0 chlasnąć-4
+        0 poćwiartować-1
+        0 przepiłować-1
+        0 rozpłatać-1
+      0 rozpołowić-1, przepołowić-1
+      0 przegryźć-1
+      4 przeciąć-1
+        1 przerżnąć-1
+          0 dorżnąć-3
+        0 otworzyć-5
+        0 przerąbać-1, rozrąbać-1
+      3 rozłożyć-3
+        2 zdemontować-1, rozebrać-3, rozmontować-1
+          0 rozkręcić-2
+          0 rozbroić-4
+      14 rozdrobnić-1, rozdrobić-1
+        0 pogryźć-2
+        0 rozdziobać-1
+        1 rozczłonkować-1, rozkawałkować-1
+          0 rozwłóknić-1
+        0 utłuc-1
+        4 utrzeć-1, zetrzeć-1
+          0 dotrzeć-5
+          0 ukręcić-3
+          0 rozetrzeć-1
+          0 przetrzeć-3
+        0 przeżuć-1
+        1 zemleć-1, zmielić-1, umielić-1
+          0 przekręcić-3
+        0 pokruszyć-1, podrobić-2
+      8 pociąć-1
+        0 porąbać-1, połupać-1
+        0 naciąć-2
+        0 zgilotynować-3
+        0 przetrzeć-2
+        1 posiekać-1
+          0 zerżnąć-4
+        1 pokroić-2, pokrajać-1, skroić-1
+          0 poszatkować-1
+      13 rozerwać-1
+        0 rozsadzić-1
+        0 porozrywać-1
+        0 naderwać-1
+        VISITED 3 rozedrzeć-1
+        0 zerwać-1, przerwać-6
+        8 podrzeć-1, porwać-4, poszarpać-2
+          0 rozharatać-1
+          0 wystrzępić-1, postrzępić-1
+          0 potargać-3
+          0 rozszarpać-1
+          3 rozedrzeć-1
+            0 porozdzierać-1
+            0 nadedrzeć-1
+            0 przedrzeć-1
+      0 rozlać-1
+      0 złamać-1, przełamać-5, rozłamać-1
+  128 *CZASOWNIK - AKT oznaczający kontakt fizyczny-1
+    VISITED 2 chwycić się-1, złapać się-2, czepić się-1, uchwycić się-1
+    15 wziąć-3
+      14 chwycić-1, ująć-1
+        0 dzióbnąć-4, dziobnąć-4
+        0 dziobnąć-3, dzióbnąć-2, skubnąć-4
+        2 chwycić się-1, złapać się-2, czepić się-1, uchwycić się-1
+          0 przyczepić się-2
+          0 powiesić się-1, uwiesić się-1
+        0 capnąć-1
+        0 odebrać-3
+        0 podchwycić-2
+        5 złapać-1, schwycić-1, pochwycić-2, schwytać-2, uchwycić-1
+          0 chapnąć-3, chapsnąć-3, chłapnąć-1
+          0 porwać-2
+          1 załapać-2
+            0 podnieść-12
+          0 porwać się-5
+    0 utrzymać-2
+    2 uczesać-2
+      0 wyszczotkować-2
+      0 przeczesać-2
+    11 nakreślić-1
+      6 narysować-2
+        1 wykreślić-3
+          0 odłożyć-2
+        0 dorysować-1
+        0 zakreślić-1
+        0 podkreślić-2
+        0 naszkicować-2
+      0 poprowadzić-1
+      0 zakreślić-2
+      1 zarysować-3
+        0 podmalować-1
+    92 dotknąć-1, tknąć-1
+      0 pogłaskać-1, pogładzić-1
+      0 otrzeć się-1
+      0 macnąć-1
+      4 uderzyć się-1
+        0 łomotnąć się-1
+        0 walnąć się-1
+        0 puknąć się-1
+        0 gruchnąć się-1
+      1 liznąć-2
+        0 oblizać-1
+      0 musnąć-1, liznąć-1
+      14 przylgnąć-1, obcisnąć-1, oblepić-1, opiąć-1, opiąć się-1
+        0 przyschnąć-1
+        0 wpić się-2
+        0 przystać-4
+        10 przycisnąć się-1, przykleić się-1, przylepić się-2, przywrzeć-1
+          0 przyrosnąć-1
+          4 przylgnąć-2, przywrzeć-2
+            0 przywarować-2
+            0 weprzeć-2, zaprzeć-2
+            0 przymarznąć-1
+            0 przywrzeć-3, przylepić się-4
+          0 oblepić-5
+          2 przytulić się-1
+            0 przypaść-4
+            0 przykleić się-3, przylepić się-3
+      0 grzmotnąć się-1
+      1 pocałować-1, cmoknąć-1
+        0 ucałować-1
+      10 ścisnąć-1, zacisnąć-1
+        0 zewrzeć-1
+        0 zaciągnąć-1
+        0 zadzierzgnąć-2
+        0 zacieśnić-2
+        0 zaciąć-3
+        1 szczypnąć-1, uszczypnąć-1
+          0 podszczypać-1, podszczypnąć-1, podskubać-1
+        0 spiąć-2
+        0 pościągać-6
+        0 sprasować-1
+      43 uderzyć-4
+        0 puknąć-1, stuknąć-7
+        0 zabębnić-1
+        1 kłapnąć-1, plasnąć-1, klapnąć-2
+          0 klasnąć-2
+        0 chlasnąć-2
+        0 poklepać-1
+        0 klepnąć-1
+        0 klasnąć-1
+        1 tupnąć-1
+          0 przytupnąć-1
+        0 trącić się-1
+        0 skiksować-3
+        0 ogłuszyć-5
+        VISITED 1 trzasnąć-2, walnąć-1, huknąć-3, grzmotnąć-1, rąbnąć-1
+        1 przybić-3, przyklepać-1
+          0 przybić piątkę-1
+        0 gwizdnąć-1
+        3 kopnąć-1
+          0 wykopać-3
+          0 odkopnąć-1
+          0 wierzgnąć-1
+        0 podciąć-1
+        2 trącić-1, potrącić-1
+          0 popchnąć-1
+          0 szturchnąć-1
+        14 przywalić-1, przydzwonić-1, przygrzać-2, wyrżnąć-1, przyrżnąć-1, przyładować-1, łupnąć-1, rypnąć-2, gruchnąć-3, bachnąć-2, dogrzać-6
+          13 uderzyć-2, zadać cios-2, zadać raz-1, dać-13, wymierzyć-3, dać łupnia-1
+            0 spoliczkować-1
+            0 zaprawić-3, stuknąć-4, lunąć-2, chlusnąć-2, kropnąć-1, machnąć-3, strzelić-2
+            0 zdzielić-1
+            0 ciąć-3
+            0 świsnąć-1
+            0 rąbnąć-3
+            0 znokautować-2
+            0 kuksnąć-1
+            0 dowalić-1, dojechać-3, dosolić-1, dosunąć-1, przyłożyć-2, przylać-1, przysolić-1, przysunąć-2, zasunąć-2, zajechać-8
+            3 smagnąć-1
+              0 chlasnąć-1
+              1 chłosnąć-1
+                0 zaciąć-2
+        0 pacnąć-1
+        0 buchnąć-2
+      1 oprzeć się-2, podeprzeć się-1, wesprzeć się-1
+        0 zaprzeć się-1
+      5 objąć-2, opleść-2, opasać-2, ogarnąć-2
+        0 uściskać-1, uścisnąć-1
+        1 ścisnąć-2
+          0 obściskać-1
+        1 przytulić-1, przygarnąć-2
+          0 ukochać-1
+    2 strzelić-1, wystrzelić-1, palnąć-2, wypalić-1, kropnąć-2, łupnąć-2, przygrzać-4, rąbnąć-2, puknąć-2, walnąć-3, wygarnąć-1, dogrzać-1
+      0 wstrzelić-2, wstrzelać-2
+      0 przenieść-2
+  116 *CZASOWNIK - AKT oznaczający kontakt fizyczny, który wpływa na obiekt-1
+    0 maznąć się-2
+    18 uruchomić-2
+      0 otworzyć-6
+      0 odblokować-4
+      15 włączyć-4
+        1 zrestartować-1, zresetować-1
+          0 zresetować-2
+        2 puścić-11
+          VISITED 1 odtworzyć-5
+        2 odkręcić kurek-1
+          0 odkręcić gaz-1
+          0 odkręcić wodę-1
+        0 włączyć-2
+        2 włączyć-6
+          1 odtworzyć-5
+            0 retransmitować-1
+        1 zaświecić-3, zapalić-2
+          0 mignąć-5
+        2 zapalić-4
+          0 odpalić-6
+          0 odpalić-5, zapuścić-5
+    15 rozegrać-1
+      0 zamurować-2
+      1 zaatakować-5
+        0 zaszachować-1, dać szacha-1
+      6 zagrać-5
+        0 spalić-6
+        4 podać-3, odegrać-2
+          0 dograć-2
+          0 dośrodkować-1, scentrować-1, zacentrować-1
+          1 zaserwować-2
+            0 podać-5
+      4 zagrać-8
+        0 kupić-5
+        0 zameldować-4
+        1 wyjść-17
+          0 podegrać-1
+    31 zamknąć-3, zawrzeć-2
+      0 zamknąć na trzy spusty-1
+      0 zaciągnąć-2
+      0 przymknąć-2
+      0 zawalić-2
+      3 zapiąć-1
+        0 zapiąć się-2
+        1 dopiąć-2
+          0 dopiąć się-2
+      2 zakryć-3
+        1 przykryć-3
+          0 zadaszyć-1
+      0 zaślepić-2
+      0 zatrzasnąć-3
+      1 zawiązać-5
+        0 zasznurować-1, zesznurować-3
+      0 zatrzasnąć-2, przytrzasnąć-1
+      2 zakręcić-3
+        0 nakręcić-5
+        0 dokręcić-2
+      0 zabić-8
+      7 zatkać-1, zapchać-2
+        0 zalać-7
+        1 uszczelnić-1
+          0 utkać-5
+        0 zaszpuntować-1, zaczopować-1
+        0 zakneblować-1
+        0 przytkać-1
+        0 zakorkować-1
+      0 zmrużyć-1, przymrużyć-1
+      0 zaryglować-2
+      0 domknąć-1
+    3 wybić-1
+      0 wytłuc-3
+      VISITED 0 odbić-8, obtłuc-2
+      0 wytrącić-1
+    17 pobić-2, zbić-1, stłuc-1, poturbować-1, zlać-1, sprać-1
+      0 przełożyć przez kolano-1
+      0 dać wycisk-2
+      0 skroić-4
+      0 posiniaczyć-1
+      0 sklepać-2
+      0 skopać-1, pokopać-2, wkopać-5
+      0 wlać-2
+      0 spałować-1
+      0 wrąbać-1
+      0 zmasakrować-1
+      0 wybić-7
+      0 potłuc-1
+      1 wysmagać-1, wychłostać-1
+        0 ubiczować-1
+      0 nabić-4
+      0 obić-2
+      0 skatować-1, zmaltretować-2
+    25 nacisnąć-1, nagnieść-1, przycisnąć-1, wcisnąć-2
+      0 naprzeć-2
+      1 docisnąć-1
+        0 dobić-7
+      0 zadzwonić-2
+      0 kliknąć-1
+      0 zdeptać-2, podeptać-1
+      4 potrzeć-1
+        0 drapnąć-1, podrapać-1
+        2 wymasować-1
+          1 rozmasować-1
+            0 rozetrzeć-3
+      8 przygnieść-1
+        0 przytłoczyć-2
+        0 przysiąść-4
+        0 przyskrzynić-2, przytrzasnąć-2
+        0 przywalić-2
+        1 przybić-5
+          0 opieczętować-2
+        1 zasypać-5
+          0 pogrzebać-3
+      4 nastąpić-4, nadepnąć-1, nadeptać-1
+        2 wejść-13
+          0 wleźć-8
+          0 wdepnąć-2
+        0 przydepnąć-1, przydeptać-1
+  98 *CZASOWNIK - WYPADEK oznaczający kontakt fizyczny, który wpływa na obiekt-1
+    0 obruszyć-2
+    0 opierzyć-1
+    0 pociąć-3
+    0 odbić-3
+    0 przysypać-2
+    0 zaprószyć-1
+    0 zawirować-3
+    4 utkwić-1
+      0 utknąć-2, uwięznąć-1, ugrzęznąć-1
+      2 utknąć-1
+        1 utknąć-4, utkwić-2
+          0 zakleszczyć się-1
+    3 przepuścić-5
+      0 przemoknąć-1, przemoczyć się-1
+      1 przecieknąć-1, przeciec-3
+        0 zacieknąć-2, zaciec-1
+    81 uszkodzić-1
+      0 wyszczerbić-1
+      1 pokancerować-1
+        0 porysować-4, pokreślić-3
+      0 podgryźć-1, podjeść-3, podeżreć-3
+      0 oberwać-2
+      0 przepalić-3
+      0 zdefektować-1
+      VISITED 0 postrzelać-1
+      0 rozregulować-2, rozstroić-3
+      0 zadrzeć-2, nadedrzeć-2
+      1 nadszarpnąć-3, nadszarpać-1
+        0 poderwać-3
+      0 poturbować-2
+      0 zadrapać-1, zadrapnąć-1
+      0 rozjeździć-2
+      0 przetrącić-1
+      0 okaleczyć-1
+      16 przedziurawić-1
+        0 nakłuć-1
+        1 przewiercić-1
+          0 prześwidrować-1
+        0 przerwać-7
+        0 przestrzelić-3
+        10 przebić-1
+          1 przeszyć-2
+            0 pchnąć-2, zadać cios-1
+          0 wybić-9
+          4 ukłuć-1
+            0 dźgnąć-1
+            0 zakłuć-1
+            VISITED 0 użądlić-1
+            0 dziobnąć-1, dzióbnąć-1
+          1 przekłuć-1
+            0 nakłuć-2
+      4 obić-3, obtłuc-1
+        3 utłuc-2
+          0 odbić-8, obtłuc-2
+          1 odtrącić-4, odtłuc-1
+            0 utrącić-2
+      27 zranić-1, skaleczyć-1, ranić-1
+        0 ranić-2
+        0 urazić-2
+        0 rozwalić-2
+        0 otrzeć-1, zetrzeć-2, obetrzeć-1
+        1 postrzelić-1
+          0 władować-3
+        0 postrzelać-1
+        0 rozciąć-2
+        0 haratnąć-1
+        0 zedrzeć-4
+        5 przeciąć-2
+          4 naciąć-1
+            1 nadciąć-1
+              0 naderżnąć-1
+            0 zaciąć-4
+            0 zaciąć-5
+        0 rozszarpać-2
+        0 ugodzić-1
+        0 drasnąć-1, zadrasnąć-1
+        1 okaleczyć-2
+          0 oślepić-2
+        0 rozpruć-2
+        0 obić-4
+        2 ugryźć-1
+          1 uciąć-4, ukąsić-1
+            0 użądlić-1
+        0 zaciąć-1
+      1 sparzyć-2, oparzyć-1
+        0 popalić-4
+      5 zepsuć-3, popsuć-2
+        0 spalić-8
+        0 przekręcić-4
+        0 nadpsuć-1
+        1 naruszyć-4
+          0 wstrząsnąć-3
+      0 zatrzeć-3
+      0 zarysować-4
+      0 pokiereszować-2
+      4 nadwyrężyć-1, nadwerężyć-1, nadszarpnąć-1, nadwątlić-1
+        0 zerwać-5
+        0 zedrzeć-5
+        0 zachwiać-1
+        0 sforsować-1, przeciążyć-1
+  17 *CZASOWNIK - WYPADEK oznaczający kontakt fizyczny-1
+    1 ulec wypadkowi-1
+      0 rozbić się-6
+    0 rozbić się-3
+    12 uderzyć-3
+      0 rozbić się-5
+      0 chlasnąć-3
+      0 kopnąć-2
+      0 obić się-1
+      0 stuknąć-5, puknąć-3
+      1 trzasnąć-2, walnąć-1, huknąć-3, grzmotnąć-1, rąbnąć-1
+        0 palnąć-1
+      0 chłosnąć-2, smagnąć-2
+      3 wpaść-6, wlecieć-1, zderzyć się-2, władować się-2, wpakować się-3
+        2 zaczepić-2, zaczepić się-1, zahaczyć-2, zahaczyć się-1, zawadzić-1
+          0 przyczepić się-3
+          0 potknąć się-3
+    0 dostać-4, oberwać-1, dostać łupnia-1, zebrać-7

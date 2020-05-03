@@ -1,0 +1,579 @@
+<node name="dziedzina-1, domena-2, dział-1, dyscyplina-2, teren-3, gałąź-3, obszar-3, niwa-3, sfera-2, płaszczyzna-4" size="489">
+  <node name="fotowoltaika-1" size="0"/>
+  <node name="adres-6" size="0"/>
+  <node name="trójkąt bermudzki-1" size="0"/>
+  <node name="gałąź prawa-1" size="0"/>
+  <node name="platforma-4" size="0"/>
+  <node name="ekologia ewolucyjna-1" size="0"/>
+  <node name="metafizyka klasyczna-1" size="0"/>
+  <node name="pseudonauka-1" size="5">
+    <node name="patafizyka-1" size="0"/>
+    <node name="homotoksykologia-1" size="0"/>
+    <node name="geomancja-1" size="0"/>
+    <node name="fizjonomika-1, fizjognomika-1" size="0"/>
+    <node name="radiestezja-1, różdżkarstwo-1" size="0"/>
+  </node>
+  <node name="administracja wojskowa-1" size="0"/>
+  <node name="teoria nazw-1" size="0"/>
+  <node name="sektor-3" size="2">
+    <node name="sektor prywatny-1" size="0"/>
+    <node name="sektor publiczny-1" size="0"/>
+  </node>
+  <node name="kultura fizyczna-1" size="0"/>
+  <node name="radioelektryka-1" size="0"/>
+  <node name="grafologia-3" size="0"/>
+  <node name="pojęciowość-1" size="0"/>
+  <node name="profanum-1" size="0"/>
+  <node name="morfochronologia-1" size="0"/>
+  <node name="imagineskopia-1" size="0"/>
+  <node name="nisza-3" size="0"/>
+  <node name="kryptozoologia-1" size="0"/>
+  <node name="sztuki piękne-2" size="0"/>
+  <node name="terra incognita-2" size="0"/>
+  <node name="teleelektronika-1" size="0"/>
+  <node name="teleelektryka-1" size="0"/>
+  <node name="dziedzina informatyki-1" size="16">
+    <node name="informatyka medyczna-1" size="0"/>
+    <node name="teleinformatyka-1" size="0"/>
+    <node name="grafika-6, grafika komputerowa-2" size="4">
+      <node name="grafika wektorowa-1" size="0"/>
+      <node name="grafika rastrowa-1" size="0"/>
+      <node name="grafika fraktalna-1" size="0"/>
+      <node name="animacja komputerowa-1" size="0"/>
+    </node>
+    <node name="programowanie-2" size="8">
+      <node name="programowanie aspektowe-1" size="0"/>
+      <node name="programowanie genetyczne-1" size="0"/>
+      <node name="programowanie ewolucyjne-1" size="0"/>
+      <node name="kompilacja skrośna-1" size="0"/>
+      <node name="kompilacja warunkowa-1" size="0"/>
+      <node name="programowanie imperatywne-1" size="0"/>
+      <node name="programowanie agentowe-1" size="0"/>
+      <node name="programowanie obiektowe-1" size="0"/>
+    </node>
+  </node>
+  <node name="przedproże-3, przedpole-2" size="0"/>
+  <node name="strategia-2" size="0"/>
+  <node name="hydrologia-1, hydrografia-1" size="0"/>
+  <node name="nawigacja-2" size="0"/>
+  <node name="galwanotechnika-1" size="2">
+    <node name="galwanostegia-1" size="0"/>
+    <node name="galwanoplastyka-1" size="0"/>
+  </node>
+  <node name="dział matematyki-1" size="20" abstract="true">
+    <node name="analiza wypukła-1" size="0"/>
+    <node name="logika matematyczna-1" size="0"/>
+    <node name="stochastyka-1" size="0"/>
+    <node name="matematyka dyskretna-1" size="0"/>
+    <node name="trygonometria-1" size="0"/>
+    <node name="topologia-1" size="3">
+      <node name="topologia ilorazowa-1" size="0"/>
+      <node name="topologia produktowa-1" size="0"/>
+      <node name="topologia mnogościowa-1" size="0"/>
+    </node>
+    <node name="analiza matematyczna-1" size="0"/>
+    <node name="rachunek prawdopodobieństwa-1, probabilistyka-1, teoria prawdopodobieństwa-1" size="0"/>
+    <node name="arytmetyka-2" size="3">
+      <node name="arytmetyka Presburgera-1" size="0"/>
+      <node name="arytmetyka binarna-1" size="0"/>
+      <node name="arytmetyka modularna-1" size="0"/>
+    </node>
+    <node name="geometria-1" size="3">
+      <node name="geometria syntetyczna-1, geometria czysta-1" size="0"/>
+      <node name="geometria nieprzemienna-1" size="0"/>
+      <node name="grafika inżynierska-1, geometria wykreślna-1" size="0"/>
+    </node>
+    <node name="algebra-1" size="0"/>
+  </node>
+  <node name="paranauka-1" size="4">
+    <node name="bioenergetyka-2" size="0"/>
+    <node name="paleoastronautyka-1" size="0"/>
+    <node name="ufologia-1" size="0"/>
+    <node name="parapsychologia-1, psychotronika-1, metapsychologia-1" size="0"/>
+  </node>
+  <node name="pirotechnika-1" size="0"/>
+  <node name="specjalizacja-1, specjalność-1" size="1">
+    <node name="socjoekonomika-1" size="0"/>
+  </node>
+  <node name="branża-1" size="47">
+    <node name="horeca-1" size="0"/>
+    <node name="reklama-3, promocja-8" size="0"/>
+    <node name="gałąź przemysłu-1" size="44">
+      <node name="przemysł lekki-1" size="12">
+        <node name="włókiennictwo-1, przemysł włókienniczy-1, przemysł tekstylny-1" size="2">
+          <node name="przemysł bawełniany-1" size="0"/>
+          <node name="lniarstwo-1" size="0"/>
+        </node>
+        <node name="odzieżówka-1, przemysł odzieżowy-1" size="2">
+          <node name="pończosznictwo-1" size="0"/>
+          <node name="bieliźniarstwo-1" size="0"/>
+        </node>
+        <node name="obuwnictwo-1" size="0"/>
+        <node name="przemysł tytoniowy-1" size="0"/>
+        <node name="przemysł skórzany-1" size="2">
+          <node name="garbarstwo-1, skórnictwo-1" size="0"/>
+          <node name="futrzarstwo-1" size="0"/>
+        </node>
+        <node name="przemysł spożywczy-1" size="0"/>
+      </node>
+      <node name="przemysł przetwórczy-1, przetwórstwo-1" size="11">
+        <node name="przemysł drzewny-1" size="3">
+          <node name="tartacznictwo-1" size="0"/>
+          <node name="meblarstwo-1" size="1">
+            <node name="ebenisteria-1" size="0"/>
+          </node>
+        </node>
+        <node name="przemysł chemiczny-1" size="2">
+          <node name="przemysł siarkowy-1" size="0"/>
+          <node name="przemysł farmaceutyczny-1" size="0"/>
+        </node>
+        <node name="masarstwo-1" size="0"/>
+        <node name="ogrzewnictwo-2" size="0"/>
+        <node name="smolarstwo-1" size="0"/>
+        <node name="papiernictwo-1" size="0"/>
+      </node>
+      <node name="przemysł ciężki-1" size="18">
+        <node name="przemysł petrochemiczny-1, przemysł rafineryjny-1" size="1">
+          <node name="przemysł naftowy-1" size="0"/>
+        </node>
+        <node name="przemysł elektromaszynowy-1" size="5">
+          <node name="przemysł stoczniowy-1, przemysł okrętowy-1" size="0"/>
+          <node name="przemysł ciągnikowy-1" size="0"/>
+          <node name="przemysł lotniczy-1" size="0"/>
+          <node name="przemysł motoryzacyjny-1" size="0"/>
+          <node name="przemysł precyzyjny-1" size="0"/>
+        </node>
+        <node name="zbrojeniówka-1, przemysł zbrojeniowy-1, przemysł obronny-1" size="0"/>
+        <node name="metalurgia-1" size="3">
+          <node name="hydrometalurgia-1" size="0"/>
+          <node name="hydroelektrometalurgia-1" size="0"/>
+          <node name="elektrometalurgia-1" size="0"/>
+        </node>
+        <node name="górnictwo-1, przemysł górniczy-1" size="3">
+          <node name="górnictwo morskie-1" size="0"/>
+          <node name="górnictwo węglowe-1, przemysł węglowy-1" size="0"/>
+          <node name="górnictwo naftowe-1" size="0"/>
+        </node>
+        <node name="hutnictwo-1, przemysł hutniczy-1" size="0"/>
+      </node>
+    </node>
+  </node>
+  <node name="dział filozofii-1" size="20" abstract="true">
+    <node name="filozofia prawa-1" size="0"/>
+    <node name="filozofia polityczna-1" size="0"/>
+    <node name="filozofia religii-1" size="0"/>
+    <node name="historia filozofii-1" size="0"/>
+    <node name="logika filozoficzna-1" size="0"/>
+    <node name="filozofia nauki-1" size="0"/>
+    <node name="teodycea-2" size="0"/>
+    <node name="moralistyka-2" size="0"/>
+    <node name="historiozofia-1, filozofia historii-1" size="0"/>
+    <node name="antropologia filozoficzna-1" size="0"/>
+    <node name="aksjologia-1" size="0"/>
+    <node name="teoria poznania-1, gnoseologia-1, epistemologia-1, gnozeologia-1, filozofia poznania-1" size="5">
+      <node name="noetyka-1" size="0"/>
+      <node name="epistemologizm-1" size="0"/>
+      <node name="ontologizm-2" size="0"/>
+      <node name="perspektywizm-1" size="0"/>
+      <node name="immanentyzm-1" size="0"/>
+    </node>
+    <node name="ontologia-1, metafizyka-1" size="0"/>
+    <node name="estetyka-1" size="0"/>
+    <node name="etyka-1" size="0"/>
+  </node>
+  <node name="pole-6, działka-6" size="2">
+    <node name="pole relacji-1" size="0"/>
+    <node name="poletko doświadczalne-1" size="0"/>
+  </node>
+  <node name="nauka-1" size="332">
+    <node name="interlingwistyka-1" size="0"/>
+    <node name="metrologia historyczna-1" size="0"/>
+    <node name="metodologia nauk-1" size="0"/>
+    <node name="dyscyplina naukowa-1" size="1">
+      <node name="logika prawnicza-1" size="0"/>
+    </node>
+    <node name="nauki geologiczne-1" size="0"/>
+    <node name="nauki geograficzne-1" size="0"/>
+    <node name="nauki pomocnicze-1" size="0"/>
+    <node name="mniemanologia stosowana-1" size="0"/>
+    <node name="neuroteologia-1" size="0"/>
+    <node name="hipnologia-1" size="0"/>
+    <node name="chronobiologia-1" size="0"/>
+    <node name="choreologia-1" size="0"/>
+    <node name="hymnologia-1" size="0"/>
+    <node name="rękopisoznawstwo-1" size="0"/>
+    <node name="magnetostatyka-1" size="0"/>
+    <node name="opakowalnictwo-1" size="0"/>
+    <node name="informacja naukowa-1, informatologia-1" size="0"/>
+    <node name="ekofilozofia-1" size="0"/>
+    <node name="docymologia-1" size="0"/>
+    <node name="polemologia-1" size="0"/>
+    <node name="paremiologia-1" size="0"/>
+    <node name="nauka ideograficzna-1" size="0"/>
+    <node name="systematyka-3" size="0"/>
+    <node name="proksemika-1" size="0"/>
+    <node name="kraniologia-1" size="0"/>
+    <node name="teoria komunikacji-1" size="0"/>
+    <node name="nauka leśna-1" size="1">
+      <node name="nasiennictwo leśne-1" size="0"/>
+    </node>
+    <node name="nauka interdyscyplinarna-1, dziedzina interdyscyplinarna-1" size="53" abstract="true">
+      <node name="astropolityka-1" size="0"/>
+      <node name="medioznawstwo-1" size="0"/>
+      <node name="synergetyka-1" size="0"/>
+      <node name="slawistyka-3, słowianoznawstwo-2" size="0"/>
+      <node name="niemcoznawstwo-1" size="0"/>
+      <node name="wschodoznawstwo-1" size="0"/>
+      <node name="socjocybernetyka-1" size="0"/>
+      <node name="hagiologia-1" size="0"/>
+      <node name="torfoznawstwo-1" size="0"/>
+      <node name="biodynamika-1" size="0"/>
+      <node name="penitencjarystyka-1" size="0"/>
+      <node name="olfaktologia-1" size="0"/>
+      <node name="addyktologia-1" size="0"/>
+      <node name="psychoneuroimmunologia-1" size="0"/>
+      <node name="biomatematyka-1, biologia matematyczna-1" size="0"/>
+      <node name="aerobiologia-1" size="0"/>
+      <node name="suicydologia-1" size="0"/>
+      <node name="zoosocjologia-1, socjologia zwierząt-1" size="0"/>
+      <node name="neuronauka-1" size="0"/>
+      <node name="socjobiologia-1" size="0"/>
+      <node name="paleopatologia-1" size="0"/>
+      <node name="biometeorologia-2, bioklimatologia-1" size="0"/>
+      <node name="przetwarzanie języka naturalnego-1" size="0"/>
+      <node name="farmakoekonomika-1" size="0"/>
+      <node name="neurogeriatria-1" size="0"/>
+      <node name="bionika-1, biomimetyka-1, biomimikra-1, inżynieria bioniczna-1" size="0"/>
+      <node name="bioinformatyka-1" size="0"/>
+      <node name="agrofizyka-1" size="0"/>
+      <node name="meteorytyka-1" size="0"/>
+      <node name="kinezjologia-1" size="0"/>
+      <node name="metamatematyka-1" size="0"/>
+      <node name="futurologia-1" size="0"/>
+      <node name="marketing-2" size="0"/>
+      <node name="sozologia-1" size="0"/>
+      <node name="agrometeorologia-1" size="0"/>
+      <node name="tanatologia-1" size="0"/>
+      <node name="fizyka medyczna-1" size="0"/>
+      <node name="nukleonika-1" size="0"/>
+      <node name="religiologia-1" size="0"/>
+      <node name="neurobiologia-1" size="0"/>
+      <node name="fizjologia patologiczna-1, fizjopatologia-1, patofizjologia-1" size="0"/>
+      <node name="translatoryka-1, przekładoznawstwo-1" size="0"/>
+      <node name="metalografia-1" size="0"/>
+      <node name="gemmologia-1" size="0"/>
+      <node name="paleobiogeografia-1" size="0"/>
+      <node name="biopsychologia-1" size="0"/>
+      <node name="sztuczne życie-1" size="0"/>
+      <node name="geopolityka-1" size="0"/>
+      <node name="ergonomia-1, ergonomika-1" size="0"/>
+      <node name="biogeografia-1" size="0"/>
+      <node name="gerontologia-1" size="0"/>
+      <node name="kryptologia-1, kryptografia-2" size="0"/>
+      <node name="antropologia-1" size="0"/>
+    </node>
+    <node name="nauka medyczna-1" size="37">
+      <node name="tyflologia-1" size="0"/>
+      <node name="foniatria-2" size="0"/>
+      <node name="krionika-1" size="0"/>
+      <node name="teratologia-1" size="0"/>
+      <node name="estezjologia-1" size="0"/>
+      <node name="kazuistyka-3" size="0"/>
+      <node name="dietetyka-1" size="0"/>
+      <node name="rentgenologia-1" size="0"/>
+      <node name="farmacja-1, lekoznawstwo-1" size="0"/>
+      <node name="sztuka leczenia-1, nauka o zdrowiu-1, leczenie-4" size="27">
+        <node name="dolorologia-1, algezjologia-1" size="0"/>
+        <node name="ajurweda-1, ayurveda-1" size="0"/>
+        <node name="znachorstwo-1" size="0"/>
+        <node name="fitopatologia-1, leczenie roślin-1" size="0"/>
+        <node name="paramedycyna-1, medycyna alternatywna-1, medycyna niekonwencjonalna-1, medycyna naturalna-1" size="14">
+          <node name="naturopatia-1" size="0"/>
+          <node name="irydologia-1" size="0"/>
+          <node name="zawłoki-1" size="0"/>
+          <node name="hydrokolonoterapia-1" size="0"/>
+          <node name="medycyna osteopatyczna-1, osteopatia-2" size="0"/>
+          <node name="wellness-1" size="0"/>
+          <node name="rebirthing-1" size="0"/>
+          <node name="kręgarstwo-1, chiropraktyka-1, osteoterapia-1" size="0"/>
+          <node name="aromaterapia-1, aromatoterapia-1" size="0"/>
+          <node name="bioenergoterapia-1, energoterapia-1" size="0"/>
+          <node name="homeopatia-1" size="1">
+            <node name="izopatia-1, izoterapia-1" size="0"/>
+          </node>
+          <node name="akupresura-1" size="0"/>
+          <node name="akupunktura-1" size="0"/>
+        </node>
+        <node name="medycyna-1" size="6">
+          <node name="medycyna pracy-1" size="0"/>
+          <node name="medycyna personalna-1" size="0"/>
+          <node name="telemedycyna-1" size="0"/>
+          <node name="medycyna paliatywna-1" size="0"/>
+          <node name="medycyna weterynaryjna-1" size="0"/>
+          <node name="medycyna rodzinna-1" size="0"/>
+        </node>
+        <node name="weterynaria-1, leczenie zwierząt-1, nauka o zdrowiu zwierząt-1" size="0"/>
+      </node>
+    </node>
+    <node name="sadownictwo-2" size="0"/>
+    <node name="statystyka-1" size="1">
+      <node name="statystyka Fermiego-Diraca-1" size="0"/>
+    </node>
+    <node name="muzyka-2" size="0"/>
+    <node name="nauka społeczna-1" size="43">
+      <node name="ekologia mediów-1" size="0"/>
+      <node name="ludoznawstwo-1" size="0"/>
+      <node name="penologia-1" size="0"/>
+      <node name="socjopsychologia-1" size="0"/>
+      <node name="socjopatologia-1" size="0"/>
+      <node name="prasoznawstwo-1" size="0"/>
+      <node name="wiktymologia-1" size="0"/>
+      <node name="nauka ekonomiczna-1" size="22">
+        <node name="nauka o zarządzaniu-1, zarządzanie-4" size="1"/>
+        <node name="finanse-2" size="5">
+          <node name="ubezpieczenia-1" size="0"/>
+          <node name="finanse przedsiębiorstw-1" size="0"/>
+          <node name="finanse gospodarstw domowych-1" size="0"/>
+          <node name="finanse publiczne-1" size="0"/>
+          <node name="bankowość-1" size="0"/>
+        </node>
+        <node name="towaroznawstwo-1" size="0"/>
+        <node name="ekonomia-1" size="12">
+          <node name="ekonomia podażowa-1, ekonomia podaży-1, ekonomia strony podażowej-1" size="1">
+            <node name="reaganomika-1" size="0"/>
+          </node>
+          <node name="ekonomia polityczna-1" size="0"/>
+          <node name="ekonomia menedżerska-1" size="0"/>
+          <node name="ekonomia konstytucyjna-1" size="0"/>
+          <node name="ekonomia humanistyczna-1" size="0"/>
+          <node name="ekonomia finansowa-1" size="0"/>
+          <node name="międzynarodowe stosunki gospodarcze-1" size="0"/>
+          <node name="ekonomia społeczna-1" size="0"/>
+          <node name="ekonomia rozwoju-1" size="2">
+            <node name="ekonomia normatywna-1" size="0"/>
+            <node name="ekonomia pozytywna-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="politologia-1, nauki polityczne-1" size="0"/>
+      <node name="europeistyka-1" size="0"/>
+      <node name="kryminologia-1" size="0"/>
+      <node name="kryminalistyka-1" size="0"/>
+      <node name="socjologia-1" size="1">
+        <node name="socjologia miasta-1" size="0"/>
+      </node>
+      <node name="psychologia-1" size="1">
+        <node name="psychoakustyka-1" size="0"/>
+      </node>
+      <node name="pedagogika-1, wychowanie-3" size="1">
+        <node name="pedagogika opiekuńcza-1" size="0"/>
+      </node>
+      <node name="geografia-1" size="0"/>
+      <node name="antropologia-1" size="0"/>
+      <node name="nauka prawa-1, jurysprudencja-1, prawo-4, prawoznawstwo-1, prawnictwo-3" size="0"/>
+    </node>
+    <node name="nauka techniczna-1" size="58" abstract="true">
+      <node name="akustoelektronika-1" size="0"/>
+      <node name="technika cieplna-1" size="0"/>
+      <node name="technika świetlna-1" size="0"/>
+      <node name="inżynieria energetyczna-1" size="0"/>
+      <node name="inżynieria mechaniczna-1" size="0"/>
+      <node name="energoelektryka-1" size="0"/>
+      <node name="ruralistyka-2" size="0"/>
+      <node name="cyfronika-1" size="0"/>
+      <node name="mikrotechnologia-1" size="0"/>
+      <node name="poligrafika-1" size="0"/>
+      <node name="mechanika-2" size="0"/>
+      <node name="mechatronika-1" size="0"/>
+      <node name="bionika-1, biomimetyka-1, biomimikra-1, inżynieria bioniczna-1" size="0"/>
+      <node name="elektroakustyka-1" size="0"/>
+      <node name="technoklimatologia-1" size="0"/>
+      <node name="fototechnika-1" size="0"/>
+      <node name="termika-2" size="2">
+        <node name="ogrzewnictwo-1, grzejnictwo-1" size="0"/>
+        <node name="chłodnictwo-1" size="0"/>
+      </node>
+      <node name="maszynoznawstwo-1" size="0"/>
+      <node name="mennictwo-1" size="0"/>
+      <node name="lotnictwo-4, aeronautyka-1" size="0"/>
+      <node name="awionika-1" size="0"/>
+      <node name="radiotechnika-1" size="0"/>
+      <node name="materiałoznawstwo-1" size="0"/>
+      <node name="hydrotechnika-1" size="0"/>
+      <node name="elektrotechnika-1" size="0"/>
+      <node name="atomistyka-2" size="0"/>
+      <node name="budownictwo-1" size="6">
+        <node name="akustyka architektoniczna-1" size="0"/>
+        <node name="budownictwo wodne-1" size="0"/>
+        <node name="budownictwo lądowe-1" size="0"/>
+        <node name="mostownictwo-1" size="0"/>
+        <node name="urbanistyka-1" size="0"/>
+        <node name="drogownictwo-1" size="0"/>
+      </node>
+      <node name="automatyka-1" size="1"/>
+      <node name="hutnictwo-2" size="0"/>
+      <node name="elektronika-1" size="0"/>
+      <node name="energetyka-1" size="6">
+        <node name="energetyka odnawialna-2" size="0"/>
+        <node name="termoenergetyka-2, energetyka cieplna-2" size="0"/>
+        <node name="energetyka jądrowa-2" size="0"/>
+        <node name="elektroenergetyka-1" size="0"/>
+        <node name="ciepłownictwo-2" size="0"/>
+        <node name="petrochemia-1" size="0"/>
+      </node>
+      <node name="inżynieria-1" size="8">
+        <node name="permakultura-1" size="0"/>
+        <node name="inżynieria wiedzy-1" size="0"/>
+        <node name="inżynieria biomateriałów-1" size="0"/>
+        <node name="inżynieria materiałowa-1" size="1">
+          <node name="inżynieria tkankowa-1" size="0"/>
+        </node>
+        <node name="inżynieria wojskowa-1" size="0"/>
+        <node name="inżynieria lądowa-1" size="1">
+          <node name="geotechnika-1" size="0"/>
+        </node>
+      </node>
+      <node name="górnictwo-2, kopalnictwo-1" size="1">
+        <node name="naftownictwo-1, nafciarstwo-1" size="0"/>
+      </node>
+      <node name="rolnictwo-1" size="0"/>
+    </node>
+    <node name="nauka humanistyczna-1, humanistyka-1, humaniora-1" size="62">
+      <node name="slawistyka-3, słowianoznawstwo-2" size="0"/>
+      <node name="kulturologia-1" size="0"/>
+      <node name="ludoznawstwo-1" size="0"/>
+      <node name="kinezyka-1" size="0"/>
+      <node name="kostiumologia-1" size="0"/>
+      <node name="narratologia-1" size="0"/>
+      <node name="nauka o zarządzaniu-1, zarządzanie-4" size="1">
+        <node name="tayloryzm-1" size="0"/>
+      </node>
+      <node name="mitologia-2" size="0"/>
+      <node name="naukoznawstwo-1, metanauka-1" size="0"/>
+      <node name="muzeologia-1" size="0"/>
+      <node name="muzykologia-1" size="0"/>
+      <node name="kulturoznawstwo-1" size="0"/>
+      <node name="etnologia-1" size="0"/>
+      <node name="bibliologia-1, biblioznawstwo-1, księgoznawstwo-1" size="0"/>
+      <node name="hellenistyka-1, grecystyka-1" size="0"/>
+      <node name="literaturoznawstwo-1, nauka o literaturze-1, wiedza o literaturze-1" size="0"/>
+      <node name="religioznawstwo-1" size="2">
+        <node name="judaistyka-1" size="0"/>
+        <node name="islamistyka-1" size="0"/>
+      </node>
+      <node name="retoryka-2" size="0"/>
+      <node name="teologia-1" size="4">
+        <node name="pelagianizm-1" size="0"/>
+        <node name="liturgika-1" size="0"/>
+        <node name="teologia chrześcijańska-1" size="1">
+          <node name="teologia moralna-1" size="0"/>
+        </node>
+      </node>
+      <node name="dziennikarstwo-1, żurnalistyka-1" size="0"/>
+      <node name="archeologia-1" size="0"/>
+      <node name="antropologia-1" size="0"/>
+      <node name="językoznawstwo-1, lingwistyka-1" size="1">
+        <node name="językoznawstwo taksonomiczne-1" size="0"/>
+      </node>
+      <node name="filologia-1" size="17">
+        <node name="tekstologia-1" size="0"/>
+        <node name="kroatystyka-1, filologia chorwacka-1" size="0"/>
+        <node name="białorutenistyka-1, filologia białoruska-1" size="0"/>
+        <node name="rusycystyka-1, filologia rosyjska-1" size="0"/>
+        <node name="polonistyka-2, filologia polska-2" size="0"/>
+        <node name="hispanistyka-1, filologia hiszpańska-1" size="0"/>
+        <node name="romanistyka-2, filologia romańska-2" size="0"/>
+        <node name="germanistyka-2, filologia niemiecka-2, filologia germańska-3" size="0"/>
+        <node name="anglistyka-2, filologia angielska-2" size="0"/>
+        <node name="neofilologia-1" size="0"/>
+        <node name="indoeuropeistyka-1" size="0"/>
+        <node name="indianistyka-1" size="0"/>
+        <node name="filologia klasyczna-1" size="0"/>
+        <node name="etruskologia-1" size="0"/>
+        <node name="celtologia-1" size="0"/>
+        <node name="amerykanistyka-1" size="0"/>
+        <node name="orientalistyka-2, filologia orientalna-1" size="0"/>
+      </node>
+      <node name="historia-1" size="2">
+        <node name="historia powszechna-1" size="0"/>
+        <node name="protohistoria-1" size="0"/>
+      </node>
+      <node name="filozofia-1" size="9">
+        <node name="Platon-2" size="0"/>
+        <node name="Schopenhauer-2" size="0"/>
+        <node name="Heraklit-1" size="0"/>
+        <node name="Bergson-2" size="0"/>
+        <node name="Kant-4" size="0"/>
+        <node name="Hegel-2" size="0"/>
+        <node name="Arystoteles-2" size="0"/>
+        <node name="Heidegger-2" size="0"/>
+        <node name="filozofia indyjska-1" size="0"/>
+      </node>
+    </node>
+    <node name="nauka matematyczno-przyrodnicza-1, nauka ścisła-1" size="53">
+      <node name="aeronomia-1" size="0"/>
+      <node name="nauka przyrodnicza-1, przyrodoznawstwo-1" size="32">
+        <node name="biologia syntetyczna-1" size="0"/>
+        <node name="neurochemia-1" size="0"/>
+        <node name="gospodarka wodna-2" size="0"/>
+        <node name="astrografia-1" size="0"/>
+        <node name="geodynamika-1" size="0"/>
+        <node name="biocenologia-1, biocenotyka-1, synekologia-1" size="0"/>
+        <node name="grawimetria-1" size="0"/>
+        <node name="eutenika-1" size="0"/>
+        <node name="geofizyka-1" size="1">
+          <node name="aktynometria-1" size="0"/>
+        </node>
+        <node name="oceanologia-1, oceanografia-1" size="0"/>
+        <node name="geologia-1" size="8"/>
+        <node name="geografia-1" size="0"/>
+        <node name="geodezja-1" size="6"/>
+        <node name="chemia-1" size="0"/>
+        <node name="astronomia-1" size="0"/>
+        <node name="biologia-1" size="0"/>
+        <node name="fizyka-1, nauka o materii-1" size="0"/>
+      </node>
+      <node name="biometeorologia-2, bioklimatologia-1" size="0"/>
+      <node name="aerologia-1" size="0"/>
+      <node name="algorytmika-1" size="0"/>
+      <node name="chronometria-1, metrologia czasu-1" size="0"/>
+      <node name="paleomagnetyzm-1" size="0"/>
+      <node name="biometria-1" size="0"/>
+      <node name="geomorfologia-1" size="0"/>
+      <node name="metrologia-1, miernictwo-1" size="1">
+        <node name="morfometria-1" size="0"/>
+      </node>
+      <node name="cybernetyka-1" size="0"/>
+      <node name="astronautyka-1, kosmonautyka-1" size="0"/>
+      <node name="elektrotechnika-1" size="0"/>
+      <node name="automatyka-1" size="1">
+        <node name="automatyka przemysłowa-1" size="0"/>
+      </node>
+      <node name="meteorologia-1" size="0"/>
+      <node name="informatyka-1" size="1">
+        <node name="informatyka kwantowa-1" size="0"/>
+      </node>
+      <node name="geologia-1" size="8">
+        <node name="geologia naftowa-1" size="0"/>
+        <node name="geologia złóż-1" size="0"/>
+        <node name="geologia inżynierska-1" size="0"/>
+        <node name="geologia planetarna-1" size="0"/>
+        <node name="geologia regionalna-1" size="0"/>
+        <node name="geologia historyczna-1" size="0"/>
+        <node name="geologia dynamiczna-1" size="0"/>
+        <node name="geologia podstawowa-1" size="0"/>
+      </node>
+      <node name="geodezja-1" size="6">
+        <node name="geodezja inżynieryjno-przemysłowa-1" size="0"/>
+        <node name="geodezja wyższa-1" size="1">
+          <node name="geodezja satelitarna-1" size="0"/>
+        </node>
+        <node name="geodezja niższa-1, geodezja ogólna-1" size="0"/>
+        <node name="geodezja leśna-1" size="0"/>
+        <node name="geodezja górnicza-1" size="0"/>
+      </node>
+      <node name="elektronika-1" size="0"/>
+      <node name="matematyka-1" size="0"/>
+    </node>
+  </node>
+</node>

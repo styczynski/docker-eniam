@@ -1,0 +1,209 @@
+#! /usr/bin/perl
+#
+use strict;
+use vars qw(@files %processes %prevstats $swigradir $parser);
+use constant VMEM_LIMIT => 20000*1000*1000;
+use constant CONCURRENCY_LEVEL => 20;
+use constant DELAY => 2;
+use POSIX ":sys_wait_h";
+
+# pakiet Ubuntu: libbsd-resource-perl
+use BSD::Resource;
+
+%processes = (); # Will map PIDs to [‹świgra file›, ‹utime›, ‹stime›, ‹inactivity counter›, ‹vmem›]
+
+%prevstats = ();
+# open STAT, "<", "../parsestats.tab";
+# while (<STAT>) {
+# }
+# close STAT;
+
+open STAT, ">", "../parsestats.tab";
+
+# SWI Prolog on Linux has the bad habit of hanging in a system call
+# when memory gets exhausted.  For that reason we have to implement a
+# framework for killing processes that get inactive but do not die.
+
+# pakiet Ubuntu: libfile-slurp-perl
+use File::Slurp;
+# This function is Linux-specific.
+# We assume this test will be performed each second.
+sub is_alive {
+    my $pid = shift;
+    my @stat = split ' ', read_file("/proc/$pid/stat");
+# Pola w tym pliku są opisane w man proc
+# [2] state
+# [13] cpu time in user mode
+# [14] cpu time kernel mode
+# [22] virtual memory size
+    my $active = $stat[2] eq 'R' # process status
+	|| $stat[13] > $processes{$pid}->[1]  # utime
+	|| $stat[14] > $processes{$pid}->[2]; # stime
+    if ($active) {
+	$processes{$pid}->[3] = 0;
+	$processes{$pid}->[1] = $stat[13]; # remember current utime
+	$processes{$pid}->[2] = $stat[14]; # remember current stime
+	$processes{$pid}->[4] = $stat[22] # remember max vmem
+	    if $processes{$pid}->[4] < $stat[22];
+    } else {
+	$processes{$pid}->[3] ++;
+    }
+    print STDERR join ' ', "Process $pid is", ($active?'':'not'), 'active. ', 'IC:', $processes{$pid}->[3],
+    'stat:', @stat[2,13..14,22], "\n";
+    return $processes{$pid}->[3] < 10; # after 10 seconds of inactivity we consider a process really dead
+}
+
+
+die unless @ARGV == 1;
+
+$swigradir = "$ENV{HOME}/swigra/parser";
+$parser = 'gfjp2-bin';
+
+@files = glob(shift);
+
+print STDERR "There are ".scalar(@files)." files to process.\n";
+
+
+while (@files >0) {
+
+    for my $kid (keys %processes) {
+	if (!is_alive($kid)) {
+	    print STDERR "Killing $kid!\n";
+	    kill('TERM', $kid);
+	}
+    }
+
+    my $kid = waitpid(-1, WNOHANG);
+    while ($kid >0)  {
+	if (defined $processes{$kid}) {
+	    print STDERR "Process $kid for $processes{$kid}->[0] has finished, ${\(scalar(keys %processes)-1)} running.\n";
+	    print STAT "$processes{$kid}->[0]\t$processes{$kid}->[1]\t$processes{$kid}->[2]\t$processes{$kid}->[4]\n";
+	    delete $processes{$kid};
+#	    spawn_child(shift @files);
+	} else {
+	    print STDERR "STRANGE: we haven't been waiting for process $kid.\n";
+	}
+	$kid = waitpid(-1, WNOHANG);
+    }
+
+    spawn_child(shift @files)
+	while (keys %processes < CONCURRENCY_LEVEL && @files > 0);
+
+    sleep DELAY;
+}
+
+# wait for remaining children
+while (keys %processes > 0) {
+    for my $kid (keys %processes) {
+	if (!is_alive($kid)) {
+	    print STDERR "Killing $kid!\n";
+	    kill('TERM', $kid);
+	}
+    }
+
+    my $kid = waitpid(-1, WNOHANG);
+    while ($kid >0)  {
+	if (defined $processes{$kid}) {
+	    print STDERR "Process $kid for $processes{$kid}->[0] has finished, ${\(scalar(keys %processes)-1)} running.\n";
+	    delete $processes{$kid};
+#	    spawn_child(shift @files);
+	} else {
+	    print STDERR "STRANGE: we haven't been waiting for process $kid.\n";
+	}
+	$kid = waitpid(-1, WNOHANG);
+    }
+
+    sleep DELAY;
+}
+
+# close STAT;
+
+########################################################################
+
+sub run_swigra { # to be executed in a child process!
+    my $doa = shift;
+    my $forest = $doa;
+    $forest =~ s/.doa$/.forest/;
+    # ulimit -n 8*60:
+    # “Processes have soft and hard resource limits.  On crossing the
+    # soft limit they receive a signal (for example the "SIGXCPU" or
+    # "SIGXFSZ", corresponding to the "RLIMIT_CPU" and "RLIMIT_FSIZE",
+    # respectively).  The processes can trap and handle some of these
+    # signals, please see "Signals" in perlipc.  After the hard limit
+    # the processes will be ruthlessly killed by the "KILL" signal
+    # which cannot be caught.
+
+    # We set the soft limit (setting the hard limit results in “invalid argument” error!):
+    setrlimit(RLIMIT_CPU,60*60,RLIM_INFINITY) || die "setrlimit failed for cputime: $!";
+# było 20G, ale trochę szkodziło serwerowi
+    setrlimit(RLIMIT_VMEM,VMEM_LIMIT,RLIM_INFINITY) || die "setrlimit failed for vmem: $!";
+    # nice -n 19
+    setpriority(PRIO_PROCESS,0, 19) || die "setpriority failed: $!";
+
+    open STDOUT, '>', $forest or die "Can't redirect STDOUT: $!";
+    exec 'swipl', '-x', "$swigradir/$parser",'-t','halt', '-g',"['$doa']";
+
+    }
+
+sub spawn_child {
+    my $file = shift;
+    my $forest = $file;
+    $forest =~ s/.doa$/.forest/;
+    if ( -s $forest ) { # file exists and has nonzero size
+	print STDERR "--- $forest already present.\n";
+	return;
+    }
+    if (!defined(my $kidpid = fork())) {
+	# fork returned undef, so failed
+	die "cannot fork for $file:\n $!";
+    } elsif ($kidpid == 0) {
+	# fork returned 0, so this branch is the child
+	run_swigra($file);
+	# if the exec fails, fall through to the next statement
+	die "can't exec Swigra: $!";
+    } else { 
+	# fork returned neither 0 nor undef, 
+	# so this branch is the parent
+	print STDERR "Started process $kidpid for $file.\n";
+	$processes{$kidpid} = [$file,0,0,0];
+    }
+}
+
+# # from http://www.perlmonks.org/?node_id=254756:
+## failed with EPERM!
+# sub set_max_cpu_time
+#   {
+#     my $n_seconds = shift;
+#     my $s = pack( 'LL', $n_seconds, $n_seconds+1 );
+#     $! = 0;
+#     if ( syscall( 128, 0, $s ) == -1 )  # SYS_setrlimit, RLIMIT_CPU
+#     {
+#       if ( $! == 1 )  # EPERM
+#       {
+#         die "$!; Sorry, you need to be superuser to do that.\n";
+#       }
+#       elsif ( $! == 14 )  # EFAULT
+#       {
+#         die "$!; Error: argument to setrlimit pointed to an illegal ad
+# +dress.\n";
+#       }
+#       elsif ( $! == 22 )  # EINVAL
+#       {
+#         die "$!; Error: the new rlim_cur exceeds the new rlim_max,
+#           or the limit specified cannot be lowered because current usa
+# +ge
+#           is already higher than the limit.\n";
+#       }
+#     }
+#   }
+
+
+# non-blocking test for running children:
+# use POSIX ":sys_wait_h";
+# #...
+# do {
+#     $kid = waitpid(-1, WNOHANG);
+# } while $kid > 0;
+
+# redyrekcje:
+#open(STDERR,">&STDOUT")

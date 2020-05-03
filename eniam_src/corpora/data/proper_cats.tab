@@ -1,0 +1,36 @@
+rok	Year
+miesiąc	Month
+dzień	Day
+dzień tygodnia	WeekDay
+godzina	Hour
+miasto stołeczne, na prawach powiatu	Town
+gmina miejska, miasto stołeczne	Town
+miasto	Town
+wieś	Town
+przysiółek	Town
+osada leśna	Town
+osada	Town
+kolonia	Town
+dzielnica	Quarter
+część miejscowości	Quarter
+część miasta	Quarter
+aleje	Street
+aleja	Street
+ulica	Street
+most	Street
+plac	Street
+rondo	Street
+wiadukt	Street
+szosa	Street
+trakt	Street
+trasa	Street
+building-number	HouseNumber
+geograficzna	
+obj-id	
+TimeOfDay	TimeOfDay
+data	Day
+nazwisko	LastName
+imię	FirstName
+
+
+

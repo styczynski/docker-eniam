@@ -1,0 +1,140 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\usepackage[T1]{fontenc}
+\usepackage[english, polish]{babel}
+\usepackage{tikz}
+\usetikzlibrary{conceptgraph}
+%\DeclareMathSymbol{\vDash}        {\mathrel}{AMSa}{"0F}
+
+\newcommand{\sg}{{\it sg} }
+\newcommand{\pl}{{\it pl} }
+\newcommand{\mass}{{\it mass} }
+\newcommand{\ind}{{\it indexical} }
+\newcommand{\corf}{{\it coreferential} }
+\newcommand{\deict}{{\it deictic} }
+\newcommand{\interr}{{\it interrogative} }
+
+\newcommand{\type}[2]{\text{{\sc type}}(#1,\text{#2})}
+\newcommand{\hasName}[2]{\text{{\sc hasName}}(#1,\text{'#2'})}
+\newcommand{\dscr}[2]{\text{{\sc dscr}}(#1,#2)}
+\newcommand{\init}[2]{\text{{\sc init}}(#1,#2)}
+\newcommand{\pres}[1]{\text{{\sc pres}}(#1)}
+\newcommand{\indexic}{\text{{\sc indexical}}}
+\newcommand{\deictic}{\text{{\sc deictic}}}
+\newcommand{\coreferential}{\text{{\sc coreferential}}}
+
+\title{Reprezentacja przydawki dopełniaczowej}
+\author{Wojciech Jaworski}
+%\date{}
+
+\begin{document}
+
+\maketitle
+ 
+{\it x y.gen}\\
+{\sc poss}(x,y)\\
+y.has=x\\
+x.poss=y\\
+has - uogólnienie wszystkich (wielu) atrybutów (podobnie jak relacja ``cecha'')\\
+typ semantyczny x i y wyznacza atrybut
+ 
+
+Algorytm znaczeniowy x definiuje znaczenie relacji poss.\\
+x ze swojej natury musi być w tej relacji z jakimś innym bytem.\\
+y ze swojej natury też powinno być w tej relacji z jakimś innym bytem.\\
+{\it kolor piłki}\\
+x=y.kolor\\
+${\bf kolor}=\lambda x\; (x.poss).kolor=x$\\
+{\it ojciec Józefa}\\ 
+y.ojciec=x\\
+{\it dziadek Konrada}\\
+y.ojciec.ojciec=x\\
+{\it student polonistyki}\\
+y.student=x\\
+{\it student Politechniki}\\
+y.student=x\\
+{\it waga Konrada}\\
+y.waga=x\\
+{\it promień koła}\\
+y.promień\\
+{\it faza ewolucji}\\
+y.faza=x\\
+{\it kierownictwo budowy}\\
+
+Relacja bycia właścicielem.\\
+Nie jest obowiązkowa.\\
+{\it piłka Stasia}\\ 
+x=y.własność\\
+{\it bielizna Ani}\\
+y.strój=x\\
+
+Wydarzenia, czynności, czyny - relacja odpowiada roli tematycznej czasownika. - podobne do pierwszej sytuacji.
+{\it wizja św. A.}
+
+Użycie pojemnikowe, semantyczny nadrzędnikiem jest y\\
+{\it łyżka cukru}\\
+y.measure=x
+ 
+{\it suma kwadratów trzech liczb}\\
+
+{\it zbiór osób}\\
+ 
+{\it silnik volkswagena}\\
+ 
+{\it sekwencja zdarzeń}\\
+ 
+{\it graf hiponimii rzeczowników}\\
+ 
+{\it fizyka cieczy}\\
+ 
+  
+\section{Relacja quasi-posiadania i identyczności}
+Predykat Poss symbolizuje relację posiadania ({\it piłka chłopca}) oraz pozostałe 
+relacje wskazywane przez modyfikator rzeczownikowy w dopełniaczu (przydawkę dopełniaczową)
+({\it sposób wykonania}, {\it prezeska organizacji}, {\it obrzeża Warszawy}).
+Poss jest domyślną rolą dla przydawki dopełniaczowej. W konkretnych przypadkach np. przy użyciu pojemnikowym jest zastępowana inną relacją.
+%W toku dalszych badań Poss zostanie podzielona na podklasy
+\[\begin{tikzpicture}
+\node[concept] (a) {\sg piłka};
+\node[relation, right=1cm of a] (b) {Poss};
+\node[concept, right=1cm of b] (c) {\sg chłopiec};
+\edge {a} {b};
+\edge {b} {c};
+\end{tikzpicture}\]
+
+Predykat Poss wykorzystujemy również w sytuacjach, gdy pojęcia mają charakter funkcji biorących odniesienie jednego ze 
+swych podrzędników i określających swoje odniesienie na tej podstawie, np odniesieniem frazy 
+%{\it pod stołem} będzie miejsce znajdujące się poniżej jakiegoś {\it stołu}.
+%Podobnie przy frazie 
+{\it kolor piłki} mamy {\it piłkę}, z której wyłuskujemy cechę.
+% \[\begin{tikzpicture}
+% \node[concept] (a) {pod};
+% \node[relation, right=1cm of a] (b) {Poss};
+% \node[concept, right=1cm of b] (c) {\sg stół};
+% \edge {a} {b};
+% \edge {b} {c};
+% \end{tikzpicture}\]
+\[\begin{tikzpicture}
+\node[concept] (a) {\sg kolor};
+\node[relation, right=1cm of a] (b) {Poss};
+\node[concept, right=1cm of b] (c) {\sg piłka};
+\edge {a} {b};
+\edge {b} {c};
+\end{tikzpicture}\]
+
+\section{Testy}
+\begin{enumerate}
+\item test has
+\item ontologiczna obowiązkowość relacji
+\item co jest semantycznym nadrzędnikiem, uzgadnia się z preferencjami selekcyjnymi nadrzędnika
+\item położenie x i y w ontologii
+\item 
+\item 
+\end{enumerate}
+
+
+\end{document}

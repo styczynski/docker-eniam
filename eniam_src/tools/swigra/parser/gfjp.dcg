@@ -1,0 +1,2861 @@
+% -*- prolog -*-
+%
+% Reguły gramatyki formalnej języka polskiego Marka Świdzińskiego
+%
+% Copyright (C) 1992 Marek Świdziński
+% Copyright (C) 1997-2006 Marcin Woliński
+%
+% This program is free software; you can redistribute it and/or modify
+% it under the terms of the GNU General Public License version 3 as
+% published by the Free Software Foundation.
+%
+% This program is distributed in the hope that it will be useful,
+% but WITHOUT ANY WARRANTY; without even the implied warranty of
+% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+% GNU General Public License for more details.
+%
+% You should have received a copy of the GNU General Public License
+% along with this program; if not, write to the Free Software
+% Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, 
+% MA 02110-1301, USA 
+%
+% In addition, as a special exception, the copyright holder gives
+% permission to link the code of this program with the Morfeusz library
+% (see http://www.nlp.ipipan.waw.pl/~wolinski/morfeusz), and distribute
+% linked combinations including the two. You must obey the GNU General
+% Public License in all respects for all of the code used other than
+% Morfeusz. If you modify this file, you may extend this exception to
+% your version of the file, but you are not obligated to do so. If you
+% do not wish to do so, delete this exception statement from your
+% version.
+%
+
+%:-prolog_flag(single_var_warnings,_,off).
+:-style_check(-singleton).
+
+:-op(100, fy, @).
+
+% 5.1. Wypowiedzenie
+
+wypowiedzenie --> s(w1), 
+	zr(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z), _),
+	znakkonca(Z1),
+	{ zrowne( Z, [Z1], SwZ ) }.
+
+% 5.2. Zdanie równorzędne
+
+zr(Wf, A, C, T, Rl, O, Neg, I, Z, X)
+--> s(r1), zsz(Wf, A, C, T, Rl, O, Neg, I, Z, @X).
+
+zr(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z), @ @ @ @0)
+--> s(r2), zsz(Wf, A, C, T, Rl, O, Neg, I, z(npp(SwZ),Z1), _),
+	{ oblnp(Z1, Z) },
+	przec,
+	spoj(rc, Oz, ni),
+	zsz(Wf1, A1, C1, T1, Rl1, O1, Neg1, ni, z(SwZ2,Z2), _),
+	{ zrowne(Z2, [p], SwZ2) }.
+
+zr(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z), @ @ @ @0)
+--> s(r3), zsz(Wf, A, C, T, Rl, O, Neg, I, z(npp(SwZ),Z1), _),
+	{ oblnp(Z1, Z) },
+	przec,
+	zsz(Wf1, A1, C1, T1, Rl1, O1, Neg1, I1, z(SwZ2,Z2), _),
+	{ zrowne(Z2, [p], SwZ2),
+          rowne(I1, ['natomiast','zaś']) }.
+
+zr(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,NNZ), @ @ @ @0)
+--> s(r4), spoj(rl, Oz, I), 
+	zsz(Wf, A, C, T, Rl, O, Neg, ni, z(SwZ,Z), _),
+	{ zrowne(Z, ['aż1','bo','bowiem','chociaż','czy','jak','jeśli',
+	             'np','npt','podczas','ponieważ','że'], NZ) },
+	przec,
+	spoj(rp, Oz, ni),
+	zsz(Wf1, A1, C1, T1, Rl1, O1, Neg1, ni, z(SwZ,Z1), _),
+	{ zrowne(Z1, NZ, NNZ),
+          oblneg(Oz, Neg0, Neg, Neg1)}.
+
+zr(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,NNZ), @ @ @ @0)
+--> s(r5), zsz(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z), _),
+	{ zrowne(Z, ['aż1','bo','bowiem','chociaż','czy','jak','jeśli',
+	             'np','npt','podczas','ponieważ','że'], NZ) },
+	przec,
+	spoj(rc, Oz, ni),
+	zsz(Wf1, A1, C1, T1, Rl1, O1, Neg1, ni, z(SwZ,Z1), _),
+	{ zrowne(Z1, NZ, NNZ),
+          oblneg(Oz, Neg0, Neg, Neg1) }.
+
+zr(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,NNZ), @ @ @ @0)
+--> s(r6), zsz(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z), _),
+	{ zrowne(Z, ['aż1','bo','bowiem','chociaż','czy','jak','jeśli',
+	             'np','npt','podczas','ponieważ','że'], NZ) },
+	przec,
+	zsz(Wf1, A1, C1, T1, Rl1, O1, Neg1, I1, z(SwZ,Z1), _),
+	{ zrowne(Z1, NZ, NNZ),
+          rowne(I1, ['natomiast','zaś']), 
+	  oblneg(Oz, Neg0, Neg, Neg1)}.
+
+zr(Wf, A, C, T, Rl, 3, Neg0, I, z(SwZ,Z), @ @ @ @0)
+--> s(r7), spoj(rl, Oz, I), 
+	zsz(Wf, A, C, T, Rl, 3, Neg, ni, z(SwZ,Z1), _),
+	{ zrowne(Z1, ['byxx','choćby','czyżby','gdyby',
+	              'jakby','jakoby','żeby'], NZ) },
+	przec,
+	spoj(rp, Oz, ni),
+	zsz(Wf, A1, C1, T1, Rl1, 3, Neg1, ni, z(SwZ,Z2), _),
+	{ zrowne(Z2, NZ, Z),
+          oblneg(Oz, Neg0, Neg, Neg1)}.
+
+zr(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,Z), @ @ @ @0)
+--> s(r8), zsz(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z1), _),
+	{ zrowne(Z1, ['byxx','choćby','czyżby','gdyby',
+	              'jakby','jakoby','żeby'], NZ) },
+	przec,
+	spoj(rc, Oz, ni),
+	zsz(Wf, A1, C1, T1, Rl1, 3, Neg1, ni, z(SwZ,Z2), _),
+	{ zrowne(Z2, NZ, Z),
+          oblneg(Oz, Neg0, Neg, Neg1) }.
+
+zr(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,Z), @ @ @ @0)
+--> s(r9), zsz(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z1), _),
+	{ zrowne(Z1, ['byxx','choćby','czyżby','gdyby',
+	              'jakby','jakoby','żeby'], NZ) },
+	przec,
+	zsz(Wf, A1, C1, T1, Rl1, 3, Neg1, I1, z(SwZ,Z2), _),
+	{ zrowne(Z2, NZ, Z),
+          rowne(I1, ['natomiast','zaś']), 
+	  oblneg(Oz, Neg0, Neg, Neg1) }.
+
+zr(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,Z), @ @ @ @0)
+--> s(r10), spoj(rl,Oz,I), 
+	zsz(Wf, A, C, T, Rl, O, Neg, ni, z(SwZ,Z1), _),
+	{ zrowne(Z1, ['aż1xx','boxx','dopóki','gdyxx','npxx','npxxt',
+	              'zanim','zanimxx'], NZ) },
+	przec,
+	spoj(rp, Oz, ni),
+	zsz(Wf1, A1, C, T, Rl1, O1, Neg1, ni, z(SwZ,Z2), _),
+	{ zrowne(Z2, NZ, Z),
+          oblneg(Oz, Neg0, Neg, Neg1)}.
+
+zr(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,Z), @ @ @ @0)
+--> s(r11), zsz(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z1), _),
+	{ zrowne(Z1, ['aż1xx','boxx','dopóki','gdyxx','npxx','npxxt',
+	              'zanim','zanimxx'], NZ) },
+	przec,
+	spoj(rc, Oz, ni),
+	zsz(Wf1, A1, C, T, Rl1, O1, Neg1, ni, z(SwZ,Z2), _),
+	{ zrowne(Z2, NZ, Z),
+          oblneg(Oz, Neg0, Neg, Neg1)}.
+
+zr(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,Z), @ @ @ @0)
+--> s(r12), zsz(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z1), _),
+	{ zrowne(Z1, ['aż1xx','boxx','dopóki','gdyxx','npxx','npxxt',
+	              'zanim','zanimxx'], NZ) },
+	przec,
+	zsz(Wf1, A1, C, T, Rl1, O1, Neg1, I1, z(SwZ,Z2), _),
+	{ zrowne(Z2, NZ, Z),
+          rowne(I1, ['natomiast','zaś']), 
+	  oblneg(Oz, Neg0, Neg, Neg1) }.
+
+zr(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,Z), @ @ @ @0)
+--> s(r13), spoj(rl,Oz,I), 
+	zsz(Wf, A, C, T, Rl, O, Neg, ni, z(SwZ,Z1), _),
+	{ zrowne(Z1, ['aż2','box','gdyx','npx','npxt'], NZ) },
+	przec,
+	spoj(rp, Oz, ni),
+	zsz(Wf1, A1, C, T, Rl1, O1, Neg1, ni, z(SwZ,Z2), _),
+        { zrowne(Z2, NZ, Z),
+	  oblneg(Oz, Neg0, Neg, Neg1) }.
+
+zr(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,Z), @ @ @ @0)
+--> s(r14), zsz(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z1), _),
+	{ zrowne(Z1, ['aż2','box','gdyx','npx','npxt'], NZ) },
+	przec,
+	spoj(rc, Oz, ni),
+	zsz(Wf1, A1, C, T, Rl1, O1, Neg1, ni, z(SwZ,Z2), _),
+	{ zrowne(Z2, NZ, Z),
+        oblneg(Oz, Neg0, Neg, Neg1)}.
+
+zr(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,Z), @ @ @ @0)
+--> s(r15), zsz(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z1), _),
+	{ zrowne(Z1, ['aż2','box','gdyx','npx','npxt'], NZ) },
+	przec,
+	zsz(Wf1, A1, C, T, Rl1, O1, Neg1, I1, z(SwZ,Z2), _),
+	{ zrowne(Z2, NZ, Z),
+        rowne(I1, ['natomiast','zaś']), 
+        oblneg(Oz, Neg0, Neg, Neg1)}.
+
+
+% 5.3. Zdanie szeregowe
+
+zsz(Wf, A, C, T, Rl, O, Neg, I, Z, X)
+--> s(s1), zj(Wf, A, C, T, Rl, O, Neg, I, Z, Oz, @X),
+	{ rozne(Oz, lub)}.
+
+zsz(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z), @ @ @ @0)
+--> s(s2), zp(Wf, A, C, T, Rl, O, Neg, I, z(pnpp(SwZ),Z1), _),
+	{ oblpnp(Z1, Z) },
+	zj(Wf1, A1, C1, T1, Rl1, O1, Neg1, ni, z(SwZ2,Z2), Oz, _),
+	{ zrowne(Z2, [p], SwZ2),
+	  rozne(Oz, przec) }.
+
+zsz(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z), @ @ @ @0)
+--> s(s3), zj(Wf, A, C, T, Rl, O, Neg, I, z(pnpp(SwZ),Z1), przec, _), 
+	{ oblpnp(Z1, Z) },
+	spoj(szk, Oz, ni),
+	{ rozne(Oz, przec) },
+	zp(Wf1, A1, C1, T1, Rl1, O1, Neg1, ni, z(SwZ2,Z2), _),
+	{ zrowne(Z2, [p], SwZ2) }.
+
+zsz(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,NZ), @ @ @ @0)
+--> s(s4), zp(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z1), _), 
+	{ zrowne(Z1, ['aż1','bo','bowiem','chociaż',
+	              'czy','jak','jeśli','np','npt',
+		      'podczas','ponieważ','że'], NZ1) },
+        zj(Wf1, A1, C1, T1, Rl1, O1, Neg1, ni, z(SwZ,Z2), Oz, _),
+	{ zrowne(Z2, NZ1, NZ),
+          rozne(Oz, przec), 
+	  oblneg(Oz, Neg0, Neg, Neg1) }.
+
+zsz(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,NZ), @ @ @ @0)
+--> s(s5), zj(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z1), przec, _),
+	{ zrowne(Z1, ['aż1','bo','bowiem','chociaż',
+	              'czy','jak','jeśli','np','npt',
+		      'podczas','ponieważ','że'], NZ1) },
+        spoj(szk,Oz,ni),
+	zp(Wf1, A1, C1, T1, Rl1, O1, Neg1, ni, z(SwZ,Z2), _),
+	{ zrowne(Z2, NZ1, NZ),
+          oblneg(Oz, Neg0, Neg, Neg1) }.
+
+zsz(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,Z), @ @ @ @0)
+--> s(s6), zp(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z1), _),
+	{ zrowne(Z1, ['byxx','choćby','czyżby',
+	              'gdyby','jakby','jakoby','żeby'], NZ) },
+	zj(Wf, A1, C1, T1, Rl1, 3, Neg1, ni, z(SwZ,Z2), Oz, _),
+	{ zrowne(Z2, NZ, Z),
+          rozne(Oz, przec),
+	  oblneg(Oz, Neg0, Neg, Neg1) }.
+
+zsz(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,Z), @ @ @ @0)
+--> s(s7), zj(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z1), przec, _), 
+	{ zrowne(Z1, ['byxx','choćby','czyżby',
+	              'gdyby','jakby','jakoby','żeby'], NZ) },
+	spoj(szk, Oz, ni),
+	zp(Wf, A1, C1, T1, Rl1, 3, Neg1, ni, z(SwZ,Z2), _),
+	{ zrowne(Z2, NZ, Z),
+          oblneg(Oz, Neg0, Neg, Neg1) }.
+
+zsz(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,Z), @ @ @ @0)
+--> s(s8), zp(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z1), _),
+	{ zrowne(Z1, ['aż1xx','boxx','dopóki','gdyxx',
+	              'npxx','npxxt','zanim','zanimxx'], NZ) },
+	zj(Wf1, A1, C, T, Rl1, O1, Neg1, ni, z(SwZ,Z2), Oz, _),
+	{ zrowne(Z2, NZ, Z),
+          rozne(Oz, przec),
+	  oblneg(Oz, Neg0, Neg, Neg1) }.
+
+zsz(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,Z), @ @ @ @0)
+--> s(s9), zj(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z1), przec, _), 
+	{ zrowne(Z1, ['aż1xx','boxx','dopóki','gdyxx',
+	              'npxx','npxxt','zanim','zanimxx'], NZ) },
+	spoj(szk, Oz, ni),
+	zp(Wf1, A1, C, T, Rl1, O1, Neg1, ni, z(SwZ,Z2), _),
+	{ zrowne(Z2, NZ, Z),
+        oblneg(Oz, Neg0, Neg, Neg1)}.
+
+zsz(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,Z), @ @ @ @0)
+--> s(s10), zp(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z1), _),
+	{ zrowne(Z1, ['aż2','box','gdy','npx','npxt'], NZ) },
+	zj(Wf1, A1, C, T1, Rl1, O1, Neg1, ni, z(SwZ,Z2), Oz, _),
+	{ zrowne(Z2, NZ, Z),
+          rozne(Oz, przec),
+	  oblneg(Oz, Neg0, Neg, Neg1)}.
+
+zsz(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,Z), @ @ @ @0)
+--> s(s11), zj(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z1), przec, _), 
+	{ zrowne(Z1, ['aż2','box','gdy','npx','npxt'], NZ) },
+	spoj(szk, Oz, ni),
+	zp(Wf1, A1, C, T1, Rl1, O1, Neg1, ni, z(SwZ,Z2), _),
+	{ zrowne(Z2, NZ, Z),
+          oblneg(Oz, Neg0, Neg, Neg1)}.
+
+
+
+% 5.4. Zdanie jednorodne
+
+zj(Wf, A, C, T, Rl, O, Neg, I, Z, przec, X)
+--> s(j1), zp(Wf, A, C, T, Rl, O, Neg, I, Z, @X).
+
+zj(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z), przec, @ @ @ @0)
+--> s(j2), zp(Wf, A, C, T, Rl, O, Neg, I, z(pnpp(SwZ),Z2), _),
+	{ oblpnp(Z2, NZ) },
+	spoj(sz, przec, ni),
+	zp(Wf1, A1, C1, T1, Rl1, O1, Neg1, ni, z(SwZ,Z1), _),
+	{ zrowne(Z1, NZ, Z) }.
+
+zj(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z), przec, @ @ @ @0)
+--> s(j3), zp(Wf, A, C, T, Rl, O, Neg, I, z(pnpp(SwZ),Z2), _), 
+	{ oblpnp(Z2, NZ) },
+	spoj(sz, przec, ni),
+	zj(Wf1, A1, C1, T1, Rl1, O1, Neg1, ni, z(SwZ,Z1), przec, _),
+	{ zrowne(Z1, NZ, Z) }.
+
+zj(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,Z), Oz, @ @ @ @0)
+--> s(j4), spoj(sz, Oz, I), 
+	{ rozne(Oz, przec) },
+	zp(Wf, A, C, T, Rl, O, Neg, ni, z(SwZ,Z1), _),
+	{ zrowne(Z1, ['aż1','bo','bowiem','chociaż','czy','jak','jeśli',
+	              'np','npt','podczas','ponieważ','pz','że'], NZ) },
+	przec,
+	spoj(sz, Oz, ni),
+	zp(Wf1, A1, C1, T1, Rl1, O1, Neg1, ni, z(SwZ,Z2), _),
+	{ zrowne(Z2, NZ, Z), 
+          oblneg(Oz, Neg0, Neg, Neg1)}.
+
+zj(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,Z), Oz, @ @ @ @0)
+--> s(j5), spoj(sz, Oz, I), 
+	{ rozne(Oz, przec) },
+	zp(Wf, A, C, T, Rl, O, Neg, ni, z(SwZ,Z1), _),
+	{ zrowne(Z1, ['aż1','bo','bowiem','chociaż','czy','jak','jeśli',
+	              'np','npt','podczas','ponieważ','pz','że'], NZ) },
+	przec,
+	zj(Wf1, A1, C1, T1, Rl1, O1, Neg1, ni, z(SwZ,Z2), Oz, _),
+	{ zrowne(Z2, NZ, Z), 
+          oblneg(Oz, Neg0, Neg, Neg1)}.
+
+% reguła niepotrzebna ze względu na j7 w połączeniu z j1
+% (znalazł Maciek Ogrodniczuk)
+% zj(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,Z), przec, @ @ @ @0) --> s(j6), 
+% 	zp(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z1), _), 
+% 	{ zrowne(Z1, ['aż1','bo','bowiem','chociaż','czy','jak','jeśli',
+% 	             'np','npt','podczas','ponieważ','pz','że'], Z2) }, 
+% 	spoj(sz, przec, ni),
+% 	zp(Wf1, A1, C1, T1, Rl1, O1, Neg1, ni, z(SwZ,Z3), _),
+% 	{ zrowne(Z3, Z2, Z),
+% % zdaniem Janusza zbędne?:
+%           oblneg(Oz, Neg0, Neg, Neg1) }.
+
+zj(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,Z), przec, @ @ @ @0) --> s(j7), 
+	zp(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z1), _), 
+	{ zrowne(Z1, ['aż1','bo','bowiem','chociaż','czy','jak','jeśli',
+	              'np','npt','podczas','ponieważ','pz','że'], Z2) }, 
+        spoj(sz, przec, ni),
+	zj(Wf1, A1, C1, T1, Rl1, O1, Neg1, ni, z(SwZ,Z3), przec, _),
+	{ zrowne(Z3, Z2, Z),
+% j.w.?:
+	  oblneg(Oz, Neg0, Neg, Neg1) }.
+
+zj(Wf, A, C, T, Rl, 3, Neg0, I, z(SwZ,Z), Oz, @ @ @ @0)
+--> s(j8), spoj(sz, Oz, I), 
+	{ rozne(Oz, przec) },
+	zp(Wf, A, C, T, Rl, 3, Neg, ni, z(SwZ,Z1), _),
+	{ zrowne(Z1, ['byxx','choćby','czyżby','gdyby',
+	              'jakby','jakoby','żeby'], NZ) },
+	przec,
+	spoj(sz, Oz, ni),
+	zp(Wf, A1, C1, T1, Rl1, 3, Neg1, ni, z(SwZ,Z2), _),
+	{ zrowne(Z2, NZ, Z), 
+          oblneg(Oz, Neg0, Neg, Neg1)}.
+
+zj(Wf, A, C, T, Rl, 3, Neg0, I, z(SwZ,Z), Oz, @ @ @ @0)
+--> s(j9), spoj(sz, Oz, I), 
+	{ rozne(Oz, przec) },
+	zp(Wf, A, C, T, Rl, 3, Neg, ni, z(SwZ,Z1), _),
+	{ zrowne(Z1, ['byxx','choćby','czyżby','gdyby',
+	              'jakby','jakoby','żeby'], NZ) },
+	przec,
+	spoj(sz, Oz, ni),
+	zj(Wf, A1, C1, T1, Rl1, 3, Neg1, ni, z(SwZ,Z2), Oz, _),
+	{ zrowne(Z2, NZ, Z), 
+          oblneg(Oz, Neg0, Neg, Neg1)}.
+
+zj(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,Z), przec, @ @ @ @0)
+--> s(j10), zp(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z1), _), 
+	{ zrowne(Z1, ['byxx','choćby','czyżby','gdyby',
+	              'jakby','jakoby','żeby'], NZ) },
+	spoj(szk, przec, ni),
+	zp(Wf, A1, C1, T1, Rl1, 3, Neg1, ni, z(SwZ,Z2), _),
+	{ zrowne(Z2, NZ, Z), 
+          oblneg(Oz, Neg0, Neg, Neg1)}.
+
+zj(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,Z), przec, @ @ @ @0)
+--> s(j11), zp(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z1), _), 
+	{ zrowne(Z1, ['byxx','choćby','czyżby','gdyby',
+	              'jakby','jakoby','żeby'], NZ) },
+	spoj(szk, przec, ni),
+	zj(Wf, A1, C1, T1, Rl1, 3, Neg1, ni, z(SwZ,Z2), przec, _),
+	{ zrowne(Z2, NZ, Z), 
+          oblneg(Oz, Neg0, Neg, Neg1)}.
+
+zj(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,Z), Oz, @ @ @ @0)
+--> s(j12), spoj(sz, Oz, I), 
+	{ rozne(Oz, przec) },
+	zp(Wf, A, C, T, Rl, O, Neg, ni, z(SwZ,Z1), _),
+	{ zrowne(Z1, ['aż1xx','boxx','dopóki','gdyxx','npxx','npxxt',
+	              'zanim','zanimxx'], NZ) },
+	przec,
+	spoj(sz, Oz, ni),
+	zp(Wf1, A1, C, T, Rl1, O1, Neg1, ni, z(SwZ,Z2), _),
+	{ zrowne(Z2, NZ, Z), 
+          oblneg(Oz, Neg0, Neg, Neg1)}.
+
+zj(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,Z), Oz, @ @ @ @0)
+--> s(j13), spoj(sz, Oz, I), 
+	{ rozne(Oz, przec) },
+	zp(Wf, A, C, T, Rl, O, Neg, ni, z(SwZ,Z1), _),
+	{ zrowne(Z1, ['aż1xx','boxx','dopóki','gdyxx','npxx','npxxt',
+	              'zanim','zanimxx'], NZ) },
+	przec,
+	spoj(sz, Oz, ni),
+	zj(Wf1, A1, C, T, Rl1, O1, Neg1, ni, z(SwZ,Z2), Oz, _),
+	{ zrowne(Z2, NZ, Z), 
+          oblneg(Oz, Neg0, Neg, Neg1)}.
+
+zj(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,Z), przec, @ @ @ @0)
+--> s(j14), zp(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z1), _),
+	{ zrowne(Z1, ['aż1xx','boxx','dopóki','gdyxx','npxx','npxxt',
+	              'zanim','zanimxx'], NZ) },
+	spoj(szk, przec, ni),
+	zp(Wf1, A1, C, T, Rl1, O1, Neg1, ni, z(SwZ,Z2), _),
+	{ zrowne(Z2, NZ, Z), 
+          oblneg(Oz, Neg0, Neg, Neg1)}.
+
+zj(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,Z), przec, @ @ @ @0)
+--> s(j15), zp(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z1), _), 
+	{ zrowne(Z1, ['aż1xx','boxx','dopóki','gdyxx','npxx','npxxt',
+	              'zanim','zanimxx'], NZ) },
+	spoj(szk, przec, ni),
+	zj(Wf1, A1, C, T, Rl1, O1, Neg1, ni, z(SwZ,Z2), przec, _),
+	{ zrowne(Z2, NZ, Z), 
+          oblneg(Oz, Neg0, Neg, Neg1)}.
+
+zj(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,Z), Oz, @ @ @ @0)
+--> s(j16), spoj(sz, Oz, I),
+	{ rozne(Oz, przec) },
+	zp(Wf, A, C, T, Rl, O, Neg, ni, z(SwZ,Z1), _),
+	{ zrowne(Z1, ['aż2','box','gdy','npx','npxt'], NZ) },
+	przec,
+	spoj(sz, Oz, ni),
+	zp(Wf1, A1, C, T1, Rl1, O1, Neg1, ni, z(SwZ,Z2), _),
+	{ zrowne(Z2, NZ, Z), 
+          oblneg(Oz, Neg0, Neg, Neg1)}.
+
+zj(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,Z), Oz, @ @ @ @0)
+--> s(j17), spoj(sz, Oz, I), 
+	{ rozne(Oz, przec) },
+	zp(Wf, A, C, T, Rl, O, Neg, ni, z(SwZ,Z1), _),
+	{ zrowne(Z1, ['aż2','box','gdy','npx','npxt'], NZ) },
+	przec,
+	spoj(sz, Oz, ni),
+	zj(Wf1, A1, C, T1, Rl1, O1, Neg1, ni, z(SwZ,Z2), Oz, _),
+	{ zrowne(Z2, NZ, Z), 
+          oblneg(Oz, Neg0, Neg, Neg1)}.
+
+zj(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,Z), przec, @ @ @ @0)
+--> s(j18), zp(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z1), _), 
+	{ zrowne(Z1, ['aż2','box','gdy','npx','npxt'], NZ) },
+	spoj(szk, przec, ni),
+	zp(Wf1, A1, C, T1, Rl1, O1, Neg1, ni, z(SwZ,Z2), _),
+	{ zrowne(Z2, NZ, Z), 
+          oblneg(Oz, Neg0, Neg, Neg1)}.
+
+zj(Wf, A, C, T, Rl, O, Neg0, I, z(SwZ,Z), przec, @ @ @ @0)
+--> s(j19), zp(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z1), _), 
+	{ zrowne(Z1, ['aż2','box','gdy','npx','npxt'], NZ) },
+	spoj(szk, przec, ni),
+	zj(Wf1, A1, C, T1, Rl1, O1, Neg1, ni, z(SwZ,Z2), przec, _),
+	{ zrowne(Z2, NZ, Z), 
+          oblneg(Oz, Neg0, Neg, Neg1)}.
+
+
+% 5.5. Zdanie proste
+
+zp(Wf, A, C, T, Rl, O, Neg, I, Z, X)
+--> s(p1), ze(Wf, A, C, T, Rl, O, Wym, Neg, I, Z, br, @X).
+
+zp(Wf, A, przy, T, Rl, O, Neg, I, z(SwZ,NNZ), @ @ @ @0)
+--> s(p2), fzd(Oz, nk, A1, C1, T1, Neg1, I, _), 
+	{ rowne(Oz, ['choćby','gdyby']) },
+	przec,
+	spoj(pp, Oz, ni),
+	ze(Wf, A, przy, T, Rl, O, Wym, Neg, ni, z(SwZ,Z), Oz, _),
+	{ oblzal(Z, NZ, Oz),
+	  zrozne(NZ, ['byxx','choćby','co','czyżby','gdyby','jakby',
+	             'jaki','jakoby','kto','który','pz','żeby'], NNZ)
+	   }.
+
+zp(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,NNZ), @ @ @ @0)
+--> s(p3), fzd(Oz, nk, A1, C, T1, Neg1, I, _),
+	{ rowne(Oz, ['dopóki','gdy']) },
+	przec,
+	spoj(pp, Oz, ni),
+	ze(Wf, A, C, T, Rl, O, Wym, Neg, ni, z(SwZ,Z), Oz, _),
+	{ oblzal(Z, NZ, Oz),
+	  zrozne(NZ, ['byxx','choćby','co','czyżby','gdyby','jakby',
+	             'jaki','jakoby','kto','który','pz','żeby'], NNZ)
+	   }.
+
+zp(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,NZ), @ @ @ @0)
+--> s(p4), fzd(Oz, nk, A1, C1, T1, Neg1, I, _),
+	{ rowne(Oz, ['chociaż','jeśli']) },
+	przec,
+	spoj(pp, Oz, ni),
+	ze(Wf, A, C, T, Rl, O, Wym, Neg, ni, z(SwZ,Z), br, _),
+	{ zrozne(Z, ['byxx','choćby','co','czyżby','gdyby','jakby',
+	             'jaki','jakoby','kto','który','pz','żeby'], NZ) }.
+
+zp(Wf, A, C, T, Rl, 3, Neg, I, z(SwZ,NNZ), @ @ @ @0)
+--> s(p5), fzd(Oz, nk, A1, C1, T1, Neg1, I, _),
+	{ rowne(Oz, ['choćby','gdyby']) },
+	przec,
+	spoj(pp, Oz, ni),
+	ze(Wf, A, C, T, Rl, 3, Wym, Neg, ni, z(SwZ,Z), Oz, _),
+	{ oblzal(Z, NZ, Oz),
+	  zrowne(NZ, ['byxx','choćby','czyżby','gdyby',
+	             'jakby','jakoby','żeby'], NNZ)
+	    }.
+
+zp(Wf, A, C, T, Rl, 3, Neg, I, z(SwZ,NZ), @ @ @ @0)
+--> s(p5x), fzd(Oz, nk, A1, C1, T1, Neg1, I, _),
+	{ rowne(Oz, ['chociaż','jeśli']) },
+	przec,
+	spoj(pp, Oz, ni),
+	ze(Wf, A, C, T, Rl, 3, Wym, Neg, ni, z(SwZ,Z), br, _),
+	{ zrowne(Z, ['byxx','choćby','czyżby','gdyby',
+	             'jakby','jakoby','żeby'], NZ) }.
+
+zp(Wf, A, C, T, Rl, 3, Neg, I, z(SwZ,NNZ), @ @ @ @0)
+--> s(p6), fzd(Oz, nk, A1, C1, T1, Neg1, I, _),
+	{ rowne(Oz, ['dopóki','gdy']) },
+	przec,
+	spoj(pp, Oz, ni),
+	ze(Wf, A, C, T, Rl, 3, Wym, Neg, ni, z(SwZ,Z), Oz, _),
+	{ oblzal(Z, NZ, Oz),
+	  zrowne(NZ, ['byxx','choćby','czyżby','gdyby',
+	             'jakby','jakoby','żeby'], NNZ)
+	    }.
+
+zp(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,NNZ), @ @ @ @0)
+--> s(p7), spoj(pl, Oz, I), 
+	ze(Wf, A, C, T, Rl, O, Wym, Neg, ni, z(SwZ,Z), Oz, _),
+	{ oblzal(Z, NZ, Oz),
+	  zrozne(NZ, ['byxx','choćby','co','czyżby','gdyby','jakby',
+	             'jaki','jakoby','kto','który','pz','żeby'], NNZ)
+		   },
+	fzd(Oz, nk, A1, C, T1, Neg1, ni, _),
+	przec.
+
+zp(Wf, A, C, T, Rl, 3, Neg, I, z(SwZ,NNZ), @ @ @ @0)
+--> s(p8), spoj(pl, Oz, I), 
+	ze(Wf, A, C, T, Rl, 3, Wym, Neg, ni, z(SwZ,Z), Oz, _),
+	{ oblzal(Z, NZ, Oz),
+	  zrowne(NZ, ['byxx','choćby','czyżby','gdyby',
+	            'jakby','jakoby','żeby'], NNZ)
+	    },
+	fzd(Oz, nk, A1, C, T1, Neg1, ni, _),
+	przec.
+
+zp(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z), @ @ @ @0)
+--> s(p9), ze(Wf, A, C, T, Rl, O, Wym, Neg, I, z(npp(SwZ),Z2), br, _),
+	{ oblnp(Z2, Z) },
+	przec,
+	spoj(pc, bo, ni),
+	ze(Wf1, A1, C1, T1, Rl1, O1, Wym1, Neg1, ni, z(SwZ1,Z1), br, _),
+	{ zrowne(Z1, [p], SwZ1) }.
+
+zp(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,NZ), @ @ @ @0)
+--> s(p10), ze(Wf, A, C, T, Rl, O, Wym, Neg, I, z(npp(SwZ),Z2), 'więc', _),
+	{ oblzal(Z2, NZ2, 'więc'), oblnp(NZ2, NZ) },
+	przec,
+	spoj(pc, 'więc', ni),
+	ze(Wf1, A1, C1, T1, Rl1, O1, Wym1, Neg1, ni, z(SwZ1,Z1), br, _),
+	{ zrowne(Z1, [p], SwZ1) }.
+
+zp(Wf, A, C, T, Rl, O, Neg, I, Z, @ @ @ @0)
+--> s(p11), ze(Wf, A, C, T, Rl, O, Wym, Neg, I, Z, br, _), 
+	przec,
+	spoj(pc, bo, ni),
+	ze(Wf1, A1, C1, T1, Rl1, O1, Wym1, Neg1, ni, z(SwZ1,Z1), br, _),
+	{ zrowne(Z1, [bo], SwZ1) }.
+
+zp(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,NNZ), @ @ @ @0)
+--> s(p12), ze(Wf, A, C, T, Rl, O, Wym, Neg, I, z(SwZ,Z), 'więc', _),
+	{ oblzal(Z,NZ,'więc'),
+	  zrozne(NZ, ['byxx','choćby','co','czyżby','gdyby','jakby',
+	             'jaki','jakoby','kto','który',
+		     'p','px','pxx','pz','żeby'], NNZ)
+	   },
+	przec, 
+	spoj(pc, 'więc', ni),
+	ze(Wf1, A1, C1, T1, Rl1, O1, Wym1, Neg1, ni, z(SwZ1,Z1), br, _),
+	{ zrowne(Z1, [np], SwZ1) }.
+
+zp(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z), @ @ @ @0)
+--> s(p13), ze(Wf, A, C, T, Rl, O, Wym, Neg, I, z(npp(SwZ),Z2), br, _),
+	{ oblnp(Z2, Z) },
+	przec,
+	ze(Wf1, A1, C1, T1, Rl1, O1, Wym1, Neg1, bowiem, z(SwZ1,Z1), br, _),
+	{ zrowne(Z1, [p], SwZ1) }.
+
+zp(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,NZ), @ @ @ @0)
+--> s(p14), ze(Wf, A, C, T, Rl, O, Wym, Neg, I, z(npp(SwZ),Z2), 'więc', _),
+	{ oblzal(Z2,NZ2,'więc'), oblnp(NZ2, NZ) },
+	przec,
+	ze(Wf1, A1, C1, T1, Rl1, O1, Wym1, Neg1, 'więc', z(SwZ1,Z1), br, _),
+	{ zrowne(Z1, [p], SwZ1) }.
+
+zp(Wf, A, C, T, Rl, O, Neg, I, Z, @ @ @ @0)
+--> s(p15), ze(Wf, A, C, T, Rl, O, Wym, Neg, I, Z, br, _), 
+	przec,
+	ze(Wf1, A1, C1, T1, Rl1, O1, Wym1, Neg1, bowiem, z(SwZ1,Z1), br, _),
+	{ zrowne(Z1, [bowiem], SwZ1) }.
+
+zp(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,NNZ), @ @ @ @0)
+--> s(p16), ze(Wf, A, C, T, Rl, O, Wym, Neg, I, z(SwZ,Z), 'więc', _),
+	{ oblzal(Z, NZ, 'więc'),
+	  zrozne(NZ, ['byxx','choćby','co','czyżby','gdyby','jakby',
+	             'jaki','jakoby','kto','który',
+		     'p','px','pxx','pz','żeby'], NNZ)
+		   },
+	przec,
+	ze(Wf1, A1, C1, T1, Rl1, O1, Wym1, Neg1, 'więc', z(SwZ1,Z1), br, _),
+	{ zrowne(Z1, [np], SwZ1) }.
+
+
+% 5.6. Zdanie elementarne
+
+ze(Wf, A, C, T, Rl, O, Wym, Neg, I, z(SwZ,NZ), Ow, @ @ @ @0)
+--> s(e1), fl(A, C, Rl, O, Neg, I, z(SwZ1,Z1)), 
+	wymagania([], Wym, ResztaWym,
+	    ff(Wf, A, C, T, Rl, O, Wym, K, Neg, ni, z(SwZ,Z), Ow),
+	    W1/fw(W1, K, A, C, Rl, O, Neg, ni, z(SwZ2,Z2))/
+		 { zrowne(Z1, ['p','np'], SwZ1) }),
+        { resztawym(ResztaWym),
+	zrowne(Z, ['p','px','pxx'], NZ) }.
+
+ze(Wf, A, C, T, Rl, O, Wym, Neg, I, z(SwZ,NZ), Ow, @ @ @ @0)
+--> s(e2), fw(W1, K, A, C, Rl, O, Neg, I, z(SwZ1,Z1)),
+	{ zrowne(Z1, ['p','np'], SwZ1) },
+	wymagania([W1],  Wym, ResztaWym,
+	    ff(Wf, A, C, T, Rl, O, Wym, K, Neg, ni, z(SwZ,Z), Ow),
+		  W2/fw(W2, K, A, C, Rl, O, Neg, ni, z(SwZ2,Z2))/
+		 { zrowne(Z2, ['p','np'], SwZ2 ) }  ),
+        { resztawym(ResztaWym),
+	  zrowne(Z, ['p','px','pxx'], NZ ) }.
+
+ze(Wf, A, C, T, Rl, O, Wym, Neg, I, z(SwZ,NZ), Ow, @ @ @ @0)
+--> s(e3), ff(Wf, A, C, T, Rl, O, Wym, K, Neg, I, z(SwZ,Z), Ow),
+	{ zrowne( Z, ['p','px','pxx'], NZ ) },
+	wymagane( Wym, ResztaWym,
+	          W1/fw(W1, K, A, C, Rl, O, Neg, ni, z(SwZ1,Z1))/
+		{ zrowne(Z1, ['p','np'], SwZ1 ) } ),
+       { resztawym(ResztaWym) }.
+
+ze(Wf, A, C, T, Rl, O, Wym, Neg, I, z(SwZ,NZ), Ow, @ @ @ @0)
+--> s(e4), fl(A, C, Rl, O, Neg, I, z(SwZ0,Z0)),
+	{ zrowne(Z0, [np], SwZ0) },
+	wymagania([], Wym, ResztaWym,
+	    ff(Wf, A, C, T, Rl, O, Wym, K, Neg, ni, z(SwZ,Z), Ow),
+	    W1/fw(W1, K, A, C, Rl, O, Neg, ni, z(SwZ1,Z1))/
+		 { zrowne( Z1, [np], SwZ1 ) }),
+       { resztawym(ResztaWym),
+	zrozne(Z, ['byxx','choćby','co','czyżby','gdyby','jakby',
+	            'jaki','jakoby','kto','który',
+		    'p','px','pxx','pz','żeby'], NZ) }.
+
+ze(Wf, A, C, T, Rl, O, Wym, Neg, I, z(SwZ,NZ), Ow, @ @ @ @0)
+--> s(e5), fw(W0, K, A, C, Rl, O, Neg, I, z(SwZ3,Z3)),
+	{ zrowne( Z3, [np], SwZ3 ) },
+	wymagania([W0],  Wym, ResztaWym,
+	    ff(Wf, A, C, T, Rl, O, Wym, K, Neg, ni, z(SwZ,Z), Ow),
+	    W1/fw(W1, K, A, C, Rl, O, Neg, ni, z(SwZ1,Z1))/
+		 {zrowne(Z1, [np], SwZ1)} ),
+	{ resztawym(ResztaWym),
+	  zrozne(Z, ['byxx','choćby','co','czyżby','gdyby','jakby',
+	    'jaki','jakoby','kto','który','p','px','pxx','pz','żeby'], NZ) }.
+
+ze(Wf, A, C, T, Rl, O, Wym, Neg, I, z(SwZ,NZ), Ow, @ @ @ @0)
+--> s(e6), ff(Wf, A, C, T, Rl, O, Wym, K, Neg, I, z(SwZ,Z), Ow),
+	{ zrozne(Z, ['byxx','choćby','co','czyżby','gdyby','jakby','jaki',
+	    'jakoby','kto','który','p','px','pxx','pz','żeby'], NZ) },
+	wymagane(Wym, ResztaWym, 
+	         W1/fw(W1, K, A, C, Rl, O, Neg, ni, z(SwZ1,Z1) )/
+		{zrowne( Z1, [np], SwZ1 )} ),
+	{ resztawym(ResztaWym)  }.
+
+ze(Wf, A, C, T, Rl, O, Wym, Neg, I, z(SwZ,NNZ), Ow, @ @ @ @0)
+--> s(e7), fl(A, C, Rl, O, Neg, I, z(SwZ,Z)),
+	{ zrowne( Z, ['byxx','choćby','czyżby',
+	            'gdyby','jakby','jakoby','żeby'], NZ ) },
+	wymagania([], Wym, ResztaWym,
+	    ff(Wf, A, C, T, Rl, 3, Wym, K, Neg, ni, z(SwZ,WZ), Ow),
+	    W1/fw(W1, K, A, C, Rl, O, Neg, ni, z(SwZ1,Z1))/
+		 { zrowne( Z1, [np], SwZ1 ) }),
+       { resztawym(ResztaWym),
+	 zrowne( NZ, WZ, NNZ ) }.
+
+ze(Wf, A, C, T, Rl, 3, Wym, Neg, ni, z(SwZ,NZ), Ow, @ @ @ @0)
+--> s(e7e1), fw(W0, K, A, C, Rl, 3, Neg, ni, z(SwZ3,Z3)),
+	{ zrowne( Z3, [np], SwZ3 ) },
+	wymagania([ W0 ],  Wym, ResztaWym,
+	    ff(Wf, A, C, T, Rl, 3, Wym, K, Neg, ni, z(SwZ,Z), Ow),
+	    W1/fw(W1, K, A, C, Rl, 3, Neg, ni, z(SwZ1,Z1))/
+		 { zrowne(Z1, [np], SwZ1) } ),
+	{ resztawym(ResztaWym),
+	  zrowne(Z, ['byxx','choćby','czyżby',
+	            'gdyby','jakby','jakoby','żeby'], NZ) }.
+
+ze(Wf, A, C, T, Rl, 3, Wym, Neg, ni, z(SwZ,NZ), Ow, @ @ @ @0)
+--> s(e7e2), ff(Wf, A, C, T, Rl, 3, Wym, K, Neg, ni, z(SwZ,Z), Ow),
+	{ zrowne(Z, ['byxx','choćby','czyżby',
+	            'gdyby','jakby','jakoby','żeby'], NZ) },
+	wymagane(Wym, ResztaWym, 
+	         W1/fw(W1, K, A, C, Rl, 3, Neg, ni, z(SwZ1,Z1) )/
+		{ zrowne( Z1, [np], SwZ1 ) } ),
+	{ resztawym(ResztaWym) }.
+
+ze(Wf, A, C, T, Rl, O, Wym, Neg, I, z(SwZ,NNZ), Ow, @ @ @ @0)
+--> s(e8), fl(A, C, Rl, O, Neg, I, z(SwZ,Z)),
+	{ zrowne( Z, [pz], NZ ) },
+	wymagania([], Wym, ResztaWym,
+	    ff(Wf, A, C, T, Rl, O, Wym, K, Neg, ni, z(SwZ,FZ), Ow),
+	    W1/fw(W1, K, A, C, Rl, O, Neg, ni, z(SwZ1,Z1))/
+		 { zrowne(Z1, ['p','np'], SwZ1 ) } ),
+       { resztawym(ResztaWym),
+	 zrowne(NZ, FZ, NNZ ) }.
+
+ze(Wf, A, C, T, Rl, O, Wym, Neg, I, z(SwZ,NZ), Ow, @ @ @ @0)
+--> s(e9), fw(W1, K, A, C, Rl, O, Neg, I, z(SwZ3,Z3)),
+	{ zrowne( Z3, [pz], SwZ3 ) },
+	wymagania([W1],  Wym, ResztaWym,
+	    ff(Wf, A, C, T, Rl, O, Wym, K, Neg, ni, z(SwZ,Z), Ow),
+	    W2/fw(W2, K, A, C, Rl, O, Neg, ni, z(SwZ1,Z1))/
+		 { zrowne(Z1, ['p','np'], SwZ1) } ),
+	{ resztawym(ResztaWym),
+	  zrowne(Z, [pz], NZ) }.
+
+ze(Wf, A, C, T, Rl, O, Wym, Neg, I, z(SwZ,NZ), Ow, @ @ @ @0)
+--> s(e10), ff(Wf, A, C, T, Rl, O, Wym, K, Neg, I, z(SwZ,Z), Ow),
+	{ zrowne( Z, [pz], NZ) },
+	wymagane( Wym, ResztaWym,
+	          W1/fw(W1, K, A, C, Rl, O, Neg, ni, z(SwZ1,Z1))/
+		{ zrowne(Z1, ['p','np'], SwZ1) } ),
+       { resztawym(ResztaWym) }.
+
+ze(Wf, A, C, T, Rl, O, Wym, Neg, I, z(SwZ,NNZ), Ow, @ @ @ @0)
+--> s(e11), fl(A, C, Rl, O, Neg, I, z(SwZ,Z)),
+	{ zrowne(Z, ['co','jaki','kto','który'], NZ) },
+	wymagania([],  Wym, ResztaWym,
+	    ff(Wf, A, C, T, Rl, O, Wym, K, Neg, ni, z(SwZ,FZ), Ow),
+	    W1/fw(W1, K, A, C, Rl, O, Neg, ni, z(SwZ1,Z1))/
+		 { zrowne( Z1, [np], SwZ1) } ),
+       { resztawym(ResztaWym),
+	 zrowne( NZ, FZ, NNZ )  }.
+
+ze(Wf, A, C, T, Rl, O, Wym, Neg, I, z(SwZ,NNZ), Ow, @ @ @ @0)
+--> s(e12), fw(W1, K, A, C, Rl, O, Neg, I, z(SwZ,Z)),
+	{ zrowne(Z, ['co','jaki','kto','który'], NZ) },
+	wymagania([ W1 ],  Wym, ResztaWym,
+	    ff(Wf, A, C, T, Rl, O, Wym, K, Neg, ni, z(SwZ,FZ), Ow),
+	    W2/fw(W2, K, A, C, Rl, O, Neg, ni, z(SwZ2,Z2))/
+		 { zrowne( Z2, [np], SwZ2) } ),
+       { resztawym(ResztaWym),
+	 zrowne( NZ, FZ, NNZ ) }.
+
+% nie ma szansy na inicjalny element względny:
+% ze(Wf, A, C, T, Rl, O, Wym, Neg, I, z(SwZ,NZ), Ow, @ @ @ @0)
+% --> s(e13), ff(Wf, A, C, T, Rl, O, Wym, K, Neg, I, z(SwZ,Z), Ow),
+% 	{ zrowne(Z, ['co','jaki','kto','który'], NZ) },
+% 	wymagane( Wym, ResztaWym,
+% 	          [W1/fw(W1, K, A, C, Rl, O, Neg, ni, z(SwZ1,Z1)),
+% 		   W2/fw(W2, K, A, C, Rl, O, Neg, ni, z(SwZ2,Z2)),
+% 		   W3/fw(W3, K, A, C, Rl, O, Neg, ni, z(SwZ3,Z3))] ),
+%         { resztawym(ResztaWym),
+% 	  zrowne( Z1, [np], SwZ1),
+% 	  zrowne( Z2, [np], SwZ2),
+% 	  zrowne( Z3, [np], SwZ3) }.
+
+ze( Wf, A, C, T, Rl, O, Wym, Neg, I, z(_,Z), Ow, @ @ @ @0 )
+     --> s(e14), pyt( 'czyżby', ni ),
+       zr( Wf, A, C, T, Rl, O, Neg, I, z(SwZ1,Z1), _ ),
+       { zrowne( Z1, ['czyżby'], SwZ1 ),
+	 Z = ['p','px','pxx'] }.
+
+ze(Wf, A, C, T, Rl, O, Wym, Neg, I, z(_,Z), Ow, @ @ @ @0)
+--> s(e15), zr(Wf, A, C, T, Rl, O, Neg, I, z(SwZ1,Z1), _),
+	{ zrowne(Z1, [npt], SwZ1), Z=['p','px','pxx'] }.
+
+% ze(Wf, A, C, T, Rl, O, Wym, Neg, I, z(SwZ,NZ), Ow, @ @ @ @0)
+% --> s(e16), fl(A, C, Rl, O, Neg, I, z(SwZ,Z)),
+% 	{ zrowne(Z, ['co','jaki','kto','który','p','px','pxx','pz'], NZ) },
+% 	zr(Wf, A, C, T, Rl, O, Neg, ni, z(SwZ1,Z1), _),
+% 	{ zrowne(Z1, [npt], SwZ1) }.
+
+ze(Wf, A, C, T, Rl, O, Wym, Neg, I, z(_,Z), Ow, @ @ @ @0)
+--> s(e17), pyt(czy, I), 
+	zr(Wf, A, C, T, Rl, O, Neg, ni, z(SwZ1,Z1), _),
+	{ zrowne( Z1, [npt], SwZ1 ),
+	Z = ['p','px','pxx','pz'] }.
+
+% ze(Wf, A, C, T, Rl, O, Wym, Neg, I, z(SwZ,NZ), Ow, @ @ @ @0)
+% --> s(e18), fl(A, C, Rl, O, Neg, I, z(SwZ1,Z1)),
+% 	{ zrowne(Z1, [np], SwZ1) },
+% 	zr(Wf, A, C, T, Rl, O, Neg, ni, z(SwZ,Z), _),
+% 	{ zrozne(Z, ['byxx','choćby','co','czyżby','gdyby','jakby',
+% 	             'jaki','jakoby','kto','który',
+% 		     'p','px','pxx','pz','żeby'], NZ) }.
+
+ze(Wf, A, C, T, Rl, O, Wym, Neg, I, z(SwZ,Z), Ow, X)
+--> s(e19), zr(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z), @X). %,
+%       { oblzal(Z1, Z, Ow)}.
+
+
+% 5.7. Fraza finitywna
+
+ff(Wf, A, C, T, Rl, O, Wym, K, Neg, I, Z, Ow) --> s(fi1),
+	ff1(Wf, A, C, T, Rl, O, Wym, K, Neg, I, Z, Ow).
+
+ff(Wf, A, C, T, Rl, O, Wym, K, Neg, I, z(SwZ,NZ), Ow) --> s(fi2),
+	ff1(Wf, A, C, T, Rl, O, Wym, K, Neg, I, z(SwZ,Z), Ow),
+	{ zrowne( Z, ['p','px','pxx','pz'], NZ ) }, 
+	fl(A, C, Rl, O, Neg, ni, z(SwZ1,Z1)),
+	{ zrowne( Z1, ['np','p'], SwZ1 ) }.
+
+ff(Wf, A, C, T, Rl, O, Wym, K, Neg, I, z(SwZ,NZ), Ow) --> s(fi3),
+	ff1(Wf, A, C, T, Rl, O, Wym, K, Neg, I, z(SwZ,Z), Ow),
+	{ zrozne( Z, ['p','px','pxx','pz'], NZ) },
+	fl(A, C, Rl, O, Neg, ni, z(SwZ1,Z1)), 
+	{ zrowne( Z1, [np], SwZ1 ) }.
+
+ff1(Wf, A, C, T, Rl, O, Wym, K, Neg, I, z(SwZ,Z), Ow) --> s(fi4),
+	kweneg(Wf, A, C, T, Rl, O, Wym, K, Neg, I, z(ow(SwZ,Ow),Z)), 
+	{ rowne( Wf, ['os','bos','bok'] )
+						%    , oblzal( Z1, Z, Ow ) 
+    }.
+
+
+% 5.8. Fraza wymagana
+
+fw(Tfw, K, A, C, Rl, O, Neg, I, Z) --> s(wy1),
+	fw1(Tfw, K, A, C, Rl, O, Neg, I, Z).
+
+fw(Tfw, K, A, C, Rl, O, Neg, I, z(_,[p])) --> s(wy2),
+	fw1(Tfw, K, A, C, Rl, O, Neg, I, z(SwZ1,Z1)), 
+	fl(A, C, Rl, O, Neg, ni, z(SwZ2,Z2)),
+	{ zplubnp(Z1,Z2,SwZ1,SwZ2) }.
+
+fw( Tfw, K, A, C, Rl, O, Neg, I, z(SwZ,NZ) ) --> s(wy3),
+	fw1( Tfw, K, A, C, Rl, O, Neg, I, z(SwZ,Z) ),
+	{ zrowne( Z, [pz], NZ ) },
+	fl( A, C, Rl, O, Neg, ni, z(SwZ1,Z1) ),
+	{ zrowne( Z1, ['np','p'], SwZ1 ) }.
+
+fw(Tfw, K, A, C, Rl, O, Neg, I, z(SwZ,NZ)) --> s(wy4),
+	fw1(Tfw, K, A, C, Rl, O, Neg, I, z(SwZ,Z)), 
+	{ zrozne( Z, ['p','pz'], NZ ) },
+	fl(A, C, Rl, O, Neg, ni, z(SwZ1,Z1)),
+	{ zrowne( Z1, [np], SwZ1 ) }.
+
+%
+% Wymaganie puste zostało obsłużone na poziomie zdania elementarnego.
+%fw(nic, K, A, C, Rl, O, Neg, ni, np) --> s(wy5).
+%
+
+fw1(infp(A1), K, A, C, Rl, O, Neg, I, Z)
+     --> s(wy6), fwe(bok, A1, C, T, Rl1, O1, wym([],_), K, Neg, I, Z).
+                                                           
+
+fw1(prepnp(Pm,P), K, A, C, Rl, O, Neg, I, Z)
+     --> s(wy7), fpm(Pm, P, Neg, I, Z, Kl).
+
+fw1(subj, K, A, C, Rl, O, Neg, I, Z)
+     --> s(wy8), fno(mian, Rl, O, Neg, I, Z, Kl, _).
+
+fw1(np(bier), K, A, C, Rl, O, nie(Neg), I, Z)
+     --> s(wy9), fno(dop, Rl1, O1, nie(Neg), I, Z, Kl, _).
+
+fw1(np(bier), K, A, C, Rl, O, tak, I, Z)
+     --> s(wy10), fno(bier, Rl1, O1, tak, I, Z, Kl, _).
+
+fw1(np(P), K, A, C, Rl, O, Neg, I, Z)
+     --> s(wy11), fno(P, Rl1, O1, Neg, I, Z, Kl, _), 
+       { rozne(P, ['mian','bier','miej','wol'])}.
+
+fw1(sie, K, A, C, Rl, O, Neg, ni, z(_,[np])) -->
+	s(wy20), [morf(_,'się',qub)].
+
+% to ma być ‘się’ bezosobowe („czyta się książki.”)
+fw1(subj, _K, _A, _C, r(mn(n),nmo(np(n)))/poj, 3, _Neg, ni, z(_,[np])) -->
+	s(wy21), [morf(_,'się',qub)].
+
+fw1(adjp(mian), K, A, C, Rl, O, Neg, I, Z)
+     --> s(wy12), fpt(mian, Rl, St, Neg, I, Z, Kl, _).
+
+fw1(adjp(bier), K, A, C, Rl, O, nie(Neg), I, Z)
+     --> s(wy13), fpt(dop, Rl, St, nie(Neg), I, Z, Kl, _).
+
+fw1(adjp(bier), K, A, C, Rl, O, tak, I, Z)
+     --> s(wy14), fpt(bier, Rl, St, tak, I, Z, Kl, _).
+
+fw1(adjp(narz), K, A, C, Rl, O, Neg, I, Z)
+     --> s(wy15), fpt(narz, Rl, St, Neg, I, Z, Kl, _).
+
+fw1(advp, K, A, C, Rl, O, Neg, I, Z)
+     --> s(wy16), fps(St, Neg, I, Z, Kl, _).
+
+fw1(sentp(Tfz), bier, A, C, Rl, O, nie(_), I, z(_,Z))
+--> s(wy17), fzd(Tfz, dop, A1, C1, T1, Neg1, I, _),
+	przec,
+	{ rowne(Tfz, ['aż1','czy','jak','jakby','jakoby',
+	              'mie1','mie2','mie3','pz','że','żeby']),
+	  Z = [p,np,pz,co,jaki,kto,'który'] }.
+
+fw1(sentp(Tfz), bier, A, C, Rl, O, tak, I, z(_,Z))
+--> s(wy18), fzd(Tfz, bier, A1, C1, T1, Neg1, I, _),
+	przec,
+	{ rowne(Tfz,['aż1','czy','jak','jakby','jakoby',
+	             'mie1','mie2','mie3','pz','że','żeby']),
+	Z = [p,np,pz,co,jaki,kto,'który'] }.
+
+fw1(sentp(Tfz), nk, A, C, Rl, O, Neg, I, z(_,Z))
+--> s(wy19), fzd(Tfz, nk, A1, C1, T1, Neg1, I, _),
+	przec,
+	{ rowne(Tfz, ['aż1','czy','jak','jakby','jakoby',
+	              'mie1','mie2','mie3','pz','że','żeby']), 
+	Z = [p,np,pz,co,jaki,kto,'który'] }.
+
+fw1(sentp(K,Tfz), K, A, C, Rl, O, Neg, I, z(_,Z))
+--> s(wy19a), fzd(Tfz, K, A1, C1, T1, Neg1, I, _),
+	przec,
+	{ rowne(Tfz, ['aż1','czy','jak','jakby','jakoby',
+	              'mie1','mie2','mie3','pz','że','żeby']), 
+        rozne(K, [bier,bp,nk]),
+	Z = [p,np,pz,co,jaki,kto,'który'] }.
+
+fw1(sentp(Pm,P,Tfz), Pm/P, A, C, Rl, O, Neg, I, z(_,Z))
+--> s(wy19b), fzd(Tfz, Pm/P, A1, C1, T1, Neg1, I, _),
+	przec,
+	{ rowne(Tfz, ['aż1','czy','jak','jakby','jakoby',
+	              'mie1','mie2','mie3','pz','że','żeby']), 
+	Z = [p,np,pz,co,jaki,kto,'który'] }.
+
+
+% 5.9. Fraza luźna
+
+fl(A, C, Rl, O, Neg, I, Z) --> s(lu1),
+	fl1(A, C, Rl, O, Neg, I, Z).
+
+fl(A, C, Rl, O, Neg, I, z(_,[p])) --> s(lu2),
+	fl1(A, C, Rl, O, Neg, I, z(SwZ1,Z1)),
+	fl(A, C, Rl, O, Neg, ni, z(SwZ2,Z2)),
+	{ zplubnp(Z1,Z2,SwZ1,SwZ2) }.
+
+fl(A, C, Rl, O, Neg, I, z(SwZ,NZ)) --> s(lu3),
+	fl1(A, C, Rl, O, Neg, I, z(SwZ,Z)),
+	{ zrowne( Z, [pz], NZ ) },
+	fl(A, C, Rl, O, Neg, ni, z(SwZ1,Z1)),
+	{ zrowne( Z1, ['p','np'], SwZ1 ) }.
+
+fl(A, C, Rl, O, Neg, I, z(SwZ,NZ)) --> s(lu4),
+	fl1(A, C, Rl, O, Neg, I, z(SwZ,Z)), 
+	{ zrozne(Z, ['p','pz'], NZ) },
+	fl(A, C, Rl, O, Neg, ni, z(SwZ1,Z1)),
+	{ zrowne(Z1, [np], SwZ1) }.
+
+fl1(A, C, Rl, O, Neg, I, z(SwZ,NZ))
+--> s(lu5), fpm(Pm, P, Neg, I, z(SwZ,Z), Kl), 
+	{ zrozne(Z, ['byxx','choćby','czyżby',
+	             'gdyby','jakby','jakoby','żeby'], NZ) }.
+
+fl1(A, C, Rl, O, Neg, I, z(SwZ,NZ))
+--> s(lu6), fno(P, Rl1, O1, Neg, I, z(SwZ,Z), Kl, _), 
+	{ rozne(P, [mian,miej,wol]), 
+          zrozne(Z, ['byxx','choćby','czyżby',
+	             'gdyby','jakby','jakoby','żeby'], NZ) }.
+
+fl1(A, C, Rl, O, Neg, I, z(SwZ,NZ))
+--> s(lu7), fps(St, Neg, I, z(SwZ,Z), Kl, _),
+	{ zrozne(Z, ['byxx','choćby','czyżby',
+	             'gdyby','jakby','jakoby','żeby'], NZ) }.
+
+fl1(A, C, Rl, O, Neg, I, z(_,Z))
+--> s(lu8), agl(Rl, O, I), 
+	{ Z = ['byxx','choćby','czyżby','gdyby','jakby','jakoby','żeby']}.
+
+fl1(A, C, Rl, O, Neg, I, z(SwZ,NZ))
+--> s(lu9), przec, 
+	fwe(psw, A1, C, T1, Rl1, O1, wym([],_), K, Neg, I, z(SwZ,Z)),
+	{ zrowne( Z, [np], NZ ) },
+	przec.
+
+fl1(A, C, Rl, O, Neg, I, z(SwZ,NZ))
+--> s(lu10), przec, 
+	fwe(psu, A1, prze, T1, Rl1, O1, wym([],_), K, Neg, I, z(SwZ,Z)),
+	{ zrowne( Z, [np], NZ ) },
+	przec.
+
+fl1(A, przy, Rl, O, Neg, I, z(SwZ,NZ))
+--> s(lu11), przec, 
+	fwe(psu, A1, C, T1, Rl1, O1, wym([],_), K, Neg, I, z(SwZ,Z)),
+	{ zrowne( Z, [np], NZ ) },
+	przec.
+
+fl1(A, C, Rl, 2, Neg, ni, z(SwZ,NZ))
+--> s(lu12), przec, 
+	fno(wol, Rl, _O1, Neg1, ni, z(SwZ,Z), Kl, _),
+	{ zrowne( Z, [np], NZ ) },
+	przec.
+
+fl1(A, C, Rl, O, Neg, ni, z(SwZ,NZ))
+--> s(lu13), przec, 
+	fno(wol, Rl1, _O1, Neg1, ni, z(SwZ,Z), Kl, _),
+	{ zrowne( Z, [np], NZ ) },
+	przec,
+	{ rowne(O, [1,3])}.
+
+% Realizacja pusta wydaje się zbędna.
+%fl1(A, C, Rl, O, Neg, ni, np)
+%     --> s(lu14).
+
+fl1(nd, C, Rl, O, tak, I, z(_,[np]))
+     --> s(lu15), fzd('dopóki', nk, A1, C, T1, Neg1, I, _),
+       przec.
+
+fl1(A, C, Rl, O, nie(nie), I, z(_,[np]))
+     --> s(lu16), fzd('dopóki', nk, A1, C, T1, Neg1, I, _),
+       przec.
+
+fl1(A, C, Rl, O, Neg, I, z(_,[np]))
+     --> s(lu17), fzd(Tfz, nk, A1, C1, T1, Neg1, I, _),
+       przec,
+       { rowne(Tfz, ['choćby','gdyby']), 
+        rozne(C, prze)}.
+
+fl1(A, C, Rl, O, Neg, I, z(_,[np]))
+     --> s(lu18), fzd(Tfz, nk, A1, C, T1, Neg1, I, _),
+       przec,
+       { rowne(Tfz, ['aż2','gdy','zanim'])}.
+
+fl1(A, C, Rl, O, Neg, I, z(_,[np]))
+     --> s(lu19), fzd(Tfz, nk, A1, C1, T1, Neg1, I, _),
+	przec,
+	{ rowne(Tfz,['bo','co','chociaż','czy','jak','jeśli',
+	            'podczas','ponieważ'])}.
+
+% 5.10. Fraza werbalna
+
+fwe(Wf, A, C, T, Rl, O, Wym, K, Neg, I, z(SwZ,NZ))
+     --> s(we1), kweneg(Wf, A, C, T, Rl, O, Wym, K, Neg, I, z(SwZ,Z)),
+	{ rowne(Wf, [bok,psu,psw]),
+	  zrowne(Z, [pz,co,jaki,kto,'który'], NZ) }.
+
+fwe(Wf, A, C, T, Rl, O, wym(_,ResztaWym), K, Neg, I, z(SwZ,NZ))
+--> s(we2/4/6), kweneg(Wf, A, C, T, Rl, O, Wym, K, Neg, I, z(SwZ,Z)),
+	{ rowne(Wf, [bok,psu,psw]),
+	  zrowne( Z, ['p','px','pxx'], NZ ) },
+	wymagane( Wym, ResztaWym,
+	          W1/fw(W1, K, A, C, Rl, O, Neg, ni, z(SwZ1,Z1))/
+		{ zrowne(Z1, ['p','np'], SwZ1 ) } ),
+       { resztawym(ResztaWym) }.
+
+fwe(Wf, A, C, T, Rl, O, wym(_,ResztaWym), K, Neg, I, z(SwZ,NZ))
+--> s(we3/5/7),  fw(W1, K, A, C, Rl, O, Neg, I, z(SwZ1,Z1)),
+	{ zrowne(Z1, ['p','np'], SwZ1) },
+	wymagania([W1],  Wym, ResztaWym,
+	    kweneg(Wf, A, C, T, Rl, O, Wym, K, Neg, ni, z(SwZ,Z)),
+	    W2/fw(W2, K, A, C, Rl, O, Neg, ni, z(SwZ2,Z2))/
+		 { zrowne(Z2, ['p','np'], SwZ2 ) } ),
+        { rowne(Wf, [bok,psu,psw]),
+	  resztawym(ResztaWym),
+	  zrowne(Z, ['p','px','pxx'], NZ ) }.
+
+fwe(Wf, A, C, T, Rl, O, wym(_,ResztaWym), K, Neg, I, z(SwZ,NZ))
+--> s(we8/10/12), kweneg(Wf, A, C, T, Rl, O, Wym, K, Neg, I, z(SwZ,Z)),
+	{ rowne(Wf, [bok,psu,psw]),
+	  zrozne( Z, ['co','jaki','kto','który','p','px','pxx','pz'], NZ ) },
+	wymagane( Wym, ResztaWym,
+	          W1/fw(W1, K, A, C, Rl, O, Neg, ni, z(SwZ1,Z1))/
+		{ zrowne(Z1, [np], SwZ1 ) } ),
+       { resztawym(ResztaWym) }.
+
+fwe(Wf, A, C, T, Rl, O, wym(_,ResztaWym), K, Neg, I, z(SwZ,NZ))
+--> s(we9/11/13),  fw(W1, K, A, C, Rl, O, Neg, I, z(SwZ1,Z1)),
+	{ zrowne(Z1, [np], SwZ1) },
+	wymagania([W1],  Wym, ResztaWym,
+	    kweneg(Wf, A, C, T, Rl, O, Wym, K, Neg, ni, z(SwZ,Z)),
+	    W2/fw(W2, K, A, C, Rl, O, Neg, ni, z(SwZ2,Z2))/
+		 { zrowne(Z2, [np], SwZ2 ) } ),
+        { rowne(Wf, [bok,psu,psw]),
+	  resztawym(ResztaWym),
+	  zrozne(Z, ['co','jaki','kto','który','p','px','pxx','pz'], NZ ) }.
+
+
+fwe(Wf, A, C, T, Rl, O, wym(_,ResztaWym), K, Neg, I, z(SwZ,NZ))
+--> s(we14/15/16),  fw(W1, K, A, C, Rl, O, Neg, I, z(SwZ,Z1)),
+	{ zrowne(Z1, [pz], NZ1) },
+	wymagania([W1],  Wym, ResztaWym,
+	    kweneg(Wf, A, C, T, Rl, O, Wym, K, Neg, ni, z(SwZ,Z)),
+	    W2/fw(W2, K, A, C, Rl, O, Neg, ni, z(SwZ2,Z2))/
+		 { zrowne(Z2, ['p','np'], SwZ2 ) } ),
+        { rowne(Wf, [bok,psu,psw]),
+	  resztawym(ResztaWym),
+	  zrowne(Z, NZ1, NZ ) }.
+
+fwe(Wf, A, C, T, Rl, O, wym(_,ResztaWym), K, Neg, I, z(SwZ,NZ))
+--> s(we17/18/19),  fw(W1, K, A, C, Rl, O, Neg, I, z(SwZ,Z1)),
+	{ zrowne(Z1, ['co','jaki','kto','który'], NZ1) },
+	wymagania([W1],  Wym, ResztaWym,
+	    kweneg(Wf, A, C, T, Rl, O, Wym, K, Neg, ni, z(SwZ,Z)),
+	    W2/fw(W2, K, A, C, Rl, O, Neg, ni, z(SwZ2,Z2))/
+		 { zrowne(Z2, [np], SwZ2 ) } ),
+        { rowne(Wf, [bok,psu,psw]),
+	  resztawym(ResztaWym),
+	  zrowne(Z, NZ1, NZ ) }.
+
+kweneg(Wf, A, C, T, Rl, O, Wym, K, nie(nie), I, z(SwZ,NZ))
+--> s(we20), partykula(nie), 
+	kweink(Wf, A, C, T, Rl, O, Wym, K, I, z(SwZ,Z)),
+	{ rowne(Wf, [bok,psu,psw]),
+	  zrowne( Z, ['p','px','pxx','pz'], NZ ) },
+	fl(A, C, Rl, O, nie(nie), ni, z(SwZ1,Z1)),
+	{ zrozne(Z1, [pz], NZ1),
+	  zrowne(NZ1, [np|NZ], SwZ1) }.
+
+kweneg(Wf, A, C, T, Rl, O, Wym, K, nie(_), I, z(SwZ,NZ))
+--> s(we21), partykula(nie), 
+	kweink(Wf, A, C, T, Rl, O, Wym, K, I, z(SwZ,Z)),
+	{ rowne(Wf, [bok,psu,psw]),
+	  zrozne( Z, ['p','px','pxx','pz'], NZ )},
+	fl(A, C, Rl, O, nie(nie), ni, z(SwZ1,Z1)),
+	{ zrowne( Z1, [np], SwZ1 ) }.
+
+kweneg(Wf, A, C, T, Rl, O, Wym, K, tak, I, z(SwZ,NZ))
+--> s(we22), kweink(Wf, A, C, T, Rl, O, Wym, K, I, z(SwZ,Z)), 
+	{ rowne(Wf, [bok,psu,psw]),
+	  zrowne(Z, ['p','px','pxx','pz'], NZ) },
+	fl(A, C, Rl, O, tak, ni, z(SwZ1,Z1)),
+	{ zrozne( Z1, [pz], NZ1 ),
+          zrowne( NZ1, [np|NZ], SwZ1) }.
+
+kweneg(Wf, A, C, T, Rl, O, Wym, K, tak, I, z(SwZ,NZ))
+     --> s(we23), kweink(Wf, A, C, T, Rl, O, Wym, K, I, z(SwZ,Z)),
+	{ rowne(Wf, [bok,psu,psw]),
+	  zrozne( Z, ['aż1xx','boxx','byxx','dopóki',
+	'gdyxx',p,'px','pxx','pz','zanimxx'], NZ ) },
+	fl(A, C, Rl, O, tak, ni, z(SwZ1, Z1)),
+	{ zrowne(Z1, [np], SwZ1 )}.
+
+kweneg(Wf, nd, C, T, Rl, O, Wym, K, tak, I, z(SwZ,NZ))
+--> s(we24), kweink(Wf, A, C, T, Rl, O, Wym, K, I, z(SwZ,Z)), 
+	{ rowne(Wf, [bok,psu,psw]),
+	  zrowne( Z, ['aż1xx','boxx','byxx',
+	              'dopóki','gdyxx','zanimxx'], NZ ) },
+	fl(A, C, Rl, O, tak, ni, z(SwZ1,Z1)),
+	{ zrowne( Z1, [np], SwZ1 ) }.
+
+%%%% *dodane
+%%%% W ramach usuwania reguł epsilonowych
+
+kweneg(Wf, A, C, T, Rl, O, Wym, K, nie(nie), I, z(SwZ,NZ))
+--> s(we20e), partykula(nie), 
+	kweink(Wf, A, C, T, Rl, O, Wym, K, I, z(SwZ,Z)),
+	{ zrowne( Z, ['p','px','pxx','pz'], NZ ) }.
+
+kweneg(Wf, A, C, T, Rl, O, Wym, K, nie(_), I, z(SwZ,NZ))
+--> s(we21e), partykula(nie),
+	kweink(Wf, A, C, T, Rl, O, Wym, K, I, z(SwZ,Z)),
+       { zrozne( Z, ['p','px','pxx','pz'], NZ ) }.
+
+kweneg(Wf, A, C, T, Rl, O, Wym, K, tak, I, z(SwZ,NZ))
+--> s(we22e), kweink(Wf, A, C, T, Rl, O, Wym, K, I, z(SwZ,Z)), 
+	{ zrozne( Z, ['aż1xx','boxx','byxx','dopóki','gdyxx','zanimxx'], NZ) }.
+
+kweneg(Wf, nd, C, T, Rl, O, Wym, K, tak, I, z(SwZ,NZ))
+--> s(we24e), kweink(Wf, A, C, T, Rl, O, Wym, K, I, z(SwZ,Z)), 
+	{ zrowne(Z, ['aż1xx','boxx','byxx','dopóki','gdyxx','zanimxx'], NZ) }.
+
+%%%% /dodane
+
+kweink(Wf, A, C, T, Rl, O, Wym, K, I, Z)
+--> s(we25), kwer(Wf, A, C, T, Rl, O, Wym, K, Z), 
+	spoj(Tsp, I, ni),
+	{ rowne(I, ['bowiem','natomiast','więc','zaś']),
+	  rowne(Tsp, [pi,ri]) }.
+
+kweink(Wf, A, C, T, Rl, O, Wym, K, ni, Z)
+     --> s(we26), kwer(Wf, A, C, T, Rl, O, Wym, K, Z).
+
+kwer(bos, A, prze, T, Rl, 3, Wym, K, Z)
+     --> s(we27), kwer1(bos, A, prze, T, Rl, 3, Wym, K, Z).
+
+kwer(Wf, A, C, T, Rl, 3, Wym, K, Z)
+     --> s(we28), kwer1(Wf, A, C, T, Rl, 3, Wym, K, Z),
+       { rowne(Wf, ['bok','psu','psw']) }.
+
+kwer(os, A, C, T, Rl, O, Wym, K, Z)
+     --> s(we29), kwer1(os, A, C, T, Rl, O, Wym, K, Z).
+
+
+kwer1(Wf, A, C, T, Rl, O, Wym, K, z(_,['np','npx','npxx'| Z1]))
+     --> s(we30n), 
+	formaczas(Wf, A, C, T, Rl, O, Wym, K ),
+	{ (T \== roz
+    ->
+	Z1 = ['npt','npxt','npxxt','p','px','pxx','pz'| Z2]
+    ;
+	Z1 = Z2 ),
+	( T \== roz, Wf \== bok
+    ->
+	Z2 = ['aż1xx','aż2','bo','box','boxx','bowiem','chociaż', 
+	       'co','czy','dopóki','gdy','gdyxx',
+	       'jak','jaki','jeśli','kto','który',
+	       'podczas','ponieważ','że'| Z3]
+    ;
+	Z2 = Z3 ),
+	( T \== roz, Wf \== bok, C == przy
+    ->
+	Z3 = ['aż1'| Z4]
+    ;
+	Z3 = Z4),
+	( T \== roz, Wf \== bok, A == dk
+    ->
+	Z4 = [zanim, zanimxx | Z5]
+    ;
+	Z4 = Z5 ),
+	( Wf \== bok, C == prze, T == ozn
+    ->
+	Z5 = ['byxx','choćby','czyżby','gdyby','jakby','jakoby','żeby']
+    ;
+	Z5 = [])
+	}.
+
+kwer1(bok, A, prze, ozn, Rl, O, Wym, K,
+	z(_,['byxx','choćby','czyżby','gdyby','jakby','jakoby','żeby']))
+     --> s(we35n),
+	formaczas(bok, A, prze, ozn, Rl, O, Wym, K ).
+
+% 5.11. Fraza przyimkowa
+
+fpm(Pm, P, Neg, I, Z, Kl) --> s(pm1),
+	przyimek(Pm, P), 
+	fno(P, Rl, O, Neg, I, Z, Kl, _).
+
+% 5.12. Fraza nominalna
+
+fno(P, Rl, O, Neg, I, Z, Kl, X)
+--> s(no1),
+	knodop(P, Rl, O, Neg, I, Z, Kl, @X).
+
+fno(P, Rl, O, Neg, I, Z, Kl, @ @ @ @ @0)
+--> s(no2),
+	knodop(P, Rl, O, Neg, I, Z, Kl, _),
+	{ rozne(Kl, ['co','kto','wz']) },
+	fzd('który', nk, A, C, T, Neg1, Rl, _),
+	przec.
+
+fno(P, Rl, O, Neg, I, Z, Kl, @ @ @ @ @0)
+--> s(no3), knodop(P, Rl, O, Neg, I, Z, Kl, _), 
+	{ rowne(Kl, ['co','kto']) },
+	fzd(Tfz, nk, A, C, T, Neg1, Rl, _),
+	{ rowne(Tfz, [Kl, 'który'])},
+	przec.
+
+fno(P, Rl, O, Neg, I, Z, tk, @ @ @ @ @0)
+--> s(no4), knodop(P, Rl, O, Neg, I, Z, tk, _), 
+	fzd(Tfz, nk, A, C, T, Neg1, ni, _),
+	{ rowne(Tfz, ['jakby','jaki','że','żeby'])},
+	przec.
+
+knodop(P, Rl, O, Neg, I, Z, Kl, X)
+--> s(no5), knopm(P, Rl, O, Neg, I, Z, Kl, @X).
+
+knodop(P, Rl, O, Neg, I, z(_,[p]), Kl, @ @ @ @ @0)
+--> s(no6), knopm(P, Rl, O, Neg, I, z(SwZ,Z), Kl2, _), 
+	{ rozne(Kl2, os) },
+	fno(dop, Rl1, 3, Neg1, ni, z(SwZ1,Z1), Kl1, _),
+	{ zplubnp(Z,Z1,SwZ,SwZ1),
+          rozne(Kl1, kto),
+	  oblkl(Kl, Kl1, Kl2) }.
+
+knodop(P, Rl, O, Neg, I, z(_,[p]), Kl, @ @ @ @ @0)
+--> s(no7), fno(dop, Rl1, 3, Neg1, I, z(SwZ1,Z1), Kl1, _), 
+        { rozne(Kl1, kto) },
+	knopm(P, Rl, O, Neg, ni, z(SwZ,Z), Kl2, _),
+	{ zplubnp(Z,Z1,SwZ,SwZ1),
+	  rozne(Kl2, os), 
+	  oblkl(Kl, Kl1, Kl2)}.
+
+knodop(P, Rl, O, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0)
+--> s(no8), knopm(P, Rl, O, Neg, I, z(SwZ,Z), Kl2, _), 
+	{ zrowne(Z, ['co','jaki','który','np'], NZ ), 
+	  rozne(Kl2, ['os','wz']) },
+	fno(dop, Rl1, 3, Neg1, ni, z(SwZ1,Z1), Kl1, _),
+	{ zrowne( Z1, [np], SwZ1 ),
+          rozne(Kl1, kto), 
+	  oblkl(Kl, Kl1, Kl2)}.
+
+knodop(P, Rl, O, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0)
+--> s(no9), fno(dop, Rl1, 3, Neg1, I, z(SwZ,Z), Kl1, _),
+	{ zrowne( Z, ['co','jaki','który','np'], NZ ), 
+          rozne(Kl1, kto) },
+	knopm(P, Rl, O, Neg, ni, z(SwZ1,Z1), Kl2, _),
+	{ zrowne( Z1, [np], SwZ1 ),
+          rozne(Kl2, os), 
+	  oblkl(Kl, Kl1, Kl2)}.
+
+knodop(P, Rl, O, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0)
+--> s(no10), knopm(P, Rl, O, Neg, I, z(SwZ,Z), Kl2, _), 
+	{ zrowne(Z, [pz], NZ) },
+	fno(dop, Rl1, 3, Neg1, ni, z(SwZ1,Z1), Kl1, _),
+	{ zrowne(Z1, ['np','p'], SwZ1), 
+        rozne(Kl1, kto), 
+        oblkl(Kl, Kl1, Kl2)}.
+
+knodop(P, Rl, O, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0)
+     --> s(no11), fno(dop, Rl1, 3, Neg1, I, z(SwZ,Z), Kl1, _),
+	{ rozne(Kl1, kto), 
+	  zrowne(Z, [pz], NZ) },
+	knopm(P, Rl, O, Neg, ni, z(SwZ1,Z1), Kl2, _),
+	{ zrowne(Z1, ['np','p'], SwZ1), 
+          rozne(Kl2, os), 
+	  oblkl(Kl, Kl1, Kl2)}.
+
+knopm(P, Rl, O, Neg, I, Z, Kl, X)
+--> s(no12), knoatr(P, Rl, O, Neg, I, Z, Kl, @X).
+
+knopm(P, Rl, O, Neg, I, z(_,[p]), Kl, @ @ @ @ @0)
+--> s(no13), knoatr(P, Rl, O, Neg, I, z(SwZ,Z), Kl2, _), 
+	fpm(Pm, P1, Neg1, ni, z(SwZ1,Z1), Kl1),
+	{ zplubnp(Z,Z1,SwZ,SwZ1),
+          oblkl(Kl, Kl1, Kl2)}.
+
+knopm(P, Rl, O, Neg, I, z(_,[p]), Kl, @ @ @ @ @0)
+--> s(no14), fpm(Pm, P1, Neg1, I, z(SwZ1,Z1), Kl1), 
+	knoatr(P, Rl, O, Neg, ni, z(SwZ,Z), Kl2, _),
+	{ zplubnp(Z,Z1,SwZ,SwZ1),
+          oblkl(Kl, Kl1, Kl2)}.
+
+knopm(P, Rl, O, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0)
+--> s(no15), knoatr(P, Rl, O, Neg, I, z(SwZ,Z), Kl2, _), 
+	{ zrowne(Z, ['co','jaki','który','np'], NZ) },
+	fpm(Pm, P1, Neg1, ni, z(SwZ1,Z1), Kl1),
+	{ zrowne(Z1, [np], SwZ1),
+          oblkl(Kl, Kl1, Kl2)}.
+
+knopm(P, Rl, O, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0)
+--> s(no16), fpm(Pm, P1, Neg1, I, z(SwZ,Z), Kl1),
+	{ zrowne(Z, ['co','jaki','kto','który','np'], NZ) },
+	knoatr(P, Rl, O, Neg, ni, z(SwZ1,Z1), Kl2, _),
+	{ zrowne(Z1, [np], SwZ1),
+          oblkl(Kl, Kl1, Kl2)}.
+
+knopm(P, Rl, O, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0)
+--> s(no17), knoatr(P, Rl, O, Neg, I, z(SwZ,Z), Kl2, _), 
+	{ zrowne(Z, [pz], NZ) },
+	fpm(Pm, P1, Neg1, ni, z(SwZ1,Z1), Kl1),
+	{ zrowne(Z1, ['np','p'], SwZ1), 
+          oblkl(Kl, Kl1, Kl2)}.
+
+knopm(P, Rl, O, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0)
+--> s(no18), fpm(Pm, P1, Neg1, I, z(SwZ,Z), Kl1), 
+	{ zrowne(Z, [pz], NZ) },
+	knoatr(P, Rl, O, Neg, ni, z(SwZ1,Z1), Kl2, _),
+	{ zrowne(Z1, ['np','p'], SwZ1), 
+          oblkl(Kl, Kl1, Kl2)}.
+
+knoatr(P, Rl, O, Neg, I, Z, Kl, X)
+     --> s(no19), knoink(P, Rl, O, Neg, I, Z, Kl, @X).
+
+knoatr(P, Rl, O, Neg, I, z(_,[p]), Kl, @ @ @ @ @0)
+--> s(no20), knoink(P, Rl, O, Neg, I, z(SwZ,Z), Kl2, _), 
+	fpt(P, Rl, St1, Neg1, ni, z(SwZ1,Z1), Kl1, _),
+	{ zplubnp(Z,Z1,SwZ,SwZ1),
+          rozne(Kl2, co), 
+	  oblkl(Kl, Kl1, Kl2) }.
+
+knoatr(P, Rl, O, Neg, I, z(_,[p]), Kl, @ @ @ @ @0)
+--> s(no21), knoink(P, Rl, O, Neg, I, z(SwZ,Z), co, _), 
+	{ rowne(P, ['mian','bier']) },
+	fpt(dop, Rl, St1, Neg1, ni, z(SwZ1,Z1), Kl1, _),
+	{ zplubnp(Z,Z1,SwZ,SwZ1),
+        oblkl(Kl, Kl1, Kl2)}.
+
+knoatr(P, Rl, O, Neg, I, z(_,[p]), Kl, @ @ @ @ @0)
+--> s(no22), knoink(P, Rl, O, Neg, I, z(SwZ,Z), co, _), 
+	{ rozne(P, ['mian','bier']) },
+	fpt(P, Rl, St1, Neg1, ni, z(SwZ1,Z1), Kl1, _),
+	{ zplubnp(Z,Z1,SwZ,SwZ1),
+        oblkl(Kl, Kl1, Kl2)}.
+
+knoatr(P, Rl, O, Neg, I, z(_,[p]), Kl, @ @ @ @ @0)
+--> s(no23), fpt(P, Rl, St1, Neg1, I, z(SwZ1,Z1), Kl1, _),
+	knoink(P, Rl, O, Neg, ni, z(SwZ,Z), Kl2, _),
+	{ zplubnp(Z,Z1,SwZ,SwZ1),
+          rozne(Kl2, co), 
+	  oblkl(Kl, Kl1, Kl2)}.
+
+knoatr(P, Rl, O, Neg, I, z(_,[p]), Kl, @ @ @ @ @0)
+--> s(no24), fpt(dop, Rl, St1, Neg1, I, z(SwZ1,Z1), Kl1, _),
+	knoink(P, Rl, O, Neg, ni, z(SwZ,Z), co, _),
+	{ rowne(P, ['mian','bier']), 
+	  zplubnp(Z,Z1,SwZ,SwZ1),
+	  oblkl(Kl, Kl1, Kl2)}.
+
+knoatr(P, Rl, O, Neg, I, z(_,[p]), Kl, @ @ @ @ @0)
+--> s(no25), fpt(P, Rl, St1, Neg1, I, z(SwZ1,Z1), Kl1, _),
+	knoink(P, Rl, O, Neg, ni, z(SwZ,Z), co, _),
+	{ rozne(P, ['mian','bier']),
+	  zplubnp(Z,Z1,SwZ,SwZ1),
+	  oblkl(Kl, Kl1, Kl2)}.
+
+knoatr(P, Rl, O, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0)
+--> s(no26), knoink(P, Rl, O, Neg, I, z(SwZ,Z), Kl2, _), 
+	{ zrowne(Z, ['co','jaki','kto','który','np'], NZ), 
+          rozne(Kl2, ['co','os','wz']) },
+	fpt(P, Rl, St1, Neg1, ni, z(SwZ1,Z1), Kl1, _),
+	{ zrowne(Z1, [np], SwZ1),
+          oblkl(Kl, Kl1, Kl2) }.
+
+knoatr(P, Rl, O, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0)
+--> s(no27), fpt(P, Rl, St1, Neg1, I, z(SwZ,Z), Kl1, _),
+	{ zrowne(Z, ['co','jaki','kto','który','np'], NZ) },
+	knoink(P, Rl, O, Neg, ni, z(SwZ1,Z1), Kl2, _),
+	{ zrowne(Z1, [np], SwZ1),
+          rozne(Kl2, ['co','os','wz']), 
+	  oblkl(Kl, Kl1, Kl2) }.
+
+knoatr(P, Rl, O, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0)
+--> s(no28), knoink(P, Rl, O, Neg, I, z(SwZ,Z), co, _), 
+	{ rowne(P, ['mian','bier']), 
+	  zrowne(Z, [np], NZ) },
+	fpt(dop, Rl, St1, Neg1, ni, z(SwZ1,Z1), Kl1, _),
+	{ zrowne(Z1, [np], SwZ1),
+          oblkl(Kl, Kl1, Kl2)}.
+
+knoatr(P, Rl, O, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0)
+--> s(no29), knoink(P, Rl, O, Neg, I, z(SwZ,Z), co, _), 
+	{ rozne(P, ['mian','bier']), 
+	  zrowne(Z, [np], NZ) },
+	fpt(P, Rl, St1, Neg1, ni, z(SwZ1,Z1), Kl1, _),
+	{ zrowne(Z1, [np], SwZ1),
+          oblkl(Kl, Kl1, Kl2)}.
+
+knoatr(P, Rl, O, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0)
+--> s(no30), fpt(dop, Rl, St1, Neg1, I, z(SwZ1,Z1), Kl1, _),
+	{ zrowne(Z1, [np], SwZ1) },
+	knoink(P, Rl, O, Neg, ni, z(SwZ,Z), co, _),
+	{ rowne(P, ['mian','bier']), 
+	  zrowne(Z, [np], NZ),
+	  oblkl(Kl, Kl1, Kl2) }.
+
+knoatr(P, Rl, O, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0)
+--> s(no31), fpt(P, Rl, St1, Neg1, I, z(SwZ1,Z1), Kl1, _),
+	{ rozne(P, ['mian','bier']), 
+	  zrowne(Z1, [np], SwZ1) },
+	knoink(P, Rl, O, Neg, ni, z(SwZ,Z), co, _),
+	{ zrowne(Z, [np], NZ),
+          oblkl(Kl, Kl1, Kl2) }.
+
+knoatr(P, Rl, O, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0)
+--> s(no32), knoink(P, Rl, O, Neg, I, z(SwZ,Z), Kl2, _), 
+	{ rozne(Kl2, [co]),
+	  zrowne(Z, [pz], NZ) },
+	fpt(P, Rl, St1, Neg1, ni, z(SwZ1,Z1), Kl1, _),
+	{ zrowne(Z1, ['np','p'], SwZ1), 
+          oblkl(Kl, Kl1, Kl2)}.
+
+knoatr(P, Rl, O, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0)
+--> s(no33), knoink(P, Rl, O, Neg, I, z(SwZ,Z), co, _), 
+	{ rowne(P, ['mian','bier']),
+	  zrowne(Z, [pz], NZ) },
+	fpt(dop, Rl, St1, Neg1, ni, z(SwZ1,Z1), Kl1, _),
+	{ zrowne(Z1, ['np','p'], SwZ1),
+          oblkl(Kl, Kl1, Kl2)}.
+
+knoatr(P, Rl, O, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0)
+--> s(no34), knoink(P, Rl, O, Neg, I, z(SwZ,Z), co, _), 
+	{ rozne(P, ['mian','bier']),
+	  zrowne(Z, [pz], NZ) },
+	fpt(P, Rl, St1, Neg1, ni, z(SwZ1,Z1), Kl1, _),
+	{ zrowne(Z1, ['np','p'], SwZ1), 
+          oblkl(Kl, Kl1, Kl2)}.
+
+knoatr(P, Rl, O, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0)
+--> s(no35), fpt(P, Rl, St1, Neg1, I, z(SwZ,Z), Kl1, _),
+	{ zrowne(Z, [pz], NZ) },
+	knoink(P, Rl, O, Neg, ni, z(SwZ1,Z1), Kl2, _),
+	{ rozne(Kl2, co), 
+          zrowne(Z1, ['np','p'], SwZ1), 
+	  oblkl(Kl, Kl1, Kl2) }.
+
+knoatr(P, Rl, O, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0)
+--> s(no36), fpt(dop, Rl, St1, Neg1, I, z(SwZ,Z), Kl1, _),
+	{ zrowne(Z, [pz], NZ) },
+	knoink(P, Rl, O, Neg, ni, z(SwZ1,Z1), co, _),
+	{ rowne(P, ['mian','bier']),
+	  zrowne(Z1, ['np','p'], SwZ1), 
+	  oblkl(Kl, Kl1, Kl2) }.
+
+knoatr(P, Rl, O, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0)
+--> s(no37), fpt(P, Rl, St1, Neg1, I, z(SwZ,Z), Kl1, _),
+	{ zrowne(Z, [pz], NZ),
+	  rozne(P, ['mian','bier']) },
+        knoink(P, Rl, O, Neg, ni, z(SwZ1,Z1), co, _),
+	{ zrowne(Z1, ['np','p'], SwZ1), 
+          oblkl(Kl, Kl1, Kl2) }.
+
+% knoatr(P, Rl, 3, Neg, I, Z, Kl, @ @ @ @ @0)
+%      --> s(no38), fpt(P, Rl, St, Neg, I, Z, Kl, _).
+
+knoink(P, Rl, O, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0) --> s(no39),
+	knom(P, Rl, O, Neg, z(SwZ,Z), Kl, _),
+	{ zrowne(Z, ['np','p','pz'], NZ) },
+	spoj(Tsp, I, ni),
+	{ rowne(I, ['bowiem','natomiast','więc','zaś']),
+  	  rowne(Tsp, [pi,ri]) }.
+
+knoink(P, Rl, O, Neg, ni, z(SwZ,NZ), Kl, X) --> s(no40), 
+	knom(P, Rl, O, Neg, z(SwZ,Z), Kl, @X), 
+	{ zrowne( Z, ['np','p','pz'], NZ ) }.
+
+knoink(P, Rl, O, Neg, Rl, z(SwZ,NZ), Kl, X) --> s(no41), 
+	knom(P, Rl, O, Neg, z(SwZ,Z), Kl, @X), 
+	{ rozne(I, ['bowiem','natomiast','ni','więc','zaś']),
+        zrowne( Z, ['co','jaki','kto','który'], NZ ) }.
+
+knom(P, Rl, 3, Neg, z(_,Z), Kl, @ @ @ @ @ 0)
+--> s(no42), zaimpyt(rzecz, P, Rl, 3, Kl), 
+	{ Z = [p,pz], 
+          rowne(Kl, ['co','kto'])}.
+
+knom(P, Rl, 3, Neg, z(_,[np]), Kl, @ @ @ @ @ 0)
+--> s(no43), zaimno(rzecz, P, Rl, 3, Kl), 
+	{ rowne(Kl, ['co','kto'])}.
+
+knom(P, Rl, 3, nie(_), z(_,[np]), Kl, @ @ @ @ @ 0)
+--> s(no44), zaimneg(rzecz, P, Rl, 3, Kl),
+	{ rowne(Kl, ['co','kto'])}.
+
+knom(P, Rl, O, _Neg, z(_,[np]), os, @ @ @ @ @ 0) --> s(no45),
+	zaimos( P, Rl, O ).
+
+knom(P, Rl, 3, Neg, z(_,[np]), rzecz, @ @ @ @ @ 0)
+--> s(no46), formarzecz(P, Rl).
+
+% reguła dodana na mocy listu prof. Świdzińskiego z 28 grudnia 1999:
+%knom(P, Rl, 3, _Neg, z(_,[np]), rzecz, @ @ @ @ @ 0) --> s(no46x),
+%	zaimrzecz( _F, P, Rl ).
+
+knom(P, Rl, 3, Neg, z(_,[Kl]), wz, @ @ @ @ @ 0)
+--> s(no47), zaimwzg(rzecz, P, Rl, 3, Kl),
+	{ rowne( Kl, ['co','kto','który']) }.
+
+knom(P, Rl, O, Neg, Z, Kl, X)
+--> s(no48), fno(P, Rl, O, Neg, ni, Z, Kl, @X).
+
+% 5.13. Fraza przymiotnikowa
+
+fpt(P, Rl, St, Neg, I, Z, Kl, X)
+     --> s(pt1), kptno(P, Rl, St, Neg, I, Z, Kl, @X).
+
+fpt(P, Rl, St, Neg, I, Z, tk, @ @ @ @ @0)
+     --> s(pt2), kptno(P, Rl, St, Neg, I, Z, tk, _),
+       fzd(Tfz, nk, A, C, T, Neg1, ni, _),
+       przec,
+       { rowne(Tfz, ['jakby','jaki','że','żeby'])}.
+
+kptno(P, Rl, St, Neg, I, Z, Kl, X)
+     --> s(pt3), kptpm(P, Rl, St, Neg, I, Z, Kl, @X).
+
+kptno(P, Rl, St, Neg, I, z(_,[p]), Kl, @ @ @ @ @0)
+     --> s(pt4), kptpm(P, Rl, St, Neg, I, z(SwZ1,Z1), Kl2, _),
+       fno(P1, Rl1, O, Neg1, ni, z(SwZ2,Z2), Kl1, _),
+       { zplubnp( Z1, Z2, SwZ1, SwZ2 ),
+         oblkl(Kl, Kl1, Kl2)}.
+
+kptno(P, Rl, St, Neg, I, z(_,[p]), Kl, @ @ @ @ @0)
+--> s(pt5), fno(P1, Rl1, O, Neg1, I, z(SwZ1,Z1), Kl1, _), 
+	kptpm(P, Rl, St, Neg, ni, z(SwZ2,Z2), Kl2, _),
+	{ zplubnp( Z1, Z2, SwZ1, SwZ2 ),
+          oblkl(Kl, Kl1, Kl2)}.
+
+kptno(P, Rl, St, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0)
+--> s(pt6), kptpm(P, Rl, St, Neg, I, z(SwZ,Z), Kl2, _),
+	{ zrowne(Z, ['co','jaki','kto','który','np'], NZ), 
+          rozne(Kl2, wz) }, 
+	fno(P1, Rl1, O, Neg1, ni, z(SwZ1,Z1), Kl1, _),
+	{ zrowne(Z1, [np], SwZ1),
+	  oblkl(Kl, Kl1, Kl2) }.
+
+kptno(P, Rl, St, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0)
+--> s(pt7), fno(P1, Rl1, O, Neg1, I, z(SwZ,Z), Kl1, _),
+	{ zrowne(Z, ['co','jaki','kto','który','np'], NZ) },
+	kptpm(P, Rl, St, Neg, ni, z(SwZ1,Z1), Kl2, _),
+	{ zrowne(Z1, [np], SwZ1),
+	  oblkl(Kl, Kl1, Kl2) }.
+
+kptno(P, Rl, St, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0)
+--> s(pt8), kptpm(P, Rl, St, Neg, I, z(SwZ,Z), Kl2, _),
+	{ zrowne(Z, [pz], NZ) },
+	fno(P1, Rl1, O, Neg1, ni, z(SwZ1,Z1), Kl1, _),
+	{ zrowne(Z1, ['np','p'], SwZ1), 
+          oblkl(Kl, Kl1, Kl2)}.
+
+kptno(P, Rl, St, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0)
+--> s(pt9), fno(P1, Rl1, O, Neg1, I, z(SwZ,Z), Kl1, _),
+	{ zrowne(Z, [pz], NZ) },
+	kptpm(P, Rl, St, Neg, ni, z(SwZ1,Z1), Kl2, _),
+	{ zrowne(Z1, ['np','p'], SwZ1), 
+          oblkl(Kl, Kl1, Kl2)}.
+
+kptpm(P, Rl, St, Neg, I, Z, Kl, X)
+     --> s(pt10), kptps(P, Rl, St, Neg, I, Z, Kl, @X).
+
+kptpm(P, Rl, St, Neg, I, z(_,[p]), Kl, @ @ @ @ @0)
+--> s(pt11), kptps(P, Rl, St, Neg, I, Z1, Kl2, _),
+	fpm(Pm, P1, Neg1, ni, Z2, Kl1),
+	{ zplubnp( Z1, Z2, SwZ1, SwZ2 ),
+          oblkl(Kl, Kl1, Kl2) }.
+
+kptpm(P, Rl, St, Neg, I, z(_,[p]), Kl, @ @ @ @ @0)
+--> s(pt12), fpm(Pm, P1, Neg1, I, Z1, Kl1), 
+	kptps(P, Rl, St, Neg, ni, Z2, Kl2, _),
+	{ zplubnp( Z1, Z2, SwZ1, SwZ2 ),
+          oblkl(Kl, Kl1, Kl2) }.
+
+kptpm(P, Rl, St, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0)
+--> s(pt13), kptps(P, Rl, St, Neg, I, z(SwZ,Z), Kl2, _),
+	{ zrowne(Z, ['co','jaki','kto','który','np'], NZ) },
+	fpm(Pm, P1, Neg1, ni, z(SwZ1,Z1), Kl1),
+	{ zrowne(Z1, [np], SwZ1),
+          oblkl(Kl, Kl1, Kl2)}.
+
+kptpm(P, Rl, St, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0)
+--> s(pt14), fpm(Pm, P1, Neg1, I, z(SwZ,Z), Kl1),
+	{ zrowne(Z, ['co','jaki','kto','który','np'], NZ) },
+	kptps(P, Rl, St, Neg, ni, z(SwZ1,Z1), Kl2, _),
+	{ zrowne(Z1, [np], SwZ1),
+          oblkl(Kl, Kl1, Kl2)}.
+
+kptpm(P, Rl, St, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0)
+--> s(pt15), kptps(P, Rl, St, Neg, I, z(SwZ,Z), Kl2, _),
+	{ zrowne(Z,[pz],NZ) },
+	fpm(Pm, P1, Neg1, ni, z(SwZ1,Z1), Kl1),
+	{ zrowne(Z1, ['np','p'], SwZ1),
+          oblkl(Kl, Kl1, Kl2)}.
+
+kptpm(P, Rl, St, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0)
+--> s(pt16), fpm(Pm, P1, Neg1, I, z(SwZ,Z), Kl1), 
+	{ zrowne(Z,[pz],NZ) },
+	kptps(P, Rl, St, Neg, ni, z(SwZ1,Z1), Kl2, _),
+	{ zrowne(Z, ['np','p'], SwZ1),
+          oblkl(Kl, Kl1, Kl2) }.
+
+kptps(P, Rl, St, Neg, I, Z, Kl, X)
+     --> s(pt17), kptink(P, Rl, St, Neg, I, Z, Kl, @X).
+
+kptps(P, Rl, St, Neg, I, z(_,[p]), Kl, @ @ @ @ @0)
+--> s(pt18), kptink(P, Rl, St, Neg, I, Z1, Kl2, _),
+	fps(St1, Neg1, ni, Z2, Kl1, _),
+	{ zplubnp( Z1, Z2, SwZ1, SwZ2 ),
+          oblkl(Kl, Kl1, Kl2) }.
+
+kptps(P, Rl, St, Neg, I, z(_,[p]), Kl, @ @ @ @ @0)
+--> s(pt19), fps(St1, Neg1, I, Z1, Kl1, _),
+	kptink(P, Rl, St, Neg, ni, Z2, Kl2, _),
+	{ zplubnp( Z1, Z2, SwZ1, SwZ2 ),
+          oblkl(Kl, Kl1, Kl2) }.
+
+kptps(P, Rl, St, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0)
+--> s(pt20), kptink(P, Rl, St, Neg, I, z(SwZ,Z), Kl2, _),
+	{ zrowne(Z, ['co','jaki','kto','który','np'], NZ) }, 
+	fps(St1, Neg1, ni, z(SwZ1,Z1), Kl1, _),
+	{ zrowne(Z1, [np], SwZ1),
+          oblkl(Kl, Kl1, Kl2)}.
+
+kptps(P, Rl, St, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0)
+--> s(pt21), fps(St1, Neg1, I, z(SwZ,Z), Kl1, _),
+	{ zrowne(Z, ['co','jaki','kto','który','np'], NZ) }, 
+	kptink(P, Rl, St, Neg, ni, z(SwZ1,Z1), Kl2, _),
+	{ zrowne(Z1, [np], SwZ1),
+          oblkl(Kl, Kl1, Kl2) }.
+
+kptps(P, Rl, St, Neg, I, z(_,[pz]), Kl, @ @ @ @ @0)
+--> s(pt22), kptink(P, Rl, St, Neg, I, z(SwZ,Z), Kl2, _),
+	{ zrowne(Z, ['co','jaki','kto','który','np'], SwZ) },
+	fps(St1, Neg1, ni, z(SwZ1,Z1), Kl1, _),
+	{ zrowne(Z1, ['np','p'], SwZ1),
+	  oblkl(Kl, Kl1, Kl2)}.
+
+kptps(P, Rl, St, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0)
+--> s(pt23), fps(St1, Neg1, I, z(SwZ,Z), Kl1, _),
+	{ zrowne(Z, [pz], NZ) },
+	kptink(P, Rl, St, Neg, ni, z(SwZ1,Z1), Kl2, _),
+	{ zrowne(Z1, [np], SwZ1),
+          oblkl(Kl, Kl1, Kl2) }.
+
+kptink(P, Rl, St, Neg, I, z(SwZ,NZ), Kl, @ @ @ @ @0)
+--> s(pt24), kprzym(P, Rl, St, Neg, z(SwZ,Z), Kl, _),
+        { zrozne(Z, [jaki], NZ) },
+	spoj(Tsp, I, ni),
+	{ rowne(I, ['bowiem','natomiast','więc','zaś']),
+	  rowne(Tsp, [pi,ri]) }.
+
+kptink(P, Rl, St, Neg, ni, z(SwZ,NZ), Kl, X)
+--> s(pt25), kprzym(P, Rl, St, Neg, z(SwZ,Z), Kl, @X),
+	{ zrozne(Z, [jaki], NZ)}.
+
+kptink(P, Rl, St, Neg, ni, z(SwZ,NZ), wz, X)
+--> s(pt26), kprzym(P, Rl, St, Neg, z(SwZ,Z), wz, @X),
+	{ zrowne(Z, [jaki], NZ) }.
+
+kprzym(P, Rl, row, Neg, z(_,[p,pz]), zaim, @ @ @ @ @0)
+     --> s(pt27), zaimpyt(przym, P, Rl, 3, zaim).
+
+kprzym(P, Rl, row, Neg, z(_,[np]), Kl, @ @ @ @ @0)
+     --> s(pt28), zaimno(przym, P, Rl, O, Kl),
+       { rowne(Kl, ['tk','zaim'])}.
+
+kprzym(P, Rl, row, nie(_Neg), z(_,[np]), zaim, @ @ @ @ @0)
+     --> s(pt29), zaimneg(przym, P, Rl, 3, Kl).
+
+kprzym(P, Rl, St, Neg, z(_,[np]), przym, @ @ @ @ @0)
+     --> s(pt30), formaprzym(P, Rl, St).
+
+kprzym(P, Rl, row, Neg, z(_,[jaki]), wz, @ @ @ @ @0)
+     --> s(pt31), zaimwzg(przym, P, Rl, 3, wz).
+
+kprzym(P, Rl, St, Neg, Z, Kl, X)
+     --> s(pt32), fpt(P, Rl, St, Neg, ni, Z, Kl, @X).
+
+
+% 5.14. Fraza przysłówkowa
+
+fps(St, Neg, I, Z, Kl, X)
+     --> s(ps1), kpspm(St, Neg, I, Z, Kl, @X).
+
+fps(St, Neg, I, Z, Kl, @ @ @ @0)
+     --> s(ps2), kpspm(St, Neg, I, Z, Kl, _),
+       fzd(Tfz, nk, A, C, T, Neg1, ni, _),
+       przec,
+       { rowne(Tfz, ['jak','jakby','że','żeby'])}.
+
+kpspm(St, Neg, I, Z, Kl, X)
+     --> s(ps3), kpsps(St, Neg, I, Z, Kl, @X).
+
+kpspm(St, Neg, I, z(_,[p]), Kl, @ @ @ @0)
+--> s(ps4), kpsps(St, Neg, I, z(SwZ1,Z1), Kl2, _),
+	fpm(Pm, P, Neg1, ni, z(SwZ2,Z2), Kl1),
+	{ zplubnp(Z1,Z2,SwZ1,SwZ2), 
+	  oblkl(Kl, Kl1, Kl2)}.
+
+kpspm(St, Neg, I, z(_,[p]), Kl, @ @ @ @0)
+--> s(ps5), fpm(Pm, P, Neg1, I, z(SwZ1,Z1), Kl1), 
+	kpsps(St, Neg, ni, z(SwZ2,Z2), Kl2, _),
+	{ zplubnp(Z1,Z2,SwZ1,SwZ2),
+	  oblkl(Kl, Kl1, Kl2)}.
+
+kpspm(St, Neg, I, z(SwZ,NZ), Kl, @ @ @ @0)
+--> s(ps6), kpsps(St, Neg, I, z(SwZ,Z), Kl2, _),
+	{ zrowne( Z, [co,jaki,kto,'który',np], NZ ) },
+	fpm(Pm, P, Neg1, ni, z(SwZ1,Z1), Kl1),
+	{ zrowne( Z1, [np], SwZ1 ),
+	oblkl(Kl, Kl1, Kl2) }.
+
+kpspm(St, Neg, I, z(SwZ,NZ), Kl, @ @ @ @0)
+--> s(ps7), fpm(Pm, P, Neg1, I, z(SwZ,Z), Kl1),
+	{ zrozne( Z, [co,jaki,kto,'który',np], NZ ) },
+	kpsps(St, Neg, ni, z(SwZ1,Z1), Kl2, _),
+	{ zrowne( Z1, [np], SwZ1 ),
+	oblkl(Kl, Kl1, Kl2)}.
+
+kpspm(St, Neg, I, z(SwZ,NZ), Kl, @ @ @ @0)
+--> s(ps8), kpsps(St, Neg, I, z(SwZ,Z), Kl2, _),
+	{ zrowne( Z, [pz], NZ ) },
+	fpm(Pm, P, Neg1, ni, z(SwZ1,Z1), Kl1),
+	{ zrowne(Z1, [np,p], SwZ1 ),
+        oblkl(Kl, Kl1, Kl2)}.
+
+kpspm(St, Neg, I, z(SwZ,NZ), Kl, @ @ @ @0)
+--> s(ps9), fpm(Pm, P, Neg1, I, z(SwZ,Z), Kl1), 
+	{ zrowne( Z, [pz], NZ ) },
+	kpsps(St, Neg, ni, z(SwZ1,Z1), Kl2, _),
+	{ zrowne(Z1, ['np','p'], SwZ1 ),
+        oblkl(Kl, Kl1, Kl2)}.
+
+kpsps(St, Neg, I, Z, Kl, X)
+     --> s(ps10), kpsink(St, Neg, I, Z, Kl, @X).
+
+kpsps(St, Neg, I, z(_,[p]), Kl, @ @ @ @0)
+--> s(ps11), kpsink(St, Neg, I, z(SwZ1,Z1), Kl2, _),
+	fps(St1, Neg1, ni, z(SwZ2,Z2), Kl1, _),
+	{ zplubnp(Z1,Z2,SwZ1,SwZ2),
+	  oblkl(Kl, Kl1, Kl2) }.
+
+kpsps(St, Neg, I, z(_,[p]), Kl, @ @ @ @0)
+--> s(ps12), fps(St1, Neg1, I, z(SwZ1,Z1), Kl1, _),
+	kpsink(St, Neg, ni, z(SwZ2,Z2), Kl2, _),
+	{ zplubnp(Z1,Z2,SwZ1,SwZ2),
+	  oblkl(Kl, Kl1, Kl2) }.
+
+kpsps(St, Neg, I, z(SwZ,NZ), Kl, @ @ @ @0)
+--> s(ps13), kpsink(St, Neg, I, z(SwZ,Z), Kl2, _),
+	{ zrowne( Z, ['co','jaki','kto','który','np'], NZ ) },
+	fps(St1, Neg1, ni, z(SwZ1,Z1), Kl1, _),
+	{ zrowne( Z1, [np], SwZ1 ),
+          oblkl(Kl, Kl1, Kl2)}.
+
+kpsps(St, Neg, I, z(SwZ,NZ), Kl, @ @ @ @0)
+--> s(ps14), fps(St1, Neg1, I, z(SwZ,Z), Kl1, _),
+	{ zrowne(Z, ['co','jaki','kto','który','np'], NZ) },
+	kpsink(St, Neg, ni, z(SwZ1,Z1), Kl2, _),
+	{ zrowne(Z1, [np], SwZ1),
+	  oblkl(Kl, Kl1, Kl2)}.
+
+kpsps(St, Neg, I, z(SwZ,NZ), Kl, @ @ @ @0)
+--> s(ps15), kpsink(St, Neg, I, z(SwZ,Z), Kl2, _),
+	{ zrowne(Z, [pz], NZ) },
+	fps(St1, Neg1, ni, z(SwZ1,Z1), Kl1, _),
+	{ zrowne(Z1, ['np','p'], SwZ1), 
+          oblkl(Kl, Kl1, Kl2)}.
+
+kpsps(St, Neg, I, z(SwZ,NZ), Kl, @ @ @ @0)
+--> s(ps16), fps(St1, Neg1, I, z(SwZ,Z), Kl1, _),
+	{ zrowne(Z, [pz], NZ) },
+	kpsink(St, Neg, ni, z(SwZ1,Z1), Kl2, _),
+	{ zrowne(Z1, ['np','p'], SwZ1), 
+        oblkl(Kl, Kl1, Kl2)}.
+
+kpsink(St, Neg, I, z(SwZ,NZ), Kl, @ @ @ @0) --> s(ps17),
+	kprzysl(St, Neg, z(SwZ,Z), Kl, _),
+	{ zrowne( Z, ['np','p','pz'], NZ ) },
+	spoj(Tsp, I, ni),
+	{ rowne(I, ['bowiem','natomiast','więc','zaś']),
+	  rowne(Tsp, [pi,ri])  }.
+
+kpsink(St, Neg, ni, z(SwZ,NZ), Kl, X)
+--> s(ps18), kprzysl(St, Neg, z(SwZ,Z), Kl, @X),
+	{ zrowne(Z, [np, p, pz], NZ) }.
+
+kprzysl(row, Neg, z(_,[p,pz]), Kl, @ @ @ @0)
+     --> s(ps19), zaimpyt(przysl, P, Rl, O, Kl).
+
+kprzysl(row, Neg, z(_,[np]), Kl, @ @ @ @0)
+     --> s(ps20), zaimno(przysl, P, Rl, O, Kl).
+
+kprzysl(row, nie(_Neg), z(_,[np]), Kl, @ @ @ @0)
+     --> s(ps21), zaimneg(przysl, P, Rl, O, Kl).
+
+kprzysl(St, Neg, z(_,[np]), Kl, @ @ @ @0)
+     --> s(ps22), formaprzysl(St).
+
+kprzysl(St, Neg, Z, Kl, X)
+     --> s(ps23), fps(St, Neg, ni, Z, Kl, @X).
+
+% 5.15. Fraza zdaniowa
+
+fzd(Tfz, K, A, C, T, Neg, I, X)
+--> s(zd1), fzdsz(Tfz, K, A, C, T, Neg, I, @X).
+
+fzd(Tfz, K, A, C, T, Neg0, I, @ @ @0)
+--> s(zd2), spoj(rl, Oz, I), 
+	fzdsz(Tfz, K, A, C, T, Neg, ni, _),
+	{ rowne(Tfz, ['aż1','chociaż','czy','jak','jeśli',
+	              'podczas','ponieważ','pz','że']), 
+          rozne(K, nk) },
+	przec,
+	spoj(rp, Oz, ni),
+	fzdsz(Tfz, K1, A1, C1, T1, Neg1, ni, _),
+        { rowne(K1, [K,'bp']) }.
+
+fzd(Tfz, K, A, C, T, Neg0, I, @ @ @0)
+--> s(zd3), fzdsz(Tfz, K, A, C, T, Neg0, I, _),
+	{ rowne(Tfz, ['aż1','chociaż','czy','jak','jeśli',
+	              'podczas','ponieważ','pz','że']) },
+	przec,
+	spoj(rc, Oz, ni),
+	fzdsz(Tfz, K1, A1, C1, T1, Neg1, ni, _),
+	{ rozne(K1, nk), 
+          rowne(K1, [K,'bp'])}.
+
+fzd(Tfz, bp, A, C, T, Neg0, I, @ @ @0)
+--> s(zd4), spoj(rl, Oz, I), 
+	fzdsz(Tfz, bp, A, C, T, Neg, ni, _),
+	{ rowne(Tfz, ['dopóki','zanim'])},
+	przec,
+	spoj(rp, Oz, ni),
+	fzdsz(Tfz, bp, A1, C, T, Neg1, ni, _).
+
+fzd(Tfz, K, A, C, T, Neg0, I, @ @ @0)
+--> s(zd5), fzdsz(Tfz, K, A, C, T, Neg0, I, _),
+	{ rowne(Tfz, ['dopóki','zanim']) },
+	przec,
+	spoj(rc, Oz, ni),
+        { rowne(Oz, ['alei','nie']) },
+	fzdsz(Tfz, bp, A1, C, T, Neg1, ni, _).
+
+fzd(Tfz, bp, A, C, T, Neg0, I, @ @ @0)
+--> s(zd6), spoj(rl, Oz, I), 
+	fzdsz(Tfz, bp, A, C, T, Neg, ni, _),
+	{ rowne(Tfz, ['aż2','gdy'])},
+	przec,
+	spoj(rp, Oz, ni),
+	fzdsz(Tfz, bp, A1, C, T1, Neg1, ni, _).
+
+fzd(Tfz, K, A, C, T, Neg0, I, @ @ @0)
+--> s(zd7), fzdsz(Tfz, K, A, C, T, Neg0, I, _),
+	{ rowne(Tfz, ['aż2','gdy']) }, 
+	przec,
+	spoj(rc, Oz, ni), 
+        { rowne(Oz, ['alei','nie']) },
+	fzdsz(Tfz, bp, A1, C, T1, Neg1, ni, _).
+
+fzd(Tfz, bp, A, C, T, Neg0, I, @ @ @0)
+--> s(zd8), spoj(rl, Oz, ni), 
+	fzdsz(Tfz, bp, A, C, T, Neg, I, _),
+	{ rowne(Tfz, ['co','jaki','kto','który'])},
+	przec,
+	spoj(rp, Oz, ni),
+	fzdsz(Tfz, bp, A1, C1, T1, Neg1, I, _).
+
+fzd(Tfz, K, A, C, T, Neg0, I, @ @ @0)
+--> s(zd9), fzdsz(Tfz, K, A, C, T, Neg0, I, _),
+	{ rowne(Tfz, ['co','jaki','kto','który']) }, 
+	przec,
+	spoj(rc, Oz, ni),
+        { rowne(Oz, ['alei','nie'])},
+	fzdsz(Tfz, bp, A1, C1, T1, Neg1, I, _).
+
+fzdsz(Tfz, K, A, C, T, Neg, I, X)
+--> s(zd10), fzdj(Tfz, K, A, C, T, Neg, I, Oz, @X),
+	{ rozne(Oz, lub)}.
+
+fzdsz(Tfz, K, A, C, T, Neg, I, @ @ @0)
+--> s(zd11), fzdkor(Tfz, K, A, C, T, Neg, I, _),
+	{ rowne(Tfz, ['aż1','chociaż','czy','jak','jeśli',
+	              'podczas','ponieważ','pz','że']), 
+          rozne(K, ['nk','bp']) },
+	przec,
+	fzdj(Tfz, K, A1, C1, T1, Neg1, ni, Oz, _),
+        { rozne(Oz, ['ani','przec']) }.
+
+fzdsz(Tfz, K, A, C, T, Neg, I, @ @ @0)
+--> s(zd12), fzdj(Tfz, K, A, C, T, Neg, I, przec, _),
+	{ rowne(Tfz, ['aż1','chociaż','czy','jak','jeśli',
+	              'podczas','ponieważ','pz','że']), 
+          rozne(K, ['nk','bp']) },
+	przec,
+	spoj(szk, Oz, ni),
+        { rozne(Oz, ani) },
+	fzdkor(Tfz, K, A1, C1, T1, Neg1, ni, _).
+
+fzdsz(Tfz, K, A, C, T, Neg, I, @ @ @0)
+--> s(zd13), fzdkor(Tfz, K, A, C, T, Neg, I, _),
+	{ rowne(Tfz, ['aż1','chociaż','czy','jak','jeśli',
+	              'podczas','ponieważ','pz','że']) }, 
+	fzdj(Tfz, bp, A1, C1, T1, Neg1, ni, Oz, _),
+        { rozne(Oz, ['ani','przec']) }.
+
+fzdsz(Tfz, K, A, C, T, Neg, I, @ @ @0)
+--> s(zd14), fzdj(Tfz, K, A, C, T, Neg, I, przec, _),
+	{ rowne(Tfz, ['aż1','chociaż','czy','jak','jeśli',
+	              'podczas','ponieważ','pz','że']) },
+	spoj(szk, Oz, ni),
+        { rozne(Oz, ani) },
+	fzdkor(Tfz, bp, A1, C1, T1, Neg1, ni, _).
+
+fzdsz(Tfz, K, A, C, T, Neg, I, @ @ @0)
+--> s(zd15), fzdkor(Tfz, K, A, C, T, Neg, I, _),
+	{ rowne(Tfz, ['dopóki','zanim']) }, 
+	fzdj(Tfz, bp, A1, C, T, Neg1, ni, Oz, _),
+        { rozne(Oz, ['ani','przec']) }.
+
+fzdsz(Tfz, K, A, C, T, Neg, I, @ @ @0)
+--> s(zd16), fzdj(Tfz, K, A, C, T, Neg, I, przec, _),
+	{ rowne(Tfz, ['dopóki','zanim']) },
+	fzdkor(Tfz, bp, A1, C1, T1, Neg1, I, _),
+        { rozne(Oz, ani) }.
+
+fzdsz(Tfz, K, A, C, T, Neg, I, @ @ @0)
+--> s(zd17), fzdkor(Tfz, K, A, C, T, Neg, I, _),
+	{ rowne(Tfz, ['aż2','gdy']) },
+	fzdj(Tfz, bp, A1, C, T1, Neg1, ni, Oz, _),
+        { rozne(Oz, ['ani','przec']) }.
+
+fzdsz(Tfz, K, A, C, T, Neg, I, @ @ @0)
+--> s(zd18), fzdj(Tfz, K, A, C, T, Neg, I, przec, _),
+	{ rowne(Tfz, ['aż2','gdy']) },
+	fzdkor(Tfz, bp, A1, C1, T1, Neg1, I, _),
+        { rozne(Oz, ani) }.
+
+fzdsz(Tfz, K, A, C, T, Neg, I, @ @ @0)
+--> s(zd19), fzdkor(Tfz, K, A, C, T, Neg, I, _),
+	{ rowne(Tfz, ['co','jaki','kto','który']) },
+	fzdj(Tfz, bp, A1, C1, T1, Neg1, I, Oz, _),
+        { rozne(Oz, ['ani','przec']) }.
+
+fzdsz(Tfz, K, A, C, T, Neg, I, @ @ @0)
+--> s(zd20), fzdj(Tfz, K, A, C, T, Neg, I, przec, _),
+	{ rowne(Tfz, ['co','jaki','kto','który']) }, 
+	fzdkor(Tfz, bp, A1, C1, T1, Neg1, I, _),
+        { rozne(Oz, ani) }.
+
+fzdj(Tfz, K, A, C, T, Neg, I, przec, X)
+--> s(zd21), fzdkor(Tfz, K, A, C, T, Neg, I, @X).
+
+fzdj(Tfz, K, A, C, T, Neg, I, Oz, @ @ @0)
+--> s(zd22), spoj(sz, Oz, I), 
+        { rozne(Oz, ['ani','przec']) },
+	fzdkor(Tfz, K, A, C, T, Neg, ni,_),
+	{ rowne(Tfz, ['aż1','chociaż','czy','jak','jeśli',
+	              'podczas','ponieważ','pz','że']), 
+        rozne(K, nk) },
+	przec,
+	fzdkor(Tfz, K1, A1, C1, T1, Neg1, ni, _),
+        { rowne(K1, [K,'bp']) }.
+
+fzdj(Tfz, K, A, C, T, Neg, I, Oz, @ @ @0)
+--> s(zd23), spoj(sz, Oz, I),
+        { rozne(Oz, ['ani','przec']) },
+	fzdkor(Tfz, K, A, C, T, Neg, ni, _),
+	{ rowne(Tfz, ['aż1','chociaż','czy','jak','jeśli',
+	              'podczas','ponieważ','pz','że']), 
+          rozne(K, nk) },
+	przec,
+	fzdj(Tfz, K1, A1, C1, T1, Neg1, ni, Oz, _),
+        { rowne(K1, [K,'bp']) }.
+
+fzdj(Tfz, K, A, C, T, Neg, I, przec, @ @ @0)
+--> s(zd24), fzdkor(Tfz, K, A, C, T, Neg, I, _),
+	{ rowne(Tfz, ['aż1','chociaż','czy','jak','jeśli',
+	              'podczas','ponieważ','pz','że']) }, 
+	spoj(sz, przec, ni),
+	fzdkor(Tfz, K1, A1, C1, T1, Neg1, ni, _),
+        { rowne(K1, [K,'bp']) }.
+
+fzdj(Tfz, K, A, C, T, Neg, I, przec, @ @ @0)
+--> s(zd25), fzdkor(Tfz, K, A, C, T, Neg, I, _),
+	{ rowne(Tfz, ['aż1','chociaż','czy','jak','jeśli',
+	              'podczas','ponieważ','pz','że']) },
+	spoj(sz, przec, ni),
+	fzdj(Tfz, K1, A1, C1, T1, Neg1, ni, przec, _),
+        { rowne(K1, [K,'bp']) }.
+
+fzdj(Tfz, bp, A, C, T, Neg, I, Oz, @ @ @0)
+--> s(zd26), spoj(sz, Oz, I),
+        { rozne(Oz, ['ani','przec']) },
+	fzdkor(Tfz, bp, A, C, T, Neg, ni, _),
+	{ rowne(Tfz, ['dopóki','zanim']) },
+	przec,
+	spoj(sz, Oz, ni),
+	fzdkor(Tfz, bp, A1, C, T, Neg1, ni, _).
+
+fzdj(Tfz, bp, A, C, T, Neg, I, Oz, @ @ @0)
+--> s(zd27), spoj(sz, Oz, I),
+        { rozne(Oz, ['ani','przec']) },
+	fzdkor(Tfz, bp, A, C, T, Neg, ni, _),
+	{ rowne(Tfz, ['dopóki','zanim']) },
+	przec,
+	fzdj(Tfz, bp, A1, C, T, Neg1, ni, Oz, _).
+
+fzdj(Tfz, K, A, C, T, Neg, I, przec, @ @ @0)
+--> s(zd28), fzdkor(Tfz, K, A, C, T, Neg, I, _),
+	{ rowne(Tfz, ['dopóki','zanim'])}, 
+	spoj(sz, przec, ni),
+	fzdkor(Tfz, bp, A1, C, T, Neg1, ni, _).
+
+fzdj(Tfz, K, A, C, T, Neg, I, przec, @ @ @0)
+--> s(zd29), fzdkor(Tfz, K, A, C, T, Neg, I, _),
+	{ rowne(Tfz, ['dopóki','zanim'])},
+	spoj(sz, przec, ni),
+	fzdj(Tfz, bp, A1, C, T, Neg1, ni, przec, _).
+
+fzdj(Tfz, bp, A, C, T, Neg, I, Oz, @ @ @0)
+--> s(zd30), spoj(sz, Oz, I),
+        { rozne(Oz, ['ani','przec']) },
+	fzdkor(Tfz, bp, A, C, T, Neg, ni, _),
+	{ rowne(Tfz, ['aż2','gdy']) },
+	przec,
+	spoj(sz, Oz, ni),
+	fzdkor(Tfz, bp, A1, C, T1, Neg1, ni, _).
+
+fzdj(Tfz, bp, A, C, T, Neg, I, Oz, @ @ @0)
+--> s(zd31), spoj(sz, Oz, I),
+        { rozne(Oz, ['ani','przec'])},
+	fzdkor(Tfz, bp, A, C, T, Neg, ni, _),
+	{ rowne(Tfz, ['aż2','gdy']) },
+	przec,
+	fzdj(Tfz, bp, A1, C, T1, Neg1, ni, Oz, _).
+
+fzdj(Tfz, K, A, C, T, Neg, I, przec, @ @ @0)
+--> s(zd32), fzdkor(Tfz, K, A, C, T, Neg, I, _),
+	{ rowne(Tfz, ['aż2','gdy']) }, 
+	spoj(sz, przec, ni),
+	fzdkor(Tfz, bp, A1, C, T1, Neg1, ni, _).
+
+fzdj(Tfz, K, A, C, T, Neg, I, przec, @ @ @0)
+--> s(zd33), fzdkor(Tfz, K, A, C, T, Neg, I, _),
+	{ rowne(Tfz, ['aż2','gdy']) }, 
+	spoj(sz, przec, ni),
+	fzdj(Tfz, bp, A1, C, T1, Neg1, ni, przec, _).
+
+fzdj(Tfz, bp, A, C, T, Neg, I, Oz, @ @ @0)
+--> s(zd34), spoj(sz, Oz, ni),
+        { rozne(Oz, ['ani','przec']) },
+	fzdkor(Tfz, bp, A, C, T, Neg, I, _),
+	{ rowne(Tfz, ['co','jaki','kto','który']) },
+	przec,
+	spoj(sz, Oz, ni),
+	fzdkor(Tfz, bp, A1, C1, T1, Neg1, I, _).
+
+fzdj(Tfz, bp, A, C, T, Neg, I, Oz, @ @ @0)
+--> s(zd35), spoj(sz, Oz, I),
+        { rozne(Oz, ['ani','przec']) },
+	fzdkor(Tfz, bp, A, C, T, Neg, I, _),
+	{ rowne(Tfz, ['co','jaki','kto','który']) },
+	przec,
+	fzdj(Tfz, bp, A1, C1, T1, Neg1, I, Oz, _).
+
+fzdj(Tfz, K, A, C, T, Neg, I, przec, @ @ @0)
+--> s(zd36), fzdkor(Tfz, K, A, C, T, Neg, I, _),
+	{ rowne(Tfz, ['co','jaki','kto','który']) }, 
+	spoj(sz, przec, ni),
+	fzdkor(Tfz, bp, A1, C1, T1, Neg1, I, _).
+
+fzdj(Tfz, K, A, C, T, Neg, I, przec, @ @ @0)
+--> s(zd37), fzdkor(Tfz, K, A, C, T, Neg, I, _),
+	{ rowne(Tfz, ['co','jaki','kto','który'])},
+	spoj(sz, przec, ni),
+	fzdj(Tfz, bp, A1, C1, T1, Neg1, I, przec, _).
+
+fzdkor(Tfz, K, A, C, T, Neg, I, @ @ @0)
+--> s(zd38), kor(K, I), 
+	przec,
+	fzde(Tfz, A, C, T, Neg, ni).
+
+fzdkor(Tfz, nk, A, C, T, Neg, I, @ @ @0)
+--> s(zd39), przecsp, 
+	fzde(Tfz, A, C, T, Neg, I).
+
+fzdkor(Tfz, bp, A, C, T, Neg, I, @ @ @0)
+--> s(zd40), fzde(Tfz, A, C, T, Neg, I).
+
+fzdkor(Tfz, K, A, C, T, Neg, I, X)
+--> s(zd41), fzd(Tfz, K, A, C, T, Neg, I, @X).
+
+fzde(Tfz, A, C, T, Neg, I)
+--> s(zd42), spoj(po, Tfz, I),
+	{ rowne(Tfz, ['aż1','aż2','chociaż','czy','dopóki','gdy',
+	              'jak','jeśli','podczas','ponieważ','zanim','że']) },
+	zr(Wf, A, C, T, Rl, O, Neg, ni, z(SwZ,Z), _),
+	{ zrowne(Z, [Tfz], SwZ) }.
+
+fzde(Tfz, A, C, T, Neg, I)
+--> s(zd43), spoj(po, Tfz, ni),
+	{ rowne(Tfz, ['choćby','gdyby','jakby','jakoby','żeby']) },
+	zr(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z), _),
+	{ zrowne(Z, [Tfz], SwZ) }.
+
+fzde(Tfz, A, C, T, Neg, I)
+--> s(zd44), zr(Wf, A, C, T, Rl, O, Neg, I, z(Tfz,Z), _),
+	{ zrowne(Z, ['co','jaki','kto','który','pz'], NZ),
+	rowne(Tfz, NZ) }.
+
+fzde(mie1, A, C, T, Neg, I)
+--> s(zd45), spoj(po, 'że', I), 
+	zr(Wf, A, C, T, Rl, O, Neg, ni, z(SwZ,Z), _),
+	{ zrowne( Z, ['że'], SwZ ) }.
+
+fzde(mie1, A, C, T, Neg, I)
+--> s(zd46), zr(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z), _),
+	{ zrowne( Z, [pz], SwZ ) }.
+
+fzde(mie2, A, C, T, Neg, I)
+--> s(zd47), spoj(po, 'że', I), 
+	zr(Wf, A, C, T, Rl, O, Neg, ni, z(SwZ,Z), _),
+	{ zrowne( Z, ['że'], SwZ ) }.
+
+fzde(mie2, A, C, T, Neg, I)
+--> s(zd48), spoj(po, 'żeby', ni), 
+	zr(Wf, A, C, T, Rl, O, Neg, I, z(SwZ,Z), _),
+	{ zrowne( Z, ['żeby'], SwZ ) }.
+
+fzde(mie3, A, C, T, Neg, I)
+--> s(zd49), spoj(po, gdy, I), 
+	zr(Wf, A, C, T, Rl, O, Neg, ni, z(SwZ,Z), _),
+	{ zrowne( Z, [gdy], SwZ ) }.
+
+fzde(mie3, A, C, T, Neg, I)
+--> s(zd50), spoj(po, jak, I), 
+	zr(Wf, A, C, T, Rl, O, Neg, ni, z(SwZ,Z), _),
+	{ zrowne( Z, [jak], SwZ ) }.
+
+
+% 5.16. Jednostki funkcyjne
+
+spoj(Tsp, Oz, I)       --> s(spoj1), spoj1(Tsp, Oz), 
+                          spoj(Tsp1, I, ni),
+                          { rowne(I, ['bowiem','natomiast','więc','zaś']),
+			    rowne(Tsp1, [pi,ri]) }.
+
+spoj(Tsp, Oz, ni)      --> s(spoj2), spoj1(Tsp, Oz).
+
+spoj1(rl, F)           --> s(spoj3), spojnik(F), 
+                          { rowne(F, ['nie','tak','zarówno'])}.
+
+spoj1(rl, nietylko)    --> s(spoj4), partykula(nie), 
+                          partykula(tylko).
+
+spoj1(rp, nie)         --> s(spoj5), spojnik(F), 
+                          { rowne(F, ['ale','lecz'])}.
+
+spoj1(rp, nietylko)    --> s(spoj6), spojnik(F), 
+                          partykula(F1),
+                          { rowne(F, ['ale','lecz']), 
+                           rowne(F1, ['i','również','także'])}.
+
+spoj1(rp, F)           --> s(spoj7), spojnik(jak), 
+                          { rowne(F, ['tak','zarówno'])}.
+spoj1(rp, F)          
+                        --> s(spoj8), spojnik(jak), 
+                          partykula(F1),
+                          { rowne(F, ['tak','zarówno']), 
+                           rowne(F1, ['i','też'])}.
+
+spoj1(rc, a)           --> s(spoj9), spojnik(F), 
+                          { rowne(F, ['a','ale','lecz'])}.
+
+spoj1(rc, alei)        --> s(spoj10), spojnik(F), 
+                          partykula(F1),
+                          { rowne(F, ['a','ale','lecz']), 
+                           rowne(F1, ['i','nawet','również','także'])}.
+
+spoj1(rc, natomiast)   --> s(spoj11), spojnik(natomiast).
+
+spoj1(rc, nie)         --> s(spoj12), spojnik(F), 
+                          partykula(nie),
+                          { rowne(F, ['a','ale'])}.
+spoj1(rc, nie)  
+                        --> s(spoj13), partykula(nie), 
+                          spojnik('zaś').
+
+spoj1(ri, F)           --> s(spoj14), spojnik(F), 
+                          { rowne(F, ['natomiast','zaś'])}.
+
+spoj1(Tsp, F)          --> s(spoj15), spojnik(F), 
+                          { rowne(Tsp, ['sz','szk']), 
+                           rowne(F, ['albo','bądź','i','lub'])}.
+
+spoj1(Tsp, ani)        --> s(spoj16), spojnik(F), 
+                          { rowne(Tsp, ['sz','szk']), 
+                           rowne(F, ['ani','ni'])}.
+
+spoj1(Tsp, przec)      --> s(spoj17), przec,
+	                   { rowne(Tsp, ['sz','szk']) }.
+
+spoj1(szk, F)          --> s(spoj18), spojnik(F), 
+                          partykula(F1),
+                          { rowne(F, ['albo','bądź','lub']), 
+                           rowne(F1, ['nawet','też'])}.
+
+spoj1(szk, ani)        --> s(spoj19), spojnik(F), 
+                          partykula(F1),
+                          { rowne(F, ['ani','ni']), 
+                           rowne(F1, ['nawet','też'])}.
+
+spoj1(szk, i)          --> s(spoj20), spojnik(i), 
+                          partykula(F1),
+                          { rowne(F1, ['nawet','także'])}.
+spoj1(szk, i)         
+                        --> s(spoj21), spojnik(oraz).
+
+spoj1(Tsp, 'dopóki')     --> s(spoj22), spojnik(F), 
+                          { rowne(Tsp, ['pl','pp']), 
+                           rowne(F, ['dopóty','póty'])}.
+
+spoj1(Tsp, gdy)        --> s(spoj23), spojnik(F), 
+                          { rowne(Tsp, ['pl','pp']), 
+                           rowne(F, ['wówczas','wtedy'])}.
+
+spoj1(pp, Oz)          --> s(spoj24), spojnik(jednak), 
+                          { rowne(Oz, ['chociaż','choćby'])}.
+spoj1(pp, Oz)         
+                        --> s(spoj25), spojnik(to), 
+                          spojnik(jednak),
+                          { rowne(Oz, ['chociaż','choćby'])}.
+spoj1(pp, Oz)         
+                        --> s(spoj26), spojnik(to), 
+                          { rowne(Oz, ['chociaż','choćby','gdyby','jeśli'])}.
+
+spoj1(pc, bo)     --> s(spoj27), spojnik(F), 
+                          { rowne(F, ['albowiem','bo','gdyż'])}.
+
+spoj1(Tsp, 'więc')       --> s(spoj28), spojnik(F), 
+                          { rowne(Tsp, ['pc','pi']), 
+                           rowne(F, ['przeto','więc','zatem'])}.
+
+spoj1(pc, 'więc')        --> s(spoj29), spojnik('toteż').
+
+spoj1(pi, bowiem)      --> s(spoj30), spojnik(bowiem).
+
+spoj1(po, Oz)          --> s(spoj31), spojnik('aż'), 
+                          { rowne(Oz, ['aż1','aż2'])}.
+spoj1(po, Oz)         
+                        --> s(spoj32), spojnik(Oz), 
+                          { rowne(Oz, ['czy','jak','jakby','jakoby'])}.
+
+spoj1(po, 'chociaż')     --> s(spoj33), spojnik(F), 
+                          { rowne(F, ['chociaż','choć'])}.
+spoj1(po, 'chociaż')    
+                        --> s(spoj34), przyimek(mimo, dop), 
+                          spojnik('że').
+
+spoj1(po, 'choćby')      --> s(spoj35), spojnik(F), 
+                          { rowne(F, ['chociażby','choćby'])}.
+
+spoj1(po, 'dopóki')      --> s(spoj36), spojnik(F), 
+                          { rowne(F, ['dopóki','póki'])}.
+
+spoj1(po, gdy)         --> s(spoj37), spojnik(F), 
+                          { rowne(F, ['gdy','kiedy'])}.
+
+spoj1(po, gdyby)       --> s(spoj38), spojnik(F), 
+                          { rowne(F, ['gdyby','jeśliby','jeżeliby'])}.
+
+spoj1(po, 'jeśli')       --> s(spoj39), spojnik(F), 
+                          { rowne(F, ['jeśli','jeżeli'])}.
+
+spoj1(po, podczas)     --> s(spoj40), przyimek(podczas, dop), 
+                          spojnik(gdy).
+
+spoj1(po, 'ponieważ')    --> s(spoj41), spojnik(F), 
+                          { rowne(F, ['ponieważ','skoro','że'])}.
+
+spoj1(po, zanim)       --> s(spoj42), spojnik(F), 
+                          { rowne(F, ['nim','zanim'])}.
+
+spoj1(po, 'że')          --> s(spoj43), spojnik(F), 
+                          { rowne(F, ['iż','że'])}.
+
+spoj1(po, 'żeby')        --> s(spoj44), spojnik(F), 
+                          { rowne(F, ['aby','ażeby','by','iżby','żeby'])}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%% Funkcyjne: %%%%%%%%%%%%%%%%%%%%
+
+% 5.16.2: Zaimek
+
+zaimpyt(rzecz, P, Rl, 3, co)
+     --> s(zaim1n),
+	zaimrzecz(co, P, Rl).
+
+zaimpyt(rzecz, P, Rl, 3, kto)
+     --> s(zaim5n), 
+	zaimrzecz(kto, P, Rl).
+
+zaimpyt(przym, P, Rl, _O, _Kl)
+     --> s(zaim9n), zaimprzym(F, P, Rl), 
+       { rowne(F, ['czyj','jaki','który'])}.
+
+zaimpyt(przysl, _P, _Rl, _O, _Kl)
+     --> s(zaim22), zaimprzys(F), 
+       { rowne(F, [dlaczego,'dokąd','gdzie','jak','kiedy','odkąd','skąd'])}.
+
+zaimwzg(rzecz, P, Rl, 3, co)
+     --> s(zaim23n),
+	zaimrzecz(co, P, Rl).
+
+zaimwzg(rzecz, P, Rl, 3, kto)
+     --> s(zaim27n), 
+	zaimrzecz(kto, P, Rl).
+
+zaimwzg(rzecz, P, Rl, 3, 'który')
+     --> s(zaim31n),
+%	zaimrzecz(F, P, Rl), % to nie ma szansy działać?
+	zaimprzym(F, P, Rl), % czy raczej tak???
+       	{ rowne(F, ['jaki','który'])}.
+
+zaimwzg(przym, P, Rl, _O, _Kl)
+     --> s(zaim44n), zaimprzym(jaki, P, Rl).
+
+
+zaimno(przym, P, Rl, _O, tk)
+     --> s(zaim57n), 
+	zaimprzym(taki, P, Rl).
+
+zaimno(przysl, _P, _Rl, _O, tk)
+     --> s(zaim70), zaimprzys(tak).
+
+% nowe reguły zaimkowe:
+
+% 5.16.2.3. Zaimki nieokreślone 
+%  5.16.2.3.1. zaimki rzeczowne
+
+zaimno(rzecz, P, Rl, 3, co)
+--> s(zaim71), zaimrzecz(coś, P, Rl).
+
+zaimno(rzecz, P, Rl, 3, kto)
+--> s(zaim72), zaimrzecz(ktoś, P, Rl).
+
+zaimno(rzecz, P, r(R1,nmo(R2))/L, _O, co)
+--> s(zaim73), 
+	zaimprzym(ten, P, r(R1,nmo(R2))/L).
+
+zaimno(rzecz, P, r(mn(m(zy)),mo)/poj, _O, kto)
+--> s(zaim73k), 
+	zaimprzym(ten, P, r(mn(m(zy)),mo)/poj).
+
+zaimno(przym, P, Rl, _O, _Kl)
+--> s(zaim73x),
+	zaimprzym(ten, P, Rl).
+
+% [MŚ: można dodać jeszcze tamten, ów]
+
+zaimneg(rzecz, P, Rl, 3, co)
+--> s(zaim74), zaimrzecz(nic, P, Rl).
+
+zaimneg(rzecz, P, Rl, 3, kto)
+--> s(zaim75), zaimrzecz(nikt, P, Rl).
+
+zaimneg(przysl, _P, _Rl, _O, kto)
+--> s(zaim76n), zaimprzys(nigdy).
+
+
+% 5.16.3 i n.:
+
+pyt(F, I) --> s(par1), partykula(F), 
+	spoj(Tsp, I, ni),
+	{ rowne(I, ['bowiem','natomiast','więc','zaś']),
+	  rowne(Tsp, [pi,ri]) }.
+
+pyt(F, ni) --> s(par2), partykula(F).
+
+agl(Rl, O, I)  --> s(agl1), agl1(Rl, O), 
+	spoj(Tsp, I, ni),
+	{ rowne(I, ['bowiem','natomiast','więc','zaś']),
+	  rowne(Tsp, [pi,ri]) }.
+
+agl(_Rl, 3, I)  --> s(agl1e),
+	spoj(Tsp, I, ni),
+	{ rowne(I, ['bowiem','natomiast','więc','zaś']),
+	  rowne(Tsp, [pi,ri]) }.
+
+agl(Rl, O, ni) --> s(agl2), agl1(Rl, O).
+
+agl1(R/poj, 1)    --> s(agl3), morfagl(m, R/poj, 1).
+
+agl1(R/mno, 1)   
+                --> s(agl4), morfagl('śmy', R/mno, 1).
+
+agl1(R/poj, 2)    --> s(agl5), morfagl('ś', R/poj, 2).
+
+agl1(R/mno, 2) --> 
+	s(agl6), morfagl('ście', R/mno, 2).
+
+% !!! epsilon
+%agl1(Rl, 3)  --> s(agl7).
+
+kor(K/P, I) --> s(kor1), przyimek(K, P), 
+	kor1(P),
+	spoj(Tsp, I, ni),
+	{ rowne(I, ['bowiem','natomiast','więc','zaś']),
+	  rowne(Tsp, [pi,ri]) }.
+
+% reguła dodana na mocy listu prof. Świdzińskiego z 28 grudnia 1999:
+kor(K/P, ni) --> s(kor1x),
+	przyimek(K, P),
+	kor1(P).
+
+kor(P, ni)     --> s(kor2), kor1(P).
+
+kor1(P)        --> s(kor3n), zaimrzecz(to, P, r(mn(n),nmo(np(n)))/poj).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%% Elementarne: %%%%%%%%%%%%%%%%%%%%
+% 5.17:
+
+
+
+ znakkonca(p)            --> s(int1), [morf('?',_,interp)].
+
+ znakkonca(np) --> s(int2), [morf('.',_,interp)].
+ znakkonca(np) --> s(int3), [morf('!',_,interp)].
+ znakkonca(np) --> s(int4), [morf('.',_,interp)],
+	[morf('.',_,interp)],
+	[morf('.',_,interp)].
+
+% Lewostronny kontekst !!!
+%[F],przecsp       --> s(int5), [F], 
+%                    { rowne(F, ['albowiem','aż','bo','chociaż',
+%        'choć','czy','dopóki','dopóty','gdy','gdyż','iż','jak',
+%        'jeśli','jeżeli','kiedy','nim','ponieważ','póki','póty',
+%        'skoro','wówczas','wtedy','zanim','że'])}.
+
+przecsp --> s(int5), [morf('','',przecsp)].
+
+przecsp           --> s(int6), przec.
+
+%przec, [?]      --> s(int7), [?].
+
+%przec, [.]      --> s(int8), [.].
+
+%przec, [!]      --> s(int9), [!].
+
+%przec, ['...']    --> s(int10), ['...'].
+
+%przec, [',']      --> s(int11), [','].
+
+% Lewostronny kontekst !!!
+% [%], przec        --> s(int12), [%].
+
+przec             --> s(int13), [morf(_,',',interp)].
+
+morfagl(F, _R/L, O)      --> s(jel1), [morf(F, 'być', aglt:Num:Per:_:_)], 
+                          { liczba(Num,L), osoba(Per,O) }.
+
+partykula(H)           --> s(jel2), [morf(_,H,qub)].
+
+przyimek(F, P)         --> s(jel3), [morf(_,F,prep:Cases)], 
+                          { przypadki(Cases,P) }.
+przyimek(F, P)         --> s(jel3), [morf(_,F,prep:Cases:_)], 
+                          { przypadki(Cases,P) }.
+
+% tymczasowe, trzeba zrobić porządnie!
+% następujące dwuczłonowe przyimki występują w słowniku Świdzińskiego:
+
+przyimek('co do',dop) --> s(jel3a),
+	[morf(co,co,prep:acc)],
+	[morf(do,do,prep:gen)].
+
+przyimek('na temat',dop) --> s(jel3b),
+	[morf(na,na,prep:[acc|loc])],
+	[morf(temat,temat,subst:sg:[nom|acc]:m3)].
+
+przyimek('w sprawie',dop) --> s(jel3c),
+	[morf(w,w,prep:[acc|loc]:nwok)],
+	[morf(sprawie,sprawa,subst:sg:[dat|loc]:f)].
+
+przyimek('z powodu',dop) --> s(jel3d),
+	[morf(z,z,prep:[gen,acc|inst]:nwok)],
+	[morf(powodu,powód,subst:sg:gen:m3)].
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+spojnik(F)             --> s(jel4), [morf(_,F,conj)].
+spojnik(F)             --> s(jel4a), [morf(_,F,comp)].
+
+zaimrzecz(H, P, R/L)    --> s(jel5),
+	[morf(_,H,psubst:Num:Cases:Gend)], 
+	{ liczba(Num,L), przypadki(Cases,P), rodzaj(Gend,R) }.
+
+zaimprzym(H, P, R/L)    --> s(jel6),
+	[morf(_,H,padj:Num:Cases:Gend:pos)],
+	{ liczba(Num,L), przypadki(Cases,P),
+	  rodzaj(Gend,R) }.
+
+zaimprzys(H)           --> s(jel7), [morf(_,H,padv)].
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+formarzecz( P, R/L )    --> s(n_rz1), 
+	[morf(_,_,subst:Num:Cases:Gend)], 
+	{ liczba(Num,L), przypadki(Cases,P), rodzaj(Gend,R) }.
+
+formarzecz( P, R/L )    --> s(n_rz2), 
+	[morf(_,_,depr:Num:Cases:Gend)], 
+	{ liczba(Num,L), przypadki(Cases,P), rodzaj(Gend,R) }.
+
+formarzecz( P, R/L )    --> s(n_rz3), 
+	[morf(_,_,ger:Num:Cases:Gend:_:_)], 
+	{ liczba(Num,L), przypadki(Cases,P), rodzaj(Gend,R) }.
+
+formaprzym( P, R/L, St ) --> s(n_pt1),
+	[morf(_,_,adj:Num:Cases:Gend:Degr)],
+	{ liczba(Num,L), przypadki(Cases,P),
+	  rodzaj(Gend,R), stopien(Degr,St) }.
+
+formaprzym( P, R/L, St ) --> s(n_pt2),
+	[morf(_,_,adja)],
+	[morf('-','-',interp)],
+	formaprzym( P, R/L, St).
+
+formaprzym( P, R/L, row ) --> s(n_pt3),
+	[morf(_,_,ppas:Num:Cases:Gend:_)],
+	{ liczba(Num,L), przypadki(Cases,P),
+	  rodzaj(Gend,R) }.
+
+formaprzym( P, R/L, row ) --> s(n_pt4),
+	[morf(_,_,pact:Num:Cases:Gend:_)],
+	{ liczba(Num,L), przypadki(Cases,P),
+	  rodzaj(Gend,R) }.
+
+% To na potrzeby GFJPA:540 Kim <interesujący się> chłopcy przyjdą, ...
+formaprzym( P, R/L, row ) --> s(n_pt5),
+	[morf(_,_,pact:Num:Cases:Gend:_)],
+	[morf(_,'się',qub)],
+	{ liczba(Num,L), przypadki(Cases,P),
+	  rodzaj(Gend,R) }.
+
+formalicz(P, R/L, Akom) --> s(n_li),
+	[morf(_,_,num:Num:Cases:Gend:Acom)],
+	{ liczba(Num,L), przypadki(Cases,P),
+	  rodzaj(Gend,R), akomodacyjnosc(Acom,Akom) }.
+
+formaprzysl( St ) --> s(n_ps),
+	[morf(_,_,adv:Degr)],
+	{ stopien(Degr,St) }.
+
+% dodane dla Morfeusza SGJP:
+formaprzysl( row ) --> s(n_ps2),
+	[morf(_,_,advndm)].
+
+zaimos( P, R/L, O ) --> s(n_zo1),
+	[morf(_,_,ppron12:Num:Cases:Gend:Per)],
+	{ liczba(Num,L), przypadki(Cases,P),
+	  rodzaj(Gend,R), osoba(Per,O) }.
+
+zaimos( P, R/L, O ) --> s(n_zo2),
+	[morf(_,_,ppron12:Num:Cases:Gend:Per:_)],
+	{ liczba(Num,L), przypadki(Cases,P),
+	  rodzaj(Gend,R), osoba(Per,O) }.
+
+zaimos( P, R/L, O ) --> s(n_zo3),
+	[morf(_,_,ppron3:Num:Cases:Gend:Per:_)],
+	{ liczba(Num,L), przypadki(Cases,P),
+	  rodzaj(Gend,R), osoba(Per,O) }.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Formy czasownikowe:
+
+
+formaczas( Wf, A, C, T, Rl, O, Wym, K ) --> s(n_cz1),
+	formaczas1( n, Wf, A, C, T, Rl, O, Wym, K ).
+
+%% Sięność:
+
+formaczas( Wf, A, C, T, Rl, O, Wym, K ) --> s(n_cz2),
+	formaczas1( s, Wf, A, C, T, Rl, O, Wym, K ),
+	[morf(_,'się',qub)].
+
+formaczas( Wf, A, C, T, Rl, O, Wym, K ) --> s(n_cz3),
+	[morf(_,'się',qub)],
+	formaczas1( s, Wf, A, C, T, Rl, O, Wym, K ).
+
+%%%% Tryb oznajmujący, czas ter. lub przypro:
+
+formaczas1( S, os, A, C, ozn, _R/L, O, Wym, _K ) --> s(n_cz4),
+	[morf(_,H,fin:Num:Per:As)],
+	{ aspekt(As,A), czas(fin,A,C),
+	  osoba(Per,O), liczba(Num,L), rekcja(H,S,Wym) }.
+
+formaczas1( S, os, nd, przy, ozn, _R/L, O, Wym, _K ) --> s(n_cz5),
+	[morf(_, być, bedzie:Num:Per:imperf)],
+	{ osoba(Per,O), liczba(Num,L), rekcja(być,S,Wym) }.
+
+%% czas przyszły złożony:
+
+przyzlo( S, _RL, Wym, _K ) --> s(n_czp1),
+	[morf(_,H,inf:As)],
+	{ aspekt(As,nd), rekcja(H,S,Wym) }.
+
+przyzlo( S, R/L, Wym, _K ) --> s(n_czp2),
+	[morf(_,H,praet:Num:Gend:AsAgl)],
+	{ asagl(AsAgl, As, nagl), aspekt(As,nd),
+	  liczba(Num,L), rodzaj(Gend,R), rekcja(H,S,Wym) }.
+
+formaczas1( S, os, nd, przy, ozn, R/L, O, Wym, _K ) --> s(n_cz6),
+	[morf(_, być, bedzie:Num:Per:imperf)],
+	{ osoba(Per,O), liczba(Num,L) },
+ 	przyzlo( S, R/L, Wym, K ).
+
+formaczas1( S, os, nd, przy, ozn, R/L, O, Wym, _K ) --> s(n_cz7),
+ 	przyzlo( S, R/L, Wym, K ),
+	[morf(_, być, bedzie:Num:Per:imperf)],
+	{ osoba(Per,O), liczba(Num,L) }.
+
+formaczas1( n, os, nd, przy, ozn, R/L, O, Wym, _K ) --> s(n_cz8),
+	[morf(_, być, bedzie:Num:Per:imperf)],
+	[morf(_,'się',qub)],
+	{ osoba(Per,O), liczba(Num,L) },
+ 	przyzlo( s, R/L, Wym, K ).
+
+formaczas1( n, os, nd, przy, ozn, R/L, O, Wym, _K ) --> s(n_cz9),
+ 	przyzlo( s, R/L, Wym, K ),
+	[morf(_,'się',qub)],
+	[morf(_, być, bedzie:Num:Per:imperf)],
+	{ osoba(Per,O), liczba(Num,L) }.
+
+%% czas przeszły:
+
+formaczas1( S, os, A, prze, ozn, R/L, 3, Wym, _K ) --> s(n_cz10),
+	[morf(_,H,praet:Num:Gend:AsAgl)],
+	{ asagl(AsAgl, As, nagl), aspekt(As,A),
+	  liczba(Num,L), rodzaj(Gend,R), rekcja(H,S,Wym) }.
+
+formaczas1( S, os, A, prze, ozn, R/L, O, Wym, _K ) --> s(n_cz11),
+	[morf(_,H,praet:Num:Gend:AsAgl)],
+	{ asagl(AsAgl, As, agl), aspekt(As,A),
+	liczba(Num,L), rodzaj(Gend,R), rekcja(H,S,Wym) },
+	[morf(_F, 'być', aglt:Num:Per:_:_)], 
+	{ osoba(Per,O) }.
+
+%%%% Tryb warunkowy:
+
+condaglt(L,3) --> s(n_cza1),
+	[morf(_,by,qub)].
+	
+condaglt(L,O) --> s(n_cza2),
+	[morf(_,by,qub)],
+	[morf(_F, 'być', aglt:Num:Per:_:_)], 
+	{ liczba(Num,L), osoba(Per,O) }.
+
+formaczas1( S, os, A, _C, war, R/L, O, Wym, _K ) --> s(n_cz12),
+	[morf(_,H,praet:Num:Gend:AsAgl)],
+	{ asagl(AsAgl, As, nagl), aspekt(As,A),
+	liczba(Num,L), rodzaj(Gend,R), rekcja(H,S,Wym) },
+	condaglt(L,O).
+
+formaczas1( S, os, A, _C, war, R/L, O, Wym, _K ) --> s(n_cz13),
+	condaglt(L, O),
+	[morf(_,H,praet:Num:Gend:AsAgl)],
+	{ asagl(AsAgl, As, nagl), aspekt(As,A),
+	liczba(Num,L), rodzaj(Gend,R), rekcja(H,S,Wym) }.
+
+% wariant z 'się' w środku:
+
+formaczas1( n, os, A, _C, war, R/L, O, Wym, _K ) --> s(n_cz14),
+	[morf(_,H,praet:Num:Gend:AsAgl)],
+	[morf(_,'się',qub)],
+	{ asagl(AsAgl, As, nagl), aspekt(As,A),
+	liczba(Num,L), rodzaj(Gend,R), rekcja(H,s,Wym) },
+	condaglt(L,O).
+
+formaczas1( n, os, A, _C, war, R/L, O, Wym, _K ) --> s(n_cz15),
+	condaglt(L, O),
+	[morf(_,'się',qub)],
+	[morf(_,H,praet:Num:Gend:AsAgl)],
+	{ asagl(AsAgl, As, nagl), aspekt(As,A),
+	liczba(Num,L), rodzaj(Gend,R), rekcja(H,s,Wym) }.
+
+%%%% Tryb rozkazujący:
+
+formaczas1( S, os, A, przy, roz, _R/L, O, Wym, _K ) --> s(n_cz16),
+	[morf(_,H,impt:Num:Per:As)],
+	{ aspekt(As,A),
+	  osoba(Per,O), liczba(Num,L), rekcja(H,S,Wym) }.
+
+formaczas1( S, os, A, przy, roz, _R/L, O, Wym, _K ) --> s(n_cz17),
+	[morf(_,niech,qub)],
+	[morf(_,H,fin:Num:Per:As)],
+	{ (Num=sg, Per\=sec ; Num=pl, Per=ter),
+	  aspekt(As,A),
+	  osoba(Per,O), liczba(Num,L), rekcja(H,S,Wym) }.
+
+formaczas1( n, os, A, przy, roz, _R/L, O, Wym, _K ) --> s(n_cz18),
+	[morf(_,niech,qub)],
+	[morf(_,'się',qub)],
+	[morf(_,H,fin:Num:Per:As)],
+	{ (Num=sg, Per\=sec ; Num=pl, Per=ter),
+	  aspekt(As,A),
+	  osoba(Per,O), liczba(Num,L), rekcja(H,s,Wym) }.
+
+%%%% Formy nieosobowe:
+
+% w poniższych dodatkowy warunek: subj niedopuszczalne dla Wf<>os
+
+formaczas1( S, bos, A, prze, ozn, _RL, _O, NWym, _K ) --> s(n_cz19),
+	[morf(_,H,imps:As)],
+	{ aspekt(As,A), rekcja(H,S,Wym), wykluczpodmiot(Wym,NWym) }.
+
+formaczas1( S, bos, A, _C, war, _RL, _O, NWym, _K ) --> s(n_cz20),
+	[morf(_,H,imps:As)],
+	[morf(_,by,qub)],
+	{ aspekt(As,A), rekcja(H,S,Wym), wykluczpodmiot(Wym,NWym) }.
+
+formaczas1( S, bos, A, _C, war, _RL, _O, NWym, _K ) --> s(n_cz21),
+	[morf(_,by,qub)],
+	[morf(_,H,imps:As)],
+	{ aspekt(As,A), rekcja(H,S,Wym), wykluczpodmiot(Wym,NWym) }.
+
+formaczas1( n, bos, A, _C, war, _RL, _O, NWym, _K ) --> s(n_cz22),
+	[morf(_,H,imps:As)],
+	[morf(_,'się',qub)],
+	[morf(by,by,qub)],
+	{ aspekt(As,A), rekcja(H,s,Wym), wykluczpodmiot(Wym,NWym) }.
+
+formaczas1( n, bos, A, _C, war, _RL, _O, NWym, _K ) --> s(n_cz23),
+	[morf(_,by,qub)],
+	[morf(_,'się',qub)],
+	[morf(_,H,imps:As)],
+	{ aspekt(As,A), rekcja(H,s,Wym), wykluczpodmiot(Wym,NWym) }.
+
+formaczas1( S, bok, A, _C, _T, _RL, _O, NWym, _K ) --> s(n_cz24),
+	[morf(_,H,inf:As)],
+	{ aspekt(As,A), rekcja(H,S,Wym), wykluczpodmiot(Wym,NWym) }.
+
+formaczas1( S, psu, A, _C, _T, _RL, _O, NWym, _K ) --> s(n_cz25),
+	[morf(_,H,pant:As)],
+	{ aspekt(As,A), rekcja(H,S,Wym), wykluczpodmiot(Wym,NWym) }.
+
+formaczas1( S, psw, A, _C, _T, _RL, _O, NWym, _K ) --> s(n_cz26),
+	[morf(_,H,pcon:As)],
+	{ aspekt(As,A), rekcja(H,S,Wym), wykluczpodmiot(Wym,NWym) }.
+
+% Niewłaściwe (predykatywy):
+
+formaczas1( S, os, nd, ter, ozn, _RL, _O, Wym, _K ) --> s(n_cz27),
+	[morf(_,H,pred)],
+	{ rekcja(H,S,Wym) }.
+
+formaczas1( S, os, nd, przy, ozn, _RL, _O, Wym, _K ) --> s(n_cz28),
+	[morf(będzie, być, bedzie:sg:ter:imperf)],
+	[morf(_,H,pred)],
+	{ rekcja(H,S,Wym) }.
+
+formaczas1( S, os, nd, przy, ozn, _RL, _O, Wym, _K ) --> s(n_cz29),
+	[morf(_,H,pred)],
+	[morf(będzie, być, bedzie:sg:ter:imperf)],
+	{ rekcja(H,S,Wym) }.
+
+formaczas1( S, os, nd, prze, ozn, _RL, _O, Wym, _K ) --> s(n_cz30),
+	[morf(było, być, praet:sg:_:imperf)],
+	[morf(_,H,pred)],
+	{ rekcja(H,S,Wym) }.
+
+formaczas1( S, os, nd, prze, ozn, _RL, _O, Wym, _K ) --> s(n_cz31),
+	[morf(_,H,pred)],
+	[morf(było, być, praet:sg:_:imperf)],
+	{ rekcja(H,S,Wym) }.
+
+formaczas1( S, os, nd, _C, war, _RL, _O, Wym, _K ) --> s(n_cz32),
+	[morf(_,H,pred)],
+	[morf(_,by,qub)],
+	{ rekcja(H,S,Wym) }.
+
+formaczas1( S, os, nd, _C, war, _RL, _O, Wym, _K ) --> s(n_cz33),
+	[morf(_,by,qub)],
+	[morf(_,H,pred)],
+	{ rekcja(H,S,Wym) }.
+
+formaczas1( S, bok, nd, _C, _T, _RL, _O, Wym, _K ) --> s(n_cz34),
+	[morf(_, być, inf:imperf)],
+	[morf(_,H,pred)],
+	{ rekcja(H,S,Wym) }.
+
+% odmienne nietypowo (powinien):
+
+formaczas1( S, os, A, ter, ozn, R/L, 3, Wym, _K ) --> s(n_cz35),
+	[morf(_,H,winien:Num:Gend:AsAgl)],
+	{ asagl(AsAgl, As, nagl), aspekt(As,A),
+	  liczba(Num,L), rodzaj(Gend,R), rekcja(H,S,Wym) }.
+
+formaczas1( S, os, A, ter, ozn, R/L, O, Wym, _K ) --> s(n_cz36),
+	[morf(_,H,winien:Num:Gend:AsAgl)],
+	{ asagl(AsAgl, As, agl), aspekt(As,A),
+	liczba(Num,L), rodzaj(Gend,R), rekcja(H,S,Wym) },
+	[morf(_F, 'być', aglt:Num:Per:_:_)], 
+	{ osoba(Per,O) }.
+

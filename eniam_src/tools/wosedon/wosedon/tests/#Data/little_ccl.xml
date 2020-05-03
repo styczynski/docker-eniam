@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chunkList SYSTEM "ccl.dtd">
+<chunkList>
+ <chunk id="annots#Rachunkowosc">
+  <sentence id="s1">
+   <tok>
+    <orth>Podatki</orth>
+    <lex disamb="1"><base>podatek</base><ctag>subst:pl:nom:m3</ctag></lex>
+    <prop key="sense:ukb:syns_id">2363</prop>
+    <prop key="sense:ukb:syns_rank">2363/0.86603 223738/0.13397</prop>
+    <prop key="sense:ukb:unitsstr">podatek-1(pos) opodatkowanie-2(pos)</prop>
+    <prop key="sumo_map">subsumed:CurrencyMeasure</prop>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex disamb="1"><base>w</base><ctag>prep:loc:nwok</ctag></lex>
+   </tok>
+   <tok>
+    <orth>Unii</orth>
+    <lex disamb="1"><base>unia</base><ctag>subst:sg:loc:f</ctag></lex>
+    <prop key="sense:ukb:syns_id">3623</prop>
+    <prop key="sense:ukb:syns_rank">3623/0.843487 7837/0.103926 7838/0.0525863</prop>
+    <prop key="sense:ukb:unitsstr">unia-1(zwz)</prop>
+    <prop key="sumo_map">subsumed:PoliticalOrganization</prop>
+   </tok>
+   <tok>
+    <orth>Europejskiej</orth>
+    <lex disamb="1"><base>europejski</base><ctag>adj:sg:loc:f:pos</ctag></lex>
+    <prop key="sense:ukb:syns_id">827</prop>
+    <prop key="sense:ukb:syns_rank">827/0.749757 245699/0.250243</prop>
+    <prop key="sense:ukb:unitsstr">europejski-1(rel)</prop>
+    <prop key="sumo_map">equivalent:Europe</prop>
+   </tok>
+   <tok>
+    <orth>można</orth>
+    <lex disamb="1"><base>można</base><ctag>pred</ctag></lex>
+    <prop key="sense:ukb:syns_id">1709</prop>
+    <prop key="sense:ukb:syns_rank">1709/1</prop>
+    <prop key="sense:ukb:unitsstr">można-1(cumy) wolno-1(cumy)</prop>
+   </tok>
+  </sentence>
+ </chunk>
+</chunkList>

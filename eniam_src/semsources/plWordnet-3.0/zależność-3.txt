@@ -1,0 +1,488 @@
+482 zależność-3, powiązanie-6
+  39 relacja-5
+    0 relacje Greena-1
+    1 porządek liniowy-1
+      0 sortowanie topologiczne-1
+    0 relacja pusta-1
+    0 relacja przechodnia-1
+    0 relacja pełna-1, relacja totalna-1
+    0 relacja odwrotna-1
+    0 relacja antysymetryczna-1
+    0 izomorfizm porządków-1
+    0 izomorfizm-4
+    6 relacja dwuargumentowa-1, relacja binarna-1, relacja dwuczłonowa-1
+      0 relacja trychotomiczna-1
+      1 relacja równoważności-1
+        0 homeomorfizm grafów-1
+      0 preferencja-2
+      0 relacja symetryczna-1
+      0 relacja zwrotna-1
+    0 inkluzja-1
+    20 relacja logiczna-1
+      12 funktor-1
+        1 funktor zdaniotwórczy-1
+          0 funktor intensjonalny-1
+        7 konektyw-1, spójnik-2, spójnik logiczny-1
+          0 binegacja-1
+          0 dysjunkcja-3
+          0 negacja-2
+          0 koniunkcja-4
+          2 implikacja-3
+            0 implikacja logiczna-1
+            0 implikacja materialna-1
+        0 proto-kwantyfikator-1
+        0 predykat-1
+      0 antylogizm-1
+      3 operator-4
+        0 operator unitarny-1
+        0 dysjunkcyjny operator binarny-1
+        0 mutacja-6
+      0 sprzeczność-2
+      0 odwrotność-1, przeciwieństwo-3
+  1 linia emisyjna-1
+    0 linia wodoru 21 cm-1
+  0 asocjatywność-2, asocjacja-5
+  0 sieć troficzna-1, sieć pokarmowa-1
+  0 relacje Saxena-1
+  0 konwergencja beta-1
+  0 deficyty bliźniacze-1
+  0 neutralizm-2
+  0 powiązanie kapitałowe-1
+  0 akcesoryjność-1
+  2 nieautomatyczność-1
+    1 powtarzalność-2
+      0 samopowtarzalność-1
+  0 łańcuch pokarmowy-1
+  0 charakterystyka-1
+  0 fotoperiodyzm-1
+  0 tonalność-1
+  0 przyczynowość-1, kauzalność-1
+  1 determinizm-2
+    0 predeterminizm-1
+  0 adekwatność-1
+  0 względność-1, relatywność-1
+  VISITED 4 układ-5
+  419 relacja-2
+    0 motywacja-3
+    0 kooperacja-2
+    0 relacja przeciwsymetryczna-1
+    VISITED 0 konfiguracja-3
+    0 współistotność-1, homouzja-1
+    0 stosunek społeczny-1
+    0 spójność społeczna-1
+    9 porządek-6
+      6 równowaga-1, stabilizacja-2
+        0 metastabilność-1
+        0 równowaga Lindahla-1
+        0 równowaga stacjonarna-1
+        0 równowaga cząstkowa-1
+        0 równowaga termodynamiczna-1
+        0 izostazja-1
+      1 proporcja-2, harmonia-2
+        0 symetria-2
+    0 nierównoznaczność-1
+    31 stosunek-1
+      0 dystans-5
+      0 pozycja walutowa-1
+      0 wilgotność względna-1
+      0 kontrast-2
+      1 bilans-3
+        0 bilans energetyczny-1
+      0 energochłonność-1
+      23 proporcja-1
+        0 nerwicowość-1
+        0 korektywność-1
+        0 odpadowość-1
+        0 jeziorność-1
+        0 stechiometria-3
+        0 skolaryzacja-1
+        0 spręż-1, stopień sprężania-1
+        0 chorobowość-1
+        0 krętość-1
+        0 makroproporcja-1
+        0 hematokryt-1
+        1 przełożenie-9
+          0 nadbieg-1
+        0 menzura-1
+        0 menzura-2
+        0 wyleczalność-1
+        0 stopa narzutu-1
+        0 szkodowość-1
+        0 spłacalność-1
+        0 zachorowalność-1, zapadalność-1
+        0 kapitałochłonność-1
+        0 uzysk-1
+        0 parytet-1
+    0 paternalizm-1
+    1 odpowiedniość-1
+      0 współmierność-1
+    4 opozycja-3, przeciwstawność-1
+      0 opozycja prywatywna-1
+      0 opozycja ekwipolentna-1, opozycja równorzędna-1
+      0 opozycja binarna-1
+      0 opozycja fonologiczna-1
+    35 podobieństwo-1, analogia-3, analogiczność-1, bliskość-1, konwergencja-1, zbieżność-1, zgodność-2, powinowactwo-1, pokrewieństwo-1, paralelizm-1, pobratymstwo-1
+      0 jednoimienność-1
+      0 bliższość-2
+      0 homomorfizm-2
+      0 homologia-3
+      0 kongruencja-5
+      1 pseudomorfoza-2, pseudomorfizm-1
+        0 paramorfoza-1
+      0 bliźniaczość-3
+      0 zbliżoność-1, pokrewność-1
+      0 wspólny mianownik-1
+      0 równokształtność-1
+      1 porównywalność-1
+        0 konkurencyjność-1
+      8 równość-2
+        0 izotonia-1
+        0 równoprawność-1
+        1 równoważność-1, ekwiwalencja-1, ekwiwalentność-1, równowartościowość-1
+          0 komplementarność-1
+        0 równorzędność-1
+        2 jednakowość-1, identyczność-1, tożsamość-1
+          0 enharmonia-1
+          0 nierozróżnialność-1
+      11 jednomyślność-1, jednogłośność-1
+        8 zgoda-3, konsensus-1, consensus-1, jednota-2, konsens-1
+          0 aklamacja-1
+          6 porozumienie-2
+            0 dialog-2
+            0 ugoda-1
+            0 pomost-4, most-3
+            0 consensus-2, konsensus-2, konsens-2
+            1 kompromis-1
+              0 zgniły kompromis-1
+        1 solidarność-1
+          0 solidarność jajników-1
+      0 wspólnota-3
+    10 relacja leksykalna-1
+      0 paronimia-1
+      0 homografia-1
+      0 homofonia-1
+      0 meronimia-1
+      0 holonimia-1
+      0 hiponimia-1
+      0 homonimia-1, homonimiczność-1
+      0 hiperonimia-1
+      0 synonimia-1, synonimiczność-1, równoznaczność-1, bliskoznaczność-1
+      0 antonimia-1
+    36 stosunek prawny-1
+      0 stosunek umowny-1
+      0 stosunek cywilnoprawny-1
+      31 stosunek zobowiązaniowy-1
+        0 akcept-1
+        29 kredyt-1
+          0 kredyt akceptacyjny-1
+          0 spłata balonowa-1, płatność balonowa-1, kredyt balonowy-1, rata balonowa-2
+          7 kredyt bankowy-1
+            0 kredyt rolowany-1
+            0 kredyt podporządkowany-1
+            0 kredyt konsorcjalny-1
+            1 kredyt obrotowy-1
+              0 kredyt kasowy-1
+            0 kredyt gotówkowy-1
+            0 kredyt inwestycyjny-1
+          1 kredyt hipoteczny-1
+            0 odwrócona hipoteka-1
+          0 kredyt stracony-1
+          0 kredyt redyskontowy-1
+          0 kredyt lombardowy-1
+          0 kredyt konsumencki-1
+          0 kredyt skupowy-1
+          2 kredyt preferencyjny-1
+            0 kredyt suszowy-1
+            0 kredyt studencki-1
+          0 kredyt kontraktowy-1
+          0 kredyt pomostowy-1
+          0 trzydziestka-8
+          0 mikrokredyt-1
+          0 remburs-1, kredyt rembursowy-1
+          0 kredyt rewolwingowy-1, rewolwing-1
+          0 kredyt państwowy-1
+          0 kredyt refinansowy-1
+          0 kredyt konsumpcyjny-1
+      0 stosunek służbowy-1
+      0 internacjonalizacja-1
+    255 związek-3, więź-2, afiliacja-1, filiacja-1, przełożenie-8
+      0 przełożenie dynamiczne-1
+      0 konotacja-4
+      0 nić-3
+      13 zbieg okoliczności-1, splot wydarzeń-1
+        1 węzeł-6
+          0 węzeł gordyjski-1
+        10 przypadek-1, zrządzenie losu-1, traf-1, kazus-1, casus-1
+          1 strzał-2
+            0 strzał w dziesiątkę-1
+          0 wypadek losowy-1
+          3 pech-1, niefart-1
+            0 twarde lądowanie-1
+            0 zezowate szczęście-1, garbate szczęście-1
+            0 ironia-3
+          2 szczęście-2, fuks-2, fart-1, łut szczęścia-1, uśmiech losu-1, błogosławieństwo-3
+            0 miękkie lądowanie-2
+            0 manna z nieba-1
+      4 czasowość-2, temporalność-1
+        3 sezonowość-1
+          0 zimowość-1
+          0 jesienność-1
+          0 wiosenność-1
+      0 wszechzwiązek-1
+      119 związek przyczynowy-1
+        118 konsekwencja-2, następstwo-2, implikacja-1, pokłosie-1
+          0 posoborowie-1
+          0 stan natury-1
+          1 detencja-1
+            0 detencja sądowa-1
+          0 wadliwość-2
+          8 unieważnienie-2
+            0 kompensacja-2
+            0 dezaktualizacja-1
+            0 delegalizacja-1
+            0 abolicja-1
+            1 separacja-2
+              0 akantoliza-1
+            1 rozwód-1
+              0 talak-1
+          6 kara-3
+            5 pouczenie-4, upomnienie-2, napomnienie-2, przygana-1
+              0 moralizacja-1
+              0 uwaga-4
+              0 pareneza-1
+              0 reprymenda-1, bura-1, połajanka-1, ochrzan-1, ruga-1
+              0 nagana-1
+          0 reperkusja-1
+          0 rykoszet-1
+          1 dziedziczność-2
+            0 atawizm-1
+          1 skutek prawny-1
+            0 ewikcja-1
+          2 deportacja-1
+            0 readmisja-2
+            0 ekstradycja-1
+          68 kara-2, rygor-2, sankcja-1, sprawiedliwość-2
+            17 wyrok-3
+              0 kara główna-1
+              6 kara śmierci-1, kara główna-2
+                0 kwalifikowana kara śmierci-1, kara kwalifikowana-1, śmierć kwalifikowana-1
+                0 stos-4
+                0 krzyż-6
+                0 garota-2, garrota-1
+                0 dekapitacja-1, ścięcie-10
+                0 stryczek-2
+              8 pozbawienie wolności-1
+                0 więzienie-3, odsiadka-1
+                5 areszt-4
+                  0 areszt deportacyjny-1
+                  0 areszt wojskowy-1
+                  0 areszt prewencyjny-1
+                  0 areszt domowy-1
+                  0 areszt tymczasowy-1
+                0 dożywocie-1
+            0 galery-1
+            0 rzeź niewiniątek-2
+            0 bicz boży-1
+            0 depozycja-2
+            0 kara łączna-1
+            0 kara umowna-1
+            0 kara porządkowa-1
+            0 ogień piekielny-1
+            0 koza-16
+            0 pokuta-2
+            0 koszarniak-1
+            0 decymacja-1
+            0 kara nagany-1, nagana-3
+            4 kartka-3
+              0 żółta kartka-3
+              0 czarna kartka-1
+              0 czerwona kartka-1
+              0 żółta kartka-1
+            0 dyskwalifikacja-3
+            0 interdykt-1
+            0 kocówa-1
+            0 zawieszenie-7
+            0 suspensa-1
+            0 śmierć cywilna-1
+            0 proskrypcja-1
+            1 cenzura-2
+              VISITED 0 ekskomunika-1
+            2 chłosta-1
+              0 rózgi-1
+              0 pręgierz-2
+            0 poprawczak-2
+            0 konfiskata-1, przepadek-1, przepad-2, konfiskacja-1
+            0 degradacja-3
+            2 klątwa-1, anatema-1
+              0 cherem-1
+              0 ekskomunika-1
+            4 sankcja-2
+              0 restrykcja importowa-1
+              0 embargo-1
+              1 blokada-2
+                0 blokada ekonomiczna-1
+            4 wygnanie-2, banicja-1
+              2 zesłanie-3
+                0 zsyłka-3
+                0 katorga-3
+              0 ekspatriacja-1
+            0 potop-1
+            3 kara pieniężna-1
+              0 główszczyzna-1
+              0 mandat-1, mandat karny-1
+              0 grzywna-1
+          8 wina-1, odpowiedzialność-2
+            0 przewinienie dyscyplinarne-1
+            0 odpowiedzialność dyscyplinarna-1
+            0 wina kwalifikowana-1
+            0 wina-3
+            0 wina nieumyślna-1
+            0 wina umyślna-1
+            0 wina tragiczna-1, hamartia-2
+            0 współwina-1
+          9 nagroda-2, zapłata-3
+            8 zadośćuczynienie-2
+              0 rekompensata-2, naprawa-2, satysfakcja-2
+              6 odszkodowanie-1, rekompensata-1, wyrównanie-8, kompensata-1, wynagrodzenie-3, restytucja-3, indemnizacja-1
+                0 restytucja naturalna-1
+                0 remuneracja-1
+                0 reparacje-1
+                0 przestojowe-1
+                0 odstępne-1
+                0 nawiązka-1
+      0 korelacja-1, współzależność-1
+      10 związek wyrazowy-1
+        0 zwrot-5
+        0 okazjonalizm-1
+        0 kolokacja-3
+        2 związek frazeologiczny-1, frazeologizm-1
+          0 mitologizm-1
+          0 biblizm-1
+        0 fraza-1
+        1 zestawienie-6
+          0 atrybucja-4
+        0 idiom-1, idiomatyzm-1, idiomat-1
+      82 więź-1, związek-4, więzy-1, wspólnota-2, relacja-3, stosunki-1, węzeł-10
+        0 stosunek pracy-1
+        0 wspólnota gruntowa-1
+        0 dobrosąsiedztwo-1
+        0 kumostwo-2
+        0 kumostwo-1
+        0 więź społeczna-1
+        5 miłość-2
+          0 biofilia-1
+          0 miłość bliźniego-1
+          0 agape-1
+          1 patriotyzm-1, miłość do ojczyzny-1
+            0 hurrapatriotyzm-1, hurapatriotyzm-1
+        0 braterstwo-2
+        0 wspólnotowość-1
+        4 układ-5
+          0 konfiguracja-3
+          0 komeraż-2
+          0 klientelizm-1
+          0 kolesiostwo-1
+        0 przysposobienie-3, adopcja-1
+        1 partnerstwo-1
+          0 partnerstwo publiczno-prywatne-1
+        9 znajomość-1
+          2 znajomości-1, koligacje-1, koneksje-1, stosunki-3
+            VISITED 1 dojście-24, przystęp-2
+          3 zażyłość-1, zbliżenie-5, bliskość-2, poufność-2
+            0 braterskość-1, przyjacielskość-1, bratniość-1
+            1 poufałość-2, familiarność-1, spoufalenie-1
+              0 intymność-2
+          0 koleżeństwo-2, kumplostwo-1
+          0 komitywa-1
+        37 koligacja-1
+          2 rodzicielstwo-1
+            0 ojcostwo-1
+            0 macierzyństwo-1
+          12 pokrewieństwo-2, więzy krwi-1, parantela-2, pobratymstwo-3
+            0 woda po kisielu-1
+            0 krew-3
+            0 lineaż-1
+            0 bliższość-1
+            0 stryjostwo-1
+            0 awunkulat-1
+            0 agnacja-1
+            0 kognacja-1
+            0 kuzynostwo-3
+            0 filiacja-3
+            0 stopień pokrewieństwa-1
+            0 krewniactwo-1
+          20 związek-5
+            0 związek partnerski-2
+            0 związek homoseksualny-1
+            0 koicja-1
+            0 białe małżeństwo-1
+            0 konkubinat-1, kohabitacja-2, związek partnerski-1
+            0 narzeczeństwo-1
+            2 romans-2
+              0 przygoda-3, miłostka-1
+              0 skok w bok-1
+            10 małżeństwo-3, związek małżeński-1, węzeł małżeński-1
+              0 małżeństwo morganatyczne-1
+              0 hierogamia-1
+              0 małżeństwo mieszane-1
+              0 mezalians-1
+              0 biandria-1, dwumęstwo-1
+              3 poligamia-1, wielożeństwo-1
+                0 poliginia-1, poligynia-1
+                0 poliandria-1, wielomęstwo-1
+                0 bigamia-1, dwużeństwo-1
+              0 monogamia-1, jednożeństwo-1
+        0 towarzystwo-4
+        1 powinowactwo-2, spowinowacenie-2
+          0 szwagrostwo-2
+        0 przyjaźń-1
+        7 miłość-1
+          5 afekt-1, uczucie-4
+            2 miłość-4
+              0 głębsze uczucie-1
+              0 namiętność-3
+            1 zakochanie-1, zadurzenie-1
+              0 strzała Amora-1, strzała Erosa-1, strzała Kupidyna-1
+          0 wszechmiłość-1
+      18 kontakt-1, styczność-1
+        0 bliskie spotkanie-1, bliskie spotkanie trzeciego stopnia-2
+        4 powiązanie-7
+          1 dojście-24, przystęp-2
+            0 chody-4
+          1 związek-6, mariaż-1
+            0 zjednoczenie-2, komunia-3, przymierze-2
+        4 łączność-4
+          0 łączność współdziałania-1
+          0 łączność powiadamiania-1
+          0 łączność dowodzenia-1
+          0 kierunek łączności-1
+        6 połączenie-7, linia-11, telefon-3
+          0 głuchy telefon-2
+          0 strzałka-7, strzała-3, sygnał-7, sygnałek-1
+          0 pomyłka-2
+          0 międzymiastowa-1, zamiejscowa-1, telefon zamiejscowy-1
+          0 gorąca linia-1
+          0 telefon grzecznościowy-1
+    21 niezależność-3, samodzielność-1
+      0 ponadpartyjność-1
+      0 bezpartyjność-1
+      1 samowystarczalność-1
+        0 autarkia-2, autarkizm-1, samowystarczalność gospodarcza-1
+      0 emancypacja-1
+      13 odrębność-1, osobność-1, zamkniętość-1, hermetyczność-2
+        1 samoistność-2
+          0 autoteliczność-1
+        0 oddzielność-1
+        VISITED 2 państwowość-1
+        6 elitarność-1, ekskluzywność-1
+          0 snobistyczność-1
+          2 luksusowość-1
+            0 delikatesowość-1
+            0 zbytkowność-1
+          1 snobizm-1
+            0 arystokratyzm-1, błękitna krew-1
+      4 niepodległość-1, wolność-1, suwerenność-2, niezawisłość-2, samostanowienie-2, swoboda-4, nieskrępowanie-1, autonomia-1, samorządność-1, autonomiczność-1, samookreślenie-1, niezależność-2, autonomizm-1
+        0 autokefalia-1
+        2 państwowość-1
+          0 demokratyczność-2
+          0 federacyjność-1

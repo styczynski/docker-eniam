@@ -1,0 +1,566 @@
+554 *CZASOWNIK oznaczający sytuację związaną z reakcją organizmu lub czynnością fizjologiczną-1
+  38 *CZASOWNIK - ZDARZENIE NDK oznaczający powodowanie reakcji organizmu lub czynności fizjologicznej-1
+    0 mrozić-2
+    1 przeziębiać-1, zaziębiać-1, przechładzać-1
+      0 przewiewać-2
+    0 mdlić-1
+    33 boleć-1
+      0 huczeć w głowie-1
+      0 rozsadzać-6
+      0 strzykać-3
+      0 ćmić-5
+      0 łupać-5
+      VISITED 0 piec-3, palić-4, szczypać-1
+      0 drzeć-3
+      0 rwać-2
+      0 kłuć-2
+      0 pobolewać-1
+      22 doskwierać-1, dolegać-1, dokuczać-2, dopiekać-2
+        0 kąsać-4
+        0 palić-12
+        0 nękać-2
+        0 kąsać-2, szczypać-2
+        0 zżerać-2
+        0 szarpać-3
+        0 ciążyć-1
+        VISITED 0 przygniatać-1, ciążyć kamieniem-1, ciążyć ołowiem-1, dobijać-5, przybijać-5, przytłaczać-1, przywalać-3
+        0 rozdzierać-2, targać-2
+        13 niepokoić-1, denerwować-2, trapić-1, martwić-1, frasować-1, gnębić-2
+          0 boleć-3
+          0 osaczać-2
+          1 nękać-3, gryźć-3
+            0 spędzać sen z powiek-1
+          0 drążyć-3
+          0 szarpać-4
+          0 bombardować-3
+          5 przygnębiać-1
+            0 dołować-3
+            0 deprymować-2
+            0 przygniatać-1, ciążyć kamieniem-1, ciążyć ołowiem-1, dobijać-5, przybijać-5, przytłaczać-1, przywalać-3
+            1 załamywać-1, podcinać-4, łamać-5, uginać-2, rozkładać-4
+              0 podłamywać-1
+  17 *CZASOWNIK - ZDARZENIE NDK oznaczający reakcję organizmu lub czynność fizjologiczną-1
+    1 zatruwać się-1
+      0 podtruwać się-1, przytruwać się-1
+    0 zaklejać się-2
+    0 dziedziczyć-2
+    5 ranić się-1, kaleczyć się-1
+      0 urażać się-2
+      1 zadrapywać się-1
+        0 skrobać się-1
+      0 zarzynać się-1
+      0 zacinać się-1
+    0 odrzucać-2
+    0 zachodzić w ciążę-1
+    0 dusić się-1
+    1 zasypiać-1, usypiać-6
+      0 przysypiać-1
+    1 budzić się-1, przebudzać się-1, rozbudzać się-1
+      0 wybudzać się-1
+  7 *CZASOWNIK - PROCES NDK oznaczający powodowanie reakcji organizmu lub czynności fizjologicznej-1
+    0 pobudzać-3, stymulować-3
+    1 upajać-1
+      0 poniewierać-1
+    0 nabawiać-1
+    0 uzależniać-2
+    0 odwadniać-2, odwodniać-2
+    0 przeczyszczać-3
+  173 *CZASOWNIK - CZYNNOŚĆ NDK oznaczający reakcję organizmu lub czynność fizjologiczną-1
+    1 pobudzać się-1
+      0 podniecać się-2
+    0 srywać-1
+    0 świntuszyć-2
+    17 współżyć-1, spółkować-1, kopulować-1, mieć seks-1, odbywać stosunek płciowy-1
+      0 bukować-2
+      1 wykorzystywać-3
+        0 molestować-1, napastować-1
+      1 parzyć się-1
+        0 parkać się-1
+      11 uprawiać seks-1, sypiać-1, chodzić do łóżka-1, iść do łóżka-1, kochać się-1, grzeszyć-3
+        0 obsługiwać-3, zaspokajać-1, dogadzać-3
+        0 sponsorować-3
+        0 brać-19
+        1 uprawiać seks oralny-1, uprawiać miłość francuską-1
+          0 obciągać-4, obciągać chuja-1, obciągać druta-1, obciągać fiuta-1, obciągać loda-1, robić gałę-1, robić laskę-1, robić loda-1, trzaskać algidę-1, strzelać laskę-1, lizać pałę-1, palić cygaro z wąsem-1
+        0 dzielić łoże-1
+        3 prostytuować się-2, kupczyć ciałem-1, sprzedawać ciało-1
+          2 puszczać się-1
+            1 dawać-18
+              0 kurwić się-1, dawać dupy-2
+        0 cudzołożyć-1
+    54 *wykonywać czynność fizjologiczną-1
+      5 płodzić-2, zapładniać-1
+        0 kryć-12, pokrywać-1
+        0 unasienniać-1
+        0 zacielać-1
+        0 zapylać-1
+        0 deptać-5
+      0 ziewać-1
+      8 wydalać-1, oddawać-8
+        0 odchrząkiwać-1
+        0 wydychać-1
+        0 ejakulować-1
+        0 wypróżniać się-1, oddawać kał-1, robić kupę-1
+        2 sikać-1, oddawać mocz-1
+          0 popuszczać-4
+          0 moczyć się-2
+        0 wymiotować-1, zwracać-1, mieć torsje-1
+      32 odżywiać się-1, żywić się-1, karmić się-1
+        0 dożywiać się-1
+        0 pijać-1
+        29 pić-1, wypijać-1
+          0 chlipać-2, wychlipywać-2
+          VISITED 0 pochłaniać-2
+          0 opijać się-2
+          0 ssać-5
+          3 upijać-2, nadpijać-1
+            2 pociągać-7
+              0 siorbać-2
+              0 chłeptać-2
+          0 wysysać-2
+          0 zapijać się-2
+          0 wybębniać-2
+          0 poić się-1
+          1 popijać-1, zapijać-2
+            0 skrapiać-2, zakrapiać-1
+          0 cmoktać-4, smoktać-1
+          0 chlustać-4
+          0 doić-1, dudlić-1
+          0 ssać-4
+          0 chłeptać-1
+          0 sączyć-1, cedzić-2
+          0 dopijać-1
+          0 popijać-3
+          6 pić-2, drinkować-1, wypijać-2, wlewać ... w siebie-1
+            0 pić do lustra-1
+            0 nie wylewać za kołnierz-1
+            0 wychylać-2, obalać-4
+            0 gazować-3, tankować-3, chlać-1, grzać-8
+            0 popijać-2, pociągać z butelki-1, zaglądać do butelki-1, zaglądać do kieliszka-1
+            0 przepłukiwać gardło-1, zwilżać gardło-1
+      4 oddychać-2
+        0 rzęzić-4
+        0 sapać-1
+        0 dyszeć-1, zipać-1, ziać-5, ziajać-1, dychać-1
+        0 oddychać płytko-1
+    5 rozmnażać się-1, rozradzać się-1
+      0 zasiewać się-1, wysiewać się-1
+      0 namnażać się-1, rozpleniać się-1
+      0 plenić się-3
+      0 pączkować-3
+      0 nieść się-1
+    7 rodzić-1
+      0 znosić-11, nieść-6
+      0 prosić się-2
+      0 źrebić się-1
+      0 ulęgać-1
+      0 szczenić się-1
+      0 kocić się-1
+      0 cielić się-1
+    1 jadać-1
+      0 stołować się-1
+    51 jeść-1, spożywać-1, zjadać-1, konsumować-1, posilać się-1, pożywiać się-1
+      0 śniadać-1
+      0 wsuwać-2
+      0 wrąbywać-1
+      0 pochłaniać-2
+      2 objadać-1
+        0 obżerać-2
+        0 obgryzać-1, ogryzać-1
+      0 podjadać-1, podżerać-4
+      0 dziobać-1, dzióbać-2, skubać-1
+      0 zajadać się-1
+      0 pojadać-1
+      0 ujadać-2
+      1 paść się-1, wypasać się-1
+        0 żerować-1
+      0 wiosłować-1
+      0 nadżerać-2
+      2 skubać-2, poskubywać-1, szczypać-4, smykać-1
+        0 wyskubywać-1
+        0 podskubywać-2
+      0 rąbać-8
+      0 przegryzać-2, zagryzać-1, zakąszać-1
+      0 przegryzać-3, przekąszać-1
+      0 wieczerzać-1
+      0 młócić-2
+      0 wieczerzować-1
+      0 ucztować-1, biesiadować-1
+      0 szamać-1
+      0 dojadać-1
+      0 obiadować-1
+      0 wcinać-1
+      0 połykać-2, przełykać-2, łykać-3, chapać-1
+      0 pogryzać-1
+      0 pałaszować-1, zajadać-1
+      0 żreć-1, zżerać-4, pożerać-1
+      6 wyjadać-1
+        0 wygryzać-2
+        0 wylizywać-2
+        0 wygryzać-1
+        0 podjadać-2, podżerać-1
+        0 łasować-1
+        0 wydziobywać-1, wydzióbywać-1
+      7 najadać się-1
+        0 zapychać się-1
+        0 dojadać-2
+        0 objadać się-1, opychać się-1, napychać się-1, napakowywać się-1
+        0 podjadać-4, podżerać-5
+        0 nażerać się-1, obżerać się-1, pchać w siebie-1
+        0 tuczyć się-1, zapasać się-1, rozżerać się-1
+        0 odjadać się-1
+      0 częstować się-1
+      0 próbować-4, smakować-1, kosztować-1, degustować-1
+    28 odpoczywać-1, wypoczywać-1, oddychać-1, odsapywać-1, zażywać odpoczynku-1
+      1 resetować się-1
+        0 ładować baterie-1
+      0 odpoczywać-2
+      1 obozować-1, biwakować-1
+        0 campingować-1, kempingować-1
+      0 wczasować-1, wczasować się-1
+      0 plażować-1
+      0 wysapywać się-1
+      0 wysypiać się-1, dosypiać-1
+      0 odsypiać-1
+      0 pauzować-1
+      7 odprężać się-1, oddychać-3, rozluźniać się-3, relaksować się-1, rozprężać się-1, wyluzowywać się-1, odpoczywać-3
+        0 wyciągać kości-1
+        5 leniuchować-1, próżnować-1, obijać się-2, lenić się-1
+          0 zbijać bąki-1
+          0 markierować-1
+          0 leserować-1
+          0 bumelować-1
+          VISITED 0 wylegiwać się-1, byczyć się-1, leżeć martwym bykiem-1
+      9 spoczywać-3
+        1 siedzieć-7
+          0 wysiadywać-1, siedzieć-8
+        1 siedzieć-3
+          0 sąsiadować-2
+        4 leżeć-2
+          0 wylegiwać się-1, byczyć się-1, leżeć martwym bykiem-1
+          VISITED 0 leżakować-2
+          0 półleżeć-1
+          0 warować-1
+      0 leżakować-2
+  2 *CZASOWNIK - CZYNNOŚĆ NDK oznaczający powodowanie reakcji organizmu lub czynności fizjologicznej-1
+    1 kurować się-1, leczyć się-1
+      0 rehabilitować się-1
+  79 *CZASOWNIK - DZIAŁANIE NDK oznaczający powodowanie reakcji organizmu lub czynności fizjologicznej-1
+    0 ogłuszać-2
+    23 uzdrawiać-1
+      22 leczyć-1, kurować-1, uleczać-1
+        0 odrobaczać-2
+        0 wymrażać-2
+        1 rehabilitować-1
+          VISITED 0 rewalidować-1
+        0 drenować-1, sączkować-1
+        0 dializować-1
+        0 borować-2
+        0 łyżeczkować-1
+        0 pędzlować-1
+        0 galwanizować-2
+        7 operować-2
+          VISITED 0 trepanować-1
+          VISITED 0 amputować-1
+          0 wszczepiać-1, implantować-1
+          0 sterylizować-1
+          1 przeszczepiać-1
+            VISITED 0 transplantować-1
+          0 kastrować-2, trzebić-1
+        0 odtruwać-1
+        0 odczulać-1
+        0 hospitalizować-1
+        0 fluorować-1, fluoryzować-2
+    8 wzmacniać-1
+      0 posilać-1, pożywiać-1
+      0 krzepić-1, pokrzepiać-1, skrzepiać-2
+      0 natężać-1, wysilać-1, wytężać-1
+      0 tonizować-1
+      0 regenerować-1
+      2 uodporniać-2, uodparniać-2
+        0 hartować-3
+        0 szczepić-2, wszczepiać-2, zaszczepiać-3
+    4 usypiać-1
+      2 kłaść-10
+        0 kołysać-2
+        0 utulać-1
+      0 hipnotyzować-1
+    3 drażnić-1
+      0 gryźć-4, drapać-1
+      0 piec-3, palić-4, szczypać-1
+      0 parzyć-1, piec-1, prażyć-1
+    35 osłabiać-2
+      0 wydelikacać-1
+      1 nadwyrężać się-1, nadwerężać się-1, nadszarpywać się-1
+        0 obrywać się-2
+      0 powalać-2
+      10 niszczyć-2, rujnować-1, wyniszczać-1
+        0 szargać-2
+        0 wyjadać-2, wyżerać-3
+        7 uszkadzać-2
+          VISITED 0 kontuzjować-1
+          0 odbijać-7
+          0 rozbijać-2
+          0 naciągać-4
+          2 porażać-2
+            0 kopać-7
+            0 paraliżować-1, obezwładniać-2
+      19 wykończać-3, wykańczać-2, wyczerpywać-1, wycieńczać-1, zabijać-6
+        16 zamęczać-1
+          0 dociskać-2
+          0 zajeżdżać-10
+          0 zadręczać-1
+          12 dręczyć-1
+            0 gnębić-1
+            0 truć-4, zatruwać-3
+            1 tłoczyć się-1
+              0 kłębić się-2, kotłować się-3
+            4 prześladować-1
+              0 represjonować-1
+              0 szykanować-1
+              0 napastować-3
+              0 sekować-1
+            2 nękać-1
+              0 suszyć głowę-1
+              0 szarpać-5
+        0 zagładzać-2, zamarzać-5
+        0 przemęczać-1
+  0 *CZASOWNIK - DZIAŁANIE NDK oznaczający reakcję organizmu lub czynność fizjologiczną-1
+  0 *CZASOWNIK - DZIAŁANIE DK oznaczający reakcję organizmu lub czynność fizjologiczną-1
+  59 *CZASOWNIK - DZIAŁANIE DK oznaczający spowodowanie reakcji organizmu lub czynności fizjologicznej-1
+    0 ogłuszyć-4
+    13 uzdrowić-1
+      12 wyleczyć-1, uleczyć-1, wykurować-1
+        0 odrobaczyć-1
+        0 odczulić-2
+        1 zrehabilitować-2
+          0 rewalidować-1
+        7 zoperować-1
+          0 trepanować-1
+          0 amputować-1
+          0 wszczepić-1
+          0 wysterylizować-1
+          1 przeszczepić-1
+            0 transplantować-1
+          0 wytrzebić-4, wykastrować-2
+    7 wzmocnić-2
+      0 posilić-1, pożywić-1
+      0 pokrzepić-1, skrzepić-1
+      0 natężyć-1, wysilić-1, wytężyć-1
+      0 zregenerować-1
+      2 uodpornić-2
+        0 zahartować-3
+        0 zaszczepić-3, wszczepić-3
+    29 osłabić-1
+      1 nadwyrężyć się-1, nadwerężyć się-1, nadszarpnąć się-1
+        0 oberwać się-3
+      0 wydelikacić-1
+      0 powalić-1
+      8 wykończyć-2, wyczerpać-1, wycieńczyć-1
+        0 zagłodzić-1, zamorzyć-1
+        5 umęczyć-1, zamęczyć-2
+          0 docisnąć-2
+          0 zajeździć-2
+          0 zaszczuć-1
+          1 zadręczyć-1
+            0 zatruć-4
+        0 przemęczyć-1
+      15 zniszczyć-4, wyniszczyć-1
+        0 wyjeść-2, wyżreć-2
+        0 potargać-5, zszargać-1
+        12 uszkodzić-2
+          0 kontuzjować-1
+          0 przedźwigać się-1, podźwigać się-1, przerwać się-2, podźwignąć się-4
+          0 odbić-4
+          0 połamać się-2
+          2 stłuc-3, zbić-8
+            0 potłuc-3
+            0 rozbić-4
+          0 naciągnąć-5
+          2 porazić-1
+            0 kopnąć-3
+            0 sparaliżować-1, obezwładnić-1
+          0 zwichnąć-1, wywichnąć-1, skręcić-7
+    0 zgrzać-1
+    4 uśpić-1
+      2 położyć-9
+        0 ukołysać-1
+        0 utulić-2
+      0 zahipnotyzować-1
+  12 *CZASOWNIK - WYPADEK oznaczający spowodowanie reakcji organizmu lub czynności fizjologicznej-1
+    0 zmrozić-3
+    1 przeziębić-1, zaziębić-1, przechłodzić-1
+      0 przewiać-2
+    1 zamęczyć się-2
+      0 zamartwić się-1, zagryźć się-1
+    1 zabić-2
+      0 zajeździć-3
+    0 zawiać-2
+    1 wyleczyć się-1, wykurować się-1
+      0 zrehabilitować się-1
+    0 zemdlić-1
+    0 przypomnieć się-2, odbić się-2
+  11 *CZASOWNIK - PROCES DK oznaczający spowodowanie reakcji organizmu lub czynności fizjologicznej-1
+    2 odurzyć-3
+      1 upoić-2
+        0 sponiewierać-3
+    0 pobudzić-3
+    0 nabawić-1
+    0 uzależnić-2
+    0 odwodnić-2
+    0 przeczyścić-3
+    2 zesztywnieć-2, zdrętwieć-1, odrętwieć-1
+      0 skostnieć-2
+      0 ścierpnąć-1
+  132 *CZASOWNIK - AKT oznaczający reakcję organizmu lub czynność fizjologiczną-1
+    39 *zrobić coś związanego z biologią i fizjologią człowieka-1
+      12 odbyć stosunek płciowy-1
+        1 posiąść-2, wziąć-16
+          0 zgwałcić-1
+        2 dać-7
+          0 skurwić się-1
+          0 puścić się-2
+        2 wykorzystać-3, dobrać się-2
+          0 dobrać się do majtek-1
+          0 zmolestować-2
+        3 pójść do łóżka-1, przespać się-1
+          0 dać dupy-1
+          0 obsłużyć-3, zaspokoić-2, dogodzić-2
+          0 zasponsorować-2
+      0 smarknąć-1
+      0 obciągnąć-3, obciągnąć chuja-1, obciągnąć druta-1, obciągnąć fiuta-1, obciągnąć loda-1, zrobić gałę-1, zrobić laskę-1, zrobić loda-1, trzasnąć algidę-1, strzelić loda-1
+      18 *wykonać czynność fizjologiczną-1
+        1 kaszlnąć-1
+          0 wykrztusić-2, odkrztusić-1, wykaszleć-1
+        4 zapłodnić-1, spłodzić-2
+          0 pokryć-9
+          0 unasiennić-1
+          0 zacielić-1
+          0 zapylić-2
+        0 ziewnąć-1
+        8 wydalić-1, oddać-9
+          1 spuścić się-3
+            0 zalać-8
+          3 wysikać się-1, oddać mocz-1, siknąć-3
+            0 popuścić-4
+            0 wysikać-1
+            0 zsikać się-1, posikać się-1
+          0 wypróżnić się-1, oddać kał-1, zrobić kupę-1
+          0 zwymiotować-1, zwrócić-4
+        0 odetchnąć-2
+      4 urodzić-1
+        0 oszczenić się-1
+        0 okocić się-1
+        0 oprosić się-1
+        0 znieść-11
+    27 ruszyć-1, poruszyć-3
+      0 wyrzucić-2
+      0 zatrzepotać-3
+      0 wziąć-1
+      0 skinąć-1
+      2 mrugnąć-1
+        0 puścić oko-1
+        0 zamrugać-1
+      1 rzucić-2
+        0 podrzucić-4
+      9 machnąć-1
+        0 zadyndać-2
+        0 wywinąć-1
+        0 świsnąć-2
+        0 mignąć-4
+        0 merdnąć-1
+        0 wierzgnąć-3, fiknąć-2
+        0 majtnąć-2, majdnąć-2
+        0 kiwnąć-1
+        0 śmignąć-2
+      7 przesunąć-2
+        0 pogłaskać-1, pogładzić-1
+        0 przejechać-3
+        0 przeciągnąć-5
+        0 pociągnąć-1
+        1 liznąć-2
+          0 oblizać-1
+        0 musnąć-1, liznąć-1
+    2 rozmnożyć się-1, rozrodzić się-1
+      0 wysiać się-1, zasiać się-1
+      0 namnożyć się-3, rozplenić się-1
+    22 wypić-1
+      0 wychlipać-1, wychlipnąć-1
+      VISITED 0 pochłonąć-6
+      0 opić się-2
+      0 wychłeptać-1
+      0 wydoić-2, wydudlić-1
+      0 wyssać-2
+      0 wybębnić-2
+      0 napoić się-1
+      1 popić-1, zapić-2
+        0 skropić-2, zakropić-1
+      2 upić-1, nadpić-1
+        1 pociągnąć-5
+          0 siorbnąć-2
+      0 wysączyć-1
+      0 dopić-1
+      0 popić-2
+      5 wypić-2, napić się-1, wlać ... w siebie-1
+        2 łyknąć-1
+          0 przepłukać gardło-1, zwilżyć gardło-1
+          0 rąbnąć-4, obalić-4, wychylić-2, wygolić-2, chlapnąć-2, chlusnąć-5, grzmotnąć-3
+        1 zajrzeć do kieliszka-1, zajrzeć do butelki-1, pociągnąć z butelki-1
+          0 zatankować-2
+    38 zjeść-1, spożyć-1, skonsumować-1, posilić się-1, pożywić się-1
+      0 wsunąć-2
+      0 połknąć-2, przełknąć-1, łyknąć-3, chapnąć-1, chapsnąć-2
+      0 pojeść-1
+      0 pochłonąć-6
+      0 dożywić się-1
+      0 wrąbać-2
+      0 ujeść-1
+      0 poczęstować się-1
+      2 objeść-1
+        0 obeżreć-1
+        0 obgryźć-1, ogryźć-1
+      0 nadeżreć-1
+      2 skubnąć-3, smyknąć-1, szczypnąć-2
+        0 wyskubać-1, wyskubnąć-1
+        0 podskubać-2
+      0 wciąć-2
+      0 przegryźć-3, zagryźć-1, zakąsić-1
+      0 przegryźć-4, przekąsić-1, przetrącić-2
+      5 wyjeść-1
+        0 wygryźć-1
+        0 wylizać-2
+        0 wygryźć-2
+        0 podjeść-2, podeżreć-1
+        0 wydziobać-2, wydzióbać-1
+      0 spałaszować-1
+      0 schrupać-1
+      0 pożreć-1, zeżreć-3
+      0 dojeść-1
+      1 spróbować-1, skosztować-1, zdegustować-1, posmakować-1, zakosztować-1, pokosztować-1, popróbować-1
+        0 liznąć-4
+      7 najeść się-1
+        0 zapchać się-1
+        0 napaść się-1
+        0 napaść się-2, objeść się-1, opchać się-1, napchać się-1, napakować się-1
+        0 podjeść-1, podeżreć-4
+        0 utuczyć się-1, zapaść się-3
+        0 nażreć się-1, obeżreć się-1, napchać w siebie-1
+        0 odjeść się-1
+  17 *CZASOWNIK - WYPADEK oznaczający reakcję organizmu lub czynność fizjologiczną-1
+    1 pobudzić się-2
+      0 podniecić się-2
+    1 zatruć się-1, otruć się-1
+      0 podtruć się-1, przytruć się-1
+    0 zakleić się-2
+    2 odziedziczyć-2
+      0 wrodzić się-1, wdać się-2
+      0 wziąć-13
+    0 odrzucić-7
+    1 zajść w ciążę-1
+      0 wpaść-12
+    2 obudzić się-1, zbudzić się-1, przebudzić się-1
+      0 wybudzić się-1
+      0 pobudzić się-1
+    2 zasnąć-1, usnąć-1
+      0 zasnąć jak niemowlę-1
+      0 przysnąć-1

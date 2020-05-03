@@ -1,0 +1,476 @@
+np:$n:$c:$g -> amod -> adjp:$n:$c:$g
+COORD np:_:$c:_ -> amod -> adjp:_:$c:_
+_:subst.ger.adj:$n:$c:$g -> det -> _:adj:$n:$c:$g
+_:siebie:$c -> amod -> _:adjp:_:$c:_
+_:brev -> amod -> _:adjp:_:_:_
+który:adj:$n:$c:$g -> amod -> adjp:$n:$c:$g
+
+_:subst.adj:$n:$c:$g -> nummod -> jeden:adj:$n:$c:$g
+
+_:subst:$n:$c:$g -> flat -> _:adj:$n:$c:$g
+_:subst.adj:_:_:_ -> flat -> _:subst:_:gen:_
+_:brev -> flat -> _:subst.adj.brev
+_:subst:$n:$c:$g -> flat -> _:subst:$n:$c:$g
+_:subst:_:_:_ -> flat -> _:brev
+
+_:subst.ger:_:_:_ -> nmod -> pp
+_:subst:_:_:_ -> nmod -> np:_:gen:_
+_:subst:_:_:_ -> nmod:arg -> np:_:gen:_
+_:subst:$n:$c:$g -> nmod -> _:adj:$n:$c:$g
+_:subst:_:_:_ -> nmod -> _:dig
+_:subst:_:_:_ -> nmod -> _:subst.num:_:nom:_
+_:subst:_:_:_ -> nmod -> [ _:subst.brev -> nummod -> _:num:_:nom:_ ]
+_:brev -> nmod -> _:dig
+_:brev -> nmod -> _:brev
+_:brev -> nmod -> _:subst:_:gen:_
+_:brev -> nmod:arg -> _:brev
+_:brev -> nmod:arg -> _:subst:_:gen:_
+_:subst:_:_:_ -> nmod -> _:brev
+_:subst:_:_:_ -> nmod:title -> _:subst:_:nom:_
+
+_:subst:_:$c:_ -> appos -> _:subst:_:$c:_
+_:brev -> appos -> _:subst
+_:subst -> appos -> _:brev
+_:subst:_:_:_ -> appos -> _:subst:_:nom:_
+
+_:ppas -> obl:agent -> [ _:subst -> case -> przez:prep:acc ]
+
+
+_:fin.praet.pred -> discourse:comment -> _:qub
+
+_:fin.praet.winien.inf.pcon.pact.impt.imps.pred.bedzie -> cc -> conjp
+
+
+
+#jako.niż:conj -> rev_nummod -> _:subst:_:acc:_
+
+_:fin.praet.winien.inf.pcon.pact.impt.imps.pred.bedzie.ppas -> advmod -> _:qub
+_:fin.praet.winien.inf.pcon.pact.impt.imps.pred.bedzie.ppas -> advmod -> _:adv
+_:fin.praet.winien.inf.pcon.pact.impt.imps.pred.bedzie.ppas -> advmod -> [ na:prep -> fixed -> _:adv ]
+_:adv.adj.subst.prep.comp.num.qub -> advmod -> _:qub
+_:adv.adj -> advmod -> _:adv
+
+_:fin:$n:ter -> nsubj -> _:subst.ger.adj:$n:nom:_
+COORD _:fin:_:ter -> nsubj -> _:subst.ger.adj:_:nom:_
+_:fin:$n:ter -> nsubj -> [ _:subst.brev -> nummod -> _:num:$n:nom:_ ]
+COORD _:fin:_:ter -> nsubj -> [ _:subst.brev -> nummod -> _:num:_:nom:_ ]
+_:fin:$n:$p -> nsubj -> _:ppron12.ppron3:$n:nom:_:$p
+_:praet.winien:$n:$g -> nsubj -> _:subst.ger.num.adj.ppron12.ppron3:$n:nom:$g
+_:praet.winien:$n:$g -> nsubj -> [ _:subst.brev -> nummod -> _:num:$n:nom:$g ]
+[ _:_ -> cop -> _:praet.winien:$n:$g ] -> nsubj -> _:subst.ger.num.adj.ppron12.ppron3:$n:nom:$g
+[ _:adj:$n:nom:$g -> cop -> _:fin:$n:ter ] -> nsubj -> _:subst.ger.num.adj.ppron3:$n:nom:$g
+_:fin:sg:ter -> nsubj -> [ _:subst.brev -> nummod -> _:num:_:nom:_:rec ]
+_:praet.winien:sg:n -> nsubj -> [ _:subst.brev -> nummod -> _:num:_:nom:_:rec ]
+_:fin.praet.winien:_:_ -> nsubj -> _:brev
+[ _:ppas:$n:nom:$g -> aux:pass -> _:praet:$n:$g ] -> nsubj:pass -> np:$n:nom:$g
+[ _:ppas:$n:nom:$g -> aux:pass -> _:fin:$n:_ ] -> nsubj:pass -> np:$n:nom:$g
+[ _:ppas:$n:nom:$g -> aux:pass -> _:praet:$n:$g ] -> nsubj:pass -> adjp:$n:nom:$g
+[ _:ppas:$n:nom:$g -> aux:pass -> _:fin:$n:_ ] -> nsubj:pass -> adjp:$n:nom:$g
+
+_:fin.praet.winien.inf.pcon.pact.pant.impt.imps.ger -> obj -> np:_:gen.acc:_
+_:fin.praet.winien.inf.pcon.pact.pant.impt.imps.ger -> obj -> adjp:_:gen.acc:_
+_:fin.praet.inf.pcon.pact.pant.impt.imps.ger.ppas -> ccomp:obj -> _:comp
+_:fin.praet.inf.pcon.pact.impt.imps.pred.ger.ppas -> iobj -> np:_:nom.gen.dat.acc.inst:_
+_:fin.praet.inf.pcon.pact.impt.imps.pred.ger.ppas -> iobj -> adjp:_:nom.gen.dat.acc.inst:_
+_:fin.praet.inf.pcon.pact.impt.imps.pred.ger.ppas -> iobj -> [ _:subst.brev -> nummod -> _:num:_:gen.acc:_ ]
+_:fin.praet.inf.pcon.pact.impt.imps.pred.ger.ppas -> iobj -> _:siebie:gen.dat.acc.inst
+
+_:fin.praet.winien.inf.pcon.pact.impt.imps.pred.bedzie.ger.ppas.adj -> obl -> pp
+_:fin.praet.winien.inf.pcon.pact.impt.imps.pred.bedzie.ger.ppas.subst -> obl:arg -> pp
+_:fin.praet.inf.pcon.pact.impt.imps.pred.ger.ppas -> obl -> np:_:inst:_
+daleko:adv:com -> obl -> _:subst:_:nom:_
+niedaleko:adv:pos -> obl:arg -> np:_:gen:_
+
+_:fin.praet.winien.inf.pcon.pact.impt.imps.pred.bedzie -> xcomp -> infp
+trudno.dobrze.zbyt.łatwo.tyle:adv -> xcomp -> infp
+to:subst:sg:_:n -> xcomp -> aby.żeby.by:comp
+_:fin.praet.winien.inf.pcon.pact.impt.imps.pred.bedzie -> xcomp -> aby.żeby.by.że:comp
+
+_:fin.praet.inf.pcon.pact.pant.impt.imps.pred.ger.ppas -> ccomp -> _:comp
+_:adv.adj.subst -> ccomp -> _:comp
+_:fin.praet.inf.impt.pred -> ccomp -> ip
+
+_:fin.praet.winien.inf.pred -> advcl -> _:pcon.pant
+_:fin.praet.winien.inf.impt.pred.ppas.bedzie -> advcl -> _:comp
+_:fin -> advcl -> _:fin
+_:praet -> advcl -> _:praet
+_:adv.adj.subst -> advcl -> _:comp
+
+_:praet.winien:$n:_ -> compound:aglt -> być:aglt:$n:_
+by:qub -> compound:aglt -> być:aglt
+by.gdyby.jakby:comp -> compound:aglt -> być:aglt
+_:praet.winien:_:_ -> compound:cnd -> by:qub
+_:fin.praet.winien.inf.pcon.pact.ger.pant.impt.imps.pred -> expl:impers -> się:qub
+_:fin.praet.winien.inf.pcon.pact.ger.pant.impt.imps.pred -> expl:impers -> siebie:siebie:dat
+
+#<conll_root>:interp -> root -> sent
+<conll_root>:interp -> root -> ip
+<conll_root>:interp -> root -> cp
+#<conll_root>:interp -> root -> [ _:_ -> cop -> _:praet.winien:$n:$g | punct -> _:interp ]
+<conll_root>:interp -> root -> np:_:nom:_
+<conll_root>:interp -> root -> _:brev
+#<conll_root>:interp -> root -> _:prep:_
+<conll_root>:interp -> root -> trudno:adv:pos
+<conll_root>:interp -> root -> dobrze:adv:com
+<conll_root>:interp -> root -> tyle:adv:pos
+<conll_root>:interp -> root -> tak:adv:pos
+<conll_root>:interp -> root -> dobrze:adv:pos
+<conll_root>:interp -> root -> oto:adv:pos
+<conll_root>:interp -> root -> łatwo:adv:com
+<conll_root>:interp -> root -> wtedy:adv:pos
+<conll_root>:interp -> root -> trudno:adv:com
+<conll_root>:interp -> root -> przykro:adv:pos
+<conll_root>:interp -> root -> podobnie:adv:pos
+<conll_root>:interp -> root -> dlatego:adv:pos
+<conll_root>:interp -> root -> zwłaszcza:qub
+<conll_root>:interp -> root -> notyfikować:ppas:_:nom:_
+<conll_root>:interp -> root -> wykluczyć:ppas:_:nom:_
+<conll_root>:interp -> root -> zmieniać:pact:_:nom:_
+<conll_root>:interp -> root -> uwzględniać:pcon:imperf
+<conll_root>:interp -> root -> mieć:pcon:imperf
+<conll_root>:interp -> root -> pragnąć:pcon:imperf
+<conll_root>:interp -> root -> mówić:pcon:imperf
+<conll_root>:interp -> root -> mieć:pcon:imperf
+
+#_:adj.pcon.fin.comp.impl.ppas -> punct -> ,:interp
+_:_ -> punct -> _:interp
+
+#_:fin.praet.winien.inf.pcon.pact.impt.imps.pred.bedzie.ger.ppas.adj -> obl -> [ który:adj -> case -> _:prep ]
+#_:fin.praet.winien.inf.pcon.pact.impt.imps.pred.bedzie.ger.ppas.subst -> obl:arg -> [ który:adj -> case -> _:prep ]
+
+#tu by trzeba dodać analizę "który"
+_:subst -> acl:relcl -> ip
+
+[ _:adj -> cop -> _:bedzie ] -> cc -> _:conj
+[ _:bedzie -> mark -> _:comp ] -> nsubj -> _:subst
+cp -> ccomp -> cp
+[ _:inf -> aux -> _:bedzie ] -> nsubj -> _:adj
+cp -> ccomp -> cp
+pp -> cop -> _:fin
+pp -> cop -> _:praet
+[ _:subst -> cop -> _:praet ] -> cc -> _:conj
+_:adj -> advcl -> cp
+_:adj -> obl -> _:subst
+_:adv -> aux -> _:praet
+_:adv -> obl -> [ _:subst -> nummod -> _:num ]
+_:fin -> cc:preconj -> _:conj
+_:fin -> ccomp -> [ _:adj -> mark -> _:comp | cop -> _:fin ]
+_:fin -> xcomp -> [ _:inf -> mark -> _:comp ]
+_:impt -> mark -> _:comp
+_:inf -> discourse:comment -> [ _:prep -> fixed -> _:subst ]
+_:inf -> obl -> [ _:subst -> mark -> _:prep ]
+_:ppas -> obl:agent -> [ _:siebie -> case -> _:prep ]
+_:ppron12 -> appos -> _:subst
+_:praet -> obl:comp -> cp
+_:subst -> compound:aglt -> _:aglt
+_:subst -> det -> _:adj
+_:subst -> discourse:comment -> _:subst
+cp -> advcl -> [ _:inf -> mark -> _:comp ]
+pp -> nmod:arg -> _:adj
+pp -> nsubj -> _:subst
+#[ _:subst -> cop -> [ _:pred -> aux -> _:praet ] ] -> mark -> _:comp
+_:adv -> xcomp -> [ _:inf -> mark -> _:comp ]
+_:conj -> nmod -> _:subst
+_:dig -> case -> _:prep
+_:ger -> list -> _:dig
+_:ger -> nmod -> _:subst
+_:pant -> obl -> pp
+_:pant -> obl:arg -> pp
+_:ppas -> aux -> _:inf
+_:praet -> csubj -> cp
+_:subst -> advcl -> cp
+#[ _:adj -> mark -> _:comp | cop -> _:fin ] -> obl:arg -> pp
+[ _:ppas -> aux -> _:praet ] -> nsubj:pass -> _:adj
+cp -> advcl -> cp
+pp -> fixed -> _:subst
+pp -> nmod -> _:adj
+_:adj -> discourse:comment -> _:adv
+_:adj -> iobj -> _:subst
+_:adj -> obl:comp -> [ _:adj -> mark -> _:prep ]
+_:adv -> mark -> _:comp
+_:fin -> acl:relcl -> _:fin
+_:fin -> discourse:comment -> _:subst
+_:fin -> iobj -> _:num
+_:interp -> case -> _:prep
+_:ppas -> cop -> _:fin
+_:ppron12 -> mark -> _:prep
+_:praet -> discourse:intj -> _:interj
+_:praet -> mark -> _:conj
+_:praet -> parataxis -> _:adv
+_:subst -> appos -> _:adj
+_:subst -> discourse:comment -> _:adv
+_:subst -> mark -> _:prep
+_:adj -> case -> _:prep
+_:fin -> advcl -> [ _:ppas -> mark -> _:comp | aux:pass -> _:fin ]
+_:fin -> obl:comp -> [ _:subst -> mark -> _:prep ]
+_:ger -> mark -> _:prep
+_:inf -> advmod -> [ _:prep -> fixed -> _:subst ]
+_:inf -> mark -> _:conj
+_:ppas -> cop -> _:praet
+_:ppas -> nsubj -> _:subst
+_:ppas -> obl:agent -> [ _:ppron3 -> case -> _:prep ]
+_:ppron3 -> nummod -> _:num
+_:praet -> discourse:comment -> _:subst
+_:subst -> advcl -> cp
+_:subst -> cop -> [ _:pred -> aux -> _:bedzie ]
+_:subst -> nsubj -> _:ppron3
+[ _:adj -> cop -> _:bedzie ] -> mark -> _:comp
+[ _:adj -> cop -> _:praet ] -> compound:cnd -> _:qub
+pp -> amod -> _:adj
+#[ _:subst -> cop -> [ _:pred -> aux -> _:fin ] ] -> cc -> _:conj
+_:adj -> discourse:comment -> _:qub
+_:adv -> discourse:comment -> _:qub
+_:adv -> obl -> _:subst
+_:burk -> case -> _:prep
+_:conj -> nsubj -> _:subst
+_:interp -> cc -> _:conj
+_:interp -> fixed -> _:num
+_:interp -> root -> pp
+_:interp -> root -> _:subst
+_:num -> fixed -> _:num
+_:num -> nmod -> [ _:ppron3 -> case -> _:prep ]
+_:pact -> case -> _:prep
+_:pcon -> ccomp -> cp
+_:ppas -> case -> _:prep
+_:ppas -> obl:agent -> [ _:ppron12 -> case -> _:prep ]
+_:praet -> advmod -> _:adj
+_:prep -> discourse:comment -> _:adv
+_:subst -> nmod -> [ _:subst -> mark -> _:prep ]
+[ _:inf -> mark -> _:comp ] -> nsubj -> _:subst
+[ _:subst -> cop -> _:pred ] -> obl -> pp
+_:adj -> nmod -> _:subst
+_:fin -> csubj -> cp
+_:inf -> advcl -> cp
+_:inf -> ccomp -> cp
+_:ppas -> mark -> _:comp
+_:prep -> obl -> [ _:subst -> nummod -> _:num ]
+_:subst -> obl -> pp
+_:subst -> xcomp -> _:inf
+[ _:adj -> cop -> _:praet ] -> compound:aglt -> _:aglt
+[ _:ppas -> aux:pass -> _:praet ] -> cc -> _:conj
+pp -> cc:preconj -> _:conj
+pp -> flat -> _:adj
+pp -> flat -> _:subst
+_:adv -> ccomp -> _:fin
+_:brev -> nmod -> pp
+_:fin -> mark -> _:conj
+_:praet -> mark -> _:adv
+_:qub -> cc -> _:conj
+_:subst -> discourse:intj -> _:interj
+_:subst -> nmod:arg -> _:brev
+_:adj -> obl:arg -> [ _:ger -> case -> _:prep ]
+_:adv -> fixed -> _:comp
+_:adv -> obl:arg -> _:subst
+_:brev -> case -> [ _:prep -> fixed -> _:subst ]
+_:fin -> ccomp:obj -> cp
+_:fin -> discourse:comment -> _:brev
+_:fin -> obl -> [ _:subst -> nummod -> _:num ]
+_:ger -> nmod:arg -> _:subst
+_:inf -> nsubj -> _:subst
+_:interp -> nmod:arg -> _:subst
+_:interp -> nsubj -> _:subst
+_:subst -> acl:relcl -> _:subst
+_:subst -> flat -> _:adja
+_:subst -> xcomp -> [ _:inf -> mark -> _:comp ]
+[ _:pred -> mark -> _:comp ] -> aux -> _:praet
+_:fin -> advmod -> _:adj
+_:fin -> obl -> [ _:subst -> mark -> _:prep ]
+_:subst -> nsubj -> _:adj
+[ _:adj -> cop -> _:praet ] -> cc -> _:conj
+[ _:ger -> case -> _:prep ] -> obl:agent -> pp
+[ _:ppas -> aux:pass -> _:fin ] -> cc -> _:conj
+[ _:subst -> cop -> _:fin ] -> cc -> _:conj
+[ _:subst -> cop -> _:fin ] -> obl -> pp
+_:adj -> acl:relcl -> _:fin
+_:adv -> obl:arg -> pp
+_:fin -> nsubj -> _:adj
+_:inf -> ccomp:obj -> cp
+_:inf -> fixed -> _:qub
+_:praet -> advcl -> cp
+_:prep -> case -> [ _:prep -> fixed -> _:subst ]
+[ _:adj -> case -> _:prep ] -> fixed -> _:dig
+[ _:subst -> cop -> _:fin ] -> nsubj -> _:ger
+[ _:subst -> cop -> _:praet ] -> obl -> pp
+_:conj -> advmod -> _:qub
+_:fin -> advmod:arg -> _:adv
+_:fin -> list -> _:dig
+_:impt -> advcl -> cp
+_:subst -> fixed -> _:adj
+[ _:subst -> cop -> _:praet ] -> advmod -> _:adv
+_:fin -> discourse:intj -> _:interj
+_:fin -> obj -> _:subst
+_:ger -> advmod -> _:qub
+_:subst -> flat -> _:dig
+cp -> advcl -> cp
+cp -> nsubj -> _:subst
+_:adj -> acl:relcl -> _:praet
+_:inf -> advcl -> [ _:inf -> mark -> _:comp ]
+_:inf -> ccomp -> cp
+_:praet -> ccomp:obj -> cp
+_:praet -> parataxis -> _:impt
+_:praet -> parataxis -> _:subst
+_:prep -> obl -> pp
+_:subst -> case -> _:prep
+cp -> nsubj -> _:subst
+_:ppas -> aux -> _:fin
+pp -> xcomp -> [ _:inf -> mark -> _:comp ]
+_:adj -> amod -> _:adj
+_:adj -> cop -> _:inf
+_:num -> cc -> _:conj
+_:num -> obl -> _:brev
+_:praet -> obl:comp -> [ _:subst -> mark -> _:prep ]
+_:prep -> flat -> _:subst
+_:subst -> nmod:arg -> _:subst
+[ _:adj -> cop -> _:fin ] -> obl:arg -> pp
+_:adv -> mark -> _:conj
+_:fin -> mark -> _:adv
+_:interp -> fixed -> _:dig
+_:subst -> parataxis -> _:fin
+#[ _:subst -> cop -> [ _:pred -> aux -> _:fin ] ] -> mark -> _:comp
+[ _:subst -> nummod -> _:num ] -> cc -> _:conj
+_:adj -> cop -> _:pred
+_:adv -> ccomp -> cp
+_:adv -> mark -> _:adv
+_:prep -> discourse:comment -> _:brev
+_:adv -> case -> _:prep
+_:ppas -> nsubj:pass -> _:subst
+_:subst -> discourse:comment -> pp
+pp -> advmod -> _:adv
+[ _:subst -> mark -> _:prep ] -> cc -> _:conj
+_:adj -> fixed -> _:dig
+[ _:ger -> case -> _:prep ] -> cc -> _:conj
+[ _:subst -> cop -> _:bedzie ] -> nsubj -> _:subst
+_:prep -> fixed -> _:adj
+_:subst -> cop -> _:inf
+_:subst -> list -> _:dig
+_:praet -> discourse:comment -> pp
+_:praet -> vocative -> _:subst
+_:subst -> ccomp -> cp
+_:subst -> nmod:arg -> _:adj
+[ _:inf -> mark -> _:comp ] -> aux -> _:bedzie
+pp -> nmod -> _:subst
+_:adv -> acl:relcl -> _:praet
+_:praet -> obl -> [ _:subst -> nummod -> _:num ]
+pp -> ccomp -> cp
+_:adj -> mark -> _:conj
+_:adv -> acl:relcl -> _:fin
+_:fin -> advmod -> [ _:prep -> fixed -> _:subst ]
+_:qub -> fixed -> _:adv
+[ _:ppas -> aux:pass -> _:bedzie ] -> nsubj:pass -> _:subst
+[ _:subst -> cop -> _:pred ] -> cc -> _:conj
+_:bedzie -> nsubj -> _:subst
+_:fin -> discourse:comment -> pp
+_:fin -> ccomp:obj -> cp
+_:ppron3 -> advmod -> _:qub
+_:prep -> cc -> _:conj
+pp -> cc -> _:conj
+#[ _:subst -> mark -> _:comp | cop -> _:fin ] -> nsubj -> _:subst
+_:fin -> compound:imp -> _:qub
+_:brev -> amod -> _:adj
+_:ger -> obl:agent -> pp
+_:num -> nmod -> pp
+_:praet -> obl -> [ _:subst -> mark -> _:prep ]
+_:subst -> fixed -> _:subst
+[ _:ger -> case -> _:prep ] -> nsubj -> _:subst
+_:adv -> fixed -> _:qub
+_:praet -> advmod -> [ _:prep -> fixed -> _:subst ]
+_:praet -> discourse:comment -> [ _:prep -> fixed -> _:subst ]
+_:subst -> cop -> _:pact
+_:ppron12 -> advmod -> _:qub
+_:prep -> discourse:comment -> [ _:prep -> fixed -> _:subst ]
+cp -> advcl -> cp
+_:adv -> ccomp -> cp
+_:adv -> obl:comp -> [ _:subst -> mark -> _:prep ]
+pp -> mark -> _:conj
+_:interp -> fixed -> _:subst
+pp -> ccomp -> cp
+pp -> obl -> pp
+[ _:subst -> cop -> _:pred ] -> mark -> _:comp
+_:adj -> nmod:arg -> _:subst
+pp -> mark -> _:comp
+_:fin -> obl -> _:subst
+_:adv -> obl -> pp
+[ _:adj -> cop -> _:bedzie ] -> nsubj -> _:subst
+_:fin -> advcl -> cp
+_:fin -> discourse:comment -> _:adv
+_:interp -> nummod -> _:num
+_:subst -> discourse:comment -> [ _:prep -> fixed -> _:subst ]
+_:subst -> nmod -> _:adj
+[ _:inf -> aux -> _:bedzie ] -> nsubj -> _:subst
+[ _:brev -> case -> _:prep ] -> amod -> _:adj
+_:ppas -> cc -> _:conj
+_:subst -> cc:preconj -> _:conj
+[ _:brev -> case -> _:prep ] -> nummod -> _:num
+_:praet -> advcl -> [ _:inf -> mark -> _:comp ]
+_:subst -> ccomp -> cp
+_:subst -> nmod -> _:subst
+_:num -> fixed -> _:subst
+[ _:adj -> cop -> _:fin ] -> cc -> _:conj
+_:adjp -> case -> _:prep
+_:adv -> fixed -> _:adv
+_:impt -> vocative -> _:subst
+_:conj -> fixed -> _:qub
+_:qub -> fixed -> _:qub
+pp -> nummod -> _:num
+_:burk -> flat -> _:subst
+cp -> aux -> _:bedzie
+_:subst -> flat -> _:subst
+_:subst -> amod -> _:adj
+pp -> amod -> _:adja
+_:fin -> advcl -> [ _:inf -> mark -> _:comp ]
+_:fin -> discourse:comment -> [ _:prep -> fixed -> _:subst ]
+_:praet -> parataxis -> _:praet
+_:subst -> discourse:comment -> _:brev
+_:adj -> cop -> _:praet
+_:praet -> ccomp -> cp
+_:adj -> mark -> _:comp
+_:praet -> ccomp -> cp
+_:subst -> cop -> _:praet
+_:num -> advmod -> _:adv
+pp -> mark -> _:adv
+_:adj -> obl:comp -> [ _:subst -> mark -> _:prep ]
+_:praet -> ccomp:obj -> cp
+_:ger -> cc -> _:conj
+_:praet -> discourse:comment -> _:adv
+_:praet -> obl -> _:subst
+_:adj -> cop -> _:fin
+_:fin -> nsubj -> _:subst
+_:fin -> parataxis -> _:praet
+_:adv -> cc -> _:conj
+_:subst -> nummod -> _:num
+_:fin -> vocative -> _:subst
+_:fin -> parataxis -> _:fin
+_:interp -> root -> _:inf
+_:subst -> obl -> pp
+_:adj -> obl:arg -> pp
+_:adj -> fixed -> _:adj
+_:conj -> fixed -> _:conj
+_:subst -> cop -> _:fin
+_:prep -> fixed -> _:adjp
+_:prep -> fixed -> _:adv
+_:fin -> ccomp -> cp
+_:subst -> amod -> _:adja
+_:subst -> mark -> _:adv
+_:praet -> nsubj -> _:subst
+_:subst -> nsubj -> _:subst
+[ _:subst -> cop -> _:pred ] -> nsubj -> _:subst
+_:num -> fixed -> _:brev
+_:subst -> mark -> _:comp
+_:subst -> advmod -> _:adv
+_:praet -> advcl -> cp
+_:ger -> nsubj -> _:subst
+_:prep -> advmod -> _:adv
+_:adj -> nsubj -> _:subst
+_:fin -> ccomp -> cp
+_:praet -> parataxis -> _:fin
+_:fin -> advcl -> cp
+[ _:subst -> cop -> _:fin ] -> nsubj -> _:subst
+_:adv -> fixed -> _:prep
+_:adj -> cc -> _:conj
+_:subst -> mark -> _:conj
+[ _:subst -> nummod -> _:num ] -> case -> _:prep
+_:subst -> fixed -> _:prep
+pp -> cc -> _:conj
+pp -> nummod -> _:num
+_:subst -> cc -> _:conj
+

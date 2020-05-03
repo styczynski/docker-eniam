@@ -1,0 +1,131 @@
+W fizyce korzysta się z modeli, o których wiadomo, że nie opisują wszystkiego i są na nie kontrpryzykłady. My robimy to samo z semantyką języka: Tworzymy model, który nie opisuje wszystkich zjawisk, jakie występują w języku, a w założeniu ma opisywać to, co powszechnie występuje w tekstach języka polskiego. Model ten ma dwa poziomy. Jeden znich wskazuje podział przyimków na sensy i przypiuje im role tematyczne oraz preferencje selekcyjne. Drugi z nich stanowi uzasadnienie poprawności podziału w pierwszym poprzez formalne zdefiniowanie sensów przyimków w założonej ,,ontologii''. Pierwszy poziom jest bardziej użytkowy a drugi podaje model rzeczywistości.
+
+[JK] ZADANIE:
+- Napisać latexowy dokument zawierający treść tego pliku.
+- Ma być rozszerzeniem dzieła robionego w grudniu.
+- Wprowadzić rozdziały. Ma powstać przewodnik jak anotować przyimki - w sensie mam zrobić obliczeniową wersję słownika języka polskiego dla przyimków -- taki ,,Walenty'' dla przyimków.
+- Półformalne definicje i tabelki pozostają ,,na sucho''
+- Z reszty staram się zrobić ładną narrację
+- Uzupełnij tekstowe informacje z plików przyimki1.txt-4.txt, których brakuje w tym pliku
+
+Zgodnie z założeniami z Clarin 1 mamy algorytm znaczeniowy i odniesienie.
+Odniesieniami przyimków są relacje, np. jedna z możliwych relacji dla przyimka ,,blisko'' jest zdefiniowana jako
+blisko={(X,Y):dist(X,Y) <= e}, gdzie e=0.01 a dist jest to polimorficza metryką zdefiniowana jako: w przypadku, gdy: 
+- X i Y są punktami w przestrzeni liniowej jest to metryka Euklidesowa,
+- X i Y są podzbiorami przestrzeni liniowej jest to metryka Hausdorffa nad metryką Euklidesową.
+- X i Y parametryzowane przez czas dist(X,Y) = sup_t dist(X(t),Y(t))
+W szczególności, gdy X i Y są liczbami dist(X,Y) = |X - Y|,
+a gdy X i Y są interwałami dist(X,Y) = max{sup{inf{|x-y|:y \in Y}:x \in X},sup{inf{|x-y|:x \in X}:y \in Y} = max{|X.beg-Y.beg|,|X.end-Y.end|}
+
+
+Algorytm znaczeniowy ,,blisko'' zwraca true wtw. kiedy badane odniesienie R jest relacją definiowalną w postaci 
+R={(X,Y):dist(X,Y) <= e}, gdzie dist jest metryką, a e liczbą rzeczywistą większą od 0.
+
+
+Przez B oznaczymy referencję podrzędnika przyimka.
+Przez P oznaczymy referencję wyrażenia przyimkowego przestrzennego.
+Przez R oznaczymy odniesienie przyimka.
+Przez A oznaczymy referencję nadrzędnika wyrażenia przyimkowego.
+
+
+W przypadku określeń czasu nadrzędnikiem przyimka jest zazwyczaj nazwa zdarzenia lub stanu.
+W przypadku określeń czasu podrzędnikiem przyimka jest zazwyczaj nazwa przedziału czasowego albo nazwa zdarzenia.
+Referencjami nazw przedziałów czasowych są interwały. 
+Referencjami nazw zdarzeń są zdarzenia.
+Referencjami wyrażeń przyimkowych będących określeniami czasu są interwały.
+
+Przez $.beg$ będziemy oznaczać początek interwału, przez $.end$ koniec, a przez $.len$ długość.
+Przez $.time$ będziemy oznaczać czas zdarzenia/stanu, przez $.loc$ będziemy oznaczać parametryzowane przez czas miejsce zdarzenia/stanu/przedmiotu.
+
+
+Role tematyczne dla przyimków definiujemy jako trójargumentowe relacje, których pierwszym argumentem jest odniesienie nadrzędnika przyimka, drugim jest odniesienie przyimka a trzecim odniesienie podrzędnika przyimka.
+
+Loc(A,R,B) = exists P: forall t in A: A.loc(t) subset P(t) && R(P,B.loc)=1
+LocGoal(A,R,B) = exists P: A(A.end) subset P(A.end) && not A(A.beg) subset P(A.beg) && R(P,B.loc)=1
+LocSrc(A,R,B) = exists P: A(A.beg) subset P(A.beg) && not A(A.end) subset P(A.end) && R(P,B.loc)=1
+Time(A,R,B) <==> R(A.time,B)=1
+Time(A,R,B) <==> R(A.time,B.time)=1
+Count(A,R,B) <==> R(A.count,B)=1
+Order(A,R,B) <==> exists P: porządek indukowany przez algorytmy znaczeniowe A i B && R(A,B)=1
+#Order(A,R,B) <==> exists P: A.order=porządek indukowany przez P && R(A,B)=1
+Cond(A,R,B) <==> ustaw greater na zależności przyczynowo skutkowe && R(A,B)=1
+
+Np. dla zdania ,,Strzał padł koło południa." mamy type(A,paść), type(R,koło_1), type(B,południe) oraz wiążącą je rolę tematyczną Time(A,R,B).
+
+Zadanie opisania semantyki przyimków sprowadza się teraz do wskazania ich 
+- lemat i schemat składniowy, 
+- preferencje selekcyjne nałożone na nadrzędnik, 
+- preferencje selekcyjne nałożone na podrzędnik, 
+- rola tematyczna, 
+- sens przyimka - nazwa algorytmu znaczeniowego
+- numer sensu z SJP
+- przykład(y)
+Przyjmujemy, że przyimki mogą mieć wiele sensów.
+Oznaczamy je poprzez dodawanie do lematów przyimków kolejnych liczb naturalnych. 
+Sensy różnych przyimków mogą być identyczne. Mają wtedy ten sam algorytm znaczeniowy.
+Algorytme znaczeniowe przyimków te definiujemy tak, by były niezależne od ról tematycznych.
+
+Oprócz tego potrzebujemy wskazać sensy identyczne oraz zdefiniować poszczególne algorytmy znaczeniowe.
+
+koło_1=blisko_1=około_1=niedaleko_1=opodal_1=pod_2=obok_1
+
+blisko_1(R)=true  <==> R jest relacją definiowalną w postaci 
+R={(X,Y):dist(X,Y) <= e}, gdzie dist jest metryką, a e liczbą rzeczywistą większą od 0.
+
+koło:gen	?	CZAS	Time	koło_1	2	Koło szóstej już kasłała i miała gorączkę.
+koło:gen	?	CZAS	Time	koło_1	2	Strzał padł koło jedenastej minuty meczu.
+koło:gen	?	CZAS	Time	koło_1	2	Zadzwoniła koło szóstej.
+koło:gen	?	CZAS	Time	koło_1	2	Wyzdrowiała koło niedzieli.
+około:gen	?	CZAS	Time	około_1	
+
+blisko:gen	?	PRZEDMIOT FIZYCZNY	Loc	blisko_1	a	Mieszka blisko stacji metra.
+koło:gen	?	PRZEDMIOT FIZYCZNY	Loc	koło_1		1	Usiądź koło mnie.
+niedaleko:gen	?	PRZEDMIOT FIZYCZNY	Loc	niedaleko_1		Mieszkali niedaleko parku.
+opodal:gen	?	PRZEDMIOT FIZYCZNY	Loc	opodal_1		Konie pasły się opodal lasu.
+pod:inst	?	PRZEDMIOT FIZYCZNY	Loc	pod_2		3	Spotkajmy się pod pomnikiem.
+obok:gen	?	PRZEDMIOT FIZYCZNY	Loc	obok_1		1	Położył łyżkę obok talerza. Usiadła obok syna.
+pod:acc		?	PRZEDMIOT FIZYCZNY	LocGoal	pod_2		3	Idziemy pod pomnik.
+
+koło:gen	?	LICZBA	Count	koło_1		Ma koło pięciu lat.
+
+blisko:gen	?	?	?	blisko_1	Obracał się blisko prezesa
+
+,,subset''(X,Y) jest uogólnieniem zawierania zbiorów zdefiniowanym jako: w przypadku, gdy: 
+gdy X i Y są punktami w przestrzeni liniowej ,,subset''(X,Y) <==> X \subset otoczka_wypukła(Y)
+gdy X i Y są parametryzowane przez czas ,,subset''(X,Y) <==> forall t: X(t) \subset otoczka_wypukła(Y(t))
+
+
+podczas:gen	?	CZAS	Time	podczas_1	
+w:loc		?	PRZEDMIOT FIZYCZNY	Loc	w_1	1	Kot śpi w szafie. Usiadł w fotelu.
+w:acc		?	PRZEDMIOT FIZYCZNY	LocGoal	w_1	2,4	Rankiem wyruszyli w góry. Piorun uderzył w stodołę.
+do:gen		?	PRZEDMIOT FIZYCZNY	LocGoal	do_1	3	Kot wszedł do szafy. Skoczył do wody.
+z:gen		?	PRZEDMIOT FIZYCZNY	LocSrc	z_1	1b	Wyszedł z banku.
+
+po:loc		?	ZDARZENIE	Time	po_1	6	Po doktoracie podjęła pracę w liceum.
+po:loc		?	ZDARZENIE	Time	po_1	6	Po doktoracie wciąż pracowała w liceum.
+po:loc		?	CZAS		Time	po_1	6	Zdrzemnął się po piątej.
+po:loc		?	PRZEDMIOT FIZYCZNY	Loc	po_1	3	Kot chodził po biurku. Zimą dzieci ślizgały się po zamarzniętym jeziorze.
+
+#od_1(R) <==> R jest definiowalne w postaci forall X,Y: R(X,Y)=1 wtw X jest polem wektorowym wychodzącym z przedmiotu Y
+
+#od:gen	?	?	LocSrc/Dir?	od_1	1b	Zimny wiatr wiał od morza.
+#od:gen	?	?	Order	od_1	2	Ręczniki leżą na drugiej półce od dołu.
+
+
+[JK] DOPOWIEDŹ WOJTKA: Kontekst zawiera symbole globalne, czyli widoczne dla każdej definicji i każdego algorytmu znaczeniowego. Wartościowania tych symboli są definiowane w trakcie przetwarzania wypowiedzi przez komputer.
+
+pod:acc		?	?	LocGoal	pod_1	1,2	Woda wlewała się pod wannę. Dziecko schowało się pod kołdrę.
+pod:acc		?	?	Count	pod_1	14	Ojciec miał już wtedy pod osiemdziesiątkę.
+pod:inst	?	?	Loc	pod_1	1	Kot spał pod biurkiem.
+pod:inst	?	?	Order	pod_1	16	Pod wiceministrem było pięciu dyrektorów departamentu.
+pod:inst	?	?	Cond	pod_1	8,17	Drzwi otworzyły się pod naporem tłumu. Kazano mu opuścić lokal pod groźbą eksmisji.
+
+===================================================================
+
+
+----------
+
+Sens przyimka wyznacza relację
+Rola tematyczna -- dziedzinę relacji
+
+Różnym przyimkom się zdarza się znaczyć to samo

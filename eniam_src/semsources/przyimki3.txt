@@ -1,0 +1,269 @@
+Nazwy przedziałów czasowych (miar czasu):
+moment, data, 
+sekunda {1,...,60}, minuta {1,...,60}, godzina {1,...,24}, 
+pora dnia {północ, ranek, rano, przedpołudnie, południe, popołudnie, wieczór, noc}, 
+dzień {1,...,60}, dzień tygodnia {poniedziałek,...,niedziela},
+miesiąc {styczeń,...,grudzień}, rok {1,...}, pora roku {przedwiośnie, wiosna, lato, jesień, przedzimie, zima}
+wiek {I,II,...}, era
+
+Referencjami nazw przedziałów czasowych są interwały. Przez .beg będziemy oznaczać początek interwału, przez .end koniec, a przez .len długość.
+Niech fnbpp=fraza nominalna będąca podrzędnikiem przyimka.
+Przez T oznaczymy interwał będący referencją nazwy przedziału czasowego będącego podrzędnikiem przyimka.
+Przez S oznaczymy interwał będący czasem zdarzenia będącego referencją fnbpp.
+Przez A oznaczymy zdarzenie/stan będący referencją nadrzędnika wyrażenia przyimkowego, a 
+#przez X oznaczymy czas tworzenia przedmiotu fizycznego będącego referencją nadrzędnika wyrażenia przyimkowego.
+Przez R oznaczymy zdarzenie będące punktem odniesienia przedziału czasowego będącego podrzędnikiem przyimka. (Spotkali się dopiero po dwudziestu latach od R.)
+
+Stany są czasowo maksymalne.
+
+x >== y oznacza, że x jest trochę większe od y
+x <== y oznacza, że x jest trochę mniejsze od y
+
+S' - dopełnienie S
+
+Znaczenia par przyimków można na siebie przekształcać za pomocą inwolucji.
+
+do	4	A.beg < T.beg <= A.end <= T.end		Spał do południa.
+od	5	T.beg <= A.beg <= T.end < A.end		Była od świtu na nogach. Pracowałem od świtu.
+o	4	A.beg = T.beg = T.end			Wyruszyli w góry o świcie.
+o	4	A.end = T.beg = T.end			Doszli na szczyt góry o świcie.
+o	4	A.beg <= T.beg = T.end <= A.end		Pracowałem o świcie.
+o	4	A.beg = A.end = T.beg = T.end		Zmarł o świcie.
+po	7	A.beg <= (T.len + R.end) <= T.end	Spotkali się dopiero po dwudziestu latach.
+
+z	3b	T.beg <= X.end <= T.end			powieść z XIX w.
+w	15	A cap T <> null 			W lipcu wyjechał na urlop.
+między	3	A cap [T1.beg, T2.end] <> null		Wrócę między drugą a trzecią.
+podczas		A cap S <> null
+za:gen	10	A cap S <> null				Za (panowania) Kazimierza Wielkiego powstała Akademia Krakowska.
+poza	2	A cap S' <> null			Widywali się poza lekcjami.
+
+po	6	A.beg >= S.end				Po doktoracie podjęła pracę w liceum.
+po	6	A.end >= S.end				Po doktoracie wciąż pracowała w liceum.
+przed	3	A.end <= S.beg				Wszystkie ptaki gromadziły się tu przed odlotem.
+przed	3	A.beg <= S.beg				Byłem głodny już przed odlotem samolotu.
+sprzed	1	X.beg < S.beg				Pieśń ta pochodzi sprzed powstania listopadowego.
+po	6	A.beg >= T.end				Zdrzemnął się po piątej.
+po	6	A.end >= S.end				Zdrzemnął się po piątej.
+przed	6	A.end <= T.beg				Zdrzemnął się przed piątą.
+przed	6	A.beg <= T.beg				Zdrzemnął się przed piątą.
+
+koło	2	A cap [T.beg-e, T.end+e] <> null	Koło szóstej już kasłała i miała gorączkę.
+koło	2	T.beg-e <= A.beg = A.end <= T.end+e	Strzał padł koło jedenastej minuty meczu.
+koło	2	T.beg-e <= A.beg <= T.end+e		Zadzwoniła koło szóstej.
+koło	2	T.beg-e <= A.end <= T.end+e		Wyzdrowiała koło niedzieli.
+około = koło
+#niedaleko - archaizm?
+#nad - tylko "nad ranem"
+#pod - tylko "pod wieczór"
+lada		A.beg = #now + S.len * (0,3] 		Przyjadą lada godzina.
+
+przed	4	A.beg = #now - T.len			Wyruszyli w góry przed godziną.
+przed	4	A.end = #now - T.len			Doszli na szczyt góry przed godziną.
+przed	4	A.beg <= #now - T.len <= A.end		Pracowałem przed godziną.
+przed	4	A.beg = A.end = #now - T.len		Zmarł przed godziną.
+sprzed	2	X.end = #now - T.len			To fotografia sprzed pięciu lat.
+za	9a	A.beg = #now + T.len			Wyruszą w góry za kwadrans.
+za	9a	A.end = #now + T.len			Doszjdą na szczyt góry za kwadrans.
+za	9a	A.beg <= #now + T.len <= A.end		Będę pracował za kwadrans.
+za	9a	A.beg = A.end = #now - T.len		Umrze za kwadrans.
+#ku - tylko "ma się ku" 
+#blisko - tylko "jest blisko"
+
+Referencjami nazw miejsc są parametryzowane przez czas podzbiory przestrzeni. 
+#Traktujemy je jak fluenty, tzn. jeśli parametr czasowy nie jest jawnie wskazany to znaczy,
+#że relacja zachodzi dla każdego czasu, dla którego wszystkie miejsca są zdefiniowane.
+Przez MT oznaczymy miejsce przedmiotu będącego referencją fnbpp.
+Przez MS oznaczymy miejsce zdarzenia będącego referencją fnbpp.
+Przez MP oznaczymy miejsce będące referencją wyrażenia przyimkowego.
+Przez MA oznaczymy miejsce zdarzenia/stanu będącego referencją nadrzędnika wyrażenia przyimkowego, a 
+#przez MX oznaczymy miejsce tworzenia przedmiotu fizycznego będącego referencją nadrzędnika wyrażenia przyimkowego.
+#Przez MR oznaczymy zdarzenie będące punktem odniesienia przedziału czasowego będącego podrzędnikiem przyimka. (Spotkali się dopiero po dwudziestu latach od R.)
+
+Loc(MA,MP) <==> forall t in A: MA(t) subset MP(t)
+LocGoal(MA,MP) <==> MA(A.end) subset MP(A.end) && not MA(A.beg) subset MP(A.beg)
+LocSrc(MA,MP) <==> MA(A.beg) subset MP(A.beg) && not MA(A.end) subset MP(A.end)
+[JK] Czyli wg Ciebie
+LocGoal(MA,MP) <==> w(MA.end,MP.end) && not w(MP.beg,MA.beg)
+LocSrc(MA,MP) <==> w(MP.beg,MA.beg) && not w(MA.end,MP.end)
+[/JK]
+Path(MA,MP) <==> exists t in A: MA(t) subset MP(t)
+Direction(MU,MV) <==> forall t in MU: MU(t) subset MV(t)
+
+
+Uwaga: LocGoal jest prawdziwe przez domniemanie, że akcja zakończyła się oczekiwanym przez obserwatora efektem.
+[JK] To samo by trzeba powiedzieć o LocSrc, por. "Szli od pola" nie znaczy "Szli z pola".
+
+pod:inst	1,2	Loc(MA,MP) && pod(MP,MT)	Kot spał pod biurkiem. Kot chodził pod biurkiem.
+pod:acc		1,2	LocGoal(MA,MP) && pod(MP,MT)	Kot wszedł pod biurko.
+spod:gen	1	LocSrc(MA,MP) && pod(MP,MT)	Kot wyszedł spod biurka.
+pod:acc		1		Woda wlewała się pod wannę.
+
+pod(MP,MT) <==> forall  t: forall x in MP(t) exists y in MT(t): x.height < y.height
+ 
+nad:inst	1	Loc(MA,MP) && nad(MP,MT)	Ptak latał nad domem.
+nad:acc		1	LocGoal(MA,MP) && nad(MP,MT)	Ptak wleciał nad dom.
+znad:gen	1	LocSrc(MA,MP) && nad(MP,MT)	Ptak wyleciał znad domu.
+ponad:inst	1	Loc(MA,MP) && nad(MP,MT)	Gołębie lecą ponad dachami domów.
+ponad:acc	1	LocGoal(MA,MP) && nad(MP,MT)	Gołębie wzbiły się ponad dachy domów.
+sponad:gen		LocSrc(MA,MP) && nad(MP,MT)	Sponad gór przyleciał orzeł.
+
+nad(MP,MT) <==> forall t: (forall x in MP(t) exists y in MT(t): x.height > y.height) && not na(MP,MT)
+ 
+na:loc		1a	Loc(MA,MP) && na(MP,MT)		Kot spał na biurku.
+na:acc		1b	LocGoal(MA,MP) && na(MP,MT)	Kot wszedł na biurko.
+z:gen		1b	LocSrc(MA,MP) && na(MP,MT)	Kot zeskoczył z biurka.
+po:loc		3	Loc(MA,MP) && na(MP,MT)		Kot chodził po biurku. Zimą dzieci ślizgały się po zamarzniętym jeziorze.
+
+na(MP,MT) <==> forall t: (forall x in MP(t) exists y in MT(t): x.height >= y.height) && (exists x in MP(t) exists y in MT(t): x = y)
+[JK] Warunek drugi (równowysokość) daje false positive, gdy np. ptak lata w wiadrze, bo jest na wysokości ścianek, ale nie jest na wiadrze. Trzeba wymusić, żeby tego wiadra jednak dotykał. Proponuję warunek [na-A]: Istnieje punkt wspólny -- do ew. złagodzenia epsilonem jako prawie wspólny. Następny poziom szczegółowości wymagałby operowania "punktem podparcia".
+[JK] Nawet po wymuszeniu dotykania warunek pierwszy wciąż daje false positive, gdy np. ptak siedzi w klatce, bo dotyka podłoża, ale nie jest na klatce. Wygląda na to, że żaden kawałek klatki nie może być nad ptakiem, żeby móc powiedzieć, że ptak jest na klatce. (A przynajmniej byłoby to przybliżenie bliskie rzeczywistości.) Proponuję [na-B]: Żaden punkt klatki nie jest nad żadnym puntem ptaka. Ten warunek można zastąpić po prostu warunkiem ~w(MP,MT), czyli że ptak nie jest w klatce, por. [na-full2] 
+[JK] Warunek pierwszy daje też false negative gdy ptak siedzi na klatce i wystaje poza brzeg klatki. Nie należy wymuszać, żeby pod każdym jego punktem był jakiś punkt klatki. Sensowne poluzowanie to powiedzenie, że ptak jest po prostu nieniżej niż własny punkt styku z klatką, czyli warunek [na-AC]: punkt styku (z warunku [na-A]) jest maksymalnie niskim punktem ptaka.
+Sumują powyższe:
+[JK] 
+na(MP,MT) <==> forall t: 
+[na-A]
+exists x in MP(t) exists y in MT(t): x == y
+[na-B ]
+forall x in MP(t) forall y in MT(t): (y.height > x.height) -> (y.width <> x.width || y.depth > x.depth)
+[na-AC ]
+exists  x in MP(t) exists y in MT(t) forall z in MP(t): x=y && x.height >= z.height
+[na-full]
+na(MP,MT) <==> forall t: 
+exists x  in MP(t) exists y in MT(t) forall z in MP(t): x=y && x.height >= z.height
+forall x in MP(t) forall y in MT(t): (y.height > x.height) -> (y.width <> x.width || y.depth > x.depth)
+[na-full2] 
+na(MP,MT) < ==> forall t: 
+exists x in MP(t) exists y in MT(t) forall z in MP(t): x=y && x.height >= z.height
+~w(MP,MT) 
+ 
+w:loc		1	Loc(MA,MP) && w(MP,MT)		Kot śpi w szafie. Usiadł w fotelu.
+w:acc		2,4	LocGoal(MA,MP) && w(MP,MT)	Włożył koszulę w spodnie. Wpadł w dziurę. 
+[JK] Złe przykłady: # Rankiem wyruszyli w góry. Piorun uderzył w stodołę.
+do:gen		3	LocGoal(MA,MP) && w(MP,MT)	Kot wszedł do szafy. Skoczył do wody.
+z:gen		1b	LocSrc(MA,MP) && w(MP,MT)	Wyszedł z banku.
+
+w(MP,MT) <==> forall t: MP(t) subset otoczka_wypukła(MT(t))
+[JK] Nie widzę, jak sensownie zdefiniować pojemnik (wanna), żeby całe jego wnętrze też było miejscem tego pojemnika (fragment: y in MT(t)). To jak mówić, że całe wnętrze wanny jest wanną. Trzeba oddzielnie mówić o punktach przedmiotu i punktach "miejsca przedmiotu", inaczej nie rozdzielimy np. przyimków "na" i "nad".
+ 
+blisko:gen	a	Loc(MA,MP) && blisko(MP,MT)	Mieszka blisko stacji metra.
+koło:gen	1	Loc(MA,MP) && blisko(MP,MT)	Usiądź koło mnie.
+niedaleko:gen		Loc(MA,MP) && blisko(MP,MT)	Mieszkali niedaleko parku.
+opodal:gen			Loc(MA,MP) && blisko(MP,MT)	Konie pasły się opodal lasu.
+pod:inst	3	Loc(MA,MP) && blisko(MP,MT)	Spotkajmy się pod pomnikiem.
+obok:gen	1	Loc(MA,MP) && blisko(MP,MT)	Położył łyżkę obok talerza. Usiadła obok syna. (tu by się przydało dodać kierunek bliskości)
+[JK] Proponuję po prostu dodać ~nad(MP,MT) && ~pod(MP,MT). Tak samo dla "koło" i "przy".
+pod:acc		3	LocGoal(MA,MP) && blisko(MP,MT)	Idziemy pod pomnik.
+
+blisko(MP,MT) <==> forall t: (exists x in MP(t) exists y in MT(t): dist(x,y) < e)
+[JK] Epsilon jest relacyjny, bo zależy od MT i MA, ale też od przyimka i to ostatnie powinniśmy moim zdaniem reprezentować, np. jako parametr. Skala rosnących e mogłaby być: e(przy) < e(obok) < e(koło) < e(blisko) < e(opodal) < e(niedaleko); Nie da się w tym porządku umieścić e(pod) ani e(nad)
+
+pod:inst	4	Loc(MA,MP) && blisko(MP,MT)	Mieszkali pod Babią Górą. Katastrofa wydarzyła się pod Poznaniem.
+pod:acc		4	LocGoal(MA,MP) && blisko(MP,MT)	Jadę pod Babią Górę.
+spod:gen	2	LocSrc(MA,MP) && blisko(MP,MT)	Ich rodzina pochodziła spod Lwowa.
+nad:inst	2	Loc(MA,MP) && blisko(MP,MT)	Warszawa leży nad Wisłą.
+nad:acc		2	LocGoal(MA,MP) && blisko(MP,MT)	Wyjechali nad morze. Warszawa leży nad Wisłą.
+znad:gen	2	LocSrc(MA,MP) && blisko(MP,MT)	Przyjechali znad morza.
+na:loc		1a	Loc(MA,MP) && w(MP,MT)		Mieszkam na Mazurach.
+na:acc		1b	LocGoal(MA,MP) && w(MP,MT)	Jadę na Mazury.
+w:loc		1	Loc(MA,MP) && w(MP,MT)		Mieszkam w Warszawie.	
+do:gen		3	LocGoal(MA,MP) && w(MP,MT)	Jadę do Warszawy.	
+z:gen		1a	Loc(MA,MP) && w(MP,MT)		Wrócili z Mazur.
+
+przez:acc	1,2	Path(MA,MP) && w(MP,MT)		Do domu wracała przez park. Brnęli przez śnieg w stronę schroniska.
+przez:acc	1,2	MU cap MV <> null && przez(MV,MT)	Do domu wracała przez park. Brnęli przez śnieg w stronę schroniska.
+
+[JK] Występuje też efekt rozgarnięcia. "Przez" wskazuje pozycję syntaktyczną uczestnika rozgarnianego.
+[JK] Oddzielnie ocenić przykład: Droga prowadziła przez most. 
+
+ku:dat		1	Direction(MU,MV) && ku(MV,MT)	Odwrócił się nagle i ruszył ku drzwiom.
+od:gen		1b	Direction(MU,MV) && od(MV,MT)			Zimny wiatr wiał od morza.
+
+przez(MV,MT) <==> forall t: (forall x in MT(t) exists y: MV(t)(x)=[x->y])
+ku(MV,MT) <==> forall t: (forall x exists y in MT(t): MV(t)(x)=[x->y])
+od(MV,MT) <==> forall t: (forall x exists y in MT(t): MV(t)(x)=[y->x])
+
+
+Przez MV oznaczamy parametryzowane przez czas pole wektorowe bę dące referencją wyrażenia przyimkowego.
+Przez MU oznaczamy parametryzowane przez czas pole wektorowe będ ące kierunkiem ruchu akcji do której odnosi nadrzędnik wyrażenia przyimkowego.
+
+
+
+Wskazywanie kierunku ruchu na obszarze.
+#po	prep		Location	loc		1	a	przyimek wraz z użytym po nim rzeczownikiem komunikujący, że to, o czym mowa, dzieje się w wielu miejscach jakiejś przestrzeni	Echo roznosi się po lesie.
+#po	prep		Location	loc		1	b	lub że czynność, o której mowa, jest wykonywana w różnych miejscach	Szeptali o tym po kawiarniach.
+#pod	prep		Location Goal	acc		5		przyimek wraz z przyłączanym rzeczownikiem komunikujący, że ktoś lub coś posuwa się w kierunku przeciwnym do kierunku wiatru lub prądu rzeki	Z trudem wiosłowali pod prąd.
+#od	prep		Location Source	gen		1	a	przyimek wprowadzający określenie miejsca, od którego oddala się dana rzecz lub osoba	Goście wstali od stołu.
+sponad:gen		LocSrc(MA,MP)	Sponad gór wiał wiatr.
+
+
+dokoła	prep		Location	gen	II	1		przyimek komunikujący, że to, o czym mowa w zdaniu, ma miejsce ze wszystkich stron czegoś znajdującego się w środku	Dokoła klombów posadzono tulipany.
+między	prep		Location	inst		1		przyimek komunikujący, że to, o czym mowa, jest z obu stron otoczone czymś	Ulica ciągnęła się między domami.
+naokoło	prep		Location	gen	II			przyimek komunikujący, że to, o czym jest mowa w zdaniu, ma miejsce ze wszystkich stron czegoś	
+naprzeciw	prep		Location	gen	I			przyimek komunikujący, że coś znajduje się lub dzieje się w miejscu, do którego dana osoba lub rzecz jest zwrócona, albo że ktoś idzie w kierunku, z którego spodziewa się nadejścia danej osoby	
+#pod	prep		Location	inst		10		przyimek wraz z przyłączanym wyrażeniem określający czyjś adres lub numer telefonu	Proszę zanieść te bagaże pod szóstkę.
+poza	prep		Location	inst	II	1		przyimek komunikujący, że ktoś lub coś znajduje się na zewnątrz danego obszaru albo udaje się lub przemieszcza do miejsca położonego na zewnątrz niego	Wieczory spędzamy poza domem.
+przed	prep		Location	inst		1		przyimek komunikujący, że osoba lub rzecz znajduje się lub została umieszczona po tej samej stronie danego obiektu co obserwator albo bliżej przodu tego obiektu niż tyłu	Samochód zatrzymał się przed gmachem.
+przy	prep		Location	loc		1		przyimek komunikujący, że ktoś lub coś znajduje się blisko danej osoby, rzeczy albo danego miejsca	Usiadła przy dziadku.
+u	prep		Location	gen	II	3		przyimek komunikujący, że ktoś lub coś znajduje się w pomieszczeniu należącym do danej osoby bądź w miejscu, w którym ona przebywa	Będę u ciebie jutro wieczorem.
+u	prep		Location	gen	II	4		przyimek komunikujący o małej odległości między przedmiotem lub miejscem, w którym coś się dzieje, a danym miejscem lub terenem	Wieś leżała u podnóża góry.
+wewnątrz	prep		Location	gen	I			przyimek komunikujący, że to, o czym mowa w zdaniu, znajduje się lub odbywa w granicach zamkniętej przestrzeni lub w obrębie jakiejś grupy	
+wokół	prep		Location	gen	I	1		przyimek komunikujący, że to, o czym mowa w zdaniu, ma miejsce ze wszystkich stron czegoś lub kogoś znajdującego się w środku	Wielkie ćmy krążyły wokół lampy.
+wśród	prep		Location	gen		1		przyimek komunikujący, że przedmiot, osoba itp., o których mowa, są otoczone innymi przedmiotami, osobami itp.	Szła miedzą wśród rozgrzanych zbóż.
+wzdłuż	prep		Location	gen	I			przyimek komunikujący, że coś znajduje się lub odbywa równolegle do długości danego obiektu	
+#za	prep		Location	inst	I	1	a	przyimek tworzący wyrażenia komunikujące, że osoba lub rzecz znajduje się po przeciwnej stronie danego obiektu niż obserwator	Za katedrą wisiał orzeł w koronie.
+#za	prep		Location	inst	I	1	b	albo dalej niż obiekt, z którego pozycją jest porównywana	Stała w kolejce za starszym małżeństwem.
+#za	prep		Location	inst	I	2		przyimek tworzący wyrażenia komunikujące, że ktoś lub coś posuwa się z tyłu danej osoby lub danego pojazdu	Autobus jechał za ciężarówką.
+#za	prep		Location	inst	I	3		przyimek tworzący wyrażenia komunikujące, że ktoś lub coś znajduje się na zewnątrz danego obszaru albo przemieszcza się do miejsca położonego na zewnątrz niego	Nasze dzieci od dawna mieszkają za miastem.
+między	prep		Location Goal	acc		1		przyimek komunikujący, że to, o czym mowa, jest z obu stron otoczone czymś	Ulica ciągnęła się między domami.
+#opodal	prep		Location Goal	gen	I			przyimek komunikujący o małej odległości przedmiotu lub zdarzenia od danego miejsca	Konie pasły się opodal lasu.
+#pod	prep		Location Goal	acc		10		przyimek wraz z przyłączanym wyrażeniem określający czyjś adres lub numer telefonu	Proszę zanieść te bagaże pod szóstkę.
+poza	prep		Location Goal	acc	II	1		przyimek komunikujący, że ktoś lub coś znajduje się na zewnątrz danego obszaru albo udaje się lub przemieszcza do miejsca położonego na zewnątrz niego	Wieczory spędzamy poza domem.
+przed	prep		Location Goal	acc		1		przyimek komunikujący, że osoba lub rzecz znajduje się lub została umieszczona po tej samej stronie danego obiektu co obserwator albo bliżej przodu tego obiektu niż tyłu	Samochód zatrzymał się przed gmachem.
+#za	prep		Location Goal	acc	I	2		przyimek tworzący wyrażenia komunikujące, że ktoś lub coś posuwa się z tyłu danej osoby lub danego pojazdu	Autobus jechał za ciężarówką.
+#za	prep		Location Goal	acc	I	3		przyimek tworzący wyrażenia komunikujące, że ktoś lub coś znajduje się na zewnątrz danego obszaru albo przemieszcza się do miejsca położonego na zewnątrz niego	Nasze dzieci od dawna mieszkają za miastem.
+przeciw	prep		Location Goal/Manner	dat		6		przyimek wraz z przyłączanym rzeczownikiem komunikujący o kierunku ruchu odwrotnym do kierunku zjawiska nazywanego przez ten rzeczownik	 Łódź z trudem płynęła przeciw prądowi rzeki.
+#za	prep		Location Goal/Manner	acc	I	4		przyimek przyłączający nazwę części ciała lub rzeczy, którą ktoś chwycił	Złapał chłopca za rękę.
+spomiędzy	prep		Location Source	gen		1		przyimek informujący, że z miejsca położonego między jakimiś obiektami wysunęła się, wyjrzała lub wyszła rzecz lub osoba, o której mowa w zdaniu	Spomiędzy kamieni ciekła woda.
+spośród	prep		Location Source	gen		2		przyimek komunikujący, że z miejsca położonego między jakimiś obiektami wysunęła się, wyjrzała lub wyszła rzecz lub osoba, o której mowa w zdaniu	Spośród zarośli wyłaniała się zabytkowa wieża.
+spoza	prep		Location Source	gen		2		przyimek informujący, że ktoś lub coś pochodzi z miejsca położonego poza danym obszarem	Powołano recenzentów spoza Warszawy.
+spoza	prep		Location Source	gen		3		przyimek informujący, że obiekt, o którym mowa, przestał być zasłonięty przedmiotem nazwanym przez rzeczownik	Słońce wyjrzało spoza chmur.
+sprzed	prep		Location Source	gen		3		przyimek komunikujący, że dana osoba lub rzecz przestała być w miejscu znajdującym się przed obiektem nazywanym przez rzeczownik	Samochód odjechał sprzed domu.
+#z	prep		Location Source	gen	II	1	a	przyimek tworzący wyrażenia oznaczające miejsce znajdowania się czegoś	Gwóźdź wystający z deski.
+#z	prep		Location Source	gen	II	1	c	pochodzenia kogoś lub powstania czegoś	Pamiątka z Afryki.
+zza	prep		Location Source	gen		1		przyimek tworzący wyrażenia informujące, że coś przestało być zasłonięte przedmiotem nazywanym przez rzeczownik	
+zza	prep		Location Source	gen		2		przyimek tworzący wyrażenia komunikujące, że coś pochodzi z miejsca położonego dalej niż obiekt nazywany przez rzeczownik	
+#od	prep		Location Source/Manner	gen		6		przyimek wprowadzający określenie dolnej granicy czegoś	Mieszkanie było zastawione książkami od podłogi po sufit.
+#spod	prep		Location Source/Manner	gen		3		przyimek komunikujący, że ktoś spogląda pod czymś, co ma nad oczami	Żołnierze spoglądali na nas spod ciężkich hełmów.
+wokół	prep		Location?	gen	I	2		przyimek określający centralne miejsce lub środowisko, w którym są dokonywane charakteryzowane działania	Potrafiła skupić wokół siebie niemałą grupę uczniów.
+
+[JK] Znajdź przykłady gdzie te przyimki wyrażają ścieżkę a nie miejsca:
+	dokoła	prep		Path	gen	II	1		przyimek komunikujący, że to, o czym mowa w zdaniu, ma miejsce ze wszystkich stron czegoś znajdującego się w środku	Dokoła klombów posadzono tulipany.
+	koło	prep		Path	gen	II	1		przyimek komunikujący o małej odległości między przedmiotami	Usiądź koło mnie.
+	między	prep		Path	inst		1		przyimek komunikujący, że to, o czym mowa, jest z obu stron otoczone czymś	Ulica ciągnęła się między domami.
+	nad	prep		Path	inst		1		przyimek tworzący wyrażenia lokalizujące coś powyżej danego miejsca lub danej przestrzeni	Nad miastem przeszła burza.
+	naokoło	prep		Path	gen	II			przyimek komunikujący, że to, o czym jest mowa w zdaniu, ma miejsce ze wszystkich stron czegoś	
+	obok	prep	MIEJSCE	Path	gen	I	1		przyimek komunikujący, że dana rzecz lub osoba znajduje się blisko innej	Położył łyżkę obok talerza. Usiadła obok syna.
+	po	prep		Path	loc		1	a	przyimek wraz z użytym po nim rzeczownikiem komunikujący, że to, o czym mowa, dzieje się w wielu miejscach jakiejś przestrzeni	Echo roznosi się po lesie.
+	po	prep		Path	loc		3		przyimek wprowadzający określenie powierzchni przedmiotu, na której lub wzdłuż której wykonuje się czynność lub ruch	Zimą dzieci ślizgały się po zamarzniętym jeziorze.
+	pod	prep		Path	inst		1		przyimek występujący w zdaniu komunikującym, że ktoś lub coś znajduje się poniżej lub przedostaje się tak, żeby znaleźć się poniżej danej rzeczy	Kot spał pod biurkiem. Woda wlewała się pod wannę.
+	ponad	prep		Path	inst	I	1		przyimek występujący w zdaniu, które komunikuje, że coś znajduje się lub dzieje się powyżej danego miejsca lub danej przestrzeni	Gołębie wzbiły się ponad dachy domów.
+	poprzez	prep		Path	acc		1		przyimek komunikujący, że ktoś lub coś posuwa się po jakimś obszarze	
+	poprzez	prep		Path	acc		4		przyimek wprowadzający element zajmujący miejsce pośrednie w co najmniej trójelementowym szeregu	
+
+#przez	prep		Path	acc		3		przyimek przyłączający nazwę rzeczy, która oddziela dwie sąsiadujące ze sobą części przestrzeni	Słyszałam przez drzwi waszą rozmowę.
+#przez	prep		Path	acc		6		przyimek wprowadzający element zajmujący miejsce pośrednie w szeregu złożonym z co najmniej trzech elementów	Układ niżowy ciągnął się od Skandynawii przez Morze Północne po Wyspy Brytyjskie.
+#przez	prep		Path	acc		7		przyimek komunikujący, że cała powierzchnia jakiejś rzeczy lub części ciała ma daną cechę albo że cała podlega danej czynności	Głęboka szrama przechodziła mu przez czoło.
+
+wokół	prep		Path	gen	I	1		przyimek komunikujący, że to, o czym mowa w zdaniu, ma miejsce ze wszystkich stron czegoś lub kogoś znajdującego się w środku	Wielkie ćmy krążyły wokół lampy.
+wzdłuż	prep		Path	gen	I			przyimek komunikujący, że coś znajduje się lub odbywa równolegle do długości danego obiektu	
+
+
+poprzez	prep		Duration	acc		6		przyimek przyłączający określenie czasu, w którym miał miejsce dany stan rzeczy	
+#przez	prep		Duration	acc		5		przyimek wraz z przyłączanym rzeczownikiem komunikujący czas trwania zdarzenia, o którym jest mowa	Rozmawiali przez chwilę.
+#w	prep		Duration	acc	II	16		przyimek tworzący wraz z określeniem odcinka czasu wyrażenie informujące o długości trwania jakiegoś procesu	W trzy lata zrobił doktorat.
+#z	prep		Duration	acc/adv	II			przyimek określający przybliżony czas trwania zdarzenia	Z godzinę. Ze dwa tygodnie.
+#po	prep	CZAS	Time	loc		2		przyimek wprowadzający określenie czasu, wraz z którym komunikujący, że to samo zdarzenie powtarza się przez pewien czas	Po nocach grał w karty, a w dzień się uczył.
+#na	prep		Duration	acc		2		przyimek tworzący wyrażenia oznaczające trwanie czegoś, okres, termin lub porę dziania się czegoś	Wyjechać na weekend.
+#na	prep		Duration	adv		9		przyimek tworzący z przysłówkami oznaczającymi czas wyrażenia precyzujące ten czas	Przyjechali na krótko.
+

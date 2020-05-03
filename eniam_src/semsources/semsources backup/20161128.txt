@@ -1,0 +1,11 @@
+Najogólniejszy podział: na operatorowość.
+Jest operatorem = prawie na pewno nie znajdziemy sposobu, żeby go wyrazić w logice egzystencjalno-koniunkcjyjnej rozszerzonej o dscr.
+Przy operatorach nie ma nawet sensu pytanie, czy są intersektywne, więc to jest podział w nieoperatorach.
+
+Moje zadanie:
+- Zrestrukturyzować Wojtkowe drzewo cech.
+- Przy przykładach są wymienione zauważone przy nich cechy - upewnić się, że są też posegregowane i wymienione we właściwym miejscu drzewu.
+- Każda cecha ma mieć te przykłady, co w aktualnej liście. Wolno dodać więcej.
+- Znaleźć mądre nazwy na cechy, które już zidentyfikowaliśmy.
+- To mniej więcej się składa na unaukowienie tekstu.
+- Wszystkie qwantyfikatory zamień na operatory

@@ -1,0 +1,10 @@
+subsyntax -a -m -p 1234 --no-proper-names --no-merge-lemmata
+subsyntax -a -m -p 1234 --no-proper-names --no-merge-lemmata --strong-disamb
+
+domparser --port 1234 --no-sem --no-def-cat --output results/
+
+domparser --port 1234 --no-def-cat --output results/
+
+./lexSemantics -m -p 3456 --strong-disamb --merge-lemmata
+./parser --port 3456 --no-sem
+

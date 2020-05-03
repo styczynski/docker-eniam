@@ -1,0 +1,715 @@
+698 czas-3, okres-1, period-1, moment-1, pora-1
+  0 prosta-3
+  0 miesiąc smoczy-1
+  0 miesiąc anomalistyczny-1
+  0 pontyfikat-2
+  0 rok platoński-1
+  0 zakręt-3
+  0 ostatnia prosta-1
+  0 ostatni dzwonek-1
+  0 przesilenie wiosenne-1
+  0 przesilenie polityczne-1, przesilenie gabinetowe-1, przesilenie rządowe-1
+  0 okno startowe-1
+  24 godzina-4
+    0 pierwsza-2
+    0 trzecia-2
+    0 druga-2
+    0 trzynasta-1, pierwsza-1
+    0 szósta-2
+    0 siódma-2
+    0 piętnasta-1, trzecia-1
+    0 piąta-2, siedemnasta-1
+    0 piąta-1
+    0 ósma-2, dwudziesta-1
+    0 ósma-1
+    0 osiemnasta-1, szósta-1
+    0 jedenasta-2, dwudziesta trzecia-1
+    0 jedenasta-1
+    0 dziewiętnasta-1, siódma-1
+    0 dziewiąta-2, dwudziesta pierwsza-1
+    0 dziewiąta-1
+    0 dziesiąta-2, dwudziesta druga-1
+    0 dziesiąta-1
+    0 dwunasta-1, południe-3
+    0 czwarta-3, szesnasta-1
+    0 czwarta-1
+    0 czternasta-1, druga-1
+    0 północ-2, dwunasta-2, dwudziesta czwarta-1
+  VISITED 1 obieg syderyczny-1, obieg gwiazdowy-1, okres syderyczny-1, okres gwiazdowy-1
+  0 cykl realizacyjny-1
+  0 okres wegetacyjny-1, cykl wegetacyjny-1
+  0 cykl zegarowy-1
+  0 okres zaliczalny-1
+  0 czas fabularny-1
+  0 klimakter-1
+  0 gorący czas-2
+  0 czas rzeczywisty-1
+  0 Bierut-2
+  0 czas nieoznaczony-2
+  0 rok obrotowy-1
+  0 okres nieskładkowy-1
+  0 okres składkowy-1
+  0 okres rozliczeniowy-1, cykl rozliczeniowy-1
+  0 okres sprawozdzawczy-1
+  0 narzeczeństwo-2
+  1 emerytura-2
+    0 stan spoczynku-1
+  0 przełom-3
+  0 konsulat-6
+  0 konsulat-5
+  0 przeddzień-2
+  0 wachta-3
+  0 dyżur-2
+  13 przerwa-1, intermezzo-6
+    0 cisza wyborcza-1
+    0 hibernacja-3
+    0 szabas-2
+    0 zająknięcie-1, zacięcie-7, zająknienie-1
+    0 przestanek-1
+    0 cezura-3
+    1 cisza-5
+      0 milczenie-2
+    0 przestój-1
+    2 postój-1
+      0 postój lodowca-1, stagnacja lodowca-1
+      0 popas-1
+    0 antrakt-1
+  0 okupacja-3
+  8 sezon-3
+    1 sezon-2
+      0 sezon regularny-1
+    0 sianokosy-2, sianokos-2
+    1 żniwa-1
+      0 kośba-1
+    0 miodobranie-1
+    1 martwy sezon-1
+      0 sezon ogórkowy-1, bezrybie-1
+  0 rozmnoża-2
+  0 szczenięctwo-2
+  0 sześciolecie-1
+  0 siedmiolecie-1
+  0 półokres-1
+  0 dwunastolecie-1
+  0 czterdziestopięciolecie-1
+  0 dziewięciolecie-2
+  0 czas półtrwania-1, okres półtrwania-1
+  0 Gierek-2
+  0 Gomułka-2
+  0 decemwirat-3
+  0 beania-1
+  0 ośmiolecie-1
+  0 triduum-1
+  0 pentada-1
+  0 przedwojnie-1
+  0 powojnie-1
+  0 siedemsetlecie-1
+  0 siedemdziesięciopięciolecie-1
+  0 sześćsetlecie-1
+  0 trzydziestopięciolecie-1
+  0 trzechlecie-1
+  0 żakostwo-2
+  0 tranzycja-2
+  0 opricznina-1
+  0 dziewięćdziesięciolecie-2
+  2 alarm-3, alert-3
+    0 alarm ozonowy-1
+    0 żółty alarm-1
+  0 żywotność-4
+  0 rozbiory-1
+  0 święta-2
+  0 postkomunizm-2, postkomuna-1
+  0 roztopy-1
+  0 olimpiada-3
+  0 przeszłość-2
+  2 okres-7
+    1 obieg syderyczny-1, obieg gwiazdowy-1, okres syderyczny-1, okres gwiazdowy-1
+      0 miesiąc gwiazdowy-1, miesiąc syderyczny-1
+  0 szczyt-3
+  0 saros-1
+  0 stanówka-1
+  0 sześćdziesięciolecie-1
+  0 siedemdziesięciolecie-1
+  0 dwulecie-1
+  0 dwóchsetlecie-1, dwusetlecie-1
+  0 kalpa-1, eon-1
+  0 dni otwarte-1
+  0 pluwiał-2
+  0 półwiek-1
+  0 czterechsetlecie-1
+  0 usłonecznienie-1
+  0 cisza nocna-1
+  1 miesiąc księżycowy-1
+    0 przybysz-2, przybytnik-1, przybycień-1, przybyły-2
+  0 cisza-4, spokój-3
+  VISITED 15 rok-1
+  2 szkoła-8
+    0 biała szkoła-1
+    0 zielona szkoła-1
+  4 zmiana-5
+    0 dwuzmianowość-1
+    0 nocna zmiana-1
+    0 szychta-1
+    0 wachta-2
+  1 dni-1
+    0 ciche dni-1
+  0 kwadrans akademicki-1
+  1 gorący okres-1, gorący czas-1
+    0 urwanie głowy-1
+  0 katechumenat-1
+  5 godzina-1
+    0 godzina szczytu-1
+    0 godzina milicyjna-1
+    0 czarna godzina-1
+    0 nadgodzina-3, nadliczbówka-1, godzina nadliczbowa-1
+    0 roboczogodzina-1
+  0 złote czasy-1
+  0 miodowy miesiąc-1
+  0 ciąża-2
+  0 ciężkie czasy-1
+  0 ostatki-1, zapusty-1
+  0 osiemdziesięciolecie-1
+  0 zakwaterowanie-3, kwaterunek-1
+  0 resurs-1
+  0 przejściówka-1
+  0 połóg-1
+  0 premierostwo-2
+  0 koregencja-1
+  0 kanikuła-1
+  0 biologiczny okres półtrwania-1
+  0 nowicjat-1, probacja-1
+  0 nuncjatura-3
+  0 pięciolatka-1, pięciolecie-1
+  0 trzydziestolecie-1
+  1 dwudziestolecie-1, dwudziestolatka-1
+    0 dwudziestolecie międzywojenne-1, międzywojnie-1
+  0 czterdziestolecie-1
+  0 ćwierćwiecze-1, dwudziestopięciolecie-1
+  0 bezkrólewie-2, interregnum-1
+  9 okres godowy-1, gody-1
+    0 huczka-1, lochanie-1
+    0 bekowisko-1
+    0 parkot-1
+    0 bukowanie-2, bukowisko-1
+    0 tarło-1
+    0 tycznia-1
+    1 toki-1
+      0 tokowisko-2
+    0 rykowisko-1
+  VISITED 0 dzień polarny-1
+  0 wiek-3
+  1 staż-1
+    0 wysługa lat-1
+  0 tercja-4
+  0 półwiecze-1, pięćdziesięciolecie-1
+  0 karencja-1
+  0 kolej-5, pora-2
+  0 lata-1
+  0 vacatio legis-1
+  0 turnus-1
+  0 okres próbny-1
+  0 okres ochronny-1, czas ochronny-1
+  0 pontyfikat-1
+  0 tysiąclecie-1, milenium-1, millenium-1
+  1 dekada-1, dziesięciolecie-1
+    0 krzyżyk-7
+  0 żałoba-2
+  2 semestr-1, okres-3, półrocze-1
+    0 semestr zimowy-1
+    0 semestr letni-1
+  0 karnawał-1, zapusty-2
+  1 oktawa-2
+    VISITED 0 biały tydzień-1
+  0 półrocze-2
+  14 święto-1
+    8 święto rzymskie-1
+      0 brumalia-1
+      0 saturnalia-1
+      0 cerealia-1
+      0 feralia-1
+      0 luperkalie-1, luperkalia-1
+      0 floralia-1
+      0 matronalia-1
+      0 parentalia-1
+    4 *święto religijne-1
+      1 *święto żydowskie-1
+        VISITED 0 szabas-1, szabat-1, sabat-2
+      0 *święto chrześcijańskie-1
+      VISITED 0 bajram-1
+  0 postulat-3
+  17 pora-3
+    0 zmierzch żeglarski-1
+    0 zmierzch cywilny-1
+    0 zmierzch astronomiczny-1
+    0 podwieczór-1
+    0 zachód-4
+    0 przedwieczór-1, przedwieczerz-1, przedwieczerze-1
+    0 szarówka-1, szara godzina-1
+    0 przedpołudnie-1
+    0 rano-2
+    0 popołudnie-1
+    VISITED 1 wschód-2, świtanie-3, świt-2, zaranie-2
+    1 wieczór-3, zmierzch-2, zmrok-1
+      0 półzmierzch-1
+    1 brzask-2, przedświt-1, rozświt-1
+      0 świt cywilny-1, świt kalendarzowy-1
+    0 południe-2
+  26 dzień-1
+    0 dzień astronomiczny-1
+    0 przedwczoraj-1
+    0 dzień bilansowy-1
+    0 pojutrze-1
+    12 dzień powszedni-1, dzień roboczy-1
+      1 dzień pracy-1
+        0 sesja-5
+      0 wtorek-1
+      0 środa-1
+      3 sobota-1
+        0 sobota pracująca-1
+        VISITED 0 wolna sobota-1
+        VISITED 0 szabas-1, szabat-1, sabat-2
+      0 poniedziałek-1
+      1 piątek-1
+        0 dzień trzech wiedźm-1
+      0 czwartek-1
+    9 dzień wolny-1
+      4 dzień świąteczny-1
+        0 bajram-1
+        0 szabas-1, szabat-1, sabat-2
+        1 niedziela-1
+          0 biała niedziela-2
+      0 świętówka-1
+      0 wolna sobota-1
+      0 dzień rektorski-1
+      0 dzień dziekański-1
+    0 jutro-1
+  1 tydzień-1
+    0 biały tydzień-1
+  6 noc-2
+    0 noc astronomiczna-1
+    0 czerwona noc-1
+    0 zielona noc-1
+    0 biała noc-3
+    0 biała noc-2
+    0 pusta noc-1, opłakana noc-1
+  27 miesiąc-1, m-c-1
+    13 *miesiąc kalendarza żydowskiego-1
+      0 adar II-2
+      0 adar-2
+      0 szwat-2
+      0 tewet-2
+      0 kislew-2
+      0 cheszwan-2, marheszwan-1
+      0 tiszri-2
+      0 elul-2
+      0 aw-5
+      0 tamuz-2
+      0 siwan-2
+      0 ijar-2
+      0 nisan-3
+    0 ramadan-1, ramazan-1
+    0 luty-1
+    0 wrzesień-1, september-1
+    0 styczeń-1
+    0 sierpień-1
+    0 październik-1
+    0 marzec-1
+    0 maj-1
+    0 listopad-1
+    0 lipiec-1
+    0 kwiecień-1
+    0 grudzień-1
+    0 czerwiec-1
+  0 życie-9
+  0 stulecie-1, wiek-1
+  11 pora roku-1, sezon-1
+    0 polecie-1
+    0 przedzimie-1
+    0 przedwiośnie-1
+    0 przednówek-1
+    0 jesień-1
+    1 zima-1
+      0 noc polarna-1
+    0 wiosna-1
+    1 lato-1
+      0 dzień polarny-1
+    0 babie lato-1
+  3 post-3
+    0 wielki post-2
+    1 ścisły post-1
+      0 ramadan-2
+  0 kwartał-1, trymestr-1
+  208 faza-1, stadium-1, etap-1, runda-1, tura-1
+    3 sprawdzian-3
+      0 poprawa-3
+      0 diagnoza-2
+      0 klasówka-1
+    0 dogrywka-3
+    0 ramka odczytu-1
+    0 ideoplastyka-1
+    0 rozruch-2
+    2 licytacja-4
+      1 licytacja-2
+        0 landy-1
+    0 systol-1
+    0 zygoten-1
+    0 diakineza-1
+    4 przejście-23
+      0 intermezzo-5
+      0 intermezzo-3
+      1 pasaż-3
+        0 rulada-1
+    6 runda-4
+      0 finał-1
+      0 ćwierćfinał-1
+      2 eliminacje-2
+        0 kwalifikacje-2, preselekcje-1
+        0 przedbieg-1
+      0 półfinał-1
+    0 szczebel-3
+    0 prosperity-2
+    0 telofaza-1
+    0 anafaza-1
+    0 latencja-1
+    0 martenzyt-1
+    1 postprodukcja-1
+      0 mastering-1, remastering-1
+    0 wegetacja-1
+    4 runda-2
+      0 rober-1
+      0 rozdanie-2
+      1 set-1
+        0 set honorowy-1
+    0 interfaza-1
+    0 interkineza-1
+    0 gastrulacja-1
+    0 profaza-1
+    0 rozdział-5
+    10 *stadium rozwojowe-1
+      0 Jezioro Ancylusowe-1
+      4 jajo-5
+        3 jajko-2, jajo-3, jaje-1
+          0 balut-1
+          0 zbuk-1
+          0 wapniak-3
+      0 realizm moralny-1
+      0 klimaks-3
+      0 smolt-1
+      0 parr-1
+    0 eliminacje-1
+    30 rozgrywka-1, starcie-6
+      0 rajd-3
+      0 drama-4
+      0 dungeon-1, instancja-3
+      23 gra-3
+        0 pressing-1
+        3 obrona-6
+          0 obrona strefowa-1
+          0 bodiczek-1
+          0 blok-8, blokada-7
+        0 fair play-1, czysta gra-1
+        2 partia-8
+          0 symultana-1, symultanka-2
+          0 gra w ciemno-2
+        0 dwumecz-1
+        12 mecz-1
+          0 szlagier-3
+          0 mecz mistrzowski-1
+          0 mecz derbowy-1
+          0 mecz międzypaństwowy-1
+          0 przedmecz-1
+          0 kopanina-2
+          0 mikst-1, gra mieszana-1
+          0 derby-1
+          1 mecz towarzyski-1, spotkanie towarzyskie-1
+            0 sparing-2, mecz sparingowy-1, sparring-2
+          0 singel-1, syngiel-1, singiel-4, gra pojedyncza-1
+          0 debel-1, debl-1, gra podwójna-1
+      2 dogrywka-1
+        0 repesaż-1, baraż-1, repasaż-1
+        0 tie-break-1
+    103 początek-2
+      0 położenie stępki-1
+      0 wybuch-3
+      VISITED 0 wielki wybuch-2
+      0 wypływ-4
+      1 wejście-22
+        0 wejście-19
+      0 kamień węgielny-2
+      64 rozpoczęcie-4
+        0 wielki wybuch-2
+        1 otwarcie-2
+          0 inauguracja-1
+        53 otwarcie-5
+          52 debiut-3, otwarcie szachowe-1
+            7 debiut półotwarty-1
+              0 debiut Nimzowitscha-1
+              0 obrona Pirca-1
+              0 obrona Alechina-1
+              0 obrona skandynawska-1
+              0 obrona Caro-Kann-1
+              0 obrona francuska-1
+              0 obrona sycylijska-1
+            17 debiut zamknięty-1
+              0 otwarcie Rétiego-1
+              0 obrona Grünfelda-1
+              0 partia katalońska-1
+              0 obrona holenderska-1
+              0 obrona Nimzowitscha-1
+              0 partia angielska-1
+              0 obrona hetmańsko-indyjska-1
+              0 obrona królewsko-indyjska-1
+              VISITED 8 gambit hetmański-1
+            19 debiut otwarty-1
+              2 obrona Philidora-1
+                VISITED 0 kontrgambit Lopeza-1
+                VISITED 0 kontrgambit Philidora-1
+              0 partia wiedeńska-1
+              0 partia szkocka-1
+              0 obrona rosyjska-1, partia rosyjska-1
+              0 obrona dwóch skoczków-1
+              VISITED 9 gambit królewski-2
+              0 partia włoska-1
+              0 partia hiszpańska-1
+            26 gambit-2
+              0 gambit wołżański-1
+              9 gambit królewski-2
+                0 gambit Masona-1
+                0 gambit Villemsona-1
+                0 gambit gońca-1
+                0 nieprzyjęty gambit królewski-1
+                VISITED 0 kontrgambit Falkbeera-1
+                0 wariant z szybkim d5-1
+                0 gambit Kieseritzky'ego-1
+                0 obrona klasyczna-1
+                0 gambit skoczka-1, gambit skoczkowy-1
+              7 kontrgambit-1
+                0 kontrgambit Gianutio-1
+                0 kontrgambit Lembergera-1
+                0 kontrgambit Winawera-1
+                0 kontrgambit Lopeza-1
+                0 kontrgambit Philidora-1
+                0 kontrgambit Falkbeera-1
+                VISITED 0 kontrgambit Albina-1
+              8 gambit hetmański-1
+                0 obrona austriacka-1
+                0 kontrgambit Albina-1
+                0 obrona Czigorina-1
+                0 obrona słowiańska-1
+                0 gambit przyjęty-1
+                2 gambit nieprzyjęty-1
+                  0 obrona bałtycka-1, obrona Keresa-1
+                  0 obrona Marshalla-1
+        0 start-4
+        4 start-2
+          0 restart-2
+          0 start zatrzymany-1
+          0 start lotny-1
+          0 falstart-1
+        0 rozruch-1
+      0 powijaki-1
+      2 narodziny-3, urodziny-1, urodzenie-3
+        0 urodzenie martwe-1
+        0 urodzenie żywe-1
+      1 inicjacja-3
+        0 erekcja-2
+      0 rozruch-4
+      0 geneza-2
+      3 wstęp-4
+        0 uwertura-2, preludium-3, przygrywka-3
+        0 przygotowanie-6
+        0 rekonesans-1
+      2 narodziny-1
+        0 hidżra-1, hedżra-1, hegira-1
+        0 prapoczątek-1
+      0 próg-8
+      0 start-3
+      0 wrota-2
+      0 przygrywka-1
+      0 nagłos-1
+      0 zaczyn-2
+      0 zaranie-1, świt-3
+      2 inicjacja-2
+        0 chrzest żeglarski-1
+        0 chrzest bojowy-1
+      0 zarodek-3
+      0 zarzewie-1, iskra-4
+      1 zalążek-1, zaczątek-1
+        0 przyczynek-2
+      0 zaśpiew-2
+      1 wschód-2, świtanie-3, świt-2, zaranie-2
+        0 świt astronomiczny-1
+    15 egzamin-1
+      0 rzeź niewiniątek-1
+      0 poprawka-2, egzamin poprawkowy-1
+      0 egzamin konkursowy-1
+      0 rigorosum-1, rygorozum-1
+      0 egzamin kierunkowy-1
+      0 kobyła-3
+      0 egzamin pisemny-1
+      0 egzamin ustny-1, ustny-1
+      3 obrona-7
+        0 magisterium-3
+        0 licencjat-3
+        0 doktorat-3
+      0 zerówka-1
+      1 matura-1, egzamin dojrzałości-1, egzamin maturalny-1
+        0 matura pomostowa-1
+  6 doba-1, dwadzieścia cztery godziny-1, dzień i noc-1, dzień-2
+    0 dziś-1, dzisiaj-1
+    0 sol-3
+    0 kalendy-1
+    0 wczoraj-1
+    1 wigilia-1, przeddzień-1, wilia-2
+      0 wigilia-5
+  96 termin-1, data-1
+    0 termin instrukcyjny-1
+    2 termin stanowczy-1
+      0 termin zawity-1
+      0 prekluzja-1, termin prekluzyjny-1
+    49 rocznica-1
+      0 milenium-2
+      0 trzynastolecie-1
+      0 jedenastolecie-1
+      0 sześciolecie-2
+      0 siedmiolecie-2
+      0 dwunastolecie-2
+      0 czternastolecie-1
+      0 dziewięciolecie-1
+      0 ośmiolecie-2
+      0 trzylecie-1, trzechlecie-2
+      0 dwulecie-2
+      0 czterolecie-1
+      36 jubileusz-2
+        0 czterdziestopięciolecie-2
+        0 siedemsetlecie-2
+        0 siedemdziesięciopięciolecie-2
+        0 sześćsetlecie-2
+        0 trzydziestopięciolecie-2
+        1 dziewięćdziesięciolecie-1
+          0 dziewięćdziesiątka-3
+        0 dziesięciolecie-2
+        0 dwudziestopięciolecie-2, ćwierćwiecze-2
+        0 tysiąclecie-2
+        1 stulecie-2
+          0 setka-12
+        0 pięciolecie-2
+        0 dwóchsetlecie-2, dwustulecie-1, dwusetlecie-2
+        1 sześćdziesięciolecie-2
+          0 sześćdziesiątka-4
+        1 siedemdziesięciolecie-2
+          0 siedemdziesiątka-3
+        1 osiemdziesięciolecie-2
+          0 osiemdziesiątka-3
+        0 czterechsetlecie-2
+        0 piętnastolecie-1
+        1 trzydziestolecie-2
+          0 trzydziestka-4
+        1 pięćdziesięciolecie-2, półwiecze-2
+          0 pięćdziesiątka-5
+        1 dwudziestolecie-2
+          0 dwudziestka-5
+        1 czterdziestolecie-2
+          0 czterdziestka-4
+        5 urodziny-2
+          0 dziewiętnastka-4
+          0 siedemnastka-5
+          0 szesnastka-6
+          0 piętnastka-4
+          0 osiemnastka-4
+    0 długoterminowość-2
+    0 krótkoterminowość-2
+    38 dzień-3
+      31 *dzień w miesiącu-1
+        0 trzydziesty pierwszy-1
+        0 trzydziesty-1
+        0 dwudziesty dziewiąty-1
+        0 dwudziesty ósmy-1
+        0 dwudziesty siódmy-1
+        0 dwudziesty szósty-1
+        0 dwudziesty piąty-1
+        0 dwudziesty czwarty-1
+        0 dwudziesty trzeci-1
+        0 dwudziesty drugi-1
+        0 dwudziesty pierwszy-1
+        0 dwudziesty-1
+        0 dziewiętnasty-1
+        0 osiemnasty-1
+        0 siedemnasty-1
+        0 szesnasty-1
+        0 piętnasty-1
+        0 czternasty-1
+        0 trzynasty-1
+        0 dwunasty-1
+        0 jedenasty-1
+        0 dziewiąty-1
+        0 ósmy-1
+        0 siódmy-1
+        0 szósty-1
+        0 piąty-1
+        0 czwarty-1
+        0 trzeci-1
+        0 drugi-1
+        0 pierwszy-1
+        0 dziesiąty-1
+      0 wypłata-3, pierwszy-2
+      2 dzień ostateczny-1
+        0 apokalipsa-2
+        0 sądny dzień-2, dzień Sądu Ostatecznego-1, dzień gniewu-3
+      0 dzień otwarty-1
+      0 imieniny-1
+    0 termin zerowy-1, zerówka-5
+  19 epoka-1, okres-4, czasy-1, czas-6, era-2, przedział czasowy-1
+    0 wapień muszlowy-2
+    0 epoka literacka-1
+    0 pokolenie-3
+    0 okres przedrzymski-1
+    0 postromantyzm-1
+    0 trecento-1
+    0 okres literacki-1
+    0 juga-1
+    0 nowożytność-1
+    5 prehistoria-1, prahistoria-1
+      3 epoka prehistoryczna-1
+        0 epoka brązu-1
+        0 eneolit-1, chalkolit-1, epoka miedzi-1
+        0 epoka kamienia-1
+      0 pradzieje-1
+    0 hellenizm-2
+    0 oświecenie-4
+    0 antyk-2, starożytność-2
+    0 średniowiecze-1, wieki średnie-1
+  34 cykl-3
+    0 cykl kwasu cytrynowego-1, cykl Krebsa-1, cykl kwasów trikarboksylowych-1
+    0 cykl biogeochemiczny-1
+    0 cykl skalny-1
+    1 cykl geologiczny-1
+      0 cykl peryglacjalny-1
+    0 cykl mszalny-1
+    0 cykl mocznikowy-1
+    0 cykl miesięczny-2
+    0 mahajuga-1, cykl kosmiczny-1
+    1 cykl rozwojowy-1, cykl życiowy-1
+      0 cykl lityczny-1
+    2 cykl płciowy-1, cykl rozrodczy-1, cykl reprodukcyjny-2
+      0 cykl jajnikowy-1
+      0 cykl miesiączkowy-1, cykl menstruacyjny-1, cykl-4, cykl miesięczny-1, cykl owulacyjny-1
+    19 cykl astronomiczny-1
+      15 rok-1
+        14 rok-2
+          0 rok anomalistyczny-1
+          0 rok księżycowy-1
+          0 wiosna-2, wiosenka-2
+          0 rok nieskładkowy-1
+          1 rok liturgiczny-1
+            0 rok kościelny-1
+          2 rok kalendarzowy-1
+            0 rok zwykły-1
+            0 rok przestępny-1
+          0 rok zwrotnikowy-1, rok słoneczny-1
+          0 rok jubileuszowy-1
+          0 rok szkolny-1
+          1 rok akademicki-1
+            0 rok wstępny-1, rok zerowy-1
+      0 rok gwiazdowy-1, rok syderyczny-1
+      0 cykl słoneczny-1
+      0 cykl księżycowy-1, cykl lunarny-1, cykl Metona-1

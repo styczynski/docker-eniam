@@ -1,0 +1,61 @@
+Słowo ma sufix 'ci'. Znajdujemy następujące reguły:
+
+1897914	48			ci	ci	adj:pl:nom.voc:m1.p1:pos
+1897915	48			ci	ci	adj:sg:acc:m3:pos
+1897916	48			ci	ci	adj:sg:nom.voc:m1.m2.m3:pos
+1889961	2			ci	t	adj:pl:nom.voc:m1.p1:pos
+1889959	3150			ci	ty	adj:pl:nom.voc:m1.p1:pos
+1889962	2	*		ci	t	adj:pl:nom:m1.p1:pos
+
+Ponieważ są to jedyne reguły z fsuf='ci'. P (fsuf='ci' |lsuf , cat, interp) jest niezerowe tylko, gdy
+P (fsuf='ci' |lsuf='ci' , cat=adj, interp=adj:pl:nom.voc:m1.p1:pos)
+P (fsuf='ci' |lsuf='ci' , cat=adj, interp=adj:sg:acc:m3:pos)
+P (fsuf='ci' |lsuf='ci' , cat=adj, interp=adj:sg:nom.voc:m1.m2.m3:pos)
+P (fsuf='ci' |lsuf='t' ,  cat=adj, interp=adj:pl:nom.voc:m1.p1:pos)
+P (fsuf='ci' |lsuf='ty' , cat=adj, interp=adj:pl:nom.voc:m1.p1:pos)
+P (fsuf='ci' |lsuf='t' ,  cat=adj, interp=adj:pl:nom:m1.p1:pos)
+
+Teraz sprawdzamy, czy istnieje reguła taka, że 
+lsuf='ci' , cat=adj, interp=adj:pl:nom.voc:m1.p1:pos i fsuf<>'ci'
+i nie znajdujemy takiej reguły. Podobnie pozostałych pięciu reguł.
+
+Słowo ma sufix 'wiejszym'. Znajdujemy następujące reguły:
+
+1704855	5			wiejszym	wy	adj:pl:dat:m1.m2.m3.f.n1.n2.p1.p2.p3:com
+1704856	5			wiejszym	wy	adj:sg:inst:m1.m2.m3.n1.n2:com
+1704857	5			wiejszym	wy	adj:sg:loc:m1.m2.m3.n1.n2:com
+
+Ponieważ są to jedyne reguły z fsuf='wiejszym'. P (fsuf='ci' |lsuf , cat, interp) jest niezerowe tylko, gdy
+P (fsuf='wiejszym' |lsuf='wy' , cat=adj, interp=adj:pl:dat:m1.m2.m3.f.n1.n2.p1.p2.p3:com)
+P (fsuf='wiejszym' |lsuf='wy' , cat=adj, interp=adj:sg:inst:m1.m2.m3.n1.n2:com)
+P (fsuf='wiejszym' |lsuf='wy' , cat=adj, interp=adj:sg:loc:m1.m2.m3.n1.n2:com)
+
+Teraz sprawdzamy, czy istnieje reguła taka, że 
+lsuf='wy' , cat=adj, interp=adj:pl:dat:m1.m2.m3.f.n1.n2.p1.p2.p3:com
+Znajdujemy regułę:
+1705146	154			wszym	wy	adj:pl:dat:m1.m2.m3.f.n1.n2.p1.p2.p3:com
+A dla pozostałych:
+1705147	154			wszym	wy	adj:sg:inst:m1.m2.m3.n1.n2:com
+1705148	154			wszym	wy	adj:sg:loc:m1.m2.m3.n1.n2:com
+Na liście frekwencyjnej znajdują się następujące wpisy dotyczące tego przypadka:
+*najnowszym	nowy	adj:pl:dat:n:sup	2	COMPOS	SGJP-EXACT	NCH	CORR
+
+łatwiejszym	łatwy	adj:sg:inst:m3:com	1	COMPOS	SGJP-EXACT	NCH	CORR
+łatwiejszym	łatwy	adj:sg:inst:n:com	1	COMPOS	SGJP-EXACT	NCH	CORR
+ciekawszym	ciekawy	adj:sg:inst:m3:com	1	COMPOS	SGJP-EXACT	NCH	CORR
+*Najciekawszym	ciekawy	adj:sg:inst:m3:sup	2	NCOMPOS	SGJP-LMM-UNCAPITAL	NCH	CORR
+*najnowszym	nowy	adj:sg:inst:m1:sup	1	COMPOS	SGJP-EXACT	NCH	CORR
+*najnowszym	nowy	adj:sg:inst:m3:sup	1	COMPOS	SGJP-EXACT	NCH	CORR
+*Najnowszym	nowy	adj:sg:inst:m3:sup	1	NCOMPOS	SGJP-LMM-UNCAPITAL	NCH	CORR
+*najprawdziwszym	prawdziwy	adj:sg:inst:m1:sup	1	COMPOS	SGJP-EXACT	NCH	CORR
+*najruchliwszym	ruchliwy	adj:sg:inst:n:sup	1	COMPOS	SGJP-EXACT	NCH	CORR
+*najszczęśliwszym	szczęśliwy	adj:sg:inst:m1:sup	1	COMPOS	SGJP-EXACT	NCH	CORR
+*najwrażliwszym	wrażliwy	adj:sg:inst:m3:sup	1	COMPOS	SGJP-EXACT	NCH	CORR
+szczęśliwszym	szczęśliwy	adj:sg:inst:m1:com	1	COMPOS	SGJP-EXACT	NCH	CORR
+
+łaskawszym	łaskawy	adj:sg:loc:n:com	1	COMPOS	SGJP-EXACT	NCH	CORR
+*najciekawszym	ciekawy	adj:sg:loc:m3:sup	1	COMPOS	SGJP-EXACT	NCH	CORR
+*najciekawszym	ciekawy	adj:sg:loc:n:sup	1	COMPOS	SGJP-EXACT	NCH	CORR
+*najnowszym	nowy	adj:sg:loc:m3:sup	1	COMPOS	SGJP-EXACT	NCH	CORR
+
+

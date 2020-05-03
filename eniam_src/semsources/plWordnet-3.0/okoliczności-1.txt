@@ -1,0 +1,3561 @@
+2910 warunki-1, okoliczności-1, stosunki-2, konsytuacja-1
+  0 geografia-2
+  0 ośrodek-3, medium-3, środowisko-2
+  1 podłoże-4
+    0 tło-3
+  0 antecedencje-1
+  0 przejezdność-1
+  0 widoczność-1
+  0 koniunktura-1
+  7 *stosunki czasowe-1
+    0 wyprzedzenie-3
+    5 opóźnienie-3, spóźnienie-2, zwłoka-2, poślizg-2
+      0 czas martwy-1
+      VISITED 0 retardacja-1
+      0 retardacja-2
+      0 niedoczas-1
+      0 zacofanie-2, niedorozwój-3, prymityw-2, upośledzenie-2, zaniedbanie-2, zapóźnienie-1
+  2 wilgotność-1
+    0 oślizgłość-1, oślizłość-1
+    0 zawilgocenie-2
+  3 egzystencja-2, egzystowanie-4, życie-7, doczesność-1
+    0 życie konsekrowane-1
+    0 droga krzyżowa-2
+    0 łaskawy chleb-1
+  27 pogoda-1, aura-2, czas-9
+    0 barowa aura-1, barowa pogoda-1, butelkowa pogoda-1, butelkowa aura-1
+    0 bezwietrze-1
+    0 parnota-1, parność-1
+    1 deszczowość-1
+      0 dżdżystość-1
+    0 ochłodzenie-4
+    1 ocieplenie-6
+      0 odwilż-1
+    1 pogoda-2, pogoda jak drut-1
+      0 słońce-2
+    0 duchota-1, duszność-2, dusznota-1
+    10 niepogoda-1
+      0 pogoda pod psem-1
+      0 słota-1, chlapa-1, szaruga-1, plucha-1, chlapanina-1, chlapawica-1
+      5 mgła-1
+        0 śreżoga-1
+        0 mleko-3
+        0 tuman-2
+        0 zamglenie-2, mglistość-2
+        0 smog-1
+      0 mróz-1, zimnica-1, ziąb-1
+      0 zamieć-1, śnieżyca-1, zawieja-1, zawierucha-1, zadymka-1, kurzawa-2, zawiew-5
+    4 ciepło-1
+      3 gorąco-1, ogień-2
+        VISITED 2 upał-1, skwar-1, żar-1, gorąc-1, spiekota-1, spieka-1
+    2 upał-1, skwar-1, żar-1, gorąc-1, spiekota-1, spieka-1
+      0 parówka-3, parówa-1
+      0 tropik-3
+  2859 kontekst-1, tło-2, sceneria-1, sztafaż-1
+    1 teren-6
+      0 arena-3, scena-5, teatr-6, widownia-3
+    0 kanwa-1, osnowa-1
+    1 otoczka-2
+      0 temat-8
+    2853 realia-1, rzeczywistość-1
+      0 natura-6
+      1 koloryt-2
+        0 folklor-2
+      0 deziluzja-1
+      0 codzienność-1
+      2 prawda-2
+        0 światło dzienne-3
+        0 pewnik-1
+      2844 sytuacja-1
+        7 amory-1
+          3 randka-1
+            0 szybka randka-1
+            0 randka rozbierana-1
+            0 randka w ciemno-1
+          1 zaloty-1, zalecanki-1, umizgi-1, konkury-1, koperczaki-1
+            0 ksiuty-1
+          0 flirt-1
+        0 hard core-4
+        0 widmo-3
+        0 złośliwość rzeczy martwych-1, złośliwość przedmiotów martwych-1
+        0 żal-4, bieda-4
+        0 rewia mody-2
+        0 beczka śmiechu-2
+        0 surrealizm-2
+        0 równia pochyła-2
+        0 ruletka-2
+        0 gorączka-4
+        0 sytuacja patowa-1
+        2 stan nadzwyczajny-1
+          0 stan wyjątkowy-1
+          0 stan wojenny-1
+        0 sytuacja bramkowa-1
+        1 pułapka-2
+          0 pułapka kredytowa-1
+        0 amba-3
+        0 hekatomba-5
+        0 stabilizacja-3
+        2 okupacja-1
+          0 zabory-1
+          0 zabór-1, aneksja-1
+        0 bruk-2
+        0 Gombrowicz-3
+        0 bajka-5
+        0 położenie-8
+        0 impas-2
+        2361 nieprawidłowość-1, zaburzenie-3, zakłócenie-5, aberracja-4
+          0 niedostosowanie społeczne-1
+          0 błąd-3
+          0 dewiacyjność-1
+          1 nienormalność-2
+            0 psychiczność-1
+          108 patologia-1
+            0 klientelizm-1
+            0 biurokracja-3
+            0 chuligaństwo-1, łobuzerstwo-1, chuliganeria-2, łobuzerka-1
+            0 wandalizm-1
+            0 narkomania-1
+            0 korupcja-1
+            2 dewiacja-1, zboczenie-5
+              0 dewiacja wtórna-1
+              0 dewiacja pierwotna-1
+            5 demoralizacja-1, zgnilizna-1, zgorszenie-3, wykolejenie-1
+              0 posoborowie-1
+              0 anomia-1
+              2 zepsucie-4, rozkład-4, rozkład moralny-1, staczanie się-1, upadek-2, degrengolada-1
+                0 zgniłość-3
+                0 dehumanizacja-1
+            0 alkoholizm-1, pijaństwo-1, choroba alkoholowa-1
+            77 przemoc-1, gwałt-1
+              0 rozlew krwi-1, przelew krwi-1
+              2 molestowanie seksualne-1, molestacja-1
+                0 grooming-2
+                0 gwałt-2
+              0 cyberprzemoc-1, agresja elektroniczna-1
+              0 przemoc domowa-1
+              2 lanie-9, łomot-2, cięgi-2, baty-2, manto-1
+                0 wycisk-1
+                0 kocówa-1
+              12 bicie-5, dawanie-4, lanie-3, okładanie-1, młócenie-1, pranie-2
+                0 dawanie wycisku-1
+                0 policzkowanie-1
+                0 tłuczenie-4, grzanie-3
+                0 masakrowanie-1
+                0 boksowanie-1
+                0 trzepanie-6
+                0 pałowanie-1
+                3 chłostanie-1, siekanie-2, smaganie-1, sieczenie-1
+                  0 biczowanie-1
+                  0 batożenie-1
+                  0 zacinanie-2
+                0 katowanie-1
+              1 nadopiekuńczość-1
+                0 kuratela-1
+              22 atak-5
+                0 rękoczyn-1, pobicie-5
+                0 rozbój-1
+                11 napad-1, napaść-1
+                  0 napad rabunkowy-1
+                  7 inwazja-1, agresja-3, najazd-1, nachód-1
+                    0 zajazd-2
+                    0 szturm-1, nawała-2, nawałnica-3
+                    0 oblężenie-1
+                    3 podbój-1
+                      0 zawojowanie-4, debelacja-1, debellacja-1
+                      0 kolonizacja-1
+                      0 konkwista-1
+                  0 wtargnięcie-3
+                  0 skok-3
+                2 zamach-1
+                  0 pucz-1, zamach stanu-1
+                  0 zamach samobójczy-1
+                4 zasadzka-1
+                  0 zasiadka-1
+                  0 koń trojański-2
+                  1 sieć-8
+                    0 pajęczyna-3
+              0 fala-6
+              VISITED 0 mobbing-1
+              28 represja-1, ucisk-1, prześladowanie-2, terror-1
+                0 bułgaryzacja-2
+                0 persekucja-1
+                0 junkierstwo-2
+                0 bolszewizacja-2
+                0 sekatura-1
+                0 dragonada-2
+                0 dragonada-1
+                0 psychuszka-1
+                0 ciemięstwo-1
+                1 pogrom-2, czystka-1
+                  0 czystka etniczna-1
+                1 szykana-1
+                  0 czystka-2
+                3 szykany-1
+                  0 mobbing-1
+                  1 nagonka-1
+                    0 polowanie na czarownice-1
+                0 przesiedlenie-2
+                0 zsyłka-1
+                1 wywózka-1
+                  0 branka-2
+                1 wysiedlenie-2
+                  0 rugi-1
+                0 wypędzenie-2
+                0 rusyfikacja-2
+                0 germanizacja-2
+                1 obława-1
+                  0 łapanka-1
+            13 przestępczość-1
+              0 przestępczość gospodarcza-1
+              0 korupcyjność-1
+              1 przestępczość zorganizowana-1
+                0 mafijność-2
+              2 terroryzm-1
+                0 bioterroryzm-1
+                0 piractwo-2
+              5 bandytyzm-1, rozbójnictwo-1
+                0 zbójectwo-1
+                0 nożownictwo-1
+                0 gangsterstwo-1, gangsteryzm-1
+                0 zbójnictwo-2
+                0 piractwo-3, korsarstwo-2
+          2246 zaburzenie-2, zakłócenie-3, aberracja-1
+            0 transpozycja-6
+            0 hiperwentylacja-2
+            0 zatoka-5, lakuna-1
+            0 rozkojarzenie-2
+            0 linie Beau-1
+            0 nagłe zatrzymanie krążenia-1
+            0 akrocyjanoza-1
+            0 atetoza-1
+            3 przewodnienie-1
+              0 przewodnienie izotoniczne-1
+              0 przewodnienie hipotoniczne-1, zatrucie wodne-1
+              0 przewodnienie hipertoniczne-1
+            0 choroby wewnętrzne-1
+            0 obturacja-1
+            0 interpozycja-1
+            5 rozmiękanie-1
+              1 chondromalacja-1
+                0 fascykulacja-1, drżenie pęczkowe-1
+              0 encefalomalacja-1, rozmiękanie mózgu-1
+              VISITED 0 osteomalacja-1, rozmiękanie kości-1, krzywica dorosłych-1
+              VISITED 0 tracheomalacja-1, wiotkość tchawicy-1, wrodzone rozmiękanie tchawicy-1
+            1 anakolut-3
+              0 anantopodon-1
+            0 hipersomnia-1, nadmierna senność-1
+            1 odwarstwienie-1
+              VISITED 0 odwarstwienie siatkówki-1
+            0 odwapnienie-1
+            0 brachycefalia-1
+            0 bezsoczność-1, achylia-1
+            0 mikrografia-2
+            0 nadczułość-1
+            VISITED 0 ambliopia-1, amblyopia-1, leniwe oko-1
+            1 polineuropatia-1
+              0 polineuropatia alkoholowa-1
+            0 palinopsja-1, perseweracja wzrokowa-1
+            0 zespół obcej ręki-1, syndrom anarchicznej ręki-1, syndrom dr. Strangelove'a-1
+            0 nieketonowa hiperglicynemia-1
+            3 mikroangiopatia-1
+              0 stopa cukrzycowa-1
+              VISITED 0 retinopatia cukrzycowa-1
+              VISITED 0 nefropatia cukrzycowa-1, zespół Kimmelstiela-Wilsona-1, cukrzycowa choroba nerek-1
+            0 hiperamonemia-1
+            0 woloocze-1
+            0 polieuploidia-1, euploidia-1
+            9 aneuploidia-1, aneuploidalność-1
+              VISITED 0 tetrasomia chromosomu X-1, zespół XXXX-1
+              VISITED 7 trisomia-1
+            0 hipersplenizm-1, zespół dużej śledziony-1
+            0 neuronalna dysplazja jelitowa-1
+            0 nefroblastomatoza-1
+            0 malformacja tętniczo-żylna-1, naczyniaki tętniczo-żylne-1
+            0 krwawienie dokomorowe-1
+            0 kręgozmyk-1
+            1 hipoteloryzm-1, hypoteloryzm-1
+              VISITED 0 hipoteloryzm-2
+            0 hiposplenizm-1
+            0 asplenia-1
+            2 enteropatia-1
+              0 enteropatia z utratą białek-1, enteropatia wysiękowa-1
+              VISITED 0 celiakia-1, choroba trzewna-1, sprue nietropikalna-1
+            0 świst krtaniowy-1
+            0 bezwodzie-1
+            VISITED 0 małowodzie-1
+            0 hiporefleksja-1
+            VISITED 13 ślepota barw-1, zaburzenie rozpoznawania barw-1
+            0 kataplazja-1
+            0 anaplazja-1
+            0 perseweracja-2
+            0 dyssemia-1
+            0 cukromocz-1, glikozuria-1
+            0 aminoacyduria-1
+            1 lipodystrofia-2, lipoatrofia-1
+              0 lipoatrofia poinsulinowa-1
+            0 artropatia neurogenna-1, stawy Charcota-1
+            0 krioglobulinemia-1
+            0 asystolia-1
+            0 sympatykotonia-1
+            0 wagotonia-1, parasympatykotonia-1
+            1 hipotonia-2
+              0 hipotonia mięśniowa-1
+            0 splenomegalia-1
+            0 hepatomegalia-1
+            0 osteopenia-1
+            0 deficyt lizosomalnej kwaśnej lipazy-1
+            0 odwrócenie trzewi-1
+            0 dekstrokardia-1
+            3 zaburzenie barwnikowe skóry-1
+              2 hipopigmentacja-1
+                1 albinizm-1, bielactwo-1
+                  VISITED 0 choroba oczu Wysp Alandzkich-1, albinizm oczny typu Forsiusa-Erikssona-1
+            0 atypia-2
+            0 dyskeratoza-1
+            0 czyraczność-1, furunkuloza-1
+            0 hiperkeratoza-1, hyperkeratoza-1
+            0 erytrodermia-1
+            0 astma sercowa-1, dychawica sercowa-1, dychawica sercowa napadowa-1, napadowa duszność nocna-1
+            0 autoimmunizacja-1
+            0 leucyzm-1
+            0 albinizm-2
+            0 split-1, netsplit-1
+            0 spastyczność-1
+            0 arefleksja-1
+            0 flashback-2
+            0 turetyzm-1
+            0 somnolencja-1
+            2 obłęd-3
+              0 bezprzytomność-1
+              0 szaleństwo-2, wariactwo-1
+            0 organiczność-2
+            0 cellulit-1, skórka pomarańczowa-1, cellulitis-1, lipodystrofia-1
+            VISITED 0 kręcz-1, kręcz szyi-1, kręcz karku-1
+            0 sapka-1
+            0 nasieniotok-1
+            0 astenia-1
+            0 paramnezja-1
+            0 hipowitaminoza-1
+            0 wytrzeszcz-1
+            1 zasadowica-1, alkaloza-1
+              0 zasadowica oddechowa-1
+            2 neutropenia-1
+              1 agranulocytoza-1
+                VISITED 0 zespół Kostmanna-1, choroba Kostmanna-1
+            0 małopłytkowość-1, trombocytopenia-1
+            0 hemoglobinuria-1
+            0 hiperlipoproteinemia-1, hiperlipidemia-1
+            0 sensybilizacja-1
+            1 poliploidalność-1, poliploidia-1
+              0 triploidia-1
+            0 methemoglobinemia-1
+            0 apraksja-1
+            0 dysforia-1
+            37 mutacja-1
+              0 mutacja założycielska-1
+              0 mutacja dynamiczna-1
+              2 mutacja punktowa-1
+                0 mutacja zmiany sensu-1
+                0 mutacja nonsensowna-1
+              0 mutacja cicha-1
+              21 aberracja chromosomowa-1, mutacja chromosomowa-1
+                0 translokacja-2
+                0 duplikacja-1
+                2 inwersja chromosomowa-1
+                  0 inwersja pericentryczna-1
+                  0 inwersja paracentryczna-1
+                0 deficjencja-1
+                1 delecja-1
+                  0 zespół delecji 13q-1, delecja długich ramion chromosomu 13-1
+                0 tetrasomia chromosomu X-1, zespół XXXX-1
+                2 zespół de Grouchy'ego-2
+                  0 zespół de Grouchy'ego typu 2-2
+                  0 zespół de Grouchy'ego typu 1-2, zespół delecji 18p-1, monosomia 18p-1
+                0 interkalacja-1, insercja-1
+                7 trisomia-1
+                  0 zespół XYY-1, zespół nadmężczyzny-1, zespół supersamca-1
+                  0 zespół kociego oka-1
+                  0 zespół Warkany'ego 2-1, trisomia 8-1
+                  0 zespół Pataua-1
+                  VISITED 0 zespół Klinefeltera-1
+                  0 zespół Edwardsa-1, trisomia 18-1
+                  0 zespół Downa-1, down-1, mongolizm-1, mongołowatość-1, trisomia 21-1
+              3 mutacja genowa-1
+                2 substytucja-5
+                  0 transwersja-1
+                  0 tranzycja-1
+              0 heterogeneza-1
+              2 mutacja letalna-1
+                VISITED 0 acefalia-1, bezgłowość-1
+                VISITED 0 bezmózgowie-1, anencefalia-1
+              0 onkogeneza-1
+            0 hiperkaliemia-1, hiperpotasemia-1
+            1 hipertermia-1, przegrzanie-1
+              0 hipertermia złośliwa-1
+            0 zaśniad-1, zaśniad groniasty-1
+            1 pomroczność jasna-1, zamroczenie jasne-1, ograniczone zaburzenie dysocjacyjne-1
+              0 pomroczność jasna-2
+            34 dysfunkcja-1
+              5 dyskineza-1
+                VISITED 3 pląsawica-1, choroba św. Wita-1, taniec św. Wita-1
+                0 tik-1
+              5 dysleksja-1
+                0 dyskalkulia-1
+                0 dysfonia-1
+                0 dysleksja-2
+                0 dysortografia-1
+                0 dysgrafia-1, agrafia-1
+              21 nałóg-1, uzależnienie-4
+                0 zakupoholizm-1
+                3 głód-4
+                  0 głód alkoholowy-1
+                  0 głód nikotynowy-1
+                  0 głód narkotyczny-1
+                0 permareksja-1
+                0 seksoholizm-1
+                0 erotomania-1
+                0 współuzależnienie-1
+                0 tanoreksja-1
+                0 zespół uzależnienia od internetu-1, netoholizm-1, siecioholizm-1
+                0 pracoholizm-1
+                0 lekomania-1, farmakomania-1, lekozależność-1, zależność lekowa-1
+                0 eteromania-1
+                0 nikotynizm-1
+                3 narkomania-2
+                  0 morfinizm-1
+                  0 kokainizm-1
+                  0 heroinizm-1, heroinomania-1
+                VISITED 0 alkoholizm-2, problem alkoholowy-1, picie-4, pijaństwo-4, opilstwo-3, pijactwo-1
+                0 palenie-2
+            0 demielinizacja-1
+            1 ropomocz-1
+              0 ropomocz jałowy-1
+            1 entropion-1, entropium-1
+              VISITED 0 entropion wrodzony-1, entropium wrodzone-1
+            1 ektropion-1, ektropium-1
+              VISITED 0 ektropion wrodzony-1, ektropium wrodzone-1
+            0 kaczy chód-1, kaczkowaty chód-1
+            0 eunuchoidyzm-1
+            3 niedosłuch-1
+              0 niedosłuch mieszany-1
+              0 niedosłuch odbiorczy-1
+              0 niedosłuch przewodzeniowy-1
+            0 paramimia-1
+            1 halucynoza-1
+              0 zespół pedunkularny Lhermitte'a-1
+            2 krwiomocz-1, hematuria-1
+              0 makrohematuria-1
+              0 mikrohematuria-1, krwinkomocz-1, erytrocyturia-1, krwiomocz mikroskopowy-1
+            0 niedociśnienie-1
+            48 *zaburzenie mowy-1
+              0 alogia-1
+              25 rozwojowe zaburzenie mowy-1
+                VISITED 0 mutyzm wybiórczy-1
+                2 jąkanie-2
+                  0 jąkanie toniczne-1
+                  0 jąkanie kloniczne-1
+                20 dyslalia-1
+                  5 mogilalia-1
+                    VISITED 0 mogisygmatyzm-1
+                    VISITED 0 mogirotacyzm-1
+                    VISITED 0 mogilambdacyzm-1
+                    VISITED 0 mogikappacyzm-1
+                    VISITED 0 mogigammacyzm-1
+                  6 paralalia-1
+                    VISITED 2 parasygmatyzm-1
+                    VISITED 0 pararotacyzm-1
+                    VISITED 0 parakappacyzm-1
+                    VISITED 0 paragammacyzm-1
+                  0 mowa bezdźwięczna-1
+                  0 betacyzm-1
+                  2 gammacyzm-1, geganie-1
+                    0 mogigammacyzm-1
+                    0 paragammacyzm-1
+                  1 lambdacyzm-1, lelanie-1
+                    0 mogilambdacyzm-1
+                  2 kappacyzm-1, kekanie-1
+                    0 parakappacyzm-1
+                    0 mogikappacyzm-1
+                  4 sygmatyzm-1, seplenienie-2
+                    0 mogisygmatyzm-1
+                    2 parasygmatyzm-1
+                      0 sieplenienie-1
+                      0 szeplenienie-1
+                  2 rotacyzm-1, reranie-1
+                    0 mogirotacyzm-1
+                    0 pararotacyzm-1
+              0 chrypka-1
+              0 alalia-1
+              0 parafazja-1
+              0 anartria-1
+              8 dyzartria-1
+                0 dyzartria móżdżkowa-1
+                0 dyzartria ataktyczna-1
+                3 dyzartria pozapiramidowa-1
+                  0 dyzartria hiperkinetyczna-1
+                  0 dyzartria dyskinetyczna-1
+                  0 dyzartria hipokinetyczna-1
+                0 dyzartria spastyczna-1
+                0 dyzartria hipotoniczna-1, dyzartria wiotka-1
+              2 afonia-1, bezgłos-1
+                0 apsityria-1
+                0 mutyzm wybiórczy-1
+              5 afazja-1
+                VISITED 0 afazja postępująca niefluentna-1, postępująca afazja bez płynności mowy-1
+                0 paragrafia-1
+                0 aleksykalizm-1
+                0 agramatyzm-1
+                0 afazja amnestyczna-1
+            2 białkomocz-1, albuminuria-1, proteinuria-1
+              0 białkomocz patologiczny-1
+              0 białkomocz fizjologiczny-1
+            1 aleksja-1, niezdolność czytania-1
+              0 czysta aleksja-1, czysta ślepota słów-1, aleksja bez agrafii-1
+            7 agnozja-1
+              0 autotopagnozja-1, somatotopagnozja-1
+              1 agnozja czuciowa-1
+                0 astereognozja-1
+              0 agnozja słuchowa-1
+              VISITED 2 agnozja wzrokowa-1, ślepota korowa-1
+            11 ropowica-1, flegmona-1
+              VISITED 0 ropowica oczodołu-1
+              0 ropowica przestrzeni przygardłowej-1
+              VISITED 0 angina Ludwiga-1, ropowica dna jamy ustnej-1
+              0 zanokcica-2
+              5 zastrzał-1
+                0 zastrzał stawowy-1
+                0 zastrzał kostny-1
+                0 zastrzał ścięgnisty-1
+                0 zastrzał podskórny-1
+                0 zastrzał skórny-1
+              VISITED 0 czyrak-1, furunkuł-1
+            1 analgezja-1
+              VISITED 0 analgezja wrodzona-1
+            0 stereotypia-1, czynność stereotypowa-1, stereotypia ruchowa-1
+            0 inkoherencja-2, splątanie-2
+            0 furia-2, szał-2
+            0 infiltracja-3, nacieczenie-1, naciek-3
+            VISITED 11 niedorozwój-1
+            2 dystrofia-1
+              0 dystrofia Thiela-Behnkego-1
+              VISITED 0 dystrofia miotoniczna-1, DM-2, miotonia zanikowa-1, choroba Curschmanna-Steinerta-1
+            3 hipertrofia-1, przerost-1
+              VISITED 0 przerost połowiczy-1, hemihiperplazja-1, hemihipertrofia-1
+              0 hipertrofia wewnątrzmaciczna-1, makrosomia-1
+              VISITED 0 przerost łechtaczki-1, klitoromegalia-1, hipertrofia łechtaczki-1
+            7 upośledzenie umysłowe-1, niedorozwój umysłowy-1, oligofrenia-1, niepełnosprawność intelektualna-1, obniżenie poziomu rozwoju intelektualnego-1
+              VISITED 0 zespół łamliwego chromosomu X-1, zespół kruchego chromosomu X-1, zespół Martina-Belli-1
+              0 ociężałość umysłowa-2
+              0 zespół Lujana-Frynsa-1, zespół Lujana-1
+              0 kretynizm-1, matołectwo-1
+              0 infantylizm-2
+              0 imbecylizm-1, głuptactwo-1
+              0 debilizm-1
+            0 konflikt serologiczny-1
+            0 przeciążenie-4
+            0 nadwerężenie-3
+            57 uszkodzenie-4
+              0 pajączek-3
+              0 obsuwisko-2
+              2 zepsucie-5
+                0 butwa-1
+                0 zgnilizna-2
+              4 spękanie-3
+                0 kliważ-1, spękanie kliważowe-1
+                0 krakelura-2
+                0 krakelura-1
+                0 płatki śnieżne-1, flokeny-1
+              30 uraz-1, trauma-2, traumatyzm-1
+                0 stłuczenie-4
+                0 barotrauma-1
+                0 obtłuczenie-2
+                0 wstrząs mózgu-1, wstrząśnienie mózgu-1
+                3 kontuzja-1
+                  0 potłuczenie-4
+                  1 dystrakcja-3
+                    0 dystrakcja stawu biodrowego-1
+                2 skręcenie-8
+                  1 dystorsja-2, skręcenie stawu-1
+                    0 dystorsja stawu skokowego-1, skręcenie stawu skokowego-1
+                0 zwichnięcie-2, zwichnięcie stawu-1
+                1 oparzenie-2, poparzenie-3
+                  0 ślepota śnieżna-1
+                2 złamanie-6
+                  0 złamanie zamknięte-1
+                  0 złamanie otwarte-1
+                9 rana-1, zranienie-3, okaleczenie-4
+                  0 rana oparzeniowa-1
+                  0 rana postrzałowa-1
+                  0 rana szarpana-1
+                  0 rana cięta-1
+                  VISITED 0 pogryzienie-3
+                  0 przestrzał-1, przestrzelina-1
+                  0 ukąszenie-2
+                  VISITED 0 postrzał-1
+                  0 stygmat-2
+                2 skaleczenie-2, ranka-1
+                  0 draśnięcie-3, zadraśnięcie-3
+                  0 zadrapanie-2, zadrapnięcie-2
+              0 lezja-1
+              1 encefalopatia-1
+                0 zespół PEHO-1
+              1 zgniecenie-3
+                0 implozja-1
+              0 spalenizna-2
+              0 odmrożenie-1
+              6 pęknięcie-6, rysa-2, zarysowanie-5
+                0 strefa ryftu-1
+                VISITED 0 zespół Boerhaavego-1
+                0 mikropęknięcie-1
+                0 rozpadlina-2
+                0 włosowina-1
+                0 uskok-1
+              3 obrażenie-3
+                0 odparzenie-1
+                0 pogryzienie-3
+                0 postrzał-1
+            4 nadwaga-1, tusza-3
+              0 ciąża spożywcza-1
+              0 opasłość-1
+              0 pulchność-2, tęgość-1
+              0 otyłość-1, grubość-4, korpulentność-1
+            69 zapalenie-8, reakcja zapalna-1
+              0 zapalenie spojówek-1
+              0 podgłośniowe zapalenie krtani-1
+              0 zapalenie trzustki-1
+              0 guzki śpiewacze-1
+              VISITED 0 choroba Ormonda-1, zwłóknienie pozaotrzewnowe-1, idiopatyczne pozaotrzewnowe zwłóknienie-1
+              0 choroba Bürgera-1, zakrzepowo-zarostowe zapalenie naczyń-1
+              0 kłębuszkowe zapalenie nerek-1
+              0 zapalenie pnia mózgu Bickerstaffa-1
+              0 zapalenie wyrostka sutkowatego-1
+              VISITED 0 twardziel-5
+              VISITED 0 rodzinna gorączka śródziemnomorska-1
+              1 zapalenie kości i szpiku-1, osteomyelitis-1
+                VISITED 0 ropień Brodiego-1
+              VISITED 0 zespół Tietzego-1
+              VISITED 0 postępujące kostniejące zapalenie mięśni-1, fibrodysplazja-1, postępujące skostnienia mięśni-1, choroba Münchmeyera-1, postępujące kostnienie mięśni-1
+              VISITED 3 spondyloartropatia-1, zapalenie stawów z zajęciem stawów kręgosłupa-1
+              VISITED 0 zesztywniające zapalenie stawów kręgosłupa-1, choroba Bechterewa-1, choroba Marie-Strümplla-Bechterewa-1
+              VISITED 0 zespół Takayasu-1, choroba Takayasu-1, zapalenie tętnic Takayasu-1, choroba bez tętna-1, zespół łuku aorty-1
+              0 olbrzymiokomórkowe zapalenie tętnic-1, choroba Hortona-1, zapalenie tętnicy skroniowej-1
+              VISITED 0 guzkowe zapalenie tętnic-1, choroba Kussmaula-1, choroba Kussmaula-Maiera-1
+              1 zapalenie wielomięśniowe-1
+                0 zapalenie skórno-mięśniowe-1
+              VISITED 0 młodzieńcze idiopatyczne zapalenie stawów-1, młodzieńcze reumatoidalne zapalenie stawów-1, młodzieńcze przewlekłe zapalenie stawów-1, choroba Stilla-1
+              0 zapalenie zatok przynosowych-1
+              0 rozlane zapalenie powięzi z eozynofilią-1, choroba Shulmana-1, eozynofilowe zapalenie powięzi-1
+              VISITED 0 erytrodermatoza-1, zakaźne zapalenie skóry-1, wrzodowa choroba skóry-1
+              0 zapalenie kątów ust-1, zajady-1
+              0 zapalenie tkanki tłuszczowej-1
+              VISITED 0 ziarniniakowatość z zapaleniem naczyń-1, ziarniniak Wegenera-1
+              0 zapalenie nerwu wzrokowego-1
+              0 alergiczne zapalenie pęcherzyków płucnych-1
+              VISITED 0 zołzy-2
+              VISITED 3 zapalenie mózgu-1
+              VISITED 0 infekcyjne zapalenie wsierdzia-1
+              VISITED 0 zapalenie pępka-1
+              VISITED 0 rzekomobłoniaste zapalenie jelit-1
+              VISITED 0 paciorkowcowe zapalenie gardła-1, bakteryjna infekcja gardła i migdałków-1
+              VISITED 0 angina Plauta-Vincenta-1
+              VISITED 10 zapalenie wątroby-1
+              0 wyprzenie-3
+              VISITED 0 cellulitis-2, zapalenie tkanki łącznej-1
+              VISITED 0 gruda-3
+              0 figówka-1, ropne zapalenie mieszków włosowych-1
+              4 nieżyt-1
+                VISITED 0 ozena-1
+                2 katar-2
+                  0 gile do pasa-1
+                  0 katar sienny-1
+              VISITED 0 ochwat-1
+              2 zapalenie oskrzeli-1
+                VISITED 0 ostre zapalenie oskrzeli-1
+                VISITED 0 przewlekłe zapalenie oskrzeli-1
+              0 podrażnienie-3
+              VISITED 0 reumatoidalne zapalenie stawów-1, reumatyzm-1, gościec-1, RZS-1, gościec przewlekle postępujący-1
+            1861 schorzenie-1, przypadłość-1, choroba-1, dolegliwość-1, niedomaganie-3, niedyspozycja-1, niemoc-3, patologia-2, zachorowanie-3, syndrom-1, niedomoga-1
+              0 zastój-5
+              0 kieszeń-5, kieszeń patologiczna-1, kieszeń przyzębna-1
+              0 choroba dyplomatyczna-1
+              0 choroba cywilizacyjna-1
+              0 klasterowy ból głowy-1
+              0 komplikacja-3
+              0 otoskleroza-1
+              0 koksartroza-1, zwyrodnieni stawu biodrowego-1
+              0 tłuszczyk-3
+              0 odwarstwienie siatkówki-1
+              0 choroba Ormonda-1, zwłóknienie pozaotrzewnowe-1, idiopatyczne pozaotrzewnowe zwłóknienie-1
+              0 achalazja-1, achalazja przełyku-1, kurcz wpustu-1
+              0 embriopatia-1
+              0 czerwienica prawdziwa-1, choroba Vaqueza-1, erytrocytoza-1
+              0 osteoliza-1
+              16 choroba endokrynologiczna-1
+                VISITED 0 zespół Zollingera-Ellisona-1, zespół Strøma-Zollingera-Ellison-1
+                0 zespół wielotorbielowatych jajników-1, torbielowatość jajników-1, zespół policystycznych jajników-1
+                VISITED 0 zespół Sheehana-1, poporodowa martwica przysadki-1
+                VISITED 0 zespół Pendreda-1
+                0 zespół Nelsona-1
+                0 zespół Mauriaca-1
+                0 wrodzony przerost nadnerczy-1, zespół nadnerczowo-płciowy-1
+                0 zespół Conna-1, pierwotny hiperaldosteronizm-1
+                0 podwzgórzyca-1, hipotalamoza-1
+                VISITED 0 niedoczynność przytarczyc-1
+                VISITED 0 niedoczynność kory nadnerczy-1
+                0 karłowatość przysadkowa-1, karłowatość hiposomatotropowa-1
+                0 gigantyzm eunuchoidalny-1
+                0 gigantyzm przysadkowy-1
+                0 choroba Glińskiego-Simmondsa-1
+                VISITED 0 niedoczynność tarczycy-1
+              1 trombofilia-1
+                VISITED 0 wrodzony niedobór białka C-1
+              0 choroba Peyroniego-1, stwardnienie ciał jamistych prącia-1, stwardnienie plastyczne prącia-1
+              3 tauopatia-1
+                VISITED 0 otępienie z ziarnami argentofilnymi-1
+                VISITED 0 postępujące porażenie nadjądrowe-1, choroba Steele'a-Richardsona-Olszewskiego-1, zespół Steele'a-Richardsona-Olszewskiego-1
+                VISITED 0 choroba Alzheimera-1, alzheimer-1
+              6 kanałopatia-1
+                VISITED 0 wielokształtny częstoskurcz komorowy zależny od katecholamin-1
+                0 paramiotonia wrodzona-1, choroba Eulenburga-1
+                VISITED 0 okresowy paraliż hipokaliemiczny-1, hipokaliemiczne porażenie okresowe-1
+                VISITED 0 hiperkaliemiczne porażenie okresowe-1, choroba Gamstorp-1
+                VISITED 0 zespół Brugadów-1, choroba Brugadów-1
+                VISITED 0 mukowiscydoza-1, zwłóknienie torbielowate-1
+              0 tracheobronchomegalia-1, zespół Mounier–Kuhna-1
+              0 stopa płasko-koślawa-1
+              0 endometrioza-1, gruczolistość zewnętrzna-1, gruczolistość śródmaciczna-1, gruczolistość-1
+              0 choroba Olliera-1, chrzęstniakowatość śródkostna-1, enchondromatoza-1
+              0 akinetopsja-1, ślepota ruchu-1
+              7 jałowa martwica kości-1
+                0 choroba Blounta-1, piszczel szpotawa-1
+                0 oddzielająca martwica kostno-chrzęstna-1, choroba Königa-1
+                0 choroba Haglunda-1, choroba Haglunda-Severa-1, jałowa martwica guza piętowego-1
+                0 choroba Kienböcka-1
+                0 choroba Scheuermanna-1, młodzieńcza kifoza-1
+                0 choroba Osgooda-Schlattera-1
+                0 choroba Perthesa-1, osteochondroza młodzieńcza głowy kości udowej-1
+              0 choroba Binswangera-1, leukoencefalopatia podkorowa-1
+              0 dyspraksja-1
+              0 dyssomnia-1
+              0 wapnica-2, kalcynoza-1
+              1 tubulopatia-1
+                VISITED 0 zespół Barttera-1
+              0 przełyk Barretta-1
+              3 spondyloartropatia-1, zapalenie stawów z zajęciem stawów kręgosłupa-1
+                0 enteropatyczne zapalenie stawów-1
+                VISITED 0 zesztywniające zapalenie stawów kręgosłupa-1, choroba Bechterewa-1, choroba Marie-Strümplla-Bechterewa-1
+                VISITED 0 łuszczyca stawowa-1, łuszczycowe zapalenie stawów-1
+              9 choroba reumatyczna-1, reumatyzm-2
+                VISITED 0 artroza-1
+                0 reumatyzm palindromiczny-1
+                VISITED 0 zespół Tietzego-1
+                0 rozsiana samoistna hiperostoza szkieletu-1, uogólniony samoistny nadmierny rozrost kości-1, choroba Forestiera-1
+                VISITED 0 osteomalacja-1, rozmiękanie kości-1, krzywica dorosłych-1
+                0 zespół SAPHO-1
+                VISITED 0 młodzieńcze idiopatyczne zapalenie stawów-1, młodzieńcze reumatoidalne zapalenie stawów-1, młodzieńcze przewlekłe zapalenie stawów-1, choroba Stilla-1
+                VISITED 0 reaktywne zapalenie stawów-1, zespół Reitera-1
+                VISITED 0 reumatoidalne zapalenie stawów-1, reumatyzm-1, gościec-1, RZS-1, gościec przewlekle postępujący-1
+              0 rozstrzenie oskrzeli-1
+              0 choroba Addisona-1, pierwotna niedoczynność kory nadnerczy-1, cisawica-1
+              0 moczówka prosta-1
+              0 orbitopatia tarczycowa-1, oftalmopatia tarczycowa-1, oftalmopatia naciekowo-obrzękowa-1, oftalmopatia Gravesa-Basedowa-1, wytrzeszcz złośliwy-1
+              13 choroba psychosomatyczna-1
+                VISITED 2 nadczynność tarczycy-1, hipertyreoza-1
+                VISITED 0 dychawica oskrzelowa-1, astma oskrzelowa-1, astma-2
+                VISITED 0 nadciśnienie tętnicze-1, hipertensja-1, hipertonia-1, choroba nadciśnieniowa-1
+                VISITED 1 choroba niedokrwienna serca-1, dusznica bolesna-1, choroba wieńcowa-1, dławica piersiowa-1, wieńcówka-1, niewydolność wieńcowa-1, stenokardia-2
+                VISITED 0 choroba wrzodowa-1, choroba wrzodowa żołądka i dwunastnicy-1
+                VISITED 4 cukrzyca-1, moczówka cukrowa-1, moczówka-1
+              0 obrzęk naczynioruchowy-1, obrzęk angioneurotyczny-1, obrzęk Quinckego-1
+              0 bolesny rumień kończyn-1
+              0 rumień guzowaty-1
+              0 kwashiorkor-1
+              0 rak wodny-1
+              1 stan przedrakowy-1
+                VISITED 0 grudkowatość bawenoidalna-1
+              1 choroba Webera-Christiana-1, choroba Pfeifera-Christiana-Webera-1
+                VISITED 0 zespół Rothmanna-Makaia-1
+              2 choroba brudnych rąk-1
+                VISITED 0 wirusowe zapalenie wątroby typu A-1, WZW A-1, żółtaczka pokarmowa-1
+                VISITED 0 pleśniawka-2
+              0 sarkoidoza-2, choroba Besniera-Boecka-Schaumanna-1
+              48 choroba zwyrodnieniowa-1
+                0 choroba zwyrodnieniowa stawów-1
+                15 choroba demielinizacyjna-1
+                  VISITED 0 choroba Charcota-Mariego-Tootha typu 1C-1
+                  VISITED 0 choroba Seitelbergera-1, dziecięca dystrofia neuroaksonalna-1
+                  VISITED 0 zespół Guillaina-Barrégo-1
+                  VISITED 0 ostre rozsiane zapalenie mózgu i rdzenia-1
+                  0 choroba Schildera-1, rozlane stwardnienie mózgu-1
+                  VISITED 0 mielinoliza środkowa mostu-1, zespół Adamsa-Victora-Mancalla-1, centralna mielinoliza mostu-1
+                  VISITED 3 leukodystrofia-1
+                  VISITED 0 zespół Devica-1, choroba Devica-1, zapalenie rdzenia i nerwów wzrokowych-1
+                  0 poprzeczne zapalenie rdzenia-1
+                  VISITED 0 postępująca leukoencefalopatia wieloogniskowa-1
+                  VISITED 1 stwardnienie rozsiane-1
+                31 choroba neurodegeneracyjna-1
+                  VISITED 0 zespół Wolframa-1, zespół DIDMOAD-1
+                  VISITED 0 zespół Mohra-Tranebjaerga-1
+                  1 stwardnienie zanikowe boczne-1, choroba Charcota-1, choroba Lou Gehriga-1, choroba neuronu ruchowego-1
+                    0 stwardnienie zanikowe boczne zachodniego Pacyfiku-1
+                  0 otępienie z ciałami Lewy'ego-1
+                  2 parkinsonizm plus-1, parkinsonizm atypowy-1
+                    0 zanik wieloukładowy-1
+                    0 zwyrodnienie korowo-podstawne-1
+                  0 postępujące porażenie nadjądrowe-1, choroba Steele'a-Richardsona-Olszewskiego-1, zespół Steele'a-Richardsona-Olszewskiego-1
+                  2 otępienie czołowo-skroniowe-1
+                    0 afazja postępująca niefluentna-1, postępująca afazja bez płynności mowy-1
+                    0 choroba Picka-1
+                  VISITED 0 leukoencefalopatia Kri-1, leukoencefalopatia z zanikającą istotą białą-1
+                  0 choroba Strümplla-1, dziedziczna paraplegia spastyczna-1
+                  VISITED 1 choroba Menkesa-1, choroba kręconych włosów-1, zespół Menkesa-1
+                  VISITED 0 zespół Alpersa-1, choroba Alpersa-1, choroba Alpersa-Huttenlochera-1
+                  VISITED 0 choroba Alexandra-1
+                  0 choroba Hallervordena-Spatza-1, neurodegeneracja związana z kinazą pantotenianu-1, encefalopatia z odkładaniem żelaza-1, neurozwyrodnienie z akumulacją żelaza typu I-1
+                  VISITED 0 choroba Parkinsona-1, parkinson-1, drżączka poraźna-1
+                  VISITED 7 pasażowalna encefalopatia gąbczasta-1, choroba prionowa-1, TSE-1
+                  VISITED 1 stwardnienie rozsiane-1
+                  VISITED 0 choroba Alzheimera-1, alzheimer-1
+                VISITED 0 miażdżyca-1, arterioskleroza-1, skleroza-1, stwardnienie tętnic-1, miażdżyca tętnic-1
+              28 choroba autoimmunologiczna-1, choroba autoimmunizacyjna-1
+                VISITED 0 pląsawica Sydenhama-1, pląsawica mała-1
+                VISITED 0 zesztywniające zapalenie stawów kręgosłupa-1, choroba Bechterewa-1, choroba Marie-Strümplla-Bechterewa-1
+                VISITED 0 zespół Sjögrena-1, choroba Mikulicza-Radeckiego-1
+                VISITED 0 młodzieńcze idiopatyczne zapalenie stawów-1, młodzieńcze reumatoidalne zapalenie stawów-1, młodzieńcze przewlekłe zapalenie stawów-1, choroba Stilla-1
+                0 małopłytkowość samoistna-1, małopłytkowość autoimmunologiczna-1, pierwotna małopłytkowość immunologiczna-1, samoistna plamica małopłytkowa-1, immunologiczna plamica małopłytkowa-1, idiopatyczna plamica małopłytkowa-1, choroba Werlhofa-1
+                VISITED 0 autoimmunologiczny zespół niedoczynności wielogruczołowej typu 1-1, zespół APECED-1, zespół Whitakera-1
+                VISITED 0 choroba Gravesa-Basedowa-1, choroba Basedowa-1
+                0 choroba Schönleina-Henocha-1, plamica alergiczna-1
+                VISITED 1 pemfigoid-1
+                0 ziarniniakowatość z zapaleniem naczyń-1, ziarniniak Wegenera-1
+                VISITED 0 przewlekła zapalna poliradikuloneuropatia demielinizacyjna-1
+                VISITED 0 zespół Guillaina-Barrégo-1
+                VISITED 0 ostre rozsiane zapalenie mózgu i rdzenia-1
+                VISITED 0 zespół Devica-1, choroba Devica-1, zapalenie rdzenia i nerwów wzrokowych-1
+                VISITED 8 pęcherzyca-2, dermatoza pęcherzowa akantolityczna-1
+                VISITED 0 miastenia-1, miastenia rzekomoporaźna-1, choroba Erba-Goldflama-1
+                VISITED 1 stwardnienie rozsiane-1
+                VISITED 0 reumatoidalne zapalenie stawów-1, reumatyzm-1, gościec-1, RZS-1, gościec przewlekle postępujący-1
+              0 choroba Degosa-1, choroba Degosa-Köhlmeiera-1, grudkowatość złośliwa zanikowa-1
+              10 zapalenie wątroby-1
+                0 alkoholowe zapalenie wątroby-1
+                0 autoimmunologiczne zapalenie wątroby-1, AZW-1
+                0 niealkoholowe stłuszczeniowe zapalenie wątroby-1
+                VISITED 6 wirusowe zapalenie wątroby-1, żółtaczka-2
+              0 syndrom kuwady-1
+              0 nietolerancja laktozy-1
+              0 wgłobienie-1
+              0 wielomocz-1, poliuria-1
+              0 anoksja-1, anoksemia-1, głód tlenowy-1
+              0 hipoksja-1
+              0 hipoksemia-1
+              0 hipokaliemia-1, hipokalemia-1
+              0 hipokalcemia-1
+              0 hipoglikemia-1, niedocukrzenie-1, niedocukrzenie krwi-1
+              0 hiperglikemia-1
+              0 skąpomocz-1, oliguria-1
+              9 choroba tkanki łącznej-1, kolagenoza-1
+                VISITED 0 zesztywniające zapalenie stawów kręgosłupa-1, choroba Bechterewa-1, choroba Marie-Strümplla-Bechterewa-1
+                VISITED 0 zespół antyfosfolipidowy-1, zespół Hughesa-1, zespół antykardiolipinowy-1
+                VISITED 0 elastopatia-1
+                VISITED 0 mieszana choroba tkanki łącznej-1, zespół Sharpa-1, mieszana kolagenoza-1
+                VISITED 0 zespół Sjögrena-1, choroba Mikulicza-Radeckiego-1
+                0 guzkowe zapalenie tętnic-1, choroba Kussmaula-1, choroba Kussmaula-Maiera-1
+                VISITED 0 choroba Buschkego-1, scleredema-1, scleredema Buschkego-1, scleredema dorosłych-1
+                VISITED 0 toczeń rumieniowaty układowy-1, toczeń rumieniowaty trzewny-1
+                VISITED 0 reumatoidalne zapalenie stawów-1, reumatyzm-1, gościec-1, RZS-1, gościec przewlekle postępujący-1
+              0 zatorowość płucna-1, zatorowość-1
+              5 retinopatia-1
+                VISITED 0 retinopatia Purtschera-1
+                0 retinopatia wcześniaków-1
+                0 retinopatia nadciśnieniowa-1
+                0 retinopatia cukrzycowa-1
+                VISITED 0 retinopatia barwnikowa-1
+              1 porfiria-1
+                VISITED 0 protoporfiria eryteopoetyczna-1
+              1 hiperkalcemia-1
+                VISITED 0 zespół Burnetta-1
+              54 choroba wieku-1
+                0 otępienie z ziarnami argentofilnymi-1
+                VISITED 0 zaćma starcza-1
+                VISITED 0 łuszczyca krostkowa dłoni i stóp-1
+                VISITED 1 łuszczyca odwrócona-1, łuszczyca wysiękowa-1
+                VISITED 3 pęcherzyca zwykła-1
+                0 choroba Parkinsona-1, parkinson-1, drżączka poraźna-1
+                41 choroba wieku dziecięcego-1
+                  0 porażenie mózgowe-1, mózgowe porażenie dziecięce-1
+                  VISITED 0 pląsawica Sydenhama-1, pląsawica mała-1
+                  0 guz Wilmsa-2, nerczak płodowy-1, nerczak zarodkowy-1, nerczak złośliwy-1
+                  VISITED 0 zespół Høyeraala-Hreiðarssona-1, zespół Høyeraala- Hreidarssona-1
+                  0 laryngomalacja-1, wrodzona wiotkość krtani-1
+                  VISITED 0 młodzieńcze idiopatyczne zapalenie stawów-1, młodzieńcze reumatoidalne zapalenie stawów-1, młodzieńcze przewlekłe zapalenie stawów-1, choroba Stilla-1
+                  VISITED 0 zespół Landaua-Kleffnera-1
+                  VISITED 0 łagodna padaczka częściowa z iglicami w okolicy centralnoskroniowej-1, padaczka rolandyczna-1, padaczka Rolanda-1
+                  VISITED 0 zespół Ohtahary-1, wczesnoniemowlęca encefalopatia padaczkowa-1
+                  VISITED 0 zespół Lennoxa-Gastauta-1
+                  VISITED 0 zespół Westa-1, napady zgięciowe-1
+                  VISITED 0 ziarnistość czerwona nosa-1
+                  VISITED 0 zespół Kasabacha-Merritt-1
+                  VISITED 0 łysienie wężykowate-1
+                  VISITED 0 łysienie u dzieci-1
+                  VISITED 0 ciemieniucha-1
+                  0 choroba Duhringa-1, opryszczkowate zapalenie skóry-1, choroba Dühringa-2
+                  VISITED 0 zespół Brandta-1, zespół Danbolta-Clossa-1
+                  VISITED 0 choroba Rittera-1, zespół Rittera-1, zespół Rittera-Lyella-1, gronkowcowe złuszczające zapalenie skóry-1, gronkowcowy zespół oparzeniowy skóry-1, zapalenie pęcherzowe i złuszczające skóry noworodków-1
+                  VISITED 0 trądzik niemowlęcy-1
+                  VISITED 0 botulizm dziecięcy-1
+                  VISITED 0 choroba Seitelbergera-1, dziecięca dystrofia neuroaksonalna-1
+                  VISITED 1 adrenoleukodystrofia-1, choroba Siemerlinga-Creutzfeldta-1
+                  VISITED 0 choroba Krabbego-1, leukodystrofia globoidalna-1
+                  0 ostre rozsiane zapalenie mózgu i rdzenia-1
+                  VISITED 0 zapalenie pępka-1
+                  VISITED 5 błonica-2
+                  VISITED 0 rumień zakaźny-1, choroba piąta-1
+                  VISITED 0 rumień nagły-1, gorączka trzydniowa-1, trzydniówka-1, choroba szósta-1
+                  VISITED 0 choroba Gianottiego-Crostiego-1
+                  VISITED 0 pęcherzyca-1, liszajec pęcherzowy noworodków-1
+                  VISITED 0 ognipiór-1, egzema dziecięca-1
+                  VISITED 0 ospa wietrzna-1, wiatrówka-2
+                  VISITED 0 krzywica-1, choroba angielska-1
+                  VISITED 0 szkarlatyna-1, płonica-1
+                0 stenoza-2
+                VISITED 0 choroba Alzheimera-1, alzheimer-1
+              0 nerka wędrująca-1, nerka ruchoma-1
+              12 choroba zawodowa-1
+                0 gorączka metaliczna-1, gorączka odlewników-1
+                0 choroba mikrofalowa-1, choroba telegrafistów-1
+                VISITED 0 rozedma płuc-1, rozedma-1
+                VISITED 7 pylica-1, pylica płuc-1
+                VISITED 0 ołowica-1, saturnizm-1
+              1 gestoza-1, zatrucie ciążowe-1
+                0 rzucawka porodowa-1, rzucawka-1, eklampsja-1
+              0 łykawość-1
+              297 wada-1
+                0 mitralna wada serca-1
+                0 plus ujemny-1
+                0 abrachia-1
+                1 całościowe zaburzenie rozwoju-1, CZR-1
+                  0 spektrum autystyczne-1
+                8 wada postawy-1
+                  0 koślawość-1
+                  5 skrzywienie kręgosłupa-1
+                    0 lordoza-1
+                    0 kifoza-1
+                    1 skolioza-1, boczne skrzywienie kręgosłupa-1
+                      0 kifoskolioza-1
+                    0 garb-2
+                  VISITED 0 płaskostopie-1, platfus-1
+                0 kręcz-1, kręcz szyi-1, kręcz karku-1
+                256 wada wrodzona-1, cecha dysmorficzna-1, dysmorfia-1, wada rozwojowa-1, zaburzenie rozwoju-1
+                  2 torbielowatość-1
+                    0 torbielowatość przewodów żółciowych-1, torbiele dróg żółciowych-1
+                    VISITED 0 wielotorbielowatość nerek-1, zwyrodnienie torbielowate nerek-1, torbielowatość nerek-1
+                  VISITED 9 hipotrofia-1, hipoplazja-2
+                  0 lumbalizacja-1
+                  0 trombastenia Glanzmanna-1
+                  VISITED 0 niescalony mięsień lewej komory-1
+                  0 włosy trójkątne i kanalikowate-1, zespół włosów niedających się uczesać-1
+                  0 zastawki cewki tylnej-1
+                  0 wytrzewienie-1
+                  0 wrodzone zwężenie przełyku-1
+                  0 wrodzone limfangiektazje płucne-1
+                  0 wdowi szpic-1
+                  0 trzustka obrączkowata-1
+                  0 torbiel dróg żółciowych-1
+                  0 torbiel skrzelopochodna-1, torbiel boczna szyi-1, torbiel branchiogenna-1
+                  0 torbiel przewodu tarczowo-językowego-1, torbiel środkowa szyi-1
+                  0 torbiel moczownika-1
+                  0 taurodontyzm-1
+                  0 śledziona wędrująca-1
+                  0 śledziona dodatkowa-1
+                  0 synophrys-1
+                  0 przetrwała tętnica trójdzielna-1
+                  0 przerostowe zwężenie odźwiernika-1
+                  0 przerost połowiczy-1, hemihiperplazja-1, hemihipertrofia-1
+                  0 połączenie śledzionowo-mosznowe-1
+                  0 plamki Brushfielda-1
+                  0 piebaldyzm-1
+                  0 niebieskie twardówki-1
+                  0 nerka gąbczasta-1, gąbczastość rdzenia nerki-1, choroba Cacchiego-Ricciego-1
+                  0 naczynia przodujące-1
+                  0 megaureter-1, moczowód olbrzymi-1
+                  0 małżowina puszkowa-1
+                  0 hiperdoncja-1, zwiększenie liczby zębów-1
+                  0 odpryskowiak-1, heterotopia-1
+                  0 hamartia-1
+                  2 ektopia-1
+                    0 ektopia serca-1
+                    VISITED 0 ektopia nerki-1
+                  0 dysplazja włóknisto-mięśniowa-1
+                  0 dwurzędność rzęs-1
+                  0 dolichostenomelia-1
+                  0 zespół szabli tureckiej-1, zespół bułata-1, częściowe nieprawidłowe przyłączenie żył płucnych-1
+                  0 błoniasty przyczep pępowiny-1
+                  0 anonychia-1
+                  0 akrania-1, bezczaszkowie-1
+                  0 ankyloglosja-1, krótkie wędzidełko języka-1
+                  0 afalia-1
+                  0 afakia-1
+                  0 adaktylia-1
+                  0 acalvaria-1
+                  1 dysgenezja gonad-1
+                    0 zespół Swyera-1
+                  0 skrytoocze-1
+                  0 trisomia chromosomu X-1, zespół XXX-1
+                  0 przetoki tętnic wieńcowych-1, malformacja tętniczo-żylna naczyń wieńcowych-1
+                  VISITED 0 głuchota wrodzona-1
+                  0 przerost łechtaczki-1, klitoromegalia-1, hipertrofia łechtaczki-1
+                  0 malrotacja jelit z wtórnym skrętem jelit-1, malrotacja jelit-1, niedokonany zwrot jelit-1
+                  VISITED 0 anomalia Ebsteina-1
+                  VISITED 0 całkowite nieprawidłowe przyłączenie żył płucnych-1
+                  VISITED 0 całkowite przełożenie wielkich pni tętniczych-1
+                  VISITED 0 atrezja zastawki trójdzielnej-1, zrośnięcie zastawki trójdzielnej-1
+                  VISITED 0 serce trójprzedsionkowe-1
+                  0 sakralizacja-2
+                  VISITED 13 ślepota barw-1, zaburzenie rozpoznawania barw-1
+                  VISITED 0 ubytek przegrody międzykomorowej-1
+                  0 dysmelia-1
+                  0 platyspondylia-1
+                  0 naczyniak limfatyczny torbielowaty-1
+                  0 plagiocefalia-1, skośnogłowie-1
+                  8 dysrafia-1
+                    0 zdwojenie rdzenia-1
+                    0 rozdwojenie rdzenia kręgowego-1
+                    0 jamistość rdzenia-1
+                    1 przepuklina oponowa-1
+                      0 przepuklina oponowo-rdzeniowa-1
+                    VISITED 0 rozszczep kręgosłupa-1, tarń dwudzielna-1
+                    VISITED 0 przepuklina mózgowa-1
+                    VISITED 0 bezmózgowie-1, anencefalia-1
+                  0 drobnozakrętowość-1
+                  0 anomalia Uhla-1, choroba Uhla-1
+                  0 zęby noworodkowe-1
+                  0 kraniosynostoza-1
+                  0 wierzchniactwo-1
+                  0 jamistość opuszki-1
+                  0 brachymezofalangia-1
+                  0 synpolidaktylia typu 1-1
+                  0 brachydaktylia-1, krótkopalczastość-1
+                  0 progenia-1
+                  0 cyklopia-1, jednoocze-1
+                  0 mastocytoza-1
+                  0 wrodzona łamliwość kości-1, samoistna łamliwość kości-1, kostnienie niezupełne-1
+                  0 ektrodaktylia-1, szczypce homara-1
+                  0 klatka piersiowa kurza-1
+                  0 klatka piersiowa lejkowata-1, klatka piersiowa szewska-1
+                  0 sirenomelia-1
+                  0 hemimelia-1
+                  0 amelia-1
+                  11 cecha dysmorficzna-2, wariant normy-1
+                    0 ucho Mozarta-1
+                    0 politelia-1, hyperthelia-1
+                    0 czapka frygijska-2, pęcherzyk w kształcie czapki frygijskiej-1
+                    0 kostki Worma-1, kostki szwów-1
+                    0 różnobarwność tęczówki-1, różnobarwność tęczówek-1
+                    0 plamy café au lait-1
+                    0 dodatkowy wir włosów-1
+                    0 kamptodaktylia-1
+                    0 klinodaktylia-1
+                    0 telekantus-1
+                    0 zmarszczka nakątna-1
+                  14 malformacja-1
+                    0 malformacja móżdżku-1
+                    0 malformacja Oekonomakisa-1
+                    VISITED 0 anodoncja-1, agenezja zębów-1
+                    VISITED 0 zespół Arnolda-Chiariego-1, malformacja Arnolda-Chiariego-1
+                    VISITED 5 malformacja macicy-1
+                    VISITED 0 aniridia-1
+                    VISITED 0 mikroftalmia-1, małoocze-1
+                    VISITED 0 anoftalmia-1, bezocze-1
+                    VISITED 0 bezmózgowie-1, anencefalia-1
+                  0 dysrupcja-1, przerwanie-9
+                  4 deformacja-3
+                    0 deformacja Madelunga-1, objaw Madelunga-1
+                    0 choroba Sprengla-1, deformacja Sprengla-1, wrodzone wysokie ustawienie łopatki-1
+                    0 płetwistość szyi-1, szyja płetwista-1, taśmy szyjne-1, skrzydlik szyjny-1
+                    0 stopa końsko-szpotawa-1
+                  0 dolichocefalia-2
+                  0 acefalia-1, bezgłowość-1
+                  0 mikropenis-1
+                  0 makrocefalia-1, wielkogłowie-1
+                  0 syndaktylia-1
+                  0 polidaktylia-1
+                  12 dysplazja-2
+                    0 włókniakowatość hialinowa młodzieńcza-1
+                    0 postępująca dysplazja pseudoreumatoidalna-1
+                    0 dysplazja kręgosłupowo-nasadowa-1
+                    0 dysplazja przegrodowo-oczna-1, zespół de Morsiera-1, zespół Hoyta-Kaplana-Grumbacha-1
+                    0 dysplazja czołowo-nosowa-1
+                    VISITED 0 dysplazja czaszkowo-trzonowa-1
+                    0 dysplazja Mondiniego-1
+                    0 dysplazja stawu biodrowego-1
+                    0 dysplazja włóknista kości-1
+                    0 dysplazja zębiny-1
+                    0 dysplazja przynasadowa McKusicka-1, zespół McKusicka-1
+                    VISITED 0 dysplazja nerek-1
+                  2 aplazja-1
+                    0 wrodzony brak nasieniowodów-1, wrodzona obustronna aplazja nasieniowodów-1
+                    0 aplazja kości promieniowej-1
+                  5 agenezja-1
+                    0 agenezja kości krzyżowej-1, hipoplazja kości krzyżowej-1
+                    0 fokomelia-1
+                    0 anodoncja-1, agenezja zębów-1
+                    VISITED 0 agenezja nerki-1, agenezja nerek-1
+                    VISITED 0 agenezja ciała modzelowatego-1
+                  7 *wada wrodzona układu moczowego-1
+                    0 wielotorbielowatość nerek-1, zwyrodnienie torbielowate nerek-1, torbielowatość nerek-1
+                    0 wodonercze-1
+                    0 ektopia nerki-1
+                    0 dysplazja nerek-1
+                    0 nerka dodatkowa-1, nerka nadliczbowa-1, trzecia nerka-1
+                    0 nerka podkowiasta-1, nerka płatowata-1, złączenie nerek-1
+                    0 agenezja nerki-1, agenezja nerek-1
+                  10 *wada wrodzona narządów płciowych-1
+                    0 atrezja pochwy-1
+                    0 anorchizm-1, anorchia-1
+                    0 spodziectwo-1
+                    5 malformacja macicy-1
+                      0 macica łukowata-1
+                      0 macica podzielona-1
+                      0 macica podwójna-1
+                      0 macica jednorożna-1
+                      0 macica dwurożna-1
+                    0 wnętrostwo-1, niezstąpienie jąder-1
+                  17 *wada wrodzona układu pokarmowego-1
+                    0 zdwojenie jelita cienkiego-1
+                    0 choroba Hirschsprunga-1
+                    VISITED 0 wrodzona przepuklina przeponowa-1
+                    0 uchyłek Meckela-1, uchyłek jelita krętego-1
+                    0 atrezja jelita grubego-1, zwężenie jelita grubego-1, zarośnięcie jelita grubego-1, wrodzony brak jelita grubego-1
+                    0 atrezja przełyku-1
+                    0 atrezja odbytu-1, malformacja odbytu i odbytnicy-1
+                    0 atrezja dwunastnicy-1, wrodzona niedrożność dwunastnicy-1, zwężenie dwunastnicy-1, zarośnięcie dwunastnicy-1, wrodzony brak dwunastnicy-1
+                    0 atrezja jelita cienkiego-1
+                    0 atrezja dróg żółciowych-1, niedrożność dróg żółciowych-1, zarośnięcie dróg żółciowych-1, zarośnięcie przewodów żółciowych-1
+                    0 przetoka tchawiczo-przełykowa-1
+                    0 makroglosja-1, język olbrzymi-1
+                    0 rozszczep języczka-1
+                    2 rozszczep podniebienia-1, wilcza paszcza-1
+                      0 rozszczep podniebienia twardego-1
+                      0 rozszczep podniebienia miękkiego-1
+                    0 rozszczep wargi-1, rozszczepienie wargi-1, zajęcza warga-1
+                  8 *wada wrodzona układu oddechowego-1
+                    0 sekwestracja płuca-1
+                    0 wrodzona przepuklina przeponowa-1
+                    VISITED 0 hipoplazja płuca-1
+                    0 arhinia-1, wrodzony brak nosa-1
+                    VISITED 0 hipoplazja krtani-1
+                    0 wrodzona gruczolakowatość torbielowata płuc-1, zwyrodnienie gruczołowe płuc-1
+                    0 tracheomalacja-1, wiotkość tchawicy-1, wrodzone rozmiękanie tchawicy-1
+                    0 atrezja nozdrzy tylnych-1, zarośnięcie nozdrzy tylnych-1, wrodzone zwężenie nozdrzy tylnych-1
+                  7 *wada wrodzona układu krążenia-1
+                    0 koarktacja aorty-1, zwężenie cieśni aorty-1
+                    0 przetrwały przewód tętniczy-1, otwarty przewód Botalla-1, drożny przewód Botalla-1
+                    0 pentalogia Fallota-1
+                    0 tetralogia Fallota-1, zespół Fallota-1
+                    0 wspólny kanał przedsionkowo-komorowy-1, ubytek poduszeczek wsierdzia-1, ubytek przegrodowo-komorowy-1
+                    0 wspólny pień tętniczy-1
+                    VISITED 0 zespół hipoplazji lewego serca-1
+                  31 *wada wrodzona oka, ucha, twarzy lub szyi-1
+                    0 hipoteloryzm-2
+                    0 guzki Lischa-1
+                    0 glejak nosa-1
+                    0 dioprosopus-1
+                    0 anomalia tarczy nerwu wzrokowego w kształcie kwiatu powoju-1
+                    0 przetrwała błona źrenicza-1
+                    0 przetrwałe hiperplastyczne pierwotne ciało szkliste-1
+                    0 mikrostomia-1
+                    0 mikrocja-1
+                    0 anocja-mikrocja-1, anocja-1
+                    VISITED 0 jaskra wrodzona-1
+                    0 aniridia-1
+                    VISITED 6 zaćma wrodzona-1
+                    0 mikroftalmia-1, małoocze-1
+                    0 anoftalmia-1, bezocze-1
+                    5 coloboma-1, koloboma-1
+                      0 rozszczep powieki-1, szczelina powieki-1, koloboma powieki-1
+                      0 rozszczep nerwu wzrokowego-1, szczelina nerwu wzrokowego-1, koloboma nerwu wzrokowego-1
+                      0 rozszczep soczewki-1, szczelina soczewki-1, koloboma soczewki-1
+                      0 rozszczep siatkówki-1, szczelina siatkówki-1, koloboma siatkówki-1
+                      0 rozszczep tęczówki-1, szczelina tęczówki-1, koloboma tęczówki-1
+                    0 wrodzone zwężenie szpary powiekowej-1
+                    0 entropion wrodzony-1, entropium wrodzone-1
+                    0 ektropion wrodzony-1, ektropium wrodzone-1
+                    0 ptoza wrodzona-1
+                  11 *wada wrodzona układu nerwowego-1
+                    0 bezzakrętowość-1, agyria-1
+                    0 holoprozencefalia-1, jednokomorowe przodomózgowie-1
+                    0 gładkomózgowie-1
+                    0 rozszczep kręgosłupa-1, tarń dwudzielna-1
+                    1 rozszczep czaszki-1
+                      0 rozszczep potylicy-1
+                    VISITED 0 hipoplazja ciała modzelowatego-1
+                    0 agenezja ciała modzelowatego-1
+                    0 wodogłowie wrodzone-1
+                    0 przepuklina mózgowa-1
+                    0 bezmózgowie-1, anencefalia-1
+                13 wada serca-1
+                  0 anomalia Ebsteina-1
+                  0 całkowite nieprawidłowe przyłączenie żył płucnych-1
+                  0 całkowite przełożenie wielkich pni tętniczych-1
+                  0 zwężenie zastawki aortalnej-1, stenoza zastawki aorty-1, zwężenie zastawki aorty-1, zwężenie lewego ujścia tętniczego-1
+                  0 atrezja zastawki trójdzielnej-1, zrośnięcie zastawki trójdzielnej-1
+                  0 serce trójprzedsionkowe-1
+                  0 ubytek przegrody międzykomorowej-1
+                  1 stenoza-1
+                    0 stenoza zastawki trójdzielnej-1, zwężenie zastawki trójdzielnej-1
+                  3 niedomykalność zastawek serca-1
+                    0 niedomykalność zastawki trójdzielnej-1
+                    0 niedomykalność zastawki aortalnej-1
+                    0 niedomykalność zastawki mitralnej-1
+                28 wada wzroku-1
+                  0 ambliopia-1, amblyopia-1, leniwe oko-1
+                  13 ślepota barw-1, zaburzenie rozpoznawania barw-1
+                    4 monochromatyzm-2, monochromacja-1
+                      0 achromatopsja-1, całkowita ślepota barwna-1
+                      2 agnozja wzrokowa-1, ślepota korowa-1
+                        0 prozopagnozja-1, agnozja twarzy-1
+                        0 agnozja wzrokowa jednoczesna-1
+                    3 trichromatyzm-1
+                      0 tritanomalia-1
+                      0 deuteranomalia-1
+                      0 protanomalia-1
+                    3 dichromatyzm-1
+                      0 tritanopia-1
+                      0 protanopia-1
+                      VISITED 0 daltonizm-1, deuteranopia-1
+                  0 diplopia-1
+                  0 starczowzroczność-1, prezbyopia-1, presbiopia-1
+                  5 ametropia-1, niemiarowość-2
+                    2 niemiarowość sferyczna-1
+                      0 dalekowzroczność-2, nadwzroczność-1, hipermetropia-1, dalekowidztwo-1
+                      0 krótkowzroczność-1, krótki wzrok-1, miopia-1, krótkowidztwo-1
+                    1 niemiarowość niesferyczna-1
+                      0 astygmatyzm-1, niezborność-1
+                  0 niedowidzenie-2
+                  0 kurza ślepota-1, ślepota zmierzchowa-1
+                  2 zez-1, zezowatość-1
+                    0 zez rozbieżny-1
+                    0 zez zbieżny-1
+                11 niedorozwój-1
+                  9 hipotrofia-1, hipoplazja-2
+                    0 hipoplazja zatok szczękowych-1
+                    0 hipoplazja móżdżku-1
+                    0 hipotrofia wewnątrzmaciczna-1, hipoplazja wewnątrzmaciczna-1, wewnątrzmaciczne zahamowanie wzrostu-1, IUGR-1
+                    0 zespół hipoplazji lewego serca-1
+                    0 mikrognacja-1, mikrognatyzm-1, hipoplazja żuchwy-1
+                    0 hipoplazja płuca-1
+                    0 hipoplazja krtani-1
+                    0 hipoplazja ciała modzelowatego-1
+                    0 małogłowie-1, mikrocefalia-1
+                  0 retardacja-1
+              2 stulejka-1
+                0 stulejka częściowa-1
+                0 stulejka całkowita-1
+              0 tężyczka-1
+              2 obojnactwo-1, hermafrodytyzm-1, androgynia-6, androginia-5
+                0 obojnactwo rzekome żeńskie-1, gynardia-1
+                0 androgynia-1, androginia-3, obojnactwo rzekome męskie-1
+              0 cieśń nadgarstka-1
+              0 ziarniniak kwasochłonny-1, ziarniniak eozynofilowy-1, histiocytoza płucna X-1, płucna postać histiocytozy z komórek Langerhansa-1
+              6 rozstrzeń-1
+                0 rozstrzeń komory serca-1
+                0 rozstrzeń pęcherza-1
+                0 rozstrzeń płuc-1
+                0 rozstrzeń żołądka-1
+                0 rozstrzeń oskrzeli-1
+                0 rozstrzeń serca-1
+              192 zespół chorobowy-1, zespół-3
+                0 przewlekła obturacyjna choroba płuc-1
+                0 zespół żółtych paznokci-1
+                0 fibromialgia-1
+                VISITED 1 zespół Lyncha-1
+                0 złośliwy zespół neuroleptyczny-1
+                0 zespół Zollingera-Ellisona-1, zespół Strøma-Zollingera-Ellison-1
+                0 zespół Waterhouse'a-Friderichsena-1
+                0 zespół Sheehana-1, poporodowa martwica przysadki-1
+                0 zespół Pendreda-1
+                VISITED 0 zespół Zimmermanna-Labanda-1
+                VISITED 0 zespół Wolframa-1, zespół DIDMOAD-1
+                VISITED 0 zespół WHIM-1
+                VISITED 0 zespół Werdniga-Hoffmanna-1
+                VISITED 0 zespół Sjögrena-Larssona-1, zespół Ruda-1
+                VISITED 0 zespół Shwachmana-Diamonda-1, wrodzona lipomatoza trzustki-1
+                VISITED 0 zespół płodnego eunucha-1, zespół Pasqualiniego-1
+                VISITED 0 zespół oporności na hormony tarczycy-1, zespół Refetoffa-1
+                VISITED 0 zespół Mohra-Tranebjaerga-1
+                VISITED 0 zespół Loeysa-Dietza-1
+                VISITED 0 zespół Liddle'a-1
+                VISITED 0 zespół Li-Fraumeni-1
+                VISITED 0 zespół Imerslund-Gräsbecka-1
+                VISITED 0 zespół ICF-1
+                VISITED 0 zespół Hioba-1
+                VISITED 0 zespół Hermanskiego i Pudlaka-1, zespół Hermanskiego-Pudlaka-1
+                0 zespół hemolityczno-mocznicowy-1
+                VISITED 0 zespół Harboyana-1
+                VISITED 0 zespół Criglera-Najjara-1
+                0 zespół chylomikronemii-1
+                0 zespół Barakata-1
+                VISITED 0 neuroakantocytoza-1, zespół Levine'a-Critchleya-1
+                0 zespół Morgagniego-Stewarta-Morela-1
+                VISITED 0 zespół Chediaka-Higashiego-1
+                0 zespół hipereozynofilowy-1
+                VISITED 0 klątwa Ondyny-1, zespół wrodzonej ośrodkowej hipowentylacji-1, pierwotna hipowentylacja pęcherzykowa-1
+                0 cerebellopatia alkoholowa-1, alkoholowy zanik móżdżku-1
+                VISITED 0 zespół Verloesa-Depreza-1
+                0 zespół Høyeraala-Hreiðarssona-1, zespół Høyeraala- Hreidarssona-1
+                0 zespół Fazio-Londe-1, choroba Fazio-Londe-1, opuszkowa wrodzona neuropatia typu 2-1
+                VISITED 0 zespół Carolego-1, choroba Carolego-1
+                0 zespół zmiażdżenia-1, zespół Bywatersa-1
+                0 zespół Burnetta-1
+                0 zespół Brunsa-1, napady Brunsa-1
+                VISITED 0 zespół Brugadów-1, choroba Brugadów-1
+                0 zespół Browna-Séquarda-1, zespół poprzecznego uszkodzenia połowy rdzenia-1
+                0 zespół Eisenmengera-1, naczyniowa choroba płuc-1
+                VISITED 0 zespół Kallmanna-1
+                0 zespół Da Costy-1
+                VISITED 0 zespół Ehlersa-Danlosa-1
+                VISITED 0 zespół Smitha-Lemliego-Opitza-1
+                VISITED 0 zespół Cockayne'a-1, zespół Neill-Dingwall-1
+                0 zespół Boerhaavego-1
+                VISITED 0 zespół Bernarda-Souliera-1
+                0 guz Pancoasta-1, zespół Pancoasta-1
+                0 zespół Hornera-1
+                VISITED 0 zespół Blaua-1, zespół Jabsa-1
+                0 zespół Blanda-White'a-Garlanda-1
+                VISITED 0 zespół Bjørnstada-1
+                0 zespół Binga-Neela-1
+                0 zespół Arnolda-Chiariego-1, malformacja Arnolda-Chiariego-1
+                VISITED 0 abetalipoproteinemia-1, zespół Bassena-Kornzweiga-1
+                0 zespół Schwartza-Barttera-1, zespół niewłaściwego uwalniania wazopresyny-1
+                0 zespół Barttera-1
+                0 zespół Fanconiego-1
+                VISITED 0 zespół Seipa-Berardinelliego-1, wrodzona lipodystrofia Seipa-Beradinelliego-1
+                0 zespół lipodystrofii HIV-1
+                0 zespół Barraquera-Simonsa-1
+                0 zespół Barlowa-1, wypadanie płatka zastawki mitralnej-1
+                VISITED 0 zespół Bannayana-Rileya-Ruvalcaby-1, zespół Bannayana-Zonany-1, zespół Rileya-Smitha-1, zespół Ruvalcaby-Myhrego-Smitha-1
+                0 zespół Goodpasture'a-1, choroba Goodpasture'a-1
+                0 zespół Tietzego-1
+                0 zespół kanału łokciowego-1
+                0 zespół kanału Guyona-1, zespół kanału nadgarstka nerwu łokciowego-1
+                0 zespół cieśni nadgarstka-1
+                0 artrogrypoza-1, wrodzona sztywność stawów-1
+                0 zespół nakładania-1
+                0 zespół algodystroficzny-1, kompleksowy zespół bólu regionalnego-1, zespół Sudecka-1, zespół odruchowej dystrofii współczulnej-1, zespół ramię-ręka-1, kauzalgia-1
+                0 zespół Takayasu-1, choroba Takayasu-1, zapalenie tętnic Takayasu-1, choroba bez tętna-1, zespół łuku aorty-1
+                0 zespół antyfosfolipidowy-1, zespół Hughesa-1, zespół antykardiolipinowy-1
+                0 toczeń neuropsychiatryczny-1
+                0 mieszana choroba tkanki łącznej-1, zespół Sharpa-1, mieszana kolagenoza-1
+                0 zespół Sjögrena-1, choroba Mikulicza-Radeckiego-1
+                11 pniowy zespół naprzemienny-1
+                  0 zespół Jacksona-1
+                  0 zespół Verneta-1
+                  0 zespół Tapii-1
+                  0 zespół Avellisa-1
+                  0 zespół Wallenberga-1, zespół boczny opuszki-1
+                  0 zespół Foville'a-1
+                  0 zespół Millarda-Gublera-1, zespół Gublera-1, zespół nerwów odwodzącego i twarzowego-1, porażenie połowicze naprzemienne dolne-1
+                  0 zespół Nothnagela-1
+                  0 zespół Webera-1, zespół konarowy śródmózgowia-1
+                  0 zespół Benedikta-1, zespół jądra czerwiennego-1
+                  0 zespół Babińskiego-Nageotte'a-1
+                0 dystrofia tłuszczowo-płciowa-1, zespół tłuszczowo-płciowy-1, zespół Babińskiego-Fröhlicha-1
+                0 zespół Ashermana-1
+                0 zespół Antona-1, zespół Antona-Babińskiego-1
+                VISITED 0 zespół Angelmana-1
+                0 zespół krótkiego QT-1
+                3 zespół długiego QT-1
+                  VISITED 0 zespół Jervella i Lang-Nielsena-1
+                  VISITED 0 zespół Romano-Warda-1, zespół Romano i Warda-1
+                  VISITED 0 zespół Andersen-Tawila-1
+                0 zespół Felty'ego-1
+                0 zespół Budda-Chiariego-1, zakrzepica żył wątrobowych-1
+                VISITED 0 zespół Alströma-1
+                VISITED 0 zespół Alpersa-1, choroba Alpersa-1, choroba Alpersa-Huttenlochera-1
+                VISITED 0 zespół Allgrove'a-1, zespół AAA-1
+                VISITED 0 zespół Albrighta-1, rzekoma niedoczynność przytarczyc-1
+                VISITED 0 zespół Morquio-1
+                VISITED 0 zespół Klinefeltera-1
+                VISITED 0 zespół Hurler-1, mukopolisacharydoza typu I-1, MPS I-1, choroba maszkaronów-1, maszkaronizm-1, gargoilizm-1
+                0 zespół Landaua-Kleffnera-1
+                VISITED 0 zespół Ohtahary-1, wczesnoniemowlęca encefalopatia padaczkowa-1
+                VISITED 0 zespół Lennoxa-Gastauta-1
+                VISITED 0 zespół Westa-1, napady zgięciowe-1
+                VISITED 1 pierwotna dyskineza rzęsek-1, zespół nieruchomych rzęsek-1
+                0 choroba wysokościowa-1, choroba d'Acosty-1, choroba górska-1
+                0 zespół nefrytyczny-1
+                1 zespół nerczycowy-1, zespół nefrotyczny-1
+                  VISITED 0 wrodzony zespół nerczycowy typu fińskiego-1
+                VISITED 0 zespół paznokieć-rzepka-1, onychoosteodysplazja-1, zespół Turnera-Kiesera-1, choroba Fonga-1
+                VISITED 0 zespół Alporta-1
+                VISITED 0 autoimmunologiczny zespół niedoczynności wielogruczołowej typu 1-1, zespół APECED-1, zespół Whitakera-1
+                VISITED 0 zespół nabłoniaków znamionowych-1, zespół Gorlina-1, zespół Gorlina-Goltza-1
+                VISITED 0 zespół Birt-Hogg-Dubé-1
+                VISITED 0 zespół Omenna-1, chondrodysplazja z limfopenią-1, chondrodysplazja z eozynofilią-1
+                0 triada Carneya-1
+                1 zespół Cushinga-1
+                  0 choroba Cushinga-1
+                0 rozrost mikroguzkowy nadnerczy-1, pierwotny pigmentowany rozrost drobnoguzkowy nadnerczy-1, dysplazja kory nadnerczy-1, zespół Carneya-1, rozrost mikroguzkowy kory nadnerczy-1
+                0 zespół Sweeta-1
+                0 zespół Parry'ego-Romberga-1
+                VISITED 0 zespół Nethertona-1
+                VISITED 0 zespół Laugiera-Hunzikera-1
+                VISITED 0 zespół larwy skórnej wędrującej-1
+                0 zespół Hurieza-1
+                0 zespół Haima-Munka-1
+                0 zespół gumiastych pęcherzyków znamionowych-1, zespół Beana-1
+                0 zespół Cronkhite'a-Canady-1
+                0 zespół Buschkego-Ollendorf-1
+                VISITED 0 zespół Rothmanna-Makaia-1
+                0 rumień nekrotyczny wędrujący-1, zespół glukagonoma-1
+                0 zespół Peutza-Jeghersa-1
+                0 zespół Kasabacha-Merritt-1
+                VISITED 0 zespół Schimmelpenninga-Feuersteina-Mimsa-1
+                VISITED 0 nietrzymanie barwnika-1, zespół Blocha-Sulzbergera-1
+                VISITED 0 zespół ataksja-teleangiektazja-1, zespół AT-1, zespół Bodera-Sedgwicka-1, zespół Louis-Bar-1
+                0 choroba Kawasaki-2, choroba Kawasakiego-2, zespół Kawasakiego-1, skórno-śluzówkowy zespół węzłów chłonnych-1
+                0 zespół Brandta-1, zespół Danbolta-Clossa-1
+                2 rumień wielopostaciowy-1
+                  0 zespół Stevensena-Johnsona-1
+                  0 toksyczna nekroliza naskórka-1, zespół Lyella-1
+                VISITED 0 zespół Sézary'ego-1
+                VISITED 0 choroba Rittera-1, zespół Rittera-1, zespół Rittera-Lyella-1, gronkowcowe złuszczające zapalenie skóry-1, gronkowcowy zespół oparzeniowy skóry-1, zapalenie pęcherzowe i złuszczające skóry noworodków-1
+                VISITED 0 trądzik chlorowy-1
+                0 eozynofilowe ziarniniakowe zapalenie naczyń-1, zespół Churga-Strauss-1, alergiczne ziarniniakowe zapalenie naczyń-1
+                0 zespół Guillaina-Barrégo-1
+                0 zespół Devica-1, choroba Devica-1, zapalenie rdzenia i nerwów wzrokowych-1
+                VISITED 0 zespół Marfana-1
+                VISITED 0 zespół Crouzona-1, dyzostoza czaszkowo-twarzowa-1
+                VISITED 0 zespół Blooma-1
+                0 encefalopatia wątrobowa-1
+                1 encefalopatia Wernickego-1, encefalopatia alkoholowa-1
+                  0 mielinoliza środkowa mostu-1, zespół Adamsa-Victora-Mancalla-1, centralna mielinoliza mostu-1
+                VISITED 0 zespół Gerstmanna-Sträusslera-Scheinkera-1
+                0 zespół niespokojnych nóg-1, zespół Wittmaacka-Ekboma-1, choroba Ekboma-1
+                VISITED 0 masowe ginięcie pszczół-1, zespół masowego ginięcia pszczoły miodnej-1
+                0 SIRS-1, zespół ogólnoustrojowej reakcji zapalnej-1
+                0 reaktywne zapalenie stawów-1, zespół Reitera-1
+                VISITED 0 zespół różyczki wrodzonej-1, zespół Gregga-1, wrodzony zespół różyczkowy-1
+                0 narkolepsja-1
+                0 zespół Kearnsa-Sayre'a-1
+                0 zespół Kleinego-Levina-1
+                0 zespół Trottera-1, triada Trottera-1, zespół zatoki Morgagniego-1
+                0 zespół zaburzeń oddychania noworodka-1, zespół błon szklistych-1
+                0 akatyzja-1
+                1 zespół Hoffmana-1
+                  0 zespół Kochera-Debrégo-Semelaigne'a-1
+                0 zespół nagłej zmiany strefy czasowej-1
+                1 zespół poreperfuzyjny-1
+                  0 zespół porewaskularyzacyjny-1, zespół rewaskularyzacji-1
+                0 zespół napięcia przedmiesiączkowego-1
+                0 zespół bezdechu śródsennego-1
+                0 parkinsonizm-1
+                1 choroba niedokrwienna serca-1, dusznica bolesna-1, choroba wieńcowa-1, dławica piersiowa-1, wieńcówka-1, niewydolność wieńcowa-1, stenokardia-2
+                  0 angina Prinzmetala-1, dławica Prinzmetala-1, dławica odmienna-1, naczynioskurczowa dławica piersiowa-1
+                VISITED 0 AIDS-1, zespół nabytego niedoboru odporności-1, zespół nabytego upośledzenia odporności-1, SIDA-1
+                VISITED 1 pokrzywka-1
+              12 nefropatia-1
+                7 glomerulopatia-1
+                  VISITED 0 wrodzony zespół nerczycowy typu fińskiego-1
+                  VISITED 0 zespół Alporta-1
+                  0 glomerulopatia lipoproteinowa-1
+                  0 nefropatia cienkich błon podstawnych-1, choroba cienkich błon podstawnych-1, łagodna hematuria rodzinna-1
+                  0 nefropatia C1q-1
+                  0 nefropatia toczniowa-1
+                  0 nefropatia IgA-1, choroba Bergera-1
+                0 nefropatia bałkańska-1
+                0 nefropatia kontrastowa-1
+                0 nefropatia analgetyczna-1
+                0 nefropatia cukrzycowa-1, zespół Kimmelstiela-Wilsona-1, cukrzycowa choroba nerek-1
+              0 łamliwość kości-1
+              0 kołtun-2, plika-1, gwoździec-1
+              0 hemoliza-1
+              79 *choroba roślin-1, choroba roślinna-1
+                VISITED 0 askochytoza-1
+                0 padź-1
+                VISITED 0 kędzierzawka-1
+                0 białaczka-2
+                0 zgorzel liści sercowych i sucha zgnilizna korzeni buraka-1
+                0 uszkodzenia herbicydowe-1
+                0 sucha wierzchołkowa zgnilizna owoców pomidora-1
+                0 dzieciuchowatość bulw ziemniaka-1
+                0 choroba nowin zbóż-1
+                VISITED 0 żółta plamistość liści kukurydzy-1, helmintosporioza-1
+                VISITED 2 zgorzel siewek-1
+                VISITED 0 zgnilizna twardzikowa-1
+                VISITED 0 zasychanie wierzchołków pędów sosny-1, zasychanie wierzchołków pędów-1
+                VISITED 0 zaraza ziemniaka-1, fitoftoroza-1
+                VISITED 0 kustrzebka koniczyny i lucerny-1, zaraza kustrzebkowa koniczyn-1
+                VISITED 0 zamieranie pędów sosny-1
+                VISITED 0 śnieć indyjska-1
+                VISITED 0 srebrzystość liści-1
+                VISITED 0 smołowata plamistość klonu-1, czarna plamistość liści klonu-1
+                VISITED 0 skrętak sosny-1, rdza sosnoskrętna-1
+                VISITED 0 rynchosporioza zbóż-1
+                VISITED 0 rdza zbożowa-1
+                VISITED 0 rdza wejmutkowo-porzeczkowa-1, obwar wejmutkowo-porzeczkowy-1, rdza pęcherzykowata sosny wejmutki-1, rdza kory wejmutki-1
+                VISITED 2 rak roślin-1, rak-10
+                VISITED 0 szara pleśń-1
+                VISITED 0 osutka sosen-1
+                VISITED 0 łamliwość źdźbła zbóż-1
+                VISITED 0 holenderska choroba wiązu-1, naczyniowa choroba wiązu-1, grafioza wiązu-1
+                VISITED 0 gorzka zgnilizna wiśni-1
+                VISITED 0 głownia pyłkowa pszenicy-1
+                VISITED 0 głownia pyląca owsa-1
+                VISITED 0 głownia pyląca kukurydzy-1
+                VISITED 0 głownia kukurydzy-1, głownia guzowata kukurydzy-1
+                VISITED 0 cylindrosporioza roślin krzyżowych-1
+                VISITED 0 monilioza-1, brunatna zgnilizna drzew pestkowych-1
+                VISITED 0 askochytoza bobiku-1
+                VISITED 0 szarka-1
+                1 mozaika-4
+                  VISITED 0 mozaika tytoniowa-1
+                VISITED 0 żółtaczka buraka-1
+                VISITED 0 żółta karłowatość jęczmienia-1
+                VISITED 0 wąskolistność łubinu-1
+                VISITED 0 smugowatość ziemniaka-1
+                VISITED 0 pstrość tulipana-1, pstrość kwiatów tulipana-1
+                0 struposz-1
+                0 śnieć-2
+                VISITED 6 mączniak-2
+                VISITED 1 antraknoza-1
+                VISITED 8 bakterioza-1
+                VISITED 0 chwościk buraka-1, chwościk burakowy-1
+                VISITED 0 fuzarioza-1
+                VISITED 0 kiła kapusty-1, przepuklina kapusty-1, kiła kapuściana-1
+                VISITED 0 rdza kory sosny-1, obwar-1, obar-1, osmół-1, rdza pęcherzykowa-1, suchoczub-1
+                0 plamistość-2
+                0 bielik-2, biała rdza-1
+                0 barwica-1, sinizna drewna-1, sinizna-1, barwica drewna-1
+                VISITED 3 parch-1
+              14 pica-1, łaknienie spaczone-1
+                0 mukofagia-1
+                0 hialofagia-1
+                0 ksylofagia-2
+                0 trichofagia-1
+                0 autokanibalizm-1
+                0 hematofagia-1
+                0 geofagia-1
+                0 geomelofagia-1
+                0 emitofagia-1
+                0 koprofagia-1
+                0 koniofagia-1
+                0 kautopireiofagia-1
+                0 amylofagia-1
+                0 aerofagia-1, łykawica-1
+              0 hipotermia-1, przechłodzenie-3
+              0 maskulinizacja-1, wirylizacja-1
+              0 feminizacja-3
+              0 zgorzel-2
+              0 zakrzepica-1
+              0 choroba popromienna-1, choroba promienna-1
+              91 choroba pasożytnicza-1, parazytoza-1
+                0 filarioza-1
+                0 ślepota rzeczna-1, onchocerkoza-1
+                5 trypanosomoza-1, trypanosomiaza-1
+                  0 trypanosomatoza-1, śpiączka afrykańska-1, trypanosomatoza afrykańska-1
+                  VISITED 0 surra-1
+                  VISITED 0 zaraza stadnicza-1, syfilis koński-1
+                  VISITED 0 choroba Chagasa-1, trypanosomoza amerykańska-1
+                  VISITED 0 nagana-2
+                0 prototekoza-1
+                VISITED 0 cheyletielloza-1
+                0 zespół larwy skórnej wędrującej-1
+                VISITED 0 demodeciodoza-1, demodekoza-2
+                VISITED 0 hypodermoza-1
+                VISITED 0 chilodonelloza-1
+                VISITED 0 dikrocelioza-1
+                VISITED 0 kostioza-1, ichtiobodoza-1
+                0 akantocefaloza-1
+                0 gnatostomoza-1
+                0 neglerioza-1
+                0 metagonimoza-1
+                VISITED 0 wszołowica-1, malofagoza-1
+                VISITED 0 toksokaroza-1
+                0 trichurioza-1, włosogłówczyca-1
+                VISITED 0 ergasilosa-1
+                0 opistorchoza-1
+                0 klonorchoza-1
+                0 drakunkuloza-1
+                0 giardioza-1
+                VISITED 4 teilerioza-1
+                0 ankylostomatoza-1, ancylostomoza-1, ancylostomioza-1, ancylostamatoza-1
+                VISITED 0 filikoloza-1
+                0 difylobotrioza-1
+                0 heterophyoza-1
+                0 fasciolopsoza-1, fasciolopsioza-1
+                0 akantameboza-1
+                VISITED 0 lerneoza-1
+                VISITED 0 tracheliostoza-1
+                VISITED 0 arguloza-1, splewkowica-1
+                VISITED 0 sarkocystoza-1, sarkosporydioza-1
+                0 anisakioza-1
+                0 węgorczyca-1, strongyloidoza-1
+                0 cyklosporoza-1
+                VISITED 0 ichtioftirioza-1, ospa rybia-1, choroba białych kropek-1, kulorzęsek-1
+                VISITED 0 choroba aksamitna-1, oodinioza-1, choroba welwetowa-1, choroba złotego piasku-1, choroba rdzy-1
+                5 babeszjoza-1
+                  VISITED 0 babezjoza-1, babeszjoza-2
+                  VISITED 0 babeszjoza owiec-1
+                  VISITED 0 babeszjoza psów-1, piroplazmoza-1
+                  VISITED 0 hemoglobinuria europejska-1
+                  VISITED 0 gorączka teksaska-1
+                0 kryptosporydioza-1
+                0 balantidioza-1, balantydioza-1, balantydiaza-1
+                VISITED 0 pieprzyca-2, pebryna-1
+                0 wągrzyca-1, cysticerkoza-1
+                1 schistosomatoza-1, bilharcjoza-1
+                  0 gorączka Katayama-1
+                VISITED 3 kokcydioza-1
+                0 glistnica-1, askarydoza-1, askarioza-1
+                0 muszyca-1, larwa wędrująca-1
+                0 motylica-2, choroba motylicza-1, fascjoloza-1
+                VISITED 0 kołowacizna-1, kręciek-1, cenuroza-1
+                0 wszawica-1
+                0 włośnica-2, trychinoza-1, trichinelloza-1
+                0 tasiemczyca-1, cestodoza-1, tenioza-2
+                1 świerzb-1
+                  0 świerzb norweski-1
+                3 rzęsistkowica-1, trychomonadoza-1
+                  VISITED 0 rzęsistkowica świń-1, trychomonadoza świń-1
+                  VISITED 0 rzęsistkowica bydła-1, zaraza rzęsistkowa bydła-1, trychomonadoza bydła-1
+                  VISITED 0 trychomonadoza gołębi-1, rzęsistkowica gołębi-1, żółty guzek-1
+                VISITED 0 robaczyca-1
+                0 owsica-2, enterobioza-1
+                VISITED 0 nużyca-1, demodekoza-1
+                3 leiszmanioza-1, lejszmanioza-1
+                  0 leiszmanioza skórno-śluzówkowa-1, pendynka-1
+                  0 leiszmanioza skórna-1, biały trąd-1
+                  0 leiszmanioza trzewna-1, czarna febra-1, gorączka dum-dum-1
+                0 lamblioza-1
+                0 ameboza-1, pełzakowica-1
+                VISITED 0 toksoplazmoza-1
+                VISITED 0 bąblowica-1, echinokokoza-1, hydatidoza-1, choroba wodunkowa-1
+                2 malaria-1, zimnica-2
+                  0 czwartaczka-1
+                  0 trzeciaczka-1
+              48 choroba odzwierzęca-1, zoonoza-1, antropozoonoza-1
+                VISITED 2 erlichioza-1, ehrlichioza-1
+                VISITED 0 choroba Chagasa-1, trypanosomoza amerykańska-1
+                VISITED 0 sarkocystoza-1, sarkosporydioza-1
+                0 babezjoza-1, babeszjoza-2
+                VISITED 0 holenderska choroba wiązu-1, naczyniowa choroba wiązu-1, grafioza wiązu-1
+                VISITED 0 jersinioza-1
+                VISITED 0 gorączka okopowa-1, gorączka pięciodniowa-1, gorączka bolesnych goleni-1, choroba bolesnych goleni-1, gorączka wołyńska-1, gorączka Mozy-1, choroba Hisa-Wernera-1, miejska gorączka okopowa-1
+                VISITED 3 gorączka od ugryzienia szczura-1, gorączka szczurza-1
+                VISITED 0 choroba kociego pazura-1, gorączka kociego pazura-1
+                VISITED 0 choroba skokowa owiec-1, enzootyczne zapalenie mózgu-1, kleszczowe zapalenie mózgu-1
+                VISITED 0 świńska grypa-1, grypa świń-1
+                VISITED 0 gorączka Q-1
+                VISITED 0 boliwijska gorączka krwotoczna-1, BHF-1
+                VISITED 0 gorączka Lassa-2
+                VISITED 15 gorączka krwotoczna-1
+                VISITED 0 leptospiroza-1, krętkowica-1
+                VISITED 0 ospa małpia-1
+                VISITED 0 różyca-1, erysipeloid-1
+                VISITED 0 wąglik-1, antraks-1
+                VISITED 0 toksoplazmoza-1
+                VISITED 0 ornitoza-1, papuzica-1
+                VISITED 0 bruceloza-1, gorączka maltańska-1, choroba Banga-1, gorączka falująca-1, gorączka kozia-1, gorączka skalna-1, gorączka gibraltarska-1, gorączka Rio Grande-1
+                VISITED 0 borelioza-1, choroba z Lyme-1, krętkowica kleszczowa-1
+                VISITED 0 bąblowica-1, echinokokoza-1, hydatidoza-1, choroba wodunkowa-1
+                VISITED 2 dur plamisty-1, tyfus plamisty-1, dur osutkowy-1, tyfus osutkowy-1
+                VISITED 0 pryszczyca-1, afoza-1, FMD-1, zaraza pyska i racic-1
+                VISITED 0 dżuma-1
+                VISITED 0 wścieklizna-1, wodowstręt-1, hydrofobia-1
+              1 choroba lokomocyjna-1, kinetoza-1
+                0 choroba morska-1
+              0 choroba dekompresyjna-1, choroba kesonowa-1
+              136 dermatoza-2
+                VISITED 0 cheyletielloza-1
+                0 szponowatość paznokci-1, onychogryfoza-1
+                0 onychogrypoza-1
+                0 hapalonychia-1
+                0 ziarnistość czerwona nosa-1
+                0 zespół Nethertona-1
+                0 zespół Laugiera-Hunzikera-1
+                0 zanik plamisty skóry-1
+                0 skóra wiotka-1
+                0 choroba Buschkego-1, scleredema-1, scleredema Buschkego-1, scleredema dorosłych-1
+                0 rumień stwardniały-1, gruźlica stwardniała-1
+                VISITED 0 ropnie mnogie pach-1, choroba Velpeaua-1, choroba Verneuila-1
+                0 rogowiec dłoni i stóp-1
+                0 rogowiak kolczystokomórkowy-1
+                0 rogowacenie mieszkowe-1
+                0 potówki-1
+                VISITED 0 toczeń rumieniowaty krążkowy-1
+                0 przyłuszczyca ostra-1, PLEVA-1, choroba Habermanna-Muchy-1
+                0 piodermia zgorzelinowa-1, zgorzelinowe zapalenie skóry-1
+                4 *nowotwór złośliwy skóry-1
+                  0 rak neuroendokrynny skóry-1, rak z komórek Merkla-1
+                  0 rak kolczystokomórkowy skóry-1
+                  0 rak podstawnokomórkowy skóry-1
+                  0 czerniak złośliwy-1, czerniak-1, melanoma-1
+                16 łysienie-2
+                  0 łysienie u dzieci-1
+                  0 łysienie rozlane-1
+                  0 łysienie pospolite-1
+                  1 łysienie telogenowe-1
+                    0 łysienie poporodowe-1
+                  2 łysienie plackowate-1
+                    0 łysienie wężykowate-1
+                    0 łysienie plackowate rzekome-1
+                  0 łysienie neurotyczne-1
+                  VISITED 0 łysienie dziedziczne-1
+                  0 łysienie dynamiczne-1
+                  0 łysienie dyfuzyjne-1
+                  0 łysienie całkowite-1
+                  0 łysienie bliznowaciejące-1
+                  0 łysienie androgenowe-1, łysienie typu męskiego-1, łysienie męskie-1
+                  0 łysienie anagenowe-1
+                0 siność siatkowata-1
+                0 liszaj twardzinowy i zanikowy sromu-1, marskość sromu-1, liszaj biały-1, choroba Csillaga-1, choroba Hallopeau-1, marskość żołędzi-1
+                VISITED 9 genodermatoza-1
+                0 fotodermatoza-1
+                0 ciemieniucha-1
+                0 choroba Foxa-Fordyce'a-1
+                1 choroba Bowena-1
+                  0 erytroplazja Queyrata-1, choroba Bowena żołędzi prącia-1
+                1 pemfigoid-1
+                  0 pemfigoid ciężarnych-1
+                0 zespół Sézary'ego-1
+                VISITED 0 choroba Rittera-1, zespół Rittera-1, zespół Rittera-Lyella-1, gronkowcowe złuszczające zapalenie skóry-1, gronkowcowy zespół oparzeniowy skóry-1, zapalenie pęcherzowe i złuszczające skóry noworodków-1
+                VISITED 0 atopowe zapalenie skóry-1, AZS-1, wyprysk atopowy-1, egzemia-1, świerzbiączka-1, świerzbiączka Besniera-1, wyprysk alergiczny-1, alergiczne zapalenie skóry-1
+                0 demodeciodoza-1, demodekoza-2
+                VISITED 0 hypodermoza-1
+                VISITED 0 piedra czarna-1
+                VISITED 0 grzybica paznokci-1
+                VISITED 0 grzybica czarna-1
+                VISITED 0 grzybica brody-1
+                VISITED 0 łupież pstry-1
+                VISITED 2 grzybica skóry głowy-1
+                VISITED 0 chitridiomykoza-1
+                VISITED 0 łupież rumieniowy-1
+                VISITED 0 choroba guzowata skóry-1, choroba guzowatej skóry bydła-1
+                VISITED 0 zanokcica opryszczkowa-1
+                VISITED 0 łupież różowy Giberta-1
+                VISITED 0 choroba Hecka-1
+                VISITED 0 choroba Gianottiego-Crostiego-1
+                VISITED 0 mięczak zakaźny-1
+                VISITED 0 kłykciny kończyste-1, brodawki weneryczne-1, brodawki płciowe-1
+                VISITED 0 cellulitis-2, zapalenie tkanki łącznej-1
+                8 pęcherzyca-2, dermatoza pęcherzowa akantolityczna-1
+                  0 pęcherzyca paraneoplastyczna-1
+                  2 pęcherzyca liściasta-1
+                    0 pęcherzyca łojotokowa-1
+                    0 pęcherzyca rumieniowata-1
+                  3 pęcherzyca zwykła-1
+                    0 pęcherzyca brazylijska-1, pęcherzyca endemiczna-1
+                    0 pęcherzyca opryszczkowata-1
+                    0 pęcherzyca bujająca-1
+                0 ognipiór-1, egzema dziecięca-1
+                0 keloid-1, bliznowiec-1
+                7 włókniak-1
+                  0 włókniak młodzieńczy nosogardła-1, naczyniowłókniak młodzieńczy-1
+                  0 włókniak twardy-1
+                  4 włókniak miękki-1
+                    0 tłuszczak-1
+                    2 brodawczak-1
+                      0 brodawczak odwrócony-1, brodawczak odwrócony jam nosa i zatok przynosowych-1, brodawczak Schneidera-1
+                      0 brodawczak splotu naczyniówkowego-1
+                VISITED 0 bielactwo nabyte-1
+                0 kaszak-1
+                0 liszaj płaski-1, liszaj czerwony-1
+                VISITED 0 róża-3
+                VISITED 11 łuszczyca-1
+                VISITED 1 liszajec-1, liszajec zakaźny-1
+                VISITED 0 nużyca-1, demodekoza-1
+                VISITED 0 łupież-1
+                4 wyprysk-1, egzema-1
+                  0 wyprysk kontaktowy-1
+                  0 wyprysk kontaktowy niealergiczny-1
+                  0 wyprysk kontaktowy alergiczny-1, kontaktowe zapalenie skóry-1
+                  0 potnica-1, wyprysk potnicowy-1, wyprysk dyshydrotyczny-1
+                0 czyrak-1, furunkuł-1
+                VISITED 4 trądzik-1
+                VISITED 0 trąd-1, lepra-1, choroba Hansena-1
+                1 pokrzywka-1
+                  0 pokrzywka dermograficzna-1, dermografizm-1
+              254 choroba wrodzona-1
+                VISITED 0 anemia sierpowata-1, niedokrwistość sierpowata-1, niedokrwistość sierpowatokrwinkowa-1
+                0 atrofia mikrokosmków-1, choroba Davidsona-1
+                0 ciliopatia-1
+                247 choroba genetyczna-1
+                  0 akatalazja-1
+                  0 zespół Shwachmana-Diamonda-2
+                  0 zespół Beckwitha-Wiedemanna-1
+                  0 zespół Isaacsa-Mertensa-1
+                  VISITED 0 zespół Dravet-1
+                  VISITED 0 zespół Doose'a-1
+                  0 zespół Lescha-Nyhana-1
+                  1 zespół Lyncha-1
+                    0 zespół Muira-Torre'a-1
+                  0 acyduria mewalonianowa-1, kwasica mewalonianowa-1
+                  0 acyduria glutarowa typu II-1
+                  0 acyduria glutarowa typu I-2
+                  0 zespół Weisenbachera-Zweymüllera-2
+                  0 zespół Ushera-1
+                  0 zespół Rotora-1
+                  0 zespół niebieskich pieluszek-1
+                  0 zespół Nezelofa-1
+                  0 zespół nagich limfocytów-1
+                  0 zespół Behra-1
+                  0 zespół Dubina-Johnsona-1
+                  0 choroba syropu klonowego-1
+                  0 hipertrichoza-1, syndrom wilkołaczy-1, syndrom wilkołaka-1
+                  0 cystynuria-1
+                  VISITED 0 gruczolakowatość wewnątrzwydzielnicza-1, mnoga gruczolakowatość wewnątrzwydzielnicza-1
+                  VISITED 0 zespół Zimmermanna-Labanda-1
+                  0 zespół Wolframa-1, zespół DIDMOAD-1
+                  0 zespół WHIM-1
+                  0 zespół szarych płytek-1
+                  0 zespół Sjögrena-Larssona-1, zespół Ruda-1
+                  0 zespół Shwachmana-Diamonda-1, wrodzona lipomatoza trzustki-1
+                  0 zespół SCID-1, ciężki złożony niedobór odporności-1
+                  0 zespół Rabsona-Mendenhalla-1
+                  0 zespół płodnego eunucha-1, zespół Pasqualiniego-1
+                  0 zespół oporności na hormony tarczycy-1, zespół Refetoffa-1
+                  VISITED 0 zespół Mohra-Tranebjaerga-1
+                  VISITED 0 zespół Loeysa-Dietza-1
+                  0 zespół Liddle'a-1
+                  0 zespół Li-Fraumeni-1
+                  0 zespół Imerslund-Gräsbecka-1
+                  0 zespół ICF-1
+                  0 zespół Hioba-1
+                  0 zespół Hermanskiego i Pudlaka-1, zespół Hermanskiego-Pudlaka-1
+                  0 zespół Harboyana-1
+                  0 zespół dystonia-parkinsonizm-1, sprzężona z chromosomem X dystonia torsyjna typu 3-1
+                  0 zespół Criglera-Najjara-1
+                  0 zespół Brunnera-1
+                  0 wrodzony niedobór białka C-1
+                  VISITED 0 wrodzona ślepota Lebera-1
+                  0 choroba von Willebranda-1
+                  0 wielokształtny częstoskurcz komorowy zależny od katecholamin-1
+                  0 uogólnione zwapnienie ścian tętnic niemowląt-1
+                  0 trichotiodystrofia-1, zespół Taya-1
+                  VISITED 0 sitosterolemia-1, fitosterolemia-1
+                  1 rodzinna polipowatość gruczolakowata-1
+                    0 zespół Turcota-1
+                  VISITED 0 rodzinna amyloidoza typu fińskiego-1, amyloidoza typu V-1, amyloidoza typu Meretoji-1
+                  VISITED 1 rdzeniowy zanik mięśni-1
+                  0 pozorny nadmiar mineralokortykoidów-1
+                  VISITED 0 pląsawica Huntingtona-1, choroba Huntingtona-1
+                  VISITED 0 osteopoikilia-1
+                  0 zespół Chrousosa-1, oporność na glikokortykosteroidy-1, oporność na kortyzol-1
+                  0 niedobór tetrahydrobiopteryny-1, złośliwa hiperfenyloalaninemia-1
+                  0 niedobór syntazy metioninowej-1, niedobór metylotransferazy homocysteinowej-1, zespół Arakawy II-1
+                  0 niedobór syntazy 6-pirogronianotetrahydropteryny-1
+                  0 niedobór mieloperoksydazy-1
+                  0 niedobór kofaktora molibdenowego-1
+                  VISITED 0 niedobór izomerazy fosfotriozowej-1
+                  VISITED 0 fawizm-1, niedobór dehydrogenazy glukozo-6-fosforanowej-1
+                  0 niedobór 5-alfa-reduktazy-1
+                  0 niedobór alfa1-antytrypsyny-1
+                  0 niedobór LCHAD-1, niedobór dehydrogenazy 3-hydroksyacylo-koenzymu A długołańcuchowych kwasów tłuszczowych-1
+                  VISITED 0 neuroakantocytoza-1, zespół Levine'a-Critchleya-1
+                  0 nefronoftyza-1
+                  0 mnogie kostniakochrzęstniaki-1
+                  0 miopatia rdzennych Amerykanów-1
+                  0 miopatia Nonaki-1
+                  0 limfangioleiomiomatoza-1, naczyniakowatość limfatyczna-1
+                  0 leukoencefalopatia Kri-1, leukoencefalopatia z zanikającą istotą białą-1
+                  0 ksantynuria-1, niedobór oksydazy ksantynowej-1
+                  0 hipobetalipoproteinemia-1
+                  VISITED 0 retinopatia Purtschera-1
+                  0 hiperkaliemiczne porażenie okresowe-1, choroba Gamstorp-1
+                  0 hiperekpleksja-1
+                  VISITED 0 hipercholesterolemia rodzinna-1
+                  0 hemoglobinopatia-1
+                  0 gorączka okresowa związana z hipergammaglobulinemią D-1
+                  0 zespół Gilberta-1
+                  VISITED 0 choroba Segawy-1, dystonia z dobrą odpowiedzią na L-dopę-1
+                  0 dystonia torsyjna typu 1-1, dystonia mięśniowa deformacyjna-1, dystonia Oppenheima-1
+                  0 drżenie samoistne-1, choroba Minora-1
+                  VISITED 0 choroba Unverrichta-Lundborga-1, padaczka miokloniczna Unverrichta-Lundborga-1
+                  VISITED 0 choroba Thomsena-1, miotonia wrodzona Thomsena-1
+                  VISITED 0 choroba tangierska-2, choroba wyspy Tangier-1, rodzinny niedobór HDL-1
+                  0 choroba Stargardta-1, dno żółto-plamiste-1
+                  VISITED 0 choroba Oguchiego-1
+                  0 choroba oczu Wysp Alandzkich-1, albinizm oczny typu Forsiusa-Erikssona-1
+                  VISITED 0 choroba Nasu-Hakoli-1, otępienie przedstarcze z torbielami kostnymi-1, wielotorbielowata tłuszczowo-błoniasta osteodysplazja ze stwardniającą leukoencefalopatią-1
+                  0 choroba Leva-1, choroba Lenegre'a-1, zespół Lenegre'a-Leva-1
+                  0 choroba Fahra-1, zespół Fahra-1, idiopatyczne zwapnienia jąder podstawy-1
+                  VISITED 0 choroba Dowlinga-Degosa-1, choroba Dowlinga-Degosa-Kitamury-1
+                  VISITED 0 choroba De Vivo-1
+                  0 choroba Caffeya-1, hiperostoza korowa noworodków-1
+                  0 CADASIL-1, mózgowa autosomalna dominująca arteriopatia z podkorowymi zawałami i leukoencefalopatią-1
+                  VISITED 0 dystrofia Emery’ego-Dreifussa-1
+                  VISITED 0 choroba Friedreicha-1, ataksja Friedreicha-1, FRDA1-1, bezład Friedreicha-1
+                  0 ataksja rdzeniowo-móżdżkowa-1
+                  VISITED 0 kardiomiopatia przerostowa-1, kardiomiopatia zaporowa-1, idiopatyczne przerostowe zwężenie podaortalne-1
+                  VISITED 0 arytmogenna kardiomiopatia prawej komory-1, arytmogenna dysplazja prawej komory-1
+                  0 anomalia Pelgera-Hueta-1
+                  0 anomalia Maya-Hegglina-1
+                  VISITED 0 analbuminemia-1
+                  VISITED 0 acyduria orotowa-1, orotoacyduria-1
+                  0 klątwa Ondyny-1, zespół wrodzonej ośrodkowej hipowentylacji-1, pierwotna hipowentylacja pęcherzykowa-1
+                  0 zespół Verloesa-Depreza-1
+                  0 letalna chondrodysplazja Blomstranda-1
+                  0 dysplazja czaszkowo-trzonowa-1
+                  0 choroba van Buchema-1
+                  VISITED 0 cherubinkowość-1, cherubizm-1
+                  0 zespół obrzęk limfatyczny-podwójny rząd rzęs-1
+                  VISITED 0 leprechaunizm-1, zespół Donohue-1, krasnoludkowatość-1
+                  0 wrodzone zgrubienie paznokci-1
+                  0 mnoga gruczolakowatość wewnątrzwydzielnicza typu 2-1, zespół gruczolakowatości wewnątrzwydzielniczej typu 2-1
+                  0 zespół Proteusza-1, zespół Wiedemanna-1
+                  0 zespół McCune'a-Albrighta-1
+                  VISITED 0 pyknodysostoza-1
+                  0 hipofosfatazja-1
+                  VISITED 0 hipochondroplazja-1
+                  VISITED 0 niedokrwistość Fanconiego-1
+                  0 zespół ATR-X-1, zespół alfa talasemia-opóźnienie umysłowe o dziedziczeniu sprzężonym z chromosomem X-1
+                  0 zespół Schwartza-Jampela-1
+                  0 dystrofia miotoniczna-1, DM-2, miotonia zanikowa-1, choroba Curschmanna-Steinerta-1
+                  1 choroba Menkesa-1, choroba kręconych włosów-1, zespół Menkesa-1
+                    0 zespół rogu potylicznego-1
+                  0 zespół łamliwego chromosomu X-1, zespół kruchego chromosomu X-1, zespół Martina-Belli-1
+                  VISITED 0 zespół Brugadów-1, choroba Brugadów-1
+                  0 zespół Kallmanna-1
+                  0 analgezja wrodzona-1
+                  0 zespół Ehlersa-Danlosa-1
+                  VISITED 0 zespół Smitha-Lemliego-Opitza-1
+                  VISITED 0 zespół Cockayne'a-1, zespół Neill-Dingwall-1
+                  VISITED 0 dysplazja diastroficzna-1
+                  VISITED 0 zespół Bernarda-Souliera-1
+                  VISITED 0 niedokrwistość Blackfana-Diamonda-1
+                  VISITED 0 zespół Blaua-1, zespół Jabsa-1
+                  0 choroba Duchenne'a-1, dystrofia mięśniowa Duchenne'a/Beckera-1
+                  VISITED 0 abetalipoproteinemia-1, zespół Bassena-Kornzweiga-1
+                  VISITED 0 galaktozemia-1
+                  VISITED 0 zespół Seipa-Berardinelliego-1, wrodzona lipodystrofia Seipa-Beradinelliego-1
+                  0 zespół Bannayana-Rileya-Ruvalcaby-1, zespół Bannayana-Zonany-1, zespół Rileya-Smitha-1, zespół Ruvalcaby-Myhrego-Smitha-1
+                  0 rodzinna gorączka śródziemnomorska-1
+                  0 postępujące kostniejące zapalenie mięśni-1, fibrodysplazja-1, postępujące skostnienia mięśni-1, choroba Münchmeyera-1, postępujące kostnienie mięśni-1
+                  0 zespół Angelmana-1
+                  VISITED 0 zespół Andersen-Tawila-1
+                  VISITED 0 choroba Wilsona-1, zwyrodnienie soczewkowo-wątrobowe-1
+                  0 zespół Alströma-1
+                  0 zespół Alpersa-1, choroba Alpersa-1, choroba Alpersa-Huttenlochera-1
+                  0 zespół Allgrove'a-1, zespół AAA-1
+                  0 choroba Alexandra-1
+                  0 zespół Albrighta-1, rzekoma niedoczynność przytarczyc-1
+                  0 choroba Albersa-Schönberga-1, osteopetroza-1, choroba marmurowych kości-1, marmurkowatość kości-1
+                  0 zespół Klinefeltera-1
+                  VISITED 26 lizosomalna choroba spichrzeniowa-1
+                  VISITED 0 padaczka miokloniczna Lafory-1, choroba ciał Lafory-1
+                  1 pierwotna dyskineza rzęsek-1, zespół nieruchomych rzęsek-1
+                    0 zespół Kartagenera-1
+                  0 wrodzony zespół nerczycowy typu fińskiego-1
+                  0 zespół paznokieć-rzepka-1, onychoosteodysplazja-1, zespół Turnera-Kiesera-1, choroba Fonga-1
+                  0 zespół Alporta-1
+                  0 choroba Naxos-1
+                  0 autoimmunologiczny zespół niedoczynności wielogruczołowej typu 1-1, zespół APECED-1, zespół Whitakera-1
+                  0 zespół nabłoniaków znamionowych-1, zespół Gorlina-1, zespół Gorlina-Goltza-1
+                  0 zespół Birt-Hogg-Dubé-1
+                  VISITED 0 cukrzyca typu MODY-1
+                  0 zespół Omenna-1, chondrodysplazja z limfopenią-1, chondrodysplazja z eozynofilią-1
+                  VISITED 0 choroba Kennedy'ego-1, opuszkowo-rdzeniowy zanik mięśni-1
+                  VISITED 0 łysienie dziedziczne-1
+                  0 nietrzymanie barwnika-1, zespół Blocha-Sulzbergera-1
+                  0 zespół ataksja-teleangiektazja-1, zespół AT-1, zespół Bodera-Sedgwicka-1, zespół Louis-Bar-1
+                  10 fakomatoza-1, schorzenie nerwowo-skórne-1, dysplazja neuroektomezodermalna-1
+                    0 melanoza nerwowoskórna-1
+                    0 zespół Schimmelpenninga-Feuersteina-Mimsa-1
+                    0 hipomelanoza Ito-1
+                    0 choroba von Hippla-Lindaua-1, zespół von Hippla-Lindaua-1, naczyniakowatość siatkówkowo-móżdżkowa-1
+                    0 zespół Sturge'a-Webera-1, zespół Sturge'a-Kalischera-Webera-1, naczyniakowatość twarzowo-mózgowa-1
+                    0 stwardnienie guzowate-1, choroba Bourneville'a-Pringle'a-1, epiloia-1
+                    2 nerwiakowłókniakowatość-1, neurofibromatoza-1
+                      0 nerwiakowłókniakowatość typu 2-1, zespół MISME-1
+                      0 nerwiakowłókniakowatość typu 1-1, neurofibromatoza typu 1-1, choroba von Recklinghausena-1, zespół Recklinghausena-1
+                    0 choroba Rendu-Oslera-Webera-1, wrodzona naczyniakowatość krwotoczna-1
+                  9 genodermatoza-1
+                    0 skóra pergaminowa-1, skóra pergaminowata-barwnikowa-1, skóra pergaminowata i barwnikowa-1
+                    0 rybia łuska jeżasta-1
+                    0 endemiczny symetryczny rogowiec dłoni i stóp-1
+                    0 pęcherzowe oddzielanie się naskórka-1
+                    VISITED 0 dysplazja Lewandowsky'ego-Lutza-1
+                    0 choroba Haileya-Haileya-1
+                    0 choroba Dariera-1, choroba Dariera-White'a-1
+                    1 rybia łuska-1, ichtioza-1
+                      0 płód arlekin-1, rybia łuska arlekinowa-1
+                  5 dziedziczne neuropatie czuciowe i autonomiczne-1
+                    0 wrodzona obojętność na ból z anhydrozą-1
+                    3 choroba Charcota-Mariego-Tootha-1, dziedziczne neuropatie ruchowo-czuciowe-1
+                      0 choroba Charcota-Mariego-Tootha typu 1B-1
+                      0 choroba Charcota-Mariego-Tootha typu 1A-1, strzałkowy zanik mięśni-1
+                      0 choroba Charcota-Mariego-Tootha typu 1C-1
+                  0 choroba Seitelbergera-1, dziecięca dystrofia neuroaksonalna-1
+                  1 adrenoleukodystrofia-1, choroba Siemerlinga-Creutzfeldta-1
+                    0 adrenomieloneuropatia-1
+                  3 leukodystrofia-1
+                    VISITED 0 choroba Pelizaeusa-Merzbachera-1
+                    VISITED 0 choroba Canavan-1, zwyrodnienie gąbczaste układu nerwowego-1, leukodystrofia gąbczasta-1, choroba Canavan-van Bogaerta-Bertranda-1
+                    0 choroba Krabbego-1, leukodystrofia globoidalna-1
+                  VISITED 0 dysplazja obojczykowo-czaszkowa-1
+                  0 zespół Marfana-1
+                  VISITED 0 zespół Crouzona-1, dyzostoza czaszkowo-twarzowa-1
+                  0 zespół Blooma-1
+                  0 hemocystynuria-1
+                  VISITED 1 achondroplazja-1, chondrodystrofia-1, chondrodysplazja-1
+                  0 mukowiscydoza-1, zwłóknienie torbielowate-1
+                VISITED 0 kiła wrodzona-1
+                VISITED 0 zespół różyczki wrodzonej-1, zespół Gregga-1, wrodzony zespół różyczkowy-1
+                VISITED 0 fenyloketonuria-1, oligofrenia fenylopirogronowa-1
+              8 powikłanie-2
+                0 zwłóknienie klatki piersiowej-1
+                0 martwak-1
+                0 retinopatia Purtschera-1
+                0 małowodzie-1
+                0 ostre stłuszczenie wątroby ciężarnych-1
+                0 erytrodyzestezja dłoniowo-podeszwowa-1, zespół dłoniowo-podeszwowy-1, zespół ręka-stopa-1
+                0 ropień okołomigdałkowy-1
+                0 podostre stwardniające zapalenie mózgu-1
+              6 niewydolność-2
+                0 ostra niewydolność nerek-1
+                0 niewydolność oddechowa-1
+                1 niewydolność wątroby-1
+                  0 ostra niewydolność wątroby-1
+                0 niewydolność krążenia-1
+                0 niedodma-1, niedodma płuc-1
+              10 niesprawność-2, niedołęstwo-1, niewydolność-1, niedołężność-1
+                0 zgrzybiałość-1, starczość-1
+                8 niepełnosprawność-1, handicap-2
+                  7 kalectwo-1, inwalidztwo-1, ułomność-2
+                    0 głuchoślepota-1, głuchociemnota-1
+                    0 głuchoniemota-1
+                    0 ślepota-1
+                    1 niemota-1
+                      0 mutyzm-1
+                    1 głuchota-1, utrata słuchu-1
+                      0 głuchota wrodzona-1
+              137 *choroba zwierząt-1
+                0 czerniawka spadziowa-1
+                0 norzyca-1, ropowica kłębu-1, kret-3
+                0 cheyletielloza-1
+                VISITED 0 erytrodermatoza-1, zakaźne zapalenie skóry-1, wrzodowa choroba skóry-1
+                0 lizawość-1
+                VISITED 0 KHV-1
+                VISITED 0 obrzęk gazowy-1
+                0 tężyczka pastwiskowa-1
+                VISITED 0 choroba białego nosa-1
+                VISITED 0 przewlekła choroba wyniszczająca-1
+                VISITED 0 gąbczasta encefalopatia bydła-1, BSE-1, choroba szalonych krów-1, choroba wściekłych krów-1
+                VISITED 0 choroba kłusowa-1, trzęsawka-1, kołowacizna-2
+                VISITED 0 choroba Bollingera-1, choroba bydła i dziczyzny-1
+                VISITED 0 choroba Aujeszkyego-1, choroba Aujeszkiego-1, wścieklizna rzekoma-1, choroba Aujeszkego-1, choroba Aujeskiego-1
+                0 hypodermoza-1
+                VISITED 0 zołzy-2
+                VISITED 0 sarkoidoza-1
+                VISITED 0 dychawica świszcząca-1
+                0 chilodonelloza-1
+                VISITED 0 saprolegnioza-1, biały grzyb-1, pleśniawka-3
+                VISITED 0 posocznica-2, puchlina wodna-1
+                0 dikrocelioza-1
+                0 kostioza-1, ichtiobodoza-1
+                0 wszołowica-1, malofagoza-1
+                0 toksokaroza-1
+                0 ergasilosa-1
+                0 rzęsistkowica świń-1, trychomonadoza świń-1
+                0 rzęsistkowica bydła-1, zaraza rzęsistkowa bydła-1, trychomonadoza bydła-1
+                4 teilerioza-1
+                  0 gorączka wschodniego wybrzeża Afryki-1
+                  0 rzekoma teilerioza-1
+                  0 tropikalna teilerioza bydła-1
+                  0 teilerioza owiec-1
+                0 surra-1
+                0 zaraza stadnicza-1, syfilis koński-1
+                0 filikoloza-1
+                0 trychomonadoza gołębi-1, rzęsistkowica gołębi-1, żółty guzek-1
+                0 choroba Chagasa-1, trypanosomoza amerykańska-1
+                0 lerneoza-1
+                0 tracheliostoza-1
+                0 arguloza-1, splewkowica-1
+                0 sarkocystoza-1, sarkosporydioza-1
+                0 choroba gazowa-1
+                0 ichtioftirioza-1, ospa rybia-1, choroba białych kropek-1, kulorzęsek-1
+                0 choroba kwasowa-1
+                0 choroba zasadowa-1, choroba alkaliczna-1, alkaloza-2
+                0 choroba aksamitna-1, oodinioza-1, choroba welwetowa-1, choroba złotego piasku-1, choroba rdzy-1
+                0 babeszjoza owiec-1
+                0 babeszjoza psów-1, piroplazmoza-1
+                0 hemoglobinuria europejska-1
+                0 nagana-2
+                0 gorączka teksaska-1
+                0 masowe ginięcie pszczół-1, zespół masowego ginięcia pszczoły miodnej-1
+                VISITED 0 lipcówka-1, mucha-3, letni wyprysk-1, letnia egzema-1
+                VISITED 0 chitridiomykoza-1
+                VISITED 0 alleszerioza-1
+                VISITED 0 martwica płetw-1
+                VISITED 0 pomór węgorzy-1, posocznica węgorzy-1
+                VISITED 0 choroba mokrego ogona-1, choroba mokrego tułowia-1, mokry chomik-1
+                VISITED 0 choroba bawełniana-1, fleksibakterioza-1, flexibakterioza-1
+                VISITED 0 choroba Tyzzera-1
+                VISITED 0 gruźlica zwierząt-1
+                VISITED 0 promienica-2, aktynomikoza-1
+                VISITED 0 nokardioza ryb-1
+                VISITED 0 mykobakterioza ryb-1, gruźlica ryb-1
+                VISITED 0 listerioza-1, listereloza-1
+                VISITED 2 zgnilec-1, kiślica-1
+                0 morzysko-1, kolka-3
+                VISITED 0 afrykański pomór świń-1, ASF-1
+                VISITED 0 afrykański pomór koni-1, AHS-1
+                0 zakaźne zapalenie otrzewnej kotów-1, ZZOK-1
+                VISITED 0 panleukopenia kotów-1, nosówka kotów-1, zakaźne zapalenie jelit kotów-1, tyfus koci-1, agranulocytoza-2
+                VISITED 0 parwowiroza psów-1
+                VISITED 0 niedokrwistość zakaźna koni-1
+                VISITED 0 otręt bydła-1, grudkowe zakaźne zapalenie sromu i pochwy bydła-1
+                VISITED 0 zakaźne zapalenie żołądka i jelit świń-1
+                VISITED 0 ospa karpi-1
+                VISITED 0 ospa krów-1
+                VISITED 0 niesztowica-1, ektyma-1, zakaźne krostowe zapalenie skóry-1
+                VISITED 0 myksomatoza-1
+                VISITED 0 choroba pęcherzykowa świń-1
+                VISITED 0 brodawczyca koni-1
+                VISITED 0 choroba guzowata skóry-1, choroba guzowatej skóry bydła-1
+                VISITED 0 wirusowa martwica nerwów-1
+                VISITED 0 głowica-4, złośliwa gorączka nieżytowa bydła-1, BMCF-1
+                VISITED 0 choroba weselbronska-1
+                VISITED 0 choroba graniczna-1
+                VISITED 0 choroba Rubartha-1
+                VISITED 0 wirusowa biegunka bydła i choroba błon śluzowych-1, BVD/MD-1
+                VISITED 0 wirusowa krwotoczna choroba królików-1, RHD-1, krwotoczna choroba królików-1, chiński pomór królików-1
+                VISITED 0 wirusowe zapalenie tętnic koni-1, EVA-1
+                VISITED 0 wirus ze Schmallenbergu-1
+                VISITED 0 owczy gruczolakorak płuc-1
+                VISITED 0 choroba skokowa owiec-1, enzootyczne zapalenie mózgu-1, kleszczowe zapalenie mózgu-1
+                VISITED 0 świńska grypa-1, grypa świń-1
+                VISITED 0 gorączka Q-1
+                VISITED 0 pęcherzykowe zapalenie jamy ustnej-1
+                VISITED 0 szelestnica-1
+                VISITED 0 białaczka kotów-1
+                VISITED 0 krwotoczna choroba zwierzyny płowej-1
+                VISITED 0 choroba niebieskiego języka-1, pryszczyca rzekoma-1
+                VISITED 0 choroba Mareka-1
+                0 czerniaczka-1, melanoza-1
+                VISITED 0 tularemia-1
+                VISITED 0 gruda-3
+                VISITED 0 krowianka-1
+                VISITED 0 plamica-1
+                VISITED 0 ospa małpia-1
+                3 kokcydioza-1
+                  0 kokcydioza królików-1
+                  0 kokcydioza owiec i kóz-1
+                  0 kokcydioza bydła-1
+                0 tężyczka-2
+                0 obrzęk złośliwy-1
+                0 zanokcica-1
+                0 szpat-1
+                VISITED 0 różyca-1, erysipeloid-1
+                0 pypeć-2
+                VISITED 0 pomór-1, klasyczny pomór świń-1
+                VISITED 0 nosówka-1
+                1 nosacizna-1
+                  0 tylczak-1
+                0 kulawka-1
+                VISITED 0 księgosusz-1, pomór bydła-1
+                0 kołowacizna-1, kręciek-1, cenuroza-1
+                0 robaczyca-1
+                0 nużyca-1, demodekoza-1
+                VISITED 0 wąglik-1, antraks-1
+                VISITED 0 ptasia grypa-1, influenza ptaków-1
+                VISITED 0 bruceloza-1, gorączka maltańska-1, choroba Banga-1, gorączka falująca-1, gorączka kozia-1, gorączka skalna-1, gorączka gibraltarska-1, gorączka Rio Grande-1
+                VISITED 0 borelioza-1, choroba z Lyme-1, krętkowica kleszczowa-1
+                0 bąblowica-1, echinokokoza-1, hydatidoza-1, choroba wodunkowa-1
+                0 ochwat-1
+                VISITED 0 pryszczyca-1, afoza-1, FMD-1, zaraza pyska i racic-1
+                VISITED 0 wścieklizna-1, wodowstręt-1, hydrofobia-1
+              109 choroba dziedziczna-1
+                0 gruczolakowatość wewnątrzwydzielnicza-1, mnoga gruczolakowatość wewnątrzwydzielnicza-1
+                0 zespół Zimmermanna-Labanda-1
+                0 zespół Mohra-Tranebjaerga-1
+                0 zespół Loeysa-Dietza-1
+                0 zespół Gardnera-1
+                0 wrodzona ślepota Lebera-1
+                0 sitosterolemia-1, fitosterolemia-1
+                VISITED 0 rodzinna amyloidoza typu fińskiego-1, amyloidoza typu V-1, amyloidoza typu Meretoji-1
+                1 rdzeniowy zanik mięśni-1
+                  0 zespół Werdniga-Hoffmanna-1
+                0 protoporfiria eryteopoetyczna-1
+                0 polipowatość młodzieńcza-1
+                VISITED 0 pląsawica Huntingtona-1, choroba Huntingtona-1
+                0 osteopoikilia-1
+                0 fawizm-1, niedobór dehydrogenazy glukozo-6-fosforanowej-1
+                0 neuroakantocytoza-1, zespół Levine'a-Critchleya-1
+                0 hipoalfalipoproteinemia-1
+                0 retinopatia barwnikowa-1
+                0 okresowy paraliż hipokaliemiczny-1, hipokaliemiczne porażenie okresowe-1
+                0 hipercholesterolemia rodzinna-1
+                0 choroba Segawy-1, dystonia z dobrą odpowiedzią na L-dopę-1
+                0 choroba Unverrichta-Lundborga-1, padaczka miokloniczna Unverrichta-Lundborga-1
+                0 choroba Thomsena-1, miotonia wrodzona Thomsena-1
+                0 choroba tangierska-2, choroba wyspy Tangier-1, rodzinny niedobór HDL-1
+                0 choroba Refsuma-1
+                0 choroba Oguchiego-1
+                0 choroba Nasu-Hakoli-1, otępienie przedstarcze z torbielami kostnymi-1, wielotorbielowata tłuszczowo-błoniasta osteodysplazja ze stwardniającą leukoencefalopatią-1
+                0 zespół Kostmanna-1, choroba Kostmanna-1
+                0 choroba Dowlinga-Degosa-1, choroba Dowlinga-Degosa-Kitamury-1
+                0 choroba De Vivo-1
+                VISITED 0 choroba central core-1
+                0 zespół Chediaka-Higashiego-1
+                2 dystrofia mięśniowa-1, zanik mięśni-1
+                  0 wrodzona dystrofia mięśniowa Fukuyamy-1
+                  0 dystrofia Emery’ego-Dreifussa-1
+                0 choroba Friedreicha-1, ataksja Friedreicha-1, FRDA1-1, bezład Friedreicha-1
+                0 analbuminemia-1
+                0 acyduria orotowa-1, orotoacyduria-1
+                0 cherubinkowość-1, cherubizm-1
+                0 leprechaunizm-1, zespół Donohue-1, krasnoludkowatość-1
+                0 pyknodysostoza-1
+                0 hipochondroplazja-1
+                0 zespół skrzelowo-uszno-nerkowy-1, zespół BOR-1
+                0 zespół Carolego-1, choroba Carolego-1
+                0 zespół Brugadów-1, choroba Brugadów-1
+                0 zespół Smitha-Lemliego-Opitza-1
+                0 zespół Cockayne'a-1, zespół Neill-Dingwall-1
+                0 dysplazja diastroficzna-1
+                0 zespół Bernarda-Souliera-1
+                VISITED 0 niedokrwistość Blackfana-Diamonda-1
+                0 zespół Blaua-1, zespół Jabsa-1
+                0 zespół Bjørnstada-1
+                0 abetalipoproteinemia-1, zespół Bassena-Kornzweiga-1
+                0 galaktozemia-1
+                0 zespół Seipa-Berardinelliego-1, wrodzona lipodystrofia Seipa-Beradinelliego-1
+                0 elastopatia-1
+                0 zespół Jervella i Lang-Nielsena-1
+                0 zespół Romano-Warda-1, zespół Romano i Warda-1
+                0 zespół Andersen-Tawila-1
+                0 choroba Wilsona-1, zwyrodnienie soczewkowo-wątrobowe-1
+                2 mukopolisacharydoza-1
+                  0 zespół Morquio-1
+                  0 zespół Hurler-1, mukopolisacharydoza typu I-1, MPS I-1, choroba maszkaronów-1, maszkaronizm-1, gargoilizm-1
+                26 lizosomalna choroba spichrzeniowa-1
+                  0 choroba Taya-Sachsa-1, gangliozydoza GM2-1
+                  8 glikogenoza-1, choroba spichrzeniowa glikogenu-1
+                    0 choroba Coriego-1, choroba Forbesa-1, glikogenoza typu III-1
+                    0 choroba von Gierkego-1, glikogenoza typu I-1
+                    0 choroba McArdle'a-1, glikogenoza typu V-1
+                    0 zespół Fanconiego-Bickela-1, glikogenoza typu XI-1
+                    0 choroba Tarui'ego-1, glikogenoza typu VII-1
+                    0 glikogenoza typu VI-1, choroba Hersa-1, GSD VI-1
+                    0 choroba Andersen-1, glikogenoza typu IV-1, amylopektynoza-1
+                    0 choroba Pompego-1, glikogenoza typu II-1
+                  5 ceroidolipofuscynoza neuronalna-1
+                    0 choroba Santavuoriego-Haltii-1, ceroidolipofuscynoza neuronalna typu 1-1
+                    0 choroba Kufsa-1, ceroidolipofuscynoza neuronalna typu 4-1
+                    0 choroba Jansky'ego-Bielschowsky'ego-1, ceroidolipofuscynoza neuronalna typu 2-1
+                    0 ceroidolipofuscynoza neuronalna typu 5-1
+                    0 choroba Spielmeyera-Vogta-Sjögrena-1, choroba Battena-1, choroba Vogta-Spielmeyera-1, choroba Spielmeyera-Sjögrena-1, ceroidolipofuscynoza neuronalna typu 3-1
+                  0 zespół Sanfilippo-1
+                  0 aspartyloglikozaminuria-1
+                  0 alfa-mannozydoza-1
+                  0 choroba Wolmana-1
+                  0 choroba spichrzania estrów cholesterolu-1
+                  0 cystynoza-1
+                  0 choroba Niemanna-Picka-1
+                  0 choroba Gauchera-1
+                  0 choroba Fabry'ego-1, choroba Anderssona-Fabry'ego-1
+                  0 padaczka północna-1, wariant ceroidolipofuscynozy neuronalnej typu 8-1
+                0 łysienie dziedziczne-1
+                0 choroba Pelizaeusa-Merzbachera-1
+                0 choroba Canavan-1, zwyrodnienie gąbczaste układu nerwowego-1, leukodystrofia gąbczasta-1, choroba Canavan-van Bogaerta-Bertranda-1
+                0 dysplazja obojczykowo-czaszkowa-1
+                0 zespół Crouzona-1, dyzostoza czaszkowo-twarzowa-1
+                VISITED 0 zespół Gerstmanna-Sträusslera-Scheinkera-1
+                VISITED 0 śmiertelna bezsenność rodzinna-1
+                1 achondroplazja-1, chondrodystrofia-1, chondrodysplazja-1
+                  0 chondrodysplazja typu Grebego-1
+                1 hemochromatoza-1
+                  0 hemochromatoza pierwotna-1, hemochromatoza wrodzona-1, cukrzyca brunatna-1, cukrzyca brązowa-1
+                3 choroba mitochondrialna-1
+                  0 zespół szpikowo-trzustkowy Pearsona-1, zespół Pearsona-1
+                  0 zespół przewlekłej postępującej zewnętrznej oftalmoplegii-1, CPEO-1
+                  0 zespół MELAS-1
+                0 fenyloketonuria-1, oligofrenia fenylopirogronowa-1
+                0 daltonizm-1, deuteranopia-1
+                1 hemofilia-1, krwawiączka-1
+                  0 hemofilia B-1, choroba Christmasa-1
+              2 rozstrój-1
+                1 udar cieplny-1, udar-4
+                  0 udar słoneczny-1, porażenie słoneczne-1, udar-5
+              0 niestrawność-1, dyspepsja-1, sensacja żołądkowa-1
+              211 choroba psychiczna-1, zaburzenie psychiczne-1
+                0 allomnezja-1
+                0 derealizacja-1
+                0 newroza-1
+                0 myślenie paralogiczne-1
+                0 aproseksja-1
+                0 heboidofrenia-1
+                0 skatolia-1
+                0 zespół oniryczny-1
+                0 prokrastynacja-1, zwlekanie-2
+                0 choroba sieroca-1
+                0 aleksytymia-1, analfabetyzm emocjonalny-1
+                5 *zaburzenie nawyków i popędów-1
+                  0 syllogomania-1
+                  0 trichotillomania-1
+                  0 piromania-1
+                  0 mitomania-1, mitomaństwo-1, pseudologia-1, kłamstwo patologiczne-1
+                  0 kleptomania-1
+                65 zaburzenie seksualne-1
+                  3 zaburzenie identyfikacji płciowej-1
+                    0 transwestytyzm-1, eonizm-1
+                    1 transseksualizm-1
+                      0 gynemimeza-1
+                  0 zespół rycerza i rozpustnika-1
+                  0 zespół Madonny i ladacznicy-1
+                  7 dysfunkcja seksualna-1
+                    0 hipolibidemia-1, oziębłość seksualna-1
+                    0 dyspareunia-1
+                    0 pochwica-2
+                    0 anorgazmia-1
+                    2 hiperseksualność-1, hiperlibidemia-1
+                      0 satyriasis-1
+                      0 nimfomania-1
+                  50 parafilia-1, dewiacja seksualna-1
+                    0 skatologia telefoniczna-1
+                    0 somnofilia-1, zespół śpiącej księżniczki-1
+                    0 hebefilia-1
+                    0 hybristofilia-1
+                    0 chronofilia-1
+                    0 abasiofilia-1
+                    0 froteryzm-1, frotteuryzm-1, ocieractwo-1
+                    0 ksenofilia-2
+                    0 algolagnia-1
+                    0 klizmafilia-1, klismafilia-1
+                    0 alghedonia-1
+                    0 asfiksjofilia-1
+                    0 pederastia-1
+                    1 wojeryzm-1, voyeuryzm-1
+                      0 agreksofilia-1
+                    0 fetyszyzm transwestycyjny-1
+                    5 zoofilia-1, sodomia-1
+                      0 ofidyfilia-1
+                      0 kynofilia-1
+                      0 ekwinofilia-1
+                      0 avisofilia-1
+                      0 formikofilia-1
+                    0 sadomasochizm-1
+                    0 pigmalionizm-1
+                    0 pedofilia-1
+                    18 fetyszyzm-2
+                      0 worarefilia-1
+                      0 fetyszyzm majtkowy-1
+                      0 erotolalia-1
+                      0 fetyszyzm pępka-1
+                      0 automonoseksualizm-1
+                      0 ozolagnia-1
+                      0 sthenolagnia-1, stenolagnia-1
+                      0 heterochromofilia-1
+                      0 urofilia-1
+                      0 podofilia-1
+                      0 grawiditofilia-1
+                      0 nekrofilia-1, tanatofilia-1, nekrolagnia-1
+                      0 endytofilia-1, endytolagnia-1
+                      0 infantylizm parafiliczny-1, autonepiofilia-1
+                      0 agorafilia-1
+                      0 akrotomofilia-1, dysmorfofilia-1
+                      0 koprofilia-1
+                      0 gerontofilia-1
+                    1 masochizm-1
+                      0 apotemnofilia-1
+                    0 ekshibicjonizm-1
+                    1 sadyzm-2
+                      0 raptofilia-1
+                    0 perwersja-1, perwersyjność-1
+                11 zaburzenie osobowości-1
+                  0 osobowość obsesyjno-kompulsyjna-1, osobowość anankastyczna-1
+                  0 osobowość zależna-1, zaburzenie osobowości zależnej-1
+                  0 osobowość unikająca-1, osobowość lękliwa-1
+                  0 narcystyczne zaburzenie osobowości-1, osobowość narcystyczna-1
+                  0 schizotypowe zaburzenie osobowości-1, osobowość schizotypowa-1, schizotypia-1
+                  0 osobowość borderline-1
+                  0 histrioniczne zaburzenie osobowości-1, osobowość histrioniczna-1
+                  0 schizoidalne zaburzenie osobowości-1, osobowość schizoidalna-1
+                  0 paranoiczne zaburzenie osobowości-1, osobowość paranoiczna-1
+                  0 socjopatia-1
+                  0 psychopatia-1, osobowość dyssocjalna-1, osobowość antyspołeczna-1
+                0 zaburzenie schizoafektywne-1
+                4 zaburzenie afektywne-1, zaburzenie nastroju-1, afektywność-1
+                  0 zaburzenie afektywno-dwubiegunowe-1, psychoza maniakalno-depresyjna-1, cyklofrenia-1, choroba afektywna dwubiegunowa-1, ChAD-1
+                  0 cyklotymia-1
+                  1 mania-1
+                    0 hipomania-2
+                5 parasomnia-1
+                  0 moczenie nocne-1
+                  0 zespół Elpenora-1, upojenie senne-1, elpenoryzm-1
+                  0 seksomnia-1, zespół Morfeusza-1
+                  0 bruksizm-1
+                  0 lunatyzm-1, noktambulizm-1, somnambulizm-1, sennowłóctwo-1
+                3 parafrenia-1
+                  2 halucynoza pasożytnicza-1, halucynoza dotykowa-1, zespół Ekboma-1
+                    0 choroba Morgellonów-1, syndrom Morgellonów-1, morgellonka-1
+                    0 paranoja pasożytnicza-1
+                0 likantropia-1, lykantropia-2, wilczy obłęd-1, wilkołactwo-1
+                VISITED 4 dysocjacja-2, zaburzenie dysocjacyjne-2, konwersja-8, zaburzenie konwersyjne-1
+                0 fiksacja-1
+                9 psychoza-1
+                  0 upojenie patologiczne-1
+                  4 psychoza alkoholowa-1
+                    0 psychoza Korsakowa-1, zespół Korsakowa-1, zespół amnestyczny Korsakowa-1, organiczny zespół Korsakowa-1
+                    0 zespół Otella-1, obłęd alkoholowy-1, obłęd zazdrości-1
+                    0 halucynoza alkoholowa-1
+                    0 majaczenie alkoholowe-1, delirium tremens-1, biała gorączka-1, majaczenie drżenne-1
+                  2 paranoja-1, zaburzenie urojeniowe-1
+                    0 paranoja indukowana-1, paranoja udzielona-1, obłęd udzielony-1, indukowane zaburzenie urojeniowe-1
+                    0 monomania-1
+                0 orgiazm-1
+                0 charakteropatia-1
+                0 autyzm-1, autyzm dziecięcy-1
+                0 anoreksja-1, jadłowstręt-1, jadłowstręt psychiczny-1
+                0 bulimia-1, wilczy głód-1, żarłoczność psychiczna-1
+                0 nienormalność-1, anormalność-1
+                6 schizofrenia-1, choroba królewska-2
+                  0 schizofrenia cenestetyczna-1, schizofrenia cenestopatyczna-1
+                  0 schizofrenia rezydualna-1
+                  0 schizofrenia paranoidalna-1, schizofrenia urojeniowa-1
+                  0 schizofrenia niezróżnicowana-1
+                  0 schizofrenia prosta-1
+                  0 hebefrenia-1, schizofrenia zdezorganizowana-1, schizofrenia hebefreniczna-1
+                66 nerwica-1, zaburzenie nerwicowe-1, neuroza-1
+                  0 nerwica natręctw-1
+                  0 nerwica niedzielna-1
+                  10 zaburzenie somatoformiczne-1
+                    0 psychalgia-1
+                    0 zaburzenie somatyzacyjne-1, zespół Briqueta-1
+                    4 dysocjacja-2, zaburzenie dysocjacyjne-2, konwersja-8, zaburzenie konwersyjne-1
+                      0 stupor dysocjacyjny-1, osłupienie dysocjacyjne-1
+                      0 zaburzenie dysocjacyjne tożsamości-1, rozdwojenie jaźni-1, osobowość mnoga-1, osobowość naprzemienna-1, osobowość wieloraka-1, rozdwojenie osobowości-1
+                      0 fuga dysocjacyjna-1, fuga-5, ucieczka histeryczna-1
+                      0 amnezja dysocjacyjna-1, amnezja psychogenna-1
+                    2 hipochondria-1, zaburzenie hipochondryczne-1
+                      1 dysmorfofobia-1
+                        0 bigoreksja-1, dysmorfia mięśniowa-1
+                  0 nerwica eklezjogenna-1
+                  0 nerwica noogenna-1, nerwica neogenna-1
+                  42 zaburzenie lękowe-1, nerwica lękowa-1
+                    0 zespół lęku uogólnionego-1
+                    0 zespół stresu pourazowego-1, zaburzenie stresowe pourazowe-1, PTSD-1
+                    0 kompulsja-1, czynność przymusowa-1
+                    0 zaburzenie obsesyjno-kompulsyjne-1, choroba obsesyjno-kompulsyjna-1
+                    37 fobia-1
+                      0 fobia społeczna-1, nerwica społeczna-1, zespół lęku społecznego-1
+                      0 tokofobia-1
+                      0 odontofobia-1, dentofobia-1
+                      0 heksakosjoiheksekontaheksafobia-1
+                      0 hafefobia-1
+                      0 erytrofobia-1
+                      0 emetofobia-1
+                      0 demofobia-1
+                      0 brontofobia-1
+                      0 ailurofobia-1, felinofobia-1, gatofobia-1
+                      0 filofobia-1
+                      0 somnifobia-1, hipnofobia-1
+                      0 nyktofobia-1
+                      3 nozofobia-1
+                        0 bakteriofobia-1, bakcylofobia-1
+                        0 mizofobia-1
+                        0 kancerofobia-1, karcinofobia-1
+                      0 dromofobia-1
+                      0 triskaidekafobia-1
+                      0 hemofobia-1
+                      0 tanatofobia-1
+                      0 pirofobia-1
+                      0 neofobia-1
+                      0 nekrofobia-1
+                      0 monofobia-1
+                      0 logofobia-1
+                      0 lęk wysokości-1, akrofobia-1
+                      0 lęk przestrzeni-1, agorafobia-1
+                      0 hydrofobia-2, wodowstręt-2
+                      0 higrofobia-1
+                      0 demonofobia-1
+                      0 batofobia-1
+                      0 arachnofobia-1
+                      0 antropofobia-1
+                      0 androfobia-1
+                      0 aerofobia-1
+                      0 klaustrofobia-1
+                  0 psychoneuroza-1
+                  0 psychonerwica-1
+                  0 psychastenia-1
+                  3 neurastenia-1, nerwica neuarsteniczna-1
+                    0 neurastenia asteniczna-1
+                    0 neurastenia hipersteniczna-1
+                    0 neurastenia hiposteniczna-1
+                  0 histeria-1
+                0 klaustrofobia-2
+                6 załamanie-3, depresja-1
+                  0 dystymia-1
+                  0 subdepresja-1
+                  0 melancholia-2
+                  0 dół-4, dołek-2
+                  0 amok-1
+                  0 depresja cykliczna-1
+              371 *choroba zakaźna-1
+                0 ostre zapalenie oskrzeli-1
+                0 obrzęk gazowy-1
+                7 pasażowalna encefalopatia gąbczasta-1, choroba prionowa-1, TSE-1
+                  0 przewlekła choroba wyniszczająca-1
+                  0 gąbczasta encefalopatia bydła-1, BSE-1, choroba szalonych krów-1, choroba wściekłych krów-1
+                  0 kuru-1, śmiejąca się śmierć-1
+                  0 zespół Gerstmanna-Sträusslera-Scheinkera-1
+                  0 śmiertelna bezsenność rodzinna-1
+                  0 choroba kłusowa-1, trzęsawka-1, kołowacizna-2
+                  0 choroba Creutzfeldta-Jakoba-1, zespół Nevina-Jonesa-1, stwardnienie kurczowe-1, stwardnienie rzekome-1
+                0 choroba Bollingera-1, choroba bydła i dziczyzny-1
+                0 zaraza ziemniaka-1, fitoftoroza-1
+                2 rak roślin-1, rak-10
+                  VISITED 0 rak ziemniaka-1
+                  VISITED 0 rak koniczynowy-1, rak koniczyny-1
+                3 zapalenie mózgu-1
+                  0 zapalenie mózgu von Economo-1, śpiączkowe zapalenie mózgu-1
+                  VISITED 0 kleszczowe zapalenie mózgu-2, kleszczowe zapalenie mózgu i opon mózgowo-rdzeniowych-1
+                  VISITED 0 japońskie zapalenie mózgu-1
+                0 infekcyjne zapalenie wsierdzia-1
+                0 zapalenie opłucnej-1
+                0 choroba pierwotniakowa-1
+                0 zapalenie ucha środkowego-1
+                39 choroba zaraźliwa-1
+                  0 twardziel-5
+                  VISITED 0 zołzy-2
+                  VISITED 2 zgnilec-1, kiślica-1
+                  VISITED 0 panleukopenia kotów-1, nosówka kotów-1, zakaźne zapalenie jelit kotów-1, tyfus koci-1, agranulocytoza-2
+                  VISITED 0 ospa krów-1
+                  VISITED 0 niesztowica-1, ektyma-1, zakaźne krostowe zapalenie skóry-1
+                  VISITED 0 myksomatoza-1
+                  VISITED 0 wirusowa krwotoczna choroba królików-1, RHD-1, krwotoczna choroba królików-1, chiński pomór królików-1
+                  VISITED 0 wirusowe zakażenie przewodu pokarmowego-1, grypa jelitowa-1, grypa żołądkowa-1
+                  VISITED 15 gorączka krwotoczna-1
+                  VISITED 0 różyczka-1
+                  VISITED 0 różyca-1, erysipeloid-1
+                  VISITED 0 pomór-1, klasyczny pomór świń-1
+                  VISITED 0 ospa krwotoczna-1, ospa prawdziwa-1, ospa-1, czarna ospa-1
+                  VISITED 0 wąglik-1, antraks-1
+                  VISITED 0 pryszczyca-1, afoza-1, FMD-1, zaraza pyska i racic-1
+                  VISITED 2 grypa-1
+                  VISITED 0 cholera-1
+                  VISITED 0 świnka-1, nagminne zapalenie przyusznic-1
+                  VISITED 0 odra-1
+                0 pieprzyca-2, pebryna-1
+                117 choroba bakteryjna-1
+                  3 riketsjoza-1
+                    VISITED 2 dur plamisty-1, tyfus plamisty-1, dur osutkowy-1, tyfus osutkowy-1
+                  2 erlichioza-1, ehrlichioza-1
+                    0 anaplazmoza-1, ludzka anaplazmoza granulocytarna-1, ludzka granulocytarna ehrlichioza-1
+                    0 ludzka erlichioza monocytarna-1
+                  0 erytrodermatoza-1, zakaźne zapalenie skóry-1, wrzodowa choroba skóry-1
+                  0 ropnie mnogie pach-1, choroba Velpeaua-1, choroba Verneuila-1
+                  0 choroba ze Škrljevo-1
+                  0 choroba Rittera-1, zespół Rittera-1, zespół Rittera-Lyella-1, gronkowcowe złuszczające zapalenie skóry-1, gronkowcowy zespół oparzeniowy skóry-1, zapalenie pęcherzowe i złuszczające skóry noworodków-1
+                  0 zołzy-2
+                  0 posocznica-2, puchlina wodna-1
+                  0 bakteryjne zapalenie pochwy-1, waginoza bakteryjna-1
+                  0 angiomatoza bakteryjna-1
+                  0 martwica płetw-1
+                  0 pomór węgorzy-1, posocznica węgorzy-1
+                  0 łupież rumieniowy-1
+                  0 choroba mokrego ogona-1, choroba mokrego tułowia-1, mokry chomik-1
+                  0 choroba bawełniana-1, fleksibakterioza-1, flexibakterioza-1
+                  0 choroba Tyzzera-1
+                  0 zapalenie pępka-1
+                  0 zakażenie połogowe-1, gorączka połogowa-1
+                  0 rzekomobłoniaste zapalenie jelit-1
+                  0 ropowica oczodołu-1
+                  0 ropień zagardłowy-1
+                  0 promienica-2, aktynomikoza-1
+                  0 pinta-4
+                  0 paciorkowcowe zapalenie gardła-1, bakteryjna infekcja gardła i migdałków-1
+                  0 owrzodzenie Buruli-1
+                  1 nokardioza-1
+                    0 nokardioza ryb-1
+                  0 mykoplazmoza-1
+                  0 mykobakterioza ryb-1, gruźlica ryb-1
+                  0 melioidoza-1
+                  1 martwicze zapalenie powięzi-1
+                    0 zgorzel Fourniera-1
+                  0 listerioza-1, listereloza-1
+                  2 zgnilec-1, kiślica-1
+                    0 zgnilec europejski-1
+                    0 zgnilec złośliwy-1, zgnilec amerykański-1
+                  0 kiła wrodzona-1
+                  0 jersinioza-1
+                  0 gorączka reumatyczna-1
+                  0 gorączka plamicowa brazylijska-1
+                  0 gorączka okopowa-1, gorączka pięciodniowa-1, gorączka bolesnych goleni-1, choroba bolesnych goleni-1, gorączka wołyńska-1, gorączka Mozy-1, choroba Hisa-Wernera-1, miejska gorączka okopowa-1
+                  3 gorączka od ugryzienia szczura-1, gorączka szczurza-1
+                    0 gorączka Haverhill-1
+                    0 sodoku-1
+                    0 spirilloza-1
+                  0 choroba Whipple'a-1, lipodystrofia jelitowa-1
+                  1 choroba legionistów-1, legioneloza-1, legionelloza-1
+                    0 gorączka Pontiac-1
+                  0 choroba kociego pazura-1, gorączka kociego pazura-1
+                  5 błonica-2
+                    0 błonica skóry-1
+                    0 błonica spojówek oka-1
+                    VISITED 0 błonica nosa-1
+                    0 błonica gardła-1, dyfteryt-1, dyfteria-1
+                    0 krup-1, błonica krtani-1, dławiec-1
+                  VISITED 0 bejel-1, kiła nieweneryczna-1
+                  0 angina Plauta-Vincenta-1
+                  0 gorączka Q-1
+                  VISITED 0 ostre zapalenie krtani, tchawicy i oskrzeli-1, krup wirusowy-1, LTB-1
+                  0 szelestnica-1
+                  0 tularemia-1
+                  0 leptospiroza-1, krętkowica-1
+                  2 botulizm-1, zatrucie jadem kiełbasianym-1
+                    0 botulizm dziecięcy-1
+                    0 botulizm przyranny-1
+                  0 cellulitis-2, zapalenie tkanki łącznej-1
+                  0 gruda-3
+                  8 bakterioza-1
+                    0 plamistość pochew liści kukurydzy-1
+                    0 bakteryjne czernienie plew pszenicy-1
+                    0 gorzka plamistość podskórna jabłek-1
+                    0 wibrioza-1
+                    0 wrzodzienica łososiowatych-1
+                    0 zaraza ogniowa-1
+                    0 bakterioza obwódkowa fasoli-1
+                    0 guzowatość korzeni-1
+                  VISITED 2 szankier-1, wrzód weneryczny-1
+                  VISITED 0 malinica-1, frambezja-1, framboezja-1, jagodzica-1
+                  VISITED 0 ziarniniak pachwinowy-1, donowanoza-1
+                  0 zgorzel gazowa-1
+                  0 różyca-1, erysipeloid-1
+                  0 salmonelloza-1, salmoneloza-1, salmonella-2, choleryna-1
+                  0 róża-3
+                  VISITED 0 jaglica-1, trachoma-1, egipskie zapalenie spojówek-1, przewlekłe pęcherzykowe zapalenie rogówki-1, egipskie zapalenie oczu-1
+                  VISITED 0 próchnica-1, próchnica zębów-1
+                  VISITED 1 liszajec-1, liszajec zakaźny-1
+                  0 wąglik-1, antraks-1
+                  0 ornitoza-1, papuzica-1
+                  0 bruceloza-1, gorączka maltańska-1, choroba Banga-1, gorączka falująca-1, gorączka kozia-1, gorączka skalna-1, gorączka gibraltarska-1, gorączka Rio Grande-1
+                  0 borelioza-1, choroba z Lyme-1, krętkowica kleszczowa-1
+                  0 dżuma-1
+                  VISITED 0 rzeżączka-1, tryper-1, gonorea-1
+                  0 szkarlatyna-1, płonica-1
+                  0 tężec-1
+                  0 krztusiec-1, koklusz-1
+                  VISITED 2 kiła-1, syfilis-1, lues-1, franca-1, syf-2, pudendagra-1, świerzba-1, katar kanalicowy-1
+                  0 trąd-1, lepra-1, choroba Hansena-1
+                  3 gruźlica-1, tuberkuloza-1
+                    0 gruźlica zwierząt-1
+                    0 gruźlica człowieka-1, suchoty-1, galopujące suchoty-1
+                    VISITED 0 gruźlica węzłów chłonnych-1
+                  6 dur-1, tyfus-1
+                    0 dur powrotny-1
+                    2 dur plamisty-1, tyfus plamisty-1, dur osutkowy-1, tyfus osutkowy-1
+                      0 tyfus plamisty szczurzy-1
+                      0 tyfus plamisty europejski-1
+                    0 dur rzekomy-1, paratyfus-1
+                    0 dur brzuszny-1, tyfus brzuszny-1
+                  0 cholera-1
+                  0 angina-1, zapalenie gardła-1
+                1 zapalenie opon mózgowo-rdzeniowych-1, zapalenie opon mózgowych-1
+                  0 opryszczkowe zapalenie opon mózgowych i mózgu-1, opryszczkowe zapalenie mózgu-1
+                126 choroba wirusowa-1
+                  0 choroba woreczkowa-1
+                  0 kędzierzawka-1
+                  0 grudkowatość bawenoidalna-1
+                  0 dysplazja Lewandowsky'ego-Lutza-1
+                  0 KHV-1
+                  0 choroba Aujeszkyego-1, choroba Aujeszkiego-1, wścieklizna rzekoma-1, choroba Aujeszkego-1, choroba Aujeskiego-1
+                  0 sarkoidoza-1
+                  0 podostre zapalenie tarczycy-1
+                  0 ostre zapalenie oskrzelików-1
+                  0 afrykański pomór świń-1, ASF-1
+                  0 afrykański pomór koni-1, AHS-1
+                  0 panleukopenia kotów-1, nosówka kotów-1, zakaźne zapalenie jelit kotów-1, tyfus koci-1, agranulocytoza-2
+                  0 parwowiroza psów-1
+                  0 niedokrwistość zakaźna koni-1
+                  0 otręt bydła-1, grudkowe zakaźne zapalenie sromu i pochwy bydła-1
+                  0 zakaźne zapalenie żołądka i jelit świń-1
+                  0 ospa karpi-1
+                  0 ospa krów-1
+                  0 niesztowica-1, ektyma-1, zakaźne krostowe zapalenie skóry-1
+                  0 myksomatoza-1
+                  0 choroba pęcherzykowa świń-1
+                  0 brodawczyca koni-1
+                  0 szarka-1
+                  0 choroba guzowata skóry-1, choroba guzowatej skóry bydła-1
+                  0 wirusowa martwica nerwów-1
+                  0 głowica-4, złośliwa gorączka nieżytowa bydła-1, BMCF-1
+                  0 choroba weselbronska-1
+                  0 choroba graniczna-1
+                  0 choroba Rubartha-1
+                  0 wirusowa biegunka bydła i choroba błon śluzowych-1, BVD/MD-1
+                  0 wirusowa krwotoczna choroba królików-1, RHD-1, krwotoczna choroba królików-1, chiński pomór królików-1
+                  0 zespół różyczki wrodzonej-1, zespół Gregga-1, wrodzony zespół różyczkowy-1
+                  0 zapalenie mózgu doliny Murray-1, australijskie zapalenie mózgu-1
+                  0 zanokcica opryszczkowa-1
+                  0 wirusowe zapalenie tętnic koni-1, EVA-1
+                  0 wirusowe zapalenie stawów-1
+                  0 wirusowe zakażenie przewodu pokarmowego-1, grypa jelitowa-1, grypa żołądkowa-1
+                  0 wirus ze Schmallenbergu-1
+                  0 tropikalna spastyczna parapareza-1, TSP-1
+                  0 rumień zakaźny-1, choroba piąta-1
+                  0 rumień nagły-1, gorączka trzydniowa-1, trzydniówka-1, choroba szósta-1
+                  0 postępująca leukoencefalopatia wieloogniskowa-1
+                  0 nagminna pleurodynia-1, nagminne zapalenie mięśni-1, choroba bornholmska-1
+                  0 pappataci-1
+                  0 łupież różowy Giberta-1
+                  0 limfocytarne zapalenie splotu naczyniówkowego i opon mózgowych-1, LCM-1
+                  0 kleszczowe zapalenie mózgu-2, kleszczowe zapalenie mózgu i opon mózgowo-rdzeniowych-1
+                  0 japońskie zapalenie mózgu-1
+                  VISITED 0 owczy gruczolakorak płuc-1
+                  0 hantawirusowy zespół płucny-1
+                  0 gorączka Oropouche-1
+                  0 gorączka O'nyong'nyong-1, gorączka O'nyong-nyong-1
+                  0 choroba skokowa owiec-1, enzootyczne zapalenie mózgu-1, kleszczowe zapalenie mózgu-1
+                  0 choroba Hecka-1
+                  0 choroba Gianottiego-Crostiego-1
+                  1 brodawczaki krtani-1
+                    0 brodawczakowatość młodzieńcza krtani-1
+                  0 żółtaczka buraka-1
+                  0 żółta karłowatość jęczmienia-1
+                  0 wąskolistność łubinu-1
+                  0 smugowatość ziemniaka-1
+                  0 świńska grypa-1, grypa świń-1
+                  6 wirusowe zapalenie wątroby-1, żółtaczka-2
+                    0 wirusowe zapalenie wątroby typu G-1, WZW G-1
+                    0 wirusowe zapalenie wątroby typu E-1, WZW E-1
+                    0 wirusowe zapalenie wątroby typu D-1, WZW D-1
+                    0 wirusowe zapalenie wątroby typu C-1, WZW C-1
+                    0 wirusowe zapalenie wątroby typu B-1, WZW B-1, żółtaczka wszczepienna-1
+                    0 wirusowe zapalenie wątroby typu A-1, WZW A-1, żółtaczka pokarmowa-1
+                  0 pęcherzykowe zapalenie jamy ustnej-1
+                  0 pstrość tulipana-1, pstrość kwiatów tulipana-1
+                  0 ostre zapalenie krtani, tchawicy i oskrzeli-1, krup wirusowy-1, LTB-1
+                  0 mozaika tytoniowa-1
+                  0 mięczak zakaźny-1
+                  0 kłykciny kończyste-1, brodawki weneryczne-1, brodawki płciowe-1
+                  0 SARS-1, zespół ostrej ciężkiej niewydolności oddechowej-1
+                  0 białaczka kotów-1
+                  0 krwotoczna choroba zwierzyny płowej-1
+                  0 choroba niebieskiego języka-1, pryszczyca rzekoma-1
+                  0 choroba Mareka-1
+                  0 rak jamy nosowo-gardłowej-1
+                  0 mononukleoza zakaźna-1, mononukleoza-1, gorączka gruczołowa-1, angina monocytowa-1, choroba Pfeiffera-1, choroba pocałunków-1
+                  0 choroba bostońska-1, choroba dłoni, stóp i jamy ustnej-1
+                  15 gorączka krwotoczna-1
+                    0 gorączka krwotoczna Ebola-1
+                    0 choroba marburska-1, gorączka krwotoczna Marburg-1
+                    0 brazylijska gorączka krwotoczna-1
+                    0 wenezuelska gorączka krwotoczna-1
+                    0 boliwijska gorączka krwotoczna-1, BHF-1
+                    0 argentyńska gorączka krwotoczna-1, AHF-1
+                    0 gorączka Lassa-2
+                    0 chikungunya-1, gorączka chikungunya-1
+                    0 gorączka krwotoczna z zespołem nerkowym-1, HFRS-1
+                    0 gorączka krwotoczna krymsko-kongijska-1
+                    0 gorączka doliny Rift-1, enzootyczne zapalenie wątroby-1, RVF-1
+                    0 gorączka Zachodniego Nilu-1
+                    0 choroba lasu Kyasanur-1
+                    0 omska gorączka krwotoczna-1
+                    0 denga-2
+                  VISITED 1 cytomegalia-1
+                  0 ospa małpia-1
+                  0 różyczka-1
+                  0 pomór-1, klasyczny pomór świń-1
+                  0 nosówka-1
+                  0 księgosusz-1, pomór bydła-1
+                  0 żółta febra-1, żółta gorączka-1
+                  VISITED 2 półpasiec-1
+                  0 ospa wietrzna-1, wiatrówka-2
+                  0 ospa krwotoczna-1, ospa prawdziwa-1, ospa-1, czarna ospa-1
+                  3 opryszczka-1, skwarka-2, febra-1, zimno-2, opryszczka pospolita-1, opryszczka zwykła-1
+                    0 opryszczka narządów płciowych-1
+                    0 opryszczkowe zapalenie jamy ustnej-1
+                    0 opryszczka wargowa-1
+                  0 choroba Heinego-Medina-1, heinemedina-1, polio-1, wirusowe zapalenie rogów przednich rdzenia kręgowego-1, ostre nagminne porażenie dziecięce-1, H14-1, nagminne porażenie dziecięce-1
+                  0 ptasia grypa-1, influenza ptaków-1
+                  0 przeziębienie-3, zaziębienie-2
+                  0 pryszczyca-1, afoza-1, FMD-1, zaraza pyska i racic-1
+                  0 wścieklizna-1, wodowstręt-1, hydrofobia-1
+                  2 grypa-1
+                    0 meksykanka-2
+                    0 hiszpanka-1
+                  0 AIDS-1, zespół nabytego niedoboru odporności-1, zespół nabytego upośledzenia odporności-1, SIDA-1
+                  0 świnka-1, nagminne zapalenie przyusznic-1
+                0 krowianka-1
+                0 plamica-1
+                0 angina Ludwiga-1, ropowica dna jamy ustnej-1
+                76 grzybica-1, grzyb-4, mikoza-1, choroba grzybicza-1, choroba grzybowa-1
+                  0 askochytoza-1
+                  VISITED 0 lobomykoza-1
+                  0 choroba białego nosa-1
+                  0 saprolegnioza-1, biały grzyb-1, pleśniawka-3
+                  0 żółta plamistość liści kukurydzy-1, helmintosporioza-1
+                  2 zgorzel siewek-1
+                    0 zgorzel powschodowa-1
+                    0 zgorzel przedwschodowa-1
+                  0 zgnilizna twardzikowa-1
+                  0 zasychanie wierzchołków pędów sosny-1, zasychanie wierzchołków pędów-1
+                  0 kustrzebka koniczyny i lucerny-1, zaraza kustrzebkowa koniczyn-1
+                  0 zamieranie pędów sosny-1
+                  0 śnieć indyjska-1
+                  0 srebrzystość liści-1
+                  0 smołowata plamistość klonu-1, czarna plamistość liści klonu-1
+                  0 skrętak sosny-1, rdza sosnoskrętna-1
+                  0 rynchosporioza zbóż-1
+                  0 rdza zbożowa-1
+                  0 rdza wejmutkowo-porzeczkowa-1, obwar wejmutkowo-porzeczkowy-1, rdza pęcherzykowata sosny wejmutki-1, rdza kory wejmutki-1
+                  0 rak ziemniaka-1
+                  0 rak koniczynowy-1, rak koniczyny-1
+                  0 szara pleśń-1
+                  0 osutka sosen-1
+                  0 łamliwość źdźbła zbóż-1
+                  0 holenderska choroba wiązu-1, naczyniowa choroba wiązu-1, grafioza wiązu-1
+                  0 gorzka zgnilizna wiśni-1
+                  0 głownia pyłkowa pszenicy-1
+                  0 głownia pyląca owsa-1
+                  0 głownia pyląca kukurydzy-1
+                  0 głownia kukurydzy-1, głownia guzowata kukurydzy-1
+                  0 cylindrosporioza roślin krzyżowych-1
+                  0 monilioza-1, brunatna zgnilizna drzew pestkowych-1
+                  0 askochytoza bobiku-1
+                  0 rinosporydioza-1
+                  0 pneumocystoza-1
+                  0 piedra czarna-1
+                  VISITED 0 parakokcydioidomikoza-1, choroba Lutza-1, drożdżyca brazylijska-1, blastomykoza południowoamerykańska-1
+                  0 grzybica paznokci-1
+                  0 grzybica czarna-1
+                  0 grzybica brody-1
+                  0 geotrychoza-1
+                  0 łupież pstry-1
+                  2 grzybica skóry głowy-1
+                    0 grzybica woszczynowa-1, strupień woszczynowy-1, parch-2
+                    0 grzybica strzygąca-1
+                  0 chitridiomykoza-1
+                  0 alleszerioza-1
+                  0 sporotrychoza-1
+                  VISITED 0 mukormykoza-1, mukormikoza-1
+                  0 maduromykoza-1, stopa madurska-1, grzybica madurska-1
+                  VISITED 0 chromoblastomikoza-1, chromomikoza-1, chromomikoza i ropień feomykotyczny-1
+                  0 kryptokokoza-1, toruloza-1, drożdżyca europejska-1
+                  0 kokcydioidomikoza-1
+                  0 histoplazmoza-1, choroba Darlinga-1
+                  0 drożdżyca-2, blastomykoza-1, choroba Gilchrista-1, blastomykoza północnoamerykańska-1
+                  6 mączniak-2
+                    0 mączniak rzekomy winorośli-1
+                    0 mączniak rzekomy maku-1
+                    0 mączniak rzekomy grochu-1
+                    0 mączniak rzekomy dyniowatych-1
+                    0 mączniak prawdziwy winorośli-1
+                    0 mączniak prawdziwy dębu-1
+                  1 antraknoza-1
+                    0 antraknoza kukurydzy-1, drobna plamistość liści kukurydzy-1
+                  0 chwościk buraka-1, chwościk burakowy-1
+                  0 aspergiloza-1, kropidlakowica-1, grzybica kropidlakowa-1
+                  0 fuzarioza-1
+                  0 kiła kapusty-1, przepuklina kapusty-1, kiła kapuściana-1
+                  0 rdza kory sosny-1, obwar-1, obar-1, osmół-1, rdza pęcherzykowa-1, suchoczub-1
+                  0 pleśniawka-2
+                  3 parch-1
+                    0 parch prószysty ziemniaka-1
+                    0 parch jabłoni-1
+                    0 parch gruszy-1
+                  1 drożdżyca-1, kandydoza-1, kandydiaza-1, bielnica-1, moniliaza-1
+                    0 kandydoza pochwy-1, drożdżyca pochwy i sromu-1, drożdżakowe zapalenie pochwy i sromu-1, grzybica pochwy-1
+                8 choroba weneryczna-1, choroba przenoszona drogą płciową-1
+                  2 szankier-1, wrzód weneryczny-1
+                    0 szankier twardy-1, wrzód twardy-1, wrzód Huntera-1, owrzodzenie pierwotne-1
+                    0 szankier miękki-1, wrzód miękki-1, szankroid-1
+                  VISITED 0 ziarniniak pachwinowy-1, donowanoza-1
+                  0 rzeżączka-1, tryper-1, gonorea-1
+                  2 kiła-1, syfilis-1, lues-1, franca-1, syf-2, pudendagra-1, świerzba-1, katar kanalicowy-1
+                    1 kiła mózgowo-rdzeniowa-1, kiła układu nerwowego-1
+                      0 wiąd rdzenia-1
+                0 dyzenteria-1, czerwonka-1
+                25 zakażenie-2, infekcja-1, inwazja-3
+                  0 wilk-5
+                  7 zakażenie oportunistyczne-1
+                    0 mukormykoza-1, mukormikoza-1
+                    1 cytomegalia-1
+                      0 choroba wtrętowa-1
+                    2 półpasiec-1
+                      0 półpasiec uszny-1, zespół Ramsaya Hunta-1
+                      0 półpasiec oczny-1
+                    0 toksoplazmoza-1
+                  0 superinfekcja-1, nadkażenie-1
+                  0 zakażenie kropelkowe-1
+                  0 koinfekcja-1, współzakażenie-1
+                  0 zakażenie szpitalne-1
+                  0 zakażenie pokarmowe-1
+                  1 fungemia-1
+                    0 kandydemia-1
+                  0 zakażenie miejscowe-1
+                  0 zakażenie poronne-1
+                  0 zakażenie subkliniczne-1, przebieg subkliniczny-1, przebieg podkliniczny-1, przebieg utajony-1
+                  0 HIV-2
+                  0 bakteriemia-1
+                  0 reinfekcja-1
+                  2 posocznica-1, sepsa-1
+                    0 ropnica-1
+                    VISITED 0 wstrząs septyczny-1
+                0 odra-1
+              199 *choroba przewlekła-1
+                0 choroba Raynauda-1
+                0 zespół jelita drażliwego-1, zespół jelita nadwrażliwego-1
+                0 artroza-1
+                0 ozena-1
+                0 ropień Brodiego-1
+                0 zakleszczające zapalenie ścięgna-1
+                0 osteomalacja-1, rozmiękanie kości-1, krzywica dorosłych-1
+                0 zesztywniające zapalenie stawów kręgosłupa-1, choroba Bechterewa-1, choroba Marie-Strümplla-Bechterewa-1
+                0 młodzieńcze idiopatyczne zapalenie stawów-1, młodzieńcze reumatoidalne zapalenie stawów-1, młodzieńcze przewlekłe zapalenie stawów-1, choroba Stilla-1
+                0 alkoholowe stłuszczenie wątroby-1
+                0 choroba Pageta kości-1
+                0 choroba Kennedy'ego-1, opuszkowo-rdzeniowy zanik mięśni-1
+                0 przewlekłe zapalenie oskrzeli-1
+                0 zespół Rothmanna-Makaia-1
+                0 atopowe zapalenie skóry-1, AZS-1, wyprysk atopowy-1, egzemia-1, świerzbiączka-1, świerzbiączka Besniera-1, wyprysk alergiczny-1, alergiczne zapalenie skóry-1
+                0 choroba Leśniowskiego-Crohna-1, choroba Crohna-1
+                0 beryloza-1, przewlekła choroba berylowa-1
+                0 przewlekła zapalna poliradikuloneuropatia demielinizacyjna-1
+                0 lobomykoza-1
+                0 dychawica świszcząca-1
+                0 parakokcydioidomikoza-1, choroba Lutza-1, drożdżyca brazylijska-1, blastomykoza południowoamerykańska-1
+                0 chromoblastomikoza-1, chromomikoza-1, chromomikoza i ropień feomykotyczny-1
+                0 błonica nosa-1
+                0 bejel-1, kiła nieweneryczna-1
+                0 owczy gruczolakorak płuc-1
+                0 osteopatia-3
+                6 toczeń-1, wilk-4
+                  5 toczeń rumieniowaty-1
+                    0 podostra postać skórna tocznia rumieniowatego-1
+                    0 toczeń rumieniowaty noworodków-1
+                    0 toczeń rumieniowaty polekowy-1, toczeń polekowy-1
+                    0 toczeń rumieniowaty układowy-1, toczeń rumieniowaty trzewny-1
+                    0 toczeń rumieniowaty krążkowy-1
+                2 miopatia-1
+                  0 choroba central core-1
+                  0 miopatia alkoholowa-1
+                7 kardiomiopatia-1
+                  0 kardiomiopatia połogowa-1
+                  0 zespół takotsubo-1, kardiomiopatia indukowana stresem-1, kardiomiopatia stresowa-1, zespół złamanego serca-1, zespół balotującego koniuszka-1
+                  0 niescalony mięsień lewej komory-1
+                  0 kardiomiopatia ograniczająca-1, kardiomiopatia restrykcyjna-1
+                  0 kardiomiopatia przerostowa-1, kardiomiopatia zaporowa-1, idiopatyczne przerostowe zwężenie podaortalne-1
+                  0 kardiomiopatia rozstrzeniowa-1, kardiomiopatia przekrwienna-1, kardiomiopatia zastoinowa-1
+                  0 arytmogenna kardiomiopatia prawej komory-1, arytmogenna dysplazja prawej komory-1
+                1 amyloidoza-1, skrobiawica-1, betafibryloza-1
+                  0 rodzinna amyloidoza typu fińskiego-1, amyloidoza typu V-1, amyloidoza typu Meretoji-1
+                0 malinica-1, frambezja-1, framboezja-1, jagodzica-1
+                0 ziarniniak pachwinowy-1, donowanoza-1
+                0 ziarniniak obrączkowaty-1
+                0 twardzina-1, sklerodermia-1
+                0 miastenia-1, miastenia rzekomoporaźna-1, choroba Erba-Goldflama-1
+                0 nadciśnienie tętnicze-1, hipertensja-1, hipertonia-1, choroba nadciśnieniowa-1
+                1 hipotonia-1, niedociśnienie tętnicze-1, podciśnienie tętnicze-1, hipotensja-1
+                  0 hipotonia ortostatyczna-1
+                0 atonia-1
+                0 bielactwo nabyte-1
+                0 guzowatość-1
+                0 rumień lombardzki-1, pelagra-1
+                1 marskość-1
+                  0 marskość wątroby-1, zwłóknienie wątroby-1
+                0 jaglica-1, trachoma-1, egipskie zapalenie spojówek-1, przewlekłe pęcherzykowe zapalenie rogówki-1, egipskie zapalenie oczu-1
+                1 stwardnienie rozsiane-1
+                  0 stwardnienie koncentryczne Baló-1
+                0 gruźlica węzłów chłonnych-1
+                0 rwa kulszowa-1, ischias-1
+                0 rozedma płuc-1, rozedma-1
+                7 pylica-1, pylica płuc-1
+                  1 pylica niekolagenowa-1
+                    0 żelazica-1
+                  0 zespół Caplana-1
+                  0 pylica aluminiowa-1
+                  0 pylica talkowa-1
+                  0 pylica krzemowa płuc-1, krzemica-1, sylikoza-1, silikoza-1
+                  0 pylica azbestowa-1, azbestoza-1
+                0 próchnica-1, próchnica zębów-1
+                0 progeria-1, zespół progerii Hutchinsona-Gilforda-1
+                0 podagra-1
+                0 płaskostopie-1, platfus-1
+                3 pląsawica-1, choroba św. Wita-1, taniec św. Wita-1
+                  0 pląsawica Sydenhama-1, pląsawica mała-1
+                  0 pląsawica ciężarnych-1
+                  0 pląsawica Huntingtona-1, choroba Huntingtona-1
+                0 paradentoza-1, parodontoza-1, paradontoza-1, przyzębica-1
+                0 osteoporoza-1, zrzeszotowienie kości-1, zrzeszotnienie kości-1, zrzeszotnienie-1
+                0 ołowica-1, saturnizm-1
+                0 nerczyca-1, nefroza-1
+                0 niedokwasota-1, niedokwaśność-1
+                0 nadkwasota-1, nadkwaśność-1
+                3 niedoczynność-1
+                  0 niedoczynność przytarczyc-1
+                  0 niedoczynność kory nadnerczy-1
+                  0 niedoczynność tarczycy-1
+                6 nadczynność-1
+                  2 nadczynność przytarczyc-1
+                    0 wtórna nadczynność przytarczyc-1
+                    0 pierwotna nadczynność przytarczyc-1
+                  2 nadczynność tarczycy-1, hipertyreoza-1
+                    0 choroba Plummera-1, wole guzkowe toksyczne-1
+                    0 choroba Gravesa-Basedowa-1, choroba Basedowa-1
+                0 miażdżyca-1, arterioskleroza-1, skleroza-1, stwardnienie tętnic-1, miażdżyca tętnic-1
+                11 łuszczyca-1
+                  0 erytrodermia łuszczycowa-1
+                  0 łuszczyca brodawkująca-1
+                  2 łuszczyca krostkowa-1
+                    0 łuszczyca krostkowa dłoni i stóp-1
+                    0 łuszczyca krostkowa uogólniona-1, łuszczyca typu von Zumbuscha-1
+                  1 łuszczyca odwrócona-1, łuszczyca wysiękowa-1
+                    0 łuszczyca brudźcowa-1
+                  0 łuszczyca plackowata-1
+                  0 łuszczyca kropelkowata-1
+                  0 łuszczyca stawowa-1, łuszczycowe zapalenie stawów-1
+                  0 łuszczyca pospolita-1
+                1 liszajec-1, liszajec zakaźny-1
+                  0 pęcherzyca-1, liszajec pęcherzowy noworodków-1
+                0 kamica-1
+                0 hemoroidy-1, choroba hemoroidalna-1
+                0 dyskopatia-1
+                0 choroba wrzodowa-1, choroba wrzodowa żołądka i dwunastnicy-1
+                0 choroba Alzheimera-1, alzheimer-1
+                0 celiakia-1, choroba trzewna-1, sprue nietropikalna-1
+                0 hiperwitaminoza-1
+                3 awitaminoza-1
+                  0 szkorbut-1, gnilec-1, cynga-1
+                  0 krzywica-1, choroba angielska-1
+                  0 beri-beri-1
+                0 akromegalia-1
+                0 łupież-1
+                23 katarakta-1, zaćma-1
+                  0 zaćma powikłana-1
+                  0 zaćma pourazowa-1
+                  2 zaćma następowa-1
+                    0 zaćma tężyczkowa-1
+                    0 zaćma cukrzycowa-1
+                  0 zaćma starcza-1
+                  0 zaćma brunatniejąca-1
+                  0 zaćma podtorebkowa tylna-1
+                  0 zaćma korowa-1
+                  6 zaćma nabyta-1
+                    0 zaćma przejrzała-1
+                    0 zaćma pęczniejąca-1
+                    0 zaćma dojrzała-1
+                    0 zaćma niedojrzała-1
+                    0 zaćma zaawansowana-1
+                    0 zaćma początkowa-1
+                  6 zaćma wrodzona-1
+                    0 zaćma błoniasta-1
+                    0 zaćma biegunowa-1
+                    0 zaćma torebkowa przednia i tylna-1
+                    0 zaćma całkowita-1
+                    0 zaćma jądrowa-1
+                    0 zaćma warstwowa-1, zaćma okołojądrowa-1
+                4 trądzik-1
+                  0 trądzik chlorowy-1
+                  0 trądzik młodzieńczy-1
+                  0 trądzik niemowlęcy-1
+                  0 trądzik różowaty-1
+                1 jaskra-1, glaukoma-1
+                  0 jaskra wrodzona-1
+                0 impotencja-1
+                14 epilepsja-1, padaczka-1, choroba św. Walentego-1, wielka choroba-1
+                  0 zespół Dravet-1
+                  0 zespół Doose'a-1
+                  3 padaczka odruchowa-1
+                    0 padaczka somatosensoryczna-1
+                    0 padaczka audiogenna-1, padaczka z zaskoczenia-1
+                    0 padaczka fotogenna-1, padaczka fotoczuła-1, padaczka światłoczuła-1
+                  0 padaczka miokloniczna Lafory-1, choroba ciał Lafory-1
+                  0 padaczka Kożewnikowa-1
+                  0 padaczka czołowa-1, epilepsja czołowa-1
+                  0 padaczka skroniowa-1
+                  0 łagodna padaczka częściowa z iglicami w okolicy centralnoskroniowej-1, padaczka rolandyczna-1, padaczka Rolanda-1
+                  0 zespół Ohtahary-1, wczesnoniemowlęca encefalopatia padaczkowa-1
+                  0 zespół Lennoxa-Gastauta-1
+                  0 zespół Westa-1, napady zgięciowe-1
+                4 cukrzyca-1, moczówka cukrowa-1, moczówka-1
+                  0 cukrzyca typu MODY-1
+                  0 cukrzyca ciężarnych-1
+                  0 cukrzyca typu 2-1, cukrzyca insulinoniezależna-1, NIDDM-1
+                  0 cukrzyca typu 1-1, cukrzyca insulinozależna-1
+                0 bezpłodność-1, niepłodność-1
+                0 bezsenność-1
+                0 artretyzm-1, dna-3, skaza moczanowa-1
+                0 reumatoidalne zapalenie stawów-1, reumatyzm-1, gościec-1, RZS-1, gościec przewlekle postępujący-1
+                7 anemia-1, niedokrwistość-1
+                  0 anemia sierpowata-1, niedokrwistość sierpowata-1, niedokrwistość sierpowatokrwinkowa-1
+                  1 niedokrwistość hemolityczna-1
+                    0 niedobór izomerazy fosfotriozowej-1
+                  1 niedokrwistość aplastyczna-1, aplazja szpiku-1, anemia aplastyczna-1
+                    0 niedokrwistość Fanconiego-1
+                  0 niedokrwistość Blackfana-Diamonda-1
+                  0 blednica-1, chloroza-2, choroba zielona-1
+                0 alkoholizm-2, problem alkoholowy-1, picie-4, pijaństwo-4, opilstwo-3, pijactwo-1
+                1 astma-1, duszności-1, dychawica-1, zadyszka-2
+                  0 dychawica oskrzelowa-1, astma oskrzelowa-1, astma-2
+                4 alergia-1, uczulenie-3, nietolerancja-3, nadwrażliwość-1
+                  0 skaza białkowa-1
+                  0 lipcówka-1, mucha-3, letni wyprysk-1, letnia egzema-1
+                  0 pyłkowica-1, astma pyłkowa-1
+                  0 idiosynkrazja-2
+            4 wstrząs-1
+              0 wstrząs septyczny-1
+              0 wstrząs kardiogenny-1
+              0 szok-3
+              0 wstrząs anafilaktyczny-1, anafilaksja-1, reakcja anafilaktyczna-1, odczyn anafilaktyczny-1
+        0 armagedon-1
+        0 zasadzka-3
+        24 okazja-2, okoliczność-2
+          23 impreza-2, balanga-1
+            0 imieniny-2
+            5 urodziny-3
+              0 dziewiętnastka-4
+              0 siedemnastka-5
+              0 szesnastka-6
+              0 piętnastka-4
+              0 osiemnastka-4
+            1 wigilia-4
+              0 spotkanie opłatkowe-1, wigilia-6, opłatek-2
+            0 parapetówka-1
+            0 mikołajki-2
+            2 barbórka-2
+              0 karczma piwna-1
+              0 comber-5
+            3 lumpka-1, hulanka-1, pohulanka-1
+              0 orgia-2
+              0 orgietka-1
+              0 bachanalia-2, bachanalie-2
+            0 domówka-1
+            0 grill-2, barbecue-2
+            0 popijocha-1, popijawa-2
+            0 andrzejki-1
+            0 pijatyka-1, opilstwo-2, libacja-1, wypitka-1, napitka-1
+        14 szaleństwo-5
+          0 wściek dupy-1, wścik dupy-1
+          0 dreptanina-1
+          3 jazda-3
+            2 odjazd-3, odlot-1
+              0 zjazd-8, zgon-2
+              0 kop-1
+          VISITED 0 krzątanina-1
+          VISITED 0 kotłowanina-1, kłębowisko-2, kotłowisko-1
+          2 feeria-1, koncert-4, orgia-3
+            0 symfonia-2
+            0 eksplozja-2
+          VISITED 2 bieganina-1, latanina-1
+        0 ślepy zaułek-2, ślepa uliczka-1, ślepy tor-2
+        0 biomet-1, sytuacja biometeorologiczna-1
+        0 schizofrenia-2
+        0 potrzeba-2
+        0 krawędź-4
+        3 kicha-1, dętka-1, lipa-5
+          0 kwas-6
+          VISITED 0 klops-2
+          0 popelina-2
+        1 kondycja-2
+          0 zdrowie-3
+        0 ciemna mogiła-1, ciemny grób-1
+        0 czeski film-1
+        214 trudność-2
+          1 zawiłość-2
+            0 meander-4
+          0 droga przez mękę-1
+          0 cierń-1
+          1 beton-2
+            0 konserwa-3
+          0 filozofia-4
+          0 ciernistość-2
+          180 przeszkoda-1, bariera-1, mur-3, próg-4, przeciwieństwo-2, przeciwność-1, rafa-2, ściana-3, tama-3, zapora-2
+            0 wrzód na dupie-1, wrzód na tyłku-1
+            0 czerwone światło-1
+            0 mury Jerycha-1
+            0 bariera architektoniczna-1, bariera techniczna-1
+            0 ucho igielne-1
+            0 oblega-1
+            3 zawada-1, ciężar-3, kamień u szyi-1, kula u nogi-1, piąte koło u wozu-1
+              0 zawalidroga-2
+              1 obciążenie-6, balast-1, brzemię-1
+                0 cementowe buty-1, betonowe buty-1
+            15 zakłócenie-2
+              2 przenik-1
+                0 prześwit-2
+                0 przesłuch-1
+              8 szum-7
+                4 szum akustyczny-1
+                  0 szum szary-1
+                  0 szum migotania-1, szum różowy-1
+                  0 szum czerwony-1
+                  0 szum biały-1
+                0 szum termiczny-1
+                0 szum nadmiarowy-1
+                0 szum śrutowy-1
+              0 mora-2
+              0 przydźwięk-2
+              0 szmer-3
+            0 antybodziec-1, hamulec-2, ogranicznik-2
+            VISITED 0 szkopuł-1
+            0 przeciwwskazanie-1
+            0 zator-4, nagromadzenie-3, spiętrzenie-5
+            24 ograniczenie-6
+              0 ograniczenia Pfaffa-1
+              0 kleszcze-7
+              0 impedymenta-1, impedimenta-1
+              0 temporalizacja-3
+              0 infimum-1, kres dolny-1
+              0 więzy-3
+              0 supremum-1, kres górny-1
+              0 numerus clausus-1
+              0 pęta-1
+              0 opłotki-3
+              0 reglamentacja-1
+              0 limitacja-2
+              0 okowy-1
+              2 zawężenie-2
+                1 jednostronność-3, jednokierunkowość-2, jednotorowość-1
+                  0 tendencyjność-2
+              7 restrykcja-2
+                5 restrykcja-1
+                  4 sankcja-2
+                    0 restrykcja importowa-1
+                    0 embargo-1
+                    1 blokada-2
+                      0 blokada ekonomiczna-1
+                0 godzina policyjna-1
+            21 utrudnienie-2
+              0 syfon-3
+              1 niewygoda-2
+                0 nieporęczność-1
+              0 blokada policyjna-1
+              0 samoograniczenie-1
+              1 woal-3
+                0 welon-6
+              0 perypetia-1
+              0 komplikacja-1, perturbacja-1, powikłanie-3, zawikłanie-3
+              0 opora-1
+              0 blokada-1
+              9 niewygoda-1, niedogodność-1, uciążliwość-1, nieprzyjazność-2
+                0 plaga egipska-1
+                0 obmierzłość-2
+                6 ciasnota-1, stłoczenie-2
+                  0 tłoczność-1
+                  4 tłok-1, ścisk-1, natłok-2, przepełnienie-4, zatłoczenie-2
+                    1 ciżba-1
+                      0 tłuszcza-1
+                    0 oblężenie-2
+                    0 korek-2, zator-3
+            102 przeszkoda-2
+              0 syfon-4
+              0 hopa-1
+              4 bariera-3
+                1 ściana-11
+                  0 mur-4
+                0 bariera łożyskowa-1
+                0 bariera krew-mózg-1
+              0 zawalidroga-1
+              0 blok-11
+              0 ograniczenie-5
+              0 kobylina-1
+              28 przegroda-1
+                1 membrana-3, przepona-2
+                  0 membrana półprzepuszczalna-1, błona półprzepuszczalna-1, przegroda półprzepuszczalna-1
+                0 przęsło-5
+                3 zasłona-2
+                  VISITED 0 horyzont-1
+                  0 kotara-1, portiera-1
+                  0 kurtyna-1
+                0 lektorium-2
+                0 ikonostas-1
+                0 gródź-1, grodź-2
+                3 strop-1
+                  0 strop kleina-1
+                  0 strop gęstożebrowy-1
+                  0 stropodach-1
+                13 ściana-1
+                  0 ściana szkieletowa-1
+                  0 kosznica-1
+                  0 shoji-1
+                  0 horyzont-1
+                  0 nadstawka-1
+                  0 szczyt-7, ściana szczytowa-1
+                  6 mur-1
+                    0 spina-3
+                    0 ściana tęczowa-1
+                    3 elewacja-1
+                      0 ściana kurtynowa-1, elewacja kurtynowa-1
+                      1 fasada-1, front-5
+                        0 fronton-2
+                0 przepierzenie-1, parawan-1
+              0 zator-2
+              0 szlaban-2
+              0 barykada-2
+              9 bariera-2
+                0 bariera odłamkowa-1
+                1 kurtyna-3
+                  0 kurtyna skalna-1
+                0 falrep-1, linka poręczowa-1
+                0 bariera przeciwwypadkowa-1, bariera drogowa ochronna-1, bariera energochłonna-1
+                1 szlaban-1, zapora-4
+                  0 rogatka-1
+                1 barierka-2
+                  0 reling-1
+              20 zapora-3, tama-2
+                18 zapora inżynieryjna-1
+                  10 *zapora inżynieryjna ze względu na sposób wykonania i działania-1
+                    0 zapora elektryzowana-1
+                    7 zapora fortyfikacyjna-1
+                      0 zasieki-1
+                      2 zapora drutowa-1
+                        0 zapora stała-1
+                        0 zapora przenośna-1
+                      0 zapora drewniano-ziemna-1
+                      1 zapora ziemna-1
+                        VISITED 0 przeciwskarpa-1
+                    0 zapora minowa-1
+                  7 *zapora inżynieryjna ze względu na przeznaczenie-1
+                    0 zapora specjalnego przeznaczenia-1
+                    0 zapora przeciwdesantowa-1
+                    0 zapora przeciwtransportowa-1
+                    0 zapora przeciwpiechotna-1
+                    2 zapora przeciwpancerna-1
+                      0 zawała-1
+                      0 przeciwskarpa-1
+                0 kolczatka-3
+              5 przeszkoda-3
+                0 piramida-9
+                0 hopki-1
+                0 stacjonata-1
+                0 bramka-1
+                0 płotek-2
+              21 ogrodzenie-2
+                0 obstawa kamienna-1
+                0 koncertina-1
+                0 opłot-1
+                0 zeriba-1
+                0 szranki-1
+                0 elektryczny pastuch-1, elektryzator pastwiskowy-1
+                1 banda-4
+                  0 przechyłka-1
+                0 koszar-1, koszara-1
+                0 palisada-1, częstokół-1, ostrokół-1
+                0 drut kolczasty-1
+                1 żywopłot-1
+                  0 labirynt-5, błędnik-1
+                4 płot-1
+                  0 dylina-2, delina-2
+                  0 strążysko-1
+                  0 opłotki-1
+                  0 płotek-1
+                0 parkan-1
+                1 balustrada-1
+                  0 galeryjka-1
+          25 problem-1
+            0 kwadratura koła-2
+            0 sól w oku-1
+            4 kłopot-1
+              VISITED 0 przeboje-1, hocki-klocki-1
+              2 tarapaty-1, opresja-1, opały-1, kryzys-3
+                1 pasztet-4, kabała-3, kanał-11
+                  0 szambo-3, bagno-2, bagienko-1
+            3 bieda-2
+              2 gips-4, koks-5, bigos-2
+                VISITED 0 szambo-4
+                0 klops-2
+            1 węzeł-6
+              0 węzeł gordyjski-1
+            0 kukułcze jajo-1
+            6 strapienie-2, zmartwienie-4, troska-3, frasunek-1, zgryzota-1, utrapienie-2
+              0 skaranie boskie-1
+              0 męka pańska-2
+              0 przekleństwo-4
+              2 bolączka-1
+                1 choroba-2
+                  0 rak-9
+            0 szkopuł-1
+            0 rozterka-1, szamotanina-2, szarpanina-2
+            2 udręka-2, udręczenie-3
+              1 koszmar-2, zmora-1
+                0 szambo-4
+        0 matnia-1
+        0 paranoja-2
+        0 bryndza-2
+        11 *sytuacja materialna-1
+          0 upadłość konsumencka-1
+          0 kondycja finansowa-1
+          0 wypłacalność-1
+          2 bankructwo-1, krach-1, niewypłacalność-1, plajta-2, upadłość-1
+            0 niewypłacalność pracodawcy-1
+            0 niepłynność-3
+          1 bieda-1, niedostatek-3, ubóstwo-2, mortus-1, niezamożność-1, zubożenie-2
+            0 nędza-1, dziadostwo-3
+          2 bogactwo-2, zamożność-1, zasobność-1, majętność-2, dostatek-2, dobrobyt-1
+            0 nowobogackość-1
+            0 burżujstwo-1
+        0 wyjątek-1, odstępstwo-2, wyłom-1
+        0 ciuciubabka-1
+        0 niepogoda-2
+        0 klincz-1
+        0 tragikomedia-2, tragifarsa-2
+        0 bezdroże-2, manowce-2
+        0 abstrakcja-2
+        0 groteska-2
+        0 farsa-2
+        2 nieład-2
+          1 bezprawie-1, anarchia-1, samowola-2, bezkarność-1, bezkrólewie-1, swawola-3, bezład-2, nierząd-2, samowolność-2, bezrząd-1, anarchiczność-1
+            VISITED 0 bezhołowie-1
+        30 chaos-1, bezład-1, dezorganizacja-1, galimatias-1, mętlik-1, entropia-1
+          0 koniec świata-1
+          0 boruta-3
+          1 zgiełk-2
+            0 szum informacyjny-1
+          0 dwuwładza-1
+          0 rozstrój-3
+          0 pomieszanie z poplątaniem-1
+          0 dantejska scena-1
+          1 pandemonium-1
+            0 sądny dzień-3, dzień gniewu-4
+          0 bezhołowie-1
+          2 plątanina-3, gmatwanina-2
+            0 labirynt-4
+            VISITED 0 kotłowanina-1, kłębowisko-2, kotłowisko-1
+          16 zamieszanie-4, zamęt-1
+            0 gwałt-3
+            0 wieża Babel-2
+            0 huczek-4
+            1 obłęd-4
+              0 kociokwik-2
+            0 dom wariatów-1, wariatkowo-2, dom obłąkanych-2
+            0 krzątanina-1
+            0 kotłowanina-1, kłębowisko-2, kotłowisko-1
+            2 bieganina-1, latanina-1
+              1 bonanza-1
+                0 przeboje-1, hocki-klocki-1
+            4 sensacja-2
+              2 hałas-2
+                0 raban-1
+                0 wrzawa-2
+              0 szum-6
+        12 kryzys-1, zapaść-1
+          0 sytuacja podbramkowa-1
+          8 dekoniunktura-1, kryzys-2, zastój-2, recesja-2
+            0 stagnacja-2
+            0 kryzys finansowy-1
+            0 faza depresji-1
+            0 faza kryzysu-1
+            0 zapaść kredytowa-1
+            1 kryzys gospodarczy-1, krach gospodarczy-1, recesja gospodarcza-1, załamanie gospodarcze-1, zapaść gospodarcza-1, depresja gospodarcza-1, spowolnienie gospodarcze-1, osłabienie gospodarcze-1, zawirowanie gospodarcze-1, zachwianie gospodarcze-1, chaos gospodarczy-1, katastrofa gospodarcza-1
+              0 choroba holenderska-1
+            0 recesja-1
+          0 paraliż-3
+          0 stagnacja-1, zastój-3
+        5 zastój-1, marazm-1, śpiączka-3, impas-1
+          1 skostnienie-4, skostniałość-2
+            0 petryfikacja-1
+          1 martwy sezon-1
+            0 sezon ogórkowy-1, bezrybie-1
+          0 przestój-2
+        100 status-1, pozycja-1, status społeczny-1
+          0 status materialny-1
+          0 podsądność-1
+          1 pozycja społeczna-1
+            0 kariera-3
+          0 małość-6
+          0 urodzenie-2
+          0 ranga-1
+          91 miejsce-3, lokata-2
+            88 stopień-4
+              0 sternik motorowodny-1
+              0 jachtowy sternik morski-1, sternik morski-1
+              0 sternik jachtowy-1
+              1 szczebel-2
+                0 instancja-1
+              49 stopień służbowy-1
+                0 przodownik-3
+                0 komisarz-5
+                0 posterunkowy-2
+                45 stopień wojskowy-1, ranga-2, szarża-2
+                  0 komandor podporucznik-1
+                  0 komandor porucznik-1
+                  1 hetman-3
+                    0 hetman sahajdaczny-1, hetman sajdaczny-1
+                  0 chorąży sztabowy-1
+                  0 nadporucznik-2
+                  0 sztabskapitan-1
+                  0 wiceadmirał-2
+                  0 wachmistrz-2
+                  0 sierżant-2
+                  0 rotmistrz-2
+                  0 podpułkownik-2, ppłk-1
+                  0 podporucznik-2
+                  0 ogniomistrz-2
+                  0 oberlejtnant-2
+                  0 mat-3
+                  0 lejtnant-2
+                  0 kontradmirał-2
+                  0 komandor-5
+                  0 kapral-2
+                  0 kanonier-2
+                  1 generał-5
+                    0 generał brygady-1
+                  0 feldfebel-2
+                  0 bosmanmat-2
+                  0 bosman-3
+                  0 bombardier-3
+                  0 admirał-3
+                  0 porucznik-2
+                  0 marszałek-3
+                  0 kapitan-5, kpt-1
+                  0 feldmarszałek-3, marszałek polny-2, marszałek polowy-2
+                  0 chorąży-7
+                  1 brygadier-3
+                    0 podbrygadier-2
+                  0 plutonowy-1
+                  0 starszy szeregowy-1
+                  0 szeregowy-2
+                  0 frajter-2
+                  0 dej-1
+                  0 nadbrygadier-2
+                  0 pułkownik-2, płk-1
+                  0 major-2, mjr-1
+                  0 miczman-2
+                  0 esauł-2, asauł-1, asawuła-1, asauła-2
+              12 stopień naukowy-1
+                2 stopień naukowy-2
+                  0 doktor habilitowany-2, dr hab.-1
+                  0 doktor-3, dr-1
+                0 bakalaureat-1
+                0 konsulent-1
+                0 magister-3, mgr-1
+                0 profesor-2, prof.-1, tytuł naukowy-1
+                0 licencjat-4
+                0 profesura-1
+                0 magisterium-1
+                1 doktorat-1
+                  0 doktorat honoris causa-1, doktorat honorowy-1
+              19 stopień harcerski-1
+                0 ochotnik-3
+                0 starsza ochotniczka-1
+                0 bojowiec-3
+                0 włóczęga-3
+                0 harcerka Rzeczypospolitej-1
+                0 harcerz Rzeczypospolitej-1
+                0 harcerka orla-1
+                0 harcerz orli-1
+                0 samarytanka-2
+                0 ćwik-1
+                0 pionierka-5
+                0 odkrywca-3
+                0 wywiadowca-3
+                0 ochotniczka-2
+                0 młodzik-4
+                0 podharcmistrz-2
+                0 harcmistrz-2
+                0 tropicielka-2
+                0 wędrowniczka-2
+            0 wicemistrzostwo-1
+            0 mistrzostwo-2, championat-2, czempionat-2
+          0 margines-4, obrzeża-1, peryferie-2
+        5 próba-4, test-4
+          0 egzamin-3
+          0 wyzwanie-3
+          0 amerykanka-5
+          0 sprawdzian-2
+          0 próba ognia-1, próba ogniowa-1

@@ -1,0 +1,43 @@
+Time	State	Time,State,stan
+Hour	State	Arg,Time,w	Time,State,stan
+Hour	Time	Arg,Time,w
+HourNumber	State	Number,Hour,godzina	Arg,Time,w	Time,State,stan
+HourNumber	Time	Number,Hour,godzina	Arg,Time,w
+HourNumber	Hour	Number,Hour,godzina
+Day	State	Arg,Time,w	Time,State,stan
+Day	Time	Arg,Time,w
+DayNumber	State	Number,Day,dzień	Arg,Time,w	Time,State,stan
+DayNumber	Time	Number,Day,dzień	Arg,Time,w
+DayNumber	Day	Number,Day,dzień
+Month	State	Arg,Time,w	Time,State,stan
+Month	Time	Arg,Time,w
+Year	State	Arg,Time,w	Time,State,stan
+Year	Time	Arg,Time,w
+YearNumber	State	Number,Year,rok	Arg,Time,w	Time,State,stan
+YearNumber	Time	Number,Year,rok	Arg,Time,w
+YearNumber	Year	Number,Year,rok
+WeekDay	State	Arg,Time,w	Time,State,stan
+WeekDay	Time	Arg,Time,w
+Week	State	Arg,Time,w	Time,State,stan
+Week	Time	Arg,Time,w
+TimeOfDay	State	Arg,Time,w	Time,State,stan
+TimeOfDay	Time	Arg,Time,w
+TimeOrder	State	Arg,Time,w	Time,State,stan
+TimeOrder	Time	Arg,Time,w
+TimeApr	Time
+TimePoint	Time
+Street	Location
+Town	Location
+miasto	Town
+miasto	Location
+Quarter	Location
+dzielnica	Location
+OrganizationType	Division
+OrganizationName	Division
+Profession	Person
+nazwisko	Person
+LastName	Person
+imię	Person
+FirstName	Person
+Service	Instance
+

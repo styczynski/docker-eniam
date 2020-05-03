@@ -1,0 +1,48 @@
+# General resource path
+RESOURCES_PATH=../resources/
+
+# Localization of Walenty in TEI format
+WALENTY=/usr/share/walenty/walenty_20160412.xml
+
+# Port number for pre server
+PRE_PORT=3158
+#PRE_PORT=3258
+
+# Host name for pre server
+PRE_HOST=localhost
+
+# Path to the directory for parsed sentences
+RESULTS_PATH=../results/
+
+# Maximum number of generated solutions
+MAX_NO_SOLUTIONS=10
+
+# LCG parser timeout in seconds
+LCG_TIMEOUT=100
+
+# LCG parser memory size (maximum number of nodes of parsed term)
+LCG_NO_NODES=10000000
+
+# Number of parser processes
+NO_PROCESSES=4
+
+# Is Concraft enabled
+CONCRAFT_ENABLED=false
+
+# Path to Concraft
+CONCRAFT_PATH=../concraft/
+
+# Is MateParser enabled
+MATE_PARSER_ENABLED=false
+
+# Path to MateParser
+MATE_PARSER_PATH=../dependencyParser/basic/mate-tools/
+
+# Is Świgra enabled
+SWIGRA_ENABLED=false
+
+# Path to Świgra
+SWIGRA_PATH=../swigra/parser/
+
+# Is sentence selection enabled
+SENTENCE_SELECTION_ENABLED=false

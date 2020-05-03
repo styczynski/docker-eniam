@@ -1,0 +1,23 @@
+#! /bin/bash
+#
+# Author: Marcin Woliński
+# This file is in the public domain.
+
+name=`basename $1 .dcg`
+tmpname=mkdgm-$$.pl
+
+echo Converting $name.dcg to $name.pl:
+
+cat <<EOF >$tmpname
+:-[birnam_genparser,birnam_translate,birnam_sequences].
+:-translate('$name.dcg','$name.pl').
+:-halt.
+EOF
+
+swipl --tradtional -s $tmpname
+rm $tmpname
+
+### Local Variables: 
+### coding: utf-8
+### mode: shell-script
+### End: 

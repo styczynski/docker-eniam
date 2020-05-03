@@ -1,0 +1,450 @@
+@PARAM_NAMES
+
+  jak czy za do po o w na z u dla przeciwko celu żeby że 
+  bo jaki który to ile aby przed koło od poniżej pod przy między kto zamiast niż
+
+@SELPREF_NAMES
+
+  OrdNumber
+  Time WeekDay Day Month Year Hour Minute Week TimeOfDay TimeOrder Duration TimeApr TimePoint
+  HourNumber DayNumber YearNumber NumberFuture NumberPast
+  TimeAttr DayAttr YearAttr
+  Location Street StreetName Town TownName
+  Person PersonParam PersonDescription Profession ProfessionParam ProfessionParamDescription
+  Division OrganizationName OrganizationType OrganizationTypeParam OrganizationTypeDescription
+  Service ServiceParam Animal
+  Instance Price Name Confirmation Email ConfirmationDescription
+  HouseNumber Geolocus
+  Action Attitude State MentalState
+  Telephone miasto Quarter
+  Rating RegularityRate ServiceEffect
+  DivisionParam DivisionDescription
+  GenericDescription Measure RateDescription ServiceDescription  TimeDescription ServiceParamDescription
+  WebLocation InstanceStatus Reminder Y YParam X SpatialRelation GenderedPerson HourAttr
+  Issue IssueParam IssueDescription Interrogative
+  Other Reason PriceDescription
+  Payment PaymentParam PaymentDescription
+  OrdNumberUnit Number
+  MatchResult Url Email PhoneNumber PostalCode ObjectId BuildingNumber   
+
+  Event Interp Qub Conj Adj Adv Noun Pron Comp Symbol Prep Numcomp Aglt XX
+  
+@ROLE_NAMES
+
+  Arg Attr Name Doer SideAction Param Prtc Part RevPart PPart Number NumberFuture NumberPast
+  Goal X Y Agnt Agnt2 Thme Rcpt Client Manr
+  Instance Apoz Init Has Expr PApoz PHas Time PAttr Compar
+  Status
+  Lemma CORE null
+  Subj Obj NaAcc OAcc PoAcc PoPostp ZGen Jak Conj
+
+@LEXICON
+
+#lemma=</sentence>,pos2=interp: Y:
+#  ?\sit{null+xp+np(nom)+np(gen)+np(inst)+np(loc)+advp}:null[Time];
+
+
+#-----GENERIC DESCRIPTION-----
+
+lemma=dowolny|obojętny,pos2=adj: GenericDescription: ;
+lemma=dowolnie|obojętnie,pos2=adv: GenericDescription: ;
+
+lemma=którykolwiek|mój|swój|poprawny|preferowany|świetny|dany
+|odpowiedni|nieodpowiedni|proponowany|wskazany|konkretny|kolejny|następny|wolny|zaufany|przykładowy
+|różny|sam|ok|własny|zwykły,pos2=adj: GenericDescription: ;
+
+lemma=dobry,pos2=adj: GenericDescription:
+  {null+advp}: X[GenericDescription];
+
+lemma=każdy|taki|jakiś|któryś|wszystek|inny|jakikolwiek|żaden|ten,pos2=adj: GenericDescription: ;
+
+lemma=jeszcze|również|tylko,pos2=qub: GenericDescription: ;
+
+lemma=możliwie|wyjątkowo|maksymalnie|minimalnie|bardzo|dobrze|źle
+|chętnie|dokładnie|zdecydowanie|stanowczo|trochę|nieco|szczególnie,pos2=adv: GenericDescription: ;
+
+lemma=męski|żeński,pos2=adj:GenericDescription: ;
+
+lemma=zależnie,pos2=adv: GenericDescription: 
+   {prepnp(sem,_,gen)}: X[Time];
+
+# TODO możliwość może być parametryzowana przez czas itd.
+lemma=możliwy,pos2=adj: GenericDescription: ;
+lemma=możliwy,pos2=adj: State: ;
+
+lemma=zbyt|niezbyt,pos2=adv: GenericDescription: ;
+
+
+lemma=pozostały,pos2=adj: GenericDescription: ;
+#lemma=pierwszy|drugi|trzeci|czwarty|piąty|ostatni,pos2=adj: GenericDescription: ; #FIXME: trzeba w odpowiednich miejscach dodać OrdNumber
+lemma=dodatkowy,pos2=adj: GenericDescription: ;
+
+lemma=jaki|który,pos2=adj: Interrogative: ;
+lemma=co|kto,pos2=noun: Interrogative: ;
+
+lemma=jeden,pos2=adj,phrase=np: Number: ;
+
+include-lemmata=OrdNumber,pos2=adj: OrdNumber: ;
+include-lemmata=OrdNumberUnit,pos2=adj: OrdNumberUnit: ;
+include-lemmata=OrdNumberCompound,pos2=adj: OrdNumber: 
+  /local{adjp(agr)}: Lemma[OrdNumberUnit];
+
+pos2=ordnum: OrdNumber: ;
+
+pos2=symbol,pos=match-result,phrase=symbol: MatchResult: ;
+pos2=symbol,pos=url,phrase=symbol: Url: ;
+pos2=symbol,pos=email,phrase=symbol: Email: ;
+pos2=symbol,pos=phone-number,phrase=symbol: PhoneNumber: ;
+pos2=symbol,pos=postal-code,phrase=symbol: PostalCode: ;
+pos2=symbol,pos=obj-id,phrase=symbol: ObjectId: ;
+pos2=symbol,pos=building-number,phrase=symbol: BuildingNumber: ;
+
+lemma=chmara,pos2=noun,nsem=count,phrase=np: Measure: ;
+
+#--------TIME--------
+
+#oznaczenia godzin i minut
+
+lemma=minuta,pos2=noun,phrase=np: Minute: ;
+
+lemma=godzina,pos2=noun,number=sg,phrase=np:	Hour: 
+  \local{null+advp+qubp}: Attr[GenericDescription] *
+  local{null+adjp(agr)}: Attr[GenericDescription] *
+  local{null+adjp(agr)}: Attr[TimeDescription] *
+  local{null+adjp(agr)}: Attr[Interrogative] *
+  /local{adjp(agr)}:Number[HourNumber] *
+  {null+np(gen)}: Arg[Instance,Service] *               #DO SPRAWDZENIA 
+  local{null+adjp(agr)}: Attr[InstanceStatus] *          #DO SPRAWDZENIA 
+  local{null+adjp(agr)}: Attr[ServiceDescription] *       #DO SPRAWDZENIA 
+  {null+np(gen)}: RevPart[Minute];
+  
+lemma=godzina,pos2=noun,phrase=np:	Hour: 
+  \local{null+advp+qubp}: Attr[GenericDescription] *
+  local{null+adjp(agr)}: Attr[GenericDescription] *
+  local{null+adjp(agr)}: Attr[TimeDescription] *
+  local{null+adjp(agr)}: Attr[Interrogative] *
+  local{adjp(agr)}: Time[HourAttr] *
+  {null+np(gen)}: Arg[Instance,Service] *               #DO SPRAWDZENIA 
+  local{null+adjp(agr)}: Attr[InstanceStatus] *          #DO SPRAWDZENIA 
+  local{null+adjp(agr)}: Attr[ServiceDescription] *       #DO SPRAWDZENIA 
+  {null+np(gen)}: RevPart[Minute];
+
+#FIXME: tu trzeba dodać wymaganie podrzędnika, number=sg nie wystarcza
+lemma=godzina,pos2=noun,phrase=np:	Hour: 
+  \local{null+advp+qubp}: Attr[GenericDescription] *
+  local{null+adjp(agr)}: Attr[GenericDescription] *
+  local{null+adjp(agr)}: Attr[TimeDescription] *
+  local{null+adjp(agr)}: Attr[Interrogative] *
+   {null+np(gen)}: Arg[Instance,Service] *               #DO SPRAWDZENIA 
+  local{null+adjp(agr)}: Attr[InstanceStatus] *          #DO SPRAWDZENIA 
+  local{null+adjp(agr)}: Attr[ServiceDescription] *       #DO SPRAWDZENIA 
+  {null+np(gen)}: RevPart[Minute] *
+  {null+prepnp(sem,od,_)}: Time[HourAttr] *
+  {null+prepnp(sem,do,_)}: Time[HourAttr] *
+  {null+prepnp(sem,między,_)}: Time[HourAttr];
+  
+#lemma=godzina,pos2=noun,phrase=np:	Hour: #przydałoby się wymusić liczbę mnogą - jednak nie bo można zamiast niej użyć pojedynczej
+#  ?{null+prepnp(sem,_,_}: Apoz[HourAttr];
+
+lemma=popołudniowy|poranny|wieczorny|nocny|ranny|przedpołudniowy|okołopopołudniowy,pos2=adj,phrase=adjp: HourAttr: ;
+
+pos2=hour,phrase=np|adjp|xp: HourNumber: 
+  \local{null+advp+qubp}: PAttr[GenericDescription];
+
+lemma=
+  pierwszy|drugi|trzeci|czwarty|piąty|szósty|siódmy|ósmy|dziewiąty|dziesiąty|
+  jedenasty|dwunasty|trzynasty|czternasty|piętnasty|szesnasty|siedemnasty|
+  osiemnasty|dziewiętnasty|dwudziesty,pos2=adj,number=sg,gender=f,grad=pos,phrase=np|adjp: HourNumber: 
+  \local{null+advp+qubp}: PAttr[GenericDescription];
+
+lemma=dwudziesty,pos2=adj,number=sg,gender=f,grad=pos,phrase=np|adjp: HourNumber: 
+  \local{null+advp+qubp}: PAttr[GenericDescription] *
+  /local{adjp(agr)}: Lemma[OrdNumberUnit];
+
+lemma=południe|północ,pos2=noun,phrase=np: Hour:
+  \local{null+advp+qubp}: Attr[GenericDescription] *
+  local{null+adjp(agr)}: Attr[GenericDescription] *
+  local{null+adjp(agr)}: Attr[TimeDescription];
+
+#oznaczenia dat
+lemma=dzień,pos2=noun,phrase=np:	Day: 
+  \local{null+advp+qubp}: Attr[GenericDescription] *
+  local{null+adjp(agr)}: Attr[GenericDescription] *
+  local{null+adjp(agr)}: Attr[TimeDescription] *
+  local{null+adjp(agr)}: Attr[Interrogative] *
+  local{null+adjp(agr)}: Lemma[DayAttr] *
+  /local{null+adjp(agr)}: Number[DayNumber];# *
+#  {null+np(gen)}: X[Action,State];               #DO SPRAWDZENIA 
+
+lemma=roboczy|powszedni|świąteczny,pos2=adj,phrase=adjp:	DayAttr: ;
+
+pos2=day,phrase=np|adjp: DayNumber:
+  \local{null+advp+qubp}: Attr[GenericDescription] *
+  /local{null+np(gen)}: PPart[Month];
+
+pos2=day-month,phrase=np|adjp: DayNumber:
+  \local{null+advp+qubp}: Attr[GenericDescription] *
+  /local{null+np(gen)}: PPart[Year];
+
+pos2=date,phrase=np|adjp: DayNumber:
+  \local{null+advp+qubp}: Attr[GenericDescription];
+
+lemma=
+  pierwszy|drugi|trzeci|czwarty|piąty|szósty|siódmy|ósmy|dziewiąty|dziesiąty|
+  jedenasty|dwunasty|trzynasty|czternasty|piętnasty|szesnasty|siedemnasty|
+  osiemnasty|dziewiętnasty|dwudziesty|trzydziesty,pos2=adj,number=sg,gender=m3,grad=pos,phrase=np|adjp: DayNumber: 
+  \local{null+advp+qubp}: PAttr[GenericDescription];
+
+lemma=dwudziesty|trzydziesty,pos2=adj,number=sg,gender=m3,grad=pos,phrase=np|adjp: DayNumber: 
+  \local{null+advp+qubp}: PAttr[GenericDescription] *
+  /local{adjp(agr)}: Lemma[OrdNumberUnit];
+
+lemma=dziś|dzisiaj|jutro|pojutrze|popojutrze|wczoraj|przedwczoraj,pos2=adv,phrase=xp:	Day: 
+  \local{null+advp+qubp}: Attr[GenericDescription];
+
+lemma=styczeń|luty|marzec|kwiecień|maj|czerwiec|lipiec|sierpień|wrzesień|październik|listopad|grudzień,pos2=noun,phrase=np: Month:
+  \local{null+advp+qubp}: Attr[GenericDescription] *
+  local{null+adjp(agr)}: Attr[GenericDescription] *
+  local{null+adjp(agr)}: Attr[TimeDescription] *
+  /{null+np(gen)}: Part[Year];
+
+lemma=miesiąc,pos2=noun,phrase=np:	Month: 
+  \local{null+advp+qubp}: Attr[GenericDescription] *
+  local{null+adjp(agr)}: Attr[GenericDescription] *
+  local{null+adjp(agr)}: Attr[TimeDescription] *
+  local{null+adjp(agr)}: NumberFuture[NumberFuture] *
+  local{null+adjp(agr)}: NumberPast[NumberPast] *
+  local{null+adjp(agr)}: Attr[Interrogative] *
+  local{null+np(agr)}: Apoz[Month];
+
+pos2=year,phrase=np|adjp: YearNumber: 
+  \local{null+advp+qubp}: Attr[GenericDescription];
+
+lemma=rok,pos2=noun,phrase=np:	Year: 
+  \local{null+advp+qubp}: Attr[GenericDescription] *
+  local{null+adjp(agr)}: Attr[GenericDescription] *
+  local{null+adjp(agr)}: Attr[TimeDescription] *
+  local{null+adjp(agr)}: NumberFuture[NumberFuture] *
+  local{null+adjp(agr)}: NumberPast[NumberPast] *
+  local{null+adjp(agr)}: Attr[Interrogative] *
+  local{null+adjp(agr)}: Lemma[YearAttr] *
+  local{null+adjp(agr)}: Number[YearNumber];
+
+lemma=akademicki|kalendarzowy,pos2=adj,phrase=adjp: YearAttr: ;
+
+#oznaczenia dni tygodnia
+lemma=tydzień,pos2=noun,phrase=np:	Week: 
+  \local{null+advp+qubp}: Attr[GenericDescription] *
+  local{null+adjp(agr)}: Attr[GenericDescription] *
+  local{null+adjp(agr)}: Attr[TimeDescription] *
+  local{null+adjp(agr)}: NumberFuture[NumberFuture] *
+  local{null+adjp(agr)}: NumberPast[NumberPast] *
+  local{null+adjp(agr)}: Attr[Interrogative] *
+  \local{null+adjp(agr)}: Number[OrdNumber] *
+  /{null+np(gen)}: Part[Month,Year];
+
+lemma=poniedziałek|wtorek|środa|czwartek|piątek|sobota|niedziela|weekend|święto,pos2=noun,phrase=np: WeekDay: 
+  \local{null+advp+qubp}: Attr[GenericDescription] *
+  local{null+adjp(agr)}: Attr[GenericDescription] *
+  local{null+adjp(agr)}: Attr[TimeDescription] *
+  local{null+adjp(agr)}: NumberFuture[NumberFuture] *
+  local{null+adjp(agr)}: NumberPast[NumberPast] *
+  local{null+adjp(agr)}: Attr[Interrogative] *
+  \local{null+adjp(agr)}: Number[OrdNumber] *
+  /{null+np(gen)}: Part[Month,Year] *
+  /{null+xp}: Time[Time];
+
+#oznaczenia pór dnia
+lemma=pora|popołudnie|wieczór|noc,pos2=noun,phrase=np: TimeOfDay:
+  \local{null+advp+qubp}: Attr[GenericDescription] *
+  local{null+adjp(agr)}: Attr[GenericDescription] *
+  local{null+adjp(agr)}: Attr[TimeDescription];
+
+lemma=rano|nad ranem,pos2=adv,phrase=xp: TimeOfDay:
+  \local{null+advp+qubp}: Attr[GenericDescription];
+
+lemma=okolica,pos2=noun,phrase=np: TimeApr:
+  \local{null+advp+qubp}: Attr[GenericDescription] *
+  /{np(gen)}: Arg[Hour,Day,Month,Year,Week,WeekDay,TimeOfDay];
+
+lemma=koniec|zakończenie|początek,pos2=noun,phrase=np: TimePoint:
+  \local{null+advp+qubp}: Attr[GenericDescription] *
+  local{null+adjp(agr)}: Attr[GenericDescription] *
+  /{np(gen)}: Arg[Hour,Day,Month,Year,Week,WeekDay,TimeOfDay];
+
+#przyimki czasowe
+lemma=bez|do|koło|od|około|oprócz,pos2=prep,pos=x,phrase=xp:  Time: 
+   \{null+advp+qubp}: Attr[GenericDescription] *
+   /{np(gen)}: Arg[Hour,Day,Month,Year,Week,WeekDay];
+lemma=na,pos2=prep,pos=x,phrase=xp:  Time: 
+   \{null+advp+qubp}: Attr[GenericDescription] *
+   /{np(acc)}: Arg[Hour,Day,Month,Year,Week,WeekDay];
+lemma=o,pos2=prep,pos=x,phrase=xp:  Time: 
+   \{null+advp+qubp}: Attr[GenericDescription] *
+   /{np(loc)}: Arg[Hour,TimeOfDay];
+lemma=po|w,pos2=prep,pos=x,phrase=xp:  Time: 
+   \{null+advp+qubp}: Attr[GenericDescription] *
+   /{np(loc)}: Arg[Hour,Day,Month,Year,Week,TimeOfDay];
+lemma=między|poza|przed,pos2=prep,pos=x,phrase=xp:  Time: 
+   \{null+advp+qubp}: Attr[GenericDescription] *
+   /{np(inst)}: Arg[Hour,Day,Month,Year,Week,WeekDay];
+lemma=w,pos2=prep,pos=x,phrase=xp:  Time: 
+   \{null+advp+qubp}: Attr[GenericDescription] *
+   /{np(acc)}: Arg[WeekDay,Hour];
+lemma=po,pos2=prep,pos=x,phrase=xp:  Time: 
+   \{null+advp+qubp}: Attr[GenericDescription] *
+   /{np(loc)}: Arg[WeekDay];
+lemma=do|koło|od|około,pos2=prep,pos=x,phrase=xp:  Time: 
+   \{null+advp+qubp}: Attr[GenericDescription] *
+   /{np(gen)}: Arg[TimeOfDay];
+lemma=na|pod,pos2=prep,pos=x,phrase=xp:  Time: 
+   \{null+advp+qubp}: Attr[GenericDescription] *
+   /{np(acc)}: Arg[TimeOfDay];
+lemma=nad|poza|przed,pos2=prep,pos=x,phrase=xp:  Time: 
+   \{null+advp+qubp}: Attr[GenericDescription] *
+   /{np(inst)}: Arg[TimeOfDay];
+lemma=za,pos2=prep,pos=x,phrase=xp:  Time: 
+   \{null+advp+qubp}: Attr[GenericDescription] *
+   /{np(acc)}: Arg[Duration];
+lemma=od,pos2=prep,pos=x,phrase=xp:  Time: 
+   \{null+advp+qubp}: Attr[GenericDescription] *
+   /{np(gen)}: Arg[Duration];
+lemma=od|do,pos2=prep,pos=x,phrase=xp:  Duration: 
+   \{null+advp+qubp}: Attr[GenericDescription] *
+   /{np(gen)}: Arg[Duration];
+lemma=w,pos2=prep,pos=x,phrase=xp:  Time:
+   \{null+advp+qubp}: Attr[GenericDescription] *
+   /{np(loc)}: Arg[TimeApr,TimeOfDay];
+lemma=na|pod,pos2=prep,pos=x,phrase=xp:  Time: 
+   \{null+advp+qubp}: Attr[GenericDescription] *
+   /{np(acc)}: Arg[TimePoint];
+lemma=na,pos2=prep,pos=x,phrase=xp:  Time: 
+   \{null+advp+qubp}: Attr[GenericDescription] *
+   /{np(loc)}: Arg[TimePoint];
+
+lemma=do|od,pos2=prep,pos=x,phrase=xp:  HourAttr: 
+   \{null+advp+qubp}: Attr[GenericDescription] *
+   /{np(gen)}: Arg[Hour];
+lemma=między,pos2=prep,pos=x,phrase=xp:  HourAttr: 
+   \{null+advp+qubp}: Attr[GenericDescription] *
+   /{np(inst)}: Arg[Hour];
+
+lemma=za|zbyt|niezbyt,pos2=prep,pos=x,phrase=xp:  Time: 
+   \{null+advp+qubp}: Attr[GenericDescription] *
+   /{advp(pos)}: Arg[TimeOrder];
+
+lemma=jak,pos2=prep,pos=x,phrase=xp:  Time: 
+   \{null+advp+qubp}: Attr[GenericDescription] *
+   /{advp(sup)}: Arg[TimeOrder];
+
+lemma=wtedy|teraz|poprzednio|obecnie|potem,pos2=adv,phrase=xp: Time: ;
+
+#FIXME: To się zachowuje jak przyimek
+#blisko, bliżej, jak najbliżej
+lemma=blisko,pos2=adv,phrase=advp|xp:  Time: 
+   \{null+advp+qubp}: Attr[GenericDescription] *
+   /{np(gen)}: Arg[Hour];
+
+lemma=wcześnie|późno|szybko,pos2=adv,grad=pos|sup,phrase=advp|xp: TimeOrder: 
+  \local{null+advp+qubp}: Attr[GenericDescription];
+
+lemma=wcześnie|późno|szybko,pos2=adv,grad=com,phrase=advp|xp: TimeOrder: 
+  \local{null+advp+qubp}: Attr[GenericDescription] *
+  /{null+comparp(nosem,niż,postp)}: Compar[Time];
+
+lemma=długo|krótko,pos2=adv,phrase=xp: Duration: ;
+
+#FIXME: szybki to również DurationDescription - "szybka" wizyta
+lemma=bliski|daleki|wczesny|późny|szybki,pos2=adj,phrase=adjp: TimeDescription: ;
+
+lemma=przyszły|bieżący|nadchodzący|następny,pos2=adj,phrase=adjp: NumberFuture: ;
+lemma=bieżący|poprzedni|miniony,pos2=adj,phrase=adjp: NumberPast: ;
+
+
+pos2=verb: Event: 
+  subj,controller3{pro+np(str)}: Subj[XX] *
+  {refl}: Obj[XX] *
+  {null+xp}: Arg[XX] *
+  {null+np(gen)+xp}: Time[Time] *
+  {null+prepnp(nosem,na,acc)}: NaAcc[XX] *
+  {null+prepnp(nosem,o,acc)}: OAcc[XX] *
+  {null+prepnp(nosem,po,acc)}: PoAcc[XX] *
+  {null+prepadjp(z,gen)}: ZGen[XX] *
+  {null+prepadjp(po,postp)}: PoPostp[XX] *
+  {null+comparp(nosem,jak,_)}: Jak[XX] *
+  distant,controllee3{null+padvp}: Conj[Event];
+pos2=verb: Event: 
+  subj,controller3{pro+np(str)}: Subj[XX] *
+  obj{null+np(str)}: Obj[XX] *
+  {null+xp}: Arg[XX] *
+  {null+np(gen)+xp}: Time[Time] *
+  {null+prepnp(nosem,na,acc)}: NaAcc[XX] *
+  {null+prepnp(nosem,o,acc)}: OAcc[XX] *
+  {null+prepnp(nosem,po,acc)}: PoAcc[XX] *
+  {null+prepadjp(z,gen)}: ZGen[XX] *
+  {null+prepadjp(po,postp)}: PoPostp[XX] *
+  {null+comparp(nosem,jak,_)}: Jak[XX] *
+  distant,controllee3{null+padvp}: Conj[Event];
+pos2=verb: Event: 
+  subj,controller3{pro+np(str)}: Subj[XX] *
+  {infp}: Obj[Event] *
+  {null+xp}: Arg[XX] *
+  {null+np(gen)+xp}: Time[Time] *
+  {null+prepnp(nosem,na,acc)}: NaAcc[XX] *
+  {null+prepnp(nosem,o,acc)}: OAcc[XX] *
+  {null+prepnp(nosem,po,acc)}: PoAcc[XX] *
+  {null+prepadjp(z,gen)}: ZGen[XX] *
+  {null+prepadjp(po,postp)}: PoPostp[XX] *
+  {null+comparp(nosem,jak,_)}: Jak[XX] *
+  distant,controllee3{null+padvp}: Conj[Event];
+lemma=być,pos2=verb: Event: 
+  subj,controller3{pro+np(str)}: Subj[XX] *
+  {null+adjp(nom)}: Obj[XX,Event] *
+  distant,controllee3{null+padvp}: Conj[Event];
+lemma=być,pos2=verb: Event: 
+  subj,controller3{pro+np(str)}: Subj[XX] *
+  {np(inst)}: Obj[XX] *
+  distant,controllee3{null+padvp}: Conj[Event];
+
+lemma=pod,pos2=prep,pos=x,phrase=xp:  XX: 
+   \{null+advp+qubp}: Attr[GenericDescription] *
+   /{np(acc)}: Arg[XX];
+lemma=przez,pos2=prep,pos=x,phrase=xp:  XX: 
+   \{null+advp+qubp}: Attr[GenericDescription] *
+   /{np(acc)}: Arg[XX];
+lemma=po,pos2=prep,pos=x,phrase=xp:  Time: 
+   \{null+advp+qubp}: Attr[GenericDescription] *
+   /{np(loc)}: Arg[Event];
+
+lemma=rysunek,pos2=noun: XX: 
+  /{null+symbolp}: Name[ObjectId];
+
+pos2=interp: Interp: ;
+pos2=qub: Qub: ;
+pos2=interj: Attitude: ;
+pos2=conj: Conj: ;
+pos2=adj: XX: 
+  \{null+advp}: Manr[XX,GenericDescription] * 
+  local\{null+adja}: Apoz[XX,GenericDescription];
+pos2=adv: XX: ;
+pos2=noun: XX: 
+  \{null+adjp(agr)}: Number[OrdNumber] *
+  ?\{null+adjp(agr)}: Attr[XX,GenericDescription,Event]; #FIXME: niepotrzebny null
+pos2=pron: XX: ;
+pos2=comp: Comp: ;
+pos2=sinterj: Attitude: ;
+pos2=num: Number: ;
+pos2=symbol: Symbol: ;
+pos2=prep: Prep: ;
+pos2=numcomp: Numcomp: ;
+pos2=aglt: Aglt: ;
+
+#problem z godziną jako podmiotem a nie okolicznikiem czasu, Ciche dni fruną.
+#problem z rysunkiem bez id
+#może warto wprowadzić priorytety na regułach.
+#zbyt wiele interpretacji dla obj-id (nie rozpoznaje pos?)
+#niepoprawne etykiety niejednoznacznosci
+#teorię czasu trzeba poprawić, żeby była mniej szczegółowa
+#ignorowanie multi
+#adjc stawia opór
+#reprezentacja semantyczna imiesłowów przymiotnikowych

@@ -1,0 +1,131 @@
+Time	Has	Day
+#dnia 23
+Time	Has	Month
+Time	Has	Year
+Time	Has	WeekDay
+Time	Has	Hour
+Time	Has	TimeOfDay
+
+Hour	Prtc	Instance
+Hour	Attr	GenericDescription
+
+#miasto Warszawa
+Location	Has	Town
+Location	Has	Quarter
+Location	Has	Street
+Location	Has	HouseNumber
+
+Location	Prtc	Service
+Location	Attr	GenericDescription
+Location	Attr	Attitude
+
+Division	Has	OrganizationType
+Division	Has	OrganizationName
+Division	Has	Location
+Division	Has	Rating
+
+Person	Attr	GenericDescription
+Person	Attr	PersonDescription
+Person	Has	Profession
+#zawód hydraulik
+Person	Has	FirstName
+#imię Jan
+Person	Has	LastName
+#nazwisko Kowalski
+Profession	Has	ProfessionParam
+ProfessionParam	Attr	ProfessionParamDescription
+
+Name	Prtc	Person
+
+Service	Doer	Person
+Service	Doer	Division
+Service	Param	ServiceParam
+Service	Param	Animal
+Service	Goal	Service
+Service	Has	Time
+Service	Has	Location
+Service	SideAction	Service
+Service	Attr	ServiceDescription
+Service	Has	Confirmation
+Service	Has	Price
+
+ServiceParam	Prtc	Service
+ServiceParam	Attr	ServiceParamDescription
+ServiceParam	Attr	GenericDescription
+ServiceParam	Prtc	Instance
+
+Animal	Attr	GenericDescription
+
+OrganizationType	Attr	OrganizationTypeDescription
+OrganizationType	Param	OrganizationTypeParam
+
+Instance	Has	Service
+Instance	Doer	Person
+Instance	Doer	Division
+Instance	Has	Time
+Instance	Has	Location
+Instance	Has	Price
+Instance	Client	Name
+Instance	Has	Confirmation
+Instance	Status	InstanceStatus
+Instance	Attr	GenericDescription
+
+#FIXME: czy nie lepiej byłoby: Price	Measure	Amount
+Price	Count	Number
+Price	Attr	RateDescription
+
+Rating	Prtc	Person
+#FIXME: w poniższym trzeba zmienić relację lub typ
+Rating	Measure	Measure
+Rating	Attr	GenericDescription
+
+Confirmation	Thme	Instance
+Confirmation	Attr	ConfirmationDescription
+
+Reminder	Thme	Instance
+
+Action	Agnt	Person
+Action	Doer	Person
+Action	Client	Person
+Action	Client	Animal
+Action	Thme	Instance
+Action	Thme	Service
+Action	Thme	Confirmation
+Action	Doer	Division
+Action	Has	Time
+Action	Has	Location
+Action	Thme	Location
+Action	Thme	Time
+Action	Thme	ServiceParam
+Action	Thme	Division
+Action	Thme	Name
+Action	Thme	Rating
+Action	Thme	Email
+Action	Thme	Reminder
+Action	Goal	Instance
+
+		Service
+
+Attitude	Thme	Situation
+#FIXME: poniższe wymaga przemyślena użycia kontekstów
+Attitude	Thme	Action
+Attitude	Thme	Instance
+Attitude	Thme	Confirmation
+Attitude	Thme	Action
+Attitude	Agnt	Person
+Attitude	Agnt2	Person
+Attitude	Manr	GenericDescription
+
+MentalState	Expr	Person
+MentalState	Thme	Time
+MentalState	Thme	Instance
+MentalState	Thme	Rating
+MentalState	Thme	ServiceParam
+
+State	Agnt	Person
+State	Thme	Instance
+State	Attr	GenericDescription
+State	Thme	ServiceParam
+State	Thme	Division
+
+Situation	Next	Situation

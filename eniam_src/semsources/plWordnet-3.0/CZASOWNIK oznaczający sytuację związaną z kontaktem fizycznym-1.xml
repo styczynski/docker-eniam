@@ -1,0 +1,2621 @@
+<node name="CZASOWNIK oznaczający sytuację związaną z kontaktem fizycznym-1" size="1970" abstract="true">
+  <node name="CZASOWNIK - ZDARZENIE NDK oznaczający kontakt fizyczny, który wpływa na obiekt-1" size="72" abstract="true">
+    <node name="obruszać-2" size="0"/>
+    <node name="opierzać-1" size="0"/>
+    <node name="odbijać-2" size="0"/>
+    <node name="przysypywać-2" size="0"/>
+    <node name="utykać-5, więznąć-1, grzęznąć-1" size="0"/>
+    <node name="uszkadzać-1" size="66">
+      <node name="zarysowywać-1" size="0"/>
+      <node name="kancerować-1" size="1">
+        <node name="rysować-3" size="0"/>
+      </node>
+      <node name="zacierać-1" size="0"/>
+      <node name="psuć-3" size="2">
+        <node name="palić-9" size="0"/>
+        <node name="naruszać-2" size="0"/>
+      </node>
+      <node name="szczerbić-1, wyszczerbiać-1" size="0"/>
+      <node name="podgryzać-2, podjadać-3, podżerać-3" size="0"/>
+      <node name="obrywać-1" size="0"/>
+      <node name="przepalać-1" size="0"/>
+      <node name="rozregulowywać-1, rozstrajać-2" size="0"/>
+      <node name="zadzierać-2, naddzierać-2" size="0"/>
+      <node name="nadwyrężać-1, nadwerężać-1, nadwątlać-1, nadszarpywać-2" size="3">
+        <node name="forsować-2" size="0"/>
+        <node name="naciągać-4" size="0"/>
+        <node name="zdzierać-5" size="0"/>
+      </node>
+      <node name="nadszarpywać-1" size="1">
+        <node name="podrywać-4" size="0"/>
+      </node>
+      <node name="zadrapywać-1" size="0"/>
+      <node name="rozjeżdżać-2" size="0"/>
+      <node name="okaleczać-2" size="0"/>
+      <node name="obijać-3, obtłukiwać-1" size="2">
+        <node name="utłukiwać-1" size="1">
+          <node name="odbijać-10, obtłukiwać-2" size="0"/>
+        </node>
+      </node>
+      <node name="dziurawić-1, przedziurawiać-1" size="14">
+        <node name="nakłuwać-2" size="0"/>
+        <node name="przewiercać-1" size="1">
+          <node name="prześwidrowywać-1" size="0"/>
+        </node>
+        <node name="przestrzeliwać-1" size="0"/>
+        <node name="przerywać-7" size="0"/>
+        <node name="przebijać-2" size="8">
+          <node name="przeszywać-4" size="0"/>
+          <node name="wybijać-7" size="0"/>
+          <node name="przekłuwać-1" size="1">
+            <node name="nakłuwać-3" size="0"/>
+          </node>
+          <node name="kłuć-3" size="3">
+            <node name="dźgać-1, żgać-1" size="0"/>
+            <node name="żądlić-1" size="0"/>
+            <node name="bóść-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="parzyć-1, piec-1, prażyć-1" size="0"/>
+      <node name="kaleczyć-1, kiereszować-1" size="25">
+        <node name="ranić-2" size="0"/>
+        <node name="rozwalać-5" size="0"/>
+        <node name="zacinać-3" size="0"/>
+        <node name="sztyletować-1" size="0"/>
+        <node name="przygryzać-1" size="0"/>
+        <node name="ocierać-1, obcierać-1, ścierać-4" size="0"/>
+        <node name="rozcinać-2" size="0"/>
+        <node name="haratać-1" size="0"/>
+        <node name="ciąć-1, ucinać-3, kąsać-3" size="1">
+          <node name="żądlić-1" size="0"/>
+        </node>
+        <node name="zdzierać-3" size="0"/>
+        <node name="przecinać-5" size="6"/>
+        <node name="rozszarpywać-1" size="0"/>
+        <node name="okaleczać-3" size="1">
+          <node name="oślepiać-3" size="0"/>
+        </node>
+        <node name="rozpruwać-1" size="0"/>
+        <node name="obijać-1" size="0"/>
+        <node name="urażać-1" size="0"/>
+        <node name="kąsać-1, gryźć-1" size="0"/>
+      </node>
+    </node>
+  </node>
+  <node name="CZASOWNIK - ZDARZENIE NDK oznaczający kontakt fizyczny-1" size="13" abstract="true">
+    <node name="ulegać wypadkom-1" size="1">
+      <node name="rozbijać się-7" size="0"/>
+    </node>
+    <node name="uderzać-3" size="8">
+      <node name="stukać-4, pukać-4" size="0"/>
+      <node name="rozbijać się-4" size="0"/>
+      <node name="chlastać-1" size="0"/>
+      <node name="kopać-8" size="0"/>
+      <node name="obijać się-1" size="1">
+        <node name="kołatać się-3" size="0"/>
+      </node>
+      <node name="trzaskać-3, walić-1, hukać-1, grzmocić-1, rąbać-6" size="0"/>
+      <node name="siekać-3, chłostać-2, smagać-2" size="0"/>
+    </node>
+    <node name="rozbijać się-2" size="1">
+      <node name="roztrzaskiwać się-1" size="0"/>
+    </node>
+  </node>
+  <node name="CZASOWNIK - CZYNNOŚĆ NDK oznaczający kontakt fizyczny, który wpływa na obiekt-1" size="92" abstract="true">
+    <node name="uruchamiać-3, uruchomiać-3" size="17">
+      <node name="otwierać-6" size="0"/>
+      <node name="odblokowywać-3" size="0"/>
+      <node name="włączać-5" size="14">
+        <node name="restartować-1, resetować-1" size="1">
+          <node name="resetować-2" size="0"/>
+        </node>
+        <node name="zapalać-2, świecić-4, zaświecać-1" size="1">
+          <node name="migać-4" size="0"/>
+        </node>
+        <node name="dzwonić-2" size="0"/>
+        <node name="puszczać-12" size="0"/>
+        <node name="odkręcać kurek-1" size="2">
+          <node name="odkręcać gaz-1" size="0"/>
+          <node name="odkręcać wodę-1" size="0"/>
+        </node>
+        <node name="włączać-2" size="0"/>
+        <node name="włączać-6" size="0"/>
+        <node name="zapalać-4" size="2">
+          <node name="odpalać-7" size="0"/>
+          <node name="odpalać-6, zapuszczać-5" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="wybijać-4" size="2">
+      <node name="odbijać-10, obtłukiwać-2" size="0"/>
+      <node name="wytrącać-2" size="0"/>
+    </node>
+    <node name="naciskać-3, przyciskać-2, uciskać-1" size="24">
+      <node name="dociskać-1" size="1">
+        <node name="dobijać-6" size="0"/>
+      </node>
+      <node name="klikać-1" size="0"/>
+      <node name="napierać-3, przeć-3" size="0"/>
+      <node name="przyduszać-2" size="0"/>
+      <node name="trzeć-2" size="6">
+        <node name="łasić się-1" size="0"/>
+        <node name="pocierać-1" size="2">
+          <node name="drapać-2" size="1">
+            <node name="skrobać-3" size="0"/>
+          </node>
+        </node>
+        <node name="masować-1, rozmasowywać-1" size="1">
+          <node name="rozcierać-2" size="0"/>
+        </node>
+      </node>
+      <node name="przygniatać-2" size="7">
+        <node name="przytłaczać-2" size="0"/>
+        <node name="przysiadać-3, przysiadywać-2" size="0"/>
+        <node name="przytrzaskiwać-1" size="0"/>
+        <node name="przywalać-5" size="0"/>
+        <node name="przybijać-4" size="1">
+          <node name="opieczętowywać-2" size="0"/>
+        </node>
+        <node name="zasypywać-4" size="0"/>
+      </node>
+      <node name="następować-2, nadeptywać-1" size="3">
+        <node name="wchodzić-14" size="1">
+          <node name="włazić-8" size="0"/>
+        </node>
+        <node name="deptać-6, przydeptywać-1" size="0"/>
+      </node>
+    </node>
+    <node name="zamykać-4, zawierać-2" size="31">
+      <node name="zamykać na trzy spusty-1" size="0"/>
+      <node name="zaciągać-3" size="0"/>
+      <node name="przymykać-1" size="0"/>
+      <node name="zawalać-4" size="0"/>
+      <node name="zapinać-1" size="3">
+        <node name="zapinać się-2" size="0"/>
+        <node name="dopinać-2" size="1">
+          <node name="dopinać się-1" size="0"/>
+        </node>
+      </node>
+      <node name="zakrywać-3" size="1">
+        <node name="przykrywać-3" size="0"/>
+      </node>
+      <node name="ryglować-2, zaryglowywać-1" size="0"/>
+      <node name="zaślepiać-2" size="0"/>
+      <node name="zatrzaskiwać-2" size="0"/>
+      <node name="zatrzaskiwać-3, przytrzaskiwać-2" size="0"/>
+      <node name="zawiązywać-9" size="1">
+        <node name="sznurować-4" size="0"/>
+      </node>
+      <node name="zakręcać-5" size="2">
+        <node name="nakręcać-5" size="0"/>
+        <node name="dokręcać-3" size="0"/>
+      </node>
+      <node name="zabijać-7" size="0"/>
+      <node name="zatykać-2, zapychać-2" size="8">
+        <node name="zalewać-7" size="0"/>
+        <node name="uszczelniać-1" size="2">
+          <node name="hermetyzować-2" size="0"/>
+          <node name="iłować-1" size="0"/>
+        </node>
+        <node name="szpuntować-1, czopować-1, zaczopowywać-1" size="0"/>
+        <node name="kneblować-1" size="0"/>
+        <node name="przytykać-3" size="0"/>
+        <node name="korkować-3" size="0"/>
+      </node>
+      <node name="mrużyć-1, przymrużać-1, zmrużać-1" size="0"/>
+      <node name="domykać-1" size="0"/>
+    </node>
+    <node name="bić-5, dawać-4, lać-3, okładać-1, młócić-1, prać-2" size="13">
+      <node name="przekładać przez kolano-1" size="0"/>
+      <node name="dawać wycisk-1" size="0"/>
+      <node name="policzkować-1" size="0"/>
+      <node name="pałować-1" size="0"/>
+      <node name="masakrować-1" size="0"/>
+      <node name="trzepać-6" size="0"/>
+      <node name="boksować-1" size="0"/>
+      <node name="katować-1" size="0"/>
+      <node name="chłostać-1, siekać-2, smagać-1, siec-1" size="3">
+        <node name="zacinać-2" size="0"/>
+        <node name="batożyć-1" size="0"/>
+        <node name="biczować-1" size="0"/>
+      </node>
+      <node name="tłuc-4, grzać-3" size="0"/>
+    </node>
+  </node>
+  <node name="CZASOWNIK - CZYNNOŚĆ NDK oznaczający kontakt fizyczny-1" size="163" abstract="true">
+    <node name="chwytać się-1, łapać się-1, czepiać się-1" size="2"/>
+    <node name="wycałowywać-1" size="0"/>
+    <node name="mocować się-1, siłować się-1, zmagać się-1" size="0"/>
+    <node name="czesać-2" size="2">
+      <node name="szczotkować-2" size="0"/>
+      <node name="przeczesywać-2" size="0"/>
+    </node>
+    <node name="kreślić-1, mazać-1" size="9">
+      <node name="zamazywać-1" size="0"/>
+      <node name="zakreślać-2" size="0"/>
+      <node name="rysować-1" size="6">
+        <node name="wykreślać-3" size="0"/>
+        <node name="dorysowywać-2" size="0"/>
+        <node name="zakreślać-1" size="0"/>
+        <node name="rysować z natury-1" size="0"/>
+        <node name="szkicować-2" size="0"/>
+        <node name="podkreślać-2" size="0"/>
+      </node>
+    </node>
+    <node name="sterować-1" size="9">
+      <node name="taktować-1" size="0"/>
+      <node name="kierować-2, prowadzić-7" size="7">
+        <node name="żeglować-3" size="0"/>
+        <node name="powozić-1, furmanić-1" size="0"/>
+        <node name="pilotować-1" size="0"/>
+        <node name="panować-4" size="1">
+          <node name="utrzymywać-10" size="0"/>
+        </node>
+        <node name="manewrować-2" size="0"/>
+        <node name="halsować-1, lawirować-2" size="0"/>
+      </node>
+    </node>
+    <node name="walczyć-4, bić się-1" size="35">
+      <node name="krzyżować-5" size="0"/>
+      <node name="przelewać krew-1" size="0"/>
+      <node name="fechtować się-1, fechtować-1" size="0"/>
+      <node name="bronić się-5" size="0"/>
+      <node name="pojedynkować się-1" size="0"/>
+      <node name="boksować się-1" size="0"/>
+      <node name="blokować-5" size="0"/>
+      <node name="potykać się-1" size="0"/>
+      <node name="harcować-1" size="0"/>
+      <node name="wojować-2" size="0"/>
+      <node name="strzelać-2, wystrzeliwać-1, bić-3, kropić-3, łupać-3, przygrzewać-3, rąbać-3, pukać-3, tłuc-5, walić-2, wygarniać-1, wypalać-2, dogrzewać-5" size="8">
+        <node name="prać-3" size="0"/>
+        <node name="wstrzeliwać-2" size="0"/>
+        <node name="nieść-3" size="0"/>
+        <node name="przenosić-6" size="0"/>
+        <node name="prażyć-4" size="0"/>
+        <node name="siać-6" size="0"/>
+        <node name="pruć-3" size="0"/>
+        <node name="dublować-5" size="0"/>
+      </node>
+      <node name="bronić-2, odpierać-1, odrzucać-7" size="3">
+        <node name="odparowywać-1, parować-3" size="0"/>
+        <node name="utrzymywać-5" size="0"/>
+        <node name="osłaniać-4" size="0"/>
+      </node>
+      <node name="atakować-1, nacierać-1, iść-13, najeżdżać-1, napierać-1, szturmować-1, uderzać-5" size="11">
+        <node name="szarżować-1" size="0"/>
+        <node name="desantować-1, desantować się-1" size="0"/>
+        <node name="ścierać się-3" size="0"/>
+        <node name="wchodzić-8" size="2">
+          <node name="wkraczać-2" size="1">
+            <node name="wdzierać się-6" size="0"/>
+          </node>
+        </node>
+        <node name="kontratakować-1" size="1">
+          <node name="ripostować-2" size="0"/>
+        </node>
+        <node name="ostrzeliwać-1, obstrzeliwać-1" size="0"/>
+        <node name="bombardować-1" size="0"/>
+        <node name="flankować-1" size="0"/>
+      </node>
+    </node>
+    <node name="trzymać-1" size="3">
+      <node name="utrzymywać-6" size="1">
+        <node name="podtrzymywać-2, przytrzymywać-2" size="0"/>
+      </node>
+      <node name="przetrzymywać-4" size="0"/>
+    </node>
+    <node name="dotykać-1, tykać-1, dotykać się-4" size="86">
+      <node name="ocierać się-2" size="0"/>
+      <node name="ocierać się-1" size="0"/>
+      <node name="uderzać się-1" size="0"/>
+      <node name="zaciskać-1, ściskać-1" size="11">
+        <node name="zwierać-1" size="0"/>
+        <node name="zaciągać-1" size="0"/>
+        <node name="zadzierzgać-2, zadzierzgiwać-2" size="0"/>
+        <node name="zacieśniać-1" size="0"/>
+        <node name="zacinać-4" size="0"/>
+        <node name="szczypać-3" size="1">
+          <node name="podszczypywać-1, podskubywać-1" size="0"/>
+        </node>
+        <node name="spinać-3" size="0"/>
+        <node name="zbierać-6" size="0"/>
+        <node name="prasować-1" size="1">
+          <node name="belować-1" size="0"/>
+        </node>
+      </node>
+      <node name="obmacywać-1, macać-1" size="0"/>
+      <node name="uderzać-2, stukać-1" size="40">
+        <node name="podbijać-4" size="0"/>
+        <node name="pukać-2" size="0"/>
+        <node name="chlastać-3" size="0"/>
+        <node name="klaskać-2" size="0"/>
+        <node name="tupać-1" size="1">
+          <node name="przytupywać-1" size="0"/>
+        </node>
+        <node name="trącać się-1" size="0"/>
+        <node name="kiksować-3" size="0"/>
+        <node name="palcować-1" size="0"/>
+        <node name="bić-2" size="0"/>
+        <node name="głuszyć-3, ogłuszać-3" size="0"/>
+        <node name="przybijać-3, przyklepywać-1" size="1">
+          <node name="przybijać piątkę-1" size="0"/>
+        </node>
+        <node name="dziobać-4, dzióbać-1" size="0"/>
+        <node name="uderzać-1, zadawać cios-1, zadawać raz-1, wymierzać-2, dawać łupnia-1" size="8">
+          <node name="chlastać-2" size="0"/>
+          <node name="dowalać-1, dosuwać-1, przykładać-2, przysalać-1, przysuwać-2, zasuwać-2" size="0"/>
+          <node name="trzaskać-3, walić-1, hukać-1, grzmocić-1, rąbać-6" size="0"/>
+          <node name="ciąć-3" size="0"/>
+          <node name="rąbać-9" size="0"/>
+          <node name="nokautować-1" size="0"/>
+          <node name="tłuc-1, przydzwaniać-1, przywalać-1, przygrzewać-2, dogrzewać-4, łupać-4, rypać-4, rżnąć-3" size="0"/>
+          <node name="zaprawiać-3, strzelać-1, kropić-4, chlustać-1, machać-3" size="0"/>
+        </node>
+        <node name="podcinać-2" size="0"/>
+        <node name="kłapać-2, plaskać-1, klapać-1" size="3">
+          <node name="klaskać-3" size="0"/>
+          <node name="kląskać-1" size="0"/>
+          <node name="człapać-2" size="0"/>
+        </node>
+        <node name="bębnić-1" size="0"/>
+        <node name="potrącać-2, trącać-1" size="3">
+          <node name="popychać-4" size="0"/>
+          <node name="kuksać-1" size="0"/>
+          <node name="szturchać-1" size="0"/>
+        </node>
+        <node name="klepać-1" size="1">
+          <node name="poklepywać-1" size="0"/>
+        </node>
+        <node name="kopać-2" size="4">
+          <node name="butować-1" size="0"/>
+          <node name="wykopywać-3" size="0"/>
+          <node name="odkopywać-2" size="0"/>
+          <node name="wierzgać-3" size="0"/>
+        </node>
+      </node>
+      <node name="macać-2" size="0"/>
+      <node name="lizać-1" size="1">
+        <node name="oblizywać-1" size="0"/>
+      </node>
+      <node name="przylegać-1, obciskać-1, oblepiać-1, opinać-1, opinać się-1" size="14">
+        <node name="wpijać się-2" size="0"/>
+        <node name="przystawać-5" size="0"/>
+        <node name="lgnąć-1" size="0"/>
+        <node name="przyciskać się-1, przyklejać się-1, przylepiać się-1, przywierać-1" size="11">
+          <node name="przyrastać-3" size="0"/>
+          <node name="przywierać-2, przylegać-3" size="5">
+            <node name="przypadać-4" size="0"/>
+            <node name="lgnąć-1" size="0"/>
+            <node name="wpierać-2, zapierać-3" size="0"/>
+            <node name="przymarzać-1" size="0"/>
+            <node name="przywierać-3, przylepiać się-3" size="0"/>
+          </node>
+          <node name="oblepiać-5" size="0"/>
+          <node name="przytulać się-1, tulić się-1" size="2">
+            <node name="kleić się-1, lepić się-1" size="0"/>
+            <node name="przypadać-3" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="szorować-2, trzeć-3" size="0"/>
+      <node name="głaskać-1, gładzić-1" size="2">
+        <node name="muskać-1, lizać-2" size="1">
+          <node name="łaskotać-1, łechtać-2, łachotać-1" size="0"/>
+        </node>
+      </node>
+      <node name="opierać się-2, wspierać się-1, podpierać się-1" size="1">
+        <node name="trzymać się-1, przytrzymywać się-1" size="0"/>
+      </node>
+      <node name="obejmować-4, ogarniać-1, opasywać-1, oplatać-1" size="3">
+        <node name="ściskać-3" size="1">
+          <node name="obściskiwać-1" size="0"/>
+        </node>
+        <node name="przytulać-1, tulić-1, przygarniać-1" size="0"/>
+      </node>
+      <node name="całować-1, cmokać-2, składać pocałunek-1" size="0"/>
+    </node>
+    <node name="brać-5" size="10">
+      <node name="odbierać-8" size="0"/>
+      <node name="chwytać-1, łapać-1" size="8">
+        <node name="chapać-3, chłapać-1" size="0"/>
+        <node name="dziobać-3, dzióbać-3" size="0"/>
+        <node name="chwytać się-1, łapać się-1, czepiać się-1" size="2">
+          <node name="przyczepiać się-1" size="0"/>
+          <node name="wieszać się-1, uwieszać się-1" size="0"/>
+        </node>
+        <node name="porywać-1" size="0"/>
+        <node name="załapywać-4" size="1">
+          <node name="podnosić-11" size="0"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node name="CZASOWNIK - DZIAŁANIE NDK oznaczający kontakt fizyczny, który wpływa na obiekt-1" size="638" abstract="true">
+    <node name="spulchniać-1" size="7">
+      <node name="sprężynować-1" size="0"/>
+      <node name="motykować-1" size="0"/>
+      <node name="przekopywać-2, kopać-3, skopywać-1" size="1">
+        <node name="przekopywać-3" size="0"/>
+      </node>
+      <node name="gracować-1" size="0"/>
+      <node name="orać-1, zaorywać-1, zorywać-1" size="1">
+        <node name="oborywać-1" size="0"/>
+      </node>
+    </node>
+    <node name="pustoszyć-2" size="0"/>
+    <node name="zabezpieczać-2" size="67">
+      <node name="bandażować-2" size="0"/>
+      <node name="ocynkowywać-1" size="0"/>
+      <node name="krawędziować-1" size="0"/>
+      <node name="opancerzać-1" size="0"/>
+      <node name="oksydować-1" size="0"/>
+      <node name="podkuwać-1" size="0"/>
+      <node name="uziemiać-2" size="0"/>
+      <node name="izolować-2" size="0"/>
+      <node name="filtrować-2" size="0"/>
+      <node name="pryskać-5, opryskiwać-3, spryskiwać-1" size="0"/>
+      <node name="ocieplać-1" size="1">
+        <node name="watować-1, wywatowywać-1" size="0"/>
+      </node>
+      <node name="plombować-1, opieczętowywać-1" size="0"/>
+      <node name="umacniać-3" size="6">
+        <node name="ustalać-5" size="0"/>
+        <node name="fortyfikować-1" size="4">
+          <node name="szańcować-1" size="0"/>
+          <node name="okopywać-2" size="0"/>
+          <node name="obwarowywać-3" size="1">
+            <node name="flankować-2" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="obrębiać-1" size="1">
+        <node name="obszywać-4, obrzucać-3" size="0"/>
+      </node>
+      <node name="chromianować-1" size="0"/>
+      <node name="kadmować-1" size="0"/>
+      <node name="aluminiować-1, glinować-1" size="0"/>
+      <node name="obwałowywać-1" size="0"/>
+      <node name="utwardzać-1" size="1">
+        <node name="hartować-1" size="0"/>
+      </node>
+      <node name="opatrywać-4" size="0"/>
+      <node name="parafować-1" size="0"/>
+      <node name="foliować-1, laminować-1" size="0"/>
+      <node name="werniksować-1" size="0"/>
+      <node name="politurować-1" size="0"/>
+      <node name="parafinować-1" size="0"/>
+      <node name="emaliować-1, lakować-1, lakierować-1" size="0"/>
+      <node name="cynować-1, bielić-3, pobielać-2" size="0"/>
+      <node name="cynkować-1" size="0"/>
+      <node name="konserwować-2" size="4">
+        <node name="balsamować-1, mumifikować-1" size="0"/>
+        <node name="chlorować-1" size="0"/>
+        <node name="dublować-1" size="0"/>
+        <node name="impregnować-1" size="0"/>
+      </node>
+      <node name="preparować-1" size="0"/>
+      <node name="opatrywać-2" size="2">
+        <node name="tamponować-1" size="0"/>
+        <node name="bandażować-1" size="0"/>
+      </node>
+      <node name="osłonić-4" size="0"/>
+      <node name="obwarowywać-1" size="0"/>
+      <node name="umacniać-1, wzmacniać-3" size="8">
+        <node name="zbroić-2" size="0"/>
+        <node name="podkuwać-2" size="0"/>
+        <node name="żebrować-1" size="0"/>
+        <node name="mieczować-1" size="0"/>
+        <node name="drutować-1, zadrutowywać-1" size="0"/>
+        <node name="utwardzać-3" size="0"/>
+        <node name="obmurowywać-1, omurowywać-1" size="0"/>
+        <node name="betonować-1, obetonowywać-1" size="0"/>
+      </node>
+      <node name="konserwować-1" size="5">
+        <node name="pasteryzować-1" size="0"/>
+        <node name="peklować-1" size="0"/>
+        <node name="zasalać-1, nasalać-1" size="0"/>
+        <node name="marynować-1" size="0"/>
+        <node name="kisić-1, kwasić-1, ukwaszać-1, zakwaszać-3, zakiszać-1" size="0"/>
+      </node>
+      <node name="bejcować-3, zaprawiać-4" size="0"/>
+      <node name="bejcować-1" size="0"/>
+      <node name="blokować-3, zablokowywać-1" size="1">
+        <node name="ryglować-1" size="0"/>
+      </node>
+    </node>
+    <node name="skuwać-1" size="0"/>
+    <node name="dzielić-2" size="176">
+      <node name="rozgałęziać-1" size="0"/>
+      <node name="segmentować-1" size="0"/>
+      <node name="rozdzielać-3" size="15">
+        <node name="rozwidlać-1" size="0"/>
+        <node name="rozdwajać-1" size="0"/>
+        <node name="rozkładać-9" size="2">
+          <node name="rozrysowywać-1" size="0"/>
+          <node name="rozszczepiać-2" size="0"/>
+        </node>
+        <node name="rozsadzać-7" size="0"/>
+        <node name="rozłączać-1" size="8"/>
+      </node>
+      <node name="rozgryzać-1" size="0"/>
+      <node name="odrywać-1" size="0"/>
+      <node name="rozcinać-1" size="3">
+        <node name="chlastać-4" size="0"/>
+        <node name="ćwiartować-1" size="0"/>
+        <node name="trzeć-5, piłować-3, rżnąć-2" size="0"/>
+      </node>
+      <node name="przegryzać-1" size="0"/>
+      <node name="rozrywać-1, rwać-1" size="10">
+        <node name="rozsadzać-2" size="0"/>
+        <node name="zrywać-3, przerywać-5" size="0"/>
+        <node name="nadrywać-1" size="0"/>
+        <node name="rozdzierać-1" size="2">
+          <node name="naddzierać-1" size="0"/>
+          <node name="przedzierać-1" size="0"/>
+        </node>
+        <node name="drzeć-1" size="3">
+          <node name="rozszarpywać-2" size="0"/>
+          <node name="targać-4" size="0"/>
+          <node name="strzępić-1, wystrzępiać-1" size="0"/>
+        </node>
+      </node>
+      <node name="porcjować-1" size="4">
+        <node name="rozważać-2" size="0"/>
+        <node name="kapsułkować-1" size="0"/>
+        <node name="rozlewać-1" size="1"/>
+      </node>
+      <node name="rozpoławiać-1, przepoławiać-1" size="0"/>
+      <node name="rozszczepiać-1" size="0"/>
+      <node name="ciąć-2" size="34">
+        <node name="ucinać-1" size="2">
+          <node name="przycinać-1" size="1">
+            <node name="podstrzygać-2, przystrzygać-1" size="0"/>
+          </node>
+        </node>
+        <node name="gilotynować-1" size="0"/>
+        <node name="płatać-1" size="0"/>
+        <node name="odcinać-1" size="21"/>
+        <node name="przecierać-6" size="0"/>
+        <node name="rąbać-1" size="0"/>
+        <node name="siekać-1, siec-2" size="1">
+          <node name="zrzynać-3" size="0"/>
+        </node>
+        <node name="kroić-2, krajać-1" size="3">
+          <node name="kostkować-1" size="0"/>
+          <node name="szatkować-1" size="0"/>
+          <node name="dydolić-1" size="0"/>
+        </node>
+      </node>
+      <node name="rozdrabniać-1, rozdrabiać-1" size="22">
+        <node name="śrutować-2" size="0"/>
+        <node name="rozdziobywać-1" size="0"/>
+        <node name="rozczłonkowywać-1, kawałkować-1, rozkawałkowywać-1" size="1">
+          <node name="rozwłókniać-1" size="0"/>
+        </node>
+        <node name="tłuc-2" size="2"/>
+        <node name="trzeć-1, ucierać-1, ścierać-5" size="4">
+          <node name="docierać-5" size="0"/>
+          <node name="kręcić-5" size="0"/>
+          <node name="przecierać-5" size="0"/>
+          <node name="rozcierać-3" size="0"/>
+        </node>
+        <node name="mleć-1, mielić-1" size="1">
+          <node name="miksować-2" size="0"/>
+        </node>
+        <node name="kruszyć-1, drobić-2, rozkruszać-1" size="1">
+          <node name="kuć-3" size="0"/>
+        </node>
+        <node name="gryźć-2" size="5">
+          <node name="nadżerać-1" size="0"/>
+          <node name="nadgryzać-1" size="0"/>
+          <node name="przeżuwać-1, żuć-1" size="2">
+            <node name="mamlać-1, mamleć-1, międlić-2, memłać-1" size="0"/>
+            <node name="gamlać-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="oddzielać-2" size="87">
+        <node name="odwarstwiać-1" size="0"/>
+        <node name="odciskać-1" size="0"/>
+        <node name="odgryzać-1" size="0"/>
+        <node name="odłączać-1, odejmować-3" size="27">
+          <node name="odwiązywać-1" size="1">
+            <node name="wyprzęgać-1" size="0"/>
+          </node>
+          <node name="odkręcać-3" size="0"/>
+          <node name="wypruwać-1" size="0"/>
+          <node name="urywać-2, odrywać-3" size="6">
+            <node name="obrywać-3" size="0"/>
+            <node name="skubać-3" size="0"/>
+            <node name="zrywać-3, przerywać-5" size="0"/>
+            <node name="oddzierać-1" size="0"/>
+            <node name="szarpać-2" size="0"/>
+            <node name="odstrzeliwać-3" size="0"/>
+          </node>
+          <node name="odczepiać-1" size="5">
+            <node name="odcumowywać-1, odcumowywać się-1" size="0"/>
+            <node name="odkotwiczać-1" size="0"/>
+            <node name="odklejać-1, odlepiać-1" size="0"/>
+            <node name="odpinać-1" size="1">
+              <node name="wypinać-1" size="0"/>
+            </node>
+          </node>
+          <node name="rozłączać-1" size="8">
+            <node name="rozlutowywać-1" size="0"/>
+            <node name="rozplatać-1" size="0"/>
+            <node name="rozpinać-2" size="0"/>
+            <node name="rozprzęgać-2" size="0"/>
+            <node name="rozklejać-2, rozlepiać-2" size="0"/>
+            <node name="rozczepiać-1" size="1">
+              <node name="rozformowywać-1" size="0"/>
+            </node>
+            <node name="rozpruwać-3, pruć-2" size="0"/>
+          </node>
+          <node name="odkuwać-2" size="0"/>
+        </node>
+        <node name="odciągać-2" size="1">
+          <node name="odwadniać-3, odwodniać-3" size="0"/>
+        </node>
+        <node name="wyodrębniać-1, wydzielać-3" size="25">
+          <node name="wyizolowywać-2, izolować-3" size="3">
+            <node name="wytrącać-1" size="1">
+              <node name="strącać-3" size="0"/>
+            </node>
+            <node name="ekstrahować-1" size="0"/>
+          </node>
+          <node name="abstrahować-2" size="0"/>
+          <node name="wyciskać-1" size="3">
+            <node name="tłoczyć-4, wytłaczać-3" size="0"/>
+            <node name="wyżymać-1" size="1">
+              <node name="wykręcać-5" size="0"/>
+            </node>
+          </node>
+          <node name="ługować-1, wyługowywać-1" size="0"/>
+          <node name="wyłączać-3" size="0"/>
+          <node name="dzielić-7, klasyfikować-2, kategoryzować-1, kwalifikować-3, typizować-1, grupować-2" size="10">
+            <node name="sortować-1, segregować-1" size="0"/>
+            <node name="sekwencjonować-2" size="0"/>
+            <node name="gatunkować-1" size="0"/>
+            <node name="różnicować-1" size="6">
+              <node name="rozwarstwiać-1" size="0"/>
+              <node name="polaryzować-2" size="0"/>
+              <node name="polaryzować-1" size="0"/>
+              <node name="cieniować-2, wycieniowywać-2" size="0"/>
+              <node name="indywidualizować-1" size="0"/>
+              <node name="dywersyfikować-1" size="0"/>
+            </node>
+          </node>
+          <node name="specjalizować-2" size="0"/>
+          <node name="wirować-4, odwirowywać-1" size="0"/>
+          <node name="wyjmować-3" size="0"/>
+        </node>
+        <node name="odcinać-1" size="21">
+          <node name="obrzynać-1, odrzynać-1" size="0"/>
+          <node name="obcinać-2" size="7">
+            <node name="strzyc-4" size="0"/>
+            <node name="ścinać-3" size="5">
+              <node name="zrzynać-2" size="0"/>
+              <node name="strzyc-2" size="3">
+                <node name="kosić-1" size="1">
+                  <node name="żąć-1" size="0"/>
+                </node>
+                <node name="podstrzygać-2, przystrzygać-1" size="0"/>
+              </node>
+            </node>
+          </node>
+          <node name="ścinać-2" size="1">
+            <node name="korować-1, okorowywać-1, odkorowywać-1" size="0"/>
+          </node>
+          <node name="strzyc-1, obcinać-1, obstrzygać-1, ścinać-7" size="6">
+            <node name="postrzygać-1" size="1">
+              <node name="postrzygać tkaninę-1" size="0"/>
+            </node>
+            <node name="przystrzygać-2, podstrzygać-1" size="0"/>
+            <node name="trymować-1" size="0"/>
+            <node name="cieniować-1, wycieniowywać-1" size="0"/>
+            <node name="anglezować-2" size="0"/>
+          </node>
+          <node name="odrąbywać-1" size="0"/>
+          <node name="podcinać-1" size="1">
+            <node name="podrzynać-1" size="0"/>
+          </node>
+        </node>
+        <node name="przedzielać-2" size="0"/>
+        <node name="odłamywać-1, ułamywać-1" size="4">
+          <node name="obłamywać-1" size="0"/>
+          <node name="nadłamywać-1" size="0"/>
+          <node name="odłupywać-1" size="1"/>
+        </node>
+      </node>
+      <node name="przecinać-2" size="12">
+        <node name="przerzynać-1" size="1">
+          <node name="dorzynać-3" size="0"/>
+        </node>
+        <node name="przepiłowywać-1" size="0"/>
+        <node name="otwierać-5" size="0"/>
+        <node name="przecinać-5" size="6">
+          <node name="nacinać-1" size="5">
+            <node name="karbować-3" size="0"/>
+            <node name="nadcinać-1" size="1">
+              <node name="nadrzynać-1" size="0"/>
+            </node>
+            <node name="zacinać-6" size="0"/>
+            <node name="zacinać-7" size="0"/>
+          </node>
+        </node>
+        <node name="przerąbywać-1, rozrąbywać-1" size="0"/>
+      </node>
+      <node name="rozkładać-1" size="3">
+        <node name="demontować-1, rozmontowywać-1, rozbierać-2, składać-8" size="2">
+          <node name="rozkręcać-4" size="0"/>
+          <node name="rozbrajać-4" size="0"/>
+        </node>
+      </node>
+      <node name="łamać-2, przełamywać-4, rozłamywać-1" size="3">
+        <node name="łupać-2, rozłupywać-1" size="2">
+          <node name="odłupywać-1" size="1">
+            <node name="odstrzeliwać-2" size="0"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node name="umieszczać-1, lokować-2, sytuować-1, umiejscawiać-1, usadawiać-1" size="392">
+      <node name="narzucać-2, zarzucać-4" size="1">
+        <node name="przerzucać-3" size="0"/>
+      </node>
+      <node name="oprawiać-2, wprawiać-1" size="0"/>
+      <node name="wstrzeliwać-1" size="0"/>
+      <node name="wkopywać-1" size="0"/>
+      <node name="zapychać-1" size="0"/>
+      <node name="wstawiać-1" size="1">
+        <node name="szklić-1" size="0"/>
+      </node>
+      <node name="osadzać-2" size="1">
+        <node name="zakotwiczać-1" size="0"/>
+      </node>
+      <node name="przesypywać-1" size="0"/>
+      <node name="garażować-1, parkować-1" size="0"/>
+      <node name="podstawiać-1" size="0"/>
+      <node name="przystawiać-1" size="0"/>
+      <node name="zamykać-1" size="2">
+        <node name="zaryglowywać-2" size="0"/>
+        <node name="zatrzaskiwać-1" size="0"/>
+      </node>
+      <node name="zakładać-7" size="3">
+        <node name="siodłać-1" size="1">
+          <node name="kulbaczyć-1" size="0"/>
+        </node>
+        <node name="zadawać-3" size="0"/>
+      </node>
+      <node name="nastawiać-1, stawiać-5" size="0"/>
+      <node name="pozostawiać-2, zostawiać-1" size="5">
+        <node name="podrzucać-1" size="0"/>
+        <node name="odkładać-2" size="0"/>
+        <node name="podkładać-2" size="2">
+          <node name="podminowywać-1" size="0"/>
+          <node name="podsuwać-1" size="0"/>
+        </node>
+      </node>
+      <node name="zapuszczać-1" size="0"/>
+      <node name="upychać-1, utykać-1" size="0"/>
+      <node name="wszywać-1" size="0"/>
+      <node name="zwalać-2, zrzucać-1" size="0"/>
+      <node name="wypychać-1, napychać-1" size="1"/>
+      <node name="rozmieszczać-1, rozlokowywać-1" size="27">
+        <node name="rozplanowywać-2" size="0"/>
+        <node name="rozkładać-8" size="0"/>
+        <node name="rozsiewać-3" size="0"/>
+        <node name="rozsadzać-3, usadzać-3, usadawiać-2" size="0"/>
+        <node name="rozklejać-1, rozlepiać-1" size="1">
+          <node name="plakatować-1" size="0"/>
+        </node>
+        <node name="rozpraszać-1, dekoncentrować-1, rozrzucać-2" size="3">
+          <node name="rozpylać-1" size="0"/>
+          <node name="rozstrzeliwać-2" size="0"/>
+          <node name="decentralizować-1" size="0"/>
+        </node>
+        <node name="stawiać-7, ustawiać-1" size="16">
+          <node name="podawać-5, serwować-2" size="1">
+            <node name="podtykać-1" size="0"/>
+          </node>
+          <node name="rozstawiać-2" size="3">
+            <node name="ugrupowywać-1" size="0"/>
+            <node name="formować-4" size="0"/>
+            <node name="rozwijać-7" size="0"/>
+          </node>
+          <node name="rozwijać-3" size="1">
+            <node name="pokrywać-10, kryć-10" size="0"/>
+          </node>
+          <node name="nastawiać-3" size="1">
+            <node name="nadstawiać-1" size="0"/>
+          </node>
+          <node name="opierać-1" size="5">
+            <node name="podpierać-1, wspierać-3" size="4">
+              <node name="tyczyć-3" size="0"/>
+              <node name="zapierać-1" size="0"/>
+              <node name="podbudowywać-2" size="1">
+                <node name="stemplować-2" size="0"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node name="zataczać-2, wtaczać-1" size="0"/>
+      <node name="wrzucać-1" size="2">
+        <node name="wwalać-1" size="0"/>
+        <node name="wsypywać-1, nasypywać-1" size="0"/>
+      </node>
+      <node name="zatykać-1, zasadzać-2, wtykać-1, wsuwać-1" size="1">
+        <node name="przetykać-1" size="0"/>
+      </node>
+      <node name="przewieszać-1, wieszać-2, zawieszać-3" size="2">
+        <node name="odwieszać-1" size="0"/>
+        <node name="podwieszać-1" size="0"/>
+      </node>
+      <node name="sadzać-1" size="3">
+        <node name="rozsadzać-3, usadzać-3, usadawiać-2" size="0"/>
+        <node name="przesadzać-3" size="0"/>
+        <node name="sadowić-1, usadawiać-3" size="0"/>
+      </node>
+      <node name="hospitalizować-1" size="0"/>
+      <node name="zagłębiać-1, wgłębiać-1" size="13">
+        <node name="wkopywać-2" size="0"/>
+        <node name="wbijać-1, bić-13" size="5">
+          <node name="wstrzeliwać-3" size="0"/>
+          <node name="dziobać-2, dzióbać-4" size="0"/>
+          <node name="wkuwać-2" size="0"/>
+          <node name="wkłuwać-1" size="0"/>
+          <node name="pobijać-1" size="0"/>
+        </node>
+        <node name="wtulać-1" size="0"/>
+        <node name="wcinać-2" size="0"/>
+        <node name="wkręcać-1" size="0"/>
+        <node name="wciskać-1" size="2">
+          <node name="wgniatać-1, wginać-2" size="1">
+            <node name="wdeptywać-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="wprowadzać-4" size="29">
+        <node name="arylować-1" size="0"/>
+        <node name="dokować-2" size="0"/>
+        <node name="dokować-1" size="0"/>
+        <node name="wszczepiać-1, implantować-1" size="0"/>
+        <node name="wpompowywać-1" size="0"/>
+        <node name="wczytywać-1" size="0"/>
+        <node name="wpuszczać-1" size="0"/>
+        <node name="wstrzykiwać-1" size="0"/>
+        <node name="nasycać-1" size="17">
+          <node name="napawać-2" size="0"/>
+          <node name="zasalać-3" size="0"/>
+          <node name="potasować-1" size="0"/>
+          <node name="kadzić-2, okadzać-1" size="0"/>
+          <node name="zakwaszać-1" size="0"/>
+          <node name="natłuszczać-1, tłuścić-1" size="2"/>
+          <node name="nasączać-1, sączyć-2, wsączać-1" size="0"/>
+          <node name="woskować-1" size="0"/>
+          <node name="nawaniać-1" size="0"/>
+          <node name="nasączać-2" size="0"/>
+          <node name="napowietrzać-1" size="0"/>
+          <node name="gazować-1" size="0"/>
+          <node name="aromatyzować-1" size="0"/>
+          <node name="apreturować-1" size="0"/>
+          <node name="alkoholizować-1" size="0"/>
+        </node>
+        <node name="wtłaczać-1" size="2">
+          <node name="wdmuchiwać-1" size="0"/>
+          <node name="wstrzykiwać-2" size="0"/>
+        </node>
+      </node>
+      <node name="wpychać-1, pchać-1, tkać-1" size="7">
+        <node name="wduszać-1" size="0"/>
+        <node name="pakować-1" size="0"/>
+        <node name="utykać-3" size="0"/>
+        <node name="wtłaczać-3" size="3">
+          <node name="nabijać-1" size="2"/>
+        </node>
+      </node>
+      <node name="sadzić-1, zasadzać-1" size="12">
+        <node name="przysadzać-1, dosadzać-1" size="0"/>
+        <node name="rozsadzać-5" size="4">
+          <node name="flancować-1" size="1">
+            <node name="przeflancowywać-2" size="0"/>
+          </node>
+          <node name="obsadzać-6" size="1">
+            <node name="wysadzać-4" size="0"/>
+          </node>
+        </node>
+        <node name="przesadzać-2" size="3">
+          <node name="pikować-1" size="0"/>
+          <node name="przeflancowywać-2" size="0"/>
+          <node name="wysadzać-1" size="0"/>
+        </node>
+        <node name="zazieleniać-2" size="2">
+          <node name="zadrzewiać-1" size="1">
+            <node name="zalesiać-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="montować-1, instalować-1, zakładać-5, zamontowywać-1" size="30">
+        <node name="nagłośniać-1, nagłaśniać-1" size="1">
+          <node name="megafonizować-1" size="0"/>
+        </node>
+        <node name="uzbrajać-1" size="0"/>
+        <node name="podłączać-2" size="0"/>
+        <node name="zabezpieczać-4" size="0"/>
+        <node name="kłaść-4" size="19">
+          <node name="pokrywać-6, kryć-11" size="13">
+            <node name="natryskiwać-1" size="0"/>
+            <node name="poszywać-2" size="0"/>
+            <node name="obszywać-2" size="0"/>
+            <node name="wyściełać-1, wyścielać-1, mościć-1" size="0"/>
+            <node name="oblepiać-3" size="0"/>
+            <node name="oblepiać-4, oklejać-1, obklejać-1" size="0"/>
+            <node name="nabijać-3, wybijać-8" size="6">
+              <node name="wysadzać-5" size="0"/>
+              <node name="kolcować-1" size="0"/>
+              <node name="obijać-2" size="3">
+                <node name="okuwać-1" size="0"/>
+                <node name="tapicerować-1" size="0"/>
+                <node name="listwować-1" size="0"/>
+              </node>
+            </node>
+          </node>
+          <node name="prowadzić-6, przeprowadzać-5" size="3">
+            <node name="puszczać-17" size="0"/>
+            <node name="doprowadzać-4" size="1">
+              <node name="przyłączać-3" size="0"/>
+            </node>
+          </node>
+          <node name="okablowywać-1" size="0"/>
+        </node>
+        <node name="taklować-1" size="0"/>
+        <node name="minować-1" size="0"/>
+        <node name="radiofonizować-1" size="0"/>
+        <node name="kanalizować-1" size="0"/>
+        <node name="elektryfikować-1" size="0"/>
+      </node>
+      <node name="wywieszać-1" size="1">
+        <node name="flagować-1, oflagowywać-1" size="0"/>
+      </node>
+      <node name="zanurzać-1" size="7">
+        <node name="pogrążać-2" size="0"/>
+        <node name="zatapiać-1, topić-1" size="2">
+          <node name="podtapiać-1" size="0"/>
+          <node name="torpedować-2" size="0"/>
+        </node>
+        <node name="namaczać-1" size="1">
+          <node name="zamaczać-1" size="0"/>
+        </node>
+        <node name="maczać-1" size="0"/>
+      </node>
+      <node name="zastawiać-1" size="0"/>
+      <node name="wieszać-1, zawieszać-2" size="5">
+        <node name="obwieszać-1, zawieszać-5" size="0"/>
+        <node name="przywieszać-1, uwieszać-1, zawieszać-4" size="1">
+          <node name="uwiązywać-3" size="0"/>
+        </node>
+        <node name="przewieszać-2" size="0"/>
+        <node name="rozwieszać-1" size="0"/>
+      </node>
+      <node name="ubierać-1, wkładać-1, nakładać-2, zakładać-6, wdziewać-1" size="9">
+        <node name="naciskać-1" size="0"/>
+        <node name="wbijać się-2, wciskać się-2" size="0"/>
+        <node name="brać-20" size="0"/>
+        <node name="naciągać-1" size="0"/>
+        <node name="obuwać-1" size="0"/>
+        <node name="stroić-1" size="0"/>
+        <node name="zakładać-8" size="2">
+          <node name="wzuwać-1" size="0"/>
+          <node name="wskakiwać-4" size="0"/>
+        </node>
+      </node>
+      <node name="wypełniać-1, napełniać-1, zapełniać-1" size="41">
+        <node name="wypakowywać-1, upychać-2" size="0"/>
+        <node name="zapisywać-5" size="0"/>
+        <node name="zapychać-4" size="0"/>
+        <node name="zapychać-3, zawalać-1" size="0"/>
+        <node name="plombować-2" size="0"/>
+        <node name="plombować-3" size="0"/>
+        <node name="tankować-1" size="0"/>
+        <node name="cementować-1" size="0"/>
+        <node name="pompować-2" size="0"/>
+        <node name="ładować-1, naładowywać-1, załadowywać-1, władowywać-1" size="0"/>
+        <node name="zasypywać-1" size="1">
+          <node name="zagrzebywać-1" size="0"/>
+        </node>
+        <node name="wypychać-1, napychać-1" size="1">
+          <node name="wypychać się-1" size="0"/>
+        </node>
+        <node name="wypychać-2" size="0"/>
+        <node name="dopełniać-1" size="2">
+          <node name="dolewać-1" size="0"/>
+          <node name="dosypywać-1" size="0"/>
+        </node>
+        <node name="nabijać-1" size="2">
+          <node name="ładować-2, naładowywać-3, załadowywać-2, repetować-1" size="1">
+            <node name="przeładowywać-2" size="0"/>
+          </node>
+        </node>
+        <node name="szpikować-1" size="1">
+          <node name="zaśmiecać-1, zachwaszczać-3" size="0"/>
+        </node>
+        <node name="zabudowywać-1" size="0"/>
+        <node name="gipsować-1" size="0"/>
+        <node name="szabrować-2" size="0"/>
+        <node name="nadziewać-1" size="2">
+          <node name="szpikować-2" size="0"/>
+          <node name="faszerować-1" size="0"/>
+        </node>
+        <node name="nadmuchiwać-1, dmuchać-2" size="0"/>
+        <node name="obsadzać-4, zarybiać-1" size="0"/>
+        <node name="wlewać-1, nalewać-1, lać-1" size="9">
+          <node name="podlewać-1" size="0"/>
+          <node name="polewać-3" size="0"/>
+          <node name="tankować-1" size="0"/>
+          <node name="wtłaczać-2" size="1">
+            <node name="wtryskiwać-1" size="0"/>
+          </node>
+          <node name="przelewać-1" size="1">
+            <node name="zlewać-3" size="0"/>
+          </node>
+          <node name="rozlewać-1" size="1">
+            <node name="butelkować-1" size="0"/>
+          </node>
+        </node>
+        <node name="zastawiać-4" size="0"/>
+      </node>
+      <node name="ukrywać-3, chować-1, skrywać-2, kryć-2" size="14">
+        <node name="kamuflować-1" size="0"/>
+        <node name="kryć-9, chować-4" size="1">
+          <node name="wtulać-1" size="0"/>
+        </node>
+        <node name="zaszywać-1" size="0"/>
+        <node name="zamykać-5" size="2">
+          <node name="zaryglowywać-2" size="0"/>
+          <node name="zatrzaskiwać-1" size="0"/>
+        </node>
+        <node name="dekować-1" size="0"/>
+        <node name="zakopywać-1" size="1">
+          <node name="dołować-1" size="0"/>
+        </node>
+        <node name="melinować-1" size="0"/>
+        <node name="maskować-1, zamaskowywać-1" size="2">
+          <node name="tuszować-4" size="0"/>
+          <node name="kamuflować-3" size="0"/>
+        </node>
+      </node>
+      <node name="nakładać-3, nanosić-1" size="91">
+        <node name="bieżnikować-1" size="0"/>
+        <node name="krawędziować-1" size="0"/>
+        <node name="malować-3, robić makijaż-1" size="5">
+          <node name="cieniować-4" size="0"/>
+          <node name="tuszować-3" size="0"/>
+          <node name="różować-1" size="0"/>
+          <node name="pudrować-1" size="0"/>
+          <node name="szminkować-1" size="0"/>
+        </node>
+        <node name="rozcierać-1" size="0"/>
+        <node name="pokrywać-11" size="81">
+          <node name="ocynkowywać-1" size="0"/>
+          <node name="zamazywać-1" size="0"/>
+          <node name="przysypywać-1" size="0"/>
+          <node name="wylewać-3" size="2">
+            <node name="lastrykować-1" size="0"/>
+            <node name="asfaltować-1" size="0"/>
+          </node>
+          <node name="glinować-3" size="0"/>
+          <node name="pociągać-5" size="0"/>
+          <node name="laminować-2" size="0"/>
+          <node name="gipsować-1" size="0"/>
+          <node name="spieniać-1" size="0"/>
+          <node name="rozprowadzać-2" size="17">
+            <node name="rozdeptywać-2" size="0"/>
+            <node name="mazać-4" size="1">
+              <node name="rozmazywać-2" size="0"/>
+            </node>
+            <node name="smarować-1" size="13">
+              <node name="nacierać-3" size="2">
+                <node name="wcierać-1" size="0"/>
+                <node name="mydlić-1, namydlać-1, zamydlać-1" size="0"/>
+              </node>
+              <node name="smołować-1" size="0"/>
+              <node name="namaszczać-1, maścić-1" size="1">
+                <node name="kremować-1" size="0"/>
+              </node>
+              <node name="pędzlować-1" size="0"/>
+              <node name="natłuszczać-1, tłuścić-1" size="2">
+                <node name="oliwić-1, naoliwiać-1" size="0"/>
+                <node name="oleić-1" size="0"/>
+              </node>
+              <node name="brylantynować-1, brylantować-1" size="0"/>
+              <node name="pastować-1" size="0"/>
+              <node name="rozsmarowywać-1" size="0"/>
+            </node>
+          </node>
+          <node name="malować-4" size="10">
+            <node name="podmalowywać-1" size="0"/>
+            <node name="wymalowywać-3" size="0"/>
+            <node name="przemalowywać-1" size="0"/>
+            <node name="emaliować-3" size="0"/>
+            <node name="ochlapywać-2" size="0"/>
+            <node name="obmalowywać-2" size="0"/>
+            <node name="obielać-1, pobielać-1, bielić-2" size="0"/>
+            <node name="pstrzyć-1" size="0"/>
+            <node name="polichromować-1" size="0"/>
+            <node name="miniować-1" size="0"/>
+          </node>
+          <node name="tynkować-1" size="0"/>
+          <node name="powlekać-1, zaciągać-2" size="33">
+            <node name="szkliwić-1" size="0"/>
+            <node name="lakierować-3" size="0"/>
+            <node name="oblewać-3, polewać-2" size="3">
+              <node name="zalewać-5" size="1">
+                <node name="nalewać-3" size="0"/>
+              </node>
+              <node name="lukrować-2" size="0"/>
+            </node>
+            <node name="angobować-1" size="0"/>
+            <node name="wazelinować-1" size="0"/>
+            <node name="gumować-1" size="0"/>
+            <node name="gruntować-1, zagruntowywać-1" size="0"/>
+            <node name="werniksować-1" size="0"/>
+            <node name="politurować-1" size="0"/>
+            <node name="pokostować-1" size="0"/>
+            <node name="patynować-1" size="0"/>
+            <node name="parafinować-1" size="0"/>
+            <node name="emaliować-1, lakować-1, lakierować-1" size="0"/>
+            <node name="emaliować-2, glazurować-1" size="0"/>
+            <node name="woskować-1" size="0"/>
+            <node name="metalizować-1" size="12">
+              <node name="złocić-1, pozłacać-1, wyzłacać-2" size="0"/>
+              <node name="aluminiować-1, glinować-1" size="0"/>
+              <node name="platynować-1" size="0"/>
+              <node name="platerować-1" size="0"/>
+              <node name="niklować-1" size="0"/>
+              <node name="mosiądzować-1" size="0"/>
+              <node name="miedziować-1" size="0"/>
+              <node name="galwanizować-1" size="2">
+                <node name="kadmować-1" size="0"/>
+                <node name="posrebrzać-1, srebrzyć-1" size="0"/>
+              </node>
+              <node name="chromować-1" size="0"/>
+              <node name="brązować-1" size="0"/>
+            </node>
+            <node name="kredować-1" size="0"/>
+            <node name="kaloryzować-1" size="0"/>
+          </node>
+          <node name="oblewać-1, polewać-1" size="5">
+            <node name="natryskiwać-2" size="0"/>
+            <node name="zlewać-2" size="0"/>
+            <node name="przelewać-6" size="0"/>
+            <node name="ochlapywać-1, opryskiwać-1, obryzgiwać-1, zapryskiwać-1, zabryzgiwać-1, zachlapywać-1" size="0"/>
+            <node name="krasić-1, okraszać-2" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="kłaść-1" size="59">
+        <node name="układać-1" size="0"/>
+        <node name="odkładać-2" size="0"/>
+        <node name="wkładać-2" size="15">
+          <node name="dopychać-2" size="0"/>
+          <node name="wścibiać-1, wściubiać-1" size="0"/>
+          <node name="wkręcać-3" size="0"/>
+          <node name="wślizgiwać-1" size="0"/>
+          <node name="pakować się-2, zwijać się-2, zbierać się-3" size="1">
+            <node name="przepakowywać się-1" size="0"/>
+          </node>
+          <node name="przekładać-5" size="0"/>
+          <node name="ładować-1, naładowywać-1, załadowywać-1, władowywać-1" size="0"/>
+          <node name="pakować-2" size="4">
+            <node name="puszkować-1" size="0"/>
+            <node name="kopertować-1" size="0"/>
+            <node name="beczkować-1" size="0"/>
+            <node name="paczkować-1" size="0"/>
+          </node>
+          <node name="wsadzać-1" size="0"/>
+          <node name="chować-2, grzebać-1" size="0"/>
+        </node>
+        <node name="podkładać-1" size="2">
+          <node name="ścielić-2, słać-4, podścielać-1, podściełać-1" size="0"/>
+          <node name="podsadzać-1" size="0"/>
+        </node>
+        <node name="rozkładać-5, rozpościerać-1" size="17">
+          <node name="roztaczać-2" size="0"/>
+          <node name="rozsuwać-1" size="0"/>
+          <node name="rozbijać-4" size="1">
+            <node name="oskardować-1" size="0"/>
+          </node>
+          <node name="otwierać-1" size="0"/>
+          <node name="prostować-2, rozprostowywać-2, wyprostowywać-2" size="3">
+            <node name="rozkręcać-3" size="0"/>
+            <node name="wyciągać-4" size="1">
+              <node name="sięgać-6, wyciągać rękę-1" size="0"/>
+            </node>
+          </node>
+          <node name="rozściełać-1, rozścielać-1, słać-3, ścielić-1" size="0"/>
+          <node name="rozstawiać-1, ustawiać-3" size="0"/>
+          <node name="rozczapierzać-1, rozcapierzać-1" size="0"/>
+          <node name="rozciągać-1" size="3">
+            <node name="rozpinać-1" size="0"/>
+            <node name="rozwlekać-2" size="1">
+              <node name="rozwłóczyć-1" size="0"/>
+            </node>
+          </node>
+          <node name="rozwijać-5, odwijać-1" size="0"/>
+        </node>
+        <node name="przekładać-1" size="0"/>
+        <node name="wykładać-2" size="0"/>
+        <node name="nakładać-4" size="17">
+          <node name="nakręcać-4" size="0"/>
+          <node name="obrywać się-2" size="0"/>
+          <node name="obciążać-3" size="7">
+            <node name="obładowywać-1" size="0"/>
+            <node name="objuczać-1" size="0"/>
+            <node name="obarczać-3" size="0"/>
+            <node name="balastować-1" size="0"/>
+            <node name="przeciążać-1" size="2">
+              <node name="piłować-4" size="0"/>
+              <node name="przeładowywać-3" size="0"/>
+            </node>
+          </node>
+          <node name="wbijać-2, nabijać-2, nadziewać-2" size="1">
+            <node name="nakłuwać-1" size="0"/>
+          </node>
+          <node name="nasuwać-2" size="1">
+            <node name="nawlekać-1, nanizywać-1, nizać-1" size="0"/>
+          </node>
+          <node name="nasadzać-1" size="0"/>
+          <node name="powlekać-2, oblekać-2" size="1">
+            <node name="obciągać-1" size="0"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node name="CZASOWNIK - DZIAŁANIE NDK oznaczający kontakt fizyczny-1" size="13" abstract="true">
+    <node name="wiercić-1, borować-1, wywiercać-1" size="1">
+      <node name="świdrować-1" size="0"/>
+    </node>
+    <node name="przebijać-5" size="1">
+      <node name="przekopywać-4" size="0"/>
+    </node>
+    <node name="miażdżyć-1, rozgniatać-1" size="4">
+      <node name="zgryzać-1" size="0"/>
+      <node name="tłuc-2" size="2">
+        <node name="utłukiwać-2" size="0"/>
+        <node name="rozbijać-6, roztłukiwać-2" size="0"/>
+      </node>
+    </node>
+    <node name="wykopywać-2, kopać-1" size="4">
+      <node name="ryć-3, bruździć-1" size="1">
+        <node name="buchtować-2" size="0"/>
+      </node>
+      <node name="przekopywać-4" size="0"/>
+      <node name="przekopywać-5" size="0"/>
+    </node>
+  </node>
+  <node name="CZASOWNIK - DZIAŁANIE DK oznaczający kontakt fizyczny-1" size="114" abstract="true">
+    <node name="wywiercić-1" size="0"/>
+    <node name="wykopać-2" size="2">
+      <node name="przekopać-5" size="0"/>
+      <node name="przekopać-4" size="0"/>
+    </node>
+    <node name="przebić-2" size="1">
+      <node name="przekopać-5" size="0"/>
+    </node>
+    <node name="dać-3" size="104">
+      <node name="przyznać-2" size="32">
+        <node name="obdzielić-2" size="0"/>
+        <node name="udzielić-1" size="1">
+          <node name="urlopować-1" size="0"/>
+        </node>
+        <node name="zasądzić-2, przysądzić-1" size="0"/>
+        <node name="nagrodzić-1, dać nagrodę-1" size="21">
+          <node name="uhonorować-3" size="0"/>
+          <node name="odznaczyć-1" size="0"/>
+          <node name="koronować-1" size="0"/>
+          <node name="wyróżnić-2" size="0"/>
+          <node name="ozłocić-2" size="0"/>
+          <node name="uwieńczyć-3" size="0"/>
+          <node name="pochwalić-1" size="14">
+            <node name="skomplementować-1" size="0"/>
+            <node name="zareklamować-2" size="1"/>
+            <node name="pochlebić-1, schlebić-1, przypochlebić-1, przypochlebić się-1" size="2">
+              <node name="podlizać się-1" size="0"/>
+              <node name="podbić bębenka-1" size="0"/>
+            </node>
+            <node name="rozpłynąć się-3" size="0"/>
+            <node name="wysławić-1, pobłogosławić-2, podnieść-3, wychwalić-1" size="6">
+              <node name="wychwalić pod niebiosa-1, wynieść pod niebiosa-1" size="0"/>
+              <node name="wyidealizować-1" size="4">
+                <node name="zabsolutyzować-1" size="0"/>
+                <node name="uwznioślić-1, wysublimować-1, uduchowić-1" size="2">
+                  <node name="uszlachetnić-2" size="1">
+                    <node name="uczłowieczyć-1, zhumanizować-1" size="0"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node name="ocenić-2, sklasyfikować-1" size="5">
+          <node name="zakwalifikować-1, zaliczyć-3, zaklasyfikować-1" size="4">
+            <node name="ometkować-2, zaszufladkować-1" size="0"/>
+            <node name="przekwalifikować-2" size="0"/>
+            <node name="zaszeregować-1" size="0"/>
+            <node name="podciągnąć-4" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="dać awans-1" size="1">
+        <node name="awansować-1" size="0"/>
+      </node>
+      <node name="udzielić-2" size="24">
+        <node name="użyczyć-2" size="0"/>
+        <node name="wyświęcić-1" size="1">
+          <node name="konsekrować-1" size="0"/>
+        </node>
+        <node name="poradzić-2" size="16">
+          <node name="skonsultować-1" size="0"/>
+          <node name="odradzić-1" size="0"/>
+          <node name="odradzać-2" size="0"/>
+          <node name="doradzić-1" size="12">
+            <node name="podpowiedzieć-2" size="4">
+              <node name="podszepnąć-2" size="0"/>
+              <node name="podyktować-3" size="0"/>
+              <node name="podsunąć-3, zasugerować-2, poddać-3" size="0"/>
+              <node name="skierować-5, naprowadzić-1, odesłać-1" size="0"/>
+            </node>
+            <node name="zalecić-2" size="1">
+              <node name="przepisać-5, zaordynować-2, zaaplikować-3, zapisać-6" size="0"/>
+            </node>
+            <node name="zarekomendować-1, polecić-1, zalecić-1" size="4">
+              <node name="nastręczyć-2" size="0"/>
+              <node name="zareklamować-2" size="1">
+                <node name="przereklamować-1" size="0"/>
+              </node>
+              <node name="naraić-1, nadać-5" size="0"/>
+            </node>
+          </node>
+        </node>
+        <node name="rozwieść-1" size="0"/>
+        <node name="wybaczyć-1, przebaczyć-1, odpuścić-1, podarować-2, darować-1" size="2">
+          <node name="amnestionować-1, amnestiować-1" size="0"/>
+          <node name="rozgrzeszyć-1, udzielić rozgrzeszenia-1, dać rozgrzeszenie-1" size="0"/>
+        </node>
+      </node>
+      <node name="nadać-1" size="30">
+        <node name="umocować-2" size="0"/>
+        <node name="wynieść na tron-1, powołać na tron-1, wprowadzić na tron-1, umieścić na tronie-1, osadzić  na tronie-1" size="0"/>
+        <node name="uwłaszczyć-1" size="1">
+          <node name="uwłaszczyć-2" size="0"/>
+        </node>
+        <node name="mianować-1" size="4">
+          <node name="nobilitować-2" size="0"/>
+          <node name="pasować-3" size="0"/>
+          <node name="intronizować-1" size="0"/>
+          <node name="koronować-2" size="0"/>
+        </node>
+        <node name="ukoronować-1" size="0"/>
+        <node name="przydzielić-1" size="10">
+          <node name="rozpisać-1" size="0"/>
+          <node name="zaokrętować-1" size="0"/>
+          <node name="zakwaterować-1" size="0"/>
+          <node name="wydzielić-2" size="6">
+            <node name="poskąpić-2" size="0"/>
+            <node name="odmierzyć-2" size="4">
+              <node name="odważyć-1" size="0"/>
+              <node name="wycyrklować-2" size="0"/>
+              <node name="odliczyć-3" size="1">
+                <node name="wyliczyć-5" size="0"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node name="zatwierdzić-1, uprawomocnić-1, usankcjonować-1" size="3">
+          <node name="ratyfikować-1" size="0"/>
+          <node name="autoryzować-3" size="0"/>
+          <node name="zalegitymizować-1" size="0"/>
+        </node>
+        <node name="nazwać-2, nadać imię-1" size="1">
+          <node name="ochrzcić-3" size="0"/>
+        </node>
+        <node name="promować-1" size="2">
+          <node name="habilitować-1" size="0"/>
+          <node name="doktoryzować-1" size="0"/>
+        </node>
+      </node>
+      <node name="odpowiedzieć-2, dać odpowiedź-1, udzielić odpowiedzi-1, odeprzeć-3" size="14">
+        <node name="odwrzasnąć-1" size="0"/>
+        <node name="odszepnąć-2" size="0"/>
+        <node name="odrzec-1" size="0"/>
+        <node name="odpyskować-1, odpysknąć-1" size="0"/>
+        <node name="odkrzyknąć-1" size="0"/>
+        <node name="odburknąć-1, odwarknąć-1, odmruknąć-1" size="0"/>
+        <node name="odbąknąć-1" size="0"/>
+        <node name="odmówić-1" size="1">
+          <node name="dać kosza-1, dać czarną polewkę-1, dać arbuza-1" size="0"/>
+        </node>
+        <node name="odpalić-1" size="0"/>
+        <node name="odpisać-2, odpowiedzieć-4" size="1">
+          <node name="zaręczyć-2" size="0"/>
+        </node>
+        <node name="zripostować-1" size="0"/>
+        <node name="odparować-1" size="0"/>
+      </node>
+    </node>
+    <node name="zmiażdżyć-1, zgnieść-2, rozgnieść-1" size="3">
+      <node name="zgryźć-1" size="0"/>
+      <node name="utłuc-1" size="0"/>
+      <node name="rozetrzeć-1" size="0"/>
+    </node>
+  </node>
+  <node name="CZASOWNIK - DZIAŁANIE DK oznaczający kontakt fizyczny, który wpływa na obiekt-1" size="517" abstract="true">
+    <node name="zasłonić-1, osłonić-2" size="11">
+      <node name="zasnuć-1" size="0"/>
+      <node name="przysłonić-1, przesłonić-1" size="0"/>
+      <node name="zakleić-1, zalepić-1" size="0"/>
+      <node name="zakryć-2, skryć-1" size="3">
+        <node name="zanieść-2" size="0"/>
+        <node name="zajść-7" size="0"/>
+        <node name="zawoalować-1" size="0"/>
+      </node>
+      <node name="zasunąć-1" size="1">
+        <node name="zaciągnąć-5" size="0"/>
+      </node>
+      <node name="zabudować-1" size="1">
+        <node name="zamurować-1" size="0"/>
+      </node>
+    </node>
+    <node name="opustoszyć-2" size="0"/>
+    <node name="spulchnić-1" size="4">
+      <node name="przekopać-1, skopać-2" size="1">
+        <node name="przekopać-3" size="0"/>
+      </node>
+      <node name="zorać-1, zaorać-1" size="1">
+        <node name="oborać-1" size="0"/>
+      </node>
+    </node>
+    <node name="skuć-1" size="0"/>
+    <node name="zabezpieczyć-1" size="44">
+      <node name="ocynować-1" size="0"/>
+      <node name="zabejcować-2" size="0"/>
+      <node name="zabejcować-1" size="0"/>
+      <node name="ocynkować-1" size="0"/>
+      <node name="opancerzyć-1" size="0"/>
+      <node name="podkuć-1" size="0"/>
+      <node name="uziemić-1" size="0"/>
+      <node name="zaizolować-1" size="0"/>
+      <node name="opryskać-1, spryskać-2" size="0"/>
+      <node name="ocieplić-2" size="1">
+        <node name="wywatować-1" size="0"/>
+      </node>
+      <node name="zaplombować-1, opieczętować-1" size="0"/>
+      <node name="umocnić-2" size="1">
+        <node name="ustalić-5" size="0"/>
+      </node>
+      <node name="pobielić-1" size="0"/>
+      <node name="obrębić-1" size="1">
+        <node name="obszyć-2, obrzucić-3" size="0"/>
+      </node>
+      <node name="obwałować-1" size="0"/>
+      <node name="zablokować-2" size="0"/>
+      <node name="utwardzić-1" size="1">
+        <node name="zahartować-2" size="0"/>
+      </node>
+      <node name="zafoliować-1, zalaminować-1" size="0"/>
+      <node name="zakonserwować-2" size="3">
+        <node name="zabalsamować-1, zmumifikować-1" size="0"/>
+        <node name="zdublować-4" size="0"/>
+        <node name="zaimpregnować-1" size="0"/>
+      </node>
+      <node name="zakonserwować-1" size="4">
+        <node name="zapeklować-1" size="0"/>
+        <node name="zasolić-2, nasolić-1" size="0"/>
+        <node name="ukwasić-1, zakwasić-1, zakisić-1" size="0"/>
+        <node name="zamarynować-1" size="0"/>
+      </node>
+      <node name="spreparować-1" size="0"/>
+      <node name="obwarować-1" size="0"/>
+      <node name="umocnić-1, wzmocnić-1" size="8">
+        <node name="podkuć-2" size="0"/>
+        <node name="ożebrować-1" size="0"/>
+        <node name="utwardzić-3" size="0"/>
+        <node name="obmurować-1, omurować-1" size="0"/>
+        <node name="zabetonować-1, wybetonować-1, obetonować-1" size="0"/>
+        <node name="ufortyfikować-1" size="2">
+          <node name="okopać-1" size="0"/>
+          <node name="obwarować-2" size="0"/>
+        </node>
+      </node>
+      <node name="opatrzyć-2" size="1">
+        <node name="zabandażować-1, obandażować-1" size="0"/>
+      </node>
+    </node>
+    <node name="umieścić-1, ulokować-1, usytuować-1, umiejscowić-1, usadowić-1" size="363">
+      <node name="ometkować-1" size="0"/>
+      <node name="oprawić-1, wprawić-2" size="0"/>
+      <node name="wstrzelić-1, wstrzelać-3" size="0"/>
+      <node name="wkopać-1, wkopnąć-1" size="0"/>
+      <node name="przykryć-1, nakryć-1" size="31">
+        <node name="pokryć-4" size="24">
+          <node name="wykropkować-1" size="0"/>
+          <node name="popisać-3" size="1">
+            <node name="pokreślić-1" size="0"/>
+          </node>
+          <node name="powybijać-1" size="0"/>
+          <node name="zabazgrać-1" size="0"/>
+          <node name="założyć-11" size="0"/>
+          <node name="usiać-2" size="0"/>
+          <node name="zadrukować-1" size="0"/>
+          <node name="położyć-6" size="5">
+            <node name="wyłożyć-2" size="4">
+              <node name="wysłać-4, wymościć-1, umościć-1, wyścielić-1" size="0"/>
+              <node name="wykleić-2" size="1">
+                <node name="wytapetować-1" size="0"/>
+              </node>
+              <node name="wybrukować-1" size="0"/>
+            </node>
+          </node>
+          <node name="posypać-1, obsypać-1, osypać-1" size="9">
+            <node name="wysypać-1" size="2">
+              <node name="wyżwirować-1" size="0"/>
+              <node name="wyszabrować-2" size="0"/>
+            </node>
+            <node name="przysypać-1" size="0"/>
+            <node name="nasypać-2" size="1">
+              <node name="dosypać-2" size="0"/>
+            </node>
+            <node name="opylić-1" size="0"/>
+            <node name="oprószyć-1" size="1">
+              <node name="przyprószyć-1" size="0"/>
+            </node>
+          </node>
+        </node>
+        <node name="zadekować-2" size="0"/>
+        <node name="zasypać-1" size="3">
+          <node name="zapadać-7" size="0"/>
+          <node name="zawiać-7" size="0"/>
+          <node name="zagruzować-1" size="0"/>
+        </node>
+        <node name="okryć-1" size="0"/>
+      </node>
+      <node name="zapchać-1" size="0"/>
+      <node name="wstawić-1" size="1">
+        <node name="oszklić-1" size="0"/>
+      </node>
+      <node name="przesypać-1" size="0"/>
+      <node name="zaparkować-1" size="0"/>
+      <node name="podstawić-1" size="0"/>
+      <node name="przystawić-1" size="0"/>
+      <node name="zmieścić-2" size="0"/>
+      <node name="zamknąć-2" size="2">
+        <node name="zaryglować-1" size="0"/>
+        <node name="zatrzasnąć-1" size="0"/>
+      </node>
+      <node name="założyć-7" size="3">
+        <node name="osiodłać-1" size="1">
+          <node name="okulbaczyć-1" size="0"/>
+        </node>
+        <node name="zadać-3" size="0"/>
+      </node>
+      <node name="nastawić-4, postawić-1" size="0"/>
+      <node name="pozostawić-2, zostawić-3" size="5">
+        <node name="podrzucić-1" size="0"/>
+        <node name="podłożyć-1" size="2"/>
+        <node name="odłożyć-1" size="0"/>
+      </node>
+      <node name="zapuścić-1" size="0"/>
+      <node name="upchać-1, upchnąć-1, utkać-1" size="0"/>
+      <node name="wszyć-1" size="0"/>
+      <node name="zainstalować-3, zamontować-1, założyć-6" size="12">
+        <node name="nagłośnić-2" size="0"/>
+        <node name="uzbroić-1" size="0"/>
+        <node name="podłączyć-2" size="0"/>
+        <node name="zabezpieczyć-4" size="0"/>
+        <node name="okablować-1" size="0"/>
+        <node name="położyć-2" size="5">
+          <node name="poprowadzić-3, przeprowadzić-4" size="4">
+            <node name="puścić-16" size="0"/>
+            <node name="doprowadzić-4" size="2">
+              <node name="przyłączyć-3" size="1">
+                <node name="pociągnąć-8" size="0"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node name="zaminować-1" size="0"/>
+      </node>
+      <node name="wypchać-1, napchać-1" size="1"/>
+      <node name="rozmieścić-1, rozlokować-1" size="28">
+        <node name="rozplanować-1" size="0"/>
+        <node name="rozsiać-1" size="0"/>
+        <node name="rozsadzić-3, usadzić-1, usadowić-2" size="0"/>
+        <node name="rozkleić-1, rozlepić-1" size="0"/>
+        <node name="rozproszyć-1, zdekoncentrować-1, rozrzucić-2" size="3">
+          <node name="rozpylić-1" size="0"/>
+          <node name="rozstrzelić-1" size="0"/>
+          <node name="zdecentralizować-1" size="0"/>
+        </node>
+        <node name="ustawić-3" size="4">
+          <node name="uszykować-2" size="0"/>
+          <node name="rozstawić-2" size="1">
+            <node name="rozwinąć-5" size="0"/>
+          </node>
+          <node name="rozwinąć-4" size="0"/>
+        </node>
+        <node name="rozłożyć-2" size="3">
+          <node name="ustawić-4, rozstawić-1" size="2">
+            <node name="ugrupować-1" size="0"/>
+            <node name="sformować-2" size="0"/>
+          </node>
+        </node>
+        <node name="ustawić-1, postawić-3" size="10">
+          <node name="oprzeć-2" size="3">
+            <node name="podeprzeć-1, wesprzeć-1" size="2">
+              <node name="zaprzeć-1" size="0"/>
+              <node name="podbudować-2" size="0"/>
+            </node>
+          </node>
+          <node name="podać-4, zaserwować-1" size="2">
+            <node name="napoić-1" size="0"/>
+            <node name="podetknąć-1" size="0"/>
+          </node>
+          <node name="nastawić-5" size="1">
+            <node name="nadstawić-1" size="0"/>
+          </node>
+          <node name="zestawić-3" size="0"/>
+        </node>
+      </node>
+      <node name="zatoczyć-2, wtoczyć-1" size="0"/>
+      <node name="wprowadzić-6" size="22">
+        <node name="arylować-1" size="0"/>
+        <node name="wtłoczyć-2" size="3"/>
+        <node name="zadokować-3" size="0"/>
+        <node name="zadokować-2" size="0"/>
+        <node name="wszczepić-1" size="0"/>
+        <node name="wpompować-1, wtłoczyć-3" size="0"/>
+        <node name="wczytać-1" size="0"/>
+        <node name="nasycić-1" size="7">
+          <node name="zasolić-3" size="0"/>
+          <node name="okadzić-1" size="0"/>
+          <node name="zakwasić-2" size="0"/>
+          <node name="naoliwić-1" size="0"/>
+          <node name="natłuścić-1" size="0"/>
+          <node name="nasączyć-1, wsączyć-1" size="0"/>
+          <node name="nawoskować-1" size="0"/>
+        </node>
+        <node name="wpuścić-1" size="1">
+          <node name="zapchlić-1" size="0"/>
+        </node>
+        <node name="wstrzyknąć-1" size="1">
+          <node name="dać w żyłę-1" size="0"/>
+        </node>
+      </node>
+      <node name="wrzucić-1" size="3">
+        <node name="wwalić-1" size="0"/>
+        <node name="wsypać-1, nasypać-1" size="0"/>
+        <node name="wdrobić-1" size="0"/>
+      </node>
+      <node name="podłożyć-1" size="2">
+        <node name="podminować-1" size="0"/>
+        <node name="podsunąć-4" size="0"/>
+      </node>
+      <node name="przewiesić-2, powiesić-2, zawiesić-3" size="0"/>
+      <node name="włożyć-2, nałożyć-2, założyć-3, wdziać-1, ubrać-1" size="7">
+        <node name="nacisnąć-2" size="0"/>
+        <node name="wbić się-2, wcisnąć się-2" size="0"/>
+        <node name="wziąć-7" size="0"/>
+        <node name="wystroić-1" size="0"/>
+        <node name="naciągnąć-2" size="0"/>
+        <node name="przebrać-1" size="0"/>
+        <node name="obuć-1" size="0"/>
+      </node>
+      <node name="włożyć-1" size="18">
+        <node name="wetknąć-1" size="1">
+          <node name="zasadzić-2, wsunąć-1, zatknąć-1" size="0"/>
+        </node>
+        <node name="dopchać-1, dopchnąć-1" size="0"/>
+        <node name="wścibić-1, wściubić-1" size="0"/>
+        <node name="wkręcić-1" size="0"/>
+        <node name="wśliznąć-1" size="0"/>
+        <node name="spakować się-1, zwinąć się-2, zebrać się-3" size="1">
+          <node name="przepakować się-1" size="0"/>
+        </node>
+        <node name="przełożyć-4" size="0"/>
+        <node name="naładować-1, załadować-1, władować-1" size="2"/>
+        <node name="wsadzić-1" size="0"/>
+        <node name="podłożyć-3" size="2">
+          <node name="podesłać-1, pościelić-3, posłać-5, podścielić-1" size="0"/>
+          <node name="podsadzić-1" size="0"/>
+        </node>
+        <node name="pochować-1, pogrzebać-1" size="0"/>
+        <node name="spakować-1, zapakować-1, upakować-2" size="0"/>
+      </node>
+      <node name="posadzić-2" size="3">
+        <node name="rozsadzić-3, usadzić-1, usadowić-2" size="0"/>
+        <node name="przesadzić-4" size="0"/>
+        <node name="usadowić-3" size="0"/>
+      </node>
+      <node name="zagłębić-1, wgłębić-1" size="13">
+        <node name="wkopać-2" size="0"/>
+        <node name="wdeptać-1" size="0"/>
+        <node name="wcisnąć-1" size="2">
+          <node name="wgnieść-2, wgiąć-2" size="0"/>
+          <node name="wtulić-1" size="0"/>
+        </node>
+        <node name="wtulić-1" size="0"/>
+        <node name="wciąć-1" size="0"/>
+        <node name="wkręcić-2" size="0"/>
+        <node name="wbić-1" size="5">
+          <node name="wstrzelić-3, wstrzelać-1" size="0"/>
+          <node name="dziobnąć-2, dzióbnąć-3" size="0"/>
+          <node name="wkuć-1" size="0"/>
+          <node name="wkłuć-1" size="0"/>
+          <node name="pobić-3" size="0"/>
+        </node>
+      </node>
+      <node name="wepchnąć-1, wepchać-1" size="6">
+        <node name="wdusić-1" size="0"/>
+        <node name="wpakować-1" size="0"/>
+        <node name="wtłoczyć-1" size="3">
+          <node name="nabić-1" size="2"/>
+        </node>
+      </node>
+      <node name="zastawić-1" size="0"/>
+      <node name="zanurzyć-1" size="7">
+        <node name="wykąpać-2" size="0"/>
+        <node name="skąpać-1" size="0"/>
+        <node name="pogrążyć-2" size="0"/>
+        <node name="namoczyć-1" size="1">
+          <node name="zamaczać-1" size="0"/>
+        </node>
+        <node name="zatopić-1, utopić-1" size="1">
+          <node name="podtopić-1" size="0"/>
+        </node>
+      </node>
+      <node name="zasadzić-1, posadzić-1" size="10">
+        <node name="dosadzić-1, przysadzić-1" size="0"/>
+        <node name="rozsadzić-6" size="3">
+          <node name="przeflancować-2" size="0"/>
+          <node name="obsadzić-4" size="1">
+            <node name="wysadzić-4" size="0"/>
+          </node>
+        </node>
+        <node name="przesadzić-1" size="2">
+          <node name="przeflancować-2" size="0"/>
+          <node name="wysadzić-3" size="0"/>
+        </node>
+        <node name="zazielenić-1" size="2">
+          <node name="zadrzewić-1" size="1">
+            <node name="zalesić-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="powiesić-1, zawiesić-2" size="9">
+        <node name="odwiesić-1" size="0"/>
+        <node name="podwiesić-1" size="0"/>
+        <node name="przywiesić-1, uwiesić-1, zawiesić-1" size="1">
+          <node name="uwiązać-2" size="0"/>
+        </node>
+        <node name="przewiesić-1" size="0"/>
+        <node name="wywiesić-1" size="1">
+          <node name="oflagować-1" size="0"/>
+        </node>
+        <node name="rozwiesić-1" size="0"/>
+        <node name="zawiesić-5, obwiesić-1" size="0"/>
+      </node>
+      <node name="zarzucić-1, narzucić-1" size="1">
+        <node name="przerzucić-2" size="0"/>
+      </node>
+      <node name="wypełnić-1, napełnić-1, zapełnić-1" size="43">
+        <node name="zapisać-5" size="0"/>
+        <node name="upakować-1, wypakować-1, upchać-3, upchnąć-2" size="0"/>
+        <node name="zapchać-5, zatłoczyć-1" size="0"/>
+        <node name="zapchać-4, zawalić-1" size="0"/>
+        <node name="zaplombować-2" size="0"/>
+        <node name="zaplombować-3" size="0"/>
+        <node name="zatankować-1" size="0"/>
+        <node name="scementować-1" size="0"/>
+        <node name="napompować-1" size="0"/>
+        <node name="naładować-1, załadować-1, władować-1" size="2">
+          <node name="doładować-1" size="1">
+            <node name="dowalić-3" size="0"/>
+          </node>
+        </node>
+        <node name="wypchać-1, napchać-1" size="1">
+          <node name="wypchnąć się-1, wypchać się-1" size="0"/>
+        </node>
+        <node name="wypchać-2" size="0"/>
+        <node name="dopełnić-3" size="1">
+          <node name="dolać-2" size="0"/>
+        </node>
+        <node name="nabić-1" size="2">
+          <node name="naładować-3, załadować-2" size="1">
+            <node name="przeładować-2" size="0"/>
+          </node>
+        </node>
+        <node name="naszpikować-1" size="1">
+          <node name="zaśmiecić-1, zachwaścić-1" size="0"/>
+        </node>
+        <node name="zabudować-2" size="0"/>
+        <node name="nadziać-1" size="2">
+          <node name="naszpikować-3" size="0"/>
+          <node name="nafaszerować-1" size="0"/>
+        </node>
+        <node name="obsadzić-2, zarybić-1" size="0"/>
+        <node name="nadmuchać-1" size="0"/>
+        <node name="zastawić-2" size="0"/>
+        <node name="zarysować-2" size="0"/>
+        <node name="wlać-1, nalać-1" size="11">
+          <node name="podlać-1" size="0"/>
+          <node name="wtłoczyć-2" size="3">
+            <node name="wdmuchać-1, wdmuchnąć-1" size="0"/>
+            <node name="wstrzyknąć-2" size="0"/>
+            <node name="wtrysnąć-1" size="0"/>
+          </node>
+          <node name="polać-1" size="0"/>
+          <node name="przelać-1" size="1">
+            <node name="zlać-4" size="0"/>
+          </node>
+          <node name="zatankować-1" size="0"/>
+          <node name="nasączyć-2" size="0"/>
+          <node name="rozlać-1" size="0"/>
+        </node>
+        <node name="zasypać-2" size="1">
+          <node name="zagrzebać-1" size="0"/>
+        </node>
+      </node>
+      <node name="ukryć-1, schować-1, skryć-2" size="18">
+        <node name="zakamuflować-2" size="0"/>
+        <node name="schronić-1" size="0"/>
+        <node name="zaszyć-1" size="0"/>
+        <node name="zamknąć-5" size="2">
+          <node name="zaryglować-1" size="0"/>
+          <node name="zatrzasnąć-1" size="0"/>
+        </node>
+        <node name="przechować-2" size="5">
+          <node name="zachować-5, zatrzymać-8, schować-2" size="4">
+            <node name="zarezerwować-2" size="1">
+              <node name="zabukować-1, zaklepać-1, zamówić-6" size="0"/>
+            </node>
+            <node name="oszczędzić-5" size="0"/>
+            <node name="zostawić-6, pozostawić-7, odłożyć-4" size="0"/>
+          </node>
+        </node>
+        <node name="zadekować-1" size="0"/>
+        <node name="zakopać-1" size="0"/>
+        <node name="zamelinować-1" size="0"/>
+        <node name="zamaskować-1" size="2">
+          <node name="zatuszować-2" size="0"/>
+          <node name="zakamuflować-3" size="0"/>
+        </node>
+      </node>
+      <node name="położyć-1" size="44">
+        <node name="poszyć-1" size="1">
+          <node name="pokryć-8" size="0"/>
+        </node>
+        <node name="pokryć-5" size="9">
+          <node name="poszyć-3" size="0"/>
+          <node name="obszyć-4" size="0"/>
+          <node name="oblepić-3" size="0"/>
+          <node name="oblepić-2, obkleić-1, okleić-1" size="0"/>
+          <node name="nabić-3, wybić-8" size="4">
+            <node name="wysadzić-5" size="0"/>
+            <node name="wysłać-4, wymościć-1, umościć-1, wyścielić-1" size="0"/>
+            <node name="obić-1" size="1">
+              <node name="okuć-1" size="0"/>
+            </node>
+          </node>
+        </node>
+        <node name="nakłaść-1" size="0"/>
+        <node name="ułożyć-2" size="0"/>
+        <node name="przełożyć-1" size="0"/>
+        <node name="odłożyć-1" size="0"/>
+        <node name="nałożyć-5" size="10">
+          <node name="oberwać się-3" size="0"/>
+          <node name="oblachować-1" size="0"/>
+          <node name="obciążyć-1" size="5">
+            <node name="obładować-1" size="0"/>
+            <node name="objuczyć-1" size="0"/>
+            <node name="obarczyć-3" size="0"/>
+            <node name="przeciążyć-2" size="1">
+              <node name="przeładować-4" size="0"/>
+            </node>
+          </node>
+          <node name="powlec-1, oblec-2, powłóczyć-2" size="1">
+            <node name="obciągnąć-2" size="0"/>
+          </node>
+        </node>
+        <node name="wyłożyć-1" size="0"/>
+        <node name="rozpostrzeć-1, rozłożyć-1" size="15">
+          <node name="roztoczyć-2" size="0"/>
+          <node name="rozsunąć-1" size="0"/>
+          <node name="rozbić-7" size="0"/>
+          <node name="otworzyć-3" size="0"/>
+          <node name="rozprostować-2, wyprostować-2" size="3">
+            <node name="rozkręcić-3" size="0"/>
+            <node name="wyciągnąć-5" size="1">
+              <node name="sięgnąć-3, wyciągnąć rękę-1" size="0"/>
+            </node>
+          </node>
+          <node name="rozścielić-1, rozesłać-1, pościelić-1, posłać-3" size="0"/>
+          <node name="rozwinąć-3, odwinąć-1" size="0"/>
+          <node name="rozczapierzyć-1, rozcapierzyć-1" size="0"/>
+          <node name="rozciągnąć-1" size="3">
+            <node name="rozpiąć-2" size="0"/>
+            <node name="rozwlec-2" size="1">
+              <node name="rozwłóczyć-1" size="0"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node name="założyć-4, nałożyć-3, włożyć-3" size="2">
+        <node name="wskoczyć-4" size="0"/>
+        <node name="wzuć-1" size="0"/>
+      </node>
+      <node name="nałożyć-4, nanieść-1" size="53">
+        <node name="nakręcić-4" size="0"/>
+        <node name="pomalować-2, umalować-1, zrobić makijaż-1" size="5">
+          <node name="wycieniować-4" size="0"/>
+          <node name="wytuszować-1" size="0"/>
+          <node name="wymalować-3" size="0"/>
+          <node name="uróżować-1" size="0"/>
+          <node name="upudrować-1" size="0"/>
+        </node>
+        <node name="pokryć-2" size="45">
+          <node name="zamazać-1" size="0"/>
+          <node name="wylać-1" size="1">
+            <node name="wyasfaltować-1" size="0"/>
+          </node>
+          <node name="oblać-1, polać-2" size="4">
+            <node name="zlać-3" size="0"/>
+            <node name="przelać-3" size="0"/>
+            <node name="ochlapać-2, opryskać-2, obryzgać-1, zabryzgać-1, zapryskać-1, zachlapać-1" size="0"/>
+            <node name="okrasić-3" size="0"/>
+          </node>
+          <node name="pociągnąć-9" size="0"/>
+          <node name="posrebrzyć-1" size="0"/>
+          <node name="rozprowadzić-2" size="15">
+            <node name="rozdeptać-2" size="0"/>
+            <node name="rozsmarować-1" size="0"/>
+            <node name="rozmazać-2" size="0"/>
+            <node name="rozetrzeć-2" size="0"/>
+            <node name="posmarować-1, wysmarować-1" size="10">
+              <node name="wetrzeć-1" size="0"/>
+              <node name="wybrylantować-1" size="0"/>
+              <node name="natrzeć-2" size="1">
+                <node name="namydlić-1, zamydlić-1" size="0"/>
+              </node>
+              <node name="nasmołować-1" size="0"/>
+              <node name="namaścić-1" size="0"/>
+              <node name="naoliwić-1" size="0"/>
+              <node name="natłuścić-1" size="0"/>
+              <node name="nakremować-1" size="0"/>
+              <node name="napastować-4" size="0"/>
+            </node>
+          </node>
+          <node name="spienić-2" size="0"/>
+          <node name="pomalować-1" size="6">
+            <node name="wymalować-4" size="0"/>
+            <node name="przemalować-1" size="0"/>
+            <node name="ochlapać-1" size="0"/>
+            <node name="obmalować-2" size="0"/>
+            <node name="obielić-2, pobielić-2, ubielić-1" size="0"/>
+            <node name="upstrzyć-1" size="0"/>
+          </node>
+          <node name="powlec-2, zaciągnąć-3" size="10">
+            <node name="pozłocić-2, wyzłocić-2" size="0"/>
+            <node name="polakierować-1" size="0"/>
+            <node name="oblać-2, polać-4" size="4">
+              <node name="polukrować-1" size="0"/>
+              <node name="zalać-2" size="2">
+                <node name="nalać-5" size="0"/>
+                <node name="sparzyć-3" size="0"/>
+              </node>
+            </node>
+            <node name="zagruntować-1" size="0"/>
+            <node name="nawoskować-1" size="0"/>
+            <node name="otynkować-1" size="0"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node name="podzielić-1" size="89">
+      <node name="rozgałęzić-1" size="0"/>
+      <node name="przedzielić-2" size="0"/>
+      <node name="rozdzielić-4" size="26">
+        <node name="rozwidlić-1" size="0"/>
+        <node name="rozdwoić-1" size="0"/>
+        <node name="rozłożyć-7" size="2">
+          <node name="rozrysować-1" size="0"/>
+          <node name="rozszczepić-2" size="0"/>
+        </node>
+        <node name="rozszczepić-1" size="0"/>
+        <node name="rozsadzić-4" size="0"/>
+        <node name="rozłączyć-1" size="18">
+          <node name="rozlutować-1" size="0"/>
+          <node name="rozsupłać-2" size="0"/>
+          <node name="rozpleść-1" size="0"/>
+          <node name="rozpiąć-1" size="0"/>
+          <node name="rozprząc-2" size="0"/>
+          <node name="rozkleić-2, rozlepić-2" size="0"/>
+          <node name="rozczepić-1" size="1">
+            <node name="rozformować-1" size="0"/>
+          </node>
+          <node name="rozpruć-1, spruć-2" size="0"/>
+          <node name="rozsunąć-2" size="8">
+            <node name="rozgarnąć-1" size="5">
+              <node name="rozkopać-2" size="0"/>
+              <node name="rozgrzebać-2" size="3">
+                <node name="rozorać-2" size="2">
+                  <node name="zryć-1" size="1">
+                    <node name="zbuchtować-2" size="0"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node name="rozgrabić-2" size="0"/>
+            <node name="rozkraczyć-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="rozgryźć-1" size="0"/>
+      <node name="wyporcjować-1" size="1">
+        <node name="rozważyć-2" size="0"/>
+      </node>
+      <node name="oderwać-3" size="0"/>
+      <node name="rozciąć-1" size="4">
+        <node name="chlasnąć-4" size="0"/>
+        <node name="poćwiartować-1" size="0"/>
+        <node name="przepiłować-1" size="0"/>
+        <node name="rozpłatać-1" size="0"/>
+      </node>
+      <node name="rozpołowić-1, przepołowić-1" size="0"/>
+      <node name="przegryźć-1" size="0"/>
+      <node name="przeciąć-1" size="4">
+        <node name="przerżnąć-1" size="1">
+          <node name="dorżnąć-3" size="0"/>
+        </node>
+        <node name="otworzyć-5" size="0"/>
+        <node name="przerąbać-1, rozrąbać-1" size="0"/>
+      </node>
+      <node name="rozłożyć-3" size="3">
+        <node name="zdemontować-1, rozebrać-3, rozmontować-1" size="2">
+          <node name="rozkręcić-2" size="0"/>
+          <node name="rozbroić-4" size="0"/>
+        </node>
+      </node>
+      <node name="rozdrobnić-1, rozdrobić-1" size="14">
+        <node name="pogryźć-2" size="0"/>
+        <node name="rozdziobać-1" size="0"/>
+        <node name="rozczłonkować-1, rozkawałkować-1" size="1">
+          <node name="rozwłóknić-1" size="0"/>
+        </node>
+        <node name="utłuc-1" size="0"/>
+        <node name="utrzeć-1, zetrzeć-1" size="4">
+          <node name="dotrzeć-5" size="0"/>
+          <node name="ukręcić-3" size="0"/>
+          <node name="rozetrzeć-1" size="0"/>
+          <node name="przetrzeć-3" size="0"/>
+        </node>
+        <node name="przeżuć-1" size="0"/>
+        <node name="zemleć-1, zmielić-1, umielić-1" size="1">
+          <node name="przekręcić-3" size="0"/>
+        </node>
+        <node name="pokruszyć-1, podrobić-2" size="0"/>
+      </node>
+      <node name="pociąć-1" size="8">
+        <node name="porąbać-1, połupać-1" size="0"/>
+        <node name="naciąć-2" size="0"/>
+        <node name="zgilotynować-3" size="0"/>
+        <node name="przetrzeć-2" size="0"/>
+        <node name="posiekać-1" size="1">
+          <node name="zerżnąć-4" size="0"/>
+        </node>
+        <node name="pokroić-2, pokrajać-1, skroić-1" size="1">
+          <node name="poszatkować-1" size="0"/>
+        </node>
+      </node>
+      <node name="rozerwać-1" size="13">
+        <node name="rozsadzić-1" size="0"/>
+        <node name="porozrywać-1" size="0"/>
+        <node name="naderwać-1" size="0"/>
+        <node name="rozedrzeć-1" size="3"/>
+        <node name="zerwać-1, przerwać-6" size="0"/>
+        <node name="podrzeć-1, porwać-4, poszarpać-2" size="8">
+          <node name="rozharatać-1" size="0"/>
+          <node name="wystrzępić-1, postrzępić-1" size="0"/>
+          <node name="potargać-3" size="0"/>
+          <node name="rozszarpać-1" size="0"/>
+          <node name="rozedrzeć-1" size="3">
+            <node name="porozdzierać-1" size="0"/>
+            <node name="nadedrzeć-1" size="0"/>
+            <node name="przedrzeć-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="rozlać-1" size="0"/>
+      <node name="złamać-1, przełamać-5, rozłamać-1" size="0"/>
+    </node>
+  </node>
+  <node name="CZASOWNIK - AKT oznaczający kontakt fizyczny-1" size="128" abstract="true">
+    <node name="chwycić się-1, złapać się-2, czepić się-1, uchwycić się-1" size="2"/>
+    <node name="wziąć-3" size="15">
+      <node name="chwycić-1, ująć-1" size="14">
+        <node name="dzióbnąć-4, dziobnąć-4" size="0"/>
+        <node name="dziobnąć-3, dzióbnąć-2, skubnąć-4" size="0"/>
+        <node name="chwycić się-1, złapać się-2, czepić się-1, uchwycić się-1" size="2">
+          <node name="przyczepić się-2" size="0"/>
+          <node name="powiesić się-1, uwiesić się-1" size="0"/>
+        </node>
+        <node name="capnąć-1" size="0"/>
+        <node name="odebrać-3" size="0"/>
+        <node name="podchwycić-2" size="0"/>
+        <node name="złapać-1, schwycić-1, pochwycić-2, schwytać-2, uchwycić-1" size="5">
+          <node name="chapnąć-3, chapsnąć-3, chłapnąć-1" size="0"/>
+          <node name="porwać-2" size="0"/>
+          <node name="załapać-2" size="1">
+            <node name="podnieść-12" size="0"/>
+          </node>
+          <node name="porwać się-5" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="utrzymać-2" size="0"/>
+    <node name="uczesać-2" size="2">
+      <node name="wyszczotkować-2" size="0"/>
+      <node name="przeczesać-2" size="0"/>
+    </node>
+    <node name="nakreślić-1" size="11">
+      <node name="narysować-2" size="6">
+        <node name="wykreślić-3" size="1">
+          <node name="odłożyć-2" size="0"/>
+        </node>
+        <node name="dorysować-1" size="0"/>
+        <node name="zakreślić-1" size="0"/>
+        <node name="podkreślić-2" size="0"/>
+        <node name="naszkicować-2" size="0"/>
+      </node>
+      <node name="poprowadzić-1" size="0"/>
+      <node name="zakreślić-2" size="0"/>
+      <node name="zarysować-3" size="1">
+        <node name="podmalować-1" size="0"/>
+      </node>
+    </node>
+    <node name="dotknąć-1, tknąć-1" size="92">
+      <node name="pogłaskać-1, pogładzić-1" size="0"/>
+      <node name="otrzeć się-1" size="0"/>
+      <node name="macnąć-1" size="0"/>
+      <node name="uderzyć się-1" size="4">
+        <node name="łomotnąć się-1" size="0"/>
+        <node name="walnąć się-1" size="0"/>
+        <node name="puknąć się-1" size="0"/>
+        <node name="gruchnąć się-1" size="0"/>
+      </node>
+      <node name="liznąć-2" size="1">
+        <node name="oblizać-1" size="0"/>
+      </node>
+      <node name="musnąć-1, liznąć-1" size="0"/>
+      <node name="przylgnąć-1, obcisnąć-1, oblepić-1, opiąć-1, opiąć się-1" size="14">
+        <node name="przyschnąć-1" size="0"/>
+        <node name="wpić się-2" size="0"/>
+        <node name="przystać-4" size="0"/>
+        <node name="przycisnąć się-1, przykleić się-1, przylepić się-2, przywrzeć-1" size="10">
+          <node name="przyrosnąć-1" size="0"/>
+          <node name="przylgnąć-2, przywrzeć-2" size="4">
+            <node name="przywarować-2" size="0"/>
+            <node name="weprzeć-2, zaprzeć-2" size="0"/>
+            <node name="przymarznąć-1" size="0"/>
+            <node name="przywrzeć-3, przylepić się-4" size="0"/>
+          </node>
+          <node name="oblepić-5" size="0"/>
+          <node name="przytulić się-1" size="2">
+            <node name="przypaść-4" size="0"/>
+            <node name="przykleić się-3, przylepić się-3" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="grzmotnąć się-1" size="0"/>
+      <node name="pocałować-1, cmoknąć-1" size="1">
+        <node name="ucałować-1" size="0"/>
+      </node>
+      <node name="ścisnąć-1, zacisnąć-1" size="10">
+        <node name="zewrzeć-1" size="0"/>
+        <node name="zaciągnąć-1" size="0"/>
+        <node name="zadzierzgnąć-2" size="0"/>
+        <node name="zacieśnić-2" size="0"/>
+        <node name="zaciąć-3" size="0"/>
+        <node name="szczypnąć-1, uszczypnąć-1" size="1">
+          <node name="podszczypać-1, podszczypnąć-1, podskubać-1" size="0"/>
+        </node>
+        <node name="spiąć-2" size="0"/>
+        <node name="pościągać-6" size="0"/>
+        <node name="sprasować-1" size="0"/>
+      </node>
+      <node name="uderzyć-4" size="43">
+        <node name="puknąć-1, stuknąć-7" size="0"/>
+        <node name="zabębnić-1" size="0"/>
+        <node name="kłapnąć-1, plasnąć-1, klapnąć-2" size="1">
+          <node name="klasnąć-2" size="0"/>
+        </node>
+        <node name="chlasnąć-2" size="0"/>
+        <node name="poklepać-1" size="0"/>
+        <node name="klepnąć-1" size="0"/>
+        <node name="klasnąć-1" size="0"/>
+        <node name="tupnąć-1" size="1">
+          <node name="przytupnąć-1" size="0"/>
+        </node>
+        <node name="trącić się-1" size="0"/>
+        <node name="skiksować-3" size="0"/>
+        <node name="ogłuszyć-5" size="0"/>
+        <node name="trzasnąć-2, walnąć-1, huknąć-3, grzmotnąć-1, rąbnąć-1" size="1"/>
+        <node name="przybić-3, przyklepać-1" size="1">
+          <node name="przybić piątkę-1" size="0"/>
+        </node>
+        <node name="gwizdnąć-1" size="0"/>
+        <node name="kopnąć-1" size="3">
+          <node name="wykopać-3" size="0"/>
+          <node name="odkopnąć-1" size="0"/>
+          <node name="wierzgnąć-1" size="0"/>
+        </node>
+        <node name="podciąć-1" size="0"/>
+        <node name="trącić-1, potrącić-1" size="2">
+          <node name="popchnąć-1" size="0"/>
+          <node name="szturchnąć-1" size="0"/>
+        </node>
+        <node name="przywalić-1, przydzwonić-1, przygrzać-2, wyrżnąć-1, przyrżnąć-1, przyładować-1, łupnąć-1, rypnąć-2, gruchnąć-3, bachnąć-2, dogrzać-6" size="14">
+          <node name="uderzyć-2, zadać cios-2, zadać raz-1, dać-13, wymierzyć-3, dać łupnia-1" size="13">
+            <node name="spoliczkować-1" size="0"/>
+            <node name="zaprawić-3, stuknąć-4, lunąć-2, chlusnąć-2, kropnąć-1, machnąć-3, strzelić-2" size="0"/>
+            <node name="zdzielić-1" size="0"/>
+            <node name="ciąć-3" size="0"/>
+            <node name="świsnąć-1" size="0"/>
+            <node name="rąbnąć-3" size="0"/>
+            <node name="znokautować-2" size="0"/>
+            <node name="kuksnąć-1" size="0"/>
+            <node name="dowalić-1, dojechać-3, dosolić-1, dosunąć-1, przyłożyć-2, przylać-1, przysolić-1, przysunąć-2, zasunąć-2, zajechać-8" size="0"/>
+            <node name="smagnąć-1" size="3">
+              <node name="chlasnąć-1" size="0"/>
+              <node name="chłosnąć-1" size="1">
+                <node name="zaciąć-2" size="0"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node name="pacnąć-1" size="0"/>
+        <node name="buchnąć-2" size="0"/>
+      </node>
+      <node name="oprzeć się-2, podeprzeć się-1, wesprzeć się-1" size="1">
+        <node name="zaprzeć się-1" size="0"/>
+      </node>
+      <node name="objąć-2, opleść-2, opasać-2, ogarnąć-2" size="5">
+        <node name="uściskać-1, uścisnąć-1" size="0"/>
+        <node name="ścisnąć-2" size="1">
+          <node name="obściskać-1" size="0"/>
+        </node>
+        <node name="przytulić-1, przygarnąć-2" size="1">
+          <node name="ukochać-1" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="strzelić-1, wystrzelić-1, palnąć-2, wypalić-1, kropnąć-2, łupnąć-2, przygrzać-4, rąbnąć-2, puknąć-2, walnąć-3, wygarnąć-1, dogrzać-1" size="2">
+      <node name="wstrzelić-2, wstrzelać-2" size="0"/>
+      <node name="przenieść-2" size="0"/>
+    </node>
+  </node>
+  <node name="CZASOWNIK - AKT oznaczający kontakt fizyczny, który wpływa na obiekt-1" size="116" abstract="true">
+    <node name="maznąć się-2" size="0"/>
+    <node name="uruchomić-2" size="18">
+      <node name="otworzyć-6" size="0"/>
+      <node name="odblokować-4" size="0"/>
+      <node name="włączyć-4" size="15">
+        <node name="zrestartować-1, zresetować-1" size="1">
+          <node name="zresetować-2" size="0"/>
+        </node>
+        <node name="puścić-11" size="2">
+          <node name="odtworzyć-5" size="1"/>
+        </node>
+        <node name="odkręcić kurek-1" size="2">
+          <node name="odkręcić gaz-1" size="0"/>
+          <node name="odkręcić wodę-1" size="0"/>
+        </node>
+        <node name="włączyć-2" size="0"/>
+        <node name="włączyć-6" size="2">
+          <node name="odtworzyć-5" size="1">
+            <node name="retransmitować-1" size="0"/>
+          </node>
+        </node>
+        <node name="zaświecić-3, zapalić-2" size="1">
+          <node name="mignąć-5" size="0"/>
+        </node>
+        <node name="zapalić-4" size="2">
+          <node name="odpalić-6" size="0"/>
+          <node name="odpalić-5, zapuścić-5" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="rozegrać-1" size="15">
+      <node name="zamurować-2" size="0"/>
+      <node name="zaatakować-5" size="1">
+        <node name="zaszachować-1, dać szacha-1" size="0"/>
+      </node>
+      <node name="zagrać-5" size="6">
+        <node name="spalić-6" size="0"/>
+        <node name="podać-3, odegrać-2" size="4">
+          <node name="dograć-2" size="0"/>
+          <node name="dośrodkować-1, scentrować-1, zacentrować-1" size="0"/>
+          <node name="zaserwować-2" size="1">
+            <node name="podać-5" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="zagrać-8" size="4">
+        <node name="kupić-5" size="0"/>
+        <node name="zameldować-4" size="0"/>
+        <node name="wyjść-17" size="1">
+          <node name="podegrać-1" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="zamknąć-3, zawrzeć-2" size="31">
+      <node name="zamknąć na trzy spusty-1" size="0"/>
+      <node name="zaciągnąć-2" size="0"/>
+      <node name="przymknąć-2" size="0"/>
+      <node name="zawalić-2" size="0"/>
+      <node name="zapiąć-1" size="3">
+        <node name="zapiąć się-2" size="0"/>
+        <node name="dopiąć-2" size="1">
+          <node name="dopiąć się-2" size="0"/>
+        </node>
+      </node>
+      <node name="zakryć-3" size="2">
+        <node name="przykryć-3" size="1">
+          <node name="zadaszyć-1" size="0"/>
+        </node>
+      </node>
+      <node name="zaślepić-2" size="0"/>
+      <node name="zatrzasnąć-3" size="0"/>
+      <node name="zawiązać-5" size="1">
+        <node name="zasznurować-1, zesznurować-3" size="0"/>
+      </node>
+      <node name="zatrzasnąć-2, przytrzasnąć-1" size="0"/>
+      <node name="zakręcić-3" size="2">
+        <node name="nakręcić-5" size="0"/>
+        <node name="dokręcić-2" size="0"/>
+      </node>
+      <node name="zabić-8" size="0"/>
+      <node name="zatkać-1, zapchać-2" size="7">
+        <node name="zalać-7" size="0"/>
+        <node name="uszczelnić-1" size="1">
+          <node name="utkać-5" size="0"/>
+        </node>
+        <node name="zaszpuntować-1, zaczopować-1" size="0"/>
+        <node name="zakneblować-1" size="0"/>
+        <node name="przytkać-1" size="0"/>
+        <node name="zakorkować-1" size="0"/>
+      </node>
+      <node name="zmrużyć-1, przymrużyć-1" size="0"/>
+      <node name="zaryglować-2" size="0"/>
+      <node name="domknąć-1" size="0"/>
+    </node>
+    <node name="wybić-1" size="3">
+      <node name="wytłuc-3" size="0"/>
+      <node name="odbić-8, obtłuc-2" size="0"/>
+      <node name="wytrącić-1" size="0"/>
+    </node>
+    <node name="pobić-2, zbić-1, stłuc-1, poturbować-1, zlać-1, sprać-1" size="17">
+      <node name="przełożyć przez kolano-1" size="0"/>
+      <node name="dać wycisk-2" size="0"/>
+      <node name="skroić-4" size="0"/>
+      <node name="posiniaczyć-1" size="0"/>
+      <node name="sklepać-2" size="0"/>
+      <node name="skopać-1, pokopać-2, wkopać-5" size="0"/>
+      <node name="wlać-2" size="0"/>
+      <node name="spałować-1" size="0"/>
+      <node name="wrąbać-1" size="0"/>
+      <node name="zmasakrować-1" size="0"/>
+      <node name="wybić-7" size="0"/>
+      <node name="potłuc-1" size="0"/>
+      <node name="wysmagać-1, wychłostać-1" size="1">
+        <node name="ubiczować-1" size="0"/>
+      </node>
+      <node name="nabić-4" size="0"/>
+      <node name="obić-2" size="0"/>
+      <node name="skatować-1, zmaltretować-2" size="0"/>
+    </node>
+    <node name="nacisnąć-1, nagnieść-1, przycisnąć-1, wcisnąć-2" size="25">
+      <node name="naprzeć-2" size="0"/>
+      <node name="docisnąć-1" size="1">
+        <node name="dobić-7" size="0"/>
+      </node>
+      <node name="zadzwonić-2" size="0"/>
+      <node name="kliknąć-1" size="0"/>
+      <node name="zdeptać-2, podeptać-1" size="0"/>
+      <node name="potrzeć-1" size="4">
+        <node name="drapnąć-1, podrapać-1" size="0"/>
+        <node name="wymasować-1" size="2">
+          <node name="rozmasować-1" size="1">
+            <node name="rozetrzeć-3" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="przygnieść-1" size="8">
+        <node name="przytłoczyć-2" size="0"/>
+        <node name="przysiąść-4" size="0"/>
+        <node name="przyskrzynić-2, przytrzasnąć-2" size="0"/>
+        <node name="przywalić-2" size="0"/>
+        <node name="przybić-5" size="1">
+          <node name="opieczętować-2" size="0"/>
+        </node>
+        <node name="zasypać-5" size="1">
+          <node name="pogrzebać-3" size="0"/>
+        </node>
+      </node>
+      <node name="nastąpić-4, nadepnąć-1, nadeptać-1" size="4">
+        <node name="wejść-13" size="2">
+          <node name="wleźć-8" size="0"/>
+          <node name="wdepnąć-2" size="0"/>
+        </node>
+        <node name="przydepnąć-1, przydeptać-1" size="0"/>
+      </node>
+    </node>
+  </node>
+  <node name="CZASOWNIK - WYPADEK oznaczający kontakt fizyczny, który wpływa na obiekt-1" size="98" abstract="true">
+    <node name="obruszyć-2" size="0"/>
+    <node name="opierzyć-1" size="0"/>
+    <node name="pociąć-3" size="0"/>
+    <node name="odbić-3" size="0"/>
+    <node name="przysypać-2" size="0"/>
+    <node name="zaprószyć-1" size="0"/>
+    <node name="zawirować-3" size="0"/>
+    <node name="utkwić-1" size="4">
+      <node name="utknąć-2, uwięznąć-1, ugrzęznąć-1" size="0"/>
+      <node name="utknąć-1" size="2">
+        <node name="utknąć-4, utkwić-2" size="1">
+          <node name="zakleszczyć się-1" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="przepuścić-5" size="3">
+      <node name="przemoknąć-1, przemoczyć się-1" size="0"/>
+      <node name="przecieknąć-1, przeciec-3" size="1">
+        <node name="zacieknąć-2, zaciec-1" size="0"/>
+      </node>
+    </node>
+    <node name="uszkodzić-1" size="81">
+      <node name="wyszczerbić-1" size="0"/>
+      <node name="pokancerować-1" size="1">
+        <node name="porysować-4, pokreślić-3" size="0"/>
+      </node>
+      <node name="podgryźć-1, podjeść-3, podeżreć-3" size="0"/>
+      <node name="oberwać-2" size="0"/>
+      <node name="przepalić-3" size="0"/>
+      <node name="zdefektować-1" size="0"/>
+      <node name="postrzelać-1" size="0"/>
+      <node name="rozregulować-2, rozstroić-3" size="0"/>
+      <node name="zadrzeć-2, nadedrzeć-2" size="0"/>
+      <node name="nadszarpnąć-3, nadszarpać-1" size="1">
+        <node name="poderwać-3" size="0"/>
+      </node>
+      <node name="poturbować-2" size="0"/>
+      <node name="zadrapać-1, zadrapnąć-1" size="0"/>
+      <node name="rozjeździć-2" size="0"/>
+      <node name="przetrącić-1" size="0"/>
+      <node name="okaleczyć-1" size="0"/>
+      <node name="przedziurawić-1" size="16">
+        <node name="nakłuć-1" size="0"/>
+        <node name="przewiercić-1" size="1">
+          <node name="prześwidrować-1" size="0"/>
+        </node>
+        <node name="przerwać-7" size="0"/>
+        <node name="przestrzelić-3" size="0"/>
+        <node name="przebić-1" size="10">
+          <node name="przeszyć-2" size="1">
+            <node name="pchnąć-2, zadać cios-1" size="0"/>
+          </node>
+          <node name="wybić-9" size="0"/>
+          <node name="ukłuć-1" size="4">
+            <node name="dźgnąć-1" size="0"/>
+            <node name="zakłuć-1" size="0"/>
+            <node name="użądlić-1" size="0"/>
+            <node name="dziobnąć-1, dzióbnąć-1" size="0"/>
+          </node>
+          <node name="przekłuć-1" size="1">
+            <node name="nakłuć-2" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="obić-3, obtłuc-1" size="4">
+        <node name="utłuc-2" size="3">
+          <node name="odbić-8, obtłuc-2" size="0"/>
+          <node name="odtrącić-4, odtłuc-1" size="1">
+            <node name="utrącić-2" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="zranić-1, skaleczyć-1, ranić-1" size="27">
+        <node name="ranić-2" size="0"/>
+        <node name="urazić-2" size="0"/>
+        <node name="rozwalić-2" size="0"/>
+        <node name="otrzeć-1, zetrzeć-2, obetrzeć-1" size="0"/>
+        <node name="postrzelić-1" size="1">
+          <node name="władować-3" size="0"/>
+        </node>
+        <node name="postrzelać-1" size="0"/>
+        <node name="rozciąć-2" size="0"/>
+        <node name="haratnąć-1" size="0"/>
+        <node name="zedrzeć-4" size="0"/>
+        <node name="przeciąć-2" size="5">
+          <node name="naciąć-1" size="4">
+            <node name="nadciąć-1" size="1">
+              <node name="naderżnąć-1" size="0"/>
+            </node>
+            <node name="zaciąć-4" size="0"/>
+            <node name="zaciąć-5" size="0"/>
+          </node>
+        </node>
+        <node name="rozszarpać-2" size="0"/>
+        <node name="ugodzić-1" size="0"/>
+        <node name="drasnąć-1, zadrasnąć-1" size="0"/>
+        <node name="okaleczyć-2" size="1">
+          <node name="oślepić-2" size="0"/>
+        </node>
+        <node name="rozpruć-2" size="0"/>
+        <node name="obić-4" size="0"/>
+        <node name="ugryźć-1" size="2">
+          <node name="uciąć-4, ukąsić-1" size="1">
+            <node name="użądlić-1" size="0"/>
+          </node>
+        </node>
+        <node name="zaciąć-1" size="0"/>
+      </node>
+      <node name="sparzyć-2, oparzyć-1" size="1">
+        <node name="popalić-4" size="0"/>
+      </node>
+      <node name="zepsuć-3, popsuć-2" size="5">
+        <node name="spalić-8" size="0"/>
+        <node name="przekręcić-4" size="0"/>
+        <node name="nadpsuć-1" size="0"/>
+        <node name="naruszyć-4" size="1">
+          <node name="wstrząsnąć-3" size="0"/>
+        </node>
+      </node>
+      <node name="zatrzeć-3" size="0"/>
+      <node name="zarysować-4" size="0"/>
+      <node name="pokiereszować-2" size="0"/>
+      <node name="nadwyrężyć-1, nadwerężyć-1, nadszarpnąć-1, nadwątlić-1" size="4">
+        <node name="zerwać-5" size="0"/>
+        <node name="zedrzeć-5" size="0"/>
+        <node name="zachwiać-1" size="0"/>
+        <node name="sforsować-1, przeciążyć-1" size="0"/>
+      </node>
+    </node>
+  </node>
+  <node name="CZASOWNIK - WYPADEK oznaczający kontakt fizyczny-1" size="17" abstract="true">
+    <node name="ulec wypadkowi-1" size="1">
+      <node name="rozbić się-6" size="0"/>
+    </node>
+    <node name="rozbić się-3" size="0"/>
+    <node name="uderzyć-3" size="12">
+      <node name="rozbić się-5" size="0"/>
+      <node name="chlasnąć-3" size="0"/>
+      <node name="kopnąć-2" size="0"/>
+      <node name="obić się-1" size="0"/>
+      <node name="stuknąć-5, puknąć-3" size="0"/>
+      <node name="trzasnąć-2, walnąć-1, huknąć-3, grzmotnąć-1, rąbnąć-1" size="1">
+        <node name="palnąć-1" size="0"/>
+      </node>
+      <node name="chłosnąć-2, smagnąć-2" size="0"/>
+      <node name="wpaść-6, wlecieć-1, zderzyć się-2, władować się-2, wpakować się-3" size="3">
+        <node name="zaczepić-2, zaczepić się-1, zahaczyć-2, zahaczyć się-1, zawadzić-1" size="2">
+          <node name="przyczepić się-3" size="0"/>
+          <node name="potknąć się-3" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="dostać-4, oberwać-1, dostać łupnia-1, zebrać-7" size="0"/>
+  </node>
+</node>

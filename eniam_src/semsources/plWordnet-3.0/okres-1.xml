@@ -1,0 +1,844 @@
+<node name="czas-3, okres-1, period-1, moment-1, pora-1" size="698">
+  <node name="prosta-3" size="0"/>
+  <node name="miesiąc smoczy-1" size="0"/>
+  <node name="miesiąc anomalistyczny-1" size="0"/>
+  <node name="pontyfikat-2" size="0"/>
+  <node name="rok platoński-1" size="0"/>
+  <node name="zakręt-3" size="0"/>
+  <node name="ostatnia prosta-1" size="0"/>
+  <node name="ostatni dzwonek-1" size="0"/>
+  <node name="przesilenie wiosenne-1" size="0"/>
+  <node name="przesilenie polityczne-1, przesilenie gabinetowe-1, przesilenie rządowe-1" size="0"/>
+  <node name="okno startowe-1" size="0"/>
+  <node name="godzina-4" size="24">
+    <node name="pierwsza-2" size="0"/>
+    <node name="trzecia-2" size="0"/>
+    <node name="druga-2" size="0"/>
+    <node name="trzynasta-1, pierwsza-1" size="0"/>
+    <node name="szósta-2" size="0"/>
+    <node name="siódma-2" size="0"/>
+    <node name="piętnasta-1, trzecia-1" size="0"/>
+    <node name="piąta-2, siedemnasta-1" size="0"/>
+    <node name="piąta-1" size="0"/>
+    <node name="ósma-2, dwudziesta-1" size="0"/>
+    <node name="ósma-1" size="0"/>
+    <node name="osiemnasta-1, szósta-1" size="0"/>
+    <node name="jedenasta-2, dwudziesta trzecia-1" size="0"/>
+    <node name="jedenasta-1" size="0"/>
+    <node name="dziewiętnasta-1, siódma-1" size="0"/>
+    <node name="dziewiąta-2, dwudziesta pierwsza-1" size="0"/>
+    <node name="dziewiąta-1" size="0"/>
+    <node name="dziesiąta-2, dwudziesta druga-1" size="0"/>
+    <node name="dziesiąta-1" size="0"/>
+    <node name="dwunasta-1, południe-3" size="0"/>
+    <node name="czwarta-3, szesnasta-1" size="0"/>
+    <node name="czwarta-1" size="0"/>
+    <node name="czternasta-1, druga-1" size="0"/>
+    <node name="północ-2, dwunasta-2, dwudziesta czwarta-1" size="0"/>
+  </node>
+  <node name="obieg syderyczny-1, obieg gwiazdowy-1, okres syderyczny-1, okres gwiazdowy-1" size="1"/>
+  <node name="cykl realizacyjny-1" size="0"/>
+  <node name="okres wegetacyjny-1, cykl wegetacyjny-1" size="0"/>
+  <node name="cykl zegarowy-1" size="0"/>
+  <node name="okres zaliczalny-1" size="0"/>
+  <node name="czas fabularny-1" size="0"/>
+  <node name="klimakter-1" size="0"/>
+  <node name="gorący czas-2" size="0"/>
+  <node name="czas rzeczywisty-1" size="0"/>
+  <node name="Bierut-2" size="0"/>
+  <node name="czas nieoznaczony-2" size="0"/>
+  <node name="rok obrotowy-1" size="0"/>
+  <node name="okres nieskładkowy-1" size="0"/>
+  <node name="okres składkowy-1" size="0"/>
+  <node name="okres rozliczeniowy-1, cykl rozliczeniowy-1" size="0"/>
+  <node name="okres sprawozdzawczy-1" size="0"/>
+  <node name="narzeczeństwo-2" size="0"/>
+  <node name="emerytura-2" size="1">
+    <node name="stan spoczynku-1" size="0"/>
+  </node>
+  <node name="przełom-3" size="0"/>
+  <node name="konsulat-6" size="0"/>
+  <node name="konsulat-5" size="0"/>
+  <node name="przeddzień-2" size="0"/>
+  <node name="wachta-3" size="0"/>
+  <node name="dyżur-2" size="0"/>
+  <node name="przerwa-1, intermezzo-6" size="13">
+    <node name="cisza wyborcza-1" size="0"/>
+    <node name="hibernacja-3" size="0"/>
+    <node name="szabas-2" size="0"/>
+    <node name="zająknięcie-1, zacięcie-7, zająknienie-1" size="0"/>
+    <node name="przestanek-1" size="0"/>
+    <node name="cezura-3" size="0"/>
+    <node name="cisza-5" size="1">
+      <node name="milczenie-2" size="0"/>
+    </node>
+    <node name="przestój-1" size="0"/>
+    <node name="postój-1" size="2">
+      <node name="postój lodowca-1, stagnacja lodowca-1" size="0"/>
+      <node name="popas-1" size="0"/>
+    </node>
+    <node name="antrakt-1" size="0"/>
+  </node>
+  <node name="okupacja-3" size="0"/>
+  <node name="sezon-3" size="8">
+    <node name="sezon-2" size="1">
+      <node name="sezon regularny-1" size="0"/>
+    </node>
+    <node name="sianokosy-2, sianokos-2" size="0"/>
+    <node name="żniwa-1" size="1">
+      <node name="kośba-1" size="0"/>
+    </node>
+    <node name="miodobranie-1" size="0"/>
+    <node name="martwy sezon-1" size="1">
+      <node name="sezon ogórkowy-1, bezrybie-1" size="0"/>
+    </node>
+  </node>
+  <node name="rozmnoża-2" size="0"/>
+  <node name="szczenięctwo-2" size="0"/>
+  <node name="sześciolecie-1" size="0"/>
+  <node name="siedmiolecie-1" size="0"/>
+  <node name="półokres-1" size="0"/>
+  <node name="dwunastolecie-1" size="0"/>
+  <node name="czterdziestopięciolecie-1" size="0"/>
+  <node name="dziewięciolecie-2" size="0"/>
+  <node name="czas półtrwania-1, okres półtrwania-1" size="0"/>
+  <node name="Gierek-2" size="0"/>
+  <node name="Gomułka-2" size="0"/>
+  <node name="decemwirat-3" size="0"/>
+  <node name="beania-1" size="0"/>
+  <node name="ośmiolecie-1" size="0"/>
+  <node name="triduum-1" size="0"/>
+  <node name="pentada-1" size="0"/>
+  <node name="przedwojnie-1" size="0"/>
+  <node name="powojnie-1" size="0"/>
+  <node name="siedemsetlecie-1" size="0"/>
+  <node name="siedemdziesięciopięciolecie-1" size="0"/>
+  <node name="sześćsetlecie-1" size="0"/>
+  <node name="trzydziestopięciolecie-1" size="0"/>
+  <node name="trzechlecie-1" size="0"/>
+  <node name="żakostwo-2" size="0"/>
+  <node name="tranzycja-2" size="0"/>
+  <node name="opricznina-1" size="0"/>
+  <node name="dziewięćdziesięciolecie-2" size="0"/>
+  <node name="alarm-3, alert-3" size="2">
+    <node name="alarm ozonowy-1" size="0"/>
+    <node name="żółty alarm-1" size="0"/>
+  </node>
+  <node name="żywotność-4" size="0"/>
+  <node name="rozbiory-1" size="0"/>
+  <node name="święta-2" size="0"/>
+  <node name="postkomunizm-2, postkomuna-1" size="0"/>
+  <node name="roztopy-1" size="0"/>
+  <node name="olimpiada-3" size="0"/>
+  <node name="przeszłość-2" size="0"/>
+  <node name="okres-7" size="2">
+    <node name="obieg syderyczny-1, obieg gwiazdowy-1, okres syderyczny-1, okres gwiazdowy-1" size="1">
+      <node name="miesiąc gwiazdowy-1, miesiąc syderyczny-1" size="0"/>
+    </node>
+  </node>
+  <node name="szczyt-3" size="0"/>
+  <node name="saros-1" size="0"/>
+  <node name="stanówka-1" size="0"/>
+  <node name="sześćdziesięciolecie-1" size="0"/>
+  <node name="siedemdziesięciolecie-1" size="0"/>
+  <node name="dwulecie-1" size="0"/>
+  <node name="dwóchsetlecie-1, dwusetlecie-1" size="0"/>
+  <node name="kalpa-1, eon-1" size="0"/>
+  <node name="dni otwarte-1" size="0"/>
+  <node name="pluwiał-2" size="0"/>
+  <node name="półwiek-1" size="0"/>
+  <node name="czterechsetlecie-1" size="0"/>
+  <node name="usłonecznienie-1" size="0"/>
+  <node name="cisza nocna-1" size="0"/>
+  <node name="miesiąc księżycowy-1" size="1">
+    <node name="przybysz-2, przybytnik-1, przybycień-1, przybyły-2" size="0"/>
+  </node>
+  <node name="cisza-4, spokój-3" size="0"/>
+  <node name="rok-1" size="15"/>
+  <node name="szkoła-8" size="2">
+    <node name="biała szkoła-1" size="0"/>
+    <node name="zielona szkoła-1" size="0"/>
+  </node>
+  <node name="zmiana-5" size="4">
+    <node name="dwuzmianowość-1" size="0"/>
+    <node name="nocna zmiana-1" size="0"/>
+    <node name="szychta-1" size="0"/>
+    <node name="wachta-2" size="0"/>
+  </node>
+  <node name="dni-1" size="1">
+    <node name="ciche dni-1" size="0"/>
+  </node>
+  <node name="kwadrans akademicki-1" size="0"/>
+  <node name="gorący okres-1, gorący czas-1" size="1">
+    <node name="urwanie głowy-1" size="0"/>
+  </node>
+  <node name="katechumenat-1" size="0"/>
+  <node name="godzina-1" size="5">
+    <node name="godzina szczytu-1" size="0"/>
+    <node name="godzina milicyjna-1" size="0"/>
+    <node name="czarna godzina-1" size="0"/>
+    <node name="nadgodzina-3, nadliczbówka-1, godzina nadliczbowa-1" size="0"/>
+    <node name="roboczogodzina-1" size="0"/>
+  </node>
+  <node name="złote czasy-1" size="0"/>
+  <node name="miodowy miesiąc-1" size="0"/>
+  <node name="ciąża-2" size="0"/>
+  <node name="ciężkie czasy-1" size="0"/>
+  <node name="ostatki-1, zapusty-1" size="0"/>
+  <node name="osiemdziesięciolecie-1" size="0"/>
+  <node name="zakwaterowanie-3, kwaterunek-1" size="0"/>
+  <node name="resurs-1" size="0"/>
+  <node name="przejściówka-1" size="0"/>
+  <node name="połóg-1" size="0"/>
+  <node name="premierostwo-2" size="0"/>
+  <node name="koregencja-1" size="0"/>
+  <node name="kanikuła-1" size="0"/>
+  <node name="biologiczny okres półtrwania-1" size="0"/>
+  <node name="nowicjat-1, probacja-1" size="0"/>
+  <node name="nuncjatura-3" size="0"/>
+  <node name="pięciolatka-1, pięciolecie-1" size="0"/>
+  <node name="trzydziestolecie-1" size="0"/>
+  <node name="dwudziestolecie-1, dwudziestolatka-1" size="1">
+    <node name="dwudziestolecie międzywojenne-1, międzywojnie-1" size="0"/>
+  </node>
+  <node name="czterdziestolecie-1" size="0"/>
+  <node name="ćwierćwiecze-1, dwudziestopięciolecie-1" size="0"/>
+  <node name="bezkrólewie-2, interregnum-1" size="0"/>
+  <node name="okres godowy-1, gody-1" size="9">
+    <node name="huczka-1, lochanie-1" size="0"/>
+    <node name="bekowisko-1" size="0"/>
+    <node name="parkot-1" size="0"/>
+    <node name="bukowanie-2, bukowisko-1" size="0"/>
+    <node name="tarło-1" size="0"/>
+    <node name="tycznia-1" size="0"/>
+    <node name="toki-1" size="1">
+      <node name="tokowisko-2" size="0"/>
+    </node>
+    <node name="rykowisko-1" size="0"/>
+  </node>
+  <node name="dzień polarny-1" size="0"/>
+  <node name="wiek-3" size="0"/>
+  <node name="staż-1" size="1">
+    <node name="wysługa lat-1" size="0"/>
+  </node>
+  <node name="tercja-4" size="0"/>
+  <node name="półwiecze-1, pięćdziesięciolecie-1" size="0"/>
+  <node name="karencja-1" size="0"/>
+  <node name="kolej-5, pora-2" size="0"/>
+  <node name="lata-1" size="0"/>
+  <node name="vacatio legis-1" size="0"/>
+  <node name="turnus-1" size="0"/>
+  <node name="okres próbny-1" size="0"/>
+  <node name="okres ochronny-1, czas ochronny-1" size="0"/>
+  <node name="pontyfikat-1" size="0"/>
+  <node name="tysiąclecie-1, milenium-1, millenium-1" size="0"/>
+  <node name="dekada-1, dziesięciolecie-1" size="1">
+    <node name="krzyżyk-7" size="0"/>
+  </node>
+  <node name="żałoba-2" size="0"/>
+  <node name="semestr-1, okres-3, półrocze-1" size="2">
+    <node name="semestr zimowy-1" size="0"/>
+    <node name="semestr letni-1" size="0"/>
+  </node>
+  <node name="karnawał-1, zapusty-2" size="0"/>
+  <node name="oktawa-2" size="1">
+    <node name="biały tydzień-1" size="0"/>
+  </node>
+  <node name="półrocze-2" size="0"/>
+  <node name="święto-1" size="14">
+    <node name="święto rzymskie-1" size="8">
+      <node name="brumalia-1" size="0"/>
+      <node name="saturnalia-1" size="0"/>
+      <node name="cerealia-1" size="0"/>
+      <node name="feralia-1" size="0"/>
+      <node name="luperkalie-1, luperkalia-1" size="0"/>
+      <node name="floralia-1" size="0"/>
+      <node name="matronalia-1" size="0"/>
+      <node name="parentalia-1" size="0"/>
+    </node>
+    <node name="święto religijne-1" size="4" abstract="true">
+      <node name="święto żydowskie-1" size="1" abstract="true">
+        <node name="szabas-1, szabat-1, sabat-2" size="0"/>
+      </node>
+      <node name="święto chrześcijańskie-1" size="0" abstract="true"/>
+      <node name="bajram-1" size="0"/>
+    </node>
+  </node>
+  <node name="postulat-3" size="0"/>
+  <node name="pora-3" size="17">
+    <node name="zmierzch żeglarski-1" size="0"/>
+    <node name="zmierzch cywilny-1" size="0"/>
+    <node name="zmierzch astronomiczny-1" size="0"/>
+    <node name="podwieczór-1" size="0"/>
+    <node name="zachód-4" size="0"/>
+    <node name="przedwieczór-1, przedwieczerz-1, przedwieczerze-1" size="0"/>
+    <node name="szarówka-1, szara godzina-1" size="0"/>
+    <node name="przedpołudnie-1" size="0"/>
+    <node name="rano-2" size="0"/>
+    <node name="popołudnie-1" size="0"/>
+    <node name="wschód-2, świtanie-3, świt-2, zaranie-2" size="1"/>
+    <node name="wieczór-3, zmierzch-2, zmrok-1" size="1">
+      <node name="półzmierzch-1" size="0"/>
+    </node>
+    <node name="brzask-2, przedświt-1, rozświt-1" size="1">
+      <node name="świt cywilny-1, świt kalendarzowy-1" size="0"/>
+    </node>
+    <node name="południe-2" size="0"/>
+  </node>
+  <node name="dzień-1" size="26">
+    <node name="dzień astronomiczny-1" size="0"/>
+    <node name="przedwczoraj-1" size="0"/>
+    <node name="dzień bilansowy-1" size="0"/>
+    <node name="pojutrze-1" size="0"/>
+    <node name="dzień powszedni-1, dzień roboczy-1" size="12">
+      <node name="dzień pracy-1" size="1">
+        <node name="sesja-5" size="0"/>
+      </node>
+      <node name="wtorek-1" size="0"/>
+      <node name="środa-1" size="0"/>
+      <node name="sobota-1" size="3">
+        <node name="sobota pracująca-1" size="0"/>
+        <node name="wolna sobota-1" size="0"/>
+        <node name="szabas-1, szabat-1, sabat-2" size="0"/>
+      </node>
+      <node name="poniedziałek-1" size="0"/>
+      <node name="piątek-1" size="1">
+        <node name="dzień trzech wiedźm-1" size="0"/>
+      </node>
+      <node name="czwartek-1" size="0"/>
+    </node>
+    <node name="dzień wolny-1" size="9">
+      <node name="dzień świąteczny-1" size="4">
+        <node name="bajram-1" size="0"/>
+        <node name="szabas-1, szabat-1, sabat-2" size="0"/>
+        <node name="niedziela-1" size="1">
+          <node name="biała niedziela-2" size="0"/>
+        </node>
+      </node>
+      <node name="świętówka-1" size="0"/>
+      <node name="wolna sobota-1" size="0"/>
+      <node name="dzień rektorski-1" size="0"/>
+      <node name="dzień dziekański-1" size="0"/>
+    </node>
+    <node name="jutro-1" size="0"/>
+  </node>
+  <node name="tydzień-1" size="1">
+    <node name="biały tydzień-1" size="0"/>
+  </node>
+  <node name="noc-2" size="6">
+    <node name="noc astronomiczna-1" size="0"/>
+    <node name="czerwona noc-1" size="0"/>
+    <node name="zielona noc-1" size="0"/>
+    <node name="biała noc-3" size="0"/>
+    <node name="biała noc-2" size="0"/>
+    <node name="pusta noc-1, opłakana noc-1" size="0"/>
+  </node>
+  <node name="miesiąc-1, m-c-1" size="27">
+    <node name="miesiąc kalendarza żydowskiego-1" size="13" abstract="true">
+      <node name="adar II-2" size="0"/>
+      <node name="adar-2" size="0"/>
+      <node name="szwat-2" size="0"/>
+      <node name="tewet-2" size="0"/>
+      <node name="kislew-2" size="0"/>
+      <node name="cheszwan-2, marheszwan-1" size="0"/>
+      <node name="tiszri-2" size="0"/>
+      <node name="elul-2" size="0"/>
+      <node name="aw-5" size="0"/>
+      <node name="tamuz-2" size="0"/>
+      <node name="siwan-2" size="0"/>
+      <node name="ijar-2" size="0"/>
+      <node name="nisan-3" size="0"/>
+    </node>
+    <node name="ramadan-1, ramazan-1" size="0"/>
+    <node name="luty-1" size="0"/>
+    <node name="wrzesień-1, september-1" size="0"/>
+    <node name="styczeń-1" size="0"/>
+    <node name="sierpień-1" size="0"/>
+    <node name="październik-1" size="0"/>
+    <node name="marzec-1" size="0"/>
+    <node name="maj-1" size="0"/>
+    <node name="listopad-1" size="0"/>
+    <node name="lipiec-1" size="0"/>
+    <node name="kwiecień-1" size="0"/>
+    <node name="grudzień-1" size="0"/>
+    <node name="czerwiec-1" size="0"/>
+  </node>
+  <node name="życie-9" size="0"/>
+  <node name="stulecie-1, wiek-1" size="0"/>
+  <node name="pora roku-1, sezon-1" size="11">
+    <node name="polecie-1" size="0"/>
+    <node name="przedzimie-1" size="0"/>
+    <node name="przedwiośnie-1" size="0"/>
+    <node name="przednówek-1" size="0"/>
+    <node name="jesień-1" size="0"/>
+    <node name="zima-1" size="1">
+      <node name="noc polarna-1" size="0"/>
+    </node>
+    <node name="wiosna-1" size="0"/>
+    <node name="lato-1" size="1">
+      <node name="dzień polarny-1" size="0"/>
+    </node>
+    <node name="babie lato-1" size="0"/>
+  </node>
+  <node name="post-3" size="3">
+    <node name="wielki post-2" size="0"/>
+    <node name="ścisły post-1" size="1">
+      <node name="ramadan-2" size="0"/>
+    </node>
+  </node>
+  <node name="kwartał-1, trymestr-1" size="0"/>
+  <node name="faza-1, stadium-1, etap-1, runda-1, tura-1" size="208">
+    <node name="sprawdzian-3" size="3">
+      <node name="poprawa-3" size="0"/>
+      <node name="diagnoza-2" size="0"/>
+      <node name="klasówka-1" size="0"/>
+    </node>
+    <node name="dogrywka-3" size="0"/>
+    <node name="ramka odczytu-1" size="0"/>
+    <node name="ideoplastyka-1" size="0"/>
+    <node name="rozruch-2" size="0"/>
+    <node name="licytacja-4" size="2">
+      <node name="licytacja-2" size="1">
+        <node name="landy-1" size="0"/>
+      </node>
+    </node>
+    <node name="systol-1" size="0"/>
+    <node name="zygoten-1" size="0"/>
+    <node name="diakineza-1" size="0"/>
+    <node name="przejście-23" size="4">
+      <node name="intermezzo-5" size="0"/>
+      <node name="intermezzo-3" size="0"/>
+      <node name="pasaż-3" size="1">
+        <node name="rulada-1" size="0"/>
+      </node>
+    </node>
+    <node name="runda-4" size="6">
+      <node name="finał-1" size="0"/>
+      <node name="ćwierćfinał-1" size="0"/>
+      <node name="eliminacje-2" size="2">
+        <node name="kwalifikacje-2, preselekcje-1" size="0"/>
+        <node name="przedbieg-1" size="0"/>
+      </node>
+      <node name="półfinał-1" size="0"/>
+    </node>
+    <node name="szczebel-3" size="0"/>
+    <node name="prosperity-2" size="0"/>
+    <node name="telofaza-1" size="0"/>
+    <node name="anafaza-1" size="0"/>
+    <node name="latencja-1" size="0"/>
+    <node name="martenzyt-1" size="0"/>
+    <node name="postprodukcja-1" size="1">
+      <node name="mastering-1, remastering-1" size="0"/>
+    </node>
+    <node name="wegetacja-1" size="0"/>
+    <node name="runda-2" size="4">
+      <node name="rober-1" size="0"/>
+      <node name="rozdanie-2" size="0"/>
+      <node name="set-1" size="1">
+        <node name="set honorowy-1" size="0"/>
+      </node>
+    </node>
+    <node name="interfaza-1" size="0"/>
+    <node name="interkineza-1" size="0"/>
+    <node name="gastrulacja-1" size="0"/>
+    <node name="profaza-1" size="0"/>
+    <node name="rozdział-5" size="0"/>
+    <node name="stadium rozwojowe-1" size="10" abstract="true">
+      <node name="Jezioro Ancylusowe-1" size="0"/>
+      <node name="jajo-5" size="4">
+        <node name="jajko-2, jajo-3, jaje-1" size="3">
+          <node name="balut-1" size="0"/>
+          <node name="zbuk-1" size="0"/>
+          <node name="wapniak-3" size="0"/>
+        </node>
+      </node>
+      <node name="realizm moralny-1" size="0"/>
+      <node name="klimaks-3" size="0"/>
+      <node name="smolt-1" size="0"/>
+      <node name="parr-1" size="0"/>
+    </node>
+    <node name="eliminacje-1" size="0"/>
+    <node name="rozgrywka-1, starcie-6" size="30">
+      <node name="rajd-3" size="0"/>
+      <node name="drama-4" size="0"/>
+      <node name="dungeon-1, instancja-3" size="0"/>
+      <node name="gra-3" size="23">
+        <node name="pressing-1" size="0"/>
+        <node name="obrona-6" size="3">
+          <node name="obrona strefowa-1" size="0"/>
+          <node name="bodiczek-1" size="0"/>
+          <node name="blok-8, blokada-7" size="0"/>
+        </node>
+        <node name="fair play-1, czysta gra-1" size="0"/>
+        <node name="partia-8" size="2">
+          <node name="symultana-1, symultanka-2" size="0"/>
+          <node name="gra w ciemno-2" size="0"/>
+        </node>
+        <node name="dwumecz-1" size="0"/>
+        <node name="mecz-1" size="12">
+          <node name="szlagier-3" size="0"/>
+          <node name="mecz mistrzowski-1" size="0"/>
+          <node name="mecz derbowy-1" size="0"/>
+          <node name="mecz międzypaństwowy-1" size="0"/>
+          <node name="przedmecz-1" size="0"/>
+          <node name="kopanina-2" size="0"/>
+          <node name="mikst-1, gra mieszana-1" size="0"/>
+          <node name="derby-1" size="0"/>
+          <node name="mecz towarzyski-1, spotkanie towarzyskie-1" size="1">
+            <node name="sparing-2, mecz sparingowy-1, sparring-2" size="0"/>
+          </node>
+          <node name="singel-1, syngiel-1, singiel-4, gra pojedyncza-1" size="0"/>
+          <node name="debel-1, debl-1, gra podwójna-1" size="0"/>
+        </node>
+      </node>
+      <node name="dogrywka-1" size="2">
+        <node name="repesaż-1, baraż-1, repasaż-1" size="0"/>
+        <node name="tie-break-1" size="0"/>
+      </node>
+    </node>
+    <node name="początek-2" size="103">
+      <node name="położenie stępki-1" size="0"/>
+      <node name="wybuch-3" size="0"/>
+      <node name="wielki wybuch-2" size="0"/>
+      <node name="wypływ-4" size="0"/>
+      <node name="wejście-22" size="1">
+        <node name="wejście-19" size="0"/>
+      </node>
+      <node name="kamień węgielny-2" size="0"/>
+      <node name="rozpoczęcie-4" size="64">
+        <node name="wielki wybuch-2" size="0"/>
+        <node name="otwarcie-2" size="1">
+          <node name="inauguracja-1" size="0"/>
+        </node>
+        <node name="otwarcie-5" size="53">
+          <node name="debiut-3, otwarcie szachowe-1" size="52">
+            <node name="debiut półotwarty-1" size="7">
+              <node name="debiut Nimzowitscha-1" size="0"/>
+              <node name="obrona Pirca-1" size="0"/>
+              <node name="obrona Alechina-1" size="0"/>
+              <node name="obrona skandynawska-1" size="0"/>
+              <node name="obrona Caro-Kann-1" size="0"/>
+              <node name="obrona francuska-1" size="0"/>
+              <node name="obrona sycylijska-1" size="0"/>
+            </node>
+            <node name="debiut zamknięty-1" size="17">
+              <node name="otwarcie Rétiego-1" size="0"/>
+              <node name="obrona Grünfelda-1" size="0"/>
+              <node name="partia katalońska-1" size="0"/>
+              <node name="obrona holenderska-1" size="0"/>
+              <node name="obrona Nimzowitscha-1" size="0"/>
+              <node name="partia angielska-1" size="0"/>
+              <node name="obrona hetmańsko-indyjska-1" size="0"/>
+              <node name="obrona królewsko-indyjska-1" size="0"/>
+              <node name="gambit hetmański-1" size="8"/>
+            </node>
+            <node name="debiut otwarty-1" size="19">
+              <node name="obrona Philidora-1" size="2">
+                <node name="kontrgambit Lopeza-1" size="0"/>
+                <node name="kontrgambit Philidora-1" size="0"/>
+              </node>
+              <node name="partia wiedeńska-1" size="0"/>
+              <node name="partia szkocka-1" size="0"/>
+              <node name="obrona rosyjska-1, partia rosyjska-1" size="0"/>
+              <node name="obrona dwóch skoczków-1" size="0"/>
+              <node name="gambit królewski-2" size="9"/>
+              <node name="partia włoska-1" size="0"/>
+              <node name="partia hiszpańska-1" size="0"/>
+            </node>
+            <node name="gambit-2" size="26">
+              <node name="gambit wołżański-1" size="0"/>
+              <node name="gambit królewski-2" size="9">
+                <node name="gambit Masona-1" size="0"/>
+                <node name="gambit Villemsona-1" size="0"/>
+                <node name="gambit gońca-1" size="0"/>
+                <node name="nieprzyjęty gambit królewski-1" size="0"/>
+                <node name="kontrgambit Falkbeera-1" size="0"/>
+                <node name="wariant z szybkim d5-1" size="0"/>
+                <node name="gambit Kieseritzky'ego-1" size="0"/>
+                <node name="obrona klasyczna-1" size="0"/>
+                <node name="gambit skoczka-1, gambit skoczkowy-1" size="0"/>
+              </node>
+              <node name="kontrgambit-1" size="7">
+                <node name="kontrgambit Gianutio-1" size="0"/>
+                <node name="kontrgambit Lembergera-1" size="0"/>
+                <node name="kontrgambit Winawera-1" size="0"/>
+                <node name="kontrgambit Lopeza-1" size="0"/>
+                <node name="kontrgambit Philidora-1" size="0"/>
+                <node name="kontrgambit Falkbeera-1" size="0"/>
+                <node name="kontrgambit Albina-1" size="0"/>
+              </node>
+              <node name="gambit hetmański-1" size="8">
+                <node name="obrona austriacka-1" size="0"/>
+                <node name="kontrgambit Albina-1" size="0"/>
+                <node name="obrona Czigorina-1" size="0"/>
+                <node name="obrona słowiańska-1" size="0"/>
+                <node name="gambit przyjęty-1" size="0"/>
+                <node name="gambit nieprzyjęty-1" size="2">
+                  <node name="obrona bałtycka-1, obrona Keresa-1" size="0"/>
+                  <node name="obrona Marshalla-1" size="0"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node name="start-4" size="0"/>
+        <node name="start-2" size="4">
+          <node name="restart-2" size="0"/>
+          <node name="start zatrzymany-1" size="0"/>
+          <node name="start lotny-1" size="0"/>
+          <node name="falstart-1" size="0"/>
+        </node>
+        <node name="rozruch-1" size="0"/>
+      </node>
+      <node name="powijaki-1" size="0"/>
+      <node name="narodziny-3, urodziny-1, urodzenie-3" size="2">
+        <node name="urodzenie martwe-1" size="0"/>
+        <node name="urodzenie żywe-1" size="0"/>
+      </node>
+      <node name="inicjacja-3" size="1">
+        <node name="erekcja-2" size="0"/>
+      </node>
+      <node name="rozruch-4" size="0"/>
+      <node name="geneza-2" size="0"/>
+      <node name="wstęp-4" size="3">
+        <node name="uwertura-2, preludium-3, przygrywka-3" size="0"/>
+        <node name="przygotowanie-6" size="0"/>
+        <node name="rekonesans-1" size="0"/>
+      </node>
+      <node name="narodziny-1" size="2">
+        <node name="hidżra-1, hedżra-1, hegira-1" size="0"/>
+        <node name="prapoczątek-1" size="0"/>
+      </node>
+      <node name="próg-8" size="0"/>
+      <node name="start-3" size="0"/>
+      <node name="wrota-2" size="0"/>
+      <node name="przygrywka-1" size="0"/>
+      <node name="nagłos-1" size="0"/>
+      <node name="zaczyn-2" size="0"/>
+      <node name="zaranie-1, świt-3" size="0"/>
+      <node name="inicjacja-2" size="2">
+        <node name="chrzest żeglarski-1" size="0"/>
+        <node name="chrzest bojowy-1" size="0"/>
+      </node>
+      <node name="zarodek-3" size="0"/>
+      <node name="zarzewie-1, iskra-4" size="0"/>
+      <node name="zalążek-1, zaczątek-1" size="1">
+        <node name="przyczynek-2" size="0"/>
+      </node>
+      <node name="zaśpiew-2" size="0"/>
+      <node name="wschód-2, świtanie-3, świt-2, zaranie-2" size="1">
+        <node name="świt astronomiczny-1" size="0"/>
+      </node>
+    </node>
+    <node name="egzamin-1" size="15">
+      <node name="rzeź niewiniątek-1" size="0"/>
+      <node name="poprawka-2, egzamin poprawkowy-1" size="0"/>
+      <node name="egzamin konkursowy-1" size="0"/>
+      <node name="rigorosum-1, rygorozum-1" size="0"/>
+      <node name="egzamin kierunkowy-1" size="0"/>
+      <node name="kobyła-3" size="0"/>
+      <node name="egzamin pisemny-1" size="0"/>
+      <node name="egzamin ustny-1, ustny-1" size="0"/>
+      <node name="obrona-7" size="3">
+        <node name="magisterium-3" size="0"/>
+        <node name="licencjat-3" size="0"/>
+        <node name="doktorat-3" size="0"/>
+      </node>
+      <node name="zerówka-1" size="0"/>
+      <node name="matura-1, egzamin dojrzałości-1, egzamin maturalny-1" size="1">
+        <node name="matura pomostowa-1" size="0"/>
+      </node>
+    </node>
+  </node>
+  <node name="doba-1, dwadzieścia cztery godziny-1, dzień i noc-1, dzień-2" size="6">
+    <node name="dziś-1, dzisiaj-1" size="0"/>
+    <node name="sol-3" size="0"/>
+    <node name="kalendy-1" size="0"/>
+    <node name="wczoraj-1" size="0"/>
+    <node name="wigilia-1, przeddzień-1, wilia-2" size="1">
+      <node name="wigilia-5" size="0"/>
+    </node>
+  </node>
+  <node name="termin-1, data-1" size="96">
+    <node name="termin instrukcyjny-1" size="0"/>
+    <node name="termin stanowczy-1" size="2">
+      <node name="termin zawity-1" size="0"/>
+      <node name="prekluzja-1, termin prekluzyjny-1" size="0"/>
+    </node>
+    <node name="rocznica-1" size="49">
+      <node name="milenium-2" size="0"/>
+      <node name="trzynastolecie-1" size="0"/>
+      <node name="jedenastolecie-1" size="0"/>
+      <node name="sześciolecie-2" size="0"/>
+      <node name="siedmiolecie-2" size="0"/>
+      <node name="dwunastolecie-2" size="0"/>
+      <node name="czternastolecie-1" size="0"/>
+      <node name="dziewięciolecie-1" size="0"/>
+      <node name="ośmiolecie-2" size="0"/>
+      <node name="trzylecie-1, trzechlecie-2" size="0"/>
+      <node name="dwulecie-2" size="0"/>
+      <node name="czterolecie-1" size="0"/>
+      <node name="jubileusz-2" size="36">
+        <node name="czterdziestopięciolecie-2" size="0"/>
+        <node name="siedemsetlecie-2" size="0"/>
+        <node name="siedemdziesięciopięciolecie-2" size="0"/>
+        <node name="sześćsetlecie-2" size="0"/>
+        <node name="trzydziestopięciolecie-2" size="0"/>
+        <node name="dziewięćdziesięciolecie-1" size="1">
+          <node name="dziewięćdziesiątka-3" size="0"/>
+        </node>
+        <node name="dziesięciolecie-2" size="0"/>
+        <node name="dwudziestopięciolecie-2, ćwierćwiecze-2" size="0"/>
+        <node name="tysiąclecie-2" size="0"/>
+        <node name="stulecie-2" size="1">
+          <node name="setka-12" size="0"/>
+        </node>
+        <node name="pięciolecie-2" size="0"/>
+        <node name="dwóchsetlecie-2, dwustulecie-1, dwusetlecie-2" size="0"/>
+        <node name="sześćdziesięciolecie-2" size="1">
+          <node name="sześćdziesiątka-4" size="0"/>
+        </node>
+        <node name="siedemdziesięciolecie-2" size="1">
+          <node name="siedemdziesiątka-3" size="0"/>
+        </node>
+        <node name="osiemdziesięciolecie-2" size="1">
+          <node name="osiemdziesiątka-3" size="0"/>
+        </node>
+        <node name="czterechsetlecie-2" size="0"/>
+        <node name="piętnastolecie-1" size="0"/>
+        <node name="trzydziestolecie-2" size="1">
+          <node name="trzydziestka-4" size="0"/>
+        </node>
+        <node name="pięćdziesięciolecie-2, półwiecze-2" size="1">
+          <node name="pięćdziesiątka-5" size="0"/>
+        </node>
+        <node name="dwudziestolecie-2" size="1">
+          <node name="dwudziestka-5" size="0"/>
+        </node>
+        <node name="czterdziestolecie-2" size="1">
+          <node name="czterdziestka-4" size="0"/>
+        </node>
+        <node name="urodziny-2" size="5">
+          <node name="dziewiętnastka-4" size="0"/>
+          <node name="siedemnastka-5" size="0"/>
+          <node name="szesnastka-6" size="0"/>
+          <node name="piętnastka-4" size="0"/>
+          <node name="osiemnastka-4" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="długoterminowość-2" size="0"/>
+    <node name="krótkoterminowość-2" size="0"/>
+    <node name="dzień-3" size="38">
+      <node name="dzień w miesiącu-1" size="31" abstract="true">
+        <node name="trzydziesty pierwszy-1" size="0"/>
+        <node name="trzydziesty-1" size="0"/>
+        <node name="dwudziesty dziewiąty-1" size="0"/>
+        <node name="dwudziesty ósmy-1" size="0"/>
+        <node name="dwudziesty siódmy-1" size="0"/>
+        <node name="dwudziesty szósty-1" size="0"/>
+        <node name="dwudziesty piąty-1" size="0"/>
+        <node name="dwudziesty czwarty-1" size="0"/>
+        <node name="dwudziesty trzeci-1" size="0"/>
+        <node name="dwudziesty drugi-1" size="0"/>
+        <node name="dwudziesty pierwszy-1" size="0"/>
+        <node name="dwudziesty-1" size="0"/>
+        <node name="dziewiętnasty-1" size="0"/>
+        <node name="osiemnasty-1" size="0"/>
+        <node name="siedemnasty-1" size="0"/>
+        <node name="szesnasty-1" size="0"/>
+        <node name="piętnasty-1" size="0"/>
+        <node name="czternasty-1" size="0"/>
+        <node name="trzynasty-1" size="0"/>
+        <node name="dwunasty-1" size="0"/>
+        <node name="jedenasty-1" size="0"/>
+        <node name="dziewiąty-1" size="0"/>
+        <node name="ósmy-1" size="0"/>
+        <node name="siódmy-1" size="0"/>
+        <node name="szósty-1" size="0"/>
+        <node name="piąty-1" size="0"/>
+        <node name="czwarty-1" size="0"/>
+        <node name="trzeci-1" size="0"/>
+        <node name="drugi-1" size="0"/>
+        <node name="pierwszy-1" size="0"/>
+        <node name="dziesiąty-1" size="0"/>
+      </node>
+      <node name="wypłata-3, pierwszy-2" size="0"/>
+      <node name="dzień ostateczny-1" size="2">
+        <node name="apokalipsa-2" size="0"/>
+        <node name="sądny dzień-2, dzień Sądu Ostatecznego-1, dzień gniewu-3" size="0"/>
+      </node>
+      <node name="dzień otwarty-1" size="0"/>
+      <node name="imieniny-1" size="0"/>
+    </node>
+    <node name="termin zerowy-1, zerówka-5" size="0"/>
+  </node>
+  <node name="epoka-1, okres-4, czasy-1, czas-6, era-2, przedział czasowy-1" size="19">
+    <node name="wapień muszlowy-2" size="0"/>
+    <node name="epoka literacka-1" size="0"/>
+    <node name="pokolenie-3" size="0"/>
+    <node name="okres przedrzymski-1" size="0"/>
+    <node name="postromantyzm-1" size="0"/>
+    <node name="trecento-1" size="0"/>
+    <node name="okres literacki-1" size="0"/>
+    <node name="juga-1" size="0"/>
+    <node name="nowożytność-1" size="0"/>
+    <node name="prehistoria-1, prahistoria-1" size="5">
+      <node name="epoka prehistoryczna-1" size="3">
+        <node name="epoka brązu-1" size="0"/>
+        <node name="eneolit-1, chalkolit-1, epoka miedzi-1" size="0"/>
+        <node name="epoka kamienia-1" size="0"/>
+      </node>
+      <node name="pradzieje-1" size="0"/>
+    </node>
+    <node name="hellenizm-2" size="0"/>
+    <node name="oświecenie-4" size="0"/>
+    <node name="antyk-2, starożytność-2" size="0"/>
+    <node name="średniowiecze-1, wieki średnie-1" size="0"/>
+  </node>
+  <node name="cykl-3" size="34">
+    <node name="cykl kwasu cytrynowego-1, cykl Krebsa-1, cykl kwasów trikarboksylowych-1" size="0"/>
+    <node name="cykl biogeochemiczny-1" size="0"/>
+    <node name="cykl skalny-1" size="0"/>
+    <node name="cykl geologiczny-1" size="1">
+      <node name="cykl peryglacjalny-1" size="0"/>
+    </node>
+    <node name="cykl mszalny-1" size="0"/>
+    <node name="cykl mocznikowy-1" size="0"/>
+    <node name="cykl miesięczny-2" size="0"/>
+    <node name="mahajuga-1, cykl kosmiczny-1" size="0"/>
+    <node name="cykl rozwojowy-1, cykl życiowy-1" size="1">
+      <node name="cykl lityczny-1" size="0"/>
+    </node>
+    <node name="cykl płciowy-1, cykl rozrodczy-1, cykl reprodukcyjny-2" size="2">
+      <node name="cykl jajnikowy-1" size="0"/>
+      <node name="cykl miesiączkowy-1, cykl menstruacyjny-1, cykl-4, cykl miesięczny-1, cykl owulacyjny-1" size="0"/>
+    </node>
+    <node name="cykl astronomiczny-1" size="19">
+      <node name="rok-1" size="15">
+        <node name="rok-2" size="14">
+          <node name="rok anomalistyczny-1" size="0"/>
+          <node name="rok księżycowy-1" size="0"/>
+          <node name="wiosna-2, wiosenka-2" size="0"/>
+          <node name="rok nieskładkowy-1" size="0"/>
+          <node name="rok liturgiczny-1" size="1">
+            <node name="rok kościelny-1" size="0"/>
+          </node>
+          <node name="rok kalendarzowy-1" size="2">
+            <node name="rok zwykły-1" size="0"/>
+            <node name="rok przestępny-1" size="0"/>
+          </node>
+          <node name="rok zwrotnikowy-1, rok słoneczny-1" size="0"/>
+          <node name="rok jubileuszowy-1" size="0"/>
+          <node name="rok szkolny-1" size="0"/>
+          <node name="rok akademicki-1" size="1">
+            <node name="rok wstępny-1, rok zerowy-1" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="rok gwiazdowy-1, rok syderyczny-1" size="0"/>
+      <node name="cykl słoneczny-1" size="0"/>
+      <node name="cykl księżycowy-1, cykl lunarny-1, cykl Metona-1" size="0"/>
+    </node>
+  </node>
+</node>

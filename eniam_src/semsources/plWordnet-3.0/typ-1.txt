@@ -1,0 +1,159 @@
+157 typ-1, rodzaj-1, gatunek-1
+  0 typ widmowy-1
+  10 model-3, wzór-6
+    0 wzór użytkowy-1
+    0 wzór przemysłowy-1
+    6 krój-2, fason-1
+      0 oksford-4, oxford-1, wiedenki-1
+      0 kimono-2
+      0 klosz-4
+      0 skos-2
+      0 reglan-1, raglan-2
+      0 glif-2, ścięcie-9
+    0 *model samochodu-1
+  0 fototyp-1
+  0 natura-3
+  0 klasa-11
+  105 gatunek literacki-1, żanr-1
+    0 gatunek pograniczny-1
+    0 gatunek mieszany-1
+    0 arabeska-4
+    28 protreptyk-1
+      0 dialog-4
+      26 przemówienie-6, przemowa-1, mowa-1
+        0 mowa obrończa-1
+        0 mowa oskarżycielska-1
+        0 mowa końcowa-1
+        4 nauka-3, nauczanie-4
+          0 kerygmat-1
+          0 katecheza-1
+          1 kazanie-6, homilia-1
+            0 egzorta-1
+        0 alokucja-1
+        0 laudacja-1
+        0 mówka-1
+        0 jeremiada-1
+        0 diatryba-1
+        0 apologia-2
+        0 apologetyk-2, apologia-1
+        0 filipika-1
+        0 orędzie-1
+        0 tyrada-1, perora-1
+        0 toast-1
+        0 oracja-1
+        0 exposé-1
+        4 wykład-1
+          0 repetytorium-1
+          2 referat-1, odczyt-1, prelekcja-1
+            0 autoreferat-1
+            0 koreferat-1
+    0 minucja-1
+    0 paradoksografia-1
+    0 makama-1
+    0 utopia-3
+    0 madrygał-3
+    2 tragedia-2
+      0 tragedia grecka-1
+      0 tragifarsa-1
+    0 poemat opisowy-1
+    0 poemat heroikomiczny-1
+    0 poemat dydaktyczny-1
+    0 poemat dygresyjny-1
+    3 hymn-2
+      0 kondakion-1, kontakion-1
+      0 akatyst-1
+      0 doksologia-2
+    4 epos-1, epopeja-1
+      0 Homer-2
+      0 purana-1
+      0 itihasa-1
+      0 epos homerycki-1
+    0 epopeja-2
+    0 felieton-1
+    2 psalm-1
+      0 psalm responsoryjny-1
+      0 psalm alfabetyczny-1
+    46 powieść-1
+      0 powieść panoramiczna-1
+      1 powieść młodzieżowa-1
+        0 powieść dla dziewcząt-1, powieść pensjonarska-1
+      0 powieść polifoniczna-1
+      1 powieść w odcinkach-1
+        0 powieść radiowa-1
+      0 powieść reportażowa-1
+      0 powieść autotematyczna-1
+      0 powieść autobiograficzna-1
+      1 powieść polityczna-1
+        0 powieść aluzyjna-1
+      0 powieść szkatułkowa-1, powieść szufladkowa-1
+      1 powieść społeczno-obyczajowa-1
+        0 powieść środowiskowa-1
+      0 powieść sensacyjna-1
+      4 powieść fantastyczna-1
+        0 powieść fantasy-1
+        0 powieść fantastyczno-naukowa-1, powieść fantastycznonaukowa-1, powieść science-fiction-1, powieść sci-fi-1, powieść SF-1, powieść s-f-1
+        VISITED 0 fantastyka historyczna-1, fantasy historyczna-1
+        0 horror-1
+      0 powieść gotycka-1
+      0 powieść edukacyjna-1, bildungsroman-1
+      0 powieść marynistyczna-1
+      0 powieść przygodowa-1
+      0 powieść psychologiczna-1
+      0 powieść tendencyjna-1, powieść z tezą-1
+      0 powieść epistolarna-1
+      0 melodramat-4
+      0 western-2
+      3 powieść historyczna-1
+        0 fantastyka historyczna-1, fantasy historyczna-1
+        0 powieść biograficzna-1
+        0 powieść walterscottowska-1
+      0 thriller-1
+      1 powieść miłosna-1
+        0 harlekin-1
+      0 powieść z kluczem-2
+      0 powieść łotrzykowska-1, powieść szelmowska-1, powieść pikarejska-1, picaresca-1, pikareska-1
+      0 minipowieść-1
+      0 saga-1
+      2 kryminał-2, kryminałka-2, powieść kryminalna-1
+        0 powieść milicyjna-1
+        0 powieść detektywistyczna-1
+      0 powieść brukowa-1
+      0 antypowieść-1
+      0 powieść produkcyjna-1
+      0 mikropowieść-1
+  35 odmiana-4, wariant-1, wersja-1
+    0 preprint-1
+    0 wybijanka-1
+    11 przeróbka-2
+      0 remake-1
+      0 parafraza-3
+      0 modyfikacja-5
+      0 miks-2, remiks-1
+      0 instrumentacja-1, orkiestracja-1
+      2 aranżacja-1, aranż-1
+        0 cover-1, kower-1
+        0 transkrypcja-2
+      0 trawestacja-1
+      1 adaptacja-1
+        0 ekranizacja-1
+    0 kultywar-1
+    0 mutacja-4
+    0 dubel-1
+    0 prawykonanie-1
+    0 implementacja-1
+    0 wariacja-1
+    7 odpowiednik-1, korelat-1, analogon-1, analog-5
+      0 kontynuant-1
+      0 desygnat-1
+      0 równoważnik-2
+      0 paralela-1
+      2 równowartość-1, ekwiwalent-1, równoważnik-1
+        0 deputat-1
+        0 dieta-1
+    6 wydanie-11, edycja-1
+      0 reprint-1
+      0 wznowienie-2
+      0 pierwodruk-1
+      0 koedycja-1
+      0 przedruk-1
+      0 dodruk-1

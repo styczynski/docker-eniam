@@ -1,0 +1,16 @@
+Semantykę rozwijamy analizując kolejne zjawiska:
+- podrzędniki określające czas, miejsce, miarę...
+Za każdym razem analizujemy wszystkie części mowy, określając leksykon związany ze zjawiskiem, specyficzną dla niego gramatykę, strategie odróżniania tego zjawiska od innych.
+Np. przeglądamy słownik, celem sprawdzenia czy: dane znaczenie słowa dotyczy zjawiska, nie dotyczy go, czy też przynależność jest wątpliwa.
+
+Konstrukcje składniowe wyrażamy za pomocą formalizmu kategorialnego: jest on zwarty, czytelny, ma odpowiednio dużą wyrażalność, można go bezpośrednio zastosować w parserze. Tekstowa notacja formalizmu i znaczenie symboli:
+- tensor . - konkatenacja cech
+- wraz & - niejednoznaczność, wybór jednej z dwu możliwości
+- plus + - variant, a na pozycji argumentu - polimorficzny argument
+- implikacja / \ | - wymaganie argumentu z: prawej, lewej, dowolnej strony
+- zbiór argumentów { ... , ... , ... } - zbiór argumentów aplikowalnych w dowolnej kolejności
+- jedynka 1 - biały znak, a na pozycji argumentu - argument pusty
+- zero 0 - dowolna wartość cechy
+- top T - na pozycji argumentu dowolna wartość cechy
+
+

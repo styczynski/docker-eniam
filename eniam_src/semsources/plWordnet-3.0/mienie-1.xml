@@ -1,0 +1,896 @@
+<node name="mienie-1, własność-1, majątek-1, dobytek-1, majętność-1, przynależność-1, stan posiadania-1" size="734">
+  <node name="ostatnie cielę z obory-1" size="0"/>
+  <node name="własność przemysłowa-1" size="0"/>
+  <node name="własność intelektualna-1" size="1">
+    <node name="prawa pokrewne-1" size="0"/>
+  </node>
+  <node name="dorobek-1" size="0"/>
+  <node name="mahr-1" size="0"/>
+  <node name="szafunek-2" size="0"/>
+  <node name="pospólność-1" size="0"/>
+  <node name="spadkobierstwo-1" size="0"/>
+  <node name="akcjonariat-1" size="0"/>
+  <node name="szczebrzuch-1" size="0"/>
+  <node name="rachunek-2, konto-3" size="9">
+    <node name="konto-4" size="0"/>
+    <node name="konto-1" size="7">
+      <node name="rachunek bankowy-1" size="0"/>
+      <node name="rachunek pomocniczy-1" size="0"/>
+      <node name="superkonto-1" size="0"/>
+      <node name="eurokonto-1" size="0"/>
+      <node name="internetowe konto bankowe-1" size="1">
+        <node name="portfel elektroniczny-1" size="0"/>
+      </node>
+      <node name="rachunek bieżący-1" size="0"/>
+    </node>
+  </node>
+  <node name="własnościowość-1" size="0"/>
+  <node name="chudoba-1" size="0"/>
+  <node name="masa spadkowa-1" size="0"/>
+  <node name="przywianek-1" size="0"/>
+  <node name="krwawica-1" size="0"/>
+  <node name="alodium-1" size="0"/>
+  <node name="prebenda-1" size="1"/>
+  <node name="gospodarstwo-2" size="1">
+    <node name="gospodarstwo pracownicze-1" size="0"/>
+  </node>
+  <node name="majątek osobisty-1" size="1">
+    <node name="michnikowszczyzna-1" size="0"/>
+  </node>
+  <node name="pasywa-1" size="1">
+    <node name="rezerwa na zobowiązania-1" size="0"/>
+  </node>
+  <node name="wiano-1, posag-1" size="1">
+    <node name="wyprawa-6, wyprawka-2" size="0"/>
+  </node>
+  <node name="aktywa-1, stan czynny-1" size="8">
+    <node name="rezerwy walutowe-1" size="0"/>
+    <node name="rezerwa walutowa-1" size="0"/>
+    <node name="aktywa obrotowe-1, majątek obrotowy-1" size="0"/>
+    <node name="aktywa trwałe-1, majątek trwały-1" size="4">
+      <node name="środek trwały-1" size="0"/>
+      <node name="inwestycja długoterminowa-1, finansowy majątek trwały-1" size="0"/>
+      <node name="środki trwałe-1, rzeczowy majątek trwały-1" size="0"/>
+      <node name="wartości niematerialne i prawne-1" size="0"/>
+    </node>
+  </node>
+  <node name="majątek narodowy-1" size="0"/>
+  <node name="inwentarz-2" size="4">
+    <node name="inwentarz martwy-1" size="0"/>
+    <node name="inwentarz żywy-1" size="2">
+      <node name="przychówek-1" size="0"/>
+      <node name="drobny inwentarz-1" size="0"/>
+    </node>
+  </node>
+  <node name="skarbiec-2" size="0"/>
+  <node name="ruchomość-1, rzecz ruchoma-1, majątek ruchomy-1" size="0"/>
+  <node name="skarb-1" size="3">
+    <node name="złote runo-2" size="0"/>
+    <node name="kosztowności-1, drogocenności-1, złotości-2" size="1">
+      <node name="precjoza-1" size="0"/>
+    </node>
+  </node>
+  <node name="papier wartościowy-1, walor-2" size="50"/>
+  <node name="nieruchomość-1, rzecz nieruchoma-1, majątek nieruchomy-1" size="146">
+    <node name="ziemia-9, grunt-2, nieruchomość gruntowa-1" size="37">
+      <node name="sad-1" size="2">
+        <node name="śliwnik-1" size="0"/>
+        <node name="oliwnik-2" size="0"/>
+      </node>
+      <node name="pole-2, łan-1, niwa-2, rola-4, pole uprawne-1" size="17">
+        <node name="gradowisko-1" size="0"/>
+        <node name="bronowisko-1" size="0"/>
+        <node name="kapuścisko-1, kapuśnisko-1" size="0"/>
+        <node name="kartoflisko-1" size="1">
+          <node name="kopanisko-1" size="0"/>
+        </node>
+        <node name="areał-1" size="0"/>
+        <node name="nieużytek-1" size="0"/>
+        <node name="odłóg-1, ugór-1" size="0"/>
+        <node name="ściernisko-1, rżysko-1, ścierń-1" size="7">
+          <node name="lnisko-1" size="0"/>
+          <node name="konopisko-1" size="0"/>
+          <node name="żytnisko-1" size="0"/>
+          <node name="ryżowisko-1" size="0"/>
+          <node name="pszeniczysko-1" size="0"/>
+          <node name="jęczmienisko-1" size="0"/>
+          <node name="grochowisko-1" size="0"/>
+        </node>
+        <node name="szkoda-1" size="0"/>
+      </node>
+      <node name="ogród-1" size="15">
+        <node name="ogród różańcowy-1" size="0"/>
+        <node name="ogród francuski-1, ogród barokowy-1, ogród w stylu francuskim-1, francuski ogród regularny-1" size="0"/>
+        <node name="ogródek-1" size="0"/>
+        <node name="raj-4" size="0"/>
+        <node name="różanka-1, rozarium-1, rosarium-1" size="0"/>
+        <node name="ogród wodny-1, hydroogród-1" size="0"/>
+        <node name="ogród naturalistyczny-1" size="0"/>
+        <node name="ogrójec-1, ogrojec-1" size="0"/>
+        <node name="alpinarium-1" size="1">
+          <node name="skalniak-1" size="0"/>
+        </node>
+        <node name="ogród renesansowy-1" size="0"/>
+        <node name="ogród zoologiczny-1, zoo-1, zwierzyniec-1" size="0"/>
+        <node name="ogród warzywny-1, warzywnik-1, warzywniak-2" size="0"/>
+        <node name="ogród botaniczny-1" size="1">
+          <node name="arboretum-1, dendrarium-1" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="majątek ziemski-1" size="1">
+      <node name="ordynacja-2, fideikomis-1" size="0"/>
+    </node>
+    <node name="dom-1" size="81">
+      <node name="dom kanadyjski-1, kanadyjczyk-2" size="0"/>
+      <node name="dom mieszkalny-1" size="0"/>
+      <node name="dom przysłupowy-1" size="0"/>
+      <node name="dom wielorodzinny-1" size="14">
+        <node name="famuła-1" size="0"/>
+        <node name="insula-1" size="0"/>
+        <node name="familok-1" size="0"/>
+        <node name="apartamentowiec-1" size="0"/>
+        <node name="czworak-1" size="0"/>
+        <node name="blok-1" size="5">
+          <node name="wielka płyta-3" size="0"/>
+          <node name="galeriowiec-1" size="0"/>
+          <node name="mrówkowiec-1" size="0"/>
+          <node name="korytarzowiec-1" size="0"/>
+          <node name="blokhauz-2" size="0"/>
+        </node>
+        <node name="kamienica-1" size="2">
+          <node name="czynszówka-1" size="0"/>
+          <node name="kamieniczka-1" size="0"/>
+        </node>
+      </node>
+      <node name="chawira-1" size="1"/>
+      <node name="fanza-1" size="0"/>
+      <node name="fazenda-1" size="0"/>
+      <node name="domiszcze-1" size="0"/>
+      <node name="slums-1, slams-1" size="0"/>
+      <node name="domostwo-2" size="0"/>
+      <node name="internat-1, bursa-1" size="3">
+        <node name="konwikt-2" size="0"/>
+        <node name="półinternat-1" size="0"/>
+        <node name="alumnat-1" size="0"/>
+      </node>
+      <node name="leśniczówka-1" size="1">
+        <node name="nadleśniczówka-1" size="0"/>
+      </node>
+      <node name="gajówka-1" size="0"/>
+      <node name="pastorówka-1" size="0"/>
+      <node name="organistówka-1" size="0"/>
+      <node name="kanonia-2" size="0"/>
+      <node name="dom szeregowy-1, szeregowiec-2, szeregówka-1" size="0"/>
+      <node name="domek fiński-1" size="0"/>
+      <node name="wikariat-1, wikarówka-1" size="0"/>
+      <node name="plebania-1, probostwo-1, proboszczówka-1" size="0"/>
+      <node name="rezydencja-1" size="12">
+        <node name="delicja-3" size="0"/>
+        <node name="alkazar-1" size="0"/>
+        <node name="zamek-1" size="3">
+          <node name="bastylia-1" size="0"/>
+          <node name="zamczysko-1" size="0"/>
+          <node name="kasztel-2" size="0"/>
+        </node>
+        <node name="pałac-1" size="5">
+          <node name="alkazar-2" size="0"/>
+          <node name="seraj-2" size="0"/>
+          <node name="palatium-1" size="0"/>
+          <node name="pałacyk-1" size="1">
+            <node name="bagatela-3" size="0"/>
+          </node>
+        </node>
+      </node>
+      <node name="domostwo-1, zagroda-1, obejście-4, gumno-1" size="3">
+        <node name="hacjenda-1" size="0"/>
+        <node name="chutor-2, futor-1" size="0"/>
+        <node name="kureń-2, kurzeń-1" size="0"/>
+      </node>
+      <node name="bungalow-1" size="0"/>
+      <node name="dom na działce-1, dom letniskowy-1, letniak-1" size="0"/>
+      <node name="domek-1" size="2">
+        <node name="dacza-1" size="0"/>
+        <node name="piętrówka-1, domek piętrowy-1" size="0"/>
+      </node>
+      <node name="chata-1, chałupa-2" size="6">
+        <node name="sakla-1" size="0"/>
+        <node name="checza-1" size="0"/>
+        <node name="kurna chata-1, dymna chata-1" size="0"/>
+        <node name="lepianka-1, kleć-1" size="1">
+          <node name="glinianka-1" size="0"/>
+        </node>
+        <node name="półziemianka-1" size="0"/>
+      </node>
+      <node name="dom jednorodzinny-1, budynek mieszkalny jednorodzinny-1" size="0"/>
+      <node name="segment-1" size="0"/>
+      <node name="bliźniak-3, dom bliźniaczy-1" size="0"/>
+      <node name="dom wolnostojący-1" size="3">
+        <node name="dom grecki-1" size="0"/>
+        <node name="dom rzymski-1" size="1">
+          <node name="pretorium-2" size="0"/>
+        </node>
+      </node>
+      <node name="willa-1" size="0"/>
+      <node name="akademik-1, dom studencki-1, dom akademicki-1" size="0"/>
+      <node name="dwór-1" size="3">
+        <node name="dworzyszcze-1" size="0"/>
+        <node name="dworek-1" size="1">
+          <node name="kałamarzyk-3" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="działka-1, ogródek działkowy-1" size="0"/>
+    <node name="posiadłość-2" size="6">
+      <node name="chawira-1" size="1">
+        <node name="gargamel-1" size="0"/>
+      </node>
+      <node name="dominium-3, domena-4" size="0"/>
+      <node name="poletko-1" size="2">
+        <node name="poletko doświadczalne-2" size="0"/>
+        <node name="kwadrat-8" size="0"/>
+      </node>
+    </node>
+    <node name="majątek-2, posiadłość-1, włość-1, dobra-1" size="18">
+      <node name="wolne sołectwo-1" size="0"/>
+      <node name="senioria-1" size="0"/>
+      <node name="dzierżawina-1" size="0"/>
+      <node name="urbarium-3" size="0"/>
+      <node name="lordostwo-4" size="0"/>
+      <node name="dominium-3, domena-4" size="0"/>
+      <node name="wójtostwo-1" size="0"/>
+      <node name="ojcowizna-1" size="0"/>
+      <node name="dwór-4" size="2">
+        <node name="folwark-1" size="1">
+          <node name="fundum-1" size="0"/>
+        </node>
+      </node>
+      <node name="baronia-1" size="0"/>
+      <node name="hrabstwo-2" size="0"/>
+      <node name="lenno-2, feudum-1, lenność-2" size="0"/>
+      <node name="komandoria-2, komandorstwo-1" size="0"/>
+      <node name="latyfundium-1" size="0"/>
+      <node name="królewszczyzna-1" size="0"/>
+      <node name="dominium-2" size="0"/>
+    </node>
+  </node>
+  <node name="kapitał-1, finanse-1, fundusze-1, fundusz-1" size="524">
+    <node name="skarb-5" size="2">
+      <node name="skarb nadworny-1" size="0"/>
+      <node name="skarb koronny-1, skarb państwowy-1" size="0"/>
+    </node>
+    <node name="rezerwa matematyczna-1" size="0"/>
+    <node name="fundusz rozliczeniowy-1" size="0"/>
+    <node name="fundusz prewencyjny-1" size="0"/>
+    <node name="fundusz amortyzacyjny-1" size="0"/>
+    <node name="fundusz dyspozycyjny-1" size="0"/>
+    <node name="fundusz sołecki-1" size="0"/>
+    <node name="fundusz remontowy-1" size="0"/>
+    <node name="fundusz strukturalny-1" size="0"/>
+    <node name="fundusz przedakcesyjny-1" size="0"/>
+    <node name="kapitał początkowy-1" size="0"/>
+    <node name="fundusz zasobowy-1" size="0"/>
+    <node name="fundusz udziałowy-1" size="0"/>
+    <node name="konflagrata-1" size="0"/>
+    <node name="fundusz hedgingowy-1" size="0"/>
+    <node name="kapitał naturalny-1" size="0"/>
+    <node name="kapitał własny-1" size="6">
+      <node name="kapitał założycielski-1, kapitał zakładowy-1, kapitał podstawowy-1, fundusz podstawowy-1" size="0"/>
+      <node name="kapitał z aktualizacji wyceny-1" size="0"/>
+      <node name="kapitał rezerwowy-1" size="0"/>
+      <node name="kapitał zapasowy-1" size="0"/>
+      <node name="kapitał samofinansowania-1" size="0"/>
+      <node name="kapitał powierzony-1" size="0"/>
+    </node>
+    <node name="wydatki-1" size="7">
+      <node name="wydatki budżetowe-1, wydatki budżetu państwa-1" size="6">
+        <node name="wydatki majątkowe-1, wydatki inwestycyjne-1" size="0"/>
+        <node name="wydatki bieżące-1, wydatki konsumpcyjne-1" size="2">
+          <node name="wydatki osobowe-1" size="0"/>
+          <node name="wydatki rzeczowe-1" size="0"/>
+        </node>
+        <node name="wydatki publiczne-1" size="1">
+          <node name="wydatki socjalne-1" size="0"/>
+        </node>
+      </node>
+    </node>
+    <node name="kieszeń-3" size="0"/>
+    <node name="fundusz inwestycyjny-1" size="5">
+      <node name="fundusz zalążkowy-1" size="0"/>
+      <node name="fundusz dłużny-1" size="0"/>
+      <node name="fundusz agresywny-1" size="0"/>
+      <node name="fundusz mieszany-1" size="0"/>
+      <node name="fundusz sekurytyzacyjny-1" size="0"/>
+    </node>
+    <node name="fundusz powierniczy-1" size="0"/>
+    <node name="fundusz płac-1" size="0"/>
+    <node name="kapitał obcy-1" size="0"/>
+    <node name="kapitał trwały-1" size="0"/>
+    <node name="kapitał czynny-1" size="0"/>
+    <node name="kapitał obrotowy-1" size="0"/>
+    <node name="kapitał finansowy-1" size="0"/>
+    <node name="kapitał akcyjny-1" size="0"/>
+    <node name="fundusz socjalny-1" size="0"/>
+    <node name="fundusz alimentacyjny-1" size="0"/>
+    <node name="fundusz ubezpieczeniowy-1" size="0"/>
+    <node name="inwestycja-1" size="54">
+      <node name="inwestycja portfelowa-1" size="0"/>
+      <node name="wydatek majątkowy-1, wydatek inwestycyjny-1" size="0"/>
+      <node name="inwestycja krótkoterminowa-1, finansowy majątek obrotowy-1" size="51">
+        <node name="papier wartościowy-1, walor-2" size="50">
+          <node name="obligacja municypalna-1" size="0"/>
+          <node name="obligacja skarbowa-1" size="0"/>
+          <node name="bon pieniężny-1" size="0"/>
+          <node name="świadectwo udziałowe-1" size="0"/>
+          <node name="certyfikat depozytowy-1" size="0"/>
+          <node name="certyfikat inwestycyjny-1" size="0"/>
+          <node name="dewizy-1" size="0"/>
+          <node name="konosament-1" size="0"/>
+          <node name="list zastawny-1" size="0"/>
+          <node name="weksel-1" size="5">
+            <node name="weksel niezupełny-1" size="0"/>
+            <node name="weksel skarbowy-1" size="0"/>
+            <node name="weksel własny-1" size="0"/>
+            <node name="trata-1, weksel trasowany-1, weksel ciągniony-1" size="0"/>
+            <node name="rymesa-1" size="0"/>
+          </node>
+          <node name="bon-1" size="8">
+            <node name="bon uwłaszczeniowy-1" size="0"/>
+            <node name="bon paliwowy-1" size="0"/>
+            <node name="bon towarowy-1" size="0"/>
+            <node name="bon reprywatyzacyjny-1" size="0"/>
+            <node name="bon prywatyzacyjny-1" size="0"/>
+            <node name="bon oświatowy-1" size="0"/>
+            <node name="bon skarbowy-1" size="0"/>
+            <node name="bon lokacyjny-1" size="0"/>
+          </node>
+          <node name="banknot-1, bilet bankowy-1, asygnata-1" size="9">
+            <node name="bilet zdawkowy-1" size="0"/>
+            <node name="czerwoniak-1" size="0"/>
+            <node name="tysiączłotówka-1" size="0"/>
+            <node name="trzyrublówka-1" size="0"/>
+            <node name="dziesięcioeurówka-1" size="0"/>
+            <node name="pięcioeurówka-1" size="0"/>
+            <node name="młynarka-3" size="1">
+              <node name="góral-4" size="0"/>
+            </node>
+            <node name="czerwoniec-2" size="0"/>
+          </node>
+          <node name="obligacja-1" size="5">
+            <node name="obligacja restrukturyzacyjna-1" size="0"/>
+            <node name="obligacja zamienna-1" size="0"/>
+            <node name="obligacja komunalna-1" size="0"/>
+            <node name="obligacja przychodowa-1" size="0"/>
+            <node name="euroobligacja-1" size="0"/>
+          </node>
+          <node name="akcja-4" size="9"/>
+        </node>
+      </node>
+    </node>
+    <node name="pieniądze-1, środki pieniężne-1" size="412">
+      <node name="pieniąchy-1" size="0"/>
+      <node name="złoty cielec-2" size="0"/>
+      <node name="srebro-6" size="0"/>
+      <node name="złoto-5" size="0"/>
+      <node name="dutki-1" size="0"/>
+      <node name="judaszowe srebrniki-1, judaszowskie srebrniki-1" size="0"/>
+      <node name="brzęcząca moneta-1, grosiwo-1" size="0"/>
+      <node name="gorący pieniądz-1" size="0"/>
+      <node name="waluta-2" size="0"/>
+      <node name="gotówka-1, gotowizna-1, żywa gotówka-1" size="0"/>
+      <node name="oszczędności-1" size="2">
+        <node name="oszczędności-2" size="0"/>
+        <node name="zaskórniak-1" size="0"/>
+      </node>
+      <node name="kwota-1, suma-1, sumka-2" size="397">
+        <node name="margines wypłacalności-1" size="0"/>
+        <node name="odliczenie-4" size="0"/>
+        <node name="kokosy-1" size="0"/>
+        <node name="obrót podatkowy-1" size="0"/>
+        <node name="wartość godziwa-1" size="0"/>
+        <node name="bańka-7" size="0"/>
+        <node name="bank-4" size="0"/>
+        <node name="dziesiątak-3, dycha-4" size="0"/>
+        <node name="piątak-1, piątal-1" size="7">
+          <node name="piątka-6" size="6">
+            <node name="pięciodolarówka-1" size="0"/>
+            <node name="pięcioeurówka-1" size="0"/>
+            <node name="pięciopensówka-1" size="0"/>
+            <node name="pięciocentówka-1" size="0"/>
+            <node name="pięciozłotówka-1" size="0"/>
+            <node name="pięciogroszówka-1" size="0"/>
+          </node>
+        </node>
+        <node name="przekaz-6" size="0"/>
+        <node name="zapłata-2" size="44">
+          <node name="wynagrodzenie-2, zarobek-1" size="36"/>
+          <node name="odszkodowanie-1, rekompensata-1, wyrównanie-8, kompensata-1, wynagrodzenie-3, restytucja-3, indemnizacja-1" size="6">
+            <node name="restytucja naturalna-1" size="0"/>
+            <node name="remuneracja-1" size="0"/>
+            <node name="reparacje-1" size="0"/>
+            <node name="przestojowe-1" size="0"/>
+            <node name="odstępne-1" size="0"/>
+            <node name="nawiązka-1" size="0"/>
+          </node>
+        </node>
+        <node name="przegrana-2" size="0"/>
+        <node name="grosz-2" size="0"/>
+        <node name="tysiąc-2, tysiak-1" size="0"/>
+        <node name="reszta-2" size="0"/>
+        <node name="ciężki grosz-1, ciężki pieniądz-1, drogie pieniądze-1, ciężka forsa-1" size="0"/>
+        <node name="bajońska suma-1, sumy neapolitańskie-1" size="0"/>
+        <node name="kieszonkowe-1" size="1">
+          <node name="tygodniówka-3" size="0"/>
+        </node>
+        <node name="apanaże-1" size="0"/>
+        <node name="budżet-1" size="4">
+          <node name="budżet domowy-1, budżet rodzinny-1" size="0"/>
+          <node name="budżet państwa-1, budżet-2" size="0"/>
+          <node name="budżet roczny-1" size="0"/>
+          <node name="prowizorium budżetowe-2, budżet tymczasowy-1" size="0"/>
+        </node>
+        <node name="przedpłata-1" size="5">
+          <node name="prepaid-1, pre-paid-1" size="0"/>
+          <node name="prenumerata-1" size="0"/>
+          <node name="subskrypcja-1" size="0"/>
+          <node name="abonament-1" size="1">
+            <node name="radioabonament-1" size="0"/>
+          </node>
+        </node>
+        <node name="potrącenie-4" size="1">
+          <node name="dyskonto-1, eskonto-1" size="0"/>
+        </node>
+        <node name="zaliczka-1, zadatek-2, akonto-1, forszus-1" size="0"/>
+        <node name="nakład-3" size="0"/>
+        <node name="grosze-1, marny grosz-1, psi grosz-1, psi pieniądz-1" size="0"/>
+        <node name="wpływ-2, przychód-1" size="185">
+          <node name="obrót-5" size="0"/>
+          <node name="inkaso-2" size="0"/>
+          <node name="dochód-1, zarobek-2" size="182">
+            <node name="przychód krańcowy-1" size="0"/>
+            <node name="dochód pasywny-1" size="0"/>
+            <node name="dochód realny-1" size="0"/>
+            <node name="dochód nominalny-1" size="0"/>
+            <node name="dochód rozporządzalny-1" size="0"/>
+            <node name="podatek inflacyjny-1" size="0"/>
+            <node name="dochód własny-1" size="0"/>
+            <node name="dochód osobisty-1" size="0"/>
+            <node name="dochód gwarantowany-1" size="0"/>
+            <node name="zysk-1, intrata-1, profit-2" size="15">
+              <node name="zysk inflacyjny-1" size="0"/>
+              <node name="zysk księgowy-1" size="0"/>
+              <node name="zysk rezydualny-1" size="0"/>
+              <node name="narzut-1" size="0"/>
+              <node name="zysk operacyjny-1" size="0"/>
+              <node name="przebitka-2" size="0"/>
+              <node name="utarg-1" size="5">
+                <node name="utarg całkowity-1" size="0"/>
+                <node name="utarg miesięczny-1" size="0"/>
+                <node name="utarg dzienny-1" size="0"/>
+                <node name="utarg krańcowy-1" size="0"/>
+                <node name="utarg przeciętny-1" size="0"/>
+              </node>
+              <node name="marża-1" size="2">
+                <node name="marża handlowa-1" size="1">
+                  <node name="marża odsetkowa-1" size="0"/>
+                </node>
+              </node>
+            </node>
+            <node name="prowent-1" size="0"/>
+            <node name="apanaż-1" size="0"/>
+            <node name="seniorat-4, senioraż-1, renta emisyjna-1, renta mennicza-1" size="0"/>
+            <node name="lewizna-2" size="0"/>
+            <node name="komin płacowy-1, komin zarobkowy-1" size="0"/>
+            <node name="renta gruntowa-1" size="1">
+              <node name="renta różniczkowa-1" size="0"/>
+            </node>
+            <node name="prebenda-1" size="1">
+              <node name="altaria-1" size="0"/>
+            </node>
+            <node name="apanaże-2" size="0"/>
+            <node name="dochód netto-1, zysk netto-1" size="0"/>
+            <node name="dochód brutto-1, zysk brutto-1" size="0"/>
+            <node name="odsetka-1" size="0"/>
+            <node name="dywidenda-1" size="1">
+              <node name="dywidenda obligatoryjna-1" size="0"/>
+            </node>
+            <node name="renta-1" size="0"/>
+            <node name="odsetki-1, procent-3, oprocentowanie-2" size="1">
+              <node name="lichwa-1" size="0"/>
+            </node>
+            <node name="wynagrodzenie-2, zarobek-1" size="36">
+              <node name="wynagrodzenie bezosobowe-1" size="0"/>
+              <node name="wynagrodzenie osobowe-1" size="0"/>
+              <node name="nagroda roczna-1" size="0"/>
+              <node name="kapanina-1" size="0"/>
+              <node name="lafa-1" size="0"/>
+              <node name="honorarium-1" size="1">
+                <node name="wierszówka-1" size="0"/>
+              </node>
+              <node name="bilansówka-1" size="0"/>
+              <node name="jurgielt-2" size="0"/>
+              <node name="lekki kawałek chleba-2" size="0"/>
+              <node name="ciężki kawałek chleba-2" size="0"/>
+              <node name="tygodniówka-2" size="0"/>
+              <node name="nadgodzina-1" size="0"/>
+              <node name="dniówka-3" size="0"/>
+              <node name="wyrównanie-9, kompensacja-1, kompensata-2" size="3">
+                <node name="kliring pracy-1" size="0"/>
+                <node name="indeksacja-1" size="0"/>
+                <node name="rewaloryzacja-3" size="0"/>
+              </node>
+              <node name="wynagrodzenie brutto-1, płaca brutto-1, brutto-2" size="0"/>
+              <node name="wynagrodzenie netto-1, płaca netto-1, netto-3" size="0"/>
+              <node name="żołd-1, lenung-1" size="1">
+                <node name="jurgielt-1" size="0"/>
+              </node>
+              <node name="tantiema-1" size="0"/>
+              <node name="dzień roboczy-2, dniówka-2, roboczodniówka-1" size="0"/>
+              <node name="prowizja-1" size="1">
+                <node name="kurtaż-1" size="0"/>
+              </node>
+              <node name="płaca-1, pensja-1, uposażenie-2, wypłata-2, pobory-1" size="4">
+                <node name="płaca realna-1" size="0"/>
+                <node name="koszty osobowe-1" size="0"/>
+                <node name="gaża-1" size="0"/>
+                <node name="płaca minimalna-1" size="0"/>
+              </node>
+              <node name="odprawa-1" size="3">
+                <node name="odprawa warunkowa-2" size="0"/>
+                <node name="odprawa pośmiertna-1" size="0"/>
+                <node name="odprawa bezwarunkowa-1" size="0"/>
+              </node>
+              <node name="dieta-1" size="0"/>
+            </node>
+            <node name="zapomoga-1, datek-2, pomoc-2, wsparcie-6" size="17">
+              <node name="dodatek aktywizacyjny-1" size="0"/>
+              <node name="pomoc horyzontalna-1" size="0"/>
+              <node name="wsparcie finansowe-1" size="1">
+                <node name="premia termomodernizacyjna-1" size="0"/>
+              </node>
+              <node name="becikowe-1, jednorazowa zapomoga z tytułu urodzenia się dziecka-1" size="0"/>
+              <node name="wyprawka-1" size="0"/>
+              <node name="zasiłek-1" size="10">
+                <node name="zasiłek porodowy-1" size="0"/>
+                <node name="zasiłek stały-1" size="0"/>
+                <node name="zasiłek pogrzebowy-1" size="0"/>
+                <node name="zasiłek okresowy-1" size="0"/>
+                <node name="zasiłek chorobowy-1" size="0"/>
+                <node name="zasiłek pielęgnacyjny-1" size="0"/>
+                <node name="socjal-1" size="0"/>
+                <node name="kuroniówka-2" size="0"/>
+                <node name="zasiłek wychowawczy-1" size="0"/>
+                <node name="zasiłek rodzinny-1" size="0"/>
+              </node>
+            </node>
+            <node name="świadczenie-7" size="64">
+              <node name="świadczenie wysokospecjalistyczne-1" size="0"/>
+              <node name="świadczenie specjalistyczne-1" size="0"/>
+              <node name="świadczenie pracownicze-1" size="0"/>
+              <node name="świadczenie społeczne-1" size="8">
+                <node name="zaliczka alimentacyjna-1" size="0"/>
+                <node name="ubezpieczenie społeczne-1" size="0"/>
+                <node name="renta-2" size="3">
+                  <node name="renta szkoleniowa-1" size="0"/>
+                  <node name="renta inwalidzka-1" size="0"/>
+                  <node name="renta strukturalna-1" size="0"/>
+                </node>
+                <node name="emerytura-1, zaopatrzenie emerytalne-1" size="1">
+                  <node name="emerytura pomostowa-1" size="0"/>
+                </node>
+              </node>
+              <node name="becikowe-1, jednorazowa zapomoga z tytułu urodzenia się dziecka-1" size="0"/>
+              <node name="benefit-1" size="0"/>
+              <node name="alimenta-1" size="0"/>
+              <node name="danina-1" size="10">
+                <node name="olbora-1, orbora-1" size="0"/>
+                <node name="powołowe-1" size="0"/>
+                <node name="świętojanka-2" size="0"/>
+                <node name="odumarszczyzna-1" size="0"/>
+                <node name="narzaz-1" size="0"/>
+                <node name="hiberna-2" size="0"/>
+                <node name="osep-1" size="0"/>
+                <node name="świętopietrze-1" size="0"/>
+                <node name="kontrybucja-1" size="0"/>
+                <node name="haracz-2, trybut-1" size="0"/>
+              </node>
+              <node name="pańszczyzna-2, renta odrobkowa-1" size="0"/>
+              <node name="kontyngent-1" size="0"/>
+              <node name="darmocha-2, daremszczyzna-1" size="0"/>
+              <node name="alimenty-1" size="32"/>
+              <node name="stypendium-1" size="1">
+                <node name="stypendium naukowe-1" size="0"/>
+              </node>
+            </node>
+            <node name="dopłata-1, dodatek-1" size="19">
+              <node name="ołówkowe-1, dodatek ołówkowy-1" size="0"/>
+              <node name="dodatek motywacyjny-1" size="0"/>
+              <node name="dodatek mieszkaniowy-1" size="0"/>
+              <node name="dodatek wyrównawczy-1" size="0"/>
+              <node name="dodatek służbowy-1" size="0"/>
+              <node name="dodatek szkoleniowy-1" size="0"/>
+              <node name="dodatek kompensacyjny-1" size="0"/>
+              <node name="dodatek pielęgnacyjny-1" size="0"/>
+              <node name="dopłata kompensacyjna-1" size="0"/>
+              <node name="premia gwarancyjna-1" size="0"/>
+              <node name="napiwek-1" size="1">
+                <node name="bakczysz-1, bakszysz-1" size="0"/>
+              </node>
+              <node name="dodatek rodzinny-1" size="0"/>
+              <node name="dodatek funkcyjny-1" size="0"/>
+              <node name="dotacja-1, dofinansowanie-2, subwencja-1, subsydium-1, dotowanie-2" size="4">
+                <node name="subwencja ogólna-1" size="0"/>
+                <node name="subsydium eksportowe-1" size="0"/>
+                <node name="dopłata bezpośrednia-1" size="0"/>
+                <node name="grant-1" size="0"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node name="opłata-1" size="113">
+          <node name="rogatkowe-1" size="0"/>
+          <node name="stempel-5" size="0"/>
+          <node name="opłata bankowa-1" size="0"/>
+          <node name="opłata wyrównawcza-1" size="0"/>
+          <node name="opłata eksploatacyjna-1" size="0"/>
+          <node name="korkowe-1" size="0"/>
+          <node name="opłata miejscowa-1" size="0"/>
+          <node name="opłata skarbowa-1" size="0"/>
+          <node name="wkład mieszkaniowy-1" size="0"/>
+          <node name="wkład budowlany-1" size="0"/>
+          <node name="opłata ryczałtowa-1" size="0"/>
+          <node name="opłata winietowa-1" size="0"/>
+          <node name="opłata portowa-1" size="0"/>
+          <node name="opłata lotniskowa-1" size="0"/>
+          <node name="opłata adiacencka-1" size="0"/>
+          <node name="opłata lokalna-1" size="0"/>
+          <node name="opłata kancelaryjna-1" size="0"/>
+          <node name="wpis stosunkowy-1" size="0"/>
+          <node name="wpis stały-1" size="0"/>
+          <node name="wpis ostateczny-1" size="0"/>
+          <node name="opłata produktowa-1" size="0"/>
+          <node name="pamiętne-1" size="0"/>
+          <node name="annaty-1" size="0"/>
+          <node name="jednane-1" size="0"/>
+          <node name="fracht-2" size="1">
+            <node name="fracht dystansowy-1" size="0"/>
+          </node>
+          <node name="podatek-2" size="18">
+            <node name="podatek liniowy-1" size="0"/>
+            <node name="karta podatkowa-1" size="0"/>
+            <node name="podatek pośredni-1" size="6">
+              <node name="podatek obrotowy-1" size="0"/>
+              <node name="podatek importowy-1" size="0"/>
+              <node name="podatek konsumpcyjny-1" size="3">
+                <node name="akcyza-1" size="0"/>
+                <node name="VAT-2, vat-1, PTU-1, podatek od towarów i usług-1" size="1">
+                  <node name="podatek należny-1" size="0"/>
+                </node>
+              </node>
+            </node>
+            <node name="podatek bezpośredni-1" size="8">
+              <node name="podatek od gier-1" size="0"/>
+              <node name="podatek drogowy-1" size="0"/>
+              <node name="podatek leśny-1" size="0"/>
+              <node name="podatek wyrównawczy-1" size="0"/>
+              <node name="podatek gruntowy-1, podatek rolny-1" size="0"/>
+              <node name="podatek dochodowy-1" size="2">
+                <node name="PIT-2, podatek od dochodów osobistych-1" size="0"/>
+                <node name="CIT-1, podatek dochodowy od osób prawnych-1, podatek od przedsiębiorstw-1" size="0"/>
+              </node>
+            </node>
+          </node>
+          <node name="hazuka-3" size="0"/>
+          <node name="ubezpieczenie-6" size="2">
+            <node name="ubezpieczenie społeczne-1" size="0"/>
+            <node name="ubezpieczenie na życie-1" size="0"/>
+          </node>
+          <node name="kominowe-1" size="0"/>
+          <node name="taksa-1" size="0"/>
+          <node name="taryfa-1" size="0"/>
+          <node name="kaucja-1" size="1">
+            <node name="wadium-1" size="0"/>
+          </node>
+          <node name="haracz-1" size="0"/>
+          <node name="okup-1, wykupne-1" size="1">
+            <node name="kompozycja-6" size="0"/>
+          </node>
+          <node name="czesne-1" size="0"/>
+          <node name="wpisowe-1, wpis-1" size="0"/>
+          <node name="podatek-1, opodatkowanie-2, danina-2" size="44">
+            <node name="renta planistyczna-1" size="0"/>
+            <node name="podatek od czynności cywilnoprawnych-1" size="0"/>
+            <node name="podatek urbarialny-1" size="0"/>
+            <node name="podatek Tobina-1" size="0"/>
+            <node name="podatek solidarnościowy-1" size="0"/>
+            <node name="podatek od luksusu-1" size="0"/>
+            <node name="podatek kościelny-1" size="0"/>
+            <node name="podatek ekologiczny-1, podatek na ochronę środowiska-1" size="0"/>
+            <node name="podatek degresywny-1" size="0"/>
+            <node name="podatek cedularny-1" size="0"/>
+            <node name="podatek basenowy-1" size="0"/>
+            <node name="janosikowe-1" size="0"/>
+            <node name="podatek rzeczowy-1" size="0"/>
+            <node name="podatek majątkowy-1" size="0"/>
+            <node name="podatek tonażowy-1" size="0"/>
+            <node name="rugowe-1" size="0"/>
+            <node name="podatek Pigou-1" size="0"/>
+            <node name="fordon-2" size="0"/>
+            <node name="czopowe-1" size="0"/>
+            <node name="samoopodatkowanie-1" size="0"/>
+            <node name="powołowe-1" size="0"/>
+            <node name="podatek katastralny-1, kataster-2, kadaster-2" size="0"/>
+            <node name="szos-1" size="0"/>
+            <node name="bykowe-1" size="0"/>
+            <node name="łanowe-1" size="0"/>
+            <node name="poradlne-1, podatek poradlny-1" size="0"/>
+            <node name="dupla-1" size="0"/>
+            <node name="zakat-1, zaka-1, zakāt-2" size="0"/>
+            <node name="kwarta-4" size="0"/>
+            <node name="pogłówne-1, podatek pogłówny-1" size="1">
+              <node name="dżizja-1" size="0"/>
+            </node>
+            <node name="kominowe-2, podatek kominowy-1" size="0"/>
+            <node name="podymne-1, podworowe-1" size="0"/>
+            <node name="kwadrupla-1" size="0"/>
+            <node name="domiar-1, domiar podatkowy-1" size="0"/>
+            <node name="ryczałt-2" size="0"/>
+            <node name="regresja podatkowa-1" size="0"/>
+            <node name="dziesięcina-1" size="0"/>
+            <node name="popiwek-1" size="1">
+              <node name="neopopiwek-1" size="0"/>
+            </node>
+            <node name="podatek progresywny-1" size="0"/>
+            <node name="myto-1" size="2"/>
+          </node>
+          <node name="cło-1" size="6">
+            <node name="cło generalne-1" size="0"/>
+            <node name="cło retorsyjne-1" size="0"/>
+            <node name="cło ochronne-1, cło zaporowe-1, cło prohibicyjne-1" size="0"/>
+            <node name="myto-1" size="2">
+              <node name="pomierne-1" size="0"/>
+              <node name="mostowe-1" size="0"/>
+            </node>
+          </node>
+          <node name="czynsz-1" size="4">
+            <node name="czynsz wolny-1" size="0"/>
+            <node name="obiedne-1" size="0"/>
+            <node name="dzierżawne-1, czynsz dzierżawny-1, dzierżawa-2" size="0"/>
+            <node name="komorne-1" size="0"/>
+          </node>
+        </node>
+        <node name="łapówka-1, łapówa-1, wziątka-1, korzyść majątkowa-2, szeleszczący argument-1, koperta-3, kopertówka-2, kopertówa-1" size="1">
+          <node name="jurgielt-2" size="0"/>
+        </node>
+        <node name="wpłata-2" size="0"/>
+        <node name="udział-1, wkład-1" size="12">
+          <node name="stopa zwrotu-1, stopa dochodu-1" size="0"/>
+          <node name="aport-1" size="0"/>
+          <node name="akcja-4" size="9">
+            <node name="akcja imienna-1" size="0"/>
+            <node name="akcja założycielska-1" size="0"/>
+            <node name="akcja niema-1" size="0"/>
+            <node name="akcja gotówkowa-1" size="0"/>
+            <node name="akcja aportowa-1" size="0"/>
+            <node name="akcja na okaziciela-1" size="0"/>
+            <node name="akcja zwykła-1" size="0"/>
+            <node name="akcja uprzywilejowana-1" size="0"/>
+            <node name="złota akcja-1" size="0"/>
+          </node>
+        </node>
+        <node name="należność-1" size="59">
+          <node name="opłata półkowa-1" size="0"/>
+          <node name="ekspozycje kredytowe-1" size="0"/>
+          <node name="należność publicznoprawna-1" size="0"/>
+          <node name="delacja-2" size="0"/>
+          <node name="znaleźne-1" size="0"/>
+          <node name="odstępne-2" size="0"/>
+          <node name="dług-1, zadłużenie-2, kreska-7" size="4">
+            <node name="dług publiczny-1" size="0"/>
+            <node name="kredyt-3" size="0"/>
+            <node name="saldo debetowe-1" size="0"/>
+            <node name="debet-1" size="0"/>
+          </node>
+          <node name="należność krótkoterminowa-1" size="0"/>
+          <node name="należność długoterminowa-1" size="0"/>
+          <node name="składka-1" size="7">
+            <node name="zus-2" size="0"/>
+            <node name="ubezpieczenie zdrowotne-1, zdrowotne-1" size="0"/>
+            <node name="ubezpieczenie społeczne-2, społeczne-1" size="4">
+              <node name="ubezpieczenie wypadkowe-1" size="0"/>
+              <node name="ubezpieczenie chorobowe-1" size="0"/>
+              <node name="ubezpieczenie rentowe-1" size="0"/>
+              <node name="ubezpieczenie emerytalne-1" size="0"/>
+            </node>
+          </node>
+          <node name="ryczałt-1" size="0"/>
+          <node name="alimenty-1" size="32">
+            <node name="stosunek zobowiązaniowy-1" size="31">
+              <node name="akcept-1" size="0"/>
+              <node name="kredyt-1" size="29">
+                <node name="kredyt akceptacyjny-1" size="0"/>
+                <node name="spłata balonowa-1, płatność balonowa-1, kredyt balonowy-1, rata balonowa-2" size="0"/>
+                <node name="kredyt bankowy-1" size="7">
+                  <node name="kredyt rolowany-1" size="0"/>
+                  <node name="kredyt podporządkowany-1" size="0"/>
+                  <node name="kredyt konsorcjalny-1" size="0"/>
+                  <node name="kredyt obrotowy-1" size="1">
+                    <node name="kredyt kasowy-1" size="0"/>
+                  </node>
+                  <node name="kredyt gotówkowy-1" size="0"/>
+                  <node name="kredyt inwestycyjny-1" size="0"/>
+                </node>
+                <node name="kredyt hipoteczny-1" size="1">
+                  <node name="odwrócona hipoteka-1" size="0"/>
+                </node>
+                <node name="kredyt stracony-1" size="0"/>
+                <node name="kredyt redyskontowy-1" size="0"/>
+                <node name="kredyt lombardowy-1" size="0"/>
+                <node name="kredyt konsumencki-1" size="0"/>
+                <node name="kredyt skupowy-1" size="0"/>
+                <node name="kredyt preferencyjny-1" size="2">
+                  <node name="kredyt suszowy-1" size="0"/>
+                  <node name="kredyt studencki-1" size="0"/>
+                </node>
+                <node name="kredyt kontraktowy-1" size="0"/>
+                <node name="kredyt pomostowy-1" size="0"/>
+                <node name="trzydziestka-8" size="0"/>
+                <node name="mikrokredyt-1" size="0"/>
+                <node name="remburs-1, kredyt rembursowy-1" size="0"/>
+                <node name="kredyt rewolwingowy-1, rewolwing-1" size="0"/>
+                <node name="kredyt państwowy-1" size="0"/>
+                <node name="kredyt refinansowy-1" size="0"/>
+                <node name="kredyt konsumpcyjny-1" size="0"/>
+              </node>
+            </node>
+          </node>
+          <node name="rachunek-3, regestr-5" size="2">
+            <node name="faktura-1" size="1">
+              <node name="e-faktura-1" size="0"/>
+            </node>
+          </node>
+          <node name="spłata-2" size="0"/>
+        </node>
+        <node name="majątek-4, pieniądze-2" size="0"/>
+        <node name="deficyt-2" size="3">
+          <node name="deficyt ekonomiczny-1" size="0"/>
+          <node name="deficyt cykliczny-1, saldo cykliczne-1" size="0"/>
+          <node name="deficyt budżetowy-1, dziura budżetowa-1" size="0"/>
+        </node>
+        <node name="rata-1" size="1">
+          <node name="rata balonowa-1, spłata balonowa-2, płatność balonowa-2" size="0"/>
+        </node>
+      </node>
+      <node name="drobne-1, bilon-1, moniaki-1, drobnica-4, drobniaki-1, klepaki-1" size="0"/>
+    </node>
+    <node name="depozyt-1" size="15">
+      <node name="depozyt międzybankowy-1" size="0"/>
+      <node name="depozyt sądowy-1" size="0"/>
+      <node name="depozyt bankowy-1" size="2">
+        <node name="konto depozytowe-1" size="0"/>
+        <node name="wkład oszczędnościowy-1" size="0"/>
+      </node>
+      <node name="lokata-1" size="9">
+        <node name="lokata rentierska-1" size="0"/>
+        <node name="lokata terminowa-1" size="0"/>
+        <node name="lokata progresywna-1" size="0"/>
+        <node name="lokata dynamiczna-1" size="0"/>
+        <node name="lokata dwuwalutowa-1" size="0"/>
+        <node name="moneta bulionowa-1" size="1">
+          <node name="krugerrand-1" size="0"/>
+        </node>
+        <node name="wkład-2" size="1">
+          <node name="wkład gruntowy-1" size="0"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node name="spadek-3, dziedzictwo-1, scheda-1" size="3">
+    <node name="kaduk-1" size="0"/>
+    <node name="patrymonium-1" size="0"/>
+    <node name="spuścizna-1, puścizna-1" size="0"/>
+  </node>
+  <node name="majątek-3, bogactwo-3, fortuna-1, dostatek-3" size="1">
+    <node name="złoty deszcz-2" size="0"/>
+  </node>
+</node>

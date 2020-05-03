@@ -1,0 +1,78 @@
+     W związku z tym mam kilka pytań:
+    - uruchamiam serwer poleceniem
+    ./concraft-dag2-pl server --port=4322 -i ./concraft-pl-model-180317.gz +RTS -N4
+
+
+Hmm, widzę że używasz nie-najnowszej wersji.  Obecnie, wynikiem komplilacji jest narzędzie `concraft-pl` (a nie `concraft-dag2-pl`).  Ale może to nie problem.
+ 
+
+    co oznacza argument +RTS? 
+
+
+Wszystkie opcje pojawiające się na prawo `+RTS` to tzw. "run time options".  Każdy program skompilowany GHC (Glasgow Haskell Compiler) akceptuje takie opcje.
+ 
+
+    skąd serwer wie, że kontaktuje się przez websockety z pythonem a nie z klientem w haskelu?
+
+
+Nie wie.
+
+Poza tym, technicznie rzecz biorąc, komunikacja nie bazuje na websocketach tylko na HTTP.
+ 
+
+    - czy liczby w kolumnach 1 i 2 danych wejściowych można przemnorzyć przez 100 bez szkody dla jakości tagowania?
+
+
+Tak.  Tak w każdym razie powinno być.
+ 
+
+    - czy lematy w kolumnie 4 można podawać bez części po dwukropku bez szkody dla jakości tagowania?
+
+
+Concraft w ogóle nie lematyzuje, wartości lematów są po prostu przepisywane.
+ 
+
+    - czy kolumny 6 i 7 (pospolitość i kwalifikatory) mogą pozostać w danych wejściowych puste bez szkody dla jakości tagowania?
+
+
+Tak.
+ 
+
+    - czy w danych wejściowych w kolumnie 8 można podać wartość inną niż 0.000 i czy zostanie ona wykorzystana jako podpowiedź przy tagowaniu?
+
+
+Podczas tagowania te wartości są ignorowane, ważne są podczas trenowania.
+
+Concraft mógłby je wykorzystywać jako swego rodzaju podpowiedź, ale nie próbowałem niczego w tym kierunku zaimplementować.
+ 
+
+    - na jakiej zasadzie concraft interpretuje ign'y (zauważyłem, że dodaje im nowe tagi), czy ich interpretowanie można wyłączyć?
+
+
+Nie bardzo, ale znacznik 'ign' pozostaje w danych wyjściowych więc dodane przez concrafta interpretacje można oczywiście zignorować.
+ 
+
+    - co się stanie, podczas analizy danych, w których niektóre znaczniki fleksyjne są inne od morfeuszowych np. date oznaczające datę, czy url oznaczający adres interetowy
+
+
+Nie powinien się posypać, ale nic mądrego dla tych znaczników (których w ogóle nie widział w danych treningowych) nie wywnioskuje.
+
+Ogólna zasada jest taka, że dane tagowane powinny mieć identyczny zestaw znaczników jak te na których Concraft został wytrenowany.  Jeśli tak nie jest, to najlepiej przetworzyć dane treningowe i wytrenować nowy model.
+ 
+
+    - jak concraft zachowa się przy danych z guessera? Cechują się one dużo większą różnorodnością lematów i znaczników fleksyjnych przypisanych do każdej formy?
+
+
+Tak jak napisałem wyżej, concraft nie lematyzuje, więc różnorodność lematów nie ma dla niego znaczenia (nie bierze nawet lematów pod uwagę, chociaż mógłby).
+
+Jeśli chodzi o znaczniki, to concraft ma własny moduł zgadywania.  Czy dobrze rozumiem, że chcesz uruchamiać concrafta na danych po zgadywaniu?
+
+
+    czy concraft jest przystosowany do pracy współbieżnej, tzn. czy jeden serwer jest w stanie poprawnie obsługiwać jednocześnie wiele zapytań?
+
+
+Jest w stanie (zob. https://github.com/kawu/concraft-pl#server).  Ale nie jestem pewny co do skalowalności zaimplementowanego rozwiązania (tzn. użycie dajmy na to 10 rdzeni nie przyspieszy 10-krotnie tagowania).  W razie czego, dałoby się to pewnie jakoś zoptymalizować.
+
+
+
+

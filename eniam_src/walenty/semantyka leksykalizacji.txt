@@ -1,0 +1,51 @@
+Cześć,
+
+właśnie przetwarzam Walentego w wersji z 20170304. Pojawiła się w nim 
+semantyka leksykalizacji, co mnie bardzo cieszy :). Zauważyłem jednak 
+drobny problem:
+powiązanie argumentu z frazą (pole phrase w xml'u) jest relacją jeden 
+do wielu.
+Zwykle ma ono charakter addytywnej koniunkcji (w zdaniu bez 
+koordynacji musi wystąpić dokładnie jedna z możliwości), natomiast w 
+przypadku leksykalizacji (np. rama 70874 "brudzić sobie ręce-A") 
+pojawia się multiplikatywna koniunkcja tzn. w zdaniu bez koordynacji 
+muszą wystąpić wszystkie możliwości.
+
+Brak rozróżnienia tych sytuacji stwarza drobne problemy w 
+przetwarzaniu i stwarza też ryzyko błędów w przypadku alternatywnych 
+leksykalizacji np. dla schematu
+sepulkować: 
+{lex(np(dat),_,'siebie',natr),lex(np(dat),sg,'ty',natr)}+{lex(np(acc),pl,'ręka',natr),lex(np(acc),sg,'noga',natr)}
+mającego sens sepulkować sobie/tobie ręce/nogę-A nie da się wyrazić 
+tego że trzeba dokładnie jeden argument lex(np(dat)) i jeden 
+lex(np(acc)).
+
+Pozdrawiam
+Wojtek
+
+
+Wojtku,
+masz rację: pojedynczej pozycji (czy też, z dokładnością do koordynacji,
+typowi frazy), można przypisać dokładnie (a właściwie co najwyżej, bo
+przy danym znaczeniu nie wszystkie typy fraz muszą być realizowane)
+jeden argument semantyczny (rola plus preferencje).
+
+Przykład, który prezentujesz, wskazuje, że traktujesz Lemma jako rolę,
+czyli jako argument semantyczny. Jednak w rzeczywistości jest to
+wskazanie, że dane wymaganie składniowe jest częścią lematu i jako takie
+interpretacji semantycznej nie podlega.
+
+Fakt, że w pliku XML jest to zapisywane jako specyficzna rola jest
+pewnym uproszczeniem, wynikającym z faktu, że lematy wieloczłonowe
+(takie jak »brudzić sobie ręce«) pojawiły się już po opracowaniu formatu
+XML-a. Być może byłoby lepiej, gdyby w XML-u pozycje te były całkowicie
+ignorowany; wtedy jednak byłaby to reprezentacja stratna.
+
+Tworząc semantykę wypowiedzenia radziłabym jednak takie „argumenty”
+ignorować, bo oto właśnie chodzi, że są one interpretowane już w lemacie
+jednostki, a nie jako argument.
+
+Pozdrawiam
+
+Ela
+

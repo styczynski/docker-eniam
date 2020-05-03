@@ -1,0 +1,43 @@
+(*
+ *  ENIAMcorpora is a library that integrates ENIAM with corpora in CONLL format
+ *  Copyright (C) 2016 Wojciech Jaworski <wjaworski atSPAMfree mimuw dot edu dot pl>
+ *  Copyright (C) 2016 Institute of Computer Science Polish Academy of Sciences
+ *
+ *  This library is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU Lesser General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This library is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU Lesser General Public License for more details.
+ *
+ *  You should have received a copy of the GNU Lesser General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *)
+
+let text= AltText[Raw,RawText "treść tekstu";Struct,StructText([
+  AltParagraph[Raw,RawParagraph "treść akapitu 1"; Struct,StructParagraph[p1;p2;...]];
+  AltParagraph[Raw,RawParagraph "treść akapitu 2"; Struct,StructParagraph[...]];
+  AltParagraph[Raw,RawParagraph "treść akapitu 3"; Struct,StructParagraph[...]];
+  ...
+],tokens)]
+
+ W grudniu 1992 roku, po trzech miesiącach, Honecker został zwolniony przez sąd w Berlinie za względów humanitarnych.
+
+let p1 = {pid="13.36"; pbeg=115; plen=230+1-115; pnext=232; psentence=sentence; pfile_prefix="1"}
+
+let sentence = AltSentence[Raw,RawSentence "teść zdania";Struct,DepSentence [|
+  5,-1,"";
+  6,-1,"";
+  7,-1,"";
+  8,-1,"";
+  9,-1,"";
+  |]
+
+let tokens = {| token1; token2; ... |]
+
+let token1 = {empty_token with orth="W"; beg=115; len=1; next=117; token=Lemma("w","prep",[[["loc"];["nwok"]]])}
+
+let token15 = {empty_token with orth="za"; corr_orth="ze"; beg=205; len=2; next=208; token=Lemma("ze","prep",[[["gen"];["wok"]]])}
