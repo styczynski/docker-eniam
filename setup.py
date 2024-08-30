@@ -21,7 +21,7 @@ setup(
     include_package_data=True,
     package_data={},
     install_requires=[
-        'opencv-python==4.2.0.32',
+        'opencv-python==4.8.1.78',
         'camelot-py==0.7.2',
         'wand==0.5.8',
         'beautifulsoup4==4.9.0'
